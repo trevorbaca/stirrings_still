@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from abjad.tools import abctools
 from abjad.tools import lilypondfiletools
-from stirrings_still.tools import ScoreTemplate
+from stirrings.tools import ScoreTemplate
 
 
 class SegmentMaker(abctools.AbjadObject):
