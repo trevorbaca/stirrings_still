@@ -1,22 +1,20 @@
 DESIDERATA
 ==========
 
-1. memory
+1. repetition
 
-2. repetition
+2. dislocation
 
-3. dislocation
+3. expectation
 
-4. expectation
+4. flight
 
-5. flight
+5. extinction
 
-6. extinction
+TUNING
+======
 
-MATERIALS
-=========
-
-tuning: vn1, vn2 drop-F; va, vc drop-Bb.
+tuning: vn1, vn2 drop-F; va, vc drop-Bb
 
 COLORS
 ======
