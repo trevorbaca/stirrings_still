@@ -303,7 +303,7 @@ where never till then. [3.3]
 
 For how could such a one as he having once found himself in such a place not
 shudder to find himself in it again which he had not done nor having shuddered
-seek hlep in vain in the thought so-called that having somehow got out of it
+seek help in vain in the thought so-called that having somehow got out of it
 then he could somehow get out of it again which he not done either. [3.4]
 
 There then all this time where never till then and so far as he could see in
