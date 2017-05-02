@@ -25,6 +25,6 @@ B. elliptical bowing
 
 C. 1/2 clt trajectories
 
-D. hesitation -> flight
+D. hesitation / flight
 
 E. clouded pane
