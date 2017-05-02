@@ -1,8 +1,8 @@
 SOURCE
 ======
 
-[1.1.1] One night as he sat at his table head on hands he saw himself rise and
-go.
+One night as he sat at his table head on hands he saw himself rise and go.
+[1.1.1]
 
 [1.1.2] For when his own light went out he was not left in the dark.
 
