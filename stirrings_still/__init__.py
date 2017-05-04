@@ -8,6 +8,6 @@ if not (
     raise ImportError('Requires Python 3.5.')
 del distutils
 del platform
-from stirrings import tools
-from stirrings import materials
-from stirrings import segments
+from stirrings_still import tools
+from stirrings_still import materials
+from stirrings_still import segments

@@ -22,7 +22,7 @@ install:
     - pip install -e .
 
 script:
-    - PACKAGE=stirrings
+    - PACKAGE=stirrings_still
     - ajv doctest -x ./$PACKAGE
     - py.test -xrf ./$PACKAGE
     - python ./$PACKAGE/test/test_segments.py
