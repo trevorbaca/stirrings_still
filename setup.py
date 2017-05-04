@@ -9,11 +9,11 @@ if __name__ == '__main__':
         install_requires = (
             'abjad',
             ),
-        name='stirrings',
+        name='stirrings_still',
         packages=(
-            'stirrings',
+            'stirrings_still',
             ),
-        url='https://github.com/trevorbaca/stirrings',
+        url='https://github.com/trevorbaca/stirrings_still',
         version='0.1',
         zip_safe=False,
         )
