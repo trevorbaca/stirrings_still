@@ -364,3 +364,223 @@ SEGMENTS
     short pause;
 
 [F]
+
+    (very long)
+    v1, v2 enter on intermittent double-stop vc multiphonic partials;
+    va tailpiece;
+    vc quiet fundamental of clouded pane;
+    no pause;
+
+    (shorter)
+    v1, v2, vc drop out;
+    va tailpiece;
+    section-ending pause;
+
+[G]
+
+    (short)
+    vc fundamental up by step;
+    single declamation:
+        v1, v2, va conflicting urtext / clouded partial pitches;
+        rhythmically irregular with independently intercalated rests;
+        vc fudamental subtends declamation;
+    pause;
+
+    (short)
+    single declamation:
+        v1, v2, va conflicting urtext / clouded partial pitches;
+        rhythmically irregular with independently intercalated rests;
+        vc fudamental subtends declamation;
+    pause;
+
+    (short)
+    single declamation:
+        v1, v2, va conflicting urtext / clouded partial pitches;
+        rhythmically irregular with independently intercalated rests;
+        vc fudamental subtends declamation;
+    pause;
+
+    (short)
+    single declamation:
+        v1, v2, va conflicting urtext / clouded partial pitches;
+        rhythmically irregular with independently intercalated rests;
+        vc fudamental subtends declamation;
+    pause;
+
+    (short)
+    single declamation:
+        v1, v2, va conflicting urtext / clouded partial pitches;
+        rhythmically irregular with independently intercalated rests;
+        vc fudamental subtends declamation;
+    pause;
+
+    (long)
+    single declamation:
+        v1, v2, va conflicting urtext / clouded partial pitches;
+        rhythmically irregular with independently intercalated rests;
+        vc fudamental subtends declamation;
+    pause;
+
+    (short)
+    single declamation:
+        v1, v2, va conflicting urtext / clouded partial pitches;
+        rhythmically irregular with independently intercalated rests;
+        vc fudamental subtends declamation;
+    long pause;
+
+    (short)
+    single declamation:
+    tutti urtext pitches;
+    continuous sound;
+    lh-damp tremolo of fifth-stage flight;
+    long pause;
+
+[H]
+
+    (very long)
+    tutti extremely gradual clarinet rasp-to-flautando transition;
+
+    (shorter)
+    tutti clarinet flautando;
+    surprisingly short breath;
+
+    vc f-ff overpressure natural harmonic;
+    v1 slow ellipses begin in first rhythm and start to accelerate;
+    v2 slow ellipses begin in second rhythm and start to accelerate;
+    va slow ellipses begin in third rhythm and start to accelerate;
+    no pause;
+
+    vc f-ff overpressure natural harmonic continues;
+    v1 faster ellipses;
+    v2 faster ellipses;
+    va faster ellipses;
+    v1, v2, va up-glissando lentissimo begins;
+    no pause;
+
+    vc f-ff overpressure natural harmonic continues;
+    v1 even faster ellipses;
+    v2 even faster ellipses;
+    va even faster ellipses;
+    v1, v2, va up-glissando lentissimo continues;
+    no pause;
+
+    vc f-ff overpressure natural harmonic continues;
+    v1 even faster ellipses;
+    v2 even faster ellipses;
+    va even faster ellipses;
+    v1, v2, va up-glissando lentissimo continues;
+    no pause;
+
+    vc f-ff overpressure natural harmonic completes and then drops out;
+    v1 very fast ellipses;
+    v2 very fast ellipses;
+    va very fast ellipses;
+    v1, v2, va up-glissando lentissimo completes;
+    surprisingly short breath;
+
+    interlocking whisk gears:
+    v1 very fast ellipses in first completely regular rhythm;
+    v2 very fast ellipses in second completely regular rhythm;
+    va very fast ellipses in third completely regular rhythm;
+    vc tacet;
+
+    accelerando begins;
+    v1 very fast ellipses in first completely regular rhythm;
+    v2 very fast ellipses in second completely regular rhythm;
+    va very fast ellipses in third completely regular rhythm;
+    v1, v2, va animated by dynamic swells;
+    vc enters ppp;
+
+    accelerando continues;
+    v1 very fast ellipses in first completely regular rhythm;
+    v2 very fast ellipses in second completely regular rhythm;
+    va very fast ellipses in third completely regular rhythm;
+    v1, v2, va animated by even louder dynamic swells;
+    vc continues ppp;
+    vc begins down-glissando lentissimo;
+
+    accelerando continues;
+    v1 very fast ellipses in first completely regular rhythm;
+    v2 very fast ellipses in second completely regular rhythm;
+    va very fast ellipses in third completely regular rhythm;
+    v1, v2, va animated by still louder dynamic swells;
+    vc continues ppp;
+    vc continues down-glissando lentissimo;
+
+    accelerando achieves fast tempo;
+    v1 very fast ellipses in first completely regular rhythm;
+    v2 very fast ellipses in second completely regular rhythm;
+    va very fast ellipses in third completely regular rhythm;
+    v1, v2, va, saturate dynamic swells from previous stage;
+    vc down-glissando lentissimo achieves low pitch;
+    vc continues ppp;
+    surprisingly short colored breath with vc sustained pitch;
+
+[I]
+
+    (long)
+    subito much broader (= slower tempo)
+    v1, v2, va polyrhythmic ellipses persist;
+    v1, v2, va subito matte quiet dynamic;
+    vc relatively loud assertive 1/2 clt solo trajectory;
+    vc solo trajectory locked into repetition quasi-vortex;
+    no pause;
+
+    ritardando begins;
+    v1, v2, va polyrhythmic ellipses now animated by independent feathers;
+    vc 1/2 clt solo trajectory still locked into repetition quasi-vortex;
+    no pause;
+
+    ritardando continues;
+    v1, v2, va feathered polyrhythmic ellipses begin diminuendo;
+    vc 1/2 clt solo trajectory still locked into repetition quasi-vortex;
+    repetition vortex now inflected by ritardando;
+    no pause;
+
+    ritardando continues;
+    v1, v2, va, feathered polyrhythm ellipses continue diminuendo;
+    vc 1/2 clt solo trajectory still locked into repetition quasi-vortex;
+    vc 1/2 clt solo trajectory begins crescendo;
+    no pause;
+
+    ritardando achieves extremely slow tempo;
+    v1, v2, va, feathered polyrhythm ellipses achieve diminuendo al niente;
+    vc 1/2 clt solo trajectory still locked into repetition quasi-vortex;
+    vc 1/2 clt solo trajectory achieves crescendo to forte;
+    no pause;
+
+    (long)
+    extremely slow tempo persists;
+    v1, v2, va tacet;
+    vc single sustained forte pitch at trajectory endpoint;
+    no pause;
+
+    (long)
+    extremely slow tempo persists;
+    v1, v2, va reenter appena udibile on sustained double-stop urtext field;
+    vc single sustained forte pitch persists until end and then drops out;
+    no pause;
+
+[J]
+
+    (long)
+    extremely slow tempo persists;
+    v1, v2, va appena udibile double-stop urtext field persists;
+    vc tacet;
+    no pause;
+
+    (long)
+    underlying accelerando begins;
+    vc joins double-stop urtext field appena udibile;
+    tutti double-stop urtext field begins crescendo;
+    no pause;
+    
+    (long)
+    underlying accelerando continues;
+    tutti double-stop urtext field continues crescendo;
+    no pause;
+
+    (long)
+    underlying accelerando achieves fast tempo;
+    tutti double-stop urtext field achieves fff;
+    surprisingly short breath;
