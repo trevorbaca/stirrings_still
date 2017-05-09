@@ -519,7 +519,7 @@ SEGMENTS
 [I]
 
     (long)
-    subito much broader (= slower tempo)
+    subito much broader (= slower) tempo;
     v1, v2, va polyrhythmic ellipses persist;
     v1, v2, va subito matte quiet dynamic;
     vc relatively loud assertive 1/2 clt solo trajectory;
@@ -585,4 +585,160 @@ SEGMENTS
     tutti double-stop urtext field achieves fff;
     surprisingly short breath;
 
+    (shorter)
+    fast tempo;
+    vc relatively quiet ellipse pedal at stable rate;
+    v1, v2, va quiet 1/2 clt trajectories;
+    no pause;
 
+    (longer)
+    fast tempo;
+    vc ellipse pedal effects rate acceleration and diminuendo al niente;
+    v1, 2, va quiet 1/2 clt trajectories effect pitch ascent;
+    no pause;
+
+[K]
+
+    (long)
+    fast tempo;
+    tutti quiet 1/2 clt trajectories each at fixed pitch;
+    no pause;
+
+    (medium)
+    fast tempo;
+    independently in each part:
+        1/2 clt trajectory projected onto local ritardando;
+        endpoint of ritardando achieved;
+        local accelerando all the way up to tremolo-of-flight;
+        sustains tremolo under crescendo;
+        releases tremolo under of termination type taken from inventory;
+        resumes 1/2 clt trajectory;
+        repeat;
+    no pause;
+
+    (medium)
+    fast tempo;
+    ibid;
+    tremolo durations increase;
+    no pause;
+
+    (medium)
+    fast tempo;
+    ibid;
+    tremolo durations increase;
+    no pause;
+
+    (medium)
+    fast tempo;
+    ibid;
+    tremolo durations increase;
+    no pause;
+
+    (shorter)
+    fast tempo;
+    tutti tremolo;
+    surprisingly short breath;
+
+    (very long)
+    subito much broader (= slower) tempo;
+    tutti tremolo flight with scp transitions (seventh stage);
+    surprisingly short breath;
+
+    (long)
+    gradual accelerando begins;
+    patterned slowing of tremolo flight in each part (eighth stage);
+    tension between global accelerando and local tremoli largandi;
+    no pause;
+
+    (long)
+    fast tempo achieved;
+    tutti achieve senza tremolo sustained quiet clouded pane field;
+    tension between fast tempo and protracted duration;
+    no pause;
+
+    (long)
+    fast tempo;
+    v1, v2, va patterned slowing of bow to complete stop;
+    vc continues fundamental of clouded pane field;
+    surprisingly short breath;
+
+[L]
+
+    (very long)
+    subito much broader (= slower) tempo;
+    tutti field of clouded pane;
+    v1, v2, va on partials of clouded pane;
+    v1, v2, va alternating intermittent trajectories and pure pitch;
+    vc oscillates blossom of full multiphonic at extremely slow rate;
+    vc stopped on IV/Db2;
+    no pause;
+
+[M]
+
+    (even longer)
+    broad tempo; 
+    field fundamental down one semitone to IV/C2;
+    tutti full expression of clouded pane;
+    no pause;
+
+    (shorter)
+    broad tempo;
+    v1, v2, va intercalation of conflicting urtext double stop ellipses;
+    vc continues full expression of clouded pane on IV/C2;
+    no pause;
+
+    (shorter)
+    broad tempo;
+    v1, v2, va revert back to full expression of clouded pane;
+    vc continues full expression of clouded pane on IV/C2;
+    no pause;
+
+    (shorter)
+    broad tempo;
+    v1, v2, va intercalation of conflicting urtext double stop ellipses;
+    vc continues full expression of clouded pane on IV/C2;
+    no pause;
+
+    (shorter)
+    broad tempo;
+    v1, v2, va revert back to full expression of clouded pane;
+    vc continues full expression of clouded pane on IV/C2;
+    no pause;
+
+    (shorter)
+    broad tempo;
+    v1, v2, va intercalation of conflicting urtext double stop ellipses;
+    vc continues full expression of clouded pane on IV/C2;
+    no pause;
+
+    (shorter)
+    broad tempo;
+    v1, v2, va revert back to full expression of clouded pane;
+    vc continues full expression of clouded pane on IV/C2;
+    no pause;
+
+[N]
+
+    (extremely long)
+    even broad tempo; 
+    field fundamental down one semitone to open string IV/Bb1;
+    tutti full expression of clouded pane;
+    no pause;
+
+    (long)
+    tutti decrescendo al niente of clouded pane on IV/Bb1;
+    no pause;
+
+    (long)
+    vc holds piano pure tone Bb1;
+    no pause;
+
+    (long)
+    v1, v2, va crescendo dal niente on urtext field;
+    vc holds piano pure tone Bb1;
+    no pause;
+
+    (long)
+    v1, v2, va achieve forte urtext field;
+    vc drops out;
+    no pause;
