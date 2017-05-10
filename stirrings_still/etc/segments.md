@@ -720,25 +720,258 @@ SEGMENTS
 [N]
 
     (extremely long)
-    even broad tempo; 
+    even broader tempo; 
     field fundamental down one semitone to open string IV/Bb1;
     tutti full expression of clouded pane;
     no pause;
 
     (long)
-    tutti decrescendo al niente of clouded pane on IV/Bb1;
+    very broad tempo;
+    v1, v2, va decrescendo al niente of clouded pane on IV/Bb1;
+    vc decrescendo to pp of clouded pane on IV/Bb1;
     no pause;
 
     (long)
+    very broad tempo;
     vc holds piano pure tone Bb1;
     no pause;
 
     (long)
+    very broad tempo;
     v1, v2, va crescendo dal niente on urtext field;
     vc holds piano pure tone Bb1;
     no pause;
 
     (long)
+    very broad tempo;
     v1, v2, va achieve forte urtext field;
     vc drops out;
     no pause;
+
+    (long)
+    accelerando from very broad to faster;
+    tutti urtext flight;
+    dynamic process embedded;
+    scp process embedded;
+    terminates tutti fortissimo ponticello release lv;
+    very long pause;
+
+    (shorter)
+    impossibly broad tempo;
+    combined single gesture of conflict and relinquishment:
+    clouded pane with urtext;
+    fundamental fixed pitch;
+    upper partials down-glissandi lentissimi;
+    bowspeed transition to nothing;
+    very long pause;
+
+[O]
+
+    (long)
+    moderate tempo;
+    urtext pitch change;
+    tutti very slow ellipses;
+    very long pause;
+
+[P]
+
+    (medium duration)
+    slightly faster tempo;
+    clouded pane pitch change;
+    v1, v2 very slow ellipses;
+    va, vc clouded pane fundamental piano;
+    no pause;
+
+    (medium duration)
+    slightly faster tempo persists;
+    v1, v2 very slow ellipses;
+    v1, vc clouded pane fundamental decrescendo to ppppp;
+    no pause;
+
+    (medium duration)
+    slightly faster tempo persists;
+    tutti slow ellipses ppppp;
+    no pause;
+
+    (medium duration)
+    accelerando begins;
+    tutti up-glissandi begin;
+    tutti ellipses become faster;
+    no pause;
+
+    (medium duration)
+    accelerando continues;
+    tutti up-glissandi continue;
+    tutti ellipses become still faster;
+    no pause;
+
+[Q]
+
+    [piece-ending process of compression:]
+
+    (shorter)
+    accelerando achieves fast tempo;
+    tutti subito lh-damped airtone;
+    tutti each pitch fixed;
+    tutti relatively fast ellipses;
+    desynchronized spinning white noise at fixed tempo;
+    surprisingly short breath;
+
+    (medium duration)
+    moderate accelerando;
+    subito pitch (senza lh damp);
+    tutti urtext double stops;
+    tutti trajectories;
+    tutti local accelerandi;
+    subito ff: global ff < fff scratch > p envelope;
+    desynchronized pitched field trajectories whisked skyward;
+    very short pause;
+
+    (slightly shorter)
+    stable slightly faster tempo;
+    tutti subito desynchronized spinning white noise at fixed tempo;
+    surprisingly short breath;
+
+    (slightly shorter)
+    moderate accelerando;
+    tutti subito desynchronized pitched field trajectories whisked skyward;
+    global f < ff scratch > p envelope;
+    very short pause;
+
+    (even shorter)
+    stable slightly faster tempo;
+    tutti subito desynchronized spinning white noise at fixed tempo;
+    surprisingly short breath;
+
+    (even shorter)
+    moderate accelerando;
+    tutti subito desynchronized pitched field trajectories whisked skyward;
+    global mf < f scratch > mp envelope;
+    very short pause;
+
+    (short)
+    stable slightly faster tempo;
+    tutti subito desynchronized spinning white noise at fixed tempo;
+    surprisingly short breath;
+
+    (short)
+    moderate accelerando;
+    tutti subito desynchronized pitched field trajectories whisked skyward;
+    global mp < mf scratch > p envelope;
+    very short pause;
+
+    (very short)
+    stable slightly faster tempo;
+    tutti subito desynchronized spinning white noise at fixed tempo;
+    surprisingly short breath;
+
+    (very short)
+    moderate accelerando;
+    tutti subito desynchronized pitched field trajectories whisked skyward;
+    global p < mp scratch > pp envelope;
+    very short pause;
+
+    (very short)
+    stable slightly faster tempo;
+    tutti subito desynchronized spinning white noise at fixed tempo;
+    surprisingly short breath;
+
+    (very short)
+    moderate accelerando;
+    tutti subito desynchronized pitched field trajectories whisked skyward;
+    global pp < p scratch > ppp envelope;
+    pause;
+
+    (extremely long)
+    fast tempo ritardando to very broad tempo;
+    v1, v2 desynchronized fast lh-damped 1/2 clt trajectories ppp;
+    va pp but rich clouded pane third-octave fundamental pedal;
+    vc extremely slow tuning peg down-glissando on IV from Bb1 to Bb0;
+    no pause;
+
+[R]
+
+    (long)
+    very broad tempo;
+    vc Bb0 pp pedal persists;
+    va pedal persists;
+    v1, v2 join field with very trajectories;
+    continuous sound;
+    no pause;
+
+    (long)
+    very broad tempo;
+    vc Bb0 pp pedal persists;
+    va pedal persists;
+    v1, v2 trajectories slow to nothing and drop out;
+    no pause;
+
+    (long)
+    very broad tempo;
+    v1, v2 tacet;
+    vc Bb0 pedal decrescendo al niente and drops out;
+    va pedal persists;
+    no pause;
+
+    (long)
+    very broad tempo;
+    v1, v2, vc tacet;
+    va pedal persists;
+    no pause;
+    
+[S]
+
+    (long)
+    very broad tempo;
+    va pedal persists;
+    v1, v2, vc tacet;
+    no pause;
+
+    (shorter)
+    very broad tempo;
+    va pedal persists;
+    v1, v2 fast whisked ellipses on accelerando and crescendo;
+    vc Bb0 slack-string up-bow rh-terminated exponential crescendo to f;
+    no pause;
+
+    (long)
+    very broad tempo;
+    va pedal persists;
+    v1, v2, vc tacet;
+
+    (short + 1 measure)
+    very broad tempo;
+    va pedal persists;
+    v1, v2 fast whisked ellipses on accelerando and crescendo;
+    vc Bb0 slack-string up-bow rh-terminated exponential crescendo to ff;
+    no pause;
+
+    (long)
+    very broad tempo;
+    va pedal persists;
+    v1, v2, vc tacet;
+
+    (short + 2 measures)
+    very broad tempo;
+    va pedal persists;
+    v1, v2 fast whisked ellipses on accelerando and crescendo;
+    vc Bb0 slack-string up-bow rh-terminated exponential crescendo to fff;
+    no pause;
+
+    (long)
+    very broad tempo;
+    va pedal persists;
+    v1, v2, vc tacet;
+
+    (short + 3 measures)
+    very broad tempo;
+    va pedal persists;
+    v1, v2 fast whisked ellipses on accelerando and crescendo;
+    vc Bb0 slack-string up-bow rh-terminated exponential crescendo to ffff;
+    no pause;
+
+    (as long as possible)
+    very broad tempo;
+    va pedal persists;
+    v1, v2, vc tacet;
+    extremely long pause.
