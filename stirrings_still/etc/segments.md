@@ -3,47 +3,186 @@ SEGMENTS
 
 [A]
 
-    single short densely spaced urtext declamation;
-    quiet normale color;
-    colored pause;
-
-    3-player elliptical process begins;
-    colored pause continues underneath;
-
-    3-player elliptical process increases;
-    colored pause continues underneath;
-    colored pause begins crescendo;
-
-    3-player elliptical process increases even more;
-    colored pause crescendos tremendously;
-
-    3-player elliptical process sustains maximum intensity;
-    colored pause sustains maximum intensity (possibly scratch);
-
-    (shorter duration)
-    3-player elliptical process subito lh-damp, subito slower speeds;
-    colored pause subito tacet;
+    [A.1] (1)
+    (relatively short)
+    underlying tempo circa 90;
+    urtext declamation:
+        tasto senza vibrato;
+        two rest-delimited chords;
+        densely spaced double stops;
+        first chord short;
+        second chord longer;
+        first chord constant dynamic stop-on-string;
+        second chord poco exponential crescendo stop-on-string;
+    vc tacet;
     pause;
 
-    (another shorter duration)
-    3-player lh-damp elliptical statement repeats;
+    [A.2] (2)
+    (little longer)
+    underlying tempo circa 90;
+    urtext declamation:
+        first chord always the same;
+        second chord begins to strain;
+        second chord slightly longer;
+        second chord terminates slightly louder;
+        second chord slows bow slightly on approach to termination;
+    vc still tacet;
     pause (ibid);
 
-    (another shorter duration)
-    3-player lh-damp elliptical statement repeats;
+    [A.3] (3)
+    (little longer still)
+    underlying tempo circa 90;
+    urtext declamation:
+        second chord strains a little more;
+        second chord even a little longer;
+        second chord terminates even a little louder;
+        second chord slows bow even a bit more;
+        second chord encourages a touch of scratch on approach to termination;
+    vc still tacet;
     pause (ibid);
 
-    (another shorter duration)
-    3-player lh-damp elliptical statement repeats;
+    [A.4] (4)
+    (even longer)
+    underlying tempo circa 90;
+    urtext declamation:
+        second chord strains even more;
+        second chord still longer;
+        second chord still louder;
+        second chord encourages even more scratch on approach to termination;
+    vc still tacet;
     pause (ibid);
 
-    (another shorter duration)
-    single short densely spaced urtext declamation;
-    quiet normale color;
+    [A.5] (5)
+    (long)
+    accelerando from circa 90 up to circa 124;
+    urtext declamation:
+        second chord appears fully;
+        second chord long;
+        second chord loud;
+        second chord now full field;
+        second chord recedes in undulation;
+        second chord transitions into relatively loud scratch;
+        second chord transitions out of scratch to quieter dynamic;
+        second chord transitions into somewhat less loud scratch;
+        second chord transitions out of scratch to even quieter dynamic;
+        second chord transitions into even less loud scratch;
+        second chord transitions out of scratch to even quieter dynanic;
+    vc enters first time in piece;
+    vc enters at start of second chord;
+    vc enters on urtext fundamental;
+    vc tasto senza vibrato;
+    vc fixed quiet dynamic;
+    pause (ibid) [vc persists];
+
+    [A.6] (1)
+    [starting again]
+    (relatively short)
+    subito slightly broader (= slower) tempo than at start of piece;
+    subito tempo circa 76;
+    urtext declamation as per [A.1]:
+        first chord even a bit quieter;
+        second chord quieter than at start of piece;
+    vc persists;
+    pause (ibid) [vc persists];
+
+    [A.7] (2)
+    (little longer)
+    tempo circa 76;
+    urtext declamation:
+        second chord a little longer;
+        second chord poco exponential crescendo;
+        second chord does not introduce slower bow;
+        second chord does not terminate stop-on-string;
+        second chord terminates tutti lv;
+        second chord tutti immediately followed by desynchronized ellipses;
+        tutti desynchronized ellipses as type of motion-echo;
+        ellipses' duration proportional to crescendo end-dynamic;
+    vc persists;
+    pause (ibid) [vc persists];
+
+        [[intercalation from future over vc pedal]]
+        [[tremolo flight]]
+
+    [A.8] (3)
+    (even longer)
+    tempo circa 76;
+    urtext declamation:
+        second chord even longer;
+        second chord poco exponential crescendo even louder;
+        second chord terminates tutti lv;
+        second chord tutti immediately followed by more ellipses;
+    vc persists;
+    pause (ibid) [vc persists];
+
+    [A.9] (4)
+    (longer still)
+    tempo circa 76;
+    urtext declamation:
+        second chord longer still;
+        second chord poco exponential crescendo louder still;
+        second chord terminates tutti lv;
+        second chord tutti immediately followed by even more ellipses;
+    vc persists;
+    pause (ibid) [vc persists];
+
+    [A.10] (5)
+    (long)
+    accelerando from circa 76 to circa 124;
+    urtext declamation:
+        second chord long;
+        second chord poco exponential crescendo loud;
+        second chord terminates tutti lv;
+        second chord tutti immediately followed by many ellipses;
+    vc persists;
+    no pause;
+
+    [A.11]
+    (long)
+    tempo circa 124;
+    v1, v2, va ellipses continue;
+    vc persists;
+    vc effects down-glissando;
+    vc effects decrescendo al niente and drops out;
+    no pause;
+
+    [A.12]
+    (medium duration) 
+    subito broader (= slower) tempo;
+    vc joins v1, v2, va ellipses;
+    tutti ellipses subito lh-damp;
+    tutti ellipses subito slower;
+    pause;
+
+    [A.13]
+    (shorter)
+    broad tempo;
+    tutti lh-damp ellipses;
+    pause (ibid);
+
+    [A.14]
+    (similarly short)
+    broad tempo;
+    tutti lh-damp ellipses;
+    pause (ibid);
+
+    [A.15]
+    (similarly short)
+    tutti lh-damp ellipses;
+    pause (ibid);
+
+    [A.16]
+    [recall]
+    urtext declamation:
+        first chord only;
+        densely spaced double stops;
+        constant dynamic;
+        senza vibrato tasto;
+    vc tacet;
     pause (ibid)
 
-    (another shorter duration)
-    3-player lh-damp elliptical statement repeats;
+    [A.17]
+    (short as per stage before last)
+    tutti lh-damp ellipses;
     much longer pause;
 
 [B]
