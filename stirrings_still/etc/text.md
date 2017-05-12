@@ -254,10 +254,4 @@ No matter how (82)
 
 no matter where. (83)
 
-Time (84)
-
-and grief (85)
-
-and self so-called. (86)
-
-Oh all to end. (87)
+Time and grief and self so-called. Oh all to end. (84)
