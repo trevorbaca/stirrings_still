@@ -594,168 +594,212 @@ SEGMENTS
 [G]
 
     [G.1]
-    (short)
+    (short: one measure)
+    broad tempo;
     vc fundamental up by step;
     single declamation:
         v1, v2, va conflicting urtext / clouded partial pitches;
-        rhythmically irregular with independently intercalated rests;
+        v1, v2 urtext double stops;
+        va clouded partial;
+        v1, v2, va rhythmically independently louré picket tuplets;
+        swell envelop on each attack in each tuplet;
+            [creates idea of polyrhythmic louré-swell picket tuplets];
         vc fudamental subtends declamation;
+        vc swell-enveloped continuous sound;
+    tutti tasto;
+    tutti mp;
     pause;
 
     [G.2]
-    (short)
-    single declamation:
-        v1, v2, va conflicting urtext / clouded partial pitches;
-        rhythmically irregular with independently intercalated rests;
-        vc fudamental subtends declamation;
+    (short: one measure)
+    broad tempo;
+    single declamation: ibid;
+    tutti mp;
     pause;
 
     [G.3]
-    (short)
-    single declamation:
-        v1, v2, va conflicting urtext / clouded partial pitches;
-        rhythmically irregular with independently intercalated rests;
-        vc fudamental subtends declamation;
+    (short: one measure)
+    broad tempo;
+    ibid;
+    tutti mp;
     pause;
 
     [G.4]
-    (short)
-    single declamation:
-        v1, v2, va conflicting urtext / clouded partial pitches;
-        rhythmically irregular with independently intercalated rests;
-        vc fudamental subtends declamation;
+    (short: one measure)
+    broad tempo;
+    ibid;
+    tutti mp;
     pause;
 
     [G.5]
-    (short)
-    single declamation:
-        v1, v2, va conflicting urtext / clouded partial pitches;
-        rhythmically irregular with independently intercalated rests;
-        vc fudamental subtends declamation;
-    pause;
-
-    [G.6]
-    (long)
-    single declamation:
-        v1, v2, va conflicting urtext / clouded partial pitches;
-        rhythmically irregular with independently intercalated rests;
-        vc fudamental subtends declamation;
-    pause;
-
-    [G.7]
-    (short)
-    single declamation:
-        v1, v2, va conflicting urtext / clouded partial pitches;
-        rhythmically irregular with independently intercalated rests;
-        vc fudamental subtends declamation;
+    (short: one measure)
+    broad tempo;
+    ibid;
+    tutti mp;
     long pause;
 
-    [G.8]
-    (short)
+    [G.6]
+    (longer: three measures)
+    broad tempo;
     single declamation:
-    tutti urtext pitches;
-    continuous sound;
-    lh-damp tremolo of fifth-stage flight;
+        tutti urtext pitches of eight-note chord of four double stops;
+        clouded pane pitches no longer present;
+        tutti continuous sound;
+        tutti pitched tremolo (fifth-stage flight);
+        tutti tasto sempre (no scp transitions);
+    two layers of dynamic in each part:
+        global pp < mf crescendo;
+        unmarked swells on each note under crescendo;
     long pause;
 
 [H]
 
     [H.1]
-    (very long)
-    tutti extremely gradual clarinet rasp-to-flautando transition;
+    (very long: 4 measures)
+    single-stage largo-to-moderato accelerando;
+    accelerando achieves moderato on last measure downbeat;
+    tutti:
+        extremely gradual clarinet rasp-to-flautando transition;
+        four-note chord of single stopped notes;
+        continuous sound;
+        tutti achieve flautando on downbeat of penultimate measure in stage;
+    tutti niente rasp < mp flautando;
     no pause;
 
     [H.2]
-    (shorter)
-    tutti clarinet flautando;
-    surprisingly short breath;
+    (1 measure)
+    moderato;
+    tutti mp clarinet flautando;
+    surprisingly short breath [v2 holds over breath];
 
     [H.3]
-    vc f-ff overpressure natural harmonic;
-    v1 slow ellipses begin in first rhythm and start to accelerate;
-    v2 slow ellipses begin in second rhythm and start to accelerate;
-    va slow ellipses begin in third rhythm and start to accelerate;
+    (2 measures)
+    moderato;
+    v1 single bows become slow ellipses in rhythm #1;
+    v2 clarinet flautando continues;
+    va single bows become slow ellipses in rhythm #3;
+    v1, v2, va:
+        pitches ibid previous stage;
+    v1, va reenter p (one dynamic level lower than previous exit);
+    vc natural harmonic pedal begins mp non crescendo;
     no pause;
 
     [H.4]
-    vc f-ff overpressure natural harmonic continues;
-    v1 faster ellipses;
-    v2 faster ellipses;
-    va faster ellipses;
-    v1, v2, va up-glissando lentissimo begins;
+    (2 measures)
+    moderato-to-allegro accelerando begins;
+    v1 ellipses accelerate in rhythm #1;
+    v1 up-glissando lentissimo begins;
+    v2 clarinet flautando slows to single bows;
+        v2 achieves single bows on midmeasure downbeat;
+    va ellipses accelerate in rhythm #3;
+    va up-glissando lentissimo begins;
+    vc pressure-crescendo lentissimo begins;
     no pause;
 
     [H.5]
-    vc f-ff overpressure natural harmonic continues;
-    v1 even faster ellipses;
-    v2 even faster ellipses;
-    va even faster ellipses;
-    v1, v2, va up-glissando lentissimo continues;
+    (2 measures)
+    accelerando achieves moderato on downbeat on middle measure in stage;
+    allegro-to-moderato ritardando begins on downbeat of middle measure;
+    v1 ellipses even faster in rhythm #1;
+    v1 up-glissando lentissimo continues;
+    v2 single bows become slow ellipses in rhythm #2;
+    va ellipses even faster in rhythm #3;
+    va up-glissando lentissimo continues;
+    vc pressure-crescendo lentissimo continues;
     no pause;
 
     [H.6]
-    vc f-ff overpressure natural harmonic continues;
-    v1 even faster ellipses;
-    v2 even faster ellipses;
-    va even faster ellipses;
-    v1, v2, va up-glissando lentissimo continues;
+    (2 measures)
+    ritardando achieves moderato on downbeat of last measure in stage;
+    v1 ellipses even faster in rhythm #1;
+    v2 ellipses acclerate in rhythm #2;
+    va ellipses even faster in rhythm #3;
+    v1 up-glissando lentissimo continues;
+    v2 up-glissando lentissimo begins;
+    va up-glissando lentissimo continues;
+    vc pressure-crescendo lentissimo achieves plateau;
+    vc plateau equal to forte + poco overpressure;
     no pause;
 
     [H.7]
-    vc f-ff overpressure natural harmonic completes and then drops out;
-    v1 very fast ellipses;
-    v2 very fast ellipses;
-    va very fast ellipses;
-    v1, v2, va up-glissando lentissimo completes;
-    surprisingly short breath;
-
+    (2 measures)
+    moderato continues;
+    v1 very fast ellipses in rhythm #1;
+    v2 ellipses even faster in rhythm #2;
+    va very fast ellipses in rhythm #3;
+    v1, v2, va up-glissandi lentissimi complete on last measure downbeat;
+    vc begins overpressure transition on first measure downbeat;
+    no pause;
+    
     [H.8]
-    interlocking whisk gears:
-    polyrhythmic ellipses:
-        v1 very fast ellipses in first completely regular rhythm;
-        v2 very fast ellipses in second completely regular rhythm;
-        va very fast ellipses in third completely regular rhythm;
-    vc tacet;
+    (6 measures)
+    moderato-to-allegro accelerando begins;
+    v1, v2, va tacet;
+    vc overpressure transition completes and sustains;
+    vc achieves full forte overpressure harmonic on first measure downbeat;
+    vc begins pressure-decrescendo on last measure downbeat;
+    no pause;
 
     [H.9]
-    accelerando begins;
-    polyrhythmic ellipses:
-        v1 very fast ellipses in first completely regular rhythm;
-        v2 very fast ellipses in second completely regular rhythm;
-        va very fast ellipses in third completely regular rhythm;
-    v1, v2, va animated by dynamic swells;
-    vc enters ppp;
+    (6 measures)
+    acclerando achieves allegro on first measure downbeat;
+    interlocking whisk gears / polyrhythmic ellipses:
+        v1 fast ellipses in completely regular rhythm #1;
+        v2 fast ellipses in completely regular rhythm #2;
+        va fast ellipses in completely regular rhythm #3;
+    vc pressure-decrescendo continues;
+    short pause [vc continues through pause];
 
     [H.10]
-    accelerando continues;
-    polyrhythmic ellipses:
-        v1 very fast ellipses in first completely regular rhythm;
-        v2 very fast ellipses in second completely regular rhythm;
-        va very fast ellipses in third completely regular rhythm;
-    v1, v2, va animated by even louder dynamic swells;
-    vc continues ppp;
-    vc begins down-glissando lentissimo;
+    (2 measures)
+    allegro continues;
+    interlocking whisk gears / polyrhythmic ellipses:
+        v1 ellipses in rhythm #1;
+        v2 ellipses in rhythm #2;
+        va ellipses in rhythm #3;
+    v1, v2, va animated by noise (= slow bow) injection;
+    v1, v2, va animated by inverse time-swells;
+        independent ritardandi-back-up-to-tempo;
+    inverse time-swells help achieve noise injection at slow swell midpoint;
+    vc achieves ppp on first measure downbeat;
+    short pause [vc continues through pause];
 
     [H.11]
-    accelerando continues;
-    polyrhythmic ellipses:
-        v1 very fast ellipses in first completely regular rhythm;
-        v2 very fast ellipses in second completely regular rhythm;
-        va very fast ellipses in third completely regular rhythm;
-    v1, v2, va animated by still louder dynamic swells;
+    (3 measures)
+    allegro continues;
+    interlocking whisk gears / polyrhythmic ellipses:
+        v1 ellipses in rhythm #1;
+        v2 ellipses in rhythm #2;
+        va ellipses in rhythm #3;
+    v1, v2, va animated by even more noise injection;
     vc continues ppp;
-    vc continues down-glissando lentissimo;
+    vc begins down-glissando lentissimo;
+    short pause [vc continues through pause];
 
     [H.12]
-    accelerando achieves fast tempo;
-    polyrhythmic ellipses:
-        v1 very fast ellipses in first completely regular rhythm;
-        v2 very fast ellipses in second completely regular rhythm;
-        va very fast ellipses in third completely regular rhythm;
-    v1, v2, va, saturate dynamic swells from previous stage;
-    vc down-glissando lentissimo achieves low pitch;
+    (4 measures)
+    allegro continues;
+    interlocking whisk gears / polyrhythmic ellipses:
+        v1 ellipses in rhythm #1;
+        v2 ellipses in rhythm #2;
+        va ellipses in rhythm #3;
+    v1, v2, va animated by even more noise injection;
     vc continues ppp;
-    surprisingly short colored breath with vc sustained pitch;
+    vc continues down-glissando lentissimo;
+    short pause [vc continues through pause];
+
+    [H.13]
+    (4 measures)
+    allegro-to-largo ritardando effected in this stage;
+    ritardando achieves largo on last measure downbeat;
+    interlocking scratch gears / polyrhythmic ellipses:
+        v1 ellipses in regular rhythm #1;
+        v2 ellipses in regular rhythm #2;
+        va ellipses in regular rhythm #3;
+    v1, v2, va ellipses achieve and sustain maximum noise;
+    vc down-glissando lentissimo achieves low pitch on first measure downbeat;
+    vc continues ppp;
+    no pause;
 
 [I]
 
