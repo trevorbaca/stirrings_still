@@ -804,97 +804,120 @@ SEGMENTS
 [I]
 
     [I.1]
-    (long)
-    much broader (= slower) tempo;
-    v1, v2, va polyrhythmic ellipses persist;
-    v1, v2, va subito matte quiet dynamic;
-    vc relatively loud assertive 1/2 clt solo trajectory;
+    (2 measures)
+    largo;
+    interlocking golden gears / homorhythmic ellipses:
+        v1, v2, va ellipses locked in homorhythm;
+        v1, v2, va subito matte quiet dynamic;
+        v1, v2, va subito tone without noise;
+    vc 1/2 clt solo trajectory begins p;
     vc solo trajectory locked into repetition quasi-vortex;
     no pause;
 
     [I.2]
-    ritardando begins;
-    v1, v2, va polyrhythmic ellipses now animated by independent feathers;
+    (1 measure)
+    largo-to-larghissimo ritardando begins;
+    interlocking golden gears / polyrhythmic ellipses:
+        v1 ellipses in feathered rhythm #1;
+        v2 ellipses in feathered rhythm #2;
+        va ellipses in feathered rhythm #3;
+    vc 1/2 clt solo trajectory crescendo begins;
     vc 1/2 clt solo trajectory still locked into repetition quasi-vortex;
     no pause;
 
     [I.3]
+    (1 measure)
     ritardando continues;
-    v1, v2, va feathered polyrhythmic ellipses begin diminuendo;
+    interlocking golden gears / polyrhythmic ellipses:
+        v1 ellipses in feathered rhythm #1;
+        v2 ellipses in feathered rhythm #2;
+        va ellipses in feathered rhythm #3;
+    v1, v2, va begin diminuendo;
+    vc 1/2 clt solo trajectory crescendo continues;
     vc 1/2 clt solo trajectory still locked into repetition quasi-vortex;
     repetition vortex now inflected by ritardando;
     no pause;
 
     [I.4]
+    (1 measure)
     ritardando continues;
-    v1, v2, va, feathered polyrhythm ellipses continue diminuendo;
+    interlocking golden gears / polyrhythmic ellipses:
+        v1 ellipses in feathered rhythm #1;
+        v2 ellipses in feathered rhythm #2;
+        va ellipses in feathered rhythm #3;
+    vc 1/2 clt solo trajectory crescendo continues;
     vc 1/2 clt solo trajectory still locked into repetition quasi-vortex;
-    vc 1/2 clt solo trajectory begins crescendo;
     no pause;
 
     [I.5]
-    ritardando achieves extremely slow tempo;
-    v1, v2, va, feathered polyrhythm ellipses achieve diminuendo al niente;
+    (2 measures)
+    ritardando achieves larghissimo;
+    interlocking golden gears / polyrhythmic ellipses:
+        v1 ellipses in feathered rhythm #1;
+        v2 ellipses in feathered rhythm #2;
+        va ellipses in feathered rhythm #3;
+    v1, v2, va, achieve diminuendo al niente;
+    vc 1/2 clt solo trajectory crescendo achieves forte;
     vc 1/2 clt solo trajectory still locked into repetition quasi-vortex;
-    vc 1/2 clt solo trajectory achieves crescendo to forte;
     no pause;
 
     [I.6]
-    (long)
-    extremely slow tempo persists;
+    (2 measures)
+    larghissimo continues;
     v1, v2, va tacet;
     vc single sustained forte pitch at trajectory endpoint;
+    vc with small trapped irregular repetition cell;
     no pause;
 
     [I.7]
-    (long)
-    extremely slow tempo persists;
+    (2 measures)
+    larghissimo continues;
     v1, v2, va reenter appena udibile on sustained double-stop urtext field;
-    vc single sustained forte pitch persists until end and then drops out;
+    vc single sustained forte trapped cell persists until end;
     no pause;
 
 [J]
 
     [J.1]
-    (long)
-    extremely slow tempo persists;
+    (4 measures)
+    larghissimo;
     v1, v2, va appena udibile double-stop urtext field persists;
-    vc tacet;
+    vc subito tacet;
     no pause;
 
     [J.2]
-    (long)
-    underlying accelerando begins;
+    (2 measures)
+    larghissimo-to-allegro accelerando begins;
     vc joins double-stop urtext field appena udibile;
-    tutti double-stop urtext field begins crescendo;
+    tutti double-stop urtext field crescendo begins;
     no pause;
     
     [J.3]
-    (long)
-    underlying accelerando continues;
-    tutti double-stop urtext field continues crescendo;
+    (2 measures)
+    accelerando continues;
+    tutti double-stop urtext field crescendo continues;
     no pause;
 
     [J.4]
-    (long)
-    underlying accelerando achieves fast tempo;
-    tutti double-stop urtext field achieves fff;
+    (1 measure)
+    accelerando achieves allegro on first measure downbeat;
+    tutti double-stop urtext field achieves fff poco scratch;
     surprisingly short breath;
 
     [J.5]
-    (shorter)
-    fast tempo;
-    vc relatively quiet ellipse pedal at stable rate;
+    (2 measures)
+    allegro continues;
     v1, v2, va quiet 1/2 clt trajectories;
+    vc relatively quiet ellipse pedal at stable rate;
     no pause;
 
     ||: J.4-5 :|| x 3
 
     [J.6]
     (longer)
-    fast tempo;
-    vc ellipse pedal effects rate acceleration and diminuendo al niente;
+    allegro continues;
     v1, 2, va quiet 1/2 clt trajectories effect pitch ascent;
+    vc ellipse pedal accelerates and effects diminuendo al niente;
     no pause;
 
 [K]
