@@ -443,7 +443,7 @@ SEGMENTS
 
     [D.4]
     (long)
-    vc fundamental of clouded pane;
+    vc clouded pane fundamental;
     long pause;
 
     [D.5]
@@ -464,7 +464,7 @@ SEGMENTS
     (long)
     (resumes D.4, D.5 simultaneously)
     v1, v2, va densely spaced urtext field;
-    vc fundamental of clouded pane;
+    vc clouded pane fundamental;
     no pause;
 
     [D.8]
@@ -473,7 +473,7 @@ SEGMENTS
     v1, v2, va densely spaced urtext field;
     v1, v2, va begin revving-up introduction of tremolo;
     repeated attempts to get tremolo faster and faster;
-    vc fundamental of clouded pane;
+    vc clouded pane fundamental;
     continuous sound between attempts;
     no silences in any part;
     no pause;
@@ -482,7 +482,7 @@ SEGMENTS
     (long)
     v1, v2, va densely spaced urtext field;
     v1, v2, va tremolo flight achieved;
-    vc fundamental of clouded pane;
+    vc clouded pane fundamental;
     extremely protracted crescendo to fff possibile in all parts;
     v1, v2, va extremely protracted tremolo rate decrease;
     vc transition to scratch;
@@ -497,84 +497,186 @@ SEGMENTS
 [E]
 
     [E.1]
-    (medium)
-    (hesitancy grid stage four)
-    much faster tempo;
-    vc fundamental of clouded pane up one semitone;
-    vc fundamental of clouded pane quiet dynamic;
-    v1, v2, va retake internal rhythmic ordering of hesitancy grid stage two;
-    v1, v2, va hesitancy strokes now tremolo-initiated for first time;
-    v1, v2, va lh-damp;
+    (6 measures)
+    presto begins;
+    hesitancy grid stage four / v1, v2, va:
+        lh-damp begins;
+        tremolo-initiation begins;
+        internal rhythmic ordering;
+        very light and very fast;
+        tutti p;
+    vc clouded pane quiet fundamental up one semitone;
     no pause;
 
-
     [E.2]
-    (medium)
-    faster tempo continues;
-    vc quiet fundamental of clouded pane continues;
-    v1, v2, va tremo-initiated hesitancy strokes effect process;
-    v1, v2, va process of additive rhythm to effect written-out rit;
-    written-out ritardando transpires under fixed fast tempo;
+    (8 measures)
+    presto continues;
+    hesitancy grid stage four / v1, v2, va:
+        lh-damp persists;
+        tremolo-initiation persists;
+        additive rhythm:
+            effects written-out ritardando;
+            achieves moderato equivalent on last measure downbeat;
+            ritardando transpires under presto;
+        very light and very fast;
+        tutti p;
+    vc clouded pane quiet fundamental continues;
     surprisingly short breath;
 
     [E.3]
-    (medium)
-    slower tempo (equal to additive rhythm endpoint) begins;
-    accelerando begins;
-    v1, v2, va tremolo-initiated trajectories;
-    vc fundamental of clouded pane begins very pronounced crescendo to fff;
-    vc fundamental transitions to scratch;
+    (4 measures)
+    moderato (equal to additive rhythm endpoint) starts;
+    moderato-to-allegro accelerando begins;
+    accelerando achieves allegro on last measure downbeat;
+    v1, v2, va trajectories:
+        subito lower-register tasto pitch instead of lh-damp;
+        tremolo-initiation persists;
+        internal rhythmic structure;
+        very light and very fast;
+        tutti p;
+    vc clouded pane p-to-fff-poco-scratch crescendo begins;
     no pause;
 
     [E.4]
-    (medium)
-    accelerando achieves new tempo;
-    v1, v2, va tremolo-initiated trajectories persist;
-    vc fundamental of clouded pane holds scratch fff;
+    (4 measures)
+    allegro continues;
+    v1, v2, va trajectories:
+        lower-register tasto pitch persists;
+        tremolo-initiation persists;
+        internal rhythmic structure persists;
+        slow pitch ascents begin independently;
+        very light and very fast;
+        tutti p;
+    vc:
+        achieves fff poco scratch on first downbeat;
+        holds fff poco scratch clouded pane fundamental until end;
     no pause;
 
     [E.5]
-    (medium)
-    v1, v2, va tremolo-initiated trajectories persist;
-    v1, v2, va tremolo-initiated trajectories rise very slowly in pitch;
-    vc fundamental of clouded pane subito drops out;
+    (4 measures)
+    allegro-to-presto accelerando begins;
+    v1, v2, va trajectories:
+        lower-register tasto pitch persists;
+        tremolo-initiation persists;
+        internal rhythmic structure persists;
+        slow pitch ascents continue;
+        slightly higher lower-register pitch levels achieved independently;
+        very light and very fast;
+        tutti p;
+    vc tacet;
     no pause;
 
     [E.6]
-    (medium-to-long)
-    v1, v2, va trajectories achieve higher pitch level;
-    v1, v2, va trajectories subito lose tremolo-initiation;
-    v1, v2, va trajectories subito 1/2 clt;
+    (4 measures)
+    accelerando achieves presto on first downbeat;
+    v1, v2, va trajectories:
+        slightly higher lower-register tasto pitch persists;
+        tasto pitch persists;
+        tremolo-initiation stops independently;
+        very light and very fast;
+        tutti p;
+    vc tacet;
     no pause;
 
     [E.7]
-    (medium)
-    v1, v2, va 1/2 clt trajectories persist;
-    v1, v2, va 1/2 clt trajectories again rise very slowly in pitch;
-    vc fundamental of clouded pane reenters quiet one semitone higher;
-    no pause;
+    (4 measures)
+    presto continues;
+    v1, v2, va trajectories:
+        tasto pitch persists;
+        very slow pitch ascents begin again independently;
+        slightly higher lower-register pitch levels achieved by end;
+        very light and very fast;
+        p < "f" crescendo;
+    vc tacet;
+    pause;
 
     [E.8]
-    (medium)
-    global ritardando begins;
-    v1, v2, va 1/2 clt trajectories achieve higher pitch level;
-    v1, v2, va 1/2 clt trajectories staggerdly introduce trem-termination;
-    vc quiet fundamental of clouded pane persists; 
+    (8 measures)
+    subito largo-to-presto accelerando governs stage;
+    v1, v2, va trajectories:
+        tasto pitch persists;
+        caught in eight- or tenfold repetition vortex;
+        accelerando time-sheers vortex dramatically;
+        subito p at start of stage;
+    vc fundamental reenters stepwise below;
     no pause;
 
     [E.9]
-    (medium)
-    ritardando continues;
-    v1, v2, va 1/2 clt trajetories overtaken by trem-termination;
-    vc quiet fundamental of clouded pane persists;
+    (8 measures)
+    presto-to-largo ritardando governs stage;
+    v1, v2, va trajectories:
+        tasto pitch persists;
+        single-cell repetition transitions to tremolo independently;
+        tutti tremolo achieved by end;
+        piano persists;
+    vc quiet clouded pane fundamental persists; 
     no pause;
 
     [E.10]
-    (long)
-    ritardando achieves very slow tempo;
-    v1, v2, va drop out;
-    vc quiet fundamental of clouded pane persists;
-    short pause;
+    (2 measures)
+    ritardando achieves largo on first downbeat;
+    v1, v2, va tremolo:
+        tasto pitch persists;
+        piano persists;
+    vc quiet clouded pane fundamental persists;
+    no pause;
+
+    [E.11]
+    (4 measures)
+    largo continues;
+    v1, v2, va tremolo:
+        staggered scp patterning from tasto towards bridge and back;
+        piano continues;
+    vc quiet clouded pane fundamental persists;
+    pause [vc holds through pause];
+
+    [E.12]
+    (4 measures)
+    largo continues;
+    v1, v2, va tremolo:
+        previous stage quietly repeats:
+            staggered scp patterning from tasto towards bridge and back;
+            pp;
+    vc quiet clouded pane fundamental persists;
+    pause [vc holds through pause];
+
+    [E.13]
+    (4 measures)
+    largo-to-presto accelerando governs stage;
+    v1, v2, va tremolo:
+        previous stage repeats as compressed white:
+            subito lh-damp;
+            "p";
+            staggered scp patterning from tasto towards bridge and back;
+    vc quiet clouded pane fundamental persists:
+        decrescendo al niente governs stage;
+    no pause;
+
+    [E.14]
+    (2 measures)
+    subito largo;
+    v1, v2, va tremolo:
+        lh-damp tasto "p" persists;
+    vc tacet;
+    no pause;
+
+    [E.15]
+    (2 measure)
+    largo;
+    v1, v2, va tremolo:
+        tremolo ritards to stop independently;
+        decrescendo al niente independently;
+    vc clouded pane fundamental reenters:
+        up one step;
+        piano;
+    no pause;
+
+    [E.16]
+    (8 measures)
+    largo;
+    v1, v2, va tacet;
+    vc clouded pane quiet fundamental persists;
+    no pause;
 
 [F]
 
@@ -582,7 +684,7 @@ SEGMENTS
     (very long)
     v1, v2 enter on intermittent double-stop vc multiphonic partials;
     va tailpiece;
-    vc quiet fundamental of clouded pane;
+    vc quiet clouded pane fundamental;
     no pause;
 
     [F.2]
@@ -728,7 +830,7 @@ SEGMENTS
     v2 ellipses even faster in rhythm #2;
     va very fast ellipses in rhythm #3;
     v1, v2, va up-glissandi lentissimi complete on last measure downbeat;
-    vc begins overpressure transition on first measure downbeat;
+    vc begins overpressure transition on first downbeat;
     no pause;
     
     [H.8]
@@ -736,13 +838,13 @@ SEGMENTS
     moderato-to-allegro accelerando begins;
     v1, v2, va tacet;
     vc overpressure transition completes and sustains;
-    vc achieves full forte overpressure harmonic on first measure downbeat;
+    vc achieves full forte overpressure harmonic on first downbeat;
     vc begins pressure-decrescendo on last measure downbeat;
     no pause;
 
     [H.9]
     (6 measures)
-    acclerando achieves allegro on first measure downbeat;
+    acclerando achieves allegro on first downbeat;
     interlocking whisk gears / polyrhythmic ellipses:
         v1 fast ellipses in completely regular rhythm #1;
         v2 fast ellipses in completely regular rhythm #2;
@@ -761,7 +863,7 @@ SEGMENTS
     v1, v2, va animated by inverse time-swells;
         independent ritardandi-back-up-to-tempo;
     inverse time-swells help achieve noise injection at slow swell midpoint;
-    vc achieves ppp on first measure downbeat;
+    vc achieves ppp on first downbeat;
     short pause [vc continues through pause];
 
     [H.11]
@@ -797,7 +899,7 @@ SEGMENTS
         v2 ellipses in regular rhythm #2;
         va ellipses in regular rhythm #3;
     v1, v2, va ellipses achieve and sustain maximum noise;
-    vc down-glissando lentissimo achieves low pitch on first measure downbeat;
+    vc down-glissando lentissimo achieves low pitch on first downbeat;
     vc continues ppp;
     no pause;
 
@@ -900,7 +1002,7 @@ SEGMENTS
 
     [J.4]
     (1 measure)
-    accelerando achieves allegro on first measure downbeat;
+    accelerando achieves allegro on first downbeat;
     tutti double-stop urtext field achieves fff poco scratch;
     surprisingly short breath;
 
@@ -992,7 +1094,7 @@ SEGMENTS
     (long)
     fast tempo;
     v1, v2, va patterned slowing of bow to complete stop;
-    vc continues fundamental of clouded pane field;
+    vc continues clouded pane fundamental field;
     surprisingly short breath;
 
 [L]
