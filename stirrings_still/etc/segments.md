@@ -469,7 +469,7 @@ SEGMENTS
 
     [D.8]
     (long)
-    global accelerando;
+    accelerando;
     v1, v2, va densely spaced urtext field;
     v1, v2, va begin revving-up introduction of tremolo;
     repeated attempts to get tremolo faster and faster;
@@ -750,7 +750,7 @@ SEGMENTS
         tutti pitched tremolo (fifth-stage flight);
         tutti tasto sempre (no scp transitions);
     two layers of dynamic in each part:
-        global pp < mf crescendo;
+        pp < mf;
         unmarked swells on each note under crescendo;
     long pause;
 
@@ -1113,49 +1113,49 @@ SEGMENTS
 
     [M.1]
     (even longer)
-    broad tempo; 
+    largo continues;
     field fundamental down one semitone to IV/C2;
     tutti full expression of clouded pane;
     no pause;
 
     [M.2]
     (shorter)
-    broad tempo;
+    largo continues;
     v1, v2, va intercalation of conflicting urtext double stop ellipses;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
 
     [M.3]
     (shorter)
-    broad tempo;
+    largo continues;
     v1, v2, va revert back to full expression of clouded pane;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
 
     [M.4]
     (shorter)
-    broad tempo;
+    largo continues;
     v1, v2, va intercalation of conflicting urtext double stop ellipses;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
 
     [M.5]
     (shorter)
-    broad tempo;
+    largo continues;
     v1, v2, va revert back to full expression of clouded pane;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
 
     [M.6]
     (shorter)
-    broad tempo;
+    largo continues;
     v1, v2, va intercalation of conflicting urtext double stop ellipses;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
 
     [M.7]
     (shorter)
-    broad tempo;
+    largo continues;
     v1, v2, va revert back to full expression of clouded pane;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
@@ -1163,51 +1163,54 @@ SEGMENTS
 [N]
 
     [N.1]
-    (extremely long)
-    even broader tempo; 
+    (6 measures)
+    larghissimo begins;
     field fundamental down one semitone to open string IV/Bb1;
     tutti full expression of clouded pane;
     no pause;
 
     [N.2]
-    (long)
-    very broad tempo;
+    (2 measures)
+    larghissimo continues;
     v1, v2, va decrescendo al niente of clouded pane on IV/Bb1;
     vc decrescendo to pp of clouded pane on IV/Bb1;
     no pause;
 
     [N.3]
-    (long)
-    very broad tempo;
-    vc holds piano pure tone Bb1;
-    no pause;
-
-    [N.3]
-    (long)
-    very broad tempo;
-    v1, v2, va crescendo dal niente on urtext field;
+    (2 measures)
+    larghissimo continues;
+    v1, v2, va tacet;
     vc holds piano pure tone Bb1;
     no pause;
 
     [N.4]
-    (long)
-    very broad tempo;
-    v1, v2, va achieve forte urtext field;
-    vc drops out;
+    (4 measures)
+    larghissimo continues;
+    v1, v2, va urtext field:
+        niente-to-forte crescendo begins;
+    vc holds piano pure tone Bb1;
     no pause;
 
     [N.5]
-    (long)
-    accelerando from very broad to faster;
+    (6 measures)
+    larghissimo continues;
+    v1, v2, va urtext field:
+        crescendo achieves forte on first downbeat;
+    vc holds piano pure tone Bb1 until end;
+    no pause;
+
+    [N.6]
+    (12 measures)
+    larghissimo-to-presto-to-larghissimo time trends govern stage;
     tutti urtext flight;
     dynamic process embedded;
     scp process embedded;
     terminates tutti fortissimo ponticello release lv;
     very long pause;
 
-    [N.6]
-    (shorter)
-    impossibly broad tempo;
+    [N.7]
+    (2 measures)
+    larghississimo;
     combined single gesture of conflict and relinquishment:
     clouded pane with urtext;
     fundamental fixed pitch;
@@ -1218,141 +1221,194 @@ SEGMENTS
 [O]
 
     [O.1]
-    (long)
-    moderate tempo;
-    urtext pitch change;
-    tutti very slow ellipses;
+    (6 measures)
+    largo più mosso governs stage;
+    tutti urtext ellipses:
+        new urtext pitches;
+        ellipses so slow that primary effect is granulation;
+        "mp";
     very long pause;
 
 [P]
 
     [P.1]
-    (medium) 
-    slightly faster tempo;
-    clouded pane pitch change;
-    v1, v2 very slow ellipses;
-    va, vc clouded pane fundamental piano;
+    (4 measures) 
+    moderato begins;
+    tutti:
+        clouded pane fixed pitches;
+        tasto pitch;
+        ppppp;
     no pause;
 
     [P.2]
-    (medium) 
-    slightly faster tempo persists;
-    v1, v2 very slow ellipses;
-    v1, vc clouded pane fundamental decrescendo to ppppp;
+    (6 measures) 
+    moderato continues;
+    tutti:
+        clouded pane fixed pitches persist;
+        tasto < irregular ellipses > tasto, independently;
+        ppppp < p > ppppp;
     no pause;
 
     [P.3]
-    (medium)
-    slightly faster tempo persists;
-    tutti slow ellipses ppppp;
+    (4 measures)
+    moderato continues;
+    tutti:
+        clouded pane fixed pitches persist;
+        tasto pitch;
+        ppppp;
     no pause;
 
     [P.4]
-    (medium)
-    accelerando begins;
-    tutti up-glissandi begin;
-    tutti ellipses become faster;
+    (6 measures)
+    moderato-to-presto accelerando begins;
+    tutti:
+        up-glissandi begin;
+        tasto < irregular ellipses begin;
+        ppppp < mp;
     no pause;
 
     [P.5]
-    (medium)
-    accelerando continues;
-    tutti up-glissandi continue;
-    tutti ellipses become still faster;
-    no pause;
+    (6 measures)
+    accelerando achieves presto on last measure first downbeat;
+    tutti:
+        up-glissandi achieve endpoint on last measure first downbeat;
+        ellipses achieve fixed fast speed on last measure first downbeat;
+        mp > p;
+    surprisingly short breath;
 
 [Q]
 
     [piece-ending process of compression:]
 
     [Q.1]
-    (shorter)
-    accelerando achieves fast tempo;
-    tutti subito lh-damped airtone;
-    tutti each pitch fixed;
-    tutti relatively fast ellipses;
-    desynchronized spinning white noise at fixed tempo;
-    surprisingly short breath;
+    (8 measures)
+    presto continues;
+    tutti desynchronized spinning white noise:
+        subito lh-damped airtone;
+        each pitch fixed;
+        relatively fast desynchronized regular ellipses;
+        "p";
+    surprisingly short breath [one player holds through breath];
 
     [Q.2]
-    (medium)
-    moderate accelerando;
-    subito pitch (senza lh damp);
-    tutti urtext double stops;
-    tutti trajectories;
-    tutti local accelerandi;
-    subito ff: global ff < fff scratch > p envelope;
-    desynchronized pitched field trajectories whisked skyward;
-    very short pause;
+    (12 measures)
+    moderato-to-presto accelerando governs stage;
+    tutti desynchronized pitched field trajectories whisked skyward:
+        urtext double stops;
+        subito pitch senza lh damp;
+        crini desynchronized trajectories;
+        1/2 clt introduced towards end of trajectories independently;
+        ff poco scratch < fff scratch > p senza scratch;
+    very short pause [one player holds color through pause];
 
     [Q.3]
-    (slightly shorter)
-    stable slightly faster tempo;
-    tutti subito desynchronized spinning white noise at fixed tempo;
-    surprisingly short breath;
+    (6 measures)
+    presto;
+    tutti desynchronized spinning white noise:
+        subito lh-damped airtone;
+        each pitch fixed;
+        relatively fast desynchronized regular ellipses;
+        "p";
+    surprisingly short breath [one player holds color through breath];
 
     [Q.4]
-    (slightly shorter)
-    moderate accelerando;
-    tutti subito desynchronized pitched field trajectories whisked skyward;
-    global f < ff scratch > p envelope;
-    very short pause;
+    (10 measures)
+    moderato-to-presto accelerando governs stage;
+    tutti desynchronized pitched field trajectories whisked skyward:
+        urtext double stops;
+        subito pitch senza lh damp;
+        crini desynchronized trajectories;
+        1/2 clt introduced towards end of trajectories independently;
+        f poco scratch < ff scratch > p senza scratch;
+    very short pause [one player holds color through pause];
 
     [Q.5]
-    (even shorter)
-    stable slightly faster tempo;
-    tutti subito desynchronized spinning white noise at fixed tempo;
-    surprisingly short breath;
+    (5 measures)
+    presto;
+    tutti desynchronized spinning white noise:
+        subito lh-damped airtone;
+        each pitch fixed;
+        relatively fast desynchronized regular ellipses;
+        "p";
+    surprisingly short breath [one player holds color through breath];
 
     [Q.6]
-    (even shorter)
-    moderate accelerando;
-    tutti subito desynchronized pitched field trajectories whisked skyward;
-    global mf < f scratch > mp envelope;
-    very short pause;
+    (8 measures)
+    moderato-to-presto accelerando governs stage;
+    tutti desynchronized pitched field trajectories whisked skyward:
+        urtext double stops;
+        subito pitch senza lh damp;
+        crini desynchronized trajectories;
+        1/2 clt introduced towards end of trajectories independently;
+        mf < f scratch > mp;
+    very short pause [one player holds color through pause];
 
     [Q.7]
-    (short)
-    stable slightly faster tempo;
-    tutti subito desynchronized spinning white noise at fixed tempo;
-    surprisingly short breath;
+    (4 measures)
+    presto;
+    tutti desynchronized spinning white noise:
+        subito lh-damped airtone;
+        each pitch fixed;
+        relatively fast desynchronized regular ellipses;
+        "p";
+    surprisingly short breath [one player holds color through breath];
 
     [Q.8]
-    (short)
-    moderate accelerando;
-    tutti subito desynchronized pitched field trajectories whisked skyward;
-    global mp < mf scratch > p envelope;
-    very short pause;
+    (6 measures)
+    moderato-to-presto accelerando governs stage;
+    tutti desynchronized pitched field trajectories whisked skyward:
+        urtext double stops;
+        subito pitch senza lh damp;
+        crini desynchronized trajectories;
+        1/2 clt introduced towards end of trajectories independently;
+        mp < mf scratch > p;
+    very short pause [one player holds color through pause];
 
     [Q.9]
-    (very short)
-    stable slightly faster tempo;
-    tutti subito desynchronized spinning white noise at fixed tempo;
-    surprisingly short breath;
+    (3 measures)
+    presto;
+    tutti desynchronized spinning white noise:
+        subito lh-damped airtone;
+        each pitch fixed;
+        relatively fast desynchronized regular ellipses;
+        "p";
+    surprisingly short breath [oneplayer holds color through breath];
 
     [Q.10]
-    (very short)
-    moderate accelerando;
-    tutti subito desynchronized pitched field trajectories whisked skyward;
-    global p < mp scratch > pp envelope;
-    very short pause;
+    (4 measures)
+    moderato-to-presto accelerando governs stage;
+    tutti desynchronized pitched field trajectories whisked skyward:
+        urtext double stops;
+        subito pitch senza lh damp;
+        crini desynchronized trajectories;
+        1/2 clt introduced towards end of trajectories independently;
+        p < mp scratch > pp;
+    very short pause [one player holds color through pause];
 
     [Q.11]
-    (very short)
-    stable slightly faster tempo;
-    tutti subito desynchronized spinning white noise at fixed tempo;
-    surprisingly short breath;
+    (2 measures)
+    presto;
+    tutti desynchronized spinning white noise:
+        subito lh-damped airtone;
+        each pitch fixed;
+        relatively fast desynchronized regular ellipses;
+        "p";
+    surprisingly short breath [one player holds color through breath];
 
     [Q.12]
-    (very short)
-    moderate accelerando;
-    tutti subito desynchronized pitched field trajectories whisked skyward;
-    global pp < p scratch > ppp envelope;
-    pause;
+    (2 measures)
+    moderato-to-presto accelerando governs stage;
+    tutti desynchronized pitched field trajectories whisked skyward:
+        urtext double stops;
+        subito pitch senza lh damp;
+        crini desynchronized trajectories;
+        1/2 clt introduced towards end of trajectories independently;
+        pp < p scratch > ppp;
+    pause [one player holds color through pause];
 
     [Q.13]
-    (extremely long)
-    fast tempo ritardando to very broad tempo;
+    (20 measures)
+    presto-to-largo ritardando governs stage;
     v1, v2 desynchronized fast lh-damped 1/2 clt trajectories ppp;
     va rich clouded pane Bb2 pedal pp;
     vc extremely slow tuning peg down-glissando on IV from Bb1 to Bb0;
@@ -1362,7 +1418,7 @@ SEGMENTS
 
     [R.1]
     (long)
-    very broad tempo;
+    largo;
     v1, v2 join field with pitched tasto trajectories ppp;
     va Bb2 pp pedal;
     vc B0 pp pedal;
@@ -1370,7 +1426,7 @@ SEGMENTS
 
     [R.2]
     (long)
-    very broad tempo;
+    largo;
     v1, v2 pitched tasto trajectories slow to nothing and drop out;
     va Bb2 pp pedal;
     vc B0 pp pedal;
@@ -1378,7 +1434,7 @@ SEGMENTS
 
     [R.3]
     (long)
-    very broad tempo;
+    largo;
     v1, v2 tacet;
     va Bb2 pp pedal;
     vc B0 pp pedal decrescendo al niente and drops out;
@@ -1386,7 +1442,7 @@ SEGMENTS
 
     [R.4]
     (long)
-    very broad tempo;
+    largo;
     v1, v2, vc tacet;
     va Bb2 pp pedal;
     no pause;
@@ -1395,14 +1451,14 @@ SEGMENTS
 
     [S.1]
     (long)
-    very broad tempo;
+    largo;
     v1, v2, vc tacet;
     va Bb2 pp pedal;
     no pause;
 
     [S.2]
     (shorter)
-    very broad tempo;
+    largo;
     v1, v2 fast whisked ellipses on accelerando and crescendo;
     va Bb2 pp pedal;
     vc B0 slack-string up-bow rh-terminated exponential crescendo to mf;
@@ -1410,7 +1466,7 @@ SEGMENTS
 
     [S.3]
     (long)
-    very broad tempo;
+    largo;
     v1, v2 tacet;
     va Bb2 pp pedal;
     vc tacet;
@@ -1418,7 +1474,7 @@ SEGMENTS
 
     [S.4]
     (short + 1 measure)
-    very broad tempo;
+    largo;
     v1, v2 fast whisked ellipses on accelerando and crescendo;
     va Bb2 pp pedal;
     vc Bb0 slack-string up-bow rh-terminated exponential crescendo to f;
@@ -1426,7 +1482,7 @@ SEGMENTS
 
     [S.5]
     (long)
-    very broad tempo;
+    largo;
     v1, v2 tacet;
     va Bb2 pp pedal;
     vc tacet;
@@ -1434,7 +1490,7 @@ SEGMENTS
 
     [S.6]
     (short + 2 measures)
-    very broad tempo;
+    largo;
     v1, v2 fast whisked ellipses on accelerando and crescendo;
     va Bb2 pp pedal;
     vc Bb0 slack-string up-bow rh-terminated exponential crescendo to ff;
@@ -1442,7 +1498,7 @@ SEGMENTS
 
     [S.7]
     (long)
-    very broad tempo;
+    largo;
     v1, v2 tacet;
     va Bb2 pp pedal;
     vc tacet;
@@ -1450,7 +1506,7 @@ SEGMENTS
 
     [S.8]
     (short + 3 measures)
-    very broad tempo;
+    largo;
     v1, v2 fast whisked ellipses on accelerando and crescendo;
     va Bb2 pp pedal;
     vc Bb0 slack-string up-bow rh-terminated exponential crescendo to fff;
@@ -1458,7 +1514,7 @@ SEGMENTS
 
     [S.9]
     (very long)
-    very broad tempo;
+    largo;
     v1, v2 tacet;
     va Bb2 pp pedal;
     vc tacet;
