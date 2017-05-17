@@ -1288,18 +1288,18 @@ SEGMENTS
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
         "p";
-    surprisingly short breath [one player holds through breath];
+    surprisingly short breath [v2 plays ellipses through breath];
 
     [Q.2]
     (12 measures)
     moderato-to-presto accelerando governs stage;
     tutti desynchronized pitched field trajectories whisked skyward:
         urtext double stops;
-        subito pitch senza lh damp;
+        subito pitch;
         crini desynchronized trajectories;
         1/2 clt introduced towards end of trajectories independently;
-        ff poco scratch < fff scratch > p senza scratch;
-    very short pause [one player holds color through pause];
+        ff poco scratch < fff scratch > f senza scratch;
+    very short pause [v1 holds color through pause];
 
     [Q.3]
     (6 measures)
@@ -1309,18 +1309,18 @@ SEGMENTS
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
         "p";
-    surprisingly short breath [one player holds color through breath];
+    surprisingly short breath [v2 plays ellipses through breath];
 
     [Q.4]
     (10 measures)
     moderato-to-presto accelerando governs stage;
     tutti desynchronized pitched field trajectories whisked skyward:
         urtext double stops;
-        subito pitch senza lh damp;
+        subito pitch;
         crini desynchronized trajectories;
         1/2 clt introduced towards end of trajectories independently;
-        f poco scratch < ff scratch > p senza scratch;
-    very short pause [one player holds color through pause];
+        f poco scratch < ff scratch > mf senza scratch;
+    very short pause [v1 holds color through pause];
 
     [Q.5]
     (5 measures)
@@ -1330,18 +1330,18 @@ SEGMENTS
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
         "p";
-    surprisingly short breath [one player holds color through breath];
+    surprisingly short breath [v2 plays ellipses through breath];
 
     [Q.6]
     (8 measures)
     moderato-to-presto accelerando governs stage;
     tutti desynchronized pitched field trajectories whisked skyward:
         urtext double stops;
-        subito pitch senza lh damp;
+        subito pitch;
         crini desynchronized trajectories;
         1/2 clt introduced towards end of trajectories independently;
-        mf < f scratch > mp;
-    very short pause [one player holds color through pause];
+        mf < f scratch > mp senza scratch;
+    very short pause [v1 holds color through pause];
 
     [Q.7]
     (4 measures)
@@ -1351,18 +1351,18 @@ SEGMENTS
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
         "p";
-    surprisingly short breath [one player holds color through breath];
+    surprisingly short breath [v2 plays ellipses through breath];
 
     [Q.8]
     (6 measures)
     moderato-to-presto accelerando governs stage;
     tutti desynchronized pitched field trajectories whisked skyward:
         urtext double stops;
-        subito pitch senza lh damp;
+        subito pitch;
         crini desynchronized trajectories;
         1/2 clt introduced towards end of trajectories independently;
-        mp < mf scratch > p;
-    very short pause [one player holds color through pause];
+        mp < mf scratch > senza scratch p;
+    very short pause [v1 holds color through pause];
 
     [Q.9]
     (3 measures)
@@ -1372,18 +1372,18 @@ SEGMENTS
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
         "p";
-    surprisingly short breath [oneplayer holds color through breath];
+    surprisingly short breath [v2 plays ellipses through breath];
 
     [Q.10]
     (4 measures)
     moderato-to-presto accelerando governs stage;
     tutti desynchronized pitched field trajectories whisked skyward:
         urtext double stops;
-        subito pitch senza lh damp;
+        subito pitch;
         crini desynchronized trajectories;
         1/2 clt introduced towards end of trajectories independently;
-        p < mp scratch > pp;
-    very short pause [one player holds color through pause];
+        p < mp scratch > senza scratch pp;
+    very short pause [v1 holds color through pause];
 
     [Q.11]
     (2 measures)
@@ -1393,23 +1393,24 @@ SEGMENTS
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
         "p";
-    surprisingly short breath [one player holds color through breath];
+    surprisingly short breath [v2 plays ellipses through breath];
 
     [Q.12]
     (2 measures)
     moderato-to-presto accelerando governs stage;
     tutti desynchronized pitched field trajectories whisked skyward:
         urtext double stops;
-        subito pitch senza lh damp;
+        subito pitch;
         crini desynchronized trajectories;
         1/2 clt introduced towards end of trajectories independently;
-        pp < p scratch > ppp;
-    pause [one player holds color through pause];
+        pp < p scratch > senza scratch ppp;
+    pause [v1 holds color through pause];
 
     [Q.13]
     (20 measures)
     presto-to-largo ritardando governs stage;
-    v1, v2 desynchronized fast lh-damped 1/2 clt trajectories ppp;
+    v1, v2 trajectories:
+        desynchronized fast 1/2 clt ppp;
     va rich clouded pane Bb2 pedal pp;
     vc extremely slow tuning peg down-glissando on IV from Bb1 to Bb0;
     no pause;
@@ -1417,104 +1418,124 @@ SEGMENTS
 [R]
 
     [R.1]
-    (long)
-    largo;
-    v1, v2 join field with pitched tasto trajectories ppp;
-    va Bb2 pp pedal;
-    vc B0 pp pedal;
+    (4 measures)
+    largo continues;
+    v1, v2 trajectories:
+        join clouded pane field;
+        1/2 clt disappears;
+        pure tasto pitch;
+        ppp persists;
+    va:
+        Bb2 pp pedal;
+    vc:
+        B0 pp pedal;
     no pause;
 
     [R.2]
-    (long)
-    largo;
-    v1, v2 pitched tasto trajectories slow to nothing and drop out;
-    va Bb2 pp pedal;
-    vc B0 pp pedal;
+    (4 measures)
+    largo continues;
+    v1, v2 trajectories:
+        clouded pane field;
+        pure tasto pitch;
+        trajectories slow to nothing;
+        ppp > niente;
+    va:
+        Bb2 pp pedal;
+    vc:
+        B0 pp pedal;
     no pause;
 
     [R.3]
-    (long)
-    largo;
-    v1, v2 tacet;
-    va Bb2 pp pedal;
-    vc B0 pp pedal decrescendo al niente and drops out;
+    (4 measures)
+    largo continues;
+    v1, v2:
+        tacet;
+    va Bb2:
+        pp pedal;
+    vc B0:
+        pp pedal;
+        pp > niente;
     no pause;
 
     [R.4]
-    (long)
-    largo;
-    v1, v2, vc tacet;
-    va Bb2 pp pedal;
+    (4 measures)
+    largo continues;
+    v1, v2:
+        tacet;
+    va:
+        Bb2 pp pedal;
+    vc:
+        tacet;
     no pause;
     
 [S]
 
     [S.1]
-    (long)
-    largo;
+    (4 measures)
+    largo continues;
     v1, v2, vc tacet;
     va Bb2 pp pedal;
     no pause;
 
     [S.2]
-    (shorter)
-    largo;
+    (1 measure)
+    largo continues;
     v1, v2 fast whisked ellipses on accelerando and crescendo;
     va Bb2 pp pedal;
     vc B0 slack-string up-bow rh-terminated exponential crescendo to mf;
     no pause;
 
     [S.3]
-    (long)
-    largo;
+    (4 measures)
+    largo continues;
     v1, v2 tacet;
     va Bb2 pp pedal;
     vc tacet;
     no pause;
 
     [S.4]
-    (short + 1 measure)
-    largo;
+    (2 measures)
+    largo continues;
     v1, v2 fast whisked ellipses on accelerando and crescendo;
     va Bb2 pp pedal;
     vc Bb0 slack-string up-bow rh-terminated exponential crescendo to f;
     no pause;
 
     [S.5]
-    (long)
-    largo;
+    (4 measures)
+    largo continues;
     v1, v2 tacet;
     va Bb2 pp pedal;
     vc tacet;
     no pause;
 
     [S.6]
-    (short + 2 measures)
-    largo;
+    (3 measures)
+    largo continues;
     v1, v2 fast whisked ellipses on accelerando and crescendo;
     va Bb2 pp pedal;
     vc Bb0 slack-string up-bow rh-terminated exponential crescendo to ff;
     no pause;
 
     [S.7]
-    (long)
-    largo;
+    (4 measures)
+    largo continues;
     v1, v2 tacet;
     va Bb2 pp pedal;
     vc tacet;
     no pause;
 
     [S.8]
-    (short + 3 measures)
-    largo;
+    (4 measures)
+    largo continues;
     v1, v2 fast whisked ellipses on accelerando and crescendo;
     va Bb2 pp pedal;
     vc Bb0 slack-string up-bow rh-terminated exponential crescendo to fff;
     no pause;
 
     [S.9]
-    (very long)
-    largo;
+    (8 measures)
+    largo continues;
     v1, v2 tacet;
     va Bb2 pp pedal;
     vc tacet;
