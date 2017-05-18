@@ -321,177 +321,406 @@ SEGMENTS
 
     [C.1]
     (interlude as segment initiation)
-    (relatively long)
-    tutti maximally tight crunch circle bowing;
-    different rate for each player;
-    lh-damp preserved from end of [B];
-    fixed pitch;
+    (4 measures)
+    moderato;
+    tutti maximally tight talon-crunch circles:
+        lh-damp preserved from end of [B];
+        different rate for each player;
+        fixed pitch for each player;
     pause;
 
     [C.2]
-    (relatively long but just shorter than before)
-    tutti maximally tight crunch circle bowing ibid;
-    v1, va, vc fixed pitch ibid;
-    v2 slow up-glissando;
-    tutti lh-damp persists;
+    (4 measures)
+    moderato continues;
+    v1, va, vc:
+        maximally tight talon-crunch cirles;
+        lh-damp;
+        pitch ibid;
+    v2:
+        maximally tight talon-crunch circles;
+        lh-damp;
+        slow up-glissando;
     pause;
 
+    [process begins: ellipses introduce termination types]
+
     [C.3]
-    (big process begins)
-    (process uses ellipses to introduce termination-type inventory)
-    (long)
-    in each player independently:
+    (20 measures)
+    moderato più mosso;
+    out-spiralling in each player independently:
         maximally tight crunch circles spiral outwards to become wider;
         only a little wider at first;
         then a bit more wider;
         then quite wide;
         then as wide as possible (and with relatively fast bowspeed);
-    each orbital attempt followed by pause;
-    desynchronized between players throughout;
-    tutti lh-damp persists;
+        each orbital attempt initially followed by pause;
+        orbitals eventually achieve continuous whisked white sound;
+        desynchronized between players throughout;
+        tutti lh-damp persists;
+        termination types not yet introduced;
     surprisingly short breath;
 
     [C.4]
     (sotto voce retrospection) 
-    (shorter)
-    quick tempo;
-    v2 lh-damp 1/2 clt fast clocktick [recalls B.7];
-    [[v1, va, vc shining harmonic beacon of future]];
-    counted rest to build expectation before jumping back into out-spiralling;
+    (1 measure)
+    allegro governs stage;
+    v1:
+        [[shining harmonic beacon of future]];
+    v2:
+        lh-damp 1/2 clt fast clocktick [recalls B.7];
+    va, vc:
+        [[shining harmonic beacon of future]];
+    cut-off;
+    all sound ends immediately following clocktick;
+    counted rest to build expectation before jumping back into circles;
 
     [C.5]
-    (next part of out-spiralling)
-    (medium)
-    subito tutti synchronized maximally wide circle bows;
-    one circle at a time followed by rest;
-    rhythm 3 2r 3 2r 3 2r 3 1(!)r 3 2r ...;
-    return of tutti lh-damp;
-    no pause;
+    (circles resume)
+    (4 measures)
+    moderato-meno-mosso-to-allegro accelerando governs stage;
+    tutti synchronized white circles:
+        lh-damp returns;
+        synchronized maximally wide circles;
+        one circle at a time followed by rest;
+        rhythm 3 2r 3 2r 3 2r 3 1(!)r 3 2r ...;
+        termination types still not introduced;
+    surprisingly short breath;
 
     [C.6]
-    (continues)
-    (long)
-    tutti maximally wide circle bows;
-    jagged stairstep process in each player independently:
+    (circles resume)
+    (4 measures)
+    moderato-più-mosso-to-presto accelerando governs stage;
+    tutti offset-homorhythm white circles:
+        lh-damp persists;
+        maximally wide circles;
+        one circle at a time followed by rest;
+        rhythm 3 2r 3 2r 3 2r 3 1(!)r 3 2r ...;
+        each player starting at different point in rhythm;
+        shared rhythmic background grid;
+        independent start and stop time;
+        termination types still not introduced;
+    no pause;
+
+    [C.7-10] = 2 x [C.5-6]
+        tutti maximally wide circles;
+        jagged stairstep process in each player independently:
         lh 3-finger damp subito becomes lh 2-finger harmonic;
         lh 2-finger harmonic subito becomes lh 3-finger damp again;
         lh 3-finger damp subito becomes lh 2-finger harmonic;
         lh 2-finger harmonic become lh 1-finger harmonic;
         lh 1-finger hamronic subito becomes lh 2-finger harmonic again;
         lh 2-finger harmonic become lh 1-finger harmonic;
-    everyone arrives at lh 1-finger harmonic;
+        everyone arrives at lh 1-finger harmonic;
     no pause;
 
-    [C.7]
-    (continues)
-    (shorter)
-    tutti maximally wide circle bows;
-    tutti harmonic-to-stopped transition over protracted course of 6 circles;
+    [C.11]
+    (4 measures)
+    strait moderato governs stage;
+    tutti maximally wide offset-homorhythm circles:
+        continuous sound in all parts (= no rest after any circle);
+        gradual harmonic-to-half-harmonic-to-stopped transition independently;
+    surprisingly short breath;
+
+    [C.12]
+    (2 measures)
+    largo-to-allegro accelerando governs first half of stage;
+    tutti maximally wide homorhythm circles:
+        rhythmicized again with rest after every circle;
+        one dynamic level louder;
+        fully stopped pitch in each part;
+        exposition of termination types;
     no pause;
 
-    [C.8]
-    (termination-inventory exposition continues)
-    (long)
-    broader (= slower) tempo;
-    one dynamic level louder;
-    tutti maximally wide circle bows on fully stopped pitch;
-    tutti introduction of termination inventory synchronized across players;
-    alternating accelerandi / ritardandi;
-    alternating crescendi / diminuendi;
+    [C.13]
+    (2 measures)
+    allegro-to-largo ritardando governs first half of stage;
+    tutti maximally wide homorhythm circles:
+        rhythmicized with rest after every circle;
+        one dynamic level quieter;
+        fully stopped pitch ibid in each part;
+        further exposition of termination types;
     no pause;
 
-    [C.9]
+    [C.14]
+    (2 measures)
+    largo-to-allegro accelerando governs first half of stage;
+    tutti maximally wide homorhythm circles:
+        rhythmicized with rest after every circle;
+        one dynamic level louder;
+        fully stopped pitch ibid in each part;
+        further exposition of termination types;
+    no pause;
+    
+    [C.15]
+    (2 measures)
+    allegro-to-largo ritardando governs first half of stage;
+    tutti maximally wide homorhythm circles:
+        rhythmicized with rest after every circle;
+        one dynamic level quieter;
+        fully stopped pitch ibid in each part;
+        further exposition of termination types;
+    pause;
+
+    [C.16]
     (medium)
-    accelerando effected;
-    tutti maximally wide circle bows on fully stopped pitches;
-    independent up-glissandi in each part;
-    corresponding tightening of circles; 
-    tutti diminuendo al niente;
-    tutti synchronized until end;
-    medium-length pause for reflection;
+    largo-to-presto accelerando governs first half of stage;
+    tutti maximally wide homorhythm circles:
+        continuous sound (= no rest after any circle);
+        fully stopped pitch ibid in each part at start of stage;
+        independent down-glissandi in each part;
+        corresponding slackening of circles; 
+        tutti diminuendo al niente;
+    pause;
 
 [D]
 
     [D.1]
-    (short)
-    (hesitancy grid stage one)
-    much faster tempo;
-    tutti lh-damp;
-    tutti desynchronized sparser rhythm;
-    tutti matte quiet dynamic;
-    extensive game of terminations;
-    fixed pitch in each part;
-    surprisingly short breath;
+    (6 measures)
+    presto continues;
+    tutti hesitancy grid stage one:
+        lh-damp returns;
+        unison pitch across all parts;
+        sparse desynchronized rhythm;
+        matte quiet dynamic;
+        extensive lh-damp termination game;
+    no pause;
 
     [D.2]
-    (medium)
-    (hesitancy grid stage two)
-    subito denser rhythmic organization to effect internal repetition;
-
-    ||: D.1-2 :||;
-    pause;
+    (6 measures)
+    presto continues;
+    tutti hesitancy grid stage one-to-two interpolation:
+        lh-damp persists;
+        unison persists;
+        denser desynchronized rhythm;
+        matte quiet dynamic persists;
+        lh-damp termination game continues;
+    no pause;
 
     [D.3]
-    (short)
-    (distant recollection)
-    single short densely spaced urtext declamation [recalls A.1];
-    quiet normale color;
-    long pause;
-
-        (extended introduction of tremolo)
-        (extended introduction of field of clouded pane)
+    (6 measures)
+    presto continues;
+    tutti hesitancy grid stage one-to-two interpolation:
+        lh-damp persists;
+        unison persists;
+        denser rhythm begins synchronization;
+        matte quiet dynamic persists;
+        lh-damp termination game continues;
+    no pause;
 
     [D.4]
-    (long)
-    vc clouded pane fundamental;
-    long pause;
+    (6 measures)
+    presto continues;
+    tutti hesitancy grid stage one-to-two interpolation:
+        lh-damp persists;
+        unison persists;
+        denser rhythm deepens synchronization;
+        matte quiet dynamic persists;
+        lh-damp termination game continues;
+    no pause;
 
     [D.5]
-    (short)
-    single short densey spaced urtext declamation [recalls A.1];
-    quiet normale color;
-    long pause;
+    (6 measures)
+    presto continues;
+    tutti hesitancy grid stage one-to-two interpolation:
+        lh-damp persists;
+        unison persists;
+        denser rhythm almost completely synchronized;
+        matte quiet dynamic persists;
+        lh-damp termination game continues;
+    no pause;
 
     [D.6]
-    (short)
-    (hesitancy grid stage two)
-    internal repetition [resumes D.2];
-    tutti lh-damp;
-    tutti matte quiet dynamic;
-    long pause;
+    (6 measures)
+    presto continues;
+    tutti hesitancy grid achieves stage two:
+        lh-damp persists;
+        unison persists;
+        denser rhythm completely synchronized;
+        matte quiet dynamic persists;
+        lh-damp termination game continues;
+    pause;
 
     [D.7]
-    (long)
-    (resumes D.4, D.5 simultaneously)
-    v1, v2, va densely spaced urtext field;
-    vc clouded pane fundamental;
-    no pause;
+    (6 measures)
+    presto continues;
+    ibid;
+    pause;
 
     [D.8]
-    (long)
-    accelerando;
-    v1, v2, va densely spaced urtext field;
-    v1, v2, va begin revving-up introduction of tremolo;
-    repeated attempts to get tremolo faster and faster;
-    vc clouded pane fundamental;
-    continuous sound between attempts;
-    no silences in any part;
-    no pause;
+    (1 measure)
+    andante governs stage;
+    tutti urtext declamation [recalls A.1]:
+        single urtext declamation;
+        densely spaced lower-register;
+        tasto color;
+        quiet dynamic;
+    long pause;
+
+    [tremolo exposition:]
+    [clouded pane exposition:]
 
     [D.9]
-    (long)
-    v1, v2, va densely spaced urtext field;
-    v1, v2, va tremolo flight achieved;
-    vc clouded pane fundamental;
-    extremely protracted crescendo to fff possibile in all parts;
-    v1, v2, va extremely protracted tremolo rate decrease;
-    vc transition to scratch;
-    no pause;
+    (4 measures)
+    largo governs stage;
+    v1, v2, va:
+        tacet;
+    vc:
+        clouded pane fundamental;
+    long pause;
 
     [D.10]
-    (short)
-    v1, v2, va densely spaced urtext field fff;
-    vc clouded pane fundamental scratch fff;
+    (1 measure)
+    andante governs stage;
+    tutti urtext declamation [recalls A.1]:
+        single urtext declamation;
+        densely spaced lower-register;
+        tasto color;
+        quiet dynamic;
+    long pause;
+
+    [D.11]
+    (2 measures)
+    presto governs stage;
+    tutti hesitancy grid stage two resumes but is cut off:
+        lh-damp;
+        unison;
+        denser rhythm completely synchronized;
+        matte quiet dynamic;
+        lh-damp termination game;
+    long pause;
+
+    [D.12]
+    (2 measures)
+    largo governs stage;
+    v1, v2, va:
+        densely spaced urtext field;
+        mp;
+    vc:
+        clouded pane fundamental;
+    no pause;
+
+    [D.13]
+    (2 measures)
+    largo continues;
+    v1, v2, va:
+        densely spaced tasto double-stop urtext field;
+        continuous sound;
+        tremolo begins revving up: sparse tremolo attempts;
+        mp;
+    vc:
+        clouded pane fundamental continues;
+    no pause;
+
+    [D.14]
+    (2 measures)
+    largo-to-allegro accelerando begins;
+    v1, v2, va:
+        densely spaced tasto double-stop urtext field continues;
+        continuous sound continues;
+        more tremolo attempts;
+        mp;
+    vc:
+        clouded pane fundamental continues;
+    no pause;
+
+    [D.15]
+    (2 measures)
+    largo-to-allegro accelerando continues;
+    v1, v2, va:
+        densely spaced tasto double-stop urtext field continues;
+        continuous sound continues;
+        many mnay tremolo attempts;
+        mp;
+    vc:
+        clouded pane fundamental continues;
+    no pause;
+
+    [D.16]
+    (2 measures)
+    largo-to-allegro accelerando continues;
+    v1, v2, va:
+        densely spaced tasto double-stop urtext field continues;
+        continuous sound continues;
+        v2, va continuous tremolo;
+        v1 almost continuous tremolo;
+        mp;
+    vc:
+        clouded pane fundamental continues;
+    no pause;
+
+    [D.17]
+    (2 measures)
+    accelerando achieves allegro on first downbeat;
+    v1, v2, va:
+        densely spaced tasto double-stop urtext field continues;
+        continuous sound continues;
+        continuous tremolo in all parts;
+        mp;
+    vc:
+        clouded pane fundamental continues;
+    no pause;
+
+    [D.18]
+    (2 measures)
+    subito largo;
+    v1, v2, va:
+        densely spaced tasto double-stop urtext field continues;
+        continuous sound continues;
+        continuous tremolo continues;
+        jagged tasto-to-poco-pont transition begins independently;
+    vc:
+        clouded pane fundamental begins mp-to-fff-scratch transition;
+    no pause;
+
+    [D.19]
+    (2 measures)
+    largo continues;
+    v1, v2, va:
+        densely spaced tasto double-stop urtext field continues;
+        continuous sound continues;
+        continuous tremolo continues;
+        jagged scp transition achieves poco pont on last measure downbeat;
+    vc:
+        clouded pane fundamental achieves fff scratch on last measure downbeat;
+    no pause;
+
+    [D.20]
+    (2 measures)
+    largo continues;
+    v1, v2, va:
+        densely spaced tasto double-stop urtext field changes pitch (!);
+        continuous sound continues;
+        continuous tremolo continues;
+        jagged scp reverses direction and begins poco-pont-to-tasto;
+    vc:
+        clouded pane fundamental fff scratch persists;
+    no pause;
+
+    [D.21]
+    (2 measures)
+    largo continues;
+    v1, v2, va:
+        densely spaced tasto double-stop urtext field continues;
+        continuous sound continues;
+        continuous tremolo continues;
+        jagged scp transition continues;
+        jagged scp transition achieves tasto on last measure downbeat;
+    vc:
+        subito tacet;
+    no pause;
+
+    [D.22]
+    (2 measures)
+    largo continues;
+    v1, v2, va:
+        densely spaced tasto double-stop urtext field continues;
+        continuous sound continues;
+        continuous tremolo continues;
+        tasto sempre;
+        mp > niente;
+    vc:
+        clouded pane fundamental reenters up one step;
+        niente < mp;
     short pause;
 
 [E]
@@ -505,7 +734,7 @@ SEGMENTS
         internal rhythmic ordering;
         very light and very fast;
         tutti p;
-    vc clouded pane quiet fundamental up one semitone;
+    vc clouded pane mp fundamental continues;
     no pause;
 
     [E.2]
