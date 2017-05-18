@@ -320,11 +320,10 @@ SEGMENTS
 [C]
 
     [C.1]
-    (interlude as segment initiation)
     (4 measures)
     moderato;
     tutti maximally tight talon-crunch circles:
-        lh-damp preserved from end of [B];
+        lh-damp persists;
         different rate for each player;
         fixed pitch for each player;
     pause;
@@ -332,7 +331,7 @@ SEGMENTS
     [C.2]
     (4 measures)
     moderato continues;
-    v1, va, vc:
+    v1:
         maximally tight talon-crunch cirles;
         lh-damp;
         pitch ibid;
@@ -340,27 +339,58 @@ SEGMENTS
         maximally tight talon-crunch circles;
         lh-damp;
         slow up-glissando;
+    va, vc:
+        maximally tight talon-crunch cirles;
+        lh-damp;
+        pitch ibid;
     pause;
 
-    [process begins: ellipses introduce termination types]
-
     [C.3]
-    (20 measures)
-    moderato più mosso;
+    (4 measures)
+    moderato più mosso begins;
     out-spiralling in each player independently:
         maximally tight crunch circles spiral outwards to become wider;
-        only a little wider at first;
-        then a bit more wider;
-        then quite wide;
-        then as wide as possible (and with relatively fast bowspeed);
-        each orbital attempt initially followed by pause;
-        orbitals eventually achieve continuous whisked white sound;
-        desynchronized between players throughout;
-        tutti lh-damp persists;
-        termination types not yet introduced;
-    surprisingly short breath;
+        1-2" width;
+        each orbital attempt initially followed by rest;
+        desynchronized;
+        lh-damp;
+        "mf";
+    no pause;
 
     [C.4]
+    (4 measures)
+    moderato più mosso continues;
+    out-spiralling in each player independently:
+        2-4" width;
+        each orbital attempt followed by rest;
+        desynchronized;
+        lh-damp;
+        "mf";
+    no pause;
+
+    [C.5]
+    (4 measures)
+    moderato più mosso continues;
+    out-spiralling in each player independently:
+        4-8" width;
+        post-attempt rests begin to disappear;
+        desynchronized;
+        lh-damp;
+        "mf > mp";
+    no pause;
+
+    [C.6]
+    (4 measures)
+    moderato più mosso continues;
+    out-spiralling in each player independently:
+        maximally wide;
+        post-attempt rests disappear to reveal continuous sound;
+        desynchronized;
+        lh-damp;
+        "mf > p";
+    surprisingly short breath;
+
+    [C.7]
     (sotto voce retrospection) 
     (1 measure)
     allegro governs stage;
@@ -374,7 +404,7 @@ SEGMENTS
     all sound ends immediately following clocktick;
     counted rest to build expectation before jumping back into circles;
 
-    [C.5]
+    [C.8]
     (circles resume)
     (4 measures)
     moderato-meno-mosso-to-allegro accelerando governs stage;
@@ -383,10 +413,9 @@ SEGMENTS
         synchronized maximally wide circles;
         one circle at a time followed by rest;
         rhythm 3 2r 3 2r 3 2r 3 1(!)r 3 2r ...;
-        termination types still not introduced;
     surprisingly short breath;
 
-    [C.6]
+    [C.9]
     (circles resume)
     (4 measures)
     moderato-più-mosso-to-presto accelerando governs stage;
@@ -398,10 +427,9 @@ SEGMENTS
         each player starting at different point in rhythm;
         shared rhythmic background grid;
         independent start and stop time;
-        termination types still not introduced;
     no pause;
 
-    [C.7-10] = 2 x [C.5-6]
+    [C.10-13] = 2 x [C.8-9]
         tutti maximally wide circles;
         jagged stairstep process in each player independently:
         lh 3-finger damp subito becomes lh 2-finger harmonic;
@@ -413,7 +441,7 @@ SEGMENTS
         everyone arrives at lh 1-finger harmonic;
     no pause;
 
-    [C.11]
+    [C.14]
     (4 measures)
     strait moderato governs stage;
     tutti maximally wide offset-homorhythm circles:
@@ -421,7 +449,7 @@ SEGMENTS
         gradual harmonic-to-half-harmonic-to-stopped transition independently;
     surprisingly short breath;
 
-    [C.12]
+    [C.15]
     (2 measures)
     largo-to-allegro accelerando governs first half of stage;
     tutti maximally wide homorhythm circles:
@@ -431,7 +459,7 @@ SEGMENTS
         exposition of termination types;
     no pause;
 
-    [C.13]
+    [C.16]
     (2 measures)
     allegro-to-largo ritardando governs first half of stage;
     tutti maximally wide homorhythm circles:
@@ -441,7 +469,7 @@ SEGMENTS
         further exposition of termination types;
     no pause;
 
-    [C.14]
+    [C.17]
     (2 measures)
     largo-to-allegro accelerando governs first half of stage;
     tutti maximally wide homorhythm circles:
@@ -451,7 +479,7 @@ SEGMENTS
         further exposition of termination types;
     no pause;
     
-    [C.15]
+    [C.18]
     (2 measures)
     allegro-to-largo ritardando governs first half of stage;
     tutti maximally wide homorhythm circles:
@@ -461,8 +489,8 @@ SEGMENTS
         further exposition of termination types;
     pause;
 
-    [C.16]
-    (medium)
+    [C.19]
+    (6 measures)
     largo-to-presto accelerando governs first half of stage;
     tutti maximally wide homorhythm circles:
         continuous sound (= no rest after any circle);
