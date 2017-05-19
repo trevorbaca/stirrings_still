@@ -186,136 +186,319 @@ SEGMENTS
 
 [B]
 
+    [clockticks become trajectories]
+
     [B.1]
-    (long)
-    v2, va, vc lh-damp clocktick 1/2 clt alternating full bowstrokes;
-    v1 lh-damp clocktick 1/2 clt intermittently conflicting rhythm;
+    (4 measures)
+    moderato governs stage;
+    v1:
+        lh-damp 1/2 clt clockticks begin;
+        intermittently conflicting rhythm;
+        "mp";
+    v2:
+        lh-damp 1/2 clt clockticks begin;
+        regular homorhythm: 1 (1r) (1r) 1 (1r) (1r) ...;
+        "mp";
+    va:
+        lh-damp 1/2 clt clockticks begin;
+        regular homorhythm: 1 (1r) (1r) 1 (1r) (1r) ...;
+        "mp";
+    vc:
+        lh-damp 1/2 clt clockticks begin;
+        regular homorhythm: 1 (1r) (1r) 1 (1r) (1r) ...;
+        "mp";
     no pause;
 
     [B.2]
-    (shorter)
-    subito slightly broader (= slower) tempo;
-    tutti lh-damp clocktick 1/2 clt alternating full bowstrokes;
+    (1 measure)
+    largo governs stage;
+    v1:
+        lh-damp 1/2 clt clockticks continue;
+        "mf";
+    v2:
+        lh-damp 1/2 clt clockticks continue;
+        "mf";
+    va:
+        lh-damp 1/2 clt clockticks continue;
+        "mf";
+    vc:
+        lh-damp 1/2 clt clockticks continue;
+        "mf";
     no pause;
 
     [B.3]
-    (longer)
-    subito faster temp;
-    v1, v2, vc lh-damp clocktick 1/2 clt alternating full bowstrokes;
-    va lh-damp ellipses [recalls A.17];
-    [[future]];
+    (2 measures)
+    moderato più mosso begins;
+    moderato-più-mosso-to-presto accelerando begins;
+    v1:
+        lh-damp 1/2 clt clockticks continue;
+        "mp" > niente;
+    v2:
+        lh-damp 1/2 clt clockticks continue;
+        "mp" > niente;
+    va:
+        lh-damp ellipses return [recalls A.17];
+    vc:
+        lh-damp 1/2 clt clockticks continue;
+        "mp" > niente;
+    [[future begins]];
     
         [B.4]
-        (longer)
+        (4 measures)
+        accelerando achieves presto on last measure downbeat;
         [[future persists unaccompanied]];
 
     [B.5]
-    (shorter)
-    v2 lh-damp clocktick 1/2 clt alternating full bowstrokes;
-    v1, va, vc lh-damp ellipses;
-    counted rest equal to exactly 1/2 clocktick (to displace next);
+    (1 measure: fractional time signature)
+    moderato governs stage;
+    v1:
+        lh-damp ellipses resume;
+    v2:
+        lh-damp 1/2 clt clockticks resume;
+    va:
+        lh-damp ellipses resume;
+    vc:
+        lh-damp ellipses resume;
+    counted rest equal to exactly 2/3 clocktick (to displace next);
 
     [B.6]
-    (shorter)
-    v1, v2 lh-damp clocktick 1/2 clt alternating full bowstrokes;
-    va, vc lh-damp ellipses;
-    counted rest equal to exactly 1/2 clocktick (to displace next);
+    (1 measure: fractional time signature)
+    moderato meno mosso governs stage;
+    v1:
+        lh-damp 1/2 clt clockticks return;
+    v2:
+        lh-damp 1/2 clt clockticks continue;
+    va:
+        lh-damp ellipses continue;
+    vc:
+        lh-damp ellipses continue;
+    counted rest equal to exactly 2/3 clocktick (to displace next);
 
     [B.7]
-    (shorter)
-    v1, v2, vc lh-damp clocktick 1/2 clt alternating full bowstrokes;
-    va lh-damp ellipses;
-    counted rest equal to exactly 1/2 clocktick (to displace next);
+    (1 measure: fractional time signature)
+    moderato più mosso governs stage;
+    v1:
+        lh-damp 1/2 clt clockticks continue;
+    v2:
+        lh-damp 1/2 clt clockticks continue;
+    va:
+        lh-damp ellipses continue;
+    vc:
+        lh-damp 1/2 clt clockticks return;
+    counted rest equal to exactly 2/3 clocktick (to displace next);
+
+        [trajectories appear for first time:]
+        [pitch reappears:]
 
     [B.8]
-    (long)
-    (full trajectories appear for first time);
-    v1, v2, vc lh-damp 1/2 clt trajectories;
-    va lh-damp ellipses;
+    (2 measures)
+    largo begins;
+    v1:
+        lh-damp 1/2 clt clockticks continue;
+        "p";
+    v2:
+        pitched 1/2 clt trajectories begin;
+        "ppp" < "p";
+    va:
+        lh-damp ellipses continue;
+    vc:
+        lh-damp 1/2 clt clockticks continue;
     no pause;
 
     [B.9]
-    (medium)
-    (pitch reppears after absence);
-    v1, v2 lh-damp 1/2 clt trajectories;
-    va lh-damp ellipses;
-    vc pitched tasto 1/2 clt trajectories ppp;
+    (2 measures)
+    largo-to-allegro accelerando governs stage;
+    v1:
+        lh-damp 1/2 clt clockticks continue;
+        "p" > niente begins;
+    v2:
+        pitched 1/2 clt trajectories continue;
+        "p" < "mp";
+    va:
+        lh-damp ellipses complete;
+        "p" > niente;
+    vc:
+        pitched 1/2 clt trajectories begin;
+        "ppp" < "p";
     no pause;
 
     [B.10]
-    (shorter)
-    v1, v2, va lh-damp 1/2 clt trajectories;
-    vc pitched tasto 1/2 clt trajectories ppp;
+    (1 measure)
+    allegro continues;
+    v1:
+        lh-damp 1/2 clt clockticks continue;
+        decrescendo continues;
+    v2:
+        pitched 1/2 clt trajectories continue;
+        "mp";
+    va:
+        tacet;
+    vc:
+        pitched 1/2 clt trajectories continue;
+        "p" < "mp";
     no pause;
 
     [B.11]
-    (shorter)
-    v1, va lh-damp 1/2 clt trajectories;
-    v2, vc pitched tasto 1/2 clt trajectories ppp;
+    (2 measures)
+    allegro-to-largo ritardando governs stage;
+    v1:
+        lh-damp 1/2 clt clockticks complete;
+        decrescendo achieves niente at end;
+    v2:
+        pitched 1/2 clt trajectories continue;
+        "mp";
+    va:
+        pitched 1/2 clt trajectories begin;
+        "ppp" < "p";
+    vc:
+        pitched 1/2 clt trajectories continue;
+        "mp";
     no pause;
 
     [B.12]
-    (shorter)
-    va lh-damp 1/2 clt trajectories;
-    v1, v2, vc pitched tasto 1/2 clt trajectories ppp;
-    no pause;
+    (1 measure)
+    largo continues;
+    v1:
+        tacet;
+    v2:
+        pitched 1/2 clt trajectories continue;
+        "mp";
+    va:
+        pitched 1/2 clt trajectories continue;
+        "p" < "mp";
+    vc:
+        pitched 1/2 clt trajectories continue;
+        "mp";
+    pause;
 
     [B.13]
-    (medium)
-    tutti pitched tasto 1/2 clt trajectories ppp;
-    no pause;
+    (2 measures)
+    largo-to-moderato accelerando governs stage; 
+    tutti pitched trajectories (non 1/2 clt):
+        ppp < mp:
+            arrives midmeasure downbeat;
+        tasto-to-poco-pont:
+            arrives midmeasure downbeat;
+    pause;
 
     [B.14]
-    (longer)
-    tutti 1/2 clt trajectories;
-    very slow jagged interpolation from tasto to poco ponticello;
-    ppp < f;
-    surprisingly short breath;
+    (2 measures)
+    largo-to-moderato-più-mosso accelerando governs stage; 
+    tutti pitched trajectories:
+        pp < mf:
+            arrives midmeasure downbeat;
+        tasto-to-poco-pont:
+            arrives midmeasure downbeat;
+    pause;
 
     [B.15]
-    (medium)
-    v1, v2, vc reprise trajectories subito tasto coi crini senza legno p;
-    vc trajectories begin transition to tastissimo;
-    va pedal p;
-    no pause;
+    (2 measures)
+    largo-to-allegro accelerando governs stage; 
+    tutti pitched trajectories:
+        p < f:
+            arrives midmeasure downbeat;
+        tasto-to-pont-mod:
+            arrives midmeasure downbeat;
+    pause;
 
     [B.16]
-    (shorter)
-    v1, v2, vc trajectories;
-    v1 trajectories;
-    v2 trajectories begin transition to tastissimo;
-    vc trajectories still transitioning to tastissimo;
-    va pedal;
-    no pause;
+    (2 measures)
+    largo-to-allegro-più-mosso accelerando governs stage; 
+    tutti pitched trajectories:
+        mp < ff:
+            arrives midmeasure downbeat;
+        tasto-to-molto-pont:
+            arrives midmeasure downbeat;
+    pause;
 
     [B.17]
-    (shorter)
-    v1 trajectories begin transition to tastissimo;
-    v2 trajectories still transitioning to tastissimo;
-    vc achieves tastissimo and holds;
-    va pedal;
-    no pause;
+    (2 measures)
+    largo-to-vivace accelerando governs stage; 
+    tutti pitched trajectories:
+        mf < fff:
+            arrives midmeasure downbeat;
+        tasto-to-pont-poss:
+            arrives midmeasure downbeat;
+    pause;
 
     [B.18]
-    (shorter)
-    v1 trajectories still transitioning to tastissimo;
-    v2 achieves tastissimo and holds;
-    vc tastissimo;
-    va pedal;
+    (2 measures)
+    largo-to-presto accelerando governs stage; 
+    tutti pitched trajectories:
+        f < fff+:
+            arrives midmeasure downbeat;
+        tasto-to-pont-poss:
+            arrives midmeasure downbeat;
     no pause;
 
     [B.19]
-    (longer)
-    v1 achieves tastissimo and holds;
-    v2, vc tastissimo;
-    va pedal;
-    substantial pause;
+    (6 measures)
+    largo-to-presto-accelerando governs stage;
+    tutti pitched trajectories:
+        sub. ff > ppp:
+            arrives 2/3 measure downbeat;
+        sub. molto-pont-to-tasto:
+            arrives 2/3 measure downbeat;
+    no pause;
 
     [B.20]
-    (shorter)
-    (looking back over shoulder)
-    tutti lh-damp 1/2 clt trajectories [recalls B.8];
-    even more substantial pause;
+    (2 measures)
+    presto-to-largo ritardando begins;
+    v1:
+        pitched tasto ppp trajectories continue;
+    v2:
+        wide tasto ppp ellipses begin;
+    va:
+        pitched tasto ppp trajectories continue;
+    vc:
+        pitched tasto ppp trajectories continue;
+    no pause;
+
+    [B.21]
+    (1 measure)
+    presto-to-largo ritardando continues;
+    v1:
+        pitched tasto ppp trajectories continue;
+    v2:
+        wide tasto ppp ellipses continue;
+    va:
+        wide tasto ppp ellipses begin;
+    vc:
+        pitched tasto ppp trajectories continue;
+    no pause;
+
+    [B.22]
+    (1 measure)
+    ritardando achieves largo on first downbeat;
+    v1:
+        wide tasto ppp ellipses begin;
+    v2:
+        wide tasto ppp ellipses continue;
+    va:
+        wide tasto ppp ellipses continue;
+    vc:
+        pitched tasto ppp trajectories continue;
+    no pause;
+
+    [B.23]
+    (1 measure)
+    largo continues;
+    v1:
+        wide tasto ppp ellipses continue;
+    v2:
+        wide tasto ppp ellipses continue;
+    va:
+        wide tasto ppp ellipses continue;
+    vc:
+        wide tasto ppp ellipses begin;
+    pause;
+
+    [B.24]
+    (1 measure)
+    largo continues;
+    tutti:
+        unexplained hesitancy grid appears;
+    pause;
 
 [C]
 
@@ -397,11 +580,11 @@ SEGMENTS
     v1:
         [[shining harmonic beacon of future]];
     v2:
-        lh-damp 1/2 clt fast clocktick [recalls B.7];
+        lh-damp 1/2 clt fast clockticks [recalls B.7];
     va, vc:
         [[shining harmonic beacon of future]];
     cut-off;
-    all sound ends immediately following clocktick;
+    all sound ends immediately following clockticks;
     counted rest to build expectation before jumping back into circles;
 
     [C.8]
