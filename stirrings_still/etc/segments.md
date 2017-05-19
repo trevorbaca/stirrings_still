@@ -219,7 +219,7 @@ SEGMENTS
         lh-damp 1/2 clt clockticks continue;
         "mf";
     va:
-        lh-damp 1/2 clt clockticks continue;
+        lh-damp 1/2 clt clockticks begin;
         "mf";
     vc:
         lh-damp 1/2 clt clockticks continue;
@@ -237,16 +237,20 @@ SEGMENTS
         lh-damp 1/2 clt clockticks continue;
         "mp" > niente;
     va:
-        lh-damp ellipses return [recalls A.17];
+        lh-damp ellipses return [recalls end of A];
+        niente < "mp";
     vc:
-        lh-damp 1/2 clt clockticks continue;
-        "mp" > niente;
-    [[future begins]];
+        [[future begins]];
+    no pause;
     
-        [B.4]
-        (4 measures)
-        accelerando achieves presto on last measure downbeat;
+    [B.4]
+    (4 measures)
+    accelerando achieves presto on last measure downbeat;
+    v1, v2, va:
+        tacet;
+    vc:
         [[future persists unaccompanied]];
+    no pause;
 
     [B.5]
     (1 measure: fractional time signature)
@@ -298,7 +302,7 @@ SEGMENTS
         "p";
     v2:
         pitched 1/2 clt trajectories begin;
-        "ppp" < "p";
+        "ppp" < "p" begins;
     va:
         lh-damp ellipses continue;
     vc:
@@ -313,7 +317,7 @@ SEGMENTS
         "p" > niente begins;
     v2:
         pitched 1/2 clt trajectories continue;
-        "p" < "mp";
+        crescendo achieves "mp" on midmeasure downbeat;
     va:
         lh-damp ellipses complete;
         "p" > niente;
@@ -329,8 +333,7 @@ SEGMENTS
         lh-damp 1/2 clt clockticks continue;
         decrescendo continues;
     v2:
-        pitched 1/2 clt trajectories continue;
-        "mp";
+        pitched 1/2 clt "mp"trajectories continue;
     va:
         tacet;
     vc:
@@ -345,11 +348,10 @@ SEGMENTS
         lh-damp 1/2 clt clockticks complete;
         decrescendo achieves niente at end;
     v2:
-        pitched 1/2 clt trajectories continue;
-        "mp";
+        pitched 1/2 clt "mp" trajectories continue;
     va:
         pitched 1/2 clt trajectories begin;
-        "ppp" < "p";
+        "ppp" < "mp" begins;
     vc:
         pitched 1/2 clt trajectories continue;
         "mp";
@@ -361,11 +363,10 @@ SEGMENTS
     v1:
         tacet;
     v2:
-        pitched 1/2 clt trajectories continue;
-        "mp";
+        pitched 1/2 clt "mp" trajectories continue;
     va:
         pitched 1/2 clt trajectories continue;
-        "p" < "mp";
+        crescendo achieves "mp" on midmeasure downbeat;
     vc:
         pitched 1/2 clt trajectories continue;
         "mp";
@@ -377,7 +378,7 @@ SEGMENTS
     tutti pitched trajectories (non 1/2 clt):
         ppp < mp:
             arrives midmeasure downbeat;
-        tasto-to-poco-pont:
+        tasto-to-ord:
             arrives midmeasure downbeat;
     pause;
 
