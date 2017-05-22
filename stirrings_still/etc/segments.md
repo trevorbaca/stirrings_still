@@ -92,7 +92,7 @@ SEGMENTS
     [A.6]
     (1 measure)
     subito moderato;
-    v1, v2, va urtext declamation as per [A.1]:
+    v1, v2, va urtext declamation as per [A.1] with chord change:
         third chord:
             even a bit quieter;
             pp <| p ringing lv;
@@ -206,8 +206,8 @@ SEGMENTS
     surprisingly short breath;
 
     [A.13]
-    (2-4 measures) 
-    largo begins;
+    (4 measures) 
+    largo continues;
     tutti ellipses:
         subito lh-damp;
         subito slower rate;
@@ -242,6 +242,7 @@ SEGMENTS
     pause;
 
     [A.17]
+    (1 measure)
     andante governs stage;
     v1, v2, va urtext declamation [A.6]:
         third chord only:
@@ -832,21 +833,23 @@ SEGMENTS
     [D.7]
     (6 measures)
     presto continues;
-    ibid;
+    tutti hesitancy grid stage two:
+        ibid;
     pause;
 
     [D.8]
     (1 measure)
     andante governs stage;
-    tutti urtext declamation [recalls A.1]:
+    tutti urtext declamation [A.1]:
         single urtext declamation;
+        two chords [A.1];
         densely spaced lower-register;
-        tasto color;
-        quiet dynamic;
+        tasto senza vibrato;
+        p;
     long pause;
 
-    [tremolo exposition:]
-    [clouded pane exposition:]
+        [tremolo exposition:]
+        [clouded pane exposition:]
 
     [D.9]
     (4 measures)
@@ -860,155 +863,160 @@ SEGMENTS
     [D.10]
     (1 measure)
     andante governs stage;
-    tutti urtext declamation [recalls A.1]:
+    tutti urtext declamation [A.1]:
         single urtext declamation;
+        two chords [A.2];
         densely spaced lower-register;
-        tasto color;
-        quiet dynamic;
+        tasto senza vibrato;
+        p;
     long pause;
 
     [D.11]
     (2 measures)
     presto governs stage;
-    tutti hesitancy grid stage two resumes but is cut off:
+    tutti hesitancy grid stage two resumes but fades out:
         lh-damp;
         unison;
         denser rhythm completely synchronized;
         matte quiet dynamic;
         lh-damp termination game;
+        "f" > niente;
     long pause;
 
     [D.12]
     (2 measures)
     largo governs stage;
-    v1, v2, va:
-        densely spaced urtext field;
+    v1, v2, va urtext field:
+        densely spaced tasto double-stops begin;
+        continuous sound begins;
         mp;
-    vc:
-        clouded pane fundamental;
+    vc clouded pane fundamental:
+        p begins;
     no pause;
 
     [D.13]
     (2 measures)
     largo continues;
-    v1, v2, va:
-        densely spaced tasto double-stop urtext field;
-        continuous sound;
-        tremolo begins revving up: sparse tremolo attempts;
+    v1, v2, va urtext field:
+        densely spaced tasto double-stops continue;
+        continuous sound continues;
+        tremolo begins revving up:
+            sparse tremolo attempts;
         mp;
-    vc:
-        clouded pane fundamental continues;
+    vc clouded pane fundamental:
+        p continues;
     no pause;
 
     [D.14]
     (2 measures)
     largo-to-allegro accelerando begins;
-    v1, v2, va:
-        densely spaced tasto double-stop urtext field continues;
+    v1, v2, va urtext field:
+        densely spaced tasto double-stops continue;
         continuous sound continues;
         more tremolo attempts;
         mp;
-    vc:
-        clouded pane fundamental continues;
+    vc clouded pane fundamental:
+        p continues;
     no pause;
 
     [D.15]
     (2 measures)
     largo-to-allegro accelerando continues;
-    v1, v2, va:
-        densely spaced tasto double-stop urtext field continues;
+    v1, v2, va urtext field:
+        densely spaced tasto double-stops continue;
         continuous sound continues;
-        many mnay tremolo attempts;
+        many many tremolo attempts;
         mp;
-    vc:
-        clouded pane fundamental continues;
+    vc clouded pane fundamental:
+        p continues;
     no pause;
 
     [D.16]
     (2 measures)
     largo-to-allegro accelerando continues;
-    v1, v2, va:
-        densely spaced tasto double-stop urtext field continues;
+    v1, v2, va urtext field:
+        densely spaced tasto double-stops continue;
         continuous sound continues;
         v2, va continuous tremolo;
         v1 almost continuous tremolo;
         mp;
-    vc:
-        clouded pane fundamental continues;
+    vc clouded pane fundamental:
+        p continues;
     no pause;
 
     [D.17]
     (2 measures)
     accelerando achieves allegro on first downbeat;
-    v1, v2, va:
-        densely spaced tasto double-stop urtext field continues;
+    v1, v2, va urtext field:
+        densely spaced tasto double-stops continue;
         continuous sound continues;
         continuous tremolo in all parts;
+        continuous tremolo arrives on first downbeat;
         mp;
-    vc:
-        clouded pane fundamental continues;
+    vc clouded pane fundamental:
+        p continues;
     no pause;
 
     [D.18]
     (2 measures)
     subito largo;
-    v1, v2, va:
-        densely spaced tasto double-stop urtext field continues;
+    v1, v2, va urtext field:
+        densely spaced tasto double-stops continue;
         continuous sound continues;
         continuous tremolo continues;
         jagged tasto-to-poco-pont transition begins independently;
-    vc:
-        clouded pane fundamental begins mp-to-fff-scratch transition;
+    vc clouded pane fundamental:
+        begins mp-to-fff-scratch transition;
     no pause;
 
     [D.19]
     (2 measures)
     largo continues;
-    v1, v2, va:
-        densely spaced tasto double-stop urtext field continues;
+    v1, v2, va urtext field:
+        densely spaced tasto double-stops continue;
         continuous sound continues;
         continuous tremolo continues;
         jagged scp transition achieves poco pont on last measure downbeat;
-    vc:
-        clouded pane fundamental achieves fff scratch on last measure downbeat;
+    vc clouded pane fundamental:
+        achieves fff scratch on last measure downbeat;
     no pause;
 
     [D.20]
     (2 measures)
     largo continues;
-    v1, v2, va:
-        densely spaced tasto double-stop urtext field changes pitch (!);
+    v1, v2, va urtext field:
+        densely spaced tasto double-stops change pitch (!);
         continuous sound continues;
         continuous tremolo continues;
         jagged scp reverses direction and begins poco-pont-to-tasto;
-    vc:
-        clouded pane fundamental fff scratch persists;
+    vc clouded pane fundamental:
+        fff scratch continues;
     no pause;
 
     [D.21]
     (2 measures)
     largo continues;
-    v1, v2, va:
-        densely spaced tasto double-stop urtext field continues;
+    v1, v2, va urtext field:
+        densely spaced tasto double-stops continue;
         continuous sound continues;
         continuous tremolo continues;
         jagged scp transition continues;
         jagged scp transition achieves tasto on last measure downbeat;
     vc:
-        subito tacet;
+        tacet subito;
     no pause;
 
     [D.22]
     (2 measures)
     largo continues;
-    v1, v2, va:
-        densely spaced tasto double-stop urtext field continues;
+    v1, v2, va urtext field:
+        densely spaced tasto double-stops continue;
         continuous sound continues;
         continuous tremolo continues;
         tasto sempre;
         mp > niente;
-    vc:
-        clouded pane fundamental reenters up one step;
+    vc clouded pane fundamental:
+        reenters up one step;
         niente < mp;
     short pause;
 
