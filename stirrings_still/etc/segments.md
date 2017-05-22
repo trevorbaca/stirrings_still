@@ -3,186 +3,263 @@ SEGMENTS
 
 [A]
 
-    [A.1] (1)
-    (relatively short)
-    underlying tempo circa 90;
-    urtext declamation:
+    [A.1]
+    (1 measure)
+    andante begins;
+    v1, v2, va urtext declamation:
         tasto senza vibrato;
         two rest-delimited chords;
         densely spaced double stops;
-        first chord short;
-        second chord longer;
-        first chord constant dynamic stop-on-string;
-        second chord poco exponential crescendo stop-on-string;
-    vc tacet;
+        first chord:
+            short;
+            p <| mp ringing lv;
+        second chord:
+            longer;
+            p <| mp stop-on-string;
+    vc:
+        tacet;
     pause;
 
-    [A.2] (2)
-    (little longer)
-    underlying tempo circa 90;
-    urtext declamation:
-        first chord always the same;
-        second chord begins to strain;
-        second chord slightly longer;
-        second chord terminates slightly louder;
-        second chord slows bow slightly on approach to termination;
-    vc still tacet;
-    pause (ibid);
+    [A.2]
+    (1 measure)
+    andante continues;
+    v1, v2, va urtext declamation:
+        first chord:
+            simile;
+        second chord:
+            begins to strain;
+            slightly longer;
+            terminates slightly louder;
+            slows bow slightly on approach to termination;
+            p <| mf stop-on-string;
+    vc:
+        tacet ancora;
+    pause;
 
-    [A.3] (3)
-    (little longer still)
-    underlying tempo circa 90;
-    urtext declamation:
-        second chord strains a little more;
-        second chord even a little longer;
-        second chord terminates even a little louder;
-        second chord slows bow even a bit more;
-        second chord encourages a touch of scratch on approach to termination;
-    vc still tacet;
-    pause (ibid);
+    [A.3]
+    (2 measures)
+    andante continues;
+    v1, v2, va urtext declamation:
+        first chord:
+            simile;
+        second chord:
+            strains a little more;
+            even a little longer;
+            terminates even a little louder;
+            slows bow even a bit more;
+            encourages a touch of scratch on approach to termination;
+            p <| mf poco scratch stop-on-string;
+    vc:
+        tacet ancora;
+    pause;
 
-    [A.4] (4)
-    (even longer)
-    underlying tempo circa 90;
-    urtext declamation:
-        second chord strains even more;
-        second chord still longer;
-        second chord still louder;
-        second chord encourages even more scratch on approach to termination;
-    vc still tacet;
-    pause (ibid);
+    [A.4]
+    (2 measures)
+    andante continues;
+    v1, v2, va urtext declamation:
+        first chord:
+            simile;
+        second chord:
+            strains even more;
+            still longer;
+            still louder;
+            encourages even more scratch on approach to termination;
+            p <| mf mod. scratch stop-on-string;
+    vc:
+        tacet anocra;
+    pause;
 
-    [A.5] (5)
-    (long)
-    accelerando from circa 90 up to circa 124;
-    urtext declamation:
-        second chord appears fully;
-        second chord long;
-        second chord loud;
-        second chord now full field;
-        second chord recedes in undulation;
-        second chord transitions into relatively loud scratch;
-        second chord transitions out of scratch to quieter dynamic;
-        second chord transitions into somewhat less loud scratch;
-        second chord transitions out of scratch to even quieter dynamic;
-        second chord transitions into even less loud scratch;
-        second chord transitions out of scratch to even quieter dynanic;
-    vc enters first time in piece;
-    vc enters at start of second chord;
-    vc enters on urtext fundamental;
-    vc tasto senza vibrato;
-    vc fixed quiet dynamic;
-    pause (ibid) [vc persists];
+    [A.5]
+    (6 measures)
+    andante-to-allegro accelerando governs stage;
+    accelerando achieves allegro on last measure first downbeat;
+    v1, v2, va urtext declamation:
+        first chord:
+            simile;
+        second chord:
+            appears fully;
+            long;
+            loud;
+            now full field;
+            p <| f scratch >... mf mod. scratch > mp poco scratch > p > niente;
+    vc urtext fundamental enters at start of second chord:
+        tasto senza vibrato begins;
+        p begins;
+    pause [vc holds over pause];
 
-    [A.6] (1)
-    [starting again]
-    (relatively short)
-    subito slightly broader (= slower) tempo than at start of piece;
-    subito tempo circa 76;
-    urtext declamation as per [A.1]:
-        first chord even a bit quieter;
-        second chord quieter than at start of piece;
-    vc persists;
-    pause (ibid) [vc persists];
+        [starting again:]
 
-    [A.7] (2)
-    (little longer)
-    tempo circa 76;
-    urtext declamation:
-        second chord a little longer;
-        second chord poco exponential crescendo;
-        second chord does not introduce slower bow;
-        second chord does not terminate stop-on-string;
-        second chord terminates tutti lv;
-        second chord tutti immediately followed by desynchronized ellipses;
-        tutti desynchronized ellipses as type of motion-echo;
-        ellipses' duration proportional to crescendo end-dynamic;
-    vc persists;
-    pause (ibid) [vc persists];
+    [A.6]
+    (1 measure)
+    subito moderato;
+    v1, v2, va urtext declamation as per [A.1]:
+        third chord:
+            even a bit quieter;
+            pp <| p ringing lv;
+        fourth chord:
+            quieter than at start of piece;
+            pp <| p ringing lv (not stop-on-string);
+    vc urtext fundamental:
+        tasto senza vibrato continues;
+        p continues;
+    pause [vc holds over pause];
+
+    [A.7]
+    (1 measure)
+    moderato continues;
+    v1, v2, va urtext declamation:
+        third chord simile:
+            short pp <| p ringing lv;
+        fourth chord:
+            a little longer;
+            does not introduce slower bow;
+            does not terminate stop-on-string;
+            pp <| mp ringing lv;
+        immediately followed by desynchronized ellipses:
+            "mp";
+            moderate rate;
+            moderate duration;
+    vc urtext fundamental:
+        tasto senza vibrato continues;
+        p continues;
+    pause [vc holds over pause];
 
         [[intercalation from future over vc pedal]];
         [[tremolo flight]];
 
-    [A.8] (3)
-    (even longer)
-    tempo circa 76;
-    urtext declamation:
-        second chord even longer;
-        second chord poco exponential crescendo even louder;
-        second chord terminates tutti lv;
-        second chord tutti immediately followed by more ellipses;
-    vc persists;
-    pause (ibid) [vc persists];
+    [A.8]
+    (2 measures)
+    moderato continues;
+    v1, v2, va urtext declamation:
+        third chord simile:
+            short pp <| p ringing lv;
+        fourth chord:
+            even longer;
+            pp <| mf ringing lv;
+        desynchronized ellipses:
+            "p";
+            slightly faster rate;
+            slightly longer duration;
+    vc urtext fundamental:
+        tasto senza vibrato continues;
+        p continues;
+    pause [vc holds over pause];
 
-    [A.9] (4)
-    (longer still)
-    tempo circa 76;
-    urtext declamation:
-        second chord longer still;
-        second chord poco exponential crescendo louder still;
-        second chord terminates tutti lv;
-        second chord tutti immediately followed by even more ellipses;
-    vc persists;
-    pause (ibid) [vc persists];
+    [A.9]
+    (2 measures)
+    moderato continues;
+    v1, v2, va urtext declamation:
+        third chord simile:
+            short pp <| p ringing lv;
+        fourth chord:
+            longer still;
+            pp <| f ringing lv;
+        desynchronized ellipses:
+            "pp";
+            fast rate;
+            longer duration;
+    vc urtext fundamental:
+        tasto senza vibrato continues;
+        p continues;
+    pause [vc holds over pause];
 
-    [A.10] (5)
-    (long)
-    accelerando from circa 76 to circa 124;
-    urtext declamation:
-        second chord long;
-        second chord poco exponential crescendo loud;
-        second chord terminates tutti lv;
-        second chord tutti immediately followed by many ellipses;
-    vc persists;
+    [A.10]
+    (6 measures)
+    moderato-to-allegro accelerando governs stage;
+    accelerando achieves allegro on last measure first downbeat;
+    v1, v2, va urtext declamation:
+        third chord simile:
+            short pp <| p ringing lv;
+        fourth chord:
+            long;
+            pp <| ff ringing lv;
+        desynchronized ellipses:
+            "ppp";
+            very fast rate;
+            long duration;
+    vc urtext fundamental:
+        tasto senza vibrato continues;
+        p continues;
     no pause;
 
     [A.11]
-    (long)
-    tempo circa 124;
-    v1, v2, va ellipses continue;
-    vc persists;
-    vc effects down-glissando;
-    vc effects decrescendo al niente and drops out;
+    (6 measures)
+    allegro continues;
+    v1, v2, va ellipses:
+        "ppp" continues;
+        very fast rate continues;
+    vc urtext fundamental:
+        tasto senza vibrato continues;
+        down-glissando;
+        p > niente;
     no pause;
 
     [A.12]
-    (medium) 
-    subito broader (= slower) tempo;
-    vc joins v1, v2, va ellipses;
-    tutti ellipses subito lh-damp;
-    tutti ellipses subito slower;
-    pause;
+    (4 measures)
+    allegro-to-largo ritardando governs stage;
+    ritardando achieves largo on last measure first downbeat;
+    v1, v2, va ellipses:
+        "ppp" continues;
+        very fast rate continues;
+    vc:
+        tacet;
+    surprisingly short breath;
 
     [A.13]
-    (shorter)
-    broad tempo;
-    tutti lh-damp ellipses;
-    pause (ibid);
+    (2-4 measures) 
+    largo begins;
+    tutti ellipses:
+        subito lh-damp;
+        subito slower rate;
+        subito "p";
+    pause;
 
     [A.14]
-    (similarly short)
-    broad tempo;
-    tutti lh-damp ellipses;
-    pause (ibid);
+    (1 measure)
+    largo continues;
+    tutti ellipses:
+        lh-damp continues;
+        slow rate continues;
+        "p" continues;
+    pause;
 
     [A.15]
-    (similarly short)
-    tutti lh-damp ellipses;
-    pause (ibid);
+    (1 measure)
+    largo continues;
+    tutti ellipses:
+        lh-damp continues;
+        slow rate continues;
+        "p" continues;
+    pause;
 
     [A.16]
-    urtext declamation [recalls A.1]:
-        first chord only;
-        densely spaced double stops;
-        constant dynamic;
-        senza vibrato tasto;
-    vc tacet;
-    pause (ibid)
+    (1 measure)
+    largo continues;
+    tutti ellipses:
+        lh-damp continues;
+        slow rate continues;
+        "p" continues;
+    pause;
 
     [A.17]
-    (short as per stage before last)
-    tutti lh-damp ellipses;
-    much longer pause;
+    andante governs stage;
+    v1, v2, va urtext declamation [A.6]:
+        third chord only:
+            tasto senza vibrato;
+            p <| mp;
+    vc urtext fundamental [A.6]:
+        tasto senza vibrato;
+        p;
+    pause;
+
+    [A.18]
+    (1 measure)
+    largo governs stage;
+    tutti ellipses:
+        lh-damp returns;
+        slow rate returns;
+        "p" returns;
+    long pause;
 
 [B]
 
