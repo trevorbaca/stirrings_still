@@ -1200,8 +1200,10 @@ SEGMENTS
     [E.16]
     (8 measures)
     largo;
-    v1, v2, va tacet;
-    vc clouded pane quiet fundamental persists;
+    v1, v2, va:
+        tacet;
+    vc clouded pane quiet fundamental:
+        piano continues;
     no pause;
 
 [F]
@@ -1209,16 +1211,23 @@ SEGMENTS
     [F.1]
     (8 measures)
     largo continues;
-    v1, v2 enter on intermittent double-stop vc multiphonic partials;
-    va tailpiece;
-    vc quiet clouded pane fundamental;
+    v1, v2:
+        intermittent double-stop clouded pane partials;
+    va:
+        tailpiece;
+    vc clouded pane fundamental:
+        piano continues;
     no pause;
 
     [F.2]
     (2 measures)
     largo continues;
-    v1, v2, vc drop out;
-    va tailpiece;
+    v1, v2:
+        tacet;
+    va:
+        tailpiece;
+    vc:
+        tacet;
     long pause;
 
 [G]
@@ -1617,7 +1626,7 @@ SEGMENTS
     surprisingly short breath;
 
     [K.7]
-    (6 measures)
+    (8 measures)
     ritardando achieves largo on first downbeat;
     tutti flight continues:
         independent scp transitions (seventh stage);
@@ -1651,7 +1660,7 @@ SEGMENTS
 
     [L.1]
     (8 measures)
-    largo begins;
+    largo meno mosso begins;
     tutti trajectory-animated clouded pane begins:
         v1, v2, va on partials of clouded pane;
         v1, v2, va alternating intermittent trajectories and pure pitch;
@@ -1663,49 +1672,49 @@ SEGMENTS
 
     [M.1]
     (8 measures)
-    largo continues;
+    largo meno mosso continues;
     field fundamental down one semitone to IV/C2;
     tutti full expression of clouded pane;
     no pause;
 
     [M.2]
     (4 measures)
-    largo continues;
+    largo meno mosso continues;
     v1, v2, va intercalation of conflicting urtext double stop ellipses;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
 
     [M.3]
     (4 measures)
-    largo continues;
+    largo meno mosso continues;
     v1, v2, va revert back to full expression of clouded pane;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
 
     [M.4]
     (4 measures)
-    largo continues;
+    largo meno mosso continues;
     v1, v2, va intercalation of conflicting urtext double stop ellipses;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
 
     [M.5]
     (4 measures)
-    largo continues;
+    largo meno mosso continues;
     v1, v2, va revert back to full expression of clouded pane;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
 
     [M.6]
     (4 measures)
-    largo continues;
+    largo meno mosso continues;
     v1, v2, va intercalation of conflicting urtext double stop ellipses;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
 
     [M.7]
     (4 measures)
-    largo continues;
+    largo meno mosso continues;
     v1, v2, va revert back to full expression of clouded pane;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
