@@ -91,7 +91,7 @@ SEGMENTS
 
     [A.6]
     (1 measure)
-    subito moderato;
+    subito adagio;
     v1, v2, va urtext declamation as per [A.1] with chord change:
         third chord:
             even a bit quieter;
@@ -106,7 +106,7 @@ SEGMENTS
 
     [A.7]
     (1 measure)
-    moderato continues;
+    adagio continues;
     v1, v2, va urtext declamation:
         third chord simile:
             short pp <| p ringing lv;
@@ -129,7 +129,7 @@ SEGMENTS
 
     [A.8]
     (2 measures)
-    moderato continues;
+    adagio continues;
     v1, v2, va urtext declamation:
         third chord simile:
             short pp <| p ringing lv;
@@ -147,7 +147,7 @@ SEGMENTS
 
     [A.9]
     (2 measures)
-    moderato continues;
+    adagio continues;
     v1, v2, va urtext declamation:
         third chord simile:
             short pp <| p ringing lv;
@@ -165,7 +165,7 @@ SEGMENTS
 
     [A.10]
     (6 measures)
-    moderato-to-allegro accelerando governs stage;
+    adagio-to-allegro accelerando governs stage;
     accelerando achieves allegro on last measure first downbeat;
     v1, v2, va urtext declamation:
         third chord simile:
@@ -268,7 +268,7 @@ SEGMENTS
 
     [B.1]
     (4 measures)
-    moderato governs stage;
+    adagio governs stage;
     v1:
         lh-damp 1/2 clt clockticks begin;
         intermittently conflicting rhythm;
@@ -306,8 +306,8 @@ SEGMENTS
 
     [B.3]
     (2 measures)
-    moderato più mosso begins;
-    moderato-più-mosso-to-presto accelerando begins;
+    adagio più mosso begins;
+    adagio-più-mosso-to-presto accelerando begins;
     v1:
         lh-damp 1/2 clt clockticks continue;
         "mp" > niente;
@@ -332,7 +332,7 @@ SEGMENTS
 
     [B.5]
     (1 measure: fractional time signature)
-    moderato governs stage;
+    adagio governs stage;
     v1:
         lh-damp ellipses resume;
     v2:
@@ -345,7 +345,7 @@ SEGMENTS
 
     [B.6]
     (1 measure: fractional time signature)
-    moderato meno mosso governs stage;
+    adagio meno mosso governs stage;
     v1:
         lh-damp 1/2 clt clockticks return;
     v2:
@@ -358,7 +358,7 @@ SEGMENTS
 
     [B.7]
     (1 measure: fractional time signature)
-    moderato più mosso governs stage;
+    adagio più mosso governs stage;
     v1:
         lh-damp 1/2 clt clockticks continue;
     v2:
@@ -452,7 +452,7 @@ SEGMENTS
 
     [B.13]
     (2 measures)
-    largo-to-moderato accelerando governs stage; 
+    largo-to-adagio accelerando governs stage; 
     tutti pitched trajectories (non 1/2 clt):
         ppp < mp:
             arrives midmeasure downbeat;
@@ -462,7 +462,7 @@ SEGMENTS
 
     [B.14]
     (2 measures)
-    largo-to-moderato-più-mosso accelerando governs stage; 
+    largo-to-adagio-più-mosso accelerando governs stage; 
     tutti pitched trajectories:
         pp < mf:
             arrives midmeasure downbeat;
@@ -583,7 +583,7 @@ SEGMENTS
 
     [C.1]
     (4 measures)
-    moderato;
+    adagio;
     tutti maximally tight talon-crunch circles:
         lh-damp persists;
         different rate for each player;
@@ -592,7 +592,7 @@ SEGMENTS
 
     [C.2]
     (4 measures)
-    moderato continues;
+    adagio continues;
     v1:
         maximally tight talon-crunch cirles;
         lh-damp;
@@ -609,7 +609,7 @@ SEGMENTS
 
     [C.3]
     (4 measures)
-    moderato più mosso begins;
+    adagio più mosso begins;
     out-spiralling in each player independently:
         maximally tight crunch circles spiral outwards to become wider;
         1-2" width;
@@ -621,7 +621,7 @@ SEGMENTS
 
     [C.4]
     (4 measures)
-    moderato più mosso continues;
+    adagio più mosso continues;
     out-spiralling in each player independently:
         2-4" width;
         each orbital attempt followed by rest;
@@ -632,7 +632,7 @@ SEGMENTS
 
     [C.5]
     (4 measures)
-    moderato più mosso continues;
+    adagio più mosso continues;
     out-spiralling in each player independently:
         4-8" width;
         post-attempt rests begin to disappear;
@@ -643,7 +643,7 @@ SEGMENTS
 
     [C.6]
     (4 measures)
-    moderato più mosso continues;
+    adagio più mosso continues;
     out-spiralling in each player independently:
         maximally wide;
         post-attempt rests disappear to reveal continuous sound;
@@ -669,7 +669,7 @@ SEGMENTS
     [C.8]
     (circles resume)
     (4 measures)
-    moderato-meno-mosso-to-allegro accelerando governs stage;
+    adagio-meno-mosso-to-allegro accelerando governs stage;
     tutti synchronized white circles:
         lh-damp returns;
         synchronized maximally wide circles;
@@ -680,7 +680,7 @@ SEGMENTS
     [C.9]
     (circles resume)
     (4 measures)
-    moderato-più-mosso-to-presto accelerando governs stage;
+    adagio-più-mosso-to-presto accelerando governs stage;
     tutti offset-homorhythm white circles:
         lh-damp persists;
         maximally wide circles;
@@ -705,7 +705,7 @@ SEGMENTS
 
     [C.14]
     (4 measures)
-    strait moderato governs stage;
+    strait adagio governs stage;
     tutti maximally wide offset-homorhythm circles:
         continuous sound in all parts (= no rest after any circle);
         gradual harmonic-to-half-harmonic-to-stopped transition independently;
@@ -1042,7 +1042,7 @@ SEGMENTS
         tremolo-initiation persists;
         additive rhythm:
             effects written-out ritardando;
-            achieves moderato equivalent on last measure downbeat;
+            achieves adagio equivalent on last measure downbeat;
             ritardando transpires under presto;
         very light and very fast;
         tutti p;
@@ -1051,8 +1051,8 @@ SEGMENTS
 
     [E.3]
     (4 measures)
-    moderato (equal to additive rhythm endpoint) starts;
-    moderato-to-allegro accelerando begins;
+    adagio (equal to additive rhythm endpoint) starts;
+    adagio-to-allegro accelerando begins;
     accelerando achieves allegro on last measure downbeat;
     v1, v2, va trajectories:
         subito lower-register tasto pitch instead of lh-damp;
@@ -1207,23 +1207,25 @@ SEGMENTS
 [F]
 
     [F.1]
-    (very long)
+    (8 measures)
+    largo continues;
     v1, v2 enter on intermittent double-stop vc multiphonic partials;
     va tailpiece;
     vc quiet clouded pane fundamental;
     no pause;
 
     [F.2]
-    (shorter)
+    (2 measures)
+    largo continues;
     v1, v2, vc drop out;
     va tailpiece;
-    section-ending pause;
+    long pause;
 
 [G]
 
     [G.1]
-    (short: one measure)
-    broad tempo;
+    (1 measure)
+    largo più mosso begins;
     vc fundamental up by step;
     single declamation:
         v1, v2, va conflicting urtext / clouded partial pitches;
@@ -1239,36 +1241,36 @@ SEGMENTS
     pause;
 
     [G.2]
-    (short: one measure)
-    broad tempo;
+    (1 measure)
+    largo più mosso continues;
     single declamation: ibid;
     tutti mp;
     pause;
 
     [G.3]
-    (short: one measure)
-    broad tempo;
+    (1 measure)
+    largo più mosso continues;
     ibid;
     tutti mp;
     pause;
 
     [G.4]
-    (short: one measure)
-    broad tempo;
+    (1 measure)
+    largo più mosso continues;
     ibid;
     tutti mp;
     pause;
 
     [G.5]
-    (short: one measure)
-    broad tempo;
+    (1 measure)
+    largo più mosso continues;
     ibid;
     tutti mp;
     long pause;
 
     [G.6]
-    (longer: three measures)
-    broad tempo;
+    (3 measures)
+    largo più mosso continues;
     single declamation:
         tutti urtext pitches of eight-note chord of four double stops;
         clouded pane pitches no longer present;
@@ -1283,9 +1285,9 @@ SEGMENTS
 [H]
 
     [H.1]
-    (very long: 4 measures)
-    single-stage largo-to-moderato accelerando;
-    accelerando achieves moderato on last measure downbeat;
+    (4 measures)
+    largo-to-adagio accelerando governs stage;
+    accelerando achieves adagio on last measure downbeat;
     tutti:
         extremely gradual clarinet rasp-to-flautando transition;
         four-note chord of single stopped notes;
@@ -1296,13 +1298,13 @@ SEGMENTS
 
     [H.2]
     (1 measure)
-    moderato;
+    adagio;
     tutti mp clarinet flautando;
     surprisingly short breath [v2 holds over breath];
 
     [H.3]
     (2 measures)
-    moderato;
+    adagio;
     v1 single bows become slow ellipses in rhythm #1;
     v2 clarinet flautando continues;
     va single bows become slow ellipses in rhythm #3;
@@ -1314,7 +1316,7 @@ SEGMENTS
 
     [H.4]
     (2 measures)
-    moderato-to-allegro accelerando begins;
+    adagio-to-allegro accelerando begins;
     v1 ellipses accelerate in rhythm #1;
     v1 up-glissando lentissimo begins;
     v2 clarinet flautando slows to single bows;
@@ -1326,8 +1328,8 @@ SEGMENTS
 
     [H.5]
     (2 measures)
-    accelerando achieves moderato on downbeat on middle measure in stage;
-    allegro-to-moderato ritardando begins on downbeat of middle measure;
+    accelerando achieves adagio on downbeat on middle measure in stage;
+    allegro-to-adagio ritardando begins on downbeat of middle measure;
     v1 ellipses even faster in rhythm #1;
     v1 up-glissando lentissimo continues;
     v2 single bows become slow ellipses in rhythm #2;
@@ -1338,7 +1340,7 @@ SEGMENTS
 
     [H.6]
     (2 measures)
-    ritardando achieves moderato on downbeat of last measure in stage;
+    ritardando achieves adagio on downbeat of last measure in stage;
     v1 ellipses even faster in rhythm #1;
     v2 ellipses acclerate in rhythm #2;
     va ellipses even faster in rhythm #3;
@@ -1351,7 +1353,7 @@ SEGMENTS
 
     [H.7]
     (2 measures)
-    moderato continues;
+    adagio continues;
     v1 very fast ellipses in rhythm #1;
     v2 ellipses even faster in rhythm #2;
     va very fast ellipses in rhythm #3;
@@ -1361,7 +1363,7 @@ SEGMENTS
     
     [H.8]
     (6 measures)
-    moderato-to-allegro accelerando begins;
+    adagio-to-allegro accelerando begins;
     v1, v2, va tacet;
     vc overpressure transition completes and sustains;
     vc achieves full forte overpressure harmonic on first downbeat;
@@ -1508,179 +1510,201 @@ SEGMENTS
 
     [J.1]
     (4 measures)
-    larghissimo;
+    larghissimo continues;
     v1, v2, va appena udibile double-stop urtext field persists;
-    vc subito tacet;
+    vc:
+        subito tacet;
     no pause;
 
     [J.2]
     (2 measures)
-    larghissimo-to-allegro accelerando begins;
+    larghissimo-to-andante accelerando begins;
     vc joins double-stop urtext field appena udibile;
-    tutti double-stop urtext field crescendo begins;
+    tutti double-stop urtext field:
+        crescendo begins;
     no pause;
     
     [J.3]
     (2 measures)
     accelerando continues;
-    tutti double-stop urtext field crescendo continues;
+    tutti double-stop urtext field:
+        crescendo continues;
     no pause;
 
     [J.4]
     (1 measure)
-    accelerando achieves allegro on first downbeat;
-    tutti double-stop urtext field achieves fff poco scratch;
+    accelerando achieves andante on first downbeat;
+    tutti double-stop urtext field:
+        crescendo achieves fff poco scratch on first downbeat;
     surprisingly short breath;
 
     [J.5]
     (2 measures)
-    allegro continues;
-    v1, v2, va quiet 1/2 clt trajectories;
-    vc relatively quiet ellipse pedal at stable rate;
+    andante continues;
+    v1, v2, va 1/2 clt trajectories:
+        quiet;
+    vc ellipses:
+        relatively quiet pedal at stable rate;
     no pause;
 
     ||: J.4-5 :|| x 3
 
     [J.6]
-    (longer)
-    allegro continues;
-    v1, 2, va quiet 1/2 clt trajectories effect pitch ascent;
-    vc ellipse pedal accelerates and effects diminuendo al niente;
+    (4 measures)
+    andante continues;
+    v1, 2, va 1/2 clt trajectories:
+        quiet continues;
+        effect pitch ascent;
+    vc ellipses:
+        rate increases;
+        p > niente;
     no pause;
 
 [K]
 
     [K.1]
-    (medium)
-    fast tempo;
-    tutti quiet 1/2 clt trajectories each at fixed pitch;
+    (3 measures)
+    andante continues;
+    tutti trajectories-to-flight begin:
+        ascent achieves higher pitch level on first downbeat; 
+        1/2 clt continues;
+        quiet continues;
     no pause;
 
     [K.2]
-    (medium)
-    fast tempo;
-    independently in each part:
-        1/2 clt trajectory projected onto local ritardando;
-        endpoint of ritardando achieved;
-        local accelerando all the way up to tremolo-of-flight;
-        sustains tremolo under crescendo;
-        releases tremolo under of termination type taken from inventory;
-        resumes 1/2 clt trajectory;
-        repeat;
+    (3 measures)
+    andante continues;
+    tutti trajectories-to-flight continue:
+        independently in each part:
+            1/2 clt trajectory projected onto local ritardando;
+            endpoint of ritardando achieved;
+            local accelerando all the way up to tremolo-of-flight;
+            sustains tremolo under crescendo;
+            releases tremolo under of termination type taken from inventory;
+            resumes 1/2 clt trajectory;
+            repeat;
     no pause;
 
     [K.3]
-    (medium)
-    fast tempo;
-    ibid;
-    tremolo durations increase;
+    (3 measures)
+    andante continues;
+    tutti trajectories-to-flight continue:
+        ibid;
+        tremolo durations increase;
     no pause;
 
     [K.4]
-    (medium)
-    fast tempo;
-    ibid;
-    tremolo durations increase;
+    (3 measures)
+    andante continues;
+    tutti trajectories-to-flight continue:
+        ibid;
+        tremolo durations increase;
     no pause;
 
     [K.5]
-    (medium)
-    fast tempo;
-    ibid;
-    tremolo durations increase;
+    (3 measures)
+    andante continues;
+    tutti trajectories-to-flight continue:
+        ibid;
+        tremolo durations increase;
     no pause;
 
     [K.6]
-    (shorter)
-    fast tempo;
-    tutti tremolo;
+    (3 measures)
+    andante-to-largo ritardando governs stage;
+    tutti flight begins:
+        tutti tremolo;
     surprisingly short breath;
 
     [K.7]
-    (very long)
-    much broader (= slower) tempo;
-    tutti tremolo flight with scp transitions (seventh stage);
+    (6 measures)
+    ritardando achieves largo on first downbeat;
+    tutti flight continues:
+        independent scp transitions (seventh stage);
     surprisingly short breath;
 
     [K.8]
-    (long)
-    gradual accelerando begins;
-    patterned slowing of tremolo flight in each part (eighth stage);
-    tension between global accelerando and local tremoli largandi;
+    (6 measures)
+    largo-to-allegro accelerando begins;
+    tutti flight-to-clouded-pane begins:
+        patterned slowing of tremolo flight in each part (eighth stage);
+        tension between global accelerando and local tremoli largandi;
     no pause;
 
     [K.9]
-    (long)
-    fast tempo achieved;
-    tutti achieve senza tremolo sustained quiet clouded pane field;
-    tension between fast tempo and protracted duration;
+    (8 measures)
+    accelerando achieves allegro on first downbeat;
+    tutti clouded pane begins:
+        tutti achieve senza tremolo sustained quiet clouded pane field;
+        tension between fast tempo and protracted duration;
     no pause;
 
     [K.10]
-    (long)
-    fast tempo;
-    v1, v2, va patterned slowing of bow to complete stop;
-    vc continues clouded pane fundamental field;
+    (8 measures)
+    allegro continues;
+    tutti clouded pane continues:
+        v1, v2, va patterned slowing of bow to complete stop;
+        vc continues clouded pane fundamental field;
     surprisingly short breath;
 
 [L]
 
     [L.1]
-    (very long)
-    subito much broader (= slower) tempo;
-    tutti field of clouded pane;
-    v1, v2, va on partials of clouded pane;
-    v1, v2, va alternating intermittent trajectories and pure pitch;
-    vc oscillates blossom of full multiphonic at extremely slow rate;
-    vc stopped on IV/Db2;
+    (8 measures)
+    largo begins;
+    tutti trajectory-animated clouded pane begins:
+        v1, v2, va on partials of clouded pane;
+        v1, v2, va alternating intermittent trajectories and pure pitch;
+        vc oscillates blossom of full multiphonic at extremely slow rate;
+        vc stopped on IV/Db2;
     no pause;
 
 [M]
 
     [M.1]
-    (even longer)
+    (8 measures)
     largo continues;
     field fundamental down one semitone to IV/C2;
     tutti full expression of clouded pane;
     no pause;
 
     [M.2]
-    (shorter)
+    (4 measures)
     largo continues;
     v1, v2, va intercalation of conflicting urtext double stop ellipses;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
 
     [M.3]
-    (shorter)
+    (4 measures)
     largo continues;
     v1, v2, va revert back to full expression of clouded pane;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
 
     [M.4]
-    (shorter)
+    (4 measures)
     largo continues;
     v1, v2, va intercalation of conflicting urtext double stop ellipses;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
 
     [M.5]
-    (shorter)
+    (4 measures)
     largo continues;
     v1, v2, va revert back to full expression of clouded pane;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
 
     [M.6]
-    (shorter)
+    (4 measures)
     largo continues;
     v1, v2, va intercalation of conflicting urtext double stop ellipses;
     vc continues full expression of clouded pane on IV/C2;
     no pause;
 
     [M.7]
-    (shorter)
+    (4 measures)
     largo continues;
     v1, v2, va revert back to full expression of clouded pane;
     vc continues full expression of clouded pane on IV/C2;
@@ -1759,7 +1783,7 @@ SEGMENTS
 
     [P.1]
     (4 measures) 
-    moderato begins;
+    adagio begins;
     tutti:
         clouded pane fixed pitches;
         tasto pitch;
@@ -1768,7 +1792,7 @@ SEGMENTS
 
     [P.2]
     (6 measures) 
-    moderato continues;
+    adagio continues;
     tutti:
         clouded pane fixed pitches persist;
         tasto < irregular ellipses > tasto, independently;
@@ -1777,7 +1801,7 @@ SEGMENTS
 
     [P.3]
     (4 measures)
-    moderato continues;
+    adagio continues;
     tutti:
         clouded pane fixed pitches persist;
         tasto pitch;
@@ -1786,7 +1810,7 @@ SEGMENTS
 
     [P.4]
     (6 measures)
-    moderato-to-presto accelerando begins;
+    adagio-to-presto accelerando begins;
     tutti:
         up-glissandi begin;
         tasto < irregular ellipses begin;
@@ -1818,7 +1842,7 @@ SEGMENTS
 
     [Q.2]
     (12 measures)
-    moderato-to-presto accelerando governs stage;
+    adagio-to-presto accelerando governs stage;
     tutti desynchronized pitched field trajectories whisked skyward:
         urtext double stops;
         subito pitch;
@@ -1839,7 +1863,7 @@ SEGMENTS
 
     [Q.4]
     (10 measures)
-    moderato-to-presto accelerando governs stage;
+    adagio-to-presto accelerando governs stage;
     tutti desynchronized pitched field trajectories whisked skyward:
         urtext double stops;
         subito pitch;
@@ -1860,7 +1884,7 @@ SEGMENTS
 
     [Q.6]
     (8 measures)
-    moderato-to-presto accelerando governs stage;
+    adagio-to-presto accelerando governs stage;
     tutti desynchronized pitched field trajectories whisked skyward:
         urtext double stops;
         subito pitch;
@@ -1881,7 +1905,7 @@ SEGMENTS
 
     [Q.8]
     (6 measures)
-    moderato-to-presto accelerando governs stage;
+    adagio-to-presto accelerando governs stage;
     tutti desynchronized pitched field trajectories whisked skyward:
         urtext double stops;
         subito pitch;
@@ -1902,7 +1926,7 @@ SEGMENTS
 
     [Q.10]
     (4 measures)
-    moderato-to-presto accelerando governs stage;
+    adagio-to-presto accelerando governs stage;
     tutti desynchronized pitched field trajectories whisked skyward:
         urtext double stops;
         subito pitch;
@@ -1923,7 +1947,7 @@ SEGMENTS
 
     [Q.12]
     (2 measures)
-    moderato-to-presto accelerando governs stage;
+    adagio-to-presto accelerando governs stage;
     tutti desynchronized pitched field trajectories whisked skyward:
         urtext double stops;
         subito pitch;
