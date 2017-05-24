@@ -327,7 +327,7 @@ SEGMENTS
     v1, v2, va:
         tacet;
     vc:
-        [[future persists unaccompanied]];
+        [[future continues unaccompanied]];
     no pause;
 
     [B.5]
@@ -585,7 +585,7 @@ SEGMENTS
     (4 measures)
     adagio;
     tutti maximally tight talon-crunch circles:
-        lh-damp persists;
+        lh-damp continues;
         different rate for each player;
         fixed pitch for each player;
     pause;
@@ -682,7 +682,7 @@ SEGMENTS
     (4 measures)
     adagio-più-mosso-to-presto accelerando governs stage;
     tutti offset-homorhythm white circles:
-        lh-damp persists;
+        lh-damp continues;
         maximally wide circles;
         one circle at a time followed by rest;
         rhythm 3 2r 3 2r 3 2r 3 1(!)r 3 2r ...;
@@ -759,7 +759,7 @@ SEGMENTS
         fully stopped pitch ibid in each part at start of stage;
         independent down-glissandi in each part;
         corresponding slackening of circles; 
-        tutti diminuendo al niente;
+        tutti decrescendo al niente;
     pause;
 
 [D]
@@ -779,10 +779,10 @@ SEGMENTS
     (6 measures)
     presto continues;
     tutti hesitancy grid stage one-to-two interpolation:
-        lh-damp persists;
-        unison persists;
+        lh-damp continues;
+        unison continues;
         denser desynchronized rhythm;
-        matte quiet dynamic persists;
+        matte quiet dynamic continues;
         lh-damp termination game continues;
     no pause;
 
@@ -790,10 +790,10 @@ SEGMENTS
     (6 measures)
     presto continues;
     tutti hesitancy grid stage one-to-two interpolation:
-        lh-damp persists;
-        unison persists;
+        lh-damp continues;
+        unison continues;
         denser rhythm begins synchronization;
-        matte quiet dynamic persists;
+        matte quiet dynamic continues;
         lh-damp termination game continues;
     no pause;
 
@@ -801,10 +801,10 @@ SEGMENTS
     (6 measures)
     presto continues;
     tutti hesitancy grid stage one-to-two interpolation:
-        lh-damp persists;
-        unison persists;
+        lh-damp continues;
+        unison continues;
         denser rhythm deepens synchronization;
-        matte quiet dynamic persists;
+        matte quiet dynamic continues;
         lh-damp termination game continues;
     no pause;
 
@@ -812,10 +812,10 @@ SEGMENTS
     (6 measures)
     presto continues;
     tutti hesitancy grid stage one-to-two interpolation:
-        lh-damp persists;
-        unison persists;
+        lh-damp continues;
+        unison continues;
         denser rhythm almost completely synchronized;
-        matte quiet dynamic persists;
+        matte quiet dynamic continues;
         lh-damp termination game continues;
     no pause;
 
@@ -823,10 +823,10 @@ SEGMENTS
     (6 measures)
     presto continues;
     tutti hesitancy grid achieves stage two:
-        lh-damp persists;
-        unison persists;
+        lh-damp continues;
+        unison continues;
         denser rhythm completely synchronized;
-        matte quiet dynamic persists;
+        matte quiet dynamic continues;
         lh-damp termination game continues;
     pause;
 
@@ -1038,8 +1038,8 @@ SEGMENTS
     (8 measures)
     presto continues;
     hesitancy grid stage four / v1, v2, va:
-        lh-damp persists;
-        tremolo-initiation persists;
+        lh-damp continues;
+        tremolo-initiation continues;
         additive rhythm:
             effects written-out ritardando;
             achieves adagio equivalent on last measure downbeat;
@@ -1056,7 +1056,7 @@ SEGMENTS
     accelerando achieves allegro on last measure downbeat;
     v1, v2, va trajectories:
         subito lower-register tasto pitch instead of lh-damp;
-        tremolo-initiation persists;
+        tremolo-initiation continues;
         internal rhythmic structure;
         very light and very fast;
         tutti p;
@@ -1067,9 +1067,9 @@ SEGMENTS
     (4 measures)
     allegro continues;
     v1, v2, va trajectories:
-        lower-register tasto pitch persists;
-        tremolo-initiation persists;
-        internal rhythmic structure persists;
+        lower-register tasto pitch continues;
+        tremolo-initiation continues;
+        internal rhythmic structure continues;
         slow pitch ascents begin independently;
         very light and very fast;
         tutti p;
@@ -1082,9 +1082,9 @@ SEGMENTS
     (4 measures)
     allegro-to-presto accelerando begins;
     v1, v2, va trajectories:
-        lower-register tasto pitch persists;
-        tremolo-initiation persists;
-        internal rhythmic structure persists;
+        lower-register tasto pitch continues;
+        tremolo-initiation continues;
+        internal rhythmic structure continues;
         slow pitch ascents continue;
         slightly higher lower-register pitch levels achieved independently;
         very light and very fast;
@@ -1096,8 +1096,8 @@ SEGMENTS
     (4 measures)
     accelerando achieves presto on first downbeat;
     v1, v2, va trajectories:
-        slightly higher lower-register tasto pitch persists;
-        tasto pitch persists;
+        slightly higher lower-register tasto pitch continues;
+        tasto pitch continues;
         tremolo-initiation stops independently;
         very light and very fast;
         tutti p;
@@ -1108,7 +1108,7 @@ SEGMENTS
     (4 measures)
     presto continues;
     v1, v2, va trajectories:
-        tasto pitch persists;
+        tasto pitch continues;
         very slow pitch ascents begin again independently;
         slightly higher lower-register pitch levels achieved by end;
         very light and very fast;
@@ -1120,7 +1120,7 @@ SEGMENTS
     (8 measures)
     subito largo-to-presto accelerando governs stage;
     v1, v2, va trajectories:
-        tasto pitch persists;
+        tasto pitch continues;
         caught in eight- or tenfold repetition vortex;
         accelerando time-sheers vortex dramatically;
         subito p at start of stage;
@@ -1131,20 +1131,20 @@ SEGMENTS
     (8 measures)
     presto-to-largo ritardando governs stage;
     v1, v2, va trajectories:
-        tasto pitch persists;
+        tasto pitch continues;
         single-cell repetition transitions to tremolo independently;
         tutti tremolo achieved by end;
-        piano persists;
-    vc quiet clouded pane fundamental persists; 
+        piano continues;
+    vc quiet clouded pane fundamental continues; 
     no pause;
 
     [E.10]
     (2 measures)
     ritardando achieves largo on first downbeat;
     v1, v2, va tremolo:
-        tasto pitch persists;
-        piano persists;
-    vc quiet clouded pane fundamental persists;
+        tasto pitch continues;
+        piano continues;
+    vc quiet clouded pane fundamental continues;
     no pause;
 
     [E.11]
@@ -1153,7 +1153,7 @@ SEGMENTS
     v1, v2, va tremolo:
         staggered scp patterning from tasto towards bridge and back;
         piano continues;
-    vc quiet clouded pane fundamental persists;
+    vc quiet clouded pane fundamental continues;
     pause [vc holds through pause];
 
     [E.12]
@@ -1163,7 +1163,7 @@ SEGMENTS
         previous stage quietly repeats:
             staggered scp patterning from tasto towards bridge and back;
             pp;
-    vc quiet clouded pane fundamental persists;
+    vc quiet clouded pane fundamental continues;
     pause [vc holds through pause];
 
     [E.13]
@@ -1174,7 +1174,7 @@ SEGMENTS
             subito lh-damp;
             "p";
             staggered scp patterning from tasto towards bridge and back;
-    vc quiet clouded pane fundamental persists:
+    vc quiet clouded pane fundamental continues:
         decrescendo al niente governs stage;
     no pause;
 
@@ -1182,7 +1182,7 @@ SEGMENTS
     (2 measures)
     subito largo;
     v1, v2, va tremolo:
-        lh-damp tasto "p" persists;
+        lh-damp tasto "p" continues;
     vc tacet;
     no pause;
 
@@ -1297,7 +1297,7 @@ SEGMENTS
     (4 measures)
     largo-to-adagio accelerando governs stage;
     accelerando achieves adagio on last measure downbeat;
-    tutti:
+    tutti urtext:
         extremely gradual clarinet rasp-to-flautando transition;
         four-note chord of single stopped notes;
         continuous sound;
@@ -1307,20 +1307,21 @@ SEGMENTS
 
     [H.2]
     (1 measure)
-    adagio;
-    tutti mp clarinet flautando;
+    adagio continues;
+    tutti mp clarinet flautando urtext;
     surprisingly short breath [v2 holds over breath];
 
     [H.3]
     (2 measures)
-    adagio;
+    adagio continues;
     v1 single bows become slow ellipses in rhythm #1;
     v2 clarinet flautando continues;
     va single bows become slow ellipses in rhythm #3;
     v1, v2, va:
         pitches ibid previous stage;
     v1, va reenter p (one dynamic level lower than previous exit);
-    vc natural harmonic pedal begins mp non crescendo;
+    vc clouded pane natural harmonic pedal begins:
+        mp non crescendo;
     no pause;
 
     [H.4]
@@ -1332,7 +1333,8 @@ SEGMENTS
         v2 achieves single bows on midmeasure downbeat;
     va ellipses accelerate in rhythm #3;
     va up-glissando lentissimo begins;
-    vc pressure-crescendo lentissimo begins;
+    vc clouded pane:
+        pressure-crescendo lentissimo begins;
     no pause;
 
     [H.5]
@@ -1344,7 +1346,8 @@ SEGMENTS
     v2 single bows become slow ellipses in rhythm #2;
     va ellipses even faster in rhythm #3;
     va up-glissando lentissimo continues;
-    vc pressure-crescendo lentissimo continues;
+    vc clouded pane:
+        pressure-crescendo lentissimo continues;
     no pause;
 
     [H.6]
@@ -1356,8 +1359,9 @@ SEGMENTS
     v1 up-glissando lentissimo continues;
     v2 up-glissando lentissimo begins;
     va up-glissando lentissimo continues;
-    vc pressure-crescendo lentissimo achieves plateau;
-    vc plateau equal to forte + poco overpressure;
+    vc clouded pane:
+        pressure-crescendo lentissimo achieves plateau;
+        plateau equal to forte + poco overpressure;
     no pause;
 
     [H.7]
@@ -1367,16 +1371,18 @@ SEGMENTS
     v2 ellipses even faster in rhythm #2;
     va very fast ellipses in rhythm #3;
     v1, v2, va up-glissandi lentissimi complete on last measure downbeat;
-    vc begins overpressure transition on first downbeat;
+    vc clouded pane:
+        overpressure transition begins on first downbeat;
     no pause;
     
     [H.8]
     (6 measures)
     adagio-to-allegro accelerando begins;
     v1, v2, va tacet;
-    vc overpressure transition completes and sustains;
-    vc achieves full forte overpressure harmonic on first downbeat;
-    vc begins pressure-decrescendo on last measure downbeat;
+    vc clouded pane:
+        overpressure transition completes and sustains;
+        achieves full forte overpressure harmonic on first downbeat;
+        begins pressure-decrescendo on last measure downbeat;
     no pause;
 
     [H.9]
@@ -1386,7 +1392,8 @@ SEGMENTS
         v1 fast ellipses in completely regular rhythm #1;
         v2 fast ellipses in completely regular rhythm #2;
         va fast ellipses in completely regular rhythm #3;
-    vc pressure-decrescendo continues;
+    vc clouded pane:
+        pressure-decrescendo continues;
     short pause [vc continues through pause];
 
     [H.10]
@@ -1400,7 +1407,8 @@ SEGMENTS
     v1, v2, va animated by inverse time-swells;
         independent ritardandi-back-up-to-tempo;
     inverse time-swells help achieve noise injection at slow swell midpoint;
-    vc achieves ppp on first downbeat;
+    vc clouded pane:
+        achieves ppp on first downbeat;
     short pause [vc continues through pause];
 
     [H.11]
@@ -1411,8 +1419,9 @@ SEGMENTS
         v2 ellipses in rhythm #2;
         va ellipses in rhythm #3;
     v1, v2, va animated by even more noise injection;
-    vc continues ppp;
-    vc begins down-glissando lentissimo;
+    vc clouded pane:
+        continues ppp;
+        begins down-glissando lentissimo;
     short pause [vc continues through pause];
 
     [H.12]
@@ -1423,96 +1432,114 @@ SEGMENTS
         v2 ellipses in rhythm #2;
         va ellipses in rhythm #3;
     v1, v2, va animated by even more noise injection;
-    vc continues ppp;
-    vc continues down-glissando lentissimo;
+    vc clouded pane:
+        continues ppp;
+        continues down-glissando lentissimo;
     short pause [vc continues through pause];
 
     [H.13]
     (4 measures)
-    allegro-to-largo ritardando effected in this stage;
+    allegro-to-largo ritardando governs this stage;
     ritardando achieves largo on last measure downbeat;
     interlocking scratch gears / polyrhythmic ellipses:
         v1 ellipses in regular rhythm #1;
         v2 ellipses in regular rhythm #2;
         va ellipses in regular rhythm #3;
     v1, v2, va ellipses achieve and sustain maximum noise;
-    vc down-glissando lentissimo achieves low pitch on first downbeat;
-    vc continues ppp;
+    vc clouded-pane-to-trajectory:
+        down-glissando lentissimo achieves low pitch on first downbeat;
+        assumes 1/2 clt on first downbeat (even though not yet audible);
+        ppp < p begins;
     no pause;
 
 [I]
 
     [I.1]
     (2 measures)
-    largo;
-    interlocking golden gears / homorhythmic ellipses:
-        v1, v2, va ellipses locked in homorhythm;
-        v1, v2, va subito matte quiet dynamic;
-        v1, v2, va subito tone without noise;
-    vc 1/2 clt solo trajectory begins p;
-    vc solo trajectory locked into repetition quasi-vortex;
+    largo continues;
+    v1, v2, va synchronous golden gears:
+        circles (SL = BW) locked in binary rate ratio 1:2:4;
+        subit mp begins;
+        subito golden tone (senza scratch) begins;
+    vc 1/2 clt solo trajectory:
+        starts up on local accelerandi;
+        repetition quasivortex begins;
+        crescendo achieves p at stage midpoint;
     no pause;
 
     [I.2]
     (1 measure)
     largo-to-larghissimo ritardando begins;
-    interlocking golden gears / polyrhythmic ellipses:
-        v1 ellipses in feathered rhythm #1;
-        v2 ellipses in feathered rhythm #2;
-        va ellipses in feathered rhythm #3;
-    vc 1/2 clt solo trajectory crescendo begins;
-    vc 1/2 clt solo trajectory still locked into repetition quasi-vortex;
+    v1, v2, va golden gears whisked skyward:
+        base binary rate ratio 1:2:4 between parts continues;
+        sparse local accelerandi begin to appear:
+            parts return to base rate after each local accelerando;
+    vc 1/2 clt solo trajectory:
+        local accelerandi achieve stable rhythm at stage midpoint;
+        p < f begins;
+        repetition quasivortex continues;
     no pause;
 
     [I.3]
     (1 measure)
     ritardando continues;
-    interlocking golden gears / polyrhythmic ellipses:
-        v1 ellipses in feathered rhythm #1;
-        v2 ellipses in feathered rhythm #2;
-        va ellipses in feathered rhythm #3;
-    v1, v2, va begin diminuendo;
-    vc 1/2 clt solo trajectory crescendo continues;
-    vc 1/2 clt solo trajectory still locked into repetition quasi-vortex;
-    repetition vortex now inflected by ritardando;
+    v1, v2, va golden gears whisked skyward:
+        base binary rate ratio 1:2:4 between parts continues;
+        intermittent local accelerandi continue:
+            parts begin to stick to faster base rate after accelerandi;
+        decrescendo > niente begins;
+    vc 1/2 clt solo trajectory:
+        repetition quasivortex continues;
+        vortex now inflected by ritardando;
+        crescendo continues;
     no pause;
 
     [I.4]
     (1 measure)
     ritardando continues;
-    interlocking golden gears / polyrhythmic ellipses:
-        v1 ellipses in feathered rhythm #1;
-        v2 ellipses in feathered rhythm #2;
-        va ellipses in feathered rhythm #3;
-    vc 1/2 clt solo trajectory crescendo continues;
-    vc 1/2 clt solo trajectory still locked into repetition quasi-vortex;
+    v1, v2, va golden gears whisked skyward:
+        base binary rate ratio 1:2:4 between parts continues;
+        intermittent local acclerandi continue:
+            parts stick to faster post-accelerandi base rate for much longer;
+        decrescendo continues;
+    vc 1/2 clt solo trajectory:
+        repetition quasivortex continues;
+        crescendo achieves forte on last event;
     no pause;
 
     [I.5]
     (2 measures)
-    ritardando achieves larghissimo;
-    interlocking golden gears / polyrhythmic ellipses:
-        v1 ellipses in feathered rhythm #1;
-        v2 ellipses in feathered rhythm #2;
-        va ellipses in feathered rhythm #3;
-    v1, v2, va, achieve diminuendo al niente;
-    vc 1/2 clt solo trajectory crescendo achieves forte;
-    vc 1/2 clt solo trajectory still locked into repetition quasi-vortex;
+    ritardando achieves larghissimo on first downbeat;
+    v1, v2, va synchronous golden gears whisked skyward:
+        faster base binary rate 1:2:4 achieved on first downbeat;
+        decrescendo achieves niente on last event;
+    vc 1/2 clt solo trajectory:
+        repetition quasivortex continues;
+        f continues;
     no pause;
 
     [I.6]
     (2 measures)
     larghissimo continues;
-    v1, v2, va tacet;
-    vc single sustained forte pitch at trajectory endpoint;
-    vc with small trapped irregular repetition cell;
+    v1, v2, va:
+        tacet;
+    vc 1/2 clt solo trajectory:
+        single pitch begins at trajectory endpoint;
+        pitch is not upper register;
+        quasivortex now trapped repetition cell;
+        f continues;
     no pause;
 
     [I.7]
     (2 measures)
     larghissimo continues;
-    v1, v2, va reenter appena udibile on sustained double-stop urtext field;
-    vc single sustained forte trapped cell persists until end;
+    v1, v2, va urtext begins:
+        sustained double-stop field;
+        appena udibile;
+    vc 1/2 clt solo trajectory:
+        single pitch continues until end;
+        single trapped cell continues until end;
+        f continues until end;
     no pause;
 
 [J]
@@ -1520,7 +1547,9 @@ SEGMENTS
     [J.1]
     (4 measures)
     larghissimo continues;
-    v1, v2, va appena udibile double-stop urtext field persists;
+    v1, v2, va urtext continues:
+        double-stop field continues;
+        appena udibile continues;
     vc:
         subito tacet;
     no pause;
@@ -1528,45 +1557,51 @@ SEGMENTS
     [J.2]
     (2 measures)
     larghissimo-to-andante accelerando begins;
-    vc joins double-stop urtext field appena udibile;
-    tutti double-stop urtext field:
-        crescendo begins;
+    tutti urtext continues:
+        double-stop field continues;
+        appena udibile < fff poco scratch begins;
     no pause;
     
     [J.3]
     (2 measures)
     accelerando continues;
-    tutti double-stop urtext field:
+    tutti urtext continues:
+        double-stop field continues;
         crescendo continues;
     no pause;
 
-    [J.4]
-    (1 measure)
-    accelerando achieves andante on first downbeat;
-    tutti double-stop urtext field:
-        crescendo achieves fff poco scratch on first downbeat;
-    surprisingly short breath;
-
-    [J.5]
-    (2 measures)
-    andante continues;
-    v1, v2, va 1/2 clt trajectories:
-        quiet;
-    vc ellipses:
-        relatively quiet pedal at stable rate;
-    no pause;
-
     ||: J.4-5 :|| x 3
+
+        [J.4]
+        (1 measure)
+        accelerando achieves andante on first downbeat;
+        tutti urtext continues until end:
+            double-stop field continues;
+            crescendo achieves fff poco scratch on first downbeat;
+        no pause;
+
+        [J.5]
+        (2 measures)
+        andante continues;
+        v1, v2, va 1/2 clt trajectories:
+            pronounced local accelerandi;
+            fff > pp;
+        vc ellipses:
+            pronounced local accelerando;
+            fff > pp;
+        surprisingly short breath;
+        [[third time no breath]];
 
     [J.6]
     (4 measures)
     andante continues;
     v1, 2, va 1/2 clt trajectories:
-        quiet continues;
-        effect pitch ascent;
+        local accelerandi achieve stable rhythm on first downbeat;
+        pitch ascent begins;
+        pp continues;
     vc ellipses:
-        rate increases;
-        p > niente;
+        pronounced local accelerando continues;
+        pp > niente;
     no pause;
 
 [K]
@@ -1577,7 +1612,7 @@ SEGMENTS
     tutti trajectories-to-flight begin:
         ascent achieves higher pitch level on first downbeat; 
         1/2 clt continues;
-        quiet continues;
+        pp continues;
     no pause;
 
     [K.2]
@@ -1803,7 +1838,7 @@ SEGMENTS
     (6 measures) 
     adagio continues;
     tutti:
-        clouded pane fixed pitches persist;
+        clouded pane fixed pitches continue;
         tasto < irregular ellipses > tasto, independently;
         ppppp < p > ppppp;
     no pause;
@@ -1812,7 +1847,7 @@ SEGMENTS
     (4 measures)
     adagio continues;
     tutti:
-        clouded pane fixed pitches persist;
+        clouded pane fixed pitches continue;
         tasto pitch;
         ppppp;
     no pause;
@@ -1983,7 +2018,7 @@ SEGMENTS
         join clouded pane field;
         1/2 clt disappears;
         pure tasto pitch;
-        ppp persists;
+        ppp continues;
     va:
         Bb2 pp pedal;
     vc:
