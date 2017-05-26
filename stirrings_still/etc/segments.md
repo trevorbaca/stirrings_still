@@ -1262,59 +1262,60 @@ SEGMENTS
     largo più mosso begins;
     tutti clouded pane / urtext conflict begins:
         single declamation:
-            v1, v2, va conflicting urtext / clouded partial pitches;
-            v1, v2 urtext double stops;
-            va clouded partial;
-            v1, v2, va rhythmically independently louré picket tuplets;
-            swell envelop on each attack in each tuplet;
-                [creates idea of polyrhythmic louré-swell picket tuplets];
-            vc fudamental subtends declamation;
-            vc up by step;
-            vc swell-enveloped continuous sound;
-            tutti tasto;
-            tutti mp;
+            v1, v2 urtext double stops:
+                tasto begins;
+                polyrhythmic louré-swell tuplets begin;
+                niente < mp > niente happens on each note;
+            va clouded partial:
+                tasto begins;
+                polyrhythmic louré-swell tuplets begin;
+                niente < mp > niente happens on each note;
+            vc clouded pane:
+                new pitch begins stepwise above;
+                subtends declamation;
+                niente < f ... f > niente happens;
     pause;
 
     [G.2]
     (1 measure)
     largo più mosso continues;
-    single declamation: ibid;
-    tutti mp continues;
+    tutti clouded pane / urtext single declamation happens again:
+        ibid;
     pause;
 
     [G.3]
     (1 measure)
     largo più mosso continues;
-    ibid;
-    tutti mp;
+    tutti clouded pane / urtext single declamation happens again:
+        ibid;
     pause;
 
     [G.4]
     (1 measure)
     largo più mosso continues;
-    ibid;
-    tutti mp;
+    tutti clouded pane / urtext single declamation happens again:
+        ibid;
     pause;
 
     [G.5]
     (1 measure)
     largo più mosso continues;
-    ibid;
-    tutti mp;
+    tutti clouded pane / urtext single declamation happens again:
+        ibid;
     long pause;
 
     [G.6]
     (3 measures)
     largo più mosso continues;
-    single declamation:
-        tutti urtext pitches of eight-note chord of four double stops;
-        clouded pane pitches no longer present;
-        tutti continuous sound;
-        tutti pitched tremolo (fifth-stage flight);
-        tutti tasto sempre (no scp transitions);
-    two layers of dynamic in each part:
-        pp < mf;
-        unmarked swells on each note under crescendo;
+    tutti urtext single declamation happens again:
+        eight-note chord;
+        four double-stops;
+        tasto continues;
+        arco-to-tremolo (fifth-stage flight) happens;
+        two layers of dynamic in each part:
+            unmarked swells on each note;
+            pp < mf happens;
+    clouded pane pitches no longer present;
     long pause;
 
 [H]
@@ -1323,159 +1324,196 @@ SEGMENTS
     (4 measures)
     largo-to-adagio accelerando happens;
     accelerando achieves adagio on last measure downbeat;
-    tutti urtext:
-        extremely gradual clarinet rasp-to-flautando transition;
-        four-note chord of single stopped notes;
-        continuous sound;
-        tutti achieve flautando on downbeat of penultimate measure in stage;
-    tutti niente rasp < mp flautando;
+    tutti urtext field begins:
+        four-note chord;
+        single-stopped notes;
+        extremely gradual rasp < flautando happens:
+            transition achieves flautando on last measure first downbeat;
+        niente < mp happens:
+            crescendo achieves mp on last measure first downbeat;
     no pause;
 
     [H.2]
     (1 measure)
     adagio continues;
-    tutti mp clarinet flautando urtext;
+    tutti urtext field continues:
+        four-note chord continues;
+        flautando continues;
+        mp continues;
     surprisingly short breath [v2 holds over breath];
 
     [H.3]
     (2 measures)
     adagio continues;
-    v1 single bows become slow ellipses in rhythm #1;
-    v2 clarinet flautando continues;
-    va single bows become slow ellipses in rhythm #3;
-    v1, v2, va:
-        pitches ibid previous stage;
-    v1, va reenter p (one dynamic level lower than previous exit);
-    vc clouded pane natural harmonic pedal begins:
-        mp non crescendo;
+    v1 urtext ellipses appear gradually:
+        urtext pitch continues;
+        single bows become slow ellipses;
+        rhythm #1 appears gradually on local accelerandi;
+    v2 urtext field continues:
+        urtext pitch continues;
+        flautando continues;
+        mp continues;
+    va urtext ellipses appear gradually:
+        urtext pitch continues;
+        single bows become slow ellipses;
+        rhythm #3 appears on local accelerandi;
+    vc clouded pane appears gradually:
+        flautando > ordinario happens;
+        urtext-to-clouded-pane glissando happens;
+        mp continues;
     no pause;
 
     [H.4]
     (2 measures)
     adagio-to-allegro accelerando begins;
-    v1 ellipses accelerate in rhythm #1;
-    v1 up-glissando lentissimo begins;
-    v2 clarinet flautando slows to single bows;
-        v2 achieves single bows on midmeasure downbeat;
-    va ellipses accelerate in rhythm #3;
-    va up-glissando lentissimo begins;
-    vc clouded pane:
-        pressure-crescendo lentissimo begins;
+    v1 ellipses continue:
+        up-glissando lentissimo appears;
+        ellipse rate increases;
+        rhythm #1 continues;
+    v2 urtext field continues:
+        pitch continues;
+        flautando slows to single bows on midmeasure downbeat;
+    va urtext ellipses continue:
+        up-glissando lentissimo appears;
+        ellipse rate increases;
+        rhythm #3 continues;
+    vc clouded pane continues:
+        pressure-crescendo lentissimo appears;
     no pause;
 
     [H.5]
     (2 measures)
     accelerando achieves adagio on downbeat on middle measure in stage;
     allegro-to-adagio ritardando begins on downbeat of middle measure;
-    v1 ellipses even faster in rhythm #1;
-    v1 up-glissando lentissimo continues;
-    v2 single bows become slow ellipses in rhythm #2;
-    va ellipses even faster in rhythm #3;
-    va up-glissando lentissimo continues;
-    vc clouded pane:
+    v1 urtext ellipses continue:
+        up-glissando lentissimo continues;
+        ellipse rate increases;
+        rhythm #1 continues;
+    v2 urtext ellipses appear gradually:
+        pitch continues;
+        single bows become slow ellipses;
+        rhythm #2 appears gradually on local accelerandi;
+    va urtext ellipses continue:
+        up-glissando lentissimo continues;
+        ellipse rate increases;
+        rhythm #3 continues;
+    vc clouded pane continues:
         pressure-crescendo lentissimo continues;
     no pause;
 
     [H.6]
     (2 measures)
     ritardando achieves adagio on downbeat of last measure in stage;
-    v1 ellipses even faster in rhythm #1;
-    v2 ellipses acclerate in rhythm #2;
-    va ellipses even faster in rhythm #3;
-    v1 up-glissando lentissimo continues;
-    v2 up-glissando lentissimo begins;
-    va up-glissando lentissimo continues;
-    vc clouded pane:
-        pressure-crescendo lentissimo achieves plateau;
-        plateau equal to forte + poco overpressure;
+    v1 urtext ellipses continue:
+        up-glissando lentissimo continues;
+        ellipse rate increases;
+        rhythm #1 continues;
+    v2 urtext ellipses continue:
+        up-glissando lentissimo appears gradually;
+        ellipse rate increases;
+        rhythm #2 continues;
+    va urtext ellipses continue:
+        up-glissando lentissimo continues;
+        ellipse rate increases;
+        rhythm #3 continues;
+    vc clouded pane continues:
+        pressure-crescendo lentissimo completes;
+        crescendo achieves f + poco overpressure;
     no pause;
 
     [H.7]
     (2 measures)
     adagio continues;
-    v1 very fast ellipses in rhythm #1;
-    v2 ellipses even faster in rhythm #2;
-    va very fast ellipses in rhythm #3;
-    v1, v2, va up-glissandi lentissimi complete on last measure downbeat;
-    vc clouded pane:
+    v1 urtext ellipses continue:
+        glissando completes on last measure first downbeat;
+        very fast ellipses;
+        rhythm #1 completes;
+        > niente happens;
+    v2 urtext ellipses continue:
+        glissando completes on last measure first downbeat;
+        ellipse rate increases;
+        rhythm #2 completes;
+        > niente happens;
+    va urtext ellipses continue:
+        glissando completes on last measure first downbeat;
+        very fast ellipses;
+        rhythm #3 completes;
+        > niente happens;
+    vc clouded pane continues:
         overpressure transition begins on first downbeat;
     no pause;
     
     [H.8]
     (6 measures)
-    adagio-to-allegro accelerando begins;
-    v1, v2, va tacet;
-    vc clouded pane:
+    adagio-to-allegro accelerando appears gradually;
+    v1, v2, va:
+        tacet continues;
+    vc clouded pane continues:
         overpressure transition completes and sustains;
-        achieves full forte overpressure harmonic on first downbeat;
-        begins pressure-decrescendo on last measure downbeat;
+        achieves f overpressure harmonic on first downbeat;
+        pressure-decrescendo appears gradually on last measure downbeat;
     no pause;
 
     [H.9]
     (6 measures)
     acclerando achieves allegro on first downbeat;
-    interlocking whisk gears / polyrhythmic ellipses:
+    interlocking clouded pane whisk gears appear gradually:
         v1 fast ellipses in completely regular rhythm #1;
         v2 fast ellipses in completely regular rhythm #2;
         va fast ellipses in completely regular rhythm #3;
-    vc clouded pane:
+        niente < mp happens;
+    vc clouded pane continues:
         pressure-decrescendo continues;
     short pause [vc continues through pause];
 
     [H.10]
     (2 measures)
     allegro continues;
-    interlocking whisk gears / polyrhythmic ellipses:
-        v1 ellipses in rhythm #1;
-        v2 ellipses in rhythm #2;
-        va ellipses in rhythm #3;
-    v1, v2, va animated by noise (= slow bow) injection;
-    v1, v2, va animated by inverse time-swells;
-        independent ritardandi-back-up-to-tempo;
-    inverse time-swells help achieve noise injection at slow swell midpoint;
-    vc clouded pane:
+    v1, v2, va interlocking clouded pane whisk gears continue:
+        rhythms move independently;
+        animated by noise (= slow bow) injection independently;
+        animated by inverse time-swells:
+            independent ritardandi-back-up-to-tempo;
+            help achieve noise injection at slow midpoint;
+    vc clouded pane continues:
         achieves ppp on first downbeat;
     short pause [vc continues through pause];
 
     [H.11]
     (3 measures)
     allegro continues;
-    interlocking whisk gears / polyrhythmic ellipses:
-        v1 ellipses in rhythm #1;
-        v2 ellipses in rhythm #2;
-        va ellipses in rhythm #3;
-    v1, v2, va animated by even more noise injection;
-    vc clouded pane:
-        continues ppp;
-        begins down-glissando lentissimo;
+    v1, v2, va interlocking clouded pane whisk gears continue:
+        rhythms move independently;
+        animated by even more noise injection;
+    vc clouded pane continues:
+        ppp continues;
+        down-glissando lentissimo appears gradually;
     short pause [vc continues through pause];
 
     [H.12]
     (4 measures)
     allegro continues;
-    interlocking whisk gears / polyrhythmic ellipses:
-        v1 ellipses in rhythm #1;
-        v2 ellipses in rhythm #2;
-        va ellipses in rhythm #3;
-    v1, v2, va animated by even more noise injection;
-    vc clouded pane:
-        continues ppp;
-        continues down-glissando lentissimo;
+    v1, v2, va interlocking clouded pane whisk gears continue:
+        rhythms move independently;
+        animated by even more noise injection;
+    vc clouded pane continues:
+        down-glissando lentissimo continues;
+        ppp continues;
     short pause [vc continues through pause];
 
     [H.13]
     (4 measures)
     allegro-to-largo ritardando happens;
     ritardando achieves largo on last measure downbeat;
-    interlocking scratch gears / polyrhythmic ellipses:
-        v1 ellipses in regular rhythm #1;
-        v2 ellipses in regular rhythm #2;
-        va ellipses in regular rhythm #3;
-    v1, v2, va ellipses achieve and sustain maximum noise;
-    vc clouded-pane-to-trajectory:
+    v1, v2, va interlocking clouded pane scratch gears appear gradually:
+        rhythms move independently;
+        ellipses achieve and sustain maximum noise;
+    vc clouded-pane-to-trajectory appears gradually:
         down-glissando lentissimo achieves low pitch on first downbeat;
-        assumes 1/2 clt on first downbeat (even though not yet audible);
-        ppp < p begins;
+        1/2 clt appears gradually:
+            on first downbeat;
+            not yet audible;
+        (ppp) < p appears gradually;
     no pause;
 
 [I]
