@@ -1992,7 +1992,7 @@ SEGMENTS
     [P.1]
     (4 measures) 
     adagio begins;
-    tutti:
+    tutti clouded pane begins:
         clouded pane fixed pitches;
         tasto pitch;
         ppppp;
@@ -2001,7 +2001,7 @@ SEGMENTS
     [P.2]
     (6 measures) 
     adagio continues;
-    tutti:
+    tutti clouded pane continues (admixed ellipses):
         clouded pane fixed pitches continue;
         tasto < irregular ellipses > tasto, independently;
         ppppp < p > ppppp;
@@ -2010,7 +2010,7 @@ SEGMENTS
     [P.3]
     (4 measures)
     adagio continues;
-    tutti:
+    tutti clouded pane continues:
         clouded pane fixed pitches continue;
         tasto pitch;
         ppppp;
@@ -2019,7 +2019,7 @@ SEGMENTS
     [P.4]
     (6 measures)
     adagio-to-presto accelerando begins;
-    tutti:
+    tutti clouded pane continues (admixed ellipses):
         up-glissandi begin;
         tasto < irregular ellipses begin;
         ppppp < mp;
@@ -2028,7 +2028,7 @@ SEGMENTS
     [P.5]
     (6 measures)
     accelerando achieves presto on last measure first downbeat;
-    tutti:
+    tutti ellipses continue:
         up-glissandi achieve endpoint on last measure first downbeat;
         ellipses achieve fixed fast speed on last measure first downbeat;
         mp > p;
@@ -2041,7 +2041,8 @@ SEGMENTS
     [Q.1]
     (8 measures)
     presto continues;
-    tutti desynchronized spinning white noise:
+    tutti ellipses continue:
+        desynchronized spinning white noise;
         subito lh-damped airtone;
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
@@ -2051,7 +2052,8 @@ SEGMENTS
     [Q.2]
     (12 measures)
     adagio-to-presto accelerando happens;
-    tutti desynchronized pitched field trajectories whisked skyward:
+    tutti urtext trajectories appear:
+        desynchronized pitched field trajectories whisked skyward;
         urtext double stops;
         subito pitch;
         crini desynchronized trajectories;
@@ -2062,7 +2064,8 @@ SEGMENTS
     [Q.3]
     (6 measures)
     presto;
-    tutti desynchronized spinning white noise:
+    tutti ellipses return:
+        desynchronized spinning white noise:
         subito lh-damped airtone;
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
@@ -2072,7 +2075,8 @@ SEGMENTS
     [Q.4]
     (10 measures)
     adagio-to-presto accelerando happens;
-    tutti desynchronized pitched field trajectories whisked skyward:
+    tutti trajectories return:
+        desynchronized pitched field trajectories whisked skyward;
         urtext double stops;
         subito pitch;
         crini desynchronized trajectories;
@@ -2083,7 +2087,8 @@ SEGMENTS
     [Q.5]
     (5 measures)
     presto;
-    tutti desynchronized spinning white noise:
+    tutti ellipses return:
+        desynchronized spinning white noise:
         subito lh-damped airtone;
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
@@ -2093,7 +2098,8 @@ SEGMENTS
     [Q.6]
     (8 measures)
     adagio-to-presto accelerando happens;
-    tutti desynchronized pitched field trajectories whisked skyward:
+    tutti trajectories return:
+        desynchronized pitched field trajectories whisked skyward:
         urtext double stops;
         subito pitch;
         crini desynchronized trajectories;
@@ -2104,7 +2110,8 @@ SEGMENTS
     [Q.7]
     (4 measures)
     presto;
-    tutti desynchronized spinning white noise:
+    tutti ellipses return:
+        desynchronized spinning white noise:
         subito lh-damped airtone;
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
@@ -2114,7 +2121,8 @@ SEGMENTS
     [Q.8]
     (6 measures)
     adagio-to-presto accelerando happens;
-    tutti desynchronized pitched field trajectories whisked skyward:
+    tutti trajectories return:
+        desynchronized pitched field trajectories whisked skyward:
         urtext double stops;
         subito pitch;
         crini desynchronized trajectories;
@@ -2125,7 +2133,8 @@ SEGMENTS
     [Q.9]
     (3 measures)
     presto;
-    tutti desynchronized spinning white noise:
+    tutti ellipses return:
+        desynchronized spinning white noise:
         subito lh-damped airtone;
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
@@ -2135,7 +2144,8 @@ SEGMENTS
     [Q.10]
     (4 measures)
     adagio-to-presto accelerando happens;
-    tutti desynchronized pitched field trajectories whisked skyward:
+    tutti trajectories return:
+        desynchronized pitched field trajectories whisked skyward:
         urtext double stops;
         subito pitch;
         crini desynchronized trajectories;
@@ -2146,7 +2156,8 @@ SEGMENTS
     [Q.11]
     (2 measures)
     presto;
-    tutti desynchronized spinning white noise:
+    tutti ellipses return:
+        desynchronized spinning white noise:
         subito lh-damped airtone;
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
@@ -2156,7 +2167,8 @@ SEGMENTS
     [Q.12]
     (2 measures)
     adagio-to-presto accelerando happens;
-    tutti desynchronized pitched field trajectories whisked skyward:
+    tutti trajectories return:
+        desynchronized pitched field trajectories whisked skyward:
         urtext double stops;
         subito pitch;
         crini desynchronized trajectories;
@@ -2167,10 +2179,16 @@ SEGMENTS
     [Q.13]
     (20 measures)
     presto-to-largo ritardando happens;
-    v1, v2 trajectories:
-        desynchronized fast 1/2 clt ppp;
-    va rich clouded pane Bb2 pedal pp;
-    vc extremely slow tuning peg down-glissando on IV from Bb1 to Bb0;
+    v1, v2 trajectories continue:
+        desynchronized fast rate;
+        1/2 clt continues;
+        ppp continues;
+    va memory of flight appears:
+        rich Bb2 pedal appears;
+        pp continues;
+    vc memory of flight appears:
+        extremely slow tuning peg down-glissando from Bb1 to Bb0 happens;
+        pp continues;
     no pause;
 
 [R]
@@ -2178,29 +2196,33 @@ SEGMENTS
     [R.1]
     (4 measures)
     largo continues;
-    v1, v2 trajectories:
+    v1, v2 trajectories continue:
         join clouded pane field;
         1/2 clt disappears;
         pure tasto pitch;
         ppp continues;
-    va:
-        Bb2 pp pedal;
-    vc:
-        B0 pp pedal;
+    va memory of flight continues:
+        Bb2 pedal continues;
+        pp continues;
+    vc memory of flight continues:
+        B0 pedal continues;
+        pp continues;
     no pause;
 
     [R.2]
     (4 measures)
     largo continues;
-    v1, v2 trajectories:
+    v1, v2 trajectories continue:
         clouded pane field;
         pure tasto pitch;
         trajectories slow to nothing;
-        ppp > niente;
-    va:
-        Bb2 pp pedal;
-    vc:
-        B0 pp pedal;
+        ppp > niente happens;
+    va memory of flight continues:
+        Bb2 pedal continues;
+        pp continues;
+    vc memory of flight continues:
+        B0 pedal continues;
+        pp continues;
     no pause;
 
     [R.3]
@@ -2208,11 +2230,12 @@ SEGMENTS
     largo continues;
     v1, v2:
         tacet;
-    va Bb2:
-        pp pedal;
-    vc B0:
-        pp pedal;
-        pp > niente;
+    va memory of flight continues:
+        Bb2 pedal continues;
+        pp continues;
+    vc memory of flight fades out:
+        B0 pedal continues:
+        pp > niente happens;
     no pause;
 
     [R.4]
@@ -2220,8 +2243,9 @@ SEGMENTS
     largo continues;
     v1, v2:
         tacet;
-    va:
-        Bb2 pp pedal;
+    va memory of flight continues:
+        Bb2 pedal continues;
+        pp continues;
     vc:
         tacet;
     no pause;
@@ -2231,72 +2255,100 @@ SEGMENTS
     [S.1]
     (4 measures)
     largo continues;
-    v1, v2, vc tacet;
-    va Bb2 pp pedal;
+    v1, v2:
+        tacet;
+    va memory of flight continues:
+        Bb2 pp pedal;
+    vc:
+        tacet;
     no pause;
 
     [S.2]
     (1 measure)
     largo continues;
-    v1, v2 fast whisked ellipses on accelerando and crescendo;
-    va Bb2 pp pedal;
-    vc B0 slack-string up-bow rh-terminated exponential crescendo to mf;
+    v1, v2 ellipses:
+        fast whisked ellipses on accelerando and crescendo;
+    va memory of flight continues:
+        Bb2 pp pedal;
+    vc memory of flight returns:
+        B0 slack-string up-bow rh-terminated exponential crescendo to mf;
     no pause;
 
     [S.3]
     (4 measures)
     largo continues;
-    v1, v2 tacet;
-    va Bb2 pp pedal;
-    vc tacet;
+    v1, v2:
+        tacet;
+    va memory of flight continues:
+        Bb2 pp pedal;
+    vc:
+        tacet;
     no pause;
 
     [S.4]
     (2 measures)
     largo continues;
-    v1, v2 fast whisked ellipses on accelerando and crescendo;
-    va Bb2 pp pedal;
-    vc Bb0 slack-string up-bow rh-terminated exponential crescendo to f;
+    v1, v2 ellipses:
+        fast whisked ellipses on accelerando and crescendo;
+    va memory of flight continues:
+        Bb2 pp pedal;
+    vc memory of flight returns:
+        Bb0 slack-string up-bow rh-terminated exponential crescendo to f;
     no pause;
 
     [S.5]
     (4 measures)
     largo continues;
-    v1, v2 tacet;
-    va Bb2 pp pedal;
-    vc tacet;
+    v1, v2:
+        tacet;
+    va memory of flight continues:
+        Bb2 pp pedal;
+    vc:
+        tacet;
     no pause;
 
     [S.6]
     (3 measures)
     largo continues;
-    v1, v2 fast whisked ellipses on accelerando and crescendo;
-    va Bb2 pp pedal;
-    vc Bb0 slack-string up-bow rh-terminated exponential crescendo to ff;
+    v1, v2 ellipses:
+        fast whisked ellipses on accelerando and crescendo;
+    va memory of flight continues:
+        Bb2 pp pedal;
+    vc memory of flight returns:
+        Bb0 slack-string up-bow rh-terminated exponential crescendo to ff;
     no pause;
 
     [S.7]
     (4 measures)
     largo continues;
-    v1, v2 tacet;
-    va Bb2 pp pedal;
-    vc tacet;
+    v1, v2:
+        tacet;
+    va memory of flight continues:
+        Bb2 pp pedal;
+    vc:
+        tacet;
     no pause;
 
     [S.8]
     (4 measures)
     largo continues;
-    v1, v2 fast whisked ellipses on accelerando and crescendo;
-    va Bb2 pp pedal;
-    vc Bb0 slack-string up-bow rh-terminated exponential crescendo to fff;
+    v1, v2 ellipses:
+        fast whisked ellipses on accelerando and crescendo;
+    va memory of flight continues:
+        Bb2 pp pedal;
+    vc memory of flight returns:
+        Bb0 slack-string up-bow rh-terminated exponential crescendo to fff;
     no pause;
 
     [S.9]
     (8 measures)
     largo continues;
-    v1, v2 tacet;
-    va Bb2 pp pedal;
-    vc tacet;
+    v1, v2:
+        tacet;
+    va memory of flight ends:
+        Bb2 pp pedal;
+    vc:
+        tacet;
     long pause;
 
 Time and grief and self so-called.
