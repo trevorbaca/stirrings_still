@@ -209,7 +209,7 @@ SEGMENTS
     (4 measures) 
     largo continues;
     tutti ellipses:
-        subito lh-damp;
+        subito damp;
         subito slower rate;
         subito "p";
     pause;
@@ -218,7 +218,7 @@ SEGMENTS
     (1 measure)
     largo continues;
     tutti ellipses:
-        lh-damp continues;
+        damp continues;
         slow rate continues;
         "p" continues;
     pause;
@@ -227,7 +227,7 @@ SEGMENTS
     (1 measure)
     largo continues;
     tutti ellipses:
-        lh-damp continues;
+        damp continues;
         slow rate continues;
         "p" continues;
     pause;
@@ -236,7 +236,7 @@ SEGMENTS
     (1 measure)
     largo continues;
     tutti ellipses:
-        lh-damp continues;
+        damp continues;
         slow rate continues;
         "p" continues;
     pause;
@@ -257,7 +257,7 @@ SEGMENTS
     (1 measure)
     largo governs stage;
     tutti ellipses:
-        lh-damp returns;
+        damp returns;
         slow rate returns;
         "p" returns;
     long pause;
@@ -270,12 +270,12 @@ SEGMENTS
     (4 measures)
     adagio governs stage;
     v1 clockticks begin:
-        lh-damp continues;
+        damp continues;
         1/2 clt begins;
         intermittently conflicting rhythm;
         "mp" governs stage;
     v2, va, vc clockticks begin:
-        lh-damp continues;
+        damp continues;
         1/2 clt begins;
         regular homorhythm: 1 (1r) (1r) 1 (1r) (1r) ... begins;
         "mp" governs stage;
@@ -285,7 +285,7 @@ SEGMENTS
     (1 measure)
     largo governs stage;
     tutti clockticks continue:
-        lh-damp continues;
+        damp continues;
         1/2 clt continues;
         regular homorhythm continues;
         "mf" governs stage;
@@ -295,15 +295,15 @@ SEGMENTS
     (2 measures)
     adagio-più-mosso-to-presto accelerando begins;
     v1 clockticks fade out:
-        lh-damp continues;
+        damp continues;
         1/2 clt continues;
         "mp" > niente happens;
     v2 clockticks fade out:
-        lh-damp fades out;
+        damp fades out;
         1/2 clt fades out;
         "mp" > niente happens;
     va ellipses fade in [recalls end of A]:
-        lh-damp continues;
+        damp continues;
         arco coi crini continues;
         "ppp" < "mp" happens;
     vc [[clouded pane]] appears:
@@ -325,19 +325,19 @@ SEGMENTS
     (1 measure: fractional time signature)
     adagio governs stage;
     v1 ellipses return:
-        lh-damp returns;
+        damp returns;
         arco coi crini returns;
         "p" begins;
     v2 clockticks return:
-        lh-damp returns;
+        damp returns;
         1/2 clt returns;
         "p" begins;
     va ellipses return:
-        lh-damp returns;
+        damp returns;
         arco coi crini returns;
         "p" begins;
     vc ellipses return:
-        lh-damp returns;
+        damp returns;
         arco coi crini returns;
         "p" begins;
     counted rest equal to exactly 2/3 clocktick (to displace next);
@@ -346,19 +346,19 @@ SEGMENTS
     (1 measure: fractional time signature)
     adagio meno mosso governs stage;
     v1 clockticks return:
-        lh-damp continues;
+        damp continues;
         1/2 clt returns;
         "p" continues;
     v2 clockticks continue:
-        lh-damp continues;
+        damp continues;
         1/2 clt continues;
         "p" continues;
     va ellipses continue:
-        lh-damp continues;
+        damp continues;
         arco coi crini continues;
         "p" continues;
     vc ellipses continue:
-        lh-damp continues;
+        damp continues;
         arco coi crini continues;
         "p" continues;
     counted rest equal to exactly 2/3 clocktick (to displace next);
@@ -367,20 +367,20 @@ SEGMENTS
     (1 measure: fractional time signature)
     adagio più mosso governs stage;
     v1 clockticks continue:
-        lh-damp continues;
+        damp continues;
         1/2 clt continues;
         "p" continues;
     v2 clockticks become trajectories:
-        lh-damp becomes tasto pitch;
+        damp becomes tasto pitch;
         1/2 clt continues;
         clocktick durations encroach rests;
         "p" continues;
     va ellipses continue:
-        lh-damp continues;
+        damp continues;
         arco coi crini continues;
         "p" continues;
     vc clockticks return;
-        lh-damp continues;
+        damp continues;
         1/2 clt returns;
         "p" continues;
     counted rest equal to exactly 2/3 clocktick (to displace next);
@@ -392,7 +392,7 @@ SEGMENTS
     (2 measures)
     largo begins;
     v1 clockticks continue:
-        lh-damp continues;
+        damp continues;
         1/2 clt continues;
         "p" continues;
     v2 trajectories continue:
@@ -401,11 +401,11 @@ SEGMENTS
         continuous sound continues;
         "p" < "mf" begins;
     va ellipses continue:
-        lh-damp continues;
+        damp continues;
         arco coi crini continues;
         "p" continues;
     vc clockticks become trajectories:
-        lh-damp becomes tasto pitch;
+        damp becomes tasto pitch;
         1/2 clt continues;
         clocktick durations become longer;
         "p" continues;
@@ -415,7 +415,7 @@ SEGMENTS
     (2 measures)
     largo-to-allegro accelerando happens;
     v1 clockticks fade out:
-        lh-damp fades out;
+        damp fades out;
         1/2 clt fades out;
         "p" > niente begins;
     v2 trajectories continue:
@@ -423,7 +423,7 @@ SEGMENTS
         1/2 clt continues;
         crescendo achieves "mf" on midmeasure downbeat;
     va ellipses fade out:
-        lh-damp fades out;
+        damp fades out;
         arco coi crini fades out;
         "p" > niente happens;
     vc trajectories continue:
@@ -437,7 +437,7 @@ SEGMENTS
     (1 measure)
     allegro continues;
     v1 clockticks fade out:
-        lh-damp fades out;
+        damp fades out;
         1/2 clt fades out;
         decrescendo continues;
     v2 trajectories continue:
@@ -456,7 +456,7 @@ SEGMENTS
     (2 measures)
     allegro-to-largo ritardando happens;
     v1 clockticks fade out:
-        lh-damp fades out;
+        damp fades out;
         1/2 clt fades out;
         decrescendo achieves niente at end;
     v2 trajectories continue:
@@ -645,7 +645,7 @@ SEGMENTS
     (4 measures)
     adagio;
     tutti maximally tight talon-crunch circles:
-        lh-damp continues;
+        damp continues;
         different rate for each player;
         fixed pitch for each player;
     pause;
@@ -655,15 +655,15 @@ SEGMENTS
     adagio continues;
     v1:
         maximally tight talon-crunch cirles;
-        lh-damp;
+        damp;
         pitch ibid;
     v2:
         maximally tight talon-crunch circles;
-        lh-damp;
+        damp;
         slow up-glissando;
     va, vc:
         maximally tight talon-crunch cirles;
-        lh-damp;
+        damp;
         pitch ibid;
     pause;
 
@@ -675,7 +675,7 @@ SEGMENTS
         1-2" width;
         each orbital attempt initially followed by rest;
         desynchronized;
-        lh-damp;
+        damp;
         "mf";
     no pause;
 
@@ -686,7 +686,7 @@ SEGMENTS
         2-4" width;
         each orbital attempt followed by rest;
         desynchronized;
-        lh-damp;
+        damp;
         "mf";
     no pause;
 
@@ -697,7 +697,7 @@ SEGMENTS
         4-8" width;
         post-attempt rests begin to disappear;
         desynchronized;
-        lh-damp;
+        damp;
         "mf > mp";
     no pause;
 
@@ -708,7 +708,7 @@ SEGMENTS
         maximally wide;
         post-attempt rests disappear to reveal continuous sound;
         desynchronized;
-        lh-damp;
+        damp;
         "mf > p";
     surprisingly short breath;
 
@@ -719,7 +719,7 @@ SEGMENTS
     v1:
         [[shining harmonic beacon of future]];
     v2:
-        lh-damp 1/2 clt fast clockticks [recalls B.7];
+        damp 1/2 clt fast clockticks [recalls B.7];
     va, vc:
         [[shining harmonic beacon of future]];
     cut-off;
@@ -731,7 +731,7 @@ SEGMENTS
     (4 measures)
     adagio-meno-mosso-to-allegro accelerando happens;
     tutti synchronized white circles:
-        lh-damp returns;
+        damp returns;
         synchronized maximally wide circles;
         one circle at a time followed by rest;
         rhythm 3 2r 3 2r 3 2r 3 1(!)r 3 2r ...;
@@ -742,7 +742,7 @@ SEGMENTS
     (4 measures)
     adagio-più-mosso-to-presto accelerando happens;
     tutti offset-homorhythm white circles:
-        lh-damp continues;
+        damp continues;
         maximally wide circles;
         one circle at a time followed by rest;
         rhythm 3 2r 3 2r 3 2r 3 1(!)r 3 2r ...;
@@ -829,9 +829,9 @@ SEGMENTS
     presto continues;
     tutti grid begins (at stage one):
         unison pitch;
-        lh-damp returns;
+        damp returns;
         sparse desynchronized rhythm appears gradually;
-        extensive lh-damp termination game begins;
+        extensive damp termination game begins;
         "pp" < "mf" ... "mf" > "pp" happen independently;
     no pause;
 
@@ -840,9 +840,9 @@ SEGMENTS
     presto continues;
     tutti grid continues (interpolating from stage one to two):
         unison pitch continues;
-        lh-damp continues;
+        damp continues;
         desynchronized rhythm becomes somewhat denser;
-        lh-damp termination game continues;
+        damp termination game continues;
         "pp" < "mf" ... "mf" > "pp" continue independently;
     no pause;
 
@@ -851,9 +851,9 @@ SEGMENTS
     presto continues;
     tutti grid continues (interpolating from stage one to two):
         unison continues;
-        lh-damp continues;
+        damp continues;
         denser rhythm begins synchronization;
-        lh-damp termination game continues;
+        damp termination game continues;
         "pp" < "mf" ... "mf" > "pp" continue independently;
     no pause;
 
@@ -862,9 +862,9 @@ SEGMENTS
     presto continues;
     tutti grid continues (interpolating from stage one to two):
         unison continues;
-        lh-damp continues;
+        damp continues;
         denser rhythm deepens synchronization;
-        lh-damp termination game continues;
+        damp termination game continues;
         "pp" < "mf" ... "mf" > "pp" continue independently;
     no pause;
 
@@ -873,9 +873,9 @@ SEGMENTS
     presto continues;
     tutti grid continues (interpolating from stage one to two):
         unison continues;
-        lh-damp continues;
+        damp continues;
         denser rhythm almost completely synchronized;
-        lh-damp termination game continues;
+        damp termination game continues;
         synchronized "pp" < "f" happens;
     no pause;
 
@@ -884,9 +884,9 @@ SEGMENTS
     presto continues;
     tutti grid continues (at stage two):
         unison continues;
-        lh-damp continues;
+        damp continues;
         denser rhythm completely synchronized;
-        lh-damp termination game continues;
+        damp termination game continues;
         "f" continues;
     pause;
 
@@ -938,9 +938,9 @@ SEGMENTS
     presto-to-largo ritardando happens;
     tutti grid stage two resumes and fades out:
         unison pitch fades out;
-        lh-damp fades out;
+        damp fades out;
         denser completely synchronized rhythm fades out;
-        lh-damp termination game fades out;
+        damp termination game fades out;
         "f" > niente happens;
     long pause;
 
@@ -1051,7 +1051,7 @@ SEGMENTS
         continuous tremolo continues;
         jagged scp reverses direction and begins poco-pont-to-tasto;
     vc clouded pane continues:
-        fff scratch continues;
+        fff scratch continues until end;
     no pause;
 
     [D.21]
@@ -1064,7 +1064,7 @@ SEGMENTS
         jagged scp transition continues;
         jagged scp transition achieves tasto on last measure downbeat;
     vc:
-        tacet subito;
+        tacet;
     no pause;
 
     [D.22]
@@ -1079,7 +1079,7 @@ SEGMENTS
     vc clouded pane:
         reenters up one step;
         niente < p;
-    short pause;
+    short pause [vc continues through pause];
 
 [E]
 
@@ -1087,7 +1087,7 @@ SEGMENTS
     (6 measures)
     presto begins;
     v1, v2, va grid (stage four) begins:
-        lh-damp begins;
+        damp begins;
         tremolo-initiation begins;
         internal rhythmic ordering begins;
         very light fast bow begins;
@@ -1100,7 +1100,8 @@ SEGMENTS
     (8 measures)
     presto continues;
     v1, v2, va grid (stage four) continues:
-        damp-to-lower-register-tasto-pitch happens;
+        damp-to-pitch transition happens;
+        lower-register tasto begins;
         tremolo-initiation continues;
         internal rhythmic ordering continues:
             additive rhythm transpires:
@@ -1119,7 +1120,8 @@ SEGMENTS
     adagio-to-allegro accelerando begins;
     accelerando achieves allegro on last measure downbeat;
     v1, v2, va gridded-trajectories begin:
-        lower-register tasto pitch continues;
+        pitch continues;
+        lower-register tasto continues;
         tremolo-initiation continues;
         internal rhythmic structure continues;
         very light fast bow continues;
@@ -1132,7 +1134,8 @@ SEGMENTS
     (4 measures)
     allegro continues;
     v1, v2, va gridded-trajectories continue:
-        lower-register tasto pitch continues;
+        pitch continues;
+        lower-register tasto continues;
         tremolo-initiation continues;
         internal rhythmic structure continues;
         slow pitch ascents begin independently;
@@ -1146,7 +1149,8 @@ SEGMENTS
     (4 measures)
     allegro-to-presto accelerando begins;
     v1, v2, va gridded-trajectories continue:
-        lower-register tasto pitch continues;
+        pitch continues;
+        lower-register tasto continues;
         tremolo-initiation continues;
         internal rhythmic structure continues;
         slow pitch ascents continue;
@@ -1154,7 +1158,7 @@ SEGMENTS
         very light fast bow continues;
         p continues;
     vc:
-        tacet begins;
+        tacet;
     no pause;
 
     [E.6]
@@ -1162,7 +1166,8 @@ SEGMENTS
     accelerando achieves presto on first downbeat;
     v1, v2, va grid (stage four) completes;
     v1, v2, va trajectories continue:
-        slightly higher lower-register tasto pitch continues;
+        pitch continues;
+        slightly higher lower-register tasto continues;
         tremolo-initiation stops independently;
         internal rhythmic structure continues;
         very light fast bow continues;
@@ -1175,7 +1180,8 @@ SEGMENTS
     (4 measures)
     presto continues;
     v1, v2, va trajectories continue:
-        slightly higher lower-register tasto pitch continues;
+        pitch continues;
+        slightly higher lower-register tasto continues;
         internal rhythmic structure continues;
         very slow pitch ascents begin again independently;
         ascents achieve slightly higher lower-register pitches by end;
@@ -1189,7 +1195,8 @@ SEGMENTS
     (8 measures)
     subito largo-to-presto accelerando happens;
     v1, v2, va trajectories:
-        tasto pitch continues;
+        pitch continues;
+        tasto continues;
         eight- or tenfold repetition vortex happens;
         accelerando time-sheers vortex dramatically;
         p begins;
@@ -1202,7 +1209,8 @@ SEGMENTS
     (8 measures)
     presto-to-largo ritardando happens;
     v1, v2, va trajectories transitions to flight:
-        tasto pitch continues;
+        pitch continues;
+        tasto continues;
         single-cell repetition-to-tremolo transitions happen independently;
         p continues;
     vc clouded pane continues:
@@ -1213,8 +1221,9 @@ SEGMENTS
     (2 measures)
     ritardando achieves largo on first downbeat;
     v1, v2, va flight continues:
+        pitch continues;
+        tasto continues;
         tremolo continues;
-        tasto pitch continues;
         p continues;
     vc clouded pane continues:
         p continues;
@@ -1224,9 +1233,9 @@ SEGMENTS
     (4 measures)
     largo continues;
     v1, v2, va flight continues:
-        tremolo continues;
-        tasto pitch continues;
+        pitch continues;
         T-B-T scp patterning begins independently;
+        tremolo continues;
         p > "p" begins;
     vc clouded pane continues:
         p continues;
@@ -1237,9 +1246,9 @@ SEGMENTS
     largo continues;
     v1, v2, va flight continues:
         previous stage quietly repeats:
-            tremolo continues;
             pitch-to-damp transition happens;
             T-B-T scp patterning continues independently;
+            tremolo continues;
             decrescendo achieves "p" on last event;
     vc clouded pane continues:
         p continues;
@@ -1250,9 +1259,9 @@ SEGMENTS
     largo-to-presto accelerando happens; 
     v1, v2, va flight continues:
         previous stage repeats as compressed white:
-            tremolo continues;
-            lh-damp continues;
+            damp continues;
             T-B-T scp patterning completes independently;
+            tremolo continues;
             "p" continues;
     vc clouded pane continues:
         p > niente happens;
@@ -1262,9 +1271,9 @@ SEGMENTS
     (2 measures)
     subito largo;
     v1, v2, va flight continues:
-        tremolo continues;
-        lh-damp continues;
+        damp continues;
         fixed scp continues;
+        tremolo continues;
         "p" continues;
     vc:
         tacet begins;
@@ -1272,8 +1281,9 @@ SEGMENTS
 
     [E.15]
     (2 measure)
-    largo;
+    largo continues;
     v1, v2, va flight completes:
+        damp completes;
         tremoli ritard to stops independently;
         "p" > niente happen independently;
     vc clouded pane returns:
@@ -1283,7 +1293,7 @@ SEGMENTS
 
     [E.16]
     (8 measures)
-    largo;
+    largo continues;
     v1, v2, va:
         tacet continues;
     vc clouded pane continues:
@@ -1309,7 +1319,7 @@ SEGMENTS
     (2 measures)
     largo continues;
     v1, v2:
-        tacet continues;
+        tacet;
     va tailpiece continues:
         pochiss. flicker continues;
         "mp" > niente happens;
@@ -2043,7 +2053,7 @@ SEGMENTS
     presto continues;
     tutti ellipses continue:
         desynchronized spinning white noise;
-        subito lh-damped airtone;
+        subito damped airtone;
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
         "p";
@@ -2066,7 +2076,7 @@ SEGMENTS
     presto;
     tutti ellipses return:
         desynchronized spinning white noise:
-        subito lh-damped airtone;
+        subito damped airtone;
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
         "p";
@@ -2089,7 +2099,7 @@ SEGMENTS
     presto;
     tutti ellipses return:
         desynchronized spinning white noise:
-        subito lh-damped airtone;
+        subito damped airtone;
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
         "p";
@@ -2112,7 +2122,7 @@ SEGMENTS
     presto;
     tutti ellipses return:
         desynchronized spinning white noise:
-        subito lh-damped airtone;
+        subito damped airtone;
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
         "p";
@@ -2135,7 +2145,7 @@ SEGMENTS
     presto;
     tutti ellipses return:
         desynchronized spinning white noise:
-        subito lh-damped airtone;
+        subito damped airtone;
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
         "p";
@@ -2158,7 +2168,7 @@ SEGMENTS
     presto;
     tutti ellipses return:
         desynchronized spinning white noise:
-        subito lh-damped airtone;
+        subito damped airtone;
         each pitch fixed;
         relatively fast desynchronized regular ellipses;
         "p";
