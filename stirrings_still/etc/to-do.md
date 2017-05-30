@@ -1,9 +1,9 @@
 PENDING ANALYSES
 ================
 
-1.  material
+1.  material (ink)
 
-2.  tempo
+2.  tempo (marker)
 
 3.  interaction
 
@@ -11,13 +11,15 @@ PENDING ANALYSES
 
 5.  transition
 
-6.  repetition
+6.  repetition (highlighter)
 
 7.  polyrhythm
 
 8.  tailpiece
 
-9.  loudness
+9.  loudness (colored pencil)
+
+10. pitch / damp
 
 TO-DO
 =====
