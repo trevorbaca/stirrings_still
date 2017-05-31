@@ -1260,7 +1260,7 @@ SEGMENTS
     v1, v2, va flight continues:
         previous stage repeats as compressed white:
             damp continues;
-            T-B-T scp patterning completes independently;
+            T-B-T scp patterning continues independently;
             tremolo continues;
             "p" continues;
     vc clouded pane continues:
@@ -1272,8 +1272,8 @@ SEGMENTS
     subito largo;
     v1, v2, va flight continues:
         damp continues;
-        fixed scp continues;
-        tremolo continues;
+        T-B-T scp patterning continues independently;
+        tremoli begin to slow independently;
         "p" continues;
     vc:
         tacet begins;
@@ -1284,7 +1284,7 @@ SEGMENTS
     largo continues;
     v1, v2, va flight completes:
         damp completes;
-        tremoli ritard to stops independently;
+        tremoli come to stops independently;
         "p" > niente happen independently;
     vc clouded pane returns:
         new pitch begins stepwise above;
@@ -1335,14 +1335,17 @@ SEGMENTS
     tutti clouded pane / urtext conflict begins:
         single declamation:
             v1, v2 urtext double stops:
+                pitch continues;
                 tasto begins;
                 polyrhythmic louré-swell tuplets begin;
                 niente < mp > niente happens on each note;
             va clouded partial:
+                pitch continues;
                 tasto begins;
                 polyrhythmic louré-swell tuplets begin;
                 niente < mp > niente happens on each note;
             vc clouded pane:
+                pitch continues;
                 new pitch begins stepwise above;
                 subtends declamation;
                 niente < f ... f > niente happens;
@@ -1351,43 +1354,45 @@ SEGMENTS
     [G.2]
     (1 measure)
     largo più mosso continues;
-    tutti clouded pane / urtext single declamation happens again:
-        ibid;
+    tutti clouded pane / urtext conflict continues:
+        single declamation happens again;
     pause;
 
     [G.3]
     (1 measure)
     largo più mosso continues;
-    tutti clouded pane / urtext single declamation happens again:
-        ibid;
+    tutti clouded pane / urtext conflict continues:
+        single declamation happens again;
     pause;
 
     [G.4]
     (1 measure)
     largo più mosso continues;
-    tutti clouded pane / urtext single declamation happens again:
-        ibid;
+    tutti clouded pane / urtext conflict continues:
+        single declamation happens again;
     pause;
 
     [G.5]
     (1 measure)
     largo più mosso continues;
-    tutti clouded pane / urtext single declamation happens again:
-        ibid;
+    tutti clouded pane / urtext conflict continues:
+        single declamation happens again;
     long pause;
 
     [G.6]
-    (3 measures)
-    largo più mosso continues;
-    tutti urtext single declamation happens again:
-        eight-note chord;
-        four double-stops;
-        tasto continues;
-        arco-to-tremolo (fifth-stage flight) happens;
-        two layers of dynamic in each part:
-            unmarked swells on each note;
-            pp < mf happens;
-    clouded pane pitches no longer present;
+    (2 measures)
+    larghissimo governs stage;
+    tutti urtext continues with flight (and without clouded pane):
+        single declamation happens again:
+            pitch continues:
+                eight-note chord;
+                four double-stops;
+                clouded pane pitches no longer present;
+            tasto continues;
+            arco-to-tremolo (fifth-stage flight) happens;
+            two layers of dynamic in each part:
+                unmarked swells on each note;
+                pp < mf happens;
     long pause;
 
 [H]
@@ -1800,31 +1805,38 @@ SEGMENTS
     (8 measures)
     largo continues;
     tutti flight continues:
-        independent scp transitions (seventh stage);
+        independent scp transitions;
     surprisingly short breath;
 
     [K.8]
     (6 measures)
     largo-to-allegro accelerando begins;
     tutti flight-to-clouded-pane begins:
-        patterned slowing of tremolo flight in each part (eighth stage);
+        patterned slowing of tremolo flight independently:
+            achieve senza tremolo last measure first downbeat;
         tension between global accelerando and local tremoli largandi;
     no pause;
 
     [K.9]
     (8 measures)
     accelerando achieves allegro on first downbeat;
-    tutti clouded pane begins:
-        tutti achieve senza tremolo sustained quiet clouded pane field;
+    tutti flight-to-clouded pane continues:
+        pitch continues;
+        tasto-to-tasto-possibile transition happens;
+        senza tremolo continues;
         tension between fast tempo and protracted duration;
     no pause;
 
     [K.10]
     (8 measures)
     allegro continues;
-    tutti clouded pane continues:
-        v1, v2, va patterned slowing of bow to complete stop;
-        vc continues;
+    v1, v2, va flight-to-clouded pane completes:
+        pitch-to-damp transition happens;
+        tasto possibile continues;
+        senza tremolo continues;
+    vc flight-to-clouded pane continues:
+        pitch continues;
+        senza tremolo continues;
     surprisingly short breath;
 
 [L]
@@ -1929,10 +1941,10 @@ SEGMENTS
     [N.2]
     (2 measures)
     larghissimo continues;
-    v1, v2, va clouded pane:
+    v1, v2, va clouded pane continues:
         fundamental IV/Bb1 continues;
         f > niente happens;
-    vc clouded pane:
+    vc clouded pane continues:
         fundamental IV/Bb1 continues;
         ff > p happens;
     no pause;
@@ -1942,7 +1954,7 @@ SEGMENTS
     larghissimo continues;
     v1, v2, va:
         tacet;
-    vc clouded pane:
+    vc clouded pane continues:
         holds pure-tone Bb1;
         p continues;
     no pause;
@@ -1950,9 +1962,9 @@ SEGMENTS
     [N.4]
     (4 measures)
     larghissimo continues;
-    v1, v2, va urtext field begins:
+    v1, v2, va urtext field appears:
         niente < f happens;
-    vc clouded pane:
+    vc clouded pane continues:
         holds pure-tone Bb1;
         p continues;
     no pause;
@@ -1962,7 +1974,7 @@ SEGMENTS
     larghissimo continues;
     v1, v2, va urtext field continues:
         f continues;
-    vc clouded pane:
+    vc clouded pane disappears:
         holds pure-tone Bb1 until end;
         p > niente happens;
     no pause;
@@ -1970,9 +1982,11 @@ SEGMENTS
     [N.6]
     (12 measures)
     larghissimo-to-presto-to-larghissimo time trends govern stage;
-    tutti urtext flight;
-        dynamic process embedded;
+    tutti urtext field continues;
+    tutti flight appears:
+        pitch continues;
         scp process embedded;
+        dynamic process embedded;
         terminates tutti fortissimo ponticello release lv;
     very long pause;
 
@@ -1982,6 +1996,7 @@ SEGMENTS
     tutti combined clouded pane and urtext:
         combined single gesture of conflict and relinquishment:
         fundamental fixed pitch;
+        senza tremolo;
         upper partials down-glissandi lentissimi;
         bowspeed transition to nothing;
     very long pause;
