@@ -5,11 +5,11 @@ PENDING ANALYSES
 
 2.  tempo (marker)
 
-3.  interaction
+3.  damp (pencil)
 
-4.  subito
+4.  loudness (colored pencil)
 
-5.  transition
+5.  subito / transition
 
 6.  repetition (highlighter)
 
@@ -17,9 +17,7 @@ PENDING ANALYSES
 
 8.  tailpiece
 
-9.  loudness (colored pencil)
-
-10. pitch / damp
+9.  interaction
 
 TO-DO
 =====
