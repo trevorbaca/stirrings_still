@@ -320,16 +320,14 @@ SEGMENTS
     [B.1]
     (4 measures)
     adagio governs stage;
-    v1 clockticks begin:
+    tutti clockticks begin:
         damp continues;
         1/2 clt begins;
-        intermittently conflicting rhythm;
-        "mp" governs stage;
-    v2, va, vc clockticks begin:
-        damp continues;
-        1/2 clt begins;
-        regular homorhythm: 1 (1r) (1r) 1 (1r) (1r) ... begins;
-        "mp" governs stage;
+        subito mp;
+        v1:
+            intermittently conflicting rhythm governs stage;
+        v2, va, vc:
+            regular homorhythm: 1 (1r) (1r) 1 (1r) (1r) ... begins;
     no pause;
 
     [B.2]
@@ -339,24 +337,20 @@ SEGMENTS
         damp continues;
         1/2 clt continues;
         regular homorhythm continues;
-        "mf" governs stage;
+        subito mf;
     no pause;
 
     [B.3]
     (2 measures)
     adagio-più-mosso-to-presto accelerando begins;
-    v1 clockticks fade out:
-        damp continues;
-        1/2 clt continues;
-        "mp" > niente happens;
-    v2 clockticks fade out:
-        damp fades out;
-        1/2 clt fades out;
-        "mp" > niente happens;
-    va ellipses fade in [recalls end of A]:
-        damp continues;
-        arco coi crini continues;
-        "ppp" < "mp" happens;
+    mixed clockticks / ellipses continue:
+        damp completes;
+        v1, v2 clockticks fade out:
+            1/2 clt fades out;
+            (mf) > niente happens during second half of stage;
+        va ellipses fade in [recalls end of A] and then stop:
+            hair governs stage;
+            niente < p happens during first quarter of stage;
     vc [[clouded pane]] appears:
         obverse harmonic appears;
         niente < f begins;
@@ -367,77 +361,63 @@ SEGMENTS
     accelerando achieves presto on midmeasure downbeat;
     v1, v2, va:
         tacet;
-    vc [[clouded pane]] continues:
-        obverse harmonic continues;
+    vc [[clouded pane]] completes:
+        obverse harmonic completes;
         crescendo achieves f on midmeasure downbeat;
     surprisingly short breath;
 
     [B.5]
     (1 measure: fractional time signature)
     adagio governs stage;
-    v1 ellipses return:
-        damp returns;
-        arco coi crini returns;
-        "p" begins;
-    v2 clockticks return:
-        damp returns;
-        1/2 clt returns;
-        "p" begins;
-    va ellipses return:
-        damp returns;
-        arco coi crini returns;
-        "p" begins;
-    vc ellipses return:
-        damp returns;
-        arco coi crini returns;
-        "p" begins;
+    mixed clockticks / ellipses resume:
+        damp resumes;
+        v1 ellipses resume:
+            hair governs stage;
+        v2 clockticks resume:
+            1/2 clt resumes;
+        va ellipses resume:
+            hair begins;
+        vc ellipses return:
+            hair begins;
+        p begins;
     counted rest equal to exactly 2/3 clocktick (to displace next);
 
     [B.6]
     (1 measure: fractional time signature)
     adagio meno mosso governs stage;
-    v1 clockticks return:
+    mixed clockticks / ellipses continue:
         damp continues;
-        1/2 clt returns;
-        "p" continues;
-    v2 clockticks continue:
-        damp continues;
-        1/2 clt continues;
-        "p" continues;
-    va ellipses continue:
-        damp continues;
-        arco coi crini continues;
-        "p" continues;
-    vc ellipses continue:
-        damp continues;
-        arco coi crini continues;
-        "p" continues;
+        v1 clockticks resume:
+            1/2 clt resumes;
+        v2 clockticks continue:
+            1/2 clt continues;
+        va ellipses continue:
+            hair continues;
+        vc ellipses continue:
+            hair continues;
+        p continues;
     counted rest equal to exactly 2/3 clocktick (to displace next);
 
     [B.7]
     (1 measure: fractional time signature)
     adagio più mosso governs stage;
-    v1 clockticks continue:
+    mixed clockticks / ellipses continue:
         damp continues;
-        1/2 clt continues;
-        "p" continues;
-    v2 clockticks become trajectories:
-        damp becomes tasto pitch;
-        1/2 clt continues;
-        clocktick durations encroach rests;
-        "p" continues;
-    va ellipses continue:
-        damp continues;
-        arco coi crini continues;
-        "p" continues;
-    vc clockticks return;
-        damp continues;
-        1/2 clt returns;
-        "p" continues;
+        v1 clockticks continue:
+            1/2 clt continues;
+        v2 clockticks become trajectories:
+            damp becomes pitch;
+            1/2 clt continues;
+            clocktick durations encroach rests;
+        va ellipses continue:
+            hair continues;
+        vc clockticks return;
+            1/2 clt returns;
+        p continues;
     counted rest equal to exactly 2/3 clocktick (to displace next);
 
-        [trajectories appear for first time:]
-        [pitch reappears:]
+    [trajectories appear for first time:]
+    [pitch reappears:]
 
     [B.8]
     (2 measures)
@@ -445,62 +425,62 @@ SEGMENTS
     v1 clockticks continue:
         damp continues;
         1/2 clt continues;
-        "p" continues;
+        p continues;
     v2 trajectories continue:
-        tasto pitch continues;
+        pitch continues;
+        tasto continues;
         1/2 clt continues;
-        continuous sound continues;
-        "p" < "mf" begins;
+        p < mf begins;
     va ellipses continue:
         damp continues;
-        arco coi crini continues;
-        "p" continues;
+        hair continues;
+        p continues;
     vc clockticks become trajectories:
-        damp becomes tasto pitch;
+        damp becomes pitch;
         1/2 clt continues;
-        clocktick durations become longer;
-        "p" continues;
+        clocktick durations encroach rests;
+        p continues;
     no pause;
 
     [B.9]
     (2 measures)
     largo-to-allegro accelerando happens;
-    v1 clockticks fade out:
-        damp fades out;
-        1/2 clt fades out;
-        "p" > niente begins;
+    v1 clockticks fading out:
+        damp fading out;
+        1/2 clt fading out;
+        p > niente begins;
     v2 trajectories continue:
         tasto pitch continues;
         1/2 clt continues;
-        crescendo achieves "mf" on midmeasure downbeat;
+        crescendo achieves mf on midmeasure downbeat;
     va ellipses fade out:
         damp fades out;
-        arco coi crini fades out;
-        "p" > niente happens;
+        hair fades out;
+        p > niente happens;
     vc trajectories continue:
         tasto pitch continues;
         1/2 clt continues;
         cotinuous sound continues;
-        "p" < "mf" begins;
+        p < mf begins;
     no pause;
 
     [B.10]
     (1 measure)
     allegro continues;
-    v1 clockticks fade out:
-        damp fades out;
-        1/2 clt fades out;
+    v1 clockticks fading out:
+        damp fading out;
+        1/2 clt fading out;
         decrescendo continues;
     v2 trajectories continue:
         tasto pitch continues;
         1/2 clt continues;
-        "mf" continues;
+        mf continues;
     va:
         tacet;
     vc trajectories continue:
         tasto pitch continues;
         1/2 clt continues;
-        crescendo achieves "mf" on midmeasure downbeat
+        crescendo achieves mf on midmeasure downbeat
     no pause;
 
     [B.11]
@@ -513,15 +493,15 @@ SEGMENTS
     v2 trajectories continue:
         tasto pitch continues;
         1/2 clt continues;
-        "mf" continues;
+        mf continues;
     va trajectories join:
         tasto pitch joins;
         1/2 clt joins;
-        niente < "mf" begins;
+        niente < mf begins;
     vc trajectories continue:
         tasto pitch continues;
         1/2 clt continues;
-        "mf" continues;
+        mf continues;
     no pause;
 
     [B.12]
@@ -530,24 +510,29 @@ SEGMENTS
     v1:
         tacet;
     v2 trajectories continue:
-        tasto pitch continues;
-        1/2 clt continues;
-        "mf" continues;
+        pitch continues;
+        tasto continues;
+        1/2 clt completes;
+        mf completes;
     va trajectories continue:
-        tasto pitch continues;
-        1/2 clt continues;
-        crescendo achieves "mf" on midmeasure downbeat;
+        pitch continues;
+        tasto continues;
+        1/2 clt completes;
+        crescendo completes:
+            achieves mf on midmeasure downbeat;
     vc trajectories continue:
-        tasto pitch continues;
-        1/2 clt continues;
-        "mf" continues;
+        pitch continues;
+        tasto continues;
+        1/2 clt completes;
+        mf completes;
     pause;
 
     [B.13]
     (2 measures)
     largo-to-adagio accelerando happens;
     tutti trajectories continue:
-        arco coi crini (non 1/2 clt) governs stage;
+        pitch continues;
+        hair governs stage;
         tasto-to-ord:
             arrives midmeasure downbeat;
         ppp < mp:
@@ -558,7 +543,7 @@ SEGMENTS
     (2 measures)
     largo-to-adagio-più-mosso accelerando happens;
     tutti trajectories continue:
-        arco coi crini continues;
+        hair continues;
         tasto-to-poco-pont:
             arrives midmeasure downbeat;
         pp < mf:
@@ -569,7 +554,7 @@ SEGMENTS
     (2 measures)
     largo-to-allegro accelerando happens;
     tutti trajectories continue:
-        arco coi crini continues;
+        hair continues;
         tasto-to-pont-mod:
             arrives midmeasure downbeat;
         p < f:
@@ -580,7 +565,7 @@ SEGMENTS
     (2 measures)
     largo-to-allegro-più-mosso accelerando happens;
     tutti trajectories continue:
-        arco coi crini continues;
+        hair continues;
         tasto-to-molto-pont:
             arrives midmeasure downbeat;
         mp < ff:
@@ -591,7 +576,7 @@ SEGMENTS
     (2 measures)
     largo-to-vivace accelerando happens;
     tutti trajectories continue:
-        arco coi crini continues;
+        hair continues;
         tasto-to-pont-poss:
             arrives midmeasure downbeat;
         mf < fff:
@@ -602,7 +587,7 @@ SEGMENTS
     (2 measures)
     largo-to-presto accelerando happens;
     tutti trajectories continue:
-        arco coi crini continues;
+        hair continues;
         tasto-to-pont-poss:
             arrives midmeasure downbeat;
         f < fff+:
@@ -613,7 +598,7 @@ SEGMENTS
     (6 measures)
     largo-to-presto-accelerando happens;
     tutti trajectories continue:
-        arco coi crini continues;
+        hair continues;
         sub. molto-pont-to-tasto:
             arrives 2/3 measure downbeat;
         sub. ff > ppp:
