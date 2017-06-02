@@ -5,19 +5,21 @@ PENDING ANALYSES
 
 2.  tempo (marker)
 
-3.  damp (pencil)
+3.  damp (green highlighter)
 
-4.  loudness (colored pencil)
+4.  1/2 clt (blue highlighter)
 
-5.  subito / transition
+5.  loudness
 
-6.  repetition (highlighter)
+6.  subito / transition
 
-7.  polyrhythm
+7.  repetition
 
-8.  tailpiece
+8.  polyrhythm
 
-9.  interaction
+9.  tailpiece
+
+10. interaction
 
 TO-DO
 =====
