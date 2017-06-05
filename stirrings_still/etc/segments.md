@@ -641,7 +641,7 @@ SEGMENTS
 
     [B.22]
     (1 measure)
-    ritardando achieves largo on first downbeat;
+    ritardando achieves largo at start of stage;
     v1 ellipses begin:
         stopped lh continues;
         wide ellipses begin;
@@ -1053,13 +1053,13 @@ SEGMENTS
 
     [D.17]
     (2 measures)
-    accelerando achieves allegro on first downbeat;
+    accelerando achieves allegro at start of stage;
     v1, v2, va urtext field continues:
         stopped lh continues;
         densely spaced tasto double-stops continue;
         continuous sound continues;
         continuous tremolo in all parts;
-        continuous tremolo arrives on first downbeat;
+        continuous tremolo arrives at start of stage;
         p continues;
     vc clouded pane continues:
         stoped lh continues;
@@ -1200,7 +1200,8 @@ SEGMENTS
         internal rhythmic ordering continues;
         p continues;
     vc clouded pane completes:
-        crescendo achieves fff poco scratch on first downbeat;
+        p < fff poco scratch completes:
+            achieves fff poco scratch at start of stage;
     no pause;
 
     [E.5]
@@ -1221,8 +1222,8 @@ SEGMENTS
 
     [E.6]
     (4 measures)
-    accelerando achieves presto:
-        on first downbeat;
+    allegro-to-presto accelerando completes:
+        achieves presto at start of stage;
     v1, v2, va grid-to-trajectories transition completes:
         stopped lh continues;
         tasto continues;
@@ -1285,7 +1286,8 @@ SEGMENTS
 
     [E.10]
     (2 measures)
-    ritardando achieves largo on first downbeat;
+    presto-to-largo ritardando completes:
+        achieves largo at start of stage;
     v1, v2, va flight continues:
         stopped lh continues;
         tasto continues;
@@ -1380,24 +1382,31 @@ SEGMENTS
     [F.1]
     (8 measures)
     largo continues;
-    v1, v2 clouded pane joins:
-        intermittent double-stop partials join;
-        niente < f ... f > niente happens;
-    va tailpiece begins:
+    v1, v2 clouded pane joins vc:
+        stopped lh joins vc;
+        intermittent double-stop partials appear;
+        niente < f ... f > niente envelopes:
+            shape each double-stop partial;
+            conclude stage niente;
+    va tailpiece appears:
         pochiss. flicker begins;
-        niente < "mp" happens;
+        niente < "mp":
+            starts first measure downbeat;
+            "mp" achieved second measure downbeat;
     vc clouded pane continues:
-        (p) < ff ... ff > niente happens;
+        stopped lh continues;
+        (p) < ff ... ff > niente:
+            shapes entire stage;
     no pause;
 
     [F.2]
     (2 measures)
     largo continues;
     v1, v2:
-        tacet;
+        tacet continues;
     va tailpiece continues:
         pochiss. flicker continues;
-        "mp" > niente happens;
+        "mp" completes abruptly at end of stage;
     vc:
         tacet continues;
     long pause;
@@ -1409,48 +1418,51 @@ SEGMENTS
     largo più mosso begins;
     tutti clouded pane / urtext conflict begins:
         single declamation:
-            v1, v2 urtext double stops:
+            v1, v2 urtext double stops begin:
                 stopped lh continues;
                 tasto begins;
                 polyrhythmic louré-swell tuplets begin;
-                niente < mp > niente happens on each note;
-            va clouded partial:
-                stopped lh continues;
+                niente < mp > niente envelopes:
+                    shape each note;
+            va clouded partial resumes:
+                stopped lh resumes;
                 tasto begins;
                 polyrhythmic louré-swell tuplets begin;
-                niente < mp > niente happens on each note;
-            vc clouded pane:
-                stopped lh continues;
+                niente < mp > niente envelopes:
+                    shape each note;
+            vc clouded pane resumes:
+                stopped lh resumes;
                 new pitch begins stepwise above;
+                niente < f ... f > niente envelope:
+                    shapes stage;
                 subtends declamation;
-                niente < f ... f > niente happens;
     pause;
 
     [G.2]
     (1 measure)
     largo più mosso continues;
-    tutti clouded pane / urtext conflict continues:
+    tutti clouded pane / urtext conflict happens again:
         single declamation happens again;
     pause;
 
     [G.3]
     (1 measure)
     largo più mosso continues;
-    tutti clouded pane / urtext conflict continues:
+    tutti clouded pane / urtext conflict happens again:
         single declamation happens again;
     pause;
 
     [G.4]
     (1 measure)
     largo più mosso continues;
-    tutti clouded pane / urtext conflict continues:
+    tutti clouded pane / urtext conflict happens again:
         single declamation happens again;
     pause;
 
     [G.5]
     (1 measure)
     largo più mosso continues;
-    tutti clouded pane / urtext conflict continues:
+    tutti clouded pane / urtext conflict happens again:
         single declamation happens again;
     long pause;
 
@@ -1463,34 +1475,45 @@ SEGMENTS
                 eight-note chord;
                 four double-stops;
                 clouded pane pitches no longer present;
-            tasto continues;
-            arco-to-tremolo (fifth-stage flight) happens;
+            tasto-to-ponticello-to-tasto transitions:
+                independently in each part;
+                multiple times in each part;
+            arco-to-tremolo (fifth-to-sixth stage) transitions happen:
+                independently in each part;
+                multiples times in each part;
             two layers of dynamic in each part:
                 unmarked swells on each note;
-                pp < mf happens;
+                pp < mf:
+                    begins pp at start of stage;
+                    achieves mf on on last downbeat in stage;
     long pause;
 
 [H]
 
     [H.1]
     (4 measures)
-    largo-to-adagio accelerando happens;
-    accelerando achieves adagio on last measure downbeat;
-    tutti urtext field begins:
-        four-note chord;
-        single-stopped notes;
-        extremely gradual rasp < flautando happens:
-            transition achieves flautando on last measure first downbeat;
-        niente < mp happens:
-            crescendo achieves mp on last measure first downbeat;
+    largo-to-adagio accelerando:
+        begins at start of stage;
+        achieves adagio at start of last measure;
+    tutti urtext field continues after long pause:
+        stopped lh continues;
+        four-note chord appears:
+            single-stopped notes;
+        extremely gradual rasp < flautando:
+            begins rasp at start of stage;
+            achieves flautando at start of last measure;
+        niente < mp:
+            enters niente at start of stage;
+            achieves mp at start of last measure;
     no pause;
 
     [H.2]
     (1 measure)
     adagio continues;
     tutti urtext field continues:
-        four-note chord continues;
+        stopped lh continues;
         flautando continues;
+        four-note chord continues;
         mp continues;
     surprisingly short breath [v2 holds over breath];
 
@@ -1498,174 +1521,241 @@ SEGMENTS
     (2 measures)
     adagio continues;
     v1 urtext ellipses appear gradually:
-        urtext stopped lh continues;
-        single bows become slow ellipses;
-        rhythm #1 appears gradually on local accelerandi;
+        stopped lh continues;
+        single bows become slow ellipses:
+        rhythm #1 appears:
+            introduced gradually on local accelerandi;
+        mp continues;
     v2 urtext field continues:
-        urtext stopped lh continues;
+        stopped lh continues;
         flautando continues;
         mp continues;
     va urtext ellipses appear gradually:
-        urtext stopped lh continues;
-        single bows become slow ellipses;
-        rhythm #3 appears on local accelerandi;
-    vc clouded pane appears gradually:
-        flautando > ordinario happens;
-        urtext-to-clouded-pane glissando happens;
+        stopped lh continues;
+        single bows become slow ellipses:
+        rhythm #3 appears:
+            introduced gradually on local accelerandi;
+        mp continues;
+    vc urtext-to-clouded-pane transition happens:
+        stopped-to-harmonic lh transition:
+            begins stopped lh at start of stage;
+            achieves harmonic lh at start of measure 1:2;
+        flautando-to-ordinario transition:
+            begins flautando at start of stage;
+            achieves ordinario at start of measure 1:2;
+        urtext-to-clouded-pane glissando:
+            begins at start of stage;
+            achieves new pitch at start of measure 1:2;
         mp continues;
     no pause;
 
     [H.4]
     (2 measures)
-    adagio-to-allegro accelerando begins;
+    adagio-to-allegro accelerando begins:
+        begins adagio at start of stage;
     v1 ellipses continue:
-        up-glissando lentissimo appears;
+        stopped lh continues;
+        up-glissando lentissimo begins:
+            begins at start of stage;
         ellipse rate increases;
         rhythm #1 continues;
     v2 urtext field continues:
         stopped lh continues;
-        flautando slows to single bows on midmeasure downbeat;
+        flautando slows to single bows:
+            achieves single bows at start of measure 1:2;
     va urtext ellipses continue:
-        up-glissando lentissimo appears;
+        stopped lh continues;
+        up-glissando lentissimo begins:
+            begins at start of stage;
         ellipse rate increases;
         rhythm #3 continues;
     vc clouded pane continues:
-        pressure-crescendo lentissimo appears;
+        harmonic lh continues;
+        pressure-crescendo lentissimo begins:
+            begins at start of stage;
     no pause;
 
     [H.5]
     (2 measures)
-    accelerando achieves adagio on downbeat on middle measure in stage;
-    allegro-to-adagio ritardando begins on downbeat of middle measure;
+    adagio-to-allegro accelerando completes:
+        achieves adagio on downbeat of measure 1:2;
+    allegro-to-adagio ritardando begins:
+        begins allegro on downbeat of measure 1:2;
     v1 urtext ellipses continue:
+        stopped lh continues;
         up-glissando lentissimo continues;
         ellipse rate increases;
         rhythm #1 continues;
     v2 urtext ellipses appear gradually:
         stopped lh continues;
         single bows become slow ellipses;
-        rhythm #2 appears gradually on local accelerandi;
+        rhythm #2 appears gradually:
+            introduced on local accelerandi;
     va urtext ellipses continue:
+        stopped lh continues;
         up-glissando lentissimo continues;
         ellipse rate increases;
         rhythm #3 continues;
     vc clouded pane continues:
+        harmonic lh continues;
         pressure-crescendo lentissimo continues;
     no pause;
 
     [H.6]
     (2 measures)
-    ritardando achieves adagio on downbeat of last measure in stage;
+    allegro-to-adagio ritardando completes:
+        achieves adagio at start of last measure;
     v1 urtext ellipses continue:
+        stopped lh continues;
         up-glissando lentissimo continues;
         ellipse rate increases;
         rhythm #1 continues;
     v2 urtext ellipses continue:
-        up-glissando lentissimo appears gradually;
+        stopped lh continues;
+        up-glissando lentissimo begins:
+            begins at start of stage;
         ellipse rate increases;
         rhythm #2 continues;
     va urtext ellipses continue:
+        stopped lh continues;
         up-glissando lentissimo continues;
         ellipse rate increases;
         rhythm #3 continues;
     vc clouded pane continues:
-        pressure-crescendo lentissimo completes;
-        crescendo achieves f + poco overpressure;
+        harmonic lh continues;
+        pressure-crescendo lentissimo completes:
+            achieves f + poco overpressure at start of stage;
     no pause;
 
     [H.7]
     (2 measures)
     adagio continues;
-    v1 urtext ellipses continue:
-        glissando completes on last measure first downbeat;
-        very fast ellipses;
+    v1 urtext ellipses complete:
+        stopped lh continues;
+        up-glissando lentissimo completes:
+            achieves new pitch at start of stage;
+        very fast ellipses complete;
         rhythm #1 completes;
-        > niente happens;
-    v2 urtext ellipses continue:
-        glissando completes on last measure first downbeat;
+        > niente:
+            achieves niente at start of next stage;
+    v2 urtext ellipses complete:
+        stopped lh continues;
+        up-glissando lentissimo completes:
+            achieves new pitch at start of stage;
         ellipse rate increases;
         rhythm #2 completes;
-        > niente happens;
-    va urtext ellipses continue:
-        glissando completes on last measure first downbeat;
+        > niente:
+            achives niente at start of next stage;
+    va urtext ellipses complete:
+        stopped lh continues;
+        up-glissando lentissimo completes:
+            achieves new pitch at start of stage;
         very fast ellipses;
         rhythm #3 completes;
-        > niente happens;
+        > niente:
+            achieves niente at start of next stage;
     vc clouded pane continues:
-        overpressure transition begins on first downbeat;
+        harmonic lh continues;
+        f poco scratch < ff scratch begins:
+            begins f poco scratch at start of stage;
     no pause;
     
     [H.8]
     (6 measures)
-    adagio-to-allegro accelerando appears gradually;
+    adagio-to-allegro accelerando begins:
+        begins at start of stage;
     v1, v2, va:
         tacet continues;
     vc clouded pane continues:
-        overpressure transition completes and sustains;
-        achieves f overpressure harmonic on first downbeat;
-        pressure-decrescendo appears gradually on last measure downbeat;
+        harmonic lh continues;
+        f poco scratch < ff scratch completes:
+            achieves ff scratch at start of stage;
+        ff scratch > ppp begins:
+            begins (ff scratch) at start of measure 1:2;
     no pause;
 
     [H.9]
     (6 measures)
-    acclerando achieves allegro on first downbeat;
+    adagio-to-allegro acclerando completes:
+        achieves allegro at start of stage;
     interlocking clouded pane whisk gears appear gradually:
-        v1 fast ellipses in completely regular rhythm #1;
-        v2 fast ellipses in completely regular rhythm #2;
-        va fast ellipses in completely regular rhythm #3;
-        niente < mp happens;
+        stopped lh resumes;
+        fast ellipses;
+        v1:
+            completely regular rhythm #1;
+        v2:
+            completely regular rhythm #2;
+        va:
+            completely regular rhythm #3;
+        niente < mp happens:
+            enters niente at start of stage;
+            achieves mp at start of measure [1:3];
     vc clouded pane continues:
-        pressure-decrescendo continues;
+        harmonic lh continues;
+        ff scratch > ppp completes:
+            achieves ppp at start of next stage;
     short pause [vc continues through pause];
 
     [H.10]
     (2 measures)
     allegro continues;
     v1, v2, va interlocking clouded pane whisk gears continue:
+        stopped lh continues;
         rhythms move independently;
         animated by noise (= slow bow) injection independently;
         animated by inverse time-swells:
             independent ritardandi-back-up-to-tempo;
             help achieve noise injection at slow midpoint;
     vc clouded pane continues:
-        achieves ppp on first downbeat;
+        harmonic lh continues;
+        ppp continues;
     short pause [vc continues through pause];
 
     [H.11]
     (3 measures)
     allegro continues;
     v1, v2, va interlocking clouded pane whisk gears continue:
+        stopped lh continues;
         rhythms move independently;
         animated by even more noise injection;
     vc clouded pane continues:
+        stopped lh begins;
+        down-glissando lentissimo begins:
+            begins at start of stage;
         ppp continues;
-        down-glissando lentissimo appears gradually;
     short pause [vc continues through pause];
 
     [H.12]
     (4 measures)
     allegro continues;
     v1, v2, va interlocking clouded pane whisk gears continue:
+        stopped lh continues;
         rhythms move independently;
         animated by even more noise injection;
     vc clouded pane continues:
+        stopped lh continues;
         down-glissando lentissimo continues;
         ppp continues;
     short pause [vc continues through pause];
 
     [H.13]
     (4 measures)
-    allegro-to-largo ritardando happens;
-    ritardando achieves largo on last measure downbeat;
+    allegro-to-largo ritardando:
+        begins allegro at start of stage;
+        achieves largo at start of last measure;
     v1, v2, va interlocking clouded pane scratch gears appear gradually:
+        stopped lh continues;
         rhythms move independently;
         ellipses achieve and sustain maximum noise;
     vc clouded-pane-to-trajectory appears gradually:
-        down-glissando lentissimo achieves low pitch on first downbeat;
+        stopped lh continues;
+        down-glissando lentissimo completes:
+            achieves low pitch at start of stage;
         1/2 clt appears gradually:
-            on first downbeat;
+            begins at start of stage;
             not yet audible;
-        (ppp) < p appears gradually;
+        (ppp) < p begins:
+            begins (ppp) at start of stage;
     no pause;
 
 [I]
@@ -1680,7 +1770,8 @@ SEGMENTS
     vc 1/2 clt solo trajectory:
         starts up on local accelerandi;
         repetition quasivortex begins;
-        crescendo achieves p at stage midpoint;
+        ppp < p completes:
+            achieves p at start of measure 1:2;
     no pause;
 
     [I.2]
@@ -1698,7 +1789,7 @@ SEGMENTS
 
     [I.3]
     (1 measure)
-    ritardando continues;
+    largo-to-larghissimo ritardando continues;
     v1, v2, va golden gears whisked skyward:
         base binary rate ratio 1:2:4 between parts continues;
         intermittent local accelerandi continue:
@@ -1712,7 +1803,7 @@ SEGMENTS
 
     [I.4]
     (1 measure)
-    ritardando continues;
+    largo-to-larghissimo ritardando continues;
     v1, v2, va golden gears whisked skyward:
         base binary rate ratio 1:2:4 between parts continues;
         intermittent local acclerandi continue:
@@ -1725,10 +1816,12 @@ SEGMENTS
 
     [I.5]
     (2 measures)
-    ritardando achieves larghissimo on first downbeat;
+    largo-to-larghissimo ritardando completes;
+        achieves larghissimo at start of stage;
     v1, v2, va synchronous golden gears whisked skyward:
-        faster base binary rate 1:2:4 achieved on first downbeat;
-        decrescendo achieves niente on last event;
+        achieves faster base binary rate 1:2:4 at start of stage;
+        decrescendo completes:
+            achieves niente on last event;
     vc 1/2 clt solo trajectory:
         repetition quasivortex continues;
         f continues;
@@ -1790,10 +1883,12 @@ SEGMENTS
 
         [J.4]
         (1 measure)
-        accelerando achieves andante on first downbeat;
+        accelerando completes:
+            achieves andante at start of stage;
         tutti urtext continues until end:
             double-stop field continues;
-            crescendo achieves fff poco scratch on first downbeat;
+            crescendo completes:
+                achieves fff poco scratch at start of stage;
         no pause;
 
         [J.5]
@@ -1811,11 +1906,12 @@ SEGMENTS
     [J.6]
     (4 measures)
     andante continues;
-    v1, 2, va 1/2 clt trajectories:
-        local accelerandi achieve stable rhythm on first downbeat;
+    v1, 2, va 1/2 clt trajectories continue:
+        local accelerandi complete:
+            achieve stable rhythm at start of stage;
         pitch ascent begins;
         pp continues;
-    vc ellipses:
+    vc ellipses continue:
         pronounced local accelerando continues;
         pp > niente;
     no pause;
@@ -1825,8 +1921,9 @@ SEGMENTS
     [K.1]
     (3 measures)
     andante continues;
-    tutti trajectories-to-flight begin:
-        ascent achieves higher pitch level on first downbeat; 
+    tutti trajectories-to-flight transition begins:
+        pitch ascent completes:
+            achieves higher pitch level at start of stage;
         1/2 clt continues;
         pp continues;
     no pause;
@@ -1894,7 +1991,8 @@ SEGMENTS
 
     [K.9]
     (8 measures)
-    accelerando achieves allegro on first downbeat;
+    largo-to-allegro accelerando completes:
+        achieves allegro at start of stage;
     tutti flight-to-clouded pane continues:
         stopped lh continues;
         tasto-to-tasto-possibile transition happens;
