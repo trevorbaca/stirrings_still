@@ -5,13 +5,13 @@ PENDING ANALYSES
 
 2.  tempo (marker)
 
-3.  damp (green highlighter)
+3.  damp (green)
 
-4.  1/2 clt (blue highlighter)
+4.  1/2 clt (blue)
 
-5.  loudness
+5.  loudness (pink)
 
-6.  subito / transition
+6.  subito / taper / transition
 
 7.  repetition
 
