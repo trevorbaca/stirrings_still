@@ -347,10 +347,10 @@ SEGMENTS
         damped lh completes;
         v1, v2 clockticks fade out:
             1/2 clt fades out;
-            (mf) > niente happens during second half of stage;
+            (mf) > niente governs second half of stage;
         va ellipses fade in [recalls end of A] and then stop:
             hair governs stage;
-            niente < p happens during first quarter of stage;
+            niente < p governs first quarter of stage;
     vc [[clouded pane]] appears:
         (obverse) harmonic appears:
         niente < f begins;
@@ -686,6 +686,7 @@ SEGMENTS
     tutti unexplanined grid appears:
         damped lh governs stage;
         hair governs stage;
+        p governs stage;
     pause;
 
 [C]
@@ -760,7 +761,7 @@ SEGMENTS
         maximally wide;
         post-attempt rests disappear to reveal continuous sound;
         desynchronized independent rhythm in each part;
-        p continues;
+        p continues to end of stage;
     surprisingly short breath;
 
     [C.7]
@@ -770,13 +771,16 @@ SEGMENTS
     v1 [[shining beacon of clouded pane]]:
         harmonic lh governs stage;
         hair continues;
+        pp governs stage;
     v2 clockticks [B.7] return:
         damped lh governs stage;
         1/2 clt governs stage;
         fast clockticks;
+        mp governs stage;
     va, vc [[shining beacon of clouded pane]]:
         harmonic lh governs stage;
         hair continues;
+        pp governs stage;
     cut-off;
     all sound ends immediately following clockticks;
     counted rest to build expectation before reentering circles;
@@ -784,19 +788,20 @@ SEGMENTS
     [C.8]
     (circles resume)
     (4 measures)
-    adagio-meno-mosso-to-allegro accelerando happens;
+    adagio-meno-mosso-to-allegro accelerando governs stage;
     tutti synchronized white circles:
         damped lh resumes;
         hair resumes;
-        synchronized maximally wide circles;
-        one circle at a time followed by rest;
-        rhythm 3 2r 3 2r 3 2r 3 1(!)r 3 2r ...;
+        synchronized maximally wide circles:
+            one circle at a time followed by rest;
+            rhythm 3 2r 3 2r 3 2r 3 1(!)r 3 2r ...;
+        mf > pp governs stage;
     surprisingly short breath;
 
     [C.9]
     (circles resume)
     (4 measures)
-    adagio-più-mosso-to-presto accelerando happens;
+    adagio-più-mosso-to-presto accelerando governs stage;
     tutti offset-homorhythm white circles:
         damped lh continues;
         hair continues;
@@ -806,6 +811,8 @@ SEGMENTS
         each player starting at different point in rhythm;
         shared rhythmic background grid;
         independent start and stop time;
+        pp < mf governs stage:
+            achieves mf at start of next stage;
     no pause;
 
     [C.10-13] = 2 x [C.8-9]
@@ -819,59 +826,61 @@ SEGMENTS
             lh 1-finger hamronic subito becomes lh 2-finger harmonic again;
             lh 2-finger harmonic become lh 1-finger harmonic;
             everyone arrives at lh 1-finger harmonic;
+        mf > pp < f > pp < f governs the four stages;
     no pause;
 
     [C.14]
     (4 measures)
-    strait adagio governs stage;
+    adagio governs stage;
     tutti maximally wide offset-homorhythm circles continue:
         hair continues;
         continuous sound in all parts (= no rest after any circle);
         gradual harmonic-to-half-harmonic-to-stopped transition independently;
+        f continues until end of stage;
     surprisingly short breath;
 
     [C.15]
     (2 measures)
-    largo-to-allegro accelerando happens during first half of stage;
+    largo-to-allegro accelerando governs first half of stage;
     tutti maximally wide homorhythm circles continue:
         stopped lh continues;
         hair continues;
         rhythmicized again with rest after every circle;
         exposition of termination types;
-        one dynamic level louder;
+        p begins;
     no pause;
 
     [C.16]
     (2 measures)
-    allegro-to-largo ritardando happens during first half of stage;
+    allegro-to-largo ritardando governs first half of stage;
     tutti maximally wide homorhythm circles continue:
         stopped lh continues;
         hair continues;
         rhythmicized with rest after every circle;
         further exposition of termination types;
-        one dynamic level quieter;
+        p continues;
     no pause;
 
     [C.17]
     (2 measures)
-    largo-to-allegro accelerando happens during first half of stage;
+    largo-to-allegro accelerando governs first half of stage;
     tutti maximally wide homorhythm circles continue:
         stopped lh continues;
         hair continues;
         rhythmicized with rest after every circle;
         further exposition of termination types;
-        one dynamic level louder;
+        p continues;
     no pause;
     
     [C.18]
     (2 measures)
-    allegro-to-largo ritardando happens during first half of stage;
+    allegro-to-largo ritardando governs first half of stage;
     tutti maximally wide homorhythm circles continue:
         stopped lh continues;
         hair continues;
         rhythmicized with rest after every circle;
         further exposition of termination types;
-        one dynamic level quieter;
+        p continues until end of stage;
     pause;
 
     [C.19]
@@ -885,7 +894,7 @@ SEGMENTS
         hair fades out;
         corresponding slackening of circles; 
         continuous sound (= no rest after any circle) fades out;
-        mf > niente happens;
+        f > niente governs stage;
     pause;
 
 [D]
@@ -899,7 +908,7 @@ SEGMENTS
         unison pitch begins;
         sparse desynchronized rhythm appears gradually;
         extensive damp termination game begins;
-        "pp" < "mf" ... "mf" > "pp" happen independently;
+        independent p < mp ... mp > p begin;
     no pause;
 
     [D.2]
@@ -911,7 +920,7 @@ SEGMENTS
         unison continues;
         desynchronized rhythm becomes somewhat denser;
         damp termination game continues;
-        "pp" < "mf" ... "mf" > "pp" continue independently;
+        independent p < mp ... mp > p continue;
     no pause;
 
     [D.3]
@@ -923,7 +932,7 @@ SEGMENTS
         unison continues;
         denser rhythm begins synchronization;
         damp termination game continues;
-        "pp" < "mf" ... "mf" > "pp" continue independently;
+        independent p < mp ... mp > p continue;
     no pause;
 
     [D.4]
@@ -935,7 +944,7 @@ SEGMENTS
         unison continues;
         denser rhythm deepens synchronization;
         damp termination game continues;
-        "pp" < "mf" ... "mf" > "pp" continue independently;
+        independent p < mp ... mp > p continue;
     no pause;
 
     [D.5]
@@ -947,7 +956,7 @@ SEGMENTS
         unison continues;
         denser rhythm almost completely synchronized;
         damp termination game continues;
-        synchronized "pp" < "f" happens;
+        synchronized p < mf governs stage;
     no pause;
 
     [D.6]
@@ -959,7 +968,7 @@ SEGMENTS
         unison continues;
         denser rhythm completely synchronized;
         damp termination game continues;
-        "f" continues;
+        mf continues;
     pause;
 
     [D.7]
@@ -971,7 +980,7 @@ SEGMENTS
         unison continues;
         denser rhythm completely synchronized;
         damp termination game continues;
-        "p" as echo;
+        pp governs stage;
     pause;
 
     [D.8]
@@ -984,7 +993,7 @@ SEGMENTS
         stopped lh reappears;
         hair continues;
         tasto reappears;
-        p reappears;
+        p reappears and governs stage;
     long pause;
 
     [[tremolo exposition:]]
@@ -1012,7 +1021,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         tasto repeats;
-        p repeats;
+        p repeats and governs stage;
     long pause;
 
     [D.11]
@@ -1024,7 +1033,7 @@ SEGMENTS
         unison fades out;
         denser completely synchronized rhythm fades out;
         termination game fades out;
-        "f" > niente happens;
+        mf > niente governs stage;
     long pause;
 
     [D.12]
@@ -1145,7 +1154,7 @@ SEGMENTS
     vc clouded pane continues:
         stopped lh continues;
         hair continues;
-        mp-to-fff-scratch transition begins;
+        p < fff scratch begins;
     no pause;
 
     [D.19]
@@ -1162,7 +1171,7 @@ SEGMENTS
     vc clouded pane continues:
         stopped lh continues;
         hair continues;
-        achieves fff scratch on last measure downbeat;
+        p < fff scratch achieves fff scratch on downbeat of measure 1:2;
     no pause;
 
     [D.20]
@@ -1179,7 +1188,7 @@ SEGMENTS
     vc clouded pane continues:
         stopped lh continues;
         hair continues;
-        fff scratch continues until end;
+        fff scratch continues until end of stage;
     no pause;
 
     [D.21]
@@ -2139,7 +2148,6 @@ SEGMENTS
                 tremolo expires with termination type taken from inventory;
             repeat;
     no pause;
-    # HERE
 
     [K.3]
     (3 measures)
@@ -2236,6 +2244,7 @@ SEGMENTS
             hair continues;
             oscillates blossom of full multiphonic at extremely slow rate;
             IV/Db2;
+            alternating p < ff ... ff > p;
     no pause;
 
 [M]
@@ -2380,7 +2389,8 @@ SEGMENTS
     v1, v2, va urtext field appears:
         stopped lh joins vc;
         hair joins vc;
-        niente < f happens;
+        niente < f governs stage:
+            achieves f at start of next stage;
     vc clouded pane continues:
         stopped lh continues;
         hair continues;
@@ -2410,8 +2420,8 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         scp process embedded;
-        dynamic process embedded;
-        terminates tutti fortissimo ponticello release lv;
+        dynamic process embedded:
+            terminates ff ponticello with lv-release;
     very long pause;
 
     [N.7]
@@ -2425,6 +2435,8 @@ SEGMENTS
             senza tremolo;
             upper partials down-glissandi lentissimi;
             bowspeed transition to nothing;
+        p governs first half of stage;
+        p > niente governs second half of stage;
     very long pause;
 
 [O]
@@ -2437,7 +2449,7 @@ SEGMENTS
         hair returns;
         new urtext pitches appear;
         ellipses so slow that primary effect is granulation;
-        mp;
+        mf governs stage;
     very long pause;
 
 [P]
