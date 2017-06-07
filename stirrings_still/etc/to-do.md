@@ -1,25 +1,33 @@
 PENDING ANALYSES
 ================
 
-1.  material (ink)
+1.  materials
 
-2.  tempo (marker)
+2.  tempo
 
-3.  damp (green)
+3.  materials:
 
-4.  1/2 clt (blue)
+    *   damp (green)
 
-5.  loudness (pink)
+    *   1/2 clt (blue)
 
-6.  subito / taper / transition
+    *   loudness (pink)
 
-7.  repetition
+    *   harmonics (yellow)
 
-8.  polyrhythm
+4. narrativity:
 
-9.  tailpiece
+    *   state
 
-10. interaction
+    *   subito / taper / transition
+
+    *   repetition
+
+    *   polyrhythm
+
+    *   tailpiece
+
+5.  materials
 
 TO-DO
 =====
