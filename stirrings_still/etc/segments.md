@@ -698,7 +698,8 @@ SEGMENTS
         damped lh continues;
         hair continues;
         fixed pitch for each player;
-        different rate for each player;
+        desynchronization begins:
+            different rate for each player;
         "ff" governs stage;
     pause;
 
@@ -710,6 +711,7 @@ SEGMENTS
         hair continues;
         v2 only:
             slow up-glissando;
+        desynchronization continues;
         p governs stage;
     pause;
 
@@ -722,7 +724,7 @@ SEGMENTS
         maximally tight crunch circles spiral outwards to become wider:
             1-2" stop width;
             each orbital attempt initially followed by rest;
-            desynchronized independent rhythm in each part;
+            desynchronization continues;
         p continues;
     no pause;
 
@@ -735,7 +737,7 @@ SEGMENTS
         maximally tight crunch circles spiral outwards to become wider:
             2-4" stop width;
             each orbital attempt initially followed by rest;
-            desynchronized independent rhythm in each part;
+            desynchronization continues;
         p continues;
     no pause;
 
@@ -748,19 +750,21 @@ SEGMENTS
         maximally tight crunch circles spiral outwards to become wider:
             4-8" stop width;
             post-attempt rests begin to disappear;
-            desynchronized independent rhythm in each part;
+            desynchronization continues;
         p continues;
     no pause;
 
     [C.6]
     (4 measures)
     adagio più mosso continues;
-    tutti out-spiralling achieves maximally wide circles:
-        damped lh continues;
-        hair continues;
-        maximally wide;
-        post-attempt rests disappear to reveal continuous sound;
-        desynchronized independent rhythm in each part;
+    tutti out-spiralling achieves maximally wide circles;
+    maximally wide circles continue to end of stage:
+        damped lh continues continues to end of stage;
+        hair continues continues to end of stage;
+        maximally wide continues to end of stage;
+        post-attempt rests disappear to reveal continuous sound:
+            continuous sound continues to end of stage;
+        desynchronization continue to end of stage;
         p continues to end of stage;
     surprisingly short breath;
 
@@ -789,10 +793,11 @@ SEGMENTS
     (circles resume)
     (4 measures)
     adagio-meno-mosso-to-allegro accelerando governs stage;
-    tutti synchronized white circles:
+    tutti ellipses resume (as homorhythm white circles);
         damped lh resumes;
         hair resumes;
-        synchronized maximally wide circles:
+        maximally wide circles resume;
+        synchronization begins:
             one circle at a time followed by rest;
             rhythm 3 2r 3 2r 3 2r 3 1(!)r 3 2r ...;
         mf > pp governs stage;
@@ -802,15 +807,16 @@ SEGMENTS
     (circles resume)
     (4 measures)
     adagio-più-mosso-to-presto accelerando governs stage;
-    tutti offset-homorhythm white circles:
+    tutti ellipses continue (as offset-homorhythm white circles):
         damped lh continues;
         hair continues;
-        maximally wide circles;
-        one circle at a time followed by rest;
-        rhythm 3 2r 3 2r 3 2r 3 1(!)r 3 2r ...;
-        each player starting at different point in rhythm;
-        shared rhythmic background grid;
-        independent start and stop time;
+        maximally wide circles continue;
+        synchronization continues:
+            shared rhythmic background grid;
+        offset synchronization begins:
+            one circle at a time followed by rest;
+            rhythm 3 2r 3 2r 3 2r 3 1(!)r 3 2r ...;
+            each player starting at different point in rhythm;
         pp < mf governs stage:
             achieves mf at start of next stage;
     no pause;
@@ -818,6 +824,7 @@ SEGMENTS
     [C.10-13] = 2 x [C.8-9]
         tutti circles continue:
         hair continues;
+        offset synchronization continues through all four stages;
         jagged stairstep process in each player independently:
             lh 3-finger damp subito becomes lh 2-finger harmonic;
             lh 2-finger harmonic subito becomes lh 3-finger damp again;
@@ -832,10 +839,11 @@ SEGMENTS
     [C.14]
     (4 measures)
     adagio governs stage;
-    tutti maximally wide offset-homorhythm circles continue:
+    tutti maximally wide circles continue:
         hair continues;
         continuous sound in all parts (= no rest after any circle);
         gradual harmonic-to-half-harmonic-to-stopped transition independently;
+        desynchronization governs stage;
         f continues until end of stage;
     surprisingly short breath;
 
@@ -845,8 +853,9 @@ SEGMENTS
     tutti maximally wide homorhythm circles continue:
         stopped lh continues;
         hair continues;
-        rhythmicized again with rest after every circle;
-        exposition of termination types;
+        strict synchronization returns:
+            rhythmicized again with rest after every circle;
+        jeux des terminaisons begins;
         p begins;
     no pause;
 
@@ -856,8 +865,9 @@ SEGMENTS
     tutti maximally wide homorhythm circles continue:
         stopped lh continues;
         hair continues;
-        rhythmicized with rest after every circle;
-        further exposition of termination types;
+        synchronization continues:
+            rhythmicized with rest after every circle;
+        jeux des terminaisons continues;
         p continues;
     no pause;
 
@@ -867,8 +877,9 @@ SEGMENTS
     tutti maximally wide homorhythm circles continue:
         stopped lh continues;
         hair continues;
-        rhythmicized with rest after every circle;
-        further exposition of termination types;
+        synchronization continues:
+            rhythmicized with rest after every circle;
+        jeux des terminaisons continues;
         p continues;
     no pause;
     
@@ -878,8 +889,9 @@ SEGMENTS
     tutti maximally wide homorhythm circles continue:
         stopped lh continues;
         hair continues;
-        rhythmicized with rest after every circle;
-        further exposition of termination types;
+        synchronization continues to end of stage:
+            rhythmicized with rest after every circle;
+        jeux des terminaisons continues to end of stage;
         p continues until end of stage;
     pause;
 
@@ -888,12 +900,13 @@ SEGMENTS
     largo-to-presto accelerando happens:
         begins at start of stage;
         end at start of measure 1:2;
-    tutti maximally wide homorhythm circles fade out:
+    tutti ellipses fade out (as continuous desynchronized slack circles):
         stopped lh fades out:
             down-glissando in each part independently;
         hair fades out;
-        corresponding slackening of circles; 
-        continuous sound (= no rest after any circle) fades out;
+        desynchronization governs stage:
+            slackening of circles governs stage; 
+            continuous sound (= no rest after any circle) governs stage;
         f > niente governs stage;
     pause;
 
