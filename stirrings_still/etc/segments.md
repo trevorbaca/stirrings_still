@@ -6,9 +6,11 @@ SEGMENTS
     [A.1]
     (1 measure)
     andante begins;
-    v1, v2, va urtext begins:
-        pitch (densely spaced double stops);
-        tasto:
+    v1, v2, va urtext declamation (two chords) appears:
+        stopped lh appears;
+        hair appears;
+        tasto appears;
+        densely spaced double stops appear;
         declamation (two rest-delimited chords):
             first chord:
                 short;
@@ -23,9 +25,11 @@ SEGMENTS
     [A.2]
     (1 measure)
     andante continues;
-    v1, v2, va urtext continues:
+    v1, v2, va urtext declamation repeats and intensifies:
         stopped lh continues;
+        hair continues;
         tasto continues;
+        densesly spaced double stops repeat;
         declamation:
             first chord:
                 simile;
@@ -42,9 +46,11 @@ SEGMENTS
     [A.3]
     (2 measures)
     andante continues;
-    v1, v2, va urtext continues:
+    v1, v2, va urtext decalation repeats and intensifies:
         stopped lh continues;
+        hair continues;
         tasto continues;
+        densely spaced double stops repeat;
         declamation:
             first chord:
                 simile;
@@ -62,9 +68,11 @@ SEGMENTS
     [A.4]
     (2 measures)
     andante continues;
-    v1, v2, va urtext continues:
+    v1, v2, va urtext declamation repeats and intensifies:
         stopped lh continues;
+        hair continues;
         tasto continues;
+        densely spaced double stops repeat;
         declamation:
             first chord:
                 simile;
@@ -82,9 +90,11 @@ SEGMENTS
     (6 measures)
     andante-to-allegro accelerando happens;
     accelerando achieves allegro on last measure first downbeat;
-    v1, v2, va urtext continues:
+    v1, v2, va urtext declamation repeats and becomes urtext field:
         stopped lh continues;
+        hair continues;
         tasto continues;
+        densely spaced double stops repeat;
         declamation:
             first chord:
                 simile;
@@ -106,49 +116,53 @@ SEGMENTS
     [A.6]
     (1 measure)
     subito adagio;
-    v1, v2, va urtext starts again:
-        as per [A.1] with change of chord(s);
-        stopped lh continues;
-        tasto continues;
-        declamation:
-            third chord:
-                even a bit quieter;
-                pp <| p ringing lv;
-            fourth chord:
-                quieter than at start of piece;
-                pp <| p ringing lv (not stop-on-string);
-    vc urtext continues:
-        stopped lh continues;
-        tasto continues;
-        p continues;
+    composite urtext field / ellipses begin:
+        v1, v2, va urtext declamation starts again:
+            as per [A.1] with change of chord(s);
+            stopped lh continues;
+            hair continues;
+            tasto continues;
+            two new densely spaced double stops appear;
+            declamation:
+                third chord:
+                    even a bit quieter;
+                    pp <| p ringing lv;
+                fourth chord:
+                    quieter than at start of piece;
+                    pp <| p ringing lv (not stop-on-string);
+        vc urtext continues:
+            stopped lh continues;
+            tasto continues;
+            p continues;
     pause [vc holds over pause];
 
     [A.7]
     (1 measure)
     adagio continues;
-    v1, v2, va:
-        urtext:
+    composite urtext field / ellipses repeat and intensity:
+        v1, v2, va:
+            urtext field:
+                stopped lh continues;
+                tasto continues;
+                declamation:
+                    third chord simile:
+                        short pp <| p ringing lv;
+                    fourth chord:
+                        a little longer;
+                        does not introduce slower bow;
+                        does not terminate stop-on-string;
+                        pp <| mp ringing lv;
+            immediately followed by ellipses:
+                stopped lh continues;
+                ellipse colors appear;
+                desynchronized;
+                moderate rate;
+                moderate duration;
+                mp;
+        vc urtext field continues:
             stopped lh continues;
             tasto continues;
-            declamation:
-                third chord simile:
-                    short pp <| p ringing lv;
-                fourth chord:
-                    a little longer;
-                    does not introduce slower bow;
-                    does not terminate stop-on-string;
-                    pp <| mp ringing lv;
-        immediately followed by ellipses:
-            stopped lh continues;
-            ellipse colors appear;
-            desynchronized;
-            moderate rate;
-            moderate duration;
-            mp;
-    vc urtext continues:
-        stopped lh continues;
-        tasto continues;
-        p continues;
+            p continues;
     pause [vc holds over pause];
 
     [[intercalation from future over vc pedal]];
@@ -157,78 +171,81 @@ SEGMENTS
     [A.8]
     (2 measures)
     adagio continues;
-    v1, v2, va
-        urtext:
+    composite urtext field / ellipses repeat and intensity:
+        v1, v2, va
+            urtext field:
+                stopped lh continues;
+                tasto returns;
+                declamation:
+                    third chord simile:
+                        short pp <| p ringing lv;
+                    fourth chord:
+                        even longer;
+                        pp <| mf ringing lv;
+            ellipses:
+                stopped lh continues;
+                ellipse colors return;
+                desynchronization returns;
+                slightly faster rate;
+                slightly longer duration;
+                p;
+        vc urtext field continues:
             stopped lh continues;
-            tasto returns;
-            declamation:
-                third chord simile:
-                    short pp <| p ringing lv;
-                fourth chord:
-                    even longer;
-                    pp <| mf ringing lv;
-        ellipses:
-            stopped lh continues;
-            ellipse colors return;
-            desynchronization returns;
-            slightly faster rate;
-            slightly longer duration;
-            p;
-    vc urtext continues:
-        stopped lh continues;
-        tasto continues;
-        p continues;
+            tasto continues;
+            p continues;
     pause [vc holds over pause];
 
     [A.9]
     (2 measures)
     adagio continues;
-    v1, v2, va:
-        urtext:
+    composite urtext field / ellipses repeat and intensify:
+        v1, v2, va:
+            urtext field:
+                stopped lh continues;
+                tasto returns;
+                declamation:
+                    third chord simile:
+                        short pp <| p ringing lv;
+                    fourth chord:
+                        longer still;
+                        pp <| f ringing lv;
+            ellipses:
+                stopped lh continues;
+                ellipse colors return;
+                fast rate;
+                longer duration;
+                pp;
+        vc urtext field continues:
             stopped lh continues;
-            tasto returns;
-            declamation:
-                third chord simile:
-                    short pp <| p ringing lv;
-                fourth chord:
-                    longer still;
-                    pp <| f ringing lv;
-        ellipses:
-            stopped lh continues;
-            ellipse colors return;
-            fast rate;
-            longer duration;
-            pp;
-    vc urtext continues:
-        stopped lh continues;
-        tasto continues;
-        p continues;
+            tasto continues;
+            p continues;
     pause [vc holds over pause];
 
     [A.10]
     (6 measures)
     adagio-to-allegro accelerando happens;
-    accelerando achieves allegro on last measure first downbeat;
-    v1, v2, va:
-        urtext:
+    composite urtext field / ellipses repeat and intensity:
+        accelerando achieves allegro on last measure first downbeat;
+        v1, v2, va:
+            urtext field:
+                stopped lh continues;
+                tasto returns;
+                declamation:
+                    third chord simile:
+                        short pp <| p ringing lv;
+                    fourth chord:
+                        long;
+                        pp <| ff ringing lv;
+            ellipses:
+                stopped lh continues;
+                ellipse colors return;
+                very fast rate;
+                long duration;
+                ppp;
+        vc urtext field continues:
             stopped lh continues;
-            tasto returns;
-            declamation:
-                third chord simile:
-                    short pp <| p ringing lv;
-                fourth chord:
-                    long;
-                    pp <| ff ringing lv;
-        ellipses:
-            stopped lh continues;
-            ellipse colors return;
-            very fast rate;
-            long duration;
-            ppp;
-    vc urtext continues:
-        stopped lh continues;
-        tasto continues;
-        p continues;
+            tasto continues;
+            p continues;
     no pause;
 
     [A.11]
@@ -237,7 +254,7 @@ SEGMENTS
     v1, v2, va ellipses continue:
         very fast rate continues;
         ppp continues;
-    vc urtext fades out:
+    vc urtext field fades out:
         pitch fades out:
             down-glissando happens;
         tasto fades out;
@@ -294,12 +311,12 @@ SEGMENTS
     [A.17]
     (1 measure)
     andante governs stage;
-    v1, v2, va urtext returns:
+    v1, v2, va urtext declamation returns:
         declamation [A.1]:
             third chord only:
                 tasto returns;
                 p <| mp returns;
-    vc urtext ([A.6]) returns:
+    vc urtext field ([A.6]) returns:
         tasto returns;
         p continues;
     pause;
@@ -915,84 +932,84 @@ SEGMENTS
     [D.1]
     (6 measures)
     presto continues;
-    tutti grid begins (at stage one):
+    white tutti grid begins (at stage one):
         damped lh returns;
         hair continues;
         unison pitch begins;
         sparse desynchronized rhythm appears gradually;
-        extensive damp termination game begins;
+        extensive damped jeux des terminaisons begins;
         independent p < mp ... mp > p begin;
     no pause;
 
     [D.2]
     (6 measures)
     presto continues;
-    tutti grid continues (interpolating from stage one to two):
+    white tutti grid continues (interpolating from stage one to two):
         damped lh continues;
         hair continues;
         unison continues;
         desynchronized rhythm becomes somewhat denser;
-        damp termination game continues;
+        jeux des terminaisons continues;
         independent p < mp ... mp > p continue;
     no pause;
 
     [D.3]
     (6 measures)
     presto continues;
-    tutti grid continues (interpolating from stage one to two):
+    white tutti grid continues (interpolating from stage one to two):
         damped lh continues;
         hair continues;
         unison continues;
         denser rhythm begins synchronization;
-        damp termination game continues;
+        jeux des terminaisons continues;
         independent p < mp ... mp > p continue;
     no pause;
 
     [D.4]
     (6 measures)
     presto continues;
-    tutti grid continues (interpolating from stage one to two):
+    white tutti grid continues (interpolating from stage one to two):
         damped lh continues;
         hair continues;
         unison continues;
         denser rhythm deepens synchronization;
-        damp termination game continues;
+        jeux des terminaisons continues;
         independent p < mp ... mp > p continue;
     no pause;
 
     [D.5]
     (6 measures)
     presto continues;
-    tutti grid continues (interpolating from stage one to two):
+    white tutti grid continues (interpolating from stage one to two):
         damped lh continues;
         hair continues;
         unison continues;
         denser rhythm almost completely synchronized;
-        damp termination game continues;
+        jeux des terminaisons continues;
         synchronized p < mf governs stage;
     no pause;
 
     [D.6]
     (6 measures)
     presto continues;
-    tutti grid continues (at stage two):
+    white tutti grid continues (at stage two):
         damped lh continues;
         hair continues;
         unison continues;
         denser rhythm completely synchronized;
-        damp termination game continues;
+        jeux des terminaisons continues;
         mf continues;
     pause;
 
     [D.7]
     (6 measures)
     presto continues;
-    tutti grid continues (at stage two):
-        damped lh continues;
+    white tutti grid continues (at stage two) to end of stage:
+        damped lh continues to end of stage;
         hair continues;
-        unison continues;
-        denser rhythm completely synchronized;
-        damp termination game continues;
+        unison continues to end of stage;
+        completely synchronized denser rhythm continues to end of stage;
+        jeux des terminaisons continues to end of stage;
         pp governs stage;
     pause;
 
@@ -1000,13 +1017,12 @@ SEGMENTS
     (1 measure)
     andante governs stage;
     tutti urtext declamation [A.1] reappears:
-        single urtext declamation;
-        two chords [A.1];
-        densely spaced lower-register;
-        stopped lh reappears;
-        hair continues;
-        tasto reappears;
-        p reappears and governs stage;
+        single urtext declamation (two chords [A.1]):
+            densely spaced lower-register reappears;
+            stopped lh reappears;
+            hair continues;
+            tasto reappears;
+            p governs stage;
     long pause;
 
     [[tremolo exposition:]]
@@ -1028,82 +1044,87 @@ SEGMENTS
     (1 measure)
     andante governs stage;
     tutti urtext declamation [A.1] repeats:
-        single urtext declamation;
-        two chords [A.2];
-        densely spaced lower-register;
-        stopped lh continues;
-        hair continues;
-        tasto repeats;
-        p repeats and governs stage;
+        single urtext declamation (two chords [A.2]):
+            densely spaced lower-register repeats;
+            stopped lh continues;
+            hair continues;
+            tasto repeats;
+            p governs stage;
     long pause;
 
     [D.11]
     (6 measures)
     presto-to-largo ritardando happens;
-    tutti grid stage two resumes and fades out:
+    white tutti grid (stage two) resumes and fades out:
         damped lh fades out;
         hair fades out;
         unison fades out;
-        denser completely synchronized rhythm fades out;
-        termination game fades out;
+        completely synchronized denser rhythm fades out;
+        jeux des terminaisons fades out;
         mf > niente governs stage;
     long pause;
 
     [D.12]
     (2 measures)
     largo continues;
-    v1, v2, va urtext field resumes:
-        stopped lh resumes;
-        hair resumes;
-        tasto continues;
-        densely spaced double-stops resume;
-        continuous sound resumes;
-        p resumes;
-    vc clouded pane appears again:
-        stopped lh returns;
-        hair returns;
-        niente < p governs first half of stage;
+    composite urtext field / clouded pane begins:
+        v1, v2, va urtext field resumes:
+            stopped lh resumes;
+            hair resumes;
+            tasto continues;
+            densely spaced double-stops resume;
+            continuous sound resumes;
+            p resumes;
+        vc clouded pane appears again:
+            stopped lh returns;
+            hair returns;
+            niente < p governs first half of stage;
     no pause;
 
     [D.13]
     (2 measures)
     largo continues;
-    v1, v2, va urtext field continues:
-        stopped lh continues;
-        hair continues;
-        tasto continues;
-        densely spaced double-stops continue;
-        continuous sound continues;
-        tremolo begins revving up:
-            sparse tremolo attempts;
-        p continues;
-    vc clouded pane continues:
-        stopped lh continues;
-        hair continues;
-        p continues;
+    composite urtext field / clouded pane continues:
+    flight beings to appear:
+        v1, v2, va urtext field continues:
+        flight begins to appear:
+            stopped lh continues;
+            hair continues;
+            tasto continues;
+            densely spaced double-stops continue;
+            continuous sound continues;
+            tremolo begins revving up:
+                sparse tremolo attempts;
+            p continues;
+        vc clouded pane continues:
+            stopped lh continues;
+            hair continues;
+            p continues;
     no pause;
 
     [D.14]
     (2 measures)
     largo-to-allegro accelerando begins;
-    v1, v2, va urtext field continues:
-        stopped lh continues;
-        hair continues;
-        tasto continues;
-        densely spaced double-stops continue;
-        continuous sound continues;
-        more tremolo attempts;
-        p continues;
-    vc clouded pane continues:
-        stopped lh continues;
-        hair continues;
-        p continues;
+    composite urtext field / clouded pane / flight continues:
+        v1, v2, va composite urtext field / flight continues:
+            stopped lh continues;
+            hair continues;
+            tasto continues;
+            densely spaced double-stops continue;
+            continuous sound continues;
+            more tremolo attempts;
+            p continues;
+        vc clouded pane continues:
+            stopped lh continues;
+            hair continues;
+            p continues;
     no pause;
 
     [D.15]
     (2 measures)
     largo-to-allegro accelerando continues;
-    v1, v2, va urtext field continues:
+    composite urtext field / clouded pane / flight continues:
+    v1, v2, va composite urtext field / flight continues:
         stopped lh continues;
         hair continues;
         tasto continues;
@@ -1120,122 +1141,119 @@ SEGMENTS
     [D.16]
     (2 measures)
     largo-to-allegro accelerando continues;
-    v1, v2, va urtext field continues:
-        stopped lh continues;
-        hair continues;
-        tasto continues;
-        densely spaced double-stops continue;
-        continuous sound continues;
-        v2, va continuous tremolo;
-        v1 almost continuous tremolo;
-        p continues;
-    vc clouded pane continues:
-        stopped lh continues;
-        hair continues;
-        p continues;
+    composite urtext field / clouded pane / flight continues:
+        v1, v2, va urtext field / flight continues:
+            stopped lh continues;
+            hair continues;
+            tasto continues;
+            densely spaced double-stops continue;
+            continuous sound continues;
+            v2, va continuous tremolo;
+            v1 almost continuous tremolo;
+            p continues;
+        vc clouded pane continues:
+            stopped lh continues;
+            hair continues;
+            p continues;
     no pause;
 
     [D.17]
     (2 measures)
     accelerando achieves allegro at start of stage;
-    v1, v2, va urtext field continues:
-        stopped lh continues;
-        hair continues;
-        tasto continues;
-        densely spaced double-stops continue;
-        continuous sound continues;
-        continuous tremolo in all parts;
-        continuous tremolo arrives at start of stage;
-        p continues;
-    vc clouded pane continues:
-        stoped lh continues;
-        hair continues;
-        p continues;
+    composite urtext field / clouded pane / flight continues:
+        v1, v2, va urtext field / flight continues:
+            stopped lh continues;
+            hair continues;
+            tasto continues;
+            densely spaced double-stops continue;
+            continuous sound continues;
+                continuous tremolo in all parts arrives at start of stage;
+            p continues;
+        vc clouded pane continues:
+            stoped lh continues;
+            hair continues;
+            p continues;
     no pause;
 
     [D.18]
     (2 measures)
     subito largo;
-    v1, v2, va urtext field continues:
-        stopped lh continues;
-        hair continues;
-        tasto continues;
-        densely spaced double-stops continue;
-        continuous sound continues;
-        continuous tremolo continues;
-        jagged tasto-to-poco-pont transition begins independently;
-    vc clouded pane continues:
-        stopped lh continues;
-        hair continues;
-        p < fff scratch begins;
+    composite urtext field / clouded pane / flight continues:
+        v1, v2, va urtext field / flight continues:
+            stopped lh continues;
+            hair continues;
+            jagged tasto-to-poco-pont transition begins independently;
+            densely spaced double-stops continue;
+            continuous tremolo continues;
+        vc clouded pane continues:
+            stopped lh continues;
+            hair continues;
+            p < fff scratch begins;
     no pause;
 
     [D.19]
     (2 measures)
     largo continues;
-    v1, v2, va urtext field continues:
-        stopped lh continues;
-        hair continues;
-        tasto continues;
-        densely spaced double-stops continue;
-        continuous sound continues;
-        continuous tremolo continues;
-        jagged scp transition achieves poco pont on last measure downbeat;
-    vc clouded pane continues:
-        stopped lh continues;
-        hair continues;
-        p < fff scratch achieves fff scratch on downbeat of measure 1:2;
+    composite urtext field / clouded pane / flight continues:
+        v1, v2, va urtext field continues:
+            stopped lh continues;
+            hair continues;
+            jagged scp transition achieves poco pont on last measure downbeat;
+            densely spaced double-stops continue;
+            continuous tremolo continues;
+        vc clouded pane continues:
+            stopped lh continues;
+            hair continues;
+            p < fff scratch achieves fff scratch on downbeat of measure 1:2;
     no pause;
 
     [D.20]
     (2 measures)
     largo continues;
-    v1, v2, va urtext field continues:
-        stopped lh continues;
-        hair continues;
-        tasto continues;
-        densely spaced double-stops change pitch (!);
-        continuous sound continues;
-        continuous tremolo continues;
-        jagged scp reverses direction and begins poco-pont-to-tasto;
-    vc clouded pane continues:
-        stopped lh continues;
-        hair continues;
-        fff scratch continues until end of stage;
+    composite urtext field / clouded pane / flight continues:
+        v1, v2, va urtext field continues:
+            stopped lh continues;
+            hair continues;
+            jagged scp reverses direction and begins poco-pont-to-tasto;
+            densely spaced double-stops change pitch (!);
+            continuous tremolo continues;
+        vc clouded pane continues:
+            stopped lh continues;
+            hair continues;
+            fff scratch continues until end of stage;
     no pause;
 
     [D.21]
     (2 measures)
     largo continues;
-    v1, v2, va urtext field continues:
-        stopped lh continues;
-        hair continues;
-        tasto continues;
-        densely spaced double-stops continue;
-        continuous sound continues;
-        continuous tremolo continues;
-        jagged scp transition continues;
-        jagged scp transition achieves tasto on last measure downbeat;
-    vc:
-        tacet subito;
+    composite urtext field / clouded pane / flight continues:
+        v1, v2, va urtext field continues:
+            stopped lh continues;
+            hair continues;
+            jagged scp transition continues:
+                jagged scp transition achieves tasto on last measure downbeat;
+            densely spaced double-stops continue;
+            continuous tremolo continues;
+        vc:
+            tacet subito;
     no pause;
 
     [D.22]
     (2 measures)
     largo continues;
-    v1, v2, va urtext field fades out:
-        stopped lh completes;
-        hair completes;
-        tasto continues;
-        densely spaced double-stops complete;
-        continuous sound continues;
-        continuous tremolo completes;
-        mp > niente happens;
-    vc clouded pane reenters:
-        stopped lh resumes;
-        hair resumes;
-        reenters up one step;
-        niente < p happens;
+    composite urtext field / clouded pane / flight continues to end of stage:
+        v1, v2, va urtext field fades out:
+            stopped lh fades out;
+            hair fades out;
+            tasto fades out;
+            densely spaced double-stops fade out;
+            continuous tremolo fades out;
+            mp > niente governs stage;
+        vc clouded pane reenters:
+            stopped lh resumes;
+            hair resumes;
+            reenters up one step;
+            niente < p governs stage;
     short pause [vc continues through pause];
 
 [E]
@@ -1552,9 +1570,9 @@ SEGMENTS
     [G.1]
     (1 measure)
     largo più mosso begins;
-    tutti clouded pane / urtext conflict begins:
+    tutti clouded pane / urtext declamation conflict begins:
         single declamation:
-            v1, v2 urtext double stops begin:
+            v1, v2 urtext declamation double stops begin:
                 stopped lh continues;
                 hair continues;
                 tasto begins;
@@ -1580,35 +1598,35 @@ SEGMENTS
     [G.2]
     (1 measure)
     largo più mosso continues;
-    tutti clouded pane / urtext conflict happens again:
+    tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
     pause;
 
     [G.3]
     (1 measure)
     largo più mosso continues;
-    tutti clouded pane / urtext conflict happens again:
+    tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
     pause;
 
     [G.4]
     (1 measure)
     largo più mosso continues;
-    tutti clouded pane / urtext conflict happens again:
+    tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
     pause;
 
     [G.5]
     (1 measure)
     largo più mosso continues;
-    tutti clouded pane / urtext conflict happens again:
+    tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
     long pause;
 
     [G.6]
     (2 measures)
     larghissimo governs stage;
-    tutti urtext continues with flight (and without clouded pane):
+    tutti urtext field continues with flight (and without clouded pane):
         single declamation happens again:
             stopped lh continues:
                 eight-note chord;
@@ -1662,7 +1680,7 @@ SEGMENTS
     [H.3]
     (2 measures)
     adagio continues;
-    v1 urtext ellipses appear gradually:
+    v1 urtext field / ellipses appear gradually:
         stopped lh continues;
         hair continues;
         single bows become slow ellipses:
@@ -1674,14 +1692,14 @@ SEGMENTS
         hair continues;
         flautando continues;
         mp continues;
-    va urtext ellipses appear gradually:
+    va urtext field / ellipses appear gradually:
         stopped lh continues;
         hair continues;
         single bows become slow ellipses:
         rhythm #3 appears:
             introduced gradually on local accelerandi;
         mp continues;
-    vc urtext-to-clouded-pane transition happens:
+    vc urtext-field-to-clouded-pane transition happens:
         stopped-to-harmonic lh transition:
             begins stopped lh at start of stage;
             achieves harmonic lh at start of measure 1:2;
@@ -1689,7 +1707,7 @@ SEGMENTS
         flautando-to-ordinario transition:
             begins flautando at start of stage;
             achieves ordinario at start of measure 1:2;
-        urtext-to-clouded-pane glissando:
+        urtext-field-to-clouded-pane glissando:
             begins at start of stage;
             achieves new pitch at start of measure 1:2;
         mp continues;
@@ -1711,7 +1729,7 @@ SEGMENTS
         hair continues;
         flautando slows to single bows:
             achieves single bows at start of measure 1:2;
-    va urtext ellipses continue:
+    va urtext field / ellipses continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo begins:
@@ -1731,19 +1749,19 @@ SEGMENTS
         achieves adagio on downbeat of measure 1:2;
     allegro-to-adagio ritardando begins:
         begins allegro on downbeat of measure 1:2;
-    v1 urtext ellipses continue:
+    v1 urtext field / ellipses continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo continues;
         ellipse rate increases;
         rhythm #1 continues;
-    v2 urtext ellipses appear gradually:
+    v2 urtext field / ellipses appear gradually:
         stopped lh continues;
         hair continues;
         single bows become slow ellipses;
         rhythm #2 appears gradually:
             introduced on local accelerandi;
-    va urtext ellipses continue:
+    va urtext field / ellipses continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo continues;
@@ -1759,20 +1777,20 @@ SEGMENTS
     (2 measures)
     allegro-to-adagio ritardando completes:
         achieves adagio at start of last measure;
-    v1 urtext ellipses continue:
+    v1 urtext field / ellipses continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo continues;
         ellipse rate increases;
         rhythm #1 continues;
-    v2 urtext ellipses continue:
+    v2 urtext field / ellipses continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo begins:
             begins at start of stage;
         ellipse rate increases;
         rhythm #2 continues;
-    va urtext ellipses continue:
+    va urtext field / ellipses continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo continues;
@@ -1788,7 +1806,7 @@ SEGMENTS
     [H.7]
     (2 measures)
     adagio continues;
-    v1 urtext ellipses complete:
+    v1 urtext field / ellipses complete:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo completes:
@@ -1797,7 +1815,7 @@ SEGMENTS
         rhythm #1 completes;
         > niente:
             achieves niente at start of next stage;
-    v2 urtext ellipses complete:
+    v2 urtext field / ellipses complete:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo completes:
@@ -1806,7 +1824,7 @@ SEGMENTS
         rhythm #2 completes;
         > niente:
             achives niente at start of next stage;
-    va urtext ellipses complete:
+    va urtext field / ellipses complete:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo completes:
@@ -2034,7 +2052,7 @@ SEGMENTS
     [I.7]
     (2 measures)
     larghissimo continues;
-    v1, v2, va urtext begins:
+    v1, v2, va urtext field begins:
         stopped lh joins vc;
         hair resumes;
         sustained double-stop field returns;
@@ -2052,7 +2070,7 @@ SEGMENTS
     [J.1]
     (4 measures)
     larghissimo continues;
-    v1, v2, va urtext continues:
+    v1, v2, va urtext field continues:
         stopped lh continues;
         hair continues;
         double-stop field continues;
@@ -2064,7 +2082,7 @@ SEGMENTS
     [J.2]
     (2 measures)
     larghissimo-to-andante accelerando begins;
-    tutti urtext continues:
+    tutti urtext field continues:
         stopped lh continues;
         hair continues;
         double-stop field continues;
@@ -2075,7 +2093,7 @@ SEGMENTS
     [J.3]
     (2 measures)
     accelerando continues;
-    tutti urtext continues:
+    tutti urtext field continues:
         stopped lh continues;
         hair continues;
         double-stop field continues;
@@ -2088,7 +2106,7 @@ SEGMENTS
         (1 measure)
         accelerando completes:
             achieves andante at start of stage;
-        tutti urtext completes:
+        tutti urtext field completes:
             stopped lh continues;
             hair continues;
             double-stop field continues;
@@ -2276,7 +2294,7 @@ SEGMENTS
     [M.2]
     (4 measures)
     largo meno mosso continues;
-    v1, v2, va urtext ellipses appear:
+    v1, v2, va urtext field / ellipses appear:
         stopped lh continues;
         hair continues;
         double-stop ellipses;
@@ -2303,7 +2321,7 @@ SEGMENTS
     [M.4]
     (4 measures)
     largo meno mosso continues;
-    v1, v2, va urtext ellipses appear:
+    v1, v2, va urtext field / ellipses appear:
         stopped lh continues;
         hair continues;
         double-stop ellipses;
@@ -2331,7 +2349,7 @@ SEGMENTS
     [M.6]
     (4 measures)
     largo meno mosso continues;
-    v1, v2, va urtext ellipses appear:
+    v1, v2, va urtext field / ellipses appear:
         stopped lh continues;
         hair continues;
         double-stop ellipses;
@@ -2440,7 +2458,7 @@ SEGMENTS
     [N.7]
     (2 measures)
     larghississimo;
-    tutti combined clouded pane and urtext:
+    tutti composite clouded pane / urtext field:
         stopped lh continues;
         hair continues;
         combined single gesture of conflict and relinquishment:
@@ -2457,7 +2475,7 @@ SEGMENTS
     [O.1]
     (6 measures)
     largo più mosso governs stage;
-    tutti urtext ellipses return:
+    tutti urtext field / ellipses return:
         stopped lh returns;
         hair returns;
         new urtext pitches appear;
@@ -2540,9 +2558,9 @@ SEGMENTS
     [Q.2]
     (12 measures)
     adagio-to-presto accelerando happens;
-    tutti urtext trajectories appear:
+    tutti urtext field / trajectories appear:
         desynchronized pitched field trajectories whisked skyward;
-        urtext double stops;
+        urtext field double stops;
         subito pitch;
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
@@ -2563,9 +2581,9 @@ SEGMENTS
     [Q.4]
     (10 measures)
     adagio-to-presto accelerando happens;
-    tutti trajectories return:
+    tutti urtext field / trajectories return:
         desynchronized pitched field trajectories whisked skyward;
-        urtext double stops;
+        urtext field double stops;
         subito pitch;
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
@@ -2586,9 +2604,9 @@ SEGMENTS
     [Q.6]
     (8 measures)
     adagio-to-presto accelerando happens;
-    tutti trajectories return:
+    tutti urtext field / trajectories return:
         desynchronized pitched field trajectories whisked skyward:
-        urtext double stops;
+        urtext field double stops;
         subito pitch;
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
@@ -2609,9 +2627,9 @@ SEGMENTS
     [Q.8]
     (6 measures)
     adagio-to-presto accelerando happens;
-    tutti trajectories return:
+    tutti urtext field / trajectories return:
         desynchronized pitched field trajectories whisked skyward:
-        urtext double stops;
+        urtext field double stops;
         subito pitch;
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
@@ -2632,9 +2650,9 @@ SEGMENTS
     [Q.10]
     (4 measures)
     adagio-to-presto accelerando happens;
-    tutti trajectories return:
+    tutti urtext field / trajectories return:
         desynchronized pitched field trajectories whisked skyward:
-        urtext double stops;
+        urtext field double stops;
         subito pitch;
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
@@ -2657,7 +2675,6 @@ SEGMENTS
     adagio-to-presto accelerando happens;
     tutti trajectories return:
         desynchronized pitched field trajectories whisked skyward:
-        urtext double stops;
         subito pitch;
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;

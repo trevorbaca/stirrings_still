@@ -15,7 +15,7 @@ PENDING ANALYSES
 
     *   harmonics (yellow)
 
-4. narrativity:
+4. dramaturgy:
 
     *   state
 
