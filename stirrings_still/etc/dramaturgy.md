@@ -30,14 +30,57 @@ DRAMATURGY
 [D]
 
     white tutti termination grid appears, synchronizes;
+        pause;
     single urtext declamation reappears;
+        long pause;
     clouded pane appears (without explanation) for first time in piece;
+        long pause;
     single urtext declamation repeats;
+        long pause;
     white tutti termination grid reappears and fades out;
-    composite urtext field / clouded pane / flight:
-        * begins
-        * intensifies greatly
-        * fades out
+        long pause;
+    colored composite urtext field / clouded pane / flight:
+        begins;
+        intensifies;
+        persists;
+        fades out;
+        pedal persists;
+        short pause;
+
+[E]
+
+    subtended tremolo returns subito white;
+        short pause;
+    white desynchronized grid begins:
+        holds;
+        colors (1/2 clt);
+        syncrhonizes;
+        ascends slightly from under ferocity;
+        persists;
+        ascends slightly (again);
+        expires;
+    subtended 1/2 clt cells appear:
+        hold;
+        fade into tremolo;
+        color (hair);
+        tremolo holds;
+        short pause;
+    colored tremolo reappears:
+        inflects scp;
+        expires;
+        pause;
+    colored tremolo reappears:
+        inflects scp;
+        whitens;
+        holds;
+        pause;
+    white tremolo reappears:
+        inflects scp;
+        loses pedal;
+        slows;
+        regains pedal;
+        fades out;
+    pedal persists incredibly;
 
 ###############################################################################
 ################################## QUESTIONS ##################################
