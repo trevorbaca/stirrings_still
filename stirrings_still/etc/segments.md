@@ -89,7 +89,7 @@ SEGMENTS
     [A.5]
     (6 measures)
     andante-to-allegro accelerando happens;
-    accelerando achieves allegro on last measure first downbeat;
+    accelerando achieves allegro at start of last measure;
     v1, v2, va urtext declamation repeats and becomes urtext field:
         stopped lh continues;
         hair continues;
@@ -225,7 +225,7 @@ SEGMENTS
     (6 measures)
     adagio-to-allegro accelerando happens;
     composite urtext field / ellipses repeat and intensity:
-        accelerando achieves allegro on last measure first downbeat;
+        accelerando achieves allegro at start of last measure;
         v1, v2, va:
             urtext field:
                 stopped lh continues;
@@ -264,7 +264,7 @@ SEGMENTS
     [A.12]
     (4 measures)
     allegro-to-largo ritardando happens;
-    ritardando achieves largo on last measure first downbeat;
+    ritardando achieves largo at start of last measure;
     v1, v2, va ellipses continue:
         very fast rate continues;
         ppp > niente happens;
@@ -1258,17 +1258,33 @@ SEGMENTS
 
 [E]
 
-    [E.1]
-    (6 measures)
+    [E.0]
+    (2 measures)
     presto begins;
-    v1, v2, va grid (stage five: tremolo-initiation) begins:
+    v1, v2, va grid-to-trajectories transition begins:
         damped lh returns;
         1/2 clt begins;
         tasto continues;
-        tremolo-initiation begins;
-        very light fast bow begins;
-        internal rhythmic ordering returns;
+        continuous tremolo begins again;
         p begins;
+    vc clouded pane continues:
+        stopped lh continues;
+        hair continues;
+        p continues;
+    short pause [vc continues through pause];
+
+    [E.1]
+    (6 measures)
+    presto continues;
+    v1, v2, va grid-to-trajectories transition continues:
+        grid stage five (tremolo-initiation) begins:
+            damped lh continues;
+            1/2 clt continues;
+            tasto continues;
+            tremolo-initiated strokes begin independently;
+                very light fast bow begins independently;
+            desynchronization governs stage;
+            p continues;
     vc clouded pane continues:
         stopped lh continues;
         hair continues;
@@ -1278,18 +1294,20 @@ SEGMENTS
     [E.2]
     (8 measures)
     presto continues;
-    v1, v2, va grid (stage five: tremolo-initiation) continues:
-        damped-to-stopped lh transition happens;
-        1/2 clt continues;
-        tasto continues;
-        tremolo-initiation continues;
-        very light fast bow continues;
-        internal rhythmic ordering continues:
-            additive rhythm transpires:
+    v1, v2, va grid-to-trajectories transition continues:
+        grid stage five (tremolo-initiation) continues:
+            damped-to-stopped lh transition happens;
+            1/2 clt continues;
+            tasto continues;
+            tremolo-initiation continues;
+                very light fast bow continues;
+            synchronization process governs stage:
+                achieves synchronization at start of last measure;
+            additive rhythm governs stage:
+                achieves adagio-equivalent at start of last measure;
                 effects written-out ritardando;
                 transpires under presto;
-                achieves adagio-equivalent on last measure first downbeat;
-        p continues;
+            p continues;
     vc clouded pane continues:
         stopped lh continues;
         hair continues;
@@ -1299,15 +1317,15 @@ SEGMENTS
     [E.3]
     (4 measures)
     adagio (equal to additive rhythm endpoint) starts;
-    adagio-to-allegro accelerando begins:
+    adagio-to-allegro accelerando happens:
         achieves allegro on last measure downbeat;
-    v1, v2, va grid-to-trajectories transition begins:
+    v1, v2, va grid-to-trajectories transition continues:
         stopped lh continues;
         1/2 clt continues;
         tasto continues;
         tremolo-initiation continues;
         very light fast bow continues;
-        internal rhythmic ordering continues;
+        synchronization continues;
         p continues;
     vc clouded pane continues:
         stopped lh continues;
@@ -1324,8 +1342,8 @@ SEGMENTS
         tasto continues;
         tremolo-initiation continues;
         very light fast bow continues;
-        slow pitch ascents begin independently;
-        internal rhythmic ordering continues;
+        slight pitch ascents begin independently;
+        synchronization continues;
         p continues;
     vc clouded pane completes:
         stopped lh continues;
@@ -1343,9 +1361,9 @@ SEGMENTS
         tasto continues;
         tremolo-initiation continues;
         very light fast bow continues;
-        slow pitch ascents complete independently:
+        slight pitch ascents complete independently:
             achieve slightly higher lower-register pitches;
-        internal rhythmic ordering continues;
+        synchronization continues;
         p continues;
     vc:
         tacet subito;
@@ -1362,7 +1380,7 @@ SEGMENTS
         tremolo-initiation stops independently;
         very light fast bow continues;
         slightly higher lower-register tasto continues;
-        internal rhythmic ordering continues;
+        synchronization continues;
         p continues;
     vc:
         tacet continues;
@@ -1376,13 +1394,13 @@ SEGMENTS
         1/2 clt continues;
         tasto continues;
         very light fast bow continues;
-        very slow pitch ascents begin again independently;
+        very slight pitch ascents begin again independently;
             achieve slightly higher lower-register pitches by end;
         slightly higher lower-register tasto continues;
-        internal rhythmic ordering continues;
-        (p) < mf:
-            begins first measure first downbeat;
-            mf begins last measure first downbeat;
+        synchronization completes;
+        (p) < mf happens:
+            begins at start of stage;
+            achieves mf at start of last measure;
     vc:
         tacet continues;
     pause;
@@ -1390,26 +1408,26 @@ SEGMENTS
     [E.8]
     (8 measures)
     subito largo-to-presto accelerando happens;
-    v1, v2, va trajectories:
+    v1, v2, va trajectory repetition cells appear:
         stopped lh continues;
         1/2 clt continues;
         tasto continues;
         eight- or tenfold repetition vortex happens:
             accelerando time-sheers vortex dramatically;
-        p begins again;
+        f > p governs stage;
     vc clouded pane begins again:
         stopped lh begins again;
         hair begins again;
         new pitch begins stepwise below;
-        niente < p:
-            starts first measure first downbeat;
-            p holds from measure [1:4] first downbeat;
+        niente < p happens:
+            begins at start of stage;
+            achieves p at start of measure 1:4;
     no pause;
 
     [E.9]
     (8 measures)
     presto-to-largo ritardando happens;
-    v1, v2, va trajectories-to-flight transition happens:
+    v1, v2, va trajectory-cells-to-flight transition happens:
         stopped lh continues;
         1/2 clt completes;
         tasto continues;
@@ -1435,7 +1453,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         p continues;
-    no pause;
+    short pause;
 
     [E.11]
     (4 measures)
@@ -1445,7 +1463,7 @@ SEGMENTS
         hair continues;
         T-B-T independent scp patterning happens;
         tremolo continues;
-        p continues;
+        f > p < f inverse-swells govern stage independently;
     vc clouded pane continues:
         stopped lh continues;
         hair continues;
@@ -1456,12 +1474,11 @@ SEGMENTS
     (4 measures)
     largo continues;
     v1, v2, va flight continues:
-        stopped-to-damped lh transition happens;
+        stopped-to-damped lh transition governs first half of stage;
         hair continues;
-        previous stage quietly repeats:
-            T-B-T independent scp patterning repeats;
+        T-B-T independent scp patterning repeats from previous stage;
         tremolo continues;
-        p continues;
+        mf > p governs first half of stage;
     vc clouded pane continues:
         stopped lh continues;
         hair continues;
@@ -1474,16 +1491,14 @@ SEGMENTS
     v1, v2, va flight continues:
         damped lh continues;
         hair continues;
-        previous stage repeats as compressed white:
-            T-B-T independent scp patterning repeats;
+        T-B-T independent scp patterning repeats from previous stage;
         tremolo continues;
         p continues;
     vc clouded pane continues:
         stopped lh continues;
         hair continues;
-        p > niente:
-            begins midmeasure first downbeat;
-            completes next stage downbeat;
+        p > niente governs second half of stage:
+            achieves niente at start of next stage;
     no pause;
 
     [E.14]
@@ -1492,9 +1507,10 @@ SEGMENTS
     v1, v2, va flight continues:
         damped lh continues;
         hair continues;
-        T-B-T independent scp patterning continues;
+        T-B-T independent scp patterning completes:
+            achieves tasto at start of last measure;
         tremoli begin to slow independently;
-        "p" continues;
+        p continues;
     vc:
         tacet continues;
     no pause;
@@ -1505,8 +1521,9 @@ SEGMENTS
     v1, v2, va flight completes:
         damped lh completes;
         hair completes;
+        tasto completes;
         tremoli come to stops independently;
-        independent p > niente happen;
+        independent p > niente govern stage;
     vc clouded pane resumes:
         new pitch begins stepwise above;
         stopped lh resumes;
@@ -1871,7 +1888,7 @@ SEGMENTS
             completely regular rhythm #3;
         niente < mp happens:
             enters niente at start of stage;
-            achieves mp at start of measure [1:3];
+            achieves mp at start of measure 1:3;
     vc clouded pane continues:
         harmonic lh continues;
         hair continues;
@@ -2531,12 +2548,12 @@ SEGMENTS
 
     [P.5]
     (6 measures)
-    accelerando achieves presto on last measure first downbeat;
+    accelerando achieves presto at start of last measure;
     tutti ellipses continue:
         stopped lh continues;
         hair continues;
-        up-glissandi achieve endpoint on last measure first downbeat;
-        ellipses achieve fixed fast speed on last measure first downbeat;
+        up-glissandi achieve endpoint at start of last measure;
+        ellipses achieve fixed fast speed at start of last measure;
         mp > p governs first half of stage;
     surprisingly short breath;
 
