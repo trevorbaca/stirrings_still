@@ -69,18 +69,53 @@ DRAMATURGY
         inflects scp;
         expires;
         pause;
-    colored tremolo reappears:
+    colored tremolo appears again:
         inflects scp;
         whitens;
         holds;
         pause;
-    white tremolo reappears:
+    white tremolo begins again:
         inflects scp;
         loses pedal;
         slows;
         regains pedal;
         fades out;
     pedal persists incredibly;
+
+[F]
+
+    clouded pane blossoms fully:
+        viola tailpiece begins under cover of clouded pane;
+    clouded pane fades out:
+        viola tailpiece persists;
+        stops abruptly;
+    long pause;
+
+[G]
+
+    louré-inflected clouded pane / urtext conflict appears:
+        happens again four more times;
+    long pause;
+    saturated urtext field blossoms aflight;
+    long pause;
+
+[H]
+
+    (nonflighted) urtext field appears from rasp:
+        holds;
+        surprisingly short breath [v2 holds over breath];
+    desynchronized urtext field / ellipses appear gradually:
+        increase in rate;
+        rise slightly;
+        fade out (as fast ellipses);
+    underneath: urtext field transitions to clouded pane (harmonic):
+        intensifies tremendously;
+        persists;
+        fades to ppp;
+    above: polyrhythmic desynchronized whisk gears appear:
+        reappear and darken three times;
+        persist as scratch gears;
+        lighten from scratch to golden tone;
 
 ###############################################################################
 ################################## QUESTIONS ##################################
