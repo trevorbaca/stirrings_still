@@ -10,7 +10,7 @@ SEGMENTS
         stopped lh appears;
         hair appears;
         tasto appears;
-        densely spaced double stops appear;
+        densely spaced double-stops appear;
         declamation (two rest-delimited chords):
             first chord:
                 short;
@@ -29,7 +29,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         tasto continues;
-        densesly spaced double stops repeat;
+        densesly spaced double-stops repeat;
         declamation:
             first chord:
                 simile;
@@ -50,7 +50,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         tasto continues;
-        densely spaced double stops repeat;
+        densely spaced double-stops repeat;
         declamation:
             first chord:
                 simile;
@@ -72,7 +72,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         tasto continues;
-        densely spaced double stops repeat;
+        densely spaced double-stops repeat;
         declamation:
             first chord:
                 simile;
@@ -94,7 +94,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         tasto continues;
-        densely spaced double stops repeat;
+        densely spaced double-stops repeat;
         declamation:
             first chord:
                 simile;
@@ -122,7 +122,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             tasto continues;
-            two new densely spaced double stops appear;
+            two new densely spaced double-stops appear;
             declamation:
                 third chord:
                     even a bit quieter;
@@ -1549,24 +1549,20 @@ SEGMENTS
     [F.1]
     (8 measures)
     largo continues;
-    v1, v2 clouded pane joins vc:
+    v1, v2 clouded pane blossoms from vc:
         stopped lh joins vc;
         hair joins vc;
         intermittent double-stop partials appear;
-        niente < f ... f > niente envelopes:
-            shape each double-stop partial;
-            conclude stage niente;
-    va tailpiece appears:
+        niente < f ... f > niente envelopes shape each double-stop:
+    va tailpiece begins under cover of clouded pane:
         absent lh begins;
         pochiss. flicker begins;
-        niente < "mp":
-            starts first measure downbeat;
-            "mp" achieved second measure downbeat;
+        niente < mp governs first measure:
+            achieves mp at start of second measure;
     vc clouded pane continues:
         stopped lh continues;
         hair continues;
-        (p) < ff ... ff > niente:
-            shapes entire stage;
+        (p) < ff ... ff > niente governs stage;
     no pause;
 
     [F.2]
@@ -1577,7 +1573,7 @@ SEGMENTS
     va tailpiece continues:
         absent lh continues;
         pochiss. flicker continues;
-        "mp" completes abruptly at end of stage;
+        mp completes abruptly at end of stage;
     vc:
         tacet continues;
     long pause;
@@ -1589,26 +1585,23 @@ SEGMENTS
     largo più mosso begins;
     tutti clouded pane / urtext declamation conflict begins:
         single declamation:
-            v1, v2 urtext declamation double stops begin:
+            v1, v2 urtext declamation double-stops begin:
                 stopped lh continues;
                 hair continues;
                 tasto begins;
                 polyrhythmic louré-swell tuplets begin;
-                niente < mp > niente envelopes:
-                    shape each note;
+                niente < mp > niente envelopes shape each note;
             va clouded partial resumes:
                 stopped lh resumes;
                 hair resumes;
                 tasto begins;
                 polyrhythmic louré-swell tuplets begin;
-                niente < mp > niente envelopes:
-                    shape each note;
+                niente < mp > niente envelopes shape each note;
             vc clouded pane resumes:
                 stopped lh resumes;
                 hair resumes;
                 new pitch begins stepwise above;
-                niente < f ... f > niente envelope:
-                    shapes stage;
+                niente < f ... f > niente governs stage;
                 subtends declamation;
     pause;
 
@@ -1643,14 +1636,14 @@ SEGMENTS
     [G.6]
     (2 measures)
     larghissimo governs stage;
-    tutti urtext field continues with flight (and without clouded pane):
+    tutti urtext field blossoms aflight (without clouded pane):
         single declamation happens again:
             stopped lh continues:
                 eight-note chord;
                 four double-stops;
                 clouded pane pitches no longer present;
             hair continues;
-            tasto-to-ponticello-to-tasto transitions:
+            T-B-T scp patterning:
                 independently in each part;
                 multiple times in each part;
             arco-to-tremolo (fifth-to-sixth stage) transitions happen:
@@ -1658,28 +1651,23 @@ SEGMENTS
                 multiples times in each part;
             two layers of dynamic in each part:
                 unmarked swells on each note;
-                pp < mf:
-                    begins pp at start of stage;
-                    achieves mf on on last downbeat in stage;
+                pp < mf governs stage;
     long pause;
 
 [H]
 
     [H.1]
     (4 measures)
-    largo-to-adagio accelerando:
-        begins at start of stage;
+    largo-to-adagio accelerando governs stage:
         achieves adagio at start of last measure;
-    tutti urtext field continues after long pause:
-        stopped lh continues;
-        hair continues;
+    tutti urtext field appears from rasp after long pause:
+        stopped lh resumes;
+        hair resumes;
         four-note chord appears:
             single-stopped notes;
-        extremely gradual rasp < flautando:
-            begins rasp at start of stage;
+        extremely gradual rasp-to-flautando transition governs stage:
             achieves flautando at start of last measure;
-        niente < mp:
-            enters niente at start of stage;
+        niente < mp governs stage:
             achieves mp at start of last measure;
     no pause;
 
@@ -1691,7 +1679,7 @@ SEGMENTS
         hair continues;
         flautando continues;
         four-note chord continues;
-        mp continues;
+        mp completes;
     surprisingly short breath [v2 holds over breath];
 
     [H.3]
@@ -1701,9 +1689,10 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         single bows become slow ellipses:
-        rhythm #1 appears:
+        desynchronization begins:
+            rhythm #1 appears;
             introduced gradually on local accelerandi;
-        mp continues;
+        p begins;
     v2 urtext field continues:
         stopped lh continues;
         hair continues;
@@ -1713,20 +1702,15 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         single bows become slow ellipses:
-        rhythm #3 appears:
+        desynchronization begins:
+            rhythm #3 appears;
             introduced gradually on local accelerandi;
-        mp continues;
+        p begins;
     vc urtext-field-to-clouded-pane transition happens:
-        stopped-to-harmonic lh transition:
-            begins stopped lh at start of stage;
-            achieves harmonic lh at start of measure 1:2;
+        stopped-to-harmonic lh transition governs first half of stage;
         hair continues;
-        flautando-to-ordinario transition:
-            begins flautando at start of stage;
-            achieves ordinario at start of measure 1:2;
-        urtext-field-to-clouded-pane glissando:
-            begins at start of stage;
-            achieves new pitch at start of measure 1:2;
+        flautando-to-ordinario transition governs first half of stage;
+        urtext-field-to-clouded-pane glissando governs first half of stage;
         mp continues;
     no pause;
 
@@ -1740,24 +1724,25 @@ SEGMENTS
         up-glissando lentissimo begins:
             begins at start of stage;
         ellipse rate increases;
-        rhythm #1 continues;
+        desynchronization (rhythm #1) continues;
+        p continues;
     v2 urtext field continues:
         stopped lh continues;
         hair continues;
-        flautando slows to single bows:
-            achieves single bows at start of measure 1:2;
+        flautando slows to single bows during first half of stage;
+        mp > p governs first half of stage;
     va urtext field / ellipses continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo begins:
             begins at start of stage;
         ellipse rate increases;
-        rhythm #3 continues;
+        desynchronization (rhythm #3) continues;
+        p continues;
     vc clouded pane continues:
         harmonic lh continues;
         hair continues;
-        pressure-crescendo lentissimo begins:
-            begins at start of stage;
+        (mp) < f poco overpressure begins;
     no pause;
 
     [H.5]
@@ -1771,23 +1756,28 @@ SEGMENTS
         hair continues;
         up-glissando lentissimo continues;
         ellipse rate increases;
-        rhythm #1 continues;
+        desynchronization (rhythm #1) continues;
+        p continues;
     v2 urtext field / ellipses appear gradually:
         stopped lh continues;
         hair continues;
         single bows become slow ellipses;
-        rhythm #2 appears gradually:
+        desynchronization begins:
+            rhythm #2 appears gradually;
             introduced on local accelerandi;
+        p continues;
     va urtext field / ellipses continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo continues;
         ellipse rate increases;
-        rhythm #3 continues;
+        desynchronization (rhythm #3) continues;
+        p continues;
     vc clouded pane continues:
         harmonic lh continues;
         hair continues;
-        pressure-crescendo lentissimo continues;
+        (mp < f poco overpressure) completes:
+            achieves f + poco overpressure at start of next stage;
     no pause;
 
     [H.6]
@@ -1799,25 +1789,27 @@ SEGMENTS
         hair continues;
         up-glissando lentissimo continues;
         ellipse rate increases;
-        rhythm #1 continues;
+        desynchronization (rhythm #1) continues;
+        p continues;
     v2 urtext field / ellipses continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo begins:
             begins at start of stage;
         ellipse rate increases;
-        rhythm #2 continues;
+        desynchronization (rhythm #2) continues;
+        p continues;
     va urtext field / ellipses continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo continues;
         ellipse rate increases;
-        rhythm #3 continues;
+        desynchronization (rhythm #3) continues;
+        p continues;
     vc clouded pane continues:
         harmonic lh continues;
         hair continues;
-        pressure-crescendo lentissimo completes:
-            achieves f + poco overpressure at start of stage;
+        f + poco overpressure governs stage;
     no pause;
 
     [H.7]
@@ -1829,8 +1821,8 @@ SEGMENTS
         up-glissando lentissimo completes:
             achieves new pitch at start of stage;
         very fast ellipses complete;
-        rhythm #1 completes;
-        > niente:
+        desynchronization (rhythm #1) completes;
+        p > niente governs stage:
             achieves niente at start of next stage;
     v2 urtext field / ellipses complete:
         stopped lh continues;
@@ -1838,8 +1830,8 @@ SEGMENTS
         up-glissando lentissimo completes:
             achieves new pitch at start of stage;
         ellipse rate increases;
-        rhythm #2 completes;
-        > niente:
+        desyncrhonization (rhythm #2) completes;
+        p > niente governs stage:
             achives niente at start of next stage;
     va urtext field / ellipses complete:
         stopped lh continues;
@@ -1847,29 +1839,27 @@ SEGMENTS
         up-glissando lentissimo completes:
             achieves new pitch at start of stage;
         very fast ellipses;
-        rhythm #3 completes;
-        > niente:
+        desyncrhonization (rhythm #3) completes;
+        p > niente governs stage:
             achieves niente at start of next stage;
     vc clouded pane continues:
         harmonic lh continues;
         hair continues;
-        f poco scratch < ff scratch begins:
-            begins f poco scratch at start of stage;
+        f poco scratch < ff scratch governs stage:
+            achieves ff scratch at start of next stage;
     no pause;
     
     [H.8]
     (6 measures)
-    adagio-to-allegro accelerando begins:
-        begins at start of stage;
+    adagio-to-allegro accelerando governs stage:
+        achieves allegro at start of next stage;
     v1, v2, va:
         tacet continues;
     vc clouded pane continues:
         harmonic lh continues;
         hair continues;
-        f poco scratch < ff scratch completes:
-            achieves ff scratch at start of stage;
-        ff scratch > ppp begins:
-            begins (ff scratch) at start of measure 1:2;
+        ff scratch governs first half of stage;
+        (ff scratch) > ppp begins at start of second half of stage;
     no pause;
 
     [H.9]
@@ -1880,33 +1870,31 @@ SEGMENTS
         stopped lh resumes;
         hair resumes;
         fast ellipses;
-        v1:
-            completely regular rhythm #1;
-        v2:
-            completely regular rhythm #2;
-        va:
-            completely regular rhythm #3;
-        niente < mp happens:
-            enters niente at start of stage;
-            achieves mp at start of measure 1:3;
+        polyrhythmic desynchronization begins:
+            v1 completely regular rhythm #1;
+            v2 completely regular rhythm #2;
+            va completely regular rhythm #3;
+        niente < p governs first third of stage:
+            achieves p at start of measure 2:3;
     vc clouded pane continues:
         harmonic lh continues;
         hair continues;
-        ff scratch > ppp completes:
+        (ff scratch > ppp) completes:
             achieves ppp at start of next stage;
     short pause [vc continues through pause];
 
     [H.10]
     (2 measures)
     allegro continues;
-    v1, v2, va interlocking clouded pane whisk gears continue:
+    v1, v2, va interlocking clouded pane whisk gears repeat and darken:
         stopped lh continues;
         hair continues;
-        rhythms move independently;
-        animated by noise (= slow bow) injection independently;
-        animated by inverse time-swells:
+        noise injection (= slow bow) begins;
+        polyrhythmic desynchronization continues with swell-inflection:
+            animated by inverse time-swells;
             independent ritardandi-back-up-to-tempo;
             help achieve noise injection at slow midpoint;
+        mp (with variations) governs stage;
     vc clouded pane continues:
         harmonic lh continues;
         ppp continues;
@@ -1915,11 +1903,12 @@ SEGMENTS
     [H.11]
     (3 measures)
     allegro continues;
-    v1, v2, va interlocking clouded pane whisk gears continue:
+    v1, v2, va interlocking clouded pane whisk gears repeat and darken:
         stopped lh continues;
         hair continues;
-        rhythms move independently;
-        animated by even more noise injection;
+        noise injection darkens;
+        polyrhythmic desynchronization continues with swell-inflection;
+        mf (with variations) governs stage;
     vc clouded pane continues:
         stopped lh begins;
         down-glissando lentissimo begins:
@@ -1930,37 +1919,53 @@ SEGMENTS
     [H.12]
     (4 measures)
     allegro continues;
-    v1, v2, va interlocking clouded pane whisk gears continue:
+    v1, v2, va interlocking clouded pane whisk gears repeat and darken:
         stopped lh continues;
         hair continues;
-        rhythms move independently;
-        animated by even more noise injection;
+        noise injection darkens even more;
+        polyrhythmic desynchronization continues with swell-inflection;
+        f (with variations) governs stage;
     vc clouded pane continues:
         stopped lh continues;
         hair continues;
-        down-glissando lentissimo continues;
+        down-glissando lentissimo completes:
+            achieves low pitch at start of next stage;
         ppp continues;
     short pause [vc continues through pause];
 
     [H.13]
     (4 measures)
-    allegro-to-largo ritardando:
-        begins allegro at start of stage;
+    (allegro)-to-largo ritardando governs stage:
         achieves largo at start of last measure;
-    v1, v2, va interlocking clouded pane scratch gears appear gradually:
+    v1, v2, va interlocking gears repeat as scratch:
         stopped lh continues;
         hair continues;
-        rhythms move independently;
-        ellipses achieve and sustain maximum noise;
+        full scratch governs stage;
+        polyrhythmic desynchronization (without swells) governs stage;
+        ff governs stage;
     vc clouded-pane-to-trajectory appears gradually:
         stopped lh continues;
         1/2 clt appears gradually:
             begins at start of stage;
             not yet audible;
-        down-glissando lentissimo completes:
-            achieves low pitch at start of stage;
-        (ppp) < p begins:
-            begins (ppp) at start of stage;
+        (ppp) < p begins;
+    no pause;
+
+    [H.14]
+    (2 measures)
+    largo continues;
+    v1, v2, va interlocking gears transition from scratch to golden tone:
+        stopped lh continues;
+        hair continues;
+        scratch-to-tone transition governs stage:
+            achieves tone at start of next stage;
+        polyrhythm-to-1:2:4 rhythmic interpolation governs stage:
+            achieves 1:2:3 rate ratio at start of next stage;
+    vc 1/2 clt trajectory pedal continues:
+        stopped lh continues;
+        1/2 clt continues (not yet audible);
+        (ppp < p) completes:
+            achieves p at start of next stage;
     no pause;
 
 [I]
@@ -1971,16 +1976,15 @@ SEGMENTS
     v1, v2, va synchronous golden gears:
         stopped lh continues;
         hair continues;
+        golden tone (senza scratch) continues;
         circles (SL = BW) locked in binary rate ratio 1:2:4;
-        subit mp begins;
-        subito golden tone (senza scratch) begins;
+        mp continues;
     vc 1/2 clt solo trajectory:
         stopped lh continues;
         1/2 clt continues;
         starts up on local accelerandi;
         repetition quasivortex begins;
-        ppp < p completes:
-            achieves p at start of measure 1:2;
+        p continues;
     no pause;
 
     [I.2]
@@ -1996,7 +2000,7 @@ SEGMENTS
         stopped lh continues;
         1/2 clt continues;
         local accelerandi achieve stable rhythm at stage midpoint;
-        p < f begins;
+        (p) < f begins;
         repetition quasivortex continues;
     no pause;
 
@@ -2577,7 +2581,7 @@ SEGMENTS
     adagio-to-presto accelerando happens;
     tutti urtext field / trajectories appear:
         desynchronized pitched field trajectories whisked skyward;
-        urtext field double stops;
+        urtext field double-stops;
         subito pitch;
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
@@ -2600,7 +2604,7 @@ SEGMENTS
     adagio-to-presto accelerando happens;
     tutti urtext field / trajectories return:
         desynchronized pitched field trajectories whisked skyward;
-        urtext field double stops;
+        urtext field double-stops;
         subito pitch;
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
@@ -2623,7 +2627,7 @@ SEGMENTS
     adagio-to-presto accelerando happens;
     tutti urtext field / trajectories return:
         desynchronized pitched field trajectories whisked skyward:
-        urtext field double stops;
+        urtext field double-stops;
         subito pitch;
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
@@ -2646,7 +2650,7 @@ SEGMENTS
     adagio-to-presto accelerando happens;
     tutti urtext field / trajectories return:
         desynchronized pitched field trajectories whisked skyward:
-        urtext field double stops;
+        urtext field double-stops;
         subito pitch;
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
@@ -2669,7 +2673,7 @@ SEGMENTS
     adagio-to-presto accelerando happens;
     tutti urtext field / trajectories return:
         desynchronized pitched field trajectories whisked skyward:
-        urtext field double stops;
+        urtext field double-stops;
         subito pitch;
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
