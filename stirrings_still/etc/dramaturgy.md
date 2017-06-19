@@ -113,9 +113,108 @@ DRAMATURGY
         persists;
         fades to ppp;
     above: polyrhythmic desynchronized whisk gears appear:
-        reappear and darken three times;
+        reappear and darken three more times;
         persist as scratch gears;
         lighten from scratch to golden tone;
+
+[I]
+
+    golden gears continue:
+        destabilize;
+        accelerate;
+        fade out;
+    while during:
+        1/2 clt vc solo trajectory cell begins;
+        catches in quasivortex;
+        grows louder;
+        holds in repetition;
+        fades out;
+    [appena udibile urtext field appears from underneath];
+
+[J]
+
+    appena udibile urtext field continues;
+        intensifies;
+    3x repetition vortex:
+        fff urtext field holds;
+        composite 1/2 clt trajectories / ellipses:
+            appear;
+            accelerate;
+            fade;
+            
+[K] 
+    
+    pp 1/2 clt trajectories continue:
+        crescendo to mp;
+        become flight;
+        surprisingly short breath;
+    flight:
+        shimmers;
+        becomes clouded pane field;
+        fades out to tasto possibile;
+        reveals quiet clouded pane fundamental;
+        surprisingly short breath;
+
+[L]
+
+    clouded pane oscillates ff blossom of full multiphonic extremely slowly:
+        animated by intermittent 1/2 clt trajectories;
+
+[M]
+
+    full expression of clouded pane continues:
+        animated by interrmitent conflicting urtext ellipses;
+    falls a single step;
+
+[N]
+
+    full expression of clouded pane continues:
+        fades;
+    while during: urtext field fades in:
+        intensifies to f;
+        takes flight;
+        intensifies to ff;
+        expires!;
+    very long pause;
+    composite clouded pane / urtext field appears and expires;
+    very long pause;
+
+[O]
+
+    granulated urtext field / ellipses appear:
+        hold;
+        stop;
+    very long pause;
+
+[P]
+
+    ppppp clouded pane appears:
+        admixed with intermittent ellipses;
+        becomes ellipses;
+    ellipses accelerate;
+        rise;
+    surprisingly short breath;
+
+[Q]
+
+    compression process:
+        spinning white noise;
+        alternating with: pitch field trajectories whisked skyward;
+        all under structural decrescendo;
+    piece-final memory of flight appears;
+
+[R]
+
+    memory of flight persists;
+    while during: trajectories disappear;
+
+[S]
+
+    memory of flight persists:
+        animated by intermittent golden ellipses:
+            intensify;
+            expire;
+    memory of flight expires.
 
 ###############################################################################
 ################################## QUESTIONS ##################################

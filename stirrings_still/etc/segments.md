@@ -1996,12 +1996,13 @@ SEGMENTS
         base binary rate ratio 1:2:4 between parts continues;
         sparse local accelerandi begin to appear:
             parts return to base rate after each local accelerando;
+        mp continues;
     vc 1/2 clt solo trajectory:
         stopped lh continues;
         1/2 clt continues;
         local accelerandi achieve stable rhythm at stage midpoint;
-        (p) < f begins;
         repetition quasivortex continues;
+        (p) < f begins;
     no pause;
 
     [I.3]
@@ -2013,41 +2014,42 @@ SEGMENTS
         base binary rate ratio 1:2:4 between parts continues;
         intermittent local accelerandi continue:
             parts begin to stick to faster base rate after accelerandi;
-        decrescendo > niente begins;
+        (mp) > niente begins;
     vc 1/2 clt solo trajectory:
         stopped lh continues;
         1/2 clt continues;
         repetition quasivortex continues;
         vortex now inflected by ritardando;
-        crescendo continues;
+        (p < f) continues;
     no pause;
 
     [I.4]
     (1 measure)
-    largo-to-larghissimo ritardando continues;
+    largo-to-larghissimo ritardando completes:
+        achieves larghissimo at start of next stage;
     v1, v2, va golden gears whisked skyward:
         stopped lh continues;
         hair continues;
         base binary rate ratio 1:2:4 between parts continues;
         intermittent local acclerandi continue:
             parts stick to faster post-accelerandi base rate for much longer;
-        decrescendo continues;
+        (mp > niente) continues;
     vc 1/2 clt solo trajectory:
         stopped lh continues;
         1/2 clt continues;
         repetition quasivortex continues;
-        crescendo achieves f on last event;
+        (p < f) achieves f on last event;
     no pause;
 
     [I.5]
     (2 measures)
-    largo-to-larghissimo ritardando completes;
+    larghissimo continues;
         achieves larghissimo at start of stage;
     v1, v2, va synchronous golden gears whisked skyward:
         stopped lh continues;
         hair continues;
         achieves faster base binary rate 1:2:4 at start of stage;
-        decrescendo completes:
+        (mp > niente) completes:
             achieves niente on last event;
     vc 1/2 clt solo trajectory:
         stopped lh continues;
@@ -2077,13 +2079,13 @@ SEGMENTS
         stopped lh joins vc;
         hair resumes;
         sustained double-stop field returns;
-        appena udibile;
+        appena udibile begins;
     vc 1/2 clt solo trajectory completes:
         stopped lh continues until end;
         1/2 clt continues until end;
         single pitch continues until end;
         single trapped cell continues until end;
-        f continues until end;
+        f > niente governs stage;
     no pause;
 
 [J]
@@ -2097,7 +2099,7 @@ SEGMENTS
         double-stop field continues;
         appena udibile continues;
     vc:
-        subito tacet;
+        tacet continues;
     no pause;
 
     [J.2]
@@ -2107,49 +2109,45 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         double-stop field continues;
-        appena udibile < fff poco scratch begins:
-            begins at start of stage;
+        appena udibile < fff poco scratch begins;
     no pause;
     
     [J.3]
     (2 measures)
-    accelerando continues;
+    larghissimo-to-andante accelerando completes:
+        achieves andante at start of next stage;
     tutti urtext field continues:
         stopped lh continues;
         hair continues;
         double-stop field continues;
-        appena udibile < fff poco scratch continues;
+        (appena udibile < fff poco scratch) completes:
+            achieves fff poco scratch at start of next stage;
     no pause;
 
     ||: J.4-5 :|| x 3
 
         [J.4]
         (1 measure)
-        accelerando completes:
-            achieves andante at start of stage;
+        andante continues;
         tutti urtext field completes:
             stopped lh continues;
             hair continues;
             double-stop field continues;
-            appena udibile < fff poco scratch completes:
-                achieves fff poco scratch at start of stage;
+            fff poco scratch continues and governs stage;
         no pause;
 
         [J.5]
         (2 measures)
         andante continues;
-        v1, v2, va 1/2 clt trajectories begin:
+        v1, v2, va 1/2 clt trajectories begin and govern stage:
             stopped lh continues;
-            1/2 clt begins:
-                begins at start of stage;
-                end with last event in stage;
-                [[third time continues into next stage]];
-            pronounced local accelerandi;
+            1/2 clt begins and governs stage;
+            pronounced local accelerandi govern stage independently;
             fff > pp governs stage;
         vc ellipses begin:
             stopped lh continues;
             hair continues;
-            pronounced local accelerando begins;
+            pronounced local accelerando begins and governs stage;
             fff > pp governs stage;
         surprisingly short breath;
         [[third time no breath]];
@@ -2160,7 +2158,8 @@ SEGMENTS
     v1, 2, va 1/2 clt trajectories continue:
         stopped lh continues;
         1/2 clt continues;
-        pitch ascents begin;
+        pitch ascents govern stage:
+            achieve higher pitch level at start of next stage;
         local accelerandi complete:
             achieve stable rhythm at start of stage;
         pp continues;
@@ -2179,15 +2178,14 @@ SEGMENTS
     tutti trajectories-to-flight transition begins:
         stopped lh continues;
         1/2 clt continues;
-        pitch ascents complete:
-            achieve higher pitch level at start of stage;
+        trajectories continue;
         pp continues;
     no pause;
 
     [K.2]
     (3 measures)
     andante continues;
-    tutti trajectories-to-flight continue:
+    tutti trajectories-to-flight transition continues:
         stopped lh continues;
         independently in each part:
             1/2 clt trajectory projected onto local ritardando:
@@ -2199,6 +2197,7 @@ SEGMENTS
                 tremolo sustained for certain duration at end of figure;
                 tremolo expires with termination type taken from inventory;
             repeat;
+        global (pp) < mp begins;
     no pause;
 
     [K.3]
@@ -2207,6 +2206,7 @@ SEGMENTS
     tutti trajectories-to-flight continue:
         ibid;
         tremolo durations increase;
+        global (pp < mp) continues;
     no pause;
 
     [K.4]
@@ -2215,6 +2215,7 @@ SEGMENTS
     tutti trajectories-to-flight continue:
         ibid;
         tremolo durations increase;
+        global (pp < mp) continues;
     no pause;
 
     [K.5]
@@ -2223,6 +2224,8 @@ SEGMENTS
     tutti trajectories-to-flight continue:
         ibid;
         tremolo durations increase;
+        global (pp < mp) completes:
+            achieves mp at start of next stage;
     no pause;
 
     [K.6]
@@ -2232,6 +2235,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         tremolo continues;
+        mp governs stage;
     surprisingly short breath;
 
     [K.7]
@@ -2242,43 +2246,48 @@ SEGMENTS
         hair continues;
         tremolo continues;
         independent scp transitions begin;
+        subito p governs stage;
     surprisingly short breath;
 
     [K.8]
     (6 measures)
-    largo-to-allegro accelerando begins;
+    largo-to-allegro accelerando governs stage:
+        achieves allegro at start of next stage;
     tutti flight-to-clouded-pane begins:
         stopped lh continues;
         hair continues;
         patterned slowing of tremolo flight independently:
             achieve senza tremolo last measure first downbeat;
             tension between global accelerando and local tremoli largandi;
+        (p) > niente begins;
     no pause;
 
     [K.9]
     (8 measures)
-    largo-to-allegro accelerando completes:
-        achieves allegro at start of stage;
+    allegro continues;
     tutti flight-to-clouded pane continues:
         stopped lh continues;
         hair continues;
         tasto-to-tasto-possibile transition happens;
         senza tremolo continues;
         tension between fast tempo and protracted duration;
+        (p > niente) continues;
     no pause;
 
     [K.10]
     (8 measures)
     allegro continues;
-    v1, v2, va flight-to-clouded pane completes:
+    v1, v2, va flight-to-clouded pane fades out:
         stopped-to-damped lh transition happens;
         hair continues;
         tasto possibile continues;
         senza tremolo continues;
+        (p > niente) completes;
     vc flight-to-clouded pane continues:
         stopped lh continues;
         hair continues;
         senza tremolo continues;
+        p continues;
     surprisingly short breath;
 
 [L]
@@ -2415,12 +2424,12 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         fundamental IV/Bb1 continues;
-        f > niente happens;
+        f > niente governs stage;
     vc clouded pane continues:
         stopped lh continues;
         hair continues;
         fundamental IV/Bb1 continues;
-        ff > p happens;
+        ff > p governs stage;
     no pause;
 
     [N.3]
@@ -2438,7 +2447,7 @@ SEGMENTS
     [N.4]
     (4 measures)
     larghissimo continues;
-    v1, v2, va urtext field appears:
+    v1, v2, va urtext field fades in:
         stopped lh joins vc;
         hair joins vc;
         niente < f governs stage:
@@ -2461,7 +2470,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         holds pure-tone Bb1 until end;
-        p > niente happens;
+        p > niente governs stage;
     no pause;
 
     [N.6]
@@ -2479,7 +2488,7 @@ SEGMENTS
     [N.7]
     (2 measures)
     larghississimo;
-    tutti composite clouded pane / urtext field:
+    tutti composite clouded pane / urtext field appears and expires:
         stopped lh continues;
         hair continues;
         combined single gesture of conflict and relinquishment:
@@ -2568,19 +2577,18 @@ SEGMENTS
     [Q.1]
     (8 measures)
     presto continues;
-    tutti ellipses continue:
-        desynchronized spinning white noise;
+    tutti ellipses continue (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
-        relatively fast desynchronized regular ellipses;
-        "p";
+        relatively fast polyrhythmic desynchronized ellipses;
+        p;
     surprisingly short breath [v2 plays ellipses through breath];
 
     [Q.2]
     (12 measures)
     adagio-to-presto accelerando happens;
-    tutti urtext field / trajectories appear:
-        desynchronized pitched field trajectories whisked skyward;
+    tutti urtext field / trajectories appear (desynchronized pitched field
+        trajectories whisked skyward):
         urtext field double-stops;
         subito pitch;
         desyncrhonized hair trajectories:
@@ -2591,19 +2599,18 @@ SEGMENTS
     [Q.3]
     (6 measures)
     presto;
-    tutti ellipses return:
-        desynchronized spinning white noise:
+    tutti ellipses return (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
-        relatively fast desynchronized regular ellipses;
-        "p";
+        relatively fast polyrhythmic desynchronized ellipses;
+        p;
     surprisingly short breath [v2 plays ellipses through breath];
 
     [Q.4]
     (10 measures)
     adagio-to-presto accelerando happens;
-    tutti urtext field / trajectories return:
-        desynchronized pitched field trajectories whisked skyward;
+    tutti urtext field / trajectories return (desynchronized pitched field
+        trajectories whisked skyward;
         urtext field double-stops;
         subito pitch;
         desyncrhonized hair trajectories:
@@ -2614,19 +2621,18 @@ SEGMENTS
     [Q.5]
     (5 measures)
     presto;
-    tutti ellipses return:
-        desynchronized spinning white noise:
+    tutti ellipses return (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
-        relatively fast desynchronized regular ellipses;
-        "p";
+        relatively fast polyrhythmic desynchronized ellipses;
+        p;
     surprisingly short breath [v2 plays ellipses through breath];
 
     [Q.6]
     (8 measures)
     adagio-to-presto accelerando happens;
-    tutti urtext field / trajectories return:
-        desynchronized pitched field trajectories whisked skyward:
+    tutti urtext field / trajectories return (desynchronized pitched field
+        trajectories whisked skyward):
         urtext field double-stops;
         subito pitch;
         desyncrhonized hair trajectories:
@@ -2637,19 +2643,18 @@ SEGMENTS
     [Q.7]
     (4 measures)
     presto;
-    tutti ellipses return:
-        desynchronized spinning white noise:
+    tutti ellipses return (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
-        relatively fast desynchronized regular ellipses;
-        "p";
+        relatively fast polyrhythmic desynchronized ellipses;
+        p;
     surprisingly short breath [v2 plays ellipses through breath];
 
     [Q.8]
     (6 measures)
     adagio-to-presto accelerando happens;
-    tutti urtext field / trajectories return:
-        desynchronized pitched field trajectories whisked skyward:
+    tutti urtext field / trajectories return (desynchronized pitched field
+        trajectories whisked skyward):
         urtext field double-stops;
         subito pitch;
         desyncrhonized hair trajectories:
@@ -2660,19 +2665,18 @@ SEGMENTS
     [Q.9]
     (3 measures)
     presto;
-    tutti ellipses return:
-        desynchronized spinning white noise:
+    tutti ellipses return (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
-        relatively fast desynchronized regular ellipses;
-        "p";
+        relatively fast polyrhythmic desynchronized ellipses;
+        p;
     surprisingly short breath [v2 plays ellipses through breath];
 
     [Q.10]
     (4 measures)
     adagio-to-presto accelerando happens;
-    tutti urtext field / trajectories return:
-        desynchronized pitched field trajectories whisked skyward:
+    tutti urtext field / trajectories return (desynchronized pitched field
+        trajectories whisked skyward):
         urtext field double-stops;
         subito pitch;
         desyncrhonized hair trajectories:
@@ -2683,19 +2687,18 @@ SEGMENTS
     [Q.11]
     (2 measures)
     presto;
-    tutti ellipses return:
-        desynchronized spinning white noise:
+    tutti ellipses return (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
-        relatively fast desynchronized regular ellipses;
-        "p";
+        relatively fast polyrhythmic desynchronized ellipses;
+        p;
     surprisingly short breath [v2 plays ellipses through breath];
 
     [Q.12]
     (2 measures)
     adagio-to-presto accelerando happens;
-    tutti trajectories return:
-        desynchronized pitched field trajectories whisked skyward:
+    tutti trajectories return (desynchronized pitched field trajectories
+        whisked skyward):
         subito pitch;
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
@@ -2934,6 +2937,7 @@ SEGMENTS
     long pause;
 
 Time and grief and self so-called.
+
 Oh all to end.
 
     long pause. 
