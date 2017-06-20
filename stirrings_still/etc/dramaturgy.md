@@ -3,41 +3,112 @@ DRAMATURGY
 
 [A]
 
-    urtext appears;
-        ellipses shine through;
-    ellipses persist;
+    précis:
+        urtext appears:
+            becomes ellipses;
+        ellipses persist (subito white):
+            while during: <<urtext opening summons past time>>;
+        long pause;
+
+    urtext appears:
+        repetition in mode of increasing phenomenological penetration:
+            five appearances (pause-terminated);
+            progressively longer;
+            progressively more intense;
+    urtext starts again:
+    [slows metabolism]
+        slower tempo;
+        longer durations;
+        five appearances (again pause-terminated);
+            [[TODO: potentially extremely insert immediately *after* A6]]
+        ellipses shine through:
+            stage by stage;
+            increasingly fast;
+        urtext becomes ellipses;
+        surprisingly short breath;
+    ellipses persist (subito white):
+    [slows metabolism even more]
+        in repetition: five appearances (pause-terminated);
+        while during: <<urtext opening summons past time>>;
+    long pause;
 
 [B]
 
-    clockticks begin;
-        ellipses reappear;
-    clockticks (and ellipses) become trajectories;
-        [[TODO: extend B.12 with recollection of urtext]]
-    trajectories intensify;
-    trajectories become ellipses and expire;
-    vision of grid appears without explanation;
+    précis:
+        white clockticks appear:
+            joined by white ellipses;
+            while during: >>clouded pane harmonic summons future time<<;
+            become 1/2 clt trajectories;
+            while during: <<urtext opening summons past time>>;
+        trajectories intensify (subito colored):
+            become colored ellipses;
+            fade out;
+            pause;
+        >>(white) grid summons future time<<,
+        <<white (grid) summons past time>>:
+            pause;
+
+    white clockticks begin;
+        joined by white ellipses;
+        while during: >>clouded pane harmonic summons future time<<;
+    composite white clockticks / ellipses become 1/2 clt trajectories;
+        [[TODO: extend B.12 with urtext opening to summon past time]]
+        pause;
+    trajectories intensify (subito colored):
+        in repetition: six appearances (pause-terminated);
+        progressively longer;
+        progressively louder;
+        increasingly ponticello;
+        become colored ellipses;
+        fade out;
+        pause;
+    >>(white) grid summons future time<<:
+    <<white (grid) summons past time>>:
+        pause;
 
 [C]
 
-    white ellipses reppear and spiral out;
-    interrupted by sotto voce retrospection:
-        * composite urtext clockticks (as vision-of-before);
-    white ellipses resume, synchronize, effect transitions:
-        * damped-to-harmonic
-        * harmonic-to-half-harmonic-to-stopped
-    colored ellipses fade out over down-glissandi;
+    white ellipses reappear and spiral out;
+        while during: <<white clockticks summon past time>>; 
+        while during: <<harmonic clouded pane summons past time>>;
+        while during: >>harmonic clouded pane summons future time<<;
+    white ellipses resume:
+        synchronize;
+        uncover;
+        multiply terminations;
+        pause;
+    colored ellipses fade out over down-glissandi:
+        pause;
 
 [D]
 
-    white tutti termination grid appears, synchronizes;
+    précis:
+        white termination grid appears:
+            multiplies terminations;
+            synchronizes;
+            pause;
+        time sorcery:
+            long pause;
+        composite colored urtext field / clouded pane / flight:
+            begins;
+            intensifies;
+            fades out;
+
+    white termination grid appears:
+        multiplies terminations;
+        synchronizes;
         pause;
-    single urtext declamation reappears;
+        remembers endstate;
+        pause;
+    <<single urtext declamation summons past time>>:
         long pause;
-    clouded pane appears (without explanation) for first time in piece;
+    >>clouded pane fundamental summons future time<<:
         long pause;
-    single urtext declamation repeats;
+    <<single urtext declamation summons past time>>,
+    >>single urtext declamation summons future time<<:
         long pause;
-    white tutti termination grid reappears and fades out;
+    <<white termination grid summons past time>>:
+        fades out;
         long pause;
     colored composite urtext field / clouded pane / flight:
         begins;
@@ -45,7 +116,6 @@ DRAMATURGY
         persists;
         fades out;
         pedal persists;
-        short pause;
 
 [E]
 

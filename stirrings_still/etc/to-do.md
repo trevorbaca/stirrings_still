@@ -27,7 +27,9 @@ PENDING ANALYSES
 
 4. dramaturgy:
 
-    *   stage
+    *   material
+
+    *   past time / future time
 
     *   subito / taper / transition
 
