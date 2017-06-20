@@ -1,7 +1,17 @@
 PENDING ANALYSES
 ================
 
-1.  materials
+1.  materials:
+
+    * urtext
+
+    * ellipses
+
+    * trajectories
+
+    * grid / flight
+
+    * clouded pane
 
 2.  tempo
 
@@ -17,7 +27,7 @@ PENDING ANALYSES
 
 4. dramaturgy:
 
-    *   state
+    *   stage
 
     *   subito / taper / transition
 
