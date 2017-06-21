@@ -2236,6 +2236,12 @@ SEGMENTS
         mp governs stage;
     surprisingly short breath;
 
+    inserted into breath:
+        [K.B.1]
+        <<scratch gears [H.13] summon past time>>;
+        <<vc f 1/2 clt maximal cell [I.6] summons past time within past time>>;
+        <<scratch gears [H.13] continue and close off past time>>;
+
     [K.7]
     (8 measures)
     largo continues;
@@ -2481,6 +2487,7 @@ SEGMENTS
         scp process embedded;
         dynamic process embedded:
             terminates ff ponticello with lv-release;
+    [[TODO: insert <<colored flight [K.6] summons past time>>]];
     very long pause;
 
     [N.7]
