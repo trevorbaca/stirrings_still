@@ -1419,9 +1419,7 @@ SEGMENTS
         stopped lh begins again;
         hair begins again;
         new pitch begins stepwise below;
-        niente < p happens:
-            begins at start of stage;
-            achieves p at start of measure 1:4;
+        niente < p governs first quarter of stage;
     no pause;
 
     [E.9]
@@ -2288,7 +2286,7 @@ SEGMENTS
         hair continues;
         senza tremolo continues;
         p continues;
-    surprisingly short breath;
+    no pause;
 
 [L]
 
