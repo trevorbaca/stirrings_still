@@ -25,7 +25,7 @@ PENDING ANALYSES
 
     *   harmonics (yellow)
 
-4. dramaturgy:
+4.  dramaturgy:
 
     *   material
 
@@ -33,13 +33,9 @@ PENDING ANALYSES
 
     *   subito / taper / transition
 
-    *   repetition
+5.  repetition
 
-    *   polyrhythm
-
-    *   tailpiece
-
-5.  materials
+6.  materials
 
 TO-DO
 =====

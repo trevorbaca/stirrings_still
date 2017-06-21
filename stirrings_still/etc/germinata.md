@@ -3,9 +3,15 @@ GERMINATA
 
 * clockticks [B]
 
-* talon-crunch circles [C.1]
+* talon-crunch circles [C]
 
-* jeux de découvrement (ellipses) [C.9-14]
+* jeux de découvrement (ellipses) [C]
+
+* tailpiece [F]
+
+* polyrhythm [G]
+
+* rasp-to-clarinet transition [H]
 
 * shortenesses
 
