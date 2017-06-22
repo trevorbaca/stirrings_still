@@ -2273,6 +2273,8 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         tasto-to-tasto-possibile transition happens;
+        while during:
+            <<va 1/2 clt trajectory summons past time>>;
         senza tremolo continues;
         tension between fast tempo and protracted duration;
         (p > niente) continues;
@@ -2946,3 +2948,22 @@ Time and grief and self so-called.
 Oh all to end.
 
     long pause. 
+
+###############################################################################
+########################## CANONICAL PARAMETER ORDER ##########################
+###############################################################################
+
+    [B.13] # stage name
+    (2 measures) # measure count
+    largo-to-adagio accelerando happens; # time directives
+    tutti trajectories continue: # dramaturgical character
+        stopped lh continues; # LHS (left-hand setting(s))
+        hair governs stage; # BCS (bow contact surface(s))
+        tasto-to-ord: # BCP (bow contact point(s))
+            arrives midmeasure downbeat;
+        densenly spaced double-stops continues; # pitch
+        desynchronization continues: # rhythmic character
+            intercalated rests become shorter;
+        ppp < mp: # dynamic(s)
+            arrives midmeasure downbeat;
+    pause; # pause (if any)
