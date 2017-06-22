@@ -1,9 +1,7 @@
 GERMINATA
 =========
 
-* shortenesses
-
-    * maelstrom - insertia - maelstrom
+* shortenesses: [maelstrom - insertia - maelstrom]
 
 FORESHADOW CANDIDATES
 =====================
@@ -24,6 +22,8 @@ FORESHADOW CANDIDATES
 
 * appena udibile field [J.1]
 
+* compression process [Q]
+
 RECOLLECTION CANDIDATES
 =======================
 
@@ -41,84 +41,63 @@ RECOLLECTION CANDIDATES
 
 * flight [K.6]
 
-    * recollected in [N.6]
+    * done: [N.6]
 
 * louré polyrhythm [G]
 
 * scratch gears [H.13]
 
-    * recollected in [K.B.1-3]
+    * done: [K.B.1-3]
 
 * vc f 1/2 clt maximal cell [I.6]
 
-    * recollected in [K.B.2]
+    * done: [K.B.2]
 
-CANDIDATE SITES
+SITE CANDIDATES
 ===============
 
-* middle of [E.14] development
+* replacing pause [A.3+]
 
-* [[NOT middle of [E.16] clearing]]
+* within conclusion [A.11]
 
-* replacing [G.3] pause
+    * nested within conclusion [A.11]
 
-* middle of [G.6] long pause
+* after pause [B.24+]
 
-* middle of [J.1] clearing
+* replacing breath [C.14+]
 
-* middle of [K.2-5] development
+* after pause [C.18+]
 
-    * recollects tailpiece
+* within inception [D.12]
 
-* middle of [K.9] dénoument
+* within clearing [D.21]
 
-* middle of [R.1] dénoument
+* within conclusion [E.7]
 
-TIME MANIPULATION SITE-CLASSES
-==============================
+* after pause [E.7+]
 
-* middle of clearing ([J.1])
+* within process [E.14]
 
-* middle of development ([K.2-5])
+* [[NOT within clearing [E.16]]]
 
-* middle of endstate ([N.6])
+* replacing pause [G.3+]
 
-* middle of dénoument ([K.9], [R.1])
+* within long pause [G.6+]
 
-* replacing repetition state
+* within clearing [H.14]
 
-* before breath
+* suffixed to conclusion [I.5]
 
-* before short pause
+* within clearing [J.1]
 
-* before pause
+* within process [K.2-5]
 
-* before long pause
+    * candidate: tailpiece
 
-* before very long pause
+* within conclusion [K.9]
 
-* middle of pause
+* prefixed to inception [N.4]
 
-* middle of long pause ([G.6])
+* after very long pause [O.1+]
 
-* middle of very long pause
-
-* after breath ([K.6-7])
-
-* after short pause
-
-* after pause
-
-* after long pause
-
-* after very long pause
-
-* replacing breath
-
-* replacing short pause
-
-* replacing pause ([G.3-4])
-
-* replacing long pause
-
-* replacing very long pause
+* within conclusion [R.1]

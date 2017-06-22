@@ -256,9 +256,9 @@ SEGMENTS
         ppp continues;
     vc urtext field fades out:
         pitch fades out:
-            down-glissando happens;
+            down-glissando governs stage;
         tasto fades out;
-        p > niente happens;
+        p > niente governs stage;
     no pause;
 
     [A.12]
