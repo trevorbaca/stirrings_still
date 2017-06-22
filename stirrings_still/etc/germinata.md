@@ -1,18 +1,6 @@
 GERMINATA
 =========
 
-* clockticks [B]
-
-* talon-crunch circles [C]
-
-* jeux de découvrement (ellipses) [C]
-
-* tailpiece [F]
-
-* polyrhythm [G]
-
-* rasp-to-clarinet transition [H]
-
 * shortenesses
 
     * maelstrom - insertia - maelstrom
@@ -23,6 +11,8 @@ FORESHADOW CANDIDATES
 * clouded pane fundamental [D.9]
 
 * tremolo [D.13~19]
+
+* tailpiece [F]
 
 * louré polyrhythm [G.1]
 
@@ -41,7 +31,13 @@ RECOLLECTION CANDIDATES
 
 * talon-crunch circles [C.1]
 
-* harmonic-to-halfharmonic-to-stopped ellipses [C.14]
+* découvrement (ellipses) [C.14]
+
+* jeux des terminaisons [D]
+
+* tailpiece [F]
+
+* declamation [G]
 
 * flight [K.6]
 
@@ -59,8 +55,6 @@ RECOLLECTION CANDIDATES
 
 CANDIDATE SITES
 ===============
-
-* 
 
 * middle of [E.14] development
 
