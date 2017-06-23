@@ -349,7 +349,7 @@ SEGMENTS
 
     [B.2]
     (1 measure)
-    largo governs stage;
+    largo (subito) governs stage;
     tutti clockticks continue:
         damped lh continues;
         1/2 clt continues;
@@ -359,7 +359,7 @@ SEGMENTS
 
     [B.3]
     (2 measures)
-    adagio-più-mosso-to-presto accelerando begins;
+    subito-adagio-più-mosso-to-presto accelerando begins;
     mixed clockticks / ellipses continue:
         damped lh completes;
         v1, v2 clockticks fade out:
@@ -385,7 +385,7 @@ SEGMENTS
 
     [B.5]
     (1 measure: fractional time signature)
-    adagio governs stage;
+    adagio subito governs stage;
     mixed clockticks / ellipses resume:
         damped lh resumes;
         v1 ellipses resume:
@@ -401,7 +401,7 @@ SEGMENTS
 
     [B.6]
     (1 measure: fractional time signature)
-    adagio meno mosso governs stage;
+    adagio subito meno mosso governs stage;
     mixed clockticks / ellipses continue:
         damped lh continues;
         v1 clockticks resume:
@@ -417,7 +417,7 @@ SEGMENTS
 
     [B.7]
     (1 measure: fractional time signature)
-    adagio più mosso governs stage;
+    adagio subito più mosso governs stage;
     mixed clockticks / ellipses continue:
         damped lh continues;
         v1 clockticks continue:
@@ -438,7 +438,7 @@ SEGMENTS
 
     [B.8]
     (2 measures)
-    largo begins;
+    largo subito begins;
     v1 clockticks continue:
         damped lh continues;
         1/2 clt continues;
@@ -786,19 +786,18 @@ SEGMENTS
     surprisingly short breath;
 
     [C.7]
-    (sotto voce retrospection) 
     (1 measure)
     allegro governs stage;
-    v1 [[shining beacon of clouded pane]]:
+    >>v1 shining beacon of clouded pane summons future time [TODO]<<:
         harmonic lh governs stage;
         hair continues;
         pp governs stage;
-    v2 clockticks [B.7] return:
+    <<v2 white clockticks summon past time [B.10]>>:
         damped lh governs stage;
         1/2 clt governs stage;
         fast clockticks;
         mp governs stage;
-    va, vc [[shining beacon of clouded pane]]:
+    >>va, vc shining beacon of clouded pane summons future time [TODO]<<:
         harmonic lh governs stage;
         hair continues;
         pp governs stage;
