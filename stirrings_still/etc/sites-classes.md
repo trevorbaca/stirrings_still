@@ -1,92 +1,65 @@
 TIME-MANIPULATION SITE-CLASSES
 ==============================
 
-PROCESS-RELATA
+PROCESS RELATA
 --------------
 
-* prefixed to inception (candidates: [N.4])
+* prefixed to inception ([E.1], [N.4], +1)
 
-* within inception (candidates: [D.12])
+* within inception ([D.12], +1)
 
-* within process (candidates: [E.14], [K.2-5])
+    * done: [B.3-4]
 
-* within conclusion (candidates: [A.11], [E.7], [R.1])
+* within development ([E.14], [K.2-5])
+
+    * done: preexisting [C.7], [K.6+]
+
+* within conclusion ([A.12], [E.7], [R.1])
 
     * done: [K.9], [N.6]
 
-* suffixed to conclusion (candidates: [I.5])
+* suffixed to conclusion ([I.5], +2)
 
-REPEATED-STATE-RELATA
+REPETITION TRAIN RELATA
+-----------------------
+
+* prefixed to repeated item ([B.14], [H.11], +1)
+
+* within repeated item ([B.17], [G.5], +1)
+
+* within pause ("repetition-internal pause prolongation") ([B.17+])
+
+    * done: preexisting [A.17]
+
+* suffixed to repeated item ([A.15], [B.16], +1)
+
+(further taxonomy of first, last, nonfirst, nonlast items, etc)
+
+ISOLATED STATE RELATA
 ---------------------
 
-* prefixed to repeated state
+* prefixed to isolated state (x3)
 
-* within repeated state
+* within isolated state (x3)
 
-* suffixed to repeated state
+* suffixed to isolated state (x3)
 
-* replacing repeated state
+CLEARING RELATA
+---------------
 
-    * done: [A.17]
+* within clearing ([D.21], [H.14], [J.1], +1)
 
-OTHER SOUND-RELATA
+PAUSE PROLONGATION
 ------------------
 
-* within clearing (candidates: [D.21], [H.14], [J.1])
+* within breath ("breath prolongation") (x2)
 
-BREATH-RELATA
--------------
+* within short pause ("short pause prolongation") (none)
+ 
+* within pause ("pause prolongation") ([D.6+], +1)
 
-* before breath
+* within long pause ("long pause prolongation") ([G.6+], +1)
 
-* replacing breath (candidates: [C.14+])
+* within very long pause ("very long pause prolongation") (x1)
 
-    * done: [K.6]
-
-* after breath
-
-SHORT-PAUSE-RELATA
-------------------
-
-* before short pause
-
-* replacing short pause
-
-* after short pause
-
-PAUSE-RELATA
-------------
-
-* before pause
-
-* within pause
-
-* after pause (candidates: [B.24+], [C.18+], [E.7+])
-
-* replacing pause (candidates: [A.3+], [G.3+])
-
-LONG-PAUSE-RELATA
------------------
-
-* before long pause
-
-* within long pause (candidates: [G.6+])
-
-* after long pause
-
-* replacing long pause
-
-VERY-LONG-PAUSE-RELATA
-----------------------
-
-* before very long pause (candidates: [F.2+])
-
-* within very long pause
-
-    * done: [N.7]
-
-* after very long pause (candidates: [O.1+])
-
-* replacing very long pause
-
-    * done: [E.16]
+    * done: preexisting [N.7]

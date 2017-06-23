@@ -1,7 +1,7 @@
 FORESHADOW CANDIDATES
 =====================
 
-* clouded pane fundamental (pause-delimited foreshadow) [D.9]
+* clouded pane fundamental (isolated state) [D.9]
 
 * tremolo (within process) [D.16]
 
@@ -17,36 +17,34 @@ FORESHADOW CANDIDATES
 
 * appena udibile field (clearing) [J.1]
 
-* compression cells (within process) [Q.11-12]
+* compression cells (process-internal cells) [Q.11-12]
 
 RECOLLECTION CANDIDATES
 =======================
 
-* white clockticks [C.7]
+* talon-crunch circles (isolated state) [C.2]
 
-* talon-crunch circles [C.1]
+* white clockticks (isolated state) [C.7]
 
 * découvrement (ellipses) [C.14]
 
-* jeux des terminaisons [D]
+* jeux des terminaisons (isolated state) [D.11]
 
-* tailpiece [F]
+* tailpiece (clearing) [F.2]
 
-* declamation [G]
+* declamation (tail of repeated state) [G.4-5]
 
-* flight [K.6]
+* scratch gears (process steady-state) [H.13]
+
+    * done: [K.6+]
+
+* vc f 1/2 clt maximal cell (clearing) [I.6]
+
+    * done: [K.6+]
+
+* flight (process steady-state) [K.6]
 
     * done: [N.6]
-
-* louré polyrhythm [G]
-
-* scratch gears [H.13]
-
-    * done: [K.B.1-3]
-
-* vc f 1/2 clt maximal cell [I.6]
-
-    * done: [K.B.2]
 
 SITE CANDIDATES
 ===============
