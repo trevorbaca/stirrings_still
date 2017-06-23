@@ -35,7 +35,9 @@ PENDING ANALYSES
 
 5.  repetition
 
-6.  materials
+6.  shortnesses: [maelstrom - insertia - maelstrom]
+
+7.  materials
 
 TO-DO
 =====

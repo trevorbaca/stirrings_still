@@ -1,33 +1,28 @@
-GERMINATA
-=========
-
-* shortenesses: [maelstrom - insertia - maelstrom]
-
 FORESHADOW CANDIDATES
 =====================
 
-* clouded pane fundamental [D.9]
+* clouded pane fundamental (pause-delimited foreshadow) [D.9]
 
-* tremolo [D.13~19]
+* tremolo (within process) [D.16]
 
-* tailpiece [F]
+* tailpiece (clearing) [F.2]
 
-* louré polyrhythm [G.1]
+* louré polyrhythm (head of repeated state) [G.1]
 
-* rasp(-to-clarinet) [H.1]
+* rasp (inception) [H.1]
 
-* vc p 1/2 start-cell [I.1]
+* vc p 1/2 start-cell (inception) [I.1]
 
-* vc f 1/2 clt maximal cell [I.6]
+* vc f 1/2 clt maximal cell (clearing) [I.6]
 
-* appena udibile field [J.1]
+* appena udibile field (clearing) [J.1]
 
-* compression process [Q]
+* compression cells (within process) [Q.11-12]
 
 RECOLLECTION CANDIDATES
 =======================
 
-* white clockticks [B]
+* white clockticks [C.7]
 
 * talon-crunch circles [C.1]
 
