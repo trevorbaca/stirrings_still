@@ -1,27 +1,27 @@
 TIME-MANIPULATION SITE-CLASSES
 ==============================
 
-PROCESS RELATA
---------------
+PROCESS RELATA (15)
+-------------------
 
 * prefixed to inception ([E.1], [N.4], [Q.1])
 
 * within inception ([D.12], [K.1])
 
-    * done: [B.3-4]
+    * done: [[B.3]]
 
-* within development ([E.14], [K.2-5])
+* within development ([K.3])
 
-    * done: preexisting [C.7], [K.6+]
+    * done: [[C.7]], [K.6+]
 
-* within conclusion ([A.12], [E.7], [R.1])
+* within conclusion ([A.12])
 
     * done: [K.9], [N.6]
 
-* suffixed to conclusion ([C.4], [D.22], [I.5])
+* suffixed to conclusion ([C.14], [D.22], [I.5])
 
-REPETITION TRAIN RELATA
------------------------
+REPETITION TRAIN RELATA (12)
+----------------------------
 
 * prefixed to repeated item ([B.14], [G.3], [H.11])
 
@@ -29,14 +29,14 @@ REPETITION TRAIN RELATA
 
 * within pause ("repetition-internal pause prolongation") ([B.17+], [H.10+])
 
-    * done: preexisting [A.17]
+    * done: [[A.17]]
 
 * suffixed to repeated item ([A.9], [A.15], [B.16])
 
 (further taxonomy first, last, nonfirst, nonlast items ...)
 
-ISOLATED STATE RELATA
----------------------
+ISOLATED STATE RELATA (6)
+-------------------------
 
 * prefixed to isolated state ([B.24], [D.11])
 
@@ -44,13 +44,13 @@ ISOLATED STATE RELATA
 
 * suffixed to isolated state ([C.1], [O.1])
 
-CLEARING RELATA
----------------
+CLEARING RELATA (4)
+-------------------
 
 * within clearing ([D.21], [E.6], [H.14], [J.1])
 
-PAUSE PROLONGATION
-------------------
+PAUSE PROLONGATION (8)
+----------------------
 
 * within breath ("breath prolongation") ([C.8+], [H.2+])
 
@@ -62,4 +62,4 @@ PAUSE PROLONGATION
 
 * within very long pause ("very long pause prolongation")
 
-    * done: preexisting [N.7] only
+    * done: [[N.7]] only
