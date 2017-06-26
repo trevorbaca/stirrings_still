@@ -33,11 +33,13 @@ PENDING ANALYSES
 
     *   subito / taper / transition
 
-5.  repetition
+5.  repetition / sequencing
 
 6.  shortnesses: [maelstrom - insertia - maelstrom]
 
 7.  materials
+
+8.  form-initial dissonance
 
 TO-DO
 =====
