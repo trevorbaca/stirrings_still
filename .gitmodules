@@ -1,0 +1,3 @@
+[submodule "stirrings_still/test"]
+	path = stirrings_still/test
+	url = https://github.com/trevorbaca/test.git
