@@ -10,3 +10,8 @@ del platform
 from stirrings_still.tools import *
 from stirrings_still.materials import *
 from stirrings_still import segments
+
+r'''
+['Madison, WI', 'Chicago, IL', 'Palo Alto, CA.']
+['September 2016', 'September 2017.']
+'''
