@@ -98,32 +98,32 @@ TO-DO
 
 12. Come up with a way to pitch a chord through arbitrarily many contexts
     at one time. This will simplify the folowing:
-        segment_maker.append_commands(
+        maker.append_commands(
             (vn_1, stages(1)),
             [
                 baca.pitch.pitches('B5'),
                 ],
             )
-        segment_maker.append_commands(
+        maker.append_commands(
             (vn_2, stages(1)),
             [
                 baca.pitch.pitches('A#+3'),
                 ],
             )
-        segment_maker.append_commands(
+        maker.append_commands(
             (va, stages(1)),
             [
                 baca.pitch.pitches('B+2'),
                 ],
             )
-        segment_maker.append_commands(
+        maker.append_commands(
             (vc, stages(1)),
             [
                 baca.pitch.pitches('B1'),
                 ],
             )
     ... to something like this:
-        segment_maker.append_commands(
+        maker.append_commands(
             (vertical(vn_1, vn_2, va, vc), stages(1)),
             [
                 baca.pitch.vertical_pitches('B1 B+2 A#+3 B5'),
