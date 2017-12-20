@@ -1,4 +1,4 @@
-FORESHADOW CANDIDATES
+FOREREDRAW CANDIDATES
 =====================
 
 * clouded pane fundamental (isolated state) [D.9]
