@@ -10,6 +10,6 @@ metadata = abjad.OrderedDict(
             'for narrator \\& string quartet',
             ),
         ('title', 'Stirrings Still'),
-        ('year', 2017),
+        ('year', 2018),
         ]
     )
