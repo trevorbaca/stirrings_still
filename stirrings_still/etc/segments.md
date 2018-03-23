@@ -1653,7 +1653,7 @@ SEGMENTS
 
 [H]
 
-    [H.1]
+    [H.1] (1-4)
     (4 measures)
     largo-to-adagio accelerando governs stage:
         achieves adagio at start of last measure;
@@ -1668,7 +1668,7 @@ SEGMENTS
             achieves mp at start of last measure;
     no pause;
 
-    [H.2]
+    [H.2] (5)
     (1 measure)
     adagio continues;
     tutti urtext field continues:
@@ -1679,7 +1679,7 @@ SEGMENTS
         mp completes;
     surprisingly short breath [v2 holds over breath];
 
-    [H.3]
+    [H.3] (6-7)
     (2 measures)
     adagio continues;
     v1 urtext field / ellipses appear gradually:
@@ -1711,7 +1711,7 @@ SEGMENTS
         mp continues;
     no pause;
 
-    [H.4]
+    [H.4] (8-9)
     (2 measures)
     adagio-to-allegro accelerando begins:
         begins adagio at start of stage;
@@ -1742,7 +1742,7 @@ SEGMENTS
         (mp) < f poco overpressure begins;
     no pause;
 
-    [H.5]
+    [H.5] (10-11)
     (2 measures)
     adagio-to-allegro accelerando completes:
         achieves adagio on downbeat of measure 1:2;
@@ -1777,7 +1777,7 @@ SEGMENTS
             achieves f + poco overpressure at start of next stage;
     no pause;
 
-    [H.6]
+    [H.6] (12-13)
     (2 measures)
     allegro-to-adagio ritardando completes:
         achieves adagio at start of last measure;
@@ -1809,7 +1809,7 @@ SEGMENTS
         f + poco overpressure governs stage;
     no pause;
 
-    [H.7]
+    [H.7] (14-15)
     (2 measures)
     adagio continues;
     v1 urtext field / ellipses complete:
@@ -1846,7 +1846,7 @@ SEGMENTS
             achieves ff scratch at start of next stage;
     no pause;
     
-    [H.8]
+    [H.8] (16-21)
     (6 measures)
     adagio-to-allegro accelerando governs stage:
         achieves allegro at start of next stage;
@@ -1859,7 +1859,7 @@ SEGMENTS
         (ff scratch) > ppp begins at start of second half of stage;
     no pause;
 
-    [H.9]
+    [H.9] (22-27 + 28)
     (6 measures)
     adagio-to-allegro acclerando completes:
         achieves allegro at start of stage;
@@ -1880,7 +1880,7 @@ SEGMENTS
             achieves ppp at start of next stage;
     short pause [vc continues through pause];
 
-    [H.10]
+    [H.10] (29-30 + 31)
     (2 measures)
     allegro continues;
     v1, v2, va interlocking clouded pane whisk gears repeat and darken:
@@ -1897,7 +1897,7 @@ SEGMENTS
         ppp continues;
     short pause [vc continues through pause];
 
-    [H.11]
+    [H.11] (31-33 + 34)
     (3 measures)
     allegro continues;
     v1, v2, va interlocking clouded pane whisk gears repeat and darken:
@@ -1913,7 +1913,7 @@ SEGMENTS
         ppp continues;
     short pause [vc continues through pause];
 
-    [H.12]
+    [H.12] (35-38 + 39)
     (4 measures)
     allegro continues;
     v1, v2, va interlocking clouded pane whisk gears repeat and darken:
@@ -1930,7 +1930,7 @@ SEGMENTS
         ppp continues;
     short pause [vc continues through pause];
 
-    [H.13]
+    [H.13] (40-43)
     (4 measures)
     (allegro)-to-largo ritardando governs stage:
         achieves largo at start of last measure;
@@ -1948,7 +1948,7 @@ SEGMENTS
         (ppp) < p begins;
     no pause;
 
-    [H.14]
+    [H.14] (44-45)
     (2 measures)
     largo continues;
     v1, v2, va interlocking gears transition from scratch to golden tone:
