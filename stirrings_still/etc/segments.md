@@ -1,9 +1,9 @@
 SEGMENTS
 ========
 
-[A] time series A; 56 (- 15 fermata) measures; rotation 0
+[A] time series A; 58 (- 15 fermata) measures; rotation 0
 
-    [A.1] (1 + 2)
+    [A.1] (1 + fermata)
     (1 measure)
     andante begins;
     v1, v2, va urtext declamation (two chords) appears:
@@ -22,7 +22,7 @@ SEGMENTS
         tacet;
     pause;
 
-    [A.2] (2 + 3)
+    [A.2] (3 + fermata)
     (1 measure)
     andante continues;
     v1, v2, va urtext declamation repeats and intensifies:
@@ -43,7 +43,7 @@ SEGMENTS
         tacet continues;
     pause;
 
-    [A.3] (4-5 + 6)
+    [A.3] (5-6 + fermata)
     (2 measures)
     andante continues;
     v1, v2, va urtext decalation repeats and intensifies:
@@ -65,7 +65,7 @@ SEGMENTS
         tacet continues;
     pause;
 
-    [A.4] (7-8 + 9)
+    [A.4] (8-9 + fermata)
     (2 measures)
     andante continues;
     v1, v2, va urtext declamation repeats and intensifies:
@@ -86,7 +86,7 @@ SEGMENTS
         tacet anocra;
     pause;
 
-    [A.5] (10-15 + 16)
+    [A.5] (11-16 + fermata)
     (6 measures)
     andante-to-allegro accelerando happens;
     accelerando achieves allegro at start of last measure;
@@ -113,7 +113,7 @@ SEGMENTS
 
     [[starting again:]]
 
-    [A.6] (17 + 18)
+    [A.6] (18 + fermata)
     (1 measure)
     subito adagio;
     composite urtext field / ellipses begin:
@@ -136,7 +136,7 @@ SEGMENTS
             p continues;
     pause [vc holds over pause];
 
-    [A.7] (19 + 20)
+    [A.7] (20 + fermata)
     (1 measure)
     adagio continues;
     composite urtext field / ellipses repeat and intensity:
@@ -168,7 +168,7 @@ SEGMENTS
     [[intercalation from future over vc pedal]];
     [[tremolo flight]];
 
-    [A.8] (21-22 + 23)
+    [A.8] (22-23 + fermata)
     (2 measures)
     adagio continues;
     composite urtext field / ellipses repeat and intensity:
@@ -195,7 +195,7 @@ SEGMENTS
             p continues;
     pause [vc holds over pause];
 
-    [A.9] (24-25 + 26)
+    [A.9] (25-26 + fermata)
     (2 measures)
     adagio continues;
     composite urtext field / ellipses repeat and intensify:
@@ -221,7 +221,7 @@ SEGMENTS
             p continues;
     pause [vc holds over pause];
 
-    [A.10] (27-31)
+    [A.10] (28-33)
     (6 measures)
     adagio-to-allegro accelerando happens;
     composite urtext field / ellipses repeat and intensity:
@@ -248,7 +248,7 @@ SEGMENTS
             p continues;
     no pause;
 
-    [A.11] (32-37)
+    [A.11] (34-39)
     (6 measures)
     allegro continues;
     v1, v2, va ellipses continue:
@@ -261,7 +261,7 @@ SEGMENTS
         p > niente governs stage;
     no pause;
 
-    [A.12] (38-41)
+    [A.12] (40-43)
     (4 measures)
     allegro-to-largo ritardando happens;
     ritardando achieves largo at start of last measure;
@@ -272,7 +272,7 @@ SEGMENTS
         tacet continues;
     surprisingly short breath;
 
-    [A.13] (42-45 + 46)
+    [A.13] (44-47 + fermata)
     (4 measures) 
     largo continues;
     tutti ellipses continue:
@@ -281,7 +281,7 @@ SEGMENTS
         subito p;
     pause;
 
-    [A.14] (47 + 48)
+    [A.14] (49 + fermata)
     (1 measure)
     largo continues;
     tutti ellipses repeat:
@@ -290,7 +290,7 @@ SEGMENTS
         p repeats;
     pause;
 
-    [A.15] (49 + 50)
+    [A.15] (51 + fermata)
     (1 measure)
     largo continues;
     tutti ellipses repeat:
@@ -299,7 +299,7 @@ SEGMENTS
         p repeats;
     pause;
 
-    [A.16] (51 + 52)
+    [A.16] (53 + fermata)
     (1 measure)
     largo continues;
     tutti ellipses repeat:
@@ -308,7 +308,7 @@ SEGMENTS
         p repeats;
     pause;
 
-    [A.17] (53 + 54)
+    [A.17] (55 + fermata)
     (1 measure)
     andante governs stage;
     v1, v2, va urtext declamation returns:
@@ -321,7 +321,7 @@ SEGMENTS
         p continues;
     pause;
 
-    [A.18] (55 + 56)
+    [A.18] (57 + fermata)
     (1 measure)
     largo governs stage;
     tutti ellipses resume and repeat:
@@ -330,7 +330,7 @@ SEGMENTS
         p resumes and repeats;
     long pause;
 
-[B] time series B; 55 (-8 fermata) measures; rotation 0
+[B] time series B; 55 (-10 fermata) measures; rotation 0
 
     [[clockticks become trajectories:]]
 
@@ -383,7 +383,7 @@ SEGMENTS
         crescendo achieves f on midmeasure downbeat;
     surprisingly short breath;
 
-    [B.5] (12-13)
+    [B.5] (12 + fraction)
     (1 measure: fractional time signature)
     adagio subito governs stage;
     mixed clockticks / ellipses resume:
@@ -399,7 +399,7 @@ SEGMENTS
         p begins;
     counted rest equal to exactly 2/3 clocktick (to displace next);
 
-    [B.6] (14-15)
+    [B.6] (14 + fraction)
     (1 measure: fractional time signature)
     adagio subito meno mosso governs stage;
     mixed clockticks / ellipses continue:
@@ -415,7 +415,7 @@ SEGMENTS
         p continues;
     counted rest equal to exactly 2/3 clocktick (to displace next);
 
-    [B.7] (16-17)
+    [B.7] (16 + fraction)
     (1 measure: fractional time signature)
     adagio subito più mosso governs stage;
     mixed clockticks / ellipses continue:
@@ -521,7 +521,7 @@ SEGMENTS
         mf continues;
     no pause;
 
-    [B.12] (25 + 26)
+    [B.12] (25 + fermata)
     (1 measure)
     largo continues;
     v1:
@@ -544,7 +544,7 @@ SEGMENTS
         mf completes;
     pause;
 
-    [B.13] (27 + 28)
+    [B.13] (27-28 + fermata)
     (2 measures)
     largo-to-adagio accelerando happens;
     tutti trajectories continue:
@@ -556,7 +556,7 @@ SEGMENTS
             arrives midmeasure downbeat;
     pause;
 
-    [B.14] (29 + 30)
+    [B.14] (30-31 + fermata)
     (2 measures)
     largo-to-adagio-più-mosso accelerando happens;
     tutti trajectories continue:
@@ -567,7 +567,7 @@ SEGMENTS
             arrives midmeasure downbeat;
     pause;
 
-    [B.15] (31-32 + 33)
+    [B.15] (33-34 + fermata)
     (2 measures)
     largo-to-allegro accelerando happens;
     tutti trajectories continue:
@@ -578,7 +578,7 @@ SEGMENTS
             arrives midmeasure downbeat;
     pause;
 
-    [B.16] (34-35 + 36)
+    [B.16] (36-37 + fermata)
     (2 measures)
     largo-to-allegro-più-mosso accelerando happens;
     tutti trajectories continue:
@@ -589,7 +589,7 @@ SEGMENTS
             arrives midmeasure downbeat;
     pause;
 
-    [B.17] (37-38 + 39)
+    [B.17] (39-40 + fermata)
     (2 measures)
     largo-to-vivace accelerando happens;
     tutti trajectories continue:
@@ -600,7 +600,7 @@ SEGMENTS
             arrives midmeasure downbeat;
     pause;
 
-    [B.18] (40-41)
+    [B.18] (42-43)
     (2 measures)
     largo-to-presto accelerando happens;
     tutti trajectories continue:
@@ -611,7 +611,7 @@ SEGMENTS
             arrives midmeasure downbeat;
     no pause;
 
-    [B.19] (42-47)
+    [B.19] (44-49)
     (6 measures)
     largo-to-presto-accelerando happens;
     tutti trajectories continue:
@@ -622,7 +622,7 @@ SEGMENTS
             arrives 2/3 measure downbeat;
     no pause;
 
-    [B.20] (48-49)
+    [B.20] (50-51)
     (2 measures)
     presto-to-largo ritardando begins;
     v1 trajectories continue:
@@ -642,7 +642,7 @@ SEGMENTS
         ppp continues;
     no pause;
 
-    [B.21] (50)
+    [B.21] (52)
     (1 measure)
     presto-to-largo ritardando continues;
     v1 trajectories continue:
@@ -667,7 +667,7 @@ SEGMENTS
         ppp continues;
     no pause;
 
-    [B.22] (51)
+    [B.22] (53)
     (1 measure)
     ritardando achieves largo at start of stage;
     v1 ellipses begin:
@@ -687,7 +687,7 @@ SEGMENTS
         ppp continues;
     no pause;
 
-    [B.23] (52 + 53)
+    [B.23] (54 + fermata)
     (1 measure)
     largo continues;
     tutti ellipses fade out:
@@ -697,7 +697,7 @@ SEGMENTS
         ppp > niente governs stage;
     pause;
 
-    [B.24] (54 + 55)
+    [B.24] (56 + fermata)
     (1 measure)
     largo continues;
     tutti unexplanined grid appears:
@@ -706,9 +706,9 @@ SEGMENTS
         p governs stage;
     pause;
 
-[C] time series C; 55 (- 5 fermata) measures; rotation 0
+[C] time series C; 56 (- 5 fermata) measures; rotation 0
 
-    [C.1] (1-4 + 5)
+    [C.1] (1-4 + fermata)
     (4 measures)
     adagio;
     tutti maximally tight talon-crunch circles begin:
@@ -720,7 +720,7 @@ SEGMENTS
         "ff" governs stage;
     pause;
 
-    [C.2] (6-9 + 10)
+    [C.2] (6-9 + fermata)
     (4 measures)
     adagio continues;
     tutti maximally tight talon-crunch circles repeat:
@@ -785,7 +785,7 @@ SEGMENTS
         p continues to end of stage;
     surprisingly short breath;
 
-    [C.7] (27 + 28)
+    [C.7] (27 + fraction)
     (1 measure)
     allegro governs stage;
     comprising stage:
@@ -901,7 +901,7 @@ SEGMENTS
         p continues;
     no pause;
     
-    [C.18] (47-48 + 49)
+    [C.18] (47-48 + fermata)
     (2 measures)
     allegro-to-largo ritardando governs first half of stage;
     tutti maximally wide homorhythm circles continue:
@@ -913,7 +913,7 @@ SEGMENTS
         p continues until end of stage;
     pause;
 
-    [C.19] (50-55 + 56)
+    [C.19] (50-55 + fermata)
     (6 measures)
     largo-to-presto accelerando happens:
         begins at start of stage;
@@ -990,7 +990,7 @@ SEGMENTS
         synchronized p < mf governs stage;
     no pause;
 
-    [D.6] (31-36 + 37)
+    [D.6] (31-36 + fermata)
     (6 measures)
     presto continues;
     white tutti grid continues (at stage two):
@@ -1002,7 +1002,7 @@ SEGMENTS
         mf continues;
     pause;
 
-    [D.7] (38-43 + 44)
+    [D.7] (38-43 + fermata)
     (6 measures)
     presto continues;
     white tutti grid continues (at stage two) to end of stage:
@@ -1014,7 +1014,7 @@ SEGMENTS
         pp governs stage;
     pause;
 
-    [D.8] (45 + 46)
+    [D.8] (45 + long)
     (1 measure)
     andante governs stage;
     tutti urtext declamation [A.1] reappears:
@@ -1029,7 +1029,7 @@ SEGMENTS
     [[tremolo exposition:]]
     [[clouded pane exposition:]]
 
-    [D.9] (47-50 + 51)
+    [D.9] (47-50 + long)
     (4 measures)
     largo governs stage;
     lontano governs stage;
@@ -1041,7 +1041,7 @@ SEGMENTS
         p governs stage;
     long pause;
 
-    [D.10] (52 + 53)
+    [D.10] (52 + long)
     (1 measure)
     andante governs stage;
     tutti urtext declamation [A.1] repeats:
@@ -1053,7 +1053,7 @@ SEGMENTS
             p governs stage;
     long pause;
 
-    [D.11] (54-59 + 60)
+    [D.11] (54-59 + long)
     (6 measures)
     presto-to-largo ritardando happens;
     white tutti grid (stage two) resumes and fades out:
@@ -1239,7 +1239,7 @@ SEGMENTS
             tacet subito;
     no pause;
 
-    [D.22] (81-82 + 83)
+    [D.22] (81-82 + short)
     (2 measures)
     largo continues;
     composite urtext field / clouded pane / flight continues to end of stage:
@@ -1259,7 +1259,7 @@ SEGMENTS
 
 [E] time series B; 82 (-4 fermata) measures; rotation -8
 
-    [E.0] (1-2 + 3)
+    [E.0] (1-2 + short)
     (2 measures)
     presto begins;
     v1, v2, va grid-to-trajectories transition begins:
@@ -1387,7 +1387,7 @@ SEGMENTS
         tacet continues;
     no pause;
 
-    [E.7] (34-37 + 38)
+    [E.7] (34-37 + fermata)
     (4 measures)
     presto continues;
     v1, v2, va trajectories continue:
@@ -1438,7 +1438,7 @@ SEGMENTS
         p continues;
     no pause;
 
-    [E.10] (55-56 + 57)
+    [E.10] (55-56 + short)
     (2 measures)
     presto-to-largo ritardando completes:
         achieves largo at start of stage;
@@ -1454,7 +1454,7 @@ SEGMENTS
         p continues;
     short pause;
 
-    [E.11] (58-61 + 62)
+    [E.11] (58-61 + fermata)
     (4 measures)
     largo continues;
     v1, v2, va flight continues:
@@ -1469,7 +1469,7 @@ SEGMENTS
         p continues;
     pause [vc holds through pause];
 
-    [E.12] (63-66 + 67)
+    [E.12] (63-66 + fermata)
     (4 measures)
     largo continues;
     v1, v2, va flight continues:
@@ -1545,7 +1545,7 @@ SEGMENTS
 
 [F] time series A; rotation -14
 
-    [F.1]
+    [F.1] (1-8)
     (8 measures)
     largo continues;
     v1, v2 clouded pane blossoms from vc:
@@ -1564,7 +1564,7 @@ SEGMENTS
         (p) < ff ... ff > niente governs stage;
     no pause;
 
-    [F.2]
+    [F.2] (9-10 + long)
     (2 measures)
     largo continues;
     v1, v2:
@@ -1579,7 +1579,7 @@ SEGMENTS
 
 [G] time series C; rotation -36
 
-    [G.1]
+    [G.1] (1 + fermata)
     (1 measure)
     largo più mosso begins;
     tutti clouded pane / urtext declamation conflict begins:
@@ -1604,35 +1604,35 @@ SEGMENTS
                 subtends declamation;
     pause;
 
-    [G.2]
+    [G.2] (3 + fermata)
     (1 measure)
     largo più mosso continues;
     tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
     pause;
 
-    [G.3]
+    [G.3] (5 + fermata)
     (1 measure)
     largo più mosso continues;
     tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
     pause;
 
-    [G.4]
+    [G.4] (7 + fermata)
     (1 measure)
     largo più mosso continues;
     tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
     pause;
 
-    [G.5]
+    [G.5] (9 + fermata)
     (1 measure)
     largo più mosso continues;
     tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
     long pause;
 
-    [G.6]
+    [G.6] (11-12 + long)
     (2 measures)
     larghissimo governs stage;
     tutti urtext field blossoms aflight (without clouded pane):
@@ -1881,7 +1881,7 @@ SEGMENTS
         (ff scratch) > ppp begins at start of second half of stage;
     no pause;
 
-    [H.9] (22-27 + 28)
+    [H.9] (22-27 + short)
     (6 measures)
     adagio-to-allegro acclerando completes:
         achieves allegro at start of stage;
@@ -1902,7 +1902,7 @@ SEGMENTS
             achieves ppp at start of next stage;
     short pause [vc continues through pause];
 
-    [H.10] (29-30 + 31)
+    [H.10] (29-30 + short)
     (2 measures)
     allegro continues;
     v1, v2, va interlocking clouded pane whisk gears repeat and darken:
@@ -1941,7 +1941,7 @@ SEGMENTS
                 mesures 2 - 4 (of 1 - 4) of crescendo;
         no pause after insert to effect prefix;
 
-    [H.11] (31-33 + 34)
+    [H.11] (32-34 + short)
     (3 measures)
     allegro continues;
     v1, v2, va interlocking clouded pane whisk gears repeat and darken:
@@ -1957,7 +1957,7 @@ SEGMENTS
         ppp continues;
     short pause [vc continues through pause];
 
-    [H.12] (35-38 + 39)
+    [H.12] (36-39 + short)
     (4 measures)
     allegro continues;
     v1, v2, va interlocking clouded pane whisk gears repeat and darken:
@@ -1974,7 +1974,7 @@ SEGMENTS
         ppp continues;
     short pause [vc continues through pause];
 
-    [H.13] (40-43)
+    [H.13] (41-44)
     (4 measures)
     (allegro)-to-largo ritardando governs stage:
         achieves largo at start of last measure;
@@ -1992,7 +1992,7 @@ SEGMENTS
         (ppp) < p begins;
     no pause;
 
-    [H.14] (44-45)
+    [H.14] (45-46)
     (2 measures)
     largo continues;
     v1, v2, va interlocking gears transition from scratch to golden tone:
@@ -2011,7 +2011,7 @@ SEGMENTS
 
 [I] time series A; rotation -28
 
-    [I.1]
+    [I.1] (1-2)
     (2 measures)
     largo continues;
     v1, v2, va synchronous golden gears:
@@ -2028,7 +2028,7 @@ SEGMENTS
         p continues;
     no pause;
 
-    [I.2]
+    [I.2] (3)
     (1 measure)
     largo-to-larghissimo ritardando begins;
     v1, v2, va golden gears whisked skyward:
@@ -2046,7 +2046,7 @@ SEGMENTS
         (p) < f begins;
     no pause;
 
-    [I.3]
+    [I.3] (4)
     (1 measure)
     largo-to-larghissimo ritardando continues;
     v1, v2, va golden gears whisked skyward:
@@ -2064,7 +2064,7 @@ SEGMENTS
         (p < f) continues;
     no pause;
 
-    [I.4]
+    [I.4] (5)
     (1 measure)
     largo-to-larghissimo ritardando completes:
         achieves larghissimo at start of next stage;
@@ -2082,7 +2082,7 @@ SEGMENTS
         (p < f) achieves f on last event;
     no pause;
 
-    [I.5]
+    [I.5] (6-7)
     (2 measures)
     larghissimo continues;
         achieves larghissimo at start of stage;
@@ -2099,7 +2099,7 @@ SEGMENTS
         f continues;
     no pause;
 
-    [I.6]
+    [I.6] (8-9)
     (2 measures)
     larghissimo continues;
     v1, v2, va:
@@ -2113,7 +2113,7 @@ SEGMENTS
         f continues;
     no pause;
 
-    [I.7]
+    [I.7] (10-11)
     (2 measures)
     larghissimo continues;
     v1, v2, va urtext field begins:
@@ -2131,7 +2131,7 @@ SEGMENTS
 
 [J] time series C; rotation -54
 
-    [J.1]
+    [J.1] (1-4)
     (4 measures)
     larghissimo continues;
     v1, v2, va urtext field continues:
@@ -2143,7 +2143,7 @@ SEGMENTS
         tacet continues;
     no pause;
 
-    [J.2]
+    [J.2] (5-6)
     (2 measures)
     larghissimo-to-andante accelerando begins;
     tutti urtext field continues:
@@ -2153,7 +2153,7 @@ SEGMENTS
         appena udibile < fff poco scratch begins;
     no pause;
     
-    [J.3]
+    [J.3] (7-8)
     (2 measures)
     larghissimo-to-andante accelerando completes:
         achieves andante at start of next stage;
@@ -2167,7 +2167,7 @@ SEGMENTS
 
     ||: J.4-5 :|| x 3
 
-        [J.4]
+        [J.4] (9)
         (1 measure)
         andante continues;
         tutti urtext field completes:
@@ -2177,7 +2177,7 @@ SEGMENTS
             fff poco scratch continues and governs stage;
         no pause;
 
-        [J.5]
+        [J.5] (10-11)
         (2 measures)
         andante continues;
         v1, v2, va 1/2 clt trajectories begin and govern stage:
@@ -2193,7 +2193,7 @@ SEGMENTS
         surprisingly short breath;
         [[third time no breath]];
 
-    [J.6]
+    [J.6] (12-15)
     (4 measures)
     andante continues;
     v1, 2, va 1/2 clt trajectories continue:
@@ -2213,7 +2213,7 @@ SEGMENTS
 
 [K] time series B; rotation -24
 
-    [K.1]
+    [K.1] (1-3)
     (3 measures)
     andante continues;
     tutti trajectories-to-flight transition begins:
@@ -2223,7 +2223,7 @@ SEGMENTS
         pp continues;
     no pause;
 
-    [K.2]
+    [K.2] (4-6)
     (3 measures)
     andante continues;
     tutti trajectories-to-flight transition continues:
@@ -2241,7 +2241,7 @@ SEGMENTS
         global (pp) < mp begins;
     no pause;
 
-    [K.3]
+    [K.3] (7-9)
     (3 measures)
     andante continues;
     tutti trajectories-to-flight continue:
@@ -2250,7 +2250,7 @@ SEGMENTS
         global (pp < mp) continues;
     no pause;
 
-    [K.4]
+    [K.4] (10-12)
     (3 measures)
     andante continues;
     tutti trajectories-to-flight continue:
@@ -2259,7 +2259,7 @@ SEGMENTS
         global (pp < mp) continues;
     no pause;
 
-    [K.5]
+    [K.5] (13-15)
     (3 measures)
     andante continues;
     tutti trajectories-to-flight continue:
@@ -2269,7 +2269,7 @@ SEGMENTS
             achieves mp at start of next stage;
     no pause;
 
-    [K.6]
+    [K.6] (16-18)
     (3 measures)
     andante-to-largo ritardando happens;
     tutti flight begins:
@@ -2284,7 +2284,7 @@ SEGMENTS
         <<vc f 1/2 clt maximal cell [I.6] summons past time within past time>>;
         <<scratch gears [H.13] continue and close off past time>>;
 
-    [K.7]
+    [K.7] (19-26)
     (8 measures)
     largo continues;
     tutti flight continues:
@@ -2295,7 +2295,7 @@ SEGMENTS
         subito p governs stage;
     surprisingly short breath;
 
-    [K.8]
+    [K.8] (27-32)
     (6 measures)
     largo-to-allegro accelerando governs stage:
         achieves allegro at start of next stage;
@@ -2308,7 +2308,7 @@ SEGMENTS
         (p) > niente begins;
     no pause;
 
-    [K.9]
+    [K.9] (33-40)
     (8 measures)
     allegro continues;
     tutti flight-to-clouded pane continues:
@@ -2322,7 +2322,7 @@ SEGMENTS
         (p > niente) continues;
     no pause;
 
-    [K.10]
+    [K.10] (41-48)
     (8 measures)
     allegro continues;
     v1, v2, va flight-to-clouded pane fades out:
@@ -2340,7 +2340,7 @@ SEGMENTS
 
 [L] time series A; rotation -42
 
-    [L.1]
+    [L.1] (1-8)
     (8 measures)
     largo meno mosso begins;
     tutti trajectory-animated clouded pane begins:
@@ -2358,7 +2358,7 @@ SEGMENTS
 
 [M] time series C; rotation -72
 
-    [M.1]
+    [M.1] (1-8)
     (8 measures)
     largo meno mosso continues;
     tutti clouded pane continues:
@@ -2369,7 +2369,7 @@ SEGMENTS
         ff continues;
     no pause;
 
-    [M.2]
+    [M.2] (9-12)
     (4 measures)
     largo meno mosso continues;
     v1, v2, va urtext field / ellipses appear:
@@ -2385,7 +2385,7 @@ SEGMENTS
         ff continues;
     no pause;
 
-    [M.3]
+    [M.3] (13-16)
     (4 measures)
     largo meno mosso continues;
     tutti clouded pane continues:
@@ -2396,7 +2396,7 @@ SEGMENTS
         ff continues;
     no pause;
 
-    [M.4]
+    [M.4] (17-20)
     (4 measures)
     largo meno mosso continues;
     v1, v2, va urtext field / ellipses appear:
@@ -2413,7 +2413,7 @@ SEGMENTS
         ff continues;
     no pause;
 
-    [M.5]
+    [M.5] (21-24)
     (4 measures)
     largo meno mosso continues;
     tutti clouded pane continues:
@@ -2424,7 +2424,7 @@ SEGMENTS
         ff continues;
     no pause;
 
-    [M.6]
+    [M.6] (25-28)
     (4 measures)
     largo meno mosso continues;
     v1, v2, va urtext field / ellipses appear:
@@ -2441,7 +2441,7 @@ SEGMENTS
         ff continues;
     no pause;
 
-    [M.7]
+    [M.7] (29-32)
     (4 measures)
     largo-meno-mosso-to-larghissimo ritardando happens;
     tutti clouded pane continues:
@@ -2454,7 +2454,7 @@ SEGMENTS
 
 [N] time series B; rotation -32
 
-    [N.1]
+    [N.1] (1-6)
     (6 measures)
     larghissimo continues;
     tutti clouded pane continues:
@@ -2465,7 +2465,7 @@ SEGMENTS
         ff continues;
     no pause;
 
-    [N.2]
+    [N.2] (7-8)
     (2 measures)
     larghissimo continues;
     v1, v2, va clouded pane continues:
@@ -2480,7 +2480,7 @@ SEGMENTS
         ff > p governs stage;
     no pause;
 
-    [N.3]
+    [N.3] (9-10)
     (2 measures)
     larghissimo continues;
     v1, v2, va:
@@ -2492,7 +2492,7 @@ SEGMENTS
         p continues;
     no pause;
 
-    [N.4]
+    [N.4] (11-14)
     (4 measures)
     larghissimo continues;
     v1, v2, va urtext field fades in:
@@ -2507,7 +2507,7 @@ SEGMENTS
         p continues;
     no pause;
 
-    [N.5]
+    [N.5] (15-20)
     (6 measures)
     larghissimo continues;
     v1, v2, va urtext field continues:
@@ -2521,7 +2521,7 @@ SEGMENTS
         p > niente governs stage;
     no pause;
 
-    [N.6]
+    [N.6] (21-32)
     (12 measures)
     larghissimo-to-presto-to-larghissimo time trends govern stage;
     tutti urtext field continues;
@@ -2537,7 +2537,7 @@ SEGMENTS
 
     very long pause;
 
-    [N.7]
+    [N.7] (34-35)
     (2 measures)
     larghississimo;
     tutti composite clouded pane / urtext field appears and expires:
@@ -2554,7 +2554,7 @@ SEGMENTS
 
 [O] time series A; rotation -56
 
-    [O.1]
+    [O.1] (1-6)
     (6 measures)
     largo più mosso governs stage;
     tutti urtext field / ellipses return:
@@ -2567,7 +2567,7 @@ SEGMENTS
 
 [P] time series C; rotation -90
 
-    [P.1]
+    [P.1] (1-4)
     (4 measures) 
     adagio begins;
     tutti clouded pane begins:
@@ -2578,7 +2578,7 @@ SEGMENTS
         ppppp begins;
     no pause;
 
-    [P.2]
+    [P.2] (5-10)
     (6 measures) 
     adagio continues;
     tutti clouded pane continues (admixed ellipses):
@@ -2589,7 +2589,7 @@ SEGMENTS
         ppppp < p > ppppp governs stage;
     no pause;
 
-    [P.3]
+    [P.3] (11-14)
     (4 measures)
     adagio continues;
     tutti clouded pane continues:
@@ -2600,7 +2600,7 @@ SEGMENTS
         ppppp continues;
     no pause;
 
-    [P.4]
+    [P.4] (15-20)
     (6 measures)
     adagio-to-presto accelerando begins;
     tutti clouded pane continues (admixed ellipses):
@@ -2611,7 +2611,7 @@ SEGMENTS
         ppppp < mp governs first half of stage;
     no pause;
 
-    [P.5]
+    [P.5] (21-26)
     (6 measures)
     accelerando achieves presto at start of last measure;
     tutti ellipses continue:
@@ -2626,7 +2626,7 @@ SEGMENTS
 
     [piece-ending process of compression:]
 
-    [Q.1]
+    [Q.1] (1-8)
     (8 measures)
     presto continues;
     tutti ellipses continue (desynchronized spinning white noise):
@@ -2636,7 +2636,7 @@ SEGMENTS
         p;
     surprisingly short breath [v2 plays ellipses through breath];
 
-    [Q.2]
+    [Q.2] (9-20 + very short)
     (12 measures)
     adagio-to-presto accelerando happens;
     tutti urtext field / trajectories appear (desynchronized pitched field
@@ -2648,7 +2648,7 @@ SEGMENTS
         ff poco scratch < fff scratch > f senza scratch;
     very short pause [v1 holds color through pause];
 
-    [Q.3]
+    [Q.3] (22-27)
     (6 measures)
     presto;
     tutti ellipses return (desynchronized spinning white noise):
@@ -2658,7 +2658,7 @@ SEGMENTS
         p;
     surprisingly short breath [v2 plays ellipses through breath];
 
-    [Q.4]
+    [Q.4] (28-37 + very short)
     (10 measures)
     adagio-to-presto accelerando happens;
     tutti urtext field / trajectories return (desynchronized pitched field
@@ -2670,7 +2670,7 @@ SEGMENTS
         f poco scratch < ff scratch > mf senza scratch;
     very short pause [v1 holds color through pause];
 
-    [Q.5]
+    [Q.5] (39-43)
     (5 measures)
     presto;
     tutti ellipses return (desynchronized spinning white noise):
@@ -2680,7 +2680,7 @@ SEGMENTS
         p;
     surprisingly short breath [v2 plays ellipses through breath];
 
-    [Q.6]
+    [Q.6] (44-51 + very short)
     (8 measures)
     adagio-to-presto accelerando happens;
     tutti urtext field / trajectories return (desynchronized pitched field
@@ -2692,7 +2692,7 @@ SEGMENTS
         mf < f scratch > mp senza scratch;
     very short pause [v1 holds color through pause];
 
-    [Q.7]
+    [Q.7] (53-56)
     (4 measures)
     presto;
     tutti ellipses return (desynchronized spinning white noise):
@@ -2702,7 +2702,7 @@ SEGMENTS
         p;
     surprisingly short breath [v2 plays ellipses through breath];
 
-    [Q.8]
+    [Q.8] (57-62 + very short)
     (6 measures)
     adagio-to-presto accelerando happens;
     tutti urtext field / trajectories return (desynchronized pitched field
@@ -2714,7 +2714,7 @@ SEGMENTS
         mp < mf scratch > senza scratch p;
     very short pause [v1 holds color through pause];
 
-    [Q.9]
+    [Q.9] (64-66)
     (3 measures)
     presto;
     tutti ellipses return (desynchronized spinning white noise):
@@ -2724,7 +2724,7 @@ SEGMENTS
         p;
     surprisingly short breath [v2 plays ellipses through breath];
 
-    [Q.10]
+    [Q.10] (67-70 + very short)
     (4 measures)
     adagio-to-presto accelerando happens;
     tutti urtext field / trajectories return (desynchronized pitched field
@@ -2736,7 +2736,7 @@ SEGMENTS
         p < mp scratch > senza scratch pp;
     very short pause [v1 holds color through pause];
 
-    [Q.11]
+    [Q.11] (72-73)
     (2 measures)
     presto;
     tutti ellipses return (desynchronized spinning white noise):
@@ -2746,7 +2746,7 @@ SEGMENTS
         p;
     surprisingly short breath [v2 plays ellipses through breath];
 
-    [Q.12]
+    [Q.12] (74-75 + fermata)
     (2 measures)
     adagio-to-presto accelerando happens;
     tutti trajectories return (desynchronized pitched field trajectories
@@ -2757,7 +2757,7 @@ SEGMENTS
         pp < p scratch > senza scratch ppp;
     pause [v1 holds color through pause];
 
-    [Q.13]
+    [Q.13] (77-96)
     (20 measures)
     presto-to-largo ritardando happens;
     v1, v2 trajectories continue:
@@ -2779,7 +2779,7 @@ SEGMENTS
 
 [R] time series A; rotation -70
 
-    [R.1]
+    [R.1] (1-4)
     (4 measures)
     largo continues;
     v1, v2 trajectories continue:
@@ -2800,7 +2800,7 @@ SEGMENTS
         pp continues;
     no pause;
 
-    [R.2]
+    [R.2] (5-8)
     (4 measures)
     largo continues;
     v1, v2 trajectories disappear:
@@ -2822,7 +2822,7 @@ SEGMENTS
         pp continues;
     no pause;
 
-    [R.3]
+    [R.3] (9-12)
     (4 measures)
     largo continues;
     v1, v2:
@@ -2839,7 +2839,7 @@ SEGMENTS
         pp > niente happens;
     no pause;
 
-    [R.4]
+    [R.4] (13-16)
     (4 measures)
     largo continues;
     v1, v2:
@@ -2855,7 +2855,7 @@ SEGMENTS
     
 [S] time series A; rotation -86
 
-    [S.1]
+    [S.1] (1-4)
     (4 measures)
     largo continues;
     v1, v2:
@@ -2868,7 +2868,7 @@ SEGMENTS
         tacet continues;
     no pause;
 
-    [S.2]
+    [S.2] (5)
     (1 measure)
     largo continues;
     v1, v2 ellipses reappear:
@@ -2885,7 +2885,7 @@ SEGMENTS
         B0 slack-string up-bow rh-terminated exponential crescendo to mf;
     no pause;
 
-    [S.3]
+    [S.3] (6-9)
     (4 measures)
     largo continues;
     v1, v2:
@@ -2898,7 +2898,7 @@ SEGMENTS
         tacet subito;
     no pause;
 
-    [S.4]
+    [S.4] (10-11)
     (2 measures)
     largo continues;
     v1, v2 ellipses:
@@ -2915,7 +2915,7 @@ SEGMENTS
         Bb0 slack-string up-bow rh-terminated exponential crescendo to f;
     no pause;
 
-    [S.5]
+    [S.5] (12-15)
     (4 measures)
     largo continues;
     v1, v2:
@@ -2928,7 +2928,7 @@ SEGMENTS
         tacet subito;
     no pause;
 
-    [S.6]
+    [S.6] (16-18)
     (3 measures)
     largo continues;
     v1, v2 ellipses:
@@ -2945,7 +2945,7 @@ SEGMENTS
         Bb0 slack-string up-bow rh-terminated exponential crescendo to ff;
     no pause;
 
-    [S.7]
+    [S.7] (19-22)
     (4 measures)
     largo continues;
     v1, v2:
@@ -2958,7 +2958,7 @@ SEGMENTS
         tacet;
     no pause;
 
-    [S.8]
+    [S.8] (23-26)
     (4 measures)
     largo continues;
     v1, v2 ellipses:
@@ -2975,7 +2975,7 @@ SEGMENTS
         Bb0 slack-string up-bow rh-terminated exponential crescendo to fff;
     no pause;
 
-    [S.9]
+    [S.9] (27-34 + long)
     (8 measures)
     largo continues;
     v1, v2:
