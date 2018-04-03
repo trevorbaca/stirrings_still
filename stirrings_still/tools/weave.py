@@ -1,12 +1,13 @@
 import abjad
 import baca
 import stirrings_still
+from stirrings_still.materials.time_signature_series.definition import \
+    stage_to_time_signatures
 
 
 def weave(segment):
     r'''Makes woven time signatures.
     '''
-    from stirrings_still.materials.time_signature_series.definition import stage_to_time_signatures
     series, rotation, stages = stage_to_time_signatures[segment]
     series = stirrings_still.time_signature_series[series]
     series = baca.sequence(series).rotate(rotation)
