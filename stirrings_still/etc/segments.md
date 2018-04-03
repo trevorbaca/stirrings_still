@@ -1612,6 +1612,18 @@ SEGMENTS
         single declamation happens again;
     pause;
 
+    >>[J.1 (appena udibile field) prefixes [G.3 (repetatum)]<<:
+    >>summons future time<<:
+        larghissimo;
+        v1, v2, va urtext field:
+            stopped lh;
+            hair;
+            double-stop field;
+            appena udibile;
+        vc:
+            tacet;
+    no pause after prefix;
+
     [G.3] (5 + fermata)
     (1 measure)
     largo più mosso continues;
@@ -1631,6 +1643,27 @@ SEGMENTS
     largo più mosso continues;
     tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
+    no pause before suffix;
+
+    <<[C.7 (clocktick composite)] 1 (of 1) suffixed to [G.5]>>:
+    <<summons past time>>:
+        v1 shining beacon of clouded pane:
+            harmonic lh;
+            hair;
+            pp;
+        v2 white clockticks [B.10]:
+            damped lh;
+            1/2 clt;
+            fast clockticks;
+            mp;
+        va, vc shining beacon of clouded pane:
+            harmonic lh;
+            hair;
+            pp;
+        cut-off;
+        no pause before repetatum;
+
+    <<[G.5] repeats to effect within-insertion of [C.7]>>
     long pause;
 
     [G.6] (11-12 + long)
@@ -1653,6 +1686,9 @@ SEGMENTS
                 unmarked swells on each note;
                 pp < mf governs stage;
     long pause;
+
+    <<[D.11] 1-6 (of 6) suffixed to [G.6] long pause>>:
+    <<summons past time>>:
 
 [H] time series B; 45 (- 4 fermata) measures; rotation -16
     prefixed to 31: [H.1] measures 2 - 3 (of 1 - 4)
@@ -1920,27 +1956,25 @@ SEGMENTS
         ppp continues;
     short pause [vc continues through pause];
 
-    inserted within short pause:
-        <<v2 trajectories [G.5 > C.7 > B.10] summon past time>>:
-        <<1 (of 1) measure>>:
-            tasto stopped lh;
-            1/2 clt;
-            mf;
+    <<[G.5 -> C.7 (pane / urtext conflict) inserted within short pause>>:
+    <<summons past time>>:
+        tasto stopped lh;
+        1/2 clt;
+        mf;
         [short pause reproduced after insert to effect within-insertion];
         [vc continues through pause];
 
-    prefixed to [H.11]:
-        <<tutti urtext field [H.1] summons past time>>:
-        <<measures 2 - 4 of (1 - 4)>>:
+    <<[H.1 (urtext rasp)] 3-4 (of 4) prefixed to [H.11]>>:
+        tutti:
             stopped lh;
             hair;
             four-note chord:
                 single-stopped notes;
-            extremely gradual rasp-to-flautando transition governs stage:
-                measures 2 - 4 (of 1 - 4) of transition;
-            niente < mp governs stage:
-                mesures 2 - 4 (of 1 - 4) of crescendo;
-        no pause after insert to effect prefix;
+            extremely gradual rasp-to-flautando transition:
+                measures 3-4 (of 4) of transition;
+            niente < mp:
+                measures 3-4 (of 4) of crescendo;
+    no pause after insert to effect prefix;
 
     [H.11] (32-34 + short)
     (3 measures)
@@ -2002,7 +2036,7 @@ SEGMENTS
         scratch-to-tone transition governs stage:
             achieves tone at start of next stage;
         polyrhythm-to-1:2:4 rhythmic interpolation governs stage:
-            achieves 1:2:3 rate ratio at start of next stage;
+            achieves 1:2:4 rate ratio at start of next stage;
     vc 1/2 clt trajectory pedal continues:
         stopped lh continues;
         1/2 clt continues (not yet audible);
@@ -2142,7 +2176,26 @@ SEGMENTS
         appena udibile continues;
     vc:
         tacet continues;
-    no pause;
+
+        <<[C.7 (clocktime composite)] inserted between mm 2 and 3>>:
+        <<summons past time>>:
+            allegro;
+            v1 shining beacon of clouded pane:
+                harmonic lh;
+                hair;
+                pp;
+            v2 white clockticks [B.10];
+                damped lh;
+                1/2 clt;
+                fast clockticks;
+                mp;
+            va, vc shining beacon of clouded pane:
+                harmonic lh;
+                hair;
+                pp;
+            cut-off;
+
+    no pause after [J.1];
 
     [J.2] (5-6)
     (2 measures)

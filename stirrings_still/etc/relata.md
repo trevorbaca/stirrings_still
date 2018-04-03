@@ -38,6 +38,10 @@ PROCESS RELATA (15)
 * suffixed to conclusion
 
     * done: [C.14], [D.22], [I.5]
+    *
+    *
+    * [F.2 (va tailpiece)] suffixed to [I.5 (conclusion)]
+        * does not affect time signature structure
 
 REPETITION TRAIN RELATA (12)
 ----------------------------
@@ -46,15 +50,15 @@ REPETITION TRAIN RELATA (12)
 
     * done: [B.14], [G.3], [H.11]
     *
-    *
-    *
+    * [J.1 (appena udibile field)] prefixed to [G.3 (repetatum)]
+    * [H.1 (urtext rasp)] prefixed to [H.11 (repetatum)]
 
 * within repeated item
 
     * done: [A.13], [B.17], [G.5]
     *
     *
-    *
+    * [C.7 (clocktime composite)] inserted within [G.5 (repetatum)]
 
 * within pause ("repetition-internal pause prolongation")
 
@@ -101,8 +105,8 @@ CLEARING RELATA (4)
     * done: [D.21], [E.6], [H.14], [J.1]
     *
     *
-    *
-    *
+    * [G.5 (pane / urtext conflict)] into [H.14 (clearing)]
+    * [C.7 (clocktick composite)] into [J.1 (clearing)]
 
 PAUSE PROLONGATION (8)
 ----------------------
@@ -116,7 +120,7 @@ PAUSE PROLONGATION (8)
 * within short pause ("short pause prolongation")
 
     * done: [H.10]
-    *
+    * [G.5 (pane / urtext conflict)] into [H.10 short pause]
  
 * within pause ("pause prolongation")
 
@@ -128,7 +132,7 @@ PAUSE PROLONGATION (8)
 
     * done: [F.2], [G.6]
     *
-    *
+    * [D.11 single-statement process] prolongs [G.6] long pause
 
 * within very long pause ("very long pause prolongation")
 
