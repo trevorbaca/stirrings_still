@@ -78,7 +78,7 @@ RECOLLECTION CANDIDATES
 
 * jeux des terminaisons (isolated state) [D.11]
 
-    * done: in long pause [G.6+]
+    * done: in long pause [G.6]
 
 * tailpiece (clearing) [F.2]
 

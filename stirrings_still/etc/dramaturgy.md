@@ -640,10 +640,3 @@ DRAMATURGY
 
     memory of flight persists while golden ellipses stir still;
     memory of flight expires.
-
-###############################################################################
-################################## QUESTIONS ##################################
-###############################################################################
-
-1.  at what non-piece-initial moments do rest-offset single-material exposures
-    become charged?

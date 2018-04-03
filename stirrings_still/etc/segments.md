@@ -368,7 +368,8 @@ SEGMENTS
         va ellipses fade in [recalls end of A] and then stop:
             hair governs stage;
             niente < p governs first quarter of stage;
-    vc [[clouded pane]] appears:
+    vc >>clouded pane<< appears:
+        >>summons future time<<:
         (obverse) harmonic appears:
         niente < f begins;
     no pause;
@@ -378,7 +379,7 @@ SEGMENTS
     accelerando achieves presto on midmeasure downbeat;
     v1, v2, va:
         tacet;
-    vc [[clouded pane]] completes:
+    vc clouded pane completes:
         obverse harmonic completes;
         crescendo achieves f on midmeasure downbeat;
     surprisingly short breath;
@@ -2221,6 +2222,17 @@ SEGMENTS
         1/2 clt continues;
         trajectories continue;
         pp continues;
+
+        <<[C.14] measures 3-4 (of 4) inserted between [K.1] measures 2 and 3>>:
+        <<summons past time>>:
+            adagio;
+            tutti maximally wide circles:
+                hair;
+                continuous sound in all parts (= no rest after any circle);
+                gradual harmonic-to-half-harmonic-to-stopped independently;
+                desynchronization;
+                f;
+
     no pause;
 
     [K.2] (4-6)
@@ -2248,6 +2260,14 @@ SEGMENTS
         ibid;
         tremolo durations increase;
         global (pp < mp) continues;
+
+        <<[I.6 -> F.2 va tailpiece] revealed within [K.3]>>:
+        <<summons past time>>:
+        does not alter time signature structure:
+            va tailpiece:
+                absent lh;
+                pochiss. flicker;
+
     no pause;
 
     [K.4] (10-12)
@@ -2277,12 +2297,13 @@ SEGMENTS
         hair continues;
         tremolo continues;
         mp governs stage;
-    surprisingly short breath;
 
     inserted into breath:
         <<scratch gears [H.13] summon past time>>;
         <<vc f 1/2 clt maximal cell [I.6] summons past time within past time>>;
         <<scratch gears [H.13] continue and close off past time>>;
+
+    surprisingly short breath after three suffixes;
 
     [K.7] (19-26)
     (8 measures)
@@ -2320,6 +2341,13 @@ SEGMENTS
         senza tremolo continues;
         tension between fast tempo and protracted duration;
         (p > niente) continues;
+
+        <<[K.5] 1-3 (of 3) replaces [K.9] 6-8 (of 8)>>:
+        <<summons past time>>:
+            va:
+                1/2 clt trajectory;
+                mp;
+
     no pause;
 
     [K.10] (41-48)
@@ -2492,6 +2520,19 @@ SEGMENTS
         p continues;
     no pause;
 
+    <<[I.6 (repetition cell)] both measures (of 2) prefixed to [N.4]>>:
+    <<summons past time>>:
+        larghissimo continues;
+        v1, v2, va:
+            tacet continues;
+        vc 1/2 clt solo trajectory:
+            stopped lh;
+            1/2 clt;
+            single pitch:
+                pitch is not upper register;
+            trapped repetition cell;
+            f;
+
     [N.4] (11-14)
     (4 measures)
     larghissimo continues;
@@ -2532,8 +2573,8 @@ SEGMENTS
         dynamic process embedded:
             terminates ff ponticello with lv-release;
     
-    inserted midstage:
-        <<colored flight [K.6] summons past time>>;
+        <<colored flight [K.6] inserted midstage to [N.6]>>;
+        <<summons past time>>;
 
     very long pause;
 
@@ -2563,6 +2604,19 @@ SEGMENTS
         new urtext pitches appear;
         ellipses so slow that primary effect is granulation;
         mf governs stage;
+
+    <<[H.13] measure 4 (of 4) suffixed to [O.1]; summons past time>>:
+        largo;
+        v1, v2, va interlocking gears repeat as scratch:
+            stopped lh;
+            hair;
+            full scratchstage;
+            polyrhythmic desynchronization (without swells);
+            ff;
+        vc clouded pane:
+            stopped lh;
+            pp;
+
     very long pause;
 
 [P] time series C; rotation -90
@@ -2625,6 +2679,14 @@ SEGMENTS
 [Q] time series B; rotation -40
 
     [piece-ending process of compression:]
+
+    <<[N.6 -> K.6] prefixed to [Q.1] inception>>:
+    [K.6] measure 2 (of 3):
+        tutti flight:
+            stopped lh;
+            hair;
+            continuous tremolo;
+            mp;
 
     [Q.1] (1-8)
     (8 measures)
