@@ -1,11 +1,25 @@
 import abjad
+import stirrings_still
+from .Operation import Operation
+from .StageToken import StageToken
 
 
 def relata():
     r'''Makes relata.
+
+    >>> import stirrings_still
+
     '''
+
+    operation = stirrings_still.Operation(
+        source_stage=StageToken('G', 9, 'inception', 1),
+        source_measures=1,
+        verb='suffix',
+        target_stage=StageToken('A', 9, 'repetatum', 2),
+        )
+
     return abjad.OrderedDict({
-        ('A', 9, 'repetatum'): ['suffix', ('G', 9, 1, 1)],
+        ('A', 9, 'repetatum'): ['suffix', ('G', 1, 1, 1)],
         ('A', 12, 'conclusion'): [('insert', 2, 3), ('I', 6, 2, 2)],
         ('A', 13, 'repetatum'): [('insert', 2, 3), ('I', 6, 2, 2)],
         ('A', 15, 'repetatum'): ['suffix', ('H', 1, (3, 4), 4)],
@@ -21,7 +35,7 @@ def relata():
         ('D', 9, 'isolated state'): [('insert', 2, 3), ('F', 2, 2, 2)],
         ('D', 11, 'isolated state'): ['prefix', ('S', 2, 1, 1)],
         ('D', 12, 'inception'): [('insert', 1, 2), ('I', 1, 2, 2)],
-        ('D', 21, 'field'): [('insert', 1, 2), ('F', 2, 2, 2)],
+        ('D', 21, 'clearing'): [('insert', 1, 2), ('F', 2, 2, 2)],
         ('D', 22, 'conclusion'): ['suffix', ('C', 2, (3, 4), 4)],
         ('E', 1, 'inception'): ['prefix', ('H', 9, (1, 2), 6)],
         ('E', 6, 'clearing'): [('insert', 2, 3), ('A', 1, 1)],
@@ -29,15 +43,15 @@ def relata():
         ('E', 7, 'pause'): ['suffix', ('Q', (1, 12), 12)],
         ('E', 12, 'isolated state'): [('insert', 2, 3), ('Q', (1, 8), 8)],
         ('E', 12, 'isolated state'): [('insert', 2, 3), ('Q', (1, 12), 12)],
-        ('F', 2, 'long pause'): ['suffix', ('C', 2, (3, 4), 4)],
+        ('F', 2, 'pause'): ['suffix', ('C', 2, (3, 4), 4)],
         ('G', 3, 'repetatum'): ['prefix', ('J', 1, (1, 2), 4)],
         ('G', 5, 'repetatum'): ['suffix', ('C', 7, 1, 1)],
         ('G', 5, 'repetatum'): ['suffix', ('G', 5, 1, 1)],
-        ('G', 6, 'long pause'): ['suffix', ('D', 11, (1, 6), 6)],
-        ('H', 2, 'short pause'): ['suffix', ('I', 1, 2, 2)],
-        ('H', 10, 'short pause'): ['suffix', ('G', 5, 1, 1)],
+        ('G', 6, 'pause'): ['suffix', ('D', 11, (1, 6), 6)],
+        ('H', 2, 'pause'): ['suffix', ('I', 1, 2, 2)],
+        ('H', 10, 'pause'): ['suffix', ('G', 5, 1, 1)],
         ('H', 11, 'repetatum'): ['prefix', ('H', 1, (3, 4), 4)],
-        ('H', 14, 'cleaning'): [('insert', 1, 2), ('G', 5, 1, 1)],
+        ('H', 14, 'clearing'): [('insert', 1, 2), ('G', 5, 1, 1)],
         ('J', 1, 'clearing'): [('insert', 2, 3), ('C', 7, 1, 1)],
         ('K', 1, 'inception'): [('insert', 2, 3), ('C', 14, (3, 4), 4)],
         ('K', 6, 'development'): ['suffix', ('H', 13, 2, 4)],
