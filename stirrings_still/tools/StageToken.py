@@ -17,12 +17,14 @@ class StageToken(abjad.AbjadObject):
     _descriptions = (
         'clearing',
         'conclusion',
+        'current',
         'development',
-        'field',
         'inception',
         'isolated state',
         'pause',
+        'process',
         'repetatum',
+        'transformatum',
         )
 
     ### INITIALIZER ###

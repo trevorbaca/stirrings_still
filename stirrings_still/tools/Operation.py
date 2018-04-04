@@ -51,6 +51,7 @@ class Operation(abjad.AbjadObject):
     _verbs = (
         'insert',
         'prefix',
+        'replace',
         'suffix',
         )
 
