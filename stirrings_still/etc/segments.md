@@ -588,7 +588,16 @@ SEGMENTS
             arrives midmeasure downbeat;
         mp < ff:
             arrives midmeasure downbeat;
-    pause;
+
+    >>[A.18 (ellipses)] suffixed to [B.16 (repetatum)]<<:
+    >>summons future time<<:
+        1/1 measure;
+        largo governs stage;
+        tutti ellipses:
+            damped lh;
+            slow rate;
+            p;
+    pause before [B.17];
 
     [B.17] (39-40 + fermata)
     (2 measures)
@@ -599,7 +608,40 @@ SEGMENTS
             arrives midmeasure downbeat;
         mf < fff:
             arrives midmeasure downbeat;
-    pause;
+
+        >>[D.9 (clouded pane)] in middle of [B.17]<<:
+        >>summons future time<<:
+            measure 1/4;
+            largo;
+            lontano;
+            v1, v2, va:
+                tacet;
+            vc clouded pane appears (first [actual] time in piece):
+                stopped lh;
+                hair;
+                p;
+        >>atacca to second half of [B.17]<<
+
+    pause after [B.17];
+
+    <<[D.17 (urtext / pane / flight composite)] prolongs [B.17] pause>>
+    <<summons future time>>:
+        2/2 measure;
+        allegro;
+        composite urtext field / clouded pane / flight;
+            v1, v2, va urtext field / flight:
+                stopped lh;
+                hair;
+                tasto;
+                densely spaced double-stops;
+                continuous sound:
+                    continuous tremolo in all parts arrives at start of stage;
+                p;
+            vc clouded pane:
+                stoped lh;
+                hair;
+                p;
+    <<pause recapitulated after insert to effect prolongation>>
 
     [B.18] (42-43)
     (2 measures)
@@ -698,6 +740,25 @@ SEGMENTS
         ppp > niente governs stage;
     pause;
 
+    <<[D.16 (urtext / pane / flight composite)] prefixes [B.24]>>:
+    <<summons future time>>:
+        measure 1/2;
+        largo-to-allegro accelerando;
+        composite urtext field / clouded pane / flight:
+        v1, v2, va urtext field / flight:
+            stopped lh;
+            hair;
+            tasto;
+            densely spaced double-stops;
+            continuous sound;
+            v2, va continuous tremolo;
+            v1 almost continuous tremolo;
+            p;
+        vc clouded pane continues:
+            stopped lh;
+            hair;
+            p;
+
     [B.24] (56 + fermata)
     (1 measure)
     largo continues;
@@ -719,7 +780,32 @@ SEGMENTS
         desynchronization begins:
             different rate for each player;
         "ff" governs stage;
-    pause;
+
+        <<[G.1 (pane / urtext conflict)] suffixed to [C.1]>>:
+        <<summons future time>>:
+            1/1  measure;
+            largo più mosso;
+            tutti clouded pane / urtext declamation conflict;
+            single declamation:
+                v1, v2 urtext declamation double-stops:
+                    stopped lh;
+                    hair;
+                    tasto;
+                    polyrhythmic louré-swell tuplets;
+                    niente < mp > niente envelopes shape each note;
+                va clouded partial:
+                    stopped lh;
+                    hair;
+                    tasto;
+                    polyrhythmic louré-swell tuplets;
+                    niente < mp > niente envelopes shape each note;
+                vc clouded pane:
+                    stopped lh;
+                    hair;
+                    new pitch begins stepwise above;
+                    niente < f ... f > niente governs stage;
+                    subtends declamation;
+    pause follows insert;
 
     [C.2] (6-9 + fermata)
     (4 measures)
@@ -822,6 +908,19 @@ SEGMENTS
         mf > pp governs stage;
     surprisingly short breath;
 
+    <<[D.9 (clouded pane)] prolongs [C.8] breath>>:
+    <<summons future time>>:
+        measure 1/4;
+        largo;
+        lontano;
+        v1, v2, va:
+            tacet;
+        vc clouded pane appears (first [actual] time in piece):
+            stopped lh;
+            hair;
+            p;
+    <<recapitulate surprisingly short breath after insert>>
+
     [C.9] (33-36)
     (circles resume)
     (4 measures)
@@ -865,6 +964,18 @@ SEGMENTS
         desynchronization governs stage;
         f continues until end of stage;
     surprisingly short breath;
+    >>[J.1 (appena udibile field) suffixes [C.14 (conclusion)]<<:
+    >>summons future time<<:
+        measures 1-2 (of 4);
+        larghissimo;
+        v1, v2, va urtext field:
+            stopped lh;
+            hair;
+            double-stop field;
+            appena udibile;
+        vc:
+            tacet;
+    >>repeat surprisingly short breath<<
 
     [C.15] (41-42)
     (2 measures)
@@ -1003,6 +1114,21 @@ SEGMENTS
         mf continues;
     pause;
 
+    <<[I.6 (repetition cells)] prolong [D.6] pause>>:
+    <<summon future time>>:
+        2/2 measure;
+        larghissimo;
+        v1, v2, va:
+            tacet;
+        vc 1/2 clt solo trajectory:
+            stopped lh;
+            1/2 clt;
+            single pitch begins at trajectory endpoint:
+                pitch is not upper register;
+            quasivortex now trapped repetition cell;
+            f;
+    <<pause repeated after insert to effect prolongation>>
+
     [D.7] (38-43 + fermata)
     (6 measures)
     presto continues;
@@ -1036,7 +1162,7 @@ SEGMENTS
     lontano governs stage;
     v1, v2, va:
         tacet subito;
-    vc clouded pane appears (first time in piece):
+    vc clouded pane appears (first [written] time in piece):
         stopped lh continues;
         hair continues;
         p governs stage;
@@ -1053,6 +1179,24 @@ SEGMENTS
             tasto repeats;
             p governs stage;
     long pause;
+
+    <<[S.2] ellipses with va pedal prefixed to [D.11]>>:
+    <<summon future time>>:
+        1/1 measure;
+        largo;
+        v1, v2 ellipses:
+            stopped lh;
+            hair;
+            fast whisked ellipses on accelerando and crescendo;
+        va memory of flight:
+            stopped lh;
+            hair;
+            Bb2 pp pedal;
+        vc memory of flight returns:
+            stopped lh;
+            hair;
+            B1 slack-string up-bow rh-terminated exponential crescendo to mf;
+        <<atacca [D.11] to effect prefix>>
 
     [D.11] (54-59 + long)
     (6 measures)
@@ -1081,6 +1225,21 @@ SEGMENTS
             stopped lh returns;
             hair returns;
             niente < p governs first half of stage;
+            >>[I.1] v1, va, synchronous golden gears into middle of [D.12]<<:
+            >>summon future time<<:
+                measure 2/2;
+                stopped lh;
+                hair;
+                golden tone (senza scratch);
+                circles (SL = BW) locked in binary rate ratio 1:4;
+                mp;
+            >>vc 1/2 clt solo trajectory [I.1] summons future time<<:
+                stopped lh;
+                1/2 clt;
+                starts up on local accelerandi;
+                repetition quasivortex begins;
+                p;
+            >>atacca second half of [D.12]<<
     no pause;
 
     [D.13] (63-64)
@@ -1238,6 +1397,15 @@ SEGMENTS
             continuous tremolo continues;
         vc:
             tacet subito;
+        >>[F.2] 1/2 inserted into middle of [D.21 (clearing)<<:
+        >>summons future time<<:
+            1 measure;
+            largo;
+            va tailpiece:
+                absent lh;
+                pochiss. flicker;
+                mp;
+        >>atacca second half of [D.21]<<
     no pause;
 
     [D.22] (81-82 + short)
@@ -1256,6 +1424,17 @@ SEGMENTS
             hair resumes;
             reenters up one step;
             niente < p governs stage;
+        <<[C.2 (crunch circles + up-glissando)] suffixed to [D.22]>>:
+        <<summon past time>>:
+            measures 3-4 (of 4)
+            adagio;
+            tutti maximally tight talon-crunch circles repeat:
+                damped lh;
+                hair;
+                v2 only:
+                    slow up-glissando;
+                desynchronization;
+                p;
     short pause [vc continues through pause];
 
 [E] time series B; 82 (-4 fermata) measures; rotation -8
@@ -1274,6 +1453,24 @@ SEGMENTS
         hair continues;
         p continues;
     short pause [vc continues through pause];
+
+    <<[H.9] 1-2/6 prefixed to [E.1]>>:
+    <<summons future time>>:
+        allegro;
+        interlocking clouded pane whisk gears appear gradually:
+            stopped lh;
+            hair;
+            fast ellipses;
+            polyrhythmic desynchronization:
+                v1 completely regular rhythm #1;
+                v2 completely regular rhythm #2;
+                va completely regular rhythm #3;
+            niente < p;
+        vc clouded pane:
+            harmonic lh;
+            hair;
+            ff scratch > p;
+        <<atacca [E.1] to effect prefix>>
 
     [E.1] (4-9)
     (6 measures)
@@ -1386,6 +1583,24 @@ SEGMENTS
         p continues;
     vc:
         tacet continues;
+        <<[A.1] 1/1 inserted into middle of [E.6]>>
+        <<summons past time>>:
+            andante;
+            v1, v2, va urtext declamation (two chords):
+                stopped lh;
+                hair;
+                tasto;
+                densely spaced double-stops;
+                declamation (two rest-delimited chords):
+                    first chord:
+                        short;
+                        p <| mp ringing lv;
+                    second chord:
+                        longer;
+                        p < mp stop-on-string;
+            vc:
+                tacet;
+        <<atacca return to second half of [E.6]>>
     no pause;
 
     [E.7] (34-37 + fermata)
@@ -1406,6 +1621,28 @@ SEGMENTS
     vc:
         tacet continues;
     pause;
+
+    <<[Q.1] 8/8 and [Q.2] 12/12 inserted into [E.7] pause>>:
+    <<summons future time>>:
+        (8 measures)
+        presto;
+        tutti ellipses (desynchronized spinning white noise):
+            damped lh;
+            each pitch fixed;
+            relatively fast polyrhythmic desynchronized ellipses;
+            p;
+        surprisingly short breath [v2 plays ellipses through breath];
+        (12 measures)
+        adagio-to-presto accelerando happens;
+        tutti urtext field / trajectories appear (desynchronized pitched field
+            trajectories whisked skyward):
+            urtext field double-stops;
+            subito pitch;
+            desyncrhonized hair trajectories:
+                1/2 clt introduced towards end of trajectories independently;
+            ff poco scratch < fff scratch > f senza scratch;
+
+    <<pause repeated after insert to effect prolongation>>
 
     [E.8] (39-46)
     (8 measures)
@@ -1483,7 +1720,28 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         p continues;
-    pause [vc holds through pause];
+
+    <<[Q.1] 8/8 and [Q.2] 12/12 inserted in middle of [E.12]>>:
+    <<recapitulates summons of past time>>:
+        (8 measures)
+        presto;
+        tutti ellipses (desynchronized spinning white noise):
+            damped lh;
+            each pitch fixed;
+            relatively fast polyrhythmic desynchronized ellipses;
+            p;
+        surprisingly short breath [v2 plays ellipses through breath];
+        (12 measures)
+        adagio-to-presto accelerando happens;
+        tutti urtext field / trajectories appear (desynchronized pitched field
+            trajectories whisked skyward):
+            urtext field double-stops;
+            subito pitch;
+            desyncrhonized hair trajectories:
+                1/2 clt introduced towards end of trajectories independently;
+            ff poco scratch < fff scratch > f senza scratch;
+        <<attaca return to second half of [E.12]>>
+    pause [vc holds through pause] after [E.12];
 
     [E.13] (68-71)
     (4 measures)
@@ -1578,6 +1836,20 @@ SEGMENTS
         tacet continues;
     long pause;
 
+    <<[C.2 (crunch circles + up-glissando)] prolong [F.2] long pause>>:
+    <<summon past time>>:
+        measures 3-4 (of 4)
+        adagio;
+        tutti maximally tight talon-crunch circles repeat:
+            damped lh;
+            hair;
+            v2 only:
+                slow up-glissando;
+            desynchronization;
+            p;
+
+    <<long pause follows insert to complete prolongation>>
+
 [G] time series C; rotation -36
 
     [G.1] (1 + fermata)
@@ -1614,6 +1886,7 @@ SEGMENTS
 
     >>[J.1 (appena udibile field) prefixes [G.3 (repetatum)]<<:
     >>summons future time<<:
+        measures 1-2 (of 4);
         larghissimo;
         v1, v2, va urtext field:
             stopped lh;
@@ -1622,7 +1895,7 @@ SEGMENTS
             appena udibile;
         vc:
             tacet;
-    no pause after prefix;
+    >>atacca [G.3] to effect prefix<<
 
     [G.3] (5 + fermata)
     (1 measure)
