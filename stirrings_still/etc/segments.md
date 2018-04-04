@@ -314,7 +314,7 @@ SEGMENTS
         subito damped lh;
         subito slower rate;
         subito p;
-        >>[I.6 (vc cell) 2/2] bisects [A.13 (repetatum) 2@3/4]<<:
+        >>[I.6 (vc cell) 2/2] bisects [A.13 (iteratum) 2@3/4]<<:
         >>summons future time<<:
             larghissimo;
             vc 1/2 clt solo trajectory:
@@ -659,7 +659,7 @@ SEGMENTS
         mp < ff:
             arrives midmeasure downbeat;
 
-    >>[A.18 (ellipses) 1/1] suffixes [B.16 (repetatum)]<<:
+    >>[A.18 (ellipses) 1/1] suffixes [B.16 (iteratum)]<<:
     >>summons future time<<:
         largo governs stage;
         tutti ellipses:
@@ -1944,7 +1944,7 @@ SEGMENTS
         single declamation happens again;
     pause;
 
-    >>[J.1 (clearing) 1-2/4] prefixes [G.3 (repetatum)]<<:
+    >>[J.1 (clearing) 1-2/4] prefixes [G.3 (iteratum)]<<:
     >>summons future time<<:
         larghissimo;
         v1, v2, va urtext field:
@@ -1993,7 +1993,7 @@ SEGMENTS
             hair;
             pp;
         cut-off;
-        no pause before repetatum;
+        no pause before iteratum;
 
     <<[G.5] repeats to effect within-insertion of [C.7]>>
     long pause;

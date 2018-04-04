@@ -30,7 +30,7 @@ def relata():
                     target_stage=stirrings_still.StageToken(
                         letter='A',
                         number=9,
-                        description='repetatum',
+                        description='iteratum',
                         ),
                     ),
                 stirrings_still.Operation(
@@ -62,7 +62,7 @@ def relata():
                     target_stage=stirrings_still.StageToken(
                         letter='A',
                         number=13,
-                        description='repetatum',
+                        description='iteratum',
                         length=4,
                         ),
                     target_site=(2, 3),
@@ -79,14 +79,14 @@ def relata():
                     target_stage=stirrings_still.StageToken(
                         letter='A',
                         number=15,
-                        description='repetatum',
+                        description='iteratum',
                         ),
                     ),
                 stirrings_still.Operation(
                     source_stage=stirrings_still.StageToken(
                         letter='A',
                         number=1,
-                        description='isolated state',
+                        description='isolatum',
                         length=1,
                         ),
                     source_measures=1,
@@ -111,14 +111,14 @@ def relata():
                     target_stage=stirrings_still.StageToken(
                         letter='B',
                         number=14,
-                        description='repetatum',
+                        description='iteratum',
                         ),
                     ),
                 stirrings_still.Operation(
                     source_stage=stirrings_still.StageToken(
                         letter='A',
                         number=18,
-                        description='isolated state',
+                        description='isolatum',
                         length=1,
                         ),
                     source_measures=1,
@@ -126,14 +126,14 @@ def relata():
                     target_stage=stirrings_still.StageToken(
                         letter='B',
                         number=16,
-                        description='repetatum',
+                        description='iteratum',
                         ),
                     ),
                 stirrings_still.Operation(
                     source_stage=stirrings_still.StageToken(
                         letter='D',
                         number=9,
-                        description='isolated state',
+                        description='isolatum',
                         length=4,
                         ),
                     source_measures=1,
@@ -141,7 +141,7 @@ def relata():
                     target_stage=stirrings_still.StageToken(
                         letter='B',
                         number=17,
-                        description='repetatum',
+                        description='iteratum',
                         length=2,
                         ),
                     target_site=(1, 2),
@@ -173,7 +173,7 @@ def relata():
                     target_stage=stirrings_still.StageToken(
                         letter='B',
                         number=24,
-                        description='isolated state',
+                        description='isolatum',
                         ),
                     ),
                 stirrings_still.Operation(
@@ -188,7 +188,7 @@ def relata():
                     target_stage=stirrings_still.StageToken(
                         letter='C',
                         number=1,
-                        description='isolated state',
+                        description='isolatum',
                         ),
                     ),
                 stirrings_still.Operation(
@@ -233,7 +233,7 @@ def relata():
                     target_stage=stirrings_still.StageToken(
                         letter='D',
                         number=9,
-                        description='isolated state',
+                        description='isolatum',
                         length=4,
                         ),
                     target_site=(2, 3),
@@ -250,7 +250,7 @@ def relata():
                     target_stage=stirrings_still.StageToken(
                         letter='D',
                         number=11,
-                        description='isolated state',
+                        description='isolatum',
                         ),
                     ),
                 stirrings_still.Operation(
@@ -321,7 +321,7 @@ def relata():
                     source_stage=stirrings_still.StageToken(
                         letter='A',
                         number=1,
-                        description='isolated state',
+                        description='isolatum',
                         length=1,
                         ),
                     source_measures=1,
@@ -425,14 +425,14 @@ def relata():
                     target_stage=stirrings_still.StageToken(
                         letter='G',
                         number=3,
-                        description='repetatum',
+                        description='iteratum',
                         ),
                     ),
                 stirrings_still.Operation(
                     source_stage=stirrings_still.StageToken(
                         letter='C',
                         number=7,
-                        description='isolated state',
+                        description='isolatum',
                         length=1,
                         ),
                     source_measures=1,
@@ -440,14 +440,14 @@ def relata():
                     target_stage=stirrings_still.StageToken(
                         letter='G',
                         number=5,
-                        description='repetatum',
+                        description='iteratum',
                         ),
                     ),
                 stirrings_still.Operation(
                     source_stage=stirrings_still.StageToken(
                         letter='D',
                         number=11,
-                        description='isolated state',
+                        description='isolatum',
                         length=6,
                         ),
                     source_measures=6,
@@ -477,7 +477,7 @@ def relata():
                     source_stage=stirrings_still.StageToken(
                         letter='G',
                         number=5,
-                        description='repetatum',
+                        description='iteratum',
                         length=1,
                         ),
                     source_measures=1,
@@ -500,14 +500,14 @@ def relata():
                     target_stage=stirrings_still.StageToken(
                         letter='H',
                         number=11,
-                        description='repetatum',
+                        description='iteratum',
                         ),
                     ),
                 stirrings_still.Operation(
                     source_stage=stirrings_still.StageToken(
                         letter='G',
                         number=5,
-                        description='repetatum',
+                        description='iteratum',
                         length=1,
                         ),
                     source_measures=1,
@@ -524,7 +524,7 @@ def relata():
                     source_stage=stirrings_still.StageToken(
                         letter='C',
                         number=7,
-                        description='isolated state',
+                        description='isolatum',
                         length=1,
                         ),
                     source_measures=1,
@@ -660,7 +660,7 @@ def relata():
                     target_stage=stirrings_still.StageToken(
                         letter='O',
                         number=1,
-                        description='isolated state',
+                        description='isolatum',
                         ),
                     ),
                 stirrings_still.Operation(
@@ -687,7 +687,7 @@ def relata():
         Operation(
             StageToken('G', 1, 'inception', 1), 1,
             'suffix',
-            StageToken('A', 9, 'repetatum'),
+            StageToken('A', 9, 'iteratum'),
             ),
         Operation(
             StageToken('I', 6, 'current', 2), 2,
@@ -697,32 +697,32 @@ def relata():
         Operation(
             StageToken('I', 6, 'current', 2), 2,
             'insert',
-            StageToken('A', 13, 'repetatum', 4), (2, 3),
+            StageToken('A', 13, 'iteratum', 4), (2, 3),
             ),
         Operation(
             StageToken('H', 1, 'inception', 4), (3, 4),
             'suffix',
-            StageToken('A', 15, 'repetatum'),
+            StageToken('A', 15, 'iteratum'),
             ),
         Operation(
-            StageToken('A', 1, 'isolated state', 1), 1,
+            StageToken('A', 1, 'isolatum', 1), 1,
             'insert',
             StageToken('B', 12, 'conclusion', 2), (1, 2),
             ),
         Operation(
             StageToken('H', 1, 'inception', 4), (3, 4),
             'prefix',
-            StageToken('B', 14, 'repetatum'),
+            StageToken('B', 14, 'iteratum'),
             ),
         Operation(
-            StageToken('A', 18, 'isolated state', 1), 1,
+            StageToken('A', 18, 'isolatum', 1), 1,
             'suffix',
-            StageToken('B', 16, 'repetatum'),
+            StageToken('B', 16, 'iteratum'),
             ),
         Operation(
-            StageToken('D', 9, 'isolated state', 4), 1,
+            StageToken('D', 9, 'isolatum', 4), 1,
             'insert',
-            StageToken('B', 17, 'repetatum', 2), (1, 2),
+            StageToken('B', 17, 'iteratum', 2), (1, 2),
             ),
         Operation(
             StageToken('D', 17, 'development', 2), 2,
@@ -732,12 +732,12 @@ def relata():
         Operation(
             StageToken('D', 16, 'development', 2), 1,
             'prefix',
-            StageToken('B', 24, 'isolated state'),
+            StageToken('B', 24, 'isolatum'),
             ),
         Operation(
             StageToken('G', 1, 'inception', 1), 1,
             'suffix',
-            StageToken('C', 1, 'isolated state'),
+            StageToken('C', 1, 'isolatum'),
             ),
         Operation(
             StageToken('J', 1, 'clearing', 4), (1, 2),
@@ -752,12 +752,12 @@ def relata():
         Operation(
             StageToken('F', 2, 'clearing', 2), 2,
             'insert',
-            StageToken('D', 9, 'isolated state', 4), (2, 3),
+            StageToken('D', 9, 'isolatum', 4), (2, 3),
             ),
         Operation(
             StageToken('S', 2, 'transformatum', 1),  1,
             'prefix',
-            StageToken('D', 11, 'isolated state'),
+            StageToken('D', 11, 'isolatum'),
             ),
         Operation(
             StageToken('I', 1, 'clearing', 2), 2,
@@ -780,7 +780,7 @@ def relata():
             StageToken('E', 1, 'inception'),
             ),
         Operation(
-            StageToken('A', 1, 'isolated state', 1), 1,
+            StageToken('A', 1, 'isolatum', 1), 1,
             'insert',
             StageToken('E', 6, 'clearing', 4), (2, 3),
             ),
@@ -812,15 +812,15 @@ def relata():
         Operation(
             StageToken('J', 1, 'clearing', 4), (1, 2),
             'prefix',
-            StageToken('G', 3, 'repetatum'),
+            StageToken('G', 3, 'iteratum'),
             ),
         Operation(
-            StageToken('C', 7, 'isolated state', 1), 1,
+            StageToken('C', 7, 'isolatum', 1), 1,
             'suffix',
-            StageToken('G', 5, 'repetatum'),
+            StageToken('G', 5, 'iteratum'),
             ),
         Operation(
-            StageToken('D', 11, 'isolated state', 6), 6,
+            StageToken('D', 11, 'isolatum', 6), 6,
             'suffix',
             StageToken('G', 6, 'pause'),
             ),
@@ -830,22 +830,22 @@ def relata():
             StageToken('H', 2, 'pause'),
             ),
         Operation(
-            StageToken('G', 5, 'repetatum', 1), 1,
+            StageToken('G', 5, 'iteratum', 1), 1,
             'suffix',
             StageToken('H', 10, 'pause'),
             ),
         Operation(
             StageToken('H', 1, 'inception', 4), (3, 4),
             'prefix',
-            StageToken('H', 11, 'repetatum'),
+            StageToken('H', 11, 'iteratum'),
             ),
         Operation(
-            StageToken('G', 5, 'repetatum', 1), 1,
+            StageToken('G', 5, 'iteratum', 1), 1,
             'insert',
             StageToken('H', 14, 'clearing', 2), (1, 2),
             ),
         Operation(
-            StageToken('C', 7, 'isolated state', 1), 1,
+            StageToken('C', 7, 'isolatum', 1), 1,
             'insert',
             StageToken('J', 1, 'clearing', 4), (2, 3),
             ),
@@ -887,7 +887,7 @@ def relata():
         Operation(
             StageToken('H', 13, 'development', 4), 4,
             'suffix',
-            StageToken('O', 1, 'isolated state'),
+            StageToken('O', 1, 'isolatum'),
             ),
         Operation(
             StageToken('K', 6, 'clearing', 3), 2,
