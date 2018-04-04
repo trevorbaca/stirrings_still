@@ -5,6 +5,12 @@ def relata():
     r'''Makes relata.
     '''
     return abjad.OrderedDict({
+        ('A', 9, 'repetatum'): ['suffix', ('G', 9, 1, 1)],
+        ('A', 12, 'conclusion'): [('insert', 2, 3), ('I', 6, 2, 2)],
+        ('A', 13, 'repetatum'): [('insert', 2, 3), ('I', 6, 2, 2)],
+        ('A', 15, 'repetatum'): ['suffix', ('H', 1, (3, 4), 4)],
+        ('B', 12, 'conclusion'): [('insert', 1, 2), ('A', 1, 1, 1)],
+        ('B', 14, 'repetatum'): ['prefix', ('H', 1, (3, 4), 4)],
         ('B', 16, 'repetatum'): ['suffix', ('A', 18, 1, 1)],
         ('B', 17, 'repetatum'): [('insert', 1, 2), ('D', 9, 1, 4)],
         ('B', 17, 'pause'): ['suffix', ('D', 17, (1, 2), 2)],
@@ -34,7 +40,6 @@ def relata():
         ('H', 14, 'cleaning'): [('insert', 1, 2), ('G', 5, 1, 1)],
         ('J', 1, 'clearing'): [('insert', 2, 3), ('C', 7, 1, 1)],
         ('K', 1, 'inception'): [('insert', 2, 3), ('C', 14, (3, 4), 4)],
-        ('K', 3, 'development'): [None, ('F', 2)],
         ('K', 6, 'development'): ['suffix', ('H', 13, 2, 4)],
         ('K', 6, 'development'): ['suffix', ('I', 6, 2, 2)],
         ('K', 6, 'development'): ['suffix', ('H', 13, 4, 4)],

@@ -53,7 +53,7 @@ stage_to_time_signatures = abjad.OrderedDict({
         ]),
     'B': ('B', 0,
         [4, 1, 2, 4, 1, (5, 12), 1, (5, 12), 1, (5, 12),
-        2, 2, 1, 2, 1, 'fermata', 2, 'fermata', 2, 'fermata', 2, 'fermata',
+        2, 2, 1, 2, 2, 'fermata', 2, 'fermata', 2, 'fermata', 2, 'fermata',
         2, 'fermata', 2, 'fermata', 2, 6, 2, 1, 1, 1, 'fermata', 1, 'fermata',
         ]),
     'C': ('A', 0,

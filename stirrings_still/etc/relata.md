@@ -14,7 +14,8 @@ PROCESS RELATA (15)
 * within inception
 
     * done: [B.3], [D.12], [K.1]
-    *
+    * [B.3 (vc clouded pane)] appears within [B.3 (inception)]
+        * in-built to time signature structure
     * [I.1] inserted into [D.12 (inception)]
     * [C.14 (max golden circles)] 3-4 (of 4) inserted into [K.1 (inception)]
 
@@ -22,8 +23,9 @@ PROCESS RELATA (15)
 
     * done: [C.7], [K.3], [K.6]
     * [B.10 (clockticks)] within [C.7 (development)]
-        * does not affect time signature structure
+        * in-built to time signature structure
     * [I.6 -> F.2 (va tailpiece)] inserted into [K.3 (development)]
+        * in-built to time signature structure
     * nested [H.13 (process)], [I.6 (cell)] suffixed to [K.6 (development)]
         * [H.13 (scratch gears)] 2 (of 4) suffixed to [K.6 (development)]
         * [I.6 (cell)] 2 (of 2) suffixed to [K.6 (development)]
@@ -32,7 +34,7 @@ PROCESS RELATA (15)
 * within conclusion
 
     * done: [A.12], [K.9], [N.6]
-    *
+    * [I.6 (vc cells)] 2/2 inserted into [A.12 (conclusion)] 2@3/4
     * [K.5 (process)] inserted into [K.9 (conclusion)]
     * [K.6 (steady-state)] inserted within [N.6 (conclusion)]
 
@@ -42,7 +44,7 @@ PROCESS RELATA (15)
     * [J.1 (appena udibile field)] suffixed to [C.14 (conclusion)]
     * [C.2] suffixed to [D.22 (conclusion)]
     * [F.2 (va tailpiece)] suffixed to [I.5 (conclusion)]
-        * does not affect time signature structure
+        * in-built to time signature structure
 
 REPETITION TRAIN RELATA (12)
 ----------------------------
@@ -50,32 +52,31 @@ REPETITION TRAIN RELATA (12)
 * prefixed to repeated item
 
     * done: [B.14], [G.3], [H.11]
-    *
+    * [H.1 (urtext rasp)] prefixed to [B.14 (repetatum)]
     * [J.1 (appena udibile field)] prefixed to [G.3 (repetatum)]
     * [H.1 (urtext rasp)] prefixed to [H.11 (repetatum)]
 
 * within repeated item
 
     * done: [A.13], [B.17], [G.5]
-    *
+    * [I.6 (vc cell)] inserted within [A.13 (repetatum)]
     * [D.9 (clouded pane)] inserted within [B.17 (repetatum)]
     * [C.7 (clocktime composite)] inserted within [G.5 (repetatum)]
 
 * within pause ("repetition-internal pause prolongation")
 
     * done: [A.17], [B.17], [H.10]
-    *
+    * [A.17] prolongs [A.16] pause
+        * in-built to time signature structure
     * [D.17] prolongs [B.17] repetition-internal pause
-    *
+    * [G.5 -> C.7 (pane / urtext)] prolongs [H.10] repetition-internal pause
 
 * suffixed to repeated item
 
     * done: [A.9], [A.15], [B.16]
-    *
-    *
+    * [G.1] suffixed to [A.9 (repetatum)]
+    * [H.1] 3-4/4 suffixed to [A.15 (repetatum)]
     * [A.18] 1/1 suffixed to [B.16 (repetatum)]
-
-(further taxonomy first, last, nonfirst, nonlast items ...)
 
 ISOLATED STATE RELATA (6)
 -------------------------
@@ -137,4 +138,4 @@ PAUSE PROLONGATION (8)
 
 * within very long pause ("very long pause prolongation")
 
-    * done: [N.7] does not affect time signature structure
+    * done: [N.7] in-built to time signature structure

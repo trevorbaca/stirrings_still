@@ -219,6 +219,31 @@ SEGMENTS
             stopped lh continues;
             tasto continues;
             p continues;
+        >>atacca suffix<<
+        >>[G.1 (pane / urtext conflict)] suffixed to [C.1]<<:
+        >>summons future time<<:
+            1/1  measure;
+            largo più mosso;
+            tutti clouded pane / urtext declamation conflict;
+            single declamation:
+                v1, v2 urtext declamation double-stops:
+                    stopped lh;
+                    hair;
+                    tasto;
+                    polyrhythmic louré-swell tuplets;
+                    niente < mp > niente envelopes shape each note;
+                va clouded partial:
+                    stopped lh;
+                    hair;
+                    tasto;
+                    polyrhythmic louré-swell tuplets;
+                    niente < mp > niente envelopes shape each note;
+                vc clouded pane:
+                    stopped lh;
+                    hair;
+                    new pitch begins stepwise above;
+                    niente < f ... f > niente governs stage;
+                    subtends declamation;
     pause [vc holds over pause];
 
     [A.10] (28-33)
@@ -270,7 +295,19 @@ SEGMENTS
         ppp > niente happens;
     vc:
         tacet continues;
-    surprisingly short breath;
+        >>[I.6 (vc cell)] in middle of [A.12 (conclusion)]<<:
+        >>summons future time<<:
+            measure 2/2;
+            larghissimo;
+            vc 1/2 clt solo trajectory:
+                stopped lh;
+                1/2 clt;
+                single pitch begins at trajectory endpoint:
+                    pitch is not upper register;
+                quasivortex now trapped repetition cell;
+                f;
+        >>atacca second half of [A.12]<<;
+    surprisingly short breath after [A.12];
 
     [A.13] (44-47 + fermata)
     (4 measures) 
@@ -279,7 +316,19 @@ SEGMENTS
         subito damped lh;
         subito slower rate;
         subito p;
-    pause;
+        >>[I.6 (vc cell)] in middle of [A.13 (repetatum)]<<:
+        >>summons future time<<:
+            measure 2/2;
+            larghissimo;
+            vc 1/2 clt solo trajectory:
+                stopped lh;
+                1/2 clt;
+                single pitch begins at trajectory endpoint:
+                    pitch is not upper register;
+                quasivortex now trapped repetition cell;
+                f;
+        >>atacca second half of [A.13]<<;
+    pause after [A.13];
 
     [A.14] (49 + fermata)
     (1 measure)
@@ -297,7 +346,19 @@ SEGMENTS
         damped lh repeats;
         slow rate repeats;
         p repeats;
-    pause;
+    >>atacca suffix<<;
+    >>[H.1 (urtext rasp)] 3-4 (of 4) suffixed to [A.15]<<:
+    >>summons future time<<:
+        tutti:
+            stopped lh;
+            hair;
+            four-note chord:
+                single-stopped notes;
+            extremely gradual rasp-to-flautando transition:
+                measures 3-4 (of 4) of transition;
+            niente < mp:
+                measures 3-4 (of 4) of crescendo;
+    pause after suffix;
 
     [A.16] (53 + fermata)
     (1 measure)
@@ -368,8 +429,8 @@ SEGMENTS
         va ellipses fade in [recalls end of A] and then stop:
             hair governs stage;
             niente < p governs first quarter of stage;
-    vc >>clouded pane<< appears:
-        >>summons future time<<:
+    >>vc clouded pane appears<<:
+    >>summons future time<<:
         (obverse) harmonic appears:
         niente < f begins;
     no pause;
@@ -522,8 +583,8 @@ SEGMENTS
         mf continues;
     no pause;
 
-    [B.12] (25 + fermata)
-    (1 measure)
+    [B.12] (25-26 + fermata)
+    (2 measures)
     largo continues;
     v1:
         tacet;
@@ -537,7 +598,7 @@ SEGMENTS
         tasto continues;
         1/2 clt completes;
         crescendo completes:
-            achieves mf on midmeasure downbeat;
+            achieves mf on measure 1:2 downbeat;
     vc trajectories continue:
         stopped lh continues;
         tasto continues;
@@ -545,7 +606,7 @@ SEGMENTS
         mf completes;
     pause;
 
-    [B.13] (27-28 + fermata)
+    [B.13] (28-29 + fermata)
     (2 measures)
     largo-to-adagio accelerando happens;
     tutti trajectories continue:
@@ -557,7 +618,19 @@ SEGMENTS
             arrives midmeasure downbeat;
     pause;
 
-    [B.14] (30-31 + fermata)
+    <<[H.1 (urtext rasp)] 3-4 (of 4) prefixed to [B.14]>>:
+        tutti:
+            stopped lh;
+            hair;
+            four-note chord:
+                single-stopped notes;
+            extremely gradual rasp-to-flautando transition:
+                measures 3-4 (of 4) of transition;
+            niente < mp:
+                measures 3-4 (of 4) of crescendo;
+    no pause after insert to effect prefix;
+
+    [B.14] (31-32 + fermata)
     (2 measures)
     largo-to-adagio-più-mosso accelerando happens;
     tutti trajectories continue:
@@ -568,7 +641,7 @@ SEGMENTS
             arrives midmeasure downbeat;
     pause;
 
-    [B.15] (33-34 + fermata)
+    [B.15] (34-35 + fermata)
     (2 measures)
     largo-to-allegro accelerando happens;
     tutti trajectories continue:
@@ -579,7 +652,7 @@ SEGMENTS
             arrives midmeasure downbeat;
     pause;
 
-    [B.16] (36-37 + fermata)
+    [B.16] (37-38 + fermata)
     (2 measures)
     largo-to-allegro-più-mosso accelerando happens;
     tutti trajectories continue:
@@ -599,7 +672,7 @@ SEGMENTS
             p;
     pause before [B.17];
 
-    [B.17] (39-40 + fermata)
+    [B.17] (40-41 + fermata)
     (2 measures)
     largo-to-vivace accelerando happens;
     tutti trajectories continue:
@@ -624,8 +697,8 @@ SEGMENTS
 
     pause after [B.17];
 
-    <<[D.17 (urtext / pane / flight composite)] prolongs [B.17] pause>>
-    <<summons future time>>:
+    >>[D.17 (urtext / pane / flight composite)] prolongs [B.17] pause<<:
+    >>summons future time<<:
         2/2 measure;
         allegro;
         composite urtext field / clouded pane / flight;
@@ -643,7 +716,7 @@ SEGMENTS
                 p;
     <<pause recapitulated after insert to effect prolongation>>
 
-    [B.18] (42-43)
+    [B.18] (43-44)
     (2 measures)
     largo-to-presto accelerando happens;
     tutti trajectories continue:
@@ -654,7 +727,7 @@ SEGMENTS
             arrives midmeasure downbeat;
     no pause;
 
-    [B.19] (44-49)
+    [B.19] (45-50)
     (6 measures)
     largo-to-presto-accelerando happens;
     tutti trajectories continue:
@@ -665,7 +738,7 @@ SEGMENTS
             arrives 2/3 measure downbeat;
     no pause;
 
-    [B.20] (50-51)
+    [B.20] (51-52)
     (2 measures)
     presto-to-largo ritardando begins;
     v1 trajectories continue:
@@ -685,7 +758,7 @@ SEGMENTS
         ppp continues;
     no pause;
 
-    [B.21] (52)
+    [B.21] (53)
     (1 measure)
     presto-to-largo ritardando continues;
     v1 trajectories continue:
@@ -710,7 +783,7 @@ SEGMENTS
         ppp continues;
     no pause;
 
-    [B.22] (53)
+    [B.22] (54)
     (1 measure)
     ritardando achieves largo at start of stage;
     v1 ellipses begin:
@@ -730,7 +803,7 @@ SEGMENTS
         ppp continues;
     no pause;
 
-    [B.23] (54 + fermata)
+    [B.23] (55 + fermata)
     (1 measure)
     largo continues;
     tutti ellipses fade out:
@@ -740,8 +813,8 @@ SEGMENTS
         ppp > niente governs stage;
     pause;
 
-    <<[D.16 (urtext / pane / flight composite)] prefixes [B.24]>>:
-    <<summons future time>>:
+    >>[D.16 (urtext / pane / flight composite)] prefixes [B.24]<<:
+    >>summons future time<<:
         measure 1/2;
         largo-to-allegro accelerando;
         composite urtext field / clouded pane / flight:
@@ -759,7 +832,7 @@ SEGMENTS
             hair;
             p;
 
-    [B.24] (56 + fermata)
+    [B.24] (57 + fermata)
     (1 measure)
     largo continues;
     tutti unexplanined grid appears:
@@ -781,8 +854,8 @@ SEGMENTS
             different rate for each player;
         "ff" governs stage;
 
-        <<[G.1 (pane / urtext conflict)] suffixed to [C.1]>>:
-        <<summons future time>>:
+        >>[G.1 (pane / urtext conflict)] suffixed to [C.1]<<:
+        >>summons future time<<:
             1/1  measure;
             largo più mosso;
             tutti clouded pane / urtext declamation conflict;
@@ -908,8 +981,8 @@ SEGMENTS
         mf > pp governs stage;
     surprisingly short breath;
 
-    <<[D.9 (clouded pane)] prolongs [C.8] breath>>:
-    <<summons future time>>:
+    >>[D.9 (clouded pane)] prolongs [C.8] breath<<:
+    >>summons future time<<:
         measure 1/4;
         largo;
         lontano;
@@ -1114,8 +1187,8 @@ SEGMENTS
         mf continues;
     pause;
 
-    <<[I.6 (repetition cells)] prolong [D.6] pause>>:
-    <<summon future time>>:
+    >>[I.6 (repetition cells)] prolong [D.6] pause<<:
+    >>summon future time<<:
         2/2 measure;
         larghissimo;
         v1, v2, va:
@@ -1180,8 +1253,8 @@ SEGMENTS
             p governs stage;
     long pause;
 
-    <<[S.2] ellipses with va pedal prefixed to [D.11]>>:
-    <<summon future time>>:
+    >>[S.2] ellipses with va pedal prefixed to [D.11]<<:
+    >>summon future time<<:
         1/1 measure;
         largo;
         v1, v2 ellipses:
@@ -1454,8 +1527,8 @@ SEGMENTS
         p continues;
     short pause [vc continues through pause];
 
-    <<[H.9] 1-2/6 prefixed to [E.1]>>:
-    <<summons future time>>:
+    >>[H.9] 1-2/6 prefixed to [E.1]<<:
+    >>summons future time<<:
         allegro;
         interlocking clouded pane whisk gears appear gradually:
             stopped lh;
@@ -1622,8 +1695,8 @@ SEGMENTS
         tacet continues;
     pause;
 
-    <<[Q.1] 8/8 and [Q.2] 12/12 inserted into [E.7] pause>>:
-    <<summons future time>>:
+    >>[Q.1] 8/8 and [Q.2] 12/12 inserted into [E.7] pause<<:
+    >>summons future time<<:
         (8 measures)
         presto;
         tutti ellipses (desynchronized spinning white noise):
@@ -2229,7 +2302,7 @@ SEGMENTS
         ppp continues;
     short pause [vc continues through pause];
 
-    <<[G.5 -> C.7 (pane / urtext conflict) inserted within short pause>>:
+    <<[G.5 -> C.7 (pane / urtext conflict) within [H.10] short pause>>:
     <<summons past time>>:
         tasto stopped lh;
         1/2 clt;
