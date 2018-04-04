@@ -13,7 +13,7 @@ class Operation(abjad.AbjadObject):
         ...     source_stage=stirrings_still.StageToken('G', 9, 'inception', 1),
         ...     source_measures=1,
         ...     verb='suffix',
-        ...     target_stage=stirrings_still.StageToken('A', 9, 'repetatum', 2),
+        ...     target_stage=stirrings_still.StageToken('A', 9, 'iteratum', 2),
         ...     )
 
         >>> abjad.f(operation)
@@ -29,7 +29,7 @@ class Operation(abjad.AbjadObject):
             target_stage=stirrings_still.StageToken(
                 letter='A',
                 number=9,
-                description='repetatum',
+                description='iteratum',
                 length=2,
                 ),
             )

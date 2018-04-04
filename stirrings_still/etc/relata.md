@@ -52,16 +52,16 @@ REPETITION TRAIN RELATA (12)
 * prefixed to repeated item
 
     * done: [B.14], [G.3], [H.11]
-    * [H.1 (inception)] prefixed to [B.14 (repetatum)]
-    * [J.1 (clearing)] prefixed to [G.3 (repetatum)]
-    * [H.1 (inception)] prefixed to [H.11 (repetatum)]
+    * [H.1 (inception)] prefixed to [B.14 (iteratum)]
+    * [J.1 (clearing)] prefixed to [G.3 (iteratum)]
+    * [H.1 (inception)] prefixed to [H.11 (iteratum)]
 
 * within repeated item
 
     * done: [A.13], [B.17], [G.5]
-    * [I.6 (cell)] inserted within [A.13 (repetatum)]
-    * [D.9 (isolated state)] inserted within [B.17 (repetatum)]
-    * [C.7 ('isolated state')] inserted within [G.5 (repetatum)]
+    * [I.6 (cell)] inserted within [A.13 (iteratum)]
+    * [D.9 (isolatum)] inserted within [B.17 (iteratum)]
+    * [C.7 (isolatum)] inserted within [G.5 (iteratum)]
 
 * within pause ("repetition-internal pause prolongation")
 
@@ -69,36 +69,36 @@ REPETITION TRAIN RELATA (12)
     * [A.17] prolongs [A.16] pause
         * in-built to time signature structure
     * [D.17] prolongs [B.17] repetition-internal pause
-    * [G.5 -> C.7 ('isolated state')] prolongs [H.10] repetition-internal pause
+    * [G.5 -> C.7 (isolatum)] prolongs [H.10] repetition-internal pause
 
 * suffixed to repeated item
 
     * done: [A.9], [A.15], [B.16]
-    * [G.1] suffixed to [A.9 (repetatum)]
-    * [H.1 (inception) 3-4/4] suffixed to [A.15 (repetatum)]
-    * [A.18 (isolated state) 1/1] suffixed to [B.16 (repetatum)]
+    * [G.1] suffixed to [A.9 (iteratum)]
+    * [H.1 (inception) 3-4/4] suffixed to [A.15 (iteratum)]
+    * [A.18 (isolatum) 1/1] suffixed to [B.16 (iteratum)]
 
-ISOLATED STATE RELATA (6)
+isolatum RELATA (6)
 -------------------------
 
-* prefixed to isolated state
+* prefixed to isolatum
 
     * done: [B.24], [D.11]
     * [D.16 (development) 1/2] prefixes [B.24 (state)]
-    * [S.2 (transformatum) 1/1] prefixed to [D.11 (isolated state)]
+    * [S.2 (transformatum) 1/1] prefixed to [D.11 (isolatum)]
 
-* within isolated state
+* within isolatum
 
     * done: [D.9], [E.12]
-    * [F.2 (clearing)] inserted within [D.9 (isolated state)]
-    * [Q.1 (inception) 1-8/8] inserted into [E.12 (isolated state)]
-    * [Q.2 (transformatum) 1-12/12] inserted into [E.12 (isolated state)]
+    * [F.2 (clearing)] inserted within [D.9 (isolatum)]
+    * [Q.1 (inception) 1-8/8] inserted into [E.12 (isolatum)]
+    * [Q.2 (transformatum) 1-12/12] inserted into [E.12 (isolatum)]
 
-* suffixed to isolated state
+* suffixed to isolatum
 
     * done: [C.1], [O.1]
-    * [G.1 (incepton) 1/1] suffixed to [C.1 (isolated state)]
-    * [H.13 (development)] suffixed to [O.1 (isolated state)]
+    * [G.1 (incepton) 1/1] suffixed to [C.1 (isolatum)]
+    * [H.13 (development)] suffixed to [O.1 (isolatum)]
 
 CLEARING RELATA (4)
 -------------------
@@ -107,9 +107,9 @@ CLEARING RELATA (4)
 
     * done: [D.21], [E.6], [H.14], [J.1]
     * [F.2 (clearing)] inserted within [D.21 (clearing)]
-    * [A.1 (isolated state) 1/1] inserted into [E.6 (clearing) 2@3/4]
-    * [G.5 (repetatum) 1/1] into [H.14 (clearing)]
-    * [C.7 (isolated state)] into [J.1 (clearing)]
+    * [A.1 (isolatum) 1/1] inserted into [E.6 (clearing) 2@3/4]
+    * [G.5 (iteratum) 1/1] into [H.14 (clearing)]
+    * [C.7 (isolatum)] into [J.1 (clearing)]
 
 PAUSE PROLONGATION (8)
 ----------------------
@@ -117,13 +117,13 @@ PAUSE PROLONGATION (8)
 * within breath ("breath prolongation")
 
     * done: [C.8], [H.2]
-    * [D.9 (isolated state) 1/4] prolongs [C.8] breath
+    * [D.9 (isolatum) 1/4] prolongs [C.8] breath
     * [I.1 (clearing) 2/2] prolongs [H.2] breath
 
 * within short pause ("short pause prolongation")
 
     * done: [H.10]
-    * [G.5 (repetatum)] into [H.10 short pause]
+    * [G.5 (iteratum)] into [H.10 short pause]
  
 * within pause ("pause prolongation")
 

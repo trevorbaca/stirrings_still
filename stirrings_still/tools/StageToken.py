@@ -20,10 +20,10 @@ class StageToken(abjad.AbjadObject):
         'current',
         'development',
         'inception',
-        'isolated state',
+        'isolatum',
+        'iteratum',
         'pause',
         'process',
-        'repetatum',
         'transformatum',
         )
 
