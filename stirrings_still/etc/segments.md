@@ -2049,6 +2049,7 @@ SEGMENTS
         four-note chord continues;
         mp completes;
     surprisingly short breath [v2 holds over breath];
+        largo;
         >>[I.1 (v1, va, synchronous golden gears) 2/2] prolong short breath<<:
             >>summon future time<<;
             stopped lh;
@@ -2068,7 +2069,7 @@ SEGMENTS
 
     [H.3] (7-8)
     (2 measures)
-    adagio continues;
+    adagio resumes after suffix;
     v1 urtext field / ellipses appear gradually:
         stopped lh continues;
         hair continues;
@@ -2132,9 +2133,9 @@ SEGMENTS
     [H.5] (11-12)
     (2 measures)
     adagio-to-allegro accelerando completes:
-        achieves adagio on downbeat of measure 1:2;
+        achieves allegro on downbeat of measure 1:2;
     allegro-to-adagio ritardando begins:
-        begins allegro on downbeat of measure 1:2;
+        begins ritardando on downbeat of measure 1:2;
     v1 urtext field / ellipses continue:
         stopped lh continues;
         hair continues;
@@ -2267,7 +2268,7 @@ SEGMENTS
             achieves ppp at start of next stage;
     short pause [vc continues through pause];
 
-    [H.10] (30-31 + short + 32 + short)
+    [H.10] (30-31 + short + 33 + short)
     (2 measures)
     allegro continues;
     v1, v2, va interlocking clouded pane whisk gears repeat and darken:
@@ -2291,8 +2292,9 @@ SEGMENTS
     <<short pause repeats to effect prolongation>>;
     <<vc continues through short pause>>;
 
-    <<[H.1 (inception)] 3-4/4] prefixed to [H.11]>>:
+    <<[H.1 (inception)] 3-4/4] prefixed to [H.11]>> (35-36):
         <<summons past time>>;
+        largo;
         tutti:
             stopped lh;
             hair;
@@ -2303,9 +2305,9 @@ SEGMENTS
             niente < mp:
                 measures 3-4/4 of crescendo;
     <<attacca [H.11] to effect prefix>>;
-    [H.11] (35-36 + 37-39 + short)
+    [H.11] (37-39 + short)
     (3 measures)
-    allegro continues;
+    allegro resumes after prefix;
     v1, v2, va interlocking clouded pane whisk gears repeat and darken:
         stopped lh continues;
         hair continues;
@@ -2375,6 +2377,7 @@ SEGMENTS
         tutti clouded pane / urtext declamation conflict:
             single declamation;
         <<attacca second half of [H.14]>>;
+        <<largo resumes>>;
     attacca;
 
 [I] time series A; rotation -28

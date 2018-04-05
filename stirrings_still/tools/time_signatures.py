@@ -3,15 +3,11 @@ import baca
 import stirrings_still
 
 
-def time_signatures(series, count, rotation, fermata_measures=None):
-    r'''Makes time sigantures.
+def time_signatures(segment):
+    r'''Makes `segment` time sigantures.
     '''
-    series = stirrings_still.time_signature_series[series]
-    maker = baca.TimeSignatureMaker(
-        series,
-        count=count,
-        fermata_measures=fermata_measures,
-        rotation=rotation,
-        )
-    time_signatures = maker.run()
+    time_signatures = []
+    dictionary = stirrings_still.second_order_stage_specifiers(segment)
+    for stage_number, stage_specifier in dictionary.items():
+        time_signatures.extend(stage_specifier.all_time_signatures())
     return time_signatures
