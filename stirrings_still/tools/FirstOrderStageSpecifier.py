@@ -9,8 +9,8 @@ class FirstOrderStageSpecifier(abjad.AbjadObject):
 
     __slots__ = (
         'after',
-        'measures',
-        'number',
+        'measure_numbers',
+        'stage_number',
         'time_signatures',
         )
 
@@ -18,12 +18,12 @@ class FirstOrderStageSpecifier(abjad.AbjadObject):
 
     def __init__(
         self,
-        number=None,
-        measures=None,
+        stage_number=None,
+        measure_numbers=None,
         time_signatures=None,
         after=None,
         ):
-        self.number = number
-        self.measures = measures
+        self.stage_number = stage_number
+        self.measure_numbers = measure_numbers
         self.time_signatures = time_signatures
         self.after = after
