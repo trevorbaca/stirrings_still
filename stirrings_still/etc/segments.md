@@ -221,7 +221,7 @@ SEGMENTS
             p continues;
         >>attacca suffix<<
         >>[G.1 (pane / urtext conflict) 1/1] suffixes [C.1]<<:
-        >>summons future time<<:
+            >>summons future time<<;
             largo più mosso;
             tutti clouded pane / urtext declamation conflict;
             single declamation:
@@ -295,7 +295,7 @@ SEGMENTS
     vc:
         tacet continues;
         >>[I.6 (vc cell) 2/2] bisects [A.12 (conclusion) 2@3/4]<<:
-        >>summons future time<<:
+            >>summons future time<<;
             larghissimo;
             vc 1/2 clt solo trajectory:
                 stopped lh;
@@ -315,7 +315,7 @@ SEGMENTS
         subito slower rate;
         subito p;
         >>[I.6 (vc cell) 2/2] bisects [A.13 (iteratum) 2@3/4]<<:
-        >>summons future time<<:
+            >>summons future time<<;
             larghissimo;
             vc 1/2 clt solo trajectory:
                 stopped lh;
@@ -345,7 +345,7 @@ SEGMENTS
         p repeats;
     >>attacca suffix<<;
     >>[H.1 (urtext rasp) 3-4/4] suffixes [A.15]<<:
-    >>summons future time<<:
+        >>summons future time<<;
         tutti:
             stopped lh;
             hair;
@@ -427,7 +427,7 @@ SEGMENTS
             hair governs stage;
             niente < p governs first quarter of stage;
     >>vc clouded pane appears<<:
-    >>summons future time<<:
+        >>summons future time<<;
         (obverse) harmonic appears:
         niente < f begins;
     attacca;
@@ -660,7 +660,7 @@ SEGMENTS
             arrives midmeasure downbeat;
 
     >>[A.18 (ellipses) 1/1] suffixes [B.16 (iteratum)]<<:
-    >>summons future time<<:
+        >>summons future time<<;
         largo governs stage;
         tutti ellipses:
             damped lh;
@@ -679,7 +679,7 @@ SEGMENTS
             arrives midmeasure downbeat;
 
         >>[D.9 (clouded pane) 1/4] in middle of [B.17]<<:
-        >>summons future time<<:
+            >>summons future time<<;
             largo;
             lontano;
             v1, v2, va:
@@ -693,7 +693,7 @@ SEGMENTS
     pause after [B.17];
 
     >>[D.17 (urtext / pane / flight composite) 2/2] prolongs [B.17] pause<<:
-    >>summons future time<<:
+        >>summons future time<<;
         allegro;
         composite urtext field / clouded pane / flight;
             v1, v2, va urtext field / flight:
@@ -808,7 +808,7 @@ SEGMENTS
     pause;
 
     >>[D.16 (urtext / pane / flight composite) 1/2] prefixes [B.24]<<:
-    >>summons future time<<:
+        >>summons future time<<;
         largo-to-allegro accelerando;
         composite urtext field / clouded pane / flight:
         v1, v2, va urtext field / flight:
@@ -848,7 +848,7 @@ SEGMENTS
         "ff" governs stage;
 
         >>[G.1 (pane / urtext conflict) 1/1] suffixes [C.1]<<:
-        >>summons future time<<:
+            >>summons future time<<;
             largo più mosso;
             tutti clouded pane / urtext declamation conflict;
             single declamation:
@@ -941,16 +941,16 @@ SEGMENTS
     (1 measure)
     allegro governs stage;
     comprising stage:
-        >>v1 shining beacon of clouded pane summons future time<<:
+        >>v1 shining beacon of clouded pane summons future time<<;
             harmonic lh governs stage;
             hair continues;
             pp governs stage;
-        <<[B.10 (v2 white clockticks) 1/1] summon past time>>:
+        <<[B.10 (v2 white clockticks) 1/1] summon past time>>;
             damped lh governs stage;
             1/2 clt governs stage;
             fast clockticks;
             mp governs stage;
-        >>va, vc shining beacon of clouded pane summons future time<<:
+        >>va, vc shining beacon of clouded pane summons future time<<;
             harmonic lh governs stage;
             hair continues;
             pp governs stage;
@@ -973,7 +973,7 @@ SEGMENTS
     surprisingly short breath;
 
     >>[D.9 (clouded pane) 1/4] prolongs [C.8] breath<<:
-    >>summons future time<<:
+        >>summons future time<<;
         largo;
         lontano;
         v1, v2, va:
@@ -1028,7 +1028,7 @@ SEGMENTS
         f continues until end of stage;
     surprisingly short breath;
     >>[J.1 (appena udibile clearing) 1-2/4] suffixes [C.14 (conclusion)]<<:
-    >>summons future time<<:
+        >>summons future time<<;
         larghissimo;
         v1, v2, va urtext field:
             stopped lh;
@@ -1177,7 +1177,7 @@ SEGMENTS
     pause;
 
     >>[I.6 (repetition cells) 2/2] prolong [D.6] pause<<:
-    >>summon future time<<:
+        >>summon future time<<;
         larghissimo;
         v1, v2, va:
             tacet;
@@ -1242,7 +1242,7 @@ SEGMENTS
     long pause;
 
     >>[S.2 (transformatum) 1/1] prefixes [D.11]<<:
-    >>summon future time<<:
+        >>summon future time<<;
         largo;
         v1, v2 ellipses:
             stopped lh;
@@ -1286,14 +1286,15 @@ SEGMENTS
             hair returns;
             niente < p governs first half of stage;
             >>[I.1 (gears)] bisect [D.12 1@2/2]<<:
-            >>summon future time<<:
+                >>summon future time<<;
                 measure 2/2;
                 stopped lh;
                 hair;
                 golden tone (senza scratch);
                 circles (SL = BW) locked in binary rate ratio 1:4;
                 mp;
-            >>[I.1 (vc 1/2 clt solo trajectory] summons future time<<:
+            >>[I.1 (vc 1/2 clt solo trajectory] bisects [D.12 1@2/2]<<:
+                >>summons future time<<;
                 stopped lh;
                 1/2 clt;
                 starts up on local accelerandi;
@@ -1458,7 +1459,7 @@ SEGMENTS
         vc:
             tacet subito;
         >>[F.2 (clearing) 1/2] bisects [D.21 (clearing) 1@2/2]<<:
-        >>summons future time<<:
+            >>summons future time<<;
             largo;
             va tailpiece:
                 absent lh;
@@ -1484,7 +1485,7 @@ SEGMENTS
             reenters up one step;
             niente < p governs stage;
         <<[C.2 (crunch circles + up-glissando) 3-4/4] suffix [D.22]>>:
-        <<summon past time>>:
+            <<summon past time>>;
             adagio;
             tutti maximally tight talon-crunch circles repeat:
                 damped lh;
@@ -1513,7 +1514,7 @@ SEGMENTS
     short pause [vc continues through pause];
 
     >>[H.9 (clearing) 1-2/6] prefixes [E.1]<<:
-    >>summons future time<<:
+        >>summons future time<<;
         allegro;
         interlocking clouded pane whisk gears appear gradually:
             stopped lh;
@@ -1642,7 +1643,7 @@ SEGMENTS
     vc:
         tacet continues;
         <<[A.1 (isolatum) 1/1] bisects [E.6 2@3/4]>>
-        <<summons past time>>:
+            <<summons past time>>;
             andante;
             v1, v2, va urtext declamation (two chords):
                 stopped lh;
@@ -1682,7 +1683,7 @@ SEGMENTS
 
     >>[Q.1 (inception) 1-8/8] bisects [E.7 2@3/4] pause<<:
     >>[Q.2 (transformatum) 1-12/12] bisects [E.7 2@3/4] pause<<:
-    >>summon future time<<:
+        >>summon future time<<;
         (8 measures)
         presto;
         tutti ellipses (desynchronized spinning white noise):
@@ -1782,7 +1783,7 @@ SEGMENTS
 
     >>[Q.1 (inception) 1-8/8] bisects [E.12 2@3/4]<<:
     >>[Q.2 (transformatum) 1-12/12] bisects [E.12 2@3/4]<<:
-    >>recapitulate summons of future time<<:
+        >>recapitulate summons of future time<<;
         (8 measures)
         presto;
         tutti ellipses (desynchronized spinning white noise):
@@ -1897,7 +1898,7 @@ SEGMENTS
     long pause;
 
     <<[C.2 (crunch circles + up-glissando) 3-4/4] prolong [F.2] long pause>>:
-    <<summon past time>>:
+        <<summon past time>>;
         adagio;
         tutti maximally tight talon-crunch circles repeat:
             damped lh;
@@ -1944,7 +1945,7 @@ SEGMENTS
     pause;
 
     >>[J.1 (clearing) 1-2/4] prefixes [G.3 (iteratum)]<<:
-    >>summons future time<<:
+        >>summons future time<<;
         larghissimo;
         v1, v2, va urtext field:
             stopped lh;
@@ -1977,7 +1978,7 @@ SEGMENTS
     attacca suffix;
 
     <<[C.7 (clocktick composite) 1/1] suffixes [G.5]>>:
-    <<summons past time>>:
+        <<summons past time>>;
         v1 shining beacon of clouded pane:
             harmonic lh;
             hair;
@@ -2019,7 +2020,7 @@ SEGMENTS
     long pause;
 
     <<[D.11 (process) 1-6/6] suffixes [G.6] long pause>>:
-    <<summons past time>>:
+        <<summons past time>>;
 
 [H] time series B; 45 (- 4 fermata) measures; rotation -16
 
@@ -2038,8 +2039,8 @@ SEGMENTS
             achieves mp at start of last measure;
     attacca;
 
-    [H.2] (5)
-    (1 measure)
+    [H.2] (5 + suffix)
+    (1 measures)
     adagio continues;
     tutti urtext field continues:
         stopped lh continues;
@@ -2048,14 +2049,15 @@ SEGMENTS
         four-note chord continues;
         mp completes;
     surprisingly short breath [v2 holds over breath];
-    >>suffixed to breath<<:
-        >>[I.1 (v1, va, synchronous golden gears) 2/2] summon future time<<:
+        >>[I.1 (v1, va, synchronous golden gears) 2/2] prolong short breath<<:
+            >>summon future time<<;
             stopped lh;
             hair;
             golden tone (senza scratch);
             circles (SL = BW) locked in binary rate ratio 1:4;
             mp;
-        >>[I.1 (vc 1/2 clt solo trajectory) 2/2] summons future time<<:
+        >>[I.1 (vc 1/2 clt solo trajectory) 2/2] prolong short breath<<:
+            >>summons future time<<;
             stopped lh;
             1/2 clt;
             starts up on local accelerandi;
@@ -2064,7 +2066,7 @@ SEGMENTS
     >>v1, va, vc recapitulate surprisingly short breath<<;
     >>v2 holds over surprisingly short breath<<;
 
-    [H.3] (6-7)
+    [H.3] (7-8)
     (2 measures)
     adagio continues;
     v1 urtext field / ellipses appear gradually:
@@ -2096,7 +2098,7 @@ SEGMENTS
         mp continues;
     attacca;
 
-    [H.4] (8-9)
+    [H.4] (9-10)
     (2 measures)
     adagio-to-allegro accelerando begins:
         begins adagio at start of stage;
@@ -2127,7 +2129,7 @@ SEGMENTS
         (mp) < f poco overpressure begins;
     attacca;
 
-    [H.5] (10-11)
+    [H.5] (11-12)
     (2 measures)
     adagio-to-allegro accelerando completes:
         achieves adagio on downbeat of measure 1:2;
@@ -2162,7 +2164,7 @@ SEGMENTS
             achieves f + poco overpressure at start of next stage;
     attacca;
 
-    [H.6] (12-13)
+    [H.6] (13-14)
     (2 measures)
     allegro-to-adagio ritardando completes:
         achieves adagio at start of last measure;
@@ -2194,7 +2196,7 @@ SEGMENTS
         f + poco overpressure governs stage;
     attacca;
 
-    [H.7] (14-15)
+    [H.7] (15-16)
     (2 measures)
     adagio continues;
     v1 urtext field / ellipses complete:
@@ -2231,7 +2233,7 @@ SEGMENTS
             achieves ff scratch at start of next stage;
     attacca;
     
-    [H.8] (16-21)
+    [H.8] (17-22)
     (6 measures)
     adagio-to-allegro accelerando governs stage:
         achieves allegro at start of next stage;
@@ -2244,7 +2246,7 @@ SEGMENTS
         (ff scratch) > ppp begins at start of second half of stage;
     attacca;
 
-    [H.9] (22-27 + short)
+    [H.9] (23-28 + short)
     (6 measures)
     adagio-to-allegro acclerando completes:
         achieves allegro at start of stage;
@@ -2265,7 +2267,7 @@ SEGMENTS
             achieves ppp at start of next stage;
     short pause [vc continues through pause];
 
-    [H.10] (29-30 + short)
+    [H.10] (30-31 + short + 32 + short)
     (2 measures)
     allegro continues;
     v1, v2, va interlocking clouded pane whisk gears repeat and darken:
@@ -2281,16 +2283,16 @@ SEGMENTS
         harmonic lh continues;
         ppp continues;
     short pause [vc continues through pause];
-
     <<[G.5 -> C.7 (pane / urtext conflict)] prolongs [H.10] short pause>>:
-    <<summons past time>>:
+        <<summons past time>>;
         tasto stopped lh;
         1/2 clt;
         mf;
-        [short pause reproduced after insert to effect within-insertion];
-        [vc continues through pause];
+    <<short pause repeats to effect prolongation>>;
+    <<vc continues through short pause>>;
 
-    <<[H.1 (urtext rasp)] 3-4/4] prefixed to [H.11]>>:
+    <<[H.1 (inception)] 3-4/4] prefixed to [H.11]>>:
+        <<summons past time>>;
         tutti:
             stopped lh;
             hair;
@@ -2300,9 +2302,8 @@ SEGMENTS
                 measures 3-4/4 of transition;
             niente < mp:
                 measures 3-4/4 of crescendo;
-    attacca after insert to effect prefix;
-
-    [H.11] (32-34 + short)
+    <<attacca [H.11] to effect prefix>>;
+    [H.11] (35-36 + 37-39 + short)
     (3 measures)
     allegro continues;
     v1, v2, va interlocking clouded pane whisk gears repeat and darken:
@@ -2318,7 +2319,7 @@ SEGMENTS
         ppp continues;
     short pause [vc continues through pause];
 
-    [H.12] (36-39 + short)
+    [H.12] (41-44 + short)
     (4 measures)
     allegro continues;
     v1, v2, va interlocking clouded pane whisk gears repeat and darken:
@@ -2335,7 +2336,7 @@ SEGMENTS
         ppp continues;
     short pause [vc continues through pause];
 
-    [H.13] (41-44)
+    [H.13] (46-49)
     (4 measures)
     (allegro)-to-largo ritardando governs stage:
         achieves largo at start of last measure;
@@ -2353,7 +2354,7 @@ SEGMENTS
         (ppp) < p begins;
     attacca;
 
-    [H.14] (45-46)
+    [H.14] (50 + 51 + 52)
     (2 measures)
     largo continues;
     v1, v2, va interlocking gears transition from scratch to golden tone:
@@ -2368,6 +2369,12 @@ SEGMENTS
         1/2 clt continues (not yet audible);
         (ppp < p) completes:
             achieves p at start of next stage;
+    <<[G.5 (iteratum) 1/1] bisects [H.14 (clearing)]>>:
+        <<summons past time>>;
+        largo più mosso;
+        tutti clouded pane / urtext declamation conflict:
+            single declamation;
+        <<attacca second half of [H.14]>>;
     attacca;
 
 [I] time series A; rotation -28
@@ -2504,7 +2511,7 @@ SEGMENTS
         tacet continues;
 
         <<[C.7 (clocktime composite)] bisects [J.1 2@3/4]>>:
-        <<summons past time>>:
+            <<summons past time>>;
             allegro;
             v1 shining beacon of clouded pane:
                 harmonic lh;
@@ -2603,7 +2610,7 @@ SEGMENTS
         pp continues;
 
         <<[C.14 (conclusion) 3-4/4] bisects [K.1 (inception) 2@3/4]>>:
-        <<summons past time>>:
+            <<summons past time>>;
             adagio;
             tutti maximally wide circles:
                 hair;
@@ -2641,11 +2648,11 @@ SEGMENTS
         global (pp < mp) continues;
 
         <<[I.6 -> F.2 (clearing)] revealed within [K.3 (development)]>>:
-        <<summons past time>>:
-        does not alter time signature structure:
-            va tailpiece:
-                absent lh;
-                pochiss. flicker;
+            <<summons past time>>;
+            does not alter time signature structure:
+                va tailpiece:
+                    absent lh;
+                    pochiss. flicker;
 
     attacca;
 
@@ -2676,13 +2683,14 @@ SEGMENTS
         hair continues;
         tremolo continues;
         mp governs stage;
-
-    suffixed to breath:
-        <<scratch gears [H.13] summon past time>>;
-        <<vc f 1/2 clt maximal cell [I.6] summons past time within past time>>;
-        <<scratch gears [H.13] continue and close off past time>>;
-
-    surprisingly short breath after three suffixes;
+    surprisingly short breath;
+        <<[H.13 (scratch gears) prolong surprisingly short breath>>;
+            <<summons past time>>;
+        <<[I.6 (current)] prolongs surprisingly short breath>>;
+            <<summons past time within past time>>;
+        <<[[H.13 (scratch gears)] prolong surprisingly short breath>>;
+            <<closes off past time>>;
+    <<surprisingly short breath repeats to effect prolongation>>;
 
     [K.7] (19-26)
     (8 measures)
@@ -2722,7 +2730,7 @@ SEGMENTS
         (p > niente) continues;
 
         <<[K.5  1-3/3] replaces [K.9 6-8/8]>>:
-        <<summons past time>>:
+            <<summons past time>>;
             va:
                 1/2 clt trajectory;
                 mp;
@@ -2900,7 +2908,7 @@ SEGMENTS
     attacca;
 
     <<[I.6 (current) 2/2] prefixes [N.4]>>:
-    <<summons past time>>:
+        <<summons past time>>;
         larghissimo continues;
         v1, v2, va:
             tacet continues;
@@ -2953,7 +2961,7 @@ SEGMENTS
             terminates ff ponticello with lv-release;
     
         <<colored flight [K.6] bisects [N.6 6@7/12]>>;
-        <<summons past time>>;
+            <<summons past time>>;
 
     very long pause;
 
@@ -2985,7 +2993,7 @@ SEGMENTS
         mf governs stage;
 
     <<[H.13 (development) 4/4] suffixes [O.1]>>:
-    <<summons past time>>:
+        <<summons past time>>;
         largo;
         v1, v2, va interlocking gears repeat as scratch:
             stopped lh;
