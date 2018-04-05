@@ -13,7 +13,7 @@ def second_order_stage_specifiers(segment):
 
     '''
     target_specifiers = stirrings_still.first_order_stage_specifiers(segment)
-    operations = stirrings_still.relata()
+    operations = stirrings_still.operations()
     for operation in operations:
         if operation.target_stage.letter != segment:
             continue
