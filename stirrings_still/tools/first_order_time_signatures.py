@@ -168,8 +168,10 @@ def first_order_time_signatures(segment):
 
     ..  container:: example
 
-        >>> triple = stirrings_still.first_order_time_signatures('B')
-        >>> specifiers = triple[0]
+        >>> specifiers = stirrings_still.first_order_time_signatures('B')
+        >>> len(specifiers)
+        24
+
         >>> abjad.f(specifiers)
         abjad.OrderedDict(
             [
@@ -452,8 +454,10 @@ def first_order_time_signatures(segment):
 
     ..  container:: example
 
-        >>> triple = stirrings_still.first_order_time_signatures('H')
-        >>> specifiers = triple[0]
+        >>> specifiers = stirrings_still.first_order_time_signatures('H')
+        >>> len(specifiers)
+        14
+
         >>> abjad.f(specifiers)
         abjad.OrderedDict(
             [
@@ -634,8 +638,10 @@ def first_order_time_signatures(segment):
 
     ..  container:: example
 
-        >>> triple = stirrings_still.first_order_time_signatures('E')
-        >>> specifiers = triple[0]
+        >>> specifiers = stirrings_still.first_order_time_signatures('E')
+        >>> len(specifiers)
+        17
+
         >>> abjad.f(specifiers)
         abjad.OrderedDict(
             [
@@ -934,4 +940,4 @@ def first_order_time_signatures(segment):
                 specifiers[stage_number].time_signatures = time_signatures_
                 time_signatures.extend(time_signatures_)
                 stage_number += 1
-    return specifiers, time_signatures, fermata_measures
+    return specifiers
