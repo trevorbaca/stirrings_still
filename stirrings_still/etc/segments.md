@@ -219,7 +219,7 @@ SEGMENTS
             stopped lh continues;
             tasto continues;
             p continues;
-        >>atacca suffix<<
+        >>attacca suffix<<
         >>[G.1 (pane / urtext conflict) 1/1] suffixes [C.1]<<:
         >>summons future time<<:
             largo più mosso;
@@ -270,7 +270,7 @@ SEGMENTS
             stopped lh continues;
             tasto continues;
             p continues;
-    no pause;
+    attacca;
 
     [A.11] (34-39)
     (6 measures)
@@ -283,7 +283,7 @@ SEGMENTS
             down-glissando governs stage;
         tasto fades out;
         p > niente governs stage;
-    no pause;
+    attacca;
 
     [A.12] (40-43)
     (4 measures)
@@ -304,7 +304,7 @@ SEGMENTS
                     pitch is not upper register;
                 quasivortex now trapped repetition cell;
                 f;
-        >>atacca second half of [A.12]<<;
+        >>attacca second half of [A.12]<<;
     surprisingly short breath after [A.12];
 
     [A.13] (44-47 + fermata)
@@ -324,7 +324,7 @@ SEGMENTS
                     pitch is not upper register;
                 quasivortex now trapped repetition cell;
                 f;
-        >>atacca second half of [A.13]<<;
+        >>attacca second half of [A.13]<<;
     pause after [A.13];
 
     [A.14] (49 + fermata)
@@ -343,7 +343,7 @@ SEGMENTS
         damped lh repeats;
         slow rate repeats;
         p repeats;
-    >>atacca suffix<<;
+    >>attacca suffix<<;
     >>[H.1 (urtext rasp) 3-4/4] suffixes [A.15]<<:
     >>summons future time<<:
         tutti:
@@ -403,7 +403,7 @@ SEGMENTS
             intermittently conflicting rhythm governs stage;
         v2, va, vc:
             regular homorhythm: 1 (1r) (1r) 1 (1r) (1r) ... begins;
-    no pause;
+    attacca;
 
     [B.2] (5)
     (1 measure)
@@ -413,7 +413,7 @@ SEGMENTS
         1/2 clt continues;
         regular homorhythm continues;
         subito mf;
-    no pause;
+    attacca;
 
     [B.3] (6-7)
     (2 measures)
@@ -430,7 +430,7 @@ SEGMENTS
     >>summons future time<<:
         (obverse) harmonic appears:
         niente < f begins;
-    no pause;
+    attacca;
     
     [B.4] (8-11)
     (4 measures)
@@ -516,7 +516,7 @@ SEGMENTS
         1/2 clt continues;
         clocktick durations encroach rests;
         p continues;
-    no pause;
+    attacca;
 
     [B.9] (20-21)
     (2 measures)
@@ -538,7 +538,7 @@ SEGMENTS
         1/2 clt continues;
         cotinuous sound continues;
         p < mf begins;
-    no pause;
+    attacca;
 
     [B.10] (22)
     (1 measure)
@@ -557,7 +557,7 @@ SEGMENTS
         tasto stopped lh continues;
         1/2 clt continues;
         crescendo achieves mf on midmeasure downbeat
-    no pause;
+    attacca;
 
     [B.11] (23-24)
     (2 measures)
@@ -578,7 +578,7 @@ SEGMENTS
         tasto stopped lh continues;
         1/2 clt continues;
         mf continues;
-    no pause;
+    attacca;
 
     [B.12] (25-26 + fermata)
     (2 measures)
@@ -625,7 +625,7 @@ SEGMENTS
                 measures 3-4 (of 4) of transition;
             niente < mp:
                 measures 3-4 (of 4) of crescendo;
-    no pause after insert to effect prefix;
+    attacca after insert to effect prefix;
 
     [B.14] (31-32 + fermata)
     (2 measures)
@@ -688,7 +688,7 @@ SEGMENTS
                 stopped lh;
                 hair;
                 p;
-        >>atacca to second half of [B.17]<<
+        >>attacca to second half of [B.17]<<
 
     pause after [B.17];
 
@@ -719,7 +719,7 @@ SEGMENTS
             arrives midmeasure downbeat;
         f < fff+:
             arrives midmeasure downbeat;
-    no pause;
+    attacca;
 
     [B.19] (45-50)
     (6 measures)
@@ -730,7 +730,7 @@ SEGMENTS
             arrives 2/3 measure downbeat;
         sub. ff > ppp:
             arrives 2/3 measure downbeat;
-    no pause;
+    attacca;
 
     [B.20] (51-52)
     (2 measures)
@@ -750,7 +750,7 @@ SEGMENTS
         hair continues;
         tasto continues;
         ppp continues;
-    no pause;
+    attacca;
 
     [B.21] (53)
     (1 measure)
@@ -775,7 +775,7 @@ SEGMENTS
         hair continues;
         tsto continues;
         ppp continues;
-    no pause;
+    attacca;
 
     [B.22] (54)
     (1 measure)
@@ -795,7 +795,7 @@ SEGMENTS
         hair continues;
         tasto continues;
         ppp continues;
-    no pause;
+    attacca;
 
     [B.23] (55 + fermata)
     (1 measure)
@@ -895,7 +895,7 @@ SEGMENTS
             each orbital attempt initially followed by rest;
             desynchronization continues;
         p continues;
-    no pause;
+    attacca;
 
     [C.4] (15-18)
     (4 measures)
@@ -908,7 +908,7 @@ SEGMENTS
             each orbital attempt initially followed by rest;
             desynchronization continues;
         p continues;
-    no pause;
+    attacca;
 
     [C.5] (19-22)
     (4 measures)
@@ -921,7 +921,7 @@ SEGMENTS
             post-attempt rests begin to disappear;
             desynchronization continues;
         p continues;
-    no pause;
+    attacca;
 
     [C.6] (23-26)
     (4 measures)
@@ -1001,7 +1001,7 @@ SEGMENTS
             each player starting at different point in rhythm;
         pp < mf governs stage:
             achieves mf at start of next stage;
-    no pause;
+    attacca;
 
     [C.10-13] = 2 x [C.8-9] (29-36)
         tutti circles continue:
@@ -1016,7 +1016,7 @@ SEGMENTS
             lh 2-finger harmonic become lh 1-finger harmonic;
             everyone arrives at lh 1-finger harmonic;
         mf > pp < f > pp < f governs the four stages;
-    no pause;
+    attacca;
 
     [C.14] (37-40)
     (4 measures)
@@ -1050,7 +1050,7 @@ SEGMENTS
             rhythmicized again with rest after every circle;
         jeux des terminaisons begins;
         p begins;
-    no pause;
+    attacca;
 
     [C.16] (43-44)
     (2 measures)
@@ -1062,7 +1062,7 @@ SEGMENTS
             rhythmicized with rest after every circle;
         jeux des terminaisons continues;
         p continues;
-    no pause;
+    attacca;
 
     [C.17] (45-46)
     (2 measures)
@@ -1074,7 +1074,7 @@ SEGMENTS
             rhythmicized with rest after every circle;
         jeux des terminaisons continues;
         p continues;
-    no pause;
+    attacca;
     
     [C.18] (47-48 + fermata)
     (2 measures)
@@ -1115,7 +1115,7 @@ SEGMENTS
         sparse desynchronized rhythm appears gradually;
         extensive damped jeux des terminaisons begins;
         independent p < mp ... mp > p begin;
-    no pause;
+    attacca;
 
     [D.2] (7-12)
     (6 measures)
@@ -1127,7 +1127,7 @@ SEGMENTS
         desynchronized rhythm becomes somewhat denser;
         jeux des terminaisons continues;
         independent p < mp ... mp > p continue;
-    no pause;
+    attacca;
 
     [D.3] (13-18)
     (6 measures)
@@ -1139,7 +1139,7 @@ SEGMENTS
         denser rhythm begins synchronization;
         jeux des terminaisons continues;
         independent p < mp ... mp > p continue;
-    no pause;
+    attacca;
 
     [D.4] (19-24)
     (6 measures)
@@ -1151,7 +1151,7 @@ SEGMENTS
         denser rhythm deepens synchronization;
         jeux des terminaisons continues;
         independent p < mp ... mp > p continue;
-    no pause;
+    attacca;
 
     [D.5] (25-30)
     (6 measures)
@@ -1163,7 +1163,7 @@ SEGMENTS
         denser rhythm almost completely synchronized;
         jeux des terminaisons continues;
         synchronized p < mf governs stage;
-    no pause;
+    attacca;
 
     [D.6] (31-36 + fermata)
     (6 measures)
@@ -1257,7 +1257,7 @@ SEGMENTS
             stopped lh;
             hair;
             B1 slack-string up-bow rh-terminated exponential crescendo to mf;
-        <<atacca [D.11] to effect prefix>>
+        <<attacca [D.11] to effect prefix>>
 
     [D.11] (54-59 + long)
     (6 measures)
@@ -1300,8 +1300,8 @@ SEGMENTS
                 starts up on local accelerandi;
                 repetition quasivortex begins;
                 p;
-            >>atacca second half of [D.12]<<
-    no pause;
+            >>attacca second half of [D.12]<<
+    attacca;
 
     [D.13] (63-64)
     (2 measures)
@@ -1322,7 +1322,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             p continues;
-    no pause;
+    attacca;
 
     [D.14] (65-66)
     (2 measures)
@@ -1340,7 +1340,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             p continues;
-    no pause;
+    attacca;
 
     [D.15] (67-68)
     (2 measures)
@@ -1358,7 +1358,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         p continues;
-    no pause;
+    attacca;
 
     [D.16] (69-70)
     (2 measures)
@@ -1377,7 +1377,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             p continues;
-    no pause;
+    attacca;
 
     [D.17] (71-72)
     (2 measures)
@@ -1395,7 +1395,7 @@ SEGMENTS
             stoped lh continues;
             hair continues;
             p continues;
-    no pause;
+    attacca;
 
     [D.18] (73-74)
     (2 measures)
@@ -1411,7 +1411,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             p < fff scratch begins;
-    no pause;
+    attacca;
 
     [D.19] (75-76)
     (2 measures)
@@ -1427,7 +1427,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             p < fff scratch achieves fff scratch on downbeat of measure 1:2;
-    no pause;
+    attacca;
 
     [D.20] (77-78)
     (2 measures)
@@ -1443,7 +1443,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             fff scratch continues until end of stage;
-    no pause;
+    attacca;
 
     [D.21] (79-80)
     (2 measures)
@@ -1465,8 +1465,8 @@ SEGMENTS
                 absent lh;
                 pochiss. flicker;
                 mp;
-        >>atacca second half of [D.21]<<
-    no pause;
+        >>attacca second half of [D.21]<<
+    attacca;
 
     [D.22] (81-82 + short)
     (2 measures)
@@ -1529,7 +1529,7 @@ SEGMENTS
             harmonic lh;
             hair;
             ff scratch > p;
-        <<atacca [E.1] to effect prefix>>
+        <<attacca [E.1] to effect prefix>>
 
     [E.1] (4-9)
     (6 measures)
@@ -1547,7 +1547,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         p continues;
-    no pause;
+    attacca;
 
     [E.2] (10-17)
     (8 measures)
@@ -1589,7 +1589,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         p < fff poco scratch begins;
-    no pause;
+    attacca;
 
     [E.4] (22-25)
     (4 measures)
@@ -1608,7 +1608,7 @@ SEGMENTS
         hair continues;
         p < fff poco scratch completes:
             achieves fff poco scratch at start of stage;
-    no pause;
+    attacca;
 
     [E.5] (26-29)
     (4 measures)
@@ -1625,7 +1625,7 @@ SEGMENTS
         p continues;
     vc:
         tacet subito;
-    no pause;
+    attacca;
 
     [E.6] (30-33)
     (4 measures)
@@ -1659,8 +1659,8 @@ SEGMENTS
                         p < mp stop-on-string;
             vc:
                 tacet;
-        <<atacca return to second half of [E.6]>>
-    no pause;
+        <<attacca return to second half of [E.6]>>
+    attacca;
 
     [E.7] (34-37 + fermata)
     (4 measures)
@@ -1719,7 +1719,7 @@ SEGMENTS
         hair begins again;
         new pitch begins stepwise below;
         niente < p governs first quarter of stage;
-    no pause;
+    attacca;
 
     [E.9] (47-54)
     (8 measures)
@@ -1734,7 +1734,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         p continues;
-    no pause;
+    attacca;
 
     [E.10] (55-56 + short)
     (2 measures)
@@ -1818,7 +1818,7 @@ SEGMENTS
         hair continues;
         p > niente governs second half of stage:
             achieves niente at start of next stage;
-    no pause;
+    attacca;
 
     [E.14] (72-73)
     (2 measures)
@@ -1832,7 +1832,7 @@ SEGMENTS
         p continues;
     vc:
         tacet continues;
-    no pause;
+    attacca;
 
     [E.15] (74-75)
     (2 measures)
@@ -1850,7 +1850,7 @@ SEGMENTS
         niente < p:
             begins first measure downbeat;
             p stable by midmeasure downbeat;
-    no pause;
+    attacca;
 
     [E.16] (76-83)
     (8 measures)
@@ -1861,7 +1861,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         p continues;
-    no pause;
+    attacca;
 
 [F] time series A; rotation -14
 
@@ -1882,7 +1882,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         (p) < ff ... ff > niente governs stage;
-    no pause;
+    attacca;
 
     [F.2] (9-10 + long)
     (2 measures)
@@ -1954,7 +1954,7 @@ SEGMENTS
             appena udibile;
         vc:
             tacet;
-    >>atacca [G.3] to effect prefix<<
+    >>attacca [G.3] to effect prefix<<
 
     [G.3] (5 + fermata)
     (1 measure)
@@ -1975,7 +1975,7 @@ SEGMENTS
     largo più mosso continues;
     tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
-    no pause before suffix;
+    attacca suffix;
 
     <<[C.7 (clocktick composite) 1/1] suffixes [G.5]>>:
     <<summons past time>>:
@@ -1993,7 +1993,7 @@ SEGMENTS
             hair;
             pp;
         cut-off;
-        no pause before iteratum;
+        attacca iteratum;
 
     <<[G.5] repeats to effect within-insertion of [C.7]>>
     long pause;
@@ -2040,7 +2040,7 @@ SEGMENTS
             achieves flautando at start of last measure;
         niente < mp governs stage:
             achieves mp at start of last measure;
-    no pause;
+    attacca;
 
     [H.2] (5)
     (1 measure)
@@ -2100,7 +2100,7 @@ SEGMENTS
         flautando-to-ordinario transition governs first half of stage;
         urtext-field-to-clouded-pane glissando governs first half of stage;
         mp continues;
-    no pause;
+    attacca;
 
     [H.4] (8-9)
     (2 measures)
@@ -2131,7 +2131,7 @@ SEGMENTS
         harmonic lh continues;
         hair continues;
         (mp) < f poco overpressure begins;
-    no pause;
+    attacca;
 
     [H.5] (10-11)
     (2 measures)
@@ -2166,7 +2166,7 @@ SEGMENTS
         hair continues;
         (mp < f poco overpressure) completes:
             achieves f + poco overpressure at start of next stage;
-    no pause;
+    attacca;
 
     [H.6] (12-13)
     (2 measures)
@@ -2198,7 +2198,7 @@ SEGMENTS
         harmonic lh continues;
         hair continues;
         f + poco overpressure governs stage;
-    no pause;
+    attacca;
 
     [H.7] (14-15)
     (2 measures)
@@ -2235,7 +2235,7 @@ SEGMENTS
         hair continues;
         f poco scratch < ff scratch governs stage:
             achieves ff scratch at start of next stage;
-    no pause;
+    attacca;
     
     [H.8] (16-21)
     (6 measures)
@@ -2248,7 +2248,7 @@ SEGMENTS
         hair continues;
         ff scratch governs first half of stage;
         (ff scratch) > ppp begins at start of second half of stage;
-    no pause;
+    attacca;
 
     [H.9] (22-27 + short)
     (6 measures)
@@ -2306,7 +2306,7 @@ SEGMENTS
                 measures 3-4 (of 4) of transition;
             niente < mp:
                 measures 3-4 (of 4) of crescendo;
-    no pause after insert to effect prefix;
+    attacca after insert to effect prefix;
 
     [H.11] (32-34 + short)
     (3 measures)
@@ -2357,7 +2357,7 @@ SEGMENTS
             begins at start of stage;
             not yet audible;
         (ppp) < p begins;
-    no pause;
+    attacca;
 
     [H.14] (45-46)
     (2 measures)
@@ -2374,7 +2374,7 @@ SEGMENTS
         1/2 clt continues (not yet audible);
         (ppp < p) completes:
             achieves p at start of next stage;
-    no pause;
+    attacca;
 
 [I] time series A; rotation -28
 
@@ -2393,7 +2393,7 @@ SEGMENTS
         starts up on local accelerandi;
         repetition quasivortex begins;
         p continues;
-    no pause;
+    attacca;
 
     [I.2] (3)
     (1 measure)
@@ -2411,7 +2411,7 @@ SEGMENTS
         local accelerandi achieve stable rhythm at stage midpoint;
         repetition quasivortex continues;
         (p) < f begins;
-    no pause;
+    attacca;
 
     [I.3] (4)
     (1 measure)
@@ -2429,7 +2429,7 @@ SEGMENTS
         repetition quasivortex continues;
         vortex now inflected by ritardando;
         (p < f) continues;
-    no pause;
+    attacca;
 
     [I.4] (5)
     (1 measure)
@@ -2447,7 +2447,7 @@ SEGMENTS
         1/2 clt continues;
         repetition quasivortex continues;
         (p < f) achieves f on last event;
-    no pause;
+    attacca;
 
     [I.5] (6-7)
     (2 measures)
@@ -2464,7 +2464,7 @@ SEGMENTS
         1/2 clt continues;
         repetition quasivortex continues;
         f continues;
-    no pause;
+    attacca;
 
     [I.6] (8-9)
     (2 measures)
@@ -2478,7 +2478,7 @@ SEGMENTS
             pitch is not upper register;
         quasivortex now trapped repetition cell;
         f continues;
-    no pause;
+    attacca;
 
     [I.7] (10-11)
     (2 measures)
@@ -2494,7 +2494,7 @@ SEGMENTS
         single pitch continues until end;
         single trapped cell continues until end;
         f > niente governs stage;
-    no pause;
+    attacca;
 
 [J] time series C; rotation -54
 
@@ -2527,7 +2527,7 @@ SEGMENTS
                 pp;
             cut-off;
 
-    no pause after [J.1];
+    attacca after [J.1];
 
     [J.2] (5-6)
     (2 measures)
@@ -2537,7 +2537,7 @@ SEGMENTS
         hair continues;
         double-stop field continues;
         appena udibile < fff poco scratch begins;
-    no pause;
+    attacca;
     
     [J.3] (7-8)
     (2 measures)
@@ -2549,7 +2549,7 @@ SEGMENTS
         double-stop field continues;
         (appena udibile < fff poco scratch) completes:
             achieves fff poco scratch at start of next stage;
-    no pause;
+    attacca;
 
     ||: J.4-5 :|| x 3
 
@@ -2561,7 +2561,7 @@ SEGMENTS
             hair continues;
             double-stop field continues;
             fff poco scratch continues and governs stage;
-        no pause;
+        attacca;
 
         [J.5] (10-11)
         (2 measures)
@@ -2595,7 +2595,7 @@ SEGMENTS
         hair continues;
         pronounced local accelerando continues;
         pp > niente governs stage;
-    no pause;
+    attacca;
 
 [K] time series B; rotation -24
 
@@ -2618,7 +2618,7 @@ SEGMENTS
                 desynchronization;
                 f;
 
-    no pause;
+    attacca;
 
     [K.2] (4-6)
     (3 measures)
@@ -2636,7 +2636,7 @@ SEGMENTS
                 tremolo expires with termination type taken from inventory;
             repeat;
         global (pp) < mp begins;
-    no pause;
+    attacca;
 
     [K.3] (7-9)
     (3 measures)
@@ -2653,7 +2653,7 @@ SEGMENTS
                 absent lh;
                 pochiss. flicker;
 
-    no pause;
+    attacca;
 
     [K.4] (10-12)
     (3 measures)
@@ -2662,7 +2662,7 @@ SEGMENTS
         ibid;
         tremolo durations increase;
         global (pp < mp) continues;
-    no pause;
+    attacca;
 
     [K.5] (13-15)
     (3 measures)
@@ -2672,7 +2672,7 @@ SEGMENTS
         tremolo durations increase;
         global (pp < mp) completes:
             achieves mp at start of next stage;
-    no pause;
+    attacca;
 
     [K.6] (16-18)
     (3 measures)
@@ -2712,7 +2712,7 @@ SEGMENTS
             achieve senza tremolo last measure first downbeat;
             tension between global accelerando and local tremoli largandi;
         (p) > niente begins;
-    no pause;
+    attacca;
 
     [K.9] (33-40)
     (8 measures)
@@ -2733,7 +2733,7 @@ SEGMENTS
                 1/2 clt trajectory;
                 mp;
 
-    no pause;
+    attacca;
 
     [K.10] (41-48)
     (8 measures)
@@ -2749,7 +2749,7 @@ SEGMENTS
         hair continues;
         senza tremolo continues;
         p continues;
-    no pause;
+    attacca;
 
 [L] time series A; rotation -42
 
@@ -2767,7 +2767,7 @@ SEGMENTS
             oscillates blossom of full multiphonic at extremely slow rate;
             IV/Db2;
             alternating p < ff ... ff > p;
-    no pause;
+    attacca;
 
 [M] time series C; rotation -72
 
@@ -2780,7 +2780,7 @@ SEGMENTS
         field down one semitone to IV/C2;
         full expression of clouded pane;
         ff continues;
-    no pause;
+    attacca;
 
     [M.2] (9-12)
     (4 measures)
@@ -2796,7 +2796,7 @@ SEGMENTS
         hair continues;
         full expression on IV/C2 continues;
         ff continues;
-    no pause;
+    attacca;
 
     [M.3] (13-16)
     (4 measures)
@@ -2807,7 +2807,7 @@ SEGMENTS
         fundamental IV/C2 continues;
         full expression continues;
         ff continues;
-    no pause;
+    attacca;
 
     [M.4] (17-20)
     (4 measures)
@@ -2824,7 +2824,7 @@ SEGMENTS
         fundamental on IV/C2 continues;
         full expression continues;
         ff continues;
-    no pause;
+    attacca;
 
     [M.5] (21-24)
     (4 measures)
@@ -2835,7 +2835,7 @@ SEGMENTS
         fundamental IV/C2 continues;
         full expression continues;
         ff continues;
-    no pause;
+    attacca;
 
     [M.6] (25-28)
     (4 measures)
@@ -2852,7 +2852,7 @@ SEGMENTS
         fundamental on IV/C2 continues;
         full expression continues;
         ff continues;
-    no pause;
+    attacca;
 
     [M.7] (29-32)
     (4 measures)
@@ -2863,7 +2863,7 @@ SEGMENTS
         fundamental IV/C2-Bb1 down-glissando happens;
         full expression continues;
         ff continues;
-    no pause;
+    attacca;
 
 [N] time series B; rotation -32
 
@@ -2876,7 +2876,7 @@ SEGMENTS
         fundamental IV/Bb1 continues;
         full expression continues;
         ff continues;
-    no pause;
+    attacca;
 
     [N.2] (7-8)
     (2 measures)
@@ -2891,7 +2891,7 @@ SEGMENTS
         hair continues;
         fundamental IV/Bb1 continues;
         ff > p governs stage;
-    no pause;
+    attacca;
 
     [N.3] (9-10)
     (2 measures)
@@ -2903,7 +2903,7 @@ SEGMENTS
         hair continues;
         holds pure-tone Bb1;
         p continues;
-    no pause;
+    attacca;
 
     <<[I.6 (current) 2/2] prefixes [N.4]>>:
     <<summons past time>>:
@@ -2931,7 +2931,7 @@ SEGMENTS
         hair continues;
         holds pure-tone Bb1;
         p continues;
-    no pause;
+    attacca;
 
     [N.5] (15-20)
     (6 measures)
@@ -2945,7 +2945,7 @@ SEGMENTS
         hair continues;
         holds pure-tone Bb1 until end;
         p > niente governs stage;
-    no pause;
+    attacca;
 
     [N.6] (21-32)
     (12 measures)
@@ -3016,7 +3016,7 @@ SEGMENTS
         tasto begins;
         clouded pane fixed pitches begin;
         ppppp begins;
-    no pause;
+    attacca;
 
     [P.2] (5-10)
     (6 measures) 
@@ -3027,7 +3027,7 @@ SEGMENTS
         clouded pane fixed pitches continue;
         tasto < irregular ellipses > tasto, independently;
         ppppp < p > ppppp governs stage;
-    no pause;
+    attacca;
 
     [P.3] (11-14)
     (4 measures)
@@ -3038,7 +3038,7 @@ SEGMENTS
         tasto continues;
         clouded pane fixed pitches continue;
         ppppp continues;
-    no pause;
+    attacca;
 
     [P.4] (15-20)
     (6 measures)
@@ -3049,7 +3049,7 @@ SEGMENTS
         up-glissandi begin;
         tasto < irregular ellipses begin;
         ppppp < mp governs first half of stage;
-    no pause;
+    attacca;
 
     [P.5] (21-26)
     (6 measures)
@@ -3223,7 +3223,7 @@ SEGMENTS
         hair continues;
         extremely slow tuning peg down-glissando from Bb1 to Bb0 happens;
         pp continues;
-    no pause;
+    attacca;
 
 [R] time series A; rotation -70
 
@@ -3246,7 +3246,7 @@ SEGMENTS
         hair continues;
         B0 pedal continues;
         pp continues;
-    no pause;
+    attacca;
 
     [R.2] (5-8)
     (4 measures)
@@ -3268,7 +3268,7 @@ SEGMENTS
         hair continues;
         B0 pedal continues;
         pp continues;
-    no pause;
+    attacca;
 
     [R.3] (9-12)
     (4 measures)
@@ -3285,7 +3285,7 @@ SEGMENTS
         hair continues;
         B0 pedal continues:
         pp > niente happens;
-    no pause;
+    attacca;
 
     [R.4] (13-16)
     (4 measures)
@@ -3299,7 +3299,7 @@ SEGMENTS
         pp continues;
     vc:
         tacet continues;
-    no pause;
+    attacca;
     
 [S] time series A; rotation -86
 
@@ -3314,7 +3314,7 @@ SEGMENTS
         Bb2 pp pedal;
     vc:
         tacet continues;
-    no pause;
+    attacca;
 
     [S.2] (5)
     (1 measure)
@@ -3331,7 +3331,7 @@ SEGMENTS
         stopped lh joins va;
         hair joins va;
         B0 slack-string up-bow rh-terminated exponential crescendo to mf;
-    no pause;
+    attacca;
 
     [S.3] (6-9)
     (4 measures)
@@ -3344,7 +3344,7 @@ SEGMENTS
         Bb2 pp pedal;
     vc:
         tacet subito;
-    no pause;
+    attacca;
 
     [S.4] (10-11)
     (2 measures)
@@ -3361,7 +3361,7 @@ SEGMENTS
         stopped lh joins va;
         hair joins va;
         Bb0 slack-string up-bow rh-terminated exponential crescendo to f;
-    no pause;
+    attacca;
 
     [S.5] (12-15)
     (4 measures)
@@ -3374,7 +3374,7 @@ SEGMENTS
         Bb2 pp pedal;
     vc:
         tacet subito;
-    no pause;
+    attacca;
 
     [S.6] (16-18)
     (3 measures)
@@ -3391,7 +3391,7 @@ SEGMENTS
         stopped lh joins va;
         hair joins va;
         Bb0 slack-string up-bow rh-terminated exponential crescendo to ff;
-    no pause;
+    attacca;
 
     [S.7] (19-22)
     (4 measures)
@@ -3404,7 +3404,7 @@ SEGMENTS
         Bb2 pp pedal;
     vc:
         tacet;
-    no pause;
+    attacca;
 
     [S.8] (23-26)
     (4 measures)
@@ -3421,7 +3421,7 @@ SEGMENTS
         stopped lh joins va;
         hair joins va;
         Bb0 slack-string up-bow rh-terminated exponential crescendo to fff;
-    no pause;
+    attacca;
 
     [S.9] (27-34 + long)
     (8 measures)
