@@ -83,12 +83,36 @@ class Operation(abjad.AbjadObject):
 
     ### SPECIAL METHODS ###
 
-    def __call__(self, source_specifier, target_specifier):
-        r'''Calls operation on `source_specifier` and `target_specifier`.
+    def __call__(self, source_stage, target_stage):
+        r'''Calls operation on `source_stage` and `target_stage`.
 
         Returns new (target) stage specifier.
         '''
-        pass
+        source_measure_numbers, source_time_signatures = [], []
+        if isinstance(self.source_measures, int):
+            source_measure_numbers.append(self.source_measures)
+        else:
+            assert isinstance(self.source_measures, tuple)
+            start, stop = self.source_measures
+            for measure_number in range(start, stop + 1):
+                source_measure_numbers.append(measure_number)
+        for source_measure_number in source_measure_numbers:
+            i = source_measure_number  - 1
+            source_time_signatures.append(source_stage.time_signatures[i])
+        assert source_time_signatures, repr(source_time_signatures)
+        target_stage_ = abjad.new(target_stage, operation=self)
+        if self.verb == 'insert':
+            start, stop = self.target_site
+            assert start + 1 == stop, repr(self.target_site)
+            target_stage_.time_signatures[start:start] = source_time_signatures
+        elif self.verb == 'prefix':
+            target_stage_.time_signatures[0:0] = source_time_signatures
+        elif self.verb == 'suffix':
+            target_stage_.suffix = source_time_signatures[:]
+            target_stage_.postsuffix = target_stage.after
+        else:
+            raise ValueError(self.verb)
+        return target_stage_
 
     ### PUBLIC PROPERTIES ###
 
