@@ -2,23 +2,23 @@ import abjad
 import stirrings_still
 
 
-def second_order_time_signatures(segment):
+def second_order_stage_specifiers(segment):
     r'''Makes second-order time signatures.
 
     >>> import stirrings_still
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_time_signatures('H')
+        >>> specifiers = stirrings_still.second_order_stage_specifiers('H')
 
     '''
-    target_specifiers = stirrings_still.first_order_time_signatures(segment)
+    target_specifiers = stirrings_still.first_order_stage_specifiers(segment)
     operations = stirrings_still.relata()
     for operation in operations:
         if operation.target_stage.letter != segment:
             continue
         source_segment = operation.source_stage.letter
-        source_specifiers = stirrings_still.first_order_time_signatures(
+        source_specifiers = stirrings_still.first_order_stage_specifiers(
             source_segment
             )
         source_specifier = source_specifiers[operation.source_stage.number]

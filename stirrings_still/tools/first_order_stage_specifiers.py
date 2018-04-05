@@ -161,14 +161,14 @@ stage_to_time_signatures = abjad.OrderedDict({
         ]),
     })
 
-def first_order_time_signatures(segment):
+def first_order_stage_specifiers(segment):
     r'''Makes first-order time signatures.
 
     >>> import stirrings_still
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.first_order_time_signatures('B')
+        >>> specifiers = stirrings_still.first_order_stage_specifiers('B')
         >>> len(specifiers)
         24
 
@@ -454,7 +454,7 @@ def first_order_time_signatures(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.first_order_time_signatures('H')
+        >>> specifiers = stirrings_still.first_order_stage_specifiers('H')
         >>> len(specifiers)
         14
 
@@ -638,7 +638,7 @@ def first_order_time_signatures(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.first_order_time_signatures('E')
+        >>> specifiers = stirrings_still.first_order_stage_specifiers('E')
         >>> len(specifiers)
         17
 
