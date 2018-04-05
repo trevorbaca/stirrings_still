@@ -81,6 +81,15 @@ class Operation(abjad.AbjadObject):
             assert isinstance(target_site, tuple)
         self._target_site = target_site
 
+    ### SPECIAL METHODS ###
+
+    def __call__(self, source_specifier, target_specifier):
+        r'''Calls operation on `source_specifier` and `target_specifier`.
+
+        Returns new (target) stage specifier.
+        '''
+        pass
+
     ### PUBLIC PROPERTIES ###
 
     @property

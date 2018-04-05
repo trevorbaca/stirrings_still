@@ -4,18 +4,18 @@ from .Operation import Operation
 from .StageToken import StageToken
 
 
-def relata():
-    r'''Makes relata.
+def operations():
+    r'''Makes operations.
 
     >>> import stirrings_still
 
     ..  container:: example
 
-        >>> relata = stirrings_still.relata()
-        >>> len(relata)
+        >>> operations = stirrings_still.operations()
+        >>> len(operations)
         42
 
-        >>> abjad.f(relata)
+        >>> abjad.f(operations)
         abjad.TypedList(
             [
                 stirrings_still.Operation(
