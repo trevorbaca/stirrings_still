@@ -27,39 +27,89 @@ stage_to_series = abjad.OrderedDict({
 
 stage_to_time_signatures = abjad.OrderedDict({
     'A': ('C', 0, [
-        1, 'fermata', 1, 'fermata', 2, 'fermata', 2, 'fermata',
-        6, 'fermata', 1, 'fermata', 1, 'fermata',
-        2, 'fermata', 2, 'fermata', 6, 6, 4, 4, 'fermata',
-        1, 'fermata', 1, 'fermata', 1, 'fermata', 1, 'fermata', 1, 'long',
+        (1, 'fermata'),
+        (1, 'fermata'),
+        (2, 'fermata'),
+        (2, 'fermata'),
+        (6, 'fermata'),
+        (1, 'fermata'),
+        (1, 'fermata'),
+        (2, 'fermata'),
+        (2, 'fermata'),
+        6, 6, 4,
+        (4, 'fermata'),
+        (1, 'fermata'),
+        (1, 'fermata'),
+        (1, 'fermata'),
+        (1, 'fermata'),
+        (1, 'long'),
         ]),
     'B': ('B', 0,
-        [4, 1, 2, 4, 1, (5, 12), 1, (5, 12), 1, (5, 12),
-        2, 2, 1, 2, 2, 'fermata', 2, 'fermata', 2, 'fermata', 2, 'fermata',
-        2, 'fermata', 2, 'fermata', 2, 6, 2, 1, 1, 1, 'fermata', 1, 'fermata',
+        [4, 1, 2, 4,
+        (1, (5, 12)),
+        (1, (5, 12)),
+        (1, (5, 12)),
+        2, 2, 1, 2,
+        (2, 'fermata'),
+        (2, 'fermata'),
+        (2, 'fermata'),
+        (2, 'fermata'),
+        (2, 'fermata'),
+        (2, 'fermata'),
+        2, 6, 2, 1, 1,
+        (1, 'fermata'),
+        (1, 'fermata'),
         ]),
     'C': ('A', 0,
-        [4, 'fermata', 4, 'fermata', 4, 4, 4, 4, 1, (5, 12),
-        4, 4, 4, 2, 2, 2, 2, 'fermata', 6, 'fermata',
+        [(4, 'fermata'),
+        (4, 'fermata'),
+        4, 4, 4, 4,
+        (1, (5, 12)),
+        4, 4, 4, 2, 2, 2,
+        (2, 'fermata'),
+        (6, 'fermata'),
         ]),
     'D': ('C', -18,
-        [6, 6, 6, 6, 6, 6, 'fermata',  6, 'fermata', 1, 'long',
-        4, 'long', 1, 'long', 6, 'long', 2, 2, 
-        2, 2, 2, 2, 2, 2, 2, 2, 2, 'short',
+        [6, 6, 6, 6, 6,
+        (6, 'fermata'),
+        (6, 'fermata'),
+        (1, 'long'),
+        (4, 'long'),
+        (1, 'long'),
+        (6, 'long'),
+        2, 2, 
+        2, 2, 2, 2, 2, 2, 2, 2,
+        (2, 'short'),
         ]),
     'E': ('B', -8,
-        [2, 'short', 6, 8, 4, 4, 4, 4, 4, 'fermata',
-        8, 8, 2, 'short', 4, 'fermata', 4, 'fermata', 4, 2, 2, 8,
+        [(2, 'short'),
+        6, 8, 4, 4, 4, 4,
+        (4, 'fermata'),
+        8, 8,
+        (2, 'short'),
+        (4, 'fermata'),
+        (4, 'fermata'),
+        4, 2, 2, 8,
         ]),
     'F': ('A', -14,
-        [8, 2, 'long',
+        [8,
+        (2, 'long'),
         ]),
     'G': ('C', -36,
-        [1, 'fermata', 1, 'fermata',  1, 'fermata', 1, 'fermata', 1, 'fermata',
-        2, 'long',
+        [(1, 'fermata'),
+        (1, 'fermata'),
+        (1, 'fermata'),
+        (1, 'fermata'),
+        (1, 'fermata'),
+        (2, 'long'),
         ]),
     'H': ('B', -16,
-        [4, 1, 2, 2, 2, 2, 2, 6, 6, 'short', 2, 'short', 3, 'short',
-        4, 'short', 4, 2,
+        [4, 1, 2, 2, 2, 2, 2, 6,
+        (6, 'short'),
+        (2, 'short'),
+        (3, 'short'),
+        (4, 'short'),
+        4, 2,
         ]),
     'I': ('A', -28,
         [2, 1, 1, 1, 2, 2, 2,
@@ -77,23 +127,37 @@ stage_to_time_signatures = abjad.OrderedDict({
         [8, 4, 4, 4, 4, 4, 4,
         ]),
     'N': ('B', -32,
-        [6, 2, 2, 4, 6, 12, 'very_long', 2, 'very_long',
+        [6, 2, 2, 4, 6,
+        (12, 'very_long'),
+        (2, 'very_long'),
         ]),
     'O': ('A', -56,
-        [6, 'very_long',
+        [(6, 'very_long'),
         ]),
     'P': ('C', -90,
         [4, 6, 4, 6, 6,
         ]),
     'Q': ('B', -40,
-        [8, 12, 'very_short', 6, 10, 'very_short', 5, 8, 'very_short',
-        4, 6, 'very_short', 3, 4, 'very_short', 2, 2, 'fermata', 20,
+        [8,
+        (12, 'very_short'),
+        6,
+        (10, 'very_short'),
+        5,
+        (8, 'very_short'),
+        4,
+        (6, 'very_short'),
+        3,
+        (4, 'very_short'),
+        2,
+        (2, 'fermata'),
+        20,
         ]),
     'R': ('A', -70,
         [4, 4, 4, 4,
         ]),
     'S': ('A', -86,
-        [4, 1, 4, 2, 4, 3, 4, 4, 8, 'long',
+        [4, 1, 4, 2, 4, 3, 4, 4,
+        (8, 'long'),
         ]),
     })
 
@@ -540,36 +604,43 @@ def first_order_time_signatures(segment):
     specifiers = abjad.OrderedDict()
     time_signature_index, measure_number, stage_number = 0, 1, 1
     for item in stages:
-        if isinstance(item, tuple):
-            fraction_time_signature = abjad.TimeSignature(item)
-            time_signatures.append(fraction_time_signature)
-            fermata_measures.append(measure_number)
-            measure_number += 1
-            last_key = list(specifiers.keys())[-1]
-            specifiers[last_key].after = fraction_time_signature
-        elif item in fermatas:
-            time_signatures.append((1, 4))
-            fermata_measures.append(measure_number)
-            measure_number += 1
-            last_key = list(specifiers.keys())[-1]
-            specifiers[last_key].after = item
+        if isinstance(item, int):
+            items = [item]
         else:
-            assert isinstance(item, int), repr(item)
-            assert 0 < item, repr(item)
-            specifier = stirrings_still.FirstOrderStageSpecifier()
-            specifiers[stage_number] = specifier
-            start = measure_number
-            time_signatures_ = []
-            for _ in range(item):
-                time_signatures_.append(series[time_signature_index])
-                time_signature_index += 1
+            assert isinstance(item, tuple)
+            assert len(item) == 2
+            items = item
+        for item_ in items:
+            if isinstance(item_, tuple):
+                fraction_time_signature = abjad.TimeSignature(item_)
+                time_signatures.append(fraction_time_signature)
+                fermata_measures.append(measure_number)
                 measure_number += 1
-            stop = measure_number - 1
-            if start != stop:
-                specifiers[stage_number].measures = (start,  stop)
+                last_key = list(specifiers.keys())[-1]
+                specifiers[last_key].after = fraction_time_signature
+            elif item_ in fermatas:
+                time_signatures.append((1, 4))
+                fermata_measures.append(measure_number)
+                measure_number += 1
+                last_key = list(specifiers.keys())[-1]
+                specifiers[last_key].after = item_
             else:
-                specifiers[stage_number].measures = start
-            specifiers[stage_number].time_signatures = time_signatures_
-            time_signatures.extend(time_signatures_)
-            stage_number += 1
+                assert isinstance(item_, int), repr(item_)
+                assert 0 < item_, repr(item_)
+                specifier = stirrings_still.FirstOrderStageSpecifier()
+                specifiers[stage_number] = specifier
+                start = measure_number
+                time_signatures_ = []
+                for _ in range(item_):
+                    time_signatures_.append(series[time_signature_index])
+                    time_signature_index += 1
+                    measure_number += 1
+                stop = measure_number - 1
+                if start != stop:
+                    specifiers[stage_number].measures = (start,  stop)
+                else:
+                    specifiers[stage_number].measures = start
+                specifiers[stage_number].time_signatures = time_signatures_
+                time_signatures.extend(time_signatures_)
+                stage_number += 1
     return specifiers, time_signatures, fermata_measures
