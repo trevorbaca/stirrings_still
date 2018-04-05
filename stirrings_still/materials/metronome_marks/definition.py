@@ -11,6 +11,10 @@ metronome_marks = abjad.OrderedDict([
         abjad.MetronomeMark((1, 4), 52),
         ),
     (
+        'largo piu mosso',
+        abjad.MetronomeMark((1, 4), 56),
+        ),
+    (
         'adagio',
         abjad.MetronomeMark((1, 4), 65),
         ),
