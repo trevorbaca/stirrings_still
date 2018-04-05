@@ -1,8 +1,8 @@
 import abjad
 
 
-class FirstOrderStageSpecifier(abjad.AbjadObject):
-    r'''First-order stage specifier.
+class StageSpecifier(abjad.AbjadObject):
+    r'''Stage specifier.
     '''
 
     ### CLASS VARIABLES ###

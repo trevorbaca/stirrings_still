@@ -177,7 +177,7 @@ def first_order_stage_specifiers(segment):
             [
                 (
                     1,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=1,
                         measure_numbers=(1, 4),
                         time_signatures=[
@@ -190,7 +190,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     2,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=2,
                         measure_numbers=5,
                         time_signatures=[
@@ -200,7 +200,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     3,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=3,
                         measure_numbers=(6, 7),
                         time_signatures=[
@@ -211,7 +211,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     4,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=4,
                         measure_numbers=(8, 11),
                         time_signatures=[
@@ -224,7 +224,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     5,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=5,
                         measure_numbers=12,
                         time_signatures=[
@@ -235,7 +235,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     6,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=6,
                         measure_numbers=14,
                         time_signatures=[
@@ -246,7 +246,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     7,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=7,
                         measure_numbers=16,
                         time_signatures=[
@@ -257,7 +257,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     8,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=8,
                         measure_numbers=(18, 19),
                         time_signatures=[
@@ -268,7 +268,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     9,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=9,
                         measure_numbers=(20, 21),
                         time_signatures=[
@@ -279,7 +279,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     10,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=10,
                         measure_numbers=22,
                         time_signatures=[
@@ -289,7 +289,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     11,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=11,
                         measure_numbers=(23, 24),
                         time_signatures=[
@@ -300,7 +300,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     12,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=12,
                         measure_numbers=(25, 26),
                         time_signatures=[
@@ -312,7 +312,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     13,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=13,
                         measure_numbers=(28, 29),
                         time_signatures=[
@@ -324,7 +324,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     14,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=14,
                         measure_numbers=(31, 32),
                         time_signatures=[
@@ -336,7 +336,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     15,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=15,
                         measure_numbers=(34, 35),
                         time_signatures=[
@@ -348,7 +348,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     16,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=16,
                         measure_numbers=(37, 38),
                         time_signatures=[
@@ -360,7 +360,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     17,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=17,
                         measure_numbers=(40, 41),
                         time_signatures=[
@@ -372,7 +372,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     18,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=18,
                         measure_numbers=(43, 44),
                         time_signatures=[
@@ -383,7 +383,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     19,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=19,
                         measure_numbers=(45, 50),
                         time_signatures=[
@@ -398,7 +398,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     20,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=20,
                         measure_numbers=(51, 52),
                         time_signatures=[
@@ -409,7 +409,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     21,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=21,
                         measure_numbers=53,
                         time_signatures=[
@@ -419,7 +419,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     22,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=22,
                         measure_numbers=54,
                         time_signatures=[
@@ -429,7 +429,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     23,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=23,
                         measure_numbers=55,
                         time_signatures=[
@@ -440,7 +440,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     24,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=24,
                         measure_numbers=57,
                         time_signatures=[
@@ -463,7 +463,7 @@ def first_order_stage_specifiers(segment):
             [
                 (
                     1,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=1,
                         measure_numbers=(1, 4),
                         time_signatures=[
@@ -476,7 +476,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     2,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=2,
                         measure_numbers=5,
                         time_signatures=[
@@ -486,7 +486,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     3,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=3,
                         measure_numbers=(6, 7),
                         time_signatures=[
@@ -497,7 +497,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     4,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=4,
                         measure_numbers=(8, 9),
                         time_signatures=[
@@ -508,7 +508,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     5,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=5,
                         measure_numbers=(10, 11),
                         time_signatures=[
@@ -519,7 +519,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     6,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=6,
                         measure_numbers=(12, 13),
                         time_signatures=[
@@ -530,7 +530,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     7,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=7,
                         measure_numbers=(14, 15),
                         time_signatures=[
@@ -541,7 +541,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     8,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=8,
                         measure_numbers=(16, 21),
                         time_signatures=[
@@ -556,7 +556,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     9,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=9,
                         measure_numbers=(22, 27),
                         time_signatures=[
@@ -572,7 +572,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     10,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=10,
                         measure_numbers=(29, 30),
                         time_signatures=[
@@ -584,7 +584,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     11,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=11,
                         measure_numbers=(32, 34),
                         time_signatures=[
@@ -597,7 +597,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     12,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=12,
                         measure_numbers=(36, 39),
                         time_signatures=[
@@ -611,7 +611,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     13,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=13,
                         measure_numbers=(41, 44),
                         time_signatures=[
@@ -624,7 +624,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     14,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=14,
                         measure_numbers=(45, 46),
                         time_signatures=[
@@ -647,7 +647,7 @@ def first_order_stage_specifiers(segment):
             [
                 (
                     0,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=0,
                         measure_numbers=(1, 2),
                         time_signatures=[
@@ -659,7 +659,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     1,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=1,
                         measure_numbers=(4, 9),
                         time_signatures=[
@@ -674,7 +674,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     2,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=2,
                         measure_numbers=(10, 17),
                         time_signatures=[
@@ -691,7 +691,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     3,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=3,
                         measure_numbers=(18, 21),
                         time_signatures=[
@@ -704,7 +704,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     4,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=4,
                         measure_numbers=(22, 25),
                         time_signatures=[
@@ -717,7 +717,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     5,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=5,
                         measure_numbers=(26, 29),
                         time_signatures=[
@@ -730,7 +730,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     6,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=6,
                         measure_numbers=(30, 33),
                         time_signatures=[
@@ -743,7 +743,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     7,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=7,
                         measure_numbers=(34, 37),
                         time_signatures=[
@@ -757,7 +757,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     8,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=8,
                         measure_numbers=(39, 46),
                         time_signatures=[
@@ -774,7 +774,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     9,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=9,
                         measure_numbers=(47, 54),
                         time_signatures=[
@@ -791,7 +791,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     10,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=10,
                         measure_numbers=(55, 56),
                         time_signatures=[
@@ -803,7 +803,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     11,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=11,
                         measure_numbers=(58, 61),
                         time_signatures=[
@@ -817,7 +817,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     12,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=12,
                         measure_numbers=(63, 66),
                         time_signatures=[
@@ -831,7 +831,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     13,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=13,
                         measure_numbers=(68, 71),
                         time_signatures=[
@@ -844,7 +844,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     14,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=14,
                         measure_numbers=(72, 73),
                         time_signatures=[
@@ -855,7 +855,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     15,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=15,
                         measure_numbers=(74, 75),
                         time_signatures=[
@@ -866,7 +866,7 @@ def first_order_stage_specifiers(segment):
                     ),
                 (
                     16,
-                    stirrings_still.FirstOrderStageSpecifier(
+                    stirrings_still.StageSpecifier(
                         stage_number=16,
                         measure_numbers=(76, 83),
                         time_signatures=[
@@ -922,7 +922,7 @@ def first_order_stage_specifiers(segment):
                     stage_number = i
                 else:
                     stage_number = i + 1
-                specifier = stirrings_still.FirstOrderStageSpecifier(
+                specifier = stirrings_still.StageSpecifier(
                     stage_number=stage_number,
                     )
                 specifiers[stage_number] = specifier
