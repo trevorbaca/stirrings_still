@@ -615,16 +615,16 @@ SEGMENTS
             arrives midmeasure downbeat;
     pause;
 
-    <<[H.1 (urtext rasp)] 3-4 (of 4) prefixed to [B.14]>>:
+    <<[H.1 (urtext rasp) 3-4/4] prefixed to [B.14]>>:
         tutti:
             stopped lh;
             hair;
             four-note chord:
                 single-stopped notes;
             extremely gradual rasp-to-flautando transition:
-                measures 3-4 (of 4) of transition;
+                measures 3-4/4 of transition;
             niente < mp:
-                measures 3-4 (of 4) of crescendo;
+                measures 3-4/4 of crescendo;
     attacca after insert to effect prefix;
 
     [B.14] (31-32 + fermata)
@@ -945,8 +945,7 @@ SEGMENTS
             harmonic lh governs stage;
             hair continues;
             pp governs stage;
-        <<v2 white clockticks [B.10] summon past time>>:
-        <<1 (of 1) measure>>:
+        <<[B.10 (v2 white clockticks) 1/1] summon past time>>:
             damped lh governs stage;
             1/2 clt governs stage;
             fast clockticks;
@@ -2023,9 +2022,6 @@ SEGMENTS
     <<summons past time>>:
 
 [H] time series B; 45 (- 4 fermata) measures; rotation -16
-    prefixed to 31: [H.1] measures 2 - 3 (of 1 - 4)
-    suffixed to 31: [B.10] only measure (with 31 reproduced after insert)
-    suffixed to 5: [I.1] measure 2 (with nothing after)
 
     [H.1] (1-4)
     (4 measures)
@@ -2052,23 +2048,21 @@ SEGMENTS
         four-note chord continues;
         mp completes;
     surprisingly short breath [v2 holds over breath];
-
-    inserted into breath:
-        >>[I.1 v1, va, synchronous golden gears] summon future time<<:
-        >> measure 2 (of 2)<<:
+    >>suffixed to breath<<:
+        >>[I.1 (v1, va, synchronous golden gears) 2/2] summon future time<<:
             stopped lh;
             hair;
             golden tone (senza scratch);
             circles (SL = BW) locked in binary rate ratio 1:4;
             mp;
-        >>[I.1 vc 1/2 clt solo trajectory] summons future time<<:
+        >>[I.1 (vc 1/2 clt solo trajectory) 2/2] summons future time<<:
             stopped lh;
             1/2 clt;
             starts up on local accelerandi;
             repetition quasivortex begins;
             p;
-        [v1, va, vc recapitulate surprisingly short breath];
-        [v2 holds over breath];
+    >>v1, va, vc recapitulate surprisingly short breath<<;
+    >>v2 holds over surprisingly short breath<<;
 
     [H.3] (6-7)
     (2 measures)
@@ -2296,16 +2290,16 @@ SEGMENTS
         [short pause reproduced after insert to effect within-insertion];
         [vc continues through pause];
 
-    <<[H.1 (urtext rasp)] 3-4 (of 4) prefixed to [H.11]>>:
+    <<[H.1 (urtext rasp)] 3-4/4] prefixed to [H.11]>>:
         tutti:
             stopped lh;
             hair;
             four-note chord:
                 single-stopped notes;
             extremely gradual rasp-to-flautando transition:
-                measures 3-4 (of 4) of transition;
+                measures 3-4/4 of transition;
             niente < mp:
-                measures 3-4 (of 4) of crescendo;
+                measures 3-4/4 of crescendo;
     attacca after insert to effect prefix;
 
     [H.11] (32-34 + short)
@@ -2683,7 +2677,7 @@ SEGMENTS
         tremolo continues;
         mp governs stage;
 
-    inserted into breath:
+    suffixed to breath:
         <<scratch gears [H.13] summon past time>>;
         <<vc f 1/2 clt maximal cell [I.6] summons past time within past time>>;
         <<scratch gears [H.13] continue and close off past time>>;
@@ -3066,8 +3060,7 @@ SEGMENTS
 
     [piece-ending process of compression:]
 
-    <<[N.6 -> K.6] prefixed to [Q.1] inception>>:
-    [K.6] measure 2 (of 3):
+    <<[N.6 -> K.6 (clearing) 2/3] prefixed to [Q.1 (inception)]>>:
         tutti flight:
             stopped lh;
             hair;
