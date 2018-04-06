@@ -154,7 +154,7 @@ def operations():
                         length=2,
                         ),
                     source_measures=2,
-                    verb='suffix',
+                    verb='prolong',
                     target_stage=stirrings_still.StageToken(
                         letter='B',
                         number=17,
@@ -214,7 +214,7 @@ def operations():
                         length=2,
                         ),
                     source_measures=2,
-                    verb='suffix',
+                    verb='prolong',
                     target_stage=stirrings_still.StageToken(
                         letter='D',
                         number=6,
@@ -342,7 +342,7 @@ def operations():
                         length=8,
                         ),
                     source_measures=(1, 8),
-                    verb='suffix',
+                    verb='prolong',
                     target_stage=stirrings_still.StageToken(
                         letter='E',
                         number=7,
@@ -357,7 +357,7 @@ def operations():
                         length=12,
                         ),
                     source_measures=(1, 12),
-                    verb='suffix',
+                    verb='prolong',
                     target_stage=stirrings_still.StageToken(
                         letter='E',
                         number=7,
@@ -406,7 +406,7 @@ def operations():
                         length=4,
                         ),
                     source_measures=(3, 4),
-                    verb='suffix',
+                    verb='prolong',
                     target_stage=stirrings_still.StageToken(
                         letter='F',
                         number=2,
@@ -453,7 +453,7 @@ def operations():
                         length=6,
                         ),
                     source_measures=(1, 2),
-                    verb='suffix',
+                    verb='prolong',
                     target_stage=stirrings_still.StageToken(
                         letter='G',
                         number=6,
@@ -468,7 +468,7 @@ def operations():
                         length=2,
                         ),
                     source_measures=2,
-                    verb='suffix',
+                    verb='prolong',
                     target_stage=stirrings_still.StageToken(
                         letter='H',
                         number=2,
@@ -483,7 +483,7 @@ def operations():
                         length=1,
                         ),
                     source_measures=1,
-                    verb='suffix',
+                    verb='prolong',
                     target_stage=stirrings_still.StageToken(
                         letter='H',
                         number=10,
@@ -728,7 +728,7 @@ def operations():
             ),
         Operation(
             StageToken('D', 17, 'development', 2), 2,
-            'suffix',
+            'prolong',
             StageToken('B', 17, 'pause'),
             ),
         Operation(
@@ -748,7 +748,7 @@ def operations():
             ),
         Operation(
             StageToken('I', 6, 'current', 2), 2,
-            'suffix',
+            'prolong',
             StageToken('D', 6, 'pause'),
             ),
         Operation(
@@ -788,12 +788,12 @@ def operations():
             ),
         Operation(
             StageToken('Q', 1, 'inception', 8), (1, 8), 
-            'suffix',
+            'prolong',
             StageToken('E', 7, 'pause'),
             ),
         Operation(
             StageToken('Q', 2, 'transformatum', 12), (1, 12),
-            'suffix',
+            'prolong',
             StageToken('E', 7, 'pause'),
             ),
         Operation(
@@ -808,7 +808,7 @@ def operations():
             ),
         Operation(
             StageToken('C', 2, 'process', 4), (3, 4),
-            'suffix',
+            'prolong',
             StageToken('F', 2, 'pause'),
             ),
         Operation(
@@ -823,17 +823,17 @@ def operations():
             ),
         Operation(
             StageToken('D', 11, 'isolatum', 6), (1, 2),
-            'suffix',
+            'prolong',
             StageToken('G', 6, 'pause'),
             ),
         Operation(
             StageToken('I', 1, 'clearing', 2), 2,
-            'suffix',
+            'prolong',
             StageToken('H', 2, 'pause'),
             ),
         Operation(
             StageToken('G', 5, 'iteratum', 1), 1,
-            'suffix',
+            'prolong',
             StageToken('H', 10, 'pause'),
             ),
         Operation(

@@ -112,6 +112,9 @@ class Operation(abjad.AbjadObject):
             target_stage_.time_signatures[start:start] = source_time_signatures
         elif self.verb == 'prefix':
             target_stage_.time_signatures[0:0] = source_time_signatures
+        elif self.verb == 'prolong':
+            target_stage_.suffix = source_time_signatures[:]
+            target_stage_.postsuffix = target_stage.after
         elif self.verb == 'replace':
             start, stop = self.target_site
             stop += 1

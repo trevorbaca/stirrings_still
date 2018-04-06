@@ -583,7 +583,7 @@ def second_order_stages(segment):
                                 length=2,
                                 ),
                             source_measures=2,
-                            verb='suffix',
+                            verb='prolong',
                             target_stage=stirrings_still.StageToken(
                                 letter='B',
                                 number=17,
@@ -1093,7 +1093,7 @@ def second_order_stages(segment):
                                 length=2,
                                 ),
                             source_measures=2,
-                            verb='suffix',
+                            verb='prolong',
                             target_stage=stirrings_still.StageToken(
                                 letter='D',
                                 number=6,
@@ -1579,7 +1579,7 @@ def second_order_stages(segment):
                                 length=12,
                                 ),
                             source_measures=(1, 12),
-                            verb='suffix',
+                            verb='prolong',
                             target_stage=stirrings_still.StageToken(
                                 letter='E',
                                 number=7,
@@ -1829,7 +1829,7 @@ def second_order_stages(segment):
                                 length=4,
                                 ),
                             source_measures=(3, 4),
-                            verb='suffix',
+                            verb='prolong',
                             target_stage=stirrings_still.StageToken(
                                 letter='F',
                                 number=2,
@@ -1964,7 +1964,7 @@ def second_order_stages(segment):
                                 length=6,
                                 ),
                             source_measures=(1, 2),
-                            verb='suffix',
+                            verb='prolong',
                             target_stage=stirrings_still.StageToken(
                                 letter='G',
                                 number=6,
@@ -2017,7 +2017,7 @@ def second_order_stages(segment):
                                 length=2,
                                 ),
                             source_measures=2,
-                            verb='suffix',
+                            verb='prolong',
                             target_stage=stirrings_still.StageToken(
                                 letter='H',
                                 number=2,
@@ -2134,7 +2134,7 @@ def second_order_stages(segment):
                                 length=1,
                                 ),
                             source_measures=1,
-                            verb='suffix',
+                            verb='prolong',
                             target_stage=stirrings_still.StageToken(
                                 letter='H',
                                 number=10,
