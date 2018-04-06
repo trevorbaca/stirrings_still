@@ -971,7 +971,6 @@ SEGMENTS
             rhythm 3 2r 3 2r 3 2r 3 1(!)r 3 2r ...;
         mf > pp governs stage;
     surprisingly short breath;
-
     >>[D.9 (clouded pane) 1/4] prolongs [C.8] breath<<:
         >>summons future time<<;
         largo;

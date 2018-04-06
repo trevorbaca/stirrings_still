@@ -98,7 +98,12 @@ class Operation(abjad.AbjadObject):
                 source_measure_numbers.append(measure_number)
         for source_measure_number in source_measure_numbers:
             i = source_measure_number  - 1
-            source_time_signatures.append(source_stage.time_signatures[i])
+            try:
+                source_time_signatures.append(source_stage.time_signatures[i])
+            except IndexError:
+                abjad.f(self)
+                print(f'source measure number: {source_measure_number}')
+                raise
         assert source_time_signatures, repr(source_time_signatures)
         target_stage_ = abjad.new(target_stage, operation=self)
         if self.verb == 'insert':
@@ -107,6 +112,10 @@ class Operation(abjad.AbjadObject):
             target_stage_.time_signatures[start:start] = source_time_signatures
         elif self.verb == 'prefix':
             target_stage_.time_signatures[0:0] = source_time_signatures
+        elif self.verb == 'replace':
+            start, stop = self.target_site
+            stop += 1
+            target_stage_.time_signatures[start:stop] = source_time_signatures
         elif self.verb == 'suffix':
             target_stage_.suffix = source_time_signatures[:]
             target_stage_.postsuffix = target_stage.after
