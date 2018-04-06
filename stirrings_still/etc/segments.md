@@ -294,7 +294,7 @@ SEGMENTS
         ppp > niente happens;
     vc:
         tacet continues;
-        >>[I.6 (vc cell) 2/2] bisects [A.12 (conclusion) 2@3/4]<<:
+        >>[I.6 (vc cell) 2/2] bisects [A.12 (conclusion)]<<:
             >>summons future time<<;
             larghissimo;
             vc 1/2 clt solo trajectory:
@@ -314,7 +314,7 @@ SEGMENTS
         subito damped lh;
         subito slower rate;
         subito p;
-        >>[I.6 (vc cell) 2/2] bisects [A.13 (iteratum) 2@3/4]<<:
+        >>[I.6 (vc cell) 2/2] bisects [A.13 (iteratum)]<<:
             >>summons future time<<;
             larghissimo;
             vc 1/2 clt solo trajectory:
@@ -1291,7 +1291,7 @@ SEGMENTS
                 golden tone (senza scratch);
                 circles (SL = BW) locked in binary rate ratio 1:4;
                 mp;
-            >>[I.1 (vc 1/2 clt solo trajectory] bisects [D.12 1@2/2]<<:
+            >>[I.1 (vc 1/2 clt solo trajectory] bisects [D.12]<<:
                 >>summons future time<<;
                 stopped lh;
                 1/2 clt;
@@ -1456,7 +1456,7 @@ SEGMENTS
             continuous tremolo continues;
         vc:
             tacet subito;
-        >>[F.2 (clearing) 1/2] bisects [D.21 (clearing) 1@2/2]<<:
+        >>[F.2 (clearing) 1/2] bisects [D.21 (clearing)]<<:
             >>summons future time<<;
             largo;
             va tailpiece:
@@ -1640,7 +1640,7 @@ SEGMENTS
         p continues;
     vc:
         tacet continues;
-        <<[A.1 (isolatum) 1/1] bisects [E.6 2@3/4]>>
+        <<[A.1 (isolatum) 1/1] bisects [E.6]>>
             <<summons past time>>;
             andante;
             v1, v2, va urtext declamation (two chords):
@@ -1679,8 +1679,8 @@ SEGMENTS
         tacet continues;
     pause;
 
-    >>[Q.1 (inception) 1-8/8] bisects [E.7 2@3/4] pause<<:
-    >>[Q.2 (transformatum) 1-12/12] bisects [E.7 2@3/4] pause<<:
+    >>[Q.1 (inception) 1-8/8] prolongs [E.7] pause<<:
+    >>[Q.2 (transformatum) 1-12/12] prolongs [E.7] pause<<:
         >>summon future time<<;
         (8 measures)
         presto;
@@ -1779,8 +1779,8 @@ SEGMENTS
         hair continues;
         p continues;
 
-    >>[Q.1 (inception) 1-8/8] bisects [E.12 2@3/4]<<:
-    >>[Q.2 (transformatum) 1-12/12] bisects [E.12 2@3/4]<<:
+    >>[Q.1 (inception) 1-8/8] bisects [E.12]<<:
+    >>[Q.2 (transformatum) 1-12/12] bisects [E.12]<<:
         >>recapitulate summons of future time<<;
         (8 measures)
         presto;
@@ -2510,7 +2510,7 @@ SEGMENTS
     vc:
         tacet continues;
 
-        <<[C.7 (clocktime composite)] bisects [J.1 2@3/4]>>:
+        <<[C.7 (clocktime composite)] bisects [J.1]>>:
             <<summons past time>>;
             allegro;
             v1 shining beacon of clouded pane:
@@ -2609,7 +2609,7 @@ SEGMENTS
         trajectories continue;
         pp continues;
 
-        <<[C.14 (conclusion) 3-4/4] bisects [K.1 (inception) 2@3/4]>>:
+        <<[C.14 (conclusion) 3-4/4] bisects [K.1 (inception)]>>:
             <<summons past time>>;
             adagio;
             tutti maximally wide circles:
@@ -2960,7 +2960,7 @@ SEGMENTS
         dynamic process embedded:
             terminates ff ponticello with lv-release;
     
-        <<colored flight [K.6] bisects [N.6 6@7/12]>>;
+        <<colored flight [K.6] bisects [N.6]>>;
             <<summons past time>>;
 
     very long pause;

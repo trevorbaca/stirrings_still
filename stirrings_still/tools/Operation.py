@@ -49,7 +49,7 @@ class Operation(abjad.AbjadObject):
     _publish_storage_format = True
 
     _verbs = (
-        'insert',
+        'bisect',
         'prefix',
         'replace',
         'suffix',
@@ -77,7 +77,7 @@ class Operation(abjad.AbjadObject):
         if target_stage is not None:
             assert isinstance(target_stage, StageToken)
         self._target_stage = target_stage
-        if target_site is not None or verb == 'insert':
+        if target_site is not None or verb == 'bisect':
             assert isinstance(target_site, tuple)
         self._target_site = target_site
 
@@ -106,7 +106,7 @@ class Operation(abjad.AbjadObject):
                 raise
         assert source_time_signatures, repr(source_time_signatures)
         target_stage_ = abjad.new(target_stage, operation=self)
-        if self.verb == 'insert':
+        if self.verb == 'bisect':
             start, stop = self.target_site
             assert start + 1 == stop, repr(self.target_site)
             target_stage_.time_signatures[start:start] = source_time_signatures

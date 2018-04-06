@@ -41,7 +41,7 @@ def operations():
                         length=2,
                         ),
                     source_measures=2,
-                    verb='insert',
+                    verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='A',
                         number=12,
@@ -58,7 +58,7 @@ def operations():
                         length=2,
                         ),
                     source_measures=2,
-                    verb='insert',
+                    verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='A',
                         number=13,
@@ -90,7 +90,7 @@ def operations():
                         length=1,
                         ),
                     source_measures=1,
-                    verb='insert',
+                    verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='B',
                         number=12,
@@ -137,7 +137,7 @@ def operations():
                         length=4,
                         ),
                     source_measures=1,
-                    verb='insert',
+                    verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='B',
                         number=17,
@@ -229,7 +229,7 @@ def operations():
                         length=2,
                         ),
                     source_measures=2,
-                    verb='insert',
+                    verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='D',
                         number=9,
@@ -261,7 +261,7 @@ def operations():
                         length=2,
                         ),
                     source_measures=2,
-                    verb='insert',
+                    verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='D',
                         number=12,
@@ -278,7 +278,7 @@ def operations():
                         length=2,
                         ),
                     source_measures=2,
-                    verb='insert',
+                    verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='D',
                         number=21,
@@ -325,7 +325,7 @@ def operations():
                         length=1,
                         ),
                     source_measures=1,
-                    verb='insert',
+                    verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='E',
                         number=6,
@@ -372,7 +372,7 @@ def operations():
                         length=8,
                         ),
                     source_measures=(1, 8),
-                    verb='insert',
+                    verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='E',
                         number=12,
@@ -389,7 +389,7 @@ def operations():
                         length=12,
                         ),
                     source_measures=(1, 12),
-                    verb='insert',
+                    verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='E',
                         number=12,
@@ -436,7 +436,7 @@ def operations():
                         length=1,
                         ),
                     source_measures=1,
-                    verb='insert',
+                    verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='G',
                         number=5,
@@ -513,7 +513,7 @@ def operations():
                         length=1,
                         ),
                     source_measures=1,
-                    verb='insert',
+                    verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='H',
                         number=14,
@@ -530,7 +530,7 @@ def operations():
                         length=1,
                         ),
                     source_measures=1,
-                    verb='insert',
+                    verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='J',
                         number=1,
@@ -547,7 +547,7 @@ def operations():
                         length=4,
                         ),
                     source_measures=(3, 4),
-                    verb='insert',
+                    verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='K',
                         number=1,
@@ -641,7 +641,7 @@ def operations():
                         length=3,
                         ),
                     source_measures=2,
-                    verb='insert',
+                    verb='bisect',
                     target_stage=stirrings_still.StageToken(
                         letter='N',
                         number=6,
@@ -693,12 +693,12 @@ def operations():
             ),
         Operation(
             StageToken('I', 6, 'current', 2), 2,
-            'insert',
+            'bisect',
             StageToken('A', 12, 'conclusion', 4), (2, 3),
             ),
         Operation(
             StageToken('I', 6, 'current', 2), 2,
-            'insert',
+            'bisect',
             StageToken('A', 13, 'iteratum', 4), (2, 3),
             ),
         Operation(
@@ -708,7 +708,7 @@ def operations():
             ),
         Operation(
             StageToken('A', 1, 'isolatum', 1), 1,
-            'insert',
+            'bisect',
             StageToken('B', 12, 'conclusion', 2), (1, 2),
             ),
         Operation(
@@ -723,7 +723,7 @@ def operations():
             ),
         Operation(
             StageToken('D', 9, 'isolatum', 4), 1,
-            'insert',
+            'bisect',
             StageToken('B', 17, 'iteratum', 2), (1, 2),
             ),
         Operation(
@@ -753,7 +753,7 @@ def operations():
             ),
         Operation(
             StageToken('F', 2, 'clearing', 2), 2,
-            'insert',
+            'bisect',
             StageToken('D', 9, 'isolatum', 4), (2, 3),
             ),
         Operation(
@@ -763,12 +763,12 @@ def operations():
             ),
         Operation(
             StageToken('I', 1, 'clearing', 2), 2,
-            'insert',
+            'bisect',
             StageToken('D', 12, 'inception', 2), (1, 2),
             ),
         Operation(
             StageToken('F', 2, 'clearing', 2), 2,
-            'insert',
+            'bisect',
             StageToken('D', 21, 'clearing', 2), (1, 2),
             ),
         Operation(
@@ -783,7 +783,7 @@ def operations():
             ),
         Operation(
             StageToken('A', 1, 'isolatum', 1), 1,
-            'insert',
+            'bisect',
             StageToken('E', 6, 'clearing', 4), (2, 3),
             ),
         Operation(
@@ -798,12 +798,12 @@ def operations():
             ),
         Operation(
             StageToken('Q', 1, 'inception', 8), (1, 8), 
-            'insert',
+            'bisect',
             StageToken('E', 12, 'development', 4), (2, 3),
             ),
         Operation(
             StageToken('Q', 2, 'transformatum', 12), (1, 12),
-            'insert',
+            'bisect',
             StageToken('E', 12, 'development', 4), (2, 3),
             ),
         Operation(
@@ -818,7 +818,7 @@ def operations():
             ),
         Operation(
             StageToken('C', 7, 'isolatum', 1), 1,
-            'insert',
+            'bisect',
             StageToken('G', 5, 'iteratum', 2), (1, 2),
             ),
         Operation(
@@ -843,17 +843,17 @@ def operations():
             ),
         Operation(
             StageToken('G', 5, 'iteratum', 1), 1,
-            'insert',
+            'bisect',
             StageToken('H', 14, 'clearing', 2), (1, 2),
             ),
         Operation(
             StageToken('C', 7, 'isolatum', 1), 1,
-            'insert',
+            'bisect',
             StageToken('J', 1, 'clearing', 4), (2, 3),
             ),
         Operation(
             StageToken('C', 14, 'conclusion', 4), (3, 4),
-            'insert',
+            'bisect',
             StageToken('K', 1, 'inception', 4), (2, 3),
             ),
         Operation(
@@ -883,7 +883,7 @@ def operations():
             ),
         Operation(
             StageToken('K', 6, 'clearing', 3), 2,
-            'insert',
+            'bisect',
             StageToken('N', 6, 'conclusion', 12), (6, 7),
             ),
         Operation(
