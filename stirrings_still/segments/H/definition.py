@@ -15,6 +15,12 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
+    baca.rehearsal_mark('H'),
+    baca.rehearsal_mark_y_offset(12),
+    )
+
+maker(
+    'GlobalSkips',
     baca.metronome_mark('largo'),
     baca.metronome_mark(abjad.Accelerando()),
     baca.metronome_mark('adagio', baca.skip(4 - 1)),
@@ -37,17 +43,14 @@ maker(
     baca.metronome_mark('largo', baca.skip(52 - 1)),
     )
 
-maker(
-    'GlobalSkips',
-    baca.rehearsal_mark('H'),
-    baca.rehearsal_mark_y_offset(12),
-    )
-
-maker(
-    'GlobalRests',
-    baca.global_fermata('short', baca.rest(29 - 1)),
-    baca.global_fermata('short', baca.rest(32 - 1)),
-    baca.global_fermata('short', baca.rest(34 - 1)),
-    baca.global_fermata('short', baca.rest(40 - 1)),
-    baca.global_fermata('short', baca.rest(45 - 1)),
-    )
+for fermata, lmn  in [
+    ('short', 29),
+    ('short', 32),
+    ('short', 34),
+    ('short', 40),
+    ('short', 45),
+    ]:
+    maker(
+        'GlobalRests',
+        baca.global_fermata(fermata, baca.rest(lmn - 1)),
+        )

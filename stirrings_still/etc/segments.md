@@ -1257,7 +1257,6 @@ SEGMENTS
             hair;
             B1 slack-string up-bow rh-terminated exponential crescendo to mf;
         <<attacca [D.11] to effect prefix>>
-
     [D.11] (54-59 + long)
     (6 measures)
     presto-to-largo ritardando happens;
@@ -1957,7 +1956,7 @@ SEGMENTS
     >>attacca [G.3] to effect prefix<<
     [G.3] (7 + fermata)
     (1 measure)
-    largo più mosso continues;
+    largo più mosso resumes after prefix;
     tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
     pause;
@@ -1976,6 +1975,7 @@ SEGMENTS
         single declamation happens again;
     attacca suffix;
     <<[C.7 (clocktick composite) 1/1] bisects [G.5]>>:
+        allegro;
         <<summons past time>>;
         v1 shining beacon of clouded pane:
             harmonic lh;
@@ -1992,9 +1992,10 @@ SEGMENTS
             pp;
         cut-off;
         <<attacca second half of [G.5]>>;
+        <<largo più mosso resumes for second half of [G.5]>>;
     long pause;
 
-    [G.6] (15-16 + long + 18 + long)
+    [G.6] (15-16 + long + 18-19 + long)
     (2 measures)
     larghissimo governs stage;
     tutti urtext field blossoms aflight (without clouded pane):
@@ -2014,8 +2015,9 @@ SEGMENTS
                 unmarked swells on each note;
                 pp < mf governs stage;
     long pause;
-    <<[D.11 (process) 1-6/6] prolongs [G.6] long pause>>:
+    <<[D.11 (process) 1-2/6] prolongs [G.6] long pause>>:
         <<summons past time>>;
+        presto-to-andante ritardando;
 
 [H] time series B; 45 (- 4 fermata) measures; rotation -16
 
@@ -2281,6 +2283,7 @@ SEGMENTS
     short pause [vc continues through pause];
     <<[G.5 -> C.7 (pane / urtext conflict)] prolongs [H.10] short pause>>:
         <<summons past time>>;
+        allegro;
         tasto stopped lh;
         1/2 clt;
         mf;
