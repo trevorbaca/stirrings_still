@@ -436,12 +436,14 @@ def operations():
                         length=1,
                         ),
                     source_measures=1,
-                    verb='suffix',
+                    verb='insert',
                     target_stage=stirrings_still.StageToken(
                         letter='G',
                         number=5,
                         description='iteratum',
+                        length=2,
                         ),
+                    target_site=(1, 2),
                     ),
                 stirrings_still.Operation(
                     source_stage=stirrings_still.StageToken(
@@ -816,8 +818,8 @@ def operations():
             ),
         Operation(
             StageToken('C', 7, 'isolatum', 1), 1,
-            'suffix',
-            StageToken('G', 5, 'iteratum'),
+            'insert',
+            StageToken('G', 5, 'iteratum', 2), (1, 2),
             ),
         Operation(
             StageToken('D', 11, 'isolatum', 6), 6,
