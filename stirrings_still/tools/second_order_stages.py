@@ -193,7 +193,7 @@ def second_order_stages(segment):
                                 length=2,
                                 ),
                             source_measures=2,
-                            verb='insert',
+                            verb='bisect',
                             target_stage=stirrings_still.StageToken(
                                 letter='A',
                                 number=12,
@@ -225,7 +225,7 @@ def second_order_stages(segment):
                                 length=2,
                                 ),
                             source_measures=2,
-                            verb='insert',
+                            verb='bisect',
                             target_stage=stirrings_still.StageToken(
                                 letter='A',
                                 number=13,
@@ -465,7 +465,7 @@ def second_order_stages(segment):
                                 length=1,
                                 ),
                             source_measures=1,
-                            verb='insert',
+                            verb='bisect',
                             target_stage=stirrings_still.StageToken(
                                 letter='B',
                                 number=12,
@@ -1150,7 +1150,7 @@ def second_order_stages(segment):
                                 length=2,
                                 ),
                             source_measures=2,
-                            verb='insert',
+                            verb='bisect',
                             target_stage=stirrings_still.StageToken(
                                 letter='D',
                                 number=9,
@@ -1222,7 +1222,7 @@ def second_order_stages(segment):
                                 length=2,
                                 ),
                             source_measures=2,
-                            verb='insert',
+                            verb='bisect',
                             target_stage=stirrings_still.StageToken(
                                 letter='D',
                                 number=12,
@@ -1339,7 +1339,7 @@ def second_order_stages(segment):
                                 length=2,
                                 ),
                             source_measures=2,
-                            verb='insert',
+                            verb='bisect',
                             target_stage=stirrings_still.StageToken(
                                 letter='D',
                                 number=21,
@@ -1514,7 +1514,7 @@ def second_order_stages(segment):
                                 length=1,
                                 ),
                             source_measures=1,
-                            verb='insert',
+                            verb='bisect',
                             target_stage=stirrings_still.StageToken(
                                 letter='E',
                                 number=6,
@@ -1714,7 +1714,7 @@ def second_order_stages(segment):
                                 length=12,
                                 ),
                             source_measures=(1, 12),
-                            verb='insert',
+                            verb='bisect',
                             target_stage=stirrings_still.StageToken(
                                 letter='E',
                                 number=12,
@@ -1930,7 +1930,7 @@ def second_order_stages(segment):
                                 length=1,
                                 ),
                             source_measures=1,
-                            verb='insert',
+                            verb='bisect',
                             target_stage=stirrings_still.StageToken(
                                 letter='G',
                                 number=5,
@@ -2218,7 +2218,7 @@ def second_order_stages(segment):
                                 length=1,
                                 ),
                             source_measures=1,
-                            verb='insert',
+                            verb='bisect',
                             target_stage=stirrings_still.StageToken(
                                 letter='H',
                                 number=14,
@@ -2347,7 +2347,7 @@ def second_order_stages(segment):
                                 length=1,
                                 ),
                             source_measures=1,
-                            verb='insert',
+                            verb='bisect',
                             target_stage=stirrings_still.StageToken(
                                 letter='J',
                                 number=1,
@@ -2446,7 +2446,7 @@ def second_order_stages(segment):
                                 length=4,
                                 ),
                             source_measures=(3, 4),
-                            verb='insert',
+                            verb='bisect',
                             target_stage=stirrings_still.StageToken(
                                 letter='K',
                                 number=1,
@@ -2893,7 +2893,7 @@ def second_order_stages(segment):
                                 length=3,
                                 ),
                             source_measures=2,
-                            verb='insert',
+                            verb='bisect',
                             target_stage=stirrings_still.StageToken(
                                 letter='N',
                                 number=6,
