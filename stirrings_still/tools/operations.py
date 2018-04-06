@@ -672,7 +672,7 @@ def operations():
                         description='clearing',
                         length=3,
                         ),
-                    source_measures=2,
+                    source_measures=1,
                     verb='prefix',
                     target_stage=stirrings_still.StageToken(
                         letter='Q',
@@ -892,7 +892,7 @@ def operations():
             StageToken('O', 1, 'isolatum'),
             ),
         Operation(
-            StageToken('K', 6, 'clearing', 3), 2,
+            StageToken('K', 6, 'clearing', 3), 1,
             'prefix',
             StageToken('Q', 1, 'inception'),
             ),

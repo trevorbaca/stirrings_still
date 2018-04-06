@@ -3068,16 +3068,18 @@ SEGMENTS
 
     [piece-ending process of compression:]
 
-    <<[N.6 -> K.6 (clearing) 2/3] prefixed to [Q.1 (inception)]>>:
+    <<[N.6 -> K.6 (clearing) 1/3] prefixed to [Q.1 (inception)]>>:
+        <<summons past time>>;
+        andante;
         tutti flight:
             stopped lh;
             hair;
             continuous tremolo;
             mp;
-
-    [Q.1] (1-8)
+        <<attacca [Q.1] to effect prefix>>;
+    [Q.1] (1 + 2-9)
     (8 measures)
-    presto continues;
+    presto resumse after prefix;
     tutti ellipses continue (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
@@ -3085,9 +3087,9 @@ SEGMENTS
         p;
     surprisingly short breath [v2 plays ellipses through breath];
 
-    [Q.2] (9-20 + very short)
+    [Q.2] (10-21)
     (12 measures)
-    adagio-to-presto accelerando happens;
+    adagio-to-presto accelerando begins;
     tutti urtext field / trajectories appear (desynchronized pitched field
         trajectories whisked skyward):
         urtext field double-stops;
@@ -3095,11 +3097,11 @@ SEGMENTS
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
         ff poco scratch < fff scratch > f senza scratch;
-    very short pause [v1 holds color through pause];
+    surprisingly short breath [v1 holds color through breath];
 
     [Q.3] (22-27)
     (6 measures)
-    presto;
+    presto achieved at start of stage;
     tutti ellipses return (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
@@ -3107,9 +3109,9 @@ SEGMENTS
         p;
     surprisingly short breath [v2 plays ellipses through breath];
 
-    [Q.4] (28-37 + very short)
+    [Q.4] (28-37)
     (10 measures)
-    adagio-to-presto accelerando happens;
+    adagio-to-presto accelerando begins;
     tutti urtext field / trajectories return (desynchronized pitched field
         trajectories whisked skyward;
         urtext field double-stops;
@@ -3117,11 +3119,11 @@ SEGMENTS
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
         f poco scratch < ff scratch > mf senza scratch;
-    very short pause [v1 holds color through pause];
+    surprisingly short breath [v1 holds color through breath];
 
-    [Q.5] (39-43)
+    [Q.5] (38-42)
     (5 measures)
-    presto;
+    presto achieved at start of stage;
     tutti ellipses return (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
@@ -3129,9 +3131,9 @@ SEGMENTS
         p;
     surprisingly short breath [v2 plays ellipses through breath];
 
-    [Q.6] (44-51 + very short)
+    [Q.6] (43-50)
     (8 measures)
-    adagio-to-presto accelerando happens;
+    adagio-to-presto accelerando begins;
     tutti urtext field / trajectories return (desynchronized pitched field
         trajectories whisked skyward):
         urtext field double-stops;
@@ -3139,11 +3141,11 @@ SEGMENTS
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
         mf < f scratch > mp senza scratch;
-    very short pause [v1 holds color through pause];
+    surprisingly short breath [v1 holds color through breath];
 
-    [Q.7] (53-56)
+    [Q.7] (51-54)
     (4 measures)
-    presto;
+    presto achieved at start of stage;
     tutti ellipses return (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
@@ -3151,9 +3153,9 @@ SEGMENTS
         p;
     surprisingly short breath [v2 plays ellipses through breath];
 
-    [Q.8] (57-62 + very short)
+    [Q.8] (55-60)
     (6 measures)
-    adagio-to-presto accelerando happens;
+    adagio-to-presto accelerando begins;
     tutti urtext field / trajectories return (desynchronized pitched field
         trajectories whisked skyward):
         urtext field double-stops;
@@ -3161,11 +3163,11 @@ SEGMENTS
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
         mp < mf scratch > senza scratch p;
-    very short pause [v1 holds color through pause];
+    surprisingly short breath [v1 holds color through breath];
 
-    [Q.9] (64-66)
+    [Q.9] (61-63)
     (3 measures)
-    presto;
+    presto achieved at start of stage;
     tutti ellipses return (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
@@ -3173,9 +3175,9 @@ SEGMENTS
         p;
     surprisingly short breath [v2 plays ellipses through breath];
 
-    [Q.10] (67-70 + very short)
+    [Q.10] (64-67)
     (4 measures)
-    adagio-to-presto accelerando happens;
+    adagio-to-presto accelerando begins;
     tutti urtext field / trajectories return (desynchronized pitched field
         trajectories whisked skyward):
         urtext field double-stops;
@@ -3183,11 +3185,11 @@ SEGMENTS
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
         p < mp scratch > senza scratch pp;
-    very short pause [v1 holds color through pause];
+    surprisingly short breath [v1 holds color through breath];
 
-    [Q.11] (72-73)
+    [Q.11] (68-69)
     (2 measures)
-    presto;
+    presto achieved at start of stage;
     tutti ellipses return (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
@@ -3195,9 +3197,10 @@ SEGMENTS
         p;
     surprisingly short breath [v2 plays ellipses through breath];
 
-    [Q.12] (74-75 + fermata)
+    [Q.12] (70-71 + fermata)
     (2 measures)
-    adagio-to-presto accelerando happens;
+    adagio-to-presto accelerando begins;
+    presto achieved at fermata;
     tutti trajectories return (desynchronized pitched field trajectories
         whisked skyward):
         subito pitch;
@@ -3206,9 +3209,11 @@ SEGMENTS
         pp < p scratch > senza scratch ppp;
     pause [v1 holds color through pause];
 
-    [Q.13] (77-96)
+    [Q.13] (73-92)
     (20 measures)
-    presto-to-largo ritardando happens;
+    presto achieved at start of stage;
+    presto-to-largo ritardando begins;
+    largo achieved on measure 3:4 downbeat;
     v1, v2 trajectories continue:
         stopped lh continues;
         1/2 clt continues;
