@@ -2,18 +2,18 @@ import abjad
 import stirrings_still
 
 
-def second_order_stage_specifiers(segment):
+def second_order_stages(segment):
     r'''Makes second-order time signatures.
 
     >>> import stirrings_still
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('A')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('A')
+        >>> len(stages)
         18
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -316,11 +316,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('B')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('B')
+        >>> len(stages)
         24
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -692,11 +692,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('C')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('C')
+        >>> len(stages)
         19
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -985,11 +985,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('D')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('D')
+        >>> len(stages)
         22
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -1387,11 +1387,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('E')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('E')
+        >>> len(stages)
         17
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -1782,11 +1782,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('F')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('F')
+        >>> len(stages)
         2
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -1843,11 +1843,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('G')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('G')
+        >>> len(stages)
         6
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -1978,11 +1978,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('H')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('H')
+        >>> len(stages)
         14
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -2234,11 +2234,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('I')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('I')
+        >>> len(stages)
         7
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -2320,11 +2320,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('J')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('J')
+        >>> len(stages)
         6
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -2419,11 +2419,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('K')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('K')
+        >>> len(stages)
         10
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -2624,11 +2624,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('L')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('L')
+        >>> len(stages)
         1
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -2653,11 +2653,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('M')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('M')
+        >>> len(stages)
         7
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -2760,11 +2760,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('N')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('N')
+        >>> len(stages)
         7
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -2921,11 +2921,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('O')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('O')
+        >>> len(stages)
         1
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -2968,11 +2968,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('P')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('P')
+        >>> len(stages)
         5
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -3051,11 +3051,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('Q')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('Q')
+        >>> len(stages)
         13
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -3327,11 +3327,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('R')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('R')
+        >>> len(stages)
         4
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -3391,11 +3391,11 @@ def second_order_stage_specifiers(segment):
 
     ..  container:: example
 
-        >>> specifiers = stirrings_still.second_order_stage_specifiers('S')
-        >>> len(specifiers)
+        >>> stages = stirrings_still.second_order_stages('S')
+        >>> len(stages)
         9
 
-        >>> abjad.f(specifiers)
+        >>> abjad.f(stages)
         abjad.OrderedDict(
             [
                 (
@@ -3518,14 +3518,14 @@ def second_order_stage_specifiers(segment):
             )
 
     '''
-    target_stages = stirrings_still.first_order_stage_specifiers(segment)
+    target_stages = stirrings_still.first_order_stages(segment)
     assert isinstance(target_stages, abjad.OrderedDict)
     operations = stirrings_still.operations()
     for operation in operations:
         if operation.target_stage.letter != segment:
             continue
         source_segment = operation.source_stage.letter
-        source_stages = stirrings_still.first_order_stage_specifiers(
+        source_stages = stirrings_still.first_order_stages(
             source_segment
             )
         source_stage = source_stages[operation.source_stage.number]
