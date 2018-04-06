@@ -7,7 +7,7 @@ def time_signatures(segment):
     r'''Makes `segment` time sigantures.
     '''
     time_signatures = []
-    dictionary = stirrings_still.second_order_stage_specifiers(segment)
+    dictionary = stirrings_still.second_order_stages(segment)
     for stage_number, stage_specifier in dictionary.items():
         time_signatures.extend(stage_specifier.all_time_signatures())
     return time_signatures

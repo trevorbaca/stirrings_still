@@ -2,8 +2,8 @@ from .Operation import Operation
 from .ScoreTemplate import ScoreTemplate
 from .StageSpecifier import StageSpecifier
 from .StageToken import StageToken
-from .first_order_stage_specifiers import first_order_stage_specifiers
+from .first_order_stages import first_order_stages
 from .margin_markup import margin_markup
 from .operations import operations
-from .second_order_stage_specifiers import second_order_stage_specifiers
+from .second_order_stages import second_order_stages
 from .time_signatures import time_signatures
