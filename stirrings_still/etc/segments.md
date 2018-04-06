@@ -1944,7 +1944,7 @@ SEGMENTS
         single declamation happens again;
     pause;
 
-    >>[J.1 (clearing) 1-2/4] prefixes [G.3 (iteratum)]<<:
+    >>[J.1 (clearing) 1-2/4] prefixes [G.3 (iteratum)]<< (5-6):
         >>summons future time<<;
         larghissimo;
         v1, v2, va urtext field:
@@ -1955,29 +1955,27 @@ SEGMENTS
         vc:
             tacet;
     >>attacca [G.3] to effect prefix<<
-
-    [G.3] (5 + fermata)
+    [G.3] (7 + fermata)
     (1 measure)
     largo più mosso continues;
     tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
     pause;
 
-    [G.4] (7 + fermata)
+    [G.4] (9 + fermata)
     (1 measure)
     largo più mosso continues;
     tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
     pause;
 
-    [G.5] (9 + fermata)
-    (1 measure)
+    [G.5] (11 + 12 + 13 + long)
+    (2 measures)
     largo più mosso continues;
     tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
     attacca suffix;
-
-    <<[C.7 (clocktick composite) 1/1] suffixes [G.5]>>:
+    <<[C.7 (clocktick composite) 1/1] bisects [G.5]>>:
         <<summons past time>>;
         v1 shining beacon of clouded pane:
             harmonic lh;
@@ -1993,12 +1991,10 @@ SEGMENTS
             hair;
             pp;
         cut-off;
-        attacca iteratum;
-
-    <<[G.5] repeats to effect within-insertion of [C.7]>>
+        <<attacca second half of [G.5]>>;
     long pause;
 
-    [G.6] (11-12 + long)
+    [G.6] (15-16 + long + 18 + long)
     (2 measures)
     larghissimo governs stage;
     tutti urtext field blossoms aflight (without clouded pane):
@@ -2018,8 +2014,7 @@ SEGMENTS
                 unmarked swells on each note;
                 pp < mf governs stage;
     long pause;
-
-    <<[D.11 (process) 1-6/6] suffixes [G.6] long pause>>:
+    <<[D.11 (process) 1-6/6] prolongs [G.6] long pause>>:
         <<summons past time>>;
 
 [H] time series B; 45 (- 4 fermata) measures; rotation -16
