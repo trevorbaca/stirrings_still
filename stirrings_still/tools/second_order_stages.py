@@ -125,21 +125,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((14, 16)),
                             ],
                         postsuffix='fermata',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='G',
-                                number=1,
-                                description='inception',
-                                length=1,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='G',
+                                    number=1,
+                                    description='inception',
+                                    length=1,
+                                    ),
+                                source_measures=1,
+                                verb='suffix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='A',
+                                    number=9,
+                                    description='iteratum',
+                                    ),
                                 ),
-                            source_measures=1,
-                            verb='suffix',
-                            target_stage=stirrings_still.StageToken(
-                                letter='A',
-                                number=9,
-                                description='iteratum',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -184,23 +186,25 @@ def second_order_stages(segment):
                             abjad.TimeSignature((15, 16)),
                             abjad.TimeSignature((14, 16)),
                             ],
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='I',
-                                number=6,
-                                description='current',
-                                length=2,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='I',
+                                    number=6,
+                                    description='current',
+                                    length=2,
+                                    ),
+                                source_measures=2,
+                                verb='bisect',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='A',
+                                    number=12,
+                                    description='conclusion',
+                                    length=4,
+                                    ),
+                                target_site=(2, 3),
                                 ),
-                            source_measures=2,
-                            verb='bisect',
-                            target_stage=stirrings_still.StageToken(
-                                letter='A',
-                                number=12,
-                                description='conclusion',
-                                length=4,
-                                ),
-                            target_site=(2, 3),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -216,23 +220,25 @@ def second_order_stages(segment):
                             abjad.TimeSignature((14, 16)),
                             ],
                         after='fermata',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='I',
-                                number=6,
-                                description='current',
-                                length=2,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='I',
+                                    number=6,
+                                    description='current',
+                                    length=2,
+                                    ),
+                                source_measures=2,
+                                verb='bisect',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='A',
+                                    number=13,
+                                    description='iteratum',
+                                    length=4,
+                                    ),
+                                target_site=(2, 3),
                                 ),
-                            source_measures=2,
-                            verb='bisect',
-                            target_stage=stirrings_still.StageToken(
-                                letter='A',
-                                number=13,
-                                description='iteratum',
-                                length=4,
-                                ),
-                            target_site=(2, 3),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -259,21 +265,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((7, 8)),
                             ],
                         postsuffix='fermata',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='H',
-                                number=1,
-                                description='inception',
-                                length=4,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='H',
+                                    number=1,
+                                    description='inception',
+                                    length=4,
+                                    ),
+                                source_measures=(3, 4),
+                                verb='suffix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='A',
+                                    number=15,
+                                    description='iteratum',
+                                    ),
                                 ),
-                            source_measures=(3, 4),
-                            verb='suffix',
-                            target_stage=stirrings_still.StageToken(
-                                letter='A',
-                                number=15,
-                                description='iteratum',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -455,23 +463,25 @@ def second_order_stages(segment):
                             abjad.TimeSignature((4, 8)),
                             ],
                         after='fermata',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='A',
-                                number=1,
-                                description='isolatum',
-                                length=1,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='A',
+                                    number=1,
+                                    description='isolatum',
+                                    length=1,
+                                    ),
+                                source_measures=1,
+                                verb='bisect',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='B',
+                                    number=12,
+                                    description='conclusion',
+                                    length=2,
+                                    ),
+                                target_site=(1, 2),
                                 ),
-                            source_measures=1,
-                            verb='bisect',
-                            target_stage=stirrings_still.StageToken(
-                                letter='B',
-                                number=12,
-                                description='conclusion',
-                                length=2,
-                                ),
-                            target_site=(1, 2),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -498,21 +508,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((7, 8)),
                             ],
                         after='fermata',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='H',
-                                number=1,
-                                description='inception',
-                                length=4,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='H',
+                                    number=1,
+                                    description='inception',
+                                    length=4,
+                                    ),
+                                source_measures=(3, 4),
+                                verb='prefix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='B',
+                                    number=14,
+                                    description='iteratum',
+                                    ),
                                 ),
-                            source_measures=(3, 4),
-                            verb='prefix',
-                            target_stage=stirrings_still.StageToken(
-                                letter='B',
-                                number=14,
-                                description='iteratum',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -540,21 +552,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((12, 16)),
                             ],
                         postsuffix='fermata',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='A',
-                                number=18,
-                                description='isolatum',
-                                length=1,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='A',
+                                    number=18,
+                                    description='isolatum',
+                                    length=1,
+                                    ),
+                                source_measures=1,
+                                verb='suffix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='B',
+                                    number=16,
+                                    description='iteratum',
+                                    ),
                                 ),
-                            source_measures=1,
-                            verb='suffix',
-                            target_stage=stirrings_still.StageToken(
-                                letter='B',
-                                number=16,
-                                description='iteratum',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -686,21 +700,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((5, 8)),
                             ],
                         after='fermata',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='D',
-                                number=16,
-                                description='development',
-                                length=2,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='D',
+                                    number=16,
+                                    description='development',
+                                    length=2,
+                                    ),
+                                source_measures=1,
+                                verb='prefix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='B',
+                                    number=24,
+                                    description='isolatum',
+                                    ),
                                 ),
-                            source_measures=1,
-                            verb='prefix',
-                            target_stage=stirrings_still.StageToken(
-                                letter='B',
-                                number=24,
-                                description='isolatum',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 ]
@@ -730,21 +746,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((14, 16)),
                             ],
                         postsuffix='fermata',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='G',
-                                number=1,
-                                description='inception',
-                                length=1,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='G',
+                                    number=1,
+                                    description='inception',
+                                    length=1,
+                                    ),
+                                source_measures=1,
+                                verb='suffix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='C',
+                                    number=1,
+                                    description='isolatum',
+                                    ),
                                 ),
-                            source_measures=1,
-                            verb='suffix',
-                            target_stage=stirrings_still.StageToken(
-                                letter='C',
-                                number=1,
-                                description='isolatum',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -917,21 +935,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((8, 16)),
                             abjad.TimeSignature((12, 16)),
                             ],
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='J',
-                                number=1,
-                                description='clearing',
-                                length=4,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='J',
+                                    number=1,
+                                    description='clearing',
+                                    length=4,
+                                    ),
+                                source_measures=(1, 2),
+                                verb='suffix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='C',
+                                    number=14,
+                                    description='conclusion',
+                                    ),
                                 ),
-                            source_measures=(1, 2),
-                            verb='suffix',
-                            target_stage=stirrings_still.StageToken(
-                                letter='C',
-                                number=14,
-                                description='conclusion',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -1100,21 +1120,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((3, 4)),
                             ],
                         postsuffix='fermata',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='I',
-                                number=6,
-                                description='current',
-                                length=2,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='I',
+                                    number=6,
+                                    description='current',
+                                    length=2,
+                                    ),
+                                source_measures=2,
+                                verb='prolong',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='D',
+                                    number=6,
+                                    description='pause',
+                                    ),
                                 ),
-                            source_measures=2,
-                            verb='prolong',
-                            target_stage=stirrings_still.StageToken(
-                                letter='D',
-                                number=6,
-                                description='pause',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -1157,23 +1179,25 @@ def second_order_stages(segment):
                             abjad.TimeSignature((15, 16)),
                             ],
                         after='long',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='F',
-                                number=2,
-                                description='clearing',
-                                length=2,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='F',
+                                    number=2,
+                                    description='clearing',
+                                    length=2,
+                                    ),
+                                source_measures=2,
+                                verb='bisect',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='D',
+                                    number=9,
+                                    description='isolatum',
+                                    length=4,
+                                    ),
+                                target_site=(2, 3),
                                 ),
-                            source_measures=2,
-                            verb='bisect',
-                            target_stage=stirrings_still.StageToken(
-                                letter='D',
-                                number=9,
-                                description='isolatum',
-                                length=4,
-                                ),
-                            target_site=(2, 3),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -1202,21 +1226,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((12, 16)),
                             ],
                         after='long',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='S',
-                                number=2,
-                                description='transformatum',
-                                length=1,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='S',
+                                    number=2,
+                                    description='transformatum',
+                                    length=1,
+                                    ),
+                                source_measures=1,
+                                verb='prefix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='D',
+                                    number=11,
+                                    description='isolatum',
+                                    ),
                                 ),
-                            source_measures=1,
-                            verb='prefix',
-                            target_stage=stirrings_still.StageToken(
-                                letter='D',
-                                number=11,
-                                description='isolatum',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -1229,23 +1255,25 @@ def second_order_stages(segment):
                             abjad.TimeSignature((3, 4)),
                             abjad.TimeSignature((12, 16)),
                             ],
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='I',
-                                number=1,
-                                description='clearing',
-                                length=2,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='I',
+                                    number=1,
+                                    description='clearing',
+                                    length=2,
+                                    ),
+                                source_measures=2,
+                                verb='bisect',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='D',
+                                    number=12,
+                                    description='inception',
+                                    length=2,
+                                    ),
+                                target_site=(1, 2),
                                 ),
-                            source_measures=2,
-                            verb='bisect',
-                            target_stage=stirrings_still.StageToken(
-                                letter='D',
-                                number=12,
-                                description='inception',
-                                length=2,
-                                ),
-                            target_site=(1, 2),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -1346,23 +1374,25 @@ def second_order_stages(segment):
                             abjad.TimeSignature((6, 4)),
                             abjad.TimeSignature((15, 16)),
                             ],
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='F',
-                                number=2,
-                                description='clearing',
-                                length=2,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='F',
+                                    number=2,
+                                    description='clearing',
+                                    length=2,
+                                    ),
+                                source_measures=2,
+                                verb='bisect',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='D',
+                                    number=21,
+                                    description='clearing',
+                                    length=2,
+                                    ),
+                                target_site=(1, 2),
                                 ),
-                            source_measures=2,
-                            verb='bisect',
-                            target_stage=stirrings_still.StageToken(
-                                letter='D',
-                                number=21,
-                                description='clearing',
-                                length=2,
-                                ),
-                            target_site=(1, 2),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -1379,21 +1409,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((6, 4)),
                             ],
                         postsuffix='short',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='C',
-                                number=2,
-                                description='process',
-                                length=4,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='C',
+                                    number=2,
+                                    description='process',
+                                    length=4,
+                                    ),
+                                source_measures=(3, 4),
+                                verb='suffix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='D',
+                                    number=22,
+                                    description='conclusion',
+                                    ),
                                 ),
-                            source_measures=(3, 4),
-                            verb='suffix',
-                            target_stage=stirrings_still.StageToken(
-                                letter='D',
-                                number=22,
-                                description='conclusion',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 ]
@@ -1435,21 +1467,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((6, 8)),
                             abjad.TimeSignature((7, 8)),
                             ],
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='H',
-                                number=9,
-                                description='clearing',
-                                length=6,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='H',
+                                    number=9,
+                                    description='clearing',
+                                    length=6,
+                                    ),
+                                source_measures=(1, 2),
+                                verb='prefix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='E',
+                                    number=1,
+                                    description='inception',
+                                    ),
                                 ),
-                            source_measures=(1, 2),
-                            verb='prefix',
-                            target_stage=stirrings_still.StageToken(
-                                letter='E',
-                                number=1,
-                                description='inception',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -1520,23 +1554,25 @@ def second_order_stages(segment):
                             abjad.TimeSignature((6, 8)),
                             abjad.TimeSignature((7, 8)),
                             ],
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='A',
-                                number=1,
-                                description='isolatum',
-                                length=1,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='A',
+                                    number=1,
+                                    description='isolatum',
+                                    length=1,
+                                    ),
+                                source_measures=1,
+                                verb='bisect',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='E',
+                                    number=6,
+                                    description='clearing',
+                                    length=4,
+                                    ),
+                                target_site=(2, 3),
                                 ),
-                            source_measures=1,
-                            verb='bisect',
-                            target_stage=stirrings_still.StageToken(
-                                letter='E',
-                                number=6,
-                                description='clearing',
-                                length=4,
-                                ),
-                            target_site=(2, 3),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -1887,21 +1923,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((6, 4)),
                             ],
                         postsuffix='long',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='C',
-                                number=2,
-                                description='process',
-                                length=4,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='C',
+                                    number=2,
+                                    description='process',
+                                    length=4,
+                                    ),
+                                source_measures=(3, 4),
+                                verb='prolong',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='F',
+                                    number=2,
+                                    description='pause',
+                                    ),
                                 ),
-                            source_measures=(3, 4),
-                            verb='prolong',
-                            target_stage=stirrings_still.StageToken(
-                                letter='F',
-                                number=2,
-                                description='pause',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 ]
@@ -1949,21 +1987,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((15, 16)),
                             ],
                         after='fermata',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='J',
-                                number=1,
-                                description='clearing',
-                                length=4,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='J',
+                                    number=1,
+                                    description='clearing',
+                                    length=4,
+                                    ),
+                                source_measures=(1, 2),
+                                verb='prefix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='G',
+                                    number=3,
+                                    description='iteratum',
+                                    ),
                                 ),
-                            source_measures=(1, 2),
-                            verb='prefix',
-                            target_stage=stirrings_still.StageToken(
-                                letter='G',
-                                number=3,
-                                description='iteratum',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -1988,23 +2028,25 @@ def second_order_stages(segment):
                             abjad.TimeSignature((12, 16)),
                             ],
                         after='long',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='C',
-                                number=7,
-                                description='isolatum',
-                                length=1,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='C',
+                                    number=7,
+                                    description='isolatum',
+                                    length=1,
+                                    ),
+                                source_measures=1,
+                                verb='bisect',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='G',
+                                    number=5,
+                                    description='iteratum',
+                                    length=2,
+                                    ),
+                                target_site=(1, 2),
                                 ),
-                            source_measures=1,
-                            verb='bisect',
-                            target_stage=stirrings_still.StageToken(
-                                letter='G',
-                                number=5,
-                                description='iteratum',
-                                length=2,
-                                ),
-                            target_site=(1, 2),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -2022,21 +2064,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((12, 16)),
                             ],
                         postsuffix='long',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='D',
-                                number=11,
-                                description='isolatum',
-                                length=6,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='D',
+                                    number=11,
+                                    description='isolatum',
+                                    length=6,
+                                    ),
+                                source_measures=(1, 2),
+                                verb='prolong',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='G',
+                                    number=6,
+                                    description='pause',
+                                    ),
                                 ),
-                            source_measures=(1, 2),
-                            verb='prolong',
-                            target_stage=stirrings_still.StageToken(
-                                letter='G',
-                                number=6,
-                                description='pause',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 ]
@@ -2075,21 +2119,23 @@ def second_order_stages(segment):
                         suffix=[
                             abjad.TimeSignature((3, 4)),
                             ],
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='I',
-                                number=1,
-                                description='clearing',
-                                length=2,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='I',
+                                    number=1,
+                                    description='clearing',
+                                    length=2,
+                                    ),
+                                source_measures=2,
+                                verb='prolong',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='H',
+                                    number=2,
+                                    description='pause',
+                                    ),
                                 ),
-                            source_measures=2,
-                            verb='prolong',
-                            target_stage=stirrings_still.StageToken(
-                                letter='H',
-                                number=2,
-                                description='pause',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -2192,21 +2238,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((10, 16)),
                             ],
                         postsuffix='short',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='G',
-                                number=5,
-                                description='iteratum',
-                                length=1,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='G',
+                                    number=5,
+                                    description='iteratum',
+                                    length=1,
+                                    ),
+                                source_measures=1,
+                                verb='prolong',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='H',
+                                    number=10,
+                                    description='pause',
+                                    ),
                                 ),
-                            source_measures=1,
-                            verb='prolong',
-                            target_stage=stirrings_still.StageToken(
-                                letter='H',
-                                number=10,
-                                description='pause',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -2222,21 +2270,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((4, 8)),
                             ],
                         after='short',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='H',
-                                number=1,
-                                description='inception',
-                                length=4,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='H',
+                                    number=1,
+                                    description='inception',
+                                    length=4,
+                                    ),
+                                source_measures=(3, 4),
+                                verb='prefix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='H',
+                                    number=11,
+                                    description='iteratum',
+                                    ),
                                 ),
-                            source_measures=(3, 4),
-                            verb='prefix',
-                            target_stage=stirrings_still.StageToken(
-                                letter='H',
-                                number=11,
-                                description='iteratum',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -2276,23 +2326,25 @@ def second_order_stages(segment):
                             abjad.TimeSignature((10, 16)),
                             abjad.TimeSignature((4, 8)),
                             ],
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='G',
-                                number=5,
-                                description='iteratum',
-                                length=1,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='G',
+                                    number=5,
+                                    description='iteratum',
+                                    length=1,
+                                    ),
+                                source_measures=1,
+                                verb='bisect',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='H',
+                                    number=14,
+                                    description='clearing',
+                                    length=2,
+                                    ),
+                                target_site=(1, 2),
                                 ),
-                            source_measures=1,
-                            verb='bisect',
-                            target_stage=stirrings_still.StageToken(
-                                letter='H',
-                                number=14,
-                                description='clearing',
-                                length=2,
-                                ),
-                            target_site=(1, 2),
-                            ),
+                            ],
                         ),
                     ),
                 ]
@@ -2405,23 +2457,25 @@ def second_order_stages(segment):
                             abjad.TimeSignature((12, 16)),
                             abjad.TimeSignature((15, 16)),
                             ],
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='C',
-                                number=7,
-                                description='isolatum',
-                                length=1,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='C',
+                                    number=7,
+                                    description='isolatum',
+                                    length=1,
+                                    ),
+                                source_measures=1,
+                                verb='bisect',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='J',
+                                    number=1,
+                                    description='clearing',
+                                    length=4,
+                                    ),
+                                target_site=(2, 3),
                                 ),
-                            source_measures=1,
-                            verb='bisect',
-                            target_stage=stirrings_still.StageToken(
-                                letter='J',
-                                number=1,
-                                description='clearing',
-                                length=4,
-                                ),
-                            target_site=(2, 3),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -2504,23 +2558,25 @@ def second_order_stages(segment):
                             abjad.TimeSignature((3, 4)),
                             abjad.TimeSignature((7, 8)),
                             ],
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='C',
-                                number=14,
-                                description='conclusion',
-                                length=4,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='C',
+                                    number=14,
+                                    description='conclusion',
+                                    length=4,
+                                    ),
+                                source_measures=(3, 4),
+                                verb='bisect',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='K',
+                                    number=1,
+                                    description='inception',
+                                    length=4,
+                                    ),
+                                target_site=(2, 3),
                                 ),
-                            source_measures=(3, 4),
-                            verb='bisect',
-                            target_stage=stirrings_still.StageToken(
-                                letter='K',
-                                number=1,
-                                description='inception',
-                                length=4,
-                                ),
-                            target_site=(2, 3),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -2585,38 +2641,36 @@ def second_order_stages(segment):
                             abjad.TimeSignature((8, 8)),
                             ],
                         operation=[
-                            [
-                                stirrings_still.Operation(
-                                    source_stage=stirrings_still.StageToken(
-                                        letter='H',
-                                        number=13,
-                                        description='development',
-                                        length=4,
-                                        ),
-                                    source_measures=2,
-                                    verb='suffix',
-                                    target_stage=stirrings_still.StageToken(
-                                        letter='K',
-                                        number=6,
-                                        description='clearing',
-                                        ),
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='H',
+                                    number=13,
+                                    description='development',
+                                    length=4,
                                     ),
-                                stirrings_still.Operation(
-                                    source_stage=stirrings_still.StageToken(
-                                        letter='I',
-                                        number=6,
-                                        description='current',
-                                        length=2,
-                                        ),
-                                    source_measures=2,
-                                    verb='suffix',
-                                    target_stage=stirrings_still.StageToken(
-                                        letter='K',
-                                        number=6,
-                                        description='clearing',
-                                        ),
+                                source_measures=2,
+                                verb='suffix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='K',
+                                    number=6,
+                                    description='clearing',
                                     ),
-                                ],
+                                ),
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='I',
+                                    number=6,
+                                    description='current',
+                                    length=2,
+                                    ),
+                                source_measures=2,
+                                verb='suffix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='K',
+                                    number=6,
+                                    description='clearing',
+                                    ),
+                                ),
                             stirrings_still.Operation(
                                 source_stage=stirrings_still.StageToken(
                                     letter='H',
@@ -2683,23 +2737,25 @@ def second_order_stages(segment):
                             abjad.TimeSignature((7, 8)),
                             abjad.TimeSignature((6, 8)),
                             ],
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='K',
-                                number=5,
-                                description='development',
-                                length=3,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='K',
+                                    number=5,
+                                    description='development',
+                                    length=3,
+                                    ),
+                                source_measures=(1, 3),
+                                verb='replace',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='K',
+                                    number=9,
+                                    description='conclusion',
+                                    length=8,
+                                    ),
+                                target_site=(6, 8),
                                 ),
-                            source_measures=(1, 3),
-                            verb='replace',
-                            target_stage=stirrings_still.StageToken(
-                                letter='K',
-                                number=9,
-                                description='conclusion',
-                                length=8,
-                                ),
-                            target_site=(6, 8),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -2917,21 +2973,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((7, 8)),
                             abjad.TimeSignature((6, 8)),
                             ],
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='I',
-                                number=6,
-                                description='current',
-                                length=2,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='I',
+                                    number=6,
+                                    description='current',
+                                    length=2,
+                                    ),
+                                source_measures=(1, 2),
+                                verb='prefix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='N',
+                                    number=4,
+                                    description='inception',
+                                    ),
                                 ),
-                            source_measures=(1, 2),
-                            verb='prefix',
-                            target_stage=stirrings_still.StageToken(
-                                letter='N',
-                                number=4,
-                                description='inception',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -2985,23 +3043,25 @@ def second_order_stages(segment):
                             abjad.TimeSignature((7, 8)),
                             ],
                         after='very_long',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='K',
-                                number=6,
-                                description='clearing',
-                                length=3,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='K',
+                                    number=6,
+                                    description='clearing',
+                                    length=3,
+                                    ),
+                                source_measures=2,
+                                verb='bisect',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='N',
+                                    number=6,
+                                    description='conclusion',
+                                    length=12,
+                                    ),
+                                target_site=(6, 7),
                                 ),
-                            source_measures=2,
-                            verb='bisect',
-                            target_stage=stirrings_still.StageToken(
-                                letter='N',
-                                number=6,
-                                description='conclusion',
-                                length=12,
-                                ),
-                            target_site=(6, 7),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -3045,21 +3105,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((8, 8)),
                             ],
                         postsuffix='very_long',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='H',
-                                number=13,
-                                description='development',
-                                length=4,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='H',
+                                    number=13,
+                                    description='development',
+                                    length=4,
+                                    ),
+                                source_measures=4,
+                                verb='suffix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='O',
+                                    number=1,
+                                    description='isolatum',
+                                    ),
                                 ),
-                            source_measures=4,
-                            verb='suffix',
-                            target_stage=stirrings_still.StageToken(
-                                letter='O',
-                                number=1,
-                                description='isolatum',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 ]
@@ -3173,21 +3235,23 @@ def second_order_stages(segment):
                             abjad.TimeSignature((5, 8)),
                             abjad.TimeSignature((4, 8)),
                             ],
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='K',
-                                number=6,
-                                description='clearing',
-                                length=3,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='K',
+                                    number=6,
+                                    description='clearing',
+                                    length=3,
+                                    ),
+                                source_measures=1,
+                                verb='prefix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='Q',
+                                    number=1,
+                                    description='inception',
+                                    ),
                                 ),
-                            source_measures=1,
-                            verb='prefix',
-                            target_stage=stirrings_still.StageToken(
-                                letter='Q',
-                                number=1,
-                                description='inception',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 (
