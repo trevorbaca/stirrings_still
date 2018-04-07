@@ -19,7 +19,10 @@ maker(
     baca.rehearsal_mark_y_offset(12),
     )
 
-maker(
-    'GlobalSkips',
-    baca.metronome_mark('largo', baca.skip(1 - 1)),
-    )
+for value, lmn in [
+    ('largo', 1),
+    ]:
+    maker(
+        'GlobalSkips',
+        baca.metronome_mark(value, baca.skip(lmn - 1)),
+        )
