@@ -1,293 +1,284 @@
-Q_GlobalRests = {
+D_GlobalRests = {
     
-    % [Q GlobalRests measure 165]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 166]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 167]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 168]                                        %! SM4
-    R1 * 3/4
-    
-    % [Q GlobalRests measure 169]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 170]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 171]                                        %! SM4
-    R1 * 3/4
-    
-    % [Q GlobalRests measure 172]                                        %! SM4
+    % [D GlobalRests measure 1]                                          %! SM4
     R1 * 5/8
     
-    % [Q GlobalRests measure 173]                                        %! SM4
-    R1 * 1/2
-    
-    % [Q GlobalRests measure 174]                                        %! SM4
+    % [D GlobalRests measure 2]                                          %! SM4
     R1 * 3/4
     
-    % [Q GlobalRests measure 175]                                        %! SM4
-    R1 * 7/8
+    % [D GlobalRests measure 3]                                          %! SM4
+    R1 * 3/4
     
-    % [Q GlobalRests measure 176]                                        %! SM4
-    R1 * 7/8
+    % [D GlobalRests measure 4]                                          %! SM4
+    R1 * 3/4
     
-    % [Q GlobalRests measure 177]                                        %! SM4
+    % [D GlobalRests measure 5]                                          %! SM4
     R1 * 1/2
     
-    % [Q GlobalRests measure 178]                                        %! SM4
+    % [D GlobalRests measure 6]                                          %! SM4
+    R1 * 15/16
+    
+    % [D GlobalRests measure 7]                                          %! SM4
+    R1 * 15/16
+    
+    % [D GlobalRests measure 8]                                          %! SM4
+    R1 * 7/8
+    
+    % [D GlobalRests measure 9]                                          %! SM4
+    R1 * 7/8
+    
+    % [D GlobalRests measure 10]                                         %! SM4
+    R1 * 1/2
+    
+    % [D GlobalRests measure 11]                                         %! SM4
+    R1 * 3/4
+    
+    % [D GlobalRests measure 12]                                         %! SM4
+    R1 * 3/4
+    
+    % [D GlobalRests measure 13]                                         %! SM4
+    R1 * 7/8
+    
+    % [D GlobalRests measure 14]                                         %! SM4
+    R1 * 15/16
+    
+    % [D GlobalRests measure 15]                                         %! SM4
+    R1 * 15/16
+    
+    % [D GlobalRests measure 16]                                         %! SM4
+    R1 * 7/8
+    
+    % [D GlobalRests measure 17]                                         %! SM4
+    R1 * 3/4
+    
+    % [D GlobalRests measure 18]                                         %! SM4
     R1 * 5/8
     
-    % [Q GlobalRests measure 179]                                        %! SM4
-    R1 * 3/4
+    % [D GlobalRests measure 19]                                         %! SM4
+    R1 * 7/8
     
-    % [Q GlobalRests measure 180]                                        %! SM4
-    R1 * 1
+    % [D GlobalRests measure 20]                                         %! SM4
+    R1 * 7/8
     
-    % [Q GlobalRests measure 181]                                        %! SM4
-    R1 * 1
+    % [D GlobalRests measure 21]                                         %! SM4
+    R1 * 15/16
     
-    % [Q GlobalRests measure 182]                                        %! SM4
+    % [D GlobalRests measure 22]                                         %! SM4
+    R1 * 15/16
+    
+    % [D GlobalRests measure 23]                                         %! SM4
     R1 * 5/8
     
-    % [Q GlobalRests measure 183]                                        %! SM4
+    % [D GlobalRests measure 24]                                         %! SM4
+    R1 * 3/4
+    
+    % [D GlobalRests measure 25]                                         %! SM4
+    R1 * 3/4
+    
+    % [D GlobalRests measure 26]                                         %! SM4
     R1 * 1/2
     
-    % [Q GlobalRests measure 184]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 185]                                        %! SM4
+    % [D GlobalRests measure 27]                                         %! SM4
     R1 * 3/4
     
-    % [Q GlobalRests measure 186]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 187]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 188]                                        %! SM4
+    % [D GlobalRests measure 28]                                         %! SM4
     R1 * 3/4
     
-    % [Q GlobalRests measure 189]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 190]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 191]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 192]                                        %! SM4
-    R1 * 3/4
-    
-    % [Q GlobalRests measure 193]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 194]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 195]                                        %! SM4
-    R1 * 3/4
-    
-    % [Q GlobalRests measure 196]                                        %! SM4
-    R1 * 1/2
-    
-    % [Q GlobalRests measure 197]                                        %! SM4
+    % [D GlobalRests measure 29]                                         %! SM4
     R1 * 5/8
     
-    % [Q GlobalRests measure 198]                                        %! SM4
+    % [D GlobalRests measure 30]                                         %! SM4
     R1 * 3/4
     
-    % [Q GlobalRests measure 199]                                        %! SM4
-    R1 * 7/8
+    % [D GlobalRests measure 31]                                         %! SM4
+    R1 * 3/4
     
-    % [Q GlobalRests measure 200]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 201]                                        %! SM4
-    R1 * 5/8
-    
-    % [Q GlobalRests measure 202]                                        %! SM4
+    % [D GlobalRests measure 32]                                         %! SM4
     R1 * 1/2
     
-    % [Q GlobalRests measure 203]                                        %! SM4
-    R1 * 3/4
+    % [D GlobalRests measure 33]                                         %! SM4
+    R1 * 15/16
     
-    % [Q GlobalRests measure 204]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 205]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 206]                                        %! SM4
-    R1 * 1/2
-    
-    % [Q GlobalRests measure 207]                                        %! SM4
-    R1 * 5/8
-    
-    % [Q GlobalRests measure 208]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 209]                                        %! SM4
-    R1 * 3/4
-    
-    % [Q GlobalRests measure 210]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 211]                                        %! SM4
+    % [D GlobalRests measure 34]                                         %! SM4
     R1 * 7/8
     
-    % [Q GlobalRests measure 212]                                        %! SM4
-    R1 * 3/4
-    
-    % [Q GlobalRests measure 213]                                        %! SM4
+    % [D GlobalRests measure 35]                                         %! SM4
     R1 * 7/8
     
-    % [Q GlobalRests measure 214]                                        %! SM4
-    R1 * 1
+    % [D GlobalRests measure 36]                                         %! SM4
+    R1 * 15/16
     
-    % [Q GlobalRests measure 215]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 216]                                        %! SM4
-    R1 * 3/4
-    
-    % [Q GlobalRests measure 217]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 218]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 219]                                        %! SM4
-    R1 * 3/4
-    
-    % [Q GlobalRests measure 220]                                        %! SM4
-    R1 * 5/8
-    
-    % [Q GlobalRests measure 221]                                        %! SM4
-    R1 * 1/2
-    
-    % [Q GlobalRests measure 222]                                        %! SM4
-    R1 * 3/4
-    
-    % [Q GlobalRests measure 223]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 224]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 225]                                        %! SM4
-    R1 * 1/2
-    
-    % [Q GlobalRests measure 226]                                        %! SM4
-    R1 * 5/8
-    
-    % [Q GlobalRests measure 227]                                        %! SM4
-    R1 * 3/4
-    
-    % [Q GlobalRests measure 228]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 229]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 230]                                        %! SM4
-    R1 * 5/8
-    
-    % [Q GlobalRests measure 231]                                        %! SM4
-    R1 * 1/2
-    
-    % [Q GlobalRests measure 232]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 233]                                        %! SM4
-    R1 * 3/4
-    
-    % [Q GlobalRests measure 234]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 235]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 236]                                        %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
-    \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
+    % [D GlobalRests measure 37]                                         %! SM4
     R1 * 1/4
-    ^ \markup {                                                          %! GFC1
-        \musicglyph                                                      %! GFC1
-            #"scripts.ufermata"                                          %! GFC1
-        }                                                                %! GFC1
     
-    % [Q GlobalRests measure 237]                                        %! SM4
+    % [D GlobalRests measure 38]                                         %! SM4
     R1 * 3/4
     
-    % [Q GlobalRests measure 238]                                        %! SM4
-    R1 * 7/8
+    % [D GlobalRests measure 39]                                         %! SM4
+    R1 * 1/4
     
-    % [Q GlobalRests measure 239]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 240]                                        %! SM4
-    R1 * 1
-    
-    % [Q GlobalRests measure 241]                                        %! SM4
-    R1 * 3/4
-    
-    % [Q GlobalRests measure 242]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 243]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 244]                                        %! SM4
-    R1 * 3/4
-    
-    % [Q GlobalRests measure 245]                                        %! SM4
+    % [D GlobalRests measure 40]                                         %! SM4
     R1 * 1/2
     
-    % [Q GlobalRests measure 246]                                        %! SM4
-    R1 * 5/8
-    
-    % [Q GlobalRests measure 247]                                        %! SM4
+    % [D GlobalRests measure 41]                                         %! SM4
     R1 * 3/4
     
-    % [Q GlobalRests measure 248]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 249]                                        %! SM4
-    R1 * 7/8
-    
-    % [Q GlobalRests measure 250]                                        %! SM4
-    R1 * 5/8
-    
-    % [Q GlobalRests measure 251]                                        %! SM4
-    R1 * 1/2
-    
-    % [Q GlobalRests measure 252]                                        %! SM4
+    % [D GlobalRests measure 42]                                         %! SM4
     R1 * 3/4
     
-    % [Q GlobalRests measure 253]                                        %! SM4
-    R1 * 1
+    % [D GlobalRests measure 43]                                         %! SM4
+    R1 * 15/16
     
-    % [Q GlobalRests measure 254]                                        %! SM4
-    R1 * 1
+    % [D GlobalRests measure 44]                                         %! SM4
+    R1 * 15/16
     
-    % [Q GlobalRests measure 255]                                        %! SM4
+    % [D GlobalRests measure 45]                                         %! SM4
+    R1 * 7/8
+    
+    % [D GlobalRests measure 46]                                         %! SM4
+    R1 * 1/4
+    
+    % [D GlobalRests measure 47]                                         %! SM4
+    R1 * 7/8
+    
+    % [D GlobalRests measure 48]                                         %! SM4
+    R1 * 1/4
+    
+    % [D GlobalRests measure 49]                                         %! SM4
+    R1 * 5/8
+    
+    % [D GlobalRests measure 50]                                         %! SM4
+    R1 * 3/4
+    
+    % [D GlobalRests measure 51]                                         %! SM4
+    R1 * 3/2
+    
+    % [D GlobalRests measure 52]                                         %! SM4
+    R1 * 7/8
+    
+    % [D GlobalRests measure 53]                                         %! SM4
+    R1 * 15/16
+    
+    % [D GlobalRests measure 54]                                         %! SM4
+    R1 * 1/4
+    
+    % [D GlobalRests measure 55]                                         %! SM4
+    R1 * 15/16
+    
+    % [D GlobalRests measure 56]                                         %! SM4
+    R1 * 1/4
+    
+    % [D GlobalRests measure 57]                                         %! SM4
+    R1 * 3/2
+    
+    % [D GlobalRests measure 58]                                         %! SM4
+    R1 * 7/8
+    
+    % [D GlobalRests measure 59]                                         %! SM4
+    R1 * 3/4
+    
+    % [D GlobalRests measure 60]                                         %! SM4
+    R1 * 5/8
+    
+    % [D GlobalRests measure 61]                                         %! SM4
+    R1 * 3/4
+    
+    % [D GlobalRests measure 62]                                         %! SM4
     R1 * 1/2
     
-    % [Q GlobalRests measure 256]                                        %! SM4
+    % [D GlobalRests measure 63]                                         %! SM4
+    R1 * 3/4
+    
+    % [D GlobalRests measure 64]                                         %! SM4
+    R1 * 1/4
+    
+    % [D GlobalRests measure 65]                                         %! SM4
     R1 * 5/8
+    
+    % [D GlobalRests measure 66]                                         %! SM4
+    R1 * 3/4
+    
+    % [D GlobalRests measure 67]                                         %! SM4
+    R1 * 3/4
+    
+    % [D GlobalRests measure 68]                                         %! SM4
+    R1 * 3/4
+    
+    % [D GlobalRests measure 69]                                         %! SM4
+    R1 * 3/4
+    
+    % [D GlobalRests measure 70]                                         %! SM4
+    R1 * 1/2
+    
+    % [D GlobalRests measure 71]                                         %! SM4
+    R1 * 7/8
+    
+    % [D GlobalRests measure 72]                                         %! SM4
+    R1 * 7/8
+    
+    % [D GlobalRests measure 73]                                         %! SM4
+    R1 * 15/16
+    
+    % [D GlobalRests measure 74]                                         %! SM4
+    R1 * 15/16
+    
+    % [D GlobalRests measure 75]                                         %! SM4
+    R1 * 1/2
+    
+    % [D GlobalRests measure 76]                                         %! SM4
+    R1 * 3/4
+    
+    % [D GlobalRests measure 77]                                         %! SM4
+    R1 * 3/4
+    
+    % [D GlobalRests measure 78]                                         %! SM4
+    R1 * 15/16
+    
+    % [D GlobalRests measure 79]                                         %! SM4
+    R1 * 7/8
+    
+    % [D GlobalRests measure 80]                                         %! SM4
+    R1 * 7/8
+    
+    % [D GlobalRests measure 81]                                         %! SM4
+    R1 * 15/16
+    
+    % [D GlobalRests measure 82]                                         %! SM4
+    R1 * 3/4
+    
+    % [D GlobalRests measure 83]                                         %! SM4
+    R1 * 5/8
+    
+    % [D GlobalRests measure 84]                                         %! SM4
+    R1 * 15/16
+    
+    % [D GlobalRests measure 85]                                         %! SM4
+    R1 * 3/2
+    
+    % [D GlobalRests measure 86]                                         %! SM4
+    R1 * 15/16
+    
+    % [D GlobalRests measure 87]                                         %! SM4
+    R1 * 7/8
+    
+    % [D GlobalRests measure 88]                                         %! SM4
+    R1 * 7/8
+    
+    % [D GlobalRests measure 89]                                         %! SM4
+    R1 * 3/2
+    
+    % [D GlobalRests measure 90]                                         %! SM4
+    R1 * 3/2
+    
+    % [D GlobalRests measure 91]                                         %! SM4
+    R1 * 1/4
     
 }
 
 
-Q_GlobalSkips = {
+D_GlobalSkips = {
     
-    % [Q GlobalSkips measure 165]                                        %! SM4
+    % [D GlobalSkips measure 1]                                          %! SM4
     \once \override GlobalContext.RehearsalMark.Y-offset = #12           %! OC1
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
@@ -303,7 +294,7 @@ Q_GlobalSkips = {
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%             91                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             169                                                      %! SM27:EXPLICIT_METRONOME_MARK
 %@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
@@ -328,7 +319,7 @@ Q_GlobalSkips = {
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        91                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        169                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -339,11 +330,10 @@ Q_GlobalSkips = {
     \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \mark #17                                                            %! IC
-    \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
+    \time 10/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \mark #4                                                             %! IC
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    s1 * 5/8
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -351,7 +341,7 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (165)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (1)                                          %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -366,79 +356,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.1]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.1]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'25'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'00'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 166]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
-%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%             169                                                      %! SM27:EXPLICIT_METRONOME_MARK
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        169                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 2]                                          %! SM4
+    \time 12/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (166)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (2)                                          %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -453,26 +391,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.2]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.2]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'27'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'00'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 167]                                        %! SM4
+    % [D GlobalSkips measure 3]                                          %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (167)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (3)                                          %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -487,19 +425,18 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.3]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.3]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'28'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'01'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 168]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [D GlobalSkips measure 4]                                          %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
         \column
@@ -507,7 +444,7 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (168)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (4)                                          %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -522,27 +459,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.4]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.4]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'30'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'03'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 169]                                        %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 5]                                          %! SM4
+    \time 8/16                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    s1 * 1/2
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (169)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (5)                                          %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -557,26 +494,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.5]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.5]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'31'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'04'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 170]                                        %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    % [D GlobalSkips measure 6]                                          %! SM4
+    \time 15/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (170)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (6)                                          %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -591,27 +529,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.6]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.6]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'32'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'04'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 171]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    % [D GlobalSkips measure 7]                                          %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (171)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (7)                                          %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -626,27 +563,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.7]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.7]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'33'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'06'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 172]                                        %! SM4
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 8]                                          %! SM4
+    \time 14/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/8
+    s1 * 7/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (172)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (8)                                          %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -661,27 +598,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.8]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.8]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'34'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'07'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 173]                                        %! SM4
-    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
+    % [D GlobalSkips measure 9]                                          %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 7/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (173)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (9)                                          %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -696,83 +632,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.9]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.9]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'35'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'08'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 174]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
-%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%             65                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        65                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 10]                                         %! SM4
+    \time 8/16                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    s1 * 1/2
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (174)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (10)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -787,27 +667,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.10]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.10]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'36'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'09'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 175]                                        %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 11]                                         %! SM4
+    \time 12/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (175)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (11)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -822,26 +702,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.11]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.11]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'39'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'10'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 176]                                        %! SM4
+    % [D GlobalSkips measure 12]                                         %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (176)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (12)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -856,27 +736,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.12]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.12]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'42'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'11'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 177]                                        %! SM4
-    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 13]                                         %! SM4
+    \time 14/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
+    s1 * 7/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (177)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (13)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -891,27 +771,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.13]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.13]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'45'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'12'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 178]                                        %! SM4
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 14]                                         %! SM4
+    \time 15/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/8
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (178)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (14)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -926,27 +806,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.14]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.14]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'47'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'14'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 179]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    % [D GlobalSkips measure 15]                                         %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (179)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (15)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -961,27 +840,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.15]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.15]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'49'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'15'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 180]                                        %! SM4
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 16]                                         %! SM4
+    \time 14/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    s1 * 7/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (180)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (16)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -996,26 +875,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.16]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.16]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'52'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'16'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 181]                                        %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    % [D GlobalSkips measure 17]                                         %! SM4
+    \time 12/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (181)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (17)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1030,18 +910,18 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.17]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.17]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'56'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'17'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 182]                                        %! SM4
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 18]                                         %! SM4
+    \time 10/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/8
     ^ \markup {
@@ -1050,7 +930,7 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (182)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (18)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1065,27 +945,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.18]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.18]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'59'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'18'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 183]                                        %! SM4
-    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 19]                                         %! SM4
+    \time 14/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
+    s1 * 7/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (183)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (19)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1100,27 +980,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.19]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.19]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'02'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'19'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 184]                                        %! SM4
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    % [D GlobalSkips measure 20]                                         %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 7/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (184)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (20)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1135,27 +1014,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.20]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.20]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'04'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'21'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 185]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 21]                                         %! SM4
+    \time 15/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (185)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (21)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1170,79 +1049,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.21]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.21]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'07'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'22'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 186]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
-%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%             169                                                      %! SM27:EXPLICIT_METRONOME_MARK
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        169                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    % [D GlobalSkips measure 22]                                         %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (186)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (22)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1257,27 +1083,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.22]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.22]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'10'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'23'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 187]                                        %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 23]                                         %! SM4
+    \time 10/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    s1 * 5/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (187)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (23)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1292,18 +1118,18 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.23]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.23]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'11'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'25'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 188]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 24]                                         %! SM4
+    \time 12/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
@@ -1312,7 +1138,7 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (188)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (24)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1327,27 +1153,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.24]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.24]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'13'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'25'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 189]                                        %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    % [D GlobalSkips measure 25]                                         %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (189)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (25)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1362,27 +1187,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.25]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.25]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'14'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'26'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 190]                                        %! SM4
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 26]                                         %! SM4
+    \time 8/16                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    s1 * 1/2
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (190)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (26)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1397,26 +1222,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.26]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.26]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'15'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'28'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 191]                                        %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    % [D GlobalSkips measure 27]                                         %! SM4
+    \time 12/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (191)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (27)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1431,83 +1257,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.27]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.27]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'16'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'28'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 192]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
-%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%             65                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        65                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [D GlobalSkips measure 28]                                         %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (192)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (28)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1522,27 +1291,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.28]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.28]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'18'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'29'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 193]                                        %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 29]                                         %! SM4
+    \time 10/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    s1 * 5/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (193)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (29)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1557,26 +1326,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.29]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.29]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'21'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'30'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 194]                                        %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    % [D GlobalSkips measure 30]                                         %! SM4
+    \time 12/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (194)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (30)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1591,19 +1361,18 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.30]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.30]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'24'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'31'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 195]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [D GlobalSkips measure 31]                                         %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
         \column
@@ -1611,7 +1380,7 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (195)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (31)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1626,18 +1395,18 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.31]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.31]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'27'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'32'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 196]                                        %! SM4
-    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 32]                                         %! SM4
+    \time 8/16                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
     ^ \markup {
@@ -1646,7 +1415,7 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (196)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (32)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1661,27 +1430,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.32]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.32]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'30'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'33'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 197]                                        %! SM4
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 33]                                         %! SM4
+    \time 15/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/8
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (197)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (33)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1696,27 +1465,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.33]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.33]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'32'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'34'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 198]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 34]                                         %! SM4
+    \time 14/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    s1 * 7/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (198)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (34)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1731,19 +1500,18 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.34]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.34]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'34'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'35'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 199]                                        %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [D GlobalSkips measure 35]                                         %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
         \column
@@ -1751,7 +1519,7 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (199)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (35)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1766,26 +1534,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.35]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.35]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'37'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'37'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 200]                                        %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    % [D GlobalSkips measure 36]                                         %! SM4
+    \time 15/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (200)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (36)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1800,27 +1569,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.36]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.36]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'40'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'38'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 201]                                        %! SM4
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 37]                                         %! SM4
+    \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/8
+    s1 * 1/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (201)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (37)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1835,79 +1604,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.37]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.37]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'43'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'39'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 202]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
-%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%             169                                                      %! SM27:EXPLICIT_METRONOME_MARK
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        169                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 38]                                         %! SM4
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (202)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (38)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1922,27 +1639,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.38]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.38]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'46'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'40'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 203]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 39]                                         %! SM4
+    \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    s1 * 1/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (203)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (39)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1957,27 +1674,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.39]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.39]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'46'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'41'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 204]                                        %! SM4
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 40]                                         %! SM4
+    \time 8/16                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    s1 * 1/2
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (204)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (40)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1992,26 +1709,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.40]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.40]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'47'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'41'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 205]                                        %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    % [D GlobalSkips measure 41]                                         %! SM4
+    \time 12/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (205)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (41)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2026,27 +1744,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.41]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.41]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'49'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'42'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 206]                                        %! SM4
-    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
+    % [D GlobalSkips measure 42]                                         %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (206)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (42)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2061,83 +1778,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.42]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.42]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'50'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'43'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 207]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
-%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%             65                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        65                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 43]                                         %! SM4
+    \time 15/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/8
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (207)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (43)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2152,27 +1813,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.43]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.43]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'51'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'44'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 208]                                        %! SM4
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    % [D GlobalSkips measure 44]                                         %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (208)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (44)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2187,27 +1847,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.44]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.44]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'53'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'45'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 209]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 45]                                         %! SM4
+    \time 14/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    s1 * 7/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (209)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (45)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2222,27 +1882,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.45]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.45]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'57'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'47'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 210]                                        %! SM4
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 46]                                         %! SM4
+    \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    s1 * 1/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (210)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (46)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2257,18 +1917,18 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.46]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.46]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'00'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'48'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 211]                                        %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 47]                                         %! SM4
+    \time 14/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
@@ -2277,7 +1937,7 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (211)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (47)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2292,27 +1952,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.47]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.47]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'03'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'48'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 212]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 48]                                         %! SM4
+    \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    s1 * 1/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (212)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (48)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2327,27 +1987,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.48]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.48]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'07'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'49'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 213]                                        %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 49]                                         %! SM4
+    \time 10/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    s1 * 5/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (213)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (49)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2362,27 +2022,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.49]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.49]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'09'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'50'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 214]                                        %! SM4
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 50]                                         %! SM4
+    \time 12/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (214)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (50)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2397,78 +2057,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.50]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.50]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'13'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'51'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 215]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
-%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%             169                                                      %! SM27:EXPLICIT_METRONOME_MARK
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        169                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    % [D GlobalSkips measure 51]                                         %! SM4
+    \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/2
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (215)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (51)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2483,27 +2092,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.51]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.51]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'16'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'52'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 216]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 52]                                         %! SM4
+    \time 14/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    s1 * 7/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (216)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (52)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2518,27 +2127,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.52]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.52]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'18'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'54'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 217]                                        %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 53]                                         %! SM4
+    \time 15/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (217)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (53)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2553,26 +2162,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.53]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.53]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'19'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'55'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 218]                                        %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    % [D GlobalSkips measure 54]                                         %! SM4
+    \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (218)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (54)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2587,83 +2197,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.54]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.54]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'20'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'56'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 219]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
-%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%             65                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        65                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 55]                                         %! SM4
+    \time 15/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (219)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (55)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2678,27 +2232,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.55]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.55]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'21'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'57'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 220]                                        %! SM4
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 56]                                         %! SM4
+    \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/8
+    s1 * 1/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (220)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (56)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2713,27 +2267,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.56]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.56]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'24'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'58'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 221]                                        %! SM4
-    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 57]                                         %! SM4
+    \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
+    s1 * 3/2
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (221)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (57)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2748,27 +2302,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.57]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.57]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'26'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [0'58'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 222]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 58]                                         %! SM4
+    \time 14/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    s1 * 7/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (222)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (58)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2783,27 +2337,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.58]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.58]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'28'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'01'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 223]                                        %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 59]                                         %! SM4
+    \time 12/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (223)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (59)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2818,26 +2372,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.59]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.59]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'31'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'02'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 224]                                        %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    % [D GlobalSkips measure 60]                                         %! SM4
+    \time 10/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 5/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (224)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (60)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2852,79 +2407,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.60]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.60]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'34'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'03'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 225]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
-%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%             169                                                      %! SM27:EXPLICIT_METRONOME_MARK
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        169                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 61]                                         %! SM4
+    \time 12/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (225)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (61)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2939,27 +2442,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.61]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.61]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'37'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'04'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 226]                                        %! SM4
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 62]                                         %! SM4
+    \time 8/16                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/8
+    s1 * 1/2
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (226)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (62)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2974,18 +2477,18 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.62]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.62]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'38'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'05'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 227]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 63]                                         %! SM4
+    \time 12/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
@@ -2994,7 +2497,7 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (227)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (63)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3009,83 +2512,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.63]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.63]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'39'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'06'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 228]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
-%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%             65                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        65                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 64]                                         %! SM4
+    \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    s1 * 1/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (228)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (64)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3100,26 +2547,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.64]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.64]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'40'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'07'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 229]                                        %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    % [D GlobalSkips measure 65]                                         %! SM4
+    \time 10/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 5/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (229)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (65)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3134,27 +2582,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.65]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.65]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'44'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'07'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 230]                                        %! SM4
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 66]                                         %! SM4
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/8
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (230)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (66)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3169,27 +2617,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.66]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.66]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'47'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'08'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 231]                                        %! SM4
-    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 67]                                         %! SM4
+    \time 12/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (231)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (67)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3204,79 +2652,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.67]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.67]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'50'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'09'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 232]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
-%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%             169                                                      %! SM27:EXPLICIT_METRONOME_MARK
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        169                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    % [D GlobalSkips measure 68]                                         %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (232)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (68)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3291,19 +2686,18 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.68]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.68]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'52'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'10'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 233]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [D GlobalSkips measure 69]                                         %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
         \column
@@ -3311,7 +2705,7 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (233)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (69)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3326,83 +2720,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.69]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.69]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'53'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'11'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 234]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
-%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%             65                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        65                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 70]                                         %! SM4
+    \time 8/16                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    s1 * 1/2
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (234)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (70)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3417,18 +2755,18 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.70]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.70]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'54'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'12'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 235]                                        %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 71]                                         %! SM4
+    \time 14/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
@@ -3437,7 +2775,7 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (235)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (71)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3452,27 +2790,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.71]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.71]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [6'58'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'13'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 236]                                        %! SM4
-    \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/4
+    % [D GlobalSkips measure 72]                                         %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 7/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (236)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (72)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3487,83 +2824,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.72]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.72]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'01'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'14'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 237]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
-%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%             169                                                      %! SM27:EXPLICIT_METRONOME_MARK
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        169                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 73]                                         %! SM4
+    \time 15/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (237)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (73)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3578,27 +2859,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.73]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.73]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'02'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'15'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 238]                                        %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    % [D GlobalSkips measure 74]                                         %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (238)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (74)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3613,27 +2893,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.74]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.74]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'03'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'17'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 239]                                        %! SM4
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 75]                                         %! SM4
+    \time 8/16                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    s1 * 1/2
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (239)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (75)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3648,26 +2928,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.75]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.75]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'04'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'18'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 240]                                        %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    % [D GlobalSkips measure 76]                                         %! SM4
+    \time 12/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (240)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (76)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3682,19 +2963,18 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.76]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.76]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'06'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'19'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 241]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [D GlobalSkips measure 77]                                         %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
         \column
@@ -3702,7 +2982,7 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (241)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (77)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3717,27 +2997,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.77]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.77]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'07'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'20'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 242]                                        %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 78]                                         %! SM4
+    \time 15/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (242)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (78)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3752,18 +3032,19 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.78]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.78]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'08'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'21'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 243]                                        %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    % [D GlobalSkips measure 79]                                         %! SM4
+    \time 14/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
         \column
@@ -3771,7 +3052,7 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (243)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (79)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3786,27 +3067,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.79]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.79]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'09'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'22'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 244]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    % [D GlobalSkips measure 80]                                         %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 7/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (244)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (80)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3821,27 +3101,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.80]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.80]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'11'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'23'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 245]                                        %! SM4
-    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 81]                                         %! SM4
+    \time 15/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (245)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (81)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3856,27 +3136,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.81]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.81]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'12'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'25'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 246]                                        %! SM4
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 82]                                         %! SM4
+    \time 12/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/8
+    s1 * 3/4
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (246)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (82)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3891,27 +3171,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.82]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.82]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'12'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'26'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 247]                                        %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 83]                                         %! SM4
+    \time 10/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    s1 * 5/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (247)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (83)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3926,27 +3206,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.83]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.83]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'13'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'27'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 248]                                        %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 84]                                         %! SM4
+    \time 15/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (248)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (84)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3961,26 +3241,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.84]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.84]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'14'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'28'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 249]                                        %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    % [D GlobalSkips measure 85]                                         %! SM4
+    \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/2
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (249)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (85)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -3995,27 +3276,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.85]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.85]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'16'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'29'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 250]                                        %! SM4
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 86]                                         %! SM4
+    \time 15/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/8
+    s1 * 15/16
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (250)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (86)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -4030,27 +3311,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.86]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.86]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'17'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'31'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 251]                                        %! SM4
-    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 87]                                         %! SM4
+    \time 14/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
+    s1 * 7/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (251)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (87)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -4065,79 +3346,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.87]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.87]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'18'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'33'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 252]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
-%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
-%@%             52                                                       %! SM27:EXPLICIT_METRONOME_MARK
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                        52                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    % [D GlobalSkips measure 88]                                         %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 7/8
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (252)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (88)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -4152,27 +3380,27 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.88]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.88]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'18'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'34'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 253]                                        %! SM4
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 89]                                         %! SM4
+    \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    s1 * 3/2
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (253)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (89)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -4187,26 +3415,26 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.89]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.89]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'22'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'35'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 254]                                        %! SM4
+    % [D GlobalSkips measure 90]                                         %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    s1 * 3/2
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (254)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (90)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -4221,27 +3449,28 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.90]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.90]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'26'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'37'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [Q GlobalSkips measure 255]                                        %! SM4
-    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    % [D GlobalSkips measure 91]                                         %! SM4
+    \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
+    s1 * 1/4
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (255)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (91)                                         %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -4256,48 +3485,12 @@ Q_GlobalSkips = {
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.91]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [D.91]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'31'']                                     %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [Q GlobalSkips measure 256]                                        %! SM4
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/8
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (256)                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
-            %@%             <91>                                         %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%             ((92))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [Q.92]                                       %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [7'33'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [1'39'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4307,1189 +3500,1177 @@ Q_GlobalSkips = {
 }
 
 
-Q_ViolinIMusicVoice = {
+D_ViolinIMusicVoice = {
     
-    % [Q ViolinIMusicVoice measure 165]                          %! SM4
-    \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    R1 * 7/8
-    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“ViolinI”)                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    
-    % [Q ViolinIMusicVoice measure 166]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 167]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 168]                          %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIMusicVoice measure 169]                          %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 170]                          %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 171]                          %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIMusicVoice measure 172]                          %! SM4
+    % [D ViolinIMusicVoice measure 1]                            %! SM4
+    \clef "treble"                                               %! SM8:DEFAULT_CLEF:ST3
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)  %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override Staff.Clef.color = ##f                             %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set Staff.forceClef = ##t                                   %! SM8:DEFAULT_CLEF:SM33:ST3
     R1 * 5/8
+    ^ \markup {                                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“ViolinI”)                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    \override Staff.Clef.color = #(x11-color 'violet)            %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    % [Q ViolinIMusicVoice measure 173]                          %! SM4
+    % [D ViolinIMusicVoice measure 2]                            %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 3]                            %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 4]                            %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 5]                            %! SM4
     R1 * 1/2
     
-    % [Q ViolinIMusicVoice measure 174]                          %! SM4
-    R1 * 3/4
+    % [D ViolinIMusicVoice measure 6]                            %! SM4
+    R1 * 15/16
     
-    % [Q ViolinIMusicVoice measure 175]                          %! SM4
+    % [D ViolinIMusicVoice measure 7]                            %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIMusicVoice measure 8]                            %! SM4
     R1 * 7/8
     
-    % [Q ViolinIMusicVoice measure 176]                          %! SM4
+    % [D ViolinIMusicVoice measure 9]                            %! SM4
     R1 * 7/8
     
-    % [Q ViolinIMusicVoice measure 177]                          %! SM4
+    % [D ViolinIMusicVoice measure 10]                           %! SM4
     R1 * 1/2
     
-    % [Q ViolinIMusicVoice measure 178]                          %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIMusicVoice measure 179]                          %! SM4
+    % [D ViolinIMusicVoice measure 11]                           %! SM4
     R1 * 3/4
     
-    % [Q ViolinIMusicVoice measure 180]                          %! SM4
-    R1 * 1
+    % [D ViolinIMusicVoice measure 12]                           %! SM4
+    R1 * 3/4
     
-    % [Q ViolinIMusicVoice measure 181]                          %! SM4
-    R1 * 1
+    % [D ViolinIMusicVoice measure 13]                           %! SM4
+    R1 * 7/8
     
-    % [Q ViolinIMusicVoice measure 182]                          %! SM4
+    % [D ViolinIMusicVoice measure 14]                           %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIMusicVoice measure 15]                           %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIMusicVoice measure 16]                           %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIMusicVoice measure 17]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 18]                           %! SM4
     R1 * 5/8
     
-    % [Q ViolinIMusicVoice measure 183]                          %! SM4
+    % [D ViolinIMusicVoice measure 19]                           %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIMusicVoice measure 20]                           %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIMusicVoice measure 21]                           %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIMusicVoice measure 22]                           %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIMusicVoice measure 23]                           %! SM4
+    R1 * 5/8
+    
+    % [D ViolinIMusicVoice measure 24]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 25]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 26]                           %! SM4
     R1 * 1/2
     
-    % [Q ViolinIMusicVoice measure 184]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 185]                          %! SM4
+    % [D ViolinIMusicVoice measure 27]                           %! SM4
     R1 * 3/4
     
-    % [Q ViolinIMusicVoice measure 186]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 187]                          %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 188]                          %! SM4
+    % [D ViolinIMusicVoice measure 28]                           %! SM4
     R1 * 3/4
     
-    % [Q ViolinIMusicVoice measure 189]                          %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 190]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 191]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 192]                          %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIMusicVoice measure 193]                          %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 194]                          %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 195]                          %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIMusicVoice measure 196]                          %! SM4
-    R1 * 1/2
-    
-    % [Q ViolinIMusicVoice measure 197]                          %! SM4
+    % [D ViolinIMusicVoice measure 29]                           %! SM4
     R1 * 5/8
     
-    % [Q ViolinIMusicVoice measure 198]                          %! SM4
+    % [D ViolinIMusicVoice measure 30]                           %! SM4
     R1 * 3/4
     
-    % [Q ViolinIMusicVoice measure 199]                          %! SM4
-    R1 * 7/8
+    % [D ViolinIMusicVoice measure 31]                           %! SM4
+    R1 * 3/4
     
-    % [Q ViolinIMusicVoice measure 200]                          %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 201]                          %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIMusicVoice measure 202]                          %! SM4
+    % [D ViolinIMusicVoice measure 32]                           %! SM4
     R1 * 1/2
     
-    % [Q ViolinIMusicVoice measure 203]                          %! SM4
-    R1 * 3/4
+    % [D ViolinIMusicVoice measure 33]                           %! SM4
+    R1 * 15/16
     
-    % [Q ViolinIMusicVoice measure 204]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 205]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 206]                          %! SM4
-    R1 * 1/2
-    
-    % [Q ViolinIMusicVoice measure 207]                          %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIMusicVoice measure 208]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 209]                          %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIMusicVoice measure 210]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 211]                          %! SM4
+    % [D ViolinIMusicVoice measure 34]                           %! SM4
     R1 * 7/8
     
-    % [Q ViolinIMusicVoice measure 212]                          %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIMusicVoice measure 213]                          %! SM4
+    % [D ViolinIMusicVoice measure 35]                           %! SM4
     R1 * 7/8
     
-    % [Q ViolinIMusicVoice measure 214]                          %! SM4
-    R1 * 1
+    % [D ViolinIMusicVoice measure 36]                           %! SM4
+    R1 * 15/16
     
-    % [Q ViolinIMusicVoice measure 215]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 216]                          %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIMusicVoice measure 217]                          %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 218]                          %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 219]                          %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIMusicVoice measure 220]                          %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIMusicVoice measure 221]                          %! SM4
-    R1 * 1/2
-    
-    % [Q ViolinIMusicVoice measure 222]                          %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIMusicVoice measure 223]                          %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 224]                          %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 225]                          %! SM4
-    R1 * 1/2
-    
-    % [Q ViolinIMusicVoice measure 226]                          %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIMusicVoice measure 227]                          %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIMusicVoice measure 228]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 229]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 230]                          %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIMusicVoice measure 231]                          %! SM4
-    R1 * 1/2
-    
-    % [Q ViolinIMusicVoice measure 232]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 233]                          %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIMusicVoice measure 234]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 235]                          %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 236]                          %! SM4
+    % [D ViolinIMusicVoice measure 37]                           %! SM4
     R1 * 1/4
     
-    % [Q ViolinIMusicVoice measure 237]                          %! SM4
+    % [D ViolinIMusicVoice measure 38]                           %! SM4
     R1 * 3/4
     
-    % [Q ViolinIMusicVoice measure 238]                          %! SM4
-    R1 * 7/8
+    % [D ViolinIMusicVoice measure 39]                           %! SM4
+    R1 * 1/4
     
-    % [Q ViolinIMusicVoice measure 239]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 240]                          %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 241]                          %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIMusicVoice measure 242]                          %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 243]                          %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 244]                          %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIMusicVoice measure 245]                          %! SM4
+    % [D ViolinIMusicVoice measure 40]                           %! SM4
     R1 * 1/2
     
-    % [Q ViolinIMusicVoice measure 246]                          %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIMusicVoice measure 247]                          %! SM4
+    % [D ViolinIMusicVoice measure 41]                           %! SM4
     R1 * 3/4
     
-    % [Q ViolinIMusicVoice measure 248]                          %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 249]                          %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 250]                          %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIMusicVoice measure 251]                          %! SM4
-    R1 * 1/2
-    
-    % [Q ViolinIMusicVoice measure 252]                          %! SM4
+    % [D ViolinIMusicVoice measure 42]                           %! SM4
     R1 * 3/4
     
-    % [Q ViolinIMusicVoice measure 253]                          %! SM4
-    R1 * 1
+    % [D ViolinIMusicVoice measure 43]                           %! SM4
+    R1 * 15/16
     
-    % [Q ViolinIMusicVoice measure 254]                          %! SM4
-    R1 * 1
+    % [D ViolinIMusicVoice measure 44]                           %! SM4
+    R1 * 15/16
     
-    % [Q ViolinIMusicVoice measure 255]                          %! SM4
+    % [D ViolinIMusicVoice measure 45]                           %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIMusicVoice measure 46]                           %! SM4
+    R1 * 1/4
+    
+    % [D ViolinIMusicVoice measure 47]                           %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIMusicVoice measure 48]                           %! SM4
+    R1 * 1/4
+    
+    % [D ViolinIMusicVoice measure 49]                           %! SM4
+    R1 * 5/8
+    
+    % [D ViolinIMusicVoice measure 50]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 51]                           %! SM4
+    R1 * 3/2
+    
+    % [D ViolinIMusicVoice measure 52]                           %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIMusicVoice measure 53]                           %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIMusicVoice measure 54]                           %! SM4
+    R1 * 1/4
+    
+    % [D ViolinIMusicVoice measure 55]                           %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIMusicVoice measure 56]                           %! SM4
+    R1 * 1/4
+    
+    % [D ViolinIMusicVoice measure 57]                           %! SM4
+    R1 * 3/2
+    
+    % [D ViolinIMusicVoice measure 58]                           %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIMusicVoice measure 59]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 60]                           %! SM4
+    R1 * 5/8
+    
+    % [D ViolinIMusicVoice measure 61]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 62]                           %! SM4
     R1 * 1/2
     
-    % [Q ViolinIMusicVoice measure 256]                          %! SM4
+    % [D ViolinIMusicVoice measure 63]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 64]                           %! SM4
+    R1 * 1/4
+    
+    % [D ViolinIMusicVoice measure 65]                           %! SM4
     R1 * 5/8
+    
+    % [D ViolinIMusicVoice measure 66]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 67]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 68]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 69]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 70]                           %! SM4
+    R1 * 1/2
+    
+    % [D ViolinIMusicVoice measure 71]                           %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIMusicVoice measure 72]                           %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIMusicVoice measure 73]                           %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIMusicVoice measure 74]                           %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIMusicVoice measure 75]                           %! SM4
+    R1 * 1/2
+    
+    % [D ViolinIMusicVoice measure 76]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 77]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 78]                           %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIMusicVoice measure 79]                           %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIMusicVoice measure 80]                           %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIMusicVoice measure 81]                           %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIMusicVoice measure 82]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIMusicVoice measure 83]                           %! SM4
+    R1 * 5/8
+    
+    % [D ViolinIMusicVoice measure 84]                           %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIMusicVoice measure 85]                           %! SM4
+    R1 * 3/2
+    
+    % [D ViolinIMusicVoice measure 86]                           %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIMusicVoice measure 87]                           %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIMusicVoice measure 88]                           %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIMusicVoice measure 89]                           %! SM4
+    R1 * 3/2
+    
+    % [D ViolinIMusicVoice measure 90]                           %! SM4
+    R1 * 3/2
+    
+    % [D ViolinIMusicVoice measure 91]                           %! SM4
+    R1 * 1/4
     
 }
 
 
-Q_ViolinIMusicStaff = {
+D_ViolinIMusicStaff = {
     \context Voice = "ViolinIMusicVoice"
-    \Q_ViolinIMusicVoice
+    \D_ViolinIMusicVoice
 }
 
 
-Q_ViolinIIMusicVoice = {
+D_ViolinIIMusicVoice = {
     
-    % [Q ViolinIIMusicVoice measure 165]                         %! SM4
-    \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    R1 * 7/8
-    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“ViolinI”)                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    
-    % [Q ViolinIIMusicVoice measure 166]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 167]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 168]                         %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIIMusicVoice measure 169]                         %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 170]                         %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 171]                         %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIIMusicVoice measure 172]                         %! SM4
+    % [D ViolinIIMusicVoice measure 1]                           %! SM4
+    \clef "treble"                                               %! SM8:DEFAULT_CLEF:ST3
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)  %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override Staff.Clef.color = ##f                             %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set Staff.forceClef = ##t                                   %! SM8:DEFAULT_CLEF:SM33:ST3
     R1 * 5/8
+    ^ \markup {                                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“ViolinI”)                                          %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    \override Staff.Clef.color = #(x11-color 'violet)            %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    % [Q ViolinIIMusicVoice measure 173]                         %! SM4
+    % [D ViolinIIMusicVoice measure 2]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 3]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 4]                           %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 5]                           %! SM4
     R1 * 1/2
     
-    % [Q ViolinIIMusicVoice measure 174]                         %! SM4
-    R1 * 3/4
+    % [D ViolinIIMusicVoice measure 6]                           %! SM4
+    R1 * 15/16
     
-    % [Q ViolinIIMusicVoice measure 175]                         %! SM4
+    % [D ViolinIIMusicVoice measure 7]                           %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIIMusicVoice measure 8]                           %! SM4
     R1 * 7/8
     
-    % [Q ViolinIIMusicVoice measure 176]                         %! SM4
+    % [D ViolinIIMusicVoice measure 9]                           %! SM4
     R1 * 7/8
     
-    % [Q ViolinIIMusicVoice measure 177]                         %! SM4
+    % [D ViolinIIMusicVoice measure 10]                          %! SM4
     R1 * 1/2
     
-    % [Q ViolinIIMusicVoice measure 178]                         %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIIMusicVoice measure 179]                         %! SM4
+    % [D ViolinIIMusicVoice measure 11]                          %! SM4
     R1 * 3/4
     
-    % [Q ViolinIIMusicVoice measure 180]                         %! SM4
-    R1 * 1
+    % [D ViolinIIMusicVoice measure 12]                          %! SM4
+    R1 * 3/4
     
-    % [Q ViolinIIMusicVoice measure 181]                         %! SM4
-    R1 * 1
+    % [D ViolinIIMusicVoice measure 13]                          %! SM4
+    R1 * 7/8
     
-    % [Q ViolinIIMusicVoice measure 182]                         %! SM4
+    % [D ViolinIIMusicVoice measure 14]                          %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIIMusicVoice measure 15]                          %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIIMusicVoice measure 16]                          %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIIMusicVoice measure 17]                          %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 18]                          %! SM4
     R1 * 5/8
     
-    % [Q ViolinIIMusicVoice measure 183]                         %! SM4
+    % [D ViolinIIMusicVoice measure 19]                          %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIIMusicVoice measure 20]                          %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIIMusicVoice measure 21]                          %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIIMusicVoice measure 22]                          %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIIMusicVoice measure 23]                          %! SM4
+    R1 * 5/8
+    
+    % [D ViolinIIMusicVoice measure 24]                          %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 25]                          %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 26]                          %! SM4
     R1 * 1/2
     
-    % [Q ViolinIIMusicVoice measure 184]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 185]                         %! SM4
+    % [D ViolinIIMusicVoice measure 27]                          %! SM4
     R1 * 3/4
     
-    % [Q ViolinIIMusicVoice measure 186]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 187]                         %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 188]                         %! SM4
+    % [D ViolinIIMusicVoice measure 28]                          %! SM4
     R1 * 3/4
     
-    % [Q ViolinIIMusicVoice measure 189]                         %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 190]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 191]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 192]                         %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIIMusicVoice measure 193]                         %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 194]                         %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 195]                         %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIIMusicVoice measure 196]                         %! SM4
-    R1 * 1/2
-    
-    % [Q ViolinIIMusicVoice measure 197]                         %! SM4
+    % [D ViolinIIMusicVoice measure 29]                          %! SM4
     R1 * 5/8
     
-    % [Q ViolinIIMusicVoice measure 198]                         %! SM4
+    % [D ViolinIIMusicVoice measure 30]                          %! SM4
     R1 * 3/4
     
-    % [Q ViolinIIMusicVoice measure 199]                         %! SM4
-    R1 * 7/8
+    % [D ViolinIIMusicVoice measure 31]                          %! SM4
+    R1 * 3/4
     
-    % [Q ViolinIIMusicVoice measure 200]                         %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 201]                         %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIIMusicVoice measure 202]                         %! SM4
+    % [D ViolinIIMusicVoice measure 32]                          %! SM4
     R1 * 1/2
     
-    % [Q ViolinIIMusicVoice measure 203]                         %! SM4
-    R1 * 3/4
+    % [D ViolinIIMusicVoice measure 33]                          %! SM4
+    R1 * 15/16
     
-    % [Q ViolinIIMusicVoice measure 204]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 205]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 206]                         %! SM4
-    R1 * 1/2
-    
-    % [Q ViolinIIMusicVoice measure 207]                         %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIIMusicVoice measure 208]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 209]                         %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIIMusicVoice measure 210]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 211]                         %! SM4
+    % [D ViolinIIMusicVoice measure 34]                          %! SM4
     R1 * 7/8
     
-    % [Q ViolinIIMusicVoice measure 212]                         %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIIMusicVoice measure 213]                         %! SM4
+    % [D ViolinIIMusicVoice measure 35]                          %! SM4
     R1 * 7/8
     
-    % [Q ViolinIIMusicVoice measure 214]                         %! SM4
-    R1 * 1
+    % [D ViolinIIMusicVoice measure 36]                          %! SM4
+    R1 * 15/16
     
-    % [Q ViolinIIMusicVoice measure 215]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 216]                         %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIIMusicVoice measure 217]                         %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 218]                         %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 219]                         %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIIMusicVoice measure 220]                         %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIIMusicVoice measure 221]                         %! SM4
-    R1 * 1/2
-    
-    % [Q ViolinIIMusicVoice measure 222]                         %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIIMusicVoice measure 223]                         %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 224]                         %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 225]                         %! SM4
-    R1 * 1/2
-    
-    % [Q ViolinIIMusicVoice measure 226]                         %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIIMusicVoice measure 227]                         %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIIMusicVoice measure 228]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 229]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 230]                         %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIIMusicVoice measure 231]                         %! SM4
-    R1 * 1/2
-    
-    % [Q ViolinIIMusicVoice measure 232]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 233]                         %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIIMusicVoice measure 234]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 235]                         %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 236]                         %! SM4
+    % [D ViolinIIMusicVoice measure 37]                          %! SM4
     R1 * 1/4
     
-    % [Q ViolinIIMusicVoice measure 237]                         %! SM4
+    % [D ViolinIIMusicVoice measure 38]                          %! SM4
     R1 * 3/4
     
-    % [Q ViolinIIMusicVoice measure 238]                         %! SM4
-    R1 * 7/8
+    % [D ViolinIIMusicVoice measure 39]                          %! SM4
+    R1 * 1/4
     
-    % [Q ViolinIIMusicVoice measure 239]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 240]                         %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 241]                         %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIIMusicVoice measure 242]                         %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 243]                         %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 244]                         %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIIMusicVoice measure 245]                         %! SM4
+    % [D ViolinIIMusicVoice measure 40]                          %! SM4
     R1 * 1/2
     
-    % [Q ViolinIIMusicVoice measure 246]                         %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIIMusicVoice measure 247]                         %! SM4
+    % [D ViolinIIMusicVoice measure 41]                          %! SM4
     R1 * 3/4
     
-    % [Q ViolinIIMusicVoice measure 248]                         %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 249]                         %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 250]                         %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIIMusicVoice measure 251]                         %! SM4
-    R1 * 1/2
-    
-    % [Q ViolinIIMusicVoice measure 252]                         %! SM4
+    % [D ViolinIIMusicVoice measure 42]                          %! SM4
     R1 * 3/4
     
-    % [Q ViolinIIMusicVoice measure 253]                         %! SM4
-    R1 * 1
+    % [D ViolinIIMusicVoice measure 43]                          %! SM4
+    R1 * 15/16
     
-    % [Q ViolinIIMusicVoice measure 254]                         %! SM4
-    R1 * 1
+    % [D ViolinIIMusicVoice measure 44]                          %! SM4
+    R1 * 15/16
     
-    % [Q ViolinIIMusicVoice measure 255]                         %! SM4
+    % [D ViolinIIMusicVoice measure 45]                          %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIIMusicVoice measure 46]                          %! SM4
+    R1 * 1/4
+    
+    % [D ViolinIIMusicVoice measure 47]                          %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIIMusicVoice measure 48]                          %! SM4
+    R1 * 1/4
+    
+    % [D ViolinIIMusicVoice measure 49]                          %! SM4
+    R1 * 5/8
+    
+    % [D ViolinIIMusicVoice measure 50]                          %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 51]                          %! SM4
+    R1 * 3/2
+    
+    % [D ViolinIIMusicVoice measure 52]                          %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIIMusicVoice measure 53]                          %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIIMusicVoice measure 54]                          %! SM4
+    R1 * 1/4
+    
+    % [D ViolinIIMusicVoice measure 55]                          %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIIMusicVoice measure 56]                          %! SM4
+    R1 * 1/4
+    
+    % [D ViolinIIMusicVoice measure 57]                          %! SM4
+    R1 * 3/2
+    
+    % [D ViolinIIMusicVoice measure 58]                          %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIIMusicVoice measure 59]                          %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 60]                          %! SM4
+    R1 * 5/8
+    
+    % [D ViolinIIMusicVoice measure 61]                          %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 62]                          %! SM4
     R1 * 1/2
     
-    % [Q ViolinIIMusicVoice measure 256]                         %! SM4
+    % [D ViolinIIMusicVoice measure 63]                          %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 64]                          %! SM4
+    R1 * 1/4
+    
+    % [D ViolinIIMusicVoice measure 65]                          %! SM4
     R1 * 5/8
+    
+    % [D ViolinIIMusicVoice measure 66]                          %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 67]                          %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 68]                          %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 69]                          %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 70]                          %! SM4
+    R1 * 1/2
+    
+    % [D ViolinIIMusicVoice measure 71]                          %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIIMusicVoice measure 72]                          %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIIMusicVoice measure 73]                          %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIIMusicVoice measure 74]                          %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIIMusicVoice measure 75]                          %! SM4
+    R1 * 1/2
+    
+    % [D ViolinIIMusicVoice measure 76]                          %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 77]                          %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 78]                          %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIIMusicVoice measure 79]                          %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIIMusicVoice measure 80]                          %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIIMusicVoice measure 81]                          %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIIMusicVoice measure 82]                          %! SM4
+    R1 * 3/4
+    
+    % [D ViolinIIMusicVoice measure 83]                          %! SM4
+    R1 * 5/8
+    
+    % [D ViolinIIMusicVoice measure 84]                          %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIIMusicVoice measure 85]                          %! SM4
+    R1 * 3/2
+    
+    % [D ViolinIIMusicVoice measure 86]                          %! SM4
+    R1 * 15/16
+    
+    % [D ViolinIIMusicVoice measure 87]                          %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIIMusicVoice measure 88]                          %! SM4
+    R1 * 7/8
+    
+    % [D ViolinIIMusicVoice measure 89]                          %! SM4
+    R1 * 3/2
+    
+    % [D ViolinIIMusicVoice measure 90]                          %! SM4
+    R1 * 3/2
+    
+    % [D ViolinIIMusicVoice measure 91]                          %! SM4
+    R1 * 1/4
     
 }
 
 
-Q_ViolinIIMusicStaff = {
+D_ViolinIIMusicStaff = {
     \context Voice = "ViolinIIMusicVoice"
-    \Q_ViolinIIMusicVoice
+    \D_ViolinIIMusicVoice
 }
 
 
-Q_ViolaMusicVoice = {
+D_ViolaMusicVoice = {
     
-    % [Q ViolaMusicVoice measure 165]                            %! SM4
-    \clef "alto"                                                 %! SM8:REAPPLIED_CLEF:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    R1 * 7/8
-    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Viola”)                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    
-    % [Q ViolaMusicVoice measure 166]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 167]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 168]                            %! SM4
-    R1 * 3/4
-    
-    % [Q ViolaMusicVoice measure 169]                            %! SM4
-    R1 * 7/8
-    
-    % [Q ViolaMusicVoice measure 170]                            %! SM4
-    R1 * 7/8
-    
-    % [Q ViolaMusicVoice measure 171]                            %! SM4
-    R1 * 3/4
-    
-    % [Q ViolaMusicVoice measure 172]                            %! SM4
+    % [D ViolaMusicVoice measure 1]                              %! SM4
+    \clef "alto"                                                 %! SM8:DEFAULT_CLEF:ST3
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)  %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override Staff.Clef.color = ##f                             %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set Staff.forceClef = ##t                                   %! SM8:DEFAULT_CLEF:SM33:ST3
     R1 * 5/8
+    ^ \markup {                                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Viola”)                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    \override Staff.Clef.color = #(x11-color 'violet)            %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    % [Q ViolaMusicVoice measure 173]                            %! SM4
+    % [D ViolaMusicVoice measure 2]                              %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 3]                              %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 4]                              %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 5]                              %! SM4
     R1 * 1/2
     
-    % [Q ViolaMusicVoice measure 174]                            %! SM4
-    R1 * 3/4
+    % [D ViolaMusicVoice measure 6]                              %! SM4
+    R1 * 15/16
     
-    % [Q ViolaMusicVoice measure 175]                            %! SM4
+    % [D ViolaMusicVoice measure 7]                              %! SM4
+    R1 * 15/16
+    
+    % [D ViolaMusicVoice measure 8]                              %! SM4
     R1 * 7/8
     
-    % [Q ViolaMusicVoice measure 176]                            %! SM4
+    % [D ViolaMusicVoice measure 9]                              %! SM4
     R1 * 7/8
     
-    % [Q ViolaMusicVoice measure 177]                            %! SM4
+    % [D ViolaMusicVoice measure 10]                             %! SM4
     R1 * 1/2
     
-    % [Q ViolaMusicVoice measure 178]                            %! SM4
-    R1 * 5/8
-    
-    % [Q ViolaMusicVoice measure 179]                            %! SM4
+    % [D ViolaMusicVoice measure 11]                             %! SM4
     R1 * 3/4
     
-    % [Q ViolaMusicVoice measure 180]                            %! SM4
-    R1 * 1
+    % [D ViolaMusicVoice measure 12]                             %! SM4
+    R1 * 3/4
     
-    % [Q ViolaMusicVoice measure 181]                            %! SM4
-    R1 * 1
+    % [D ViolaMusicVoice measure 13]                             %! SM4
+    R1 * 7/8
     
-    % [Q ViolaMusicVoice measure 182]                            %! SM4
+    % [D ViolaMusicVoice measure 14]                             %! SM4
+    R1 * 15/16
+    
+    % [D ViolaMusicVoice measure 15]                             %! SM4
+    R1 * 15/16
+    
+    % [D ViolaMusicVoice measure 16]                             %! SM4
+    R1 * 7/8
+    
+    % [D ViolaMusicVoice measure 17]                             %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 18]                             %! SM4
     R1 * 5/8
     
-    % [Q ViolaMusicVoice measure 183]                            %! SM4
+    % [D ViolaMusicVoice measure 19]                             %! SM4
+    R1 * 7/8
+    
+    % [D ViolaMusicVoice measure 20]                             %! SM4
+    R1 * 7/8
+    
+    % [D ViolaMusicVoice measure 21]                             %! SM4
+    R1 * 15/16
+    
+    % [D ViolaMusicVoice measure 22]                             %! SM4
+    R1 * 15/16
+    
+    % [D ViolaMusicVoice measure 23]                             %! SM4
+    R1 * 5/8
+    
+    % [D ViolaMusicVoice measure 24]                             %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 25]                             %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 26]                             %! SM4
     R1 * 1/2
     
-    % [Q ViolaMusicVoice measure 184]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 185]                            %! SM4
+    % [D ViolaMusicVoice measure 27]                             %! SM4
     R1 * 3/4
     
-    % [Q ViolaMusicVoice measure 186]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 187]                            %! SM4
-    R1 * 7/8
-    
-    % [Q ViolaMusicVoice measure 188]                            %! SM4
+    % [D ViolaMusicVoice measure 28]                             %! SM4
     R1 * 3/4
     
-    % [Q ViolaMusicVoice measure 189]                            %! SM4
-    R1 * 7/8
-    
-    % [Q ViolaMusicVoice measure 190]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 191]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 192]                            %! SM4
-    R1 * 3/4
-    
-    % [Q ViolaMusicVoice measure 193]                            %! SM4
-    R1 * 7/8
-    
-    % [Q ViolaMusicVoice measure 194]                            %! SM4
-    R1 * 7/8
-    
-    % [Q ViolaMusicVoice measure 195]                            %! SM4
-    R1 * 3/4
-    
-    % [Q ViolaMusicVoice measure 196]                            %! SM4
-    R1 * 1/2
-    
-    % [Q ViolaMusicVoice measure 197]                            %! SM4
+    % [D ViolaMusicVoice measure 29]                             %! SM4
     R1 * 5/8
     
-    % [Q ViolaMusicVoice measure 198]                            %! SM4
+    % [D ViolaMusicVoice measure 30]                             %! SM4
     R1 * 3/4
     
-    % [Q ViolaMusicVoice measure 199]                            %! SM4
-    R1 * 7/8
+    % [D ViolaMusicVoice measure 31]                             %! SM4
+    R1 * 3/4
     
-    % [Q ViolaMusicVoice measure 200]                            %! SM4
-    R1 * 7/8
-    
-    % [Q ViolaMusicVoice measure 201]                            %! SM4
-    R1 * 5/8
-    
-    % [Q ViolaMusicVoice measure 202]                            %! SM4
+    % [D ViolaMusicVoice measure 32]                             %! SM4
     R1 * 1/2
     
-    % [Q ViolaMusicVoice measure 203]                            %! SM4
-    R1 * 3/4
+    % [D ViolaMusicVoice measure 33]                             %! SM4
+    R1 * 15/16
     
-    % [Q ViolaMusicVoice measure 204]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 205]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 206]                            %! SM4
-    R1 * 1/2
-    
-    % [Q ViolaMusicVoice measure 207]                            %! SM4
-    R1 * 5/8
-    
-    % [Q ViolaMusicVoice measure 208]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 209]                            %! SM4
-    R1 * 3/4
-    
-    % [Q ViolaMusicVoice measure 210]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 211]                            %! SM4
+    % [D ViolaMusicVoice measure 34]                             %! SM4
     R1 * 7/8
     
-    % [Q ViolaMusicVoice measure 212]                            %! SM4
-    R1 * 3/4
-    
-    % [Q ViolaMusicVoice measure 213]                            %! SM4
+    % [D ViolaMusicVoice measure 35]                             %! SM4
     R1 * 7/8
     
-    % [Q ViolaMusicVoice measure 214]                            %! SM4
-    R1 * 1
+    % [D ViolaMusicVoice measure 36]                             %! SM4
+    R1 * 15/16
     
-    % [Q ViolaMusicVoice measure 215]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 216]                            %! SM4
-    R1 * 3/4
-    
-    % [Q ViolaMusicVoice measure 217]                            %! SM4
-    R1 * 7/8
-    
-    % [Q ViolaMusicVoice measure 218]                            %! SM4
-    R1 * 7/8
-    
-    % [Q ViolaMusicVoice measure 219]                            %! SM4
-    R1 * 3/4
-    
-    % [Q ViolaMusicVoice measure 220]                            %! SM4
-    R1 * 5/8
-    
-    % [Q ViolaMusicVoice measure 221]                            %! SM4
-    R1 * 1/2
-    
-    % [Q ViolaMusicVoice measure 222]                            %! SM4
-    R1 * 3/4
-    
-    % [Q ViolaMusicVoice measure 223]                            %! SM4
-    R1 * 7/8
-    
-    % [Q ViolaMusicVoice measure 224]                            %! SM4
-    R1 * 7/8
-    
-    % [Q ViolaMusicVoice measure 225]                            %! SM4
-    R1 * 1/2
-    
-    % [Q ViolaMusicVoice measure 226]                            %! SM4
-    R1 * 5/8
-    
-    % [Q ViolaMusicVoice measure 227]                            %! SM4
-    R1 * 3/4
-    
-    % [Q ViolaMusicVoice measure 228]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 229]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 230]                            %! SM4
-    R1 * 5/8
-    
-    % [Q ViolaMusicVoice measure 231]                            %! SM4
-    R1 * 1/2
-    
-    % [Q ViolaMusicVoice measure 232]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 233]                            %! SM4
-    R1 * 3/4
-    
-    % [Q ViolaMusicVoice measure 234]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 235]                            %! SM4
-    R1 * 7/8
-    
-    % [Q ViolaMusicVoice measure 236]                            %! SM4
+    % [D ViolaMusicVoice measure 37]                             %! SM4
     R1 * 1/4
     
-    % [Q ViolaMusicVoice measure 237]                            %! SM4
+    % [D ViolaMusicVoice measure 38]                             %! SM4
     R1 * 3/4
     
-    % [Q ViolaMusicVoice measure 238]                            %! SM4
-    R1 * 7/8
+    % [D ViolaMusicVoice measure 39]                             %! SM4
+    R1 * 1/4
     
-    % [Q ViolaMusicVoice measure 239]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 240]                            %! SM4
-    R1 * 1
-    
-    % [Q ViolaMusicVoice measure 241]                            %! SM4
-    R1 * 3/4
-    
-    % [Q ViolaMusicVoice measure 242]                            %! SM4
-    R1 * 7/8
-    
-    % [Q ViolaMusicVoice measure 243]                            %! SM4
-    R1 * 7/8
-    
-    % [Q ViolaMusicVoice measure 244]                            %! SM4
-    R1 * 3/4
-    
-    % [Q ViolaMusicVoice measure 245]                            %! SM4
+    % [D ViolaMusicVoice measure 40]                             %! SM4
     R1 * 1/2
     
-    % [Q ViolaMusicVoice measure 246]                            %! SM4
-    R1 * 5/8
-    
-    % [Q ViolaMusicVoice measure 247]                            %! SM4
+    % [D ViolaMusicVoice measure 41]                             %! SM4
     R1 * 3/4
     
-    % [Q ViolaMusicVoice measure 248]                            %! SM4
-    R1 * 7/8
-    
-    % [Q ViolaMusicVoice measure 249]                            %! SM4
-    R1 * 7/8
-    
-    % [Q ViolaMusicVoice measure 250]                            %! SM4
-    R1 * 5/8
-    
-    % [Q ViolaMusicVoice measure 251]                            %! SM4
-    R1 * 1/2
-    
-    % [Q ViolaMusicVoice measure 252]                            %! SM4
+    % [D ViolaMusicVoice measure 42]                             %! SM4
     R1 * 3/4
     
-    % [Q ViolaMusicVoice measure 253]                            %! SM4
-    R1 * 1
+    % [D ViolaMusicVoice measure 43]                             %! SM4
+    R1 * 15/16
     
-    % [Q ViolaMusicVoice measure 254]                            %! SM4
-    R1 * 1
+    % [D ViolaMusicVoice measure 44]                             %! SM4
+    R1 * 15/16
     
-    % [Q ViolaMusicVoice measure 255]                            %! SM4
+    % [D ViolaMusicVoice measure 45]                             %! SM4
+    R1 * 7/8
+    
+    % [D ViolaMusicVoice measure 46]                             %! SM4
+    R1 * 1/4
+    
+    % [D ViolaMusicVoice measure 47]                             %! SM4
+    R1 * 7/8
+    
+    % [D ViolaMusicVoice measure 48]                             %! SM4
+    R1 * 1/4
+    
+    % [D ViolaMusicVoice measure 49]                             %! SM4
+    R1 * 5/8
+    
+    % [D ViolaMusicVoice measure 50]                             %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 51]                             %! SM4
+    R1 * 3/2
+    
+    % [D ViolaMusicVoice measure 52]                             %! SM4
+    R1 * 7/8
+    
+    % [D ViolaMusicVoice measure 53]                             %! SM4
+    R1 * 15/16
+    
+    % [D ViolaMusicVoice measure 54]                             %! SM4
+    R1 * 1/4
+    
+    % [D ViolaMusicVoice measure 55]                             %! SM4
+    R1 * 15/16
+    
+    % [D ViolaMusicVoice measure 56]                             %! SM4
+    R1 * 1/4
+    
+    % [D ViolaMusicVoice measure 57]                             %! SM4
+    R1 * 3/2
+    
+    % [D ViolaMusicVoice measure 58]                             %! SM4
+    R1 * 7/8
+    
+    % [D ViolaMusicVoice measure 59]                             %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 60]                             %! SM4
+    R1 * 5/8
+    
+    % [D ViolaMusicVoice measure 61]                             %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 62]                             %! SM4
     R1 * 1/2
     
-    % [Q ViolaMusicVoice measure 256]                            %! SM4
+    % [D ViolaMusicVoice measure 63]                             %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 64]                             %! SM4
+    R1 * 1/4
+    
+    % [D ViolaMusicVoice measure 65]                             %! SM4
     R1 * 5/8
+    
+    % [D ViolaMusicVoice measure 66]                             %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 67]                             %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 68]                             %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 69]                             %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 70]                             %! SM4
+    R1 * 1/2
+    
+    % [D ViolaMusicVoice measure 71]                             %! SM4
+    R1 * 7/8
+    
+    % [D ViolaMusicVoice measure 72]                             %! SM4
+    R1 * 7/8
+    
+    % [D ViolaMusicVoice measure 73]                             %! SM4
+    R1 * 15/16
+    
+    % [D ViolaMusicVoice measure 74]                             %! SM4
+    R1 * 15/16
+    
+    % [D ViolaMusicVoice measure 75]                             %! SM4
+    R1 * 1/2
+    
+    % [D ViolaMusicVoice measure 76]                             %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 77]                             %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 78]                             %! SM4
+    R1 * 15/16
+    
+    % [D ViolaMusicVoice measure 79]                             %! SM4
+    R1 * 7/8
+    
+    % [D ViolaMusicVoice measure 80]                             %! SM4
+    R1 * 7/8
+    
+    % [D ViolaMusicVoice measure 81]                             %! SM4
+    R1 * 15/16
+    
+    % [D ViolaMusicVoice measure 82]                             %! SM4
+    R1 * 3/4
+    
+    % [D ViolaMusicVoice measure 83]                             %! SM4
+    R1 * 5/8
+    
+    % [D ViolaMusicVoice measure 84]                             %! SM4
+    R1 * 15/16
+    
+    % [D ViolaMusicVoice measure 85]                             %! SM4
+    R1 * 3/2
+    
+    % [D ViolaMusicVoice measure 86]                             %! SM4
+    R1 * 15/16
+    
+    % [D ViolaMusicVoice measure 87]                             %! SM4
+    R1 * 7/8
+    
+    % [D ViolaMusicVoice measure 88]                             %! SM4
+    R1 * 7/8
+    
+    % [D ViolaMusicVoice measure 89]                             %! SM4
+    R1 * 3/2
+    
+    % [D ViolaMusicVoice measure 90]                             %! SM4
+    R1 * 3/2
+    
+    % [D ViolaMusicVoice measure 91]                             %! SM4
+    R1 * 1/4
     
 }
 
 
-Q_ViolaMusicStaff = {
+D_ViolaMusicStaff = {
     \context Voice = "ViolaMusicVoice"
-    \Q_ViolaMusicVoice
+    \D_ViolaMusicVoice
 }
 
 
-Q_CelloMusicVoice = {
+D_CelloMusicVoice = {
     
-    % [Q CelloMusicVoice measure 165]                            %! SM4
-    \clef "bass"                                                 %! SM8:REAPPLIED_CLEF:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    R1 * 7/8
-    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Cello”)                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    
-    % [Q CelloMusicVoice measure 166]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 167]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 168]                            %! SM4
-    R1 * 3/4
-    
-    % [Q CelloMusicVoice measure 169]                            %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 170]                            %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 171]                            %! SM4
-    R1 * 3/4
-    
-    % [Q CelloMusicVoice measure 172]                            %! SM4
+    % [D CelloMusicVoice measure 1]                              %! SM4
+    \clef "bass"                                                 %! SM8:DEFAULT_CLEF:ST3
+    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)  %! SM6:DEFAULT_CLEF_COLOR:ST3
+%@% \override Staff.Clef.color = ##f                             %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
+    \set Staff.forceClef = ##t                                   %! SM8:DEFAULT_CLEF:SM33:ST3
     R1 * 5/8
+    ^ \markup {                                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        \with-color                                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            #(x11-color 'DarkViolet)                             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+            (“Cello”)                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+        }                                                        %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
+    \override Staff.Clef.color = #(x11-color 'violet)            %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    % [Q CelloMusicVoice measure 173]                            %! SM4
+    % [D CelloMusicVoice measure 2]                              %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 3]                              %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 4]                              %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 5]                              %! SM4
     R1 * 1/2
     
-    % [Q CelloMusicVoice measure 174]                            %! SM4
-    R1 * 3/4
+    % [D CelloMusicVoice measure 6]                              %! SM4
+    R1 * 15/16
     
-    % [Q CelloMusicVoice measure 175]                            %! SM4
+    % [D CelloMusicVoice measure 7]                              %! SM4
+    R1 * 15/16
+    
+    % [D CelloMusicVoice measure 8]                              %! SM4
     R1 * 7/8
     
-    % [Q CelloMusicVoice measure 176]                            %! SM4
+    % [D CelloMusicVoice measure 9]                              %! SM4
     R1 * 7/8
     
-    % [Q CelloMusicVoice measure 177]                            %! SM4
+    % [D CelloMusicVoice measure 10]                             %! SM4
     R1 * 1/2
     
-    % [Q CelloMusicVoice measure 178]                            %! SM4
-    R1 * 5/8
-    
-    % [Q CelloMusicVoice measure 179]                            %! SM4
+    % [D CelloMusicVoice measure 11]                             %! SM4
     R1 * 3/4
     
-    % [Q CelloMusicVoice measure 180]                            %! SM4
-    R1 * 1
+    % [D CelloMusicVoice measure 12]                             %! SM4
+    R1 * 3/4
     
-    % [Q CelloMusicVoice measure 181]                            %! SM4
-    R1 * 1
+    % [D CelloMusicVoice measure 13]                             %! SM4
+    R1 * 7/8
     
-    % [Q CelloMusicVoice measure 182]                            %! SM4
+    % [D CelloMusicVoice measure 14]                             %! SM4
+    R1 * 15/16
+    
+    % [D CelloMusicVoice measure 15]                             %! SM4
+    R1 * 15/16
+    
+    % [D CelloMusicVoice measure 16]                             %! SM4
+    R1 * 7/8
+    
+    % [D CelloMusicVoice measure 17]                             %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 18]                             %! SM4
     R1 * 5/8
     
-    % [Q CelloMusicVoice measure 183]                            %! SM4
+    % [D CelloMusicVoice measure 19]                             %! SM4
+    R1 * 7/8
+    
+    % [D CelloMusicVoice measure 20]                             %! SM4
+    R1 * 7/8
+    
+    % [D CelloMusicVoice measure 21]                             %! SM4
+    R1 * 15/16
+    
+    % [D CelloMusicVoice measure 22]                             %! SM4
+    R1 * 15/16
+    
+    % [D CelloMusicVoice measure 23]                             %! SM4
+    R1 * 5/8
+    
+    % [D CelloMusicVoice measure 24]                             %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 25]                             %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 26]                             %! SM4
     R1 * 1/2
     
-    % [Q CelloMusicVoice measure 184]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 185]                            %! SM4
+    % [D CelloMusicVoice measure 27]                             %! SM4
     R1 * 3/4
     
-    % [Q CelloMusicVoice measure 186]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 187]                            %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 188]                            %! SM4
+    % [D CelloMusicVoice measure 28]                             %! SM4
     R1 * 3/4
     
-    % [Q CelloMusicVoice measure 189]                            %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 190]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 191]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 192]                            %! SM4
-    R1 * 3/4
-    
-    % [Q CelloMusicVoice measure 193]                            %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 194]                            %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 195]                            %! SM4
-    R1 * 3/4
-    
-    % [Q CelloMusicVoice measure 196]                            %! SM4
-    R1 * 1/2
-    
-    % [Q CelloMusicVoice measure 197]                            %! SM4
+    % [D CelloMusicVoice measure 29]                             %! SM4
     R1 * 5/8
     
-    % [Q CelloMusicVoice measure 198]                            %! SM4
+    % [D CelloMusicVoice measure 30]                             %! SM4
     R1 * 3/4
     
-    % [Q CelloMusicVoice measure 199]                            %! SM4
-    R1 * 7/8
+    % [D CelloMusicVoice measure 31]                             %! SM4
+    R1 * 3/4
     
-    % [Q CelloMusicVoice measure 200]                            %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 201]                            %! SM4
-    R1 * 5/8
-    
-    % [Q CelloMusicVoice measure 202]                            %! SM4
+    % [D CelloMusicVoice measure 32]                             %! SM4
     R1 * 1/2
     
-    % [Q CelloMusicVoice measure 203]                            %! SM4
-    R1 * 3/4
+    % [D CelloMusicVoice measure 33]                             %! SM4
+    R1 * 15/16
     
-    % [Q CelloMusicVoice measure 204]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 205]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 206]                            %! SM4
-    R1 * 1/2
-    
-    % [Q CelloMusicVoice measure 207]                            %! SM4
-    R1 * 5/8
-    
-    % [Q CelloMusicVoice measure 208]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 209]                            %! SM4
-    R1 * 3/4
-    
-    % [Q CelloMusicVoice measure 210]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 211]                            %! SM4
+    % [D CelloMusicVoice measure 34]                             %! SM4
     R1 * 7/8
     
-    % [Q CelloMusicVoice measure 212]                            %! SM4
-    R1 * 3/4
-    
-    % [Q CelloMusicVoice measure 213]                            %! SM4
+    % [D CelloMusicVoice measure 35]                             %! SM4
     R1 * 7/8
     
-    % [Q CelloMusicVoice measure 214]                            %! SM4
-    R1 * 1
+    % [D CelloMusicVoice measure 36]                             %! SM4
+    R1 * 15/16
     
-    % [Q CelloMusicVoice measure 215]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 216]                            %! SM4
-    R1 * 3/4
-    
-    % [Q CelloMusicVoice measure 217]                            %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 218]                            %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 219]                            %! SM4
-    R1 * 3/4
-    
-    % [Q CelloMusicVoice measure 220]                            %! SM4
-    R1 * 5/8
-    
-    % [Q CelloMusicVoice measure 221]                            %! SM4
-    R1 * 1/2
-    
-    % [Q CelloMusicVoice measure 222]                            %! SM4
-    R1 * 3/4
-    
-    % [Q CelloMusicVoice measure 223]                            %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 224]                            %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 225]                            %! SM4
-    R1 * 1/2
-    
-    % [Q CelloMusicVoice measure 226]                            %! SM4
-    R1 * 5/8
-    
-    % [Q CelloMusicVoice measure 227]                            %! SM4
-    R1 * 3/4
-    
-    % [Q CelloMusicVoice measure 228]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 229]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 230]                            %! SM4
-    R1 * 5/8
-    
-    % [Q CelloMusicVoice measure 231]                            %! SM4
-    R1 * 1/2
-    
-    % [Q CelloMusicVoice measure 232]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 233]                            %! SM4
-    R1 * 3/4
-    
-    % [Q CelloMusicVoice measure 234]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 235]                            %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 236]                            %! SM4
+    % [D CelloMusicVoice measure 37]                             %! SM4
     R1 * 1/4
     
-    % [Q CelloMusicVoice measure 237]                            %! SM4
+    % [D CelloMusicVoice measure 38]                             %! SM4
     R1 * 3/4
     
-    % [Q CelloMusicVoice measure 238]                            %! SM4
-    R1 * 7/8
+    % [D CelloMusicVoice measure 39]                             %! SM4
+    R1 * 1/4
     
-    % [Q CelloMusicVoice measure 239]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 240]                            %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 241]                            %! SM4
-    R1 * 3/4
-    
-    % [Q CelloMusicVoice measure 242]                            %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 243]                            %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 244]                            %! SM4
-    R1 * 3/4
-    
-    % [Q CelloMusicVoice measure 245]                            %! SM4
+    % [D CelloMusicVoice measure 40]                             %! SM4
     R1 * 1/2
     
-    % [Q CelloMusicVoice measure 246]                            %! SM4
-    R1 * 5/8
-    
-    % [Q CelloMusicVoice measure 247]                            %! SM4
+    % [D CelloMusicVoice measure 41]                             %! SM4
     R1 * 3/4
     
-    % [Q CelloMusicVoice measure 248]                            %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 249]                            %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 250]                            %! SM4
-    R1 * 5/8
-    
-    % [Q CelloMusicVoice measure 251]                            %! SM4
-    R1 * 1/2
-    
-    % [Q CelloMusicVoice measure 252]                            %! SM4
+    % [D CelloMusicVoice measure 42]                             %! SM4
     R1 * 3/4
     
-    % [Q CelloMusicVoice measure 253]                            %! SM4
-    R1 * 1
+    % [D CelloMusicVoice measure 43]                             %! SM4
+    R1 * 15/16
     
-    % [Q CelloMusicVoice measure 254]                            %! SM4
-    R1 * 1
+    % [D CelloMusicVoice measure 44]                             %! SM4
+    R1 * 15/16
     
-    % [Q CelloMusicVoice measure 255]                            %! SM4
+    % [D CelloMusicVoice measure 45]                             %! SM4
+    R1 * 7/8
+    
+    % [D CelloMusicVoice measure 46]                             %! SM4
+    R1 * 1/4
+    
+    % [D CelloMusicVoice measure 47]                             %! SM4
+    R1 * 7/8
+    
+    % [D CelloMusicVoice measure 48]                             %! SM4
+    R1 * 1/4
+    
+    % [D CelloMusicVoice measure 49]                             %! SM4
+    R1 * 5/8
+    
+    % [D CelloMusicVoice measure 50]                             %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 51]                             %! SM4
+    R1 * 3/2
+    
+    % [D CelloMusicVoice measure 52]                             %! SM4
+    R1 * 7/8
+    
+    % [D CelloMusicVoice measure 53]                             %! SM4
+    R1 * 15/16
+    
+    % [D CelloMusicVoice measure 54]                             %! SM4
+    R1 * 1/4
+    
+    % [D CelloMusicVoice measure 55]                             %! SM4
+    R1 * 15/16
+    
+    % [D CelloMusicVoice measure 56]                             %! SM4
+    R1 * 1/4
+    
+    % [D CelloMusicVoice measure 57]                             %! SM4
+    R1 * 3/2
+    
+    % [D CelloMusicVoice measure 58]                             %! SM4
+    R1 * 7/8
+    
+    % [D CelloMusicVoice measure 59]                             %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 60]                             %! SM4
+    R1 * 5/8
+    
+    % [D CelloMusicVoice measure 61]                             %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 62]                             %! SM4
     R1 * 1/2
     
-    % [Q CelloMusicVoice measure 256]                            %! SM4
+    % [D CelloMusicVoice measure 63]                             %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 64]                             %! SM4
+    R1 * 1/4
+    
+    % [D CelloMusicVoice measure 65]                             %! SM4
     R1 * 5/8
+    
+    % [D CelloMusicVoice measure 66]                             %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 67]                             %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 68]                             %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 69]                             %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 70]                             %! SM4
+    R1 * 1/2
+    
+    % [D CelloMusicVoice measure 71]                             %! SM4
+    R1 * 7/8
+    
+    % [D CelloMusicVoice measure 72]                             %! SM4
+    R1 * 7/8
+    
+    % [D CelloMusicVoice measure 73]                             %! SM4
+    R1 * 15/16
+    
+    % [D CelloMusicVoice measure 74]                             %! SM4
+    R1 * 15/16
+    
+    % [D CelloMusicVoice measure 75]                             %! SM4
+    R1 * 1/2
+    
+    % [D CelloMusicVoice measure 76]                             %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 77]                             %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 78]                             %! SM4
+    R1 * 15/16
+    
+    % [D CelloMusicVoice measure 79]                             %! SM4
+    R1 * 7/8
+    
+    % [D CelloMusicVoice measure 80]                             %! SM4
+    R1 * 7/8
+    
+    % [D CelloMusicVoice measure 81]                             %! SM4
+    R1 * 15/16
+    
+    % [D CelloMusicVoice measure 82]                             %! SM4
+    R1 * 3/4
+    
+    % [D CelloMusicVoice measure 83]                             %! SM4
+    R1 * 5/8
+    
+    % [D CelloMusicVoice measure 84]                             %! SM4
+    R1 * 15/16
+    
+    % [D CelloMusicVoice measure 85]                             %! SM4
+    R1 * 3/2
+    
+    % [D CelloMusicVoice measure 86]                             %! SM4
+    R1 * 15/16
+    
+    % [D CelloMusicVoice measure 87]                             %! SM4
+    R1 * 7/8
+    
+    % [D CelloMusicVoice measure 88]                             %! SM4
+    R1 * 7/8
+    
+    % [D CelloMusicVoice measure 89]                             %! SM4
+    R1 * 3/2
+    
+    % [D CelloMusicVoice measure 90]                             %! SM4
+    R1 * 3/2
+    
+    % [D CelloMusicVoice measure 91]                             %! SM4
+    R1 * 1/4
     
 }
 
 
-Q_CelloMusicStaff = {
+D_CelloMusicStaff = {
     \context Voice = "CelloMusicVoice"
-    \Q_CelloMusicVoice
+    \D_CelloMusicVoice
 }
