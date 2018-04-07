@@ -24,11 +24,11 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [523],
+            [358],
             ),
-        ('duration', "1'15''"),
-        ('first_measure_number', 531),
-        ('last_measure_number', 546),
+        ('duration', "0'41''"),
+        ('first_measure_number', 358),
+        ('last_measure_number', 365),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -54,7 +54,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='GlobalSkips',
                                 prototype='abjad.MetronomeMark',
-                                value='largo',
+                                value='largo meno mosso',
                                 ),
                             abjad.Momento(
                                 context='GlobalSkips',
@@ -111,8 +111,8 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('segment_name', 'R'),
-        ('segment_number', 12),
+        ('segment_name', 'L'),
+        ('segment_number', 7),
         (
             'sounds_during_segment',
             abjad.OrderedDict(
@@ -124,16 +124,11 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('start_clock_time', "22'20''"),
-        ('stop_clock_time', "23'35''"),
+        ('start_clock_time', "14'00''"),
+        ('stop_clock_time', "14'41''"),
         (
             'time_signatures',
             [
-                '4/4',
-                '3/4',
-                '4/4',
-                '5/4',
-                '6/4',
                 '3/4',
                 '4/4',
                 '4/4',
@@ -141,9 +136,6 @@ metadata = abjad.OrderedDict(
                 '6/4',
                 '3/4',
                 '4/4',
-                '4/4',
-                '3/4',
-                '3/4',
                 '4/4',
                 ],
             ),
