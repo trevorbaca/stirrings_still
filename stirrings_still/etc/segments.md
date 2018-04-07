@@ -2670,7 +2670,7 @@ SEGMENTS
             achieves mp at start of next stage;
     attacca;
 
-    [K.6] (16-18)
+    [K.6] (18-20 + 21)
     (3 measures)
     andante-to-largo ritardando happens;
     tutti flight begins:
