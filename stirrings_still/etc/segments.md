@@ -1174,7 +1174,7 @@ SEGMENTS
         jeux des terminaisons continues;
         mf continues;
     pause;
-    >>[I.6 (repetition cells) 2/2] prolong [D.6] pause<<:
+    >>[I.6 (repetition cells) 2/2] prolong [D.6] pause<< (38):
         >>summon future time<<;
         larghissimo;
         v1, v2, va:
@@ -1190,7 +1190,7 @@ SEGMENTS
 
     [D.7] (40-45 + fermata)
     (6 measures)
-    presto continues;
+    presto resumes after pause;
     white tutti grid continues (at stage two) to end of stage:
         damped lh continues to end of stage;
         hair continues;
@@ -1218,11 +1218,19 @@ SEGMENTS
     lontano governs stage;
     v1, v2, va:
         tacet subito;
-    vc clouded pane appears (first [written] time in piece):
+    vc clouded pane appears:
         stopped lh continues;
         hair continues;
         p governs stage;
-    long pause;
+        >>[F.2 (clearing) 1/2] bisects [D.9]<< (51):
+            >>summons future time<<;
+            largo;
+            va tailpiece:
+                absent lh;
+                pochiss. flicker;
+                mp;
+        >>attacca second half of [D.9]<<
+    long pause after [D.9];
 
     [D.10] (55 + long)
     (1 measure)
@@ -1237,7 +1245,7 @@ SEGMENTS
     long pause;
 
     >>[S.2 (transformatum) 1/1] prefixes [D.11]<< (57):
-        >>summon future time<<;
+        >>summons future time<<;
         largo;
         v1, v2 ellipses:
             stopped lh;
@@ -1279,8 +1287,9 @@ SEGMENTS
             stopped lh returns;
             hair returns;
             niente < p governs first half of stage;
-            >>[I.1 (gears)] bisect [D.12 1@2/2]<<:
+            >>[I.1 (gears)] bisect [D.12]<<:
                 >>summon future time<<;
+                largo;
                 measure 2/2;
                 stopped lh;
                 hair;
