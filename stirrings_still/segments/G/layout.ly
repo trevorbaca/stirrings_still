@@ -5,7 +5,7 @@
 \context Score = "Score"
 \with
 {
-    currentBarNumber = #233
+    currentBarNumber = #299
 }
 <<
     \context GlobalContext = "GlobalContext"
@@ -13,7 +13,7 @@
         \context PageLayout = "PageLayout"
         {   %*% PageLayout
             
-            % [PageLayout measure 233]                                                   %! SM4
+            % [PageLayout measure 299]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)             %! HSS1:SPACING
             \autoPageBreaksOff                                                           %! BMM1:BREAK
@@ -24,70 +24,70 @@
             s1 * 7/8
         %@% ^ \markup { \make-forest-green "[1/32]" }                                    %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 234]                                                   %! SM4
+            % [PageLayout measure 300]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)              %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/4
         %@% ^ \markup { \make-forest-green "[1/4]" }                                     %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 235]                                                   %! SM4
+            % [PageLayout measure 301]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 7/8
         %@% ^ \markup { \make-forest-green "[1/32]" }                                    %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 236]                                                   %! SM4
+            % [PageLayout measure 302]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)              %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/4
         %@% ^ \markup { \make-forest-green "[1/4]" }                                     %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 237]                                                   %! SM4
+            % [PageLayout measure 303]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/2
         %@% ^ \markup { \make-forest-green "[1/32]" }                                    %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 238]                                                   %! SM4
+            % [PageLayout measure 304]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \make-forest-green "[1/32]" }                                    %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 239]                                                   %! SM4
+            % [PageLayout measure 305]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 15/16
         %@% ^ \markup { \make-forest-green "[1/32]" }                                    %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 240]                                                   %! SM4
+            % [PageLayout measure 306]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)              %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/4
         %@% ^ \markup { \make-forest-green "[1/4]" }                                     %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 241]                                                   %! SM4
+            % [PageLayout measure 307]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 15/16
         %@% ^ \markup { \make-forest-green "[1/32]" }                                    %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 242]                                                   %! SM4
+            % [PageLayout measure 308]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 35 96)            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/4
         %@% ^ \markup { \make-forest-green "[[1/4 * 35/24]]" }                           %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 243]                                                   %! SM4
+            % [PageLayout measure 309]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
@@ -97,63 +97,63 @@
             s1 * 5/8
         %@% ^ \markup { \make-forest-green "[1/32]" }                                    %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 244]                                                   %! SM4
+            % [PageLayout measure 310]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \make-forest-green "[1/32]" }                                    %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 245]                                                   %! SM4
+            % [PageLayout measure 311]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \make-forest-green "[1/32]" }                                    %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 246]                                                   %! SM4
+            % [PageLayout measure 312]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)              %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/4
         %@% ^ \markup { \make-forest-green "[1/4]" }                                     %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 247]                                                   %! SM4
+            % [PageLayout measure 313]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \make-forest-green "[1/32]" }                                    %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 248]                                                   %! SM4
+            % [PageLayout measure 314]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/2
         %@% ^ \markup { \make-forest-green "[1/32]" }                                    %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 249]                                                   %! SM4
+            % [PageLayout measure 315]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 4)              %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/4
         %@% ^ \markup { \make-forest-green "[1/4]" }                                     %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 250]                                                   %! SM4
+            % [PageLayout measure 316]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 7/8
         %@% ^ \markup { \make-forest-green "[1/32]" }                                    %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 251]                                                   %! SM4
+            % [PageLayout measure 317]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 32)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \make-forest-green "[1/32]" }                                    %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 252]                                                   %! SM4
+            % [PageLayout measure 318]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 35 96)            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK

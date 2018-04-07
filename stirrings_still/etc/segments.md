@@ -849,7 +849,7 @@ SEGMENTS
 
 [C] time series C; rotation 0
 
-    [C.1] (1-4 + fermata)
+    [C.1] (1-4 + 5 + fermata)
     (4 measures)
     adagio;
     tutti maximally tight talon-crunch circles begin:
@@ -859,8 +859,7 @@ SEGMENTS
         desynchronization begins:
             different rate for each player;
         "ff" governs stage;
-
-        >>[G.1 (pane / urtext conflict) 1/1] suffixes [C.1]<<:
+        >>[G.1 (pane / urtext conflict) 1/1] suffixes [C.1]<< (5):
             >>summons future time<<;
             largo più mosso;
             tutti clouded pane / urtext declamation conflict;
@@ -883,11 +882,11 @@ SEGMENTS
                     new pitch begins stepwise above;
                     niente < f ... f > niente governs stage;
                     subtends declamation;
-    pause follows insert;
+    pause follows suffix (6);
 
-    [C.2] (6-9 + fermata)
+    [C.2] (7-10 + fermata)
     (4 measures)
-    adagio continues;
+    adagio resumes;
     tutti maximally tight talon-crunch circles repeat:
         damped lh continues;
         hair continues;
@@ -895,9 +894,9 @@ SEGMENTS
             slow up-glissando;
         desynchronization continues;
         p governs stage;
-    pause;
+    pause (11);
 
-    [C.3] (11-14)
+    [C.3] (12-15)
     (4 measures)
     adagio più mosso begins;
     tutti out-spiralling begins:
@@ -910,7 +909,7 @@ SEGMENTS
         p continues;
     attacca;
 
-    [C.4] (15-18)
+    [C.4] (16-19)
     (4 measures)
     adagio più mosso continues;
     tutti out-spiralling continues:
@@ -923,7 +922,7 @@ SEGMENTS
         p continues;
     attacca;
 
-    [C.5] (19-22)
+    [C.5] (20-23)
     (4 measures)
     adagio più mosso continues;
     tutti out-spiralling continues:
@@ -936,7 +935,7 @@ SEGMENTS
         p continues;
     attacca;
 
-    [C.6] (23-26)
+    [C.6] (24-27)
     (4 measures)
     adagio più mosso continues;
     tutti out-spiralling achieves maximally wide circles;
@@ -950,7 +949,7 @@ SEGMENTS
         p continues to end of stage;
     surprisingly short breath;
 
-    [C.7] (27 + fraction)
+    [C.7] (28 + fraction)
     (1 measure)
     allegro governs stage;
     comprising stage:
@@ -968,10 +967,10 @@ SEGMENTS
             hair continues;
             pp governs stage;
     cut-off;
-    all sound ends immediately following clockticks;
+    all sound ends immediately following clockticks (29);
     counted rest to build expectation before reentering circles;
 
-    [C.8] (29-32)
+    [C.8] (30-33 + 34-35)
     (circles resume)
     (4 measures)
     adagio-meno-mosso-to-allegro accelerando governs stage;
@@ -984,19 +983,19 @@ SEGMENTS
             rhythm 3 2r 3 2r 3 2r 3 1(!)r 3 2r ...;
         mf > pp governs stage;
     surprisingly short breath;
-    >>[D.9 (clouded pane) 1/4] prolongs [C.8] breath<<:
-        >>summons future time<<;
-        largo;
-        lontano;
-        v1, v2, va:
-            tacet;
-        vc clouded pane appears (first [actual] time in piece):
-            stopped lh;
-            hair;
-            p;
-    <<recapitulate surprisingly short breath after insert>>
+        >>[D.9 (clouded pane) 1-2/4] prolongs [C.8] breath<< (34-35):
+            >>summons future time<<;
+            largo;
+            lontano;
+            v1, v2, va:
+                tacet;
+            vc clouded pane appears (first [actual] time in piece):
+                stopped lh;
+                hair;
+                p;
+    <<surprisingly short breath repeats to effect prolongation>>;
 
-    [C.9] (33-36)
+    [C.9] (36-39)
     (circles resume)
     (4 measures)
     adagio-più-mosso-to-presto accelerando governs stage;
@@ -1014,7 +1013,8 @@ SEGMENTS
             achieves mf at start of next stage;
     attacca;
 
-    [C.10-13] = 2 x [C.8-9] (29-36)
+    [C.10-13] = 2 x [C.8-9] (40-43, 44-47, 48-51, 52-55)
+        adagio più mosso governs all stages;
         tutti circles continue:
         hair continues;
         offset synchronization continues through all four stages;
@@ -1029,7 +1029,7 @@ SEGMENTS
         mf > pp < f > pp < f governs the four stages;
     attacca;
 
-    [C.14] (37-40)
+    [C.14] (56-59 + 60-61)
     (4 measures)
     adagio governs stage;
     tutti maximally wide circles continue:
@@ -1039,19 +1039,19 @@ SEGMENTS
         desynchronization governs stage;
         f continues until end of stage;
     surprisingly short breath;
-    >>[J.1 (appena udibile clearing) 1-2/4] suffixes [C.14 (conclusion)]<<:
-        >>summons future time<<;
-        larghissimo;
-        v1, v2, va urtext field:
-            stopped lh;
-            hair;
-            double-stop field;
-            appena udibile;
-        vc:
-            tacet;
-    >>repeat surprisingly short breath<<
+        >>[J.1 (appena clearing) 1-2/4] suffixes [C.14 (conclusion)]<< (60-61):
+            >>summons future time<<;
+            larghissimo;
+            v1, v2, va urtext field:
+                stopped lh;
+                hair;
+                double-stop field;
+                appena udibile;
+            vc:
+                tacet;
+        >>surprisingly short breath repeats to effect prolongation<<;
 
-    [C.15] (41-42)
+    [C.15] (62-63)
     (2 measures)
     largo-to-allegro accelerando governs first half of stage;
     tutti maximally wide homorhythm circles continue:
@@ -1063,7 +1063,7 @@ SEGMENTS
         p begins;
     attacca;
 
-    [C.16] (43-44)
+    [C.16] (64-65)
     (2 measures)
     allegro-to-largo ritardando governs first half of stage;
     tutti maximally wide homorhythm circles continue:
@@ -1075,7 +1075,7 @@ SEGMENTS
         p continues;
     attacca;
 
-    [C.17] (45-46)
+    [C.17] (66-67)
     (2 measures)
     largo-to-allegro accelerando governs first half of stage;
     tutti maximally wide homorhythm circles continue:
@@ -1087,7 +1087,7 @@ SEGMENTS
         p continues;
     attacca;
     
-    [C.18] (47-48 + fermata)
+    [C.18] (68-69 + fermata)
     (2 measures)
     allegro-to-largo ritardando governs first half of stage;
     tutti maximally wide homorhythm circles continue:
@@ -1097,9 +1097,9 @@ SEGMENTS
             rhythmicized with rest after every circle;
         jeux des terminaisons continues to end of stage;
         p continues until end of stage;
-    pause;
+    pause (70);
 
-    [C.19] (50-55 + fermata)
+    [C.19] (71-76 + fermata)
     (6 measures)
     largo-to-presto accelerando happens:
         begins at start of stage;
@@ -1112,7 +1112,7 @@ SEGMENTS
             slackening of circles governs stage; 
             continuous sound (= no rest after any circle) governs stage;
         f > niente governs stage;
-    pause;
+    pause (77);
 
 [D] time series C; rotation -18
 
@@ -2511,7 +2511,7 @@ SEGMENTS
 
 [J] time series C; rotation -54
 
-    [J.1] (1-4)
+    [J.1] (1-2 + 3 + 4-5)
     (4 measures)
     larghissimo continues;
     v1, v2, va urtext field continues:
@@ -2521,7 +2521,6 @@ SEGMENTS
         appena udibile continues;
     vc:
         tacet continues;
-
         <<[C.7 (clocktime composite)] bisects [J.1]>>:
             <<summons past time>>;
             allegro;
@@ -2539,10 +2538,11 @@ SEGMENTS
                 hair;
                 pp;
             cut-off;
+        <<attacca second half of [J.1]>>;
+        larghissimo resumes;
+    attacca;
 
-    attacca after [J.1];
-
-    [J.2] (5-6)
+    [J.2] (6-7)
     (2 measures)
     larghissimo-to-andante accelerando begins;
     tutti urtext field continues:
@@ -2552,7 +2552,7 @@ SEGMENTS
         appena udibile < fff poco scratch begins;
     attacca;
     
-    [J.3] (7-8)
+    [J.3] (8-9)
     (2 measures)
     larghissimo-to-andante accelerando completes:
         achieves andante at start of next stage;
@@ -2566,7 +2566,7 @@ SEGMENTS
 
     ||: J.4-5 :|| x 3
 
-        [J.4] (9)
+        [J.4] (10)
         (1 measure)
         andante continues;
         tutti urtext field completes:
@@ -2576,7 +2576,7 @@ SEGMENTS
             fff poco scratch continues and governs stage;
         attacca;
 
-        [J.5] (10-11)
+        [J.5] (11-12)
         (2 measures)
         andante continues;
         v1, v2, va 1/2 clt trajectories begin and govern stage:
@@ -2592,7 +2592,7 @@ SEGMENTS
         surprisingly short breath;
         [[third time no breath]];
 
-    [J.6] (12-15)
+    [J.6] (13-16)
     (4 measures)
     andante continues;
     v1, 2, va 1/2 clt trajectories continue:
