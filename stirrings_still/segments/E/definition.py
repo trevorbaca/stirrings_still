@@ -20,7 +20,7 @@ maker(
     baca.rehearsal_mark_y_offset(12),
     )
 
-for value, lmn in [
+time = (
     ('presto', 1),
     ('short', 3),
     ('allegro', 4),
@@ -55,14 +55,6 @@ for value, lmn in [
     (abjad.Accelerando(), 112),
     ('presto', 115),
     ('largo', 116),
-    ]:
-    if value in baca.GlobalFermataCommand.description_to_command:
-        maker(
-            'GlobalRests',
-            baca.global_fermata(value, baca.rest(lmn - 1)),
-            )
-    else:
-        maker(
-            'GlobalSkips',
-            baca.metronome_mark(value, baca.skip(lmn - 1)),
-            )
+    )
+
+stirrings_still.time(maker, time)
