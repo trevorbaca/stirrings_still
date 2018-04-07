@@ -307,14 +307,14 @@ SEGMENTS
         >>attacca second half of [A.12]<<;
     surprisingly short breath after [A.12];
 
-    [A.13] (44-47 + fermata)
+    [A.13] (46-47 + 48 + 49-50 + fermata)
     (4 measures) 
     largo continues;
     tutti ellipses continue:
         subito damped lh;
         subito slower rate;
         subito p;
-        >>[I.6 (vc cell) 2/2] bisects [A.13 (iteratum)]<<:
+        >>[I.6 (vc cell) 2/2] bisects [A.13 (iteratum)]<< (48):
             >>summons future time<<;
             larghissimo;
             vc 1/2 clt solo trajectory:
@@ -324,49 +324,49 @@ SEGMENTS
                     pitch is not upper register;
                 quasivortex now trapped repetition cell;
                 f;
-        >>attacca second half of [A.13]<<;
-    pause after [A.13];
+        >>attacca second half of [A.13]<< (49-50);
+    pause (51);
 
-    [A.14] (49 + fermata)
+    [A.14] (52 + fermata)
     (1 measure)
     largo continues;
     tutti ellipses repeat:
         damped lh repeats;
         slower rate repeats;
         p repeats;
-    pause;
+    pause (53);
 
-    [A.15] (51 + fermata)
+    [A.15] (54 + 55-56 + fermata)
     (1 measure)
     largo continues;
     tutti ellipses repeat:
         damped lh repeats;
         slow rate repeats;
         p repeats;
-    >>attacca suffix<<;
-    >>[H.1 (urtext rasp) 3-4/4] suffixes [A.15]<<:
-        >>summons future time<<;
-        tutti:
-            stopped lh;
-            hair;
-            four-note chord:
-                single-stopped notes;
-            extremely gradual rasp-to-flautando transition:
-                measures 3-4/4 of transition;
-            niente < mp:
-                measures 3-4/4 of crescendo;
-    pause after suffix;
+        >>attacca suffix<<;
+        >>[H.1 (urtext rasp) 3-4/4] suffixes [A.15]< (55-56)<:
+            >>summons future time<<;
+            tutti:
+                stopped lh;
+                hair;
+                four-note chord:
+                    single-stopped notes;
+                extremely gradual rasp-to-flautando transition:
+                    measures 3-4/4 of transition;
+                niente < mp:
+                    measures 3-4/4 of crescendo;
+    pause (57);
 
-    [A.16] (53 + fermata)
+    [A.16] (58 + fermata)
     (1 measure)
     largo continues;
     tutti ellipses repeat:
         damped lh repeats;
         slow rate repeats;
         p repeats;
-    pause;
+    pause (59);
 
-    [A.17] (55 + fermata)
+    [A.17] (60 + fermata)
     (1 measure)
     andante governs stage;
     v1, v2, va urtext declamation returns:
@@ -377,16 +377,16 @@ SEGMENTS
     vc urtext field ([A.6]) returns:
         tasto returns;
         p continues;
-    pause;
+    pause (61);
 
-    [A.18] (57 + fermata)
+    [A.18] (62 + long)
     (1 measure)
     largo governs stage;
     tutti ellipses resume and repeat:
         damped lh resumes and repeats;
         slow rate resumes and repeats;
         p resumes and repeats;
-    long pause;
+    long pause (63);
 
 [B] time series B; rotation 0
 
@@ -2552,8 +2552,7 @@ SEGMENTS
     
     [J.3] (8-9)
     (2 measures)
-    larghissimo-to-andante accelerando completes:
-        achieves andante at start of next stage;
+    larghissimo-to-andante accelerando continues;
     tutti urtext field continues:
         stopped lh continues;
         hair continues;
@@ -2566,7 +2565,7 @@ SEGMENTS
 
         [J.4] (10)
         (1 measure)
-        andante continues;
+        andante governs stage;
         tutti urtext field completes:
             stopped lh continues;
             hair continues;
@@ -3447,7 +3446,7 @@ SEGMENTS
         Bb2 pp pedal ends;
     vc:
         tacet ends;
-    long pause;
+    long pause (35);
 
 Time and grief and self so-called.
 
