@@ -10,7 +10,7 @@ breaks = baca.breaks(
             ),
         baca.system(
             18, 20,
-            measure=16,
+            measure=17,
             y_offset=130,
             ),
         number=1,
@@ -18,12 +18,12 @@ breaks = baca.breaks(
     baca.page(
         baca.system(
             18, 20,
-            measure=31,
+            measure=33,
             y_offset=20,
             ),
         baca.system(
             18, 20,
-            measure=46,
+            measure=49,
             y_offset=130,
             ),
         number=2,
@@ -31,12 +31,12 @@ breaks = baca.breaks(
     baca.page(
         baca.system(
             18, 20,
-            measure=61,
+            measure=65,
             y_offset=20,
             ),
         baca.system(
             18, 20,
-            measure=76,
+            measure=81,
             y_offset=130,
             ),
         number=3,
@@ -44,12 +44,12 @@ breaks = baca.breaks(
     baca.page(
         baca.system(
             18, 20,
-            measure=91,
+            measure=97,
             y_offset=20,
             ),
         baca.system(
             18, 20,
-            measure=106,
+            measure=113,
             y_offset=130,
             ),
         number=4,

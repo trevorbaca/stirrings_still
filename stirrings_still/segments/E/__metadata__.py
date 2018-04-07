@@ -24,11 +24,15 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [92, 107, 122, 137, 152, 167, 182, 197],
+            [92, 108, 124, 140, 156, 172, 188, 204],
             ),
-        ('duration', "5'34''"),
+        ('duration', "2'17''"),
+        (
+            'fermata_measure_numbers',
+            [94],
+            ),
         ('first_measure_number', 92),
-        ('last_measure_number', 210),
+        ('last_measure_number', 218),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -54,7 +58,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='GlobalSkips',
                                 prototype='abjad.MetronomeMark',
-                                value='adagio',
+                                value='presto',
                                 ),
                             abjad.Momento(
                                 context='GlobalSkips',
@@ -125,7 +129,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('start_clock_time', "3'18''"),
-        ('stop_clock_time', "8'52''"),
+        ('stop_clock_time', "5'35''"),
         (
             'time_signatures',
             [
@@ -170,6 +174,14 @@ metadata = abjad.OrderedDict(
                 '6/8',
                 '7/8',
                 '1/4',
+                '8/8',
+                '8/8',
+                '6/8',
+                '7/8',
+                '7/8',
+                '6/8',
+                '5/8',
+                '4/8',
                 '6/8',
                 '7/8',
                 '7/8',
