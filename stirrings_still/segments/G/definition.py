@@ -20,18 +20,21 @@ maker(
     baca.rehearsal_mark_y_offset(12),
     )
 
-maker(
-    'GlobalSkips',
-    baca.metronome_mark('largo piu mosso'),
-    baca.metronome_mark('larghissimo', baca.skip(5 - 1)),
-    baca.metronome_mark('largo piu mosso', baca.skip(7 - 1)),
-    baca.metronome_mark('allegro', baca.skip(12 - 1)),
-    baca.metronome_mark('largo piu mosso', baca.skip(13 - 1)),
-    baca.metronome_mark('larghissimo', baca.skip(15 - 1)),
-    baca.metronome_mark('presto', baca.skip(18 - 1)),
-    baca.metronome_mark(abjad.Ritardando(), baca.skip(18 - 1)),
-    baca.metronome_mark('andante', baca.skip(20 - 1)),
-    )
+for value, lmn in [
+    ('largo piu mosso', 1),
+    ('larghissimo', 5),
+    ('largo piu mosso', 7),
+    ('allegro', 12),
+    ('largo piu mosso', 13),
+    ('larghissimo', 15),
+    ('presto', 18),
+    (abjad.Ritardando(), 18),
+    ('andante', 20),
+    ]:
+    maker(
+        'GlobalSkips',
+        baca.metronome_mark(value, baca.skip(lmn -  1)),
+        )
 
 for fermata, lmn  in [
     ('fermata', 2),
