@@ -101,7 +101,7 @@
 
 \layout {
     \accidentalStyle neo-modern
-    indent = 5
+    indent = 0
     ragged-bottom = ##t
     ragged-last = ##t
     ragged-right = ##t
