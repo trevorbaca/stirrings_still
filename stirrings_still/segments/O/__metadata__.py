@@ -29,11 +29,11 @@ metadata = abjad.OrderedDict(
         ('duration', "0'30''"),
         (
             'fermata_measure_numbers',
-            [351],
+            [404],
             ),
-        ('first_measure_number', 344),
+        ('first_measure_number', 397),
         ('last_measure_is_fermata', True),
-        ('last_measure_number', 351),
+        ('last_measure_number', 404),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -117,7 +117,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('segment_name', 'O'),
-        ('segment_number', 7),
+        ('segment_number', 8),
         (
             'sounds_during_segment',
             abjad.OrderedDict(
@@ -129,8 +129,8 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('start_clock_time', "14'24''"),
-        ('stop_clock_time', "14'54''"),
+        ('start_clock_time', "16'45''"),
+        ('stop_clock_time', "17'15''"),
         (
             'time_signatures',
             [
