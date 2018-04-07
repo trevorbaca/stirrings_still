@@ -130,7 +130,10 @@ class Operation(abjad.AbjadObject):
             stop += 1
             target_stage_.time_signatures[start:stop] = source_time_signatures
         elif self.verb == 'suffix':
-            target_stage_.suffix = source_time_signatures[:]
+            if target_stage_.suffix is None:
+                target_stage_.suffix = source_time_signatures[:]
+            else:
+                target_stage_.suffix.extend(source_time_signatures[:])
             target_stage_.postsuffix = target_stage.after
             target_stage_.after = None
         else:
