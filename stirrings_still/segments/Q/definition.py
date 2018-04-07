@@ -19,7 +19,7 @@ maker(
     baca.rehearsal_mark_y_offset(12),
     )
 
-for value, lmn in [
+time = (
     ('andante', 1),
     ('presto', 2),
     ('adagio', 10),
@@ -39,19 +39,10 @@ for value, lmn in [
     ('presto', 68),
     ('adagio', 70),
     (abjad.Accelerando(), 70),
+    ('fermata', 72),
     ('presto', 73),
     (abjad.Ritardando(), 73),
     ('largo', 88),
-    ]:
-    maker(
-        'GlobalSkips',
-        baca.metronome_mark(value, baca.skip(lmn - 1)),
-        )
+    )
 
-for fermata, lmn  in [
-    ('fermata', 72),
-    ]:
-    maker(
-        'GlobalRests',
-        baca.global_fermata(fermata, baca.rest(lmn - 1)),
-        )
+stirrings_still.time(maker, time)

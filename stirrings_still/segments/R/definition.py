@@ -19,10 +19,8 @@ maker(
     baca.rehearsal_mark_y_offset(12),
     )
 
-for value, lmn in [
+time = (
     ('largo', 1),
-    ]:
-    maker(
-        'GlobalSkips',
-        baca.metronome_mark(value, baca.skip(lmn - 1)),
-        )
+    )
+
+stirrings_still.time(maker, time)
