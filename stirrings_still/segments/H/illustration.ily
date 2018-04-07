@@ -203,7 +203,7 @@ H_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -229,7 +229,7 @@ H_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -364,7 +364,7 @@ H_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -389,7 +389,7 @@ H_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -485,7 +485,7 @@ H_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -510,7 +510,7 @@ H_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -572,7 +572,7 @@ H_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -597,7 +597,7 @@ H_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -694,7 +694,7 @@ H_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -720,7 +720,7 @@ H_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -855,7 +855,7 @@ H_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -881,7 +881,7 @@ H_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -980,7 +980,7 @@ H_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -1005,7 +1005,7 @@ H_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -1137,7 +1137,7 @@ H_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -1163,7 +1163,7 @@ H_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -1402,7 +1402,7 @@ H_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -1427,7 +1427,7 @@ H_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -1872,7 +1872,7 @@ H_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -1897,7 +1897,7 @@ H_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -1994,7 +1994,7 @@ H_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -2019,7 +2019,7 @@ H_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -2360,7 +2360,7 @@ H_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -2386,7 +2386,7 @@ H_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -2521,7 +2521,7 @@ H_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -2546,7 +2546,7 @@ H_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -2642,7 +2642,7 @@ H_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -2667,7 +2667,7 @@ H_GlobalSkips = {
 %@%                             \note-by-number                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%                                 #2                                   %! SM27:EXPLICIT_METRONOME_MARK
 %@%                                 #0                                   %! SM27:EXPLICIT_METRONOME_MARK
-%@%                                 #1.25                                %! SM27:EXPLICIT_METRONOME_MARK
+%@%                                 #1.5                                 %! SM27:EXPLICIT_METRONOME_MARK
 %@%                     \upright                                         %! SM27:EXPLICIT_METRONOME_MARK
 %@%                         {                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%                             =                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -2692,7 +2692,7 @@ H_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -2724,7 +2724,7 @@ H_GlobalSkips = {
                                     \note-by-number                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                                         #2                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                                         #0                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
-                                        #1.25                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                                        #1.5                             %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                             \upright                                     %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                                 {                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
                                     =                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR

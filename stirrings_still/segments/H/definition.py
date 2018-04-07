@@ -8,7 +8,7 @@ import stirrings_still
 ###############################################################################
 
 maker = baca.SegmentMaker(
-    metronome_mark_stem_height=1.25,
+    metronome_mark_stem_height=1.5,
     time_signatures=stirrings_still.time_signatures('H'),
     validate_measure_count=52,
     )
