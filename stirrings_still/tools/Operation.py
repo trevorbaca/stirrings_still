@@ -122,6 +122,7 @@ class Operation(abjad.AbjadObject):
         elif self.verb == 'suffix':
             target_stage_.suffix = source_time_signatures[:]
             target_stage_.postsuffix = target_stage.after
+            target_stage_.after = None
         else:
             raise ValueError(self.verb)
         return target_stage_

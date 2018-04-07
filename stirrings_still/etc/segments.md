@@ -1101,7 +1101,7 @@ SEGMENTS
         f > niente governs stage;
     pause;
 
-[D] time series C; 83 (- 7 fermata) measures; rotation -18
+[D] time series C; rotation -18
 
     [D.1] (1-6)
     (6 measures)
@@ -1163,7 +1163,7 @@ SEGMENTS
         synchronized p < mf governs stage;
     attacca;
 
-    [D.6] (31-36 + fermata)
+    [D.6] (31-36 + fermata + 38 + fermata)
     (6 measures)
     presto continues;
     white tutti grid continues (at stage two):
@@ -1174,7 +1174,6 @@ SEGMENTS
         jeux des terminaisons continues;
         mf continues;
     pause;
-
     >>[I.6 (repetition cells) 2/2] prolong [D.6] pause<<:
         >>summon future time<<;
         larghissimo;
@@ -1189,7 +1188,7 @@ SEGMENTS
             f;
     <<pause repeated after insert to effect prolongation>>
 
-    [D.7] (38-43 + fermata)
+    [D.7] (40-45 + fermata)
     (6 measures)
     presto continues;
     white tutti grid continues (at stage two) to end of stage:
@@ -1201,7 +1200,7 @@ SEGMENTS
         pp governs stage;
     pause;
 
-    [D.8] (45 + long)
+    [D.8] (47 + long)
     (1 measure)
     andante governs stage;
     tutti urtext declamation [A.1] reappears:
@@ -1213,10 +1212,7 @@ SEGMENTS
             p governs stage;
     long pause;
 
-    [[tremolo exposition:]]
-    [[clouded pane exposition:]]
-
-    [D.9] (47-50 + long)
+    [D.9] (49-50 + 51 + 52-53 + long)
     (4 measures)
     largo governs stage;
     lontano governs stage;
@@ -1228,7 +1224,7 @@ SEGMENTS
         p governs stage;
     long pause;
 
-    [D.10] (52 + long)
+    [D.10] (55 + long)
     (1 measure)
     andante governs stage;
     tutti urtext declamation [A.1] repeats:
@@ -1240,7 +1236,7 @@ SEGMENTS
             p governs stage;
     long pause;
 
-    >>[S.2 (transformatum) 1/1] prefixes [D.11]<<:
+    >>[S.2 (transformatum) 1/1] prefixes [D.11]<< (57):
         >>summon future time<<;
         largo;
         v1, v2 ellipses:
@@ -1256,7 +1252,7 @@ SEGMENTS
             hair;
             B1 slack-string up-bow rh-terminated exponential crescendo to mf;
         <<attacca [D.11] to effect prefix>>
-    [D.11] (54-59 + long)
+    [D.11] (58-63 + long)
     (6 measures)
     presto-to-largo ritardando happens;
     white tutti grid (stage two) resumes and fades out:
@@ -1268,7 +1264,7 @@ SEGMENTS
         mf > niente governs stage;
     long pause;
 
-    [D.12] (61-62)
+    [D.12] (65 + 66 + 67)
     (2 measures)
     largo continues;
     composite urtext field / clouded pane begins:
@@ -1301,7 +1297,7 @@ SEGMENTS
             >>attacca second half of [D.12]<<
     attacca;
 
-    [D.13] (63-64)
+    [D.13] (68-69)
     (2 measures)
     largo continues;
     composite urtext field / clouded pane continues:
@@ -1322,7 +1318,7 @@ SEGMENTS
             p continues;
     attacca;
 
-    [D.14] (65-66)
+    [D.14] (70-71)
     (2 measures)
     largo-to-allegro accelerando begins;
     composite urtext field / clouded pane / flight continues:
@@ -1340,7 +1336,7 @@ SEGMENTS
             p continues;
     attacca;
 
-    [D.15] (67-68)
+    [D.15] (72-73)
     (2 measures)
     largo-to-allegro accelerando continues;
     composite urtext field / clouded pane / flight continues:
@@ -1358,7 +1354,7 @@ SEGMENTS
         p continues;
     attacca;
 
-    [D.16] (69-70)
+    [D.16] (74-75)
     (2 measures)
     largo-to-allegro accelerando continues;
     composite urtext field / clouded pane / flight continues:
@@ -1377,7 +1373,7 @@ SEGMENTS
             p continues;
     attacca;
 
-    [D.17] (71-72)
+    [D.17] (76-77)
     (2 measures)
     accelerando achieves allegro at start of stage;
     composite urtext field / clouded pane / flight continues:
@@ -1395,7 +1391,7 @@ SEGMENTS
             p continues;
     attacca;
 
-    [D.18] (73-74)
+    [D.18] (78-79)
     (2 measures)
     subito largo;
     composite urtext field / clouded pane / flight continues:
@@ -1411,7 +1407,7 @@ SEGMENTS
             p < fff scratch begins;
     attacca;
 
-    [D.19] (75-76)
+    [D.19] (80-81)
     (2 measures)
     largo continues;
     composite urtext field / clouded pane / flight continues:
@@ -1427,7 +1423,7 @@ SEGMENTS
             p < fff scratch achieves fff scratch on downbeat of measure 1:2;
     attacca;
 
-    [D.20] (77-78)
+    [D.20] (82-83)
     (2 measures)
     largo continues;
     composite urtext field / clouded pane / flight continues:
@@ -1443,7 +1439,7 @@ SEGMENTS
             fff scratch continues until end of stage;
     attacca;
 
-    [D.21] (79-80)
+    [D.21] (84 + 85 + 86)
     (2 measures)
     largo continues;
     composite urtext field / clouded pane / flight continues:
@@ -1466,7 +1462,7 @@ SEGMENTS
         >>attacca second half of [D.21]<<
     attacca;
 
-    [D.22] (81-82 + short)
+    [D.22] (87-88 + 89-90 + short)
     (2 measures)
     largo continues;
     composite urtext field / clouded pane / flight continues to end of stage:
