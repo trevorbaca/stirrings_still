@@ -20,24 +20,27 @@ maker(
     baca.rehearsal_mark_y_offset(12),
     )
 
-maker(
-    'GlobalSkips',
-    baca.metronome_mark('presto'),
-    baca.metronome_mark('larghissimo', baca.skip(38 - 1)),
-    baca.metronome_mark('presto', baca.skip(40 - 1)),
-    baca.metronome_mark('andante', baca.skip(47 - 1)),
-    baca.metronome_mark('largo', baca.skip(49 - 1)),
-    baca.metronome_mark('andante', baca.skip(55 - 1)),
-    baca.metronome_mark('largo', baca.skip(57 - 1)),
-    baca.metronome_mark('presto', baca.skip(58 - 1)),
-    baca.metronome_mark(abjad.Ritardando(), baca.skip(58 - 1)),
-    baca.metronome_mark('largo', baca.skip(63 - 1)),
-    baca.metronome_mark('largo', baca.skip(70 - 1)),
-    baca.metronome_mark(abjad.Accelerando(), baca.skip(70 - 1)),
-    baca.metronome_mark('allegro', baca.skip(76 - 1)),
-    baca.metronome_mark('largo', baca.skip(78 - 1)),
-    baca.metronome_mark('adagio', baca.skip(89 - 1)),
-    )
+for value, lmn in [
+    ('presto', 1),
+    ('larghissimo', 38),
+    ('presto', 40),
+    ('andante', 47),
+    ('largo', 49),
+    ('andante', 55),
+    ('largo', 57),
+    ('presto', 58),
+    (abjad.Ritardando(), 58),
+    ('largo', 63),
+    ('largo', 70),
+    (abjad.Accelerando(), 70),
+    ('allegro', 76),
+    ('largo', 78),
+    ('adagio', 89),
+    ]:
+    maker(
+        'GlobalSkips',
+        baca.metronome_mark(value, baca.skip(lmn - 1)),
+        )
 
 for fermata, lmn  in [
     ('fermata', 37),
