@@ -13,7 +13,7 @@ def operations():
 
         >>> operations = stirrings_still.operations()
         >>> len(operations)
-        42
+        43
 
         >>> abjad.f(operations)
         abjad.TypedList(
@@ -189,6 +189,21 @@ def operations():
                         letter='C',
                         number=1,
                         description='isolatum',
+                        ),
+                    ),
+                stirrings_still.Operation(
+                    source_stage=stirrings_still.StageToken(
+                        letter='D',
+                        number=9,
+                        description='isolatum',
+                        length=4,
+                        ),
+                    source_measures=(1, 2),
+                    verb='suffix',
+                    target_stage=stirrings_still.StageToken(
+                        letter='C',
+                        number=8,
+                        description='development',
                         ),
                     ),
                 stirrings_still.Operation(
@@ -740,6 +755,11 @@ def operations():
             StageToken('G', 1, 'inception', 1), 1,
             'suffix',
             StageToken('C', 1, 'isolatum'),
+            ),
+        Operation(
+            StageToken('D', 9, 'isolatum', 4), (1, 2),
+            'suffix',
+            StageToken('C', 8, 'development'),
             ),
         Operation(
             StageToken('J', 1, 'clearing', 4), (1, 2),
