@@ -1516,7 +1516,7 @@ SEGMENTS
         p continues;
     short pause [vc continues through pause];
 
-    >>[H.9 (clearing) 1-2/6] prefixes [E.1]<<:
+    >>[H.9 (clearing) 1-2/6] prefixes [E.1]<< (4-5):
         >>summons future time<<;
         allegro;
         interlocking clouded pane whisk gears appear gradually:
@@ -1532,9 +1532,8 @@ SEGMENTS
             harmonic lh;
             hair;
             ff scratch > p;
-        <<attacca [E.1] to effect prefix>>
-
-    [E.1] (4-9)
+        >>attacca [E.1] to effect prefix<<;
+    [E.1] (6-11)
     (6 measures)
     presto continues;
     v1, v2, va grid-to-trajectories transition continues:
@@ -1552,7 +1551,7 @@ SEGMENTS
         p continues;
     attacca;
 
-    [E.2] (10-17)
+    [E.2] (12-19)
     (8 measures)
     presto continues;
     v1, v2, va grid-to-trajectories transition continues:
@@ -1575,7 +1574,7 @@ SEGMENTS
         p continues;
     surprisingly short breath;
 
-    [E.3] (18-21)
+    [E.3] (20-23)
     (4 measures)
     adagio (equal to additive rhythm endpoint) starts;
     adagio-to-allegro accelerando happens:
@@ -1594,7 +1593,7 @@ SEGMENTS
         p < fff poco scratch begins;
     attacca;
 
-    [E.4] (22-25)
+    [E.4] (24-27)
     (4 measures)
     allegro continues;
     v1, v2, va grid-to-trajectories transition continues:
@@ -1613,7 +1612,7 @@ SEGMENTS
             achieves fff poco scratch at start of stage;
     attacca;
 
-    [E.5] (26-29)
+    [E.5] (28-31)
     (4 measures)
     allegro-to-presto accelerando begins;
     v1, v2, va grid-to-trajectories transition continues:
@@ -1630,7 +1629,7 @@ SEGMENTS
         tacet subito;
     attacca;
 
-    [E.6] (30-33)
+    [E.6] (32-33 + 34 + 35-36)
     (4 measures)
     allegro-to-presto accelerando completes:
         achieves presto at start of stage;
@@ -1645,7 +1644,7 @@ SEGMENTS
         p continues;
     vc:
         tacet continues;
-        <<[A.1 (isolatum) 1/1] bisects [E.6]>>
+        <<[A.1 (isolatum) 1/1] bisects [E.6]>> (34):
             <<summons past time>>;
             andante;
             v1, v2, va urtext declamation (two chords):
@@ -1665,7 +1664,7 @@ SEGMENTS
         <<attacca return to second half of [E.6]>>
     attacca;
 
-    [E.7] (34-37 + fermata)
+    [E.7] (37-40 + fermata + 42-61 + fermata)
     (4 measures)
     presto continues;
     v1, v2, va trajectories continue:
@@ -1682,10 +1681,9 @@ SEGMENTS
             achieves mf at start of last measure;
     vc:
         tacet continues;
-    pause;
-
-    >>[Q.1 (inception) 1-8/8] prolongs [E.7] pause<<:
-    >>[Q.2 (transformatum) 1-12/12] prolongs [E.7] pause<<:
+    pause (41);
+    >>[Q.1 (inception) 1-8/8] prolongs [E.7] pause<< (42-49):
+    >>[Q.2 (transformatum) 1-12/12] prolongs [E.7] pause<< (50-61):
         >>summon future time<<;
         (8 measures)
         presto;
@@ -1704,10 +1702,9 @@ SEGMENTS
             desyncrhonized hair trajectories:
                 1/2 clt introduced towards end of trajectories independently;
             ff poco scratch < fff scratch > f senza scratch;
+    >>pause repeated after insert to effect prolongation<< (62);
 
-    <<pause repeated after insert to effect prolongation>>
-
-    [E.8] (39-46)
+    [E.8] (63-70)
     (8 measures)
     subito largo-to-presto accelerando happens;
     v1, v2, va trajectory repetition cells appear:
@@ -1724,7 +1721,7 @@ SEGMENTS
         niente < p governs first quarter of stage;
     attacca;
 
-    [E.9] (47-54)
+    [E.9] (71-78)
     (8 measures)
     presto-to-largo ritardando happens;
     v1, v2, va trajectory-cells-to-flight transition happens:
@@ -1739,7 +1736,7 @@ SEGMENTS
         p continues;
     attacca;
 
-    [E.10] (55-56 + short)
+    [E.10] (79-80 + fermata)
     (2 measures)
     presto-to-largo ritardando completes:
         achieves largo at start of stage;
@@ -1753,9 +1750,9 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         p continues;
-    short pause;
+    short pause (81);
 
-    [E.11] (58-61 + fermata)
+    [E.11] (82-85 + fermata)
     (4 measures)
     largo continues;
     v1, v2, va flight continues:
@@ -1768,9 +1765,9 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         p continues;
-    pause [vc holds through pause];
+    pause [vc holds through pause] (86);
 
-    [E.12] (63-66 + fermata)
+    [E.12] (87-88 + 89-96 + 97-108 + 109-110 + fermata)
     (4 measures)
     largo continues;
     v1, v2, va flight continues:
@@ -1783,9 +1780,8 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         p continues;
-
-    >>[Q.1 (inception) 1-8/8] bisects [E.12]<<:
-    >>[Q.2 (transformatum) 1-12/12] bisects [E.12]<<:
+    >>[Q.1 (inception) 1-8/8] bisects [E.12]<< (89-96):
+    >>[Q.2 (transformatum) 1-12/12] bisects [E.12]<< (97-108):
         >>recapitulate summons of future time<<;
         (8 measures)
         presto;
@@ -1804,10 +1800,10 @@ SEGMENTS
             desyncrhonized hair trajectories:
                 1/2 clt introduced towards end of trajectories independently;
             ff poco scratch < fff scratch > f senza scratch;
-        <<attaca return to second half of [E.12]>>
-    pause [vc holds through pause] after [E.12];
+        <<attaca return to second half of [E.12] (109-110)>>;
+    pause [vc holds through pause] after [E.12] (111);
 
-    [E.13] (68-71)
+    [E.13] (112-115)
     (4 measures)
     largo-to-presto accelerando happens; 
     v1, v2, va flight continues:
@@ -1823,7 +1819,7 @@ SEGMENTS
             achieves niente at start of next stage;
     attacca;
 
-    [E.14] (72-73)
+    [E.14] (116-117)
     (2 measures)
     subito largo;
     v1, v2, va flight continues:
@@ -1837,7 +1833,7 @@ SEGMENTS
         tacet continues;
     attacca;
 
-    [E.15] (74-75)
+    [E.15] (118-119)
     (2 measures)
     largo continues;
     v1, v2, va flight completes:
@@ -1855,7 +1851,7 @@ SEGMENTS
             p stable by midmeasure downbeat;
     attacca;
 
-    [E.16] (76-83)
+    [E.16] (120-127)
     (8 measures)
     largo continues;
     v1, v2, va:

@@ -572,21 +572,40 @@ def second_order_stages(segment):
                             abjad.TimeSignature((12, 16)),
                             ],
                         postsuffix='fermata',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='D',
-                                number=17,
-                                description='development',
-                                length=2,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='D',
+                                    number=9,
+                                    description='isolatum',
+                                    length=4,
+                                    ),
+                                source_measures=1,
+                                verb='bisect',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='B',
+                                    number=17,
+                                    description='iteratum',
+                                    length=2,
+                                    ),
+                                target_site=(1, 2),
                                 ),
-                            source_measures=2,
-                            verb='prolong',
-                            target_stage=stirrings_still.StageToken(
-                                letter='B',
-                                number=17,
-                                description='pause',
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='D',
+                                    number=17,
+                                    description='development',
+                                    length=2,
+                                    ),
+                                source_measures=2,
+                                verb='prolong',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='B',
+                                    number=17,
+                                    description='pause',
+                                    ),
                                 ),
-                            ),
+                            ],
                         ),
                     ),
                 (
@@ -1543,6 +1562,14 @@ def second_order_stages(segment):
                             52,
                             53,
                             54,
+                            55,
+                            56,
+                            57,
+                            58,
+                            59,
+                            60,
+                            61,
+                            62,
                             ],
                         time_signatures=[
                             abjad.TimeSignature((8, 8)),
@@ -1552,6 +1579,14 @@ def second_order_stages(segment):
                             ],
                         after='fermata',
                         suffix=[
+                            abjad.TimeSignature((8, 8)),
+                            abjad.TimeSignature((8, 8)),
+                            abjad.TimeSignature((6, 8)),
+                            abjad.TimeSignature((7, 8)),
+                            abjad.TimeSignature((7, 8)),
+                            abjad.TimeSignature((6, 8)),
+                            abjad.TimeSignature((5, 8)),
+                            abjad.TimeSignature((4, 8)),
                             abjad.TimeSignature((6, 8)),
                             abjad.TimeSignature((7, 8)),
                             abjad.TimeSignature((7, 8)),
@@ -1566,28 +1601,45 @@ def second_order_stages(segment):
                             abjad.TimeSignature((6, 8)),
                             ],
                         postsuffix='fermata',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='Q',
-                                number=2,
-                                description='transformatum',
-                                length=12,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='Q',
+                                    number=1,
+                                    description='inception',
+                                    length=8,
+                                    ),
+                                source_measures=(1, 8),
+                                verb='prolong',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='E',
+                                    number=7,
+                                    description='pause',
+                                    ),
                                 ),
-                            source_measures=(1, 12),
-                            verb='prolong',
-                            target_stage=stirrings_still.StageToken(
-                                letter='E',
-                                number=7,
-                                description='pause',
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='Q',
+                                    number=2,
+                                    description='transformatum',
+                                    length=12,
+                                    ),
+                                source_measures=(1, 12),
+                                verb='prolong',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='E',
+                                    number=7,
+                                    description='pause',
+                                    ),
                                 ),
-                            ),
+                            ],
                         ),
                     ),
                 (
                     8,
                     stirrings_still.StageSpecifier(
                         stage_number=8,
-                        measure_numbers=[55, 56, 57, 58, 59, 60, 61, 62],
+                        measure_numbers=[63, 64, 65, 66, 67, 68, 69, 70],
                         time_signatures=[
                             abjad.TimeSignature((7, 8)),
                             abjad.TimeSignature((6, 8)),
@@ -1604,7 +1656,7 @@ def second_order_stages(segment):
                     9,
                     stirrings_still.StageSpecifier(
                         stage_number=9,
-                        measure_numbers=[63, 64, 65, 66, 67, 68, 69, 70],
+                        measure_numbers=[71, 72, 73, 74, 75, 76, 77, 78],
                         time_signatures=[
                             abjad.TimeSignature((5, 8)),
                             abjad.TimeSignature((6, 8)),
@@ -1621,7 +1673,7 @@ def second_order_stages(segment):
                     10,
                     stirrings_still.StageSpecifier(
                         stage_number=10,
-                        measure_numbers=[71, 72, 73],
+                        measure_numbers=[79, 80, 81],
                         time_signatures=[
                             abjad.TimeSignature((8, 8)),
                             abjad.TimeSignature((7, 8)),
@@ -1633,7 +1685,7 @@ def second_order_stages(segment):
                     11,
                     stirrings_still.StageSpecifier(
                         stage_number=11,
-                        measure_numbers=[74, 75, 76, 77, 78],
+                        measure_numbers=[82, 83, 84, 85, 86],
                         time_signatures=[
                             abjad.TimeSignature((6, 8)),
                             abjad.TimeSignature((7, 8)),
@@ -1648,14 +1700,6 @@ def second_order_stages(segment):
                     stirrings_still.StageSpecifier(
                         stage_number=12,
                         measure_numbers=[
-                            79,
-                            80,
-                            81,
-                            82,
-                            83,
-                            84,
-                            85,
-                            86,
                             87,
                             88,
                             89,
@@ -1673,6 +1717,14 @@ def second_order_stages(segment):
                             101,
                             102,
                             103,
+                            104,
+                            105,
+                            106,
+                            107,
+                            108,
+                            109,
+                            110,
+                            111,
                             ],
                         time_signatures=[
                             abjad.TimeSignature((6, 8)),
@@ -1701,30 +1753,49 @@ def second_order_stages(segment):
                             abjad.TimeSignature((6, 8)),
                             ],
                         after='fermata',
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='Q',
-                                number=2,
-                                description='transformatum',
-                                length=12,
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='Q',
+                                    number=1,
+                                    description='inception',
+                                    length=8,
+                                    ),
+                                source_measures=(1, 8),
+                                verb='bisect',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='E',
+                                    number=12,
+                                    description='development',
+                                    length=4,
+                                    ),
+                                target_site=(2, 3),
                                 ),
-                            source_measures=(1, 12),
-                            verb='bisect',
-                            target_stage=stirrings_still.StageToken(
-                                letter='E',
-                                number=12,
-                                description='development',
-                                length=4,
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='Q',
+                                    number=2,
+                                    description='transformatum',
+                                    length=12,
+                                    ),
+                                source_measures=(1, 12),
+                                verb='bisect',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='E',
+                                    number=12,
+                                    description='development',
+                                    length=4,
+                                    ),
+                                target_site=(2, 3),
                                 ),
-                            target_site=(2, 3),
-                            ),
+                            ],
                         ),
                     ),
                 (
                     13,
                     stirrings_still.StageSpecifier(
                         stage_number=13,
-                        measure_numbers=[104, 105, 106, 107],
+                        measure_numbers=[112, 113, 114, 115],
                         time_signatures=[
                             abjad.TimeSignature((4, 8)),
                             abjad.TimeSignature((5, 8)),
@@ -1737,7 +1808,7 @@ def second_order_stages(segment):
                     14,
                     stirrings_still.StageSpecifier(
                         stage_number=14,
-                        measure_numbers=[108, 109],
+                        measure_numbers=[116, 117],
                         time_signatures=[
                             abjad.TimeSignature((7, 8)),
                             abjad.TimeSignature((5, 8)),
@@ -1748,7 +1819,7 @@ def second_order_stages(segment):
                     15,
                     stirrings_still.StageSpecifier(
                         stage_number=15,
-                        measure_numbers=[110, 111],
+                        measure_numbers=[118, 119],
                         time_signatures=[
                             abjad.TimeSignature((4, 8)),
                             abjad.TimeSignature((6, 8)),
@@ -1759,7 +1830,7 @@ def second_order_stages(segment):
                     16,
                     stirrings_still.StageSpecifier(
                         stage_number=16,
-                        measure_numbers=[112, 113, 114, 115, 116, 117, 118, 119],
+                        measure_numbers=[120, 121, 122, 123, 124, 125, 126, 127],
                         time_signatures=[
                             abjad.TimeSignature((8, 8)),
                             abjad.TimeSignature((8, 8)),
@@ -2513,21 +2584,55 @@ def second_order_stages(segment):
                         suffix=[
                             abjad.TimeSignature((8, 8)),
                             ],
-                        operation=stirrings_still.Operation(
-                            source_stage=stirrings_still.StageToken(
-                                letter='H',
-                                number=13,
-                                description='development',
-                                length=4,
+                        operation=[
+                            [
+                                stirrings_still.Operation(
+                                    source_stage=stirrings_still.StageToken(
+                                        letter='H',
+                                        number=13,
+                                        description='development',
+                                        length=4,
+                                        ),
+                                    source_measures=2,
+                                    verb='suffix',
+                                    target_stage=stirrings_still.StageToken(
+                                        letter='K',
+                                        number=6,
+                                        description='clearing',
+                                        ),
+                                    ),
+                                stirrings_still.Operation(
+                                    source_stage=stirrings_still.StageToken(
+                                        letter='I',
+                                        number=6,
+                                        description='current',
+                                        length=2,
+                                        ),
+                                    source_measures=2,
+                                    verb='suffix',
+                                    target_stage=stirrings_still.StageToken(
+                                        letter='K',
+                                        number=6,
+                                        description='clearing',
+                                        ),
+                                    ),
+                                ],
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='H',
+                                    number=13,
+                                    description='development',
+                                    length=4,
+                                    ),
+                                source_measures=4,
+                                verb='suffix',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='K',
+                                    number=6,
+                                    description='clearing',
+                                    ),
                                 ),
-                            source_measures=4,
-                            verb='suffix',
-                            target_stage=stirrings_still.StageToken(
-                                letter='K',
-                                number=6,
-                                description='clearing',
-                                ),
-                            ),
+                            ],
                         ),
                     ),
                 (

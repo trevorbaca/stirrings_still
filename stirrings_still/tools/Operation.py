@@ -106,6 +106,13 @@ class Operation(abjad.AbjadObject):
                 raise
         assert source_time_signatures, repr(source_time_signatures)
         target_stage_ = abjad.new(target_stage, operation=self)
+        target_stage_ = abjad.new(target_stage)
+        if target_stage_.operation is None:
+            target_stage_.operation = self
+        else:
+            operations = [target_stage_.operation]
+            operations.append(self)
+            target_stage_.operation = operations
         if self.verb == 'bisect':
             start, stop = self.target_site
             assert start + 1 == stop, repr(self.target_site)
@@ -113,7 +120,10 @@ class Operation(abjad.AbjadObject):
         elif self.verb == 'prefix':
             target_stage_.time_signatures[0:0] = source_time_signatures
         elif self.verb == 'prolong':
-            target_stage_.suffix = source_time_signatures[:]
+            if target_stage_.suffix is None:
+                target_stage_.suffix = source_time_signatures[:]
+            else:
+                target_stage_.suffix.extend(source_time_signatures)
             target_stage_.postsuffix = target_stage.after
         elif self.verb == 'replace':
             start, stop = self.target_site
