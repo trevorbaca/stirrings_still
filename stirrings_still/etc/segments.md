@@ -388,7 +388,7 @@ SEGMENTS
         p resumes and repeats;
     long pause;
 
-[B] time series B; 55 (-10 fermata) measures; rotation 0
+[B] time series B; rotation 0
 
     [[clockticks become trajectories:]]
 
@@ -426,10 +426,10 @@ SEGMENTS
         va ellipses fade in [recalls end of A] and then stop:
             hair governs stage;
             niente < p governs first quarter of stage;
-    >>vc clouded pane appears<<:
-        >>summons future time<<;
-        (obverse) harmonic appears:
-        niente < f begins;
+        >>vc clouded pane appears<<:
+            >>summons future time<<;
+            (obverse) harmonic appears:
+            niente < f begins;
     attacca;
     
     [B.4] (8-11)
@@ -456,7 +456,7 @@ SEGMENTS
         vc ellipses return:
             hair begins;
         p begins;
-    counted rest equal to exactly 2/3 clocktick (to displace next);
+    counted rest equal to exactly 2/3 clocktick (to displace next) (13);
 
     [B.6] (14 + fraction)
     (1 measure: fractional time signature)
@@ -472,7 +472,7 @@ SEGMENTS
         vc ellipses continue:
             hair continues;
         p continues;
-    counted rest equal to exactly 2/3 clocktick (to displace next);
+    counted rest equal to exactly 2/3 clocktick (to displace next) (15);
 
     [B.7] (16 + fraction)
     (1 measure: fractional time signature)
@@ -490,7 +490,7 @@ SEGMENTS
         vc clockticks return;
             1/2 clt returns;
         p continues;
-    counted rest equal to exactly 2/3 clocktick (to displace next);
+    counted rest equal to exactly 2/3 clocktick (to displace next) (17);
 
     [trajectories appear for first time:]
     [pitch reappears:]
@@ -580,7 +580,7 @@ SEGMENTS
         mf continues;
     attacca;
 
-    [B.12] (25-26 + fermata)
+    [B.12] (25 + 26 + 27 + fermata)
     (2 measures)
     largo continues;
     v1:
@@ -601,9 +601,25 @@ SEGMENTS
         tasto continues;
         1/2 clt completes;
         mf completes;
-    pause;
+        <<[A.1 1/1] bisects [B.12]>> (26)>>:
+            <<summons past time>>;
+            andante;
+            v1, v2, va urtext declamation (two chords) appears:
+                stopped lh appears;
+                hair appears;
+                tasto appears;
+                densely spaced double-stops appear;
+                declamation (two rest-delimited chords):
+                    first chord:
+                        short;
+                        p <| mp ringing lv;
+                    second chord:
+                        longer;
+                        p < mp stop-on-string;
+        <<largo resumes after insert>> (27);
+    pause (28);
 
-    [B.13] (28-29 + fermata)
+    [B.13] (29-30 + fermata)
     (2 measures)
     largo-to-adagio accelerando happens;
     tutti trajectories continue:
@@ -613,9 +629,11 @@ SEGMENTS
             arrives midmeasure downbeat;
         ppp < mp:
             arrives midmeasure downbeat;
-    pause;
+    pause (31);
 
-    <<[H.1 (urtext rasp) 3-4/4] prefixed to [B.14]>>:
+    >>[H.1 (urtext rasp) 3-4/4] prefixed to [B.14] (32)<<:
+        >>summons future time<<:
+        largo piu mosso;
         tutti:
             stopped lh;
             hair;
@@ -625,9 +643,8 @@ SEGMENTS
                 measures 3-4/4 of transition;
             niente < mp:
                 measures 3-4/4 of crescendo;
-    attacca after insert to effect prefix;
-
-    [B.14] (31-32 + fermata)
+    >>attacca after insert to effect prefix<<;
+    [B.14] (33-35 + fermata)
     (2 measures)
     largo-to-adagio-più-mosso accelerando happens;
     tutti trajectories continue:
@@ -636,9 +653,9 @@ SEGMENTS
             arrives midmeasure downbeat;
         pp < mf:
             arrives midmeasure downbeat;
-    pause;
+    pause (36);
 
-    [B.15] (34-35 + fermata)
+    [B.15] (37-38 + fermata)
     (2 measures)
     largo-to-allegro accelerando happens;
     tutti trajectories continue:
@@ -647,9 +664,9 @@ SEGMENTS
             arrives midmeasure downbeat;
         p < f:
             arrives midmeasure downbeat;
-    pause;
+    pause (39);
 
-    [B.16] (37-38 + fermata)
+    [B.16] (40-41 + 42 + fermata)
     (2 measures)
     largo-to-allegro-più-mosso accelerando happens;
     tutti trajectories continue:
@@ -658,27 +675,25 @@ SEGMENTS
             arrives midmeasure downbeat;
         mp < ff:
             arrives midmeasure downbeat;
+        >>[A.18 (ellipses) 1/1] suffixes [B.16 (iteratum)]<< (42):
+            >>summon future time<<;
+            largo;
+            tutti ellipses:
+                damped lh;
+                slow rate;
+                p;
+    pause before [B.17] (43);
 
-    >>[A.18 (ellipses) 1/1] suffixes [B.16 (iteratum)]<<:
-        >>summons future time<<;
-        largo governs stage;
-        tutti ellipses:
-            damped lh;
-            slow rate;
-            p;
-    pause before [B.17];
-
-    [B.17] (40-41 + fermata)
+    [B.17] (44 + 45 + 46 + fermata + 48 + fermata)
     (2 measures)
-    largo-to-vivace accelerando happens;
+    largo-to-presto accelerando happens;
     tutti trajectories continue:
         hair continues;
         tasto-to-pont-poss:
             arrives midmeasure downbeat;
         mf < fff:
             arrives midmeasure downbeat;
-
-        >>[D.9 (clouded pane) 1/4] in middle of [B.17]<<:
+        >>[D.9 (clouded pane) 1/4] bisects [B.17]<< (45):
             >>summons future time<<;
             largo;
             lontano;
@@ -688,11 +703,10 @@ SEGMENTS
                 stopped lh;
                 hair;
                 p;
-        >>attacca to second half of [B.17]<<
-
-    pause after [B.17];
-
-    >>[D.17 (urtext / pane / flight composite) 2/2] prolongs [B.17] pause<<:
+        >>attacca to second half of [B.17]<< (46);
+        >>largo-to-presto accelerando resumes in second half<<;
+    pause (47);
+    >>[D.17 (composite) 2/2] prolongs [B.17] pause<< (48):
         >>summons future time<<;
         allegro;
         composite urtext field / clouded pane / flight;
@@ -708,9 +722,9 @@ SEGMENTS
                 stoped lh;
                 hair;
                 p;
-    <<pause recapitulated after insert to effect prolongation>>
+    <<pause recapitulated after insert to effect prolongation>> (49);
 
-    [B.18] (43-44)
+    [B.18] (50-51)
     (2 measures)
     largo-to-presto accelerando happens;
     tutti trajectories continue:
@@ -721,7 +735,7 @@ SEGMENTS
             arrives midmeasure downbeat;
     attacca;
 
-    [B.19] (45-50)
+    [B.19] (52-57)
     (6 measures)
     largo-to-presto-accelerando happens;
     tutti trajectories continue:
@@ -732,7 +746,7 @@ SEGMENTS
             arrives 2/3 measure downbeat;
     attacca;
 
-    [B.20] (51-52)
+    [B.20] (58-59)
     (2 measures)
     presto-to-largo ritardando begins;
     v1 trajectories continue:
@@ -752,7 +766,7 @@ SEGMENTS
         ppp continues;
     attacca;
 
-    [B.21] (53)
+    [B.21] (60)
     (1 measure)
     presto-to-largo ritardando continues;
     v1 trajectories continue:
@@ -777,7 +791,7 @@ SEGMENTS
         ppp continues;
     attacca;
 
-    [B.22] (54)
+    [B.22] (61)
     (1 measure)
     ritardando achieves largo at start of stage;
     v1 ellipses begin:
@@ -797,7 +811,7 @@ SEGMENTS
         ppp continues;
     attacca;
 
-    [B.23] (55 + fermata)
+    [B.23] (62 + fermata)
     (1 measure)
     largo continues;
     tutti ellipses fade out:
@@ -805,11 +819,11 @@ SEGMENTS
         hair fades out;
         wide ellipses fade out;
         ppp > niente governs stage;
-    pause;
+    pause (63);
 
-    >>[D.16 (urtext / pane / flight composite) 1/2] prefixes [B.24]<<:
+    >>[D.16 (urtext / pane / flight composite) 1/2] prefixes [B.24]<< (64):
         >>summons future time<<;
-        largo-to-allegro accelerando;
+        largo-to-allegro accelerando = andante;
         composite urtext field / clouded pane / flight:
         v1, v2, va urtext field / flight:
             stopped lh;
@@ -824,17 +838,16 @@ SEGMENTS
             stopped lh;
             hair;
             p;
-
-    [B.24] (57 + fermata)
+    [B.24] (65 + fermata)
     (1 measure)
     largo continues;
     tutti unexplanined grid appears:
         damped lh governs stage;
         hair governs stage;
         p governs stage;
-    pause;
+    pause (66);
 
-[C] time series C; 56 (- 5 fermata) measures; rotation 0
+[C] time series C; rotation 0
 
     [C.1] (1-4 + fermata)
     (4 measures)

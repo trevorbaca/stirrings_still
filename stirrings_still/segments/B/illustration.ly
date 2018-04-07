@@ -14,17 +14,13 @@
             \include "layout.ly"
         }
         \context Score = "Score"
-        \with
-        {
-            currentBarNumber = #503
-        }
         <<
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalRests = "GlobalRests"
-                \O_GlobalRests
+                \B_GlobalRests
                 \context GlobalSkips = "GlobalSkips"
-                \O_GlobalSkips
+                \B_GlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
@@ -32,16 +28,16 @@
                 <<
                     \tag ViolinI                                                         %! ST4
                     \context Staff = "ViolinIMusicStaff"
-                    \O_ViolinIMusicStaff
+                    \B_ViolinIMusicStaff
                     \tag ViolinII                                                        %! ST4
                     \context Staff = "ViolinIIMusicStaff"
-                    \O_ViolinIIMusicStaff
+                    \B_ViolinIIMusicStaff
                     \tag viola                                                           %! ST4
                     \context Staff = "ViolaMusicStaff"
-                    \O_ViolaMusicStaff
+                    \B_ViolaMusicStaff
                     \tag cello                                                           %! ST4
                     \context Staff = "CelloMusicStaff"
-                    \O_CelloMusicStaff
+                    \B_CelloMusicStaff
                 >>
             }
         >>
