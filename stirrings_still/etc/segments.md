@@ -2910,7 +2910,7 @@ SEGMENTS
 
     <<[I.6 (current) 1-2/2] prefixes [N.4]>> (11-12):
         <<summons past time>>;
-        larghissimo continues;
+        larghissimo;
         v1, v2, va:
             tacet continues;
         vc 1/2 clt solo trajectory:
@@ -2970,7 +2970,7 @@ SEGMENTS
 
     [N.7] (37-38 + very long)
     (2 measures)
-    larghississimo begins at start of stage;
+    larghississimo continues;
     tutti composite clouded pane / urtext field appears and expires:
         stopped lh continues;
         hair continues;
