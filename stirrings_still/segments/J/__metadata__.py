@@ -24,16 +24,11 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [591],
+            [459],
             ),
-        ('duration', "0'30''"),
-        (
-            'fermata_measure_numbers',
-            [614],
-            ),
-        ('first_measure_number', 607),
-        ('last_measure_is_fermata', True),
-        ('last_measure_number', 614),
+        ('duration', "0'55''"),
+        ('first_measure_number', 459),
+        ('last_measure_number', 474),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -59,12 +54,12 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='GlobalSkips',
                                 prototype='abjad.MetronomeMark',
-                                value='largo',
+                                value='andante',
                                 ),
                             abjad.Momento(
                                 context='GlobalSkips',
                                 prototype='abjad.TimeSignature',
-                                value='1/4',
+                                value='10/16',
                                 ),
                             ],
                         ),
@@ -116,8 +111,8 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('segment_name', 'O'),
-        ('segment_number', 14),
+        ('segment_name', 'J'),
+        ('segment_number', 9),
         (
             'sounds_during_segment',
             abjad.OrderedDict(
@@ -129,19 +124,27 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('start_clock_time', "28'17''"),
-        ('stop_clock_time', "28'47''"),
+        ('start_clock_time', "19'32''"),
+        ('stop_clock_time', "20'27''"),
         (
             'time_signatures',
             [
-                '4/4',
-                '4/4',
+                '8/16',
+                '12/16',
                 '3/4',
-                '3/4',
-                '4/4',
-                '5/4',
-                '8/8',
-                '1/4',
+                '12/16',
+                '15/16',
+                '15/16',
+                '14/16',
+                '14/16',
+                '10/16',
+                '12/16',
+                '14/16',
+                '15/16',
+                '15/16',
+                '14/16',
+                '12/16',
+                '10/16',
                 ],
             ),
         ]
