@@ -2670,7 +2670,7 @@ SEGMENTS
             achieves mp at start of next stage;
     attacca;
 
-    [K.6] (18-20 + 21)
+    [K.6] (18-20 + 21 + 22 + 23)
     (3 measures)
     andante-to-largo ritardando happens;
     tutti flight begins:
@@ -2679,15 +2679,18 @@ SEGMENTS
         tremolo continues;
         mp governs stage;
     surprisingly short breath;
-        <<[H.13 (scratch gears) prolong surprisingly short breath>>;
+        <<[H.13 (scratch gears) prolong surprisingly short breath>> (21);
             <<summons past time>>;
-        <<[I.6 (current)] prolongs surprisingly short breath>>;
+            allegro;
+        <<[I.6 (current)] prolongs surprisingly short breath>> (22);
             <<summons past time within past time>>;
-        <<[[H.13 (scratch gears)] prolong surprisingly short breath>>;
+            larghissimo;
+        <<[[H.13 (scratch gears)] prolong surprisingly short breath>> (23);
             <<closes off past time>>;
+            largo;
     <<surprisingly short breath repeats to effect prolongation>>;
 
-    [K.7] (19-26)
+    [K.7] (24-31)
     (8 measures)
     largo continues;
     tutti flight continues:
@@ -2698,10 +2701,9 @@ SEGMENTS
         subito p governs stage;
     surprisingly short breath;
 
-    [K.8] (27-32)
+    [K.8] (32-37)
     (6 measures)
-    largo-to-allegro accelerando governs stage:
-        achieves allegro at start of next stage;
+    largo-to-allegro accelerando begins;
     tutti flight-to-clouded-pane begins:
         stopped lh continues;
         hair continues;
@@ -2711,9 +2713,9 @@ SEGMENTS
         (p) > niente begins;
     attacca;
 
-    [K.9] (33-40)
+    [K.9] (38-42 + 43-45)
     (8 measures)
-    allegro continues;
+    allegro achieved at start of stage;
     tutti flight-to-clouded pane continues:
         stopped lh continues;
         hair continues;
@@ -2723,18 +2725,17 @@ SEGMENTS
         senza tremolo continues;
         tension between fast tempo and protracted duration;
         (p > niente) continues;
-
-        <<[K.5  1-3/3] replaces [K.9 6-8/8]>>:
+        <<[K.5 1-3/3] replaces [K.9 6-8/8]>> (43-45):
             <<summons past time>>;
+            andante;
             va:
                 1/2 clt trajectory;
                 mp;
-
     attacca;
 
-    [K.10] (41-48)
+    [K.10] (46-53)
     (8 measures)
-    allegro continues;
+    allegro resumes after replacement;
     v1, v2, va flight-to-clouded pane fades out:
         stopped-to-damped lh transition happens;
         hair continues;

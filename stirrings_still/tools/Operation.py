@@ -127,8 +127,11 @@ class Operation(abjad.AbjadObject):
             target_stage_.postsuffix = target_stage.after
         elif self.verb == 'replace':
             start, stop = self.target_site
-            stop += 1
+            start -= 1
             target_stage_.time_signatures[start:stop] = source_time_signatures
+            length = len(target_stage.time_signatures)
+            length_ = len(target_stage_.time_signatures)
+            assert length == length_
         elif self.verb == 'suffix':
             if target_stage_.suffix is None:
                 target_stage_.suffix = source_time_signatures[:]
