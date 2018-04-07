@@ -16,7 +16,7 @@
         \context Score = "Score"
         \with
         {
-            currentBarNumber = #531
+            currentBarNumber = #563
         }
         <<
             \context GlobalContext = "GlobalContext"
