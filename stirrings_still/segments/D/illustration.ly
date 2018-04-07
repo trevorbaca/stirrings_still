@@ -14,6 +14,10 @@
             \include "layout.ly"
         }
         \context Score = "Score"
+        \with
+        {
+            currentBarNumber = #67
+        }
         <<
             \context GlobalContext = "GlobalContext"
             <<
