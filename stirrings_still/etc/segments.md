@@ -2985,7 +2985,7 @@ SEGMENTS
 
 [O] time series A; rotation -56
 
-    [O.1] (1-6)
+    [O.1] (1-6 + 7 + very long)
     (6 measures)
     largo più mosso governs stage;
     tutti urtext field / ellipses return:
@@ -2994,21 +2994,19 @@ SEGMENTS
         new urtext pitches appear;
         ellipses so slow that primary effect is granulation;
         mf governs stage;
-
-    <<[H.13 (development) 4/4] suffixes [O.1]>>:
-        <<summons past time>>;
-        largo;
-        v1, v2, va interlocking gears repeat as scratch:
-            stopped lh;
-            hair;
-            full scratchstage;
-            polyrhythmic desynchronization (without swells);
-            ff;
-        vc clouded pane:
-            stopped lh;
-            pp;
-
-    very long pause;
+        <<[H.13 (development) 4/4] suffixes [O.1]>> (7):
+            <<summons past time>>;
+            largo;
+            v1, v2, va interlocking gears repeat as scratch:
+                stopped lh;
+                hair;
+                full scratchstage;
+                polyrhythmic desynchronization (without swells);
+                ff;
+            vc clouded pane:
+                stopped lh;
+                pp;
+    very long pause (8);
 
 [P] time series C; rotation -90
 
