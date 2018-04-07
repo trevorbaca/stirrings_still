@@ -20,7 +20,7 @@ SEGMENTS
                 p < mp stop-on-string;
     vc:
         tacet;
-    pause;
+    pause (2);
 
     [A.2] (3 + fermata)
     (1 measure)
@@ -41,7 +41,7 @@ SEGMENTS
                 p < mf stop-on-string;
     vc:
         tacet continues;
-    pause;
+    pause (4);
 
     [A.3] (5-6 + fermata)
     (2 measures)
@@ -63,7 +63,7 @@ SEGMENTS
                 p < mf poco scratch stop-on-string;
     vc:
         tacet continues;
-    pause;
+    pause (7);
 
     [A.4] (8-9 + fermata)
     (2 measures)
@@ -84,7 +84,7 @@ SEGMENTS
                 p < mf mod. scratch stop-on-string;
     vc:
         tacet anocra;
-    pause;
+    pause (10);
 
     [A.5] (11-16 + fermata)
     (6 measures)
@@ -109,7 +109,7 @@ SEGMENTS
         pitch joins;
         tasto joins;
         p joins;
-    pause [vc holds over pause];
+    pause [vc holds over pause] (17);
 
     [[starting again:]]
 
@@ -134,7 +134,7 @@ SEGMENTS
             stopped lh continues;
             tasto continues;
             p continues;
-    pause [vc holds over pause];
+    pause [vc holds over pause] (19);
 
     [A.7] (20 + fermata)
     (1 measure)
@@ -163,7 +163,7 @@ SEGMENTS
             stopped lh continues;
             tasto continues;
             p continues;
-    pause [vc holds over pause];
+    pause [vc holds over pause] (21);
 
     [[intercalation from future over vc pedal]];
     [[tremolo flight]];
@@ -193,9 +193,9 @@ SEGMENTS
             stopped lh continues;
             tasto continues;
             p continues;
-    pause [vc holds over pause];
+    pause [vc holds over pause] (24);
 
-    [A.9] (25-26 + fermata)
+    [A.9] (25-26 + 27 + fermata)
     (2 measures)
     adagio continues;
     composite urtext field / ellipses repeat and intensify:
@@ -220,7 +220,7 @@ SEGMENTS
             tasto continues;
             p continues;
         >>attacca suffix<<
-        >>[G.1 (pane / urtext conflict) 1/1] suffixes [C.1]<<:
+        >>[G.1 (pane / urtext conflict) 1/1] suffixes [C.1]<< (27):
             >>summons future time<<;
             largo più mosso;
             tutti clouded pane / urtext declamation conflict;
@@ -243,9 +243,9 @@ SEGMENTS
                     new pitch begins stepwise above;
                     niente < f ... f > niente governs stage;
                     subtends declamation;
-    pause [vc holds over pause];
+    pause [vc holds over pause] (28);
 
-    [A.10] (28-33)
+    [A.10] (29-34)
     (6 measures)
     adagio-to-allegro accelerando happens;
     composite urtext field / ellipses repeat and intensity:
@@ -272,7 +272,7 @@ SEGMENTS
             p continues;
     attacca;
 
-    [A.11] (34-39)
+    [A.11] (35-40)
     (6 measures)
     allegro continues;
     v1, v2, va ellipses continue:
@@ -285,7 +285,7 @@ SEGMENTS
         p > niente governs stage;
     attacca;
 
-    [A.12] (40-43)
+    [A.12] (41-42 + 43 + 44-45)
     (4 measures)
     allegro-to-largo ritardando happens;
     ritardando achieves largo at start of last measure;
@@ -294,7 +294,7 @@ SEGMENTS
         ppp > niente happens;
     vc:
         tacet continues;
-        >>[I.6 (vc cell) 2/2] bisects [A.12 (conclusion)]<<:
+        >>[I.6 (vc cell) 2/2] bisects [A.12 (conclusion)]<< (43):
             >>summons future time<<;
             larghissimo;
             vc 1/2 clt solo trajectory:
@@ -2446,8 +2446,7 @@ SEGMENTS
 
     [I.4] (5)
     (1 measure)
-    largo-to-larghissimo ritardando completes:
-        achieves larghissimo at start of next stage;
+    largo-to-larghissimo ritardando continues;
     v1, v2, va golden gears whisked skyward:
         stopped lh continues;
         hair continues;
@@ -2464,8 +2463,7 @@ SEGMENTS
 
     [I.5] (6-7)
     (2 measures)
-    larghissimo continues;
-        achieves larghissimo at start of stage;
+    achieves larghissimo at start of stage;
     v1, v2, va synchronous golden gears whisked skyward:
         stopped lh continues;
         hair continues;
