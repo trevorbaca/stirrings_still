@@ -127,7 +127,13 @@ E_GlobalRests = {
     R1 * 7/8
     
     % [E GlobalRests measure 132]                                        %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
+    ^ \markup {                                                          %! GFC1
+        \musicglyph                                                      %! GFC1
+            #"scripts.ufermata"                                          %! GFC1
+        }                                                                %! GFC1
     
     % [E GlobalRests measure 133]                                        %! SM4
     R1 * 1
@@ -190,7 +196,13 @@ E_GlobalRests = {
     R1 * 3/4
     
     % [E GlobalRests measure 153]                                        %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
+    ^ \markup {                                                          %! GFC1
+        \musicglyph                                                      %! GFC1
+            #"scripts.ufermata"                                          %! GFC1
+        }                                                                %! GFC1
     
     % [E GlobalRests measure 154]                                        %! SM4
     R1 * 7/8
@@ -247,7 +259,13 @@ E_GlobalRests = {
     R1 * 7/8
     
     % [E GlobalRests measure 172]                                        %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
+    ^ \markup {                                                          %! GFC1
+        \musicglyph                                                      %! GFC1
+            #"scripts.ushortfermata"                                     %! GFC1
+        }                                                                %! GFC1
     
     % [E GlobalRests measure 173]                                        %! SM4
     R1 * 3/4
@@ -262,7 +280,13 @@ E_GlobalRests = {
     R1 * 1
     
     % [E GlobalRests measure 177]                                        %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
+    ^ \markup {                                                          %! GFC1
+        \musicglyph                                                      %! GFC1
+            #"scripts.ufermata"                                          %! GFC1
+        }                                                                %! GFC1
     
     % [E GlobalRests measure 178]                                        %! SM4
     R1 * 3/4
@@ -337,7 +361,13 @@ E_GlobalRests = {
     R1 * 3/4
     
     % [E GlobalRests measure 202]                                        %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
+    ^ \markup {                                                          %! GFC1
+        \musicglyph                                                      %! GFC1
+            #"scripts.ufermata"                                          %! GFC1
+        }                                                                %! GFC1
     
     % [E GlobalRests measure 203]                                        %! SM4
     R1 * 1/2
@@ -552,9 +582,61 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 95]                                         %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             117                                                      %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        117                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -622,9 +704,61 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 97]                                         %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             169                                                      %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        169                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -651,7 +785,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'22'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'23'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -686,7 +820,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'23'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'24'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -721,7 +855,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'24'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'25'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -756,7 +890,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'26'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'27'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -791,7 +925,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'27'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'28'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -826,7 +960,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'28'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'29'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -861,7 +995,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'29'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'30'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -895,7 +1029,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'31'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'32'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -930,7 +1064,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'32'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'33'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -965,7 +1099,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'33'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'34'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -999,7 +1133,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'34'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'35'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1034,7 +1168,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'36'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'37'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1069,7 +1203,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'37'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'38'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1104,15 +1238,71 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'37'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'38'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 111]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             65                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        65                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -1139,7 +1329,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'38'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'39'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1174,7 +1364,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'39'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'42'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1208,15 +1398,67 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'41'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'45'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 114]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             117                                                      %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        117                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -1243,7 +1485,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'42'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'49'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1278,7 +1520,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'43'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'50'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1313,7 +1555,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'43'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'51'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1348,7 +1590,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'44'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'52'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1382,15 +1624,71 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'46'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'54'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 119]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             117                                                      %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        117                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -1417,7 +1715,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'47'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'56'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1452,7 +1750,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'48'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'58'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1487,7 +1785,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'49'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [3'59'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1522,15 +1820,67 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'50'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'01'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 123]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             169                                                      %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        169                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -1557,7 +1907,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'51'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'02'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1592,15 +1942,67 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'53'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'04'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 125]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             91                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        91                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 8/16                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -1627,15 +2029,67 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'54'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'05'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 126]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             169                                                      %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        169                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -1662,7 +2116,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'55'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'06'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1697,7 +2151,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'56'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'07'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1732,7 +2186,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'57'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'09'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1766,7 +2220,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [3'59'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'10'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1801,7 +2255,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'00'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'12'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1836,7 +2290,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'01'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'13'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1871,7 +2325,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'02'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'14'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1906,7 +2360,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'03'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'14'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1940,7 +2394,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'04'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'16'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1975,7 +2429,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'05'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'17'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2010,7 +2464,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'06'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'18'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2044,7 +2498,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'08'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'19'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2079,7 +2533,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'09'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'21'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2114,7 +2568,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'10'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'22'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2149,15 +2603,71 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'11'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'23'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 141]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             65                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        65                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -2184,7 +2694,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'12'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'23'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2219,7 +2729,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'13'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'26'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2253,7 +2763,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'14'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'29'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2288,7 +2798,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'15'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'32'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2323,7 +2833,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'16'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'34'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2358,7 +2868,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'17'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'37'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2393,7 +2903,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'18'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'39'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2427,7 +2937,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'19'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'43'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2462,7 +2972,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'21'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'47'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2497,7 +3007,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'22'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'49'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2532,15 +3042,67 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'22'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'51'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 152]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             169                                                      %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        169                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -2567,7 +3129,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'24'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'55'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2602,15 +3164,71 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'25'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'56'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 154]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             52                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        52                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -2637,7 +3255,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'25'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'56'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2672,7 +3290,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'26'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'00'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2707,7 +3325,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'27'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'04'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2742,7 +3360,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'28'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'06'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2777,7 +3395,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'29'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'09'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2812,7 +3430,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'30'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'12'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2846,7 +3464,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'31'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'16'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2881,15 +3499,71 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'33'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'20'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 162]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             169                                                      %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        169                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
     \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -2916,7 +3590,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'33'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'23'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2951,7 +3625,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'34'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'23'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2986,7 +3660,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'35'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'25'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3020,7 +3694,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'37'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'26'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3055,7 +3729,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'38'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'27'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3090,7 +3764,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'39'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'28'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3125,7 +3799,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'40'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'29'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3160,15 +3834,67 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'41'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'30'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 170]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             52                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        52                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -3195,7 +3921,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'42'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'31'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3230,7 +3956,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'44'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'36'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3265,7 +3991,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'45'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'40'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3300,7 +4026,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'45'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'41'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3335,7 +4061,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'46'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'45'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3370,7 +4096,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'48'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'49'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3404,7 +4130,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'49'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'53'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3439,7 +4165,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'50'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'58'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3474,7 +4200,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'51'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'59'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3509,15 +4235,67 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'52'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'03'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 180]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             169                                                      %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        169                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -3544,7 +4322,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'53'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'07'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3579,7 +4357,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'54'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'08'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3613,7 +4391,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'55'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'09'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3648,7 +4426,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'57'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'10'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3683,7 +4461,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'57'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'11'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3718,7 +4496,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'58'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'12'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3753,7 +4531,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'59'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'13'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3787,15 +4565,71 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'01'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'14'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 188]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             65                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        65                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
     \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -3822,7 +4656,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'02'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'16'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3857,7 +4691,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'03'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'18'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3892,7 +4726,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'04'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'20'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3927,7 +4761,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'05'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'24'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3962,7 +4796,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'06'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'26'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3996,7 +4830,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'08'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'30'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4031,7 +4865,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'09'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'34'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4066,7 +4900,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'10'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'36'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4100,7 +4934,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'11'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'40'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4135,7 +4969,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'13'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'43'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4170,15 +5004,67 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'14'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'46'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 199]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             169                                                      %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        169                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -4205,15 +5091,67 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'14'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'48'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 200]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             52                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        52                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -4240,7 +5178,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'15'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'49'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4275,7 +5213,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'16'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'53'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4310,15 +5248,71 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'18'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'56'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 203]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             52                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        52                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -4345,7 +5339,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'18'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [6'57'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4380,7 +5374,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'19'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [7'00'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4415,15 +5409,67 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'19'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [7'03'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 206]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             169                                                      %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        169                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -4450,14 +5496,66 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'21'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [7'06'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [E GlobalSkips measure 207]                                        %! SM4
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
+%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK
+%@%             52                                                       %! SM27:EXPLICIT_METRONOME_MARK
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                        52                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
             {
@@ -4484,7 +5582,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'22'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [7'07'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4519,7 +5617,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'23'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [7'11'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4554,7 +5652,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'24'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [7'14'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4589,7 +5687,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'25'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [7'16'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4624,7 +5722,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'26'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [7'20'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4658,7 +5756,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'27'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [7'25'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4693,7 +5791,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'29'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [7'29'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4728,7 +5826,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'29'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [7'31'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4763,7 +5861,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'30'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [7'34'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4798,7 +5896,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'32'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [7'39'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4833,7 +5931,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'33'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [7'42'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4869,7 +5967,7 @@ E_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'34'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [7'47'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }

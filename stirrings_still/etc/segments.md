@@ -1535,7 +1535,7 @@ SEGMENTS
         >>attacca [E.1] to effect prefix<<;
     [E.1] (6-11)
     (6 measures)
-    presto continues;
+    presto resumes after prefix;
     v1, v2, va grid-to-trajectories transition continues:
         grid stage five (tremolo-initiation) begins:
             damped lh continues;
@@ -1664,7 +1664,7 @@ SEGMENTS
         <<attacca return to second half of [E.6]>>
     attacca;
 
-    [E.7] (37-40 + fermata + 42-61 + fermata)
+    [E.7] (37-40 + fermata + 42-49 + 50-61 + fermata)
     (4 measures)
     presto continues;
     v1, v2, va trajectories continue:
@@ -1685,7 +1685,7 @@ SEGMENTS
     >>[Q.1 (inception) 1-8/8] prolongs [E.7] pause<< (42-49):
     >>[Q.2 (transformatum) 1-12/12] prolongs [E.7] pause<< (50-61):
         >>summon future time<<;
-        (8 measures)
+        (8 measures: 42-49)
         presto;
         tutti ellipses (desynchronized spinning white noise):
             damped lh;
@@ -1693,7 +1693,7 @@ SEGMENTS
             relatively fast polyrhythmic desynchronized ellipses;
             p;
         surprisingly short breath [v2 plays ellipses through breath];
-        (12 measures)
+        (12 measures: 50-61)
         adagio-to-presto accelerando happens;
         tutti urtext field / trajectories appear (desynchronized pitched field
             trajectories whisked skyward):
@@ -1736,7 +1736,7 @@ SEGMENTS
         p continues;
     attacca;
 
-    [E.10] (79-80 + fermata)
+    [E.10] (79-80 + short)
     (2 measures)
     presto-to-largo ritardando completes:
         achieves largo at start of stage;
@@ -1783,7 +1783,7 @@ SEGMENTS
     >>[Q.1 (inception) 1-8/8] bisects [E.12]<< (89-96):
     >>[Q.2 (transformatum) 1-12/12] bisects [E.12]<< (97-108):
         >>recapitulate summons of future time<<;
-        (8 measures)
+        (8 measures: 89-96)
         presto;
         tutti ellipses (desynchronized spinning white noise):
             damped lh;
@@ -1791,7 +1791,7 @@ SEGMENTS
             relatively fast polyrhythmic desynchronized ellipses;
             p;
         surprisingly short breath [v2 plays ellipses through breath];
-        (12 measures)
+        (12 measures: 97-108)
         adagio-to-presto accelerando happens;
         tutti urtext field / trajectories appear (desynchronized pitched field
             trajectories whisked skyward):
