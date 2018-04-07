@@ -2908,7 +2908,7 @@ SEGMENTS
         p continues;
     attacca;
 
-    <<[I.6 (current) 2/2] prefixes [N.4]>>:
+    <<[I.6 (current) 1-2/2] prefixes [N.4]>> (11-12):
         <<summons past time>>;
         larghissimo continues;
         v1, v2, va:
@@ -2920,8 +2920,8 @@ SEGMENTS
                 pitch is not upper register;
             trapped repetition cell;
             f;
-
-    [N.4] (11-14)
+        <<attacca [N.4] to effect prefix>>;
+    [N.4] (13-16)
     (4 measures)
     larghissimo continues;
     v1, v2, va urtext field fades in:
@@ -2936,7 +2936,7 @@ SEGMENTS
         p continues;
     attacca;
 
-    [N.5] (15-20)
+    [N.5] (17-22)
     (6 measures)
     larghissimo continues;
     v1, v2, va urtext field continues:
@@ -2950,25 +2950,27 @@ SEGMENTS
         p > niente governs stage;
     attacca;
 
-    [N.6] (21-32)
+    [N.6] (23-28 + 29 + 30-35 + very long)
     (12 measures)
     larghissimo-to-presto-to-larghissimo time trends govern stage;
-    tutti urtext field continues;
-    tutti flight appears:
-        stopped lh continues;
-        hair continues;
-        scp process embedded;
-        dynamic process embedded:
-            terminates ff ponticello with lv-release;
-    
-        <<colored flight [K.6] bisects [N.6]>>;
-            <<summons past time>>;
+    larghissimo-to-presto accelerando governs first half of stage;
+        tutti urtext field continues;
+        tutti flight appears:
+            stopped lh continues;
+            hair continues;
+            scp process embedded;
+            dynamic process embedded:
+                terminates ff ponticello with lv-release;
+            <<colored flight [K.6] bisects [N.6]>> (29);
+                <<summons past time>>;
+                andante;
+            <<attacca second half of [N.6]>>;
+            presto-to-larghissimo ritardando governs second half of [N.6];
+    very long pause (36);
 
-    very long pause;
-
-    [N.7] (34-35)
+    [N.7] (37-38 + very long)
     (2 measures)
-    larghississimo;
+    larghississimo begins at start of stage;
     tutti composite clouded pane / urtext field appears and expires:
         stopped lh continues;
         hair continues;
@@ -2979,7 +2981,7 @@ SEGMENTS
             bowspeed transition to nothing;
         p governs first half of stage;
         p > niente governs second half of stage;
-    very long pause;
+    very long pause (39);
 
 [O] time series A; rotation -56
 
