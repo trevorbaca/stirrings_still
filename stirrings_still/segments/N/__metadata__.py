@@ -26,8 +26,13 @@ metadata = abjad.OrderedDict(
             'bol_measure_numbers',
             [291, 305, 321],
             ),
-        ('duration', "2'24''"),
+        ('duration', "2'45''"),
+        (
+            'fermata_measure_numbers',
+            [326, 329],
+            ),
         ('first_measure_number', 291),
+        ('last_measure_is_fermata', True),
         ('last_measure_number', 329),
         (
             'persistent_indicators',
@@ -54,7 +59,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='GlobalSkips',
                                 prototype='abjad.MetronomeMark',
-                                value='largo',
+                                value='larghissimo',
                                 ),
                             abjad.Momento(
                                 context='GlobalSkips',
@@ -125,7 +130,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('start_clock_time', "10'36''"),
-        ('stop_clock_time', "13'00''"),
+        ('stop_clock_time', "13'21''"),
         (
             'time_signatures',
             [
