@@ -16,15 +16,15 @@
         \context Score = "Score"
         \with
         {
-            currentBarNumber = #413
+            currentBarNumber = #358
         }
         <<
             \context GlobalContext = "GlobalContext"
             <<
                 \context GlobalRests = "GlobalRests"
-                \P_GlobalRests
+                \L_GlobalRests
                 \context GlobalSkips = "GlobalSkips"
-                \P_GlobalSkips
+                \L_GlobalSkips
             >>
             \context MusicContext = "MusicContext"
             {
@@ -32,16 +32,16 @@
                 <<
                     \tag ViolinI                                                         %! ST4
                     \context Staff = "ViolinIMusicStaff"
-                    \P_ViolinIMusicStaff
+                    \L_ViolinIMusicStaff
                     \tag ViolinII                                                        %! ST4
                     \context Staff = "ViolinIIMusicStaff"
-                    \P_ViolinIIMusicStaff
+                    \L_ViolinIIMusicStaff
                     \tag viola                                                           %! ST4
                     \context Staff = "ViolaMusicStaff"
-                    \P_ViolaMusicStaff
+                    \L_ViolaMusicStaff
                     \tag cello                                                           %! ST4
                     \context Staff = "CelloMusicStaff"
-                    \P_CelloMusicStaff
+                    \L_CelloMusicStaff
                 >>
             }
         >>

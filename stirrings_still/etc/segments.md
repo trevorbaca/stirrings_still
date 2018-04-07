@@ -2854,7 +2854,7 @@ SEGMENTS
 
     [M.7] (29-32)
     (4 measures)
-    largo-meno-mosso-to-larghissimo ritardando happens;
+    largo-meno-mosso-to-larghissimo ritardando begins;
     tutti clouded pane continues:
         stopped lh continues;
         hair continues;
@@ -2867,7 +2867,7 @@ SEGMENTS
 
     [N.1] (1-6)
     (6 measures)
-    larghissimo continues;
+    larghissimo achieved at start of stage;
     tutti clouded pane continues:
         stopped lh continues;
         hair continues;
