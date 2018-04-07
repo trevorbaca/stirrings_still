@@ -1883,7 +1883,7 @@ SEGMENTS
         (p) < ff ... ff > niente governs stage;
     attacca;
 
-    [F.2] (9-10 + long)
+    [F.2] (9-10 + long + 12-13 + long)
     (2 measures)
     largo continues;
     v1, v2:
@@ -1894,9 +1894,8 @@ SEGMENTS
         mp completes abruptly at end of stage;
     vc:
         tacet continues;
-    long pause;
-
-    <<[C.2 (crunch circles + up-glissando) 3-4/4] prolong [F.2] long pause>>:
+    long pause (11);
+    <<[C.2 (crunch + up-glissando) 3-4/4] prolong [F.2] pause>> (12-13):
         <<summon past time>>;
         adagio;
         tutti maximally tight talon-crunch circles repeat:
@@ -1906,8 +1905,7 @@ SEGMENTS
                 slow up-glissando;
             desynchronization;
             p;
-
-    <<long pause follows insert to complete prolongation>>
+    <<long pause follows insert to complete prolongation>> (14);
 
 [G] time series C; rotation -36
 
