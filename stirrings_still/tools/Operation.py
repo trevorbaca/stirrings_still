@@ -107,12 +107,12 @@ class Operation(abjad.AbjadObject):
         assert source_time_signatures, repr(source_time_signatures)
         target_stage_ = abjad.new(target_stage, operation=self)
         target_stage_ = abjad.new(target_stage)
-        if target_stage_.operation is None:
-            target_stage_.operation = self
+        if isinstance(target_stage.operation, list):
+            operations = target_stage.operation[:] + [self]
         else:
-            operations = [target_stage_.operation]
-            operations.append(self)
-            target_stage_.operation = operations
+            assert target_stage.operation is None
+            operations = [self]
+        target_stage_.operation = operations
         if self.verb == 'bisect':
             start, stop = self.target_site
             assert start + 1 == stop, repr(self.target_site)

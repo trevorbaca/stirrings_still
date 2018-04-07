@@ -2599,7 +2599,7 @@ SEGMENTS
 
 [K] time series B; rotation -24
 
-    [K.1] (1-3)
+    [K.1] (1-2 + 3-4 + 5)
     (3 measures)
     andante continues;
     tutti trajectories-to-flight transition begins:
@@ -2607,7 +2607,6 @@ SEGMENTS
         1/2 clt continues;
         trajectories continue;
         pp continues;
-
         <<[C.14 (conclusion) 3-4/4] bisects [K.1 (inception)]>>:
             <<summons past time>>;
             adagio;
@@ -2617,10 +2616,10 @@ SEGMENTS
                 gradual harmonic-to-half-harmonic-to-stopped independently;
                 desynchronization;
                 f;
-
+        <<attacca remaining measure of [K.1]>>;
     attacca;
 
-    [K.2] (4-6)
+    [K.2] (6-8)
     (3 measures)
     andante continues;
     tutti trajectories-to-flight transition continues:
@@ -2638,33 +2637,30 @@ SEGMENTS
         global (pp) < mp begins;
     attacca;
 
-    [K.3] (7-9)
+    [K.3] (9-11)
     (3 measures)
     andante continues;
     tutti trajectories-to-flight continue:
         ibid;
         tremolo durations increase;
         global (pp < mp) continues;
-
         <<[I.6 -> F.2 (clearing)] revealed within [K.3 (development)]>>:
             <<summons past time>>;
             does not alter time signature structure:
                 va tailpiece:
                     absent lh;
                     pochiss. flicker;
-
     attacca;
 
-    [K.4] (10-12)
+    [K.4] (12-14)
     (3 measures)
     andante continues;
     tutti trajectories-to-flight continue:
         ibid;
         tremolo durations increase;
-        global (pp < mp) continues;
-    attacca;
+        global (pp < mp) continues; attacca;
 
-    [K.5] (13-15)
+    [K.5] (15-17)
     (3 measures)
     andante continues;
     tutti trajectories-to-flight continue:
