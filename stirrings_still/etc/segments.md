@@ -346,6 +346,7 @@ SEGMENTS
         >>attacca suffix<<;
         >>[H.1 (urtext rasp) 3-4/4] suffixes [A.15]< (55-56)<:
             >>summons future time<<;
+            adagio piu mosso;
             tutti:
                 stopped lh;
                 hair;
@@ -359,7 +360,7 @@ SEGMENTS
 
     [A.16] (58 + fermata)
     (1 measure)
-    largo continues;
+    largo resumes;
     tutti ellipses repeat:
         damped lh repeats;
         slow rate repeats;

@@ -24,15 +24,15 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [625, 641, 657, 673, 689, 705],
+            [641, 657, 673, 689, 705, 721],
             ),
         ('duration', "3'11''"),
         (
             'fermata_measure_numbers',
-            [712],
+            [775],
             ),
-        ('first_measure_number', 641),
-        ('last_measure_number', 732),
+        ('first_measure_number', 704),
+        ('last_measure_number', 795),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -116,7 +116,7 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('segment_name', 'Q'),
-        ('segment_number', 16),
+        ('segment_number', 17),
         (
             'sounds_during_segment',
             abjad.OrderedDict(
@@ -128,8 +128,8 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('start_clock_time', "30'00''"),
-        ('stop_clock_time', "33'11''"),
+        ('start_clock_time', "32'20''"),
+        ('stop_clock_time', "35'31''"),
         (
             'time_signatures',
             [
