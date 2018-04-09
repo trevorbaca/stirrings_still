@@ -60,7 +60,7 @@ maker(
     (baca.pitch('Ab3'), 1),
     (baca.pitch('Bb2'), 2),
     (baca.pitch('Bb1'), 3),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.rasp_partial_2(),
         baca.markup.flaut_partial_2(),
         ),
