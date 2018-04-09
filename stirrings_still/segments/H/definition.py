@@ -52,12 +52,11 @@ stirrings_still.time(maker, time)
 tutti = ['vn1', 'vn2', 'va', 'vc']
 
 maker(
-    (tutti, (1, 4)),
-    (baca.pitch('A3'), 0),
-    (baca.pitch('Ab3'), 1),
-    (baca.pitch('Bb2'), 2),
-    (baca.pitch('Bb1'), 3),
+    ('vn1', (1, 4)),
+#    (tutti, (1, 4)),
+#    (baca.pitch('A3'), 0),
+#    (baca.pitch('Ab3'), 1),
+#    (baca.pitch('Bb2'), 2),
+#    (baca.pitch('Bb1'), 3),
     baca.make_repeat_tied_notes(),
-    baca.enchained_transition(
-        ),
     )
