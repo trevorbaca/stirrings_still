@@ -1,7 +1,7 @@
 SEGMENTS
 ========
 
-[A] time series A; 58 (- 15 fermata) measures; rotation 0
+[A] time series A; rotation 0
 
     [A.1] (1 + fermata)
     (1 measure)
@@ -20,7 +20,7 @@ SEGMENTS
                 p < mp stop-on-string;
     vc:
         tacet;
-    pause (2);
+    fermata (2);
 
     [A.2] (3 + fermata)
     (1 measure)
@@ -41,7 +41,7 @@ SEGMENTS
                 p < mf stop-on-string;
     vc:
         tacet continues;
-    pause (4);
+    fermata (4);
 
     [A.3] (5-6 + fermata)
     (2 measures)
@@ -63,7 +63,7 @@ SEGMENTS
                 p < mf poco scratch stop-on-string;
     vc:
         tacet continues;
-    pause (7);
+    fermata (7);
 
     [A.4] (8-9 + fermata)
     (2 measures)
@@ -84,12 +84,12 @@ SEGMENTS
                 p < mf mod. scratch stop-on-string;
     vc:
         tacet anocra;
-    pause (10);
+    fermata (10);
 
     [A.5] (11-16 + fermata)
     (6 measures)
     andante-to-allegro accelerando happens;
-    accelerando achieves allegro at start of last measure;
+    accelerando achieves allegro at start of measure -1;
     v1, v2, va urtext declamation repeats and becomes urtext field:
         stopped lh continues;
         hair continues;
@@ -109,7 +109,7 @@ SEGMENTS
         pitch joins;
         tasto joins;
         p joins;
-    pause [vc holds over pause] (17);
+    fermata [vc holds over fermata] (17);
 
     [[starting again:]]
 
@@ -134,7 +134,7 @@ SEGMENTS
             stopped lh continues;
             tasto continues;
             p continues;
-    pause [vc holds over pause] (19);
+    fermata [vc holds over fermata] (19);
 
     [A.7] (20 + fermata)
     (1 measure)
@@ -163,7 +163,7 @@ SEGMENTS
             stopped lh continues;
             tasto continues;
             p continues;
-    pause [vc holds over pause] (21);
+    fermata [vc holds over fermata] (21);
 
     [[intercalation from future over vc pedal]];
     [[tremolo flight]];
@@ -193,7 +193,7 @@ SEGMENTS
             stopped lh continues;
             tasto continues;
             p continues;
-    pause [vc holds over pause] (24);
+    fermata [vc holds over fermata] (24);
 
     [A.9] (25-26 + 27 + fermata)
     (2 measures)
@@ -219,7 +219,7 @@ SEGMENTS
             stopped lh continues;
             tasto continues;
             p continues;
-        >>attacca suffix<<
+        >>attacca suffix<<;
         >>[G.1 (pane / urtext conflict) 1/1] suffixes [C.1]<< (27):
             >>summons future time<<;
             largo più mosso;
@@ -243,13 +243,13 @@ SEGMENTS
                     new pitch begins stepwise above;
                     niente < f ... f > niente governs stage;
                     subtends declamation;
-    pause [vc holds over pause] (28);
+    fermata [vc holds over fermata] (28);
 
     [A.10] (29-34)
     (6 measures)
     adagio-to-allegro accelerando happens;
     composite urtext field / ellipses repeat and intensity:
-        accelerando achieves allegro at start of last measure;
+        accelerando achieves allegro at start of measure -1;
         v1, v2, va:
             urtext field:
                 stopped lh continues;
@@ -288,7 +288,7 @@ SEGMENTS
     [A.12] (41-42 + 43 + 44-45)
     (4 measures)
     allegro-to-largo ritardando happens;
-    ritardando achieves largo at start of last measure;
+    ritardando achieves largo at start of measure -1;
     v1, v2, va ellipses continue:
         very fast rate continues;
         ppp > niente happens;
@@ -325,7 +325,7 @@ SEGMENTS
                 quasivortex now trapped repetition cell;
                 f;
         >>attacca second half of [A.13]<< (49-50);
-    pause (51);
+    fermata (51);
 
     [A.14] (52 + fermata)
     (1 measure)
@@ -334,7 +334,7 @@ SEGMENTS
         damped lh repeats;
         slower rate repeats;
         p repeats;
-    pause (53);
+    fermata (53);
 
     [A.15] (54 + 55-56 + fermata)
     (1 measure)
@@ -356,7 +356,7 @@ SEGMENTS
                     measures 3-4/4 of transition;
                 niente < mp:
                     measures 3-4/4 of crescendo;
-    pause (57);
+    fermata (57);
 
     [A.16] (58 + fermata)
     (1 measure)
@@ -365,7 +365,7 @@ SEGMENTS
         damped lh repeats;
         slow rate repeats;
         p repeats;
-    pause (59);
+    fermata (59);
 
     [A.17] (60 + fermata)
     (1 measure)
@@ -378,7 +378,7 @@ SEGMENTS
     vc urtext field ([A.6]) returns:
         tasto returns;
         p continues;
-    pause (61);
+    fermata (61);
 
     [A.18] (62 + long)
     (1 measure)
@@ -387,7 +387,7 @@ SEGMENTS
         damped lh resumes and repeats;
         slow rate resumes and repeats;
         p resumes and repeats;
-    long pause (63);
+    long fermata (63);
 
 [B] time series B; rotation 0
 
@@ -435,12 +435,12 @@ SEGMENTS
     
     [B.4] (8-11)
     (4 measures)
-    accelerando achieves presto on midmeasure downbeat;
+    accelerando achieves presto at start of measure 1:2;
     v1, v2, va:
         tacet;
     vc clouded pane completes:
         obverse harmonic completes;
-        crescendo achieves f on midmeasure downbeat;
+        crescendo achieves f at start of measure 1:2;
     surprisingly short breath;
 
     [B.5] (12 + fraction)
@@ -529,7 +529,7 @@ SEGMENTS
     v2 trajectories continue:
         tasto stopped lh continues;
         1/2 clt continues;
-        crescendo achieves mf on midmeasure downbeat;
+        crescendo achieves mf at start of measure 1:2;
     va ellipses fade out:
         damped lh fades out;
         hair fades out;
@@ -557,7 +557,7 @@ SEGMENTS
     vc trajectories continue:
         tasto stopped lh continues;
         1/2 clt continues;
-        crescendo achieves mf on midmeasure downbeat
+        crescendo achieves mf at start of measure 1:2;
     attacca;
 
     [B.11] (23-24)
@@ -596,7 +596,7 @@ SEGMENTS
         tasto continues;
         1/2 clt completes;
         crescendo completes:
-            achieves mf on measure 1:2 downbeat;
+            achieves mf at start of measure 1:2;
     vc trajectories continue:
         stopped lh continues;
         tasto continues;
@@ -618,7 +618,7 @@ SEGMENTS
                         longer;
                         p < mp stop-on-string;
         <<largo resumes after insert>> (27);
-    pause (28);
+    fermata (28);
 
     [B.13] (29-30 + fermata)
     (2 measures)
@@ -627,10 +627,10 @@ SEGMENTS
         stopped lh continues;
         hair governs stage;
         tasto-to-ord:
-            arrives midmeasure downbeat;
+            arrives at start of measure 1:2;
         ppp < mp:
-            arrives midmeasure downbeat;
-    pause (31);
+            arrives at start of measure 1:2;
+    fermata (31);
 
     >>[H.1 (urtext rasp) 3-4/4] prefixed to [B.14] (32)<<:
         >>summons future time<<:
@@ -651,10 +651,10 @@ SEGMENTS
     tutti trajectories continue:
         hair continues;
         tasto-to-poco-pont:
-            arrives midmeasure downbeat;
+            arrives at start of measure 1:2;
         pp < mf:
-            arrives midmeasure downbeat;
-    pause (36);
+            arrives at start of measure 1:2;
+    fermata (36);
 
     [B.15] (37-38 + fermata)
     (2 measures)
@@ -662,10 +662,10 @@ SEGMENTS
     tutti trajectories continue:
         hair continues;
         tasto-to-pont-mod:
-            arrives midmeasure downbeat;
+            arrives at start of measure 1:2;
         p < f:
-            arrives midmeasure downbeat;
-    pause (39);
+            arrives at start of measure 1:2;
+    fermata (39);
 
     [B.16] (40-41 + 42 + fermata)
     (2 measures)
@@ -673,9 +673,9 @@ SEGMENTS
     tutti trajectories continue:
         hair continues;
         tasto-to-molto-pont:
-            arrives midmeasure downbeat;
+            arrives at start of measure 1:2;
         mp < ff:
-            arrives midmeasure downbeat;
+            arrives at start of measure 1:2;
         >>[A.18 (ellipses) 1/1] suffixes [B.16 (iteratum)]<< (42):
             >>summon future time<<;
             largo;
@@ -683,7 +683,7 @@ SEGMENTS
                 damped lh;
                 slow rate;
                 p;
-    pause before [B.17] (43);
+    fermata before [B.17] (43);
 
     [B.17] (44 + 45 + 46 + fermata + 48 + fermata)
     (2 measures)
@@ -691,9 +691,9 @@ SEGMENTS
     tutti trajectories continue:
         hair continues;
         tasto-to-pont-poss:
-            arrives midmeasure downbeat;
+            arrives at start of measure 1:2;
         mf < fff:
-            arrives midmeasure downbeat;
+            arrives at start of measure 1:2;
         >>[D.9 (clouded pane) 1/4] bisects [B.17]<< (45):
             >>summons future time<<;
             largo;
@@ -706,8 +706,8 @@ SEGMENTS
                 p;
         >>attacca to second half of [B.17]<< (46);
         >>largo-to-presto accelerando resumes in second half<<;
-    pause (47);
-    >>[D.17 (composite) 2/2] prolongs [B.17] pause<< (48):
+    fermata (47);
+    >>[D.17 (composite) 2/2] prolongs [B.17] fermata<< (48):
         >>summons future time<<;
         allegro;
         composite urtext field / clouded pane / flight;
@@ -723,7 +723,7 @@ SEGMENTS
                 stoped lh;
                 hair;
                 p;
-    <<pause recapitulated after insert to effect prolongation>> (49);
+    <<fermata recapitulated after insert to effect prolongation>> (49);
 
     [B.18] (50-51)
     (2 measures)
@@ -731,9 +731,9 @@ SEGMENTS
     tutti trajectories continue:
         hair continues;
         tasto-to-pont-poss:
-            arrives midmeasure downbeat;
+            arrives at start of measure 1:2;
         f < fff+:
-            arrives midmeasure downbeat;
+            arrives at start of measure 1:2;
     attacca;
 
     [B.19] (52-57)
@@ -742,9 +742,9 @@ SEGMENTS
     tutti trajectories continue:
         hair continues;
         sub. molto-pont-to-tasto:
-            arrives 2/3 measure downbeat;
+            arrives at start of measure 2:3;
         sub. ff > ppp:
-            arrives 2/3 measure downbeat;
+            arrives at start of measure 2:3;
     attacca;
 
     [B.20] (58-59)
@@ -820,7 +820,7 @@ SEGMENTS
         hair fades out;
         wide ellipses fade out;
         ppp > niente governs stage;
-    pause (63);
+    fermata (63);
 
     >>[D.16 (urtext / pane / flight composite) 1/2] prefixes [B.24]<< (64):
         >>summons future time<<;
@@ -846,7 +846,7 @@ SEGMENTS
         damped lh governs stage;
         hair governs stage;
         p governs stage;
-    pause (66);
+    fermata (66);
 
 [C] time series C; rotation 0
 
@@ -883,7 +883,7 @@ SEGMENTS
                     new pitch begins stepwise above;
                     niente < f ... f > niente governs stage;
                     subtends declamation;
-    pause follows suffix (6);
+    fermata follows suffix (6);
 
     [C.2] (7-10 + fermata)
     (4 measures)
@@ -895,7 +895,7 @@ SEGMENTS
             slow up-glissando;
         desynchronization continues;
         p governs stage;
-    pause (11);
+    fermata (11);
 
     [C.3] (12-15)
     (4 measures)
@@ -1098,7 +1098,7 @@ SEGMENTS
             rhythmicized with rest after every circle;
         jeux des terminaisons continues to end of stage;
         p continues until end of stage;
-    pause (70);
+    fermata (70);
 
     [C.19] (71-76 + fermata)
     (6 measures)
@@ -1113,7 +1113,7 @@ SEGMENTS
             slackening of circles governs stage; 
             continuous sound (= no rest after any circle) governs stage;
         f > niente governs stage;
-    pause (77);
+    fermata (77);
 
 [D] time series C; rotation -18
 
@@ -1187,8 +1187,8 @@ SEGMENTS
         denser rhythm completely synchronized;
         jeux des terminaisons continues;
         mf continues;
-    pause;
-    >>[I.6 (repetition cells) 2/2] prolong [D.6] pause<< (38):
+    fermata (37);
+    >>[I.6 (repetition cells) 2/2] prolong [D.6] fermata<< (38):
         >>summon future time<<;
         larghissimo;
         v1, v2, va:
@@ -1200,11 +1200,11 @@ SEGMENTS
                 pitch is not upper register;
             quasivortex now trapped repetition cell;
             f;
-    <<pause repeated after insert to effect prolongation>>
+    <<fermata repeated after insert to effect prolongation>> (39);
 
     [D.7] (40-45 + fermata)
     (6 measures)
-    presto resumes after pause;
+    presto resumes after fermata;
     white tutti grid continues (at stage two) to end of stage:
         damped lh continues to end of stage;
         hair continues;
@@ -1212,7 +1212,7 @@ SEGMENTS
         completely synchronized denser rhythm continues to end of stage;
         jeux des terminaisons continues to end of stage;
         pp governs stage;
-    pause;
+    fermata (46);
 
     [D.8] (47 + long)
     (1 measure)
@@ -1224,7 +1224,7 @@ SEGMENTS
             hair continues;
             tasto reappears;
             p governs stage;
-    long pause;
+    long fermata (48);
 
     [D.9] (49-50 + 51 + 52-53 + long)
     (4 measures)
@@ -1243,8 +1243,8 @@ SEGMENTS
                 absent lh;
                 pochiss. flicker;
                 mp;
-        >>attacca second half of [D.9]<<
-    long pause after [D.9];
+        >>attacca second half of [D.9]<<;
+    long fermata (54);
 
     [D.10] (55 + long)
     (1 measure)
@@ -1256,7 +1256,7 @@ SEGMENTS
             hair continues;
             tasto repeats;
             p governs stage;
-    long pause;
+    long fermata (56);
 
     >>[S.2 (transformatum) 1/1] prefixes [D.11]<< (57):
         >>summons future time<<;
@@ -1273,7 +1273,7 @@ SEGMENTS
             stopped lh;
             hair;
             B1 slack-string up-bow rh-terminated exponential crescendo to mf;
-        <<attacca [D.11] to effect prefix>>
+        <<attacca [D.11] to effect prefix>>;
     [D.11] (58-63 + long)
     (6 measures)
     presto-to-largo ritardando happens;
@@ -1284,7 +1284,7 @@ SEGMENTS
         completely synchronized denser rhythm fades out;
         jeux des terminaisons fades out;
         mf > niente governs stage;
-    long pause;
+    long fermata (64);
 
     [D.12] (65 + 66 + 67)
     (2 measures)
@@ -1317,7 +1317,7 @@ SEGMENTS
                 starts up on local accelerandi;
                 repetition quasivortex begins;
                 p;
-            >>attacca second half of [D.12]<<
+            >>attacca second half of [D.12]<<;
     attacca;
 
     [D.13] (68-69)
@@ -1437,13 +1437,13 @@ SEGMENTS
         v1, v2, va urtext field continues:
             stopped lh continues;
             hair continues;
-            jagged scp transition achieves poco pont on last measure downbeat;
+            jagged scp transition achieves poco pont at start of measure -1;
             densely spaced double-stops continue;
             continuous tremolo continues;
         vc clouded pane continues:
             stopped lh continues;
             hair continues;
-            p < fff scratch achieves fff scratch on downbeat of measure 1:2;
+            p < fff scratch achieves fff scratch at start of measure 1:2;
     attacca;
 
     [D.20] (82-83)
@@ -1470,7 +1470,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             jagged scp transition continues:
-                jagged scp transition achieves tasto on last measure downbeat;
+                jagged scp transition achieves tasto at start of measure -1;
             densely spaced double-stops continue;
             continuous tremolo continues;
         vc:
@@ -1482,7 +1482,7 @@ SEGMENTS
                 absent lh;
                 pochiss. flicker;
                 mp;
-        >>attacca second half of [D.21]<<
+        >>attacca second half of [D.21]<<;
     attacca;
 
     [D.22] (87-88 + 89-90 + short)
@@ -1511,9 +1511,9 @@ SEGMENTS
                     slow up-glissando;
                 desynchronization;
                 p;
-    short pause [vc continues through pause];
+    short fermata [vc continues through fermata] (91);
 
-[E] time series B; 82 (-4 fermata) measures; rotation -8
+[E] time series B; rotation -8
 
     [E.0] (1-2 + short)
     (2 measures)
@@ -1528,7 +1528,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         p continues;
-    short pause [vc continues through pause];
+    short fermata [vc continues through fermata] (3);
 
     >>[H.9 (clearing) 1-2/6] prefixes [E.1]<< (4-5):
         >>summons future time<<;
@@ -1576,9 +1576,9 @@ SEGMENTS
             tremolo-initiation continues;
                 very light fast bow continues;
             synchronization process governs stage:
-                achieves synchronization at start of last measure;
+                achieves synchronization at start of measure -1;
             additive rhythm governs stage:
-                achieves adagio-equivalent at start of last measure;
+                achieves adagio-equivalent at start of measure -1;
                 effects written-out ritardando;
                 transpires under presto;
             p continues;
@@ -1592,7 +1592,7 @@ SEGMENTS
     (4 measures)
     adagio (equal to additive rhythm endpoint) starts;
     adagio-to-allegro accelerando happens:
-        achieves allegro on last measure downbeat;
+        achieves allegro at start of measure -1;
     v1, v2, va grid-to-trajectories transition continues:
         stopped lh continues;
         1/2 clt continues;
@@ -1675,7 +1675,7 @@ SEGMENTS
                         p < mp stop-on-string;
             vc:
                 tacet;
-        <<attacca return to second half of [E.6]>>
+        <<attacca return to second half of [E.6]>>;
     attacca;
 
     [E.7] (37-40 + fermata + 42-49 + 50-61 + fermata)
@@ -1692,12 +1692,12 @@ SEGMENTS
         synchronization completes;
         (p) < mf happens:
             begins at start of stage;
-            achieves mf at start of last measure;
+            achieves mf at start of measure -1;
     vc:
         tacet continues;
-    pause (41);
-    >>[Q.1 (inception) 1-8/8] prolongs [E.7] pause<< (42-49):
-    >>[Q.2 (transformatum) 1-12/12] prolongs [E.7] pause<< (50-61):
+    fermata (41);
+    >>[Q.1 (inception) 1-8/8] prolongs [E.7] fermata<< (42-49):
+    >>[Q.2 (transformatum) 1-12/12] prolongs [E.7] fermata<< (50-61):
         >>summon future time<<;
         (8 measures: 42-49)
         presto;
@@ -1716,7 +1716,7 @@ SEGMENTS
             desyncrhonized hair trajectories:
                 1/2 clt introduced towards end of trajectories independently;
             ff poco scratch < fff scratch > f senza scratch;
-    >>pause repeated after insert to effect prolongation<< (62);
+    >>fermata repeated after insert to effect prolongation<< (62);
 
     [E.8] (63-70)
     (8 measures)
@@ -1764,7 +1764,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         p continues;
-    short pause (81);
+    short fermata (81);
 
     [E.11] (82-85 + fermata)
     (4 measures)
@@ -1779,7 +1779,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         p continues;
-    pause [vc holds through pause] (86);
+    fermata [vc holds through fermata] (86);
 
     [E.12] (87-88 + 89-96 + 97-108 + 109-110 + fermata)
     (4 measures)
@@ -1815,7 +1815,7 @@ SEGMENTS
                 1/2 clt introduced towards end of trajectories independently;
             ff poco scratch < fff scratch > f senza scratch;
         <<attaca return to second half of [E.12] (109-110)>>;
-    pause [vc holds through pause] after [E.12] (111);
+    fermata [vc holds through fermata] after [E.12] (111);
 
     [E.13] (112-115)
     (4 measures)
@@ -1840,7 +1840,7 @@ SEGMENTS
         damped lh continues;
         hair continues;
         T-B-T independent scp patterning completes:
-            achieves tasto at start of last measure;
+            achieves tasto at start of measure -1;
         tremoli begin to slow independently;
         p continues;
     vc:
@@ -1861,8 +1861,8 @@ SEGMENTS
         stopped lh resumes;
         hair resumes;
         niente < p:
-            begins first measure downbeat;
-            p stable by midmeasure downbeat;
+            begins at start of stage;
+            p stable by start of measure 1:2;
     attacca;
 
     [E.16] (120-127)
@@ -1889,7 +1889,7 @@ SEGMENTS
     va tailpiece begins under cover of clouded pane:
         absent lh begins;
         pochiss. flicker begins;
-        niente < mp governs first measure:
+        niente < mp governs measure 1:
             achieves mp at start of second measure;
     vc clouded pane continues:
         stopped lh continues;
@@ -1908,8 +1908,8 @@ SEGMENTS
         mp completes abruptly at end of stage;
     vc:
         tacet continues;
-    long pause (11);
-    <<[C.2 (crunch + up-glissando) 3-4/4] prolong [F.2] pause>> (12-13):
+    long fermata (11);
+    <<[C.2 (crunch + up-glissando) 3-4/4] prolong [F.2] fermata>> (12-13):
         <<summon past time>>;
         adagio;
         tutti maximally tight talon-crunch circles repeat:
@@ -1919,7 +1919,7 @@ SEGMENTS
                 slow up-glissando;
             desynchronization;
             p;
-    <<long pause follows insert to complete prolongation>> (14);
+    <<long fermata follows insert to complete prolongation>> (14);
 
 [G] time series C; rotation -36
 
@@ -1946,14 +1946,14 @@ SEGMENTS
                 new pitch begins stepwise above;
                 niente < f ... f > niente governs stage;
                 subtends declamation;
-    pause;
+    fermata (2);
 
     [G.2] (3 + fermata)
     (1 measure)
     largo più mosso continues;
     tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
-    pause;
+    fermata (4);
 
     >>[J.1 (clearing) 1-2/4] prefixes [G.3 (iteratum)]<< (5-6):
         >>summons future time<<;
@@ -1965,20 +1965,20 @@ SEGMENTS
             appena udibile;
         vc:
             tacet;
-    >>attacca [G.3] to effect prefix<<
+    >>attacca [G.3] to effect prefix<<;
     [G.3] (7 + fermata)
     (1 measure)
     largo più mosso resumes after prefix;
     tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
-    pause;
+    fermata (8);
 
     [G.4] (9 + fermata)
     (1 measure)
     largo più mosso continues;
     tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
-    pause;
+    fermata (10);
 
     [G.5] (11 + 12 + 13 + long)
     (2 measures)
@@ -2005,7 +2005,7 @@ SEGMENTS
         cut-off;
         <<attacca second half of [G.5]>>;
         <<largo più mosso resumes for second half of [G.5]>>;
-    long pause;
+    long fermata (14);
 
     [G.6] (15-16 + long + 18-19 + long)
     (2 measures)
@@ -2026,26 +2026,27 @@ SEGMENTS
             two layers of dynamic in each part:
                 unmarked swells on each note;
                 pp < mf governs stage;
-    long pause;
-    <<[D.11 (process) 1-2/6] prolongs [G.6] long pause>>:
+    long fermata (17);
+    <<[D.11 (process) 1-2/6] prolongs [G.6] long fermata>>:
         <<summons past time>>;
         presto-to-andante ritardando;
+    <<long fermata repeats to effect prolongation>> (20);
 
-[H] time series B; 45 (- 4 fermata) measures; rotation -16
+[H] time series B; rotation -16
 
     [H.1] (1-4)
     (4 measures)
     largo-to-adagio accelerando governs stage:
-        achieves adagio at start of last measure;
-    tutti urtext field appears from rasp after long pause:
+        achieves adagio at start of measure -1;
+    tutti urtext field appears from rasp:
         stopped lh resumes;
         hair resumes;
         four-note chord appears:
             single-stopped notes;
         extremely gradual rasp-to-flautando transition governs stage:
-            achieves flautando at start of last measure;
+            achieves flautando at start of measure -1;
         niente < mp governs stage:
-            achieves mp at start of last measure;
+            achieves mp at start of measure -1;
     attacca;
 
     [H.2] (5 + suffix)
@@ -2142,9 +2143,9 @@ SEGMENTS
     [H.5] (11-12)
     (2 measures)
     adagio-to-allegro accelerando completes:
-        achieves allegro on downbeat of measure 1:2;
+        achieves allegro at start of measure 1:2;
     allegro-to-adagio ritardando begins:
-        begins ritardando on downbeat of measure 1:2;
+        begins ritardando at start of measure 1:2;
     v1 urtext field / ellipses continue:
         stopped lh continues;
         hair continues;
@@ -2177,7 +2178,7 @@ SEGMENTS
     [H.6] (13-14)
     (2 measures)
     allegro-to-adagio ritardando completes:
-        achieves adagio at start of last measure;
+        achieves adagio at start of measure -1;
     v1 urtext field / ellipses continue:
         stopped lh continues;
         hair continues;
@@ -2275,7 +2276,7 @@ SEGMENTS
         hair continues;
         (ff scratch > ppp) completes:
             achieves ppp at start of next stage;
-    short pause [vc continues through pause];
+    short fermata [vc continues through fermata] (29);
 
     [H.10] (30-31 + short + 33 + short)
     (2 measures)
@@ -2292,15 +2293,15 @@ SEGMENTS
     vc clouded pane continues:
         harmonic lh continues;
         ppp continues;
-    short pause [vc continues through pause];
-    <<[G.5 -> C.7 (pane / urtext conflict)] prolongs [H.10] short pause>>:
+    short fermata [vc continues through fermata] (32);
+    <<[G.5 -> C.7 (pane / urtext conflict)] prolongs [H.10] short fermata>>:
         <<summons past time>>;
         allegro;
         tasto stopped lh;
         1/2 clt;
         mf;
-    <<short pause repeats to effect prolongation>>;
-    <<vc continues through short pause>>;
+    <<short fermata repeats to effect prolongation>> (34);
+    <<vc continues through short fermata>>;
 
     <<[H.1 (inception)] 3-4/4] prefixed to [H.11]>> (35-36):
         <<summons past time>>;
@@ -2329,7 +2330,7 @@ SEGMENTS
         down-glissando lentissimo begins:
             begins at start of stage;
         ppp continues;
-    short pause [vc continues through pause];
+    short fermata [vc continues through fermata] (40);
 
     [H.12] (41-44 + short)
     (4 measures)
@@ -2346,12 +2347,12 @@ SEGMENTS
         down-glissando lentissimo completes:
             achieves low pitch at start of next stage;
         ppp continues;
-    short pause [vc continues through pause];
+    short fermata [vc continues through fermata] (45);
 
     [H.13] (46-49)
     (4 measures)
     (allegro)-to-largo ritardando governs stage:
-        achieves largo at start of last measure;
+        achieves largo at start of measure -1;
     v1, v2, va interlocking gears repeat as scratch:
         stopped lh continues;
         hair continues;
@@ -2719,7 +2720,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         patterned slowing of tremolo flight independently:
-            achieve senza tremolo last measure first downbeat;
+            achieve senza tremolo at start of measure -1;
             tension between global accelerando and local tremoli largandi;
         (p) > niente begins;
     attacca;
@@ -2972,7 +2973,7 @@ SEGMENTS
                 andante;
             <<attacca second half of [N.6]>>;
             presto-to-larghissimo ritardando governs second half of [N.6];
-    very long pause (36);
+    very long fermata (36);
 
     [N.7] (37-38 + very long)
     (2 measures)
@@ -2987,7 +2988,7 @@ SEGMENTS
             bowspeed transition to nothing;
         p governs first half of stage;
         p > niente governs second half of stage;
-    very long pause (39);
+    very long fermata (39);
 
 [O] time series A; rotation -56
 
@@ -3012,7 +3013,7 @@ SEGMENTS
             vc clouded pane:
                 stopped lh;
                 pp;
-    very long pause (8);
+    very long fermata (8);
 
 [P] time series C; rotation -90
 
@@ -3062,12 +3063,12 @@ SEGMENTS
 
     [P.5] (21-26)
     (6 measures)
-    accelerando achieves presto at start of last measure;
+    accelerando achieves presto at start of measure -1;
     tutti ellipses continue:
         stopped lh continues;
         hair continues;
-        up-glissandi achieve endpoint at start of last measure;
-        ellipses achieve fixed fast speed at start of last measure;
+        up-glissandi achieve endpoint at start of measure -1;
+        ellipses achieve fixed fast speed at start of measure -1;
         mp > p governs first half of stage;
     surprisingly short breath;
 
@@ -3214,13 +3215,13 @@ SEGMENTS
         desyncrhonized hair trajectories:
             1/2 clt introduced towards end of trajectories independently;
         pp < p scratch > senza scratch ppp;
-    pause [v1 holds color through pause];
+    fermata [v1 holds color through fermata] (72);
 
     [Q.13] (73-92)
     (20 measures)
     presto achieved at start of stage;
     presto-to-largo ritardando begins;
-    largo achieved on measure 3:4 downbeat;
+    largo achieved at start of measure 3:4;
     v1, v2 trajectories continue:
         stopped lh continues;
         1/2 clt continues;
@@ -3447,13 +3448,13 @@ SEGMENTS
         Bb2 pp pedal ends;
     vc:
         tacet ends;
-    long pause (35);
+    long fermata (35);
 
 Time and grief and self so-called.
 
 Oh all to end.
 
-    long pause. 
+    long fermata.
 
 ###############################################################################
 ########################## CANONICAL PARAMETER ORDER ##########################
@@ -3466,10 +3467,10 @@ Oh all to end.
         stopped lh continues; # LHS (left-hand setting(s))
         hair governs stage; # BCS (bow contact surface(s))
         tasto-to-ord: # BCP (bow contact point(s))
-            arrives midmeasure downbeat;
+            arrives at start of measure 1:2;
         densenly spaced double-stops continues; # pitch
         desynchronization continues: # rhythmic character
             intercalated rests become shorter;
         ppp < mp: # dynamic(s)
-            arrives midmeasure downbeat;
-    pause; # pause (if any)
+            arrives at start of measure 1:2;
+    fermata (measure number); # fermata (if any)
