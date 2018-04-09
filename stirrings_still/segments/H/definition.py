@@ -1,5 +1,6 @@
 import abjad
 import baca
+import os
 import stirrings_still
 
 
@@ -8,7 +9,9 @@ import stirrings_still
 ###############################################################################
 
 maker = baca.SegmentMaker(
+    color_octaves=False,
     metronome_mark_stem_height=1.5,
+    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=stirrings_still.time_signatures('H'),
     validate_measure_count=52,
     )
@@ -52,11 +55,10 @@ stirrings_still.time(maker, time)
 tutti = ['vn1', 'vn2', 'va', 'vc']
 
 maker(
-    ('vn1', (1, 4)),
-#    (tutti, (1, 4)),
-#    (baca.pitch('A3'), 0),
-#    (baca.pitch('Ab3'), 1),
-#    (baca.pitch('Bb2'), 2),
-#    (baca.pitch('Bb1'), 3),
+    (tutti, (1, 4)),
+    (baca.pitch('A3'), 0),
+    (baca.pitch('Ab3'), 1),
+    (baca.pitch('Bb2'), 2),
+    (baca.pitch('Bb1'), 3),
     baca.make_repeat_tied_notes(),
     )

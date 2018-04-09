@@ -1,5 +1,6 @@
 import abjad
 import baca
+import os
 import stirrings_still
 
 
@@ -8,8 +9,8 @@ import stirrings_still
 ###############################################################################
 
 maker = baca.SegmentMaker(
-    include_nonfirst_segment_stylesheet=True,
     metronome_mark_stem_height=1.5,
+    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=stirrings_still.time_signatures('A'),
     validate_measure_count=63,
     )
@@ -24,6 +25,8 @@ time = (
     ('andante', 1),
     ('fermata', 2),
     ('fermata', 4),
+    ('fermata', 7),
+    ('fermata', 10),
     ('andante', 11),
     (abjad.Accelerando(), 11),
     ('allegro', 16),
@@ -59,3 +62,34 @@ time = (
     )
 
 stirrings_still.time(maker, time)
+
+maker(
+    'vn1',
+    baca.suite([
+        stirrings_still.margin_markup('Vn. I'),
+        baca.start_markup('Violin I', hcenter_in=14),
+        ]),
+    )
+maker(
+    'vn2',
+    baca.suite([
+        stirrings_still.margin_markup('Vn. II'),
+        baca.start_markup('Violin II', hcenter_in=14),
+        ]),
+    )
+
+maker(
+    'va',
+    baca.suite([
+        stirrings_still.margin_markup('Va.'),
+        baca.start_markup('Viola', hcenter_in=14),
+        ]),
+    )
+
+maker(
+    'vc',
+    baca.suite([
+        stirrings_still.margin_markup('Vc.'),
+        baca.start_markup('Cello', hcenter_in=14),
+        ]),
+    )
