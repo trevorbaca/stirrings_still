@@ -24,7 +24,7 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [396, 412, 428],
+            [459, 475, 491],
             ),
         ('duration', "1'57''"),
         (
@@ -50,6 +50,12 @@ metadata = abjad.OrderedDict(
                                 context='CelloMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='Cello',
+                                ),
+                            abjad.Momento(
+                                context='CelloMusicVoice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.MarginMarkup',
+                                value='Vc.',
                                 ),
                             ],
                         ),
@@ -81,6 +87,12 @@ metadata = abjad.OrderedDict(
                                 prototype='abjad.Instrument',
                                 value='Viola',
                                 ),
+                            abjad.Momento(
+                                context='ViolaMusicVoice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.MarginMarkup',
+                                value='Va.',
+                                ),
                             ],
                         ),
                     (
@@ -95,6 +107,12 @@ metadata = abjad.OrderedDict(
                                 context='ViolinIIMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='ViolinI',
+                                ),
+                            abjad.Momento(
+                                context='ViolinIIMusicVoice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.MarginMarkup',
+                                value='Vn. II',
                                 ),
                             ],
                         ),
@@ -111,6 +129,12 @@ metadata = abjad.OrderedDict(
                                 prototype='abjad.Instrument',
                                 value='ViolinI',
                                 ),
+                            abjad.Momento(
+                                context='ViolinIMusicVoice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.MarginMarkup',
+                                value='Vn. I',
+                                ),
                             ],
                         ),
                     ]
@@ -122,10 +146,10 @@ metadata = abjad.OrderedDict(
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
-                    ('CelloMusicVoice', False),
-                    ('ViolaMusicVoice', False),
-                    ('ViolinIIMusicVoice', False),
-                    ('ViolinIMusicVoice', False),
+                    ('CelloMusicVoice', True),
+                    ('ViolaMusicVoice', True),
+                    ('ViolinIIMusicVoice', True),
+                    ('ViolinIMusicVoice', True),
                     ]
                 ),
             ),

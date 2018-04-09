@@ -4,7 +4,6 @@
 #(ly:set-option 'relative-includes #t)
 
 \include "../../stylesheets/stylesheet.ily"
-\include "../../stylesheets/nonfirst-segment.ily"
 \include "illustration.ily"
 
 
