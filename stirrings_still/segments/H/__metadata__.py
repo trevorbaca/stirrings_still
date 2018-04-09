@@ -60,6 +60,16 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'CelloMusicVoice',
+                        [
+                            abjad.Momento(
+                                context='CelloMusicVoice',
+                                prototype='abjad.Dynamic',
+                                value='mp',
+                                ),
+                            ],
+                        ),
+                    (
                         'Score',
                         [
                             abjad.Momento(
@@ -96,6 +106,16 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'ViolaMusicVoice',
+                        [
+                            abjad.Momento(
+                                context='ViolaMusicVoice',
+                                prototype='abjad.Dynamic',
+                                value='mp',
+                                ),
+                            ],
+                        ),
+                    (
                         'ViolinIIMusicStaff',
                         [
                             abjad.Momento(
@@ -117,6 +137,16 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'ViolinIIMusicVoice',
+                        [
+                            abjad.Momento(
+                                context='ViolinIIMusicVoice',
+                                prototype='abjad.Dynamic',
+                                value='mp',
+                                ),
+                            ],
+                        ),
+                    (
                         'ViolinIMusicStaff',
                         [
                             abjad.Momento(
@@ -134,6 +164,16 @@ metadata = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 prototype='abjad.MarginMarkup',
                                 value='Vn. I',
+                                ),
+                            ],
+                        ),
+                    (
+                        'ViolinIMusicVoice',
+                        [
+                            abjad.Momento(
+                                context='ViolinIMusicVoice',
+                                prototype='abjad.Dynamic',
+                                value='mp',
                                 ),
                             ],
                         ),
