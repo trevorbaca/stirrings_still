@@ -2866,7 +2866,7 @@ H_ViolinIMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    a1
+    f'1
     \<                                                           %! HC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
@@ -2902,16 +2902,16 @@ H_ViolinIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [H ViolinIMusicVoice measure 460]                          %! SM4
-    a1
+    f'1
     \repeatTie
     
     % [H ViolinIMusicVoice measure 461]                          %! SM4
-    a2.
+    f'2.
     \repeatTie
     
     % [H ViolinIMusicVoice measure 462]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    a2..
+    f'2..
     \repeatTie
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
@@ -3123,7 +3123,7 @@ H_ViolinIIMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af1
+    gf'1
     \<                                                           %! HC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
@@ -3159,16 +3159,16 @@ H_ViolinIIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [H ViolinIIMusicVoice measure 460]                         %! SM4
-    af1
+    gf'1
     \repeatTie
     
     % [H ViolinIIMusicVoice measure 461]                         %! SM4
-    af2.
+    gf'2.
     \repeatTie
     
     % [H ViolinIIMusicVoice measure 462]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    af2..
+    gf'2..
     \repeatTie
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
@@ -3380,7 +3380,7 @@ H_ViolaMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    bf,1
+    af1
     \<                                                           %! HC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
@@ -3416,16 +3416,16 @@ H_ViolaMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [H ViolaMusicVoice measure 460]                            %! SM4
-    bf,1
+    af1
     \repeatTie
     
     % [H ViolaMusicVoice measure 461]                            %! SM4
-    bf,2.
+    af2.
     \repeatTie
     
     % [H ViolaMusicVoice measure 462]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bf,2..
+    af2..
     \repeatTie
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
@@ -3637,7 +3637,7 @@ H_CelloMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    bf,,1
+    af,1
     \<                                                           %! HC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
@@ -3673,16 +3673,16 @@ H_CelloMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [H CelloMusicVoice measure 460]                            %! SM4
-    bf,,1
+    af,1
     \repeatTie
     
     % [H CelloMusicVoice measure 461]                            %! SM4
-    bf,,2.
+    af,2.
     \repeatTie
     
     % [H CelloMusicVoice measure 462]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bf,,2..
+    af,2..
     \repeatTie
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1

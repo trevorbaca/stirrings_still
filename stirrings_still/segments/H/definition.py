@@ -56,10 +56,10 @@ tutti = ['vn1', 'vn2', 'va', 'vc']
 
 maker(
     (tutti, (1, 4)),
-    (baca.pitch('A3'), 0),
-    (baca.pitch('Ab3'), 1),
-    (baca.pitch('Bb2'), 2),
-    (baca.pitch('Bb1'), 3),
+    (baca.pitch('F4'), 0),
+    (baca.pitch('Gb4'), 1),
+    (baca.pitch('Ab3'), 2),
+    (baca.pitch('Ab2'), 3),
     baca.transition(
         baca.markup.rasp_partial_2(),
         baca.markup.flaut_partial_2(),
