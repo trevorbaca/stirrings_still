@@ -2049,32 +2049,32 @@ SEGMENTS
             achieves mp at start of measure -1;
     attacca;
 
-    [H.2] (5 + suffix)
-    (1 measures)
+    [H.2] (5 + 6)
+    (1 measure)
     adagio continues;
     tutti urtext field continues:
         stopped lh continues;
         hair continues;
         flautando continues;
         four-note chord continues;
-        mp completes;
+        mp continues;
     surprisingly short breath [v2 holds over breath];
+        >>[I.1 (composite)] suffixes [H.2]<< (6):
+        >>summons future time<<;
         largo;
         >>[I.1 (v1, va, synchronous golden gears) 2/2] prolong short breath<<:
-            >>summon future time<<;
             stopped lh;
             hair;
             golden tone (senza scratch);
             circles (SL = BW) locked in binary rate ratio 1:4;
             mp;
         >>[I.1 (vc 1/2 clt solo trajectory) 2/2] prolong short breath<<:
-            >>summons future time<<;
             stopped lh;
             1/2 clt;
             starts up on local accelerandi;
             repetition quasivortex begins;
             p;
-    >>v1, va, vc recapitulate surprisingly short breath<<;
+    >>v1, va, vc repeat surprisingly short breath to effect prolongation<<;
     >>v2 holds over surprisingly short breath<<;
 
     [H.3] (7-8)
