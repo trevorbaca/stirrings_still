@@ -55,15 +55,17 @@ stirrings_still.time(maker, time)
 tutti = ['vn1', 'vn2', 'va', 'vc']
 
 maker(
-    (tutti, (1, 4)),
+    (tutti, (1, 5)),
     (baca.pitch('F4'), 0),
     (baca.pitch('Gb4'), 1),
     (baca.pitch('Ab3'), 2),
     (baca.pitch('Ab2'), 3),
+    (baca.breathe(selector=baca.rleaves()[-1:]), [0, 2, 3]),
+    baca.hairpin('niente < mp', selector=baca.notes()[:4]),
+    baca.make_repeat_tied_notes(),
     baca.transition(
         baca.markup.rasp_partial_2(),
         baca.markup.flaut_partial_2(),
+        selector=baca.notes()[:4].group(),
         ),
-    baca.hairpin('niente < mp'),
-    baca.make_repeat_tied_notes(),
     )

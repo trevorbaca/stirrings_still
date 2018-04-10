@@ -2917,9 +2917,11 @@ H_ViolinIMusicVoice = {
     \stopTextSpan                                                %! PWC1
     
     % [H ViolinIMusicVoice measure 463]                          %! SM4
-    R1 * 7/8
+    f'2..
+    \repeatTie
     
     % [H ViolinIMusicVoice measure 464]                          %! SM4
+    \breathe                                                     %! IC
     R1 * 3/4
     
     % [H ViolinIMusicVoice measure 465]                          %! SM4
@@ -3174,7 +3176,8 @@ H_ViolinIIMusicVoice = {
     \stopTextSpan                                                %! PWC1
     
     % [H ViolinIIMusicVoice measure 463]                         %! SM4
-    R1 * 7/8
+    gf'2..
+    \repeatTie
     
     % [H ViolinIIMusicVoice measure 464]                         %! SM4
     R1 * 3/4
@@ -3431,9 +3434,11 @@ H_ViolaMusicVoice = {
     \stopTextSpan                                                %! PWC1
     
     % [H ViolaMusicVoice measure 463]                            %! SM4
-    R1 * 7/8
+    af2..
+    \repeatTie
     
     % [H ViolaMusicVoice measure 464]                            %! SM4
+    \breathe                                                     %! IC
     R1 * 3/4
     
     % [H ViolaMusicVoice measure 465]                            %! SM4
@@ -3688,9 +3693,11 @@ H_CelloMusicVoice = {
     \stopTextSpan                                                %! PWC1
     
     % [H CelloMusicVoice measure 463]                            %! SM4
-    R1 * 7/8
+    af,2..
+    \repeatTie
     
     % [H CelloMusicVoice measure 464]                            %! SM4
+    \breathe                                                     %! IC
     R1 * 3/4
     
     % [H CelloMusicVoice measure 465]                            %! SM4
