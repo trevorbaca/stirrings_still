@@ -2,6 +2,7 @@ import abjad
 import baca
 import os
 import stirrings_still
+from abjad import rhythmmakertools as rhythmos
 
 
 ###############################################################################
@@ -63,9 +64,29 @@ maker(
     (baca.breathe(selector=baca.rleaves()[-1:]), [0, 2, 3]),
     baca.hairpin('niente < mp', selector=baca.notes()[:4]),
     baca.make_repeat_tied_notes(),
+    baca.markup.string_number(2),
     baca.transition(
         baca.markup.rasp_partial_2(),
         baca.markup.flaut_partial_2(),
         selector=baca.notes()[:4].group(),
         ),
+    )
+
+maker(
+    ('vn1', 6),
+    baca.markup.lines(['one circle every eighth-note;', "'golden' tone"]),
+    stirrings_still.circle_rhythm((1, 8)),
+    )
+
+maker(
+    ('vn2', 6),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('Gb4'),
+    baca.repeat_tie_to(),
+    )
+
+maker(
+    ('va', 6),
+    baca.markup.lines(['one circle every half-note;', "'golden' tone"]),
+    stirrings_still.circle_rhythm((1, 2)),
     )
