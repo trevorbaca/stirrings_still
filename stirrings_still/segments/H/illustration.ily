@@ -2886,6 +2886,11 @@ H_ViolinIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             }
         }
+    _ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                II                                               %! IC
+        }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2922,7 +2927,51 @@ H_ViolinIMusicVoice = {
     
     % [H ViolinIMusicVoice measure 464]                          %! SM4
     \breathe                                                     %! IC
-    R1 * 3/4
+    \set stemLeftBeamCount = 0
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    [
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                \column                                          %! IC
+                    {                                            %! IC
+                        "one circle every eighth-note;"          %! IC
+                        "'golden' tone"                          %! IC
+                    }                                            %! IC
+        }                                                        %! IC
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 0
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [H ViolinIMusicVoice measure 465]                          %! SM4
     R1 * 3/4
@@ -3145,6 +3194,11 @@ H_ViolinIIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             }
         }
+    _ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                II                                               %! IC
+        }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -3162,25 +3216,26 @@ H_ViolinIIMusicVoice = {
     
     % [H ViolinIIMusicVoice measure 460]                         %! SM4
     gf'1
-    \repeatTie
+    \repeatTie                                                   %! TCC
     
     % [H ViolinIIMusicVoice measure 461]                         %! SM4
     gf'2.
-    \repeatTie
+    \repeatTie                                                   %! TCC
     
     % [H ViolinIIMusicVoice measure 462]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     gf'2..
-    \repeatTie
+    \repeatTie                                                   %! TCC
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [H ViolinIIMusicVoice measure 463]                         %! SM4
     gf'2..
-    \repeatTie
+    \repeatTie                                                   %! TCC
     
     % [H ViolinIIMusicVoice measure 464]                         %! SM4
-    R1 * 3/4
+    gf'2.
+    \repeatTie                                                   %! TCC
     
     % [H ViolinIIMusicVoice measure 465]                         %! SM4
     R1 * 3/4
@@ -3403,6 +3458,11 @@ H_ViolaMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             }
         }
+    _ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                II                                               %! IC
+        }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -3439,7 +3499,21 @@ H_ViolaMusicVoice = {
     
     % [H ViolaMusicVoice measure 464]                            %! SM4
     \breathe                                                     %! IC
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                \column                                          %! IC
+                    {                                            %! IC
+                        "one circle every half-note;"            %! IC
+                        "'golden' tone"                          %! IC
+                    }                                            %! IC
+        }                                                        %! IC
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [H ViolaMusicVoice measure 465]                            %! SM4
     R1 * 3/4
@@ -3662,6 +3736,11 @@ H_CelloMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             }
         }
+    _ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                II                                               %! IC
+        }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37

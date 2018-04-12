@@ -2,6 +2,7 @@ from .Operation import Operation
 from .ScoreTemplate import ScoreTemplate
 from .StageSpecifier import StageSpecifier
 from .StageToken import StageToken
+from .circle_rhythm import circle_rhythm
 from .first_order_stages import first_order_stages
 from .margin_markup import margin_markup
 from .operations import operations
