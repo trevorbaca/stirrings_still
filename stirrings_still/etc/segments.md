@@ -2071,8 +2071,8 @@ SEGMENTS
         >>[I.1 (vc 1/2 clt solo trajectory) 2/2] prolong short breath<<:
             stopped lh;
             1/2 clt;
-            starts up on local accelerandi;
-            repetition quasivortex begins;
+            local accelerandi;
+            repetition quasivortex;
             p;
     >>v1, va, vc repeat surprisingly short breath to effect prolongation<<;
     >>v2 holds over surprisingly short breath<<;

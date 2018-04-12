@@ -3,7 +3,7 @@ import baca
 from abjad import rhythmmakertools as rhythmos
 
 
-def circle_rhythm(duration):
+def circles(duration):
     r'''Makes circle rhythm with ``duration``.
     '''
     duration = abjad.Duration(duration)

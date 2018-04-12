@@ -57,11 +57,8 @@ tutti = ['vn1', 'vn2', 'va', 'vc']
 
 maker(
     (tutti, (1, 5)),
-    (baca.pitch('F4'), 0),
-    (baca.pitch('Gb4'), 1),
-    (baca.pitch('Ab3'), 2),
-    (baca.pitch('Ab2'), 3),
-    (baca.breathe(selector=baca.rleaves()[-1:]), [0, 2, 3]),
+    (baca.breathe_after_last(), [0, 2, 3]),
+    baca.dls_staff_padding(3),
     baca.hairpin('niente < mp', selector=baca.notes()[:4]),
     baca.make_repeat_tied_notes(),
     baca.markup.string_number(2),
@@ -75,18 +72,46 @@ maker(
 maker(
     ('vn1', 6),
     baca.markup.lines(['one circle every eighth-note;', "'golden' tone"]),
-    stirrings_still.circle_rhythm((1, 8)),
+    stirrings_still.circles((1, 8)),
     )
 
 maker(
     ('vn2', 6),
     baca.make_repeat_tied_notes(),
-    baca.pitch('Gb4'),
     baca.repeat_tie_to(),
     )
 
+line = abjad.Markup('one circle every half-note;').whiteout()
 maker(
     ('va', 6),
-    baca.markup.lines(['one circle every half-note;', "'golden' tone"]),
-    stirrings_still.circle_rhythm((1, 2)),
+    baca.markup.lines(
+        [line, "'golden' tone"],
+        no_whiteout=True,
+        ),
+    stirrings_still.circles((1, 2)),
+    )
+
+maker(
+    ('vc', 6),
+    baca.bcps(),
+    baca.dynamic('p'),
+    baca.markup.boxed('1/2 clt'),
+    baca.script_staff_padding(6),
+    baca.text_spanner_staff_padding(3),
+    baca.tuplet_bracket_staff_padding(1),
+    baca.tuplet_brackets_down(),
+    stirrings_still.accelerandi(stop=(3, 32)),
+    )
+
+maker(
+    (['vn1', 'va', 'vc'], 6),
+    baca.breathe_after_last(),
+    )
+
+maker(
+    (tutti, (1, 6)),
+    (baca.pitch('F4'), 0),
+    (baca.pitch('Gb4'), 1),
+    (baca.pitch('Ab3'), 2),
+    (baca.pitch('Ab2'), 3),
     )

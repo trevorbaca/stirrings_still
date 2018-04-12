@@ -2,10 +2,12 @@ from .Operation import Operation
 from .ScoreTemplate import ScoreTemplate
 from .StageSpecifier import StageSpecifier
 from .StageToken import StageToken
-from .circle_rhythm import circle_rhythm
+from .accelerandi import accelerandi
+from .circles import circles
 from .first_order_stages import first_order_stages
 from .margin_markup import margin_markup
 from .operations import operations
 from .second_order_stages import second_order_stages
 from .time import time
 from .time_signatures import time_signatures
+from .trajectories import trajectories
