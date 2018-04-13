@@ -2,7 +2,6 @@ import abjad
 import baca
 import os
 import stirrings_still
-from abjad import rhythmmakertools as rhythmos
 
 
 ###############################################################################
@@ -100,12 +99,69 @@ maker(
     baca.text_spanner_staff_padding(3),
     baca.tuplet_bracket_staff_padding(1),
     baca.tuplet_brackets_down(),
-    stirrings_still.accelerandi(stop=(3, 32)),
+    stirrings_still.accelerando(stop=(3, 32)),
     )
 
 maker(
     (['vn1', 'va', 'vc'], 6),
     baca.breathe_after_last(),
+    )
+
+maker(
+    ('vn1', (7, 8)),
+    baca.dynamic('p'),
+    stirrings_still.accelerando((1, 2), (1, 4)),
+    )
+
+maker(
+    ('vn1', (9, 16)),
+    stirrings_still.desynchronization(4, [0, 1]),
+    )
+
+maker(
+    ('va', (7, 8)),
+    baca.dynamic('p'),
+    stirrings_still.accelerando((1, 2), (3, 32)),
+    )
+
+maker(
+    ('va', (9, 16)),
+    stirrings_still.desynchronization(4, [1, 0]),
+    )
+
+selector = baca.leaves().group_by_measure()
+selector = selector.partition_by_counts([2])
+selector = selector.map(baca.select().flatten())
+maker(
+    ('vn1', (7, 14)), 
+    baca.markup('always one circle per stem:'),
+    baca.text_script_staff_padding(7.5),
+    baca.text_spanner_staff_padding(5),
+    baca.transition(
+        baca.markup('2” circles'),
+        baca.markup('4” circles'),
+        baca.markup('6” circles'),
+        baca.markup('8” circles'),
+        do_not_bookend=True,
+        selector=baca.leaves().partition_by_counts([4, 6, 7, 5]),
+        spanner_selector=False,
+        ),
+    )
+
+maker(
+    ('va', (7, 14)), 
+    baca.markup('always one circle per stem:'),
+    baca.text_script_staff_padding(5.5),
+    baca.text_spanner_staff_padding(3),
+    baca.transition(
+        baca.markup('2” circles'),
+        baca.markup('4” circles'),
+        baca.markup('6” circles'),
+        baca.markup('8” circles'),
+        do_not_bookend=True,
+        selector=baca.leaves().partition_by_counts([5, 6, 7, 5]),
+        spanner_selector=False,
+        ),
     )
 
 maker(

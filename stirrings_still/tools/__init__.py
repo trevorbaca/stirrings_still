@@ -2,8 +2,9 @@ from .Operation import Operation
 from .ScoreTemplate import ScoreTemplate
 from .StageSpecifier import StageSpecifier
 from .StageToken import StageToken
-from .accelerandi import accelerandi
+from .accelerando import accelerando
 from .circles import circles
+from .desynchronization import desynchronization
 from .first_order_stages import first_order_stages
 from .margin_markup import margin_markup
 from .operations import operations
