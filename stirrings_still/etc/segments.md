@@ -2041,12 +2041,9 @@ SEGMENTS
     tutti urtext field appears from rasp:
         stopped lh resumes;
         hair resumes;
-        four-note chord appears:
-            single-stopped notes;
-        extremely gradual rasp-to-flautando transition governs stage:
-            achieves flautando at start of measure -1;
-        niente < mp governs stage:
-            achieves mp at start of measure -1;
+        four-note chord appears on single-stopped notes;
+        extremely gradual rasp-to-flautando (start of measure -1) transition;
+        niente < mp (start of measure -1) governs stage;
     attacca;
 
     [H.2] (5 + 6)
@@ -2059,8 +2056,8 @@ SEGMENTS
         four-note chord continues;
         mp continues;
     surprisingly short breath [v2 holds over breath];
-        >>[I.1 (composite)] suffixes [H.2]<< (6):
-        >>summons future time<<;
+    >>[I.1 (composite)] suffixes [H.2]<< (6):
+    >>summons future time<<;
         largo;
         >>[I.1 (v1, va, synchronous golden gears) 2/2] prolong short breath<<:
             stopped lh;
@@ -2113,7 +2110,7 @@ SEGMENTS
     (2 measures)
     adagio-to-allegro accelerando begins:
         begins adagio at start of stage;
-    v1 ellipses continue:
+    v1 urtext field / ellipses continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo begins:
@@ -2249,7 +2246,7 @@ SEGMENTS
     adagio-to-allegro accelerando governs stage:
         achieves allegro at start of next stage;
     v1, v2, va:
-        tacet continues;
+        tacet;
     vc clouded pane continues:
         harmonic lh continues;
         hair continues;
