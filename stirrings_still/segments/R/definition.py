@@ -22,7 +22,6 @@ maker(
     )
 
 time = (
-    ('largo', 1),
     )
 
 stirrings_still.time(maker, time)
