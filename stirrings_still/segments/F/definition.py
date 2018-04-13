@@ -22,7 +22,7 @@ maker(
     )
 
 time = (
-    ('largo', 1),
+    #('largo', 1),
     ('long', 11),
     ('adagio', 12),
     ('long', 14),

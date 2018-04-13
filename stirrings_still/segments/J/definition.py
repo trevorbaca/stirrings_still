@@ -22,7 +22,6 @@ maker(
     )
 
 time = (
-    ('larghissimo', 1),
     ('allegro', 3),
     ('larghissimo', 4),
     ('larghissimo', 6),

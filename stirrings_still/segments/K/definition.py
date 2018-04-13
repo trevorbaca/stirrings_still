@@ -22,7 +22,6 @@ maker(
     )
 
 time = (
-    ('andante', 1),
     ('adagio', 3),
     ('andante', 5),
     ('andante', 18),

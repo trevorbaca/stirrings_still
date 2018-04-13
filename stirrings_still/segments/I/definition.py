@@ -22,7 +22,6 @@ maker(
     )
 
 time = (
-    ('largo', 1),
     ('largo', 3),
     (abjad.Ritardando(), 3),
     ('larghissimo', 6),
