@@ -3006,7 +3006,7 @@ H_ViolinIMusicVoice = {
     _ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
-                II                                               %! IC
+                III                                              %! IC
         }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -3547,7 +3547,7 @@ H_ViolinIIMusicVoice = {
     _ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
-                II                                               %! IC
+                III                                              %! IC
         }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -3820,7 +3820,7 @@ H_ViolaMusicVoice = {
     _ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
-                II                                               %! IC
+                III                                              %! IC
         }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -4334,7 +4334,7 @@ H_CelloMusicVoice = {
     _ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
-                II                                               %! IC
+                III                                              %! IC
         }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -4548,82 +4548,192 @@ H_CelloMusicVoice = {
     
     % [H CelloMusicVoice measure 465]                            %! SM4
     \breathe                                                     %! IC
-    R1 * 3/4
+    \override Glissando.arrow-length = #'2                       %! OC1
+    \override Glissando.arrow-width = #'0.5                      %! OC1
+    \override Glissando.bound-details.right.arrow = ##t          %! OC1
+    \override Glissando.thickness = #'3                          %! OC1
+    \once \override TextSpanner.Y-extent = ##f                   %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25               %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        flaut.
+                \hspace
+                    #0.5
+            }
+        }                                                        %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t  %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.bound-details.right.text = \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "non flaut."
+            }
+        }                                                        %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
+    \once \override TextSpanner.dash-period = 1.5                %! PWC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    af,2.
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \glissando                                                   %! SC
+    \startTextSpan                                               %! PWC1
+    _ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                IV                                               %! IC
+        }                                                        %! IC
     
     % [H CelloMusicVoice measure 466]                            %! SM4
-    R1 * 1/2
+    \override NoteHead.style = #'harmonic                        %! OC1
+    gf,2
+    \stopTextSpan                                                %! PWC1
+    \revert Glissando.arrow-length                               %! OC2
+    \revert Glissando.arrow-width                                %! OC2
+    \revert Glissando.bound-details                              %! OC2
+    \revert Glissando.thickness                                  %! OC2
     
     % [H CelloMusicVoice measure 467]                            %! SM4
-    R1 * 5/8
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    gf,4.
+    \repeatTie                                                   %! SC
+    \<                                                           %! HC1
+    \mp                                                          %! HC1
+    
+    gf,4
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 468]                            %! SM4
-    R1 * 3/4
+    gf,2.
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 469]                            %! SM4
-    R1 * 7/8
+    gf,2..
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 470]                            %! SM4
-    R1 * 7/8
+    gf,2..
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 471]                            %! SM4
-    R1 * 5/8
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    gf,4.
+    \repeatTie                                                   %! SC
+    \f                                                           %! HC1
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "poco overpressure"                              %! IC
+        }                                                        %! IC
+    
+    gf,4
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 472]                            %! SM4
-    R1 * 1/2
+    gf,2
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 473]                            %! SM4
-    R1 * 3/4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    gf,2.
+    \repeatTie                                                   %! SC
+    \<                                                           %! HC1
+    \f                                                           %! HC1
     
     % [H CelloMusicVoice measure 474]                            %! SM4
-    R1 * 1
+    gf,1
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 475]                            %! SM4
-    R1 * 1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    gf,1
+    \repeatTie                                                   %! SC
+    \ff                                                          %! HC1
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "molto overpressure"                             %! IC
+        }                                                        %! IC
     
     % [H CelloMusicVoice measure 476]                            %! SM4
-    R1 * 1/2
+    gf,2
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 477]                            %! SM4
-    R1 * 5/8
+    gf,4.
+    \repeatTie                                                   %! SC
+    
+    gf,4
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 478]                            %! SM4
-    R1 * 1
+    gf,1
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 479]                            %! SM4
-    R1 * 3/4
+    gf,2.
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 480]                            %! SM4
-    R1 * 1
+    gf,1
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 481]                            %! SM4
-    R1 * 7/8
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    gf,2..
+    \repeatTie                                                   %! SC
+    \>                                                           %! HC1
+    \ff                                                          %! HC1
     
     % [H CelloMusicVoice measure 482]                            %! SM4
-    R1 * 3/4
+    gf,2.
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 483]                            %! SM4
-    R1 * 7/8
+    gf,2..
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 484]                            %! SM4
-    R1 * 1
+    gf,1
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 485]                            %! SM4
-    R1 * 1
+    gf,1
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 486]                            %! SM4
-    R1 * 3/4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    gf,2.
+    \repeatTie                                                   %! SC
+    \ppp                                                         %! HC1
     
     % [H CelloMusicVoice measure 487]                            %! SM4
-    R1 * 1/4
+    gf,4
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 488]                            %! SM4
-    R1 * 7/8
+    gf,2..
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 489]                            %! SM4
-    R1 * 7/8
+    gf,2..
+    \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 490]                            %! SM4
-    R1 * 1/4
+    gf,4
+    \repeatTie                                                   %! SC
+    \revert NoteHead.style                                       %! OC2
     
     % [H CelloMusicVoice measure 491]                            %! SM4
     R1 * 5/8
