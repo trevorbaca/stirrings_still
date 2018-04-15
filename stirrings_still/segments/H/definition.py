@@ -86,7 +86,7 @@ maker(
     baca.dls_staff_padding(3),
     baca.hairpin('niente < mp', selector=baca.notes()[:4]),
     baca.make_repeat_tied_notes(),
-    baca.markup.string_number(2),
+    baca.markup.string_number(3),
     baca.transition(
         baca.markup.rasp_partial_2(),
         baca.markup.flaut_partial_2(),
@@ -224,4 +224,38 @@ maker(
 maker(
     ('va', (7, 16)),
     baca.tuplet_bracket_staff_padding(1.5),
+    )
+
+maker(
+    ('vc', (7, 32)),
+    baca.dynamic('mp'),
+    baca.finger_pressure_transition(baca.notes()[:2]),
+    baca.make_notes(repeat_ties=True),
+    baca.markup.string_number(4, selector=baca.note(0)),
+    baca.natural_harmonics(baca.notes()[1:]),
+    baca.pitch('Ab2', selector=baca.note(0)),
+    baca.pitch('Gb2', selector=baca.notes()[1:]),
+    baca.repeat_tie(baca.notes()[1:]),
+    baca.transition(
+        baca.markup.flaut(),
+        baca.markup.non_flaut(),
+        selector=baca.notes()[:2].group(),
+        ),
+    )
+
+maker(
+    ('vc', (9, 12)),
+    baca.hairpin('mp < f', selector=baca.rleaves()),
+    baca.markup.poco_overpressure(selector=baca.rleaves()[-1]),
+    )
+
+maker(
+    ('vc', (15, 16)),
+    baca.hairpin('f < ff', selector=baca.rleaves()),
+    baca.markup.molto_overpressure(selector=baca.rleaves()[-1]),
+    )
+
+maker(
+    ('vc', (23, 27)),
+    baca.hairpin('ff > ppp', selector=baca.rleaves()),
     )

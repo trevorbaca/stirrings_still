@@ -2103,7 +2103,7 @@ SEGMENTS
         hair continues;
         flautando-to-ordinario transition governs first half of stage;
         urtext-field-to-clouded-pane glissando governs first half of stage;
-        mp continues;
+        mp resumes after insert;
     attacca;
 
     [H.4] (9-10)
@@ -2134,7 +2134,7 @@ SEGMENTS
     vc clouded pane continues:
         harmonic lh continues;
         hair continues;
-        (mp) < f poco overpressure begins;
+        mp < f poco overpressure begins;
     attacca;
 
     [H.5] (11-12)
@@ -2237,7 +2237,7 @@ SEGMENTS
         harmonic lh continues;
         hair continues;
         overpressure harmonic continues;
-        f poco scratch < ff scratch begins;
+        f poco overpressure < ff molto overpressure governs stage;
     attacca;
     
     [H.8] (17-22)
@@ -2250,7 +2250,7 @@ SEGMENTS
         harmonic lh continues;
         hair continues;
         overpressure harmonic continues;
-        ff scratch;
+        ff molto overpressure;
     attacca;
 
     [H.9] (23-28 + short)
@@ -2271,7 +2271,7 @@ SEGMENTS
         harmonic lh continues;
         hair continues;
         overpressure harmonic continues;
-        ff scratch > ppp governs stage;
+        ff molto overpressure > ppp governs stage;
     short fermata [vc continues through fermata] (29);
 
     [H.10] (30-31 + short + 33 + short)
@@ -2339,8 +2339,7 @@ SEGMENTS
     vc clouded pane continues:
         stopped lh continues;
         hair continues;
-        down-glissando lentissimo completes:
-            achieves low pitch at start of next stage;
+        down-glissando lentissimo continues;
         ppp continues;
     short fermata [vc continues through fermata] (45);
 
@@ -2359,6 +2358,7 @@ SEGMENTS
         1/2 clt appears gradually:
             begins at start of stage;
             not yet audible;
+        down-glissando lentissimo achieves low pitch at start of stage;
         (ppp) < p begins;
     attacca;
 
