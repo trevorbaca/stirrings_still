@@ -2168,8 +2168,7 @@ SEGMENTS
     vc clouded pane continues:
         harmonic lh continues;
         hair continues;
-        (mp < f poco overpressure) completes:
-            achieves f + poco overpressure at start of next stage;
+        mp < f poco overpressure continues;
     attacca;
 
     [H.6] (13-14)
@@ -2201,7 +2200,7 @@ SEGMENTS
     vc clouded pane continues:
         harmonic lh continues;
         hair continues;
-        f + poco overpressure governs stage;
+        f + poco overpressure;
     attacca;
 
     [H.7] (15-16)
@@ -2237,8 +2236,8 @@ SEGMENTS
     vc clouded pane continues:
         harmonic lh continues;
         hair continues;
-        f poco scratch < ff scratch governs stage:
-            achieves ff scratch at start of next stage;
+        overpressure harmonic continues;
+        f poco scratch < ff scratch begins;
     attacca;
     
     [H.8] (17-22)
@@ -2250,8 +2249,8 @@ SEGMENTS
     vc clouded pane continues:
         harmonic lh continues;
         hair continues;
-        ff scratch governs first half of stage;
-        (ff scratch) > ppp begins at start of second half of stage;
+        overpressure harmonic continues;
+        ff scratch;
     attacca;
 
     [H.9] (23-28 + short)
@@ -2271,8 +2270,8 @@ SEGMENTS
     vc clouded pane continues:
         harmonic lh continues;
         hair continues;
-        (ff scratch > ppp) completes:
-            achieves ppp at start of next stage;
+        overpressure harmonic continues;
+        ff scratch > ppp governs stage;
     short fermata [vc continues through fermata] (29);
 
     [H.10] (30-31 + short + 33 + short)
@@ -2291,7 +2290,7 @@ SEGMENTS
         harmonic lh continues;
         ppp continues;
     short fermata [vc continues through fermata] (32);
-    <<[G.5 -> C.7 (pane / urtext conflict)] prolongs [H.10] short fermata>>:
+    <<[G.5, C.7 (pane / urtext conflict)] prolongs [H.10] short fermata>> (33):
         <<summons past time>>;
         allegro;
         tasto stopped lh;
@@ -2324,8 +2323,7 @@ SEGMENTS
         mf (with variations) governs stage;
     vc clouded pane continues:
         stopped lh begins;
-        down-glissando lentissimo begins:
-            begins at start of stage;
+        down-glissando lentissimo begins;
         ppp continues;
     short fermata [vc continues through fermata] (40);
 
@@ -2379,7 +2377,7 @@ SEGMENTS
         1/2 clt continues (not yet audible);
         (ppp < p) completes:
             achieves p at start of next stage;
-    <<[G.5 (iteratum) 1/1] bisects [H.14 (clearing)]>>:
+    <<[G.5 (iteratum) 1/1] bisects [H.14 (clearing)]>> (51):
         <<summons past time>>;
         largo più mosso;
         tutti clouded pane / urtext declamation conflict:

@@ -22,6 +22,32 @@ maker(
     baca.rehearsal_mark_y_offset(12),
     )
 
+maker(
+    'GlobalSkips',
+    baca.markup('[H.1]', baca.skip(1 - 1)),
+    baca.markup('[H.2]', baca.skip(5 - 1)),
+    baca.markup('[I.1]', baca.skip(6 - 1)),
+    baca.markup('[H.3]', baca.skip(7 - 1)),
+    baca.markup('[H.4]', baca.skip(9 - 1)),
+    baca.markup('[H.5]', baca.skip(11 - 1)),
+    baca.markup('[H.6]', baca.skip(13 - 1)),
+    baca.markup('[H.6]', baca.skip(13 - 1)),
+    baca.markup('[H.7]', baca.skip(15 - 1)),
+    baca.markup('[H.8]', baca.skip(17 - 1)),
+    baca.markup('[H.8]', baca.skip(17 - 1)),
+    baca.markup('[H.9]', baca.skip(23 - 1)),
+    baca.markup('[H.10]', baca.skip(30 - 1)),
+    baca.markup('[C.7]', baca.skip(33 - 1)),
+    baca.markup('[H.1]', baca.skip(35 - 1)),
+    baca.markup('[H.11]', baca.skip(37 - 1)),
+    baca.markup('[H.12]', baca.skip(41 - 1)),
+    baca.markup('[H.13]', baca.skip(46 - 1)),
+    baca.markup('[H.14]', baca.skip(50 - 1)),
+    baca.markup('[G.5]', baca.skip(51 - 1)),
+    baca.markup('[H.14]', baca.skip(52 - 1)),
+    baca.text_script_extra_offset((0, 5)),
+    )
+
 time = (
     ('largo', 1),
     (abjad.Accelerando(), 1),
