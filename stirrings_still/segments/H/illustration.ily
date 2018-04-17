@@ -2983,7 +2983,7 @@ H_ViolinIMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    gf'1
+    gf'!1
     \<                                                           %! HC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
@@ -3024,22 +3024,22 @@ H_ViolinIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [H ViolinIMusicVoice measure 460]                          %! SM4
-    gf'1
+    gf'!1
     \repeatTie
     
     % [H ViolinIMusicVoice measure 461]                          %! SM4
-    gf'2.
+    gf'!2.
     \repeatTie
     
     % [H ViolinIMusicVoice measure 462]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    gf'2..
+    gf'!2..
     \repeatTie
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [H ViolinIMusicVoice measure 463]                          %! SM4
-    gf'2..
+    gf'!2..
     \repeatTie
     \revert DynamicLineSpanner.staff-padding                     %! OC2
     
@@ -3155,7 +3155,7 @@ H_ViolinIMusicVoice = {
         \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
         \once \override TextSpanner.dash-period = 1.5            %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        gf'16 * 439/64
+        gf'!16 * 439/64
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \glissando                                               %! SC
         [
@@ -3286,7 +3286,7 @@ H_ViolinIMusicVoice = {
         b'4
         \glissando                                               %! SC
         
-        bf'4
+        bf'!4
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3802,7 +3802,7 @@ H_ViolinIIMusicVoice = {
     a'4
     \glissando                                                   %! SC
     
-    af'4
+    af'!4
     \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/10 {
@@ -3830,30 +3830,30 @@ H_ViolinIIMusicVoice = {
         \once \override TextSpanner.bound-details.right.padding = 1.5 %! PWC1
         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
         \once \override TextSpanner.dash-period = 0              %! PWC1
-        af'4
+        af'!4
         \stopTextSpan                                            %! PWC1
         \startTextSpan                                           %! PWC1
         
-        af'4
+        af'!4
         
-        af'4
+        af'!4
         
-        af'4
+        af'!4
         
-        af'4
+        af'!4
     }
     \times 8/10 {
         
         % [H ViolinIIMusicVoice measure 474]                     %! SM4
-        af'4
+        af'!4
         
-        af'4
+        af'!4
         
-        af'4
+        af'!4
         
-        af'4
+        af'!4
         
-        af'4
+        af'!4
         \stopTextSpan                                            %! PWC1
         \revert TextSpanner.staff-padding                        %! OC2
         \revert TupletBracket.staff-padding                      %! OC2
@@ -4031,7 +4031,7 @@ H_ViolaMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af1
+    af!1
     \<                                                           %! HC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
@@ -4072,22 +4072,22 @@ H_ViolaMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [H ViolaMusicVoice measure 460]                            %! SM4
-    af1
+    af!1
     \repeatTie
     
     % [H ViolaMusicVoice measure 461]                            %! SM4
-    af2.
+    af!2.
     \repeatTie
     
     % [H ViolaMusicVoice measure 462]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    af2..
+    af!2..
     \repeatTie
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [H ViolaMusicVoice measure 463]                            %! SM4
-    af2..
+    af!2..
     \repeatTie
     \revert DynamicLineSpanner.staff-padding                     %! OC2
     
@@ -4177,7 +4177,7 @@ H_ViolaMusicVoice = {
         \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
         \once \override TextSpanner.dash-period = 1.5            %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        af16 * 15/2
+        af!16 * 15/2
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \glissando                                               %! SC
         [
@@ -4546,7 +4546,7 @@ H_CelloMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af,1
+    af,!1
     \<                                                           %! HC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
@@ -4587,22 +4587,22 @@ H_CelloMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [H CelloMusicVoice measure 460]                            %! SM4
-    af,1
+    af,!1
     \repeatTie
     
     % [H CelloMusicVoice measure 461]                            %! SM4
-    af,2.
+    af,!2.
     \repeatTie
     
     % [H CelloMusicVoice measure 462]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    af,2..
+    af,!2..
     \repeatTie
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [H CelloMusicVoice measure 463]                            %! SM4
-    af,2..
+    af,!2..
     \repeatTie
     \revert DynamicLineSpanner.staff-padding                     %! OC2
     \override TupletNumber.text = \markup {
@@ -4820,7 +4820,7 @@ H_CelloMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    af,2.
+    af,!2.
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
     \startTextSpan                                               %! PWC1
@@ -4832,7 +4832,7 @@ H_CelloMusicVoice = {
     
     % [H CelloMusicVoice measure 466]                            %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
-    gf,2
+    gf,!2
     \stopTextSpan                                                %! PWC1
     \revert Glissando.arrow-length                               %! OC2
     \revert Glissando.arrow-width                                %! OC2
@@ -4841,29 +4841,29 @@ H_CelloMusicVoice = {
     
     % [H CelloMusicVoice measure 467]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    gf,4.
+    gf,!4.
     \repeatTie                                                   %! SC
     \<                                                           %! HC1
     \mp                                                          %! HC1
     
-    gf,4
+    gf,!4
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 468]                            %! SM4
-    gf,2.
+    gf,!2.
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 469]                            %! SM4
-    gf,2..
+    gf,!2..
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 470]                            %! SM4
-    gf,2..
+    gf,!2..
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 471]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    gf,4.
+    gf,!4.
     \repeatTie                                                   %! SC
     \f                                                           %! HC1
     ^ \markup {                                                  %! IC
@@ -4872,27 +4872,27 @@ H_CelloMusicVoice = {
                 "poco overpressure"                              %! IC
         }                                                        %! IC
     
-    gf,4
+    gf,!4
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 472]                            %! SM4
-    gf,2
+    gf,!2
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 473]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    gf,2.
+    gf,!2.
     \repeatTie                                                   %! SC
     \<                                                           %! HC1
     \f                                                           %! HC1
     
     % [H CelloMusicVoice measure 474]                            %! SM4
-    gf,1
+    gf,!1
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 475]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    gf,1
+    gf,!1
     \repeatTie                                                   %! SC
     \ff                                                          %! HC1
     ^ \markup {                                                  %! IC
@@ -4902,71 +4902,71 @@ H_CelloMusicVoice = {
         }                                                        %! IC
     
     % [H CelloMusicVoice measure 476]                            %! SM4
-    gf,2
+    gf,!2
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 477]                            %! SM4
-    gf,4.
+    gf,!4.
     \repeatTie                                                   %! SC
     
-    gf,4
+    gf,!4
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 478]                            %! SM4
-    gf,1
+    gf,!1
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 479]                            %! SM4
-    gf,2.
+    gf,!2.
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 480]                            %! SM4
-    gf,1
+    gf,!1
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 481]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    gf,2..
+    gf,!2..
     \repeatTie                                                   %! SC
     \>                                                           %! HC1
     \ff                                                          %! HC1
     
     % [H CelloMusicVoice measure 482]                            %! SM4
-    gf,2.
+    gf,!2.
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 483]                            %! SM4
-    gf,2..
+    gf,!2..
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 484]                            %! SM4
-    gf,1
+    gf,!1
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 485]                            %! SM4
-    gf,1
+    gf,!1
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 486]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    gf,2.
+    gf,!2.
     \repeatTie                                                   %! SC
     \ppp                                                         %! HC1
     
     % [H CelloMusicVoice measure 487]                            %! SM4
-    gf,4
+    gf,!4
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 488]                            %! SM4
-    gf,2..
+    gf,!2..
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 489]                            %! SM4
-    gf,2..
+    gf,!2..
     \repeatTie                                                   %! SC
     
     % [H CelloMusicVoice measure 490]                            %! SM4
-    gf,4
+    gf,!4
     \repeatTie                                                   %! SC
     \revert NoteHead.style                                       %! OC2
     
