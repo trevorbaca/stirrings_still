@@ -2983,7 +2983,7 @@ H_ViolinIMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    f'1
+    gf'1
     \<                                                           %! HC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
@@ -3024,22 +3024,22 @@ H_ViolinIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [H ViolinIMusicVoice measure 460]                          %! SM4
-    f'1
+    gf'1
     \repeatTie
     
     % [H ViolinIMusicVoice measure 461]                          %! SM4
-    f'2.
+    gf'2.
     \repeatTie
     
     % [H ViolinIMusicVoice measure 462]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    f'2..
+    gf'2..
     \repeatTie
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [H ViolinIMusicVoice measure 463]                          %! SM4
-    f'2..
+    gf'2..
     \repeatTie
     \revert DynamicLineSpanner.staff-padding                     %! OC2
     
@@ -3127,7 +3127,7 @@ H_ViolinIMusicVoice = {
         % [H ViolinIMusicVoice measure 465]                      %! SM4
         \breathe                                                 %! IC
         \override TupletBracket.direction = #down                %! OC1
-        \override TextScript.staff-padding = #7.5                %! OC1
+        \override TextScript.staff-padding = #1.5                %! OC1
         \override TextSpanner.staff-padding = #5                 %! OC1
         \override TupletBracket.staff-padding = #1.5             %! OC1
         \override Staff.Stem.stemlet-length = 0.75
@@ -3155,7 +3155,7 @@ H_ViolinIMusicVoice = {
         \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
         \once \override TextSpanner.dash-period = 1.5            %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        f'16 * 439/64
+        gf'16 * 439/64
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \glissando                                               %! SC
         [
@@ -3163,21 +3163,21 @@ H_ViolinIMusicVoice = {
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
                 \upright                                         %! IC
-                    "always one circle per stem:"                %! IC
+                    "(always one circle per stem)"               %! IC
             }                                                    %! IC
         
         \hide NoteHead                                           %! SC
         \override Accidental.stencil = ##f                       %! SC
         \override NoteColumn.glissando-skip = ##t                %! SC
         \override NoteHead.no-ledgers = ##t                      %! SC
-        f'16 * 91/16
+        g'16 * 91/16
         \glissando                                               %! SC
         
-        f'16 * 257/64
+        g'16 * 257/64
         \glissando                                               %! SC
         
         \revert Staff.Stem.stemlet-length
-        f'16 * 55/16
+        g'16 * 55/16
         ]
         \glissando                                               %! SC
         \revert TupletBracket.direction                          %! OC2
@@ -3214,27 +3214,30 @@ H_ViolinIMusicVoice = {
         \glissando                                               %! SC
         \startTextSpan                                           %! PWC1
         
-        g'4
+        a'4
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \times 6/10 {
         
         % [H ViolinIMusicVoice measure 468]                      %! SM4
-        g'4
+        a'4
         \glissando                                               %! SC
         
-        g'4
+        a'4
         \glissando                                               %! SC
         
-        g'4
+        a'4
         \glissando                                               %! SC
         
-        g'4
+        a'4
+        \glissando                                               %! SC
+        
+        a'4
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 7/8 {
         
         % [H ViolinIMusicVoice measure 469]                      %! SM4
         \once \override TextSpanner.Y-extent = ##f               %! PWC1
@@ -3259,31 +3262,31 @@ H_ViolinIMusicVoice = {
         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
         \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
         \once \override TextSpanner.dash-period = 1.5            %! PWC1
-        g'4
+        a'4
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
         \startTextSpan                                           %! PWC1
         
-        g'4
+        a'4
         \glissando                                               %! SC
         
-        g'4
+        b'4
+        \glissando                                               %! SC
+        
+        b'4
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/6 {
         
         % [H ViolinIMusicVoice measure 470]                      %! SM4
-        a'4
+        b'4
         \glissando                                               %! SC
         
-        a'4
+        b'4
         \glissando                                               %! SC
         
-        a'4
-        \glissando                                               %! SC
-        
-        a'4
+        bf'4
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3337,9 +3340,11 @@ H_ViolinIMusicVoice = {
     a'4
     
     a'4
-    \times 8/10 {
+    \times 8/12 {
         
         % [H ViolinIMusicVoice measure 474]                      %! SM4
+        a'4
+        
         a'4
         
         a'4
@@ -3524,7 +3529,7 @@ H_ViolinIIMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    gf'1
+    f'1
     \<                                                           %! HC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
@@ -3565,65 +3570,294 @@ H_ViolinIIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [H ViolinIIMusicVoice measure 460]                         %! SM4
-    gf'1
+    f'1
     \repeatTie                                                   %! TCC
     
     % [H ViolinIIMusicVoice measure 461]                         %! SM4
-    gf'2.
+    f'2.
     \repeatTie                                                   %! TCC
     
     % [H ViolinIIMusicVoice measure 462]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    gf'2..
+    f'2..
     \repeatTie                                                   %! TCC
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [H ViolinIIMusicVoice measure 463]                         %! SM4
-    gf'2..
+    f'2..
     \repeatTie                                                   %! TCC
     \revert DynamicLineSpanner.staff-padding                     %! OC2
     
     % [H ViolinIIMusicVoice measure 464]                         %! SM4
-    gf'2.
+    f'2.
     \repeatTie                                                   %! TCC
     
     % [H ViolinIIMusicVoice measure 465]                         %! SM4
-    gf'2.
+    f'2.
     \repeatTie                                                   %! TCC
     
     % [H ViolinIIMusicVoice measure 466]                         %! SM4
-    gf'2
+    f'2
     \repeatTie                                                   %! TCC
     
     % [H ViolinIIMusicVoice measure 467]                         %! SM4
-    gf'4.
+    \override TextSpanner.staff-padding = #5                     %! OC1
+    \once \override TextSpanner.Y-extent = ##f                   %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25               %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "flaut. (2°)"
+                \hspace
+                    #0.5
+            }
+        }                                                        %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t  %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
+    \once \override TextSpanner.dash-period = 1.5                %! PWC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    f'4.
     \repeatTie                                                   %! TCC
+    \>                                                           %! HC1
+    \mp                                                          %! HC1
+    \startTextSpan                                               %! PWC1
     
-    gf'4
+    f'4
     \repeatTie                                                   %! TCC
     
     % [H ViolinIIMusicVoice measure 468]                         %! SM4
-    gf'2.
+    \once \override TextSpanner.Y-extent = ##f                   %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25               %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        ord.
+                \hspace
+                    #0.5
+            }
+        }                                                        %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t  %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
+    \once \override TextSpanner.dash-period = 1.5                %! PWC1
+    f'2.
     \repeatTie                                                   %! TCC
-    
-    % [H ViolinIIMusicVoice measure 469]                         %! SM4
-    R1 * 7/8
-    
-    % [H ViolinIIMusicVoice measure 470]                         %! SM4
-    R1 * 7/8
-    
-    % [H ViolinIIMusicVoice measure 471]                         %! SM4
-    R1 * 5/8
+    \stopTextSpan                                                %! PWC1
+    \startTextSpan                                               %! PWC1
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'1..
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [H ViolinIIMusicVoice measure 469]                     %! SM4
+        \override TupletBracket.direction = #down                %! OC1
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
+        \once \override TextSpanner.Y-extent = ##f               %! PWC1
+        \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+        \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            "4” circles"
+                    \hspace
+                        #0.5
+                }
+            }                                                    %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+        \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+        \once \override TextSpanner.dash-period = 1.5            %! PWC1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        f'16 * 503/64
+        \p                                                       %! HC1
+        \stopTextSpan                                            %! PWC1
+        \glissando                                               %! SC
+        [
+        \startTextSpan                                           %! PWC1
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    "(always one circle per stem)"               %! IC
+            }                                                    %! IC
+        
+        \hide NoteHead                                           %! SC
+        \override Accidental.stencil = ##f                       %! SC
+        \override NoteColumn.glissando-skip = ##t                %! SC
+        \override NoteHead.no-ledgers = ##t                      %! SC
+        f'16 * 225/32
+        \glissando                                               %! SC
+        
+        f'16 * 43/8
+        \glissando                                               %! SC
+        
+        g'16 * 133/32
+        \glissando                                               %! SC
+        
+        \revert Staff.Stem.stemlet-length
+        g'16 * 229/64
+        ]
+        \glissando                                               %! SC
+        \revert TupletBracket.direction                          %! OC2
+    }
+    \revert TupletNumber.text
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [H ViolinIIMusicVoice measure 471]                     %! SM4
+        \override TupletBracket.staff-padding = #1.5             %! OC1
+        \once \override TextSpanner.Y-extent = ##f               %! PWC1
+        \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+        \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            "6” circles"
+                    \hspace
+                        #0.5
+                }
+            }                                                    %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+        \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+        \once \override TextSpanner.dash-period = 1.5            %! PWC1
+        g'4
+        \stopTextSpan                                            %! PWC1
+        \glissando                                               %! SC
+        \startTextSpan                                           %! PWC1
+        
+        g'4
+        \glissando                                               %! SC
+        
+        a'4
+        \glissando                                               %! SC
+    }
     
     % [H ViolinIIMusicVoice measure 472]                         %! SM4
-    R1 * 1/2
+    a'4
+    \glissando                                                   %! SC
     
-    % [H ViolinIIMusicVoice measure 473]                         %! SM4
-    R1 * 3/4
-    
-    % [H ViolinIIMusicVoice measure 474]                         %! SM4
-    R1 * 1
+    af'4
+    \glissando                                                   %! SC
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/10 {
+        
+        % [H ViolinIIMusicVoice measure 473]                     %! SM4
+        \revert Accidental.stencil                               %! SC
+        \revert NoteColumn.glissando-skip                        %! SC
+        \revert NoteHead.no-ledgers                              %! SC
+        \undo \hide NoteHead                                     %! SC
+        \once \override TextSpanner.Y-extent = ##f               %! PWC1
+        \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            "8” circles"
+                    \hspace
+                        #0.25
+                }
+            }                                                    %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right.padding = 1.5 %! PWC1
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.dash-period = 0              %! PWC1
+        af'4
+        \stopTextSpan                                            %! PWC1
+        \startTextSpan                                           %! PWC1
+        
+        af'4
+        
+        af'4
+        
+        af'4
+        
+        af'4
+    }
+    \times 8/10 {
+        
+        % [H ViolinIIMusicVoice measure 474]                     %! SM4
+        af'4
+        
+        af'4
+        
+        af'4
+        
+        af'4
+        
+        af'4
+        \stopTextSpan                                            %! PWC1
+        \revert TextSpanner.staff-padding                        %! OC2
+        \revert TupletBracket.staff-padding                      %! OC2
+    }
     
     % [H ViolinIIMusicVoice measure 475]                         %! SM4
     R1 * 1
@@ -3915,7 +4149,7 @@ H_ViolaMusicVoice = {
         % [H ViolaMusicVoice measure 465]                        %! SM4
         \breathe                                                 %! IC
         \override TupletBracket.direction = #down                %! OC1
-        \override TextScript.staff-padding = #7.5                %! OC1
+        \override TextScript.staff-padding = #1.5                %! OC1
         \override TextSpanner.staff-padding = #5                 %! OC1
         \override TupletBracket.staff-padding = #1.5             %! OC1
         \override Staff.Stem.stemlet-length = 0.75
@@ -3943,7 +4177,7 @@ H_ViolaMusicVoice = {
         \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
         \once \override TextSpanner.dash-period = 1.5            %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        af16 * 507/64
+        af16 * 15/2
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \glissando                                               %! SC
         [
@@ -3951,24 +4185,21 @@ H_ViolaMusicVoice = {
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
                 \upright                                         %! IC
-                    "always one circle per stem:"                %! IC
+                    "(always one circle per stem)"               %! IC
             }                                                    %! IC
         
         \hide NoteHead                                           %! SC
         \override Accidental.stencil = ##f                       %! SC
         \override NoteColumn.glissando-skip = ##t                %! SC
         \override NoteHead.no-ledgers = ##t                      %! SC
-        a16 * 365/64
+        a16 * 377/64
         \glissando                                               %! SC
         
-        a16 * 93/32
-        \glissando                                               %! SC
-        
-        a16 * 61/32
+        a16 * 237/64
         \glissando                                               %! SC
         
         \revert Staff.Stem.stemlet-length
-        a16 * 25/16
+        a16 * 93/32
         ]
         \glissando                                               %! SC
         \revert TupletBracket.direction                          %! OC2
@@ -4016,13 +4247,13 @@ H_ViolaMusicVoice = {
     a4
     \glissando                                                   %! SC
     
-    b4
+    a4
     \glissando                                                   %! SC
     
-    b4
+    a4
     \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 7/10 {
         
         % [H ViolaMusicVoice measure 469]                        %! SM4
         \once \override TextSpanner.Y-extent = ##f               %! PWC1
@@ -4060,9 +4291,12 @@ H_ViolaMusicVoice = {
         
         b4
         \glissando                                               %! SC
+        
+        b4
+        \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 7/8 {
         
         % [H ViolaMusicVoice measure 470]                        %! SM4
         b4
@@ -4073,9 +4307,12 @@ H_ViolaMusicVoice = {
         
         b4
         \glissando                                               %! SC
+        
+        b4
+        \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 5/4 {
         
         % [H ViolaMusicVoice measure 471]                        %! SM4
         \revert Accidental.stencil                               %! SC
@@ -4103,8 +4340,6 @@ H_ViolaMusicVoice = {
         b4
         \stopTextSpan                                            %! PWC1
         \startTextSpan                                           %! PWC1
-        
-        b4
         
         b4
     }
