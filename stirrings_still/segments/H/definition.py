@@ -137,31 +137,32 @@ maker(
     ('vn1', (7, 8)),
     baca.dynamic('p'),
     baca.tuplet_brackets_down(),
-    stirrings_still.accelerando((1, 2), (1, 4)),
+    stirrings_still.accelerando((1, 2), (8, 32)),
     )
 
 maker(
     ('vn1', (9, 16)),
-    stirrings_still.desynchronization(4, [0, 1]),
+    stirrings_still.desynchronization(4, [0, 2, 1]),
     )
 
 maker(
     ('va', (7, 8)),
     baca.dynamic('p'),
     baca.tuplet_brackets_down(),
-    stirrings_still.accelerando((1, 2), (3, 32)),
+    stirrings_still.accelerando((1, 2), (6, 32)),
     )
 
 maker(
     ('va', (9, 16)),
-    stirrings_still.desynchronization(4, [1, 0]),
+    stirrings_still.desynchronization(4, [1, 0, 2]),
     )
 
 maker(
     (['vn1', 'va'], (7, 14)), 
-    baca.text_script_staff_padding(7.5),
+    #baca.text_script_staff_padding(7.5),
+    baca.text_script_staff_padding(1.5),
     baca.text_spanner_staff_padding(5),
-    baca.markup('always one circle per stem:'),
+    baca.markup('(always one circle per stem)'),
     baca.transition(
         baca.markup('2” circles'),
         baca.markup('4” circles'),
@@ -180,9 +181,61 @@ maker(
     )
 
 maker(
+    ('vn2', (11, 12)),
+    baca.markup('(always one circle per stem)'),
+    baca.tuplet_brackets_down(),
+    stirrings_still.accelerando((1, 2), (7, 32)),
+    )
+
+maker(
+    ('vn2', (13, 16)),
+    stirrings_still.desynchronization(4, [1, 0, 2]),
+    )
+
+maker(
+    ('vn2', (9, 16)), 
+    baca.text_spanner_staff_padding(5),
+    baca.transition(
+        baca.markup.flaut_partial_2(),
+        baca.markup.ord(),
+        baca.markup('4” circles'),
+        baca.markup('6” circles'),
+        baca.markup('8” circles'),
+        do_not_bookend=True,
+        selector=baca.group_by_measures([1, 1, 2, 2, 2]),
+        spanner_selector=False,
+        ),
+    )
+
+maker(
+    ('vn2', (9, 10)),
+    baca.hairpin('mp > p', selector=baca.rleaves()),
+    )
+
+maker(
+    ('vn2', (11, 14)),
+    baca.glissando(
+        allow_repeats=True,
+        stems=True,
+        selector=baca.rleaves(),
+        ),
+    baca.interpolate_staff_positions('F4', 'Ab4'),
+    )
+
+maker(
+    ('vn2', (15, 16)),
+    baca.pitch('Ab4'),
+    )
+
+maker(
+    ('vn2', (13, 16)),
+    baca.tuplet_bracket_staff_padding(1.5),
+    )
+
+maker(
     (tutti, (1, 5)),
-    (baca.pitch('F4'), 0),
-    (baca.pitch('Gb4'), 1),
+    (baca.pitch('Gb4'), 0),
+    (baca.pitch('F4'), 1),
     (baca.pitch('Ab3'), 2),
     (baca.pitch('Ab2'), 3),
     )
@@ -198,7 +251,7 @@ maker(
 
 maker(
     ('vn1', (7, 12)),
-    baca.interpolate_staff_positions('F4', 'A4'),
+    baca.interpolate_staff_positions('Gb4', 'Bb4'),
     )
 
 maker(
