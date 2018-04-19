@@ -134,6 +134,9 @@
         \remove Metronome_mark_engraver
         \remove System_start_delimiter_engraver
 
+        % necessary for uniform overlapping polyrhythms with accidentals
+        \override Accidental.X-extent = ##f
+
         \override BarLine.hair-thickness = 0.5
         \override BarLine.space-alist = #'(
             (time-signature extra-space . 0.0)
