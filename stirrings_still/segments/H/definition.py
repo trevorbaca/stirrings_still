@@ -332,7 +332,7 @@ maker(
 
 maker(
     (['vn1', 'vn2', 'va'], (30, 31)),
-    (stirrings_still.pickets(7, 2), 0),
-    (stirrings_still.pickets(7, 1), 1),
-    (stirrings_still.pickets(7, 0), 2),
+    (stirrings_still.accelerando((1, 2), (8, 32)), 0),
+    (stirrings_still.accelerando((1, 2), (9, 32)), 1),
+    (stirrings_still.accelerando((1, 2), (10, 32)), 2),
     )

@@ -3496,37 +3496,66 @@ H_ViolinIMusicVoice = {
     
     % [H ViolinIMusicVoice measure 487]                          %! SM4
     R1 * 1/4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/9 {
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'1..
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
         
         % [H ViolinIMusicVoice measure 488]                      %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
-        c'4
+        c'16 * 121/16
+        [
         
         \makeBlue                                                %! SM24
-        c'4
+        c'16 * 219/32
         
         \makeBlue                                                %! SM24
-        c'4
+        c'16 * 173/32
         
         \makeBlue                                                %! SM24
-        c'4
+        c'16 * 139/32
         
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
-        c'4
-        
-        \makeBlue                                                %! SM24
-        c'4
-        
-        \makeBlue                                                %! SM24
-        c'4
-        
-        \makeBlue                                                %! SM24
-        c'4
-        
-        \makeBlue                                                %! SM24
-        c'4
+        c'16 * 123/32
+        ]
     }
+    \revert TupletNumber.text
     
     % [H ViolinIMusicVoice measure 490]                          %! SM4
     R1 * 1/4
@@ -4104,35 +4133,66 @@ H_ViolinIIMusicVoice = {
     
     % [H ViolinIIMusicVoice measure 487]                         %! SM4
     R1 * 1/4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'1..
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
         
         % [H ViolinIIMusicVoice measure 488]                     %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
-        c'4
+        c'16 * 465/64
+        [
         
         \makeBlue                                                %! SM24
-        c'4
+        c'16 * 427/64
         
         \makeBlue                                                %! SM24
-        c'4
+        c'16 * 87/16
         
         \makeBlue                                                %! SM24
-        c'4
+        c'16 * 289/64
         
-        % [H ViolinIIMusicVoice measure 489]                     %! SM4
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
-        c'4
-        
-        \makeBlue                                                %! SM24
-        c'4
-        
-        \makeBlue                                                %! SM24
-        c'4
-        
-        \makeBlue                                                %! SM24
-        c'4
+        c'16 * 263/64
+        ]
     }
+    \revert TupletNumber.text
     
     % [H ViolinIIMusicVoice measure 490]                         %! SM4
     R1 * 1/4
@@ -4705,28 +4765,66 @@ H_ViolaMusicVoice = {
     
     % [H ViolaMusicVoice measure 487]                            %! SM4
     R1 * 1/4
-    
-    % [H ViolaMusicVoice measure 488]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'4
-    
-    \makeBlue                                                    %! SM24
-    c'4
-    
-    \makeBlue                                                    %! SM24
-    c'4
-    
-    \makeBlue                                                    %! SM24
-    c'4
-    
-    \makeBlue                                                    %! SM24
-    c'4
-    
-    \makeBlue                                                    %! SM24
-    c'4
-    
-    \makeBlue                                                    %! SM24
-    c'4
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'1..
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [H ViolaMusicVoice measure 488]                        %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
+        \makeBlue                                                %! SM24
+        c'16 * 447/64
+        [
+        
+        \makeBlue                                                %! SM24
+        c'16 * 13/2
+        
+        \makeBlue                                                %! SM24
+        c'16 * 175/32
+        
+        \makeBlue                                                %! SM24
+        c'16 * 75/16
+        
+        \revert Staff.Stem.stemlet-length
+        \makeBlue                                                %! SM24
+        c'16 * 279/64
+        ]
+    }
+    \revert TupletNumber.text
     
     % [H ViolaMusicVoice measure 490]                            %! SM4
     R1 * 1/4
