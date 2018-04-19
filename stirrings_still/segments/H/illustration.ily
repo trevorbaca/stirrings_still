@@ -3214,7 +3214,7 @@ H_ViolinIMusicVoice = {
         \glissando                                               %! SC
         \startTextSpan                                           %! PWC1
         
-        a'4
+        g'4
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3270,33 +3270,29 @@ H_ViolinIMusicVoice = {
         a'4
         \glissando                                               %! SC
         
-        b'4
+        a'4
         \glissando                                               %! SC
         
-        b'4
+        a'4
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/6 {
         
         % [H ViolinIMusicVoice measure 470]                      %! SM4
-        b'4
+        a'4
+        \glissando                                               %! SC
+        
+        a'4
         \glissando                                               %! SC
         
         b'4
-        \glissando                                               %! SC
-        
-        bf'!4
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/4 {
         
         % [H ViolinIMusicVoice measure 471]                      %! SM4
-        \revert Accidental.stencil                               %! SC
-        \revert NoteColumn.glissando-skip                        %! SC
-        \revert NoteHead.no-ledgers                              %! SC
-        \undo \hide NoteHead                                     %! SC
         \once \override TextSpanner.Y-extent = ##f               %! PWC1
         \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
@@ -3315,27 +3311,40 @@ H_ViolinIMusicVoice = {
         \once \override TextSpanner.bound-details.right.padding = 1.5 %! PWC1
         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
         \once \override TextSpanner.dash-period = 0              %! PWC1
-        a'4
+        b'4
         \stopTextSpan                                            %! PWC1
+        \glissando                                               %! SC
         \startTextSpan                                           %! PWC1
         
-        a'4
+        b'4
+        \glissando                                               %! SC
     }
     \times 4/6 {
         
         % [H ViolinIMusicVoice measure 472]                      %! SM4
-        a'4
+        b'4
+        \glissando                                               %! SC
         
-        a'4
+        b'4
+        \glissando                                               %! SC
         
-        a'4
+        bf'!4
         \stopTextSpan                                            %! PWC1
+        \glissando                                               %! SC
         \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
     }
     
     % [H ViolinIMusicVoice measure 473]                          %! SM4
+    \once \override Hairpin.circled-tip = ##t                    %! HC1
+    \revert Accidental.stencil                                   %! SC
+    \revert NoteColumn.glissando-skip                            %! SC
+    \revert NoteHead.no-ledgers                                  %! SC
+    \undo \hide NoteHead                                         %! SC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'4
+    \>                                                           %! HC1
+    \p                                                           %! HC1
     
     a'4
     
@@ -3358,7 +3367,9 @@ H_ViolinIMusicVoice = {
     }
     
     % [H ViolinIMusicVoice measure 475]                          %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     R1 * 1
+    \!                                                           %! HC1
     
     % [H ViolinIMusicVoice measure 476]                          %! SM4
     R1 * 1/2
@@ -3376,31 +3387,146 @@ H_ViolinIMusicVoice = {
     R1 * 1
     
     % [H ViolinIMusicVoice measure 481]                          %! SM4
-    R1 * 7/8
-    
-    % [H ViolinIMusicVoice measure 482]                          %! SM4
-    R1 * 3/4
-    
-    % [H ViolinIMusicVoice measure 483]                          %! SM4
-    R1 * 7/8
-    
-    % [H ViolinIMusicVoice measure 484]                          %! SM4
-    R1 * 1
-    
-    % [H ViolinIMusicVoice measure 485]                          %! SM4
-    R1 * 1
-    
-    % [H ViolinIMusicVoice measure 486]                          %! SM4
-    R1 * 3/4
+    r4
+    \times 2/3 {
+        
+        \once \override Hairpin.circled-tip = ##t                %! HC1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \makeBlue                                                %! SM24
+        c'4
+        \<                                                       %! HC1
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \makeBlue                                                %! SM24
+        c'4
+        \p                                                       %! HC1
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [H ViolinIMusicVoice measure 487]                          %! SM4
     R1 * 1/4
-    
-    % [H ViolinIMusicVoice measure 488]                          %! SM4
-    R1 * 7/8
-    
-    % [H ViolinIMusicVoice measure 489]                          %! SM4
-    R1 * 7/8
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/9 {
+        
+        % [H ViolinIMusicVoice measure 488]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [H ViolinIMusicVoice measure 490]                          %! SM4
     R1 * 1/4
@@ -3808,6 +3934,7 @@ H_ViolinIIMusicVoice = {
     \times 6/10 {
         
         % [H ViolinIIMusicVoice measure 473]                     %! SM4
+        \once \override Hairpin.circled-tip = ##t                %! HC1
         \revert Accidental.stencil                               %! SC
         \revert NoteColumn.glissando-skip                        %! SC
         \revert NoteHead.no-ledgers                              %! SC
@@ -3830,8 +3957,11 @@ H_ViolinIIMusicVoice = {
         \once \override TextSpanner.bound-details.right.padding = 1.5 %! PWC1
         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
         \once \override TextSpanner.dash-period = 0              %! PWC1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         af'!4
         \stopTextSpan                                            %! PWC1
+        \>                                                       %! HC1
+        \p                                                       %! HC1
         \startTextSpan                                           %! PWC1
         
         af'!4
@@ -3860,7 +3990,9 @@ H_ViolinIIMusicVoice = {
     }
     
     % [H ViolinIIMusicVoice measure 475]                         %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     R1 * 1
+    \!                                                           %! HC1
     
     % [H ViolinIIMusicVoice measure 476]                         %! SM4
     R1 * 1/2
@@ -3878,31 +4010,129 @@ H_ViolinIIMusicVoice = {
     R1 * 1
     
     % [H ViolinIIMusicVoice measure 481]                         %! SM4
-    R1 * 7/8
-    
-    % [H ViolinIIMusicVoice measure 482]                         %! SM4
-    R1 * 3/4
-    
-    % [H ViolinIIMusicVoice measure 483]                         %! SM4
-    R1 * 7/8
-    
-    % [H ViolinIIMusicVoice measure 484]                         %! SM4
-    R1 * 1
-    
-    % [H ViolinIIMusicVoice measure 485]                         %! SM4
-    R1 * 1
-    
-    % [H ViolinIIMusicVoice measure 486]                         %! SM4
-    R1 * 3/4
+    r4
+    \times 4/5 {
+        
+        \once \override Hairpin.circled-tip = ##t                %! HC1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \makeBlue                                                %! SM24
+        c'4
+        \<                                                       %! HC1
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \times 4/5 {
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \makeBlue                                                %! SM24
+        c'4
+        \p                                                       %! HC1
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \times 4/5 {
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \times 4/5 {
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \times 4/5 {
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [H ViolinIIMusicVoice measure 487]                         %! SM4
     R1 * 1/4
-    
-    % [H ViolinIIMusicVoice measure 488]                         %! SM4
-    R1 * 7/8
-    
-    % [H ViolinIIMusicVoice measure 489]                         %! SM4
-    R1 * 7/8
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [H ViolinIIMusicVoice measure 488]                     %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        % [H ViolinIIMusicVoice measure 489]                     %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [H ViolinIIMusicVoice measure 490]                         %! SM4
     R1 * 1/4
@@ -4278,12 +4508,12 @@ H_ViolaMusicVoice = {
         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
         \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
         \once \override TextSpanner.dash-period = 1.5            %! PWC1
-        b4
+        a4
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
         \startTextSpan                                           %! PWC1
         
-        b4
+        a4
         \glissando                                               %! SC
         
         b4
@@ -4315,10 +4545,6 @@ H_ViolaMusicVoice = {
     \times 5/4 {
         
         % [H ViolaMusicVoice measure 471]                        %! SM4
-        \revert Accidental.stencil                               %! SC
-        \revert NoteColumn.glissando-skip                        %! SC
-        \revert NoteHead.no-ledgers                              %! SC
-        \undo \hide NoteHead                                     %! SC
         \once \override TextSpanner.Y-extent = ##f               %! PWC1
         \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
@@ -4339,23 +4565,35 @@ H_ViolaMusicVoice = {
         \once \override TextSpanner.dash-period = 0              %! PWC1
         b4
         \stopTextSpan                                            %! PWC1
+        \glissando                                               %! SC
         \startTextSpan                                           %! PWC1
         
         b4
+        \glissando                                               %! SC
     }
     
     % [H ViolaMusicVoice measure 472]                            %! SM4
     b4
+    \glissando                                                   %! SC
     
     b4
     \stopTextSpan                                                %! PWC1
+    \glissando                                                   %! SC
     \revert TextScript.staff-padding                             %! OC2
     \revert TextSpanner.staff-padding                            %! OC2
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
         
         % [H ViolaMusicVoice measure 473]                        %! SM4
+        \once \override Hairpin.circled-tip = ##t                %! HC1
+        \revert Accidental.stencil                               %! SC
+        \revert NoteColumn.glissando-skip                        %! SC
+        \revert NoteHead.no-ledgers                              %! SC
+        \undo \hide NoteHead                                     %! SC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         b4
+        \>                                                       %! HC1
+        \p                                                       %! HC1
         
         b4
         
@@ -4375,7 +4613,9 @@ H_ViolaMusicVoice = {
     \revert TupletBracket.staff-padding                          %! OC2
     
     % [H ViolaMusicVoice measure 475]                            %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     R1 * 1
+    \!                                                           %! HC1
     
     % [H ViolaMusicVoice measure 476]                            %! SM4
     R1 * 1/2
@@ -4393,31 +4633,100 @@ H_ViolaMusicVoice = {
     R1 * 1
     
     % [H ViolaMusicVoice measure 481]                            %! SM4
-    R1 * 7/8
+    r4
     
-    % [H ViolaMusicVoice measure 482]                            %! SM4
-    R1 * 3/4
+    \once \override Hairpin.circled-tip = ##t                    %! HC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'4
+    \<                                                           %! HC1
     
-    % [H ViolaMusicVoice measure 483]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'4
+    \p                                                           %! HC1
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [H ViolaMusicVoice measure 484]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [H ViolaMusicVoice measure 485]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [H ViolaMusicVoice measure 486]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [H ViolaMusicVoice measure 487]                            %! SM4
     R1 * 1/4
     
     % [H ViolaMusicVoice measure 488]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'4
     
-    % [H ViolaMusicVoice measure 489]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [H ViolaMusicVoice measure 490]                            %! SM4
     R1 * 1/4

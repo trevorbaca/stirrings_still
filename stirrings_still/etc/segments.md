@@ -2154,6 +2154,8 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         single bows become slow ellipses;
+        up-glissando lentissimo begins:
+            begins at start of stage;
         desynchronization begins:
             rhythm #2 appears gradually;
             introduced on local accelerandi;
@@ -2185,8 +2187,7 @@ SEGMENTS
     v2 urtext field / ellipses continue:
         stopped lh continues;
         hair continues;
-        up-glissando lentissimo begins:
-            begins at start of stage;
+        up-glissando lentissimo continues;
         ellipse rate increases;
         desynchronization (rhythm #2) continues;
         p continues;
@@ -2255,9 +2256,8 @@ SEGMENTS
 
     [H.9] (23-28 + short)
     (6 measures)
-    adagio-to-allegro acclerando completes:
-        achieves allegro at start of stage;
-    interlocking clouded pane whisk gears appear gradually:
+    allegro continues;
+    v1, v2, va interlocking clouded pane whisk gears appear gradually:
         stopped lh resumes;
         hair resumes;
         fast ellipses;
@@ -2265,8 +2265,7 @@ SEGMENTS
             v1 completely regular rhythm #1;
             v2 completely regular rhythm #2;
             va completely regular rhythm #3;
-        niente < p governs first third of stage:
-            achieves p at start of measure 2:3;
+        niente < p governs first third of stage;
     vc clouded pane continues:
         harmonic lh continues;
         hair continues;

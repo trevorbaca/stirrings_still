@@ -241,7 +241,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'va'], (7, 12)),
+    (['vn1', 'va'], (7, 14)),
     baca.glissando(
         allow_repeats=True,
         stems=True,
@@ -250,12 +250,12 @@ maker(
     )
 
 maker(
-    ('vn1', (7, 12)),
+    ('vn1', (7, 14)),
     baca.interpolate_staff_positions('Gb4', 'Bb4'),
     )
 
 maker(
-    ('vn1', (13, 16)),
+    ('vn1', (15, 16)),
     baca.pitch('A4'),
     )
 
@@ -265,12 +265,12 @@ maker(
     )
 
 maker(
-    ('va', (7, 12)),
+    ('va', (7, 14)),
     baca.interpolate_staff_positions('Ab3', 'B3'),
     )
 
 maker(
-    ('va', (13, 16)),
+    ('va', (15, 16)),
     baca.pitch('B3'),
     )
 
@@ -311,4 +311,28 @@ maker(
 maker(
     ('vc', (23, 27)),
     baca.hairpin('ff > ppp', selector=baca.rleaves()),
+    )
+
+maker(
+    (['vn1', 'vn2', 'va'], (15, 16)),
+    baca.hairpin('p > niente', selector=baca.rleaves()),
+    )
+
+maker(
+    (['vn1', 'vn2', 'va'], (23, 28)),
+    (stirrings_still.pickets(4, 2, abjad.silence([0])), 0),
+    (stirrings_still.pickets(4, 1, abjad.silence([0])), 1),
+    (stirrings_still.pickets(4, 0, abjad.silence([0])), 2),
+    )
+
+maker(
+    (['vn1', 'vn2', 'va'], (23, 24)),
+    baca.hairpin('niente < p', selector=baca.tleaves().rleak()),
+    )
+
+maker(
+    (['vn1', 'vn2', 'va'], (30, 31)),
+    (stirrings_still.pickets(7, 2), 0),
+    (stirrings_still.pickets(7, 1), 1),
+    (stirrings_still.pickets(7, 0), 2),
     )
