@@ -3540,6 +3540,7 @@ H_ViolinIMusicVoice = {
     \times 1/1 {
         
         % [H ViolinIMusicVoice measure 488]                      %! SM4
+        \override TextScript.staff-padding = #5                  %! OC1
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
@@ -3581,6 +3582,11 @@ H_ViolinIMusicVoice = {
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
         \startTextSpan                                           %! PWC1
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    "thinking color (no longer width)"           %! IC
+            }                                                    %! IC
         
         \makeBlue                                                %! SM24
         c'16 * 209/32
@@ -3602,6 +3608,7 @@ H_ViolinIMusicVoice = {
         \makeBlue                                                %! SM24
         c'16 * 61/32
         ]
+        \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
     }
     \revert TupletNumber.text
@@ -3613,20 +3620,12 @@ H_ViolinIMusicVoice = {
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
-    c'8.
+    c'2
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    [
-    
-    c'8
-    \repeatTie
-    
-    c'8.
-    \repeatTie
     
     \makeBlue                                                    %! SM24
     c'8
     \repeatTie
-    ]
     \revert NoteHead.style                                       %! OC2
     
     % [H ViolinIMusicVoice measure 492]                          %! SM4
@@ -4243,6 +4242,7 @@ H_ViolinIIMusicVoice = {
     \times 1/1 {
         
         % [H ViolinIIMusicVoice measure 488]                     %! SM4
+        \override TextScript.staff-padding = #5                  %! OC1
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
@@ -4284,6 +4284,11 @@ H_ViolinIIMusicVoice = {
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
         \startTextSpan                                           %! PWC1
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    "thinking color (no longer width)"           %! IC
+            }                                                    %! IC
         
         \makeBlue                                                %! SM24
         c'16 * 219/32
@@ -4299,6 +4304,7 @@ H_ViolinIIMusicVoice = {
         \makeBlue                                                %! SM24
         c'16 * 123/32
         ]
+        \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
     }
     \revert TupletNumber.text
@@ -4307,6 +4313,7 @@ H_ViolinIIMusicVoice = {
     R1 * 1/4
     
     % [H ViolinIIMusicVoice measure 491]                         %! SM4
+    \override TextSpanner.staff-padding = #5                     %! OC1
     \once \override TextSpanner.Y-extent = ##f
     \once \override TextSpanner.bound-details.left-broken.text = ##f
     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
@@ -4334,33 +4341,22 @@ H_ViolinIIMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25
     \once \override TextSpanner.dash-period = 1.5
     \makeBlue                                                    %! SM24
-    c'8
+    c'8.
+    -\downbow                                                    %! IC
     \startTextSpan
     
+    r16
+    
     \makeBlue                                                    %! SM24
-    c'16
-    [
+    c'8.
+    -\upbow                                                      %! IC
     
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    c'16
-    \repeatTie
-    ]
-    
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    c'16
-    \repeatTie
-    ]
+    r16
     
     \makeBlue                                                    %! SM24
     c'8
-    
-    \makeBlue                                                    %! SM24
-    c'8
+    -\downbow                                                    %! IC
+    \revert TextSpanner.staff-padding                            %! OC2
     
     % [H ViolinIIMusicVoice measure 492]                         %! SM4
     R1 * 1/4
@@ -4972,6 +4968,7 @@ H_ViolaMusicVoice = {
     \times 1/1 {
         
         % [H ViolaMusicVoice measure 488]                        %! SM4
+        \override TextScript.staff-padding = #5                  %! OC1
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
@@ -5013,6 +5010,11 @@ H_ViolaMusicVoice = {
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
         \startTextSpan                                           %! PWC1
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    "thinking color (no longer width)"           %! IC
+            }                                                    %! IC
         
         \makeBlue                                                %! SM24
         c'16 * 477/64
@@ -5025,6 +5027,7 @@ H_ViolaMusicVoice = {
         c'16 * 387/64
         ]
         \stopTextSpan                                            %! PWC1
+        \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
     }
     \revert TupletNumber.text
@@ -5036,20 +5039,12 @@ H_ViolaMusicVoice = {
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
-    c'8.
+    c'2
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    [
-    
-    c'8
-    \repeatTie
-    
-    c'8.
-    \repeatTie
     
     \makeBlue                                                    %! SM24
     c'8
     \repeatTie
-    ]
     \revert NoteHead.style                                       %! OC2
     
     % [H ViolaMusicVoice measure 492]                            %! SM4
@@ -5581,40 +5576,30 @@ H_CelloMusicVoice = {
     \ppp                                                         %! HC1
     
     % [H CelloMusicVoice measure 487]                            %! SM4
-    gf,!4
-    \repeatTie                                                   %! SC
+    R1 * 1/4
     
     % [H CelloMusicVoice measure 488]                            %! SM4
     gf,!2..
-    \repeatTie                                                   %! SC
+    \repeatTie                                                   %! IC
     
     % [H CelloMusicVoice measure 489]                            %! SM4
     gf,!2..
     \repeatTie                                                   %! SC
+    \revert NoteHead.style                                       %! OC2
     
     % [H CelloMusicVoice measure 490]                            %! SM4
-    gf,!4
-    \repeatTie                                                   %! SC
-    \revert NoteHead.style                                       %! OC2
+    R1 * 1/4
     
     % [H CelloMusicVoice measure 491]                            %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
-    c'8.
+    c'2
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    [
-    
-    c'8
-    \repeatTie
-    
-    c'8.
-    \repeatTie
     
     \makeBlue                                                    %! SM24
     c'8
     \repeatTie
-    ]
     \revert NoteHead.style                                       %! OC2
     
     % [H CelloMusicVoice measure 492]                            %! SM4
