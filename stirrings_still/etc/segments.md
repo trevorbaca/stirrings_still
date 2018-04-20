@@ -2286,11 +2286,11 @@ SEGMENTS
         ppp continues;
     short fermata [vc continues through fermata] (32);
     <<[G.5, C.7 (pane / urtext conflict)] prolongs [H.10] short fermata>> (33):
-        <<summons past time>>;
-        allegro;
-        tasto stopped lh;
-        1/2 clt;
-        mf;
+        <<v2 clockticks summon past time>>:
+            allegro;
+            tasto stopped lh;
+            1/2 clt;
+            mf;
     <<short fermata repeats to effect prolongation>> (34);
     <<vc continues through short fermata>>;
 

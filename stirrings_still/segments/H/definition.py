@@ -279,15 +279,25 @@ maker(
     )
 
 maker(
+    ('vc', [(7, 28), (30, 31)]),
+    baca.make_notes(repeat_ties=True),
+    (baca.repeat_tie(baca.notes()[1:]), 0),
+    (baca.repeat_tie(), 1),
+    )
+
+maker(
+    ('vc', 30),
+    baca.literal(r'\repeatTie', format_slot='after'),
+    )
+
+maker(
     ('vc', (7, 32)),
     baca.dynamic('mp'),
     baca.finger_pressure_transition(baca.notes()[:2]),
-    baca.make_notes(repeat_ties=True),
     baca.markup.string_number(4, selector=baca.note(0)),
     baca.natural_harmonics(baca.notes()[1:]),
     baca.pitch('Ab2', selector=baca.note(0)),
     baca.pitch('Gb2', selector=baca.notes()[1:]),
-    baca.repeat_tie(baca.notes()[1:]),
     baca.transition(
         baca.markup.flaut(),
         baca.markup.non_flaut(),
@@ -336,6 +346,8 @@ maker(
     (stirrings_still.accelerando((1, 2), (8, 32)), 1),
     (stirrings_still.accelerando((1, 2), (12, 32)), 2),
     baca.dynamic('mp'),
+    baca.markup('thinking color (no longer width)'),
+    baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.transition(
         baca.markup('“whisk”'),
@@ -347,18 +359,19 @@ maker(
 maker(
     (['vn1', 'va', 'vc'], 33),
     baca.dynamic('pp'),
-    baca.make_repeat_tied_notes(),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     baca.natural_harmonics(),
     )
 
 maker(
     ('vn2', 33),
+    baca.alternate_bow_strokes(),
     baca.dynamic('mp', redundant=True),
     baca.text_spanner(
         baca.markup.boxed('LHD + 1/2 clt'),
         right_padding=2.25,
         selector=baca.rleaves(),
         ),
-    #stirrings_still.clockticks(),
-    baca.make_repeated_duration_notes([(1, 8)]),
+    baca.text_spanner_staff_padding(5),
+    stirrings_still.clockticks(),
     )
