@@ -3395,6 +3395,11 @@ H_ViolinIMusicVoice = {
         \makeBlue                                                %! SM24
         c'4
         \<                                                       %! HC1
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    "8” circles continue"                        %! IC
+            }                                                    %! IC
         
         \makeBlue                                                %! SM24
         c'4
@@ -3535,25 +3540,69 @@ H_ViolinIMusicVoice = {
     \times 1/1 {
         
         % [H ViolinIMusicVoice measure 488]                      %! SM4
+        \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
+        \once \override TextSpanner.Y-extent = ##f               %! PWC1
+        \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+        \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            “whisk”
+                    \hspace
+                        #0.5
+                }
+            }                                                    %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+        \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.bound-details.right.text = \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \whiteout
+                        \upright
+                            "poco scratch"
+                }
+            }                                                    %! PWC1
+        \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+        \once \override TextSpanner.dash-period = 1.5            %! PWC1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
-        c'16 * 121/16
+        c'16 * 487/64
+        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
+        \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
-        c'16 * 219/32
+        c'16 * 209/32
         
         \makeBlue                                                %! SM24
-        c'16 * 173/32
+        c'16 * 143/32
         
         \makeBlue                                                %! SM24
-        c'16 * 139/32
+        c'16 * 197/64
+        \stopTextSpan                                            %! PWC1
+        
+        \makeBlue                                                %! SM24
+        c'16 * 19/8
+        
+        \makeBlue                                                %! SM24
+        c'16 * 65/32
         
         \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
-        c'16 * 123/32
+        c'16 * 61/32
         ]
+        \revert TextSpanner.staff-padding                        %! OC2
     }
     \revert TupletNumber.text
     
@@ -3561,7 +3610,24 @@ H_ViolinIMusicVoice = {
     R1 * 1/4
     
     % [H ViolinIMusicVoice measure 491]                          %! SM4
-    R1 * 5/8
+    \override NoteHead.style = #'harmonic                        %! OC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'8.
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    [
+    
+    c'8
+    \repeatTie
+    
+    c'8.
+    \repeatTie
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \repeatTie
+    ]
+    \revert NoteHead.style                                       %! OC2
     
     % [H ViolinIMusicVoice measure 492]                          %! SM4
     R1 * 1/4
@@ -4047,6 +4113,11 @@ H_ViolinIIMusicVoice = {
         \makeBlue                                                %! SM24
         c'4
         \<                                                       %! HC1
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    "8” circles continue"                        %! IC
+            }                                                    %! IC
         
         \makeBlue                                                %! SM24
         c'4
@@ -4172,25 +4243,63 @@ H_ViolinIIMusicVoice = {
     \times 1/1 {
         
         % [H ViolinIIMusicVoice measure 488]                     %! SM4
+        \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
+        \once \override TextSpanner.Y-extent = ##f               %! PWC1
+        \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+        \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            “whisk”
+                    \hspace
+                        #0.5
+                }
+            }                                                    %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+        \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.bound-details.right.text = \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \whiteout
+                        \upright
+                            "poco scratch"
+                }
+            }                                                    %! PWC1
+        \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+        \once \override TextSpanner.dash-period = 1.5            %! PWC1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
-        c'16 * 465/64
+        c'16 * 121/16
+        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
+        \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
-        c'16 * 427/64
+        c'16 * 219/32
         
         \makeBlue                                                %! SM24
-        c'16 * 87/16
+        c'16 * 173/32
         
         \makeBlue                                                %! SM24
-        c'16 * 289/64
+        c'16 * 139/32
+        \stopTextSpan                                            %! PWC1
         
         \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
-        c'16 * 263/64
+        c'16 * 123/32
         ]
+        \revert TextSpanner.staff-padding                        %! OC2
     }
     \revert TupletNumber.text
     
@@ -4198,10 +4307,64 @@ H_ViolinIIMusicVoice = {
     R1 * 1/4
     
     % [H ViolinIIMusicVoice measure 491]                         %! SM4
-    R1 * 5/8
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.bound-details.left-broken.text = ##f
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                "LHD + 1/2 clt"
+                \hspace
+                    #0.5
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.padding = 2.25
+    \once \override TextSpanner.bound-details.right.text = \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    \once \override TextSpanner.dash-fraction = 0.25
+    \once \override TextSpanner.dash-period = 1.5
+    \makeBlue                                                    %! SM24
+    c'8
+    \startTextSpan
+    
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    c'16
+    \repeatTie
+    ]
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \makeBlue                                                    %! SM24
+    c'16
+    [
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    c'16
+    \repeatTie
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [H ViolinIIMusicVoice measure 492]                         %! SM4
     R1 * 1/4
+    \stopTextSpan
     
     % [H ViolinIIMusicVoice measure 493]                         %! SM4
     R1 * 3/4
@@ -4700,6 +4863,11 @@ H_ViolaMusicVoice = {
     \makeBlue                                                    %! SM24
     c'4
     \<                                                           %! HC1
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "8” circles continue"                            %! IC
+        }                                                        %! IC
     
     \makeBlue                                                    %! SM24
     c'4
@@ -4804,25 +4972,60 @@ H_ViolaMusicVoice = {
     \times 1/1 {
         
         % [H ViolaMusicVoice measure 488]                        %! SM4
+        \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
+        \once \override TextSpanner.Y-extent = ##f               %! PWC1
+        \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+        \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            “whisk”
+                    \hspace
+                        #0.5
+                }
+            }                                                    %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+        \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.bound-details.right.text = \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \whiteout
+                        \upright
+                            "poco scratch"
+                }
+            }                                                    %! PWC1
+        \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+        \once \override TextSpanner.dash-period = 1.5            %! PWC1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
-        c'16 * 447/64
+        c'16 * 501/64
+        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
+        \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
-        c'16 * 13/2
+        c'16 * 477/64
         
         \makeBlue                                                %! SM24
-        c'16 * 175/32
-        
-        \makeBlue                                                %! SM24
-        c'16 * 75/16
+        c'16 * 427/64
         
         \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
-        c'16 * 279/64
+        c'16 * 387/64
         ]
+        \stopTextSpan                                            %! PWC1
+        \revert TextSpanner.staff-padding                        %! OC2
     }
     \revert TupletNumber.text
     
@@ -4830,7 +5033,24 @@ H_ViolaMusicVoice = {
     R1 * 1/4
     
     % [H ViolaMusicVoice measure 491]                            %! SM4
-    R1 * 5/8
+    \override NoteHead.style = #'harmonic                        %! OC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'8.
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    [
+    
+    c'8
+    \repeatTie
+    
+    c'8.
+    \repeatTie
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \repeatTie
+    ]
+    \revert NoteHead.style                                       %! OC2
     
     % [H ViolaMusicVoice measure 492]                            %! SM4
     R1 * 1/4
@@ -5378,7 +5598,24 @@ H_CelloMusicVoice = {
     \revert NoteHead.style                                       %! OC2
     
     % [H CelloMusicVoice measure 491]                            %! SM4
-    R1 * 5/8
+    \override NoteHead.style = #'harmonic                        %! OC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'8.
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    [
+    
+    c'8
+    \repeatTie
+    
+    c'8.
+    \repeatTie
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \repeatTie
+    ]
+    \revert NoteHead.style                                       %! OC2
     
     % [H CelloMusicVoice measure 492]                            %! SM4
     R1 * 1/4

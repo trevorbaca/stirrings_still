@@ -159,7 +159,6 @@ maker(
 
 maker(
     (['vn1', 'va'], (7, 14)), 
-    #baca.text_script_staff_padding(7.5),
     baca.text_script_staff_padding(1.5),
     baca.text_spanner_staff_padding(5),
     baca.markup('(always one circle per stem)'),
@@ -323,6 +322,7 @@ maker(
     (stirrings_still.pickets(4, 2, abjad.silence([0])), 0),
     (stirrings_still.pickets(4, 1, abjad.silence([0])), 1),
     (stirrings_still.pickets(4, 0, abjad.silence([0])), 2),
+    baca.markup('8” circles continue'),
     )
 
 maker(
@@ -332,7 +332,33 @@ maker(
 
 maker(
     (['vn1', 'vn2', 'va'], (30, 31)),
-    (stirrings_still.accelerando((1, 2), (8, 32)), 0),
-    (stirrings_still.accelerando((1, 2), (9, 32)), 1),
-    (stirrings_still.accelerando((1, 2), (10, 32)), 2),
+    (stirrings_still.accelerando((1, 2), (4, 32)), 0),
+    (stirrings_still.accelerando((1, 2), (8, 32)), 1),
+    (stirrings_still.accelerando((1, 2), (12, 32)), 2),
+    baca.dynamic('mp'),
+    baca.text_spanner_staff_padding(3),
+    baca.transition(
+        baca.markup('“whisk”'),
+        baca.markup.poco_scratch(),
+        selector=baca.leaves()[:4].group(),
+        ),
+    )
+
+maker(
+    (['vn1', 'va', 'vc'], 33),
+    baca.dynamic('pp'),
+    baca.make_repeat_tied_notes(),
+    baca.natural_harmonics(),
+    )
+
+maker(
+    ('vn2', 33),
+    baca.dynamic('mp', redundant=True),
+    baca.text_spanner(
+        baca.markup.boxed('LHD + 1/2 clt'),
+        right_padding=2.25,
+        selector=baca.rleaves(),
+        ),
+    #stirrings_still.clockticks(),
+    baca.make_repeated_duration_notes([(1, 8)]),
     )
