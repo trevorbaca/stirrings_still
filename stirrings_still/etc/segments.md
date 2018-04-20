@@ -954,19 +954,15 @@ SEGMENTS
     (1 measure)
     allegro governs stage;
     comprising stage:
-        >>v1 shining beacon of clouded pane summons future time<<;
+        >>v1, va, vc shining beacon of clouded pane summons future time<<:
             harmonic lh governs stage;
             hair continues;
             pp governs stage;
-        <<[B.10 (v2 white clockticks) 1/1] summon past time>>;
+        <<v2 [B.10 (white clockticks) 1/1] summon past time>>:
             damped lh governs stage;
             1/2 clt governs stage;
             fast clockticks;
             mp governs stage;
-        >>va, vc shining beacon of clouded pane summons future time<<;
-            harmonic lh governs stage;
-            hair continues;
-            pp governs stage;
     cut-off;
     all sound ends immediately following clockticks (29);
     counted rest to build expectation before reentering circles;
@@ -2280,11 +2276,11 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         noise injection (= slow bow) begins;
-        polyrhythmic desynchronization continues with swell-inflection:
+        polyrhythmic desynchronization continues:
             animated by inverse time-swells;
             independent ritardandi-back-up-to-tempo;
             help achieve noise injection at slow midpoint;
-        mp (with variations) governs stage;
+        mp;
     vc clouded pane continues:
         harmonic lh continues;
         ppp continues;
