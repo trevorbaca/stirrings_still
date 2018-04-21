@@ -8,6 +8,7 @@ def trajectories(counts, rotation):
     '''
     counts_ = {
         'A': [1, 1, 1, 2],
+        'B': [1, 2, 2, 3],
         }[counts]
     counts_ = baca.sequence(counts_)
     counts_ = counts_.rotate(n=rotation)
@@ -17,8 +18,10 @@ def trajectories(counts, rotation):
         )
     return baca.RhythmCommand(
         rhythm_maker=rhythmos.TaleaRhythmMaker(
-            #beam_specifier=beam_specifier,
-            extra_counts_per_division=[1],
+            extra_counts_per_division=[1, 0, -1],
             talea=talea,
+            tuplet_specifier=rhythmos.TupletSpecifier(
+                extract_trivial=True,
+                ),
             ),
         )

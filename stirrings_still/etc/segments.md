@@ -2349,7 +2349,7 @@ SEGMENTS
         1/2 clt appears gradually:
             begins at start of stage;
             not yet audible;
-        down-glissando lentissimo achieves low pitch at start of stage;
+        new lower pitch begins;
         ppp < p begins;
     attacca;
 
