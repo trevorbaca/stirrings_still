@@ -6501,7 +6501,7 @@ H_CelloMusicVoice = {
     \stopTextSpan                                                %! PWC1
     \revert Glissando.arrow-length                               %! OC2
     \revert Glissando.arrow-width                                %! OC2
-    \revert Glissando.bound-details                              %! OC2
+    \revert Glissando.bound-details.right.arrow                  %! OC2
     \revert Glissando.thickness                                  %! OC2
     
     % [H CelloMusicVoice measure 467]                            %! SM4
