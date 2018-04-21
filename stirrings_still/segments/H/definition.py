@@ -22,31 +22,31 @@ maker(
     baca.rehearsal_mark_y_offset(12),
     )
 
-maker(
-    'GlobalSkips',
-    baca.markup('[H.1]', baca.skip(1 - 1)),
-    baca.markup('[H.2]', baca.skip(5 - 1)),
-    baca.markup('[I.1]', baca.skip(6 - 1)),
-    baca.markup('[H.3]', baca.skip(7 - 1)),
-    baca.markup('[H.4]', baca.skip(9 - 1)),
-    baca.markup('[H.5]', baca.skip(11 - 1)),
-    baca.markup('[H.6]', baca.skip(13 - 1)),
-    baca.markup('[H.6]', baca.skip(13 - 1)),
-    baca.markup('[H.7]', baca.skip(15 - 1)),
-    baca.markup('[H.8]', baca.skip(17 - 1)),
-    baca.markup('[H.8]', baca.skip(17 - 1)),
-    baca.markup('[H.9]', baca.skip(23 - 1)),
-    baca.markup('[H.10]', baca.skip(30 - 1)),
-    baca.markup('[C.7]', baca.skip(33 - 1)),
-    baca.markup('[H.1]', baca.skip(35 - 1)),
-    baca.markup('[H.11]', baca.skip(37 - 1)),
-    baca.markup('[H.12]', baca.skip(41 - 1)),
-    baca.markup('[H.13]', baca.skip(46 - 1)),
-    baca.markup('[H.14]', baca.skip(50 - 1)),
-    baca.markup('[G.5]', baca.skip(51 - 1)),
-    baca.markup('[H.14]', baca.skip(52 - 1)),
-    baca.text_script_extra_offset((0, 5)),
-    )
+#maker(
+#    'GlobalSkips',
+#    baca.markup('[H.1]', baca.skip(1 - 1)),
+#    baca.markup('[H.2]', baca.skip(5 - 1)),
+#    baca.markup('[I.1]', baca.skip(6 - 1)),
+#    baca.markup('[H.3]', baca.skip(7 - 1)),
+#    baca.markup('[H.4]', baca.skip(9 - 1)),
+#    baca.markup('[H.5]', baca.skip(11 - 1)),
+#    baca.markup('[H.6]', baca.skip(13 - 1)),
+#    baca.markup('[H.6]', baca.skip(13 - 1)),
+#    baca.markup('[H.7]', baca.skip(15 - 1)),
+#    baca.markup('[H.8]', baca.skip(17 - 1)),
+#    baca.markup('[H.8]', baca.skip(17 - 1)),
+#    baca.markup('[H.9]', baca.skip(23 - 1)),
+#    baca.markup('[H.10]', baca.skip(30 - 1)),
+#    baca.markup('[C.7]', baca.skip(33 - 1)),
+#    baca.markup('[H.1]', baca.skip(35 - 1)),
+#    baca.markup('[H.11]', baca.skip(37 - 1)),
+#    baca.markup('[H.12]', baca.skip(41 - 1)),
+#    baca.markup('[H.13]', baca.skip(46 - 1)),
+#    baca.markup('[H.14]', baca.skip(50 - 1)),
+#    baca.markup('[G.5]', baca.skip(51 - 1)),
+#    baca.markup('[H.14]', baca.skip(52 - 1)),
+#    baca.text_script_extra_offset((0, 5)),
+#    )
 
 time = (
     ('largo', 1),
@@ -434,7 +434,7 @@ maker(
     baca.make_repeated_duration_notes([(1, 4)], do_not_rewrite_meter=True),
     )
 
-selector = baca.leaves().group_by_measure()[-2:].leaves()[:-3].group()
+#selector = baca.leaves().group_by_measure()[-2:].leaves()[:-3].group()
 maker(
     (['vn1', 'vn2', 'va'], (46, 50)),
     (stirrings_still.pickets(4, 2), 0),
@@ -442,31 +442,50 @@ maker(
     (stirrings_still.pickets(4, 0), 2),
     baca.dynamic('ff'),
     baca.hairpin('ff > mf', selector=baca.leaves().group_by_measure()[-2:]),
+    baca.text_spanner_staff_padding(4),
     baca.transition(
         baca.markup.molto_scratch(),
         baca.markup.pochiss_scratch(),
-        selector=selector,
+        selector=baca.leaves().group_by_measure()[-2:].leaves()[:-3].group(),
         ),
     )
 
 maker(
     ('vc', [(46, 50), 52]),
-    (baca.hairpin('ppp < p'), 0),
+    (baca.bcps(rotation=-4), 0),
+    (baca.bcps(rotation=-8), 1),
+    baca.dls_staff_padding(5),
+    baca.markup.boxed('1/2 clt'),
     baca.pitch('E2'),
+    baca.suite([
+        baca.untie_to(selector=baca.leaves()),
+        baca.glissando(allow_repeats=True),
+        ]),
+    baca.text_script_staff_padding(11),
+    baca.text_spanner_staff_padding(7),
     stirrings_still.trajectories('A', -1),
     )
 
 maker(
+    ('vc', (46, 49)),
+    baca.hairpin('ppp < p', selector=baca.rleaves()),
+    )
+
+maker(
     ('vc', 51),
-    baca.hairpin('niente < f', selector=baca.leaves()[:2]),
-    baca.hairpin('f > niente', selector=baca.rleaves()[-2:]),
-    stirrings_still.taper(),
+    baca.swell('f', [2]),
+    stirrings_still.taper((4, 4, -2)),
+    )
+
+maker(
+    ('vc', 52),
+    baca.dynamic('p'),
     )
     
 maker(
     (['vn1', 'vn2', 'va'], 52),
     (stirrings_still.pickets(4, [1, 1, 1]), 0),
-    (stirrings_still.pickets(4, [2, 2, 1]), 1),
+    (stirrings_still.pickets(4, [-1, 2, 2]), 1),
     (stirrings_still.pickets(4, [1, 1]), 2),
     baca.dynamic('mp'),
     baca.markup.pochiss_scratch(),

@@ -193,7 +193,6 @@ H_GlobalSkips = {
     
     % [H GlobalSkips measure 459]                                        %! SM4
     \once \override GlobalContext.RehearsalMark.Y-offset = #12           %! OC1
-    \override TextScript.extra-offset = #'(0 . 5)                        %! OC1
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -277,12 +276,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.1]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.1]                                    %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -473,12 +466,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.5]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.2]                                    %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -566,12 +553,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.6]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [I.1]                                    %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -659,12 +640,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.7]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.3]                                    %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -791,12 +766,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.9]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.4]                                    %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -867,12 +836,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.11]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.5]                                    %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -998,12 +961,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.13]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.6]                                    %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1126,12 +1083,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.15]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.7]                                    %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1257,12 +1208,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.17]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.8]                                    %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1525,12 +1470,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.23]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.9]                                    %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1775,12 +1714,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.30]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.10]                                   %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1885,12 +1818,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.33]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.7]                                    %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2013,12 +1940,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.35]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.1]                                    %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2141,12 +2062,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.37]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.11]                                   %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2287,12 +2202,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.41]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.12]                                   %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2523,12 +2432,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.46]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.13]                                   %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2720,12 +2623,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.50]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.14]                                   %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2865,12 +2762,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.51]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [G.5]                                    %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2908,12 +2799,6 @@ H_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [H.52]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.14]                                   %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2921,7 +2806,6 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-    \revert TextScript.extra-offset                                      %! OC2
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|"                                                             %! SM5
     
@@ -3919,6 +3803,7 @@ H_ViolinIMusicVoice = {
     \times 2/3 {
         
         % [H ViolinIMusicVoice measure 504]                      %! SM4
+        \override TextSpanner.staff-padding = #4                 %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'4
@@ -4037,6 +3922,7 @@ H_ViolinIMusicVoice = {
         \makeBlue                                                %! SM24
         c'4
         \mf                                                      %! HC1
+        \revert TextSpanner.staff-padding                        %! OC2
     }
     
     % [H ViolinIMusicVoice measure 509]                          %! SM4
@@ -5011,6 +4897,7 @@ H_ViolinIIMusicVoice = {
     \times 4/5 {
         
         % [H ViolinIIMusicVoice measure 504]                     %! SM4
+        \override TextSpanner.staff-padding = #4                 %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'4
@@ -5117,6 +5004,7 @@ H_ViolinIIMusicVoice = {
         \makeBlue                                                %! SM24
         c'4
         \mf                                                      %! HC1
+        \revert TextSpanner.staff-padding                        %! OC2
     }
     
     % [H ViolinIIMusicVoice measure 509]                         %! SM4
@@ -5124,6 +5012,8 @@ H_ViolinIIMusicVoice = {
     \times 4/5 {
         
         % [H ViolinIIMusicVoice measure 510]                     %! SM4
+        r8
+        
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'4
@@ -5136,9 +5026,6 @@ H_ViolinIIMusicVoice = {
         
         \makeBlue                                                %! SM24
         c'4
-        
-        \makeBlue                                                %! SM24
-        c'8
         
     }
 }
@@ -6041,6 +5928,7 @@ H_ViolaMusicVoice = {
     R1 * 1/4
     
     % [H ViolaMusicVoice measure 504]                            %! SM4
+    \override TextSpanner.staff-padding = #4                     %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'4
@@ -6129,6 +6017,7 @@ H_ViolaMusicVoice = {
     \makeBlue                                                    %! SM24
     c'4
     \mf                                                          %! HC1
+    \revert TextSpanner.staff-padding                            %! OC2
     
     % [H ViolaMusicVoice measure 509]                            %! SM4
     R1 * 5/8
@@ -6779,144 +6668,827 @@ H_CelloMusicVoice = {
     \times 5/6 {
         
         % [H CelloMusicVoice measure 504]                        %! SM4
+        \override DynamicLineSpanner.staff-padding = #'5         %! OC1
+        \override TextScript.staff-padding = #11                 %! OC1
+        \override TextSpanner.staff-padding = #7                 %! OC1
         \revert Accidental.stencil                               %! SC
         \revert NoteColumn.glissando-skip                        %! SC
         \revert NoteHead.no-ledgers                              %! SC
         \undo \hide NoteHead                                     %! SC
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        0
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         e,8
+        -\downbow
+        \glissando                                               %! SC
         \<                                                       %! HC1
         \ppp                                                     %! HC1
         [
+        \startTextSpan
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    \override                                    %! IC
+                        #'(box-padding . 0.5)                    %! IC
+                        \box                                     %! IC
+                            "1/2 clt"                            %! IC
+            }                                                    %! IC
         
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        4
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
         e,8
         ]
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
         
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        5
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
         e,4
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
         
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        6
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
         e,8
+        \stopTextSpan
+        \glissando                                               %! SC
         [
+        \startTextSpan
         
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        7
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
         e,8
+        -\upbow
         ]
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
-        
-        % [H CelloMusicVoice measure 505]                        %! SM4
-        e,8
-        
-        e,4
-        
-        e,8
-        [
-        
-        e,8
-        
-        e,8
-        
-        e,8
-        ~
-        ]
-    }
-    \times 8/9 {
+    
+    % [H CelloMusicVoice measure 505]                            %! SM4
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    6
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
+    e,8
+    -\downbow
+    \stopTextSpan
+    \glissando                                                   %! SC
+    \startTextSpan
+    
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    7
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
+    e,4
+    -\upbow
+    \stopTextSpan
+    \glissando                                                   %! SC
+    \startTextSpan
+    
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    0
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
+    e,8
+    -\downbow
+    \stopTextSpan
+    \glissando                                                   %! SC
+    [
+    \startTextSpan
+    
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    7
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
+    e,8
+    -\upbow
+    \stopTextSpan
+    \glissando                                                   %! SC
+    \startTextSpan
+    
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    0
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
+    e,8
+    -\downbow
+    ]
+    \stopTextSpan
+    \glissando                                                   %! SC
+    \startTextSpan
+    \times 4/7 {
         
         % [H CelloMusicVoice measure 506]                        %! SM4
-        e,8
-        [
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        7
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,2
+        -\upbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
         
-        e,8
-        
-        e,8
-        
-        e,8
-        ]
-        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        0
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
         e,4
+        -\downbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
         
-        e,8
-        [
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        4
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,4
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
         
-        e,8
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        5
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,4
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
         
-        e,8
-        ]
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        6
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,2
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
     }
     \times 8/9 {
         
         % [H CelloMusicVoice measure 507]                        %! SM4
-        e,4
-        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        7
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
         e,8
+        -\upbow
+        \stopTextSpan
+        \glissando                                               %! SC
         [
+        \startTextSpan
         
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        6
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
         e,8
+        -\downbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
         
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        7
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
         e,8
+        -\upbow
         ]
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
         
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        0
+                        4
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
         e,4
+        -\downbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
         
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        1
+                        4
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
         e,8
+        \stopTextSpan
+        \glissando                                               %! SC
         [
+        \startTextSpan
         
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        2
+                        4
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
         e,8
+        -\upbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        1
+                        4
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,8
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        0
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,8
+        -\downbow
         ]
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
-        
-        % [H CelloMusicVoice measure 508]                        %! SM4
-        e,8
-        
-        e,4
-        
-        e,8
-        [
-        
-        e,8
-        
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        e,8
-        \p                                                       %! HC1
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/9 {
-        
-        % [H CelloMusicVoice measure 509]                        %! SM4
-        \once \override Hairpin.circled-tip = ##t                %! HC1
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \makeBlue                                                %! SM24
-        c'8.
-        \<                                                       %! HC1
-        
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \makeBlue                                                %! SM24
-        c'2.
-        \f                                                       %! HC1
-        
-        \once \override Hairpin.circled-tip = ##t                %! HC1
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \makeBlue                                                %! SM24
-        c'8.
-        \>                                                       %! HC1
-        \f                                                       %! HC1
-    }
+    
+    % [H CelloMusicVoice measure 508]                            %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    e,8
+    \p                                                           %! HC1
+    \glissando                                                   %! SC
+    [
+    
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    4
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
+    e,8
+    \stopTextSpan
+    \glissando                                                   %! SC
+    \startTextSpan
+    
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    5
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
+    e,8
+    \stopTextSpan
+    \glissando                                                   %! SC
+    \startTextSpan
+    
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    6
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.right.text = \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \fraction
+                    7
+                    7
+            }
+        }
+    \once \override TextSpanner.dash-fraction = 1
+    e,8
+    \stopTextSpan
+    \glissando                                                   %! SC
+    \startTextSpan
+    
+    e,8
+    -\upbow
+    ]
+    \stopTextSpan
+    \revert DynamicLineSpanner.staff-padding                     %! OC2
+    \revert TextScript.staff-padding                             %! OC2
+    \revert TextSpanner.staff-padding                            %! OC2
+    
+    % [H CelloMusicVoice measure 509]                            %! SM4
+    \once \override Hairpin.circled-tip = ##t                    %! PWC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeBlue                                                    %! SM24
+    c'4
+    \<                                                           %! PWC1
+    
+    \once \override Hairpin.circled-tip = ##t                    %! PWC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeBlue                                                    %! SM24
+    c'4
+    \f                                                           %! PWC1
+    \>                                                           %! PWC1
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    r8
+    \!                                                           %! PWC1
     \times 4/5 {
         
         % [H CelloMusicVoice measure 510]                        %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \override DynamicLineSpanner.staff-padding = #'5         %! OC1
+        \override TextScript.staff-padding = #11                 %! OC1
+        \override TextSpanner.staff-padding = #7                 %! OC1
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        0
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         e,8
-        \!                                                       %! HC1
+        -\downbow
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \glissando                                               %! SC
         [
+        \startTextSpan
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    \override                                    %! IC
+                        #'(box-padding . 0.5)                    %! IC
+                        \box                                     %! IC
+                            "1/2 clt"                            %! IC
+            }                                                    %! IC
         
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        4
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
         e,8
         ]
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
         
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        5
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.right.text = \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \fraction
+                        6
+                        7
+                }
+            }
+        \once \override TextSpanner.dash-fraction = 1
         e,4
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
         
         e,8
+        \stopTextSpan
+        \revert DynamicLineSpanner.staff-padding                 %! OC2
+        \revert TextScript.staff-padding                         %! OC2
+        \revert TextSpanner.staff-padding                        %! OC2
         
     }
 }
