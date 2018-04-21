@@ -2292,7 +2292,6 @@ SEGMENTS
             1/2 clt;
             mf;
     <<short fermata repeats to effect prolongation>> (34);
-    <<vc continues through short fermata>>;
 
     <<[H.1 (inception)] 3-4/4] prefixed to [H.11]>> (35-36):
         <<summons past time>>;
@@ -2300,12 +2299,9 @@ SEGMENTS
         tutti:
             stopped lh;
             hair;
-            four-note chord:
-                single-stopped notes;
-            extremely gradual rasp-to-flautando transition:
-                measures 3-4/4 of transition;
-            niente < mp:
-                measures 3-4/4 of crescendo;
+            four-note chord on single-stopped notes;
+            extremely gradual rasp-to-flautando transition;
+            niente < mp;
     <<attacca [H.11] to effect prefix>>;
     [H.11] (37-39 + short)
     (3 measures)
@@ -2313,9 +2309,9 @@ SEGMENTS
     v1, v2, va interlocking clouded pane whisk gears repeat and darken:
         stopped lh continues;
         hair continues;
-        noise injection darkens;
+        noise injection resumes after prefix and darkens;
         polyrhythmic desynchronization continues with swell-inflection;
-        mf (with variations) governs stage;
+        mf;
     vc clouded pane continues:
         stopped lh begins;
         down-glissando lentissimo begins;
@@ -2330,7 +2326,7 @@ SEGMENTS
         hair continues;
         noise injection darkens even more;
         polyrhythmic desynchronization continues with swell-inflection;
-        f (with variations) governs stage;
+        f;
     vc clouded pane continues:
         stopped lh continues;
         hair continues;
@@ -2354,7 +2350,7 @@ SEGMENTS
             begins at start of stage;
             not yet audible;
         down-glissando lentissimo achieves low pitch at start of stage;
-        (ppp) < p begins;
+        ppp < p begins;
     attacca;
 
     [H.14] (50 + 51 + 52)
@@ -2363,8 +2359,7 @@ SEGMENTS
     v1, v2, va interlocking gears transition from scratch to golden tone:
         stopped lh continues;
         hair continues;
-        scratch-to-tone transition governs stage:
-            achieves tone at start of next stage;
+        scratch-to-tone transition governs stage;
         polyrhythm-to-1:2:4 rhythmic interpolation governs stage:
             achieves 1:2:4 rate ratio at start of next stage;
     vc 1/2 clt trajectory pedal continues:

@@ -350,9 +350,9 @@ maker(
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.transition(
-        baca.markup('“whisk”'),
-        baca.markup.poco_scratch(),
-        selector=baca.leaves()[:4].group(),
+        baca.markup('“whisk” circles'),
+        baca.markup('poco scratch circles'),
+        selector=baca.leaves()[:3].group(),
         ),
     )
 
@@ -374,4 +374,100 @@ maker(
         ),
     baca.text_spanner_staff_padding(5),
     stirrings_still.clockticks(),
+    )
+
+maker(
+    (tutti, (35, 36)),
+    (baca.pitch('Gb4'), 0),
+    (baca.pitch('F4'), 1),
+    (baca.pitch('Ab3'), 2),
+    (baca.pitch('Ab2'), 3),
+    baca.dls_staff_padding(3),
+    baca.hairpin('niente < mp', selector=baca.notes()[:4]),
+    baca.make_repeat_tied_notes(),
+    baca.markup.string_number(3),
+    baca.transition(
+        baca.markup.rasp_partial_2(),
+        baca.markup.flaut_partial_2(),
+        ),
+    )
+
+maker(
+    (['vn1', 'vn2', 'va'], (37, 39)),
+    (stirrings_still.accelerando((1, 2), (4, 32)), 0),
+    (stirrings_still.accelerando((1, 2), (8, 32)), 1),
+    (stirrings_still.accelerando((1, 2), (12, 32)), 2),
+    baca.dynamic('mf'),
+    baca.text_script_staff_padding(5),
+    baca.text_spanner_staff_padding(3),
+    baca.transition(
+        baca.markup('“whisk” circles'),
+        baca.markup('mod. scratch circles'),
+        selector=baca.leaves()[:3].group(),
+        ),
+    )
+
+maker(
+    (['vn1', 'vn2', 'va'], (41, 44)),
+    (stirrings_still.accelerando((1, 2), (4, 32)), 0),
+    (stirrings_still.accelerando((1, 2), (8, 32)), 1),
+    (stirrings_still.accelerando((1, 2), (12, 32)), 2),
+    baca.dynamic('f'),
+    baca.text_script_staff_padding(5),
+    baca.text_spanner_staff_padding(3),
+    baca.transition(
+        baca.markup('“whisk” circles'),
+        baca.markup('molto scratch circles'),
+        selector=baca.leaves()[:3].group(),
+        ),
+    )
+
+maker(
+    ('vc', (37, 45)),
+    baca.dynamic('ppp'),
+    baca.glissando(
+        allow_repeats=True,
+        stems=True,
+        selector=baca.rleaves(),
+        ),
+    baca.interpolate_staff_positions('Gb2', 'E2'),
+    baca.make_repeated_duration_notes([(1, 4)], do_not_rewrite_meter=True),
+    )
+
+selector = baca.leaves().group_by_measure()[-2:].leaves()[:-3].group()
+maker(
+    (['vn1', 'vn2', 'va'], (46, 50)),
+    (stirrings_still.pickets(4, 2), 0),
+    (stirrings_still.pickets(4, 1), 1),
+    (stirrings_still.pickets(4, 0), 2),
+    baca.dynamic('ff'),
+    baca.hairpin('ff > mf', selector=baca.leaves().group_by_measure()[-2:]),
+    baca.transition(
+        baca.markup.molto_scratch(),
+        baca.markup.pochiss_scratch(),
+        selector=selector,
+        ),
+    )
+
+maker(
+    ('vc', [(46, 50), 52]),
+    (baca.hairpin('ppp < p'), 0),
+    baca.pitch('E2'),
+    stirrings_still.trajectories('A', -1),
+    )
+
+maker(
+    ('vc', 51),
+    baca.hairpin('niente < f', selector=baca.leaves()[:2]),
+    baca.hairpin('f > niente', selector=baca.rleaves()[-2:]),
+    stirrings_still.taper(),
+    )
+    
+maker(
+    (['vn1', 'vn2', 'va'], 52),
+    (stirrings_still.pickets(4, [1, 1, 1]), 0),
+    (stirrings_still.pickets(4, [2, 2, 1]), 1),
+    (stirrings_still.pickets(4, [1, 1]), 2),
+    baca.dynamic('mp'),
+    baca.markup.pochiss_scratch(),
     )
