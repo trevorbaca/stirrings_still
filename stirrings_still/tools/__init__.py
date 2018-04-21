@@ -11,6 +11,7 @@ from .margin_markup import margin_markup
 from .operations import operations
 from .pickets import pickets
 from .second_order_stages import second_order_stages
+from .taper import taper
 from .time import time
 from .time_signatures import time_signatures
 from .trajectories import trajectories
