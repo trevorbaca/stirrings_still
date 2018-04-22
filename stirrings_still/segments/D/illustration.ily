@@ -4201,7 +4201,7 @@ D_ViolinIMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    R1 * 5/8
+    r2
     ^ \markup {
         \column
             {
@@ -4234,20 +4234,46 @@ D_ViolinIMusicVoice = {
             "Vn. I"                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
+    r8
+    
     % [D ViolinIMusicVoice measure 208]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolinIMusicVoice measure 209]                          %! SM4
-    R1 * 3/4
+    r2.
     
     % [D ViolinIMusicVoice measure 210]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolinIMusicVoice measure 211]                          %! SM4
-    R1 * 1/2
+    r2
     
     % [D ViolinIMusicVoice measure 212]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 213]                          %! SM4
     R1 * 1
@@ -4533,7 +4559,9 @@ D_ViolinIIMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
     ^ \markup {
         \column
             {
@@ -4566,20 +4594,54 @@ D_ViolinIIMusicVoice = {
             "Vn. II"                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
     % [D ViolinIIMusicVoice measure 208]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    r2
+    
+    r8
     
     % [D ViolinIIMusicVoice measure 209]                         %! SM4
-    R1 * 3/4
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
     
     % [D ViolinIIMusicVoice measure 210]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    r2
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
     
     % [D ViolinIIMusicVoice measure 211]                         %! SM4
-    R1 * 1/2
+    c'2
+    ~
     
     % [D ViolinIIMusicVoice measure 212]                         %! SM4
-    R1 * 1
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r2
+    
+    r8
     
     % [D ViolinIIMusicVoice measure 213]                         %! SM4
     R1 * 1
@@ -4865,7 +4927,7 @@ D_ViolaMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    R1 * 5/8
+    r2
     ^ \markup {
         \column
             {
@@ -4898,20 +4960,50 @@ D_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
+    r8
+    
     % [D ViolaMusicVoice measure 208]                            %! SM4
-    R1 * 3/4
+    r8
+    
+    r2
+    
+    r8
     
     % [D ViolaMusicVoice measure 209]                            %! SM4
-    R1 * 3/4
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r8
     
     % [D ViolaMusicVoice measure 210]                            %! SM4
-    R1 * 3/4
+    r2.
     
     % [D ViolaMusicVoice measure 211]                            %! SM4
-    R1 * 1/2
+    r8
+    
+    r4.
     
     % [D ViolaMusicVoice measure 212]                            %! SM4
-    R1 * 1
+    r8
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolaMusicVoice measure 213]                            %! SM4
     R1 * 1
@@ -5197,7 +5289,9 @@ D_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
     ^ \markup {
         \column
             {
@@ -5230,20 +5324,38 @@ D_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
     % [D CelloMusicVoice measure 208]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    r2
+    
+    r8
     
     % [D CelloMusicVoice measure 209]                            %! SM4
-    R1 * 3/4
+    r2.
     
     % [D CelloMusicVoice measure 210]                            %! SM4
-    R1 * 3/4
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D CelloMusicVoice measure 211]                            %! SM4
-    R1 * 1/2
+    r2
     
     % [D CelloMusicVoice measure 212]                            %! SM4
-    R1 * 1
+    r4
+    
+    r2.
     
     % [D CelloMusicVoice measure 213]                            %! SM4
     R1 * 1
