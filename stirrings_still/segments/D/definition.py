@@ -9,6 +9,8 @@ import stirrings_still
 ###############################################################################
 
 maker = baca.SegmentMaker(
+    color_repeat_pitch_classes=False,
+    ignore_repeat_pitch_classes=True,
     metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=stirrings_still.time_signatures('D'),
@@ -57,4 +59,11 @@ maker(
     (stirrings_still.strokes(-1, abjad.silence([1], 2)), 1),
     (stirrings_still.strokes(-2, abjad.silence([0, 1], 3)), 2),
     (stirrings_still.strokes(-3, abjad.silence([1, 2], 3)), 3),
+    baca.map(
+        baca.suite([
+            baca.untie_to(selector=baca.leaves()),
+            baca.glissando(allow_repeats=True),
+            ]),
+        baca.logical_ties(nontrivial=True), 
+        ),
     )
