@@ -65,7 +65,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CelloMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='ppp',
+                                value='p',
                                 ),
                             ],
                         ),
@@ -111,7 +111,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='p',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -142,7 +142,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolinIIMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='p',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -173,7 +173,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolinIMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='p',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -193,8 +193,8 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('start_clock_time', "27'52''"),
-        ('stop_clock_time', "30'37''"),
+        ('start_clock_time', "28'00''"),
+        ('stop_clock_time', "30'45''"),
         (
             'time_signatures',
             [

@@ -1,4 +1,4 @@
-% time_signatures = ['15/16', '15/16', '14/16', '14/16', '10/16', '12/16', '12/16', '8/16', '12/16', '12/16', '10/16', '12/16', '12/16', '8/16', '14/16', '15/16', '15/16', '14/16', '8/16', '12/16', '12/16', '14/16', '14/16', '15/16', '15/16', '10/16']
+% time_signatures = ['16/16', '16/16', '14/16', '14/16', '10/16', '12/16', '12/16', '8/16', '12/16', '12/16', '10/16', '12/16', '12/16', '8/16', '14/16', '16/16', '16/16', '14/16', '8/16', '12/16', '12/16', '14/16', '14/16', '16/16', '16/16', '10/16']
 % measure_count = 26
 
 
@@ -21,14 +21,14 @@
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
             #'((Y-offset . 20) (alignment-distances . (18 20)))                          %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
-            s1 * 15/16
+            s1 * 1
         %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 679]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 15/16
+            s1 * 1
         %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 680]                                                   %! SM4
@@ -129,14 +129,14 @@
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 15/16
+            s1 * 1
         %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 694]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 15/16
+            s1 * 1
         %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 695]                                                   %! SM4
@@ -185,14 +185,14 @@
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 15/16
+            s1 * 1
         %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 702]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 15/16
+            s1 * 1
         %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 703]                                                   %! SM4

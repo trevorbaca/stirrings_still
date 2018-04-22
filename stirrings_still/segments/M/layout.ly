@@ -1,4 +1,4 @@
-% time_signatures = ['10/16', '12/16', '12/16', '12/16', '8/16', '14/16', '14/16', '15/16', '15/16', '8/16', '12/16', '12/16', '15/16', '14/16', '14/16', '15/16', '12/16', '10/16', '15/16', '15/16', '14/16', '14/16', '10/16', '12/16', '12/16', '8/16', '12/16', '12/16', '10/16', '12/16', '12/16', '8/16']
+% time_signatures = ['10/16', '12/16', '12/16', '12/16', '8/16', '14/16', '14/16', '16/16', '16/16', '8/16', '12/16', '12/16', '16/16', '14/16', '14/16', '16/16', '12/16', '10/16', '16/16', '16/16', '14/16', '14/16', '10/16', '12/16', '12/16', '8/16', '12/16', '12/16', '10/16', '12/16', '12/16', '8/16']
 % measure_count = 32
 
 
@@ -70,14 +70,14 @@
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 15/16
+            s1 * 1
         %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 607]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 15/16
+            s1 * 1
         %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 608]                                                   %! SM4
@@ -105,7 +105,7 @@
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 15/16
+            s1 * 1
         %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 612]                                                   %! SM4
@@ -126,7 +126,7 @@
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 35 360)           %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 15/16
+            s1 * 1
         %@% ^ \markup { \make-forest-green "[[1/15 * 35/24]]" }                          %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 615]                                                   %! SM4
@@ -150,14 +150,14 @@
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 15/16
+            s1 * 1
         %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 618]                                                   %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            s1 * 15/16
+            s1 * 1
         %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 619]                                                   %! SM4

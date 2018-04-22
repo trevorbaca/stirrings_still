@@ -153,8 +153,8 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('start_clock_time', "18'02''"),
-        ('stop_clock_time', "18'50''"),
+        ('start_clock_time', "18'07''"),
+        ('stop_clock_time', "18'55''"),
         (
             'time_signatures',
             [
@@ -164,9 +164,9 @@ metadata = abjad.OrderedDict(
                 '1/4',
                 '8/16',
                 '12/16',
-                '15/16',
+                '16/16',
                 '1/4',
-                '15/16',
+                '16/16',
                 '1/4',
                 '10/16',
                 '3/4',

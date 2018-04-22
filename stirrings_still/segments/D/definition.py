@@ -48,3 +48,13 @@ time = (
     )
 
 stirrings_still.time(maker, time)
+
+tutti = ['vn1', 'vn2', 'va', 'vc']
+
+#maker(
+#    (tutti, (1, 6)),
+#    (stirrings_still.strokes(0, abjad.silence([0], 2)), 0),
+#    (stirrings_still.strokes(-1, abjad.silence([1], 2)), 1),
+#    (stirrings_still.strokes(-2, abjad.silence([0, 1], 3)), 2),
+#    (stirrings_still.strokes(-3, abjad.silence([1, 2], 3)), 3),
+#    )
