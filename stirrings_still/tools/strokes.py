@@ -15,6 +15,7 @@ def strokes(rotation=0, division_mask=None):
         division_masks = [division_mask]
     return baca.RhythmCommand(
         division_expression=expression,
+        multimeasure_rests=True,
         rhythm_maker=rhythmos.IncisedRhythmMaker(
             division_masks=division_masks,
             incise_specifier=rhythmos.InciseSpecifier(
@@ -23,5 +24,6 @@ def strokes(rotation=0, division_mask=None):
                 talea_denominator=8,
                 ),
             ),
+        rewrite_rest_filled=True,
         split_at_measure_boundaries=True,
         )

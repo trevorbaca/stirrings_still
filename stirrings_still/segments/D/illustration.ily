@@ -4201,7 +4201,7 @@ D_ViolinIMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    r2
+    R1 * 5/8
     ^ \markup {
         \column
             {
@@ -4234,8 +4234,6 @@ D_ViolinIMusicVoice = {
             "Vn. I"                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    r8
-    
     % [D ViolinIMusicVoice measure 208]                          %! SM4
     \makeBlue                                                    %! SM24
     c'2
@@ -4250,7 +4248,7 @@ D_ViolinIMusicVoice = {
     ]
     
     % [D ViolinIMusicVoice measure 209]                          %! SM4
-    r2.
+    R1 * 3/4
     
     % [D ViolinIMusicVoice measure 210]                          %! SM4
     \makeBlue                                                    %! SM24
@@ -4266,7 +4264,7 @@ D_ViolinIMusicVoice = {
     ]
     
     % [D ViolinIMusicVoice measure 211]                          %! SM4
-    r2
+    R1 * 1/2
     
     % [D ViolinIMusicVoice measure 212]                          %! SM4
     \makeBlue                                                    %! SM24
@@ -4927,7 +4925,7 @@ D_ViolaMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    r2
+    R1 * 5/8
     ^ \markup {
         \column
             {
@@ -4960,14 +4958,8 @@ D_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    r8
-    
     % [D ViolaMusicVoice measure 208]                            %! SM4
-    r8
-    
-    r2
-    
-    r8
+    R1 * 3/4
     
     % [D ViolaMusicVoice measure 209]                            %! SM4
     r8
@@ -4981,12 +4973,10 @@ D_ViolaMusicVoice = {
     r8
     
     % [D ViolaMusicVoice measure 210]                            %! SM4
-    r2.
+    R1 * 3/4
     
     % [D ViolaMusicVoice measure 211]                            %! SM4
-    r8
-    
-    r4.
+    R1 * 1/2
     
     % [D ViolaMusicVoice measure 212]                            %! SM4
     r8
@@ -5338,7 +5328,7 @@ D_CelloMusicVoice = {
     r8
     
     % [D CelloMusicVoice measure 209]                            %! SM4
-    r2.
+    R1 * 3/4
     
     % [D CelloMusicVoice measure 210]                            %! SM4
     r8
@@ -5350,12 +5340,10 @@ D_CelloMusicVoice = {
     c'8
     
     % [D CelloMusicVoice measure 211]                            %! SM4
-    r2
+    R1 * 1/2
     
     % [D CelloMusicVoice measure 212]                            %! SM4
-    r4
-    
-    r2.
+    R1 * 1
     
     % [D CelloMusicVoice measure 213]                            %! SM4
     R1 * 1
