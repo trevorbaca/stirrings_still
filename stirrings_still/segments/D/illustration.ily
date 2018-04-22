@@ -4237,7 +4237,7 @@ D_ViolinIMusicVoice = {
     % [D ViolinIMusicVoice measure 208]                          %! SM4
     \makeBlue                                                    %! SM24
     c'2
-    ~
+    \glissando                                                   %! SC
     
     \makeBlue                                                    %! SM24
     c'8
@@ -4253,7 +4253,7 @@ D_ViolinIMusicVoice = {
     % [D ViolinIMusicVoice measure 210]                          %! SM4
     \makeBlue                                                    %! SM24
     c'2
-    ~
+    \glissando                                                   %! SC
     
     \makeBlue                                                    %! SM24
     c'8
@@ -4559,7 +4559,7 @@ D_ViolinIIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \makeBlue                                                    %! SM24
     c'2
-    ~
+    \glissando                                                   %! SC
     ^ \markup {
         \column
             {
@@ -4610,7 +4610,7 @@ D_ViolinIIMusicVoice = {
     
     \makeBlue                                                    %! SM24
     c'2
-    ~
+    \glissando                                                   %! SC
     
     \makeBlue                                                    %! SM24
     c'8
@@ -4625,11 +4625,11 @@ D_ViolinIIMusicVoice = {
     
     \makeBlue                                                    %! SM24
     c'8
-    ~
+    \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 211]                         %! SM4
     c'2
-    ~
+    \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 212]                         %! SM4
     c'4
@@ -4985,7 +4985,7 @@ D_ViolaMusicVoice = {
     
     \makeBlue                                                    %! SM24
     c'2
-    ~
+    \glissando                                                   %! SC
     
     \makeBlue                                                    %! SM24
     c'8
@@ -5281,7 +5281,7 @@ D_CelloMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \makeBlue                                                    %! SM24
     c'2
-    ~
+    \glissando                                                   %! SC
     ^ \markup {
         \column
             {
