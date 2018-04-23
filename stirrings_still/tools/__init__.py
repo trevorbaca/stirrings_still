@@ -7,6 +7,7 @@ from .circles import circles
 from .clockticks import clockticks
 from .desynchronization import desynchronization
 from .first_order_stages import first_order_stages
+from .flat_glissandi import flat_glissandi
 from .margin_markup import margin_markup
 from .operations import operations
 from .pickets import pickets

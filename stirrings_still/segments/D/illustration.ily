@@ -4277,37 +4277,67 @@ D_ViolinIMusicVoice = {
     R1 * 1
     
     % [D ViolinIMusicVoice measure 214]                          %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 215]                          %! SM4
     R1 * 7/8
     
     % [D ViolinIMusicVoice measure 216]                          %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 217]                          %! SM4
     R1 * 3/4
     
     % [D ViolinIMusicVoice measure 218]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolinIMusicVoice measure 219]                          %! SM4
     R1 * 7/8
     
     % [D ViolinIMusicVoice measure 220]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 221]                          %! SM4
     R1 * 1
     
     % [D ViolinIMusicVoice measure 222]                          %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 223]                          %! SM4
     R1 * 3/4
     
     % [D ViolinIMusicVoice measure 224]                          %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 225]                          %! SM4
     R1 * 7/8
@@ -4642,37 +4672,86 @@ D_ViolinIIMusicVoice = {
     r8
     
     % [D ViolinIIMusicVoice measure 213]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r8
     
     % [D ViolinIIMusicVoice measure 214]                         %! SM4
-    R1 * 7/8
+    r2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 215]                         %! SM4
-    R1 * 7/8
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r2
     
     % [D ViolinIIMusicVoice measure 216]                         %! SM4
-    R1 * 1/2
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 217]                         %! SM4
-    R1 * 3/4
+    c'4
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    r4
     
     % [D ViolinIIMusicVoice measure 218]                         %! SM4
     R1 * 3/4
     
     % [D ViolinIIMusicVoice measure 219]                         %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
     
     % [D ViolinIIMusicVoice measure 220]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r2..
     
     % [D ViolinIIMusicVoice measure 221]                         %! SM4
-    R1 * 1
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 222]                         %! SM4
-    R1 * 7/8
+    r2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 223]                         %! SM4
-    R1 * 3/4
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4
     
     % [D ViolinIIMusicVoice measure 224]                         %! SM4
     R1 * 5/8
@@ -4996,40 +5075,114 @@ D_ViolaMusicVoice = {
     ]
     
     % [D ViolaMusicVoice measure 213]                            %! SM4
-    R1 * 1
+    r2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 214]                            %! SM4
-    R1 * 7/8
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 215]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    r2
+    
+    r8
     
     % [D ViolaMusicVoice measure 216]                            %! SM4
-    R1 * 1/2
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 217]                            %! SM4
-    R1 * 3/4
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 218]                            %! SM4
-    R1 * 3/4
+    c'2
+    \glissando                                                   %! SC
+    
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolaMusicVoice measure 219]                            %! SM4
     R1 * 7/8
     
     % [D ViolaMusicVoice measure 220]                            %! SM4
-    R1 * 1
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolaMusicVoice measure 221]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    r4
     
     % [D ViolaMusicVoice measure 222]                            %! SM4
-    R1 * 7/8
+    r4
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 223]                            %! SM4
-    R1 * 3/4
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 224]                            %! SM4
-    R1 * 5/8
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolaMusicVoice measure 225]                            %! SM4
     R1 * 7/8
@@ -5346,16 +5499,33 @@ D_CelloMusicVoice = {
     R1 * 1
     
     % [D CelloMusicVoice measure 213]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r2
     
     % [D CelloMusicVoice measure 214]                            %! SM4
     R1 * 7/8
     
     % [D CelloMusicVoice measure 215]                            %! SM4
-    R1 * 7/8
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 216]                            %! SM4
-    R1 * 1/2
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    r4
     
     % [D CelloMusicVoice measure 217]                            %! SM4
     R1 * 3/4
@@ -5364,22 +5534,56 @@ D_CelloMusicVoice = {
     R1 * 3/4
     
     % [D CelloMusicVoice measure 219]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D CelloMusicVoice measure 220]                            %! SM4
-    R1 * 1
+    r2.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 221]                            %! SM4
-    R1 * 1
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    c'8
+    \glissando                                                   %! SC
+    [
     
     % [D CelloMusicVoice measure 222]                            %! SM4
-    R1 * 7/8
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    r2
+    
+    r8
     
     % [D CelloMusicVoice measure 223]                            %! SM4
-    R1 * 3/4
+    r4.
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 224]                            %! SM4
-    R1 * 5/8
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D CelloMusicVoice measure 225]                            %! SM4
     R1 * 7/8
