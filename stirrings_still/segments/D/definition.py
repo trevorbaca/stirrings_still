@@ -33,7 +33,7 @@ stage_markup = (
     ('[D.6]', 31),
     ('[I.6]', 38),
     ('[D.7]', 40),
-    ('[D.8]', 47),
+    ('[A.1]', 47),
     ('[D.9]', 49),
     ('[F.2]', 51),
     ('[D.9]', 52),
@@ -162,4 +162,9 @@ maker(
     baca.dynamic('pp'),
     stirrings_still.ntlt_flat_glissandi(),
     stirrings_still.strokes(0),
+    )
+
+maker(
+    (tutti, 47),
+    stirrings_still.declamation(),
     )
