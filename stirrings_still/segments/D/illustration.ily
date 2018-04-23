@@ -407,6 +407,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.1]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.1]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -614,6 +620,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.7]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.2]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -822,6 +834,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.13]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.3]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1031,6 +1049,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.19]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.4]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1238,6 +1262,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.25]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.5]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1446,6 +1476,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.31]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.6]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1742,6 +1778,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.38]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [I.6]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1864,6 +1906,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.40]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.7]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2159,6 +2207,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.47]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.8]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2281,6 +2335,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.49]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.9]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2351,6 +2411,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.51]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [F.2]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2386,6 +2452,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.52]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.9]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2543,6 +2615,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.55]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.10]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2665,6 +2743,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.57]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [S.2]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2756,6 +2840,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.58]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.11]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3053,6 +3143,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.65]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.12]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3088,6 +3184,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.66]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [I.1]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3123,6 +3225,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.67]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.12]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3157,6 +3265,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.68]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.13]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3282,6 +3396,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.70]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.14]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3351,6 +3471,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.72]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.15]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3420,6 +3546,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.74]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.16]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3542,6 +3674,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.76]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.17]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3663,6 +3801,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.78]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.18]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3732,6 +3876,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.80]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.19]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3802,6 +3952,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.82]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.20]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3872,6 +4028,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.84]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.21]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3907,6 +4069,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.85]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [F.2]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3942,6 +4110,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.86]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.21]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3977,6 +4151,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.87]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [D.22]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -4098,6 +4278,12 @@ D_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [D.89]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [C.2]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -4343,55 +4529,111 @@ D_ViolinIMusicVoice = {
     R1 * 7/8
     
     % [D ViolinIMusicVoice measure 226]                          %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 227]                          %! SM4
     R1 * 1
     
     % [D ViolinIMusicVoice measure 228]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 229]                          %! SM4
     R1 * 5/8
     
     % [D ViolinIMusicVoice measure 230]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolinIMusicVoice measure 231]                          %! SM4
     R1 * 3/4
     
     % [D ViolinIMusicVoice measure 232]                          %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 233]                          %! SM4
     R1 * 3/4
     
     % [D ViolinIMusicVoice measure 234]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolinIMusicVoice measure 235]                          %! SM4
     R1 * 5/8
     
     % [D ViolinIMusicVoice measure 236]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolinIMusicVoice measure 237]                          %! SM4
     R1 * 3/4
     
     % [D ViolinIMusicVoice measure 238]                          %! SM4
-    R1 * 1/2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'4.
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 239]                          %! SM4
     R1 * 1
     
     % [D ViolinIMusicVoice measure 240]                          %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 241]                          %! SM4
     R1 * 7/8
     
     % [D ViolinIMusicVoice measure 242]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 243]                          %! SM4
     R1 * 1/4
@@ -4757,55 +4999,123 @@ D_ViolinIIMusicVoice = {
     R1 * 5/8
     
     % [D ViolinIIMusicVoice measure 225]                         %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 226]                         %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 227]                         %! SM4
     R1 * 1
     
     % [D ViolinIIMusicVoice measure 228]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 229]                         %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 230]                         %! SM4
     R1 * 3/4
     
     % [D ViolinIIMusicVoice measure 231]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolinIIMusicVoice measure 232]                         %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 233]                         %! SM4
     R1 * 3/4
     
     % [D ViolinIIMusicVoice measure 234]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolinIIMusicVoice measure 235]                         %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 236]                         %! SM4
     R1 * 3/4
     
     % [D ViolinIIMusicVoice measure 237]                         %! SM4
-    R1 * 3/4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolinIIMusicVoice measure 238]                         %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 239]                         %! SM4
     R1 * 1
     
     % [D ViolinIIMusicVoice measure 240]                         %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 241]                         %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 242]                         %! SM4
     R1 * 1
@@ -5188,52 +5498,138 @@ D_ViolaMusicVoice = {
     R1 * 7/8
     
     % [D ViolaMusicVoice measure 226]                            %! SM4
-    R1 * 7/8
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'2.
+    \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 227]                            %! SM4
-    R1 * 1
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r8
     
     % [D ViolaMusicVoice measure 228]                            %! SM4
-    R1 * 1
+    r2
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 229]                            %! SM4
-    R1 * 5/8
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 230]                            %! SM4
-    R1 * 3/4
+    c'2
+    \glissando                                                   %! SC
+    
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolaMusicVoice measure 231]                            %! SM4
     R1 * 3/4
     
     % [D ViolaMusicVoice measure 232]                            %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 233]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    r2
     
     % [D ViolaMusicVoice measure 234]                            %! SM4
-    R1 * 3/4
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
     
     % [D ViolaMusicVoice measure 235]                            %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    r2
     
     % [D ViolaMusicVoice measure 236]                            %! SM4
-    R1 * 3/4
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolaMusicVoice measure 237]                            %! SM4
-    R1 * 3/4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolaMusicVoice measure 238]                            %! SM4
     R1 * 1/2
     
     % [D ViolaMusicVoice measure 239]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolaMusicVoice measure 240]                            %! SM4
     R1 * 7/8
     
     % [D ViolaMusicVoice measure 241]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolaMusicVoice measure 242]                            %! SM4
     R1 * 1
@@ -5586,64 +5982,253 @@ D_CelloMusicVoice = {
     c'8
     
     % [D CelloMusicVoice measure 225]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
     
     % [D CelloMusicVoice measure 226]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r2
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 227]                            %! SM4
-    R1 * 1
+    c'4.
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 228]                            %! SM4
-    R1 * 1
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r2
     
     % [D CelloMusicVoice measure 229]                            %! SM4
-    R1 * 5/8
+    r4.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 230]                            %! SM4
-    R1 * 3/4
+    c'2
+    \glissando                                                   %! SC
+    
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D CelloMusicVoice measure 231]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D CelloMusicVoice measure 232]                            %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 233]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    r2
     
     % [D CelloMusicVoice measure 234]                            %! SM4
-    R1 * 3/4
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
     
     % [D CelloMusicVoice measure 235]                            %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 236]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    r2
     
     % [D CelloMusicVoice measure 237]                            %! SM4
     R1 * 3/4
     
     % [D CelloMusicVoice measure 238]                            %! SM4
-    R1 * 1/2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'4.
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D CelloMusicVoice measure 239]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D CelloMusicVoice measure 240]                            %! SM4
     R1 * 7/8
     
     % [D CelloMusicVoice measure 241]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D CelloMusicVoice measure 242]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D CelloMusicVoice measure 243]                            %! SM4
     R1 * 1/4
-    
-    % [D CelloMusicVoice measure 244]                            %! SM4
-    R1 * 3/4
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [D CelloMusicVoice measure 244]                        %! SM4
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        0
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'4
+        -\downbow
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        4
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'4.
+        \stopTextSpan
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        5
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.right.text = \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \fraction
+                        6
+                        7
+                }
+            }
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'8
+        \stopTextSpan
+        [
+        \startTextSpan
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        \stopTextSpan
+    }
     
     % [D CelloMusicVoice measure 245]                            %! SM4
     R1 * 1/4

@@ -118,7 +118,6 @@ maker(
 
 maker(
     ('vc', 6),
-    baca.bcps(),
     baca.dynamic('p'),
     baca.markup.boxed('1/2 clt'),
     baca.script_staff_padding(6),
@@ -126,6 +125,7 @@ maker(
     baca.tuplet_bracket_staff_padding(1),
     baca.tuplet_brackets_down(),
     stirrings_still.accelerando(stop=(3, 32)),
+    stirrings_still.bcps(),
     )
 
 maker(
@@ -452,8 +452,8 @@ maker(
 
 maker(
     ('vc', [(46, 50), 52]),
-    (baca.bcps(rotation=-4), 0),
-    (baca.bcps(rotation=-8), 1),
+    (stirrings_still.bcps(rotation=-4), 0),
+    (stirrings_still.bcps(rotation=-8), 1),
     baca.dls_staff_padding(5),
     baca.markup.boxed('1/2 clt'),
     baca.pitch('E2'),

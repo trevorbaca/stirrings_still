@@ -1497,7 +1497,7 @@ SEGMENTS
             hair resumes;
             reenters up one step;
             niente < p governs stage;
-        <<[C.2 (crunch circles + up-glissando) 3-4/4] suffix [D.22]>>:
+        <<[C.2 (crunch circles + up-glissando) 3-4/4] suffix [D.22]>> (89-90):
             <<summon past time>>;
             adagio;
             tutti maximally tight talon-crunch circles repeat:
