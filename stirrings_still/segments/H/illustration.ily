@@ -6798,7 +6798,7 @@ H_CelloMusicVoice = {
             \concat
                 {
                     \fraction
-                        0
+                        7
                         7
                     \hspace
                         #0.25
@@ -6812,7 +6812,7 @@ H_CelloMusicVoice = {
         \once \override TextSpanner.dash-fraction = 1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         e,8
-        -\downbow
+        -\upbow
         \glissando                                               %! SC
         \<                                                       %! HC1
         \ppp                                                     %! HC1
@@ -6834,55 +6834,6 @@ H_CelloMusicVoice = {
             \concat
                 {
                     \fraction
-                        4
-                        7
-                    \hspace
-                        #0.25
-                }
-            }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
-        e,8
-        ]
-        \stopTextSpan
-        \glissando                                               %! SC
-        \startTextSpan
-        
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \fraction
-                        5
-                        7
-                    \hspace
-                        #0.25
-                }
-            }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
-        e,4
-        \stopTextSpan
-        \glissando                                               %! SC
-        \startTextSpan
-        
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \fraction
                         6
                         7
                     \hspace
@@ -6896,6 +6847,58 @@ H_CelloMusicVoice = {
         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
         \once \override TextSpanner.dash-fraction = 1
         e,8
+        -\downbow
+        ]
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        7
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,4
+        -\upbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        0
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,8
+        -\downbow
         \stopTextSpan
         \glissando                                               %! SC
         [
@@ -6936,7 +6939,7 @@ H_CelloMusicVoice = {
         \concat
             {
                 \fraction
-                    6
+                    0
                     7
                 \hspace
                     #0.25
@@ -7012,7 +7015,7 @@ H_CelloMusicVoice = {
         \concat
             {
                 \fraction
-                    7
+                    4
                     7
                 \hspace
                     #0.25
@@ -7025,7 +7028,6 @@ H_CelloMusicVoice = {
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
     \once \override TextSpanner.dash-fraction = 1
     e,8
-    -\upbow
     \stopTextSpan
     \glissando                                                   %! SC
     \startTextSpan
@@ -7037,7 +7039,7 @@ H_CelloMusicVoice = {
         \concat
             {
                 \fraction
-                    0
+                    5
                     7
                 \hspace
                     #0.25
@@ -7050,7 +7052,6 @@ H_CelloMusicVoice = {
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
     \once \override TextSpanner.dash-fraction = 1
     e,8
-    -\downbow
     ]
     \stopTextSpan
     \glissando                                                   %! SC
@@ -7065,7 +7066,7 @@ H_CelloMusicVoice = {
             \concat
                 {
                     \fraction
-                        7
+                        6
                         7
                     \hspace
                         #0.25
@@ -7078,6 +7079,30 @@ H_CelloMusicVoice = {
         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
         \once \override TextSpanner.dash-fraction = 1
         e,2
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        7
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,4
         -\upbow
         \stopTextSpan
         \glissando                                               %! SC
@@ -7090,7 +7115,7 @@ H_CelloMusicVoice = {
             \concat
                 {
                     \fraction
-                        0
+                        6
                         7
                     \hspace
                         #0.25
@@ -7115,56 +7140,33 @@ H_CelloMusicVoice = {
             \concat
                 {
                     \fraction
+                        7
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,4
+        -\upbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        0
                         4
-                        7
-                    \hspace
-                        #0.25
-                }
-            }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
-        e,4
-        \stopTextSpan
-        \glissando                                               %! SC
-        \startTextSpan
-        
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \fraction
-                        5
-                        7
-                    \hspace
-                        #0.25
-                }
-            }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
-        e,4
-        \stopTextSpan
-        \glissando                                               %! SC
-        \startTextSpan
-        
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \fraction
-                        6
-                        7
                     \hspace
                         #0.25
                 }
@@ -7176,6 +7178,7 @@ H_CelloMusicVoice = {
         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
         \once \override TextSpanner.dash-fraction = 1
         e,2
+        -\downbow
         \stopTextSpan
         \glissando                                               %! SC
         \startTextSpan
@@ -7183,108 +7186,6 @@ H_CelloMusicVoice = {
     \times 8/9 {
         
         % [H CelloMusicVoice measure 507]                        %! SM4
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \fraction
-                        7
-                        7
-                    \hspace
-                        #0.25
-                }
-            }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
-        e,8
-        -\upbow
-        \stopTextSpan
-        \glissando                                               %! SC
-        [
-        \startTextSpan
-        
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \fraction
-                        6
-                        7
-                    \hspace
-                        #0.25
-                }
-            }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
-        e,8
-        -\downbow
-        \stopTextSpan
-        \glissando                                               %! SC
-        \startTextSpan
-        
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \fraction
-                        7
-                        7
-                    \hspace
-                        #0.25
-                }
-            }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
-        e,8
-        -\upbow
-        ]
-        \stopTextSpan
-        \glissando                                               %! SC
-        \startTextSpan
-        
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \fraction
-                        0
-                        4
-                    \hspace
-                        #0.25
-                }
-            }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
-        e,4
-        -\downbow
-        \stopTextSpan
-        \glissando                                               %! SC
-        \startTextSpan
-        
         \once \override TextSpanner.Y-extent = ##f
         \once \override TextSpanner.arrow-width = 0.25
         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -7355,6 +7256,7 @@ H_CelloMusicVoice = {
         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
         \once \override TextSpanner.dash-fraction = 1
         e,8
+        ]
         \stopTextSpan
         \glissando                                               %! SC
         \startTextSpan
@@ -7378,8 +7280,106 @@ H_CelloMusicVoice = {
         \once \override TextSpanner.bound-details.right.padding = 0.5
         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
         \once \override TextSpanner.dash-fraction = 1
-        e,8
+        e,4
         -\downbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        4
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,8
+        \stopTextSpan
+        \glissando                                               %! SC
+        [
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        5
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,8
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        6
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,8
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        7
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,8
+        -\upbow
         ]
         \stopTextSpan
         \glissando                                               %! SC
@@ -7400,55 +7400,57 @@ H_CelloMusicVoice = {
         \concat
             {
                 \fraction
-                    4
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    \once \override TextSpanner.bound-details.right-broken.padding = 0
-    \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.arrow = ##t
-    \once \override TextSpanner.bound-details.right.padding = 0.5
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-    \once \override TextSpanner.dash-fraction = 1
-    e,8
-    \stopTextSpan
-    \glissando                                                   %! SC
-    \startTextSpan
-    
-    \once \override TextSpanner.Y-extent = ##f
-    \once \override TextSpanner.arrow-width = 0.25
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \fraction
-                    5
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    \once \override TextSpanner.bound-details.right-broken.padding = 0
-    \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.arrow = ##t
-    \once \override TextSpanner.bound-details.right.padding = 0.5
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-    \once \override TextSpanner.dash-fraction = 1
-    e,8
-    \stopTextSpan
-    \glissando                                                   %! SC
-    \startTextSpan
-    
-    \once \override TextSpanner.Y-extent = ##f
-    \once \override TextSpanner.arrow-width = 0.25
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \fraction
                     6
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
+    e,8
+    -\downbow
+    \stopTextSpan
+    \glissando                                                   %! SC
+    \startTextSpan
+    
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    7
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
+    e,8
+    -\upbow
+    \stopTextSpan
+    \glissando                                                   %! SC
+    \startTextSpan
+    
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    0
                     7
                 \hspace
                     #0.25
@@ -7471,6 +7473,7 @@ H_CelloMusicVoice = {
         }
     \once \override TextSpanner.dash-fraction = 1
     e,8
+    -\downbow
     \stopTextSpan
     \glissando                                                   %! SC
     \startTextSpan
@@ -7513,7 +7516,7 @@ H_CelloMusicVoice = {
             \concat
                 {
                     \fraction
-                        0
+                        7
                         7
                     \hspace
                         #0.25
@@ -7527,7 +7530,7 @@ H_CelloMusicVoice = {
         \once \override TextSpanner.dash-fraction = 1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         e,8
-        -\downbow
+        -\upbow
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \glissando                                               %! SC
         [
@@ -7548,7 +7551,7 @@ H_CelloMusicVoice = {
             \concat
                 {
                     \fraction
-                        4
+                        0
                         7
                     \hspace
                         #0.25
@@ -7561,6 +7564,7 @@ H_CelloMusicVoice = {
         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
         \once \override TextSpanner.dash-fraction = 1
         e,8
+        -\downbow
         ]
         \stopTextSpan
         \glissando                                               %! SC
@@ -7573,7 +7577,7 @@ H_CelloMusicVoice = {
             \concat
                 {
                     \fraction
-                        5
+                        7
                         7
                     \hspace
                         #0.25
@@ -7590,17 +7594,19 @@ H_CelloMusicVoice = {
                     \hspace
                         #0.0
                     \fraction
-                        6
+                        0
                         7
                 }
             }
         \once \override TextSpanner.dash-fraction = 1
         e,4
+        -\upbow
         \stopTextSpan
         \glissando                                               %! SC
         \startTextSpan
         
         e,8
+        -\downbow
         \stopTextSpan
         \revert DynamicLineSpanner.staff-padding                 %! OC2
         \revert TextScript.staff-padding                         %! OC2

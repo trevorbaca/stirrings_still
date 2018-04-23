@@ -96,7 +96,7 @@ maker(
     (stirrings_still.strokes(-1, abjad.silence([1], 2)), 1),
     (stirrings_still.strokes(-2, abjad.silence([0, 1], 3)), 2),
     (stirrings_still.strokes(-3, abjad.silence([1, 2], 3)), 3),
-    stirrings_still.flat_glissandi(),
+    stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
@@ -105,7 +105,7 @@ maker(
     (stirrings_still.strokes(-1, abjad.silence([1], 2)), 1),
     (stirrings_still.strokes(-2, abjad.silence([0], 3)), 2),
     (stirrings_still.strokes(-3, abjad.silence([1, 2], 3)), 3),
-    stirrings_still.flat_glissandi(),
+    stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
@@ -114,7 +114,7 @@ maker(
     (stirrings_still.strokes(-1, abjad.silence([1], 2)), 1),
     (stirrings_still.strokes(-2, abjad.silence([0], 3)), 2),
     (stirrings_still.strokes(-3, abjad.silence([1], 3)), 3),
-    stirrings_still.flat_glissandi(),
+    stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
@@ -123,7 +123,7 @@ maker(
     (stirrings_still.strokes(0, abjad.silence([2], 3)), 1),
     (stirrings_still.strokes(-2, abjad.silence([0], 3)), 2),
     (stirrings_still.strokes(-3, abjad.silence([1], 3)), 3),
-    stirrings_still.flat_glissandi(),
+    stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
@@ -132,7 +132,7 @@ maker(
     (stirrings_still.strokes(0, abjad.silence([2], 3)), 1),
     (stirrings_still.strokes(-2, abjad.silence([0], 2)), 2),
     (stirrings_still.strokes(-2, abjad.silence([2], 3)), 3),
-    stirrings_still.flat_glissandi(),
+    stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
@@ -142,11 +142,24 @@ maker(
     (stirrings_still.strokes(0, abjad.silence([1], 2)), 2),
     (stirrings_still.strokes(0, abjad.silence([0], 3)), 3),
     baca.dynamic('mf'),
-    stirrings_still.flat_glissandi(),
+    stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
     ('vc', 38),
-    stirrings_still.bcps(rotation=-12),
+    baca.dls_staff_padding(5),
+    baca.dynamic('f'),
+    baca.markup.boxed('1/2 clt'),
+    baca.text_script_staff_padding(11),
+    baca.text_spanner_staff_padding(7),
+    stirrings_still.bcps(rotation=-3),
+    stirrings_still.glissando_without_ties(),
     stirrings_still.trajectories('B', -2)
+    )
+
+maker(
+    (tutti, (40, 45)),
+    baca.dynamic('pp'),
+    stirrings_still.ntlt_flat_glissandi(),
+    stirrings_still.strokes(0),
     )

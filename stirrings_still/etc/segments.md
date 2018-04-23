@@ -1213,13 +1213,13 @@ SEGMENTS
     [D.8] (47 + long)
     (1 measure)
     andante governs stage;
-    tutti urtext declamation [A.1] reappears:
+    <<[A.1 (tutti urtext declamation)] reappears>>:
         single urtext declamation (two chords [A.1]):
-            densely spaced lower-register reappears;
-            stopped lh reappears;
-            hair continues;
-            tasto reappears;
-            p governs stage;
+        densely spaced lower-register reappears;
+        stopped lh reappears;
+        hair continues;
+        tasto reappears;
+        p governs stage;
     long fermata (48);
 
     [D.9] (49-50 + 51 + 52-53 + long)
