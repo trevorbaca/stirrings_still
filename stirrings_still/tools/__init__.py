@@ -3,6 +3,7 @@ from .ScoreTemplate import ScoreTemplate
 from .StageSpecifier import StageSpecifier
 from .StageToken import StageToken
 from .accelerando import accelerando
+from .bcps import bcps
 from .circles import circles
 from .clockticks import clockticks
 from .desynchronization import desynchronization
@@ -12,6 +13,7 @@ from .margin_markup import margin_markup
 from .operations import operations
 from .pickets import pickets
 from .second_order_stages import second_order_stages
+from .stage_markup import stage_markup
 from .strokes import strokes
 from .taper import taper
 from .time import time
