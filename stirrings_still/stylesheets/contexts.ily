@@ -76,7 +76,8 @@
         \override RehearsalMark.outside-staff-priority = 200
         \override RehearsalMark.self-alignment-X = #center
 
-        \override TimeSignature.X-extent = #'(0 . 0)
+        %\override TimeSignature.X-extent = #'(0 . 0)
+        \override TimeSignature.X-extent = ##f
         \override TimeSignature.break-align-symbol = #'left-edge
         \override TimeSignature.break-visibility = #end-of-line-invisible
         \override TimeSignature.font-size = 3
