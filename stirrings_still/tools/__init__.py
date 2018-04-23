@@ -8,8 +8,9 @@ from .circles import circles
 from .clockticks import clockticks
 from .desynchronization import desynchronization
 from .first_order_stages import first_order_stages
-from .flat_glissandi import flat_glissandi
+from .glissando_without_ties import glissando_without_ties
 from .margin_markup import margin_markup
+from .ntlt_flat_glissandi import ntlt_flat_glissandi
 from .operations import operations
 from .pickets import pickets
 from .second_order_stages import second_order_stages

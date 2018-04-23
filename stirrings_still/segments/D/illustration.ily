@@ -4647,22 +4647,60 @@ D_ViolinIMusicVoice = {
     R1 * 1/4
     
     % [D ViolinIMusicVoice measure 246]                          %! SM4
-    R1 * 1/2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'4.
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 247]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolinIMusicVoice measure 248]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolinIMusicVoice measure 249]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 250]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 251]                          %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 252]                          %! SM4
     R1 * 1/4
@@ -5132,22 +5170,60 @@ D_ViolinIIMusicVoice = {
     R1 * 1/4
     
     % [D ViolinIIMusicVoice measure 246]                         %! SM4
-    R1 * 1/2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'4.
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 247]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolinIIMusicVoice measure 248]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolinIIMusicVoice measure 249]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 250]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 251]                         %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 252]                         %! SM4
     R1 * 1/4
@@ -5646,22 +5722,60 @@ D_ViolaMusicVoice = {
     R1 * 1/4
     
     % [D ViolaMusicVoice measure 246]                            %! SM4
-    R1 * 1/2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'4.
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolaMusicVoice measure 247]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolaMusicVoice measure 248]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D ViolaMusicVoice measure 249]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolaMusicVoice measure 250]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolaMusicVoice measure 251]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D ViolaMusicVoice measure 252]                            %! SM4
     R1 * 1/4
@@ -6143,6 +6257,9 @@ D_CelloMusicVoice = {
     \times 6/7 {
         
         % [D CelloMusicVoice measure 244]                        %! SM4
+        \override DynamicLineSpanner.staff-padding = #'5         %! OC1
+        \override TextScript.staff-padding = #11                 %! OC1
+        \override TextSpanner.staff-padding = #7                 %! OC1
         \once \override TextSpanner.Y-extent = ##f
         \once \override TextSpanner.arrow-width = 0.25
         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -6150,7 +6267,7 @@ D_CelloMusicVoice = {
             \concat
                 {
                     \fraction
-                        0
+                        6
                         7
                     \hspace
                         #0.25
@@ -6162,10 +6279,21 @@ D_CelloMusicVoice = {
         \once \override TextSpanner.bound-details.right.padding = 0.5
         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
         \once \override TextSpanner.dash-fraction = 1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'4
         -\downbow
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \glissando                                               %! SC
         \startTextSpan
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    \override                                    %! IC
+                        #'(box-padding . 0.5)                    %! IC
+                        \box                                     %! IC
+                            "1/2 clt"                            %! IC
+            }                                                    %! IC
         
         \once \override TextSpanner.Y-extent = ##f
         \once \override TextSpanner.arrow-width = 0.25
@@ -6174,7 +6302,7 @@ D_CelloMusicVoice = {
             \concat
                 {
                     \fraction
-                        4
+                        7
                         7
                     \hspace
                         #0.25
@@ -6188,7 +6316,9 @@ D_CelloMusicVoice = {
         \once \override TextSpanner.dash-fraction = 1
         \makeBlue                                                %! SM24
         c'4.
+        -\upbow
         \stopTextSpan
+        \glissando                                               %! SC
         \startTextSpan
         
         \once \override TextSpanner.Y-extent = ##f
@@ -6198,7 +6328,7 @@ D_CelloMusicVoice = {
             \concat
                 {
                     \fraction
-                        5
+                        6
                         7
                     \hspace
                         #0.25
@@ -6215,43 +6345,87 @@ D_CelloMusicVoice = {
                     \hspace
                         #0.0
                     \fraction
-                        6
+                        7
                         7
                 }
             }
         \once \override TextSpanner.dash-fraction = 1
         \makeBlue                                                %! SM24
         c'8
+        -\downbow
         \stopTextSpan
+        \glissando                                               %! SC
         [
         \startTextSpan
         
         \makeBlue                                                %! SM24
         c'8
+        -\upbow
         ]
         \stopTextSpan
+        \revert DynamicLineSpanner.staff-padding                 %! OC2
+        \revert TextScript.staff-padding                         %! OC2
+        \revert TextSpanner.staff-padding                        %! OC2
     }
     
     % [D CelloMusicVoice measure 245]                            %! SM4
     R1 * 1/4
     
     % [D CelloMusicVoice measure 246]                            %! SM4
-    R1 * 1/2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'4.
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D CelloMusicVoice measure 247]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D CelloMusicVoice measure 248]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [D CelloMusicVoice measure 249]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D CelloMusicVoice measure 250]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2..
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D CelloMusicVoice measure 251]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [D CelloMusicVoice measure 252]                            %! SM4
     R1 * 1/4

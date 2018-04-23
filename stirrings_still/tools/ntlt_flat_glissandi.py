@@ -1,8 +1,8 @@
 import baca
 
 
-def flat_glissandi():
-    r'''Changes ties to flat glissandi.
+def ntlt_flat_glissandi():
+    r'''Changes nontrivial logical ties to flat glissandi.
     '''
     return baca.map(
         baca.suite([

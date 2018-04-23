@@ -126,7 +126,7 @@ maker(
     baca.tuplet_bracket_staff_padding(1),
     baca.tuplet_brackets_down(),
     stirrings_still.accelerando(stop=(3, 32)),
-    stirrings_still.bcps(),
+    stirrings_still.bcps(rotation=0),
     )
 
 maker(
@@ -458,12 +458,9 @@ maker(
     baca.dls_staff_padding(5),
     baca.markup.boxed('1/2 clt'),
     baca.pitch('E2'),
-    baca.suite([
-        baca.untie_to(selector=baca.leaves()),
-        baca.glissando(allow_repeats=True),
-        ]),
     baca.text_script_staff_padding(11),
     baca.text_spanner_staff_padding(7),
+    stirrings_still.glissando_without_ties(),
     stirrings_still.trajectories('A', -1),
     )
 
