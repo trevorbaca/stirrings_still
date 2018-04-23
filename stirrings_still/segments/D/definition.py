@@ -59,11 +59,23 @@ maker(
     (stirrings_still.strokes(-1, abjad.silence([1], 2)), 1),
     (stirrings_still.strokes(-2, abjad.silence([0, 1], 3)), 2),
     (stirrings_still.strokes(-3, abjad.silence([1, 2], 3)), 3),
-    baca.map(
-        baca.suite([
-            baca.untie_to(selector=baca.leaves()),
-            baca.glissando(allow_repeats=True),
-            ]),
-        baca.logical_ties(nontrivial=True), 
-        ),
+    stirrings_still.flat_glissandi(),
+    )
+
+maker(
+    (tutti, (7, 12)),
+    (stirrings_still.strokes(0, abjad.silence([0], 2)), 0),
+    (stirrings_still.strokes(-1, abjad.silence([1], 2)), 1),
+    (stirrings_still.strokes(-2, abjad.silence([0], 3)), 2),
+    (stirrings_still.strokes(-3, abjad.silence([1, 2], 3)), 3),
+    stirrings_still.flat_glissandi(),
+    )
+
+maker(
+    (tutti, (13, 18)),
+    (stirrings_still.strokes(0, abjad.silence([0], 2)), 0),
+    (stirrings_still.strokes(-1, abjad.silence([1], 2)), 1),
+    (stirrings_still.strokes(-2, abjad.silence([0], 3)), 2),
+    (stirrings_still.strokes(-3, abjad.silence([1], 3)), 3),
+    stirrings_still.flat_glissandi(),
     )
