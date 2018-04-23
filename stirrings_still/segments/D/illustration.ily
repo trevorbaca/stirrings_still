@@ -2212,7 +2212,7 @@ D_GlobalSkips = {
                     {                                                    %! IC
                         \whiteout                                        %! IC
                             \upright                                     %! IC
-                                [D.8]                                    %! IC
+                                [A.1]                                    %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -4704,9 +4704,16 @@ D_ViolinIMusicVoice = {
     
     % [D ViolinIMusicVoice measure 252]                          %! SM4
     R1 * 1/4
-    
-    % [D ViolinIMusicVoice measure 253]                          %! SM4
-    R1 * 7/8
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/12 {
+        
+        % [D ViolinIMusicVoice measure 253]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'1
+        
+        \makeBlue                                                %! SM24
+        c'2
+    }
     
     % [D ViolinIMusicVoice measure 254]                          %! SM4
     R1 * 1/4
@@ -5227,9 +5234,16 @@ D_ViolinIIMusicVoice = {
     
     % [D ViolinIIMusicVoice measure 252]                         %! SM4
     R1 * 1/4
-    
-    % [D ViolinIIMusicVoice measure 253]                         %! SM4
-    R1 * 7/8
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/12 {
+        
+        % [D ViolinIIMusicVoice measure 253]                     %! SM4
+        \makeBlue                                                %! SM24
+        c'1
+        
+        \makeBlue                                                %! SM24
+        c'2
+    }
     
     % [D ViolinIIMusicVoice measure 254]                         %! SM4
     R1 * 1/4
@@ -5779,9 +5793,16 @@ D_ViolaMusicVoice = {
     
     % [D ViolaMusicVoice measure 252]                            %! SM4
     R1 * 1/4
-    
-    % [D ViolaMusicVoice measure 253]                            %! SM4
-    R1 * 7/8
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/12 {
+        
+        % [D ViolaMusicVoice measure 253]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'1
+        
+        \makeBlue                                                %! SM24
+        c'2
+    }
     
     % [D ViolaMusicVoice measure 254]                            %! SM4
     R1 * 1/4
@@ -6429,9 +6450,16 @@ D_CelloMusicVoice = {
     
     % [D CelloMusicVoice measure 252]                            %! SM4
     R1 * 1/4
-    
-    % [D CelloMusicVoice measure 253]                            %! SM4
-    R1 * 7/8
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/12 {
+        
+        % [D CelloMusicVoice measure 253]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'1
+        
+        \makeBlue                                                %! SM24
+        c'2
+    }
     
     % [D CelloMusicVoice measure 254]                            %! SM4
     R1 * 1/4

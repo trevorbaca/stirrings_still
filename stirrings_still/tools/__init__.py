@@ -6,6 +6,7 @@ from .accelerando import accelerando
 from .bcps import bcps
 from .circles import circles
 from .clockticks import clockticks
+from .declamation import declamation
 from .desynchronization import desynchronization
 from .first_order_stages import first_order_stages
 from .glissando_without_ties import glissando_without_ties
