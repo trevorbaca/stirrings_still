@@ -4708,8 +4708,10 @@ D_ViolinIMusicVoice = {
     \times 7/12 {
         
         % [D ViolinIMusicVoice measure 253]                      %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'1
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         
         \makeBlue                                                %! SM24
         c'2
@@ -5238,8 +5240,10 @@ D_ViolinIIMusicVoice = {
     \times 7/12 {
         
         % [D ViolinIIMusicVoice measure 253]                     %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'1
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         
         \makeBlue                                                %! SM24
         c'2
@@ -5797,8 +5801,10 @@ D_ViolaMusicVoice = {
     \times 7/12 {
         
         % [D ViolaMusicVoice measure 253]                        %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'1
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         
         \makeBlue                                                %! SM24
         c'2
@@ -5808,24 +5814,51 @@ D_ViolaMusicVoice = {
     R1 * 1/4
     
     % [D ViolaMusicVoice measure 255]                            %! SM4
-    R1 * 5/8
+    \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
+    \override RepeatTie.direction = #up                          %! OC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    c'2
+    \effort_mp                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                \override                                        %! IC
+                    #'(box-padding . 0.5)                        %! IC
+                    \box                                         %! IC
+                        "tailpiece: poco flicker"                %! IC
+        }                                                        %! IC
+    
+    c'8
+    \repeatTie
     
     % [D ViolaMusicVoice measure 256]                            %! SM4
-    R1 * 3/4
+    c'2.
+    \repeatTie
     
     % [D ViolaMusicVoice measure 257]                            %! SM4
-    R1 * 3/2
+    c'1.
+    \repeatTie
     
     % [D ViolaMusicVoice measure 258]                            %! SM4
-    R1 * 7/8
+    c'2..
+    \repeatTie
     
     % [D ViolaMusicVoice measure 259]                            %! SM4
-    R1 * 1
+    c'1
+    \repeatTie
+    \revert RepeatTie.direction                                  %! OC2
     
     % [D ViolaMusicVoice measure 260]                            %! SM4
     R1 * 1/4
     
     % [D ViolaMusicVoice measure 261]                            %! SM4
+    \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 5             %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     R1 * 1
     
     % [D ViolaMusicVoice measure 262]                            %! SM4
@@ -6454,8 +6487,10 @@ D_CelloMusicVoice = {
     \times 7/12 {
         
         % [D CelloMusicVoice measure 253]                        %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'1
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         
         \makeBlue                                                %! SM24
         c'2
@@ -6465,19 +6500,29 @@ D_CelloMusicVoice = {
     R1 * 1/4
     
     % [D CelloMusicVoice measure 255]                            %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \repeatTie
     
     % [D CelloMusicVoice measure 256]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
     
     % [D CelloMusicVoice measure 257]                            %! SM4
     R1 * 3/2
     
     % [D CelloMusicVoice measure 258]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
     
     % [D CelloMusicVoice measure 259]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [D CelloMusicVoice measure 260]                            %! SM4
     R1 * 1/4

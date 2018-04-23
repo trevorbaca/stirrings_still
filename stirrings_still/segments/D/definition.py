@@ -166,5 +166,27 @@ maker(
 
 maker(
     (tutti, 47),
+    baca.dynamic('p'),
     stirrings_still.declamation(),
+    )
+
+maker(
+    ('va', (49, 53)),
+    baca.effort_dynamic('mp'),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+    baca.markup.boxed('tailpiece: poco flicker'),
+    baca.repeat_ties_up(),
+    baca.staff_lines(1),
+    baca.staff_position(0),
+    )
+
+maker(
+    ('vc', [(49, 50), (52, 53)]),
+    baca.dynamic('p', redundant=True),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+    )
+
+maker(
+    ('va', 55),
+    baca.staff_lines(5),
     )
