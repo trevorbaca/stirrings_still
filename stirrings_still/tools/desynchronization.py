@@ -7,7 +7,7 @@ def desynchronization(denominator=None, extra_counts=None):
     r'''Makes desynchronization rhythms.
     '''
     if denominator is None:
-        denominators = None
+        denominators = [8]
     else:
         assert isinstance(denominator, int), repr(denominator)
         denominators = [denominator]
@@ -18,6 +18,7 @@ def desynchronization(denominator=None, extra_counts=None):
             tuplet_specifier=rhythmos.TupletSpecifier(
                 denominator='divisions',
                 extract_trivial=True,
+                trivialize=True,
                 ),
             ),
         )

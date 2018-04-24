@@ -2613,7 +2613,7 @@ SEGMENTS
                 gradual harmonic-to-half-harmonic-to-stopped independently;
                 desynchronization;
                 f;
-        <<attacca remaining measure of [K.1]>>;
+        <<attacca remaining measure of [K.1]>> (5);
     attacca;
 
     [K.2] (6-8)

@@ -1,16 +1,21 @@
 TO-DO
 =====
 
-1.  Analyze volta application.
+1.  Add trajectories notator:
+    baca.hide_black_note_heads().
 
-2.  Make full down-bow and full up-bow glyphs.
+2.  Allow baca.markup.crine.boxed() instead of baca.markup.boxed('crine').
+
+3.  Analyze volta application.
+
+4.  Make full down-bow and full up-bow glyphs.
     Add to baca/stylesheets/scheme.ily.
 
-3.  Make stop-on-string glyph.
+5.  Make stop-on-string glyph.
     Make all transition-type glyphs.
     Add to baca/stylesheets/scheme.ily.
 
-4.  Make full-down-bow-stop-on-string and full-up-bow-stop-on-string glyphs.
+6.  Make full-down-bow-stop-on-string and full-up-bow-stop-on-string glyphs.
     Make all bow direction / bow termination ligatures.
     Add to baca/stylesheets/scheme.ily.
 
