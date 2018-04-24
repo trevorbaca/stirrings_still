@@ -86,8 +86,15 @@ maker(
     (stirrings_still.desynchronization(4, [0]), 2),
     (stirrings_still.desynchronization(4, [-1]), 3),
     baca.effort_dynamic('f'),
-    baca.markup.lines([
-        baca.markup.boxed('crine'),
-        'circles: each as wide as possible',
-        ]),
+    baca.markup.boxed('circles (hair): each as wide as poss.'),
+    baca.text_script_staff_padding(9),
+    baca.text_spanner_staff_padding(5),
+    baca.transition(
+        baca.markup.boxed('H'),
+        baca.markup.boxed('F'),
+        baca.markup.boxed('S'),
+        do_not_bookend=True,
+        selector=baca.leaves().enchain([3, 3, 99]),
+        spanner_selector=False,
+        ),
     )

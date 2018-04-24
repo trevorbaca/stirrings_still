@@ -2970,37 +2970,109 @@ K_ViolinIMusicVoice = {
     }
     
     % [K ViolinIMusicVoice measure 540]                          %! SM4
+    \override TextScript.staff-padding = #9                      %! OC1
+    \override TextSpanner.staff-padding = #5                     %! OC1
+    \once \override TextSpanner.Y-extent = ##f                   %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25               %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                H
+                \hspace
+                    #0.5
+            }
+        }                                                        %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t  %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
+    \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'8.
     \effort_f                                                    %! SM8:EXPLICIT_DYNAMIC:IC
     [
+    \startTextSpan                                               %! PWC1
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
-                \column                                          %! IC
-                    {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                \override                        %! IC
-                                    #'(box-padding . 0.5)        %! IC
-                                    \box                         %! IC
-                                        crine                    %! IC
-                        "circles: each as wide as possible"      %! IC
-                    }                                            %! IC
+                \override                                        %! IC
+                    #'(box-padding . 0.5)                        %! IC
+                    \box                                         %! IC
+                        "circles (hair): each as wide as poss."  %! IC
         }                                                        %! IC
     
     \makeBlue                                                    %! SM24
     c'8.
     
+    \once \override TextSpanner.Y-extent = ##f                   %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25               %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                F
+                \hspace
+                    #0.5
+            }
+        }                                                        %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t  %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
+    \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \makeBlue                                                    %! SM24
     c'8.
+    \stopTextSpan                                                %! PWC1
+    \startTextSpan                                               %! PWC1
     
     \makeBlue                                                    %! SM24
     c'8.
     
+    \once \override TextSpanner.Y-extent = ##f                   %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                S
+                \hspace
+                    #0.25
+            }
+        }                                                        %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 1.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.dash-period = 0                  %! PWC1
     \makeBlue                                                    %! SM24
     c'8.
+    \stopTextSpan                                                %! PWC1
+    \startTextSpan                                               %! PWC1
     
     \makeBlue                                                    %! SM24
     c'8.
@@ -3029,6 +3101,9 @@ K_ViolinIMusicVoice = {
         
         \makeBlue                                                %! SM24
         c'4
+        \stopTextSpan                                            %! PWC1
+        \revert TextScript.staff-padding                         %! OC2
+        \revert TextSpanner.staff-padding                        %! OC2
     }
     
     % [K ViolinIMusicVoice measure 542]                          %! SM4
@@ -3428,36 +3503,108 @@ K_ViolinIIMusicVoice = {
     \times 6/7 {
         
         % [K ViolinIIMusicVoice measure 540]                     %! SM4
+        \override TextScript.staff-padding = #9                  %! OC1
+        \override TextSpanner.staff-padding = #5                 %! OC1
+        \once \override TextSpanner.Y-extent = ##f               %! PWC1
+        \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+        \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            \override
+                                #'(box-padding . 0.5)
+                                \box
+                                    H
+                    \hspace
+                        #0.5
+                }
+            }                                                    %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+        \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+        \once \override TextSpanner.dash-period = 1.5            %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'4
         \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
+        \startTextSpan                                           %! PWC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
                 \upright                                         %! IC
-                    \column                                      %! IC
-                        {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    \override                    %! IC
-                                        #'(box-padding . 0.5)    %! IC
-                                        \box                     %! IC
-                                            crine                %! IC
-                            "circles: each as wide as possible"  %! IC
-                        }                                        %! IC
+                    \override                                    %! IC
+                        #'(box-padding . 0.5)                    %! IC
+                        \box                                     %! IC
+                            "circles (hair): each as wide as poss." %! IC
             }                                                    %! IC
         
         \makeBlue                                                %! SM24
         c'4
         
+        \once \override TextSpanner.Y-extent = ##f               %! PWC1
+        \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+        \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            \override
+                                #'(box-padding . 0.5)
+                                \box
+                                    F
+                    \hspace
+                        #0.5
+                }
+            }                                                    %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+        \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+        \once \override TextSpanner.dash-period = 1.5            %! PWC1
         \makeBlue                                                %! SM24
         c'4
+        \stopTextSpan                                            %! PWC1
+        \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
         c'4
         
+        \once \override TextSpanner.Y-extent = ##f               %! PWC1
+        \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            \override
+                                #'(box-padding . 0.5)
+                                \box
+                                    S
+                    \hspace
+                        #0.25
+                }
+            }                                                    %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right.padding = 1.5 %! PWC1
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.dash-period = 0              %! PWC1
         \makeBlue                                                %! SM24
         c'4
+        \stopTextSpan                                            %! PWC1
+        \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
         c'4
@@ -3480,6 +3627,9 @@ K_ViolinIIMusicVoice = {
     \makeBlue                                                    %! SM24
     c'8.
     ]
+    \stopTextSpan                                                %! PWC1
+    \revert TextScript.staff-padding                             %! OC2
+    \revert TextSpanner.staff-padding                            %! OC2
     
     % [K ViolinIIMusicVoice measure 542]                         %! SM4
     R1 * 7/8
@@ -3851,36 +4001,108 @@ K_ViolaMusicVoice = {
     }
     
     % [K ViolaMusicVoice measure 540]                            %! SM4
+    \override TextScript.staff-padding = #9                      %! OC1
+    \override TextSpanner.staff-padding = #5                     %! OC1
+    \once \override TextSpanner.Y-extent = ##f                   %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25               %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                H
+                \hspace
+                    #0.5
+            }
+        }                                                        %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t  %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
+    \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'4
     \effort_f                                                    %! SM8:EXPLICIT_DYNAMIC:IC
+    \startTextSpan                                               %! PWC1
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
-                \column                                          %! IC
-                    {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                \override                        %! IC
-                                    #'(box-padding . 0.5)        %! IC
-                                    \box                         %! IC
-                                        crine                    %! IC
-                        "circles: each as wide as possible"      %! IC
-                    }                                            %! IC
+                \override                                        %! IC
+                    #'(box-padding . 0.5)                        %! IC
+                    \box                                         %! IC
+                        "circles (hair): each as wide as poss."  %! IC
         }                                                        %! IC
     
     \makeBlue                                                    %! SM24
     c'4
     
+    \once \override TextSpanner.Y-extent = ##f                   %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25               %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                F
+                \hspace
+                    #0.5
+            }
+        }                                                        %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t  %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
+    \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \makeBlue                                                    %! SM24
     c'4
+    \stopTextSpan                                                %! PWC1
+    \startTextSpan                                               %! PWC1
     
     \makeBlue                                                    %! SM24
     c'4
     
+    \once \override TextSpanner.Y-extent = ##f                   %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                S
+                \hspace
+                    #0.25
+            }
+        }                                                        %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 1.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.dash-period = 0                  %! PWC1
     \makeBlue                                                    %! SM24
     c'4
+    \stopTextSpan                                                %! PWC1
+    \startTextSpan                                               %! PWC1
     
     \makeBlue                                                    %! SM24
     c'4
@@ -3894,6 +4116,9 @@ K_ViolaMusicVoice = {
     
     \makeBlue                                                    %! SM24
     c'4
+    \stopTextSpan                                                %! PWC1
+    \revert TextScript.staff-padding                             %! OC2
+    \revert TextSpanner.staff-padding                            %! OC2
     
     % [K ViolaMusicVoice measure 542]                            %! SM4
     R1 * 7/8
@@ -4303,36 +4528,108 @@ K_CelloMusicVoice = {
     \times 6/5 {
         
         % [K CelloMusicVoice measure 540]                        %! SM4
+        \override TextScript.staff-padding = #9                  %! OC1
+        \override TextSpanner.staff-padding = #5                 %! OC1
+        \once \override TextSpanner.Y-extent = ##f               %! PWC1
+        \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+        \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            \override
+                                #'(box-padding . 0.5)
+                                \box
+                                    H
+                    \hspace
+                        #0.5
+                }
+            }                                                    %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+        \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+        \once \override TextSpanner.dash-period = 1.5            %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'4
         \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
+        \startTextSpan                                           %! PWC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
                 \upright                                         %! IC
-                    \column                                      %! IC
-                        {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    \override                    %! IC
-                                        #'(box-padding . 0.5)    %! IC
-                                        \box                     %! IC
-                                            crine                %! IC
-                            "circles: each as wide as possible"  %! IC
-                        }                                        %! IC
+                    \override                                    %! IC
+                        #'(box-padding . 0.5)                    %! IC
+                        \box                                     %! IC
+                            "circles (hair): each as wide as poss." %! IC
             }                                                    %! IC
         
         \makeBlue                                                %! SM24
         c'4
         
+        \once \override TextSpanner.Y-extent = ##f               %! PWC1
+        \once \override TextSpanner.arrow-width = 0.25           %! PWC1
+        \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            \override
+                                #'(box-padding . 0.5)
+                                \box
+                                    F
+                    \hspace
+                        #0.5
+                }
+            }                                                    %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
+        \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
+        \once \override TextSpanner.dash-period = 1.5            %! PWC1
         \makeBlue                                                %! SM24
         c'4
+        \stopTextSpan                                            %! PWC1
+        \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
         c'4
         
+        \once \override TextSpanner.Y-extent = ##f               %! PWC1
+        \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            \override
+                                #'(box-padding . 0.5)
+                                \box
+                                    S
+                    \hspace
+                        #0.25
+                }
+            }                                                    %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+        \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+        \once \override TextSpanner.bound-details.right.padding = 1.5 %! PWC1
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+        \once \override TextSpanner.dash-period = 0              %! PWC1
         \makeBlue                                                %! SM24
         c'4
+        \stopTextSpan                                            %! PWC1
+        \startTextSpan                                           %! PWC1
     }
     
     % [K CelloMusicVoice measure 541]                            %! SM4
@@ -4341,6 +4638,9 @@ K_CelloMusicVoice = {
     
     \makeBlue                                                    %! SM24
     c'4.
+    \stopTextSpan                                                %! PWC1
+    \revert TextScript.staff-padding                             %! OC2
+    \revert TextSpanner.staff-padding                            %! OC2
     
     % [K CelloMusicVoice measure 542]                            %! SM4
     R1 * 7/8
