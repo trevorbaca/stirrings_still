@@ -2698,68 +2698,338 @@ K_GlobalSkips = {
 
 
 K_ViolinIMusicVoice = {
-    
-    % [K ViolinIMusicVoice measure 538]                          %! SM4
-    \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            "Vn. I"                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                             %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            "Vn. I"                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 3/4
-    \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“ViolinI”)                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Vn. I”]"                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [K ViolinIMusicVoice measure 538]                      %! SM4
+        \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                #12                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                "Vn. I"                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \set Staff.shortInstrumentName =                         %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                #12                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                "Vn. I"                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \override TextScript.staff-padding = #11                 %! OC1
+        \override TextSpanner.staff-padding = #7                 %! OC1
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        0
+                        7
+                    \hspace
+                        #0.25
+                }
             }
-        }
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            "Vn. I"                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            "Vn. I"                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    
-    % [K ViolinIMusicVoice measure 539]                          %! SM4
-    R1 * 7/8
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \clef "treble"                                           %! SM8:REAPPLIED_CLEF:SM37
+        \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
+    %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+        \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'8
+        -\downbow
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \glissando                                               %! SC
+        \startTextSpan
+        ^ \markup {
+            \column
+                {
+                    \line                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        {                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                            \with-color                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                                #(x11-color 'green4)             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                                (“ViolinI”)                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                    \line                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                        {                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                            \with-color                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                                #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                                "[“Vn. I”]"                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                        }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                    \line                                        %! IC
+                        {                                        %! IC
+                            \whiteout                            %! IC
+                                \upright                         %! IC
+                                    \override                    %! IC
+                                        #'(box-padding . 0.5)    %! IC
+                                        \box                     %! IC
+                                            "1/2 clt"            %! IC
+                        }                                        %! IC
+                }
+            }
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+        \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \markup {                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                #12                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                "Vn. I"                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \set Staff.shortInstrumentName =                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \markup {                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                #12                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                "Vn. I"                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        4
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'4
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        5
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'4
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        6
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'4
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [K ViolinIMusicVoice measure 539]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        \glissando                                               %! SC
+        [
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        7
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'8
+        -\upbow
+        ]
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        6
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'4
+        -\downbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        7
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.right.text = \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \fraction
+                        0
+                        7
+                }
+            }
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'4
+        -\upbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \makeBlue                                                %! SM24
+        c'4
+        -\downbow
+        \stopTextSpan
+        \revert TextScript.staff-padding                         %! OC2
+        \revert TextSpanner.staff-padding                        %! OC2
+    }
     
     % [K ViolinIMusicVoice measure 540]                          %! SM4
-    R1 * 3/2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'8.
+    \effort_f                                                    %! SM8:EXPLICIT_DYNAMIC:IC
+    [
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                \column                                          %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                \override                        %! IC
+                                    #'(box-padding . 0.5)        %! IC
+                                    \box                         %! IC
+                                        crine                    %! IC
+                        "circles: each as wide as possible"      %! IC
+                    }                                            %! IC
+        }                                                        %! IC
     
-    % [K ViolinIMusicVoice measure 541]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    ]
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/5 {
+        
+        % [K ViolinIMusicVoice measure 541]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [K ViolinIMusicVoice measure 542]                          %! SM4
     R1 * 7/8
@@ -2918,68 +3188,298 @@ K_ViolinIMusicStaff = {
 
 
 K_ViolinIIMusicVoice = {
-    
-    % [K ViolinIIMusicVoice measure 538]                         %! SM4
-    \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            "Vn. II"                                             %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                             %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            "Vn. II"                                             %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 3/4
-    \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“ViolinI”)                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Vn. II”]"                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [K ViolinIIMusicVoice measure 538]                     %! SM4
+        \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                #12                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                "Vn. II"                                         %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \set Staff.shortInstrumentName =                         %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                #12                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                "Vn. II"                                         %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \override TextScript.staff-padding = #11                 %! OC1
+        \override TextSpanner.staff-padding = #7                 %! OC1
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        4
+                        7
+                    \hspace
+                        #0.25
+                }
             }
-        }
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            "Vn. II"                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            "Vn. II"                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \clef "treble"                                           %! SM8:REAPPLIED_CLEF:SM37
+        \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
+    %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+        \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'4
+        -\downbow
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \glissando                                               %! SC
+        \startTextSpan
+        ^ \markup {
+            \column
+                {
+                    \line                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        {                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                            \with-color                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                                #(x11-color 'green4)             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                                (“ViolinI”)                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                    \line                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                        {                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                            \with-color                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                                #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                                "[“Vn. II”]"                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                        }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                    \line                                        %! IC
+                        {                                        %! IC
+                            \whiteout                            %! IC
+                                \upright                         %! IC
+                                    \override                    %! IC
+                                        #'(box-padding . 0.5)    %! IC
+                                        \box                     %! IC
+                                            "1/2 clt"            %! IC
+                        }                                        %! IC
+                }
+            }
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+        \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \markup {                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                #12                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                "Vn. II"                                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \set Staff.shortInstrumentName =                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \markup {                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                #12                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                "Vn. II"                                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        5
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'4
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        6
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'4.
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+    }
     
     % [K ViolinIIMusicVoice measure 539]                         %! SM4
-    R1 * 7/8
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    7
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    -\upbow
+    \stopTextSpan
+    \glissando                                                   %! SC
+    \startTextSpan
     
-    % [K ViolinIIMusicVoice measure 540]                         %! SM4
-    R1 * 3/2
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    6
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
+    \makeBlue                                                    %! SM24
+    c'4
+    -\downbow
+    \stopTextSpan
+    \glissando                                                   %! SC
+    \startTextSpan
+    
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    7
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.right.text = \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \fraction
+                    0
+                    7
+            }
+        }
+    \once \override TextSpanner.dash-fraction = 1
+    \makeBlue                                                    %! SM24
+    c'4
+    -\upbow
+    \stopTextSpan
+    \glissando                                                   %! SC
+    \startTextSpan
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    -\downbow
+    \stopTextSpan
+    \revert TextScript.staff-padding                             %! OC2
+    \revert TextSpanner.staff-padding                            %! OC2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [K ViolinIIMusicVoice measure 540]                     %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'4
+        \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    \column                                      %! IC
+                        {                                        %! IC
+                            \whiteout                            %! IC
+                                \upright                         %! IC
+                                    \override                    %! IC
+                                        #'(box-padding . 0.5)    %! IC
+                                        \box                     %! IC
+                                            crine                %! IC
+                            "circles: each as wide as possible"  %! IC
+                        }                                        %! IC
+            }                                                    %! IC
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [K ViolinIIMusicVoice measure 541]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'8.
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    ]
     
     % [K ViolinIIMusicVoice measure 542]                         %! SM4
     R1 * 7/8
@@ -3152,14 +3652,39 @@ K_ViolaMusicVoice = {
             #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Va.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+    \override TextScript.staff-padding = #11                     %! OC1
+    \override TextSpanner.staff-padding = #7                     %! OC1
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    5
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
     \clef "alto"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 3/4
-    \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'4
+    -\downbow
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \glissando                                                   %! SC
+    \startTextSpan
     ^ \markup {
         \column
             {
@@ -3175,6 +3700,15 @@ K_ViolaMusicVoice = {
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Va.”]                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                \override                        %! IC
+                                    #'(box-padding . 0.5)        %! IC
+                                    \box                         %! IC
+                                        "1/2 clt"                %! IC
+                    }                                            %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -3192,14 +3726,174 @@ K_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [K ViolaMusicVoice measure 539]                            %! SM4
-    R1 * 7/8
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    6
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
+    \makeBlue                                                    %! SM24
+    c'4.
+    \stopTextSpan
+    \glissando                                                   %! SC
+    \startTextSpan
+    
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    7
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    -\upbow
+    \stopTextSpan
+    \glissando                                                   %! SC
+    \startTextSpan
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/12 {
+        
+        % [K ViolaMusicVoice measure 539]                        %! SM4
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        6
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'2
+        -\downbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        7
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.right.text = \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \fraction
+                        0
+                        7
+                }
+            }
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'2
+        -\upbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \makeBlue                                                %! SM24
+        c'2
+        -\downbow
+        \stopTextSpan
+        \revert TextScript.staff-padding                         %! OC2
+        \revert TextSpanner.staff-padding                        %! OC2
+    }
     
     % [K ViolaMusicVoice measure 540]                            %! SM4
-    R1 * 3/2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'4
+    \effort_f                                                    %! SM8:EXPLICIT_DYNAMIC:IC
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                \column                                          %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                \override                        %! IC
+                                    #'(box-padding . 0.5)        %! IC
+                                    \box                         %! IC
+                                        crine                    %! IC
+                        "circles: each as wide as possible"      %! IC
+                    }                                            %! IC
+        }                                                        %! IC
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [K ViolaMusicVoice measure 541]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [K ViolaMusicVoice measure 542]                            %! SM4
     R1 * 7/8
@@ -3358,68 +4052,295 @@ K_ViolaMusicStaff = {
 
 
 K_CelloMusicVoice = {
-    
-    % [K CelloMusicVoice measure 538]                            %! SM4
-    \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            Vc.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                             %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            Vc.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "bass"                                                 %! SM8:REAPPLIED_CLEF:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 3/4
-    \p                                                           %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Cello”)                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            [“Vc.”]                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/5 {
+        
+        % [K CelloMusicVoice measure 538]                        %! SM4
+        \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                #12                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                Vc.                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \set Staff.shortInstrumentName =                         %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                #12                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                Vc.                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \override TextScript.staff-padding = #11                 %! OC1
+        \override TextSpanner.staff-padding = #7                 %! OC1
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        6
+                        7
+                    \hspace
+                        #0.25
+                }
             }
-        }
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    
-    % [K CelloMusicVoice measure 539]                            %! SM4
-    R1 * 7/8
-    
-    % [K CelloMusicVoice measure 540]                            %! SM4
-    R1 * 3/2
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \clef "bass"                                             %! SM8:REAPPLIED_CLEF:SM37
+        \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
+    %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+        \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'2.
+        -\downbow
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \glissando                                               %! SC
+        \startTextSpan
+        ^ \markup {
+            \column
+                {
+                    \line                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        {                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                            \with-color                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                                #(x11-color 'green4)             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                                (“Cello”)                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                    \line                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                        {                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                            \with-color                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                                #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                                [“Vc.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                        }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                    \line                                        %! IC
+                        {                                        %! IC
+                            \whiteout                            %! IC
+                                \upright                         %! IC
+                                    \override                    %! IC
+                                        #'(box-padding . 0.5)    %! IC
+                                        \box                     %! IC
+                                            "1/2 clt"            %! IC
+                        }                                        %! IC
+                }
+            }
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+        \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \markup {                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                #12                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                Vc.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \set Staff.shortInstrumentName =                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \markup {                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                #12                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                Vc.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        7
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'4
+        -\upbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        6
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'4
+        -\downbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [K CelloMusicVoice measure 539]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        \glissando                                               %! SC
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        7
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'4
+        -\upbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        0
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'4.
+        -\downbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        7
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.right.text = \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \fraction
+                        0
+                        7
+                }
+            }
+        \once \override TextSpanner.dash-fraction = 1
+        \makeBlue                                                %! SM24
+        c'8
+        -\upbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        [
+        \startTextSpan
+        
+        \makeBlue                                                %! SM24
+        c'8
+        -\downbow
+        ]
+        \stopTextSpan
+        \revert TextScript.staff-padding                         %! OC2
+        \revert TextSpanner.staff-padding                        %! OC2
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/5 {
+        
+        % [K CelloMusicVoice measure 540]                        %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'4
+        \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    \column                                      %! IC
+                        {                                        %! IC
+                            \whiteout                            %! IC
+                                \upright                         %! IC
+                                    \override                    %! IC
+                                        #'(box-padding . 0.5)    %! IC
+                                        \box                     %! IC
+                                            crine                %! IC
+                            "circles: each as wide as possible"  %! IC
+                        }                                        %! IC
+            }                                                    %! IC
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [K CelloMusicVoice measure 541]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'4.
     
     % [K CelloMusicVoice measure 542]                            %! SM4
     R1 * 7/8

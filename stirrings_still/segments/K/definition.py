@@ -59,3 +59,35 @@ time = (
     )
 
 stirrings_still.time(maker, time)
+
+tutti = ['vn1', 'vn2', 'va', 'vc']
+
+maker(
+    (tutti, (1, 2)),
+    (stirrings_still.bcps(rotation=0), 0),
+    (stirrings_still.bcps(rotation=-1), 1),
+    (stirrings_still.bcps(rotation=-2), 2),
+    (stirrings_still.bcps(rotation=-3), 3),
+    (stirrings_still.trajectories('B', 0, 0), 0),
+    (stirrings_still.trajectories('B', -1, -1), 1),
+    (stirrings_still.trajectories('B', -2, -2), 2),
+    (stirrings_still.trajectories('B', -3, -3), 3),
+    baca.dynamic('pp'),
+    baca.markup.boxed('1/2 clt'),
+    baca.text_script_staff_padding(11),
+    baca.text_spanner_staff_padding(7),
+    stirrings_still.glissando_without_ties(),
+    )
+
+maker(
+    (tutti, (3, 4)),
+    (stirrings_still.desynchronization(4, [2]), 0),
+    (stirrings_still.desynchronization(4, [1]), 1),
+    (stirrings_still.desynchronization(4, [0]), 2),
+    (stirrings_still.desynchronization(4, [-1]), 3),
+    baca.effort_dynamic('f'),
+    baca.markup.lines([
+        baca.markup.boxed('crine'),
+        'circles: each as wide as possible',
+        ]),
+    )
