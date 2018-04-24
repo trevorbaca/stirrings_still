@@ -147,3 +147,10 @@ maker(
     baca.text_script_parent_center(),
     stirrings_still.glissando_without_ties(),
     )
+
+maker(
+    (['vn1', 'vn2', 'vc'], (9, 17)),
+    (stirrings_still.to_flight([(10, 8), (3, 16)]), 0),
+    (stirrings_still.to_flight([(8, 8), (3, 16)]), 1),
+    (stirrings_still.to_flight([(12, 8), (3, 16)]), -1),
+    )

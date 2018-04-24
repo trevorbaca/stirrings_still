@@ -93,16 +93,16 @@
         \override VerticalAxisGroup.minimum-Y-extent = #'(-4 . 4)
     }
 
-    % STAFF
-    \context {
-        \Staff
-        \remove Time_signature_engraver
-    }
-
     % VOICE
     \context {
         \Voice
         \remove Forbid_line_break_engraver
+    }
+
+    % STAFF
+    \context {
+        \Staff
+        \remove Time_signature_engraver
     }
 
     % STRING QUARTET STAFF GROUP
