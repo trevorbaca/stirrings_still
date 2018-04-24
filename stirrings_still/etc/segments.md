@@ -2604,7 +2604,7 @@ SEGMENTS
         1/2 clt continues;
         trajectories continue;
         pp continues;
-        <<[C.14 (conclusion) 3-4/4] bisects [K.1 (inception)]>>:
+        <<[C.14 (conclusion) 3-4/4] bisects [K.1 (inception)]>> (3-4):
             <<summons past time>>;
             adagio;
             tutti maximally wide circles:

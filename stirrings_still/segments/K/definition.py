@@ -19,7 +19,29 @@ maker(
     'GlobalSkips',
     baca.rehearsal_mark('K'),
     baca.rehearsal_mark_y_offset(12),
+    baca.text_script_extra_offset((0, 5)),
     )
+
+stage_markup = (
+    ('[K.1]', 1),
+    ('[C.14]', 3),
+    ('[K.1]', 5),
+    ('[K.2]', 6),
+    ('[K.3]', 9),
+    ('[K.4]', 12),
+    ('[K.5]', 15),
+    ('[K.6]', 18),
+    ('[H.13]', 21),
+    ('[I.6]', 22),
+    ('[H.13]', 23),
+    ('[K.7]', 24),
+    ('[K.8]', 32),
+    ('[K.9]', 38),
+    ('[K.5]', 43),
+    ('[K.10]', 46),
+    )
+
+stirrings_still.stage_markup(maker, stage_markup)
 
 time = (
     ('adagio', 3),
