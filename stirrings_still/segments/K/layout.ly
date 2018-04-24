@@ -19,7 +19,7 @@
             \autoPageBreaksOff                                                           %! BMM1:BREAK
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 10) (alignment-distances . (18 24)))                          %! IC:BREAK
+            #'((Y-offset . 10) (alignment-distances . (20 24)))                          %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 3/4
         %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
@@ -134,7 +134,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 130) (alignment-distances . (18 24)))                         %! IC:BREAK
+            #'((Y-offset . 140) (alignment-distances . (20 24)))                         %! IC:BREAK
             \break                                                                       %! IC:BREAK
             s1 * 3/4
         %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
@@ -249,7 +249,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 10) (alignment-distances . (18 24)))                          %! IC:BREAK
+            #'((Y-offset . 10) (alignment-distances . (20 24)))                          %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1/2
         %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
@@ -357,7 +357,7 @@
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 130) (alignment-distances . (18 24)))                         %! IC:BREAK
+            #'((Y-offset . 140) (alignment-distances . (20 24)))                         %! IC:BREAK
             \break                                                                       %! IC:BREAK
             s1 * 3/4
         %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP

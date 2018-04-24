@@ -2626,7 +2626,8 @@ SEGMENTS
                 1/2 clt governs figure;
                 endpoint of ritardando achieved;
             local accelerando all the way up to tremolo-of-flight:
-                hair governs figure;
+                1/2 governs strokes;
+                tremolo termination hair only;
                 crescendo governs figure;
                 tremolo sustained for certain duration at end of figure;
                 tremolo expires with termination type taken from inventory;
