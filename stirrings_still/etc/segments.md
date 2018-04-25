@@ -344,7 +344,7 @@ SEGMENTS
         slow rate repeats;
         p repeats;
         >>attacca suffix<<;
-        >>[H.1 (urtext rasp) 3-4/4] suffixes [A.15]< (55-56)<:
+        >>[H.1 (urtext rasp) 1-2/4] suffixes [A.15]< (55-56)<:
             >>summons future time<<;
             adagio piu mosso;
             tutti:
@@ -353,9 +353,9 @@ SEGMENTS
                 four-note chord:
                     single-stopped notes;
                 extremely gradual rasp-to-flautando transition:
-                    measures 3-4/4 of transition;
+                    measures 1-2/4 of transition;
                 niente < mp:
-                    measures 3-4/4 of crescendo;
+                    measures 1-2/4 of crescendo;
     fermata (57);
 
     [A.16] (58 + fermata)
@@ -390,8 +390,6 @@ SEGMENTS
     long fermata (63);
 
 [B] time series B; rotation 0
-
-    [[clockticks become trajectories:]]
 
     [B.1] (1-4)
     (4 measures)
@@ -632,7 +630,7 @@ SEGMENTS
             arrives at start of measure 1:2;
     fermata (31);
 
-    >>[H.1 (urtext rasp) 3-4/4] prefixed to [B.14] (32)<<:
+    >>[H.1 (urtext rasp) 1-2/4] prefixed to [B.14] (32)<<:
         >>summons future time<<:
         largo piu mosso;
         tutti:
@@ -641,9 +639,9 @@ SEGMENTS
             four-note chord:
                 single-stopped notes;
             extremely gradual rasp-to-flautando transition:
-                measures 3-4/4 of transition;
+                measures 1-2/4 of transition;
             niente < mp:
-                measures 3-4/4 of crescendo;
+                measures 1-2/4 of crescendo;
     >>attacca after insert to effect prefix<<;
     [B.14] (33-35 + fermata)
     (2 measures)
@@ -2293,7 +2291,7 @@ SEGMENTS
             mf;
     <<short fermata repeats to effect prolongation>> (34);
 
-    <<[H.1 (inception)] 3-4/4] prefixed to [H.11]>> (35-36):
+    <<[H.1 (inception)] 1-2/4] prefixed to [H.11]>> (35-36):
         <<summons past time>>;
         largo;
         tutti:

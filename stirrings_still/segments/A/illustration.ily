@@ -229,10 +229,10 @@ A_GlobalRests = {
     R1 * 1
     
     % [A GlobalRests measure 55]                                         %! SM4
-    R1 * 3/4
+    R1 * 1
     
     % [A GlobalRests measure 56]                                         %! SM4
-    R1 * 7/8
+    R1 * 1
     
     % [A GlobalRests measure 57]                                         %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
@@ -2963,9 +2963,9 @@ A_GlobalSkips = {
     \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    s1 * 1
     \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
@@ -3000,9 +3000,8 @@ A_GlobalSkips = {
         }
     
     % [A GlobalSkips measure 56]                                         %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
     ^ \markup {
         \column
             {
@@ -3029,7 +3028,7 @@ A_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [2'07'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [2'08'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3064,7 +3063,7 @@ A_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [2'10'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [2'11'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3151,7 +3150,7 @@ A_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [2'10'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [2'12'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3186,7 +3185,7 @@ A_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [2'13'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [2'14'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3273,7 +3272,7 @@ A_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [2'14'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [2'16'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3308,7 +3307,7 @@ A_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [2'16'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [2'18'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3395,7 +3394,7 @@ A_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [2'17'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [2'18'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3431,7 +3430,7 @@ A_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [2'20'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [2'22'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3660,10 +3659,10 @@ A_ViolinIMusicVoice = {
     R1 * 1
     
     % [A ViolinIMusicVoice measure 55]                           %! SM4
-    R1 * 3/4
+    R1 * 1
     
     % [A ViolinIMusicVoice measure 56]                           %! SM4
-    R1 * 7/8
+    R1 * 1
     
     % [A ViolinIMusicVoice measure 57]                           %! SM4
     R1 * 1/4
@@ -3914,10 +3913,10 @@ A_ViolinIIMusicVoice = {
     R1 * 1
     
     % [A ViolinIIMusicVoice measure 55]                          %! SM4
-    R1 * 3/4
+    R1 * 1
     
     % [A ViolinIIMusicVoice measure 56]                          %! SM4
-    R1 * 7/8
+    R1 * 1
     
     % [A ViolinIIMusicVoice measure 57]                          %! SM4
     R1 * 1/4
@@ -4168,10 +4167,10 @@ A_ViolaMusicVoice = {
     R1 * 1
     
     % [A ViolaMusicVoice measure 55]                             %! SM4
-    R1 * 3/4
+    R1 * 1
     
     % [A ViolaMusicVoice measure 56]                             %! SM4
-    R1 * 7/8
+    R1 * 1
     
     % [A ViolaMusicVoice measure 57]                             %! SM4
     R1 * 1/4
@@ -4422,10 +4421,10 @@ A_CelloMusicVoice = {
     R1 * 1
     
     % [A CelloMusicVoice measure 55]                             %! SM4
-    R1 * 3/4
+    R1 * 1
     
     % [A CelloMusicVoice measure 56]                             %! SM4
-    R1 * 7/8
+    R1 * 1
     
     % [A CelloMusicVoice measure 57]                             %! SM4
     R1 * 1/4

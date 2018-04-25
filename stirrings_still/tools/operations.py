@@ -74,7 +74,7 @@ def operations():
                         description='inception',
                         length=4,
                         ),
-                    source_measures=(3, 4),
+                    source_measures=(1, 2),
                     verb='suffix',
                     target_stage=stirrings_still.StageToken(
                         letter='A',
@@ -106,7 +106,7 @@ def operations():
                         description='inception',
                         length=4,
                         ),
-                    source_measures=(3, 4),
+                    source_measures=(1, 2),
                     verb='prefix',
                     target_stage=stirrings_still.StageToken(
                         letter='B',
@@ -512,7 +512,7 @@ def operations():
                         description='inception',
                         length=4,
                         ),
-                    source_measures=(3, 4),
+                    source_measures=(1, 2),
                     verb='prefix',
                     target_stage=stirrings_still.StageToken(
                         letter='H',
@@ -717,7 +717,7 @@ def operations():
             StageToken('A', 13, 'iteratum', 4), (2, 3),
             ),
         Operation(
-            StageToken('H', 1, 'inception', 4), (3, 4),
+            StageToken('H', 1, 'inception', 4), (1, 2),
             'suffix',
             StageToken('A', 15, 'iteratum'),
             ),
@@ -727,7 +727,7 @@ def operations():
             StageToken('B', 12, 'conclusion', 2), (1, 2),
             ),
         Operation(
-            StageToken('H', 1, 'inception', 4), (3, 4),
+            StageToken('H', 1, 'inception', 4), (1, 2),
             'prefix',
             StageToken('B', 14, 'iteratum'),
             ),
@@ -857,7 +857,7 @@ def operations():
             StageToken('H', 10, 'pause'),
             ),
         Operation(
-            StageToken('H', 1, 'inception', 4), (3, 4),
+            StageToken('H', 1, 'inception', 4), (1, 2),
             'prefix',
             StageToken('H', 11, 'iteratum'),
             ),

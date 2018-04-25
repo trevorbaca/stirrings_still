@@ -389,7 +389,7 @@ maker(
     baca.markup.string_number(3),
     baca.transition(
         baca.markup.rasp_partial_2(),
-        baca.markup.flaut_partial_2(),
+        baca.markup.poco_rasp_partial_2(),
         ),
     )
 
