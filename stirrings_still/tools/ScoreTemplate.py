@@ -210,8 +210,8 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>> abjad.f(score_template.voice_abbreviations)
             abjad.OrderedDict(
                 [
-                    ('vn1', 'ViolinIMusicVoice'),
-                    ('vn2', 'ViolinIIMusicVoice'),
+                    ('v1', 'ViolinIMusicVoice'),
+                    ('v2', 'ViolinIIMusicVoice'),
                     ('va', 'ViolaMusicVoice'),
                     ('vc', 'CelloMusicVoice'),
                     ]
