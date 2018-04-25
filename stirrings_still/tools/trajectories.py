@@ -3,12 +3,13 @@ import baca
 from abjad import rhythmmakertools as rhythmos
 
 
-def trajectories(counts, rotation, extra_counts_rotation=0):
+def trajectories(counts='A', rotation=0, extra_counts_rotation=0):
     r'''Makes trajectory rhythms.
     '''
     counts_ = {
         'A': [1, 1, 1, 2],
         'B': [1, 2, 2, 3],
+        'C': [1, 2, 3, 1, 1, 2, 3, 1, 1, 1, 2, 3]
         }[counts]
     counts_ = baca.sequence(counts_)
     counts_ = counts_.rotate(n=rotation)

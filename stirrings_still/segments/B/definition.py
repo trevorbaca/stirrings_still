@@ -40,7 +40,7 @@ stage_markup = (
     ('[B.12]', 27),
     ('[B.13]', 29),
     ('[H.1]', 32),
-    ('[B.14]', 33),
+    ('[B.14]', 34),
     ('[B.15]', 37),
     ('[B.16]', 40),
     ('[A.18]', 42),
@@ -146,4 +146,142 @@ maker(
     baca.text_spanner_staff_padding(7),
     baca.tuplet_bracket_staff_padding(2),
     baca.tuplet_number_denominator(),
+    )
+
+maker(
+    (['v1', 'v2'], (5, 7)),
+    stirrings_still.clockticks(),
+    )
+
+maker(
+    (['v1', 'v2'], (6, 7)),
+    baca.hairpin('mf > niente', selector=baca.leaves()) 
+    )
+
+maker(
+    (['va', 'vc'], 5),
+    stirrings_still.clockticks(),
+    )
+
+maker(
+    (tutti, 5),
+    baca.subito_dynamic('mf'),
+    )
+
+maker(
+    ('va', (6, 7)),
+    stirrings_still.circles((1, 4)),
+    )
+
+maker(
+    ('va', 6),
+    baca.hairpin('niente < p', selector=baca.rleaves()),
+    )
+
+maker(
+    ('vc', (6, 11)),
+    baca.breathe_after_last(),
+    baca.markup('[overpressure]'),
+    baca.natural_harmonics(),
+    stirrings_still.clouded_pane(),
+    )
+
+maker(
+    ('vc', (6, 9)),
+    baca.hairpin('niente < f', selector=baca.rleaves()),
+    )
+
+maker(
+    (['v1', 'va', 'vc'], 12),
+    stirrings_still.circles((1, 4)),
+    )
+
+maker(
+    ('v1', (14, 24)),
+    stirrings_still.clockticks(),
+    )
+
+maker(
+    ('v2', (12, 15)),
+    stirrings_still.clockticks(),
+    )
+
+maker(
+    ('v2', (16, 17)),
+    stirrings_still.clockticks(encroach=True),
+    )
+
+maker(
+    ('v2', (18, 25)),
+    stirrings_still.trajectories('C', 0),
+    )
+
+maker(
+    (['v1', 'v2', 'va'], 26),
+    stirrings_still.declamation(),
+    )
+
+maker(
+    ('v2', 27),
+    stirrings_still.trajectories('C', -1),
+    )
+
+maker(
+    (tutti, (29, 30)),
+    stirrings_still.trajectories('C', -2),
+    )
+
+maker(
+    (tutti, (32, 33)),
+    stirrings_still.rasp(),
+    )
+
+maker(
+    (tutti, (34, 35)),
+    stirrings_still.trajectories('C', -3),
+    )
+
+maker(
+    (tutti, (37, 38)),
+    stirrings_still.trajectories('C', -4),
+    )
+
+maker(
+    (tutti, (40, 41)),
+    stirrings_still.trajectories('C', -5),
+    )
+
+maker(
+    (tutti, 42),
+    stirrings_still.circles((1, 4)),
+    )
+
+maker(
+    (tutti, [44, 46]),
+    stirrings_still.trajectories('C', -6),
+    )
+
+maker(
+    (['v1', 'v2', 'va'], 48),
+    stirrings_still.urtext_field(),
+    )
+
+maker(
+    (tutti, (50, 57)),
+    stirrings_still.trajectories('C', -7),
+    )
+
+maker(
+    ('v2', (58, 62)),
+    stirrings_still.circles((1, 4)),
+    )
+
+maker(
+    (['v1', 'v2', 'va'], 64),
+    stirrings_still.urtext_field(),
+    )
+
+maker(
+    (tutti, 65),
+    stirrings_still.grid(stage=1),
     )

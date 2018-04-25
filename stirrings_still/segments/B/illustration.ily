@@ -2454,12 +2454,6 @@ B_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [B.33]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [B.14]                                   %! IC
-                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2495,6 +2489,12 @@ B_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [B.34]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [B.14]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -4708,16 +4708,86 @@ B_ViolinIMusicVoice = {
         \revert TupletBracket.staff-padding                      %! OC2
         \revert TupletNumber.text                                %! OC2
     }
-    
-    % [B ViolinIMusicVoice measure 68]                           %! SM4
-    R1 * 5/8
-    \stopTextSpan
-    
-    % [B ViolinIMusicVoice measure 69]                           %! SM4
-    R1 * 3/4
-    
-    % [B ViolinIMusicVoice measure 70]                           %! SM4
-    R1 * 1
+    \times 2/3 {
+        
+        % [B ViolinIMusicVoice measure 68]                       %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'8
+        \mf_sub                                                  %! SM8:EXPLICIT_DYNAMIC:IC
+        \stopTextSpan
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \once \override Hairpin.circled-tip = ##t                %! HC1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \makeBlue                                                %! SM24
+        c'8
+        \>                                                       %! HC1
+        \mf                                                      %! HC1
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'16
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        r8
+        \!                                                       %! HC1
+    }
     
     % [B ViolinIMusicVoice measure 71]                           %! SM4
     R1 * 1
@@ -4732,142 +4802,659 @@ B_ViolinIMusicVoice = {
     R1 * 1
     
     % [B ViolinIMusicVoice measure 75]                           %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [B ViolinIMusicVoice measure 76]                           %! SM4
     R1 * 5/12
-    
-    % [B ViolinIMusicVoice measure 77]                           %! SM4
-    R1 * 1
-    
-    % [B ViolinIMusicVoice measure 78]                           %! SM4
-    R1 * 5/12
-    
-    % [B ViolinIMusicVoice measure 79]                           %! SM4
-    R1 * 7/8
-    
-    % [B ViolinIMusicVoice measure 80]                           %! SM4
-    R1 * 5/12
-    
-    % [B ViolinIMusicVoice measure 81]                           %! SM4
-    R1 * 3/4
-    
-    % [B ViolinIMusicVoice measure 82]                           %! SM4
-    R1 * 7/8
-    
-    % [B ViolinIMusicVoice measure 83]                           %! SM4
-    R1 * 1
-    
-    % [B ViolinIMusicVoice measure 84]                           %! SM4
-    R1 * 1
-    
-    % [B ViolinIMusicVoice measure 85]                           %! SM4
-    R1 * 3/4
-    
-    % [B ViolinIMusicVoice measure 86]                           %! SM4
-    R1 * 7/8
-    
-    % [B ViolinIMusicVoice measure 87]                           %! SM4
-    R1 * 7/8
+    \times 2/3 {
+        
+        % [B ViolinIMusicVoice measure 77]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        % [B ViolinIMusicVoice measure 78]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        % [B ViolinIMusicVoice measure 83]                       %! SM4
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        % [B ViolinIMusicVoice measure 84]                       %! SM4
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        % [B ViolinIMusicVoice measure 85]                       %! SM4
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        % [B ViolinIMusicVoice measure 86]                       %! SM4
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \tweak edge-height #'(0.7 . 0)
+    \times 8/9 {
+        
+        \makeBlue                                                %! SM24
+        c'32
+        
+        r16
+    }
     
     % [B ViolinIMusicVoice measure 88]                           %! SM4
     R1 * 3/4
-    
-    % [B ViolinIMusicVoice measure 89]                           %! SM4
-    R1 * 1/2
+    \times 2/3 {
+        
+        % [B ViolinIMusicVoice measure 89]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'2
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [B ViolinIMusicVoice measure 90]                           %! SM4
     R1 * 1/2
     
     % [B ViolinIMusicVoice measure 91]                           %! SM4
     R1 * 1/4
-    
-    % [B ViolinIMusicVoice measure 92]                           %! SM4
-    R1 * 5/8
-    
-    % [B ViolinIMusicVoice measure 93]                           %! SM4
-    R1 * 3/4
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [B ViolinIMusicVoice measure 92]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ~
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [B ViolinIMusicVoice measure 93]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
     
     % [B ViolinIMusicVoice measure 94]                           %! SM4
     R1 * 1/4
     
     % [B ViolinIMusicVoice measure 95]                           %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
     
     % [B ViolinIMusicVoice measure 96]                           %! SM4
-    R1 * 1
-    
-    % [B ViolinIMusicVoice measure 97]                           %! SM4
-    R1 * 7/8
-    
-    % [B ViolinIMusicVoice measure 98]                           %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [B ViolinIMusicVoice measure 97]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [B ViolinIMusicVoice measure 98]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
     
     % [B ViolinIMusicVoice measure 99]                           %! SM4
     R1 * 1/4
-    
-    % [B ViolinIMusicVoice measure 100]                          %! SM4
-    R1 * 5/8
-    
-    % [B ViolinIMusicVoice measure 101]                          %! SM4
-    R1 * 1/2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [B ViolinIMusicVoice measure 100]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+    }
+    \times 4/5 {
+        
+        % [B ViolinIMusicVoice measure 101]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [B ViolinIMusicVoice measure 102]                          %! SM4
     R1 * 1/4
-    
-    % [B ViolinIMusicVoice measure 103]                          %! SM4
-    R1 * 3/4
-    
-    % [B ViolinIMusicVoice measure 104]                          %! SM4
-    R1 * 1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [B ViolinIMusicVoice measure 103]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \times 8/9 {
+        
+        % [B ViolinIMusicVoice measure 104]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [B ViolinIMusicVoice measure 105]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [B ViolinIMusicVoice measure 106]                          %! SM4
     R1 * 1/4
-    
-    % [B ViolinIMusicVoice measure 107]                          %! SM4
-    R1 * 1
+    \times 8/9 {
+        
+        % [B ViolinIMusicVoice measure 107]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
     
     % [B ViolinIMusicVoice measure 108]                          %! SM4
     R1 * 5/8
-    
-    % [B ViolinIMusicVoice measure 109]                          %! SM4
-    R1 * 1/2
+    \times 4/5 {
+        
+        % [B ViolinIMusicVoice measure 109]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
     
     % [B ViolinIMusicVoice measure 110]                          %! SM4
     R1 * 1/4
     
     % [B ViolinIMusicVoice measure 111]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
     
     % [B ViolinIMusicVoice measure 112]                          %! SM4
     R1 * 1/4
-    
-    % [B ViolinIMusicVoice measure 113]                          %! SM4
-    R1 * 5/8
-    
-    % [B ViolinIMusicVoice measure 114]                          %! SM4
-    R1 * 1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [B ViolinIMusicVoice measure 113]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ~
+    }
+    \times 8/9 {
+        
+        % [B ViolinIMusicVoice measure 114]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
     
     % [B ViolinIMusicVoice measure 115]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'8
     
-    % [B ViolinIMusicVoice measure 116]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
     
-    % [B ViolinIMusicVoice measure 117]                          %! SM4
-    R1 * 7/8
-    
-    % [B ViolinIMusicVoice measure 118]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4.
+    \times 4/7 {
+        
+        % [B ViolinIMusicVoice measure 116]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'2
+        
+        \makeBlue                                                %! SM24
+        c'2
+        ~
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [B ViolinIMusicVoice measure 117]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [B ViolinIMusicVoice measure 118]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
     
     % [B ViolinIMusicVoice measure 119]                          %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'8
+    [
     
-    % [B ViolinIMusicVoice measure 120]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    \times 4/7 {
+        
+        % [B ViolinIMusicVoice measure 120]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'2
+        
+        \makeBlue                                                %! SM24
+        c'2.
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [B ViolinIMusicVoice measure 121]                          %! SM4
     R1 * 1
@@ -4888,10 +5475,17 @@ B_ViolinIMusicVoice = {
     R1 * 1/4
     
     % [B ViolinIMusicVoice measure 127]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
     
     % [B ViolinIMusicVoice measure 128]                          %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [B ViolinIMusicVoice measure 129]                          %! SM4
     R1 * 1/4
@@ -5088,16 +5682,86 @@ B_ViolinIIMusicVoice = {
         \revert TupletBracket.staff-padding                      %! OC2
         \revert TupletNumber.text                                %! OC2
     }
-    
-    % [B ViolinIIMusicVoice measure 68]                          %! SM4
-    R1 * 5/8
-    \stopTextSpan
-    
-    % [B ViolinIIMusicVoice measure 69]                          %! SM4
-    R1 * 3/4
-    
-    % [B ViolinIIMusicVoice measure 70]                          %! SM4
-    R1 * 1
+    \times 2/3 {
+        
+        % [B ViolinIIMusicVoice measure 68]                      %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'8
+        \mf_sub                                                  %! SM8:EXPLICIT_DYNAMIC:IC
+        \stopTextSpan
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \once \override Hairpin.circled-tip = ##t                %! HC1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \makeBlue                                                %! SM24
+        c'8
+        \>                                                       %! HC1
+        \mf                                                      %! HC1
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'16
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        r8
+        \!                                                       %! HC1
+    }
     
     % [B ViolinIIMusicVoice measure 71]                          %! SM4
     R1 * 1
@@ -5110,168 +5774,727 @@ B_ViolinIIMusicVoice = {
     
     % [B ViolinIIMusicVoice measure 74]                          %! SM4
     R1 * 1
-    
-    % [B ViolinIIMusicVoice measure 75]                          %! SM4
-    R1 * 3/4
-    
-    % [B ViolinIIMusicVoice measure 76]                          %! SM4
-    R1 * 5/12
-    
-    % [B ViolinIIMusicVoice measure 77]                          %! SM4
-    R1 * 1
-    
-    % [B ViolinIIMusicVoice measure 78]                          %! SM4
-    R1 * 5/12
-    
-    % [B ViolinIIMusicVoice measure 79]                          %! SM4
-    R1 * 7/8
-    
-    % [B ViolinIIMusicVoice measure 80]                          %! SM4
-    R1 * 5/12
-    
-    % [B ViolinIIMusicVoice measure 81]                          %! SM4
-    R1 * 3/4
-    
-    % [B ViolinIIMusicVoice measure 82]                          %! SM4
-    R1 * 7/8
+    \times 2/3 {
+        
+        % [B ViolinIIMusicVoice measure 75]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        % [B ViolinIIMusicVoice measure 76]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \tweak edge-height #'(0.7 . 0)
+    \times 8/9 {
+        
+        \makeBlue                                                %! SM24
+        c'32
+        
+        r16
+    }
+    \times 2/3 {
+        
+        % [B ViolinIIMusicVoice measure 79]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        r8
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        r8
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        r8
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        r8
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        r8
+    }
+    \tweak edge-height #'(0.7 . 0)
+    \times 8/9 {
+        
+        \makeBlue                                                %! SM24
+        c'32
+        
+        r64
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [B ViolinIIMusicVoice measure 81]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [B ViolinIIMusicVoice measure 82]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
     
     % [B ViolinIIMusicVoice measure 83]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'8
     
-    % [B ViolinIIMusicVoice measure 84]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
     
-    % [B ViolinIIMusicVoice measure 85]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4.
     
-    % [B ViolinIIMusicVoice measure 86]                          %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'8
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    ]
+    \times 4/7 {
+        
+        % [B ViolinIIMusicVoice measure 84]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'2.
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        ~
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [B ViolinIIMusicVoice measure 85]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [B ViolinIIMusicVoice measure 86]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [B ViolinIIMusicVoice measure 87]                          %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'4.
     
-    % [B ViolinIIMusicVoice measure 88]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'8
+    [
     
-    % [B ViolinIIMusicVoice measure 89]                          %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
-    % [B ViolinIIMusicVoice measure 90]                          %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'4
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/5 {
+        
+        % [B ViolinIIMusicVoice measure 88]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'2.
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \times 2/3 {
+        
+        % [B ViolinIIMusicVoice measure 89]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'2
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \times 4/5 {
+        
+        % [B ViolinIIMusicVoice measure 90]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+    }
     
     % [B ViolinIIMusicVoice measure 91]                          %! SM4
     R1 * 1/4
-    
-    % [B ViolinIIMusicVoice measure 92]                          %! SM4
-    R1 * 5/8
-    
-    % [B ViolinIIMusicVoice measure 93]                          %! SM4
-    R1 * 3/4
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [B ViolinIIMusicVoice measure 92]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ~
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [B ViolinIIMusicVoice measure 93]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
     
     % [B ViolinIIMusicVoice measure 94]                          %! SM4
     R1 * 1/4
     
     % [B ViolinIIMusicVoice measure 95]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
     
     % [B ViolinIIMusicVoice measure 96]                          %! SM4
-    R1 * 1
-    
-    % [B ViolinIIMusicVoice measure 97]                          %! SM4
-    R1 * 7/8
-    
-    % [B ViolinIIMusicVoice measure 98]                          %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [B ViolinIIMusicVoice measure 97]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [B ViolinIIMusicVoice measure 98]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
     
     % [B ViolinIIMusicVoice measure 99]                          %! SM4
     R1 * 1/4
-    
-    % [B ViolinIIMusicVoice measure 100]                         %! SM4
-    R1 * 5/8
-    
-    % [B ViolinIIMusicVoice measure 101]                         %! SM4
-    R1 * 1/2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [B ViolinIIMusicVoice measure 100]                     %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+    }
+    \times 4/5 {
+        
+        % [B ViolinIIMusicVoice measure 101]                     %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [B ViolinIIMusicVoice measure 102]                         %! SM4
     R1 * 1/4
-    
-    % [B ViolinIIMusicVoice measure 103]                         %! SM4
-    R1 * 3/4
-    
-    % [B ViolinIIMusicVoice measure 104]                         %! SM4
-    R1 * 1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [B ViolinIIMusicVoice measure 103]                     %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \times 8/9 {
+        
+        % [B ViolinIIMusicVoice measure 104]                     %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [B ViolinIIMusicVoice measure 105]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [B ViolinIIMusicVoice measure 106]                         %! SM4
     R1 * 1/4
-    
-    % [B ViolinIIMusicVoice measure 107]                         %! SM4
-    R1 * 1
+    \times 8/9 {
+        
+        % [B ViolinIIMusicVoice measure 107]                     %! SM4
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
     
     % [B ViolinIIMusicVoice measure 108]                         %! SM4
     R1 * 5/8
-    
-    % [B ViolinIIMusicVoice measure 109]                         %! SM4
-    R1 * 1/2
+    \times 4/5 {
+        
+        % [B ViolinIIMusicVoice measure 109]                     %! SM4
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
     
     % [B ViolinIIMusicVoice measure 110]                         %! SM4
     R1 * 1/4
     
     % [B ViolinIIMusicVoice measure 111]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
     
     % [B ViolinIIMusicVoice measure 112]                         %! SM4
     R1 * 1/4
-    
-    % [B ViolinIIMusicVoice measure 113]                         %! SM4
-    R1 * 5/8
-    
-    % [B ViolinIIMusicVoice measure 114]                         %! SM4
-    R1 * 1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [B ViolinIIMusicVoice measure 113]                     %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ~
+    }
+    \times 8/9 {
+        
+        % [B ViolinIIMusicVoice measure 114]                     %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
     
     % [B ViolinIIMusicVoice measure 115]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'8
     
-    % [B ViolinIIMusicVoice measure 116]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
     
-    % [B ViolinIIMusicVoice measure 117]                         %! SM4
-    R1 * 7/8
-    
-    % [B ViolinIIMusicVoice measure 118]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4.
+    \times 4/7 {
+        
+        % [B ViolinIIMusicVoice measure 116]                     %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'2
+        
+        \makeBlue                                                %! SM24
+        c'2
+        ~
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [B ViolinIIMusicVoice measure 117]                     %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [B ViolinIIMusicVoice measure 118]                     %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
     
     % [B ViolinIIMusicVoice measure 119]                         %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'8
+    [
     
-    % [B ViolinIIMusicVoice measure 120]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    \times 4/7 {
+        
+        % [B ViolinIIMusicVoice measure 120]                     %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'2
+        
+        \makeBlue                                                %! SM24
+        c'2.
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [B ViolinIIMusicVoice measure 121]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [B ViolinIIMusicVoice measure 122]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [B ViolinIIMusicVoice measure 123]                         %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'4
     
-    % [B ViolinIIMusicVoice measure 124]                         %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [B ViolinIIMusicVoice measure 125]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [B ViolinIIMusicVoice measure 126]                         %! SM4
     R1 * 1/4
     
     % [B ViolinIIMusicVoice measure 127]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
     
     % [B ViolinIIMusicVoice measure 128]                         %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [B ViolinIIMusicVoice measure 129]                         %! SM4
     R1 * 1/4
@@ -5468,16 +6691,59 @@ B_ViolaMusicVoice = {
         \revert TupletBracket.staff-padding                      %! OC2
         \revert TupletNumber.text                                %! OC2
     }
-    
-    % [B ViolaMusicVoice measure 68]                             %! SM4
-    R1 * 5/8
-    \stopTextSpan
+    \times 2/3 {
+        
+        % [B ViolaMusicVoice measure 68]                         %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'8
+        \mf_sub                                                  %! SM8:EXPLICIT_DYNAMIC:IC
+        \stopTextSpan
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'16
+        
+        r8
+    }
     
     % [B ViolaMusicVoice measure 69]                             %! SM4
-    R1 * 3/4
+    \once \override Hairpin.circled-tip = ##t                    %! HC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'4
+    \<                                                           %! HC1
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [B ViolaMusicVoice measure 70]                             %! SM4
-    R1 * 1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'4
+    \p                                                           %! HC1
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [B ViolaMusicVoice measure 71]                             %! SM4
     R1 * 1
@@ -5492,7 +6758,14 @@ B_ViolaMusicVoice = {
     R1 * 1
     
     % [B ViolaMusicVoice measure 75]                             %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [B ViolaMusicVoice measure 76]                             %! SM4
     R1 * 5/12
@@ -5532,102 +6805,386 @@ B_ViolaMusicVoice = {
     
     % [B ViolaMusicVoice measure 88]                             %! SM4
     R1 * 3/4
-    
-    % [B ViolaMusicVoice measure 89]                             %! SM4
-    R1 * 1/2
+    \times 2/3 {
+        
+        % [B ViolaMusicVoice measure 89]                         %! SM4
+        \makeBlue                                                %! SM24
+        c'2
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [B ViolaMusicVoice measure 90]                             %! SM4
     R1 * 1/2
     
     % [B ViolaMusicVoice measure 91]                             %! SM4
     R1 * 1/4
-    
-    % [B ViolaMusicVoice measure 92]                             %! SM4
-    R1 * 5/8
-    
-    % [B ViolaMusicVoice measure 93]                             %! SM4
-    R1 * 3/4
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [B ViolaMusicVoice measure 92]                         %! SM4
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ~
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [B ViolaMusicVoice measure 93]                         %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
     
     % [B ViolaMusicVoice measure 94]                             %! SM4
     R1 * 1/4
     
     % [B ViolaMusicVoice measure 95]                             %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
     
     % [B ViolaMusicVoice measure 96]                             %! SM4
-    R1 * 1
-    
-    % [B ViolaMusicVoice measure 97]                             %! SM4
-    R1 * 7/8
-    
-    % [B ViolaMusicVoice measure 98]                             %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [B ViolaMusicVoice measure 97]                         %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [B ViolaMusicVoice measure 98]                         %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
     
     % [B ViolaMusicVoice measure 99]                             %! SM4
     R1 * 1/4
-    
-    % [B ViolaMusicVoice measure 100]                            %! SM4
-    R1 * 5/8
-    
-    % [B ViolaMusicVoice measure 101]                            %! SM4
-    R1 * 1/2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [B ViolaMusicVoice measure 100]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+    }
+    \times 4/5 {
+        
+        % [B ViolaMusicVoice measure 101]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [B ViolaMusicVoice measure 102]                            %! SM4
     R1 * 1/4
-    
-    % [B ViolaMusicVoice measure 103]                            %! SM4
-    R1 * 3/4
-    
-    % [B ViolaMusicVoice measure 104]                            %! SM4
-    R1 * 1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [B ViolaMusicVoice measure 103]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \times 8/9 {
+        
+        % [B ViolaMusicVoice measure 104]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [B ViolaMusicVoice measure 105]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [B ViolaMusicVoice measure 106]                            %! SM4
     R1 * 1/4
-    
-    % [B ViolaMusicVoice measure 107]                            %! SM4
-    R1 * 1
+    \times 8/9 {
+        
+        % [B ViolaMusicVoice measure 107]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
     
     % [B ViolaMusicVoice measure 108]                            %! SM4
     R1 * 5/8
-    
-    % [B ViolaMusicVoice measure 109]                            %! SM4
-    R1 * 1/2
+    \times 4/5 {
+        
+        % [B ViolaMusicVoice measure 109]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
     
     % [B ViolaMusicVoice measure 110]                            %! SM4
     R1 * 1/4
     
     % [B ViolaMusicVoice measure 111]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
     
     % [B ViolaMusicVoice measure 112]                            %! SM4
     R1 * 1/4
-    
-    % [B ViolaMusicVoice measure 113]                            %! SM4
-    R1 * 5/8
-    
-    % [B ViolaMusicVoice measure 114]                            %! SM4
-    R1 * 1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [B ViolaMusicVoice measure 113]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ~
+    }
+    \times 8/9 {
+        
+        % [B ViolaMusicVoice measure 114]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
     
     % [B ViolaMusicVoice measure 115]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'8
     
-    % [B ViolaMusicVoice measure 116]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
     
-    % [B ViolaMusicVoice measure 117]                            %! SM4
-    R1 * 7/8
-    
-    % [B ViolaMusicVoice measure 118]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4.
+    \times 4/7 {
+        
+        % [B ViolaMusicVoice measure 116]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'2
+        
+        \makeBlue                                                %! SM24
+        c'2
+        ~
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [B ViolaMusicVoice measure 117]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [B ViolaMusicVoice measure 118]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
     
     % [B ViolaMusicVoice measure 119]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'8
+    [
     
-    % [B ViolaMusicVoice measure 120]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    \times 4/7 {
+        
+        % [B ViolaMusicVoice measure 120]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'2
+        
+        \makeBlue                                                %! SM24
+        c'2.
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [B ViolaMusicVoice measure 121]                            %! SM4
     R1 * 1
@@ -5648,10 +7205,17 @@ B_ViolaMusicVoice = {
     R1 * 1/4
     
     % [B ViolaMusicVoice measure 127]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
     
     % [B ViolaMusicVoice measure 128]                            %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [B ViolaMusicVoice measure 129]                            %! SM4
     R1 * 1/4
@@ -5848,31 +7412,88 @@ B_CelloMusicVoice = {
         \revert TupletBracket.staff-padding                      %! OC2
         \revert TupletNumber.text                                %! OC2
     }
-    
-    % [B CelloMusicVoice measure 68]                             %! SM4
-    R1 * 5/8
-    \stopTextSpan
+    \times 2/3 {
+        
+        % [B CelloMusicVoice measure 68]                         %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'8
+        \mf_sub                                                  %! SM8:EXPLICIT_DYNAMIC:IC
+        \stopTextSpan
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'16
+        
+        r8
+    }
     
     % [B CelloMusicVoice measure 69]                             %! SM4
-    R1 * 3/4
+    \override NoteHead.style = #'harmonic                        %! OC1
+    \once \override Hairpin.circled-tip = ##t                    %! HC1
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'2.
+    \<                                                           %! HC1
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                [overpressure]                                   %! IC
+        }                                                        %! IC
     
     % [B CelloMusicVoice measure 70]                             %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [B CelloMusicVoice measure 71]                             %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [B CelloMusicVoice measure 72]                             %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'2
+    \repeatTie
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \repeatTie
     
     % [B CelloMusicVoice measure 73]                             %! SM4
-    R1 * 1/2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'2
+    \repeatTie
+    \f                                                           %! HC1
     
     % [B CelloMusicVoice measure 74]                             %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
+    \revert NoteHead.style                                       %! OC2
     
     % [B CelloMusicVoice measure 75]                             %! SM4
-    R1 * 3/4
+    \breathe                                                     %! IC
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [B CelloMusicVoice measure 76]                             %! SM4
     R1 * 5/12
@@ -5921,60 +7542,225 @@ B_CelloMusicVoice = {
     
     % [B CelloMusicVoice measure 91]                             %! SM4
     R1 * 1/4
-    
-    % [B CelloMusicVoice measure 92]                             %! SM4
-    R1 * 5/8
-    
-    % [B CelloMusicVoice measure 93]                             %! SM4
-    R1 * 3/4
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [B CelloMusicVoice measure 92]                         %! SM4
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ~
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [B CelloMusicVoice measure 93]                         %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
     
     % [B CelloMusicVoice measure 94]                             %! SM4
     R1 * 1/4
     
     % [B CelloMusicVoice measure 95]                             %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
     
     % [B CelloMusicVoice measure 96]                             %! SM4
-    R1 * 1
-    
-    % [B CelloMusicVoice measure 97]                             %! SM4
-    R1 * 7/8
-    
-    % [B CelloMusicVoice measure 98]                             %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [B CelloMusicVoice measure 97]                         %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [B CelloMusicVoice measure 98]                         %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
     
     % [B CelloMusicVoice measure 99]                             %! SM4
     R1 * 1/4
-    
-    % [B CelloMusicVoice measure 100]                            %! SM4
-    R1 * 5/8
-    
-    % [B CelloMusicVoice measure 101]                            %! SM4
-    R1 * 1/2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [B CelloMusicVoice measure 100]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+    }
+    \times 4/5 {
+        
+        % [B CelloMusicVoice measure 101]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [B CelloMusicVoice measure 102]                            %! SM4
     R1 * 1/4
-    
-    % [B CelloMusicVoice measure 103]                            %! SM4
-    R1 * 3/4
-    
-    % [B CelloMusicVoice measure 104]                            %! SM4
-    R1 * 1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [B CelloMusicVoice measure 103]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \times 8/9 {
+        
+        % [B CelloMusicVoice measure 104]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [B CelloMusicVoice measure 105]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [B CelloMusicVoice measure 106]                            %! SM4
     R1 * 1/4
-    
-    % [B CelloMusicVoice measure 107]                            %! SM4
-    R1 * 1
+    \times 8/9 {
+        
+        % [B CelloMusicVoice measure 107]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
     
     % [B CelloMusicVoice measure 108]                            %! SM4
     R1 * 5/8
-    
-    % [B CelloMusicVoice measure 109]                            %! SM4
-    R1 * 1/2
+    \times 4/5 {
+        
+        % [B CelloMusicVoice measure 109]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
     
     % [B CelloMusicVoice measure 110]                            %! SM4
     R1 * 1/4
@@ -5984,30 +7770,142 @@ B_CelloMusicVoice = {
     
     % [B CelloMusicVoice measure 112]                            %! SM4
     R1 * 1/4
-    
-    % [B CelloMusicVoice measure 113]                            %! SM4
-    R1 * 5/8
-    
-    % [B CelloMusicVoice measure 114]                            %! SM4
-    R1 * 1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [B CelloMusicVoice measure 113]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ~
+    }
+    \times 8/9 {
+        
+        % [B CelloMusicVoice measure 114]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
     
     % [B CelloMusicVoice measure 115]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'8
     
-    % [B CelloMusicVoice measure 116]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
     
-    % [B CelloMusicVoice measure 117]                            %! SM4
-    R1 * 7/8
-    
-    % [B CelloMusicVoice measure 118]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4.
+    \times 4/7 {
+        
+        % [B CelloMusicVoice measure 116]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'2
+        
+        \makeBlue                                                %! SM24
+        c'2
+        ~
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [B CelloMusicVoice measure 117]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [B CelloMusicVoice measure 118]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4.
+        
+        \makeBlue                                                %! SM24
+        c'8
+    }
     
     % [B CelloMusicVoice measure 119]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'8
+    [
     
-    % [B CelloMusicVoice measure 120]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    \times 4/7 {
+        
+        % [B CelloMusicVoice measure 120]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'2
+        
+        \makeBlue                                                %! SM24
+        c'2.
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [B CelloMusicVoice measure 121]                            %! SM4
     R1 * 1
@@ -6031,7 +7929,13 @@ B_CelloMusicVoice = {
     R1 * 1
     
     % [B CelloMusicVoice measure 128]                            %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [B CelloMusicVoice measure 129]                            %! SM4
     R1 * 1/4
