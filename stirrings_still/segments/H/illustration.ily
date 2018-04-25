@@ -4687,52 +4687,64 @@ H_ViolinIIMusicVoice = {
     
     % [H ViolinIIMusicVoice measure 490]                         %! SM4
     R1 * 1/4
-    
-    % [H ViolinIIMusicVoice measure 491]                         %! SM4
-    \override TextSpanner.staff-padding = #5                     %! OC1
-    \once \override TextSpanner.Y-extent = ##f
-    \once \override TextSpanner.bound-details.left-broken.text = ##f
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \whiteout
-                    \upright
-                        \override
-                            #'(box-padding . 0.5)
-                            \box
-                                "LHD + 1/2 clt"
-                \hspace
-                    #0.5
+    \times 2/3 {
+        
+        % [H ViolinIIMusicVoice measure 491]                     %! SM4
+        \override TextSpanner.staff-padding = #7                 %! OC1
+        \override TupletBracket.staff-padding = #2               %! OC1
+        \override TupletNumber.text = #tuplet-number::calc-denominator-text %! OC1
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.bound-details.left-broken.text = ##f
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            \override
+                                #'(box-padding . 0.5)
+                                \box
+                                    "LHD + 1/2 clt"
+                    \hspace
+                        #0.5
+                }
             }
-        }
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-    \once \override TextSpanner.bound-details.right-broken.padding = 0
-    \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.padding = 2.25
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \draw-line
-            #'(0 . -1)
-        }
-    \once \override TextSpanner.dash-fraction = 0.25
-    \once \override TextSpanner.dash-period = 1.5
-    \makeBlue                                                    %! SM24
-    c'8.
-    -\downbow                                                    %! IC
-    \startTextSpan
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'8.
-    -\upbow                                                      %! IC
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'8
-    -\downbow                                                    %! IC
-    \revert TextSpanner.staff-padding                            %! OC2
+        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.padding = 2.25
+        \once \override TextSpanner.bound-details.right.text = \markup {
+            \draw-line
+                #'(0 . -1)
+            }
+        \once \override TextSpanner.dash-fraction = 0.25
+        \once \override TextSpanner.dash-period = 1.5
+        \makeBlue                                                %! SM24
+        c'8
+        -\downbow                                                %! IC
+        \startTextSpan
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        -\upbow                                                  %! IC
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'16
+        -\downbow                                                %! IC
+        
+        r8
+        \revert TextSpanner.staff-padding                        %! OC2
+        \revert TupletBracket.staff-padding                      %! OC2
+        \revert TupletNumber.text                                %! OC2
+    }
     
     % [H ViolinIIMusicVoice measure 492]                         %! SM4
     R1 * 1/4

@@ -373,7 +373,9 @@ maker(
         right_padding=2.25,
         selector=baca.rleaves(),
         ),
-    baca.text_spanner_staff_padding(5),
+    baca.text_spanner_staff_padding(7),
+    baca.tuplet_bracket_staff_padding(2),
+    baca.tuplet_number_denominator(),
     stirrings_still.clockticks(),
     )
 

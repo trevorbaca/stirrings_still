@@ -60,6 +60,16 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'CelloMusicVoice',
+                        [
+                            abjad.Momento(
+                                context='CelloMusicVoice',
+                                prototype='abjad.Dynamic',
+                                value='mp',
+                                ),
+                            ],
+                        ),
+                    (
                         'Score',
                         [
                             abjad.Momento(
@@ -96,6 +106,16 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'ViolaMusicVoice',
+                        [
+                            abjad.Momento(
+                                context='ViolaMusicVoice',
+                                prototype='abjad.Dynamic',
+                                value='mp',
+                                ),
+                            ],
+                        ),
+                    (
                         'ViolinIIMusicStaff',
                         [
                             abjad.Momento(
@@ -113,6 +133,16 @@ metadata = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 prototype='abjad.MarginMarkup',
                                 value='Vn. II',
+                                ),
+                            ],
+                        ),
+                    (
+                        'ViolinIIMusicVoice',
+                        [
+                            abjad.Momento(
+                                context='ViolinIIMusicVoice',
+                                prototype='abjad.Dynamic',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -137,6 +167,16 @@ metadata = abjad.OrderedDict(
                                 ),
                             ],
                         ),
+                    (
+                        'ViolinIMusicVoice',
+                        [
+                            abjad.Momento(
+                                context='ViolinIMusicVoice',
+                                prototype='abjad.Dynamic',
+                                value='mp',
+                                ),
+                            ],
+                        ),
                     ]
                 ),
             ),
@@ -146,10 +186,10 @@ metadata = abjad.OrderedDict(
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
-                    ('CelloMusicVoice', False),
-                    ('ViolaMusicVoice', False),
-                    ('ViolinIIMusicVoice', False),
-                    ('ViolinIMusicVoice', False),
+                    ('CelloMusicVoice', True),
+                    ('ViolaMusicVoice', True),
+                    ('ViolinIIMusicVoice', True),
+                    ('ViolinIMusicVoice', True),
                     ]
                 ),
             ),
