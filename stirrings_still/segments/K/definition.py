@@ -60,7 +60,7 @@ time = (
 
 stirrings_still.time(maker, time)
 
-tutti = ['vn1', 'vn2', 'va', 'vc']
+tutti = ['v1', 'v2', 'va', 'vc']
 
 maker(
     (tutti, (1, 2)),
@@ -103,7 +103,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'vc'], 5),
+    (['v1', 'v2', 'vc'], 5),
     (stirrings_still.trajectories('B', 0, 0), 0),
     (stirrings_still.trajectories('B', -1, -1), 1),
     #(stirrings_still.trajectories('B', -2, -2), 2),
@@ -111,14 +111,14 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'vc'], (6, 8)),
+    (['v1', 'v2', 'vc'], (6, 8)),
     (stirrings_still.accelerando((8, 32), (1, 2)), 0),
     (stirrings_still.accelerando((10, 32), (1, 2)), 1),
     (stirrings_still.accelerando((11, 32), (1, 2)), -1),
     )
 
 maker(
-    (['vn1', 'vn2', 'vc'], (5, 8)),
+    (['v1', 'v2', 'vc'], (5, 8)),
     (stirrings_still.bcps(rotation=0), 0),
     (stirrings_still.bcps(rotation=-1), 1),
     #(stirrings_still.bcps(rotation=-2), 2),
@@ -149,7 +149,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'vc'], (9, 17)),
+    (['v1', 'v2', 'vc'], (9, 17)),
     (stirrings_still.to_flight([(10, 8), (3, 16)]), 0),
     (stirrings_still.to_flight([(8, 8), (3, 16)]), 1),
     (stirrings_still.to_flight([(12, 8), (3, 16)]), -1),

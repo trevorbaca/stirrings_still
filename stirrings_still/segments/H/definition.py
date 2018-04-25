@@ -79,7 +79,7 @@ time = (
 
 stirrings_still.time(maker, time)
 
-tutti = ['vn1', 'vn2', 'va', 'vc']
+tutti = ['v1', 'v2', 'va', 'vc']
 
 maker(
     (tutti, (1, 5)),
@@ -96,13 +96,13 @@ maker(
     )
 
 maker(
-    ('vn1', 6),
+    ('v1', 6),
     baca.markup.lines(['one circle every eighth-note;', "'golden' tone"]),
     stirrings_still.circles((1, 8)),
     )
 
 maker(
-    ('vn2', 6),
+    ('v2', 6),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie_to(),
     )
@@ -130,19 +130,19 @@ maker(
     )
 
 maker(
-    (['vn1', 'va', 'vc'], 6),
+    (['v1', 'va', 'vc'], 6),
     baca.breathe_after_last(),
     )
 
 maker(
-    ('vn1', (7, 8)),
+    ('v1', (7, 8)),
     baca.dynamic('p'),
     baca.tuplet_brackets_down(),
     stirrings_still.accelerando((1, 2), (8, 32)),
     )
 
 maker(
-    ('vn1', (9, 16)),
+    ('v1', (9, 16)),
     stirrings_still.desynchronization(4, [0, 2, 1]),
     )
 
@@ -159,7 +159,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'va'], (7, 14)), 
+    (['v1', 'va'], (7, 14)), 
     baca.text_script_staff_padding(1.5),
     baca.text_spanner_staff_padding(5),
     baca.markup('(always one circle per stem)'),
@@ -175,25 +175,25 @@ maker(
     )
 
 maker(
-    ('vn2', (7, 10)),
+    ('v2', (7, 10)),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie_to(),
     )
 
 maker(
-    ('vn2', (11, 12)),
+    ('v2', (11, 12)),
     baca.markup('(always one circle per stem)'),
     baca.tuplet_brackets_down(),
     stirrings_still.accelerando((1, 2), (7, 32)),
     )
 
 maker(
-    ('vn2', (13, 16)),
+    ('v2', (13, 16)),
     stirrings_still.desynchronization(4, [1, 0, 2]),
     )
 
 maker(
-    ('vn2', (9, 16)), 
+    ('v2', (9, 16)), 
     baca.text_spanner_staff_padding(5),
     baca.transition(
         baca.markup.flaut_partial_2(),
@@ -208,12 +208,12 @@ maker(
     )
 
 maker(
-    ('vn2', (9, 10)),
+    ('v2', (9, 10)),
     baca.hairpin('mp > p', selector=baca.rleaves()),
     )
 
 maker(
-    ('vn2', (11, 14)),
+    ('v2', (11, 14)),
     baca.glissando(
         allow_repeats=True,
         stems=True,
@@ -223,12 +223,12 @@ maker(
     )
 
 maker(
-    ('vn2', (15, 16)),
+    ('v2', (15, 16)),
     baca.pitch('Ab4'),
     )
 
 maker(
-    ('vn2', (13, 16)),
+    ('v2', (13, 16)),
     baca.tuplet_bracket_staff_padding(1.5),
     )
 
@@ -241,7 +241,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'va'], (7, 14)),
+    (['v1', 'va'], (7, 14)),
     baca.glissando(
         allow_repeats=True,
         stems=True,
@@ -250,17 +250,17 @@ maker(
     )
 
 maker(
-    ('vn1', (7, 14)),
+    ('v1', (7, 14)),
     baca.interpolate_staff_positions('Gb4', 'Bb4'),
     )
 
 maker(
-    ('vn1', (15, 16)),
+    ('v1', (15, 16)),
     baca.pitch('A4'),
     )
 
 maker(
-    ('vn1', (7, 16)),
+    ('v1', (7, 16)),
     baca.tuplet_bracket_staff_padding(1.5),
     )
 
@@ -324,12 +324,12 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va'], (15, 16)),
+    (['v1', 'v2', 'va'], (15, 16)),
     baca.hairpin('p > niente', selector=baca.rleaves()),
     )
 
 maker(
-    (['vn1', 'vn2', 'va'], (23, 28)),
+    (['v1', 'v2', 'va'], (23, 28)),
     (stirrings_still.pickets(4, 2, abjad.silence([0])), 0),
     (stirrings_still.pickets(4, 1, abjad.silence([0])), 1),
     (stirrings_still.pickets(4, 0, abjad.silence([0])), 2),
@@ -337,12 +337,12 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va'], (23, 24)),
+    (['v1', 'v2', 'va'], (23, 24)),
     baca.hairpin('niente < p', selector=baca.tleaves().rleak()),
     )
 
 maker(
-    (['vn1', 'vn2', 'va'], (30, 31)),
+    (['v1', 'v2', 'va'], (30, 31)),
     (stirrings_still.accelerando((1, 2), (4, 32)), 0),
     (stirrings_still.accelerando((1, 2), (8, 32)), 1),
     (stirrings_still.accelerando((1, 2), (12, 32)), 2),
@@ -358,14 +358,14 @@ maker(
     )
 
 maker(
-    (['vn1', 'va', 'vc'], 33),
+    (['v1', 'va', 'vc'], 33),
     baca.dynamic('pp'),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     baca.natural_harmonics(),
     )
 
 maker(
-    ('vn2', 33),
+    ('v2', 33),
     baca.alternate_bow_strokes(),
     baca.dynamic('mp', redundant=True),
     baca.text_spanner(
@@ -394,7 +394,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va'], (37, 39)),
+    (['v1', 'v2', 'va'], (37, 39)),
     (stirrings_still.accelerando((1, 2), (4, 32)), 0),
     (stirrings_still.accelerando((1, 2), (8, 32)), 1),
     (stirrings_still.accelerando((1, 2), (12, 32)), 2),
@@ -409,7 +409,7 @@ maker(
     )
 
 maker(
-    (['vn1', 'vn2', 'va'], (41, 44)),
+    (['v1', 'v2', 'va'], (41, 44)),
     (stirrings_still.accelerando((1, 2), (4, 32)), 0),
     (stirrings_still.accelerando((1, 2), (8, 32)), 1),
     (stirrings_still.accelerando((1, 2), (12, 32)), 2),
@@ -437,7 +437,7 @@ maker(
 
 #selector = baca.leaves().group_by_measure()[-2:].leaves()[:-3].group()
 maker(
-    (['vn1', 'vn2', 'va'], (46, 50)),
+    (['v1', 'v2', 'va'], (46, 50)),
     (stirrings_still.pickets(4, 2), 0),
     (stirrings_still.pickets(4, 1), 1),
     (stirrings_still.pickets(4, 0), 2),
@@ -481,7 +481,7 @@ maker(
     )
     
 maker(
-    (['vn1', 'vn2', 'va'], 52),
+    (['v1', 'v2', 'va'], 52),
     (stirrings_still.pickets(4, [1, 1, 1]), 0),
     (stirrings_still.pickets(4, [-1, 2, 2]), 1),
     (stirrings_still.pickets(4, [1, 1]), 2),

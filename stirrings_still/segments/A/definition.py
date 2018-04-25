@@ -64,14 +64,14 @@ time = (
 stirrings_still.time(maker, time)
 
 maker(
-    'vn1',
+    'v1',
     baca.suite([
         stirrings_still.margin_markup('Vn. I'),
         baca.start_markup('Violin I', hcenter_in=14),
         ]),
     )
 maker(
-    'vn2',
+    'v2',
     baca.suite([
         stirrings_still.margin_markup('Vn. II'),
         baca.start_markup('Violin II', hcenter_in=14),
