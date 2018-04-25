@@ -421,10 +421,10 @@ SEGMENTS
         damped lh completes;
         v1, v2 clockticks fade out:
             1/2 clt fades out;
-            (mf) > niente governs second half of stage;
+            mf > niente governs stage;
         va ellipses fade in [recalls end of A] and then stop:
             hair governs stage;
-            niente < p governs first quarter of stage;
+            niente < p governs first half of stage;
         >>vc clouded pane appears<<:
             >>summons future time<<;
             (obverse) harmonic appears:
@@ -442,7 +442,7 @@ SEGMENTS
     surprisingly short breath;
 
     [B.5] (12 + fraction)
-    (1 measure: fractional time signature)
+    (1 measure + fractional measure)
     adagio subito governs stage;
     mixed clockticks / ellipses resume:
         damped lh resumes;
@@ -458,7 +458,7 @@ SEGMENTS
     counted rest equal to exactly 2/3 clocktick (to displace next) (13);
 
     [B.6] (14 + fraction)
-    (1 measure: fractional time signature)
+    (1 measure + fractional measure)
     adagio subito meno mosso governs stage;
     mixed clockticks / ellipses continue:
         damped lh continues;
@@ -474,7 +474,7 @@ SEGMENTS
     counted rest equal to exactly 2/3 clocktick (to displace next) (15);
 
     [B.7] (16 + fraction)
-    (1 measure: fractional time signature)
+    (1 measure + fractional measure)
     adagio subito più mosso governs stage;
     mixed clockticks / ellipses continue:
         damped lh continues;
@@ -491,12 +491,9 @@ SEGMENTS
         p continues;
     counted rest equal to exactly 2/3 clocktick (to displace next) (17);
 
-    [trajectories appear for first time:]
-    [pitch reappears:]
-
     [B.8] (18-19)
     (2 measures)
-    largo subito begins;
+    largo begins subito;
     v1 clockticks continue:
         damped lh continues;
         1/2 clt continues;
@@ -630,7 +627,7 @@ SEGMENTS
             arrives at start of measure 1:2;
     fermata (31);
 
-    >>[H.1 (urtext rasp) 1-2/4] prefixed to [B.14] (32)<<:
+    >>[H.1 (urtext rasp) 1-2/4] prefixed to [B.14] (32-33)<<:
         >>summons future time<<:
         largo piu mosso;
         tutti:
@@ -643,7 +640,7 @@ SEGMENTS
             niente < mp:
                 measures 1-2/4 of crescendo;
     >>attacca after insert to effect prefix<<;
-    [B.14] (33-35 + fermata)
+    [B.14] (34-35 + fermata)
     (2 measures)
     largo-to-adagio-più-mosso accelerando happens;
     tutti trajectories continue:
