@@ -87,8 +87,8 @@ class ScoreTemplate(baca.ScoreTemplate):
     def __init__(self):
         super(ScoreTemplate, self).__init__()
         self.voice_abbreviations.update({
-            'vn1': 'ViolinIMusicVoice',
-            'vn2': 'ViolinIIMusicVoice',
+            'v1': 'ViolinIMusicVoice',
+            'v2': 'ViolinIIMusicVoice',
             'va': 'ViolaMusicVoice',
             'vc': 'CelloMusicVoice',
             })

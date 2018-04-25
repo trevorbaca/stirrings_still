@@ -88,7 +88,7 @@ time = (
 
 stirrings_still.time(maker, time)
 
-tutti = ['vn1', 'vn2', 'va', 'vc']
+tutti = ['v1', 'v2', 'va', 'vc']
 
 maker(
     (tutti, (1, 6)),
