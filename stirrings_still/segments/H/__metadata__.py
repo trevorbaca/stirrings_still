@@ -26,7 +26,7 @@ metadata = abjad.OrderedDict(
             'bol_measure_numbers',
             [459, 470, 482, 496],
             ),
-        ('duration', "1'57''"),
+        ('duration', "1'59''"),
         (
             'fermata_measure_numbers',
             [487, 490, 492, 498, 503],
@@ -102,6 +102,11 @@ metadata = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 prototype='abjad.MarginMarkup',
                                 value='Va.',
+                                ),
+                            abjad.Momento(
+                                context='ViolaMusicVoice',
+                                prototype='baca.StaffLines',
+                                value=5,
                                 ),
                             ],
                         ),
@@ -193,8 +198,8 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('start_clock_time', "18'55''"),
-        ('stop_clock_time', "20'52''"),
+        ('start_clock_time', "18'58''"),
+        ('stop_clock_time', "20'57''"),
         (
             'time_signatures',
             [
@@ -232,8 +237,8 @@ metadata = abjad.OrderedDict(
                 '1/4',
                 '10/16',
                 '1/4',
-                '6/8',
-                '7/8',
+                '8/8',
+                '8/8',
                 '6/8',
                 '5/8',
                 '4/8',

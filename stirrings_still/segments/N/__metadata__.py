@@ -65,7 +65,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CelloMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='p',
+                                value='pp',
                                 ),
                             ],
                         ),
@@ -103,6 +103,11 @@ metadata = abjad.OrderedDict(
                                 prototype='abjad.MarginMarkup',
                                 value='Va.',
                                 ),
+                            abjad.Momento(
+                                context='ViolaMusicVoice',
+                                prototype='baca.StaffLines',
+                                value=5,
+                                ),
                             ],
                         ),
                     (
@@ -111,7 +116,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='\\effort_mp',
                                 ),
                             ],
                         ),
@@ -142,7 +147,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolinIIMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='pp',
                                 ),
                             ],
                         ),
@@ -173,7 +178,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolinIMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='pp',
                                 ),
                             ],
                         ),
@@ -193,8 +198,8 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('start_clock_time', "28'00''"),
-        ('stop_clock_time', "30'45''"),
+        ('start_clock_time', "28'05''"),
+        ('stop_clock_time', "30'50''"),
         (
             'time_signatures',
             [

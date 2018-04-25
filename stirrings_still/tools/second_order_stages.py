@@ -261,8 +261,8 @@ def second_order_stages(segment):
                             abjad.TimeSignature((16, 16)),
                             ],
                         suffix=[
-                            abjad.TimeSignature((6, 8)),
-                            abjad.TimeSignature((7, 8)),
+                            abjad.TimeSignature((8, 8)),
+                            abjad.TimeSignature((8, 8)),
                             ],
                         postsuffix='fermata',
                         operation=[
@@ -273,7 +273,7 @@ def second_order_stages(segment):
                                     description='inception',
                                     length=4,
                                     ),
-                                source_measures=(3, 4),
+                                source_measures=(1, 2),
                                 verb='suffix',
                                 target_stage=stirrings_still.StageToken(
                                     letter='A',
@@ -502,8 +502,8 @@ def second_order_stages(segment):
                         stage_number=14,
                         measure_numbers=[32, 33, 34, 35, 36],
                         time_signatures=[
-                            abjad.TimeSignature((6, 8)),
-                            abjad.TimeSignature((7, 8)),
+                            abjad.TimeSignature((8, 8)),
+                            abjad.TimeSignature((8, 8)),
                             abjad.TimeSignature((7, 8)),
                             abjad.TimeSignature((7, 8)),
                             ],
@@ -516,7 +516,7 @@ def second_order_stages(segment):
                                     description='inception',
                                     length=4,
                                     ),
-                                source_measures=(3, 4),
+                                source_measures=(1, 2),
                                 verb='prefix',
                                 target_stage=stirrings_still.StageToken(
                                     letter='B',
@@ -2284,8 +2284,8 @@ def second_order_stages(segment):
                         stage_number=11,
                         measure_numbers=[35, 36, 37, 38, 39, 40],
                         time_signatures=[
-                            abjad.TimeSignature((6, 8)),
-                            abjad.TimeSignature((7, 8)),
+                            abjad.TimeSignature((8, 8)),
+                            abjad.TimeSignature((8, 8)),
                             abjad.TimeSignature((6, 8)),
                             abjad.TimeSignature((5, 8)),
                             abjad.TimeSignature((4, 8)),
@@ -2299,7 +2299,7 @@ def second_order_stages(segment):
                                     description='inception',
                                     length=4,
                                     ),
-                                source_measures=(3, 4),
+                                source_measures=(1, 2),
                                 verb='prefix',
                                 target_stage=stirrings_still.StageToken(
                                     letter='H',

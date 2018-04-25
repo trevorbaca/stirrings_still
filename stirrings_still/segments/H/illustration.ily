@@ -121,10 +121,10 @@ H_GlobalRests = {
         }                                                                %! GFC1
     
     % [H GlobalRests measure 493]                                        %! SM4
-    R1 * 3/4
+    R1 * 1
     
     % [H GlobalRests measure 494]                                        %! SM4
-    R1 * 7/8
+    R1 * 1
     
     % [H GlobalRests measure 495]                                        %! SM4
     R1 * 3/4
@@ -286,7 +286,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [18'55'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [18'58'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -320,7 +320,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [18'59'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'02'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -355,7 +355,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'04'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'07'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -442,7 +442,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'07'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'10'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -482,7 +482,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'10'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'13'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -575,7 +575,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'14'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'17'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -668,7 +668,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'17'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'20'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -703,7 +703,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'20'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'23'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -800,7 +800,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'22'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'25'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -835,7 +835,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'24'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'27'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -876,7 +876,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'27'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'30'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -966,7 +966,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'30'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'33'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1007,7 +1007,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'32'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'35'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1094,7 +1094,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'33'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'36'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1135,7 +1135,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'35'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'38'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1170,7 +1170,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'38'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'41'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1266,7 +1266,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'41'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'44'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1301,7 +1301,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'45'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'48'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1336,7 +1336,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'47'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'50'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1371,7 +1371,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'49'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'52'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1406,7 +1406,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'53'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'56'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1441,7 +1441,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'56'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'59'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1534,7 +1534,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'59'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'02'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1569,7 +1569,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'01'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'04'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1604,7 +1604,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'03'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'06'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1639,7 +1639,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'05'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'08'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1673,7 +1673,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'07'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'10'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1708,7 +1708,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'09'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'12'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1743,7 +1743,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'10'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'13'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1784,7 +1784,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'11'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'14'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1818,7 +1818,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'13'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'16'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1853,7 +1853,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'14'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'17'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1894,7 +1894,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'15'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'18'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1929,7 +1929,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'16'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'19'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -1985,9 +1985,9 @@ H_GlobalSkips = {
     \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    s1 * 1
     \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
@@ -2022,15 +2022,14 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'17'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'20'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [H GlobalSkips measure 494]                                        %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
     ^ \markup {
         \column
             {
@@ -2057,7 +2056,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'20'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'24'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2150,7 +2149,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'24'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'29'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2185,7 +2184,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'26'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'30'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2220,7 +2219,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'27'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'32'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2255,7 +2254,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'28'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'33'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2296,7 +2295,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'28'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'33'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2331,7 +2330,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'30'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'35'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2365,7 +2364,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'32'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'37'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2400,7 +2399,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'34'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'38'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2435,7 +2434,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'35'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'39'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2532,7 +2531,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'35'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'40'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2567,7 +2566,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'36'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'41'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2602,7 +2601,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'38'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'43'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2688,7 +2687,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'40'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'45'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2729,7 +2728,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'45'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'49'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2874,7 +2873,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'48'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'52'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -2917,7 +2916,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'50'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%             [20'55'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3236,46 +3235,45 @@ H_ViolinIMusicVoice = {
         a'4
         \glissando                                               %! SC
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
-        
-        % [H ViolinIMusicVoice measure 469]                      %! SM4
-        \once \override TextSpanner.Y-extent = ##f               %! PWC1
-        \once \override TextSpanner.arrow-width = 0.25           %! PWC1
-        \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \whiteout
-                        \upright
-                            "6” circles"
-                    \hspace
-                        #0.5
-                }
-            }                                                    %! PWC1
-        \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
-        \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
-        \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
-        \once \override TextSpanner.bound-details.right.arrow = ##t %! PWC1
-        \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
-        \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
-        \once \override TextSpanner.dash-period = 1.5            %! PWC1
-        a'4
-        \stopTextSpan                                            %! PWC1
-        \glissando                                               %! SC
-        \startTextSpan                                           %! PWC1
-        
-        a'4
-        \glissando                                               %! SC
-        
-        a'4
-        \glissando                                               %! SC
-        
-        a'4
-        \glissando                                               %! SC
-    }
+    
+    % [H ViolinIMusicVoice measure 469]                          %! SM4
+    \once \override TextSpanner.Y-extent = ##f                   %! PWC1
+    \once \override TextSpanner.arrow-width = 0.25               %! PWC1
+    \once \override TextSpanner.bound-details.left-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        "6” circles"
+                \hspace
+                    #0.5
+            }
+        }                                                        %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.padding = 0 %! PWC1
+    \once \override TextSpanner.bound-details.right-broken.text = ##f %! PWC1
+    \once \override TextSpanner.bound-details.right.arrow = ##t  %! PWC1
+    \once \override TextSpanner.bound-details.right.padding = 0.5 %! PWC1
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! PWC1
+    \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
+    \once \override TextSpanner.dash-period = 1.5                %! PWC1
+    a'8..
+    \stopTextSpan                                                %! PWC1
+    \glissando                                                   %! SC
+    [
+    \startTextSpan                                               %! PWC1
+    
+    a'8..
+    \glissando                                                   %! SC
+    
+    a'8..
+    \glissando                                                   %! SC
+    
+    a'8..
+    ]
+    \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/6 {
         
@@ -3661,13 +3659,13 @@ H_ViolinIMusicVoice = {
                     #0.0
                 \whiteout
                     \upright
-                        "flaut. (2°)"
+                        "poco rasp (2°)"
             }
         }                                                        %! PWC1
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    gf'!2.
+    gf'!1
     \<                                                           %! HC1
     \startTextSpan                                               %! PWC1
     _ \markup {                                                  %! IC
@@ -3678,7 +3676,7 @@ H_ViolinIMusicVoice = {
     
     % [H ViolinIMusicVoice measure 494]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    gf'!2..
+    gf'!1
     \repeatTie
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
@@ -4770,13 +4768,13 @@ H_ViolinIIMusicVoice = {
                     #0.0
                 \whiteout
                     \upright
-                        "flaut. (2°)"
+                        "poco rasp (2°)"
             }
         }                                                        %! PWC1
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    f'2.
+    f'1
     \<                                                           %! HC1
     \startTextSpan                                               %! PWC1
     _ \markup {                                                  %! IC
@@ -4787,7 +4785,7 @@ H_ViolinIIMusicVoice = {
     
     % [H ViolinIIMusicVoice measure 494]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    f'2..
+    f'1
     \repeatTie
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
@@ -5168,6 +5166,9 @@ H_ViolaMusicVoice = {
             #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Va.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+    \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \once \override Staff.StaffSymbol.line-count = 5             %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
     \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override TextSpanner.Y-extent = ##f                   %! PWC1
@@ -5207,6 +5208,7 @@ H_ViolaMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af!1
     \<                                                           %! HC1
@@ -5472,22 +5474,21 @@ H_ViolaMusicVoice = {
         b4
         \glissando                                               %! SC
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
-        
-        % [H ViolaMusicVoice measure 470]                        %! SM4
-        b4
-        \glissando                                               %! SC
-        
-        b4
-        \glissando                                               %! SC
-        
-        b4
-        \glissando                                               %! SC
-        
-        b4
-        \glissando                                               %! SC
-    }
+    
+    % [H ViolaMusicVoice measure 470]                            %! SM4
+    b8..
+    \glissando                                                   %! SC
+    [
+    
+    b8..
+    \glissando                                                   %! SC
+    
+    b8..
+    \glissando                                                   %! SC
+    
+    b8..
+    ]
+    \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/4 {
         
@@ -5528,26 +5529,25 @@ H_ViolaMusicVoice = {
     \glissando                                                   %! SC
     \revert TextScript.staff-padding                             %! OC2
     \revert TextSpanner.staff-padding                            %! OC2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
-        
-        % [H ViolaMusicVoice measure 473]                        %! SM4
-        \once \override Hairpin.circled-tip = ##t                %! HC1
-        \revert Accidental.stencil                               %! SC
-        \revert NoteColumn.glissando-skip                        %! SC
-        \revert NoteHead.no-ledgers                              %! SC
-        \undo \hide NoteHead                                     %! SC
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        b4
-        \>                                                       %! HC1
-        \p                                                       %! HC1
-        
-        b4
-        
-        b4
-        
-        b4
-    }
+    
+    % [H ViolaMusicVoice measure 473]                            %! SM4
+    \once \override Hairpin.circled-tip = ##t                    %! HC1
+    \revert Accidental.stencil                                   %! SC
+    \revert NoteColumn.glissando-skip                            %! SC
+    \revert NoteHead.no-ledgers                                  %! SC
+    \undo \hide NoteHead                                         %! SC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    b8.
+    \>                                                           %! HC1
+    \p                                                           %! HC1
+    [
+    
+    b8.
+    
+    b8.
+    
+    b8.
+    ]
     
     % [H ViolaMusicVoice measure 474]                            %! SM4
     b4
@@ -5808,13 +5808,13 @@ H_ViolaMusicVoice = {
                     #0.0
                 \whiteout
                     \upright
-                        "flaut. (2°)"
+                        "poco rasp (2°)"
             }
         }                                                        %! PWC1
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af!2.
+    af!1
     \<                                                           %! HC1
     \startTextSpan                                               %! PWC1
     _ \markup {                                                  %! IC
@@ -5825,7 +5825,7 @@ H_ViolaMusicVoice = {
     
     % [H ViolaMusicVoice measure 494]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    af!2..
+    af!1
     \repeatTie
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
@@ -6683,13 +6683,13 @@ H_CelloMusicVoice = {
                     #0.0
                 \whiteout
                     \upright
-                        "flaut. (2°)"
+                        "poco rasp (2°)"
             }
         }                                                        %! PWC1
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af,!2.
+    af,!1
     \<                                                           %! HC1
     \startTextSpan                                               %! PWC1
     _ \markup {                                                  %! IC
@@ -6700,7 +6700,7 @@ H_CelloMusicVoice = {
     
     % [H CelloMusicVoice measure 494]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    af,!2..
+    af,!1
     \repeatTie
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
@@ -6930,135 +6930,10 @@ H_CelloMusicVoice = {
         \glissando                                               %! SC
         \startTextSpan
     }
-    
-    % [H CelloMusicVoice measure 505]                            %! SM4
-    \once \override TextSpanner.Y-extent = ##f
-    \once \override TextSpanner.arrow-width = 0.25
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \fraction
-                    0
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    \once \override TextSpanner.bound-details.right-broken.padding = 0
-    \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.arrow = ##t
-    \once \override TextSpanner.bound-details.right.padding = 0.5
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-    \once \override TextSpanner.dash-fraction = 1
-    e,8
-    -\downbow
-    \stopTextSpan
-    \glissando                                                   %! SC
-    \startTextSpan
-    
-    \once \override TextSpanner.Y-extent = ##f
-    \once \override TextSpanner.arrow-width = 0.25
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \fraction
-                    7
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    \once \override TextSpanner.bound-details.right-broken.padding = 0
-    \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.arrow = ##t
-    \once \override TextSpanner.bound-details.right.padding = 0.5
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-    \once \override TextSpanner.dash-fraction = 1
-    e,4
-    -\upbow
-    \stopTextSpan
-    \glissando                                                   %! SC
-    \startTextSpan
-    
-    \once \override TextSpanner.Y-extent = ##f
-    \once \override TextSpanner.arrow-width = 0.25
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \fraction
-                    0
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    \once \override TextSpanner.bound-details.right-broken.padding = 0
-    \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.arrow = ##t
-    \once \override TextSpanner.bound-details.right.padding = 0.5
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-    \once \override TextSpanner.dash-fraction = 1
-    e,8
-    -\downbow
-    \stopTextSpan
-    \glissando                                                   %! SC
-    [
-    \startTextSpan
-    
-    \once \override TextSpanner.Y-extent = ##f
-    \once \override TextSpanner.arrow-width = 0.25
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \fraction
-                    4
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    \once \override TextSpanner.bound-details.right-broken.padding = 0
-    \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.arrow = ##t
-    \once \override TextSpanner.bound-details.right.padding = 0.5
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-    \once \override TextSpanner.dash-fraction = 1
-    e,8
-    \stopTextSpan
-    \glissando                                                   %! SC
-    \startTextSpan
-    
-    \once \override TextSpanner.Y-extent = ##f
-    \once \override TextSpanner.arrow-width = 0.25
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-    \once \override TextSpanner.bound-details.left.text = \markup {
-        \concat
-            {
-                \fraction
-                    5
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    \once \override TextSpanner.bound-details.right-broken.padding = 0
-    \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.arrow = ##t
-    \once \override TextSpanner.bound-details.right.padding = 0.5
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-    \once \override TextSpanner.dash-fraction = 1
-    e,8
-    ]
-    \stopTextSpan
-    \glissando                                                   %! SC
-    \startTextSpan
-    \times 4/7 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
         
-        % [H CelloMusicVoice measure 506]                        %! SM4
+        % [H CelloMusicVoice measure 505]                        %! SM4
         \once \override TextSpanner.Y-extent = ##f
         \once \override TextSpanner.arrow-width = 0.25
         \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
@@ -7066,7 +6941,7 @@ H_CelloMusicVoice = {
             \concat
                 {
                     \fraction
-                        6
+                        0
                         7
                     \hspace
                         #0.25
@@ -7078,56 +6953,7 @@ H_CelloMusicVoice = {
         \once \override TextSpanner.bound-details.right.padding = 0.5
         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
         \once \override TextSpanner.dash-fraction = 1
-        e,2
-        \stopTextSpan
-        \glissando                                               %! SC
-        \startTextSpan
-        
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \fraction
-                        7
-                        7
-                    \hspace
-                        #0.25
-                }
-            }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
-        e,4
-        -\upbow
-        \stopTextSpan
-        \glissando                                               %! SC
-        \startTextSpan
-        
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \fraction
-                        6
-                        7
-                    \hspace
-                        #0.25
-                }
-            }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
-        e,4
+        e,8
         -\downbow
         \stopTextSpan
         \glissando                                               %! SC
@@ -7166,109 +6992,6 @@ H_CelloMusicVoice = {
                 {
                     \fraction
                         0
-                        4
-                    \hspace
-                        #0.25
-                }
-            }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
-        e,2
-        -\downbow
-        \stopTextSpan
-        \glissando                                               %! SC
-        \startTextSpan
-    }
-    \times 8/9 {
-        
-        % [H CelloMusicVoice measure 507]                        %! SM4
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \fraction
-                        1
-                        4
-                    \hspace
-                        #0.25
-                }
-            }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
-        e,8
-        \stopTextSpan
-        \glissando                                               %! SC
-        [
-        \startTextSpan
-        
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \fraction
-                        2
-                        4
-                    \hspace
-                        #0.25
-                }
-            }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
-        e,8
-        -\upbow
-        \stopTextSpan
-        \glissando                                               %! SC
-        \startTextSpan
-        
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \fraction
-                        1
-                        4
-                    \hspace
-                        #0.25
-                }
-            }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
-        e,8
-        ]
-        \stopTextSpan
-        \glissando                                               %! SC
-        \startTextSpan
-        
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \fraction
-                        0
                         7
                     \hspace
                         #0.25
@@ -7280,10 +7003,11 @@ H_CelloMusicVoice = {
         \once \override TextSpanner.bound-details.right.padding = 0.5
         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
         \once \override TextSpanner.dash-fraction = 1
-        e,4
+        e,8
         -\downbow
         \stopTextSpan
         \glissando                                               %! SC
+        [
         \startTextSpan
         
         \once \override TextSpanner.Y-extent = ##f
@@ -7308,7 +7032,6 @@ H_CelloMusicVoice = {
         e,8
         \stopTextSpan
         \glissando                                               %! SC
-        [
         \startTextSpan
         
         \once \override TextSpanner.Y-extent = ##f
@@ -7355,43 +7078,41 @@ H_CelloMusicVoice = {
         \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
         \once \override TextSpanner.dash-fraction = 1
         e,8
-        \stopTextSpan
-        \glissando                                               %! SC
-        \startTextSpan
-        
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \fraction
-                        7
-                        7
-                    \hspace
-                        #0.25
-                }
-            }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
-        e,8
-        -\upbow
         ]
         \stopTextSpan
         \glissando                                               %! SC
         \startTextSpan
     }
     
-    % [H CelloMusicVoice measure 508]                            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    % [H CelloMusicVoice measure 506]                            %! SM4
     e,8
-    \p                                                           %! HC1
     \glissando                                                   %! SC
     [
+    
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    7
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
+    e,8
+    -\upbow
+    \stopTextSpan
+    \glissando                                                   %! SC
+    \startTextSpan
     
     \once \override TextSpanner.Y-extent = ##f
     \once \override TextSpanner.arrow-width = 0.25
@@ -7439,6 +7160,7 @@ H_CelloMusicVoice = {
     \once \override TextSpanner.dash-fraction = 1
     e,8
     -\upbow
+    ]
     \stopTextSpan
     \glissando                                                   %! SC
     \startTextSpan
@@ -7451,7 +7173,7 @@ H_CelloMusicVoice = {
             {
                 \fraction
                     0
-                    7
+                    4
                 \hspace
                     #0.25
             }
@@ -7461,30 +7183,315 @@ H_CelloMusicVoice = {
     \once \override TextSpanner.bound-details.right.arrow = ##t
     \once \override TextSpanner.bound-details.right.padding = 0.5
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \fraction
-                    7
-                    7
-            }
-        }
     \once \override TextSpanner.dash-fraction = 1
-    e,8
+    e,4
     -\downbow
     \stopTextSpan
     \glissando                                                   %! SC
     \startTextSpan
     
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    1
+                    4
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
+    e,8
+    \stopTextSpan
+    \glissando                                                   %! SC
+    [
+    \startTextSpan
+    
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.arrow-width = 0.25
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \fraction
+                    2
+                    4
+                \hspace
+                    #0.25
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.arrow = ##t
+    \once \override TextSpanner.bound-details.right.padding = 0.5
+    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+    \once \override TextSpanner.dash-fraction = 1
     e,8
     -\upbow
     ]
     \stopTextSpan
-    \revert DynamicLineSpanner.staff-padding                     %! OC2
-    \revert TextScript.staff-padding                             %! OC2
-    \revert TextSpanner.staff-padding                            %! OC2
+    \glissando                                                   %! SC
+    \startTextSpan
+    \times 4/7 {
+        
+        % [H CelloMusicVoice measure 507]                        %! SM4
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        1
+                        4
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,4
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        0
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,2
+        -\downbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        4
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,4
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        5
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,4
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        6
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,4
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        7
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,4
+        -\upbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [H CelloMusicVoice measure 508]                        %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        e,8
+        \p                                                       %! HC1
+        \glissando                                               %! SC
+        [
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        6
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,8
+        -\downbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        7
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.dash-fraction = 1
+        e,8
+        -\upbow
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.arrow-width = 0.25
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \fraction
+                        0
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.arrow = ##t
+        \once \override TextSpanner.bound-details.right.padding = 0.5
+        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        \once \override TextSpanner.bound-details.right.text = \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \fraction
+                        7
+                        7
+                }
+            }
+        \once \override TextSpanner.dash-fraction = 1
+        e,8
+        -\downbow
+        ]
+        \stopTextSpan
+        \glissando                                               %! SC
+        \startTextSpan
+        
+        e,4
+        -\upbow
+        \stopTextSpan
+        \revert DynamicLineSpanner.staff-padding                 %! OC2
+        \revert TextScript.staff-padding                         %! OC2
+        \revert TextSpanner.staff-padding                        %! OC2
+    }
     
     % [H CelloMusicVoice measure 509]                            %! SM4
     \once \override Hairpin.circled-tip = ##t                    %! PWC1

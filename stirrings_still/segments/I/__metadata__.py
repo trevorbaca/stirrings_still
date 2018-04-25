@@ -98,6 +98,11 @@ metadata = abjad.OrderedDict(
                                 prototype='abjad.MarginMarkup',
                                 value='Va.',
                                 ),
+                            abjad.Momento(
+                                context='ViolaMusicVoice',
+                                prototype='baca.StaffLines',
+                                value=5,
+                                ),
                             ],
                         ),
                     (
@@ -188,8 +193,8 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('start_clock_time', "20'52''"),
-        ('stop_clock_time', "21'57''"),
+        ('start_clock_time', "20'57''"),
+        ('stop_clock_time', "22'02''"),
         (
             'time_signatures',
             [
