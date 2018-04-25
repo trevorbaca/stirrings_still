@@ -401,7 +401,7 @@ SEGMENTS
         v1:
             intermittently conflicting rhythm governs stage;
         v2, va, vc:
-            regular homorhythm: 1 (1r) (1r) 1 (1r) (1r) ... begins;
+            regular homorhythm begins;
     attacca;
 
     [B.2] (5)

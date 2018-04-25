@@ -118,3 +118,32 @@ time = (
     )
 
 stirrings_still.time(maker, time)
+
+tutti = ['v1', 'v2', 'va', 'vc']
+
+maker(
+    ('v1', (1, 4)),
+    stirrings_still.clockticks(
+        displace=True,
+        division_mask=abjad.silence([0], 2),
+        ),
+    )
+
+maker(
+    (['v2', 'va', 'vc'], (1, 4)),
+    stirrings_still.clockticks(),
+    )
+
+maker(
+    (tutti, (1, 4)),
+    baca.alternate_bow_strokes(),
+    baca.dynamic('mp'),
+    baca.text_spanner(
+        baca.markup.boxed('LHD + 1/2 clt'),
+        right_padding=1.75,
+        selector=baca.rleaves(),
+        ),
+    baca.text_spanner_staff_padding(7),
+    baca.tuplet_bracket_staff_padding(2),
+    baca.tuplet_number_denominator(),
+    )
