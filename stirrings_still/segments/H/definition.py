@@ -212,12 +212,7 @@ maker(
 
 maker(
     ('v2', (11, 14)),
-    baca.glissando(
-        allow_repeats=True,
-        stems=True,
-        selector=baca.rleaves(),
-        ),
-    baca.interpolate_staff_positions('F4', 'Ab4'),
+    stirrings_still.glissando_interpolation('F4', 'Ab4', baca.rleaves()),
     )
 
 maker(
@@ -240,17 +235,19 @@ maker(
 
 maker(
     (['v1', 'va'], (7, 14)),
-    baca.glissando(
-        allow_repeats=True,
-        stems=True,
-        selector=baca.rleaves(),
-        ),
+#    baca.glissando(
+#        allow_repeats=True,
+#        stems=True,
+#        selector=baca.rleaves(),
+#        ),
+    (stirrings_still.glissando_interpolation('Gb4', 'Bb4', baca.rleaves()), 0),
+    (stirrings_still.glissando_interpolation('Ab3', 'B3', baca.rleaves()), 1),
     )
 
-maker(
-    ('v1', (7, 14)),
-    baca.interpolate_staff_positions('Gb4', 'Bb4'),
-    )
+#maker(
+#    ('v1', (7, 14)),
+#    baca.interpolate_staff_positions('Gb4', 'Bb4'),
+#    )
 
 maker(
     ('v1', (15, 16)),
@@ -262,10 +259,10 @@ maker(
     baca.tuplet_bracket_staff_padding(1.5),
     )
 
-maker(
-    ('va', (7, 14)),
-    baca.interpolate_staff_positions('Ab3', 'B3'),
-    )
+#maker(
+#    ('va', (7, 14)),
+#    baca.interpolate_staff_positions('Ab3', 'B3'),
+#    )
 
 maker(
     ('va', (15, 16)),
@@ -426,16 +423,10 @@ maker(
 maker(
     ('vc', (37, 45)),
     baca.dynamic('ppp'),
-    baca.glissando(
-        allow_repeats=True,
-        stems=True,
-        selector=baca.rleaves(),
-        ),
-    baca.interpolate_staff_positions('Gb2', 'E2'),
     baca.make_repeated_duration_notes([(1, 4)], do_not_rewrite_meter=True),
+    stirrings_still.glissando_interpolation('Gb2', 'E2', baca.rleaves()),
     )
 
-#selector = baca.leaves().group_by_measure()[-2:].leaves()[:-3].group()
 maker(
     (['v1', 'v2', 'va'], (46, 50)),
     (stirrings_still.pickets(4, 2), 0),

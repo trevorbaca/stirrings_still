@@ -808,15 +808,63 @@ F_ViolinIMusicVoice = {
     
     % [F ViolinIMusicVoice measure 435]                          %! SM4
     R1 * 1/4
-    
-    % [F ViolinIMusicVoice measure 436]                          %! SM4
-    \makeBlue                                                    %! SM24
-    c'1.
-    
-    % [F ViolinIMusicVoice measure 437]                          %! SM4
-    \makeBlue                                                    %! SM24
-    c'1.
-    \repeatTie
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [F ViolinIMusicVoice measure 436]                      %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'4
+        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    "maximally tight crunch circles: grind at talon" %! IC
+            }                                                    %! IC
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [F ViolinIMusicVoice measure 437]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [F ViolinIMusicVoice measure 438]                          %! SM4
     R1 * 1/4
@@ -956,13 +1004,56 @@ F_ViolinIIMusicVoice = {
     R1 * 1/4
     
     % [F ViolinIIMusicVoice measure 436]                         %! SM4
-    \makeBlue                                                    %! SM24
-    c'1.
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    f'4
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \glissando                                                   %! SC
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "maximally tight crunch circles: grind at talon" %! IC
+        }                                                        %! IC
+    
+    \hide NoteHead                                               %! SC
+    \override Accidental.stencil = ##f                           %! SC
+    \override NoteColumn.glissando-skip = ##t                    %! SC
+    \override NoteHead.no-ledgers = ##t                          %! SC
+    f'4
+    \glissando                                                   %! SC
+    
+    f'4
+    \glissando                                                   %! SC
+    
+    g'4
+    \glissando                                                   %! SC
+    
+    g'4
+    \glissando                                                   %! SC
+    
+    g'4
+    \glissando                                                   %! SC
     
     % [F ViolinIIMusicVoice measure 437]                         %! SM4
-    \makeBlue                                                    %! SM24
-    c'1.
-    \repeatTie
+    g'4
+    \glissando                                                   %! SC
+    
+    g'4
+    \glissando                                                   %! SC
+    
+    g'4
+    \glissando                                                   %! SC
+    
+    a'4
+    \glissando                                                   %! SC
+    
+    a'4
+    \glissando                                                   %! SC
+    
+    \revert Accidental.stencil                                   %! SC
+    \revert NoteColumn.glissando-skip                            %! SC
+    \revert NoteHead.no-ledgers                                  %! SC
+    \undo \hide NoteHead                                         %! SC
+    af'!4
     
     % [F ViolinIIMusicVoice measure 438]                         %! SM4
     R1 * 1/4
@@ -1118,13 +1209,65 @@ F_ViolaMusicVoice = {
     R1 * 1/4
     
     % [F ViolaMusicVoice measure 436]                            %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
-    c'1.
+    c'8.
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    [
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "maximally tight crunch circles: grind at talon" %! IC
+        }                                                        %! IC
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    ]
     
     % [F ViolaMusicVoice measure 437]                            %! SM4
     \makeBlue                                                    %! SM24
-    c'1.
-    \repeatTie
+    c'8.
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    ]
     
     % [F ViolaMusicVoice measure 438]                            %! SM4
     R1 * 1/4
@@ -1256,15 +1399,51 @@ F_CelloMusicVoice = {
     
     % [F CelloMusicVoice measure 435]                            %! SM4
     R1 * 1/4
-    
-    % [F CelloMusicVoice measure 436]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'1.
-    
-    % [F CelloMusicVoice measure 437]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'1.
-    \repeatTie
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/5 {
+        
+        % [F CelloMusicVoice measure 436]                        %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'4
+        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    "maximally tight crunch circles: grind at talon" %! IC
+            }                                                    %! IC
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/5 {
+        
+        % [F CelloMusicVoice measure 437]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [F CelloMusicVoice measure 438]                            %! SM4
     R1 * 1/4
