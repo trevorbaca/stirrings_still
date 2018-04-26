@@ -1896,7 +1896,7 @@ SEGMENTS
         absent lh continues;
         poco flicker continues;
         mp continues;
-        completes abruptly at end of stage;
+        terminates abruptly at end of stage;
     vc:
         tacet continues;
     long fermata (11);
