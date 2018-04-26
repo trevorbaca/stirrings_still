@@ -60,10 +60,8 @@ time = (
 
 stirrings_still.time(maker, time)
 
-tutti = ['v1', 'v2', 'va', 'vc']
-
 maker(
-    (tutti, (1, 2)),
+    ('tutti', (1, 2)),
     (stirrings_still.bcps(rotation=0), 0),
     (stirrings_still.bcps(rotation=-1), 1),
     (stirrings_still.bcps(rotation=-2), 2),
@@ -82,7 +80,7 @@ maker(
     )
 
 maker(
-    (tutti, (3, 4)),
+    ('tutti', (3, 4)),
     (stirrings_still.desynchronization(4, [2]), 0),
     (stirrings_still.desynchronization(4, [1]), 1),
     (stirrings_still.desynchronization(4, [0]), 2),

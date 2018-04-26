@@ -119,8 +119,6 @@ time = (
 
 stirrings_still.time(maker, time)
 
-tutti = ['v1', 'v2', 'va', 'vc']
-
 maker(
     ('v1', (1, 4)),
     stirrings_still.clockticks(
@@ -135,7 +133,7 @@ maker(
     )
 
 maker(
-    (tutti, (1, 4)),
+    ('tutti', (1, 4)),
     baca.alternate_bow_strokes(),
     baca.dynamic('mp'),
     baca.text_spanner(
@@ -164,7 +162,7 @@ maker(
     )
 
 maker(
-    (tutti, 5),
+    ('tutti', 5),
     baca.subito_dynamic('mf'),
     )
 
@@ -227,37 +225,37 @@ maker(
     )
 
 maker(
-    (tutti, (29, 30)),
+    ('tutti', (29, 30)),
     stirrings_still.trajectories('C', -2),
     )
 
 maker(
-    (tutti, (32, 33)),
+    ('tutti', (32, 33)),
     stirrings_still.rasp(),
     )
 
 maker(
-    (tutti, (34, 35)),
+    ('tutti', (34, 35)),
     stirrings_still.trajectories('C', -3),
     )
 
 maker(
-    (tutti, (37, 38)),
+    ('tutti', (37, 38)),
     stirrings_still.trajectories('C', -4),
     )
 
 maker(
-    (tutti, (40, 41)),
+    ('tutti', (40, 41)),
     stirrings_still.trajectories('C', -5),
     )
 
 maker(
-    (tutti, 42),
+    ('tutti', 42),
     stirrings_still.circles((1, 4)),
     )
 
 maker(
-    (tutti, [44, 46]),
+    ('tutti', [44, 46]),
     stirrings_still.trajectories('C', -6),
     )
 
@@ -267,7 +265,7 @@ maker(
     )
 
 maker(
-    (tutti, (50, 57)),
+    ('tutti', (50, 57)),
     stirrings_still.trajectories('C', -7),
     )
 
@@ -282,6 +280,6 @@ maker(
     )
 
 maker(
-    (tutti, 65),
+    ('tutti', 65),
     stirrings_still.grid(stage=1),
     )

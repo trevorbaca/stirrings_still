@@ -88,10 +88,8 @@ time = (
 
 stirrings_still.time(maker, time)
 
-tutti = ['v1', 'v2', 'va', 'vc']
-
 maker(
-    (tutti, (1, 6)),
+    ('tutti', (1, 6)),
     (stirrings_still.strokes(0, abjad.silence([0], 2)), 0),
     (stirrings_still.strokes(-1, abjad.silence([1], 2)), 1),
     (stirrings_still.strokes(-2, abjad.silence([0, 1], 3)), 2),
@@ -100,7 +98,7 @@ maker(
     )
 
 maker(
-    (tutti, (7, 12)),
+    ('tutti', (7, 12)),
     (stirrings_still.strokes(0, abjad.silence([0], 2)), 0),
     (stirrings_still.strokes(-1, abjad.silence([1], 2)), 1),
     (stirrings_still.strokes(-2, abjad.silence([0], 3)), 2),
@@ -109,7 +107,7 @@ maker(
     )
 
 maker(
-    (tutti, (13, 18)),
+    ('tutti', (13, 18)),
     (stirrings_still.strokes(0, abjad.silence([0], 2)), 0),
     (stirrings_still.strokes(-1, abjad.silence([1], 2)), 1),
     (stirrings_still.strokes(-2, abjad.silence([0], 3)), 2),
@@ -118,7 +116,7 @@ maker(
     )
 
 maker(
-    (tutti, (19, 24)),
+    ('tutti', (19, 24)),
     (stirrings_still.strokes(0, abjad.silence([0], 2)), 0),
     (stirrings_still.strokes(0, abjad.silence([2], 3)), 1),
     (stirrings_still.strokes(-2, abjad.silence([0], 3)), 2),
@@ -127,7 +125,7 @@ maker(
     )
 
 maker(
-    (tutti, (25, 30)),
+    ('tutti', (25, 30)),
     (stirrings_still.strokes(0, abjad.silence([0], 2)), 0),
     (stirrings_still.strokes(0, abjad.silence([2], 3)), 1),
     (stirrings_still.strokes(-2, abjad.silence([0], 2)), 2),
@@ -136,7 +134,7 @@ maker(
     )
 
 maker(
-    (tutti, (31, 36)),
+    ('tutti', (31, 36)),
     (stirrings_still.strokes(0, abjad.silence([0], 2)), 0),
     (stirrings_still.strokes(0, abjad.silence([2], 3)), 1),
     (stirrings_still.strokes(0, abjad.silence([1], 2)), 2),
@@ -158,14 +156,14 @@ maker(
     )
 
 maker(
-    (tutti, (40, 45)),
+    ('tutti', (40, 45)),
     baca.dynamic('pp'),
     stirrings_still.ntlt_flat_glissandi(),
     stirrings_still.strokes(0),
     )
 
 maker(
-    (tutti, 47),
+    ('tutti', 47),
     baca.dynamic('p'),
     stirrings_still.declamation(),
     )

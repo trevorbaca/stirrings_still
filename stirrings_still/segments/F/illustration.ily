@@ -810,10 +810,13 @@ F_ViolinIMusicVoice = {
     R1 * 1/4
     
     % [F ViolinIMusicVoice measure 436]                          %! SM4
-    R1 * 3/2
+    \makeBlue                                                    %! SM24
+    c'1.
     
     % [F ViolinIMusicVoice measure 437]                          %! SM4
-    R1 * 3/2
+    \makeBlue                                                    %! SM24
+    c'1.
+    \repeatTie
     
     % [F ViolinIMusicVoice measure 438]                          %! SM4
     R1 * 1/4
@@ -953,10 +956,13 @@ F_ViolinIIMusicVoice = {
     R1 * 1/4
     
     % [F ViolinIIMusicVoice measure 436]                         %! SM4
-    R1 * 3/2
+    \makeBlue                                                    %! SM24
+    c'1.
     
     % [F ViolinIIMusicVoice measure 437]                         %! SM4
-    R1 * 3/2
+    \makeBlue                                                    %! SM24
+    c'1.
+    \repeatTie
     
     % [F ViolinIIMusicVoice measure 438]                         %! SM4
     R1 * 1/4
@@ -1112,10 +1118,13 @@ F_ViolaMusicVoice = {
     R1 * 1/4
     
     % [F ViolaMusicVoice measure 436]                            %! SM4
-    R1 * 3/2
+    \makeBlue                                                    %! SM24
+    c'1.
     
     % [F ViolaMusicVoice measure 437]                            %! SM4
-    R1 * 3/2
+    \makeBlue                                                    %! SM24
+    c'1.
+    \repeatTie
     
     % [F ViolaMusicVoice measure 438]                            %! SM4
     R1 * 1/4
@@ -1249,10 +1258,13 @@ F_CelloMusicVoice = {
     R1 * 1/4
     
     % [F CelloMusicVoice measure 436]                            %! SM4
-    R1 * 3/2
+    \makeBlue                                                    %! SM24
+    c'1.
     
     % [F CelloMusicVoice measure 437]                            %! SM4
-    R1 * 3/2
+    \makeBlue                                                    %! SM24
+    c'1.
+    \repeatTie
     
     % [F CelloMusicVoice measure 438]                            %! SM4
     R1 * 1/4

@@ -68,3 +68,8 @@ maker(
     baca.markup.terminate_abruptly(baca.pleaf(-1)),
     stirrings_still.tailpiece(),
     )
+
+maker(
+    ('tutti', (12, 13)),
+    baca.make_repeat_tied_notes(),
+    )
