@@ -71,5 +71,11 @@ maker(
 
 maker(
     ('tutti', (12, 13)),
-    baca.make_repeat_tied_notes(),
+    (stirrings_still.desynchronization(4, [1]), 0),
+    (stirrings_still.desynchronization(4), 1),
+    (stirrings_still.glissando_interpolation('F4', 'Ab4'), 1),
+    (stirrings_still.desynchronization(4, [2]), 2),
+    (stirrings_still.desynchronization(4, [-1]), 3),
+    baca.dynamic('mp'),
+    baca.markup('maximally tight crunch circles: grind at talon'),
     )

@@ -3284,7 +3284,7 @@ H_ViolinIMusicVoice = {
         a'4
         \glissando                                               %! SC
         
-        b'4
+        a'4
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3326,7 +3326,7 @@ H_ViolinIMusicVoice = {
         b'4
         \glissando                                               %! SC
         
-        bf'!4
+        b'4
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
         \revert TextScript.staff-padding                         %! OC2
@@ -4390,7 +4390,7 @@ H_ViolinIIMusicVoice = {
         g'4
         \glissando                                               %! SC
         
-        a'4
+        g'4
         \glissando                                               %! SC
     }
     
@@ -4398,7 +4398,7 @@ H_ViolinIIMusicVoice = {
     a'4
     \glissando                                                   %! SC
     
-    af'!4
+    a'4
     \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/10 {
@@ -6775,7 +6775,7 @@ H_CelloMusicVoice = {
     f,4
     \glissando                                                   %! SC
     
-    e,4
+    f,4
     \glissando                                                   %! SC
     
     e,4

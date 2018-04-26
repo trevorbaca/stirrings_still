@@ -1909,7 +1909,7 @@ SEGMENTS
             v2 only:
                 slow up-glissando;
             desynchronization;
-            p;
+            mp;
     <<long fermata follows insert to complete prolongation>> (14);
 
 [G] time series C; rotation -36
