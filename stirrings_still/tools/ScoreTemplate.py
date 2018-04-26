@@ -91,6 +91,12 @@ class ScoreTemplate(baca.ScoreTemplate):
             'v2': 'ViolinIIMusicVoice',
             'va': 'ViolaMusicVoice',
             'vc': 'CelloMusicVoice',
+            'tutti': [
+                'ViolinIMusicVoice',
+                'ViolinIIMusicVoice',
+                'ViolaMusicVoice',
+                'CelloMusicVoice',
+                ],
             })
 
     ### SPECIAL METHODS ###

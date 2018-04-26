@@ -79,10 +79,8 @@ time = (
 
 stirrings_still.time(maker, time)
 
-tutti = ['v1', 'v2', 'va', 'vc']
-
 maker(
-    (tutti, (1, 5)),
+    ('tutti', (1, 5)),
     (baca.breathe_after_last(), [0, 2, 3]),
     baca.dls_staff_padding(3),
     baca.hairpin('niente < mp', selector=baca.notes()[:4]),
@@ -233,7 +231,7 @@ maker(
     )
 
 maker(
-    (tutti, (1, 5)),
+    ('tutti', (1, 5)),
     (baca.pitch('Gb4'), 0),
     (baca.pitch('F4'), 1),
     (baca.pitch('Ab3'), 2),
@@ -380,7 +378,7 @@ maker(
     )
 
 maker(
-    (tutti, (35, 36)),
+    ('tutti', (35, 36)),
     (baca.pitch('Gb4'), 0),
     (baca.pitch('F4'), 1),
     (baca.pitch('Ab3'), 2),
