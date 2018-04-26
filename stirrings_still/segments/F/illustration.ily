@@ -698,9 +698,11 @@ F_ViolinIMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1
-    \p                                                           %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeBlue                                                    %! SM24
+    c'1
+    \<                                                           %! PWC1
+    \pp                                                          %! PWC1
     ^ \markup {
         \column
             {
@@ -716,6 +718,12 @@ F_ViolinIMusicVoice = {
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vn. I”]"                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                "[clouded pane partials (double-stop)]" %! IC
+                    }                                            %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -734,28 +742,66 @@ F_ViolinIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [F ViolinIMusicVoice measure 426]                          %! SM4
-    R1 * 1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
+    \f                                                           %! PWC1
+    \>                                                           %! PWC1
     
     % [F ViolinIMusicVoice measure 427]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
     
     % [F ViolinIMusicVoice measure 428]                          %! SM4
-    R1 * 5/4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
+    \pp                                                          %! PWC1
+    \<                                                           %! PWC1
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeBlue                                                    %! SM24
+    c'4
+    \repeatTie
+    \f                                                           %! PWC1
+    \>                                                           %! PWC1
     
     % [F ViolinIMusicVoice measure 429]                          %! SM4
-    R1 * 3/2
+    \makeBlue                                                    %! SM24
+    c'1.
+    \repeatTie
     
     % [F ViolinIMusicVoice measure 430]                          %! SM4
-    R1 * 3/4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
+    \pp                                                          %! PWC1
+    \<                                                           %! PWC1
     
     % [F ViolinIMusicVoice measure 431]                          %! SM4
-    R1 * 1
+    \once \override Hairpin.circled-tip = ##t                    %! HC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
+    \f                                                           %! PWC1
+    \>                                                           %! HC1
+    \f                                                           %! HC1
     
     % [F ViolinIMusicVoice measure 432]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [F ViolinIMusicVoice measure 433]                          %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     R1 * 5/4
+    \!                                                           %! HC1
     
     % [F ViolinIMusicVoice measure 434]                          %! SM4
     R1 * 3/2
@@ -801,9 +847,11 @@ F_ViolinIIMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1
-    \p                                                           %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeBlue                                                    %! SM24
+    c'1
+    \<                                                           %! PWC1
+    \pp                                                          %! PWC1
     ^ \markup {
         \column
             {
@@ -837,28 +885,66 @@ F_ViolinIIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [F ViolinIIMusicVoice measure 426]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [F ViolinIIMusicVoice measure 427]                         %! SM4
-    R1 * 3/4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
+    \f                                                           %! PWC1
+    \>                                                           %! PWC1
     
     % [F ViolinIIMusicVoice measure 428]                         %! SM4
-    R1 * 5/4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
+    \pp                                                          %! PWC1
+    \<                                                           %! PWC1
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    \repeatTie
     
     % [F ViolinIIMusicVoice measure 429]                         %! SM4
-    R1 * 3/2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeBlue                                                    %! SM24
+    c'1.
+    \repeatTie
+    \f                                                           %! PWC1
+    \>                                                           %! PWC1
     
     % [F ViolinIIMusicVoice measure 430]                         %! SM4
-    R1 * 3/4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
+    \pp                                                          %! PWC1
+    \<                                                           %! PWC1
     
     % [F ViolinIIMusicVoice measure 431]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [F ViolinIIMusicVoice measure 432]                         %! SM4
-    R1 * 1
+    \once \override Hairpin.circled-tip = ##t                    %! HC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
+    \f                                                           %! PWC1
+    \>                                                           %! HC1
+    \f                                                           %! HC1
     
     % [F ViolinIIMusicVoice measure 433]                         %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     R1 * 5/4
+    \!                                                           %! HC1
     
     % [F ViolinIIMusicVoice measure 434]                         %! SM4
     R1 * 3/2
@@ -1010,6 +1096,11 @@ F_ViolaMusicVoice = {
     
     % [F ViolaMusicVoice measure 434]                            %! SM4
     c'1.
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "terminate abruptly"                             %! IC
+        }                                                        %! IC
     \revert RepeatTie.direction                                  %! OC2
     \revert TextScript.parent-alignment-X                        %! OC2
     
@@ -1058,9 +1149,11 @@ F_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1
-    \p                                                           %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'1
+    \<                                                           %! HC1
+    \p                                                           %! HC1
     ^ \markup {
         \column
             {
@@ -1076,6 +1169,12 @@ F_CelloMusicVoice = {
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Vc.”]                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                "[clouded pane fundamental]"     %! IC
+                    }                                            %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1094,28 +1193,54 @@ F_CelloMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [F CelloMusicVoice measure 426]                            %! SM4
-    R1 * 1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
+    \ff                                                          %! HC1
     
     % [F CelloMusicVoice measure 427]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
     
     % [F CelloMusicVoice measure 428]                            %! SM4
-    R1 * 5/4
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    \repeatTie
     
     % [F CelloMusicVoice measure 429]                            %! SM4
-    R1 * 3/2
+    \makeBlue                                                    %! SM24
+    c'1.
+    \repeatTie
     
     % [F CelloMusicVoice measure 430]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
     
     % [F CelloMusicVoice measure 431]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [F CelloMusicVoice measure 432]                            %! SM4
-    R1 * 1
+    \once \override Hairpin.circled-tip = ##t                    %! HC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
+    \>                                                           %! HC1
+    \ff                                                          %! HC1
     
     % [F CelloMusicVoice measure 433]                            %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     R1 * 5/4
+    \!                                                           %! HC1
     
     % [F CelloMusicVoice measure 434]                            %! SM4
     R1 * 3/2
