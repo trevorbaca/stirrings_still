@@ -116,7 +116,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='\\effort_mp',
+                                value='"mp"',
                                 ),
                             ],
                         ),
@@ -192,7 +192,7 @@ metadata = abjad.OrderedDict(
             abjad.OrderedDict(
                 [
                     ('CelloMusicVoice', False),
-                    ('ViolaMusicVoice', False),
+                    ('ViolaMusicVoice', True),
                     ('ViolinIIMusicVoice', False),
                     ('ViolinIMusicVoice', False),
                     ]

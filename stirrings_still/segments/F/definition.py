@@ -19,7 +19,16 @@ maker(
     'GlobalSkips',
     baca.rehearsal_mark('F'),
     baca.rehearsal_mark_y_offset(12),
+    baca.text_script_extra_offset((0, 5)),
     )
+
+stage_markup = (
+    ('[F.1]', 1),
+    ('[F.2]', 9),
+    ('[C.2]', 12),
+    )
+
+stirrings_still.stage_markup(maker, stage_markup)
 
 time = (
     #('largo', 1),
@@ -29,3 +38,12 @@ time = (
     )
 
 stirrings_still.time(maker, time)
+
+maker(
+    ('va', (1, 10)),
+    [
+        baca.hairpin('niente < "mp"', selector=baca.notes()[:2]),
+        baca.hairpin_shorten_pair((0.75, 0)),
+        ],
+    stirrings_still.tailpiece(),
+    )

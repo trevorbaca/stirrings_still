@@ -1232,7 +1232,7 @@ SEGMENTS
             largo;
             va tailpiece:
                 absent lh;
-                pochiss. flicker;
+                poco flicker;
                 mp;
         >>attacca second half of [D.9]<<;
     long fermata (54);
@@ -1471,7 +1471,7 @@ SEGMENTS
             largo;
             va tailpiece:
                 absent lh;
-                pochiss. flicker;
+                poco flicker;
                 mp;
         >>attacca second half of [D.21]<<;
     attacca;
@@ -1879,9 +1879,8 @@ SEGMENTS
         niente < f ... f > niente envelopes shape each double-stop:
     va tailpiece begins under cover of clouded pane:
         absent lh begins;
-        pochiss. flicker begins;
-        niente < mp governs measure 1:
-            achieves mp at start of second measure;
+        poco flicker begins;
+        niente < "mp" governs measure 1;
     vc clouded pane continues:
         stopped lh continues;
         hair continues;
@@ -1895,8 +1894,9 @@ SEGMENTS
         tacet continues;
     va tailpiece continues:
         absent lh continues;
-        pochiss. flicker continues;
-        mp completes abruptly at end of stage;
+        poco flicker continues;
+        mp continues;
+        completes abruptly at end of stage;
     vc:
         tacet continues;
     long fermata (11);
@@ -2642,7 +2642,7 @@ SEGMENTS
             does not alter time signature structure:
                 va tailpiece:
                     absent lh;
-                    pochiss. flicker;
+                    poco flicker;
     attacca;
 
     [K.4] (12-14)
