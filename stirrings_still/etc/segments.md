@@ -2525,7 +2525,8 @@ SEGMENTS
     [J.2] (6-7)
     (2 measures)
     larghissimo-to-andante accelerando begins;
-    tutti urtext field continues:
+    vc joins urtext field;
+    tutti urtext field:
         stopped lh continues;
         hair continues;
         double-stop field continues;
@@ -2539,8 +2540,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         double-stop field continues;
-        (appena udibile < fff poco scratch) completes:
-            achieves fff poco scratch at start of next stage;
+        appena udibile < fff poco scratch continues;
     attacca;
 
     ||: J.4-5 :|| x 3
@@ -2552,7 +2552,7 @@ SEGMENTS
             stopped lh continues;
             hair continues;
             double-stop field continues;
-            fff poco scratch continues and governs stage;
+            fff poco scratch governs stage;
         attacca;
 
         [J.5] (11-12)
