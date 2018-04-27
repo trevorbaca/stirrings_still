@@ -46,7 +46,7 @@ time = (
 stirrings_still.time(maker, time)
 
 maker(
-    (['v1', 'v2', 'va'], [(1, 2), (4, 5)]),
+    (['v1', 'v2', 'va'], (1, 2)),
     baca.dynamic('appena_udibile'),
     baca.markup('[double-stop cont.]'),
     stirrings_still.urtext_field(),
@@ -69,4 +69,27 @@ maker(
         ),
     baca.text_spanner_staff_padding(5),
     stirrings_still.clockticks(),
+    )
+
+maker(
+    (['v1', 'v2', 'va'], (4, 10)),
+    baca.dynamic('appena_udibile'),
+    baca.markup('[double-stop cont.]'),
+    stirrings_still.urtext_field(),
+    )
+
+maker(
+    ('vc', (6, 10)),
+    baca.dynamic('appena_udibile'),
+    stirrings_still.urtext_field(),
+    )
+
+#maker(
+#    ('tutti', (6, 9)),
+#    baca.hairpin('appena_udibile < fff', selector=baca.rleaves()),
+#    )
+
+maker(
+    ('tutti', 10),
+    baca.markup.poco_scratch(),
     )

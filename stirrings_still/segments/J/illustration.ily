@@ -1023,19 +1023,38 @@ J_ViolinIMusicVoice = {
     \repeatTie
     
     % [J ViolinIMusicVoice measure 527]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [J ViolinIMusicVoice measure 528]                          %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [J ViolinIMusicVoice measure 529]                          %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [J ViolinIMusicVoice measure 530]                          %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'2
+    \repeatTie
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \repeatTie
     
     % [J ViolinIMusicVoice measure 531]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "poco scratch"                                   %! IC
+        }                                                        %! IC
     
     % [J ViolinIMusicVoice measure 532]                          %! SM4
     R1 * 7/8
@@ -1202,19 +1221,38 @@ J_ViolinIIMusicVoice = {
     \repeatTie
     
     % [J ViolinIIMusicVoice measure 527]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [J ViolinIIMusicVoice measure 528]                         %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [J ViolinIIMusicVoice measure 529]                         %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [J ViolinIIMusicVoice measure 530]                         %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'2
+    \repeatTie
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \repeatTie
     
     % [J ViolinIIMusicVoice measure 531]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "poco scratch"                                   %! IC
+        }                                                        %! IC
     
     % [J ViolinIIMusicVoice measure 532]                         %! SM4
     R1 * 7/8
@@ -1338,19 +1376,38 @@ J_ViolaMusicVoice = {
     \repeatTie
     
     % [J ViolaMusicVoice measure 527]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [J ViolaMusicVoice measure 528]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [J ViolaMusicVoice measure 529]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [J ViolaMusicVoice measure 530]                            %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'2
+    \repeatTie
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \repeatTie
     
     % [J ViolaMusicVoice measure 531]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "poco scratch"                                   %! IC
+        }                                                        %! IC
     
     % [J ViolaMusicVoice measure 532]                            %! SM4
     R1 * 7/8
@@ -1451,19 +1508,39 @@ J_CelloMusicVoice = {
     R1 * 1
     
     % [J CelloMusicVoice measure 527]                            %! SM4
-    R1 * 1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'1
+    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [J CelloMusicVoice measure 528]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [J CelloMusicVoice measure 529]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [J CelloMusicVoice measure 530]                            %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'2
+    \repeatTie
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \repeatTie
     
     % [J CelloMusicVoice measure 531]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "poco scratch"                                   %! IC
+        }                                                        %! IC
     
     % [J CelloMusicVoice measure 532]                            %! SM4
     R1 * 7/8
