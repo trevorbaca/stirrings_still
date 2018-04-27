@@ -952,9 +952,10 @@ J_ViolinIMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1/2
-    \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2
+    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
             {
@@ -970,6 +971,12 @@ J_ViolinIMusicVoice = {
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vn. I”]"                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                "[double-stop cont.]"            %! IC
+                    }                                            %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -988,16 +995,32 @@ J_ViolinIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [J ViolinIMusicVoice measure 523]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
     
     % [J ViolinIMusicVoice measure 524]                          %! SM4
-    R1 * 3/4
+    \once \override NoteHead.style = #'harmonic                  %! OC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2.
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [J ViolinIMusicVoice measure 525]                          %! SM4
-    R1 * 3/4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2.
+    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "[double-stop cont.]"                            %! IC
+        }                                                        %! IC
     
     % [J ViolinIMusicVoice measure 526]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [J ViolinIMusicVoice measure 527]                          %! SM4
     R1 * 1
@@ -1061,9 +1084,10 @@ J_ViolinIIMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1/2
-    \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2
+    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
             {
@@ -1079,6 +1103,12 @@ J_ViolinIIMusicVoice = {
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vn. II”]"                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                "[double-stop cont.]"            %! IC
+                    }                                            %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1097,16 +1127,79 @@ J_ViolinIIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [J ViolinIIMusicVoice measure 523]                         %! SM4
-    R1 * 3/4
-    
-    % [J ViolinIIMusicVoice measure 524]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
+    \times 2/3 {
+        
+        % [J ViolinIIMusicVoice measure 524]                     %! SM4
+        \override TextSpanner.staff-padding = #5                 %! OC1
+        \once \override TextSpanner.Y-extent = ##f
+        \once \override TextSpanner.bound-details.left-broken.text = ##f
+        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
+        \once \override TextSpanner.bound-details.left.text = \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            \override
+                                #'(box-padding . 0.5)
+                                \box
+                                    "LHD + 1/2 clt"
+                    \hspace
+                        #0.5
+                }
+            }
+        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+        \once \override TextSpanner.bound-details.right-broken.padding = 0
+        \once \override TextSpanner.bound-details.right-broken.text = ##f
+        \once \override TextSpanner.bound-details.right.padding = 1.75
+        \once \override TextSpanner.bound-details.right.text = \markup {
+            \draw-line
+                #'(0 . -1)
+            }
+        \once \override TextSpanner.dash-fraction = 0.25
+        \once \override TextSpanner.dash-period = 1.5
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'8
+        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \startTextSpan
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+        \revert TextSpanner.staff-padding                        %! OC2
+    }
     
     % [J ViolinIIMusicVoice measure 525]                         %! SM4
-    R1 * 3/4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2.
+    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    \stopTextSpan
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "[double-stop cont.]"                            %! IC
+        }                                                        %! IC
     
     % [J ViolinIIMusicVoice measure 526]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [J ViolinIIMusicVoice measure 527]                         %! SM4
     R1 * 1
@@ -1174,9 +1267,10 @@ J_ViolaMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1/2
-    \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2
+    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
             {
@@ -1192,6 +1286,12 @@ J_ViolaMusicVoice = {
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Va.”]                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                "[double-stop cont.]"            %! IC
+                    }                                            %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1210,16 +1310,32 @@ J_ViolaMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [J ViolaMusicVoice measure 523]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
     
     % [J ViolaMusicVoice measure 524]                            %! SM4
-    R1 * 3/4
+    \once \override NoteHead.style = #'harmonic                  %! OC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2.
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [J ViolaMusicVoice measure 525]                            %! SM4
-    R1 * 3/4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2.
+    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "[double-stop cont.]"                            %! IC
+        }                                                        %! IC
     
     % [J ViolaMusicVoice measure 526]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [J ViolaMusicVoice measure 527]                            %! SM4
     R1 * 1
@@ -1322,7 +1438,11 @@ J_CelloMusicVoice = {
     R1 * 3/4
     
     % [J CelloMusicVoice measure 524]                            %! SM4
-    R1 * 3/4
+    \once \override NoteHead.style = #'harmonic                  %! OC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2.
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [J CelloMusicVoice measure 525]                            %! SM4
     R1 * 3/4

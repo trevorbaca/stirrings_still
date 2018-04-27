@@ -44,3 +44,29 @@ time = (
     )
 
 stirrings_still.time(maker, time)
+
+maker(
+    (['v1', 'v2', 'va'], [(1, 2), (4, 5)]),
+    baca.dynamic('appena_udibile'),
+    baca.markup('[double-stop cont.]'),
+    stirrings_still.urtext_field(),
+    )
+
+maker(
+    (['v1', 'va', 'vc'], 3),
+    baca.dynamic('pp'),
+    baca.natural_harmonics(),
+    stirrings_still.clouded_pane(),
+    )
+
+maker(
+    ('v2', 3),
+    baca.dynamic('mp'),
+    baca.text_spanner(
+        baca.markup.boxed('LHD + 1/2 clt'),
+        right_padding=1.75,
+        selector=baca.rleaves(),
+        ),
+    baca.text_spanner_staff_padding(5),
+    stirrings_still.clockticks(),
+    )
