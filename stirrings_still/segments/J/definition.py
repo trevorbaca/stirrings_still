@@ -80,14 +80,18 @@ maker(
 
 maker(
     ('vc', (6, 10)),
-    baca.dynamic('appena_udibile'),
+    #baca.dynamic('appena_udibile'),
     stirrings_still.urtext_field(),
     )
 
-#maker(
-#    ('tutti', (6, 9)),
-#    baca.hairpin('appena_udibile < fff', selector=baca.rleaves()),
-#    )
+maker(
+    ('tutti', (6, 9)),
+    baca.hairpin(
+        'appena_udibile < fff',
+        selector=baca.rleaves(),
+        start_ordinal=-999,
+        ),
+    )
 
 maker(
     ('tutti', 10),

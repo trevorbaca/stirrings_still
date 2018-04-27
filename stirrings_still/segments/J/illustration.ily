@@ -1023,9 +1023,12 @@ J_ViolinIMusicVoice = {
     \repeatTie
     
     % [J ViolinIMusicVoice measure 527]                          %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
+    \<                                                           %! HC1
+    \appena_udibile                                              %! HC1
     
     % [J ViolinIMusicVoice measure 528]                          %! SM4
     \makeBlue                                                    %! SM24
@@ -1047,9 +1050,11 @@ J_ViolinIMusicVoice = {
     \repeatTie
     
     % [J ViolinIMusicVoice measure 531]                          %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
+    \fff                                                         %! HC1
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -1221,9 +1226,12 @@ J_ViolinIIMusicVoice = {
     \repeatTie
     
     % [J ViolinIIMusicVoice measure 527]                         %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
+    \<                                                           %! HC1
+    \appena_udibile                                              %! HC1
     
     % [J ViolinIIMusicVoice measure 528]                         %! SM4
     \makeBlue                                                    %! SM24
@@ -1245,9 +1253,11 @@ J_ViolinIIMusicVoice = {
     \repeatTie
     
     % [J ViolinIIMusicVoice measure 531]                         %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
+    \fff                                                         %! HC1
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -1376,9 +1386,12 @@ J_ViolaMusicVoice = {
     \repeatTie
     
     % [J ViolaMusicVoice measure 527]                            %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
+    \<                                                           %! HC1
+    \appena_udibile                                              %! HC1
     
     % [J ViolaMusicVoice measure 528]                            %! SM4
     \makeBlue                                                    %! SM24
@@ -1400,9 +1413,11 @@ J_ViolaMusicVoice = {
     \repeatTie
     
     % [J ViolaMusicVoice measure 531]                            %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
+    \fff                                                         %! HC1
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -1508,10 +1523,11 @@ J_CelloMusicVoice = {
     R1 * 1
     
     % [J CelloMusicVoice measure 527]                            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
     c'1
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    \<                                                           %! HC1
+    \appena_udibile                                              %! HC1
     
     % [J CelloMusicVoice measure 528]                            %! SM4
     \makeBlue                                                    %! SM24
@@ -1533,9 +1549,11 @@ J_CelloMusicVoice = {
     \repeatTie
     
     % [J CelloMusicVoice measure 531]                            %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
+    \fff                                                         %! HC1
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
