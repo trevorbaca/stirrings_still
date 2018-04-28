@@ -31,8 +31,8 @@ metadata = abjad.OrderedDict(
             'fermata_measure_numbers',
             [345],
             ),
-        ('first_measure_number', 678),
-        ('last_measure_number', 703),
+        ('first_measure_number', 686),
+        ('last_measure_number', 711),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -64,7 +64,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CelloMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='pp',
+                                value='ff',
                                 ),
                             ],
                         ),
@@ -197,8 +197,8 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('start_clock_time', "31'20''"),
-        ('stop_clock_time', "32'34''"),
+        ('start_clock_time', "32'01''"),
+        ('stop_clock_time', "33'15''"),
         (
             'time_signatures',
             [

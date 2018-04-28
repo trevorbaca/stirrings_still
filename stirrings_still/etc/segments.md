@@ -2745,7 +2745,7 @@ SEGMENTS
 [L] time series A; rotation -42
 
     [L.1] (1-8)
-    (8 measures)
+    (16 measures)
     largo meno mosso begins;
     tutti trajectory-animated clouded pane begins:
         stopped lh continues;

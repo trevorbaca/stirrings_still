@@ -27,8 +27,8 @@ metadata = abjad.OrderedDict(
             [796],
             ),
         ('duration', "1'15''"),
-        ('first_measure_number', 796),
-        ('last_measure_number', 811),
+        ('first_measure_number', 804),
+        ('last_measure_number', 819),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -60,7 +60,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CelloMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='pp',
+                                value='ff',
                                 ),
                             ],
                         ),
@@ -193,8 +193,8 @@ metadata = abjad.OrderedDict(
                     ]
                 ),
             ),
-        ('start_clock_time', "35'45''"),
-        ('stop_clock_time', "37'00''"),
+        ('start_clock_time', "36'26''"),
+        ('stop_clock_time', "37'41''"),
         (
             'time_signatures',
             [
