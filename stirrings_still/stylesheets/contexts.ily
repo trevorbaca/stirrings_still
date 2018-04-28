@@ -58,6 +58,8 @@
         \accepts GlobalRests
         \accepts PageLayout
 
+        % remove after segment construction:
+        \override BarNumber.break-visibility = #end-of-line-invisible
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
 
@@ -91,6 +93,7 @@
             (stretchability . 0)
         )
         \override VerticalAxisGroup.minimum-Y-extent = #'(-4 . 4)
+
     }
 
     % VOICE
@@ -193,7 +196,9 @@
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 
         autoBeaming = ##f
-        barNumberFormatter = #format-oval-barnumbers
+        % reactivate after segment construction:
+        %barNumberFormatter = #format-oval-barnumbers
+        %barNumberVisibility = #(every-nth-bar-number-visible 1)
         markFormatter = #format-mark-box-alphabet
         proportionalNotationDuration = #(ly:make-moment 1 24)
         tupletFullLength = ##t

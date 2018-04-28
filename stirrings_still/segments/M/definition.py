@@ -19,7 +19,20 @@ maker(
     'GlobalSkips',
     baca.rehearsal_mark('M'),
     baca.rehearsal_mark_y_offset(12),
+    baca.text_script_extra_offset((0, 5)),
     )
+
+stage_markup = (
+    ('[M.1]', 1),
+    ('[M.2]', 9),
+    ('[M.3]', 13),
+    ('[M.4]', 17),
+    ('[M.5]', 21),
+    ('[M.6]', 25),
+    ('[M.7]', 29),
+    )
+
+stirrings_still.stage_markup(maker, stage_markup)
 
 time = (
     ('largo meno mosso', 29),
@@ -28,3 +41,8 @@ time = (
     )
 
 stirrings_still.time(maker, time)
+
+maker(
+    'vc',
+    stirrings_still.clouded_pane(),
+    )
