@@ -17,9 +17,41 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.rehearsal_mark('E'),
-    baca.rehearsal_mark_y_offset(12),
+    [
+        baca.rehearsal_mark('E'),
+        baca.rehearsal_mark_y_offset(12),
+        ],
+    baca.text_script_extra_offset((0, 5)),
     )
+
+stage_markup = (
+    ('[E.0]', 1),
+    ('[H.9]', 4),
+    ('[E.1]', 6),
+    ('[E.2]', 12),
+    ('[E.3]', 20),
+    ('[E.4]', 24),
+    ('[E.5]', 28),
+    ('[E.6]', 32),
+    ('[A.1]', 34),
+    ('[E.6]', 35),
+    ('[E.7]', 37),
+    ('[Q.1]', 42),
+    ('[E.7]', 50),
+    ('[E.8]', 63),
+    ('[E.9]', 71),
+    ('[E.10]', 79),
+    ('[E.11]', 82),
+    ('[E.12]', 87),
+    ('[Q.1]', 89),
+    ('[Q.2]', 97),
+    ('[E.13]', 112),
+    ('[E.14]', 116),
+    ('[E.15]', 118),
+    ('[E.16]', 120),
+    )
+
+stirrings_still.stage_markup(maker, stage_markup)
 
 time = (
     ('presto', 1),
