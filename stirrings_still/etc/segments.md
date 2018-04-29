@@ -1541,12 +1541,12 @@ SEGMENTS
     presto resumes after prefix;
     v1, v2, va grid-to-trajectories transition continues:
         grid stage five (tremolo-initiation) begins:
-            damped lh continues;
-            1/2 clt continues;
-            tasto continues;
+            damped lh resumes after prefix;
+            1/2 clt resumes after prefix;
+            tasto resumes after prefix;
             tremolo-initiated strokes begin independently;
                 very light fast bow begins independently;
-            desynchronization governs stage;
+            desynchronization continues;
             p continues;
     vc clouded pane continues:
         stopped lh continues;
