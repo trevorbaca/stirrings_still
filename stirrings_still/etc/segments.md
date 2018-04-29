@@ -111,8 +111,6 @@ SEGMENTS
         p joins;
     fermata [vc holds over fermata] (17);
 
-    [[starting again:]]
-
     [A.6] (18 + fermata)
     (1 measure)
     subito adagio;
@@ -304,7 +302,7 @@ SEGMENTS
                     pitch is not upper register;
                 quasivortex now trapped repetition cell;
                 f;
-        >>attacca second half of [A.12]<<;
+        >>attacca second half of [A.12]<< (44-45);
     surprisingly short breath after [A.12];
 
     [A.13] (46-47 + 48 + 49-50 + fermata)
