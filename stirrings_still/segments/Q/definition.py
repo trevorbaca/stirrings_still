@@ -19,7 +19,27 @@ maker(
     'GlobalSkips',
     baca.rehearsal_mark('Q'),
     baca.rehearsal_mark_y_offset(12),
+    baca.text_script_extra_offset((0, 5)),
     )
+
+stage_markup = (
+    ('[N.6]', 1),
+    ('[Q.1]', 2),
+    ('[Q.2]', 10),
+    ('[Q.3]', 22),
+    ('[Q.4]', 28),
+    ('[Q.5]', 38),
+    ('[Q.6]', 43),
+    ('[Q.7]', 51),
+    ('[Q.8]', 55),
+    ('[Q.9]', 61),
+    ('[Q.10]', 64),
+    ('[Q.11]', 68),
+    ('[Q.12]', 70),
+    ('[Q.13]', 73),
+    )
+
+stirrings_still.stage_markup(maker, stage_markup)
 
 time = (
     ('andante', 1),
