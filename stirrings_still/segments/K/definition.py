@@ -138,7 +138,7 @@ maker(
     baca.effort_dynamic('mp'),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     baca.markup.boxed('tailpiece: poco flicker'),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.staff_position(0),
     baca.suite([
         baca.staff_lines(1),

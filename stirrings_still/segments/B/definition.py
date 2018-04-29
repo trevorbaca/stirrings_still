@@ -182,7 +182,7 @@ maker(
     ('vc', (6, 11)),
     baca.breathe_after_last(),
     baca.markup('[overpressure]'),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     stirrings_still.clouded_pane(),
     )
 
