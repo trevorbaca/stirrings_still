@@ -843,7 +843,7 @@ SEGMENTS
 
 [C] time series C; rotation 0
 
-    [C.1] (1-4 + 5 + fermata)
+    [C.1] (1-4 + [5] + fermata)
     (4 measures)
     adagio;
     tutti maximally tight talon-crunch circles begin:
@@ -960,7 +960,7 @@ SEGMENTS
     all sound ends immediately following clockticks (29);
     counted rest to build expectation before reentering circles;
 
-    [C.8] (30-33 + 34-35)
+    [C.8] (30-33 + [34-35])
     (circles resume)
     (4 measures)
     adagio-meno-mosso-to-allegro accelerando governs stage;
@@ -1019,7 +1019,7 @@ SEGMENTS
         mf > pp < f > pp < f governs the four stages;
     attacca;
 
-    [C.14] (56-59 + 60-61)
+    [C.14] (56-59 + [60-61])
     (4 measures)
     adagio governs stage;
     tutti maximally wide circles continue:
@@ -1632,7 +1632,7 @@ SEGMENTS
         tacet subito;
     attacca;
 
-    [E.6] (32-33 + 34 + 35-36)
+    [E.6] (32-33 + [34] + 35-36)
     (4 measures)
     allegro-to-presto accelerando completes:
         achieves presto at start of stage;
@@ -1667,7 +1667,7 @@ SEGMENTS
         <<attacca return to second half of [E.6]>>;
     attacca;
 
-    [E.7] (37-40 + fermata + 42-49 + 50-61 + fermata)
+    [E.7] (37-40 + fermata + [42-49] + 50-61 + fermata)
     (4 measures)
     presto continues;
     v1, v2, va trajectories continue:
@@ -1770,7 +1770,7 @@ SEGMENTS
         p continues;
     fermata [vc holds through fermata] (86);
 
-    [E.12] (87-88 + 89-96 + 97-108 + 109-110 + fermata)
+    [E.12] (87-88 + [89-96] + [97-108] + 109-110 + fermata)
     (4 measures)
     largo continues;
     v1, v2, va flight continues:

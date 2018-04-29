@@ -18,9 +18,39 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.rehearsal_mark('C'),
-    baca.rehearsal_mark_y_offset(12),
+    [
+        baca.rehearsal_mark('C'),
+        baca.rehearsal_mark_y_offset(12),
+        ],
+    baca.text_script_extra_offset((0, 5)),
     )
+
+stage_markup = (
+    ('[C.1]', 1),
+    ('[G.1]', 5),
+    ('[C.2]', 7),
+    ('[C.3]', 12),
+    ('[C.4]', 16),
+    ('[C.5]', 20),
+    ('[C.6]', 24),
+    ('[C.7]', 28),
+    ('[C.8]', 30),
+    ('[D.9]', 34),
+    ('[C.9]', 36),
+    ('[C.10]', 40),
+    ('[C.11]', 44),
+    ('[C.12]', 48),
+    ('[C.13]', 52),
+    ('[C.14]', 56),
+    ('[J.1]', 60),
+    ('[C.15]', 62),
+    ('[C.16]', 64),
+    ('[C.17]', 66),
+    ('[C.18]', 68),
+    ('[C.19]', 71),
+    )
+
+stirrings_still.stage_markup(maker, stage_markup)
 
 time = (
     ('adagio', 1),
