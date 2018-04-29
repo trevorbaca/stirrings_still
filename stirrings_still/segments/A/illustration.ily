@@ -285,7 +285,7 @@ A_GlobalRests = {
 A_GlobalSkips = {
     
     % [A GlobalSkips measure 1]                                          %! SM4
-    \once \override GlobalContext.RehearsalMark.Y-offset = #12           %! OC1
+    \override TextScript.extra-offset = #'(0 . 5)                        %! OC1
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -337,7 +337,6 @@ A_GlobalSkips = {
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 8/16                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \mark #1                                                             %! IC
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
@@ -364,6 +363,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.1]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.1]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -434,6 +439,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.3]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.2]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -504,6 +515,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.5]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.3]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -609,6 +626,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.8]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.4]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -770,6 +793,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.11]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.5]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1040,6 +1069,7 @@ A_GlobalSkips = {
         }
     
     % [A GlobalSkips measure 18]                                         %! SM4
+    \once \override GlobalContext.RehearsalMark.Y-offset = #12           %! OC1
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
@@ -1091,6 +1121,7 @@ A_GlobalSkips = {
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 16/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \mark #1                                                             %! IC
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
@@ -1118,6 +1149,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.18]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.6]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1188,6 +1225,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.20]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.7]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1258,6 +1301,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.22]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.8]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1363,6 +1412,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.25]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.9]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1485,6 +1540,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.27]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [G.1]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1611,6 +1672,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.29]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.10]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1870,6 +1937,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.35]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.11]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2134,6 +2207,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.41]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.12]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2308,6 +2387,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.43]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [I.6]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2399,6 +2484,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.44]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.12]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2521,6 +2612,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.46]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.13]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2643,6 +2740,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.48]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [I.6]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2730,6 +2833,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.49]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.13]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2834,6 +2943,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.52]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.14]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2904,6 +3019,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.54]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.15]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -2991,6 +3112,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.55]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [H.1]                                    %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3147,6 +3274,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.58]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.16]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3269,6 +3402,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.60]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.17]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3391,6 +3530,12 @@ A_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [A.62]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        \whiteout                                        %! IC
+                            \upright                                     %! IC
+                                [A.18]                                   %! IC
+                    }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -3434,6 +3579,7 @@ A_GlobalSkips = {
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
+    \revert TextScript.extra-offset                                      %! OC2
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|"                                                             %! SM5
     
