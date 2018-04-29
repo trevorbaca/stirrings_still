@@ -19,7 +19,15 @@ maker(
     'GlobalSkips',
     baca.rehearsal_mark('O'),
     baca.rehearsal_mark_y_offset(12),
+    baca.text_script_extra_offset((0, 5)),
     )
+
+stage_markup = (
+    ('[O.1]', 1),
+    ('[H.3]', 7),
+    )
+
+stirrings_still.stage_markup(maker, stage_markup)
 
 time = (
     ('largo piu mosso', 1),
