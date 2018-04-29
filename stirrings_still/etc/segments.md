@@ -2936,7 +2936,7 @@ SEGMENTS
         p > niente governs stage;
     attacca;
 
-    [N.6] (23-28 + 29 + 30-35 + very long)
+    [N.6] (23-28 + [29] + 30-35 + very long)
     (12 measures)
     larghissimo-to-presto-to-larghissimo time trends govern stage;
     larghissimo-to-presto accelerando governs first half of stage;

@@ -19,7 +19,23 @@ maker(
     'GlobalSkips',
     baca.rehearsal_mark('N'),
     baca.rehearsal_mark_y_offset(12),
+    baca.text_script_extra_offset((0, 5)),
     )
+
+stage_markup = (
+    ('[N.1]', 1),
+    ('[N.2]', 7),
+    ('[N.3]', 9),
+    ('[I.6]', 11),
+    ('[N.4]', 13),
+    ('[N.5]', 17),
+    ('[N.6]', 23),
+    ('[K.6]', 29),
+    ('[N.6]', 30),
+    ('[N.7]', 37),
+    )
+
+stirrings_still.stage_markup(maker, stage_markup)
 
 time = (
     ('larghissimo', 23),
