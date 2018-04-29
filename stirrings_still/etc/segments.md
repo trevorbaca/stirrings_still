@@ -3055,7 +3055,7 @@ SEGMENTS
 
     [piece-ending process of compression:]
 
-    <<[N.6 -> K.6 (clearing) 1/3] prefixed to [Q.1 (inception)]>>:
+    <<[N.6 -> K.6 (clearing) 1/3] prefixed to [Q.1 (inception)]>> (1):
         <<summons past time>>;
         andante;
         tutti flight:
@@ -3064,7 +3064,7 @@ SEGMENTS
             continuous tremolo;
             mp;
         <<attacca [Q.1] to effect prefix>>;
-    [Q.1] (1 + 2-9)
+    [Q.1] (2-9)
     (8 measures)
     presto resumse after prefix;
     tutti ellipses continue (desynchronized spinning white noise):
