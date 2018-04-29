@@ -6138,14 +6138,43 @@ E_ViolinIMusicVoice = {
             #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             "Vn. I"                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.bound-details.left-broken.text = ##f
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                "LHD + 1/2 clt"
+                \hspace
+                    #0.5
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.padding = 1.75
+    \once \override TextSpanner.bound-details.right.text = \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    \once \override TextSpanner.dash-fraction = 0.25
+    \once \override TextSpanner.dash-period = 1.5
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 5/8
-    \p                                                           %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2
+    :32                                                          %! IC
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    \startTextSpan
     ^ \markup {
         \column
             {
@@ -6178,59 +6207,250 @@ E_ViolinIMusicVoice = {
             "Vn. I"                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
+    \makeBlue                                                    %! SM24
+    c'8
+    :32                                                          %! IC
+    \repeatTie
+    
     % [E ViolinIMusicVoice measure 299]                          %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'2
+    :32                                                          %! IC
+    \repeatTie
     
     % [E ViolinIMusicVoice measure 300]                          %! SM4
     R1 * 1/4
+    \stopTextSpan
     
     % [E ViolinIMusicVoice measure 301]                          %! SM4
-    R1 * 7/8
+    r2
     
-    % [E ViolinIMusicVoice measure 302]                          %! SM4
-    R1 * 3/4
+    r8
+    \times 2/3 {
+        
+        \once \override Hairpin.circled-tip = ##t                %! HC1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \makeBlue                                                %! SM24
+        c'4
+        \<                                                       %! HC1
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    "hair: 8” circles"                           %! IC
+            }                                                    %! IC
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [E ViolinIMusicVoice measure 303]                          %! SM4
-    R1 * 1
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.bound-details.left-broken.text = ##f
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                [grid-to-trajectory]
+                \hspace
+                    #0.5
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.padding = 1.25
+    \once \override TextSpanner.bound-details.right.text = \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    \once \override TextSpanner.dash-fraction = 0.25
+    \once \override TextSpanner.dash-period = 1.5
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'4
+    \p                                                           %! HC1
+    \startTextSpan
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIMusicVoice measure 304]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIMusicVoice measure 305]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIMusicVoice measure 306]                          %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
     
     % [E ViolinIMusicVoice measure 307]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
     
     % [E ViolinIMusicVoice measure 308]                          %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIMusicVoice measure 309]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIMusicVoice measure 310]                          %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIMusicVoice measure 311]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIMusicVoice measure 312]                          %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
     
     % [E ViolinIMusicVoice measure 313]                          %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIMusicVoice measure 314]                          %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIMusicVoice measure 315]                          %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIMusicVoice measure 316]                          %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \stopTextSpan
     
     % [E ViolinIMusicVoice measure 317]                          %! SM4
     R1 * 3/4
@@ -6580,14 +6800,43 @@ E_ViolinIIMusicVoice = {
             #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             "Vn. II"                                             %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.bound-details.left-broken.text = ##f
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                "LHD + 1/2 clt"
+                \hspace
+                    #0.5
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.padding = 1.75
+    \once \override TextSpanner.bound-details.right.text = \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    \once \override TextSpanner.dash-fraction = 0.25
+    \once \override TextSpanner.dash-period = 1.5
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 5/8
-    \p                                                           %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2
+    :32                                                          %! IC
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    \startTextSpan
     ^ \markup {
         \column
             {
@@ -6620,59 +6869,247 @@ E_ViolinIIMusicVoice = {
             "Vn. II"                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
+    \makeBlue                                                    %! SM24
+    c'8
+    :32                                                          %! IC
+    \repeatTie
+    
     % [E ViolinIIMusicVoice measure 299]                         %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'2
+    :32                                                          %! IC
+    \repeatTie
     
     % [E ViolinIIMusicVoice measure 300]                         %! SM4
     R1 * 1/4
+    \stopTextSpan
     
     % [E ViolinIIMusicVoice measure 301]                         %! SM4
-    R1 * 7/8
+    r2
     
-    % [E ViolinIIMusicVoice measure 302]                         %! SM4
-    R1 * 3/4
+    r8
+    \times 4/5 {
+        
+        \once \override Hairpin.circled-tip = ##t                %! HC1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \makeBlue                                                %! SM24
+        c'4
+        \<                                                       %! HC1
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    "hair: 8” circles"                           %! IC
+            }                                                    %! IC
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [E ViolinIIMusicVoice measure 303]                         %! SM4
-    R1 * 1
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.bound-details.left-broken.text = ##f
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                [grid-to-trajectory]
+                \hspace
+                    #0.5
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.padding = 1.25
+    \once \override TextSpanner.bound-details.right.text = \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    \once \override TextSpanner.dash-fraction = 0.25
+    \once \override TextSpanner.dash-period = 1.5
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'4
+    \p                                                           %! HC1
+    \startTextSpan
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIIMusicVoice measure 304]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIIMusicVoice measure 305]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIIMusicVoice measure 306]                         %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
     
     % [E ViolinIIMusicVoice measure 307]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
     
     % [E ViolinIIMusicVoice measure 308]                         %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIIMusicVoice measure 309]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIIMusicVoice measure 310]                         %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIIMusicVoice measure 311]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIIMusicVoice measure 312]                         %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
     
     % [E ViolinIIMusicVoice measure 313]                         %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIIMusicVoice measure 314]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIIMusicVoice measure 315]                         %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolinIIMusicVoice measure 316]                         %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \stopTextSpan
     
     % [E ViolinIIMusicVoice measure 317]                         %! SM4
     R1 * 3/4
@@ -7025,15 +7462,44 @@ E_ViolaMusicVoice = {
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 5             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.bound-details.left-broken.text = ##f
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                "LHD + 1/2 clt"
+                \hspace
+                    #0.5
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.padding = 1.75
+    \once \override TextSpanner.bound-details.right.text = \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    \once \override TextSpanner.dash-fraction = 0.25
+    \once \override TextSpanner.dash-period = 1.5
     \clef "alto"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 5/8
-    \effort_mp                                                   %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2
+    :32                                                          %! IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \startTextSpan
     ^ \markup {
         \column
             {
@@ -7066,59 +7532,243 @@ E_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
+    \makeBlue                                                    %! SM24
+    c'8
+    :32                                                          %! IC
+    \repeatTie
+    
     % [E ViolaMusicVoice measure 299]                            %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'2
+    :32                                                          %! IC
+    \repeatTie
     
     % [E ViolaMusicVoice measure 300]                            %! SM4
     R1 * 1/4
+    \stopTextSpan
     
     % [E ViolaMusicVoice measure 301]                            %! SM4
-    R1 * 7/8
+    r2
+    
+    r8
+    
+    \once \override Hairpin.circled-tip = ##t                    %! HC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'4
+    \<                                                           %! HC1
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "hair: 8” circles"                               %! IC
+        }                                                        %! IC
     
     % [E ViolaMusicVoice measure 302]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolaMusicVoice measure 303]                            %! SM4
-    R1 * 1
+    \once \override TextSpanner.Y-extent = ##f
+    \once \override TextSpanner.bound-details.left-broken.text = ##f
+    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
+    \once \override TextSpanner.bound-details.left.text = \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                [grid-to-trajectory]
+                \hspace
+                    #0.5
+            }
+        }
+    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+    \once \override TextSpanner.bound-details.right-broken.padding = 0
+    \once \override TextSpanner.bound-details.right-broken.text = ##f
+    \once \override TextSpanner.bound-details.right.padding = 1.25
+    \once \override TextSpanner.bound-details.right.text = \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    \once \override TextSpanner.dash-fraction = 0.25
+    \once \override TextSpanner.dash-period = 1.5
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'4
+    \p                                                           %! HC1
+    \startTextSpan
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolaMusicVoice measure 304]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolaMusicVoice measure 305]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolaMusicVoice measure 306]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
     
     % [E ViolaMusicVoice measure 307]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
     
     % [E ViolaMusicVoice measure 308]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolaMusicVoice measure 309]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolaMusicVoice measure 310]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolaMusicVoice measure 311]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolaMusicVoice measure 312]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
     
     % [E ViolaMusicVoice measure 313]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolaMusicVoice measure 314]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolaMusicVoice measure 315]                            %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [E ViolaMusicVoice measure 316]                            %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \stopTextSpan
     
     % [E ViolaMusicVoice measure 317]                            %! SM4
     R1 * 3/4
@@ -7474,7 +8124,8 @@ E_CelloMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'2
     \p                                                           %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -7508,83 +8159,147 @@ E_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
+    \makeBlue                                                    %! SM24
+    c'8
+    \repeatTie
+    
     % [E CelloMusicVoice measure 299]                            %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'2
+    \repeatTie
     
     % [E CelloMusicVoice measure 300]                            %! SM4
-    R1 * 1/4
+    \makeBlue                                                    %! SM24
+    c'4
+    \repeatTie
     
     % [E CelloMusicVoice measure 301]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [E CelloMusicVoice measure 302]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
     
     % [E CelloMusicVoice measure 303]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [E CelloMusicVoice measure 304]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
     
     % [E CelloMusicVoice measure 305]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [E CelloMusicVoice measure 306]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [E CelloMusicVoice measure 307]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
     
     % [E CelloMusicVoice measure 308]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [E CelloMusicVoice measure 309]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [E CelloMusicVoice measure 310]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [E CelloMusicVoice measure 311]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
     
     % [E CelloMusicVoice measure 312]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [E CelloMusicVoice measure 313]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [E CelloMusicVoice measure 314]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
     
     % [E CelloMusicVoice measure 315]                            %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'2
+    \repeatTie
     
     % [E CelloMusicVoice measure 316]                            %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'2
+    \repeatTie
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \repeatTie
     
     % [E CelloMusicVoice measure 317]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
     
     % [E CelloMusicVoice measure 318]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [E CelloMusicVoice measure 319]                            %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [E CelloMusicVoice measure 320]                            %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'2
+    \repeatTie
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    \repeatTie
     
     % [E CelloMusicVoice measure 321]                            %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'2
+    \repeatTie
     
     % [E CelloMusicVoice measure 322]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
     
     % [E CelloMusicVoice measure 323]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [E CelloMusicVoice measure 324]                            %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [E CelloMusicVoice measure 325]                            %! SM4
     R1 * 1/2

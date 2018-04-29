@@ -7,12 +7,14 @@ from .bcps import bcps
 from .circles import circles
 from .clockticks import clockticks
 from .clouded_pane import clouded_pane
+from .continuous_tremolo import continuous_tremolo
 from .declamation import declamation
 from .desynchronization import desynchronization
 from .first_order_stages import first_order_stages
 from .glissando_interpolation import glissando_interpolation
 from .glissando_without_ties import glissando_without_ties
 from .grid import grid
+from .grid_to_trajectory import grid_to_trajectory
 from .margin_markup import margin_markup
 from .ntlt_flat_glissandi import ntlt_flat_glissandi
 from .operations import operations

@@ -91,3 +91,36 @@ time = (
     )
 
 stirrings_still.time(maker, time)
+
+maker(
+    (['v1', 'v2', 'va'], (1, 2)),
+    baca.dynamic('p'),
+    baca.text_spanner(
+        baca.markup.boxed('LHD + 1/2 clt'),
+        right_padding=1.75,
+        selector=baca.rleaves(),
+        ),
+    stirrings_still.continuous_tremolo(),
+    )
+
+maker(
+    ('vc', (1, 27)),
+    stirrings_still.clouded_pane(),
+    )
+
+maker(
+    (['v1', 'v2', 'va'], (4, 5)),
+    (stirrings_still.pickets(4, 2, abjad.silence([0])), 0),
+    (stirrings_still.pickets(4, 1, abjad.silence([0])), 1),
+    (stirrings_still.pickets(4, 0, abjad.silence([0])), 2),
+    baca.hairpin('niente < p', selector=baca.tleaves().rleak()),
+    baca.markup('hair: 8” circles'),
+    )
+
+maker(
+    (['v1', 'v2', 'va'], (6, 19)),
+    baca.text_spanner(
+        baca.markup.boxed('[grid-to-trajectory]'),
+        ),
+    stirrings_still.grid_to_trajectory(),
+    )
