@@ -17,8 +17,10 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.rehearsal_mark('S'),
-    baca.rehearsal_mark_y_offset(12),
+    [
+        baca.rehearsal_mark('S'),
+        baca.rehearsal_mark_y_offset(12),
+        ],
     )
 
 time = (
