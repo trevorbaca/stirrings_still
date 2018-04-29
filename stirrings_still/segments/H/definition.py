@@ -124,7 +124,7 @@ maker(
     baca.script_staff_padding(6),
     baca.text_spanner_staff_padding(3),
     baca.tuplet_bracket_staff_padding(1),
-    baca.tuplet_brackets_down(),
+    baca.tuplet_bracket_down(),
     stirrings_still.accelerando(stop=(3, 32)),
     stirrings_still.bcps(rotation=0),
     )
@@ -137,7 +137,7 @@ maker(
 maker(
     ('v1', (7, 8)),
     baca.dynamic('p'),
-    baca.tuplet_brackets_down(),
+    baca.tuplet_bracket_down(),
     stirrings_still.accelerando((1, 2), (8, 32)),
     )
 
@@ -149,7 +149,7 @@ maker(
 maker(
     ('va', (7, 8)),
     baca.dynamic('p'),
-    baca.tuplet_brackets_down(),
+    baca.tuplet_bracket_down(),
     stirrings_still.accelerando((1, 2), (6, 32)),
     )
 
@@ -183,7 +183,7 @@ maker(
 maker(
     ('v2', (11, 12)),
     baca.markup('(always one circle per stem)'),
-    baca.tuplet_brackets_down(),
+    baca.tuplet_bracket_down(),
     stirrings_still.accelerando((1, 2), (7, 32)),
     )
 
@@ -293,7 +293,7 @@ maker(
     baca.dynamic('mp'),
     baca.finger_pressure_transition(baca.notes()[:2]),
     baca.markup.string_number(4, selector=baca.note(0)),
-    baca.natural_harmonics(baca.notes()[1:]),
+    baca.note_head_style_harmonic(baca.notes()[1:]),
     baca.pitch('Ab2', selector=baca.note(0)),
     baca.pitch('Gb2', selector=baca.notes()[1:]),
     baca.transition(
@@ -358,7 +358,7 @@ maker(
     (['v1', 'va', 'vc'], 33),
     baca.dynamic('pp'),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     )
 
 maker(

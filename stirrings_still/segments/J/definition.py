@@ -57,7 +57,7 @@ maker(
 maker(
     (['v1', 'va', 'vc'], 3),
     baca.dynamic('pp'),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     stirrings_still.clouded_pane(),
     )
 
