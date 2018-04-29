@@ -1969,13 +1969,13 @@ SEGMENTS
         single declamation happens again;
     fermata (10);
 
-    [G.5] (11 + 12 + 13 + long)
+    [G.5] (11 + [12] + 13 + long)
     (2 measures)
     largo più mosso continues;
     tutti clouded pane / urtext declamation conflict happens again:
         single declamation happens again;
     attacca suffix;
-    <<[C.7 (clocktick composite) 1/1] bisects [G.5]>>:
+    <<[C.7 (clocktick composite) 1/1] bisects [G.5]>> (12):
         allegro;
         <<summons past time>>;
         v1 shining beacon of clouded pane:
@@ -1992,11 +1992,11 @@ SEGMENTS
             hair;
             pp;
         cut-off;
-        <<attacca second half of [G.5]>>;
+        <<attacca second half of [G.5]>> (13);
         <<largo più mosso resumes for second half of [G.5]>>;
     long fermata (14);
 
-    [G.6] (15-16 + long + 18-19 + long)
+    [G.6] (15-16 + long + [18-19] + long)
     (2 measures)
     larghissimo governs stage;
     tutti urtext field blossoms aflight (without clouded pane):
@@ -2016,7 +2016,7 @@ SEGMENTS
                 unmarked swells on each note;
                 pp < mf governs stage;
     long fermata (17);
-    <<[D.11 (process) 1-2/6] prolongs [G.6] long fermata>>:
+    <<[D.11 (process) 1-2/6] prolongs [G.6] long fermata>> (18-19):
         <<summons past time>>;
         presto-to-andante ritardando;
     <<long fermata repeats to effect prolongation>> (20);
