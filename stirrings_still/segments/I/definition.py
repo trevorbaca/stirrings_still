@@ -43,3 +43,13 @@ time = (
     )
 
 stirrings_still.time(maker, time)
+
+maker(
+    (['v1', 'v2', 'va'], (1, 2)),
+    (stirrings_still.circles((1, 8)), 0),
+    (baca.markup.lines(['one circle every eighth note;', "golden tone"]), 0),
+    (stirrings_still.circles((1, 4)), 1),
+    (baca.markup.lines(['one circle every quarter note;', "golden tone"]), 1),
+    (stirrings_still.circles((1, 2)), 2),
+    (baca.markup.lines(['one circle every half note;', "golden tone"]), 2),
+    )
