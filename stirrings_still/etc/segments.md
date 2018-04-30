@@ -2377,7 +2377,7 @@ SEGMENTS
     v1, v2, va synchronous golden gears:
         stopped lh continues;
         hair continues;
-        golden tone (senza scratch) continues;
+        golden tone continues;
         circles locked in binary rate ratio 1:2:4;
         mp continues;
     vc 1/2 clt solo trajectory:
@@ -2415,7 +2415,7 @@ SEGMENTS
         base binary rate ratio 1:2:4 between parts continues;
         intermittent local accelerandi continue:
             parts begin to stick to faster base rate after accelerandi;
-        (mp) > niente begins;
+        mp > niente begins;
     vc 1/2 clt solo trajectory:
         stopped lh continues;
         1/2 clt continues;
@@ -2433,7 +2433,7 @@ SEGMENTS
         base binary rate ratio 1:2:4 between parts continues;
         intermittent local acclerandi continue:
             parts stick to faster post-accelerandi base rate for much longer;
-        (mp > niente) continues;
+        mp > niente continues;
     vc 1/2 clt solo trajectory:
         stopped lh continues;
         1/2 clt continues;
@@ -2448,8 +2448,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         achieves faster base binary rate 1:2:4 at start of stage;
-        (mp > niente) completes:
-            achieves niente on last event;
+        mp > niente continues;
     vc 1/2 clt solo trajectory:
         stopped lh continues;
         1/2 clt continues;

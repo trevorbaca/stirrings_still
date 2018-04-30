@@ -45,11 +45,28 @@ time = (
 stirrings_still.time(maker, time)
 
 maker(
-    (['v1', 'v2', 'va'], (1, 2)),
-    (stirrings_still.circles((1, 8)), 0),
-    (baca.markup.lines(['one circle every eighth note;', "golden tone"]), 0),
-    (stirrings_still.circles((1, 4)), 1),
-    (baca.markup.lines(['one circle every quarter note;', "golden tone"]), 1),
-    (stirrings_still.circles((1, 2)), 2),
-    (baca.markup.lines(['one circle every half note;', "golden tone"]), 2),
+    ('trio', (4, 7)),
+    baca.hairpin('mp > niente', selector=baca.rleaves()),
+    )
+
+maker(
+    ('v1', (1, 7)),
+    baca.markup('8” cir./stem; golden tone'),
+    stirrings_still.circles((1, 8)),
+    )
+
+maker(
+    ('v2', (1, 7)),
+    baca.markup('8” cir./stem; golden tone'),
+    stirrings_still.circles((1, 4)),
+    )
+
+maker(
+    ('va', (1, 7)),
+    baca.markup('8” cir./stem; golden tone'),
+    stirrings_still.circles(
+        (1, 2),
+        division_mask=abjad.silence([0]),
+        remainder=abjad.Left,
+        ),
     )
