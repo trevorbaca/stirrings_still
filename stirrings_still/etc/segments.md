@@ -2378,7 +2378,7 @@ SEGMENTS
         stopped lh continues;
         hair continues;
         golden tone (senza scratch) continues;
-        circles (SL = BW) locked in binary rate ratio 1:2:4;
+        circles locked in binary rate ratio 1:2:4;
         mp continues;
     vc 1/2 clt solo trajectory:
         stopped lh continues;
@@ -2461,7 +2461,7 @@ SEGMENTS
     (2 measures)
     larghissimo continues;
     v1, v2, va:
-        tacet continues;
+        tacet;
     vc 1/2 clt solo trajectory:
         stopped lh continues;
         1/2 clt continues;

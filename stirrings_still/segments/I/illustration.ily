@@ -126,11 +126,11 @@ I_GlobalSkips = {
                             \upright                                     %! IC
                                 [I.1]                                    %! IC
                     }                                                    %! IC
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [20'57'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                        \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP %@%
+                            [20'57'']                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
             }
         }
     
@@ -161,11 +161,11 @@ I_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [I.2]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [21'01'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                        \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP %@%
+                            [21'01'']                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
             }
         }
     
@@ -258,11 +258,11 @@ I_GlobalSkips = {
                             \upright                                     %! IC
                                 [I.2]                                    %! IC
                     }                                                    %! IC
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [21'05'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                        \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP %@%
+                            [21'05'']                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
             }
         }
     
@@ -299,11 +299,11 @@ I_GlobalSkips = {
                             \upright                                     %! IC
                                 [I.3]                                    %! IC
                     }                                                    %! IC
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [21'09'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                        \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP %@%
+                            [21'09'']                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
             }
         }
     
@@ -340,11 +340,11 @@ I_GlobalSkips = {
                             \upright                                     %! IC
                                 [I.4]                                    %! IC
                     }                                                    %! IC
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [21'13'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                        \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP %@%
+                            [21'13'']                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
             }
         }
     
@@ -433,11 +433,11 @@ I_GlobalSkips = {
                             \upright                                     %! IC
                                 [I.5]                                    %! IC
                     }                                                    %! IC
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [21'17'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                        \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP %@%
+                            [21'17'']                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
             }
         }
     
@@ -468,11 +468,11 @@ I_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [I.7]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [21'25'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                        \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP %@%
+                            [21'25'']                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
             }
         }
     
@@ -508,11 +508,11 @@ I_GlobalSkips = {
                             \upright                                     %! IC
                                 [I.6]                                    %! IC
                     }                                                    %! IC
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [21'34'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                        \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP %@%
+                            [21'34'']                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
             }
         }
     
@@ -543,11 +543,11 @@ I_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [I.9]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [21'43'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                        \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP %@%
+                            [21'43'']                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
             }
         }
     
@@ -584,11 +584,11 @@ I_GlobalSkips = {
                             \upright                                     %! IC
                                 [I.7]                                    %! IC
                     }                                                    %! IC
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [21'48'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                        \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP %@%
+                            [21'48'']                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
             }
         }
     
@@ -620,11 +620,11 @@ I_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [I.11]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
-            %@%             [21'54'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+                \line                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    {                                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                        \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP %@%
+                            [21'54'']                                    %! SM28:CLOCK_TIME_MARKUP %@%
+                    }                                                    %! SM28:CLOCK_TIME_MARKUP %@%
             }
         }
     \revert TextScript.extra-offset                                      %! OC2
@@ -649,14 +649,18 @@ I_ViolinIMusicVoice = {
             #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             "Vn. I"                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+    \set stemLeftBeamCount = 0
+    \set stemRightBeamCount = 1
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'8
     \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
+    [
     ^ \markup {
         \column
             {
@@ -672,6 +676,16 @@ I_ViolinIMusicVoice = {
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vn. I”]"                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                \column                          %! IC
+                                    {                            %! IC
+                                        "one circle every eighth note;" %! IC
+                                        "golden tone"            %! IC
+                                    }                            %! IC
+                    }                                            %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -689,8 +703,72 @@ I_ViolinIMusicVoice = {
             "Vn. I"                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    
     % [I ViolinIMusicVoice measure 512]                          %! SM4
-    R1 * 3/4
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 0
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [I ViolinIMusicVoice measure 513]                          %! SM4
     R1 * 1
@@ -749,7 +827,8 @@ I_ViolinIIMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'4
     \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -766,6 +845,16 @@ I_ViolinIIMusicVoice = {
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vn. II”]"                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                \column                          %! IC
+                                    {                            %! IC
+                                        "one circle every quarter note;" %! IC
+                                        "golden tone"            %! IC
+                                    }                            %! IC
+                    }                                            %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -783,8 +872,24 @@ I_ViolinIIMusicVoice = {
             "Vn. II"                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
     % [I ViolinIIMusicVoice measure 512]                         %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [I ViolinIIMusicVoice measure 513]                         %! SM4
     R1 * 1
@@ -847,7 +952,8 @@ I_ViolaMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2
     \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -864,6 +970,16 @@ I_ViolaMusicVoice = {
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Va.”]                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                \column                          %! IC
+                                    {                            %! IC
+                                        "one circle every half note;" %! IC
+                                        "golden tone"            %! IC
+                                    }                            %! IC
+                    }                                            %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -881,8 +997,15 @@ I_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
+    \makeBlue                                                    %! SM24
+    c'2
+    
     % [I ViolaMusicVoice measure 512]                            %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [I ViolaMusicVoice measure 513]                            %! SM4
     R1 * 1
