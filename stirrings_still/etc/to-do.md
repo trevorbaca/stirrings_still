@@ -1,7 +1,19 @@
 TO-DO
 =====
 
-1.  In place of ...
+1.  Extend RhythmCommand rhythm-maker property.
+    Accept iterable of (rhythm-maker, pattern) pairs.
+        baca.RhythmCommand(
+            division_expression=division_expression,
+            rhythm_maker=[
+                (pattern_1, rhythm_maker_1),
+                (pattern_2, rhythm_maker_2),
+                ...
+                (pattern_n, rhythm_maker_n),
+                ],
+            )
+     
+2.  In addition to ...
         maker(
             (['v1', 'v2'], (5, 7)),
             stirrings_still.clockticks(),
@@ -19,9 +31,9 @@ TO-DO
                 baca.hairpin('mf > niente', selector=baca.leaves()),
                 ),
             )
-    ... instead.
+    ... also.
 
-2.  In addition to ...
+3.  In addition to ...
         maker(
             ('vc', (6, 9)),
             baca.hairpin('p < f', selector=baca.rleaves()),
@@ -35,28 +47,28 @@ TO-DO
                 baca.tenuto(),
                 ),
             )
-    ... as well.
+    ... also
 
-3.  Add trajectories notator:
+4.  Add trajectories notator:
     baca.hide_black_note_heads().
 
-4.  Extend tailpiece():
+5.  Extend tailpiece():
     hide all note-heads except the first;
     add extent-terminal grace note;
     make sure flat glissando extends without gaps;
     add to library as baca.make_filled_extent().
 
-5.  Allow baca.markup.crine.boxed() instead of baca.markup.boxed('crine').
+6.  Allow baca.markup.crine.boxed() instead of baca.markup.boxed('crine').
 
-6.  Analyze volta application.
+7.  Analyze volta application.
 
-7.  Make full down-bow and full up-bow glyphs.
+8.  Make full down-bow and full up-bow glyphs.
     Add to baca/stylesheets/scheme.ily.
 
-8.  Make stop-on-string glyph.
+9.  Make stop-on-string glyph.
     Make all transition-type glyphs.
     Add to baca/stylesheets/scheme.ily.
 
-9.  Make full-down-bow-stop-on-string and full-up-bow-stop-on-string glyphs.
+10. Make full-down-bow-stop-on-string and full-up-bow-stop-on-string glyphs.
     Make all bow direction / bow termination ligatures.
     Add to baca/stylesheets/scheme.ily.
