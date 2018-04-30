@@ -26,6 +26,7 @@ breaks = baca.breaks(
             y_offset=140,
             ),
         ),
+    local_measure_numbers=True,
     )
 
 spacing = baca.scorewide_spacing(

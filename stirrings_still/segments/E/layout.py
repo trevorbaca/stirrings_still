@@ -54,6 +54,7 @@ breaks = baca.breaks(
             ),
         number=4,
         ),
+    local_measure_numbers=True,
     )
 
 spacing = baca.scorewide_spacing(

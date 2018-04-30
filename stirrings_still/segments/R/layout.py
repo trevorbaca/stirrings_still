@@ -10,6 +10,7 @@ breaks = baca.breaks(
             ),
         number=1,
         ),
+    local_measure_numbers=True,
     )
 
 spacing = baca.scorewide_spacing(
