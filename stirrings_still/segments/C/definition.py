@@ -108,3 +108,9 @@ maker(
         baca.text_spanner_staff_padding(7),
         ],
     )
+
+maker(
+    (['v1', 'v2'], 5),
+    (stirrings_still.desynchronization(8, [0]), 0),
+    (stirrings_still.desynchronization(8, [1]), 1),
+    )
