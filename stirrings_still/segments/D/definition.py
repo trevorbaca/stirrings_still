@@ -172,7 +172,7 @@ maker(
 
 maker(
     ('va', (49, 53)),
-    baca.effort_dynamic('mp'),
+    baca.dynamic('"mp"'),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     baca.markup.boxed('tailpiece: poco flicker'),
     baca.repeat_tie_up(),

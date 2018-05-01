@@ -65,7 +65,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CelloMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='f',
+                                value='\\effort_ff',
                                 ),
                             ],
                         ),
@@ -111,7 +111,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='p',
+                                value='\\effort_ff',
                                 ),
                             ],
                         ),
@@ -142,7 +142,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolinIIMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='niente',
+                                value='\\effort_ff',
                                 ),
                             ],
                         ),
@@ -173,7 +173,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolinIMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='niente',
+                                value='\\effort_ff',
                                 ),
                             ],
                         ),
@@ -186,10 +186,10 @@ metadata = abjad.OrderedDict(
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
-                    ('CelloMusicVoice', False),
-                    ('ViolaMusicVoice', False),
-                    ('ViolinIIMusicVoice', False),
-                    ('ViolinIMusicVoice', False),
+                    ('CelloMusicVoice', True),
+                    ('ViolaMusicVoice', True),
+                    ('ViolinIIMusicVoice', True),
+                    ('ViolinIMusicVoice', True),
                     ]
                 ),
             ),

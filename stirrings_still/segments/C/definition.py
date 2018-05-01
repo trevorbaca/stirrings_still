@@ -90,3 +90,21 @@ time = (
     )
 
 stirrings_still.time(maker, time)
+
+maker(
+    ('tutti', (1, 4)),
+    (stirrings_still.desynchronization(4, [1]), 0),
+    (stirrings_still.desynchronization(4), 1),
+    (stirrings_still.desynchronization(4, [2]), 2),
+    (stirrings_still.desynchronization(4, [-1]), 3),
+    baca.dynamic('"ff"'),
+    baca.markup('maximally tight crunch circles: grind at talon'),
+    [
+        baca.text_spanner(
+            baca.markup.boxed('damp'),
+            right_padding=1.75,
+            selector=baca.rleaves(),
+            ),
+        baca.text_spanner_staff_padding(7),
+        ],
+    )
