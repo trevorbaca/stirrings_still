@@ -4459,8 +4459,29 @@ C_ViolinIMusicVoice = {
     \revert TextSpanner.staff-padding                            %! OC2
     
     % [C ViolinIMusicVoice measure 134]                          %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'8
     \stopTextSpan
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ]
     
     % [C ViolinIMusicVoice measure 135]                          %! SM4
     R1 * 1/4
@@ -4821,8 +4842,32 @@ C_ViolinIIMusicVoice = {
     \revert TextSpanner.staff-padding                            %! OC2
     
     % [C ViolinIIMusicVoice measure 134]                         %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'16..
     \stopTextSpan
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'16..
+    
+    \makeBlue                                                    %! SM24
+    c'16..
+    
+    \makeBlue                                                    %! SM24
+    c'16..
+    
+    \makeBlue                                                    %! SM24
+    c'16..
+    
+    \makeBlue                                                    %! SM24
+    c'16..
+    
+    \makeBlue                                                    %! SM24
+    c'16..
+    
+    \makeBlue                                                    %! SM24
+    c'16..
+    ]
     
     % [C ViolinIIMusicVoice measure 135]                         %! SM4
     R1 * 1/4

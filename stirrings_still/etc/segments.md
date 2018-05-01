@@ -850,9 +850,8 @@ SEGMENTS
         damped lh continues;
         hair continues;
         fixed pitch for each player;
-        desynchronization begins:
-            different rate for each player;
-        "ff" governs stage;
+        desynchronization begins;
+        "ff";
         >>[G.1 (pane / urtext conflict) 1/1] suffixes [C.1]<< (5):
             >>summons future time<<;
             largo più mosso;
@@ -863,7 +862,8 @@ SEGMENTS
                     hair;
                     tasto;
                     polyrhythmic louré-swell tuplets;
-                    niente < mp > niente envelopes shape each note;
+                    mp;
+                    swell shapes each note;
                 va clouded partial:
                     stopped lh;
                     hair;

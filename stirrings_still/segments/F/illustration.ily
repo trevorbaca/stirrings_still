@@ -1085,7 +1085,7 @@ F_ViolaMusicVoice = {
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Hairpin.shorten-pair = #'(0.75 . 0)          %! OC1
+    \override Hairpin.shorten-pair = #'(0.75 . 0)                %! OC1
     \override RepeatTie.direction = #up                          %! OC1
     \override TextScript.parent-alignment-X = #0                 %! OC1
     \once \override Hairpin.circled-tip = ##t                    %! HC1
@@ -1198,6 +1198,7 @@ F_ViolaMusicVoice = {
             \upright                                             %! IC
                 "terminate abruptly"                             %! IC
         }                                                        %! IC
+    \revert Hairpin.shorten-pair                                 %! OC2
     \revert RepeatTie.direction                                  %! OC2
     \revert TextScript.parent-alignment-X                        %! OC2
     
