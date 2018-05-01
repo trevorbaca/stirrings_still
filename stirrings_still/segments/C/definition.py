@@ -102,7 +102,7 @@ maker(
     [
         baca.text_spanner(
             baca.markup.boxed('damp'),
-            right_padding=1.75,
+            right_padding=3.25,
             selector=baca.rleaves(),
             ),
         baca.text_spanner_staff_padding(7),
@@ -111,6 +111,8 @@ maker(
 
 maker(
     (['v1', 'v2'], 5),
-    (stirrings_still.desynchronization(8, [0]), 0),
-    (stirrings_still.desynchronization(8, [1]), 1),
+    (stirrings_still.loure_tuplets(0), 0),
+    (stirrings_still.loure_tuplets(1), 1),
+    baca.dynamic('mp'),
+    baca.markup.loure(),
     )

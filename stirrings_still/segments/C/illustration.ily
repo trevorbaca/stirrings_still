@@ -4340,7 +4340,7 @@ C_ViolinIMusicVoice = {
     \once \override TextSpanner.bound-details.right-broken.arrow = ##f
     \once \override TextSpanner.bound-details.right-broken.padding = 0
     \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.padding = 1.75
+    \once \override TextSpanner.bound-details.right.padding = 3.25
     \once \override TextSpanner.bound-details.right.text = \markup {
         \draw-line
             #'(0 . -1)
@@ -4459,28 +4459,42 @@ C_ViolinIMusicVoice = {
     \revert TextSpanner.staff-padding                            %! OC2
     
     % [C ViolinIMusicVoice measure 134]                          %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'8
+    -\espressivo                                                 %! IC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTextSpan
     [
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                louré                                            %! IC
+        }                                                        %! IC
     
     \makeBlue                                                    %! SM24
     c'8
+    -\espressivo                                                 %! IC
     
     \makeBlue                                                    %! SM24
     c'8
+    -\espressivo                                                 %! IC
     
     \makeBlue                                                    %! SM24
     c'8
+    -\espressivo                                                 %! IC
     
     \makeBlue                                                    %! SM24
     c'8
+    -\espressivo                                                 %! IC
     
     \makeBlue                                                    %! SM24
     c'8
+    -\espressivo                                                 %! IC
     
     \makeBlue                                                    %! SM24
     c'8
+    -\espressivo                                                 %! IC
     ]
     
     % [C ViolinIMusicVoice measure 135]                          %! SM4
@@ -4743,7 +4757,7 @@ C_ViolinIIMusicVoice = {
     \once \override TextSpanner.bound-details.right-broken.arrow = ##f
     \once \override TextSpanner.bound-details.right-broken.padding = 0
     \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.padding = 1.75
+    \once \override TextSpanner.bound-details.right.padding = 3.25
     \once \override TextSpanner.bound-details.right.text = \markup {
         \draw-line
             #'(0 . -1)
@@ -4842,31 +4856,46 @@ C_ViolinIIMusicVoice = {
     \revert TextSpanner.staff-padding                            %! OC2
     
     % [C ViolinIIMusicVoice measure 134]                         %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'16..
+    -\espressivo                                                 %! IC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTextSpan
     [
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                louré                                            %! IC
+        }                                                        %! IC
     
     \makeBlue                                                    %! SM24
     c'16..
+    -\espressivo                                                 %! IC
     
     \makeBlue                                                    %! SM24
     c'16..
+    -\espressivo                                                 %! IC
     
     \makeBlue                                                    %! SM24
     c'16..
+    -\espressivo                                                 %! IC
     
     \makeBlue                                                    %! SM24
     c'16..
+    -\espressivo                                                 %! IC
     
     \makeBlue                                                    %! SM24
     c'16..
+    -\espressivo                                                 %! IC
     
     \makeBlue                                                    %! SM24
     c'16..
+    -\espressivo                                                 %! IC
     
     \makeBlue                                                    %! SM24
     c'16..
+    -\espressivo                                                 %! IC
     ]
     
     % [C ViolinIIMusicVoice measure 135]                         %! SM4
@@ -5131,7 +5160,7 @@ C_ViolaMusicVoice = {
         \once \override TextSpanner.bound-details.right-broken.arrow = ##f
         \once \override TextSpanner.bound-details.right-broken.padding = 0
         \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.padding = 1.75
+        \once \override TextSpanner.bound-details.right.padding = 3.25
         \once \override TextSpanner.bound-details.right.text = \markup {
             \draw-line
                 #'(0 . -1)
@@ -5525,7 +5554,7 @@ C_CelloMusicVoice = {
     \once \override TextSpanner.bound-details.right-broken.arrow = ##f
     \once \override TextSpanner.bound-details.right-broken.padding = 0
     \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.padding = 1.75
+    \once \override TextSpanner.bound-details.right.padding = 3.25
     \once \override TextSpanner.bound-details.right.text = \markup {
         \draw-line
             #'(0 . -1)
