@@ -87,8 +87,10 @@ maker(
     (stirrings_still.desynchronization(4, [1]), 1),
     (stirrings_still.desynchronization(4, [0]), 2),
     (stirrings_still.desynchronization(4, [-1]), 3),
-    baca.dynamic_text_left(),
-    baca.effort_dynamic('f'),
+    [
+        baca.dynamic('"f"'),
+        baca.dynamic_text_left(),
+        ],
     baca.markup('hair: circles (each as wide as poss.)'),
     baca.text_script_staff_padding(9),
     baca.text_spanner_staff_padding(5),
@@ -134,8 +136,10 @@ maker(
 
 maker(
     ('va', (6, 11)),
-    baca.dynamic_text_left(),
-    baca.effort_dynamic('mp'),
+    [
+        baca.dynamic('"mp"'),
+        baca.dynamic_text_left(),
+        ],
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     baca.markup.boxed('tailpiece: poco flicker'),
     baca.repeat_tie_up(),

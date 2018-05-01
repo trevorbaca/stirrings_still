@@ -1,7 +1,9 @@
 TO-DO
 =====
 
-1.  Extend RhythmCommand rhythm-maker property.
+1.  Integrate multiple text spanners per voice.
+
+2.  Extend RhythmCommand rhythm-maker property.
     Accept iterable of (rhythm-maker, pattern) pairs.
         baca.RhythmCommand(
             division_expression=division_expression,
@@ -13,7 +15,7 @@ TO-DO
                 ],
             )
      
-2.  In addition to ...
+3.  In addition to ...
         maker(
             (['v1', 'v2'], (5, 7)),
             stirrings_still.clockticks(),
@@ -33,7 +35,7 @@ TO-DO
             )
     ... also.
 
-3.  In addition to ...
+4.  In addition to ...
         maker(
             ('vc', (6, 9)),
             baca.hairpin('p < f', selector=baca.rleaves()),
@@ -49,26 +51,26 @@ TO-DO
             )
     ... also
 
-4.  Add trajectories notator:
+5.  Add trajectories notator:
     baca.hide_black_note_heads().
 
-5.  Extend tailpiece():
+6.  Extend tailpiece():
     hide all note-heads except the first;
     add extent-terminal grace note;
     make sure flat glissando extends without gaps;
     add to library as baca.make_filled_extent().
 
-6.  Allow baca.markup.crine.boxed() instead of baca.markup.boxed('crine').
+7.  Allow baca.markup.crine.boxed() instead of baca.markup.boxed('crine').
 
-7.  Analyze volta application.
+8.  Analyze volta application.
 
-8.  Make full down-bow and full up-bow glyphs.
+9.  Make full down-bow and full up-bow glyphs.
     Add to baca/stylesheets/scheme.ily.
 
-9.  Make stop-on-string glyph.
+10. Make stop-on-string glyph.
     Make all transition-type glyphs.
     Add to baca/stylesheets/scheme.ily.
 
-10. Make full-down-bow-stop-on-string and full-up-bow-stop-on-string glyphs.
+11. Make full-down-bow-stop-on-string and full-up-bow-stop-on-string glyphs.
     Make all bow direction / bow termination ligatures.
     Add to baca/stylesheets/scheme.ily.
