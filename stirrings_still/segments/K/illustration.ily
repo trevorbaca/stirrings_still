@@ -3436,7 +3436,8 @@ K_ViolinIMusicVoice = {
                             tupletFullLength = ##t
                         }
                         {
-                            c'1 ~
+                            c'1
+                            ~
                             c'4
                         }
                     >>
@@ -3508,7 +3509,8 @@ K_ViolinIMusicVoice = {
                             tupletFullLength = ##t
                         }
                         {
-                            c'1 ~
+                            c'1
+                            ~
                             c'4
                         }
                     >>
@@ -3579,7 +3581,8 @@ K_ViolinIMusicVoice = {
                             tupletFullLength = ##t
                         }
                         {
-                            c'1 ~
+                            c'1
+                            ~
                             c'4
                         }
                     >>
@@ -3651,7 +3654,8 @@ K_ViolinIMusicVoice = {
                             tupletFullLength = ##t
                         }
                         {
-                            c'1 ~
+                            c'1
+                            ~
                             c'4
                         }
                     >>
@@ -3722,7 +3726,8 @@ K_ViolinIMusicVoice = {
                             tupletFullLength = ##t
                         }
                         {
-                            c'1 ~
+                            c'1
+                            ~
                             c'4
                         }
                     >>
