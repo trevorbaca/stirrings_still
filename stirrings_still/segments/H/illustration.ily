@@ -2944,16 +2944,6 @@ H_ViolinIMusicVoice = {
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
     \once \override Hairpin.circled-tip = ##t                    %! HC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "flaut. (2°)"
-            }
-        }                                                        %! PWC1
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -2984,6 +2974,16 @@ H_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "flaut. (2°)"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
         \column
@@ -3543,16 +3543,6 @@ H_ViolinIMusicVoice = {
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \whiteout
-                        \upright
-                            "poco scratch circles"
-                }
-            }                                                    %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'16 * 487/64
@@ -3580,6 +3570,16 @@ H_ViolinIMusicVoice = {
         -\tweak bound-details.right-broken.text ##f              %! PWC1
         -\tweak bound-details.right.padding 0.5                  %! PWC1
         -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \whiteout
+                        \upright
+                            "poco scratch circles"
+                }
+            }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -3633,16 +3633,6 @@ H_ViolinIMusicVoice = {
     % [H ViolinIMusicVoice measure 493]                          %! SM4
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
     \once \override Hairpin.circled-tip = ##t                    %! HC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "poco rasp (2°)"
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf'!1
     \<                                                           %! HC1
@@ -3668,6 +3658,16 @@ H_ViolinIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "poco rasp (2°)"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     _ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -3725,16 +3725,6 @@ H_ViolinIMusicVoice = {
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \whiteout
-                        \upright
-                            "mod. scratch circles"
-                }
-            }                                                    %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'16 * 63/8
@@ -3762,6 +3752,16 @@ H_ViolinIMusicVoice = {
         -\tweak bound-details.right-broken.text ##f              %! PWC1
         -\tweak bound-details.right.padding 0.5                  %! PWC1
         -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \whiteout
+                        \upright
+                            "mod. scratch circles"
+                }
+            }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
@@ -3834,16 +3834,6 @@ H_ViolinIMusicVoice = {
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \whiteout
-                        \upright
-                            "molto scratch circles"
-                }
-            }                                                    %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'16 * 497/64
@@ -3871,6 +3861,16 @@ H_ViolinIMusicVoice = {
         -\tweak bound-details.right-broken.text ##f              %! PWC1
         -\tweak bound-details.right.padding 0.5                  %! PWC1
         -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \whiteout
+                        \upright
+                            "molto scratch circles"
+                }
+            }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
@@ -3970,16 +3970,6 @@ H_ViolinIMusicVoice = {
         \makeBlue                                                %! SM24
         c'4
         
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \whiteout
-                        \upright
-                            "pochiss. scratch"
-                }
-            }                                                    %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \makeBlue                                                %! SM24
         c'4
@@ -4007,6 +3997,16 @@ H_ViolinIMusicVoice = {
         -\tweak bound-details.right-broken.text ##f              %! PWC1
         -\tweak bound-details.right.padding 0.5                  %! PWC1
         -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \whiteout
+                        \upright
+                            "pochiss. scratch"
+                }
+            }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
@@ -4088,16 +4088,6 @@ H_ViolinIIMusicVoice = {
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
     \once \override Hairpin.circled-tip = ##t                    %! HC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "flaut. (2°)"
-            }
-        }                                                        %! PWC1
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -4128,6 +4118,16 @@ H_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "flaut. (2°)"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
         \column
@@ -4623,16 +4623,6 @@ H_ViolinIIMusicVoice = {
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \whiteout
-                        \upright
-                            "poco scratch circles"
-                }
-            }                                                    %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'16 * 121/16
@@ -4660,6 +4650,16 @@ H_ViolinIIMusicVoice = {
         -\tweak bound-details.right-broken.text ##f              %! PWC1
         -\tweak bound-details.right.padding 0.5                  %! PWC1
         -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \whiteout
+                        \upright
+                            "poco scratch circles"
+                }
+            }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -4754,16 +4754,6 @@ H_ViolinIIMusicVoice = {
     % [H ViolinIIMusicVoice measure 493]                         %! SM4
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
     \once \override Hairpin.circled-tip = ##t                    %! HC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "poco rasp (2°)"
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'1
     \<                                                           %! HC1
@@ -4789,6 +4779,16 @@ H_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "poco rasp (2°)"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     _ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -4846,16 +4846,6 @@ H_ViolinIIMusicVoice = {
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \whiteout
-                        \upright
-                            "mod. scratch circles"
-                }
-            }                                                    %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'16 * 127/16
@@ -4883,6 +4873,16 @@ H_ViolinIIMusicVoice = {
         -\tweak bound-details.right-broken.text ##f              %! PWC1
         -\tweak bound-details.right.padding 0.5                  %! PWC1
         -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \whiteout
+                        \upright
+                            "mod. scratch circles"
+                }
+            }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
@@ -4949,16 +4949,6 @@ H_ViolinIIMusicVoice = {
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \whiteout
-                        \upright
-                            "molto scratch circles"
-                }
-            }                                                    %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'16 * 477/64
@@ -4986,6 +4976,16 @@ H_ViolinIIMusicVoice = {
         -\tweak bound-details.right-broken.text ##f              %! PWC1
         -\tweak bound-details.right.padding 0.5                  %! PWC1
         -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \whiteout
+                        \upright
+                            "molto scratch circles"
+                }
+            }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
@@ -5067,16 +5067,6 @@ H_ViolinIIMusicVoice = {
         \makeBlue                                                %! SM24
         c'4
         
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \whiteout
-                        \upright
-                            "pochiss. scratch"
-                }
-            }                                                    %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \makeBlue                                                %! SM24
         c'4
@@ -5104,6 +5094,16 @@ H_ViolinIIMusicVoice = {
         -\tweak bound-details.right-broken.text ##f              %! PWC1
         -\tweak bound-details.right.padding 0.5                  %! PWC1
         -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \whiteout
+                        \upright
+                            "pochiss. scratch"
+                }
+            }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
@@ -5184,16 +5184,6 @@ H_ViolaMusicVoice = {
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
     \once \override Hairpin.circled-tip = ##t                    %! HC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "flaut. (2°)"
-            }
-        }                                                        %! PWC1
     \clef "alto"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -5225,6 +5215,16 @@ H_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "flaut. (2°)"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
         \column
@@ -5714,16 +5714,6 @@ H_ViolaMusicVoice = {
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \whiteout
-                        \upright
-                            "poco scratch circles"
-                }
-            }                                                    %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'16 * 501/64
@@ -5751,6 +5741,16 @@ H_ViolaMusicVoice = {
         -\tweak bound-details.right-broken.text ##f              %! PWC1
         -\tweak bound-details.right.padding 0.5                  %! PWC1
         -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \whiteout
+                        \upright
+                            "poco scratch circles"
+                }
+            }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -5795,16 +5795,6 @@ H_ViolaMusicVoice = {
     % [H ViolaMusicVoice measure 493]                            %! SM4
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
     \once \override Hairpin.circled-tip = ##t                    %! HC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "poco rasp (2°)"
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af!1
     \<                                                           %! HC1
@@ -5830,6 +5820,16 @@ H_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "poco rasp (2°)"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     _ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -5887,16 +5887,6 @@ H_ViolaMusicVoice = {
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \whiteout
-                        \upright
-                            "mod. scratch circles"
-                }
-            }                                                    %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'16 * 55/8
@@ -5924,6 +5914,16 @@ H_ViolaMusicVoice = {
         -\tweak bound-details.right-broken.text ##f              %! PWC1
         -\tweak bound-details.right.padding 0.5                  %! PWC1
         -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \whiteout
+                        \upright
+                            "mod. scratch circles"
+                }
+            }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
@@ -5990,16 +5990,6 @@ H_ViolaMusicVoice = {
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \whiteout
-                        \upright
-                            "molto scratch circles"
-                }
-            }                                                    %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'16 * 249/32
@@ -6027,6 +6017,16 @@ H_ViolaMusicVoice = {
         -\tweak bound-details.right-broken.text ##f              %! PWC1
         -\tweak bound-details.right.padding 0.5                  %! PWC1
         -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \whiteout
+                        \upright
+                            "molto scratch circles"
+                }
+            }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
@@ -6091,16 +6091,6 @@ H_ViolaMusicVoice = {
     \makeBlue                                                    %! SM24
     c'4
     
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pochiss. scratch"
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
     c'4
@@ -6128,6 +6118,16 @@ H_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pochiss. scratch"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     \makeBlue                                                    %! SM24
@@ -6192,16 +6192,6 @@ H_CelloMusicVoice = {
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
     \once \override Hairpin.circled-tip = ##t                    %! HC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "flaut. (2°)"
-            }
-        }                                                        %! PWC1
     \clef "bass"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -6232,6 +6222,16 @@ H_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "flaut. (2°)"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
         \column
@@ -6418,16 +6418,6 @@ H_CelloMusicVoice = {
         -\tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \fraction
-                        7
-                        7
-                }
-            }
         \makeBlue                                                %! SM24
         c'16 * 51/32
         \stopTextSpan
@@ -6450,6 +6440,16 @@ H_CelloMusicVoice = {
         -\tweak bound-details.right-broken.text ##f
         -\tweak bound-details.right.padding 0.5
         -\tweak bound-details.right.stencil-align-dir-y #center
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \fraction
+                        7
+                        7
+                }
+            }
         \startTextSpan
         
         \revert Staff.Stem.stemlet-length
@@ -6471,16 +6471,6 @@ H_CelloMusicVoice = {
     \override Glissando.arrow-width = #'0.5                      %! OC1
     \override Glissando.bound-details.right.arrow = ##t          %! OC1
     \override Glissando.thickness = #'3                          %! OC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "non flaut."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     af,!2.
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
@@ -6507,6 +6497,16 @@ H_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "non flaut."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     _ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -6670,16 +6670,6 @@ H_CelloMusicVoice = {
     % [H CelloMusicVoice measure 493]                            %! SM4
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
     \once \override Hairpin.circled-tip = ##t                    %! HC1
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "poco rasp (2°)"
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af,!1
     \<                                                           %! HC1
@@ -6705,6 +6695,16 @@ H_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "poco rasp (2°)"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     _ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -7463,16 +7463,6 @@ H_CelloMusicVoice = {
         -\tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \fraction
-                        7
-                        7
-                }
-            }
         e,8
         -\downbow
         ]
@@ -7497,6 +7487,16 @@ H_CelloMusicVoice = {
         -\tweak bound-details.right-broken.text ##f
         -\tweak bound-details.right.padding 0.5
         -\tweak bound-details.right.stencil-align-dir-y #center
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \fraction
+                        7
+                        7
+                }
+            }
         \startTextSpan
         
         e,4
@@ -7591,16 +7591,6 @@ H_CelloMusicVoice = {
         -\tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \fraction
-                        0
-                        7
-                }
-            }
         e,4
         -\upbow
         \stopTextSpan
@@ -7624,6 +7614,16 @@ H_CelloMusicVoice = {
         -\tweak bound-details.right-broken.text ##f
         -\tweak bound-details.right.padding 0.5
         -\tweak bound-details.right.stencil-align-dir-y #center
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \fraction
+                        0
+                        7
+                }
+            }
         \startTextSpan
         
         e,8
