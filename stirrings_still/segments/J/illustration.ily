@@ -1158,10 +1158,12 @@ J_ViolinIIMusicVoice = {
         
         % [J ViolinIIMusicVoice measure 524]                     %! SM4
         \override TextSpanner.staff-padding = #5                 %! OC1
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.bound-details.left-broken.text = ##f
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
-        \once \override TextSpanner.bound-details.left.text = \markup {
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'8
+        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\tweak Y-extent ##f
+        -\tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -1174,20 +1176,18 @@ J_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
-        \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.padding = 1.75
-        \once \override TextSpanner.bound-details.right.text = \markup {
+        -\tweak dash-fraction 0.25
+        -\tweak dash-period 1.5
+        -\tweak bound-details.left-broken.text ##f
+        -\tweak bound-details.left.stencil-align-dir-y 0
+        -\tweak bound-details.right-broken.arrow ##f
+        -\tweak bound-details.right-broken.padding 0
+        -\tweak bound-details.right-broken.text ##f
+        -\tweak bound-details.right.padding 1.75
+        -\tweak bound-details.right.text \markup {
             \draw-line
                 #'(0 . -1)
             }
-        \once \override TextSpanner.dash-fraction = 0.25
-        \once \override TextSpanner.dash-period = 1.5
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \makeBlue                                                %! SM24
-        c'8
-        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         \startTextSpan
         
         r4

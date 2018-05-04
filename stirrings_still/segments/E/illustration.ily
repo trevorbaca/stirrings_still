@@ -6138,10 +6138,18 @@ E_ViolinIMusicVoice = {
             #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             "Vn. I"                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \once \override TextSpanner.Y-extent = ##f
-    \once \override TextSpanner.bound-details.left-broken.text = ##f
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2
+    :32                                                          %! IC
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    -\tweak Y-extent ##f
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -6154,26 +6162,18 @@ E_ViolinIMusicVoice = {
                     #0.5
             }
         }
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-    \once \override TextSpanner.bound-details.right-broken.padding = 0
-    \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.padding = 1.75
-    \once \override TextSpanner.bound-details.right.text = \markup {
+    -\tweak dash-fraction 0.25
+    -\tweak dash-period 1.5
+    -\tweak bound-details.left-broken.text ##f
+    -\tweak bound-details.left.stencil-align-dir-y 0
+    -\tweak bound-details.right-broken.arrow ##f
+    -\tweak bound-details.right-broken.padding 0
+    -\tweak bound-details.right-broken.text ##f
+    -\tweak bound-details.right.padding 1.75
+    -\tweak bound-details.right.text \markup {
         \draw-line
             #'(0 . -1)
         }
-    \once \override TextSpanner.dash-fraction = 0.25
-    \once \override TextSpanner.dash-period = 1.5
-    \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    \makeBlue                                                    %! SM24
-    c'2
-    :32                                                          %! IC
-    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \startTextSpan
     ^ \markup {
         \column
@@ -6256,10 +6256,12 @@ E_ViolinIMusicVoice = {
     }
     
     % [E ViolinIMusicVoice measure 303]                          %! SM4
-    \once \override TextSpanner.Y-extent = ##f
-    \once \override TextSpanner.bound-details.left-broken.text = ##f
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'4
+    \p                                                           %! HC1
+    -\tweak Y-extent ##f
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -6272,20 +6274,18 @@ E_ViolinIMusicVoice = {
                     #0.5
             }
         }
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-    \once \override TextSpanner.bound-details.right-broken.padding = 0
-    \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.padding = 1.25
-    \once \override TextSpanner.bound-details.right.text = \markup {
+    -\tweak dash-fraction 0.25
+    -\tweak dash-period 1.5
+    -\tweak bound-details.left-broken.text ##f
+    -\tweak bound-details.left.stencil-align-dir-y 0
+    -\tweak bound-details.right-broken.arrow ##f
+    -\tweak bound-details.right-broken.padding 0
+    -\tweak bound-details.right-broken.text ##f
+    -\tweak bound-details.right.padding 1.25
+    -\tweak bound-details.right.text \markup {
         \draw-line
             #'(0 . -1)
         }
-    \once \override TextSpanner.dash-fraction = 0.25
-    \once \override TextSpanner.dash-period = 1.5
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeBlue                                                    %! SM24
-    c'4
-    \p                                                           %! HC1
     \startTextSpan
     
     \makeBlue                                                    %! SM24
@@ -6800,10 +6800,18 @@ E_ViolinIIMusicVoice = {
             #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             "Vn. II"                                             %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \once \override TextSpanner.Y-extent = ##f
-    \once \override TextSpanner.bound-details.left-broken.text = ##f
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2
+    :32                                                          %! IC
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    -\tweak Y-extent ##f
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -6816,26 +6824,18 @@ E_ViolinIIMusicVoice = {
                     #0.5
             }
         }
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-    \once \override TextSpanner.bound-details.right-broken.padding = 0
-    \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.padding = 1.75
-    \once \override TextSpanner.bound-details.right.text = \markup {
+    -\tweak dash-fraction 0.25
+    -\tweak dash-period 1.5
+    -\tweak bound-details.left-broken.text ##f
+    -\tweak bound-details.left.stencil-align-dir-y 0
+    -\tweak bound-details.right-broken.arrow ##f
+    -\tweak bound-details.right-broken.padding 0
+    -\tweak bound-details.right-broken.text ##f
+    -\tweak bound-details.right.padding 1.75
+    -\tweak bound-details.right.text \markup {
         \draw-line
             #'(0 . -1)
         }
-    \once \override TextSpanner.dash-fraction = 0.25
-    \once \override TextSpanner.dash-period = 1.5
-    \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    \makeBlue                                                    %! SM24
-    c'2
-    :32                                                          %! IC
-    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \startTextSpan
     ^ \markup {
         \column
@@ -6915,10 +6915,12 @@ E_ViolinIIMusicVoice = {
     }
     
     % [E ViolinIIMusicVoice measure 303]                         %! SM4
-    \once \override TextSpanner.Y-extent = ##f
-    \once \override TextSpanner.bound-details.left-broken.text = ##f
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'4
+    \p                                                           %! HC1
+    -\tweak Y-extent ##f
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -6931,20 +6933,18 @@ E_ViolinIIMusicVoice = {
                     #0.5
             }
         }
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-    \once \override TextSpanner.bound-details.right-broken.padding = 0
-    \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.padding = 1.25
-    \once \override TextSpanner.bound-details.right.text = \markup {
+    -\tweak dash-fraction 0.25
+    -\tweak dash-period 1.5
+    -\tweak bound-details.left-broken.text ##f
+    -\tweak bound-details.left.stencil-align-dir-y 0
+    -\tweak bound-details.right-broken.arrow ##f
+    -\tweak bound-details.right-broken.padding 0
+    -\tweak bound-details.right-broken.text ##f
+    -\tweak bound-details.right.padding 1.25
+    -\tweak bound-details.right.text \markup {
         \draw-line
             #'(0 . -1)
         }
-    \once \override TextSpanner.dash-fraction = 0.25
-    \once \override TextSpanner.dash-period = 1.5
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeBlue                                                    %! SM24
-    c'4
-    \p                                                           %! HC1
     \startTextSpan
     
     \makeBlue                                                    %! SM24
@@ -7462,10 +7462,19 @@ E_ViolaMusicVoice = {
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 5             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \once \override TextSpanner.Y-extent = ##f
-    \once \override TextSpanner.bound-details.left-broken.text = ##f
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \clef "alto"                                                 %! SM8:REAPPLIED_CLEF:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2
+    :32                                                          %! IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    -\tweak Y-extent ##f
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -7478,27 +7487,18 @@ E_ViolaMusicVoice = {
                     #0.5
             }
         }
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-    \once \override TextSpanner.bound-details.right-broken.padding = 0
-    \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.padding = 1.75
-    \once \override TextSpanner.bound-details.right.text = \markup {
+    -\tweak dash-fraction 0.25
+    -\tweak dash-period 1.5
+    -\tweak bound-details.left-broken.text ##f
+    -\tweak bound-details.left.stencil-align-dir-y 0
+    -\tweak bound-details.right-broken.arrow ##f
+    -\tweak bound-details.right-broken.padding 0
+    -\tweak bound-details.right-broken.text ##f
+    -\tweak bound-details.right.padding 1.75
+    -\tweak bound-details.right.text \markup {
         \draw-line
             #'(0 . -1)
         }
-    \once \override TextSpanner.dash-fraction = 0.25
-    \once \override TextSpanner.dash-period = 1.5
-    \clef "alto"                                                 %! SM8:REAPPLIED_CLEF:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeBlue                                                    %! SM24
-    c'2
-    :32                                                          %! IC
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \startTextSpan
     ^ \markup {
         \column
@@ -7574,10 +7574,12 @@ E_ViolaMusicVoice = {
     c'4
     
     % [E ViolaMusicVoice measure 303]                            %! SM4
-    \once \override TextSpanner.Y-extent = ##f
-    \once \override TextSpanner.bound-details.left-broken.text = ##f
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = 0
-    \once \override TextSpanner.bound-details.left.text = \markup {
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'4
+    \p                                                           %! HC1
+    -\tweak Y-extent ##f
+    -\tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -7590,20 +7592,18 @@ E_ViolaMusicVoice = {
                     #0.5
             }
         }
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-    \once \override TextSpanner.bound-details.right-broken.padding = 0
-    \once \override TextSpanner.bound-details.right-broken.text = ##f
-    \once \override TextSpanner.bound-details.right.padding = 1.25
-    \once \override TextSpanner.bound-details.right.text = \markup {
+    -\tweak dash-fraction 0.25
+    -\tweak dash-period 1.5
+    -\tweak bound-details.left-broken.text ##f
+    -\tweak bound-details.left.stencil-align-dir-y 0
+    -\tweak bound-details.right-broken.arrow ##f
+    -\tweak bound-details.right-broken.padding 0
+    -\tweak bound-details.right-broken.text ##f
+    -\tweak bound-details.right.padding 1.25
+    -\tweak bound-details.right.text \markup {
         \draw-line
             #'(0 . -1)
         }
-    \once \override TextSpanner.dash-fraction = 0.25
-    \once \override TextSpanner.dash-period = 1.5
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \makeBlue                                                    %! SM24
-    c'4
-    \p                                                           %! HC1
     \startTextSpan
     
     \makeBlue                                                    %! SM24
