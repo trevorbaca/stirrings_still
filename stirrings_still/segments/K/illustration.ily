@@ -2928,16 +2928,6 @@ K_ViolinIMusicVoice = {
         -\tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \fraction
-                        0
-                        7
-                }
-            }
         \makeBlue                                                %! SM24
         c'4
         -\upbow
@@ -2962,6 +2952,16 @@ K_ViolinIMusicVoice = {
         -\tweak bound-details.right-broken.text ##f
         -\tweak bound-details.right.padding 0.5
         -\tweak bound-details.right.stencil-align-dir-y #center
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \fraction
+                        0
+                        7
+                }
+            }
         \startTextSpan
         
         \makeBlue                                                %! SM24
@@ -3362,16 +3362,6 @@ K_ViolinIMusicVoice = {
         -\tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \fraction
-                        0
-                        7
-                }
-            }
         \makeBlue                                                %! SM24
         c'16 * 391/64
         -\upbow
@@ -3396,6 +3386,16 @@ K_ViolinIMusicVoice = {
         -\tweak bound-details.right-broken.text ##f
         -\tweak bound-details.right.padding 0.5
         -\tweak bound-details.right.stencil-align-dir-y #center
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \fraction
+                        0
+                        7
+                }
+            }
         \startTextSpan
         
         \revert Staff.Stem.stemlet-length
@@ -4095,16 +4095,6 @@ K_ViolinIIMusicVoice = {
     -\tweak bound-details.right.stencil-align-dir-y #center
     \startTextSpan
     
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \fraction
-                    0
-                    7
-            }
-        }
     \makeBlue                                                    %! SM24
     c'4
     -\upbow
@@ -4129,6 +4119,16 @@ K_ViolinIIMusicVoice = {
     -\tweak bound-details.right-broken.text ##f
     -\tweak bound-details.right.padding 0.5
     -\tweak bound-details.right.stencil-align-dir-y #center
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \fraction
+                    0
+                    7
+            }
+        }
     \startTextSpan
     
     \makeBlue                                                    %! SM24
@@ -4497,16 +4497,6 @@ K_ViolinIIMusicVoice = {
         -\tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \fraction
-                        0
-                        7
-                }
-            }
         \makeBlue                                                %! SM24
         c'16 * 423/64
         -\upbow
@@ -4531,6 +4521,16 @@ K_ViolinIIMusicVoice = {
         -\tweak bound-details.right-broken.text ##f
         -\tweak bound-details.right.padding 0.5
         -\tweak bound-details.right.stencil-align-dir-y #center
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \fraction
+                        0
+                        7
+                }
+            }
         \startTextSpan
         
         \revert Staff.Stem.stemlet-length
@@ -5292,16 +5292,6 @@ K_ViolaMusicVoice = {
         -\tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \fraction
-                        0
-                        7
-                }
-            }
         \makeBlue                                                %! SM24
         c'2
         -\upbow
@@ -5326,6 +5316,16 @@ K_ViolaMusicVoice = {
         -\tweak bound-details.right-broken.text ##f
         -\tweak bound-details.right.padding 0.5
         -\tweak bound-details.right.stencil-align-dir-y #center
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \fraction
+                        0
+                        7
+                }
+            }
         \startTextSpan
         
         \makeBlue                                                %! SM24
@@ -5839,16 +5839,6 @@ K_CelloMusicVoice = {
         -\tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \fraction
-                        0
-                        7
-                }
-            }
         \makeBlue                                                %! SM24
         c'8
         -\upbow
@@ -5874,6 +5864,16 @@ K_CelloMusicVoice = {
         -\tweak bound-details.right-broken.text ##f
         -\tweak bound-details.right.padding 0.5
         -\tweak bound-details.right.stencil-align-dir-y #center
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \fraction
+                        0
+                        7
+                }
+            }
         \startTextSpan
         
         \makeBlue                                                %! SM24
@@ -6206,16 +6206,6 @@ K_CelloMusicVoice = {
         -\tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \fraction
-                        7
-                        7
-                }
-            }
         \makeBlue                                                %! SM24
         c'16 * 105/16
         -\downbow
@@ -6240,6 +6230,16 @@ K_CelloMusicVoice = {
         -\tweak bound-details.right-broken.text ##f
         -\tweak bound-details.right.padding 0.5
         -\tweak bound-details.right.stencil-align-dir-y #center
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \fraction
+                        7
+                        7
+                }
+            }
         \startTextSpan
         
         \revert Staff.Stem.stemlet-length

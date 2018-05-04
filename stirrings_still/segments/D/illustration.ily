@@ -6383,16 +6383,6 @@ D_CelloMusicVoice = {
         -\tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \fraction
-                        7
-                        7
-                }
-            }
         \makeBlue                                                %! SM24
         c'8
         -\downbow
@@ -6418,6 +6408,16 @@ D_CelloMusicVoice = {
         -\tweak bound-details.right-broken.text ##f
         -\tweak bound-details.right.padding 0.5
         -\tweak bound-details.right.stencil-align-dir-y #center
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \fraction
+                        7
+                        7
+                }
+            }
         \startTextSpan
         
         \makeBlue                                                %! SM24
