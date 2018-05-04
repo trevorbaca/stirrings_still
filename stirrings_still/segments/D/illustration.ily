@@ -6322,10 +6322,14 @@ D_CelloMusicVoice = {
         \override DynamicLineSpanner.staff-padding = #'5         %! OC1
         \override TextScript.staff-padding = #11                 %! OC1
         \override TextSpanner.staff-padding = #7                 %! OC1
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'4
+        -\downbow
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \glissando                                               %! SC
+        -\tweak Y-extent ##f
+        -\tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -6335,18 +6339,14 @@ D_CelloMusicVoice = {
                         #0.25
                 }
             }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \makeBlue                                                %! SM24
-        c'4
-        -\downbow
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        \glissando                                               %! SC
+        -\tweak arrow-width 0.25
+        -\tweak dash-fraction 1
+        -\tweak bound-details.left.stencil-align-dir-y #center
+        -\tweak bound-details.right.arrow ##t
+        -\tweak bound-details.right-broken.padding 0
+        -\tweak bound-details.right-broken.text ##f
+        -\tweak bound-details.right.padding 0.5
+        -\tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -6357,50 +6357,32 @@ D_CelloMusicVoice = {
                             "1/2 clt"                            %! IC
             }                                                    %! IC
         
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
-            \concat
-                {
-                    \fraction
-                        7
-                        7
-                    \hspace
-                        #0.25
-                }
-            }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
-        \once \override TextSpanner.dash-fraction = 1
         \makeBlue                                                %! SM24
         c'4.
         -\upbow
         \stopTextSpan
         \glissando                                               %! SC
-        \startTextSpan
-        
-        \once \override TextSpanner.Y-extent = ##f
-        \once \override TextSpanner.arrow-width = 0.25
-        \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center
-        \once \override TextSpanner.bound-details.left.text = \markup {
+        -\tweak Y-extent ##f
+        -\tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
-                        6
+                        7
                         7
                     \hspace
                         #0.25
                 }
             }
-        \once \override TextSpanner.bound-details.right-broken.padding = 0
-        \once \override TextSpanner.bound-details.right-broken.text = ##f
-        \once \override TextSpanner.bound-details.right.arrow = ##t
-        \once \override TextSpanner.bound-details.right.padding = 0.5
-        \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center
+        -\tweak arrow-width 0.25
+        -\tweak dash-fraction 1
+        -\tweak bound-details.left.stencil-align-dir-y #center
+        -\tweak bound-details.right.arrow ##t
+        -\tweak bound-details.right-broken.padding 0
+        -\tweak bound-details.right-broken.text ##f
+        -\tweak bound-details.right.padding 0.5
+        -\tweak bound-details.right.stencil-align-dir-y #center
+        \startTextSpan
+        
         \once \override TextSpanner.bound-details.right.text = \markup {
             \concat
                 {
@@ -6411,13 +6393,31 @@ D_CelloMusicVoice = {
                         7
                 }
             }
-        \once \override TextSpanner.dash-fraction = 1
         \makeBlue                                                %! SM24
         c'8
         -\downbow
         \stopTextSpan
         \glissando                                               %! SC
         [
+        -\tweak Y-extent ##f
+        -\tweak bound-details.left.text \markup {
+            \concat
+                {
+                    \fraction
+                        6
+                        7
+                    \hspace
+                        #0.25
+                }
+            }
+        -\tweak arrow-width 0.25
+        -\tweak dash-fraction 1
+        -\tweak bound-details.left.stencil-align-dir-y #center
+        -\tweak bound-details.right.arrow ##t
+        -\tweak bound-details.right-broken.padding 0
+        -\tweak bound-details.right-broken.text ##f
+        -\tweak bound-details.right.padding 0.5
+        -\tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         \makeBlue                                                %! SM24
