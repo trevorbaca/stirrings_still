@@ -2952,8 +2952,8 @@ H_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf'!1
     \<                                                           %! HC1
-    -\tweak Y-extent ##f                                         %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                        %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -2963,18 +2963,18 @@ H_ViolinIMusicVoice = {
                     #0.5
             }
         }                                                        %! PWC1
-    -\tweak arrow-width 0.25                                     %! PWC1
-    -\tweak dash-fraction 0.25                                   %! PWC1
-    -\tweak dash-period 1.5                                      %! PWC1
-    -\tweak bound-details.left-broken.text ##f                   %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center       %! PWC1
-    -\tweak bound-details.right.arrow ##t                        %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f                 %! PWC1
-    -\tweak bound-details.right-broken.padding 0                 %! PWC1
-    -\tweak bound-details.right-broken.text ##f                  %! PWC1
-    -\tweak bound-details.right.padding 0.5                      %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                    %! PWC1
+    - \tweak dash-fraction 0.25                                  %! PWC1
+    - \tweak dash-period 1.5                                     %! PWC1
+    - \tweak bound-details.left-broken.text ##f                  %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
+    - \tweak bound-details.right.arrow ##t                       %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
+    - \tweak bound-details.right-broken.padding 0                %! PWC1
+    - \tweak bound-details.right-broken.text ##f                 %! PWC1
+    - \tweak bound-details.right.padding 0.5                     %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -3137,8 +3137,8 @@ H_ViolinIMusicVoice = {
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \glissando                                               %! SC
         [
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -3148,17 +3148,17 @@ H_ViolinIMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -3190,8 +3190,8 @@ H_ViolinIMusicVoice = {
         g'4
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -3201,17 +3201,17 @@ H_ViolinIMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
         
         g'4
@@ -3242,8 +3242,8 @@ H_ViolinIMusicVoice = {
     \stopTextSpan                                                %! PWC1
     \glissando                                                   %! SC
     [
-    -\tweak Y-extent ##f                                         %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                        %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3253,17 +3253,17 @@ H_ViolinIMusicVoice = {
                     #0.5
             }
         }                                                        %! PWC1
-    -\tweak arrow-width 0.25                                     %! PWC1
-    -\tweak dash-fraction 0.25                                   %! PWC1
-    -\tweak dash-period 1.5                                      %! PWC1
-    -\tweak bound-details.left-broken.text ##f                   %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center       %! PWC1
-    -\tweak bound-details.right.arrow ##t                        %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f                 %! PWC1
-    -\tweak bound-details.right-broken.padding 0                 %! PWC1
-    -\tweak bound-details.right-broken.text ##f                  %! PWC1
-    -\tweak bound-details.right.padding 0.5                      %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    - \tweak arrow-width 0.25                                    %! PWC1
+    - \tweak dash-fraction 0.25                                  %! PWC1
+    - \tweak dash-period 1.5                                     %! PWC1
+    - \tweak bound-details.left-broken.text ##f                  %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
+    - \tweak bound-details.right.arrow ##t                       %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
+    - \tweak bound-details.right-broken.padding 0                %! PWC1
+    - \tweak bound-details.right-broken.text ##f                 %! PWC1
+    - \tweak bound-details.right.padding 0.5                     %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
     \startTextSpan                                               %! PWC1
     
     a'8..
@@ -3295,8 +3295,8 @@ H_ViolinIMusicVoice = {
         b'4
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -3306,13 +3306,13 @@ H_ViolinIMusicVoice = {
                         #0.25
                 }
             }                                                    %! PWC1
-        -\tweak dash-period 0                                    %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 1.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        - \tweak dash-period 0                                   %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 1.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
         
         b'4
@@ -3548,8 +3548,8 @@ H_ViolinIMusicVoice = {
         c'16 * 487/64
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -3559,18 +3559,18 @@ H_ViolinIMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-        -\tweak bound-details.right.text \markup {
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak bound-details.right.text \markup {
             \concat
                 {
                     \hspace
@@ -3636,8 +3636,8 @@ H_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf'!1
     \<                                                           %! HC1
-    -\tweak Y-extent ##f                                         %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                        %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -3647,18 +3647,18 @@ H_ViolinIMusicVoice = {
                     #0.5
             }
         }                                                        %! PWC1
-    -\tweak arrow-width 0.25                                     %! PWC1
-    -\tweak dash-fraction 0.25                                   %! PWC1
-    -\tweak dash-period 1.5                                      %! PWC1
-    -\tweak bound-details.left-broken.text ##f                   %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center       %! PWC1
-    -\tweak bound-details.right.arrow ##t                        %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f                 %! PWC1
-    -\tweak bound-details.right-broken.padding 0                 %! PWC1
-    -\tweak bound-details.right-broken.text ##f                  %! PWC1
-    -\tweak bound-details.right.padding 0.5                      %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                    %! PWC1
+    - \tweak dash-fraction 0.25                                  %! PWC1
+    - \tweak dash-period 1.5                                     %! PWC1
+    - \tweak bound-details.left-broken.text ##f                  %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
+    - \tweak bound-details.right.arrow ##t                       %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
+    - \tweak bound-details.right-broken.padding 0                %! PWC1
+    - \tweak bound-details.right-broken.text ##f                 %! PWC1
+    - \tweak bound-details.right.padding 0.5                     %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -3730,8 +3730,8 @@ H_ViolinIMusicVoice = {
         c'16 * 63/8
         \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -3741,18 +3741,18 @@ H_ViolinIMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-        -\tweak bound-details.right.text \markup {
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak bound-details.right.text \markup {
             \concat
                 {
                     \hspace
@@ -3839,8 +3839,8 @@ H_ViolinIMusicVoice = {
         c'16 * 497/64
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -3850,18 +3850,18 @@ H_ViolinIMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-        -\tweak bound-details.right.text \markup {
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak bound-details.right.text \markup {
             \concat
                 {
                     \hspace
@@ -3975,8 +3975,8 @@ H_ViolinIMusicVoice = {
         c'4
         \>                                                       %! HC1
         \ff                                                      %! HC1
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -3986,18 +3986,18 @@ H_ViolinIMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-        -\tweak bound-details.right.text \markup {
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak bound-details.right.text \markup {
             \concat
                 {
                     \hspace
@@ -4096,8 +4096,8 @@ H_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'1
     \<                                                           %! HC1
-    -\tweak Y-extent ##f                                         %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                        %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4107,18 +4107,18 @@ H_ViolinIIMusicVoice = {
                     #0.5
             }
         }                                                        %! PWC1
-    -\tweak arrow-width 0.25                                     %! PWC1
-    -\tweak dash-fraction 0.25                                   %! PWC1
-    -\tweak dash-period 1.5                                      %! PWC1
-    -\tweak bound-details.left-broken.text ##f                   %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center       %! PWC1
-    -\tweak bound-details.right.arrow ##t                        %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f                 %! PWC1
-    -\tweak bound-details.right-broken.padding 0                 %! PWC1
-    -\tweak bound-details.right-broken.text ##f                  %! PWC1
-    -\tweak bound-details.right.padding 0.5                      %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                    %! PWC1
+    - \tweak dash-fraction 0.25                                  %! PWC1
+    - \tweak dash-period 1.5                                     %! PWC1
+    - \tweak bound-details.left-broken.text ##f                  %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
+    - \tweak bound-details.right.arrow ##t                       %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
+    - \tweak bound-details.right-broken.padding 0                %! PWC1
+    - \tweak bound-details.right-broken.text ##f                 %! PWC1
+    - \tweak bound-details.right.padding 0.5                     %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -4205,8 +4205,8 @@ H_ViolinIIMusicVoice = {
     \repeatTie                                                   %! TCC
     \>                                                           %! HC1
     \mp                                                          %! HC1
-    -\tweak Y-extent ##f                                         %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                        %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4216,17 +4216,17 @@ H_ViolinIIMusicVoice = {
                     #0.5
             }
         }                                                        %! PWC1
-    -\tweak arrow-width 0.25                                     %! PWC1
-    -\tweak dash-fraction 0.25                                   %! PWC1
-    -\tweak dash-period 1.5                                      %! PWC1
-    -\tweak bound-details.left-broken.text ##f                   %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center       %! PWC1
-    -\tweak bound-details.right.arrow ##t                        %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f                 %! PWC1
-    -\tweak bound-details.right-broken.padding 0                 %! PWC1
-    -\tweak bound-details.right-broken.text ##f                  %! PWC1
-    -\tweak bound-details.right.padding 0.5                      %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    - \tweak arrow-width 0.25                                    %! PWC1
+    - \tweak dash-fraction 0.25                                  %! PWC1
+    - \tweak dash-period 1.5                                     %! PWC1
+    - \tweak bound-details.left-broken.text ##f                  %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
+    - \tweak bound-details.right.arrow ##t                       %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
+    - \tweak bound-details.right-broken.padding 0                %! PWC1
+    - \tweak bound-details.right-broken.text ##f                 %! PWC1
+    - \tweak bound-details.right.padding 0.5                     %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
     \startTextSpan                                               %! PWC1
     
     f'4
@@ -4236,8 +4236,8 @@ H_ViolinIIMusicVoice = {
     f'2.
     \repeatTie                                                   %! TCC
     \stopTextSpan                                                %! PWC1
-    -\tweak Y-extent ##f                                         %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                        %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4247,17 +4247,17 @@ H_ViolinIIMusicVoice = {
                     #0.5
             }
         }                                                        %! PWC1
-    -\tweak arrow-width 0.25                                     %! PWC1
-    -\tweak dash-fraction 0.25                                   %! PWC1
-    -\tweak dash-period 1.5                                      %! PWC1
-    -\tweak bound-details.left-broken.text ##f                   %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center       %! PWC1
-    -\tweak bound-details.right.arrow ##t                        %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f                 %! PWC1
-    -\tweak bound-details.right-broken.padding 0                 %! PWC1
-    -\tweak bound-details.right-broken.text ##f                  %! PWC1
-    -\tweak bound-details.right.padding 0.5                      %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    - \tweak arrow-width 0.25                                    %! PWC1
+    - \tweak dash-fraction 0.25                                  %! PWC1
+    - \tweak dash-period 1.5                                     %! PWC1
+    - \tweak bound-details.left-broken.text ##f                  %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
+    - \tweak bound-details.right.arrow ##t                       %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
+    - \tweak bound-details.right-broken.padding 0                %! PWC1
+    - \tweak bound-details.right-broken.text ##f                 %! PWC1
+    - \tweak bound-details.right.padding 0.5                     %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
     \startTextSpan                                               %! PWC1
     \override TupletNumber.text = \markup {
         \scale
@@ -4307,8 +4307,8 @@ H_ViolinIIMusicVoice = {
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
         [
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -4318,17 +4318,17 @@ H_ViolinIIMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -4364,8 +4364,8 @@ H_ViolinIIMusicVoice = {
         g'4
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -4375,17 +4375,17 @@ H_ViolinIIMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
         
         g'4
@@ -4415,8 +4415,8 @@ H_ViolinIIMusicVoice = {
         \stopTextSpan                                            %! PWC1
         \>                                                       %! HC1
         \p                                                       %! HC1
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -4426,13 +4426,13 @@ H_ViolinIIMusicVoice = {
                         #0.25
                 }
             }                                                    %! PWC1
-        -\tweak dash-period 0                                    %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 1.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        - \tweak dash-period 0                                   %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 1.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
         
         af'!4
@@ -4628,8 +4628,8 @@ H_ViolinIIMusicVoice = {
         c'16 * 121/16
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -4639,18 +4639,18 @@ H_ViolinIIMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-        -\tweak bound-details.right.text \markup {
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak bound-details.right.text \markup {
             \concat
                 {
                     \hspace
@@ -4697,8 +4697,8 @@ H_ViolinIIMusicVoice = {
         \makeBlue                                                %! SM24
         c'8
         -\downbow                                                %! IC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -4711,15 +4711,15 @@ H_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
-        -\tweak dash-fraction 0.25
-        -\tweak dash-period 1.5
-        -\tweak bound-details.left-broken.text ##f
-        -\tweak bound-details.left.stencil-align-dir-y 0
-        -\tweak bound-details.right-broken.arrow ##f
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 2.25
-        -\tweak bound-details.right.text \markup {
+        - \tweak dash-fraction 0.25
+        - \tweak dash-period 1.5
+        - \tweak bound-details.left-broken.text ##f
+        - \tweak bound-details.left.stencil-align-dir-y 0
+        - \tweak bound-details.right-broken.arrow ##f
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 2.25
+        - \tweak bound-details.right.text \markup {
             \draw-line
                 #'(0 . -1)
             }
@@ -4757,8 +4757,8 @@ H_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'1
     \<                                                           %! HC1
-    -\tweak Y-extent ##f                                         %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                        %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4768,18 +4768,18 @@ H_ViolinIIMusicVoice = {
                     #0.5
             }
         }                                                        %! PWC1
-    -\tweak arrow-width 0.25                                     %! PWC1
-    -\tweak dash-fraction 0.25                                   %! PWC1
-    -\tweak dash-period 1.5                                      %! PWC1
-    -\tweak bound-details.left-broken.text ##f                   %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center       %! PWC1
-    -\tweak bound-details.right.arrow ##t                        %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f                 %! PWC1
-    -\tweak bound-details.right-broken.padding 0                 %! PWC1
-    -\tweak bound-details.right-broken.text ##f                  %! PWC1
-    -\tweak bound-details.right.padding 0.5                      %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                    %! PWC1
+    - \tweak dash-fraction 0.25                                  %! PWC1
+    - \tweak dash-period 1.5                                     %! PWC1
+    - \tweak bound-details.left-broken.text ##f                  %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
+    - \tweak bound-details.right.arrow ##t                       %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
+    - \tweak bound-details.right-broken.padding 0                %! PWC1
+    - \tweak bound-details.right-broken.text ##f                 %! PWC1
+    - \tweak bound-details.right.padding 0.5                     %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -4851,8 +4851,8 @@ H_ViolinIIMusicVoice = {
         c'16 * 127/16
         \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -4862,18 +4862,18 @@ H_ViolinIIMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-        -\tweak bound-details.right.text \markup {
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak bound-details.right.text \markup {
             \concat
                 {
                     \hspace
@@ -4954,8 +4954,8 @@ H_ViolinIIMusicVoice = {
         c'16 * 477/64
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -4965,18 +4965,18 @@ H_ViolinIIMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-        -\tweak bound-details.right.text \markup {
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak bound-details.right.text \markup {
             \concat
                 {
                     \hspace
@@ -5072,8 +5072,8 @@ H_ViolinIIMusicVoice = {
         c'4
         \>                                                       %! HC1
         \ff                                                      %! HC1
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -5083,18 +5083,18 @@ H_ViolinIIMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-        -\tweak bound-details.right.text \markup {
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak bound-details.right.text \markup {
             \concat
                 {
                     \hspace
@@ -5193,8 +5193,8 @@ H_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af!1
     \<                                                           %! HC1
-    -\tweak Y-extent ##f                                         %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                        %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5204,18 +5204,18 @@ H_ViolaMusicVoice = {
                     #0.5
             }
         }                                                        %! PWC1
-    -\tweak arrow-width 0.25                                     %! PWC1
-    -\tweak dash-fraction 0.25                                   %! PWC1
-    -\tweak dash-period 1.5                                      %! PWC1
-    -\tweak bound-details.left-broken.text ##f                   %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center       %! PWC1
-    -\tweak bound-details.right.arrow ##t                        %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f                 %! PWC1
-    -\tweak bound-details.right-broken.padding 0                 %! PWC1
-    -\tweak bound-details.right-broken.text ##f                  %! PWC1
-    -\tweak bound-details.right.padding 0.5                      %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                    %! PWC1
+    - \tweak dash-fraction 0.25                                  %! PWC1
+    - \tweak dash-period 1.5                                     %! PWC1
+    - \tweak bound-details.left-broken.text ##f                  %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
+    - \tweak bound-details.right.arrow ##t                       %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
+    - \tweak bound-details.right-broken.padding 0                %! PWC1
+    - \tweak bound-details.right-broken.text ##f                 %! PWC1
+    - \tweak bound-details.right.padding 0.5                     %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -5352,8 +5352,8 @@ H_ViolaMusicVoice = {
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \glissando                                               %! SC
         [
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -5363,17 +5363,17 @@ H_ViolaMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -5405,8 +5405,8 @@ H_ViolaMusicVoice = {
         a4
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -5416,17 +5416,17 @@ H_ViolaMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
         
         a4
@@ -5452,8 +5452,8 @@ H_ViolaMusicVoice = {
         a4
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -5463,17 +5463,17 @@ H_ViolaMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
         
         a4
@@ -5510,8 +5510,8 @@ H_ViolaMusicVoice = {
         b4
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -5521,13 +5521,13 @@ H_ViolaMusicVoice = {
                         #0.25
                 }
             }                                                    %! PWC1
-        -\tweak dash-period 0                                    %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 1.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        - \tweak dash-period 0                                   %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 1.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
         
         b4
@@ -5719,8 +5719,8 @@ H_ViolaMusicVoice = {
         c'16 * 501/64
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -5730,18 +5730,18 @@ H_ViolaMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-        -\tweak bound-details.right.text \markup {
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak bound-details.right.text \markup {
             \concat
                 {
                     \hspace
@@ -5798,8 +5798,8 @@ H_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af!1
     \<                                                           %! HC1
-    -\tweak Y-extent ##f                                         %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                        %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5809,18 +5809,18 @@ H_ViolaMusicVoice = {
                     #0.5
             }
         }                                                        %! PWC1
-    -\tweak arrow-width 0.25                                     %! PWC1
-    -\tweak dash-fraction 0.25                                   %! PWC1
-    -\tweak dash-period 1.5                                      %! PWC1
-    -\tweak bound-details.left-broken.text ##f                   %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center       %! PWC1
-    -\tweak bound-details.right.arrow ##t                        %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f                 %! PWC1
-    -\tweak bound-details.right-broken.padding 0                 %! PWC1
-    -\tweak bound-details.right-broken.text ##f                  %! PWC1
-    -\tweak bound-details.right.padding 0.5                      %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                    %! PWC1
+    - \tweak dash-fraction 0.25                                  %! PWC1
+    - \tweak dash-period 1.5                                     %! PWC1
+    - \tweak bound-details.left-broken.text ##f                  %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
+    - \tweak bound-details.right.arrow ##t                       %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
+    - \tweak bound-details.right-broken.padding 0                %! PWC1
+    - \tweak bound-details.right-broken.text ##f                 %! PWC1
+    - \tweak bound-details.right.padding 0.5                     %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -5892,8 +5892,8 @@ H_ViolaMusicVoice = {
         c'16 * 55/8
         \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -5903,18 +5903,18 @@ H_ViolaMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-        -\tweak bound-details.right.text \markup {
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak bound-details.right.text \markup {
             \concat
                 {
                     \hspace
@@ -5995,8 +5995,8 @@ H_ViolaMusicVoice = {
         c'16 * 249/32
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        -\tweak Y-extent ##f                                     %! PWC1
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -6006,18 +6006,18 @@ H_ViolaMusicVoice = {
                         #0.5
                 }
             }                                                    %! PWC1
-        -\tweak arrow-width 0.25                                 %! PWC1
-        -\tweak dash-fraction 0.25                               %! PWC1
-        -\tweak dash-period 1.5                                  %! PWC1
-        -\tweak bound-details.left-broken.text ##f               %! PWC1
-        -\tweak bound-details.left.stencil-align-dir-y #center   %! PWC1
-        -\tweak bound-details.right.arrow ##t                    %! PWC1
-        -\tweak bound-details.right-broken.arrow ##f             %! PWC1
-        -\tweak bound-details.right-broken.padding 0             %! PWC1
-        -\tweak bound-details.right-broken.text ##f              %! PWC1
-        -\tweak bound-details.right.padding 0.5                  %! PWC1
-        -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
-        -\tweak bound-details.right.text \markup {
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak bound-details.right.text \markup {
             \concat
                 {
                     \hspace
@@ -6096,8 +6096,8 @@ H_ViolaMusicVoice = {
     c'4
     \>                                                           %! HC1
     \ff                                                          %! HC1
-    -\tweak Y-extent ##f                                         %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                        %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -6107,18 +6107,18 @@ H_ViolaMusicVoice = {
                     #0.5
             }
         }                                                        %! PWC1
-    -\tweak arrow-width 0.25                                     %! PWC1
-    -\tweak dash-fraction 0.25                                   %! PWC1
-    -\tweak dash-period 1.5                                      %! PWC1
-    -\tweak bound-details.left-broken.text ##f                   %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center       %! PWC1
-    -\tweak bound-details.right.arrow ##t                        %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f                 %! PWC1
-    -\tweak bound-details.right-broken.padding 0                 %! PWC1
-    -\tweak bound-details.right-broken.text ##f                  %! PWC1
-    -\tweak bound-details.right.padding 0.5                      %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                    %! PWC1
+    - \tweak dash-fraction 0.25                                  %! PWC1
+    - \tweak dash-period 1.5                                     %! PWC1
+    - \tweak bound-details.left-broken.text ##f                  %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
+    - \tweak bound-details.right.arrow ##t                       %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
+    - \tweak bound-details.right-broken.padding 0                %! PWC1
+    - \tweak bound-details.right-broken.text ##f                 %! PWC1
+    - \tweak bound-details.right.padding 0.5                     %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -6200,8 +6200,8 @@ H_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af,!1
     \<                                                           %! HC1
-    -\tweak Y-extent ##f                                         %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                        %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -6211,18 +6211,18 @@ H_CelloMusicVoice = {
                     #0.5
             }
         }                                                        %! PWC1
-    -\tweak arrow-width 0.25                                     %! PWC1
-    -\tweak dash-fraction 0.25                                   %! PWC1
-    -\tweak dash-period 1.5                                      %! PWC1
-    -\tweak bound-details.left-broken.text ##f                   %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center       %! PWC1
-    -\tweak bound-details.right.arrow ##t                        %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f                 %! PWC1
-    -\tweak bound-details.right-broken.padding 0                 %! PWC1
-    -\tweak bound-details.right-broken.text ##f                  %! PWC1
-    -\tweak bound-details.right.padding 0.5                      %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                    %! PWC1
+    - \tweak dash-fraction 0.25                                  %! PWC1
+    - \tweak dash-period 1.5                                     %! PWC1
+    - \tweak bound-details.left-broken.text ##f                  %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
+    - \tweak bound-details.right.arrow ##t                       %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
+    - \tweak bound-details.right-broken.padding 0                %! PWC1
+    - \tweak bound-details.right-broken.text ##f                 %! PWC1
+    - \tweak bound-details.right.padding 0.5                     %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -6341,8 +6341,8 @@ H_CelloMusicVoice = {
         -\downbow
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -6352,14 +6352,14 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -6373,8 +6373,8 @@ H_CelloMusicVoice = {
         \makeBlue                                                %! SM24
         c'16 * 201/64
         \stopTextSpan
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -6384,21 +6384,21 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         \makeBlue                                                %! SM24
         c'16 * 137/64
         \stopTextSpan
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -6408,21 +6408,21 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         \makeBlue                                                %! SM24
         c'16 * 51/32
         \stopTextSpan
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -6432,15 +6432,15 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
-        -\tweak bound-details.right.text \markup {
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak bound-details.right.text \markup {
             \concat
                 {
                     \hspace
@@ -6475,8 +6475,8 @@ H_CelloMusicVoice = {
     af,!2.
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
-    -\tweak Y-extent ##f                                         %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                        %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -6486,18 +6486,18 @@ H_CelloMusicVoice = {
                     #0.5
             }
         }                                                        %! PWC1
-    -\tweak arrow-width 0.25                                     %! PWC1
-    -\tweak dash-fraction 0.25                                   %! PWC1
-    -\tweak dash-period 1.5                                      %! PWC1
-    -\tweak bound-details.left-broken.text ##f                   %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center       %! PWC1
-    -\tweak bound-details.right.arrow ##t                        %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f                 %! PWC1
-    -\tweak bound-details.right-broken.padding 0                 %! PWC1
-    -\tweak bound-details.right-broken.text ##f                  %! PWC1
-    -\tweak bound-details.right.padding 0.5                      %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                    %! PWC1
+    - \tweak dash-fraction 0.25                                  %! PWC1
+    - \tweak dash-period 1.5                                     %! PWC1
+    - \tweak bound-details.left-broken.text ##f                  %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
+    - \tweak bound-details.right.arrow ##t                       %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
+    - \tweak bound-details.right-broken.padding 0                %! PWC1
+    - \tweak bound-details.right-broken.text ##f                 %! PWC1
+    - \tweak bound-details.right.padding 0.5                     %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -6673,8 +6673,8 @@ H_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af,!1
     \<                                                           %! HC1
-    -\tweak Y-extent ##f                                         %! PWC1
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f                                        %! PWC1
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -6684,18 +6684,18 @@ H_CelloMusicVoice = {
                     #0.5
             }
         }                                                        %! PWC1
-    -\tweak arrow-width 0.25                                     %! PWC1
-    -\tweak dash-fraction 0.25                                   %! PWC1
-    -\tweak dash-period 1.5                                      %! PWC1
-    -\tweak bound-details.left-broken.text ##f                   %! PWC1
-    -\tweak bound-details.left.stencil-align-dir-y #center       %! PWC1
-    -\tweak bound-details.right.arrow ##t                        %! PWC1
-    -\tweak bound-details.right-broken.arrow ##f                 %! PWC1
-    -\tweak bound-details.right-broken.padding 0                 %! PWC1
-    -\tweak bound-details.right-broken.text ##f                  %! PWC1
-    -\tweak bound-details.right.padding 0.5                      %! PWC1
-    -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
-    -\tweak bound-details.right.text \markup {
+    - \tweak arrow-width 0.25                                    %! PWC1
+    - \tweak dash-fraction 0.25                                  %! PWC1
+    - \tweak dash-period 1.5                                     %! PWC1
+    - \tweak bound-details.left-broken.text ##f                  %! PWC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
+    - \tweak bound-details.right.arrow ##t                       %! PWC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
+    - \tweak bound-details.right-broken.padding 0                %! PWC1
+    - \tweak bound-details.right-broken.text ##f                 %! PWC1
+    - \tweak bound-details.right.padding 0.5                     %! PWC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
+    - \tweak bound-details.right.text \markup {
         \concat
             {
                 \hspace
@@ -6812,8 +6812,8 @@ H_CelloMusicVoice = {
         \<                                                       %! HC1
         \ppp                                                     %! HC1
         [
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -6823,14 +6823,14 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -6846,8 +6846,8 @@ H_CelloMusicVoice = {
         ]
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -6857,22 +6857,22 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         e,4
         -\upbow
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -6882,14 +6882,14 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         e,8
@@ -6897,8 +6897,8 @@ H_CelloMusicVoice = {
         \stopTextSpan
         \glissando                                               %! SC
         [
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -6908,14 +6908,14 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         e,8
@@ -6923,8 +6923,8 @@ H_CelloMusicVoice = {
         ]
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -6934,14 +6934,14 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -6952,8 +6952,8 @@ H_CelloMusicVoice = {
         -\downbow
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -6963,22 +6963,22 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         e,4
         -\upbow
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -6988,14 +6988,14 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         e,8
@@ -7003,8 +7003,8 @@ H_CelloMusicVoice = {
         \stopTextSpan
         \glissando                                               %! SC
         [
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -7014,21 +7014,21 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         e,8
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -7038,21 +7038,21 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         e,8
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -7062,22 +7062,22 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         e,8
         ]
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -7087,14 +7087,14 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
     }
     
@@ -7107,8 +7107,8 @@ H_CelloMusicVoice = {
     -\upbow
     \stopTextSpan
     \glissando                                                   %! SC
-    -\tweak Y-extent ##f
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \fraction
@@ -7118,22 +7118,22 @@ H_CelloMusicVoice = {
                     #0.25
             }
         }
-    -\tweak arrow-width 0.25
-    -\tweak dash-fraction 1
-    -\tweak bound-details.left.stencil-align-dir-y #center
-    -\tweak bound-details.right.arrow ##t
-    -\tweak bound-details.right-broken.padding 0
-    -\tweak bound-details.right-broken.text ##f
-    -\tweak bound-details.right.padding 0.5
-    -\tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
     \startTextSpan
     
     e,8
     -\downbow
     \stopTextSpan
     \glissando                                                   %! SC
-    -\tweak Y-extent ##f
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \fraction
@@ -7143,14 +7143,14 @@ H_CelloMusicVoice = {
                     #0.25
             }
         }
-    -\tweak arrow-width 0.25
-    -\tweak dash-fraction 1
-    -\tweak bound-details.left.stencil-align-dir-y #center
-    -\tweak bound-details.right.arrow ##t
-    -\tweak bound-details.right-broken.padding 0
-    -\tweak bound-details.right-broken.text ##f
-    -\tweak bound-details.right.padding 0.5
-    -\tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
     \startTextSpan
     
     e,8
@@ -7158,8 +7158,8 @@ H_CelloMusicVoice = {
     ]
     \stopTextSpan
     \glissando                                                   %! SC
-    -\tweak Y-extent ##f
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \fraction
@@ -7169,22 +7169,22 @@ H_CelloMusicVoice = {
                     #0.25
             }
         }
-    -\tweak arrow-width 0.25
-    -\tweak dash-fraction 1
-    -\tweak bound-details.left.stencil-align-dir-y #center
-    -\tweak bound-details.right.arrow ##t
-    -\tweak bound-details.right-broken.padding 0
-    -\tweak bound-details.right-broken.text ##f
-    -\tweak bound-details.right.padding 0.5
-    -\tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
     \startTextSpan
     
     e,4
     -\downbow
     \stopTextSpan
     \glissando                                                   %! SC
-    -\tweak Y-extent ##f
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \fraction
@@ -7194,22 +7194,22 @@ H_CelloMusicVoice = {
                     #0.25
             }
         }
-    -\tweak arrow-width 0.25
-    -\tweak dash-fraction 1
-    -\tweak bound-details.left.stencil-align-dir-y #center
-    -\tweak bound-details.right.arrow ##t
-    -\tweak bound-details.right-broken.padding 0
-    -\tweak bound-details.right-broken.text ##f
-    -\tweak bound-details.right.padding 0.5
-    -\tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
     \startTextSpan
     
     e,8
     \stopTextSpan
     \glissando                                                   %! SC
     [
-    -\tweak Y-extent ##f
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \fraction
@@ -7219,14 +7219,14 @@ H_CelloMusicVoice = {
                     #0.25
             }
         }
-    -\tweak arrow-width 0.25
-    -\tweak dash-fraction 1
-    -\tweak bound-details.left.stencil-align-dir-y #center
-    -\tweak bound-details.right.arrow ##t
-    -\tweak bound-details.right-broken.padding 0
-    -\tweak bound-details.right-broken.text ##f
-    -\tweak bound-details.right.padding 0.5
-    -\tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
     \startTextSpan
     
     e,8
@@ -7234,8 +7234,8 @@ H_CelloMusicVoice = {
     ]
     \stopTextSpan
     \glissando                                                   %! SC
-    -\tweak Y-extent ##f
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \fraction
@@ -7245,14 +7245,14 @@ H_CelloMusicVoice = {
                     #0.25
             }
         }
-    -\tweak arrow-width 0.25
-    -\tweak dash-fraction 1
-    -\tweak bound-details.left.stencil-align-dir-y #center
-    -\tweak bound-details.right.arrow ##t
-    -\tweak bound-details.right-broken.padding 0
-    -\tweak bound-details.right-broken.text ##f
-    -\tweak bound-details.right.padding 0.5
-    -\tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
     \startTextSpan
     \times 4/7 {
         
@@ -7260,8 +7260,8 @@ H_CelloMusicVoice = {
         e,4
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -7271,22 +7271,22 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         e,2
         -\downbow
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -7296,21 +7296,21 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         e,4
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -7320,21 +7320,21 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         e,4
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -7344,21 +7344,21 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         e,4
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -7368,22 +7368,22 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         e,4
         -\upbow
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -7393,14 +7393,14 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -7417,8 +7417,8 @@ H_CelloMusicVoice = {
         -\downbow
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -7428,22 +7428,22 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         e,8
         -\upbow
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -7453,14 +7453,14 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         e,8
@@ -7468,8 +7468,8 @@ H_CelloMusicVoice = {
         ]
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -7479,15 +7479,15 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
-        -\tweak bound-details.right.text \markup {
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak bound-details.right.text \markup {
             \concat
                 {
                     \hspace
@@ -7536,8 +7536,8 @@ H_CelloMusicVoice = {
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \glissando                                               %! SC
         [
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -7547,14 +7547,14 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -7570,8 +7570,8 @@ H_CelloMusicVoice = {
         ]
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -7581,22 +7581,22 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         e,4
         -\upbow
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -7606,15 +7606,15 @@ H_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
-        -\tweak bound-details.right.text \markup {
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak bound-details.right.text \markup {
             \concat
                 {
                     \hspace

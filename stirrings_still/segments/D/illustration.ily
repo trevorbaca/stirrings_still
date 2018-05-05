@@ -6328,8 +6328,8 @@ D_CelloMusicVoice = {
         -\downbow
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -6339,14 +6339,14 @@ D_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -6362,8 +6362,8 @@ D_CelloMusicVoice = {
         -\upbow
         \stopTextSpan
         \glissando                                               %! SC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -6373,14 +6373,14 @@ D_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
         \makeBlue                                                %! SM24
@@ -6389,8 +6389,8 @@ D_CelloMusicVoice = {
         \stopTextSpan
         \glissando                                               %! SC
         [
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \fraction
@@ -6400,15 +6400,15 @@ D_CelloMusicVoice = {
                         #0.25
                 }
             }
-        -\tweak arrow-width 0.25
-        -\tweak dash-fraction 1
-        -\tweak bound-details.left.stencil-align-dir-y #center
-        -\tweak bound-details.right.arrow ##t
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 0.5
-        -\tweak bound-details.right.stencil-align-dir-y #center
-        -\tweak bound-details.right.text \markup {
+        - \tweak arrow-width 0.25
+        - \tweak dash-fraction 1
+        - \tweak bound-details.left.stencil-align-dir-y #center
+        - \tweak bound-details.right.arrow ##t
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 0.5
+        - \tweak bound-details.right.stencil-align-dir-y #center
+        - \tweak bound-details.right.text \markup {
             \concat
                 {
                     \hspace
