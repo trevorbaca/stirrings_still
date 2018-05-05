@@ -4331,8 +4331,8 @@ C_ViolinIMusicVoice = {
     c'8.
     \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     [
-    -\tweak Y-extent ##f
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4345,15 +4345,15 @@ C_ViolinIMusicVoice = {
                     #0.5
             }
         }
-    -\tweak dash-fraction 0.25
-    -\tweak dash-period 1.5
-    -\tweak bound-details.left-broken.text ##f
-    -\tweak bound-details.left.stencil-align-dir-y 0
-    -\tweak bound-details.right-broken.arrow ##f
-    -\tweak bound-details.right-broken.padding 0
-    -\tweak bound-details.right-broken.text ##f
-    -\tweak bound-details.right.padding 3.25
-    -\tweak bound-details.right.text \markup {
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 3.25
+    - \tweak bound-details.right.text \markup {
         \draw-line
             #'(0 . -1)
         }
@@ -4747,8 +4747,8 @@ C_ViolinIIMusicVoice = {
     \makeBlue                                                    %! SM24
     c'4
     \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
-    -\tweak Y-extent ##f
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -4761,15 +4761,15 @@ C_ViolinIIMusicVoice = {
                     #0.5
             }
         }
-    -\tweak dash-fraction 0.25
-    -\tweak dash-period 1.5
-    -\tweak bound-details.left-broken.text ##f
-    -\tweak bound-details.left.stencil-align-dir-y 0
-    -\tweak bound-details.right-broken.arrow ##f
-    -\tweak bound-details.right-broken.padding 0
-    -\tweak bound-details.right-broken.text ##f
-    -\tweak bound-details.right.padding 3.25
-    -\tweak bound-details.right.text \markup {
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 3.25
+    - \tweak bound-details.right.text \markup {
         \draw-line
             #'(0 . -1)
         }
@@ -5150,8 +5150,8 @@ C_ViolaMusicVoice = {
         \makeBlue                                                %! SM24
         c'4
         \effort_ff                                               %! SM8:EXPLICIT_DYNAMIC:IC
-        -\tweak Y-extent ##f
-        -\tweak bound-details.left.text \markup {
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
             \concat
                 {
                     \whiteout
@@ -5164,15 +5164,15 @@ C_ViolaMusicVoice = {
                         #0.5
                 }
             }
-        -\tweak dash-fraction 0.25
-        -\tweak dash-period 1.5
-        -\tweak bound-details.left-broken.text ##f
-        -\tweak bound-details.left.stencil-align-dir-y 0
-        -\tweak bound-details.right-broken.arrow ##f
-        -\tweak bound-details.right-broken.padding 0
-        -\tweak bound-details.right-broken.text ##f
-        -\tweak bound-details.right.padding 3.25
-        -\tweak bound-details.right.text \markup {
+        - \tweak dash-fraction 0.25
+        - \tweak dash-period 1.5
+        - \tweak bound-details.left-broken.text ##f
+        - \tweak bound-details.left.stencil-align-dir-y 0
+        - \tweak bound-details.right-broken.arrow ##f
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 3.25
+        - \tweak bound-details.right.text \markup {
             \draw-line
                 #'(0 . -1)
             }
@@ -5544,8 +5544,8 @@ C_CelloMusicVoice = {
     \makeBlue                                                    %! SM24
     c'4.
     \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
-    -\tweak Y-extent ##f
-    -\tweak bound-details.left.text \markup {
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
         \concat
             {
                 \whiteout
@@ -5558,15 +5558,15 @@ C_CelloMusicVoice = {
                     #0.5
             }
         }
-    -\tweak dash-fraction 0.25
-    -\tweak dash-period 1.5
-    -\tweak bound-details.left-broken.text ##f
-    -\tweak bound-details.left.stencil-align-dir-y 0
-    -\tweak bound-details.right-broken.arrow ##f
-    -\tweak bound-details.right-broken.padding 0
-    -\tweak bound-details.right-broken.text ##f
-    -\tweak bound-details.right.padding 3.25
-    -\tweak bound-details.right.text \markup {
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 3.25
+    - \tweak bound-details.right.text \markup {
         \draw-line
             #'(0 . -1)
         }
