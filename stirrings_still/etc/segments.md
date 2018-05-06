@@ -869,7 +869,8 @@ SEGMENTS
                     hair;
                     tasto;
                     polyrhythmic louré-swell tuplets;
-                    niente < mp > niente envelopes shape each note;
+                    mp;
+                    swell shapes each note;
                 vc clouded pane:
                     stopped lh;
                     hair;
@@ -882,12 +883,12 @@ SEGMENTS
     (4 measures)
     adagio resumes;
     tutti maximally tight talon-crunch circles repeat:
-        damped lh continues;
+        damped lh resumes after suffix;
         hair continues;
         v2 only:
             slow up-glissando;
         desynchronization continues;
-        p governs stage;
+        p in place of "ff";
     fermata (11);
 
     [C.3] (12-15)

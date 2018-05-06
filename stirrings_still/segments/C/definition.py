@@ -99,20 +99,57 @@ maker(
     (stirrings_still.desynchronization(4, [-1]), 3),
     baca.dynamic('"ff"'),
     baca.markup('maximally tight crunch circles: grind at talon'),
-    [
-        baca.text_spanner(
-            baca.markup.boxed('damp'),
-            right_padding=3.25,
-            selector=baca.rleaves(),
-            ),
-        baca.text_spanner_staff_padding(7),
-        ],
+    baca.text_spanner(
+        baca.markup.boxed('damp'),
+        right_padding=3.25,
+        selector=baca.rleaves(),
+        tweaks=[('staff-padding', 7)],
+        ),
     )
 
 maker(
     (['v1', 'v2'], 5),
+    baca.dynamic('mp'),
+    baca.markup('[urtext double stop]'),
+    baca.markup.loure(),
     (stirrings_still.loure_tuplets(0), 0),
     (stirrings_still.loure_tuplets(1), 1),
-    baca.dynamic('mp'),
-    baca.markup.loure(),
     )
+
+maker(
+    ('va', 5),
+    baca.dynamic('mp'),
+    baca.markup('[clouded partial (stopped)]'),
+    baca.markup.loure(),
+    stirrings_still.loure_tuplets(-1),
+    )
+
+maker(
+    ('vc', 5),
+    baca.markup('[clouded pane (stopped)]'),
+    baca.swell(
+        'f',
+        [2],
+        selector=baca.rleaves(),
+        spanner_selector=baca.rleaves(),
+        ),
+    stirrings_still.taper((1, 1)),
+    )
+
+#maker(
+#    ('tutti', (7, 10)),
+#    (stirrings_still.desynchronization(4, [1]), 0),
+#    (stirrings_still.desynchronization(4), 1),
+#    (stirrings_still.desynchronization(4, [2]), 2),
+#    (stirrings_still.desynchronization(4, [-1]), 3),
+#    baca.dynamic('p'),
+#    baca.markup('maximally tight crunch circles: grind at talon'),
+#    [
+#        baca.text_spanner(
+#            baca.markup.boxed('damp'),
+#            right_padding=3.25,
+#            selector=baca.rleaves(),
+#            ),
+#        baca.text_spanner_staff_padding(7),
+#        ],
+#    )
