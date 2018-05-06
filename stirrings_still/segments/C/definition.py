@@ -127,12 +127,7 @@ maker(
 maker(
     ('vc', 5),
     baca.markup('[clouded pane (stopped)]'),
-    baca.swell(
-        'f',
-        [2],
-        selector=baca.rleaves(),
-        spanner_selector=baca.rleaves(),
-        ),
+    baca.swell('f', [2], spanner_selector=baca.rleaves()),
     stirrings_still.taper((1, 1)),
     )
 

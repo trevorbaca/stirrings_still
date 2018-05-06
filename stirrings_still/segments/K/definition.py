@@ -100,7 +100,6 @@ maker(
         baca.markup.ord(),
         do_not_bookend=True,
         selector=baca.leaves().partition_by_ratio((1, 1, 1)),
-        spanner_selector=False,
         ),
     )
 
