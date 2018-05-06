@@ -91,7 +91,8 @@ maker(
     baca.transition(
         baca.markup.rasp_partial_2(),
         baca.markup.flaut_partial_2(),
-        selector=baca.notes()[:4].group(),
+        #selector=baca.notes()[:4].group(),
+        spanner_selector=baca.notes()[:4],
         ),
     )
 
@@ -170,7 +171,6 @@ maker(
         baca.markup('8” circles'),
         do_not_bookend=True,
         selector=baca.group_by_measures([2]),
-        spanner_selector=False,
         ),
     )
 
@@ -203,7 +203,6 @@ maker(
         baca.markup('8” circles'),
         do_not_bookend=True,
         selector=baca.group_by_measures([1, 1, 2, 2, 2]),
-        spanner_selector=False,
         ),
     )
 
@@ -237,19 +236,9 @@ maker(
 
 maker(
     (['v1', 'va'], (7, 14)),
-#    baca.glissando(
-#        allow_repeats=True,
-#        stems=True,
-#        selector=baca.rleaves(),
-#        ),
     (stirrings_still.glissando_interpolation('Gb4', 'Bb4', baca.rleaves()), 0),
     (stirrings_still.glissando_interpolation('Ab3', 'B3', baca.rleaves()), 1),
     )
-
-#maker(
-#    ('v1', (7, 14)),
-#    baca.interpolate_staff_positions('Gb4', 'Bb4'),
-#    )
 
 maker(
     ('v1', (15, 16)),
@@ -260,11 +249,6 @@ maker(
     ('v1', (7, 16)),
     baca.tuplet_bracket_staff_padding(1.5),
     )
-
-#maker(
-#    ('va', (7, 14)),
-#    baca.interpolate_staff_positions('Ab3', 'B3'),
-#    )
 
 maker(
     ('va', (15, 16)),
@@ -299,7 +283,8 @@ maker(
     baca.transition(
         baca.markup.flaut(),
         baca.markup.non_flaut(),
-        selector=baca.notes()[:2].group(),
+        #selector=baca.notes()[:2].group(),
+        spanner_selector=baca.notes()[:2],
         ),
     )
 
@@ -350,7 +335,8 @@ maker(
     baca.transition(
         baca.markup('“whisk” circles'),
         baca.markup('poco scratch circles'),
-        selector=baca.leaves()[:3].group(),
+        #selector=baca.leaves()[:3].group(),
+        spanner_selector=baca.leaves()[:3],
         ),
     )
 
@@ -403,7 +389,8 @@ maker(
     baca.transition(
         baca.markup('“whisk” circles'),
         baca.markup('mod. scratch circles'),
-        selector=baca.leaves()[:3].group(),
+        #selector=baca.leaves()[:3].group(),
+        spanner_selector=baca.leaves()[:3],
         ),
     )
 
@@ -418,7 +405,8 @@ maker(
     baca.transition(
         baca.markup('“whisk” circles'),
         baca.markup('molto scratch circles'),
-        selector=baca.leaves()[:3].group(),
+        #selector=baca.leaves()[:3].group(),
+        spanner_selector=baca.leaves()[:3],
         ),
     )
 
@@ -440,7 +428,8 @@ maker(
     baca.transition(
         baca.markup.molto_scratch(),
         baca.markup.pochiss_scratch(),
-        selector=baca.leaves().group_by_measure()[-2:].leaves()[:-3].group(),
+        #selector=baca.leaves().group_by_measure()[-2:].leaves()[:-3].group(),
+        spanner_selector=baca.leaves().group_by_measure()[-2:].leaves()[:-3],
         ),
     )
 
