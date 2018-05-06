@@ -4320,7 +4320,6 @@ C_ViolinIMusicVoice = {
             #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             "Vn. I"                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \override TextSpanner.staff-padding = #7                     %! OC1
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -4331,6 +4330,7 @@ C_ViolinIMusicVoice = {
     c'8.
     \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     [
+    - \tweak staff-padding #7
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -4456,7 +4456,6 @@ C_ViolinIMusicVoice = {
     \makeBlue                                                    %! SM24
     c'8.
     ]
-    \revert TextSpanner.staff-padding                            %! OC2
     
     % [C ViolinIMusicVoice measure 134]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -4466,11 +4465,23 @@ C_ViolinIMusicVoice = {
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTextSpan
     [
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                louré                                            %! IC
-        }                                                        %! IC
+    ^ \markup {
+        \column
+            {
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                "[urtext double stop]"           %! IC
+                    }                                            %! IC
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                louré                            %! IC
+                    }                                            %! IC
+            }
+        }
     
     \makeBlue                                                    %! SM24
     c'8
@@ -4737,7 +4748,6 @@ C_ViolinIIMusicVoice = {
             #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             "Vn. II"                                             %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \override TextSpanner.staff-padding = #7                     %! OC1
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -4747,6 +4757,7 @@ C_ViolinIIMusicVoice = {
     \makeBlue                                                    %! SM24
     c'4
     \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak staff-padding #7
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -4853,7 +4864,6 @@ C_ViolinIIMusicVoice = {
     
     \makeBlue                                                    %! SM24
     c'4
-    \revert TextSpanner.staff-padding                            %! OC2
     
     % [C ViolinIIMusicVoice measure 134]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -4863,11 +4873,23 @@ C_ViolinIIMusicVoice = {
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTextSpan
     [
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                louré                                            %! IC
-        }                                                        %! IC
+    ^ \markup {
+        \column
+            {
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                "[urtext double stop]"           %! IC
+                    }                                            %! IC
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                louré                            %! IC
+                    }                                            %! IC
+            }
+        }
     
     \makeBlue                                                    %! SM24
     c'16..
@@ -5140,7 +5162,6 @@ C_ViolaMusicVoice = {
                 #12                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 Va.                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \override TextSpanner.staff-padding = #7                 %! OC1
         \clef "alto"                                             %! SM8:REAPPLIED_CLEF:SM37
         \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
     %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -5150,6 +5171,7 @@ C_ViolaMusicVoice = {
         \makeBlue                                                %! SM24
         c'4
         \effort_ff                                               %! SM8:EXPLICIT_DYNAMIC:IC
+        - \tweak staff-padding #7
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -5287,12 +5309,57 @@ C_ViolaMusicVoice = {
         
         \makeBlue                                                %! SM24
         c'4
-        \revert TextSpanner.staff-padding                        %! OC2
     }
-    
-    % [C ViolaMusicVoice measure 134]                            %! SM4
-    R1 * 7/8
-    \stopTextSpan
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 14/12 {
+        
+        % [C ViolaMusicVoice measure 134]                        %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \stopTextSpan
+        [
+        ^ \markup {
+            \column
+                {
+                    \line                                        %! IC
+                        {                                        %! IC
+                            \whiteout                            %! IC
+                                \upright                         %! IC
+                                    "[clouded partial (stopped)]" %! IC
+                        }                                        %! IC
+                    \line                                        %! IC
+                        {                                        %! IC
+                            \whiteout                            %! IC
+                                \upright                         %! IC
+                                    louré                        %! IC
+                        }                                        %! IC
+                }
+            }
+        
+        \makeBlue                                                %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \makeBlue                                                %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \makeBlue                                                %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \makeBlue                                                %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \makeBlue                                                %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        ]
+    }
     
     % [C ViolaMusicVoice measure 135]                            %! SM4
     R1 * 1/4
@@ -5534,7 +5601,6 @@ C_CelloMusicVoice = {
             #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Vc.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \override TextSpanner.staff-padding = #7                     %! OC1
     \clef "bass"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -5544,6 +5610,7 @@ C_CelloMusicVoice = {
     \makeBlue                                                    %! SM24
     c'4.
     \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak staff-padding #7
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -5644,14 +5711,31 @@ C_CelloMusicVoice = {
     
     \makeBlue                                                    %! SM24
     c'4.
-    \revert TextSpanner.staff-padding                            %! OC2
     
     % [C CelloMusicVoice measure 134]                            %! SM4
-    R1 * 7/8
+    \once \override Hairpin.circled-tip = ##t                    %! PWC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeBlue                                                    %! SM24
+    c'4..
     \stopTextSpan
+    \<                                                           %! PWC1
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "[clouded pane (stopped)]"                       %! IC
+        }                                                        %! IC
+    
+    \once \override Hairpin.circled-tip = ##t                    %! PWC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \makeBlue                                                    %! SM24
+    c'4..
+    \f                                                           %! PWC1
+    \>                                                           %! PWC1
     
     % [C CelloMusicVoice measure 135]                            %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 1/4
+    \!                                                           %! PWC1
     
     % [C CelloMusicVoice measure 136]                            %! SM4
     R1 * 1
