@@ -261,7 +261,6 @@ C_GlobalRests = {
 C_GlobalSkips = {
     
     % [C GlobalSkips measure 130]                                        %! SM4
-    \once \override GlobalContext.RehearsalMark.Y-offset = #12           %! OC1
     \override TextScript.extra-offset = #'(0 . 5)                        %! OC1
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK
 %@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK
@@ -314,6 +313,7 @@ C_GlobalSkips = {
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \tweak extra-offset #'(0 . 6)                                        %! IC
     \mark #3                                                             %! IC
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
@@ -4510,21 +4510,135 @@ C_ViolinIMusicVoice = {
     
     % [C ViolinIMusicVoice measure 135]                          %! SM4
     R1 * 1/4
-    
-    % [C ViolinIMusicVoice measure 136]                          %! SM4
-    R1 * 1
-    
-    % [C ViolinIMusicVoice measure 137]                          %! SM4
-    R1 * 5/4
-    
-    % [C ViolinIMusicVoice measure 138]                          %! SM4
-    R1 * 3/2
-    
-    % [C ViolinIMusicVoice measure 139]                          %! SM4
-    R1 * 3/2
+    \times 4/5 {
+        
+        % [C ViolinIMusicVoice measure 136]                      %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'4
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        - \tweak staff-padding #7
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            \override
+                                #'(box-padding . 0.5)
+                                \box
+                                    damp
+                    \hspace
+                        #0.5
+                }
+            }
+        - \tweak dash-fraction 0.25
+        - \tweak dash-period 1.5
+        - \tweak bound-details.left-broken.text ##f
+        - \tweak bound-details.left.stencil-align-dir-y 0
+        - \tweak bound-details.right-broken.arrow ##f
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 3.25
+        - \tweak bound-details.right.text \markup {
+            \draw-line
+                #'(0 . -1)
+            }
+        \startTextSpan
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    "maximally tight crunch circles: grind at talon" %! IC
+            }                                                    %! IC
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [C ViolinIMusicVoice measure 137]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [C ViolinIMusicVoice measure 138]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [C ViolinIMusicVoice measure 139]                      %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [C ViolinIMusicVoice measure 140]                          %! SM4
     R1 * 1/4
+    \stopTextSpan
     
     % [C ViolinIMusicVoice measure 141]                          %! SM4
     R1 * 3/4
@@ -4924,19 +5038,117 @@ C_ViolinIIMusicVoice = {
     R1 * 1/4
     
     % [C ViolinIIMusicVoice measure 136]                         %! SM4
-    R1 * 1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    f'4
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \glissando                                                   %! SC
+    - \tweak staff-padding #7
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                damp
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 3.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    \startTextSpan
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "maximally tight crunch circles: grind at talon" %! IC
+        }                                                        %! IC
+    
+    \hide NoteHead                                               %! SC
+    \override Accidental.stencil = ##f                           %! SC
+    \override NoteColumn.glissando-skip = ##t                    %! SC
+    \override NoteHead.no-ledgers = ##t                          %! SC
+    f'4
+    \glissando                                                   %! SC
+    
+    f'4
+    \glissando                                                   %! SC
+    
+    f'4
+    \glissando                                                   %! SC
     
     % [C ViolinIIMusicVoice measure 137]                         %! SM4
-    R1 * 5/4
+    f'4
+    \glissando                                                   %! SC
+    
+    g'4
+    \glissando                                                   %! SC
+    
+    g'4
+    \glissando                                                   %! SC
+    
+    g'4
+    \glissando                                                   %! SC
+    
+    g'4
+    \glissando                                                   %! SC
     
     % [C ViolinIIMusicVoice measure 138]                         %! SM4
-    R1 * 3/2
+    g'4
+    \glissando                                                   %! SC
+    
+    g'4
+    \glissando                                                   %! SC
+    
+    g'4
+    \glissando                                                   %! SC
+    
+    g'4
+    \glissando                                                   %! SC
+    
+    g'4
+    \glissando                                                   %! SC
+    
+    g'4
+    \glissando                                                   %! SC
     
     % [C ViolinIIMusicVoice measure 139]                         %! SM4
-    R1 * 3/2
+    g'4
+    \glissando                                                   %! SC
+    
+    a'4
+    \glissando                                                   %! SC
+    
+    a'4
+    \glissando                                                   %! SC
+    
+    a'4
+    \glissando                                                   %! SC
+    
+    a'4
+    \glissando                                                   %! SC
+    
+    \revert Accidental.stencil                                   %! SC
+    \revert NoteColumn.glissando-skip                            %! SC
+    \revert NoteHead.no-ledgers                                  %! SC
+    \undo \hide NoteHead                                         %! SC
+    af'!4
     
     % [C ViolinIIMusicVoice measure 140]                         %! SM4
     R1 * 1/4
+    \stopTextSpan
     
     % [C ViolinIIMusicVoice measure 141]                         %! SM4
     R1 * 3/4
@@ -5363,21 +5575,145 @@ C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 135]                            %! SM4
     R1 * 1/4
-    
-    % [C ViolaMusicVoice measure 136]                            %! SM4
-    R1 * 1
-    
-    % [C ViolaMusicVoice measure 137]                            %! SM4
-    R1 * 5/4
+    \times 4/6 {
+        
+        % [C ViolaMusicVoice measure 136]                        %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'4
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        - \tweak staff-padding #7
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            \override
+                                #'(box-padding . 0.5)
+                                \box
+                                    damp
+                    \hspace
+                        #0.5
+                }
+            }
+        - \tweak dash-fraction 0.25
+        - \tweak dash-period 1.5
+        - \tweak bound-details.left-broken.text ##f
+        - \tweak bound-details.left.stencil-align-dir-y 0
+        - \tweak bound-details.right-broken.arrow ##f
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 3.25
+        - \tweak bound-details.right.text \markup {
+            \draw-line
+                #'(0 . -1)
+            }
+        \startTextSpan
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    "maximally tight crunch circles: grind at talon" %! IC
+            }                                                    %! IC
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/7 {
+        
+        % [C ViolaMusicVoice measure 137]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [C ViolaMusicVoice measure 138]                            %! SM4
-    R1 * 3/2
+    \makeBlue                                                    %! SM24
+    c'8.
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    ]
     
     % [C ViolaMusicVoice measure 139]                            %! SM4
-    R1 * 3/2
+    \makeBlue                                                    %! SM24
+    c'8.
+    [
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    
+    \makeBlue                                                    %! SM24
+    c'8.
+    ]
     
     % [C ViolaMusicVoice measure 140]                            %! SM4
     R1 * 1/4
+    \stopTextSpan
     
     % [C ViolaMusicVoice measure 141]                            %! SM4
     R1 * 3/4
@@ -5736,21 +6072,112 @@ C_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 1/4
     \!                                                           %! PWC1
-    
-    % [C CelloMusicVoice measure 136]                            %! SM4
-    R1 * 1
-    
-    % [C CelloMusicVoice measure 137]                            %! SM4
-    R1 * 5/4
-    
-    % [C CelloMusicVoice measure 138]                            %! SM4
-    R1 * 3/2
-    
-    % [C CelloMusicVoice measure 139]                            %! SM4
-    R1 * 3/2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/3 {
+        
+        % [C CelloMusicVoice measure 136]                        %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'4
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        - \tweak staff-padding #7
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            \override
+                                #'(box-padding . 0.5)
+                                \box
+                                    damp
+                    \hspace
+                        #0.5
+                }
+            }
+        - \tweak dash-fraction 0.25
+        - \tweak dash-period 1.5
+        - \tweak bound-details.left-broken.text ##f
+        - \tweak bound-details.left.stencil-align-dir-y 0
+        - \tweak bound-details.right-broken.arrow ##f
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 3.25
+        - \tweak bound-details.right.text \markup {
+            \draw-line
+                #'(0 . -1)
+            }
+        \startTextSpan
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    "maximally tight crunch circles: grind at talon" %! IC
+            }                                                    %! IC
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/4 {
+        
+        % [C CelloMusicVoice measure 137]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/5 {
+        
+        % [C CelloMusicVoice measure 138]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/5 {
+        
+        % [C CelloMusicVoice measure 139]                        %! SM4
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+        
+        \makeBlue                                                %! SM24
+        c'4
+    }
     
     % [C CelloMusicVoice measure 140]                            %! SM4
     R1 * 1/4
+    \stopTextSpan
     
     % [C CelloMusicVoice measure 141]                            %! SM4
     R1 * 3/4

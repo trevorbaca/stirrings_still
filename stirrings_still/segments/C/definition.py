@@ -18,10 +18,7 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    [
-        baca.rehearsal_mark('C'),
-        baca.rehearsal_mark_y_offset(12),
-        ],
+    baca.rehearsal_mark('C', tweaks=[('extra-offset', (0, 6))]),
     baca.text_script_extra_offset((0, 5)),
     )
 
@@ -131,20 +128,19 @@ maker(
     stirrings_still.taper((1, 1)),
     )
 
-#maker(
-#    ('tutti', (7, 10)),
-#    (stirrings_still.desynchronization(4, [1]), 0),
-#    (stirrings_still.desynchronization(4), 1),
-#    (stirrings_still.desynchronization(4, [2]), 2),
-#    (stirrings_still.desynchronization(4, [-1]), 3),
-#    baca.dynamic('p'),
-#    baca.markup('maximally tight crunch circles: grind at talon'),
-#    [
-#        baca.text_spanner(
-#            baca.markup.boxed('damp'),
-#            right_padding=3.25,
-#            selector=baca.rleaves(),
-#            ),
-#        baca.text_spanner_staff_padding(7),
-#        ],
-#    )
+maker(
+    ('tutti', (7, 10)),
+    baca.dynamic('p'),
+    baca.markup('maximally tight crunch circles: grind at talon'),
+    baca.text_spanner(
+        baca.markup.boxed('damp'),
+        right_padding=3.25,
+        selector=baca.rleaves(),
+        tweaks=[('staff-padding', 7)],
+        ),
+    (stirrings_still.desynchronization(4, [1]), 0),
+    (stirrings_still.desynchronization(4), 1),
+    (stirrings_still.glissando_interpolation('F4', 'Ab4'), 1),
+    (stirrings_still.desynchronization(4, [2]), 2),
+    (stirrings_still.desynchronization(4, [-1]), 3),
+    )
