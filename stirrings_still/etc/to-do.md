@@ -1,7 +1,19 @@
 TO-DO
 =====
 
-1.  Integrate multiple text spanners per voice.
+1.  Allow multimeasure rest polymorphism:
+
+        <> \stopTextSpan
+
+        \voices "CelloMusicVoice", "MultimeasureRestVoice"
+        <<
+            \tweak NoteHead.no-ledgers ##t
+            \tweak NoteHead.transparent ##t
+            \tweak Dots.transparent ##t
+            c'1 * 1/4
+        \\
+            R1 * 1/4
+        >>
 
 2.  Extend RhythmCommand rhythm-maker property.
     Accept iterable of (rhythm-maker, pattern) pairs.
