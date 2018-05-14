@@ -425,7 +425,13 @@ E_GlobalSkips = {
     % [E GlobalSkips measure 298]                                        %! SM4
     \once \override GlobalContext.RehearsalMark.Y-offset = #12           %! OC1
     \override TextScript.extra-offset = #'(0 . 5)                        %! OC1
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \mark #5                                                             %! IC
+    \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 5/8
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -443,10 +449,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -468,16 +471,13 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \mark #5                                                             %! IC
-    \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/8
+    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -587,7 +587,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 301]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 7/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -605,10 +610,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -630,15 +632,13 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -713,7 +713,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 303]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -731,10 +736,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -756,15 +758,13 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -1263,7 +1263,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 317]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -1281,11 +1286,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -1307,18 +1308,17 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak arrow-width 0.25                                            %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-fraction 0.25                                          %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 1.5                                             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.arrow ##t                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.arrow ##f                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -1427,7 +1427,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 320]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 5/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -1445,10 +1450,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -1470,15 +1472,13 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/8
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -1657,7 +1657,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 325]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -1675,11 +1680,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -1701,18 +1702,17 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
-    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak arrow-width 0.25                                            %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-fraction 0.25                                          %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 1.5                                             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.arrow ##t                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.arrow ##f                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -1857,7 +1857,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 329]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -1875,10 +1880,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -1900,15 +1902,13 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -1983,7 +1983,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 331]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 8/16                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -2001,10 +2006,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -2026,15 +2028,13 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 8/16                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -2074,7 +2074,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 332]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -2092,10 +2097,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -2117,15 +2119,13 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -2664,7 +2664,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 347]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -2682,11 +2687,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -2708,18 +2709,17 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak arrow-width 0.25                                            %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-fraction 0.25                                          %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 1.5                                             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.arrow ##t                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.arrow ##f                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -3107,7 +3107,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 358]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -3125,10 +3130,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -3150,15 +3152,13 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -3227,7 +3227,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 360]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 7/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -3245,11 +3250,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -3271,18 +3272,17 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak arrow-width 0.25                                            %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-fraction 0.25                                          %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 1.5                                             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.arrow ##t                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.arrow ##f                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -3566,7 +3566,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 368]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 5/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -3584,11 +3589,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -3610,18 +3611,17 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/8
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak arrow-width 0.25                                            %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-fraction 0.25                                          %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 1.5                                             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.arrow ##t                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.arrow ##f                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -3905,7 +3905,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 376]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -3923,10 +3928,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -3948,15 +3950,13 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -4322,7 +4322,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 386]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -4340,10 +4345,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -4365,15 +4367,13 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -4656,7 +4656,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 394]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 5/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -4674,11 +4679,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -4700,18 +4701,17 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/8
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak arrow-width 0.25                                            %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-fraction 0.25                                          %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 1.5                                             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.arrow ##t                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.arrow ##f                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -5099,7 +5099,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 405]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -5117,10 +5122,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -5142,15 +5144,13 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -5184,7 +5184,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 406]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 7/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -5202,10 +5207,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -5227,15 +5229,13 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -5339,7 +5339,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 409]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -5357,11 +5362,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.arrow-width = 0.25                       %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -5383,18 +5384,17 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.arrow = ##t          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-fraction = 0.25                     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 1.5                        %! SM29:METRONOME_MARK_SPANNER
-    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak arrow-width 0.25                                            %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-fraction 0.25                                          %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 1.5                                             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.arrow ##t                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.arrow ##f                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -5504,7 +5504,12 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 412]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 7/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -5522,10 +5527,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -5547,15 +5549,13 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -5589,7 +5589,11 @@ E_GlobalSkips = {
         }
     
     % [E GlobalSkips measure 413]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:EXPLICIT_METRONOME_MARK
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 7/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK
@@ -5607,10 +5611,7 @@ E_GlobalSkips = {
 %@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK
 %@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK
 %@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
@@ -5632,14 +5633,13 @@ E_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
