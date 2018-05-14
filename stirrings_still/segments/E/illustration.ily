@@ -6186,10 +6186,10 @@ E_ViolinIMusicVoice = {
     r8
     \times 2/3 {
         
-        \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \makeBlue                                                %! SM24
         c'4
+        - \tweak circled-tip ##t                                 %! HC1
         \<                                                       %! HC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -6848,10 +6848,10 @@ E_ViolinIIMusicVoice = {
     r8
     \times 4/5 {
         
-        \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \makeBlue                                                %! SM24
         c'4
+        - \tweak circled-tip ##t                                 %! HC1
         \<                                                       %! HC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -7510,10 +7510,10 @@ E_ViolaMusicVoice = {
     
     r8
     
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
     c'4
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC

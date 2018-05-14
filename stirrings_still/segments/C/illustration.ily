@@ -6003,11 +6003,11 @@ C_CelloMusicVoice = {
     c'4.
     
     % [C CelloMusicVoice measure 134]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeBlue                                                    %! SM24
     c'4..
     \stopTextSpan
+    - \tweak circled-tip ##t                                     %! PWC1
     \<                                                           %! PWC1
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -6015,11 +6015,11 @@ C_CelloMusicVoice = {
                 "[clouded pane (stopped)]"                       %! IC
         }                                                        %! IC
     
-    \once \override Hairpin.circled-tip = ##t                    %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeBlue                                                    %! SM24
     c'4..
     \f                                                           %! PWC1
+    - \tweak circled-tip ##t                                     %! PWC1
     \>                                                           %! PWC1
     
     % [C CelloMusicVoice measure 135]                            %! SM4

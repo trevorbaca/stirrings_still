@@ -779,13 +779,13 @@ F_ViolinIMusicVoice = {
     \<                                                           %! PWC1
     
     % [F ViolinIMusicVoice measure 431]                          %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     \f                                                           %! PWC1
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \f                                                           %! HC1
     
@@ -978,13 +978,13 @@ F_ViolinIIMusicVoice = {
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 432]                         %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     \f                                                           %! PWC1
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \f                                                           %! HC1
     
@@ -1084,7 +1084,6 @@ F_ViolaMusicVoice = {
     \override Hairpin.shorten-pair = #'(0.75 . 0)                %! OC1
     \override RepeatTie.direction = #up                          %! OC1
     \override TextScript.parent-alignment-X = #0                 %! OC1
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \clef "alto"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1094,6 +1093,7 @@ F_ViolaMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c'1
     \glissando                                                   %! SC
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {
         \column
@@ -1378,11 +1378,11 @@ F_CelloMusicVoice = {
     \repeatTie
     
     % [F CelloMusicVoice measure 432]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \ff                                                          %! HC1
     
