@@ -2912,7 +2912,6 @@ H_ViolinIMusicVoice = {
             "Vn. I"                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -2920,6 +2919,7 @@ H_ViolinIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf'!1
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -3304,13 +3304,13 @@ H_ViolinIMusicVoice = {
     }
     
     % [H ViolinIMusicVoice measure 473]                          %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \revert Accidental.stencil                                   %! SC
     \revert NoteColumn.glissando-skip                            %! SC
     \revert NoteHead.no-ledgers                                  %! SC
     \undo \hide NoteHead                                         %! SC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'4
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \p                                                           %! HC1
     
@@ -3358,10 +3358,10 @@ H_ViolinIMusicVoice = {
     r4
     \times 2/3 {
         
-        \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \makeBlue                                                %! SM24
         c'4
+        - \tweak circled-tip ##t                                 %! HC1
         \<                                                       %! HC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -3601,9 +3601,9 @@ H_ViolinIMusicVoice = {
     
     % [H ViolinIMusicVoice measure 493]                          %! SM4
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf'!1
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4056,7 +4056,6 @@ H_ViolinIIMusicVoice = {
             "Vn. II"                                             %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -4064,6 +4063,7 @@ H_ViolinIIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'1
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -4374,7 +4374,6 @@ H_ViolinIIMusicVoice = {
     \times 6/10 {
         
         % [H ViolinIIMusicVoice measure 473]                     %! SM4
-        \once \override Hairpin.circled-tip = ##t                %! HC1
         \revert Accidental.stencil                               %! SC
         \revert NoteColumn.glissando-skip                        %! SC
         \revert NoteHead.no-ledgers                              %! SC
@@ -4382,6 +4381,7 @@ H_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         af'!4
         \stopTextSpan                                            %! PWC1
+        - \tweak circled-tip ##t                                 %! HC1
         \>                                                       %! HC1
         \p                                                       %! HC1
         - \tweak Y-extent ##f                                    %! PWC1
@@ -4453,10 +4453,10 @@ H_ViolinIIMusicVoice = {
     r4
     \times 4/5 {
         
-        \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \makeBlue                                                %! SM24
         c'4
+        - \tweak circled-tip ##t                                 %! HC1
         \<                                                       %! HC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -4722,9 +4722,9 @@ H_ViolinIIMusicVoice = {
     
     % [H ViolinIIMusicVoice measure 493]                         %! SM4
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'1
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -5152,7 +5152,6 @@ H_ViolaMusicVoice = {
     \once \override Staff.StaffSymbol.line-count = 5             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \clef "alto"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -5161,6 +5160,7 @@ H_ViolaMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af!1
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -5514,13 +5514,13 @@ H_ViolaMusicVoice = {
     \revert TextSpanner.staff-padding                            %! OC2
     
     % [H ViolaMusicVoice measure 473]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \revert Accidental.stencil                                   %! SC
     \revert NoteColumn.glissando-skip                            %! SC
     \revert NoteHead.no-ledgers                                  %! SC
     \undo \hide NoteHead                                         %! SC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b8.
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \p                                                           %! HC1
     [
@@ -5565,10 +5565,10 @@ H_ViolaMusicVoice = {
     % [H ViolaMusicVoice measure 481]                            %! SM4
     r4
     
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
     c'4
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -5763,9 +5763,9 @@ H_ViolaMusicVoice = {
     
     % [H ViolaMusicVoice measure 493]                            %! SM4
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af!1
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -6160,7 +6160,6 @@ H_CelloMusicVoice = {
             Vc.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \clef "bass"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -6168,6 +6167,7 @@ H_CelloMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af,!1
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -6638,9 +6638,9 @@ H_CelloMusicVoice = {
     
     % [H CelloMusicVoice measure 493]                            %! SM4
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af,!1
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {
@@ -7477,17 +7477,17 @@ H_CelloMusicVoice = {
     }
     
     % [H CelloMusicVoice measure 509]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeBlue                                                    %! SM24
     c'4
+    - \tweak circled-tip ##t                                     %! PWC1
     \<                                                           %! PWC1
     
-    \once \override Hairpin.circled-tip = ##t                    %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeBlue                                                    %! SM24
     c'4
     \f                                                           %! PWC1
+    - \tweak circled-tip ##t                                     %! PWC1
     \>                                                           %! PWC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3

@@ -4667,10 +4667,10 @@ B_ViolinIMusicVoice = {
     }
     \times 2/3 {
         
-        \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \makeBlue                                                %! SM24
         c'8
+        - \tweak circled-tip ##t                                 %! HC1
         \>                                                       %! HC1
         \mf                                                      %! HC1
         
@@ -5641,10 +5641,10 @@ B_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \makeBlue                                                %! SM24
         c'8
+        - \tweak circled-tip ##t                                 %! HC1
         \>                                                       %! HC1
         \mf                                                      %! HC1
         
@@ -6650,10 +6650,10 @@ B_ViolaMusicVoice = {
     }
     
     % [B ViolaMusicVoice measure 69]                             %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
     c'4
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     
     \makeBlue                                                    %! SM24
@@ -7372,11 +7372,11 @@ B_CelloMusicVoice = {
     
     % [B CelloMusicVoice measure 69]                             %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
     c'2.
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC

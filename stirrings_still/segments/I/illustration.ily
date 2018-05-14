@@ -803,10 +803,10 @@ I_ViolinIMusicVoice = {
     % [I ViolinIMusicVoice measure 514]                          %! SM4
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
     c'8
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \mp                                                          %! HC1
     
@@ -1107,10 +1107,10 @@ I_ViolinIIMusicVoice = {
     c'4
     
     % [I ViolinIIMusicVoice measure 514]                         %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
     c'4
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \mp                                                          %! HC1
     
@@ -1272,10 +1272,10 @@ I_ViolaMusicVoice = {
     c'2
     
     % [I ViolaMusicVoice measure 514]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
     c'2
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \mp                                                          %! HC1
     
