@@ -4415,8 +4415,8 @@ C_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'8
-    -\espressivo                                                 %! IC
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    -\espressivo                                                 %! IC
     \stopTextSpan
     [
     ^ \markup {
@@ -4937,8 +4937,8 @@ C_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'16..
-    -\espressivo                                                 %! IC
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    -\espressivo                                                 %! IC
     \stopTextSpan
     [
     ^ \markup {
@@ -5483,8 +5483,8 @@ C_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'8
-        -\espressivo                                             %! IC
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\espressivo                                             %! IC
         \stopTextSpan
         [
         ^ \markup {

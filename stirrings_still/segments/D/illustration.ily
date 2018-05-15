@@ -6299,8 +6299,8 @@ D_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'4
-        -\downbow
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        -\downbow
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {

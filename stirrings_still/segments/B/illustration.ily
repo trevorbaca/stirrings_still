@@ -4596,8 +4596,8 @@ B_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'8
-        -\downbow                                                %! IC
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\downbow                                                %! IC
         
         r8
         
@@ -5458,8 +5458,8 @@ B_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'8
-        -\downbow                                                %! IC
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\downbow                                                %! IC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -6467,8 +6467,8 @@ B_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'8
-        -\downbow                                                %! IC
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\downbow                                                %! IC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -7188,8 +7188,8 @@ B_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'8
-        -\downbow                                                %! IC
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\downbow                                                %! IC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat

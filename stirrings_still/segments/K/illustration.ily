@@ -2705,8 +2705,8 @@ K_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'8
-        -\downbow
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\downbow
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -3087,8 +3087,8 @@ K_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'8
-        -\downbow
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\downbow
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -3905,8 +3905,8 @@ K_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'4
-        -\downbow
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\downbow
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -4247,8 +4247,8 @@ K_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'4
-        -\downbow
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\downbow
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -5126,8 +5126,8 @@ K_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'4
-    -\downbow
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    -\downbow
     \glissando                                                   %! SC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -5641,8 +5641,8 @@ K_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'2.
-        -\downbow
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\downbow
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -5980,8 +5980,8 @@ K_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'2.
-        -\downbow
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\downbow
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {

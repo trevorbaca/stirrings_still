@@ -6307,8 +6307,8 @@ H_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'16 * 119/32
-        -\downbow
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        -\downbow
         [
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -7501,8 +7501,8 @@ H_CelloMusicVoice = {
         \override TextSpanner.staff-padding = #7                 %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         e,8
-        -\upbow
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        -\upbow
         \glissando                                               %! SC
         [
         - \tweak Y-extent ##f
