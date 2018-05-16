@@ -4587,7 +4587,6 @@ C_ViolinIMusicVoice = {
         c'4
         
         \makeBlue                                                %! SM24
-        \tweak color #red
         c'4
         <> \stopTextSpan
     }
@@ -5107,7 +5106,6 @@ C_ViolinIIMusicVoice = {
     \revert NoteColumn.glissando-skip                            %! SC
     \revert NoteHead.no-ledgers                                  %! SC
     \undo \hide NoteHead                                         %! SC
-    \tweak color #red
     af'!4
     <> \stopTextSpan
     
@@ -5680,7 +5678,6 @@ C_ViolaMusicVoice = {
     c'8.
     
     \makeBlue                                                    %! SM24
-    \tweak color #red
     c'8.
     ]
     <> \stopTextSpan
@@ -6153,7 +6150,6 @@ C_CelloMusicVoice = {
         c'4
         
         \makeBlue                                                %! SM24
-        \tweak color #red
         c'4
         <> \stopTextSpan
     }
