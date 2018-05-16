@@ -4410,6 +4410,7 @@ C_ViolinIMusicVoice = {
     \makeBlue                                                    %! SM24
     c'8.
     ]
+    <> \stopTextSpan
     
     % [C ViolinIMusicVoice measure 134]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -4417,7 +4418,6 @@ C_ViolinIMusicVoice = {
     c'8
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     -\espressivo                                                 %! IC
-    \stopTextSpan
     [
     ^ \markup {
         \column
@@ -4587,12 +4587,21 @@ C_ViolinIMusicVoice = {
         c'4
         
         \makeBlue                                                %! SM24
+        \tweak color #red
         c'4
+        <> \stopTextSpan
     }
     
     % [C ViolinIMusicVoice measure 140]                          %! SM4
+    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 1/4
+    \\
     R1 * 1/4
-    \stopTextSpan
+    >>
     
     % [C ViolinIMusicVoice measure 141]                          %! SM4
     R1 * 3/4
@@ -4932,6 +4941,7 @@ C_ViolinIIMusicVoice = {
     
     \makeBlue                                                    %! SM24
     c'4
+    <> \stopTextSpan
     
     % [C ViolinIIMusicVoice measure 134]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -4939,7 +4949,6 @@ C_ViolinIIMusicVoice = {
     c'16..
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     -\espressivo                                                 %! IC
-    \stopTextSpan
     [
     ^ \markup {
         \column
@@ -5098,11 +5107,20 @@ C_ViolinIIMusicVoice = {
     \revert NoteColumn.glissando-skip                            %! SC
     \revert NoteHead.no-ledgers                                  %! SC
     \undo \hide NoteHead                                         %! SC
+    \tweak color #red
     af'!4
+    <> \stopTextSpan
     
     % [C ViolinIIMusicVoice measure 140]                         %! SM4
+    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 1/4
+    \\
     R1 * 1/4
-    \stopTextSpan
+    >>
     
     % [C ViolinIIMusicVoice measure 141]                         %! SM4
     R1 * 3/4
@@ -5475,6 +5493,7 @@ C_ViolaMusicVoice = {
         
         \makeBlue                                                %! SM24
         c'4
+        <> \stopTextSpan
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 14/12 {
@@ -5485,7 +5504,6 @@ C_ViolaMusicVoice = {
         c'8
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\espressivo                                             %! IC
-        \stopTextSpan
         [
         ^ \markup {
             \column
@@ -5662,12 +5680,21 @@ C_ViolaMusicVoice = {
     c'8.
     
     \makeBlue                                                    %! SM24
+    \tweak color #red
     c'8.
     ]
+    <> \stopTextSpan
     
     % [C ViolaMusicVoice measure 140]                            %! SM4
+    \voices "ViolaMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 1/4
+    \\
     R1 * 1/4
-    \stopTextSpan
+    >>
     
     % [C ViolaMusicVoice measure 141]                            %! SM4
     R1 * 3/4
@@ -6001,12 +6028,12 @@ C_CelloMusicVoice = {
     
     \makeBlue                                                    %! SM24
     c'4.
+    <> \stopTextSpan
     
     % [C CelloMusicVoice measure 134]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeBlue                                                    %! SM24
     c'4..
-    \stopTextSpan
     - \tweak circled-tip ##t                                     %! PWC1
     \<                                                           %! PWC1
     ^ \markup {                                                  %! IC
@@ -6126,12 +6153,21 @@ C_CelloMusicVoice = {
         c'4
         
         \makeBlue                                                %! SM24
+        \tweak color #red
         c'4
+        <> \stopTextSpan
     }
     
     % [C CelloMusicVoice measure 140]                            %! SM4
+    \voices "CelloMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 1/4
+    \\
     R1 * 1/4
-    \stopTextSpan
+    >>
     
     % [C CelloMusicVoice measure 141]                            %! SM4
     R1 * 3/4
