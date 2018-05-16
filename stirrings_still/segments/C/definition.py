@@ -98,8 +98,8 @@ maker(
     baca.markup('maximally tight crunch circles: grind at talon'),
     baca.text_spanner(
         baca.markup.boxed('damp'),
+        leak=True,
         right_padding=3.25,
-        selector=baca.rleaves(),
         tweaks=[('staff-padding', 7)],
         ),
     )
@@ -134,8 +134,8 @@ maker(
     baca.markup('maximally tight crunch circles: grind at talon'),
     baca.text_spanner(
         baca.markup.boxed('damp'),
+        leak=True,
         right_padding=3.25,
-        selector=baca.rleaves(),
         tweaks=[('staff-padding', 7)],
         ),
     (stirrings_still.desynchronization(4, [1]), 0),
