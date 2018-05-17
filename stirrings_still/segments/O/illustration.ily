@@ -1,27 +1,27 @@
 O_GlobalRests = {
     
-    % [O GlobalRests measure 678]                                        %! SM4
+    % [O GlobalRests measure 678 / measure 1]                            %! SM4
     R1 * 1
     
-    % [O GlobalRests measure 679]                                        %! SM4
+    % [O GlobalRests measure 679 / measure 2]                            %! SM4
     R1 * 1
     
-    % [O GlobalRests measure 680]                                        %! SM4
+    % [O GlobalRests measure 680 / measure 3]                            %! SM4
     R1 * 3/4
     
-    % [O GlobalRests measure 681]                                        %! SM4
+    % [O GlobalRests measure 681 / measure 4]                            %! SM4
     R1 * 3/4
     
-    % [O GlobalRests measure 682]                                        %! SM4
+    % [O GlobalRests measure 682 / measure 5]                            %! SM4
     R1 * 1
     
-    % [O GlobalRests measure 683]                                        %! SM4
+    % [O GlobalRests measure 683 / measure 6]                            %! SM4
     R1 * 5/4
     
-    % [O GlobalRests measure 684]                                        %! SM4
+    % [O GlobalRests measure 684 / measure 7]                            %! SM4
     R1 * 1
     
-    % [O GlobalRests measure 685]                                        %! SM4
+    % [O GlobalRests measure 685 / measure 8]                            %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -35,7 +35,7 @@ O_GlobalRests = {
 
 O_GlobalSkips = {
     
-    % [O GlobalSkips measure 678]                                        %! SM4
+    % [O GlobalSkips measure 678 / measure 1]                            %! SM4
     \once \override GlobalContext.RehearsalMark.Y-offset = #12           %! OC1
     \override TextScript.extra-offset = #'(0 . 5)                        %! OC1
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -129,7 +129,7 @@ O_GlobalSkips = {
             }
         }
     
-    % [O GlobalSkips measure 679]                                        %! SM4
+    % [O GlobalSkips measure 679 / measure 2]                            %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -163,7 +163,7 @@ O_GlobalSkips = {
             }
         }
     
-    % [O GlobalSkips measure 680]                                        %! SM4
+    % [O GlobalSkips measure 680 / measure 3]                            %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -198,7 +198,7 @@ O_GlobalSkips = {
             }
         }
     
-    % [O GlobalSkips measure 681]                                        %! SM4
+    % [O GlobalSkips measure 681 / measure 4]                            %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
     ^ \markup {
@@ -232,7 +232,7 @@ O_GlobalSkips = {
             }
         }
     
-    % [O GlobalSkips measure 682]                                        %! SM4
+    % [O GlobalSkips measure 682 / measure 5]                            %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -267,7 +267,7 @@ O_GlobalSkips = {
             }
         }
     
-    % [O GlobalSkips measure 683]                                        %! SM4
+    % [O GlobalSkips measure 683 / measure 6]                            %! SM4
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
@@ -302,7 +302,7 @@ O_GlobalSkips = {
             }
         }
     
-    % [O GlobalSkips measure 684]                                        %! SM4
+    % [O GlobalSkips measure 684 / measure 7]                            %! SM4
     \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -393,7 +393,7 @@ O_GlobalSkips = {
             }
         }
     
-    % [O GlobalSkips measure 685]                                        %! SM4
+    % [O GlobalSkips measure 685 / measure 8]                            %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -437,7 +437,7 @@ O_GlobalSkips = {
 
 O_ViolinIMusicVoice = {
     
-    % [O ViolinIMusicVoice measure 678]                          %! SM4
+    % [O ViolinIMusicVoice measure 678 / measure 1]              %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -490,25 +490,25 @@ O_ViolinIMusicVoice = {
             "Vn. I"                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [O ViolinIMusicVoice measure 679]                          %! SM4
+    % [O ViolinIMusicVoice measure 679 / measure 2]              %! SM4
     R1 * 1
     
-    % [O ViolinIMusicVoice measure 680]                          %! SM4
+    % [O ViolinIMusicVoice measure 680 / measure 3]              %! SM4
     R1 * 3/4
     
-    % [O ViolinIMusicVoice measure 681]                          %! SM4
+    % [O ViolinIMusicVoice measure 681 / measure 4]              %! SM4
     R1 * 3/4
     
-    % [O ViolinIMusicVoice measure 682]                          %! SM4
+    % [O ViolinIMusicVoice measure 682 / measure 5]              %! SM4
     R1 * 1
     
-    % [O ViolinIMusicVoice measure 683]                          %! SM4
+    % [O ViolinIMusicVoice measure 683 / measure 6]              %! SM4
     R1 * 5/4
     
-    % [O ViolinIMusicVoice measure 684]                          %! SM4
+    % [O ViolinIMusicVoice measure 684 / measure 7]              %! SM4
     R1 * 1
     
-    % [O ViolinIMusicVoice measure 685]                          %! SM4
+    % [O ViolinIMusicVoice measure 685 / measure 8]              %! SM4
     R1 * 1/4
     
 }
@@ -522,7 +522,7 @@ O_ViolinIMusicStaff = {
 
 O_ViolinIIMusicVoice = {
     
-    % [O ViolinIIMusicVoice measure 678]                         %! SM4
+    % [O ViolinIIMusicVoice measure 678 / measure 1]             %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -575,25 +575,25 @@ O_ViolinIIMusicVoice = {
             "Vn. II"                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [O ViolinIIMusicVoice measure 679]                         %! SM4
+    % [O ViolinIIMusicVoice measure 679 / measure 2]             %! SM4
     R1 * 1
     
-    % [O ViolinIIMusicVoice measure 680]                         %! SM4
+    % [O ViolinIIMusicVoice measure 680 / measure 3]             %! SM4
     R1 * 3/4
     
-    % [O ViolinIIMusicVoice measure 681]                         %! SM4
+    % [O ViolinIIMusicVoice measure 681 / measure 4]             %! SM4
     R1 * 3/4
     
-    % [O ViolinIIMusicVoice measure 682]                         %! SM4
+    % [O ViolinIIMusicVoice measure 682 / measure 5]             %! SM4
     R1 * 1
     
-    % [O ViolinIIMusicVoice measure 683]                         %! SM4
+    % [O ViolinIIMusicVoice measure 683 / measure 6]             %! SM4
     R1 * 5/4
     
-    % [O ViolinIIMusicVoice measure 684]                         %! SM4
+    % [O ViolinIIMusicVoice measure 684 / measure 7]             %! SM4
     R1 * 1
     
-    % [O ViolinIIMusicVoice measure 685]                         %! SM4
+    % [O ViolinIIMusicVoice measure 685 / measure 8]             %! SM4
     R1 * 1/4
     
 }
@@ -607,7 +607,7 @@ O_ViolinIIMusicStaff = {
 
 O_ViolaMusicVoice = {
     
-    % [O ViolaMusicVoice measure 678]                            %! SM4
+    % [O ViolaMusicVoice measure 678 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -664,25 +664,25 @@ O_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [O ViolaMusicVoice measure 679]                            %! SM4
+    % [O ViolaMusicVoice measure 679 / measure 2]                %! SM4
     R1 * 1
     
-    % [O ViolaMusicVoice measure 680]                            %! SM4
+    % [O ViolaMusicVoice measure 680 / measure 3]                %! SM4
     R1 * 3/4
     
-    % [O ViolaMusicVoice measure 681]                            %! SM4
+    % [O ViolaMusicVoice measure 681 / measure 4]                %! SM4
     R1 * 3/4
     
-    % [O ViolaMusicVoice measure 682]                            %! SM4
+    % [O ViolaMusicVoice measure 682 / measure 5]                %! SM4
     R1 * 1
     
-    % [O ViolaMusicVoice measure 683]                            %! SM4
+    % [O ViolaMusicVoice measure 683 / measure 6]                %! SM4
     R1 * 5/4
     
-    % [O ViolaMusicVoice measure 684]                            %! SM4
+    % [O ViolaMusicVoice measure 684 / measure 7]                %! SM4
     R1 * 1
     
-    % [O ViolaMusicVoice measure 685]                            %! SM4
+    % [O ViolaMusicVoice measure 685 / measure 8]                %! SM4
     R1 * 1/4
     
 }
@@ -696,7 +696,7 @@ O_ViolaMusicStaff = {
 
 O_CelloMusicVoice = {
     
-    % [O CelloMusicVoice measure 678]                            %! SM4
+    % [O CelloMusicVoice measure 678 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -749,25 +749,25 @@ O_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [O CelloMusicVoice measure 679]                            %! SM4
+    % [O CelloMusicVoice measure 679 / measure 2]                %! SM4
     R1 * 1
     
-    % [O CelloMusicVoice measure 680]                            %! SM4
+    % [O CelloMusicVoice measure 680 / measure 3]                %! SM4
     R1 * 3/4
     
-    % [O CelloMusicVoice measure 681]                            %! SM4
+    % [O CelloMusicVoice measure 681 / measure 4]                %! SM4
     R1 * 3/4
     
-    % [O CelloMusicVoice measure 682]                            %! SM4
+    % [O CelloMusicVoice measure 682 / measure 5]                %! SM4
     R1 * 1
     
-    % [O CelloMusicVoice measure 683]                            %! SM4
+    % [O CelloMusicVoice measure 683 / measure 6]                %! SM4
     R1 * 5/4
     
-    % [O CelloMusicVoice measure 684]                            %! SM4
+    % [O CelloMusicVoice measure 684 / measure 7]                %! SM4
     R1 * 1
     
-    % [O CelloMusicVoice measure 685]                            %! SM4
+    % [O CelloMusicVoice measure 685 / measure 8]                %! SM4
     R1 * 1/4
     
 }
