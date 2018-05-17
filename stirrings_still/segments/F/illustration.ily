@@ -1,36 +1,36 @@
 F_GlobalRests = {
     
-    % [F GlobalRests measure 425]                                        %! SM4
+    % [F GlobalRests measure 425 / measure 1]                            %! SM4
     R1 * 1
     
-    % [F GlobalRests measure 426]                                        %! SM4
+    % [F GlobalRests measure 426 / measure 2]                            %! SM4
     R1 * 1
     
-    % [F GlobalRests measure 427]                                        %! SM4
+    % [F GlobalRests measure 427 / measure 3]                            %! SM4
     R1 * 3/4
     
-    % [F GlobalRests measure 428]                                        %! SM4
+    % [F GlobalRests measure 428 / measure 4]                            %! SM4
     R1 * 5/4
     
-    % [F GlobalRests measure 429]                                        %! SM4
+    % [F GlobalRests measure 429 / measure 5]                            %! SM4
     R1 * 3/2
     
-    % [F GlobalRests measure 430]                                        %! SM4
+    % [F GlobalRests measure 430 / measure 6]                            %! SM4
     R1 * 3/4
     
-    % [F GlobalRests measure 431]                                        %! SM4
+    % [F GlobalRests measure 431 / measure 7]                            %! SM4
     R1 * 1
     
-    % [F GlobalRests measure 432]                                        %! SM4
+    % [F GlobalRests measure 432 / measure 8]                            %! SM4
     R1 * 1
     
-    % [F GlobalRests measure 433]                                        %! SM4
+    % [F GlobalRests measure 433 / measure 9]                            %! SM4
     R1 * 5/4
     
-    % [F GlobalRests measure 434]                                        %! SM4
+    % [F GlobalRests measure 434 / measure 10]                           %! SM4
     R1 * 3/2
     
-    % [F GlobalRests measure 435]                                        %! SM4
+    % [F GlobalRests measure 435 / measure 11]                           %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -39,13 +39,13 @@ F_GlobalRests = {
             #"scripts.ulongfermata"                                      %! GFC1
         }                                                                %! GFC1
     
-    % [F GlobalRests measure 436]                                        %! SM4
+    % [F GlobalRests measure 436 / measure 12]                           %! SM4
     R1 * 3/2
     
-    % [F GlobalRests measure 437]                                        %! SM4
+    % [F GlobalRests measure 437 / measure 13]                           %! SM4
     R1 * 3/2
     
-    % [F GlobalRests measure 438]                                        %! SM4
+    % [F GlobalRests measure 438 / measure 14]                           %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -59,7 +59,7 @@ F_GlobalRests = {
 
 F_GlobalSkips = {
     
-    % [F GlobalSkips measure 425]                                        %! SM4
+    % [F GlobalSkips measure 425 / measure 1]                            %! SM4
     \once \override GlobalContext.RehearsalMark.Y-offset = #12           %! OC1
     \override TextScript.extra-offset = #'(0 . 5)                        %! OC1
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -153,7 +153,7 @@ F_GlobalSkips = {
             }
         }
     
-    % [F GlobalSkips measure 426]                                        %! SM4
+    % [F GlobalSkips measure 426 / measure 2]                            %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -187,7 +187,7 @@ F_GlobalSkips = {
             }
         }
     
-    % [F GlobalSkips measure 427]                                        %! SM4
+    % [F GlobalSkips measure 427 / measure 3]                            %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -222,7 +222,7 @@ F_GlobalSkips = {
             }
         }
     
-    % [F GlobalSkips measure 428]                                        %! SM4
+    % [F GlobalSkips measure 428 / measure 4]                            %! SM4
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
@@ -257,7 +257,7 @@ F_GlobalSkips = {
             }
         }
     
-    % [F GlobalSkips measure 429]                                        %! SM4
+    % [F GlobalSkips measure 429 / measure 5]                            %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -292,7 +292,7 @@ F_GlobalSkips = {
             }
         }
     
-    % [F GlobalSkips measure 430]                                        %! SM4
+    % [F GlobalSkips measure 430 / measure 6]                            %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -327,7 +327,7 @@ F_GlobalSkips = {
             }
         }
     
-    % [F GlobalSkips measure 431]                                        %! SM4
+    % [F GlobalSkips measure 431 / measure 7]                            %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -362,7 +362,7 @@ F_GlobalSkips = {
             }
         }
     
-    % [F GlobalSkips measure 432]                                        %! SM4
+    % [F GlobalSkips measure 432 / measure 8]                            %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -396,7 +396,7 @@ F_GlobalSkips = {
             }
         }
     
-    % [F GlobalSkips measure 433]                                        %! SM4
+    % [F GlobalSkips measure 433 / measure 9]                            %! SM4
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
@@ -437,7 +437,7 @@ F_GlobalSkips = {
             }
         }
     
-    % [F GlobalSkips measure 434]                                        %! SM4
+    % [F GlobalSkips measure 434 / measure 10]                           %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -472,7 +472,7 @@ F_GlobalSkips = {
             }
         }
     
-    % [F GlobalSkips measure 435]                                        %! SM4
+    % [F GlobalSkips measure 435 / measure 11]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -507,7 +507,7 @@ F_GlobalSkips = {
             }
         }
     
-    % [F GlobalSkips measure 436]                                        %! SM4
+    % [F GlobalSkips measure 436 / measure 12]                           %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -598,7 +598,7 @@ F_GlobalSkips = {
             }
         }
     
-    % [F GlobalSkips measure 437]                                        %! SM4
+    % [F GlobalSkips measure 437 / measure 13]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
     ^ \markup {
@@ -632,7 +632,7 @@ F_GlobalSkips = {
             }
         }
     
-    % [F GlobalSkips measure 438]                                        %! SM4
+    % [F GlobalSkips measure 438 / measure 14]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -676,7 +676,7 @@ F_GlobalSkips = {
 
 F_ViolinIMusicVoice = {
     
-    % [F ViolinIMusicVoice measure 425]                          %! SM4
+    % [F ViolinIMusicVoice measure 425 / measure 1]              %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -737,7 +737,7 @@ F_ViolinIMusicVoice = {
             "Vn. I"                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [F ViolinIMusicVoice measure 426]                          %! SM4
+    % [F ViolinIMusicVoice measure 426 / measure 2]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeBlue                                                    %! SM24
     c'1
@@ -745,12 +745,12 @@ F_ViolinIMusicVoice = {
     \f                                                           %! PWC1
     \>                                                           %! PWC1
     
-    % [F ViolinIMusicVoice measure 427]                          %! SM4
+    % [F ViolinIMusicVoice measure 427 / measure 3]              %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [F ViolinIMusicVoice measure 428]                          %! SM4
+    % [F ViolinIMusicVoice measure 428 / measure 4]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeBlue                                                    %! SM24
     c'1
@@ -765,12 +765,12 @@ F_ViolinIMusicVoice = {
     \f                                                           %! PWC1
     \>                                                           %! PWC1
     
-    % [F ViolinIMusicVoice measure 429]                          %! SM4
+    % [F ViolinIMusicVoice measure 429 / measure 5]              %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     \repeatTie
     
-    % [F ViolinIMusicVoice measure 430]                          %! SM4
+    % [F ViolinIMusicVoice measure 430 / measure 6]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeBlue                                                    %! SM24
     c'2.
@@ -778,7 +778,7 @@ F_ViolinIMusicVoice = {
     \pp                                                          %! PWC1
     \<                                                           %! PWC1
     
-    % [F ViolinIMusicVoice measure 431]                          %! SM4
+    % [F ViolinIMusicVoice measure 431 / measure 7]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
@@ -789,25 +789,25 @@ F_ViolinIMusicVoice = {
     \>                                                           %! HC1
     \f                                                           %! HC1
     
-    % [F ViolinIMusicVoice measure 432]                          %! SM4
+    % [F ViolinIMusicVoice measure 432 / measure 8]              %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [F ViolinIMusicVoice measure 433]                          %! SM4
+    % [F ViolinIMusicVoice measure 433 / measure 9]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     R1 * 5/4
     \!                                                           %! HC1
     
-    % [F ViolinIMusicVoice measure 434]                          %! SM4
+    % [F ViolinIMusicVoice measure 434 / measure 10]             %! SM4
     R1 * 3/2
     
-    % [F ViolinIMusicVoice measure 435]                          %! SM4
+    % [F ViolinIMusicVoice measure 435 / measure 11]             %! SM4
     R1 * 1/4
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        % [F ViolinIMusicVoice measure 436]                      %! SM4
+        % [F ViolinIMusicVoice measure 436 / measure 12]         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'4
@@ -839,7 +839,7 @@ F_ViolinIMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        % [F ViolinIMusicVoice measure 437]                      %! SM4
+        % [F ViolinIMusicVoice measure 437 / measure 13]         %! SM4
         \makeBlue                                                %! SM24
         c'4
         
@@ -862,7 +862,7 @@ F_ViolinIMusicVoice = {
         c'4
     }
     
-    % [F ViolinIMusicVoice measure 438]                          %! SM4
+    % [F ViolinIMusicVoice measure 438 / measure 14]             %! SM4
     R1 * 1/4
     
 }
@@ -876,7 +876,7 @@ F_ViolinIMusicStaff = {
 
 F_ViolinIIMusicVoice = {
     
-    % [F ViolinIIMusicVoice measure 425]                         %! SM4
+    % [F ViolinIIMusicVoice measure 425 / measure 1]             %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -931,12 +931,12 @@ F_ViolinIIMusicVoice = {
             "Vn. II"                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [F ViolinIIMusicVoice measure 426]                         %! SM4
+    % [F ViolinIIMusicVoice measure 426 / measure 2]             %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [F ViolinIIMusicVoice measure 427]                         %! SM4
+    % [F ViolinIIMusicVoice measure 427 / measure 3]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeBlue                                                    %! SM24
     c'2.
@@ -944,7 +944,7 @@ F_ViolinIIMusicVoice = {
     \f                                                           %! PWC1
     \>                                                           %! PWC1
     
-    % [F ViolinIIMusicVoice measure 428]                         %! SM4
+    % [F ViolinIIMusicVoice measure 428 / measure 4]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeBlue                                                    %! SM24
     c'1
@@ -956,7 +956,7 @@ F_ViolinIIMusicVoice = {
     c'4
     \repeatTie
     
-    % [F ViolinIIMusicVoice measure 429]                         %! SM4
+    % [F ViolinIIMusicVoice measure 429 / measure 5]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeBlue                                                    %! SM24
     c'1.
@@ -964,7 +964,7 @@ F_ViolinIIMusicVoice = {
     \f                                                           %! PWC1
     \>                                                           %! PWC1
     
-    % [F ViolinIIMusicVoice measure 430]                         %! SM4
+    % [F ViolinIIMusicVoice measure 430 / measure 6]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \makeBlue                                                    %! SM24
     c'2.
@@ -972,12 +972,12 @@ F_ViolinIIMusicVoice = {
     \pp                                                          %! PWC1
     \<                                                           %! PWC1
     
-    % [F ViolinIIMusicVoice measure 431]                         %! SM4
+    % [F ViolinIIMusicVoice measure 431 / measure 7]             %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [F ViolinIIMusicVoice measure 432]                         %! SM4
+    % [F ViolinIIMusicVoice measure 432 / measure 8]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
@@ -988,18 +988,18 @@ F_ViolinIIMusicVoice = {
     \>                                                           %! HC1
     \f                                                           %! HC1
     
-    % [F ViolinIIMusicVoice measure 433]                         %! SM4
+    % [F ViolinIIMusicVoice measure 433 / measure 9]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     R1 * 5/4
     \!                                                           %! HC1
     
-    % [F ViolinIIMusicVoice measure 434]                         %! SM4
+    % [F ViolinIIMusicVoice measure 434 / measure 10]            %! SM4
     R1 * 3/2
     
-    % [F ViolinIIMusicVoice measure 435]                         %! SM4
+    % [F ViolinIIMusicVoice measure 435 / measure 11]            %! SM4
     R1 * 1/4
     
-    % [F ViolinIIMusicVoice measure 436]                         %! SM4
+    % [F ViolinIIMusicVoice measure 436 / measure 12]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f'4
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
@@ -1029,7 +1029,7 @@ F_ViolinIIMusicVoice = {
     g'4
     \glissando                                                   %! SC
     
-    % [F ViolinIIMusicVoice measure 437]                         %! SM4
+    % [F ViolinIIMusicVoice measure 437 / measure 13]            %! SM4
     g'4
     \glissando                                                   %! SC
     
@@ -1051,7 +1051,7 @@ F_ViolinIIMusicVoice = {
     \undo \hide NoteHead                                         %! SC
     af'!4
     
-    % [F ViolinIIMusicVoice measure 438]                         %! SM4
+    % [F ViolinIIMusicVoice measure 438 / measure 14]            %! SM4
     R1 * 1/4
     
 }
@@ -1065,7 +1065,7 @@ F_ViolinIIMusicStaff = {
 
 F_ViolaMusicVoice = {
     
-    % [F ViolaMusicVoice measure 425]                            %! SM4
+    % [F ViolaMusicVoice measure 425 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1136,7 +1136,7 @@ F_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [F ViolaMusicVoice measure 426]                            %! SM4
+    % [F ViolaMusicVoice measure 426 / measure 2]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     c'1
     _ #(make-dynamic-script
@@ -1153,41 +1153,41 @@ F_ViolaMusicVoice = {
         )                                                        %! HC1
     \glissando                                                   %! SC
     
-    % [F ViolaMusicVoice measure 427]                            %! SM4
+    % [F ViolaMusicVoice measure 427 / measure 3]                %! SM4
     c'2.
     \glissando                                                   %! SC
     
-    % [F ViolaMusicVoice measure 428]                            %! SM4
+    % [F ViolaMusicVoice measure 428 / measure 4]                %! SM4
     c'1
     \glissando                                                   %! SC
     
     c'4
     \glissando                                                   %! SC
     
-    % [F ViolaMusicVoice measure 429]                            %! SM4
+    % [F ViolaMusicVoice measure 429 / measure 5]                %! SM4
     c'1.
     \glissando                                                   %! SC
     
-    % [F ViolaMusicVoice measure 430]                            %! SM4
+    % [F ViolaMusicVoice measure 430 / measure 6]                %! SM4
     c'2.
     \glissando                                                   %! SC
     
-    % [F ViolaMusicVoice measure 431]                            %! SM4
+    % [F ViolaMusicVoice measure 431 / measure 7]                %! SM4
     c'1
     \glissando                                                   %! SC
     
-    % [F ViolaMusicVoice measure 432]                            %! SM4
+    % [F ViolaMusicVoice measure 432 / measure 8]                %! SM4
     c'1
     \glissando                                                   %! SC
     
-    % [F ViolaMusicVoice measure 433]                            %! SM4
+    % [F ViolaMusicVoice measure 433 / measure 9]                %! SM4
     c'1
     \glissando                                                   %! SC
     
     c'4
     \glissando                                                   %! SC
     
-    % [F ViolaMusicVoice measure 434]                            %! SM4
+    % [F ViolaMusicVoice measure 434 / measure 10]               %! SM4
     c'1.
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -1198,14 +1198,14 @@ F_ViolaMusicVoice = {
     \revert RepeatTie.direction                                  %! OC2
     \revert TextScript.parent-alignment-X                        %! OC2
     
-    % [F ViolaMusicVoice measure 435]                            %! SM4
+    % [F ViolaMusicVoice measure 435 / measure 11]               %! SM4
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 5             %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     R1 * 1/4
     
-    % [F ViolaMusicVoice measure 436]                            %! SM4
+    % [F ViolaMusicVoice measure 436 / measure 12]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'8.
@@ -1239,7 +1239,7 @@ F_ViolaMusicVoice = {
     c'8.
     ]
     
-    % [F ViolaMusicVoice measure 437]                            %! SM4
+    % [F ViolaMusicVoice measure 437 / measure 13]               %! SM4
     \makeBlue                                                    %! SM24
     c'8.
     [
@@ -1266,7 +1266,7 @@ F_ViolaMusicVoice = {
     c'8.
     ]
     
-    % [F ViolaMusicVoice measure 438]                            %! SM4
+    % [F ViolaMusicVoice measure 438 / measure 14]               %! SM4
     R1 * 1/4
     
 }
@@ -1280,7 +1280,7 @@ F_ViolaMusicStaff = {
 
 F_CelloMusicVoice = {
     
-    % [F CelloMusicVoice measure 425]                            %! SM4
+    % [F CelloMusicVoice measure 425 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1341,19 +1341,19 @@ F_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [F CelloMusicVoice measure 426]                            %! SM4
+    % [F CelloMusicVoice measure 426 / measure 2]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     \ff                                                          %! HC1
     
-    % [F CelloMusicVoice measure 427]                            %! SM4
+    % [F CelloMusicVoice measure 427 / measure 3]                %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [F CelloMusicVoice measure 428]                            %! SM4
+    % [F CelloMusicVoice measure 428 / measure 4]                %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
@@ -1362,22 +1362,22 @@ F_CelloMusicVoice = {
     c'4
     \repeatTie
     
-    % [F CelloMusicVoice measure 429]                            %! SM4
+    % [F CelloMusicVoice measure 429 / measure 5]                %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     \repeatTie
     
-    % [F CelloMusicVoice measure 430]                            %! SM4
+    % [F CelloMusicVoice measure 430 / measure 6]                %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [F CelloMusicVoice measure 431]                            %! SM4
+    % [F CelloMusicVoice measure 431 / measure 7]                %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [F CelloMusicVoice measure 432]                            %! SM4
+    % [F CelloMusicVoice measure 432 / measure 8]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeBlue                                                    %! SM24
     c'1
@@ -1386,20 +1386,20 @@ F_CelloMusicVoice = {
     \>                                                           %! HC1
     \ff                                                          %! HC1
     
-    % [F CelloMusicVoice measure 433]                            %! SM4
+    % [F CelloMusicVoice measure 433 / measure 9]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     R1 * 5/4
     \!                                                           %! HC1
     
-    % [F CelloMusicVoice measure 434]                            %! SM4
+    % [F CelloMusicVoice measure 434 / measure 10]               %! SM4
     R1 * 3/2
     
-    % [F CelloMusicVoice measure 435]                            %! SM4
+    % [F CelloMusicVoice measure 435 / measure 11]               %! SM4
     R1 * 1/4
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
-        % [F CelloMusicVoice measure 436]                        %! SM4
+        % [F CelloMusicVoice measure 436 / measure 12]           %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \makeBlue                                                %! SM24
         c'4
@@ -1425,7 +1425,7 @@ F_CelloMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
-        % [F CelloMusicVoice measure 437]                        %! SM4
+        % [F CelloMusicVoice measure 437 / measure 13]           %! SM4
         \makeBlue                                                %! SM24
         c'4
         
@@ -1442,7 +1442,7 @@ F_CelloMusicVoice = {
         c'4
     }
     
-    % [F CelloMusicVoice measure 438]                            %! SM4
+    % [F CelloMusicVoice measure 438 / measure 14]               %! SM4
     R1 * 1/4
     
 }
