@@ -3,7 +3,8 @@ import stirrings_still
 
 
 def second_order_stages(segment):
-    r'''Makes second-order time signatures.
+    """
+    Makes second-order time signatures.
 
     >>> import stirrings_still
 
@@ -3708,7 +3709,7 @@ def second_order_stages(segment):
                 ]
             )
 
-    '''
+    """
     target_stages = stirrings_still.first_order_stages(segment)
     assert isinstance(target_stages, abjad.OrderedDict)
     operations = stirrings_still.operations()

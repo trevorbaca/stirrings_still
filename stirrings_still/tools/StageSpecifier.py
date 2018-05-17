@@ -2,8 +2,9 @@ import abjad
 
 
 class StageSpecifier(abjad.AbjadObject):
-    r'''Stage specifier.
-    '''
+    """
+    Stage specifier.
+    """
 
     ### CLASS VARIABLES ###
 
@@ -43,8 +44,9 @@ class StageSpecifier(abjad.AbjadObject):
 
     @property
     def time_signature_count(self):
-        r'''Gets time signature count.
-        '''
+        """
+        Gets time signature count.
+        """
         result = len(self.time_signatures)
         if self.after is not None:
             result += 1
@@ -60,8 +62,9 @@ class StageSpecifier(abjad.AbjadObject):
     ### PUBLIC METHODS  ###
 
     def all_time_signatures(self):
-        r'''Gets all time signatures.
-        '''
+        """
+        Gets all time signatures.
+        """
         result = self.time_signatures[:]
         if isinstance(self.after, str):
             result.append(abjad.TimeSignature((1, 4)))

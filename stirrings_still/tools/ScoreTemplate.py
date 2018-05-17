@@ -4,7 +4,8 @@ import stirrings_still
 
 
 class ScoreTemplate(baca.ScoreTemplate):
-    r'''Score template.
+    r"""
+    Score template.
 
     >>> import stirrings_still
 
@@ -74,7 +75,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             }
         >>
 
-    '''
+    """
 
     ### CLASS VARIABLES ###
 
@@ -107,8 +108,9 @@ class ScoreTemplate(baca.ScoreTemplate):
     ### SPECIAL METHODS ###
 
     def __call__(self) -> abjad.Score:
-        r'''Calls score template.
-        '''
+        """
+        Calls score template.
+        """
         # GLOBAL CONTEXT
         global_context = self._make_global_context()
 
@@ -213,7 +215,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     @property
     def voice_abbreviations(self):
-        r'''Gets voice abbreviations.
+        """
+        Gets voice abbreviations.
 
         ..  container:: example
 
@@ -245,5 +248,5 @@ class ScoreTemplate(baca.ScoreTemplate):
                     ]
                 )
 
-        '''
+        """
         return super(ScoreTemplate, self).voice_abbreviations

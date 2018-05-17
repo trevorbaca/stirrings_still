@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def grid(stage, rotation=0):
-    r'''Makes grid rhythm.
-    '''
+    """
+    Makes grid rhythm.
+    """
     if stage == 1:
         counts = baca.sequence([1, -3, 1, -3, 1, -2])
         counts = counts.rotate(n=rotation)

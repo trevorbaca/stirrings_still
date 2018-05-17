@@ -2,8 +2,9 @@ import abjad
 
 
 class StageToken(abjad.AbjadObject):
-    r'''Stage token.
-    '''
+    """
+    Stage token.
+    """
 
     ### CLASS VARIABLES ###
 
@@ -53,24 +54,28 @@ class StageToken(abjad.AbjadObject):
 
     @property
     def description(self):
-        r'''Gets description.
-        '''
+        """
+        Gets description.
+        """
         return self._description
 
     @property
     def length(self):
-        r'''Gets length.
-        '''
+        """
+        Gets length.
+        """
         return self._length
 
     @property
     def letter(self):
-        r'''Gets letter.
-        '''
+        """
+        Gets letter.
+        """
         return self._letter
 
     @property
     def number(self):
-        r'''Gets number.
-        '''
+        """
+        Gets number.
+        """
         return self._number

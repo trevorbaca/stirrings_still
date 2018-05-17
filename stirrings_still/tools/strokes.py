@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def strokes(rotation=0, division_mask=None):
-    r'''Makes stroke rhythm.
-    '''
+    """
+    Makes stroke rhythm.
+    """
     expression = baca.DivisionSequenceExpression()
     expression = expression.division_sequence()
     expression = expression.rotate(n=rotation)

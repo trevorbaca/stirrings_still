@@ -9,8 +9,9 @@ def to_flight(
     stop=(1, 8),
     division_mask=None,
     ):
-    r'''Makes trajectories-to-flight rhythm.
-    '''
+    """
+    Makes trajectories-to-flight rhythm.
+    """
     if division_mask is None:
         division_masks = None
     else:

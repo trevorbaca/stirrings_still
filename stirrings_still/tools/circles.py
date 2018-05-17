@@ -8,8 +8,9 @@ def circles(
     division_mask=None,
     remainder=abjad.Right,
     ):
-    r'''Makes circle rhythm with ``duration``.
-    '''
+    """
+    Makes circle rhythm with ``duration``.
+    """
     duration = abjad.Duration(duration)
     if division_mask is None:
         division_masks = None
