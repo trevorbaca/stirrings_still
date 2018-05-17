@@ -144,3 +144,25 @@ maker(
     (stirrings_still.desynchronization(4, [2]), 2),
     (stirrings_still.desynchronization(4, [-1]), 3),
     )
+
+maker(
+    ('tutti', (12, 15)),
+    baca.dynamic('p', redundant=True),
+    baca.transition(
+        baca.markup('max. tight cir.'),
+        baca.markup('1-2” circles'),
+        do_not_bookend=True,
+        selector=baca.group_by_measures([2]),
+        tweaks=[('staff-padding', 4)],
+        ),
+#    baca.text_spanner(
+#        baca.markup.boxed('damp'),
+#        leak=True,
+#        right_padding=3.25,
+#        tweaks=[('staff-padding', 7)],
+#        ),
+    (stirrings_still.desynchronization(4, [1], rests=True), 0),
+    (stirrings_still.desynchronization(4, rests=True), 1),
+    (stirrings_still.desynchronization(4, [2], rests=True), 2),
+    (stirrings_still.desynchronization(4, [-1], rests=True), 3),
+    )
