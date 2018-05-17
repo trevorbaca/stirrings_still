@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmmakertools as rhythmos
+from abjad import rhythmos
 
 
 def trajectories(counts='A', rotation=0, extra_counts_rotation=0):
