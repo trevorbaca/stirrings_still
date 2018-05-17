@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def desynchronization(denominator=None, extra_counts=None):
-    r'''Makes desynchronization rhythms.
-    '''
+    """
+    Makes desynchronization rhythms.
+    """
     if denominator is None:
         denominators = [8]
     else:

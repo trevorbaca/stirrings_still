@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def pickets(fuse, extra_count, division_mask=None):
-    r'''Makes picket polyrhythm.
-    '''
+    """
+    Makes picket polyrhythm.
+    """
 
     assert isinstance(fuse, int)
     durations = [(fuse, 4)]

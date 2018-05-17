@@ -165,7 +165,8 @@ stage_to_time_signatures = abjad.OrderedDict({
     })
 
 def first_order_stages(segment):
-    r'''Makes first-order time signatures.
+    """
+    Makes first-order time signatures.
 
     >>> import stirrings_still
 
@@ -3354,7 +3355,7 @@ def first_order_stages(segment):
             )
 
 
-    '''
+    """
     series, rotation, stages = stage_to_time_signatures[segment]
     series = stirrings_still.time_signature_series[series]
     series = baca.sequence(series).rotate(rotation)

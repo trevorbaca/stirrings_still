@@ -4,8 +4,9 @@ import stirrings_still
 
 
 def time_signatures(segment):
-    r'''Makes `segment` time sigantures.
-    '''
+    """
+    Makes ``segment`` time sigantures.
+    """
     time_signatures = []
     dictionary = stirrings_still.second_order_stages(segment)
     for stage_number, stage_specifier in dictionary.items():

@@ -2,8 +2,9 @@ import baca
 
 
 def bcps(rotation=0):
-    r'''Makes bow contact points.
-    '''
+    """
+    Makes bow contact points.
+    """
     bcps = baca.sequence([
         [(0, 7), (4, 7), (5, 7), (6, 7), (7, 7), (6, 7)],
         [(7, 7), (0, 7), (7, 7), (0, 7), (7, 7)],

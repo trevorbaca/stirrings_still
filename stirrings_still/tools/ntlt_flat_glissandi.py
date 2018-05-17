@@ -2,8 +2,9 @@ import baca
 
 
 def ntlt_flat_glissandi():
-    r'''Changes nontrivial logical ties to flat glissandi.
-    '''
+    """
+    Changes nontrivial logical ties to flat glissandi.
+    """
     return baca.map(
         baca.suite([
             baca.untie_to(selector=baca.leaves()),

@@ -2,8 +2,9 @@ import baca
 
 
 def stage_markup(maker, pairs):
-    r'''Makes stage markup.
-    '''
+    """
+    Makes stage markup.
+    """
     for value, lmn in pairs:
         maker(
             'GlobalSkips',

@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def trajectories(counts='A', rotation=0, extra_counts_rotation=0):
-    r'''Makes trajectory rhythms.
-    '''
+    """
+    Makes trajectory rhythms.
+    """
     counts_ = {
         'A': [1, 1, 1, 2],
         'B': [1, 2, 2, 3],

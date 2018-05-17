@@ -3,7 +3,8 @@ from .StageToken import StageToken
 
 
 class Operation(abjad.AbjadObject):
-    r'''Operation.
+    """
+    Operation.
 
     >>> import stirrings_still
 
@@ -34,7 +35,7 @@ class Operation(abjad.AbjadObject):
                 ),
             )
 
-    '''
+    """
 
     ### CLASS VARIABLES ###
 
@@ -84,10 +85,11 @@ class Operation(abjad.AbjadObject):
     ### SPECIAL METHODS ###
 
     def __call__(self, source_stage, target_stage):
-        r'''Calls operation on `source_stage` and `target_stage`.
+        """
+        Calls operation on ``source_stage`` and ``target_stage``.
 
         Returns new (target) stage specifier.
-        '''
+        """
         source_measure_numbers, source_time_signatures = [], []
         if isinstance(self.source_measures, int):
             source_measure_numbers.append(self.source_measures)
@@ -147,30 +149,35 @@ class Operation(abjad.AbjadObject):
 
     @property
     def source_measures(self):
-        r'''Gets source measures.
-        '''
+        """
+        Gets source measures.
+        """
         return self._source_measures
 
     @property
     def source_stage(self):
-        r'''Gets source stage.
-        '''
+        """
+        Gets source stage.
+        """
         return self._source_stage
 
     @property
     def target_site(self):
-        r'''Gets target site between two measures.
-        '''
+        """
+        Gets target site between two measures.
+        """
         return self._target_site
 
     @property
     def target_stage(self):
-        r'''Gets target stage.
-        '''
+        """
+        Gets target stage.
+        """
         return self._target_stage
 
     @property
     def verb(self):
-        r'''Gets verb.
-        '''
+        """
+        Gets verb.
+        """
         return self._verb

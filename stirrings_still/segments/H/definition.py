@@ -263,7 +263,7 @@ maker(
 maker(
     ('vc', [(7, 28), (30, 31)]),
     baca.make_notes(repeat_ties=True),
-    (baca.repeat_tie(baca.notes()[1:]), 0),
+    (baca.repeat_tie(selector=baca.notes()[1:]), 0),
     (baca.repeat_tie(), 1),
     )
 
@@ -275,9 +275,9 @@ maker(
 maker(
     ('vc', (7, 32)),
     baca.dynamic('mp'),
-    baca.finger_pressure_transition(baca.notes()[:2]),
+    baca.finger_pressure_transition(selector=baca.notes()[:2]),
     baca.markup.string_number(4, selector=baca.note(0)),
-    baca.note_head_style_harmonic(baca.notes()[1:]),
+    baca.note_head_style_harmonic(selector=baca.notes()[1:]),
     baca.pitch('Ab2', selector=baca.note(0)),
     baca.pitch('Gb2', selector=baca.notes()[1:]),
     baca.transition(

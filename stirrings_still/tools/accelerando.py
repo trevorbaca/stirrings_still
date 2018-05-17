@@ -8,8 +8,9 @@ def accelerando(
     stop=(1, 8),
     lt_mask=None,
     ):
-    r'''Makes accelerando.
-    '''
+    """
+    Makes accelerando.
+    """
 
     if lt_mask is not None:
         logical_tie_masks = [lt_mask]

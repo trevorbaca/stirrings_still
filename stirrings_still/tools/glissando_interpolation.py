@@ -2,8 +2,9 @@ import baca
 
 
 def glissando_interpolation(start_pitch, stop_pitch, selector=baca.leaves()):
-    r'''Makes glissando interpolation.
-    '''
+    """
+    Makes glissando interpolation.
+    """
     return [
         baca.glissando(
             allow_repeats=True,

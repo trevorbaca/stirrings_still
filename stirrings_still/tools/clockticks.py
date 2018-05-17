@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def clockticks(displace=False, division_mask=None, encroach=False):
-    r'''Makes clocktick rhythm.
-    '''
+    """
+    Makes clocktick rhythm.
+    """
     if division_mask is None:
         division_masks = None
     else:

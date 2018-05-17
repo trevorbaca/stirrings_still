@@ -5,7 +5,8 @@ from .StageToken import StageToken
 
 
 def operations():
-    r'''Makes operations.
+    """
+    Makes operations.
 
     >>> import stirrings_still
 
@@ -698,7 +699,7 @@ def operations():
                 ]
             )
 
-    '''
+    """
 
     return abjad.TypedList([
         Operation(

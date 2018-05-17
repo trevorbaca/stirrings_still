@@ -3,8 +3,9 @@ import stirrings_still
 
 
 def tailpiece():
-    r'''Makes tailpiece rhythm.
-    '''
+    """
+    Makes tailpiece rhythm.
+    """
     return [
         baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
         baca.markup.boxed('tailpiece'),
