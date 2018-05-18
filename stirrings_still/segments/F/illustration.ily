@@ -1139,18 +1139,7 @@ F_ViolaMusicVoice = {
     % [F ViolaMusicVoice measure 426 / measure 2]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     c'1
-    _ #(make-dynamic-script
-        (markup
-            #:whiteout
-            #:line (
-                #:general-align Y -2 #:normal-text #:larger "“"
-                #:hspace -0.1
-                #:dynamic "mp"
-                #:hspace -0.25
-                #:general-align Y -2 #:normal-text #:larger "”"
-                )
-            )
-        )                                                        %! HC1
+    \effort_mp                                                   %! HC1
     \glissando                                                   %! SC
     
     % [F ViolaMusicVoice measure 427 / measure 3]                %! SM4
@@ -1206,10 +1195,10 @@ F_ViolaMusicVoice = {
     R1 * 1/4
     
     % [F ViolaMusicVoice measure 436 / measure 12]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'8.
-    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     [
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
