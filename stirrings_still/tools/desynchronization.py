@@ -16,8 +16,11 @@ def desynchronization(
     else:
         assert isinstance(denominator, int), repr(denominator)
         denominators = [denominator]
-    if rests:
+    if rests is True:
         logical_tie_masks = [abjad.silence([1], period=2)]
+    elif isinstance(rests, tuple):
+        mask = abjad.silence(*rests)
+        logical_tie_masks = [mask]
     else:
         logical_tie_masks = None
     return baca.RhythmCommand(

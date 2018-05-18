@@ -167,3 +167,71 @@ maker(
     (stirrings_still.desynchronization(4, [2], rests=True), 2),
     (stirrings_still.desynchronization(4, [-1], rests=True), 3),
     )
+
+maker(
+    ('tutti', (16, 19)),
+    baca.dynamic('p', redundant=True),
+    baca.transition(
+        baca.markup('1-2” circles'),
+        baca.markup('2-4” circles'),
+        do_not_bookend=True,
+        selector=baca.group_notes_by_measures([2]),
+        tweaks=[('staff-padding', 4)],
+        ),
+    baca.text_spanner(
+        baca.markup.boxed('damp'),
+        leak=True,
+        lilypond_id=1,
+        right_padding=3.25,
+        tweaks=[('staff-padding', 7)],
+        ),
+    (stirrings_still.desynchronization(4, [1], rests=True), 0),
+    (stirrings_still.desynchronization(4, rests=True), 1),
+    (stirrings_still.desynchronization(4, [2], rests=True), 2),
+    (stirrings_still.desynchronization(4, [-1], rests=True), 3),
+    )
+
+maker(
+    ('tutti', (20, 23)),
+    baca.dynamic('p', redundant=True),
+    baca.transition(
+        baca.markup('2-4” circles'),
+        baca.markup('4-8” circles'),
+        do_not_bookend=True,
+        selector=baca.group_notes_by_measures([2]),
+        tweaks=[('staff-padding', 4)],
+        ),
+    baca.text_spanner(
+        baca.markup.boxed('damp'),
+        leak=True,
+        lilypond_id=1,
+        right_padding=3.25,
+        tweaks=[('staff-padding', 7)],
+        ),
+    (stirrings_still.desynchronization(4, [1], rests=([2], 3)), 0),
+    (stirrings_still.desynchronization(4, rests=([2], 3)), 1),
+    (stirrings_still.desynchronization(4, [2], rests=([2], 3)), 2),
+    (stirrings_still.desynchronization(4, [-1], rests=([2], 3)), 3),
+    )
+
+maker(
+    ('tutti', (24, 27)),
+    baca.dynamic('p', redundant=True),
+    baca.text_spanner(
+        baca.markup('8” circles'),
+        leak=True,
+        right_padding=3.25,
+        tweaks=[('staff-padding', 4)],
+        ),
+    baca.text_spanner(
+        baca.markup.boxed('damp'),
+        leak=True,
+        lilypond_id=1,
+        right_padding=3.25,
+        tweaks=[('staff-padding', 7)],
+        ),
+    (stirrings_still.desynchronization(4, [1]), 0),
+    (stirrings_still.desynchronization(4), 1),
+    (stirrings_still.desynchronization(4, [2]), 2),
+    (stirrings_still.desynchronization(4, [-1]), 3),
+    )
