@@ -75,3 +75,5 @@ TO-DO
 
 11. Add welformedness check for multiple text spanners with same LilyPond ID
     attaching to same leaf.
+
+12. Fix clocktick edgecase notation.
