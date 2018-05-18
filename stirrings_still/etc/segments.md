@@ -959,7 +959,6 @@ SEGMENTS
             mp governs stage;
     cut-off;
     all sound ends immediately following clockticks (29);
-    counted rest to build expectation before reentering circles;
 
     [C.8] (30-33 + [34-35])
     (circles resume)

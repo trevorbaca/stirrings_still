@@ -5155,18 +5155,36 @@ C_ViolinIMusicVoice = {
     }
     
     % [C ViolinIMusicVoice measure 157 / measure 28]             %! SM4
-    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
-    <<
-        \tweak NoteHead.no-ledgers ##t
-        \tweak NoteHead.transparent ##t
-        \tweak Dots.transparent ##t
-        c'1 * 3/4
-    \\
-    R1 * 3/4
-    >>
-    
-    % [C ViolinIMusicVoice measure 158 / measure 29]             %! SM4
-    R1 * 5/12
+    \override NoteHead.style = #'harmonic                        %! OC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2.
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                \override                                        %! IC
+                    #'(box-padding . 0.5)                        %! IC
+                    \box                                         %! IC
+                        \column                                  %! IC
+                            {                                    %! IC
+                                "[clouded pane:"                 %! IC
+                                "shin. beacon]"                  %! IC
+                            }                                    %! IC
+        }                                                        %! IC
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3 {
+        
+        % [C ViolinIMusicVoice measure 158 / measure 29]         %! SM4
+        \makeBlue                                                %! SM24
+        c'2
+        \repeatTie
+        
+        \makeBlue                                                %! SM24
+        c'8
+        \repeatTie
+        \revert NoteHead.style                                   %! OC2
+    }
     
     % [C ViolinIMusicVoice measure 159 / measure 30]             %! SM4
     R1 * 3/4
@@ -6108,8 +6126,82 @@ C_ViolinIIMusicVoice = {
     c'4
     <> \stopTextSpan
     <> \stopTextSpanOne
+    \times 2/3 {
+        
+        % [C ViolinIIMusicVoice measure 157 / measure 28]        %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \makeBlue                                                %! SM24
+        c'8
+        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            \override
+                                #'(box-padding . 0.5)
+                                \box
+                                    "damp + 1/2 clt"
+                    \hspace
+                        #0.5
+                }
+            }
+        - \tweak dash-fraction 0.25
+        - \tweak dash-period 1.5
+        - \tweak bound-details.left-broken.text ##f
+        - \tweak bound-details.left.stencil-align-dir-y 0
+        - \tweak bound-details.right-broken.arrow ##f
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 3.25
+        - \tweak bound-details.right.text \markup {
+            \draw-line
+                #'(0 . -1)
+            }
+        - \tweak staff-padding #7
+        \startTextSpanOne
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    [clockticks]                                 %! IC
+            }                                                    %! IC
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \times 2/3 {
+        
+        % [C ViolinIIMusicVoice measure 158 / measure 29]        %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        
+        r4
+    }
+    \tweak edge-height #'(0.7 . 0)
+    \times 8/9 {
+        
+        \makeBlue                                                %! SM24
+        c'16
+        
+        r8
+        <> \stopTextSpanOne
+    }
     
-    % [C ViolinIIMusicVoice measure 157 / measure 28]            %! SM4
+    % [C ViolinIIMusicVoice measure 159 / measure 30]            %! SM4
     \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
     <<
         \tweak NoteHead.no-ledgers ##t
@@ -6119,12 +6211,6 @@ C_ViolinIIMusicVoice = {
     \\
     R1 * 3/4
     >>
-    
-    % [C ViolinIIMusicVoice measure 158 / measure 29]            %! SM4
-    R1 * 5/12
-    
-    % [C ViolinIIMusicVoice measure 159 / measure 30]            %! SM4
-    R1 * 3/4
     
     % [C ViolinIIMusicVoice measure 160 / measure 31]            %! SM4
     R1 * 1
@@ -7248,18 +7334,36 @@ C_ViolaMusicVoice = {
     <> \stopTextSpanOne
     
     % [C ViolaMusicVoice measure 157 / measure 28]               %! SM4
-    \voices "ViolaMusicVoice", "MultimeasureRestVoice"
-    <<
-        \tweak NoteHead.no-ledgers ##t
-        \tweak NoteHead.transparent ##t
-        \tweak Dots.transparent ##t
-        c'1 * 3/4
-    \\
-    R1 * 3/4
-    >>
-    
-    % [C ViolaMusicVoice measure 158 / measure 29]               %! SM4
-    R1 * 5/12
+    \override NoteHead.style = #'harmonic                        %! OC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2.
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                \override                                        %! IC
+                    #'(box-padding . 0.5)                        %! IC
+                    \box                                         %! IC
+                        \column                                  %! IC
+                            {                                    %! IC
+                                "[clouded pane:"                 %! IC
+                                "shin. beacon]"                  %! IC
+                            }                                    %! IC
+        }                                                        %! IC
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3 {
+        
+        % [C ViolaMusicVoice measure 158 / measure 29]           %! SM4
+        \makeBlue                                                %! SM24
+        c'2
+        \repeatTie
+        
+        \makeBlue                                                %! SM24
+        c'8
+        \repeatTie
+        \revert NoteHead.style                                   %! OC2
+    }
     
     % [C ViolaMusicVoice measure 159 / measure 30]               %! SM4
     R1 * 3/4
@@ -8150,18 +8254,36 @@ C_CelloMusicVoice = {
     }
     
     % [C CelloMusicVoice measure 157 / measure 28]               %! SM4
-    \voices "CelloMusicVoice", "MultimeasureRestVoice"
-    <<
-        \tweak NoteHead.no-ledgers ##t
-        \tweak NoteHead.transparent ##t
-        \tweak Dots.transparent ##t
-        c'1 * 3/4
-    \\
-    R1 * 3/4
-    >>
-    
-    % [C CelloMusicVoice measure 158 / measure 29]               %! SM4
-    R1 * 5/12
+    \override NoteHead.style = #'harmonic                        %! OC1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'2.
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                \override                                        %! IC
+                    #'(box-padding . 0.5)                        %! IC
+                    \box                                         %! IC
+                        \column                                  %! IC
+                            {                                    %! IC
+                                "[clouded pane:"                 %! IC
+                                "shin. beacon]"                  %! IC
+                            }                                    %! IC
+        }                                                        %! IC
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3 {
+        
+        % [C CelloMusicVoice measure 158 / measure 29]           %! SM4
+        \makeBlue                                                %! SM24
+        c'2
+        \repeatTie
+        
+        \makeBlue                                                %! SM24
+        c'8
+        \repeatTie
+        \revert NoteHead.style                                   %! OC2
+    }
     
     % [C CelloMusicVoice measure 159 / measure 30]               %! SM4
     R1 * 3/4
