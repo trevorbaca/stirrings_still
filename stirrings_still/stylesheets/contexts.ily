@@ -58,7 +58,7 @@
         \accepts GlobalRests
         \accepts PageLayout
 
-        % remove after segment construction:
+        % hide in score:
         \override BarNumber.break-visibility = #end-of-line-invisible
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
@@ -196,9 +196,8 @@
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 
         autoBeaming = ##f
-        % reactivate after segment construction:
+        % activate in score
         %barNumberFormatter = #format-oval-barnumbers
-        %barNumberVisibility = #(every-nth-bar-number-visible 1)
         markFormatter = #format-mark-box-alphabet
         proportionalNotationDuration = #(ly:make-moment 1 24)
         tupletFullLength = ##t
