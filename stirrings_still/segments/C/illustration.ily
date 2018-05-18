@@ -4284,7 +4284,6 @@ C_ViolinIMusicVoice = {
     c'8.
     \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     [
-    - \tweak staff-padding #7
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -4311,6 +4310,7 @@ C_ViolinIMusicVoice = {
         \draw-line
             #'(0 . -1)
         }
+    - \tweak staff-padding #7
     \startTextSpan
     ^ \markup {
         \column
@@ -4471,7 +4471,6 @@ C_ViolinIMusicVoice = {
         \makeBlue                                                %! SM24
         c'4
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak staff-padding #7
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -4498,6 +4497,7 @@ C_ViolinIMusicVoice = {
             \draw-line
                 #'(0 . -1)
             }
+        - \tweak staff-padding #7
         \startTextSpan
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -4627,6 +4627,7 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.right-broken.text ##f                 %! PWC1
     - \tweak bound-details.right.padding 0.5                     %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
+    - \tweak staff-padding #4                                    %! PWC1
     \startTextSpan                                               %! PWC1
     
     r8.
@@ -4675,6 +4676,7 @@ C_ViolinIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f             %! PWC1
         - \tweak bound-details.right.padding 1.5                 %! PWC1
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak staff-padding #4                                %! PWC1
         \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
@@ -4926,7 +4928,6 @@ C_ViolinIIMusicVoice = {
     \makeBlue                                                    %! SM24
     c'4
     \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak staff-padding #7
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -4953,6 +4954,7 @@ C_ViolinIIMusicVoice = {
         \draw-line
             #'(0 . -1)
         }
+    - \tweak staff-padding #7
     \startTextSpan
     ^ \markup {
         \column
@@ -5097,7 +5099,6 @@ C_ViolinIIMusicVoice = {
     f'4
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
-    - \tweak staff-padding #7
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -5124,6 +5125,7 @@ C_ViolinIIMusicVoice = {
         \draw-line
             #'(0 . -1)
         }
+    - \tweak staff-padding #7
     \startTextSpan
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -5238,6 +5240,7 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.right-broken.text ##f                 %! PWC1
     - \tweak bound-details.right.padding 0.5                     %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
+    - \tweak staff-padding #4                                    %! PWC1
     \startTextSpan                                               %! PWC1
     
     r4
@@ -5277,6 +5280,7 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.right-broken.text ##f                 %! PWC1
     - \tweak bound-details.right.padding 1.5                     %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
+    - \tweak staff-padding #4                                    %! PWC1
     \startTextSpan                                               %! PWC1
     
     \makeBlue                                                    %! SM24
@@ -5522,7 +5526,6 @@ C_ViolaMusicVoice = {
         \makeBlue                                                %! SM24
         c'4
         \effort_ff                                               %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak staff-padding #7
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -5549,6 +5552,7 @@ C_ViolaMusicVoice = {
             \draw-line
                 #'(0 . -1)
             }
+        - \tweak staff-padding #7
         \startTextSpan
         ^ \markup {
             \column
@@ -5721,7 +5725,6 @@ C_ViolaMusicVoice = {
         \makeBlue                                                %! SM24
         c'4
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak staff-padding #7
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -5748,6 +5751,7 @@ C_ViolaMusicVoice = {
             \draw-line
                 #'(0 . -1)
             }
+        - \tweak staff-padding #7
         \startTextSpan
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -5889,6 +5893,7 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.right-broken.text ##f             %! PWC1
         - \tweak bound-details.right.padding 0.5                 %! PWC1
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak staff-padding #4                                %! PWC1
         \startTextSpan                                           %! PWC1
         
         r4
@@ -5943,6 +5948,7 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.right-broken.text ##f             %! PWC1
         - \tweak bound-details.right.padding 1.5                 %! PWC1
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak staff-padding #4                                %! PWC1
         \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
@@ -6199,7 +6205,6 @@ C_CelloMusicVoice = {
     \makeBlue                                                    %! SM24
     c'4.
     \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak staff-padding #7
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -6226,6 +6231,7 @@ C_CelloMusicVoice = {
         \draw-line
             #'(0 . -1)
         }
+    - \tweak staff-padding #7
     \startTextSpan
     ^ \markup {
         \column
@@ -6333,7 +6339,6 @@ C_CelloMusicVoice = {
         \makeBlue                                                %! SM24
         c'4
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak staff-padding #7
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -6360,6 +6365,7 @@ C_CelloMusicVoice = {
             \draw-line
                 #'(0 . -1)
             }
+        - \tweak staff-padding #7
         \startTextSpan
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -6465,6 +6471,7 @@ C_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f                 %! PWC1
     - \tweak bound-details.right.padding 0.5                     %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
+    - \tweak staff-padding #4                                    %! PWC1
     \startTextSpan                                               %! PWC1
     
     r4.
@@ -6504,6 +6511,7 @@ C_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f             %! PWC1
         - \tweak bound-details.right.padding 1.5                 %! PWC1
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak staff-padding #4                                %! PWC1
         \startTextSpan                                           %! PWC1
         
         \makeBlue                                                %! SM24
