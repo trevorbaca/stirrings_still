@@ -4629,6 +4629,34 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
     - \tweak staff-padding #4                                    %! PWC1
     \startTextSpan                                               %! PWC1
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                damp
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 3.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #7
+    \startTextSpanOne
     
     r8.
     
@@ -4657,6 +4685,9 @@ C_ViolinIMusicVoice = {
         
         % [C ViolinIMusicVoice measure 143 / measure 14]         %! SM4
         r4
+        
+        \makeBlue                                                %! SM24
+        c'4
         \stopTextSpan                                            %! PWC1
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
@@ -4678,9 +4709,6 @@ C_ViolinIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         - \tweak staff-padding #4                                %! PWC1
         \startTextSpan                                           %! PWC1
-        
-        \makeBlue                                                %! SM24
-        c'4
         
         r4
         
@@ -4707,10 +4735,19 @@ C_ViolinIMusicVoice = {
         \stopTextSpan                                            %! PWC1
         
         r4
+        <> \stopTextSpanOne
     }
     
     % [C ViolinIMusicVoice measure 145 / measure 16]             %! SM4
+    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 3/4
+    \\
     R1 * 3/4
+    >>
     
     % [C ViolinIMusicVoice measure 146 / measure 17]             %! SM4
     R1 * 1
@@ -5242,6 +5279,34 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
     - \tweak staff-padding #4                                    %! PWC1
     \startTextSpan                                               %! PWC1
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                damp
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 3.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #7
+    \startTextSpanOne
     
     r4
     
@@ -5261,6 +5326,9 @@ C_ViolinIIMusicVoice = {
     
     % [C ViolinIIMusicVoice measure 143 / measure 14]            %! SM4
     r4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     \stopTextSpan                                                %! PWC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -5283,9 +5351,6 @@ C_ViolinIIMusicVoice = {
     - \tweak staff-padding #4                                    %! PWC1
     \startTextSpan                                               %! PWC1
     
-    \makeBlue                                                    %! SM24
-    c'4
-    
     r4
     
     \makeBlue                                                    %! SM24
@@ -5304,9 +5369,18 @@ C_ViolinIIMusicVoice = {
     \stopTextSpan                                                %! PWC1
     
     r4
+    <> \stopTextSpanOne
     
     % [C ViolinIIMusicVoice measure 145 / measure 16]            %! SM4
+    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 3/4
+    \\
     R1 * 3/4
+    >>
     
     % [C ViolinIIMusicVoice measure 146 / measure 17]            %! SM4
     R1 * 1
@@ -5895,6 +5969,34 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         - \tweak staff-padding #4                                %! PWC1
         \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
+            \concat
+                {
+                    \whiteout
+                        \upright
+                            \override
+                                #'(box-padding . 0.5)
+                                \box
+                                    damp
+                    \hspace
+                        #0.5
+                }
+            }
+        - \tweak dash-fraction 0.25
+        - \tweak dash-period 1.5
+        - \tweak bound-details.left-broken.text ##f
+        - \tweak bound-details.left.stencil-align-dir-y 0
+        - \tweak bound-details.right-broken.arrow ##f
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 3.25
+        - \tweak bound-details.right.text \markup {
+            \draw-line
+                #'(0 . -1)
+            }
+        - \tweak staff-padding #7
+        \startTextSpanOne
         
         r4
         
@@ -5929,6 +6031,9 @@ C_ViolaMusicVoice = {
         
         % [C ViolaMusicVoice measure 143 / measure 14]           %! SM4
         r4
+        
+        \makeBlue                                                %! SM24
+        c'4
         \stopTextSpan                                            %! PWC1
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
@@ -5950,9 +6055,6 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         - \tweak staff-padding #4                                %! PWC1
         \startTextSpan                                           %! PWC1
-        
-        \makeBlue                                                %! SM24
-        c'4
         
         r4
         
@@ -5984,10 +6086,19 @@ C_ViolaMusicVoice = {
         \stopTextSpan                                            %! PWC1
         
         r4
+        <> \stopTextSpanOne
     }
     
     % [C ViolaMusicVoice measure 145 / measure 16]               %! SM4
+    \voices "ViolaMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 3/4
+    \\
     R1 * 3/4
+    >>
     
     % [C ViolaMusicVoice measure 146 / measure 17]               %! SM4
     R1 * 1
@@ -6473,6 +6584,34 @@ C_CelloMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
     - \tweak staff-padding #4                                    %! PWC1
     \startTextSpan                                               %! PWC1
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                damp
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 3.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #7
+    \startTextSpanOne
     
     r4.
     \tweak text #tuplet-number::calc-fraction-text
@@ -6492,6 +6631,9 @@ C_CelloMusicVoice = {
         
         % [C CelloMusicVoice measure 143 / measure 14]           %! SM4
         r4
+        
+        \makeBlue                                                %! SM24
+        c'4
         \stopTextSpan                                            %! PWC1
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
@@ -6514,9 +6656,6 @@ C_CelloMusicVoice = {
         - \tweak staff-padding #4                                %! PWC1
         \startTextSpan                                           %! PWC1
         
-        \makeBlue                                                %! SM24
-        c'4
-        
         r4
         
         \makeBlue                                                %! SM24
@@ -6533,10 +6672,19 @@ C_CelloMusicVoice = {
         \stopTextSpan                                            %! PWC1
         
         r4
+        <> \stopTextSpanOne
     }
     
     % [C CelloMusicVoice measure 145 / measure 16]               %! SM4
+    \voices "CelloMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 3/4
+    \\
     R1 * 3/4
+    >>
     
     % [C CelloMusicVoice measure 146 / measure 17]               %! SM4
     R1 * 1
