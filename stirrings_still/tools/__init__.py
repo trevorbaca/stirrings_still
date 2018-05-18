@@ -24,6 +24,7 @@ from .rasp import rasp
 from .second_order_stages import second_order_stages
 from .stage_markup import stage_markup
 from .strokes import strokes
+from .synchronized_circles import synchronized_circles
 from .tailpiece import tailpiece
 from .taper import taper
 from .time import time

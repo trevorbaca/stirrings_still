@@ -970,7 +970,7 @@ SEGMENTS
         maximally wide circles resume;
         synchronization begins:
             one circle at a time followed by rest;
-            rhythm 3 2r 3 2r 3 2r 3 1(!)r 3 2r ...;
+            rhythm 3 2r 3 2r 3 2r 3 1r (!) 3 2r ...;
         mf > pp governs stage;
     surprisingly short breath;
         >>[D.9 (clouded pane) 1-2/4] prolongs [C.8] breath<< (34-35):
