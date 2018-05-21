@@ -4365,7 +4365,7 @@ D_ViolinIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     R1 * 5/8
-    \mf                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
+    \ff                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
             {
@@ -4585,10 +4585,10 @@ D_ViolinIMusicVoice = {
     R1 * 3/4
     
     % [D ViolinIMusicVoice measure 238 / measure 32]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'4.
-    \mf                                                          %! SM8:REDUNDANT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     
     \makeBlue                                                    %! SM24
     c'8
@@ -4857,7 +4857,7 @@ D_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \makeBlue                                                    %! SM24
     c'2
-    \mf                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
+    \ff                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
     \glissando                                                   %! SC
     ^ \markup {
         \column
@@ -5106,10 +5106,10 @@ D_ViolinIIMusicVoice = {
     R1 * 3/4
     
     % [D ViolinIIMusicVoice measure 237 / measure 31]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'2
-    \mf                                                          %! SM8:REDUNDANT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
     
     \makeBlue                                                    %! SM24
@@ -5390,7 +5390,7 @@ D_ViolaMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     R1 * 5/8
-    \mf                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
+    \ff                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
             {
@@ -5673,10 +5673,10 @@ D_ViolaMusicVoice = {
     c'8
     
     % [D ViolaMusicVoice measure 237 / measure 31]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'2
-    \mf                                                          %! SM8:REDUNDANT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
     
     \makeBlue                                                    %! SM24
@@ -5981,7 +5981,7 @@ D_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \makeBlue                                                    %! SM24
     c'2
-    \mf                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
+    \ff                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
     \glissando                                                   %! SC
     ^ \markup {
         \column
@@ -6255,10 +6255,10 @@ D_CelloMusicVoice = {
     R1 * 3/4
     
     % [D CelloMusicVoice measure 238 / measure 32]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'4.
-    \mf                                                          %! SM8:REDUNDANT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     
     \makeBlue                                                    %! SM24
     c'8

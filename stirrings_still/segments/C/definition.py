@@ -299,9 +299,9 @@ maker(
     stirrings_still.clouded_pane(),
     )
 
+# TODO: untie over breath marks
 maker(
-    ('tutti', (36, 39)),
-    baca.hairpin('pp < mf'),
+    ('tutti', (36, 55)),
     baca.text_spanner(
         baca.markup('8” circles'),
         leak=True,
@@ -319,4 +319,31 @@ maker(
     (stirrings_still.synchronized_circles(rotation=-1), 1),
     (stirrings_still.synchronized_circles(rotation=-2), 2),
     (stirrings_still.synchronized_circles(rotation=-3), 3),
+    )
+
+maker(
+    ('tutti', (36, 39)),
+    baca.hairpin('pp < mf'),
+    )
+
+maker(
+    ('tutti', (40, 43)),
+    baca.breathe_after_last(),
+    baca.hairpin('mf > pp'),
+    )
+
+maker(
+    ('tutti', (44, 47)),
+    baca.hairpin('pp < f'),
+    )
+
+maker(
+    ('tutti', (48, 51)),
+    baca.breathe_after_last(),
+    baca.hairpin('f > pp'),
+    )
+
+maker(
+    ('tutti', (52, 55)),
+    baca.hairpin('pp < ff'),
     )
