@@ -24,7 +24,7 @@ def circles(
         beam_divisions_together=True,
         beam_each_division=True,
         )
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_expression=division_expression,
         rhythm_maker=rhythmos.NoteRhythmMaker(
             beam_specifier=beam_specifier,

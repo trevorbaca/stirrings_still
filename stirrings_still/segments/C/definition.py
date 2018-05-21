@@ -287,3 +287,25 @@ maker(
     baca.markup('[clouded pane revelation]'),
     stirrings_still.clouded_pane(),
     )
+
+maker(
+    ('tutti', (36, 39)),
+    baca.hairpin('pp < mf'),
+    baca.text_spanner(
+        baca.markup('8” circles'),
+        leak=True,
+        right_padding=3.25,
+        tweaks=[('staff-padding', 4)],
+        ),
+    baca.text_spanner(
+        baca.markup.boxed('damp'),
+        leak=True,
+        lilypond_id=1,
+        right_padding=3.25,
+        tweaks=[('staff-padding', 7)],
+        ),
+    (stirrings_still.synchronized_circles(rotation=0), 0),
+    (stirrings_still.synchronized_circles(rotation=-1), 1),
+    (stirrings_still.synchronized_circles(rotation=-2), 2),
+    (stirrings_still.synchronized_circles(rotation=-3), 3),
+    )

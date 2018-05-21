@@ -14,7 +14,7 @@ def strokes(rotation=0, division_mask=None):
         division_masks = None
     else:
         division_masks = [division_mask]
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_expression=expression,
         multimeasure_rests=True,
         rhythm_maker=rhythmos.IncisedRhythmMaker(

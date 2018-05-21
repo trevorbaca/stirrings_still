@@ -10,7 +10,7 @@ def grid(stage, rotation=0):
     if stage == 1:
         counts = baca.sequence([1, -3, 1, -3, 1, -2])
         counts = counts.rotate(n=rotation)
-        return baca.RhythmCommand(
+        return baca.rhythm(
             rhythm_maker=rhythmos.TaleaRhythmMaker(
                 talea=rhythmos.Talea(
                     counts=counts,

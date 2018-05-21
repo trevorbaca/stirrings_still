@@ -990,14 +990,14 @@ SEGMENTS
     (4 measures)
     adagio-più-mosso-to-presto accelerando governs stage;
     tutti ellipses continue (as offset-homorhythm white circles):
-        damped lh continues;
+        damped lh resumes after prolongation;
         hair continues;
-        maximally wide circles continue;
-        synchronization continues:
+        maximally wide circles resume:
+        synchronization resumes:
             shared rhythmic background grid;
         offset synchronization begins:
             one circle at a time followed by rest;
-            rhythm 3 2r 3 2r 3 2r 3 1(!)r 3 2r ...;
+            rhythm 3 2r 3 2r 3 2r 3 1r (!) 3 2r ...;
             each player starting at different point in rhythm;
         pp < mf governs stage:
             achieves mf at start of next stage;
