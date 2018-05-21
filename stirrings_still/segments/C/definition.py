@@ -404,3 +404,24 @@ maker(
         ),
     stirrings_still.synchronized_circles(rotation=0)
     )
+
+maker(
+    ('tutti', (71, 76)),
+    baca.hairpin('f > niente'),
+    baca.transition(
+        baca.markup('8” circles'),
+        baca.markup('2” circles'),
+        do_not_bookend=True,
+        selector=baca.group_notes_by_measures([3]),
+        tweaks=[('staff-padding', 4)],
+        ),
+    # TODO: revoice
+    (stirrings_still.desynchronization(4, [1]), 0),
+    (stirrings_still.glissando_interpolation('Bb4', 'G4'), 0),
+    (stirrings_still.desynchronization(4), 1),
+    (stirrings_still.glissando_interpolation('Ab4', 'F4'), 1),
+    (stirrings_still.desynchronization(4, [2]), 2),
+    (stirrings_still.glissando_interpolation('A3', 'B2'), 2),
+    (stirrings_still.desynchronization(4, [-1]), 3),
+    (stirrings_still.glissando_interpolation('G2', 'Bb1'), 3),
+    )
