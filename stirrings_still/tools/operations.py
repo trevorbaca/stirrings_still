@@ -14,7 +14,7 @@ def operations():
 
         >>> operations = stirrings_still.operations()
         >>> len(operations)
-        43
+        47
 
         >>> abjad.f(operations)
         abjad.TypedList(
@@ -206,6 +206,70 @@ def operations():
                         number=8,
                         description='development',
                         ),
+                    ),
+                stirrings_still.Operation(
+                    source_stage=stirrings_still.StageToken(
+                        letter='C',
+                        number=8,
+                        description='process',
+                        length=4,
+                        ),
+                    source_measures=(1, 4),
+                    verb='replace',
+                    target_stage=stirrings_still.StageToken(
+                        letter='C',
+                        number=10,
+                        description='process',
+                        ),
+                    target_site=(1, 4),
+                    ),
+                stirrings_still.Operation(
+                    source_stage=stirrings_still.StageToken(
+                        letter='C',
+                        number=9,
+                        description='process',
+                        length=4,
+                        ),
+                    source_measures=(1, 4),
+                    verb='replace',
+                    target_stage=stirrings_still.StageToken(
+                        letter='C',
+                        number=11,
+                        description='process',
+                        ),
+                    target_site=(1, 4),
+                    ),
+                stirrings_still.Operation(
+                    source_stage=stirrings_still.StageToken(
+                        letter='C',
+                        number=8,
+                        description='process',
+                        length=4,
+                        ),
+                    source_measures=(1, 4),
+                    verb='replace',
+                    target_stage=stirrings_still.StageToken(
+                        letter='C',
+                        number=12,
+                        description='process',
+                        ),
+                    target_site=(1, 4),
+                    ),
+                stirrings_still.Operation(
+                    source_stage=stirrings_still.StageToken(
+                        letter='C',
+                        number=9,
+                        description='process',
+                        length=4,
+                        ),
+                    source_measures=(1, 4),
+                    verb='replace',
+                    target_stage=stirrings_still.StageToken(
+                        letter='C',
+                        number=13,
+                        description='process',
+                        ),
+                    target_site=(1, 4),
                     ),
                 stirrings_still.Operation(
                     source_stage=stirrings_still.StageToken(
@@ -761,6 +825,26 @@ def operations():
             StageToken('D', 9, 'isolatum', 4), (1, 2),
             'suffix',
             StageToken('C', 8, 'development'),
+            ),
+        Operation(
+            StageToken('C', 8, 'process', 4), (1, 4),
+            'replace',
+            StageToken('C', 10, 'process'), (1, 4),
+            ),
+        Operation(
+            StageToken('C', 9, 'process', 4), (1, 4),
+            'replace',
+            StageToken('C', 11, 'process'), (1, 4),
+            ),
+        Operation(
+            StageToken('C', 8, 'process', 4), (1, 4),
+            'replace',
+            StageToken('C', 12, 'process'), (1, 4),
+            ),
+        Operation(
+            StageToken('C', 9, 'process', 4), (1, 4),
+            'replace',
+            StageToken('C', 13, 'process'), (1, 4),
             ),
         Operation(
             StageToken('J', 1, 'clearing', 4), (1, 2),
