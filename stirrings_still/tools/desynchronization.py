@@ -23,7 +23,7 @@ def desynchronization(
         logical_tie_masks = [mask]
     else:
         logical_tie_masks = None
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rhythm_maker=rhythmos.EvenDivisionRhythmMaker(
             denominators=denominators,
             extra_counts_per_division=extra_counts,

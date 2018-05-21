@@ -12,7 +12,7 @@ def grid_to_trajectory():
 
     """
     counts = baca.sequence([1])
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rhythm_maker=rhythmos.TaleaRhythmMaker(
             talea=rhythmos.Talea(
                 counts=counts,

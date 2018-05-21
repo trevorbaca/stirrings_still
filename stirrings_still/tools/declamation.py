@@ -7,7 +7,7 @@ def declamation():
     """
     Makes declamatory rhythm.
     """
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rhythm_maker=rhythmos.TupletRhythmMaker(
             tuplet_ratios=[(2, 1)],
             tuplet_specifier=rhythmos.TupletSpecifier(

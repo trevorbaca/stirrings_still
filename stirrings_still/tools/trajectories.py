@@ -20,7 +20,7 @@ def trajectories(counts='A', rotation=0, extra_counts_rotation=0):
         )
     extra_counts = baca.sequence([1, 1, 0, -1])
     extra_counts = extra_counts.rotate(n=extra_counts_rotation)
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rhythm_maker=rhythmos.TaleaRhythmMaker(
             extra_counts_per_division=extra_counts,
             talea=talea,

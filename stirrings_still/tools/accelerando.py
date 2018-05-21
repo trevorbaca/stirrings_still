@@ -17,7 +17,7 @@ def accelerando(
     else:
         logical_tie_masks = None
 
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_expression=baca.sequence().sum().sequence(),
         rhythm_maker=rhythmos.AccelerandoRhythmMaker(
             beam_specifier=rhythmos.BeamSpecifier(

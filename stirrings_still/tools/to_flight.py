@@ -16,7 +16,7 @@ def to_flight(
         division_masks = None
     else:
         division_masks = [division_mask]
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_expression=baca.split_by_durations(divisions),
         rhythm_maker=rhythmos.AccelerandoRhythmMaker(
             beam_specifier=rhythmos.BeamSpecifier(

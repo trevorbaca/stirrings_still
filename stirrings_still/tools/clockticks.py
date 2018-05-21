@@ -14,7 +14,7 @@ def clockticks(displace=False, division_mask=None, encroach=False):
     if encroach is True:
         assert not displace
     if displace:
-        return baca.RhythmCommand(
+        return baca.rhythm(
             rhythm_maker=rhythmos.TaleaRhythmMaker(
                 division_masks=division_masks,
                 extra_counts_per_division=[1],
@@ -29,7 +29,7 @@ def clockticks(displace=False, division_mask=None, encroach=False):
             tuplet_ratios = [(2, -1)]
         else:
             tuplet_ratios = [(1, -2)]
-        return baca.RhythmCommand(
+        return baca.rhythm(
             division_expression=baca.split_by_durations([(1, 4)]),
             rhythm_maker=rhythmos.TupletRhythmMaker(
                 division_masks=division_masks,

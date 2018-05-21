@@ -26,7 +26,7 @@ def pickets(fuse, extra_count, division_mask=None):
         division_masks = None
     else:
         division_masks = [division_mask]
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_expression=division_expression,
         rhythm_maker=rhythmos.TupletRhythmMaker(
             division_masks=division_masks,
