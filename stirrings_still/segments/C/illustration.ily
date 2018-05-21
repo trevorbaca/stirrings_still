@@ -5706,10 +5706,7 @@ C_ViolinIMusicVoice = {
             {
                 \whiteout
                     \upright
-                        \override
-                            #'(box-padding . 0.5)
-                            \box
-                                damp
+                        \bacaTripleDiamondMarkup
                 \hspace
                     #0.5
             }
@@ -7065,10 +7062,7 @@ C_ViolinIIMusicVoice = {
             {
                 \whiteout
                     \upright
-                        \override
-                            #'(box-padding . 0.5)
-                            \box
-                                damp
+                        \bacaTripleDiamondMarkup
                 \hspace
                     #0.5
             }
@@ -8571,10 +8565,7 @@ C_ViolaMusicVoice = {
             {
                 \whiteout
                     \upright
-                        \override
-                            #'(box-padding . 0.5)
-                            \box
-                                damp
+                        \bacaTripleDiamondMarkup
                 \hspace
                     #0.5
             }
@@ -9848,10 +9839,7 @@ C_CelloMusicVoice = {
             {
                 \whiteout
                     \upright
-                        \override
-                            #'(box-padding . 0.5)
-                            \box
-                                damp
+                        \bacaTripleDiamondMarkup
                 \hspace
                     #0.5
             }

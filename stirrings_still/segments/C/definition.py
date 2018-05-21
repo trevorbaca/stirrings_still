@@ -309,7 +309,8 @@ maker(
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
-        baca.markup.boxed('damp'),
+        #baca.markup.boxed('damp'),
+        baca.markup(r'\bacaTripleDiamondMarkup', literal=True),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
