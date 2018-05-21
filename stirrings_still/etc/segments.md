@@ -1008,7 +1008,7 @@ SEGMENTS
         adagio più mosso to presto governs stage 11 (44-47);
         adagio meno mosso to allegro governs stage 12 (48-51);
         adagio più mosso to presto governs stage 13 (52-55);
-        tutti circles continue:
+        tutti maximally wide circles continue:
         hair continues;
         offset synchronization continues through all four stages;
         jagged stairstep process in each player independently:
@@ -1019,7 +1019,7 @@ SEGMENTS
             lh 1-finger hamronic subito becomes lh 2-finger harmonic again;
             lh 2-finger harmonic become lh 1-finger harmonic;
             everyone arrives at lh 1-finger harmonic;
-        mf > pp < f > pp < f governs the four stages;
+        mf > pp < f > pp < ff governs the four stages;
     surprisingly short breath after stage 10 (43);
     surprisingly short breath after stage 12 (51);
     attacca after stage 13 (55);

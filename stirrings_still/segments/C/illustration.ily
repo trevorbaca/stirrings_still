@@ -5770,67 +5770,212 @@ C_ViolinIMusicVoice = {
     \mf                                                          %! HC1
     
     r8
+    
+    % [C ViolinIMusicVoice measure 169 / measure 40]             %! SM4
+    r8
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'4.
+    \>                                                           %! HC1
+    \mf                                                          %! HC1
+    
+    r4
+    
+    % [C ViolinIMusicVoice measure 170 / measure 41]             %! SM4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    % [C ViolinIMusicVoice measure 171 / measure 42]             %! SM4
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [C ViolinIMusicVoice measure 172 / measure 43]             %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    \pp                                                          %! HC1
+    
+    % [C ViolinIMusicVoice measure 173 / measure 44]             %! SM4
+    \breathe                                                     %! IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'4
+    \<                                                           %! HC1
+    \pp                                                          %! HC1
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [C ViolinIMusicVoice measure 174 / measure 45]             %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    % [C ViolinIMusicVoice measure 175 / measure 46]             %! SM4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [C ViolinIMusicVoice measure 176 / measure 47]             %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'4.
+    \f                                                           %! HC1
+    
+    r4
+    
+    % [C ViolinIMusicVoice measure 177 / measure 48]             %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'4.
+    \>                                                           %! HC1
+    \f                                                           %! HC1
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [C ViolinIMusicVoice measure 178 / measure 49]             %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    % [C ViolinIMusicVoice measure 179 / measure 50]             %! SM4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    % [C ViolinIMusicVoice measure 180 / measure 51]             %! SM4
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    \pp                                                          %! HC1
+    
+    % [C ViolinIMusicVoice measure 181 / measure 52]             %! SM4
+    \breathe                                                     %! IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'8
+    \<                                                           %! HC1
+    \pp                                                          %! HC1
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    % [C ViolinIMusicVoice measure 182 / measure 53]             %! SM4
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [C ViolinIMusicVoice measure 183 / measure 54]             %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    % [C ViolinIMusicVoice measure 184 / measure 55]             %! SM4
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'8
+    \ff                                                          %! HC1
     <> \stopTextSpan
     <> \stopTextSpanOne
     
-    % [C ViolinIMusicVoice measure 169 / measure 40]             %! SM4
+    % [C ViolinIMusicVoice measure 185 / measure 56]             %! SM4
     \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
     <<
         \tweak NoteHead.no-ledgers ##t
         \tweak NoteHead.transparent ##t
         \tweak Dots.transparent ##t
-        c'1 * 3/4
+        c'1 * 1
     \\
-    R1 * 3/4
+    R1 * 1
     >>
-    
-    % [C ViolinIMusicVoice measure 170 / measure 41]             %! SM4
-    R1 * 1
-    
-    % [C ViolinIMusicVoice measure 171 / measure 42]             %! SM4
-    R1 * 1
-    
-    % [C ViolinIMusicVoice measure 172 / measure 43]             %! SM4
-    R1 * 1
-    
-    % [C ViolinIMusicVoice measure 173 / measure 44]             %! SM4
-    R1 * 3/4
-    
-    % [C ViolinIMusicVoice measure 174 / measure 45]             %! SM4
-    R1 * 1
-    
-    % [C ViolinIMusicVoice measure 175 / measure 46]             %! SM4
-    R1 * 3/4
-    
-    % [C ViolinIMusicVoice measure 176 / measure 47]             %! SM4
-    R1 * 1
-    
-    % [C ViolinIMusicVoice measure 177 / measure 48]             %! SM4
-    R1 * 3/4
-    
-    % [C ViolinIMusicVoice measure 178 / measure 49]             %! SM4
-    R1 * 1
-    
-    % [C ViolinIMusicVoice measure 179 / measure 50]             %! SM4
-    R1 * 1
-    
-    % [C ViolinIMusicVoice measure 180 / measure 51]             %! SM4
-    R1 * 1
-    
-    % [C ViolinIMusicVoice measure 181 / measure 52]             %! SM4
-    R1 * 3/4
-    
-    % [C ViolinIMusicVoice measure 182 / measure 53]             %! SM4
-    R1 * 1
-    
-    % [C ViolinIMusicVoice measure 183 / measure 54]             %! SM4
-    R1 * 3/4
-    
-    % [C ViolinIMusicVoice measure 184 / measure 55]             %! SM4
-    R1 * 1
-    
-    % [C ViolinIMusicVoice measure 185 / measure 56]             %! SM4
-    R1 * 1
     
     % [C ViolinIMusicVoice measure 186 / measure 57]             %! SM4
     R1 * 5/4
@@ -6982,67 +7127,220 @@ C_ViolinIIMusicVoice = {
     \mf                                                          %! HC1
     
     r8
+    
+    % [C ViolinIIMusicVoice measure 169 / measure 40]            %! SM4
+    r8
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'4.
+    \>                                                           %! HC1
+    \mf                                                          %! HC1
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [C ViolinIIMusicVoice measure 170 / measure 41]            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    % [C ViolinIIMusicVoice measure 171 / measure 42]            %! SM4
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [C ViolinIIMusicVoice measure 172 / measure 43]            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    \pp                                                          %! HC1
+    
+    % [C ViolinIIMusicVoice measure 173 / measure 44]            %! SM4
+    \breathe                                                     %! IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'4
+    \<                                                           %! HC1
+    \pp                                                          %! HC1
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [C ViolinIIMusicVoice measure 174 / measure 45]            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [C ViolinIIMusicVoice measure 175 / measure 46]            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [C ViolinIIMusicVoice measure 176 / measure 47]            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'4.
+    \f                                                           %! HC1
+    
+    r4
+    
+    % [C ViolinIIMusicVoice measure 177 / measure 48]            %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'4.
+    \>                                                           %! HC1
+    \f                                                           %! HC1
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [C ViolinIIMusicVoice measure 178 / measure 49]            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    % [C ViolinIIMusicVoice measure 179 / measure 50]            %! SM4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    % [C ViolinIIMusicVoice measure 180 / measure 51]            %! SM4
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    \pp                                                          %! HC1
+    
+    % [C ViolinIIMusicVoice measure 181 / measure 52]            %! SM4
+    \breathe                                                     %! IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'8
+    \<                                                           %! HC1
+    \pp                                                          %! HC1
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    % [C ViolinIIMusicVoice measure 182 / measure 53]            %! SM4
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [C ViolinIIMusicVoice measure 183 / measure 54]            %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    % [C ViolinIIMusicVoice measure 184 / measure 55]            %! SM4
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'8
+    \ff                                                          %! HC1
     <> \stopTextSpan
     <> \stopTextSpanOne
     
-    % [C ViolinIIMusicVoice measure 169 / measure 40]            %! SM4
+    % [C ViolinIIMusicVoice measure 185 / measure 56]            %! SM4
     \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
     <<
         \tweak NoteHead.no-ledgers ##t
         \tweak NoteHead.transparent ##t
         \tweak Dots.transparent ##t
-        c'1 * 3/4
+        c'1 * 1
     \\
-    R1 * 3/4
+    R1 * 1
     >>
-    
-    % [C ViolinIIMusicVoice measure 170 / measure 41]            %! SM4
-    R1 * 1
-    
-    % [C ViolinIIMusicVoice measure 171 / measure 42]            %! SM4
-    R1 * 1
-    
-    % [C ViolinIIMusicVoice measure 172 / measure 43]            %! SM4
-    R1 * 1
-    
-    % [C ViolinIIMusicVoice measure 173 / measure 44]            %! SM4
-    R1 * 3/4
-    
-    % [C ViolinIIMusicVoice measure 174 / measure 45]            %! SM4
-    R1 * 1
-    
-    % [C ViolinIIMusicVoice measure 175 / measure 46]            %! SM4
-    R1 * 3/4
-    
-    % [C ViolinIIMusicVoice measure 176 / measure 47]            %! SM4
-    R1 * 1
-    
-    % [C ViolinIIMusicVoice measure 177 / measure 48]            %! SM4
-    R1 * 3/4
-    
-    % [C ViolinIIMusicVoice measure 178 / measure 49]            %! SM4
-    R1 * 1
-    
-    % [C ViolinIIMusicVoice measure 179 / measure 50]            %! SM4
-    R1 * 1
-    
-    % [C ViolinIIMusicVoice measure 180 / measure 51]            %! SM4
-    R1 * 1
-    
-    % [C ViolinIIMusicVoice measure 181 / measure 52]            %! SM4
-    R1 * 3/4
-    
-    % [C ViolinIIMusicVoice measure 182 / measure 53]            %! SM4
-    R1 * 1
-    
-    % [C ViolinIIMusicVoice measure 183 / measure 54]            %! SM4
-    R1 * 3/4
-    
-    % [C ViolinIIMusicVoice measure 184 / measure 55]            %! SM4
-    R1 * 1
-    
-    % [C ViolinIIMusicVoice measure 185 / measure 56]            %! SM4
-    R1 * 1
     
     % [C ViolinIIMusicVoice measure 186 / measure 57]            %! SM4
     R1 * 5/4
@@ -8335,67 +8633,220 @@ C_ViolaMusicVoice = {
     \mf                                                          %! HC1
     
     r8
+    
+    % [C ViolaMusicVoice measure 169 / measure 40]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'4.
+    \>                                                           %! HC1
+    \mf                                                          %! HC1
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [C ViolaMusicVoice measure 170 / measure 41]               %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    % [C ViolaMusicVoice measure 171 / measure 42]               %! SM4
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    % [C ViolaMusicVoice measure 172 / measure 43]               %! SM4
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    \pp                                                          %! HC1
+    
+    % [C ViolaMusicVoice measure 173 / measure 44]               %! SM4
+    \breathe                                                     %! IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'4
+    \<                                                           %! HC1
+    \pp                                                          %! HC1
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [C ViolaMusicVoice measure 174 / measure 45]               %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [C ViolaMusicVoice measure 175 / measure 46]               %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [C ViolaMusicVoice measure 176 / measure 47]               %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    \f                                                           %! HC1
+    
+    % [C ViolaMusicVoice measure 177 / measure 48]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'4
+    \>                                                           %! HC1
+    \f                                                           %! HC1
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [C ViolaMusicVoice measure 178 / measure 49]               %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    % [C ViolaMusicVoice measure 179 / measure 50]               %! SM4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    % [C ViolaMusicVoice measure 180 / measure 51]               %! SM4
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    \pp                                                          %! HC1
+    
+    % [C ViolaMusicVoice measure 181 / measure 52]               %! SM4
+    \breathe                                                     %! IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'8
+    \<                                                           %! HC1
+    \pp                                                          %! HC1
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    % [C ViolaMusicVoice measure 182 / measure 53]               %! SM4
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [C ViolaMusicVoice measure 183 / measure 54]               %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    % [C ViolaMusicVoice measure 184 / measure 55]               %! SM4
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'4
+    \ff                                                          %! HC1
     <> \stopTextSpan
     <> \stopTextSpanOne
     
-    % [C ViolaMusicVoice measure 169 / measure 40]               %! SM4
+    % [C ViolaMusicVoice measure 185 / measure 56]               %! SM4
     \voices "ViolaMusicVoice", "MultimeasureRestVoice"
     <<
         \tweak NoteHead.no-ledgers ##t
         \tweak NoteHead.transparent ##t
         \tweak Dots.transparent ##t
-        c'1 * 3/4
+        c'1 * 1
     \\
-    R1 * 3/4
+    R1 * 1
     >>
-    
-    % [C ViolaMusicVoice measure 170 / measure 41]               %! SM4
-    R1 * 1
-    
-    % [C ViolaMusicVoice measure 171 / measure 42]               %! SM4
-    R1 * 1
-    
-    % [C ViolaMusicVoice measure 172 / measure 43]               %! SM4
-    R1 * 1
-    
-    % [C ViolaMusicVoice measure 173 / measure 44]               %! SM4
-    R1 * 3/4
-    
-    % [C ViolaMusicVoice measure 174 / measure 45]               %! SM4
-    R1 * 1
-    
-    % [C ViolaMusicVoice measure 175 / measure 46]               %! SM4
-    R1 * 3/4
-    
-    % [C ViolaMusicVoice measure 176 / measure 47]               %! SM4
-    R1 * 1
-    
-    % [C ViolaMusicVoice measure 177 / measure 48]               %! SM4
-    R1 * 3/4
-    
-    % [C ViolaMusicVoice measure 178 / measure 49]               %! SM4
-    R1 * 1
-    
-    % [C ViolaMusicVoice measure 179 / measure 50]               %! SM4
-    R1 * 1
-    
-    % [C ViolaMusicVoice measure 180 / measure 51]               %! SM4
-    R1 * 1
-    
-    % [C ViolaMusicVoice measure 181 / measure 52]               %! SM4
-    R1 * 3/4
-    
-    % [C ViolaMusicVoice measure 182 / measure 53]               %! SM4
-    R1 * 1
-    
-    % [C ViolaMusicVoice measure 183 / measure 54]               %! SM4
-    R1 * 3/4
-    
-    % [C ViolaMusicVoice measure 184 / measure 55]               %! SM4
-    R1 * 1
-    
-    % [C ViolaMusicVoice measure 185 / measure 56]               %! SM4
-    R1 * 1
     
     % [C ViolaMusicVoice measure 186 / measure 57]               %! SM4
     R1 * 5/4
@@ -9459,67 +9910,220 @@ C_CelloMusicVoice = {
     \mf                                                          %! HC1
     
     r4
+    
+    % [C CelloMusicVoice measure 169 / measure 40]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'4.
+    \>                                                           %! HC1
+    \mf                                                          %! HC1
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [C CelloMusicVoice measure 170 / measure 41]               %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    % [C CelloMusicVoice measure 171 / measure 42]               %! SM4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    % [C CelloMusicVoice measure 172 / measure 43]               %! SM4
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    \pp                                                          %! HC1
+    
+    % [C CelloMusicVoice measure 173 / measure 44]               %! SM4
+    \breathe                                                     %! IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'4
+    \<                                                           %! HC1
+    \pp                                                          %! HC1
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    % [C CelloMusicVoice measure 174 / measure 45]               %! SM4
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [C CelloMusicVoice measure 175 / measure 46]               %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [C CelloMusicVoice measure 176 / measure 47]               %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    \f                                                           %! HC1
+    
+    % [C CelloMusicVoice measure 177 / measure 48]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'4
+    \>                                                           %! HC1
+    \f                                                           %! HC1
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [C CelloMusicVoice measure 178 / measure 49]               %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
+    
+    % [C CelloMusicVoice measure 179 / measure 50]               %! SM4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    % [C CelloMusicVoice measure 180 / measure 51]               %! SM4
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    \pp                                                          %! HC1
+    
+    % [C CelloMusicVoice measure 181 / measure 52]               %! SM4
+    \breathe                                                     %! IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \makeBlue                                                    %! SM24
+    c'8
+    \<                                                           %! HC1
+    \pp                                                          %! HC1
+    
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r8
+    
+    % [C CelloMusicVoice measure 182 / measure 53]               %! SM4
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    ~
+    
+    % [C CelloMusicVoice measure 183 / measure 54]               %! SM4
+    \makeBlue                                                    %! SM24
+    c'8
+    
+    r4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    % [C CelloMusicVoice measure 184 / measure 55]               %! SM4
+    r8
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    r4
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \makeBlue                                                    %! SM24
+    c'4
+    \ff                                                          %! HC1
     <> \stopTextSpan
     <> \stopTextSpanOne
     
-    % [C CelloMusicVoice measure 169 / measure 40]               %! SM4
+    % [C CelloMusicVoice measure 185 / measure 56]               %! SM4
     \voices "CelloMusicVoice", "MultimeasureRestVoice"
     <<
         \tweak NoteHead.no-ledgers ##t
         \tweak NoteHead.transparent ##t
         \tweak Dots.transparent ##t
-        c'1 * 3/4
+        c'1 * 1
     \\
-    R1 * 3/4
+    R1 * 1
     >>
-    
-    % [C CelloMusicVoice measure 170 / measure 41]               %! SM4
-    R1 * 1
-    
-    % [C CelloMusicVoice measure 171 / measure 42]               %! SM4
-    R1 * 1
-    
-    % [C CelloMusicVoice measure 172 / measure 43]               %! SM4
-    R1 * 1
-    
-    % [C CelloMusicVoice measure 173 / measure 44]               %! SM4
-    R1 * 3/4
-    
-    % [C CelloMusicVoice measure 174 / measure 45]               %! SM4
-    R1 * 1
-    
-    % [C CelloMusicVoice measure 175 / measure 46]               %! SM4
-    R1 * 3/4
-    
-    % [C CelloMusicVoice measure 176 / measure 47]               %! SM4
-    R1 * 1
-    
-    % [C CelloMusicVoice measure 177 / measure 48]               %! SM4
-    R1 * 3/4
-    
-    % [C CelloMusicVoice measure 178 / measure 49]               %! SM4
-    R1 * 1
-    
-    % [C CelloMusicVoice measure 179 / measure 50]               %! SM4
-    R1 * 1
-    
-    % [C CelloMusicVoice measure 180 / measure 51]               %! SM4
-    R1 * 1
-    
-    % [C CelloMusicVoice measure 181 / measure 52]               %! SM4
-    R1 * 3/4
-    
-    % [C CelloMusicVoice measure 182 / measure 53]               %! SM4
-    R1 * 1
-    
-    % [C CelloMusicVoice measure 183 / measure 54]               %! SM4
-    R1 * 3/4
-    
-    % [C CelloMusicVoice measure 184 / measure 55]               %! SM4
-    R1 * 1
-    
-    % [C CelloMusicVoice measure 185 / measure 56]               %! SM4
-    R1 * 1
     
     % [C CelloMusicVoice measure 186 / measure 57]               %! SM4
     R1 * 5/4
