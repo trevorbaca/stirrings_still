@@ -1,16 +1,16 @@
 TO-DO
 =====
 
-1.  Extend RhythmCommand rhythm-maker property.
+1.  Extend baca.rhythm(rhythm-maker, ...) argument.
     Accept iterable of (rhythm-maker, pattern) pairs.
-        baca.RhythmCommand(
-            division_expression=division_expression,
-            rhythm_maker=[
-                (pattern_1, rhythm_maker_1),
-                (pattern_2, rhythm_maker_2),
+        baca.rhythm(
+            [
+                (rhythm_maker_1, pattern_1),
+                (rhythm_maker_2, pattern_2),
                 ...
-                (pattern_n, rhythm_maker_n),
+                (rhythm_maker_n, pattern_n),
                 ],
+            division_expression=division_expression,
             )
      
 2.  In addition to ...
