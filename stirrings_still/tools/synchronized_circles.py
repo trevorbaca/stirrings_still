@@ -3,13 +3,15 @@ import baca
 from abjad import rhythmos
 
 
-def synchronized_circles(rests=None, rotation=0):
+def synchronized_circles(gaps=True, rests=None, rotation=0):
     """
     Makes rhythm for synchronized circles.
     """
     counts = baca.sequence([3, -2, 3, -2, 3, -2, 3, -1])
     rotation *= 2
     counts = counts.rotate(n=rotation)
+    if not gaps:
+        counts = [abs(_) for _ in counts]
     if rests is None:
         logical_tie_masks = None
     elif isinstance(rests, list):
