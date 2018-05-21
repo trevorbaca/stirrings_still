@@ -1004,7 +1004,10 @@ SEGMENTS
     attacca;
 
     [C.10-13] = 2 x [C.8-9] (40-43, 44-47, 48-51, 52-55)
-        adagio più mosso governs all stages;
+        adagio meno mosso to allegro governs stage 10 (40-43);
+        adagio più mosso to presto governs stage 11 (44-47);
+        adagio meno mosso to allegro governs stage 12 (48-51);
+        adagio più mosso to presto governs stage 13 (52-55);
         tutti circles continue:
         hair continues;
         offset synchronization continues through all four stages;
@@ -1017,7 +1020,9 @@ SEGMENTS
             lh 2-finger harmonic become lh 1-finger harmonic;
             everyone arrives at lh 1-finger harmonic;
         mf > pp < f > pp < f governs the four stages;
-    attacca;
+    surprisingly short breath after stage 10 (43);
+    surprisingly short breath after stage 12 (51);
+    attacca after stage 13 (55);
 
     [C.14] (56-59 + [60-61])
     (4 measures)

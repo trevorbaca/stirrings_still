@@ -896,10 +896,28 @@ def second_order_stages(segment):
                         stage_number=10,
                         measure_numbers=[40, 41, 42, 43],
                         time_signatures=[
-                            abjad.TimeSignature((5, 4)),
-                            abjad.TimeSignature((6, 4)),
-                            abjad.TimeSignature((6, 4)),
                             abjad.TimeSignature((3, 4)),
+                            abjad.TimeSignature((4, 4)),
+                            abjad.TimeSignature((4, 4)),
+                            abjad.TimeSignature((4, 4)),
+                            ],
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='C',
+                                    number=8,
+                                    description='process',
+                                    length=4,
+                                    ),
+                                source_measures=(1, 4),
+                                verb='replace',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='C',
+                                    number=10,
+                                    description='process',
+                                    ),
+                                target_site=(1, 4),
+                                ),
                             ],
                         ),
                     ),
@@ -909,10 +927,28 @@ def second_order_stages(segment):
                         stage_number=11,
                         measure_numbers=[44, 45, 46, 47],
                         time_signatures=[
+                            abjad.TimeSignature((3, 4)),
                             abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((5, 4)),
+                            abjad.TimeSignature((3, 4)),
                             abjad.TimeSignature((4, 4)),
-                            abjad.TimeSignature((4, 4)),
+                            ],
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='C',
+                                    number=9,
+                                    description='process',
+                                    length=4,
+                                    ),
+                                source_measures=(1, 4),
+                                verb='replace',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='C',
+                                    number=11,
+                                    description='process',
+                                    ),
+                                target_site=(1, 4),
+                                ),
                             ],
                         ),
                     ),
@@ -923,9 +959,27 @@ def second_order_stages(segment):
                         measure_numbers=[48, 49, 50, 51],
                         time_signatures=[
                             abjad.TimeSignature((3, 4)),
-                            abjad.TimeSignature((3, 4)),
                             abjad.TimeSignature((4, 4)),
                             abjad.TimeSignature((4, 4)),
+                            abjad.TimeSignature((4, 4)),
+                            ],
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='C',
+                                    number=8,
+                                    description='process',
+                                    length=4,
+                                    ),
+                                source_measures=(1, 4),
+                                verb='replace',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='C',
+                                    number=12,
+                                    description='process',
+                                    ),
+                                target_site=(1, 4),
+                                ),
                             ],
                         ),
                     ),
@@ -935,10 +989,28 @@ def second_order_stages(segment):
                         stage_number=13,
                         measure_numbers=[52, 53, 54, 55],
                         time_signatures=[
-                            abjad.TimeSignature((5, 4)),
-                            abjad.TimeSignature((6, 4)),
                             abjad.TimeSignature((3, 4)),
                             abjad.TimeSignature((4, 4)),
+                            abjad.TimeSignature((3, 4)),
+                            abjad.TimeSignature((4, 4)),
+                            ],
+                        operation=[
+                            stirrings_still.Operation(
+                                source_stage=stirrings_still.StageToken(
+                                    letter='C',
+                                    number=9,
+                                    description='process',
+                                    length=4,
+                                    ),
+                                source_measures=(1, 4),
+                                verb='replace',
+                                target_stage=stirrings_still.StageToken(
+                                    letter='C',
+                                    number=13,
+                                    description='process',
+                                    ),
+                                target_site=(1, 4),
+                                ),
                             ],
                         ),
                     ),
