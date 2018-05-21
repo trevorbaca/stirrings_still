@@ -1016,7 +1016,7 @@ SEGMENTS
             lh 2-finger harmonic subito becomes lh 3-finger damp again;
             lh 3-finger damp subito becomes lh 2-finger harmonic;
             lh 2-finger harmonic become lh 1-finger harmonic;
-            lh 1-finger hamronic subito becomes lh 2-finger harmonic again;
+            lh 1-finger harmonic subito becomes lh 2-finger harmonic again;
             lh 2-finger harmonic become lh 1-finger harmonic;
             everyone arrives at lh 1-finger harmonic;
         mf > pp < f > pp < ff governs the four stages;
@@ -1032,7 +1032,7 @@ SEGMENTS
         continuous sound in all parts (= no rest after any circle);
         gradual harmonic-to-half-harmonic-to-stopped transition independently;
         desynchronization governs stage;
-        f continues until end of stage;
+        ff continues until end of stage;
     surprisingly short breath;
         >>[J.1 (appena clearing) 1-2/4] suffixes [C.14 (conclusion)]<< (60-61):
             >>summons future time<<;
@@ -1049,7 +1049,7 @@ SEGMENTS
     [C.15] (62-63)
     (2 measures)
     largo-to-allegro accelerando governs first half of stage;
-    tutti maximally wide homorhythm circles continue:
+    tutti maximally wide homorhythm circles resume after suffix:
         stopped lh continues;
         hair continues;
         strict synchronization returns:

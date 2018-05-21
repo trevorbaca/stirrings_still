@@ -273,7 +273,7 @@ maker(
 
 maker(
     ('tutti', (30, 33)),
-    baca.breathe_after_last(),
+    baca.breathe_after(),
     baca.hairpin('mf > pp'),
     baca.text_spanner(
         baca.markup('8” circles'),
@@ -293,13 +293,14 @@ maker(
 
 maker(
     ('vc', (34, 35)),
-    baca.breathe_after_last(),
+    baca.breathe_after(),
     baca.dynamic('p'),
     baca.markup('[clouded pane revelation]'),
     stirrings_still.clouded_pane(),
     )
 
 # TODO: untie over breath marks
+# TODO: intermittent triple -> double -> single harmonic
 maker(
     ('tutti', (36, 55)),
     baca.text_spanner(
@@ -309,8 +310,7 @@ maker(
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
-        #baca.markup.boxed('damp'),
-        baca.markup(r'\bacaTripleDiamondMarkup', literal=True),
+        baca.markup('[triple -> double -> single harmonic]'),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
@@ -329,7 +329,7 @@ maker(
 
 maker(
     ('tutti', (40, 43)),
-    baca.breathe_after_last(),
+    baca.breathe_after(),
     baca.hairpin('mf > pp'),
     )
 
@@ -340,11 +340,67 @@ maker(
 
 maker(
     ('tutti', (48, 51)),
-    baca.breathe_after_last(),
+    baca.breathe_after(),
     baca.hairpin('f > pp'),
     )
 
 maker(
     ('tutti', (52, 55)),
     baca.hairpin('pp < ff'),
+    )
+
+# TODO: intermittent harmonic -> half-harmonic -> stopped
+maker(
+    ('tutti', (56, 59)),
+    baca.breathe_after(),
+    baca.dynamic('ff', redundant=True),
+    baca.text_spanner(
+        baca.markup('8” circles'),
+        leak=True,
+        right_padding=3.25,
+        tweaks=[('staff-padding', 4)],
+        ),
+    baca.text_spanner(
+        baca.markup('[harmonic -> half -> stopped]'),
+        leak=True,
+        lilypond_id=1,
+        right_padding=3.25,
+        tweaks=[('staff-padding', 7)],
+        ),
+    (stirrings_still.synchronized_circles(gaps=False, rotation=0), 0),
+    (stirrings_still.synchronized_circles(gaps=False, rotation=-1), 1),
+    (stirrings_still.synchronized_circles(gaps=False, rotation=-2), 2),
+    (stirrings_still.synchronized_circles(gaps=False, rotation=-3), 3),
+    )
+
+maker(
+    (['v1', 'v2', 'va'], (60, 61)),
+    baca.breathe_after(),
+    baca.dynamic('appena_udibile'),
+    baca.text_spanner(
+        baca.markup('[double-stop field]'),
+        leak=True,
+        right_padding=3.25,
+        tweaks=[('staff-padding', 4)],
+        ),
+    stirrings_still.urtext_field(),
+    )
+
+maker(
+    ('tutti', (62, 69)),
+    baca.dynamic('p'),
+    baca.text_spanner(
+        baca.markup('8” circles'),
+        leak=True,
+        right_padding=3.25,
+        tweaks=[('staff-padding', 4)],
+        ),
+    baca.text_spanner(
+        baca.markup('[TODO: jeux des terminaisons ...]'),
+        leak=True,
+        lilypond_id=1,
+        right_padding=3.25,
+        tweaks=[('staff-padding', 7)],
+        ),
+    stirrings_still.synchronized_circles(rotation=0)
     )
