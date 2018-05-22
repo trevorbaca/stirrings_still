@@ -33,47 +33,31 @@ TO-DO
             )
     ... also.
 
-3.  In addition to ...
-        maker(
-            ('vc', (6, 9)),
-            baca.hairpin('p < f', selector=baca.rleaves()),
-            baca.tenuto(selector=baca.rleaves()),
-            )
-    ... allow ...
-        maker(
-            ('vc', (6, 9)),
-            baca.rleaves()(
-                baca.hairpin('p < f')
-                baca.tenuto(),
-                ),
-            )
-    ... also
-
-4.  Add trajectories notator:
+3.  Add trajectories notator:
     baca.hide_black_note_heads().
 
-5.  Extend tailpiece():
+4.  Extend tailpiece():
     hide all note-heads except the first;
     add extent-terminal grace note;
     make sure flat glissando extends without gaps;
     add to library as baca.make_filled_extent().
 
-6.  Allow baca.markup.crine.boxed() instead of baca.markup.boxed('crine').
+5.  Allow baca.markup.crine.boxed() instead of baca.markup.boxed('crine').
 
-7.  Analyze volta application.
+6.  Analyze volta application.
 
-8.  Make full down-bow and full up-bow glyphs.
+7.  Make full down-bow and full up-bow glyphs.
     Add to baca/stylesheets/scheme.ily.
 
-9.  Make stop-on-string glyph.
+8.  Make stop-on-string glyph.
     Make all transition-type glyphs.
     Add to baca/stylesheets/scheme.ily.
 
-10. Make full-down-bow-stop-on-string and full-up-bow-stop-on-string glyphs.
+9.  Make full-down-bow-stop-on-string and full-up-bow-stop-on-string glyphs.
     Make all bow direction / bow termination ligatures.
     Add to baca/stylesheets/scheme.ily.
 
-11. Add welformedness check for multiple text spanners with same LilyPond ID
+10. Add wellformedness check for multiple text spanners with same LilyPond ID
     attaching to same leaf.
 
-12. Fix clocktick edgecase notation.
+11. Fix clocktick edgecase notation.
