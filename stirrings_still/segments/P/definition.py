@@ -52,11 +52,14 @@ maker(
 
 maker(
     ('v1', (5, 10)),
-    baca.apply(
-        baca.group_by_measures()[:3],
-        baca.tenuto(),
+    baca.map(
+        baca.group_by_measures()[:3].group(),
+        *baca.apply(
+            baca.pheads(),
+            baca.marcato(),
+            baca.staccato(),
+            ),
         baca.slur(),
-        baca.staccato(),
         ),
     stirrings_still.synchronized_circles(
         gaps=False,
