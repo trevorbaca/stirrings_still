@@ -42,3 +42,20 @@ time = (
     )
 
 stirrings_still.time(maker, time)
+
+maker(
+    ('tutti', (1, 4)),
+    baca.dynamic('ppppp'),
+    baca.markup('tasto [TODO: clouded pane fixed pitches]'),
+    baca.make_repeat_tied_notes(),
+    )
+
+maker(
+    ('v1', (5, 10)),
+    # TODO: replace sustain with multiple makers
+    stirrings_still.synchronized_circles(
+        gaps=False,
+        rotation=0,
+        sustain=[0, 3, 4],
+        ),
+    )

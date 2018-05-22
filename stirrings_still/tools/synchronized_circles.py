@@ -3,7 +3,7 @@ import baca
 from abjad import rhythmos
 
 
-def synchronized_circles(gaps=True, rests=None, rotation=0):
+def synchronized_circles(gaps=True, rests=None, rotation=0, sustain=None):
     """
     Makes rhythm for synchronized circles.
     """
@@ -18,8 +18,14 @@ def synchronized_circles(gaps=True, rests=None, rotation=0):
         logical_tie_masks = [abjad.silence(rests)]
     else:
         raise TypeError(rests)
+    if sustain is not None:
+        assert isinstance(sustain, list)
+        division_masks = [abjad.sustain(sustain)]
+    else:
+        division_masks = None
     return baca.rhythm(
         rhythm_maker=rhythmos.TaleaRhythmMaker(
+            division_masks=division_masks,
             logical_tie_masks=logical_tie_masks,
             talea=rhythmos.Talea(
                 counts=counts,
