@@ -1258,47 +1258,43 @@ P_ViolinIMusicVoice = {
     % [P ViolinIMusicVoice measure 690 / measure 5]              %! SM4
     \makeBlue                                                    %! SM24
     c'2
-    -\tenuto                                                     %! IC
+    -\marcato                                                    %! IC
     -\staccato                                                   %! IC
     ~
     (                                                            %! SC
     
     \makeBlue                                                    %! SM24
     c'8
-    -\tenuto                                                     %! IC
-    -\staccato                                                   %! IC
     
     % [P ViolinIMusicVoice measure 691 / measure 6]              %! SM4
     \makeBlue                                                    %! SM24
     c'4.
-    -\tenuto                                                     %! IC
+    -\marcato                                                    %! IC
     -\staccato                                                   %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\tenuto                                                     %! IC
+    -\marcato                                                    %! IC
     -\staccato                                                   %! IC
     
     \makeBlue                                                    %! SM24
     c'8
-    -\tenuto                                                     %! IC
+    -\marcato                                                    %! IC
     -\staccato                                                   %! IC
     ~
     
     % [P ViolinIMusicVoice measure 692 / measure 7]              %! SM4
     \makeBlue                                                    %! SM24
     c'4
-    -\tenuto                                                     %! IC
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    -\marcato                                                    %! IC
     -\staccato                                                   %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\tenuto                                                     %! IC
-    -\staccato                                                   %! IC
-    
-    \makeBlue                                                    %! SM24
-    c'4
-    -\tenuto                                                     %! IC
+    -\marcato                                                    %! IC
     -\staccato                                                   %! IC
     )                                                            %! SC
     
