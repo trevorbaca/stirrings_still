@@ -1198,9 +1198,10 @@ P_ViolinIMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1
-    \pp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'1
+    \ppppp                                                       %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
             {
@@ -1216,6 +1217,12 @@ P_ViolinIMusicVoice = {
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vn. I”]"                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                "tasto [TODO: clouded pane fixed pitches]" %! IC
+                    }                                            %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1234,31 +1241,66 @@ P_ViolinIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [P ViolinIMusicVoice measure 687 / measure 2]              %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [P ViolinIMusicVoice measure 688 / measure 3]              %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [P ViolinIMusicVoice measure 689 / measure 4]              %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [P ViolinIMusicVoice measure 690 / measure 5]              %! SM4
-    R1 * 5/8
+    \makeBlue                                                    %! SM24
+    c'2
+    ~
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [P ViolinIMusicVoice measure 691 / measure 6]              %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'8
+    ~
     
     % [P ViolinIMusicVoice measure 692 / measure 7]              %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4
     
     % [P ViolinIMusicVoice measure 693 / measure 8]              %! SM4
-    R1 * 1/2
+    \makeBlue                                                    %! SM24
+    c'2
     
     % [P ViolinIMusicVoice measure 694 / measure 9]              %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'2.
     
     % [P ViolinIMusicVoice measure 695 / measure 10]             %! SM4
-    R1 * 3/4
+    \makeBlue                                                    %! SM24
+    c'4
+    
+    \makeBlue                                                    %! SM24
+    c'4.
+    
+    \makeBlue                                                    %! SM24
+    c'8
     
     % [P ViolinIMusicVoice measure 696 / measure 11]             %! SM4
     R1 * 5/8
@@ -1337,9 +1379,10 @@ P_ViolinIIMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1
-    \pp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'1
+    \ppppp                                                       %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
             {
@@ -1355,6 +1398,12 @@ P_ViolinIIMusicVoice = {
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vn. II”]"                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                "tasto [TODO: clouded pane fixed pitches]" %! IC
+                    }                                            %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1373,13 +1422,19 @@ P_ViolinIIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [P ViolinIIMusicVoice measure 687 / measure 2]             %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [P ViolinIIMusicVoice measure 688 / measure 3]             %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [P ViolinIIMusicVoice measure 689 / measure 4]             %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [P ViolinIIMusicVoice measure 690 / measure 5]             %! SM4
     R1 * 5/8
@@ -1480,9 +1535,10 @@ P_ViolaMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1
-    \effort_mp                                                   %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'1
+    \ppppp                                                       %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
             {
@@ -1498,6 +1554,12 @@ P_ViolaMusicVoice = {
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Va.”]                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                "tasto [TODO: clouded pane fixed pitches]" %! IC
+                    }                                            %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1516,13 +1578,19 @@ P_ViolaMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [P ViolaMusicVoice measure 687 / measure 2]                %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [P ViolaMusicVoice measure 688 / measure 3]                %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [P ViolaMusicVoice measure 689 / measure 4]                %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [P ViolaMusicVoice measure 690 / measure 5]                %! SM4
     R1 * 5/8
@@ -1619,9 +1687,10 @@ P_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1
-    \ff                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \makeBlue                                                    %! SM24
+    c'1
+    \ppppp                                                       %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
             {
@@ -1637,6 +1706,12 @@ P_CelloMusicVoice = {
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Vc.”]                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                            %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            \upright                             %! IC
+                                "tasto [TODO: clouded pane fixed pitches]" %! IC
+                    }                                            %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1655,13 +1730,19 @@ P_CelloMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [P CelloMusicVoice measure 687 / measure 2]                %! SM4
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
     % [P CelloMusicVoice measure 688 / measure 3]                %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [P CelloMusicVoice measure 689 / measure 4]                %! SM4
-    R1 * 7/8
+    \makeBlue                                                    %! SM24
+    c'2..
+    \repeatTie
     
     % [P CelloMusicVoice measure 690 / measure 5]                %! SM4
     R1 * 5/8
