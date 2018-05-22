@@ -97,31 +97,31 @@ stirrings_still.time(maker, time)
 
 maker(
     'v1',
-    baca.suite([
+    baca.suite(
         stirrings_still.margin_markup('Vn. I'),
         baca.start_markup('Violin I', hcenter_in=14),
-        ]),
+        ),
     )
 maker(
     'v2',
-    baca.suite([
+    baca.suite(
         stirrings_still.margin_markup('Vn. II'),
         baca.start_markup('Violin II', hcenter_in=14),
-        ]),
+        ),
     )
 
 maker(
     'va',
-    baca.suite([
+    baca.suite(
         stirrings_still.margin_markup('Va.'),
         baca.start_markup('Viola', hcenter_in=14),
-        ]),
+        ),
     )
 
 maker(
     'vc',
-    baca.suite([
+    baca.suite(
         stirrings_still.margin_markup('Vc.'),
         baca.start_markup('Cello', hcenter_in=14),
-        ]),
+        ),
     )
