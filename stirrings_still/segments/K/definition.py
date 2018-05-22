@@ -143,10 +143,10 @@ maker(
     baca.markup.boxed('tailpiece: poco flicker'),
     baca.repeat_tie_up(),
     baca.staff_position(0),
-    baca.suite([
+    baca.suite(
         baca.staff_lines(1),
         baca.staff_lines(5, selector=baca.rleaves()[-1:]),
-        ]),
+        ),
     baca.text_script_parent_center(),
     stirrings_still.glissando_without_ties(),
     )
