@@ -1258,17 +1258,21 @@ P_ViolinIMusicVoice = {
     % [P ViolinIMusicVoice measure 690 / measure 5]              %! SM4
     \makeBlue                                                    %! SM24
     c'2
+    -\tenuto                                                     %! IC
+    -\staccato                                                   %! IC
     ~
+    (                                                            %! SC
     
     \makeBlue                                                    %! SM24
     c'8
+    -\tenuto                                                     %! IC
+    -\staccato                                                   %! IC
     
     % [P ViolinIMusicVoice measure 691 / measure 6]              %! SM4
     \makeBlue                                                    %! SM24
     c'4.
     -\tenuto                                                     %! IC
     -\staccato                                                   %! IC
-    (                                                            %! SC
     
     \makeBlue                                                    %! SM24
     c'4
@@ -1296,19 +1300,15 @@ P_ViolinIMusicVoice = {
     c'4
     -\tenuto                                                     %! IC
     -\staccato                                                   %! IC
+    )                                                            %! SC
     
     % [P ViolinIMusicVoice measure 693 / measure 8]              %! SM4
     \makeBlue                                                    %! SM24
     c'2
-    -\tenuto                                                     %! IC
-    -\staccato                                                   %! IC
     
     % [P ViolinIMusicVoice measure 694 / measure 9]              %! SM4
     \makeBlue                                                    %! SM24
     c'2.
-    -\tenuto                                                     %! IC
-    -\staccato                                                   %! IC
-    )                                                            %! SC
     
     % [P ViolinIMusicVoice measure 695 / measure 10]             %! SM4
     \makeBlue                                                    %! SM24

@@ -53,7 +53,7 @@ maker(
 maker(
     ('v1', (5, 10)),
     baca.apply(
-        baca.leaves()[2:-3],
+        baca.group_by_measures()[:3],
         baca.tenuto(),
         baca.slur(),
         baca.staccato(),
