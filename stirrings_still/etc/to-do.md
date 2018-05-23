@@ -1,26 +1,32 @@
 TO-DO
 =====
 
-1.  Extend baca.rhythm(rhythm-maker, ...).
-    Accept iterable (rhythm-maker, pattern) pairs:
-        baca.rhythm(
-            (rhythm_maker_1, pattern_1),
-            (rhythm_maker_2, pattern_2),
-            ...
-            (rhythm_maker_n, pattern_n),
-            < ... keyword-only ... >
-            )
-    Allow list and tuple pattern abbreviations:
-        baca.rhythm(
-            (rhythm_maker_1, [0, 2, 3]),
-            (rhythm_maker_2, [1]),
-            (rhythm_maker_3, (4, 7)),
-            ...
-            )
-    Write RhythmCommand.rhythm_maker pattern tests.
-    Teach rhythm-makers to persist over division groups.
-    Remove RhythmCommand.rhythm_overwrites property.
+1.  Remove RhythmCommand.rhythm_overwrites property.
     Remove RhythmCommand.tie_first, tie_last properties.
+    Typehint rhythm-makers.
+    Write AccelerandoRhythmMaker state tests:
+        AccelerandoRhythmMaker.beam_specifier
+        AccelerandoRhythmMaker.division_masks
+        AccelerandoRhythmMaker.interpolation_specifiers
+        AccelerandoRhythmMaker.logical_tie_masks
+        AccelerandoRhythmMaker.previous_state
+        AccelerandoRhythmMaker.state
+        AccelerandoRhythmMaker.tie_specifier
+    Write NoteRhythmMaker state tests:
+        NoteRhythmMaker.beam_specifier
+        NoteRhythmMaker.burnish_specifier
+        NoteRhythmMaker.division_masks
+        NoteRhythmMaker.logical_tie_masks
+        NoteRhythmMaker.previous_state
+        NoteRhythmMaker.state
+        NoteRhythmMaker.tie_specifier
+    Finish TaleaRhythmMAker state tests:
+        TaleaRhythmMaker.beam_specifier
+        TaleaRhythmMaker.extra_counts_per_division
+        TaleaRhythmMaker.previous_state
+        TaleaRhythmMaker.tie_specifier
+    Write nonstate examples:
+        TaleaRhythmMaker.tie_split_notes
      
 2.  Add trajectories notator:
     baca.hide_black_note_heads().
