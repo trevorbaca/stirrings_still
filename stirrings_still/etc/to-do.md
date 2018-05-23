@@ -1,8 +1,9 @@
 TO-DO
 =====
 
-1.  Remove RhythmCommand.rhythm_overwrites property.
-    Remove RhythmCommand.tie_first, tie_last properties.
+1.  Remove RhythmCommand properties:
+        tie_first
+        tie_last
     Typehint rhythm-makers.
     Write AccelerandoRhythmMaker state tests:
         AccelerandoRhythmMaker.beam_specifier
