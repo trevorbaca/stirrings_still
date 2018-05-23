@@ -1254,38 +1254,17 @@ P_ViolinIMusicVoice = {
     \makeBlue                                                    %! SM24
     c'2..
     \repeatTie
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/5 {
-        
-        % [P ViolinIMusicVoice measure 690 / measure 5]          %! SM4
-        \makeBlue                                                %! SM24
-        c'8
-        -\marcato                                                %! IC
-        -\staccato                                               %! IC
-        [
-        (                                                        %! SC
-        
-        \makeBlue                                                %! SM24
-        c'8
-        -\marcato                                                %! IC
-        -\staccato                                               %! IC
-        
-        \makeBlue                                                %! SM24
-        c'8
-        -\marcato                                                %! IC
-        -\staccato                                               %! IC
-        
-        \makeBlue                                                %! SM24
-        c'8
-        -\marcato                                                %! IC
-        -\staccato                                               %! IC
-        
-        \makeBlue                                                %! SM24
-        c'8
-        -\marcato                                                %! IC
-        -\staccato                                               %! IC
-        ]
-    }
+    
+    % [P ViolinIMusicVoice measure 690 / measure 5]              %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    -\marcato                                                    %! IC
+    -\staccato                                                   %! IC
+    ~
+    (                                                            %! SC
+    
+    \makeBlue                                                    %! SM24
+    c'8
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/6 {
         
