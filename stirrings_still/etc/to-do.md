@@ -1,10 +1,7 @@
 TO-DO
 =====
 
-1.  Remove RhythmCommand properties:
-        tie_first
-        tie_last
-    Typehint rhythm-makers.
+1.  Typehint rhythm-makers.
     Write AccelerandoRhythmMaker state tests:
         AccelerandoRhythmMaker.beam_specifier
         AccelerandoRhythmMaker.division_masks
