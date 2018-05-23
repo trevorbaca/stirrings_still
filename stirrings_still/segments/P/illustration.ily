@@ -1254,67 +1254,127 @@ P_ViolinIMusicVoice = {
     \makeBlue                                                    %! SM24
     c'2..
     \repeatTie
-    
-    % [P ViolinIMusicVoice measure 690 / measure 5]              %! SM4
-    \makeBlue                                                    %! SM24
-    c'2
-    -\marcato                                                    %! IC
-    -\staccato                                                   %! IC
-    ~
-    (                                                            %! SC
-    
-    \makeBlue                                                    %! SM24
-    c'8
-    
-    % [P ViolinIMusicVoice measure 691 / measure 6]              %! SM4
-    \makeBlue                                                    %! SM24
-    c'4.
-    -\marcato                                                    %! IC
-    -\staccato                                                   %! IC
-    
-    \makeBlue                                                    %! SM24
-    c'4
-    -\marcato                                                    %! IC
-    -\staccato                                                   %! IC
-    
-    \makeBlue                                                    %! SM24
-    c'8
-    -\marcato                                                    %! IC
-    -\staccato                                                   %! IC
-    ~
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/5 {
+        
+        % [P ViolinIMusicVoice measure 690 / measure 5]          %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        -\marcato                                                %! IC
+        -\staccato                                               %! IC
+        [
+        (                                                        %! SC
+        
+        \makeBlue                                                %! SM24
+        c'8
+        -\marcato                                                %! IC
+        -\staccato                                               %! IC
+        
+        \makeBlue                                                %! SM24
+        c'8
+        -\marcato                                                %! IC
+        -\staccato                                               %! IC
+        
+        \makeBlue                                                %! SM24
+        c'8
+        -\marcato                                                %! IC
+        -\staccato                                               %! IC
+        
+        \makeBlue                                                %! SM24
+        c'8
+        -\marcato                                                %! IC
+        -\staccato                                               %! IC
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/6 {
+        
+        % [P ViolinIMusicVoice measure 691 / measure 6]          %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        -\marcato                                                %! IC
+        -\staccato                                               %! IC
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        -\marcato                                                %! IC
+        -\staccato                                               %! IC
+        
+        \makeBlue                                                %! SM24
+        c'8
+        -\marcato                                                %! IC
+        -\staccato                                               %! IC
+        
+        \makeBlue                                                %! SM24
+        c'8
+        -\marcato                                                %! IC
+        -\staccato                                               %! IC
+        
+        \makeBlue                                                %! SM24
+        c'8
+        -\marcato                                                %! IC
+        -\staccato                                               %! IC
+        
+        \makeBlue                                                %! SM24
+        c'8
+        -\marcato                                                %! IC
+        -\staccato                                               %! IC
+        ]
+    }
     
     % [P ViolinIMusicVoice measure 692 / measure 7]              %! SM4
     \makeBlue                                                    %! SM24
-    c'4
-    
-    \makeBlue                                                    %! SM24
-    c'4
-    -\marcato                                                    %! IC
-    -\staccato                                                   %! IC
-    
-    \makeBlue                                                    %! SM24
-    c'4
+    c'2.
     -\marcato                                                    %! IC
     -\staccato                                                   %! IC
     )                                                            %! SC
-    
-    % [P ViolinIMusicVoice measure 693 / measure 8]              %! SM4
-    \makeBlue                                                    %! SM24
-    c'2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/4 {
+        
+        % [P ViolinIMusicVoice measure 693 / measure 8]          %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
     
     % [P ViolinIMusicVoice measure 694 / measure 9]              %! SM4
     \makeBlue                                                    %! SM24
     c'2.
-    
-    % [P ViolinIMusicVoice measure 695 / measure 10]             %! SM4
-    \makeBlue                                                    %! SM24
-    c'4
-    
-    \makeBlue                                                    %! SM24
-    c'4.
-    
-    \makeBlue                                                    %! SM24
-    c'8
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/6 {
+        
+        % [P ViolinIMusicVoice measure 695 / measure 10]         %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
     
     % [P ViolinIMusicVoice measure 696 / measure 11]             %! SM4
     R1 * 5/8

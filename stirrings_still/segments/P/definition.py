@@ -61,9 +61,15 @@ maker(
             ),
         baca.slur(),
         ),
-    stirrings_still.synchronized_circles(
-        gaps=False,
-        rotation=0,
-        sustain=[0, 3, 4],
+#    stirrings_still.synchronized_circles(
+#        gaps=False,
+#        rotation=0,
+#        sustain=[0, 3, 4],
+#        ),
+    baca.RhythmCommand(
+        rhythm_maker=[
+            (abjad.rhythmos.NoteRhythmMaker(), abjad.index([0], 2)),
+            (abjad.rhythmos.EvenDivisionRhythmMaker(), abjad.index([1], 2)),
+            ],
         ),
     )
