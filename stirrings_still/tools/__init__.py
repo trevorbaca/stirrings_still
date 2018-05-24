@@ -32,3 +32,4 @@ from .time_signatures import time_signatures
 from .to_flight import to_flight
 from .trajectories import trajectories
 from .urtext_field import urtext_field
+from .wave import wave

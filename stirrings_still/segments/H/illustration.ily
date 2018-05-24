@@ -3015,7 +3015,7 @@ H_ViolinIMusicVoice = {
     \breathe                                                     %! IC
     \set stemLeftBeamCount = 0
     \set stemRightBeamCount = 1
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     ^ \markup {                                                  %! IC
@@ -3030,27 +3030,27 @@ H_ViolinIMusicVoice = {
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 0
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     \override TupletNumber.text = \markup {
@@ -3359,7 +3359,7 @@ H_ViolinIMusicVoice = {
     \times 2/3 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         - \tweak circled-tip ##t                                 %! HC1
         \<                                                       %! HC1
@@ -3369,101 +3369,101 @@ H_ViolinIMusicVoice = {
                     "8” circles continue"                        %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \p                                                       %! HC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
-        c'4
-    }
-    \times 2/3 {
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+    }
+    \times 2/3 {
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
@@ -3513,7 +3513,7 @@ H_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 487/64
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
@@ -3556,24 +3556,24 @@ H_ViolinIMusicVoice = {
                     "thinking color (no longer width)"           %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 209/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 143/32
         \stopTextSpan                                            %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 197/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 19/8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 65/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 61/32
         ]
         \revert TextScript.staff-padding                         %! OC2
@@ -3587,11 +3587,11 @@ H_ViolinIMusicVoice = {
     % [H ViolinIMusicVoice measure 491 / measure 33]             %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     \revert NoteHead.style                                       %! OC2
@@ -3695,7 +3695,7 @@ H_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 63/8
         \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
@@ -3733,24 +3733,24 @@ H_ViolinIMusicVoice = {
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 221/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 315/64
         \stopTextSpan                                            %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 221/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 21/8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 141/64
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 129/64
         ]
         \revert TextScript.staff-padding                         %! OC2
@@ -3804,7 +3804,7 @@ H_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 497/64
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
@@ -3842,39 +3842,39 @@ H_ViolinIMusicVoice = {
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 59/8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 51/8
         \stopTextSpan                                            %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 333/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 67/16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 219/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 185/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 5/2
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 9/4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 133/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 127/64
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 63/32
         ]
         \revert TextScript.staff-padding                         %! OC2
@@ -3889,58 +3889,58 @@ H_ViolinIMusicVoice = {
         % [H ViolinIMusicVoice measure 504 / measure 46]         %! SM4
         \override TextSpanner.staff-padding = #4                 %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \ff                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
-        c'4
-    }
-    \times 2/3 {
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+    }
+    \times 2/3 {
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \>                                                       %! HC1
         \ff                                                      %! HC1
@@ -3978,32 +3978,32 @@ H_ViolinIMusicVoice = {
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \mf                                                      %! HC1
         \revert TextSpanner.staff-padding                        %! OC2
@@ -4015,7 +4015,7 @@ H_ViolinIMusicVoice = {
         
         % [H ViolinIMusicVoice measure 510 / measure 52]         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup {                                              %! IC
@@ -4024,10 +4024,10 @@ H_ViolinIMusicVoice = {
                     "pochiss. scratch"                           %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
     }
@@ -4454,7 +4454,7 @@ H_ViolinIIMusicVoice = {
     \times 4/5 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         - \tweak circled-tip ##t                                 %! HC1
         \<                                                       %! HC1
@@ -4464,86 +4464,86 @@ H_ViolinIIMusicVoice = {
                     "8” circles continue"                        %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     \times 4/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \p                                                       %! HC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
-        c'4
-    }
-    \times 4/5 {
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     \times 4/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     \times 4/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+    }
+    \times 4/5 {
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
@@ -4593,7 +4593,7 @@ H_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 121/16
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
@@ -4636,18 +4636,18 @@ H_ViolinIIMusicVoice = {
                     "thinking color (no longer width)"           %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 219/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 173/32
         \stopTextSpan                                            %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 139/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 123/32
         ]
         \revert TextScript.staff-padding                         %! OC2
@@ -4663,7 +4663,7 @@ H_ViolinIIMusicVoice = {
         \override TextSpanner.staff-padding = #7                 %! OC1
         \override TupletBracket.staff-padding = #2               %! OC1
         \override TupletNumber.text = #tuplet-number::calc-denominator-text %! OC1
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         - \tweak Y-extent ##f
@@ -4698,7 +4698,7 @@ H_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -4706,7 +4706,7 @@ H_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16
         -\downbow                                                %! IC
         
@@ -4816,7 +4816,7 @@ H_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 127/16
         \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
@@ -4854,18 +4854,18 @@ H_ViolinIIMusicVoice = {
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 233/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 377/64
         \stopTextSpan                                            %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 19/4
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 265/64
         ]
         \revert TextScript.staff-padding                         %! OC2
@@ -4919,7 +4919,7 @@ H_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 477/64
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
@@ -4957,30 +4957,30 @@ H_ViolinIIMusicVoice = {
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 461/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 105/16
         \stopTextSpan                                            %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 23/4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 5
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 71/16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 259/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 61/16
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 239/64
         ]
         \revert TextScript.staff-padding                         %! OC2
@@ -4995,49 +4995,49 @@ H_ViolinIIMusicVoice = {
         % [H ViolinIIMusicVoice measure 504 / measure 46]        %! SM4
         \override TextSpanner.staff-padding = #4                 %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \ff                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
-        c'4
-    }
-    \times 4/5 {
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
-        c'4
-        
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     \times 4/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+    }
+    \times 4/5 {
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \>                                                       %! HC1
         \ff                                                      %! HC1
@@ -5075,29 +5075,29 @@ H_ViolinIIMusicVoice = {
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     \times 4/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \mf                                                      %! HC1
         \revert TextSpanner.staff-padding                        %! OC2
@@ -5111,7 +5111,7 @@ H_ViolinIIMusicVoice = {
         r8
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup {                                              %! IC
@@ -5120,7 +5120,7 @@ H_ViolinIIMusicVoice = {
                     "pochiss. scratch"                           %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
     }
@@ -5254,7 +5254,7 @@ H_ViolaMusicVoice = {
     
     % [H ViolaMusicVoice measure 464 / measure 6]                %! SM4
     \breathe                                                     %! IC
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     ^ \markup {                                                  %! IC
         \upright                                                 %! IC
@@ -5266,7 +5266,7 @@ H_ViolaMusicVoice = {
                 }                                                %! IC
         }                                                        %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \override TupletNumber.text = \markup {
         \scale
@@ -5566,7 +5566,7 @@ H_ViolaMusicVoice = {
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
@@ -5576,66 +5576,66 @@ H_ViolaMusicVoice = {
                 "8” circles continue"                            %! IC
         }                                                        %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \p                                                           %! HC1
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [H ViolaMusicVoice measure 484 / measure 26]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [H ViolaMusicVoice measure 485 / measure 27]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [H ViolaMusicVoice measure 486 / measure 28]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [H ViolaMusicVoice measure 487 / measure 29]               %! SM4
@@ -5684,7 +5684,7 @@ H_ViolaMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 501/64
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
@@ -5727,15 +5727,15 @@ H_ViolaMusicVoice = {
                     "thinking color (no longer width)"           %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 477/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 427/64
         \stopTextSpan                                            %! PWC1
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 387/64
         ]
         \revert TextScript.staff-padding                         %! OC2
@@ -5749,11 +5749,11 @@ H_ViolaMusicVoice = {
     % [H ViolaMusicVoice measure 491 / measure 33]               %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     \revert NoteHead.style                                       %! OC2
@@ -5857,7 +5857,7 @@ H_ViolaMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 55/8
         \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
@@ -5895,18 +5895,18 @@ H_ViolaMusicVoice = {
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 211/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 381/64
         \stopTextSpan                                            %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 173/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 331/64
         ]
         \revert TextScript.staff-padding                         %! OC2
@@ -5960,7 +5960,7 @@ H_ViolaMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 249/32
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
@@ -5998,24 +5998,24 @@ H_ViolaMusicVoice = {
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 245/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 117/16
         \stopTextSpan                                            %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 439/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 411/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 389/64
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 377/64
         ]
         \revert TextScript.staff-padding                         %! OC2
@@ -6029,39 +6029,39 @@ H_ViolaMusicVoice = {
     % [H ViolaMusicVoice measure 504 / measure 46]               %! SM4
     \override TextSpanner.staff-padding = #4                     %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \>                                                           %! HC1
     \ff                                                          %! HC1
@@ -6099,21 +6099,21 @@ H_ViolaMusicVoice = {
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \stopTextSpan                                                %! PWC1
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \mf                                                          %! HC1
     \revert TextSpanner.staff-padding                            %! OC2
@@ -6123,7 +6123,7 @@ H_ViolaMusicVoice = {
     
     % [H ViolaMusicVoice measure 510 / measure 52]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
@@ -6132,7 +6132,7 @@ H_ViolaMusicVoice = {
                 "pochiss. scratch"                               %! IC
         }                                                        %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
 }
@@ -6305,7 +6305,7 @@ H_CelloMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 119/32
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         -\downbow
@@ -6339,7 +6339,7 @@ H_CelloMusicVoice = {
                             "1/2 clt"                            %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 201/64
         \stopTextSpan
         - \tweak Y-extent ##f
@@ -6363,7 +6363,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 137/64
         \stopTextSpan
         - \tweak Y-extent ##f
@@ -6387,7 +6387,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 51/32
         \stopTextSpan
         - \tweak Y-extent ##f
@@ -6422,7 +6422,7 @@ H_CelloMusicVoice = {
         \startTextSpan
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 45/32
         -\upbow
         ]
@@ -6624,11 +6624,11 @@ H_CelloMusicVoice = {
     % [H CelloMusicVoice measure 491 / measure 33]               %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     \revert NoteHead.style                                       %! OC2
@@ -7478,13 +7478,13 @@ H_CelloMusicVoice = {
     
     % [H CelloMusicVoice measure 509 / measure 51]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     - \tweak circled-tip ##t                                     %! PWC1
     \<                                                           %! PWC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \f                                                           %! PWC1
     - \tweak circled-tip ##t                                     %! PWC1
