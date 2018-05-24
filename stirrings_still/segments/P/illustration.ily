@@ -1360,26 +1360,29 @@ P_ViolinIMusicVoice = {
         
         % [P ViolinIMusicVoice measure 692 / measure 7]          %! SM4
         \override Staff.Stem.stemlet-length = 0.75
-        \once \override Beam.grow-direction = #right
+        \once \override Beam.grow-direction = #left
         \baca_unpitched_music_warning                            %! SM24
-        c'16 * 241/64
+        c'16 * 29/32
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16 * 49/16
+        c'16 * 61/64
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16 * 61/32
+        c'16 * 35/32
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16 * 41/32
+        c'16 * 87/64
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16 * 33/32
+        c'16 * 117/64
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 81/32
         
         \revert Staff.Stem.stemlet-length
         \baca_unpitched_music_warning                            %! SM24
-        c'16 * 61/64
+        c'16 * 213/64
         ]
     }
     \revert TupletNumber.text
