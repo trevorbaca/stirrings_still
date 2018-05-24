@@ -695,7 +695,7 @@ F_ViolinIMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \<                                                           %! PWC1
     \pp                                                          %! PWC1
@@ -739,40 +739,40 @@ F_ViolinIMusicVoice = {
     
     % [F ViolinIMusicVoice measure 426 / measure 2]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     \f                                                           %! PWC1
     \>                                                           %! PWC1
     
     % [F ViolinIMusicVoice measure 427 / measure 3]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F ViolinIMusicVoice measure 428 / measure 4]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     \pp                                                          %! PWC1
     \<                                                           %! PWC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \repeatTie
     \f                                                           %! PWC1
     \>                                                           %! PWC1
     
     % [F ViolinIMusicVoice measure 429 / measure 5]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     \repeatTie
     
     % [F ViolinIMusicVoice measure 430 / measure 6]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     \pp                                                          %! PWC1
@@ -781,7 +781,7 @@ F_ViolinIMusicVoice = {
     % [F ViolinIMusicVoice measure 431 / measure 7]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     \f                                                           %! PWC1
@@ -790,7 +790,7 @@ F_ViolinIMusicVoice = {
     \f                                                           %! HC1
     
     % [F ViolinIMusicVoice measure 432 / measure 8]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
@@ -809,7 +809,7 @@ F_ViolinIMusicVoice = {
         
         % [F ViolinIMusicVoice measure 436 / measure 12]         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup {                                              %! IC
@@ -818,47 +818,47 @@ F_ViolinIMusicVoice = {
                     "maximally tight crunch circles: grind at talon" %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [F ViolinIMusicVoice measure 437 / measure 13]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
@@ -895,7 +895,7 @@ F_ViolinIIMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \<                                                           %! PWC1
     \pp                                                          %! PWC1
@@ -932,13 +932,13 @@ F_ViolinIIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [F ViolinIIMusicVoice measure 426 / measure 2]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 427 / measure 3]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     \f                                                           %! PWC1
@@ -946,19 +946,19 @@ F_ViolinIIMusicVoice = {
     
     % [F ViolinIIMusicVoice measure 428 / measure 4]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     \pp                                                          %! PWC1
     \<                                                           %! PWC1
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 429 / measure 5]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     \repeatTie
     \f                                                           %! PWC1
@@ -966,21 +966,21 @@ F_ViolinIIMusicVoice = {
     
     % [F ViolinIIMusicVoice measure 430 / measure 6]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     \pp                                                          %! PWC1
     \<                                                           %! PWC1
     
     % [F ViolinIIMusicVoice measure 431 / measure 7]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 432 / measure 8]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     \f                                                           %! PWC1
@@ -1196,7 +1196,7 @@ F_ViolaMusicVoice = {
     
     % [F ViolaMusicVoice measure 436 / measure 12]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \mp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     [
@@ -1206,52 +1206,52 @@ F_ViolaMusicVoice = {
                 "maximally tight crunch circles: grind at talon" %! IC
         }                                                        %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     ]
     
     % [F ViolaMusicVoice measure 437 / measure 13]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     ]
     
@@ -1288,7 +1288,7 @@ F_CelloMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \<                                                           %! HC1
     \p                                                           %! HC1
@@ -1332,43 +1332,43 @@ F_CelloMusicVoice = {
     
     % [F CelloMusicVoice measure 426 / measure 2]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     \ff                                                          %! HC1
     
     % [F CelloMusicVoice measure 427 / measure 3]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 428 / measure 4]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \repeatTie
     
     % [F CelloMusicVoice measure 429 / measure 5]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     \repeatTie
     
     % [F CelloMusicVoice measure 430 / measure 6]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 431 / measure 7]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F CelloMusicVoice measure 432 / measure 8]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     - \tweak circled-tip ##t                                     %! HC1
@@ -1390,7 +1390,7 @@ F_CelloMusicVoice = {
         
         % [F CelloMusicVoice measure 436 / measure 12]           %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup {                                              %! IC
@@ -1399,35 +1399,35 @@ F_CelloMusicVoice = {
                     "maximally tight crunch circles: grind at talon" %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [F CelloMusicVoice measure 437 / measure 13]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     

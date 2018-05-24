@@ -2703,7 +2703,7 @@ K_ViolinIMusicVoice = {
         \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\downbow
@@ -2769,7 +2769,7 @@ K_ViolinIMusicVoice = {
                 "Vn. I"                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
             }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \stopTextSpan
         \glissando                                               %! SC
@@ -2794,7 +2794,7 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \stopTextSpan
         \glissando                                               %! SC
@@ -2819,7 +2819,7 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \stopTextSpan
         \glissando                                               %! SC
@@ -2848,12 +2848,12 @@ K_ViolinIMusicVoice = {
     \times 7/8 {
         
         % [K ViolinIMusicVoice measure 539 / measure 2]          %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         \glissando                                               %! SC
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow
         ]
@@ -2880,7 +2880,7 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         -\downbow
         \stopTextSpan
@@ -2906,7 +2906,7 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         -\upbow
         \stopTextSpan
@@ -2942,7 +2942,7 @@ K_ViolinIMusicVoice = {
             }
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         -\downbow
         \stopTextSpan
@@ -2957,7 +2957,7 @@ K_ViolinIMusicVoice = {
     \override TextScript.staff-padding = #9                      %! OC1
     \override TextSpanner.staff-padding = #5                     %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \effort_f                                                    %! SM8:EXPLICIT_DYNAMIC:IC
     [
@@ -2989,16 +2989,16 @@ K_ViolinIMusicVoice = {
                 "hair: circles (each as wide as poss.)"          %! IC
         }                                                        %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \stopTextSpan                                                %! PWC1
     - \tweak Y-extent ##f                                        %! PWC1
@@ -3024,23 +3024,23 @@ K_ViolinIMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
     \startTextSpan                                               %! PWC1
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     ]
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
         % [K ViolinIMusicVoice measure 541 / measure 4]          %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         - \tweak Y-extent ##f                                    %! PWC1
@@ -3063,13 +3063,13 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         \revert TextScript.staff-padding                         %! OC2
@@ -3085,7 +3085,7 @@ K_ViolinIMusicVoice = {
         \override TextScript.staff-padding = #11                 %! OC1
         \override TextSpanner.staff-padding = #7                 %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\downbow
@@ -3119,7 +3119,7 @@ K_ViolinIMusicVoice = {
                             "1/2 clt"                            %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \stopTextSpan
         \glissando                                               %! SC
@@ -3144,7 +3144,7 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \stopTextSpan
         \glissando                                               %! SC
@@ -3169,7 +3169,7 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         \stopTextSpan
         \glissando                                               %! SC
@@ -3235,7 +3235,7 @@ K_ViolinIMusicVoice = {
         % [K ViolinIMusicVoice measure 543 / measure 6]          %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 117/32
         -\upbow
         \stopTextSpan
@@ -3262,7 +3262,7 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 61/16
         -\downbow
         \stopTextSpan
@@ -3288,7 +3288,7 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 137/32
         -\upbow
         \stopTextSpan
@@ -3314,7 +3314,7 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 325/64
         -\downbow
         \stopTextSpan
@@ -3340,7 +3340,7 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 391/64
         -\upbow
         \stopTextSpan
@@ -3377,7 +3377,7 @@ K_ViolinIMusicVoice = {
         \startTextSpan
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 113/16
         -\downbow
         ]
@@ -3430,27 +3430,27 @@ K_ViolinIMusicVoice = {
         % [K ViolinIMusicVoice measure 546 / measure 9]          %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 249/64
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 237/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 13/4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 11/4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 75/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 67/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 63/32
         ]
     }
@@ -3458,7 +3458,7 @@ K_ViolinIMusicVoice = {
     
     \override Staff.Stem.stemlet-length = 0.75
     \revert Staff.Stem.stemlet-length
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \override TupletNumber.text = \markup {
         \scale
@@ -3502,27 +3502,27 @@ K_ViolinIMusicVoice = {
         
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 249/64
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 237/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 13/4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 11/4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 75/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 67/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 63/32
         ]
     }
@@ -3530,7 +3530,7 @@ K_ViolinIMusicVoice = {
     
     \override Staff.Stem.stemlet-length = 0.75
     \revert Staff.Stem.stemlet-length
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \override TupletNumber.text = \markup {
         \scale
@@ -3574,27 +3574,27 @@ K_ViolinIMusicVoice = {
         
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 249/64
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 237/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 13/4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 11/4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 75/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 67/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 63/32
         ]
     }
@@ -3603,7 +3603,7 @@ K_ViolinIMusicVoice = {
     % [K ViolinIMusicVoice measure 551 / measure 14]             %! SM4
     \override Staff.Stem.stemlet-length = 0.75
     \revert Staff.Stem.stemlet-length
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \override TupletNumber.text = \markup {
         \scale
@@ -3647,27 +3647,27 @@ K_ViolinIMusicVoice = {
         
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 249/64
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 237/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 13/4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 11/4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 75/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 67/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 63/32
         ]
     }
@@ -3675,7 +3675,7 @@ K_ViolinIMusicVoice = {
     
     \override Staff.Stem.stemlet-length = 0.75
     \revert Staff.Stem.stemlet-length
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \override TupletNumber.text = \markup {
         \scale
@@ -3719,27 +3719,27 @@ K_ViolinIMusicVoice = {
         
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 249/64
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 237/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 13/4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 11/4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 75/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 67/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 63/32
         ]
     }
@@ -3747,15 +3747,15 @@ K_ViolinIMusicVoice = {
     
     \override Staff.Stem.stemlet-length = 0.75
     \revert Staff.Stem.stemlet-length
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     ~
     
     \revert Staff.Stem.stemlet-length
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
     % [K ViolinIMusicVoice measure 555 / measure 18]             %! SM4
@@ -3903,7 +3903,7 @@ K_ViolinIIMusicVoice = {
         \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\downbow
@@ -3969,7 +3969,7 @@ K_ViolinIIMusicVoice = {
                 "Vn. II"                                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
             }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \stopTextSpan
         \glissando                                               %! SC
@@ -3994,7 +3994,7 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         \stopTextSpan
         \glissando                                               %! SC
@@ -4021,7 +4021,7 @@ K_ViolinIIMusicVoice = {
     }
     
     % [K ViolinIIMusicVoice measure 539 / measure 2]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \stopTextSpan
@@ -4047,7 +4047,7 @@ K_ViolinIIMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center
     \startTextSpan
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\downbow
     \stopTextSpan
@@ -4073,7 +4073,7 @@ K_ViolinIIMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center
     \startTextSpan
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\upbow
     \stopTextSpan
@@ -4109,7 +4109,7 @@ K_ViolinIIMusicVoice = {
         }
     \startTextSpan
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\downbow
     \stopTextSpan
@@ -4125,7 +4125,7 @@ K_ViolinIIMusicVoice = {
         \override TextScript.staff-padding = #9                  %! OC1
         \override TextSpanner.staff-padding = #5                 %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
         - \tweak Y-extent ##f                                    %! PWC1
@@ -4156,16 +4156,16 @@ K_ViolinIIMusicVoice = {
                     "hair: circles (each as wide as poss.)"      %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         - \tweak Y-extent ##f                                    %! PWC1
@@ -4191,15 +4191,15 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
     % [K ViolinIIMusicVoice measure 541 / measure 4]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \stopTextSpan                                                %! PWC1
     [
@@ -4223,13 +4223,13 @@ K_ViolinIIMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
     \startTextSpan                                               %! PWC1
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     ]
     \stopTextSpan                                                %! PWC1
@@ -4245,7 +4245,7 @@ K_ViolinIIMusicVoice = {
         \override TextScript.staff-padding = #11                 %! OC1
         \override TextSpanner.staff-padding = #7                 %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\downbow
@@ -4279,7 +4279,7 @@ K_ViolinIIMusicVoice = {
                             "1/2 clt"                            %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \stopTextSpan
         \glissando                                               %! SC
@@ -4304,7 +4304,7 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         \stopTextSpan
         \glissando                                               %! SC
@@ -4329,7 +4329,7 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow
         \stopTextSpan
@@ -4396,7 +4396,7 @@ K_ViolinIIMusicVoice = {
         % [K ViolinIIMusicVoice measure 543 / measure 6]         %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 159/32
         -\downbow
         \stopTextSpan
@@ -4423,7 +4423,7 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 331/64
         -\upbow
         \stopTextSpan
@@ -4449,7 +4449,7 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 367/64
         -\downbow
         \stopTextSpan
@@ -4475,7 +4475,7 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 423/64
         -\upbow
         \stopTextSpan
@@ -4512,7 +4512,7 @@ K_ViolinIIMusicVoice = {
         \startTextSpan
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 481/64
         -\downbow
         ]
@@ -4563,24 +4563,24 @@ K_ViolinIIMusicVoice = {
         % [K ViolinIIMusicVoice measure 546 / measure 9]         %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 235/64
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 109/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 45/16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 73/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 63/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 119/64
         ]
     }
@@ -4589,7 +4589,7 @@ K_ViolinIIMusicVoice = {
     % [K ViolinIIMusicVoice measure 547 / measure 10]            %! SM4
     \override Staff.Stem.stemlet-length = 0.75
     \revert Staff.Stem.stemlet-length
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \override TupletNumber.text = \markup {
         \scale
@@ -4631,24 +4631,24 @@ K_ViolinIIMusicVoice = {
         
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 235/64
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 109/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 45/16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 73/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 63/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 119/64
         ]
     }
@@ -4656,7 +4656,7 @@ K_ViolinIIMusicVoice = {
     
     \override Staff.Stem.stemlet-length = 0.75
     \revert Staff.Stem.stemlet-length
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \override TupletNumber.text = \markup {
         \scale
@@ -4698,24 +4698,24 @@ K_ViolinIIMusicVoice = {
         
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 235/64
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 109/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 45/16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 73/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 63/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 119/64
         ]
     }
@@ -4723,7 +4723,7 @@ K_ViolinIIMusicVoice = {
     
     \override Staff.Stem.stemlet-length = 0.75
     \revert Staff.Stem.stemlet-length
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \override TupletNumber.text = \markup {
         \scale
@@ -4765,24 +4765,24 @@ K_ViolinIIMusicVoice = {
         
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 235/64
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 109/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 45/16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 73/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 63/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 119/64
         ]
     }
@@ -4790,7 +4790,7 @@ K_ViolinIIMusicVoice = {
     
     \override Staff.Stem.stemlet-length = 0.75
     \revert Staff.Stem.stemlet-length
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \override TupletNumber.text = \markup {
         \scale
@@ -4832,24 +4832,24 @@ K_ViolinIIMusicVoice = {
         
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 235/64
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 109/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 45/16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 73/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 63/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 119/64
         ]
     }
@@ -4857,7 +4857,7 @@ K_ViolinIIMusicVoice = {
     
     \override Staff.Stem.stemlet-length = 0.75
     \revert Staff.Stem.stemlet-length
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \override TupletNumber.text = \markup {
         \scale
@@ -4899,24 +4899,24 @@ K_ViolinIIMusicVoice = {
         
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 235/64
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 109/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 45/16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 73/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 63/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 119/64
         ]
     }
@@ -4924,7 +4924,7 @@ K_ViolinIIMusicVoice = {
     
     \override Staff.Stem.stemlet-length = 0.75
     \revert Staff.Stem.stemlet-length
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \override TupletNumber.text = \markup {
         \scale
@@ -4966,12 +4966,12 @@ K_ViolinIIMusicVoice = {
         
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 59/16
         [
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 37/16
         ]
     }
@@ -5124,7 +5124,7 @@ K_ViolaMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     -\downbow
@@ -5190,7 +5190,7 @@ K_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     \stopTextSpan
     \glissando                                                   %! SC
@@ -5215,7 +5215,7 @@ K_ViolaMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center
     \startTextSpan
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \stopTextSpan
@@ -5244,7 +5244,7 @@ K_ViolaMusicVoice = {
     \times 7/12 {
         
         % [K ViolaMusicVoice measure 539 / measure 2]            %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         -\downbow
         \stopTextSpan
@@ -5270,7 +5270,7 @@ K_ViolaMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         -\upbow
         \stopTextSpan
@@ -5306,7 +5306,7 @@ K_ViolaMusicVoice = {
             }
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         -\downbow
         \stopTextSpan
@@ -5321,7 +5321,7 @@ K_ViolaMusicVoice = {
     \override TextScript.staff-padding = #9                      %! OC1
     \override TextSpanner.staff-padding = #5                     %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \effort_f                                                    %! SM8:EXPLICIT_DYNAMIC:IC
     - \tweak Y-extent ##f                                        %! PWC1
@@ -5352,13 +5352,13 @@ K_ViolaMusicVoice = {
                 "hair: circles (each as wide as poss.)"          %! IC
         }                                                        %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \stopTextSpan                                                %! PWC1
     - \tweak Y-extent ##f                                        %! PWC1
@@ -5384,14 +5384,14 @@ K_ViolaMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
     \startTextSpan                                               %! PWC1
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [K ViolaMusicVoice measure 541 / measure 4]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \stopTextSpan                                                %! PWC1
     - \tweak Y-extent ##f                                        %! PWC1
@@ -5414,10 +5414,10 @@ K_ViolaMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
     \startTextSpan                                               %! PWC1
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \stopTextSpan                                                %! PWC1
     \revert TextScript.staff-padding                             %! OC2
@@ -5639,7 +5639,7 @@ K_CelloMusicVoice = {
         \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2.
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\downbow
@@ -5705,7 +5705,7 @@ K_CelloMusicVoice = {
                 Vc.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
             }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         -\upbow
         \stopTextSpan
@@ -5731,7 +5731,7 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         -\downbow
         \stopTextSpan
@@ -5761,11 +5761,11 @@ K_CelloMusicVoice = {
     \times 7/8 {
         
         % [K CelloMusicVoice measure 539 / measure 2]            %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         \glissando                                               %! SC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         -\upbow
         \stopTextSpan
@@ -5791,7 +5791,7 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         -\downbow
         \stopTextSpan
@@ -5817,7 +5817,7 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow
         \stopTextSpan
@@ -5854,7 +5854,7 @@ K_CelloMusicVoice = {
             }
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow
         ]
@@ -5872,7 +5872,7 @@ K_CelloMusicVoice = {
         \override TextScript.staff-padding = #9                  %! OC1
         \override TextSpanner.staff-padding = #5                 %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
         - \tweak Y-extent ##f                                    %! PWC1
@@ -5903,10 +5903,10 @@ K_CelloMusicVoice = {
                     "hair: circles (each as wide as poss.)"      %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         - \tweak Y-extent ##f                                    %! PWC1
@@ -5932,15 +5932,15 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
     % [K CelloMusicVoice measure 541 / measure 4]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     \stopTextSpan                                                %! PWC1
     - \tweak Y-extent ##f                                        %! PWC1
@@ -5963,7 +5963,7 @@ K_CelloMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
     \startTextSpan                                               %! PWC1
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     \stopTextSpan                                                %! PWC1
     \revert TextScript.staff-padding                             %! OC2
@@ -5978,7 +5978,7 @@ K_CelloMusicVoice = {
         \override TextScript.staff-padding = #11                 %! OC1
         \override TextSpanner.staff-padding = #7                 %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2.
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\downbow
@@ -6012,7 +6012,7 @@ K_CelloMusicVoice = {
                             "1/2 clt"                            %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         -\upbow
         \stopTextSpan
@@ -6038,7 +6038,7 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         -\downbow
         \stopTextSpan
@@ -6105,7 +6105,7 @@ K_CelloMusicVoice = {
         % [K CelloMusicVoice measure 543 / measure 6]            %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 327/64
         -\upbow
         \stopTextSpan
@@ -6132,7 +6132,7 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 339/64
         -\downbow
         \stopTextSpan
@@ -6158,7 +6158,7 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 93/16
         -\upbow
         \stopTextSpan
@@ -6184,7 +6184,7 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 105/16
         -\downbow
         \stopTextSpan
@@ -6221,7 +6221,7 @@ K_CelloMusicVoice = {
         \startTextSpan
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 231/32
         -\upbow
         ]
@@ -6272,34 +6272,34 @@ K_CelloMusicVoice = {
         % [K CelloMusicVoice measure 546 / measure 9]            %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 239/64
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 231/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 105/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 23/8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 5/2
         
         % [K CelloMusicVoice measure 547 / measure 10]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 71/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 129/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 61/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 119/64
         ]
     }
@@ -6307,7 +6307,7 @@ K_CelloMusicVoice = {
     
     \override Staff.Stem.stemlet-length = 0.75
     \revert Staff.Stem.stemlet-length
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \override TupletNumber.text = \markup {
         \scale
@@ -6349,33 +6349,33 @@ K_CelloMusicVoice = {
         
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 239/64
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 231/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 105/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 23/8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 5/2
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 71/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 129/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 61/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 119/64
         ]
     }
@@ -6383,7 +6383,7 @@ K_CelloMusicVoice = {
     
     \override Staff.Stem.stemlet-length = 0.75
     \revert Staff.Stem.stemlet-length
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \override TupletNumber.text = \markup {
         \scale
@@ -6425,33 +6425,33 @@ K_CelloMusicVoice = {
         
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 239/64
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 231/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 105/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 23/8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 5/2
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 71/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 129/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 61/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 119/64
         ]
     }
@@ -6460,7 +6460,7 @@ K_CelloMusicVoice = {
     % [K CelloMusicVoice measure 552 / measure 15]               %! SM4
     \override Staff.Stem.stemlet-length = 0.75
     \revert Staff.Stem.stemlet-length
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \override TupletNumber.text = \markup {
         \scale
@@ -6502,33 +6502,33 @@ K_CelloMusicVoice = {
         
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 239/64
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 231/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 105/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 23/8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 5/2
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 71/32
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 129/64
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 61/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 119/64
         ]
     }
@@ -6536,7 +6536,7 @@ K_CelloMusicVoice = {
     
     \override Staff.Stem.stemlet-length = 0.75
     \revert Staff.Stem.stemlet-length
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     \override TupletNumber.text = \markup {
         \scale
@@ -6579,18 +6579,18 @@ K_CelloMusicVoice = {
         % [K CelloMusicVoice measure 554 / measure 17]           %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 251/64
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 55/16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 41/16
         
         \revert Staff.Stem.stemlet-length
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16 * 133/64
         ]
     }

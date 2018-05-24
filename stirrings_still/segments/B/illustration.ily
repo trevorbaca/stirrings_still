@@ -4594,26 +4594,26 @@ B_ViolinIMusicVoice = {
         r8
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\downbow                                                %! IC
         
         r8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
         r8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
         r8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
     }
@@ -4625,13 +4625,13 @@ B_ViolinIMusicVoice = {
         % [B ViolinIMusicVoice measure 67 / measure 4]           %! SM4
         r8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
         r8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -4644,7 +4644,7 @@ B_ViolinIMusicVoice = {
         
         % [B ViolinIMusicVoice measure 68 / measure 5]           %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         \mf_sub                                                  %! SM8:EXPLICIT_DYNAMIC:IC
         \stopTextSpan
@@ -4653,14 +4653,14 @@ B_ViolinIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
@@ -4668,7 +4668,7 @@ B_ViolinIMusicVoice = {
     \times 2/3 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         - \tweak circled-tip ##t                                 %! HC1
         \>                                                       %! HC1
@@ -4678,42 +4678,42 @@ B_ViolinIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -4734,13 +4734,13 @@ B_ViolinIMusicVoice = {
     R1 * 1
     
     % [B ViolinIMusicVoice measure 75 / measure 12]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [B ViolinIMusicVoice measure 76 / measure 13]              %! SM4
@@ -4748,28 +4748,28 @@ B_ViolinIMusicVoice = {
     \times 2/3 {
         
         % [B ViolinIMusicVoice measure 77 / measure 14]          %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
@@ -4777,98 +4777,98 @@ B_ViolinIMusicVoice = {
     \times 2/3 {
         
         % [B ViolinIMusicVoice measure 78 / measure 15]          %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         % [B ViolinIMusicVoice measure 83 / measure 20]          %! SM4
@@ -4876,28 +4876,28 @@ B_ViolinIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         % [B ViolinIMusicVoice measure 84 / measure 21]          %! SM4
@@ -4905,28 +4905,28 @@ B_ViolinIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         % [B ViolinIMusicVoice measure 85 / measure 22]          %! SM4
@@ -4934,21 +4934,21 @@ B_ViolinIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         % [B ViolinIMusicVoice measure 86 / measure 23]          %! SM4
@@ -4956,42 +4956,42 @@ B_ViolinIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
@@ -4999,7 +4999,7 @@ B_ViolinIMusicVoice = {
     \tweak edge-height #'(0.7 . 0)
     \times 8/9 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'32
         
         r16
@@ -5010,10 +5010,10 @@ B_ViolinIMusicVoice = {
     \times 2/3 {
         
         % [B ViolinIMusicVoice measure 89 / measure 26]          %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
@@ -5026,17 +5026,17 @@ B_ViolinIMusicVoice = {
     \times 5/6 {
         
         % [B ViolinIMusicVoice measure 92 / measure 29]          %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ~
         ]
@@ -5045,20 +5045,20 @@ B_ViolinIMusicVoice = {
     \times 6/7 {
         
         % [B ViolinIMusicVoice measure 93 / measure 30]          %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
@@ -5067,53 +5067,53 @@ B_ViolinIMusicVoice = {
     R1 * 1/4
     
     % [B ViolinIMusicVoice measure 95 / measure 32]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     
     % [B ViolinIMusicVoice measure 96 / measure 33]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/8 {
         
         % [B ViolinIMusicVoice measure 97 / measure 34]          %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/8 {
         
         % [B ViolinIMusicVoice measure 98 / measure 35]          %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     
@@ -5123,30 +5123,30 @@ B_ViolinIMusicVoice = {
     \times 5/6 {
         
         % [B ViolinIMusicVoice measure 100 / measure 37]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
     }
     \times 4/5 {
         
         % [B ViolinIMusicVoice measure 101 / measure 38]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
@@ -5156,47 +5156,47 @@ B_ViolinIMusicVoice = {
     \times 6/7 {
         
         % [B ViolinIMusicVoice measure 103 / measure 40]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 8/9 {
         
         % [B ViolinIMusicVoice measure 104 / measure 41]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
     % [B ViolinIMusicVoice measure 105 / measure 42]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [B ViolinIMusicVoice measure 106 / measure 43]             %! SM4
@@ -5204,24 +5204,24 @@ B_ViolinIMusicVoice = {
     \times 8/9 {
         
         % [B ViolinIMusicVoice measure 107 / measure 44]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     
@@ -5230,14 +5230,14 @@ B_ViolinIMusicVoice = {
     \times 4/5 {
         
         % [B ViolinIMusicVoice measure 109 / measure 46]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
@@ -5246,7 +5246,7 @@ B_ViolinIMusicVoice = {
     R1 * 1/4
     
     % [B ViolinIMusicVoice measure 111 / measure 48]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [B ViolinIMusicVoice measure 112 / measure 49]             %! SM4
@@ -5255,68 +5255,68 @@ B_ViolinIMusicVoice = {
     \times 5/6 {
         
         % [B ViolinIMusicVoice measure 113 / measure 50]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ~
     }
     \times 8/9 {
         
         % [B ViolinIMusicVoice measure 114 / measure 51]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     
     % [B ViolinIMusicVoice measure 115 / measure 52]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     \times 4/7 {
         
         % [B ViolinIMusicVoice measure 116 / measure 53]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         ~
     }
@@ -5324,67 +5324,67 @@ B_ViolinIMusicVoice = {
     \times 7/8 {
         
         % [B ViolinIMusicVoice measure 117 / measure 54]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [B ViolinIMusicVoice measure 118 / measure 55]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     
     % [B ViolinIMusicVoice measure 119 / measure 56]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     \times 4/7 {
         
         % [B ViolinIMusicVoice measure 120 / measure 57]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
@@ -5407,16 +5407,16 @@ B_ViolinIMusicVoice = {
     R1 * 1/4
     
     % [B ViolinIMusicVoice measure 127 / measure 64]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     
     % [B ViolinIMusicVoice measure 128 / measure 65]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [B ViolinIMusicVoice measure 129 / measure 66]             %! SM4
@@ -5456,7 +5456,7 @@ B_ViolinIIMusicVoice = {
         \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\downbow                                                %! IC
@@ -5523,7 +5523,7 @@ B_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -5531,7 +5531,7 @@ B_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
@@ -5540,7 +5540,7 @@ B_ViolinIIMusicVoice = {
     \times 2/3 {
         
         % [B ViolinIIMusicVoice measure 65 / measure 2]          %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -5548,7 +5548,7 @@ B_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
@@ -5556,7 +5556,7 @@ B_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -5564,7 +5564,7 @@ B_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
@@ -5572,7 +5572,7 @@ B_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -5580,7 +5580,7 @@ B_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
@@ -5588,7 +5588,7 @@ B_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -5597,7 +5597,7 @@ B_ViolinIIMusicVoice = {
     \times 2/3 {
         
         % [B ViolinIIMusicVoice measure 67 / measure 4]          %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
@@ -5605,7 +5605,7 @@ B_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -5618,7 +5618,7 @@ B_ViolinIIMusicVoice = {
         
         % [B ViolinIIMusicVoice measure 68 / measure 5]          %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         \mf_sub                                                  %! SM8:EXPLICIT_DYNAMIC:IC
         \stopTextSpan
@@ -5627,14 +5627,14 @@ B_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
@@ -5642,7 +5642,7 @@ B_ViolinIIMusicVoice = {
     \times 2/3 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         - \tweak circled-tip ##t                                 %! HC1
         \>                                                       %! HC1
@@ -5652,42 +5652,42 @@ B_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -5709,21 +5709,21 @@ B_ViolinIIMusicVoice = {
     \times 2/3 {
         
         % [B ViolinIIMusicVoice measure 75 / measure 12]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
@@ -5731,49 +5731,49 @@ B_ViolinIIMusicVoice = {
     \times 2/3 {
         
         % [B ViolinIIMusicVoice measure 76 / measure 13]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
@@ -5781,7 +5781,7 @@ B_ViolinIIMusicVoice = {
     \tweak edge-height #'(0.7 . 0)
     \times 8/9 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'32
         
         r16
@@ -5789,35 +5789,35 @@ B_ViolinIIMusicVoice = {
     \times 2/3 {
         
         % [B ViolinIIMusicVoice measure 79 / measure 16]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
         r8
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
         r8
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
         r8
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
         r8
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
         r8
@@ -5825,7 +5825,7 @@ B_ViolinIIMusicVoice = {
     \tweak edge-height #'(0.7 . 0)
     \times 8/9 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'32
         
         r64
@@ -5834,74 +5834,74 @@ B_ViolinIIMusicVoice = {
     \times 6/7 {
         
         % [B ViolinIIMusicVoice measure 81 / measure 18]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/8 {
         
         % [B ViolinIIMusicVoice measure 82 / measure 19]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     
     % [B ViolinIIMusicVoice measure 83 / measure 20]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ~
     ]
     \times 4/7 {
         
         % [B ViolinIIMusicVoice measure 84 / measure 21]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         ~
     }
@@ -5909,20 +5909,20 @@ B_ViolinIIMusicVoice = {
     \times 6/7 {
         
         % [B ViolinIIMusicVoice measure 85 / measure 22]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
@@ -5930,62 +5930,62 @@ B_ViolinIIMusicVoice = {
     \times 7/8 {
         
         % [B ViolinIIMusicVoice measure 86 / measure 23]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
     % [B ViolinIIMusicVoice measure 87 / measure 24]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
         % [B ViolinIIMusicVoice measure 88 / measure 25]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     \times 2/3 {
         
         % [B ViolinIIMusicVoice measure 89 / measure 26]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     \times 4/5 {
         
         % [B ViolinIIMusicVoice measure 90 / measure 27]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
     }
     
@@ -5995,17 +5995,17 @@ B_ViolinIIMusicVoice = {
     \times 5/6 {
         
         % [B ViolinIIMusicVoice measure 92 / measure 29]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ~
         ]
@@ -6014,20 +6014,20 @@ B_ViolinIIMusicVoice = {
     \times 6/7 {
         
         % [B ViolinIIMusicVoice measure 93 / measure 30]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
@@ -6036,53 +6036,53 @@ B_ViolinIIMusicVoice = {
     R1 * 1/4
     
     % [B ViolinIIMusicVoice measure 95 / measure 32]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     
     % [B ViolinIIMusicVoice measure 96 / measure 33]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/8 {
         
         % [B ViolinIIMusicVoice measure 97 / measure 34]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/8 {
         
         % [B ViolinIIMusicVoice measure 98 / measure 35]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     
@@ -6092,30 +6092,30 @@ B_ViolinIIMusicVoice = {
     \times 5/6 {
         
         % [B ViolinIIMusicVoice measure 100 / measure 37]        %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
     }
     \times 4/5 {
         
         % [B ViolinIIMusicVoice measure 101 / measure 38]        %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
@@ -6125,47 +6125,47 @@ B_ViolinIIMusicVoice = {
     \times 6/7 {
         
         % [B ViolinIIMusicVoice measure 103 / measure 40]        %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 8/9 {
         
         % [B ViolinIIMusicVoice measure 104 / measure 41]        %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
     % [B ViolinIIMusicVoice measure 105 / measure 42]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [B ViolinIIMusicVoice measure 106 / measure 43]            %! SM4
@@ -6173,24 +6173,24 @@ B_ViolinIIMusicVoice = {
     \times 8/9 {
         
         % [B ViolinIIMusicVoice measure 107 / measure 44]        %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     
@@ -6199,14 +6199,14 @@ B_ViolinIIMusicVoice = {
     \times 4/5 {
         
         % [B ViolinIIMusicVoice measure 109 / measure 46]        %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
@@ -6215,7 +6215,7 @@ B_ViolinIIMusicVoice = {
     R1 * 1/4
     
     % [B ViolinIIMusicVoice measure 111 / measure 48]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [B ViolinIIMusicVoice measure 112 / measure 49]            %! SM4
@@ -6224,68 +6224,68 @@ B_ViolinIIMusicVoice = {
     \times 5/6 {
         
         % [B ViolinIIMusicVoice measure 113 / measure 50]        %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ~
     }
     \times 8/9 {
         
         % [B ViolinIIMusicVoice measure 114 / measure 51]        %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     
     % [B ViolinIIMusicVoice measure 115 / measure 52]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     \times 4/7 {
         
         % [B ViolinIIMusicVoice measure 116 / measure 53]        %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         ~
     }
@@ -6293,139 +6293,139 @@ B_ViolinIIMusicVoice = {
     \times 7/8 {
         
         % [B ViolinIIMusicVoice measure 117 / measure 54]        %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [B ViolinIIMusicVoice measure 118 / measure 55]        %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     
     % [B ViolinIIMusicVoice measure 119 / measure 56]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     \times 4/7 {
         
         % [B ViolinIIMusicVoice measure 120 / measure 57]        %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
     % [B ViolinIIMusicVoice measure 121 / measure 58]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [B ViolinIIMusicVoice measure 122 / measure 59]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [B ViolinIIMusicVoice measure 123 / measure 60]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [B ViolinIIMusicVoice measure 125 / measure 62]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [B ViolinIIMusicVoice measure 126 / measure 63]            %! SM4
     R1 * 1/4
     
     % [B ViolinIIMusicVoice measure 127 / measure 64]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     
     % [B ViolinIIMusicVoice measure 128 / measure 65]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [B ViolinIIMusicVoice measure 129 / measure 66]            %! SM4
@@ -6465,7 +6465,7 @@ B_ViolaMusicVoice = {
         \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\downbow                                                %! IC
@@ -6532,7 +6532,7 @@ B_ViolaMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -6540,7 +6540,7 @@ B_ViolaMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
@@ -6549,7 +6549,7 @@ B_ViolaMusicVoice = {
     \times 2/3 {
         
         % [B ViolaMusicVoice measure 65 / measure 2]             %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -6557,7 +6557,7 @@ B_ViolaMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
@@ -6565,7 +6565,7 @@ B_ViolaMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -6573,7 +6573,7 @@ B_ViolaMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
@@ -6581,7 +6581,7 @@ B_ViolaMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -6589,7 +6589,7 @@ B_ViolaMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
@@ -6597,7 +6597,7 @@ B_ViolaMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -6606,7 +6606,7 @@ B_ViolaMusicVoice = {
     \times 2/3 {
         
         % [B ViolaMusicVoice measure 67 / measure 4]             %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
@@ -6614,7 +6614,7 @@ B_ViolaMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -6627,7 +6627,7 @@ B_ViolaMusicVoice = {
         
         % [B ViolaMusicVoice measure 68 / measure 5]             %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         \mf_sub                                                  %! SM8:EXPLICIT_DYNAMIC:IC
         \stopTextSpan
@@ -6636,14 +6636,14 @@ B_ViolaMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16
         
         r8
@@ -6651,30 +6651,30 @@ B_ViolaMusicVoice = {
     
     % [B ViolaMusicVoice measure 69 / measure 6]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [B ViolaMusicVoice measure 70 / measure 7]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \p                                                           %! HC1
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [B ViolaMusicVoice measure 71 / measure 8]                 %! SM4
@@ -6690,13 +6690,13 @@ B_ViolaMusicVoice = {
     R1 * 1
     
     % [B ViolaMusicVoice measure 75 / measure 12]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [B ViolaMusicVoice measure 76 / measure 13]                %! SM4
@@ -6740,10 +6740,10 @@ B_ViolaMusicVoice = {
     \times 2/3 {
         
         % [B ViolaMusicVoice measure 89 / measure 26]            %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
@@ -6756,17 +6756,17 @@ B_ViolaMusicVoice = {
     \times 5/6 {
         
         % [B ViolaMusicVoice measure 92 / measure 29]            %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ~
         ]
@@ -6775,20 +6775,20 @@ B_ViolaMusicVoice = {
     \times 6/7 {
         
         % [B ViolaMusicVoice measure 93 / measure 30]            %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
@@ -6797,53 +6797,53 @@ B_ViolaMusicVoice = {
     R1 * 1/4
     
     % [B ViolaMusicVoice measure 95 / measure 32]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     
     % [B ViolaMusicVoice measure 96 / measure 33]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/8 {
         
         % [B ViolaMusicVoice measure 97 / measure 34]            %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/8 {
         
         % [B ViolaMusicVoice measure 98 / measure 35]            %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     
@@ -6853,30 +6853,30 @@ B_ViolaMusicVoice = {
     \times 5/6 {
         
         % [B ViolaMusicVoice measure 100 / measure 37]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
     }
     \times 4/5 {
         
         % [B ViolaMusicVoice measure 101 / measure 38]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
@@ -6886,47 +6886,47 @@ B_ViolaMusicVoice = {
     \times 6/7 {
         
         % [B ViolaMusicVoice measure 103 / measure 40]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 8/9 {
         
         % [B ViolaMusicVoice measure 104 / measure 41]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
     % [B ViolaMusicVoice measure 105 / measure 42]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [B ViolaMusicVoice measure 106 / measure 43]               %! SM4
@@ -6934,24 +6934,24 @@ B_ViolaMusicVoice = {
     \times 8/9 {
         
         % [B ViolaMusicVoice measure 107 / measure 44]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     
@@ -6960,14 +6960,14 @@ B_ViolaMusicVoice = {
     \times 4/5 {
         
         % [B ViolaMusicVoice measure 109 / measure 46]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
@@ -6976,7 +6976,7 @@ B_ViolaMusicVoice = {
     R1 * 1/4
     
     % [B ViolaMusicVoice measure 111 / measure 48]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [B ViolaMusicVoice measure 112 / measure 49]               %! SM4
@@ -6985,68 +6985,68 @@ B_ViolaMusicVoice = {
     \times 5/6 {
         
         % [B ViolaMusicVoice measure 113 / measure 50]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ~
     }
     \times 8/9 {
         
         % [B ViolaMusicVoice measure 114 / measure 51]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     
     % [B ViolaMusicVoice measure 115 / measure 52]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     \times 4/7 {
         
         % [B ViolaMusicVoice measure 116 / measure 53]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         ~
     }
@@ -7054,67 +7054,67 @@ B_ViolaMusicVoice = {
     \times 7/8 {
         
         % [B ViolaMusicVoice measure 117 / measure 54]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [B ViolaMusicVoice measure 118 / measure 55]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     
     % [B ViolaMusicVoice measure 119 / measure 56]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     \times 4/7 {
         
         % [B ViolaMusicVoice measure 120 / measure 57]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
@@ -7137,16 +7137,16 @@ B_ViolaMusicVoice = {
     R1 * 1/4
     
     % [B ViolaMusicVoice measure 127 / measure 64]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     
     % [B ViolaMusicVoice measure 128 / measure 65]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [B ViolaMusicVoice measure 129 / measure 66]               %! SM4
@@ -7186,7 +7186,7 @@ B_CelloMusicVoice = {
         \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\downbow                                                %! IC
@@ -7253,7 +7253,7 @@ B_CelloMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -7261,7 +7261,7 @@ B_CelloMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
@@ -7270,7 +7270,7 @@ B_CelloMusicVoice = {
     \times 2/3 {
         
         % [B CelloMusicVoice measure 65 / measure 2]             %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -7278,7 +7278,7 @@ B_CelloMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
@@ -7286,7 +7286,7 @@ B_CelloMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -7294,7 +7294,7 @@ B_CelloMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
@@ -7302,7 +7302,7 @@ B_CelloMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -7310,7 +7310,7 @@ B_CelloMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
@@ -7318,7 +7318,7 @@ B_CelloMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -7327,7 +7327,7 @@ B_CelloMusicVoice = {
     \times 2/3 {
         
         % [B CelloMusicVoice measure 67 / measure 4]             %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
         
@@ -7335,7 +7335,7 @@ B_CelloMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow                                                  %! IC
         
@@ -7348,7 +7348,7 @@ B_CelloMusicVoice = {
         
         % [B CelloMusicVoice measure 68 / measure 5]             %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         \mf_sub                                                  %! SM8:EXPLICIT_DYNAMIC:IC
         \stopTextSpan
@@ -7357,14 +7357,14 @@ B_CelloMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'16
         
         r8
@@ -7374,7 +7374,7 @@ B_CelloMusicVoice = {
     \override NoteHead.style = #'harmonic                        %! OC1
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
@@ -7385,46 +7385,46 @@ B_CelloMusicVoice = {
         }                                                        %! IC
     
     % [B CelloMusicVoice measure 70 / measure 7]                 %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [B CelloMusicVoice measure 71 / measure 8]                 %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [B CelloMusicVoice measure 72 / measure 9]                 %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
     % [B CelloMusicVoice measure 73 / measure 10]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     \f                                                           %! HC1
     
     % [B CelloMusicVoice measure 74 / measure 11]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     \revert NoteHead.style                                       %! OC2
     
     % [B CelloMusicVoice measure 75 / measure 12]                %! SM4
     \breathe                                                     %! IC
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [B CelloMusicVoice measure 76 / measure 13]                %! SM4
@@ -7478,17 +7478,17 @@ B_CelloMusicVoice = {
     \times 5/6 {
         
         % [B CelloMusicVoice measure 92 / measure 29]            %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ~
         ]
@@ -7497,20 +7497,20 @@ B_CelloMusicVoice = {
     \times 6/7 {
         
         % [B CelloMusicVoice measure 93 / measure 30]            %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
@@ -7519,53 +7519,53 @@ B_CelloMusicVoice = {
     R1 * 1/4
     
     % [B CelloMusicVoice measure 95 / measure 32]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     
     % [B CelloMusicVoice measure 96 / measure 33]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/8 {
         
         % [B CelloMusicVoice measure 97 / measure 34]            %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/8 {
         
         % [B CelloMusicVoice measure 98 / measure 35]            %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     
@@ -7575,30 +7575,30 @@ B_CelloMusicVoice = {
     \times 5/6 {
         
         % [B CelloMusicVoice measure 100 / measure 37]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
     }
     \times 4/5 {
         
         % [B CelloMusicVoice measure 101 / measure 38]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
@@ -7608,47 +7608,47 @@ B_CelloMusicVoice = {
     \times 6/7 {
         
         % [B CelloMusicVoice measure 103 / measure 40]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 8/9 {
         
         % [B CelloMusicVoice measure 104 / measure 41]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
     % [B CelloMusicVoice measure 105 / measure 42]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [B CelloMusicVoice measure 106 / measure 43]               %! SM4
@@ -7656,24 +7656,24 @@ B_CelloMusicVoice = {
     \times 8/9 {
         
         % [B CelloMusicVoice measure 107 / measure 44]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     
@@ -7682,14 +7682,14 @@ B_CelloMusicVoice = {
     \times 4/5 {
         
         % [B CelloMusicVoice measure 109 / measure 46]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
@@ -7706,68 +7706,68 @@ B_CelloMusicVoice = {
     \times 5/6 {
         
         % [B CelloMusicVoice measure 113 / measure 50]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ~
     }
     \times 8/9 {
         
         % [B CelloMusicVoice measure 114 / measure 51]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     
     % [B CelloMusicVoice measure 115 / measure 52]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     \times 4/7 {
         
         % [B CelloMusicVoice measure 116 / measure 53]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         ~
     }
@@ -7775,67 +7775,67 @@ B_CelloMusicVoice = {
     \times 7/8 {
         
         % [B CelloMusicVoice measure 117 / measure 54]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [B CelloMusicVoice measure 118 / measure 55]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
     }
     
     % [B CelloMusicVoice measure 119 / measure 56]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     \times 4/7 {
         
         % [B CelloMusicVoice measure 120 / measure 57]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'2.
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'4
     }
     
@@ -7861,12 +7861,12 @@ B_CelloMusicVoice = {
     R1 * 1
     
     % [B CelloMusicVoice measure 128 / measure 65]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [B CelloMusicVoice measure 129 / measure 66]               %! SM4
