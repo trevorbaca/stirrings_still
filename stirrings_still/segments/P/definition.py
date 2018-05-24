@@ -52,11 +52,10 @@ maker(
 
 maker(
     ('v1', (5, 10)),
-#    baca.rhythm(
-#        rhythm_maker=[
-#            (abjad.rmakers.EvenDivisionRhythmMaker(), True),
-#            (abjad.rmakers.NoteRhythmMaker(), True),
-#            ],
-#        ),
-    stirrings_still.wave(),
+    baca.rhythm(
+        rhythm_maker=[
+            (stirrings_still.wave().rhythm_maker, [0, 2]),
+            (abjad.rmakers.NoteRhythmMaker(), True),
+            ],
+        ),
     )
