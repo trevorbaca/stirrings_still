@@ -322,22 +322,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (130)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <0>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((1))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.1]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -348,7 +348,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [5'08'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -363,27 +363,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (131)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <1>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((2))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.2]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [5'10'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -397,27 +397,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (132)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <2>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((3))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.3]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [5'14'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -432,27 +432,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (133)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <3>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((4))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.4]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [5'18'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -517,22 +517,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (134)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <4>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((5))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.5]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -543,7 +543,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [5'20'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -558,27 +558,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (135)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <5>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((6))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.6]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [5'24'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -643,22 +643,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (136)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <6>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((7))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.7]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -669,7 +669,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [5'25'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -684,27 +684,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (137)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <7>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((8))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.8]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [5'29'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -719,27 +719,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (138)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <8>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((9))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.9]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [5'34'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -753,27 +753,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (139)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <9>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((10))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.10]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [5'39'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -788,27 +788,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (140)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <10>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((11))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.11]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [5'45'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -873,22 +873,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (141)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <11>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((12))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.12]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -899,7 +899,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [5'46'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -914,27 +914,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (142)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <12>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((13))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.13]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [5'48'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -949,27 +949,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (143)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <13>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((14))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.14]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [5'51'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -984,27 +984,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (144)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <14>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((15))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.15]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [5'55'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1019,22 +1019,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (145)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <15>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((16))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.16]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -1045,7 +1045,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [5'58'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1060,27 +1060,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (146)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <16>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((17))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.17]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'00'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1094,27 +1094,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (147)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <17>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((18))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.18]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'03'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1128,27 +1128,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (148)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <18>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((19))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.19]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'06'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1163,22 +1163,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (149)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <19>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((20))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.20]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -1189,7 +1189,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'09'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1204,27 +1204,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (150)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <20>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((21))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.21]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'12'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1239,27 +1239,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (151)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <21>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((22))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.22]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'16'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1274,27 +1274,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (152)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <22>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((23))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.23]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'20'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1309,22 +1309,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (153)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <23>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((24))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.24]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -1335,7 +1335,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'22'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1349,27 +1349,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (154)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <24>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((25))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.25]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'26'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1384,27 +1384,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (155)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <25>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((26))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.26]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'29'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1419,27 +1419,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (156)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <26>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((27))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.27]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'32'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1504,22 +1504,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (157)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <27>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((28))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.28]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -1530,7 +1530,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'37'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1545,27 +1545,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (158)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <28>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((29))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.29]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'39'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1634,22 +1634,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (159)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <29>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((30))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.30]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -1660,7 +1660,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'39'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1675,27 +1675,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (160)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <30>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((31))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.31]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'42'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1759,27 +1759,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (161)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <31>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((32))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.32]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'45'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1793,27 +1793,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (162)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <32>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((33))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.33]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'47'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1878,22 +1878,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (163)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <33>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((34))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.34]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -1904,7 +1904,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'49'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1919,27 +1919,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (164)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <34>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((35))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.35]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'52'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -2008,22 +2008,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (165)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <35>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((36))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.36]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -2034,7 +2034,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'55'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -2049,27 +2049,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (166)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <36>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((37))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.37]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [6'58'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -2134,27 +2134,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (167)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <37>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((38))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.38]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'01'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -2169,27 +2169,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (168)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <38>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((39))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.39]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'02'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -2258,22 +2258,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (169)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <39>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((40))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.40]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -2284,7 +2284,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'03'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -2299,27 +2299,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (170)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <40>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((41))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.41]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'06'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -2383,27 +2383,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (171)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <41>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((42))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.42]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'10'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -2417,27 +2417,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (172)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <42>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((43))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.43]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'12'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -2506,22 +2506,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (173)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <43>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((44))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.44]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -2532,7 +2532,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'14'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -2547,27 +2547,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (174)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <44>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((45))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.45]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'17'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -2632,27 +2632,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (175)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <45>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((46))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.46]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'20'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -2667,27 +2667,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (176)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <46>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((47))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.47]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'21'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -2756,22 +2756,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (177)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <47>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((48))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.48]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -2782,7 +2782,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'22'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -2797,27 +2797,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (178)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <48>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((49))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.49]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'25'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -2881,27 +2881,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (179)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <49>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((50))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.50]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'29'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -2915,27 +2915,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (180)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <50>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((51))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.51]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'31'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -3004,22 +3004,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (181)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <51>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((52))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.52]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -3030,7 +3030,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'33'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -3045,27 +3045,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (182)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <52>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((53))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.53]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'36'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -3130,27 +3130,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (183)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <53>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((54))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.54]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'39'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -3165,27 +3165,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (184)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <54>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((55))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.55]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'40'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -3249,22 +3249,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (185)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <55>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((56))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.56]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -3275,7 +3275,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'41'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -3290,27 +3290,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (186)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <56>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((57))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.57]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'45'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -3325,27 +3325,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (187)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <57>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((58))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.58]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'49'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -3360,27 +3360,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (188)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <58>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((59))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.59]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'55'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -3445,22 +3445,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (189)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <59>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((60))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.60]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -3471,7 +3471,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [7'58'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -3486,27 +3486,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (190)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <60>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((61))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.61]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'01'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -3575,22 +3575,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (191)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <61>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((62))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.62]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -3601,7 +3601,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'05'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -3666,27 +3666,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (192)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <62>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((63))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.63]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'10'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -3755,22 +3755,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (193)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <63>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((64))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.64]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -3781,7 +3781,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'12'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -3845,27 +3845,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (194)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <64>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((65))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.65]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'14'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -3933,22 +3933,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (195)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <65>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((66))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.66]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -3959,7 +3959,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'18'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -4024,27 +4024,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (196)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <66>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((67))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.67]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'23'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -4112,22 +4112,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (197)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <67>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((68))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.68]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -4138,7 +4138,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'24'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -4203,27 +4203,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (198)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <68>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((69))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.69]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'26'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -4238,27 +4238,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (199)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <69>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((70))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.70]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'31'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -4273,22 +4273,22 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (200)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <70>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((71))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.71]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -4299,7 +4299,7 @@ C_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'32'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -4368,27 +4368,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (201)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <71>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((72))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.72]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'37'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -4402,27 +4402,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (202)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <72>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((73))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.73]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'44'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -4487,27 +4487,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (203)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <73>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((74))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.74]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'51'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -4522,27 +4522,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (204)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <74>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((75))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.75]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'52'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -4557,27 +4557,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (205)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <75>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((76))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.76]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'54'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -4593,27 +4593,27 @@ C_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (206)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <76>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((77))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [C.77]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [8'56'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -4646,7 +4646,7 @@ C_ViolinIMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     [
@@ -4716,71 +4716,71 @@ C_ViolinIMusicVoice = {
             "Vn. I"                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     ]
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 131 / measure 2]          %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 132 / measure 3]          %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     
     % [C ViolinIMusicVoice measure 133 / measure 4]              %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     [
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     ]
     <> \stopTextSpan
     
     % [C ViolinIMusicVoice measure 134 / measure 5]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     -\espressivo                                                 %! IC
@@ -4803,27 +4803,27 @@ C_ViolinIMusicVoice = {
             }
         }
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     -\espressivo                                                 %! IC
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     -\espressivo                                                 %! IC
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     -\espressivo                                                 %! IC
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     -\espressivo                                                 %! IC
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     -\espressivo                                                 %! IC
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     -\espressivo                                                 %! IC
     ]
@@ -4834,7 +4834,7 @@ C_ViolinIMusicVoice = {
         
         % [C ViolinIMusicVoice measure 136 / measure 7]          %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         - \tweak Y-extent ##f
@@ -4871,88 +4871,88 @@ C_ViolinIMusicVoice = {
                     "maximally tight crunch circles: grind at talon" %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/6 {
         
         % [C ViolinIMusicVoice measure 137 / measure 8]          %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [C ViolinIMusicVoice measure 138 / measure 9]          %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [C ViolinIMusicVoice measure 139 / measure 10]         %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         <> \stopTextSpan
     }
@@ -4969,7 +4969,7 @@ C_ViolinIMusicVoice = {
     >>
     
     % [C ViolinIMusicVoice measure 141 / measure 12]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -5026,24 +5026,24 @@ C_ViolinIMusicVoice = {
     
     r8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
     r8.
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 142 / measure 13]         %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5052,7 +5052,7 @@ C_ViolinIMusicVoice = {
         % [C ViolinIMusicVoice measure 143 / measure 14]         %! SM4
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         - \tweak Y-extent ##f                                    %! PWC1
@@ -5078,12 +5078,12 @@ C_ViolinIMusicVoice = {
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \times 4/5 {
@@ -5091,12 +5091,12 @@ C_ViolinIMusicVoice = {
         % [C ViolinIMusicVoice measure 144 / measure 15]         %! SM4
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         
@@ -5105,7 +5105,7 @@ C_ViolinIMusicVoice = {
     }
     
     % [C ViolinIMusicVoice measure 145 / measure 16]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -5162,24 +5162,24 @@ C_ViolinIMusicVoice = {
     
     r8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
     r8.
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 146 / measure 17]         %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \times 4/5 {
@@ -5187,7 +5187,7 @@ C_ViolinIMusicVoice = {
         % [C ViolinIMusicVoice measure 147 / measure 18]         %! SM4
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         - \tweak Y-extent ##f                                    %! PWC1
@@ -5213,7 +5213,7 @@ C_ViolinIMusicVoice = {
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
@@ -5221,24 +5221,24 @@ C_ViolinIMusicVoice = {
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 148 / measure 19]         %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         <> \stopTextSpanOne
     }
     
     % [C ViolinIMusicVoice measure 149 / measure 20]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     [
     - \tweak Y-extent ##f                                        %! PWC1
@@ -5294,39 +5294,39 @@ C_ViolinIMusicVoice = {
     - \tweak staff-padding #7
     \startTextSpanOne
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     ]
     
     r8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/6 {
         
         % [C ViolinIMusicVoice measure 150 / measure 21]         %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [C ViolinIMusicVoice measure 151 / measure 22]         %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         - \tweak Y-extent ##f                                    %! PWC1
@@ -5352,29 +5352,29 @@ C_ViolinIMusicVoice = {
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     
     % [C ViolinIMusicVoice measure 152 / measure 23]             %! SM4
     r8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     [
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     ]
     \stopTextSpan                                                %! PWC1
@@ -5384,7 +5384,7 @@ C_ViolinIMusicVoice = {
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 153 / measure 24]         %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -5440,81 +5440,81 @@ C_ViolinIMusicVoice = {
         - \tweak staff-padding #7
         \startTextSpanOne
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 154 / measure 25]         %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/6 {
         
         % [C ViolinIMusicVoice measure 155 / measure 26]         %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [C ViolinIMusicVoice measure 156 / measure 27]         %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         <> \stopTextSpan
         <> \stopTextSpanOne
@@ -5523,7 +5523,7 @@ C_ViolinIMusicVoice = {
     % [C ViolinIMusicVoice measure 157 / measure 28]             %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
@@ -5542,11 +5542,11 @@ C_ViolinIMusicVoice = {
     \times 2/3 {
         
         % [C ViolinIMusicVoice measure 158 / measure 29]         %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'2
         \repeatTie
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         \repeatTie
         \revert NoteHead.style                                   %! OC2
@@ -5554,7 +5554,7 @@ C_ViolinIMusicVoice = {
     
     % [C ViolinIMusicVoice measure 159 / measure 30]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \>                                                           %! HC1
     \mf                                                          %! HC1
@@ -5614,17 +5614,17 @@ C_ViolinIMusicVoice = {
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIMusicVoice measure 160 / measure 31]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
@@ -5632,19 +5632,19 @@ C_ViolinIMusicVoice = {
     % [C ViolinIMusicVoice measure 161 / measure 32]             %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolinIMusicVoice measure 162 / measure 33]             %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \pp                                                          %! HC1
     
@@ -5671,7 +5671,7 @@ C_ViolinIMusicVoice = {
     
     % [C ViolinIMusicVoice measure 165 / measure 36]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \<                                                           %! HC1
     \pp                                                          %! HC1
@@ -5728,17 +5728,17 @@ C_ViolinIMusicVoice = {
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIMusicVoice measure 166 / measure 37]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
@@ -5746,23 +5746,23 @@ C_ViolinIMusicVoice = {
     % [C ViolinIMusicVoice measure 167 / measure 38]             %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIMusicVoice measure 168 / measure 39]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \mf                                                          %! HC1
     
@@ -5772,7 +5772,7 @@ C_ViolinIMusicVoice = {
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \>                                                           %! HC1
     \mf                                                          %! HC1
@@ -5780,12 +5780,12 @@ C_ViolinIMusicVoice = {
     r4
     
     % [C ViolinIMusicVoice measure 170 / measure 41]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
@@ -5793,28 +5793,28 @@ C_ViolinIMusicVoice = {
     % [C ViolinIMusicVoice measure 171 / measure 42]             %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C ViolinIMusicVoice measure 172 / measure 43]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     \pp                                                          %! HC1
@@ -5822,46 +5822,46 @@ C_ViolinIMusicVoice = {
     % [C ViolinIMusicVoice measure 173 / measure 44]             %! SM4
     \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     \<                                                           %! HC1
     \pp                                                          %! HC1
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C ViolinIMusicVoice measure 174 / measure 45]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
     % [C ViolinIMusicVoice measure 175 / measure 46]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C ViolinIMusicVoice measure 176 / measure 47]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \f                                                           %! HC1
     
@@ -5869,47 +5869,47 @@ C_ViolinIMusicVoice = {
     
     % [C ViolinIMusicVoice measure 177 / measure 48]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \>                                                           %! HC1
     \f                                                           %! HC1
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIMusicVoice measure 178 / measure 49]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
     % [C ViolinIMusicVoice measure 179 / measure 50]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolinIMusicVoice measure 180 / measure 51]             %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     \pp                                                          %! HC1
@@ -5917,54 +5917,54 @@ C_ViolinIMusicVoice = {
     % [C ViolinIMusicVoice measure 181 / measure 52]             %! SM4
     \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     \<                                                           %! HC1
     \pp                                                          %! HC1
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolinIMusicVoice measure 182 / measure 53]             %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIMusicVoice measure 183 / measure 54]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolinIMusicVoice measure 184 / measure 55]             %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     \ff                                                          %! HC1
     <> \stopTextSpan
     <> \stopTextSpanOne
     
     % [C ViolinIMusicVoice measure 185 / measure 56]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -6017,53 +6017,53 @@ C_ViolinIMusicVoice = {
     - \tweak staff-padding #7
     \startTextSpanOne
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolinIMusicVoice measure 186 / measure 57]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolinIMusicVoice measure 187 / measure 58]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIMusicVoice measure 188 / measure 59]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     <> \stopTextSpan
     <> \stopTextSpanOne
@@ -6071,7 +6071,7 @@ C_ViolinIMusicVoice = {
     % [C ViolinIMusicVoice measure 189 / measure 60]             %! SM4
     \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2
     \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
     - \tweak Y-extent ##f
@@ -6101,7 +6101,7 @@ C_ViolinIMusicVoice = {
     \startTextSpan
     
     % [C ViolinIMusicVoice measure 190 / measure 61]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2.
     \repeatTie
     <> \stopTextSpan
@@ -6109,7 +6109,7 @@ C_ViolinIMusicVoice = {
     % [C ViolinIMusicVoice measure 191 / measure 62]             %! SM4
     \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     - \tweak Y-extent ##f
@@ -6165,13 +6165,13 @@ C_ViolinIMusicVoice = {
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolinIMusicVoice measure 192 / measure 63]             %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
@@ -6179,69 +6179,69 @@ C_ViolinIMusicVoice = {
     % [C ViolinIMusicVoice measure 193 / measure 64]             %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolinIMusicVoice measure 194 / measure 65]             %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIMusicVoice measure 195 / measure 66]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
     % [C ViolinIMusicVoice measure 196 / measure 67]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIMusicVoice measure 197 / measure 68]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C ViolinIMusicVoice measure 198 / measure 69]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     <> \stopTextSpan
     <> \stopTextSpanOne
@@ -6476,7 +6476,7 @@ C_ViolinIIMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     - \tweak Y-extent ##f
@@ -6545,52 +6545,52 @@ C_ViolinIIMusicVoice = {
             "Vn. II"                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     % [C ViolinIIMusicVoice measure 131 / measure 2]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     % [C ViolinIIMusicVoice measure 132 / measure 3]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     % [C ViolinIIMusicVoice measure 133 / measure 4]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     <> \stopTextSpan
     
     % [C ViolinIIMusicVoice measure 134 / measure 5]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'16..
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     -\espressivo                                                 %! IC
@@ -6613,31 +6613,31 @@ C_ViolinIIMusicVoice = {
             }
         }
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'16..
     -\espressivo                                                 %! IC
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'16..
     -\espressivo                                                 %! IC
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'16..
     -\espressivo                                                 %! IC
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'16..
     -\espressivo                                                 %! IC
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'16..
     -\espressivo                                                 %! IC
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'16..
     -\espressivo                                                 %! IC
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'16..
     -\espressivo                                                 %! IC
     ]
@@ -6767,7 +6767,7 @@ C_ViolinIIMusicVoice = {
     >>
     
     % [C ViolinIIMusicVoice measure 141 / measure 12]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -6824,24 +6824,24 @@ C_ViolinIIMusicVoice = {
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     % [C ViolinIIMusicVoice measure 142 / measure 13]            %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     % [C ViolinIIMusicVoice measure 143 / measure 14]            %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     \stopTextSpan                                                %! PWC1
     - \tweak Y-extent ##f                                        %! PWC1
@@ -6867,18 +6867,18 @@ C_ViolinIIMusicVoice = {
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
     % [C ViolinIIMusicVoice measure 144 / measure 15]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     \stopTextSpan                                                %! PWC1
     
@@ -6886,7 +6886,7 @@ C_ViolinIIMusicVoice = {
     <> \stopTextSpanOne
     
     % [C ViolinIIMusicVoice measure 145 / measure 16]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -6943,24 +6943,24 @@ C_ViolinIIMusicVoice = {
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     % [C ViolinIIMusicVoice measure 146 / measure 17]            %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     % [C ViolinIIMusicVoice measure 147 / measure 18]            %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     \stopTextSpan                                                %! PWC1
     - \tweak Y-extent ##f                                        %! PWC1
@@ -6986,24 +6986,24 @@ C_ViolinIIMusicVoice = {
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     % [C ViolinIIMusicVoice measure 148 / measure 19]            %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     \stopTextSpan                                                %! PWC1
     <> \stopTextSpanOne
     
     % [C ViolinIIMusicVoice measure 149 / measure 20]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -7058,30 +7058,30 @@ C_ViolinIIMusicVoice = {
     - \tweak staff-padding #7
     \startTextSpanOne
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
     % [C ViolinIIMusicVoice measure 150 / measure 21]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     % [C ViolinIIMusicVoice measure 151 / measure 22]            %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     \stopTextSpan                                                %! PWC1
     - \tweak Y-extent ##f                                        %! PWC1
@@ -7105,30 +7105,30 @@ C_ViolinIIMusicVoice = {
     - \tweak staff-padding #4                                    %! PWC1
     \startTextSpan                                               %! PWC1
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     % [C ViolinIIMusicVoice measure 152 / measure 23]            %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     \stopTextSpan                                                %! PWC1
     <> \stopTextSpanOne
     
     % [C ViolinIIMusicVoice measure 153 / measure 24]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -7184,61 +7184,61 @@ C_ViolinIIMusicVoice = {
     - \tweak staff-padding #7
     \startTextSpanOne
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     % [C ViolinIIMusicVoice measure 154 / measure 25]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     % [C ViolinIIMusicVoice measure 155 / measure 26]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     % [C ViolinIIMusicVoice measure 156 / measure 27]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     <> \stopTextSpan
     <> \stopTextSpanOne
@@ -7246,7 +7246,7 @@ C_ViolinIIMusicVoice = {
         
         % [C ViolinIIMusicVoice measure 157 / measure 28]        %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         - \tweak Y-extent ##f
@@ -7287,14 +7287,14 @@ C_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
         r4
     }
     \times 2/3 {
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
         r4
@@ -7302,7 +7302,7 @@ C_ViolinIIMusicVoice = {
     \times 2/3 {
         
         % [C ViolinIIMusicVoice measure 158 / measure 29]        %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
         r4
@@ -7310,7 +7310,7 @@ C_ViolinIIMusicVoice = {
     \tweak edge-height #'(0.7 . 0)
     \times 8/9 {
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'16
         
         r8
@@ -7319,7 +7319,7 @@ C_ViolinIIMusicVoice = {
     
     % [C ViolinIIMusicVoice measure 159 / measure 30]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \>                                                           %! HC1
     \mf                                                          %! HC1
@@ -7379,17 +7379,17 @@ C_ViolinIIMusicVoice = {
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIIMusicVoice measure 160 / measure 31]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
@@ -7397,19 +7397,19 @@ C_ViolinIIMusicVoice = {
     % [C ViolinIIMusicVoice measure 161 / measure 32]            %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolinIIMusicVoice measure 162 / measure 33]            %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \pp                                                          %! HC1
     
@@ -7436,7 +7436,7 @@ C_ViolinIIMusicVoice = {
     
     % [C ViolinIIMusicVoice measure 165 / measure 36]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \<                                                           %! HC1
     \pp                                                          %! HC1
@@ -7493,39 +7493,39 @@ C_ViolinIIMusicVoice = {
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIIMusicVoice measure 166 / measure 37]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
     % [C ViolinIIMusicVoice measure 167 / measure 38]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIIMusicVoice measure 168 / measure 39]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \mf                                                          %! HC1
     
@@ -7535,24 +7535,24 @@ C_ViolinIIMusicVoice = {
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \>                                                           %! HC1
     \mf                                                          %! HC1
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIIMusicVoice measure 170 / measure 41]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
@@ -7560,28 +7560,28 @@ C_ViolinIIMusicVoice = {
     % [C ViolinIIMusicVoice measure 171 / measure 42]            %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C ViolinIIMusicVoice measure 172 / measure 43]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     \pp                                                          %! HC1
@@ -7589,50 +7589,50 @@ C_ViolinIIMusicVoice = {
     % [C ViolinIIMusicVoice measure 173 / measure 44]            %! SM4
     \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     \<                                                           %! HC1
     \pp                                                          %! HC1
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C ViolinIIMusicVoice measure 174 / measure 45]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIIMusicVoice measure 175 / measure 46]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C ViolinIIMusicVoice measure 176 / measure 47]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \f                                                           %! HC1
     
@@ -7640,47 +7640,47 @@ C_ViolinIIMusicVoice = {
     
     % [C ViolinIIMusicVoice measure 177 / measure 48]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \>                                                           %! HC1
     \f                                                           %! HC1
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C ViolinIIMusicVoice measure 178 / measure 49]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
     % [C ViolinIIMusicVoice measure 179 / measure 50]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolinIIMusicVoice measure 180 / measure 51]            %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     \pp                                                          %! HC1
@@ -7688,54 +7688,54 @@ C_ViolinIIMusicVoice = {
     % [C ViolinIIMusicVoice measure 181 / measure 52]            %! SM4
     \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     \<                                                           %! HC1
     \pp                                                          %! HC1
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolinIIMusicVoice measure 182 / measure 53]            %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C ViolinIIMusicVoice measure 183 / measure 54]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolinIIMusicVoice measure 184 / measure 55]            %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     \ff                                                          %! HC1
     <> \stopTextSpan
     <> \stopTextSpanOne
     
     % [C ViolinIIMusicVoice measure 185 / measure 56]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -7788,57 +7788,57 @@ C_ViolinIIMusicVoice = {
     - \tweak staff-padding #7
     \startTextSpanOne
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolinIIMusicVoice measure 186 / measure 57]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIIMusicVoice measure 187 / measure 58]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIIMusicVoice measure 188 / measure 59]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     <> \stopTextSpan
     <> \stopTextSpanOne
@@ -7846,7 +7846,7 @@ C_ViolinIIMusicVoice = {
     % [C ViolinIIMusicVoice measure 189 / measure 60]            %! SM4
     \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2
     \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
     - \tweak Y-extent ##f
@@ -7876,7 +7876,7 @@ C_ViolinIIMusicVoice = {
     \startTextSpan
     
     % [C ViolinIIMusicVoice measure 190 / measure 61]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2.
     \repeatTie
     <> \stopTextSpan
@@ -7884,7 +7884,7 @@ C_ViolinIIMusicVoice = {
     % [C ViolinIIMusicVoice measure 191 / measure 62]            %! SM4
     \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     - \tweak Y-extent ##f
@@ -7940,13 +7940,13 @@ C_ViolinIIMusicVoice = {
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolinIIMusicVoice measure 192 / measure 63]            %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
@@ -7954,69 +7954,69 @@ C_ViolinIIMusicVoice = {
     % [C ViolinIIMusicVoice measure 193 / measure 64]            %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolinIIMusicVoice measure 194 / measure 65]            %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIIMusicVoice measure 195 / measure 66]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
     % [C ViolinIIMusicVoice measure 196 / measure 67]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolinIIMusicVoice measure 197 / measure 68]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C ViolinIIMusicVoice measure 198 / measure 69]            %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     <> \stopTextSpan
     <> \stopTextSpanOne
@@ -8219,7 +8219,7 @@ C_ViolaMusicVoice = {
         \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \effort_ff                                               %! SM8:EXPLICIT_DYNAMIC:IC
         - \tweak Y-extent ##f
@@ -8288,77 +8288,77 @@ C_ViolaMusicVoice = {
                 Va.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
             }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \times 4/6 {
         
         % [C ViolaMusicVoice measure 131 / measure 2]            %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \times 4/6 {
         
         % [C ViolaMusicVoice measure 132 / measure 3]            %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
         % [C ViolaMusicVoice measure 133 / measure 4]            %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         <> \stopTextSpan
     }
@@ -8367,7 +8367,7 @@ C_ViolaMusicVoice = {
         
         % [C ViolaMusicVoice measure 134 / measure 5]            %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\espressivo                                             %! IC
@@ -8390,23 +8390,23 @@ C_ViolaMusicVoice = {
                 }
             }
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         -\espressivo                                             %! IC
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         -\espressivo                                             %! IC
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         -\espressivo                                             %! IC
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         -\espressivo                                             %! IC
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         -\espressivo                                             %! IC
         ]
@@ -8418,7 +8418,7 @@ C_ViolaMusicVoice = {
         
         % [C ViolaMusicVoice measure 136 / measure 7]            %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         - \tweak Y-extent ##f
@@ -8455,98 +8455,98 @@ C_ViolaMusicVoice = {
                     "maximally tight crunch circles: grind at talon" %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/7 {
         
         % [C ViolaMusicVoice measure 137 / measure 8]            %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     
     % [C ViolaMusicVoice measure 138 / measure 9]                %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     [
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     ]
     
     % [C ViolaMusicVoice measure 139 / measure 10]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     [
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     ]
     <> \stopTextSpan
@@ -8565,7 +8565,7 @@ C_ViolaMusicVoice = {
     \times 3/5 {
         
         % [C ViolaMusicVoice measure 141 / measure 12]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
@@ -8622,12 +8622,12 @@ C_ViolaMusicVoice = {
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \times 4/6 {
@@ -8635,17 +8635,17 @@ C_ViolaMusicVoice = {
         % [C ViolaMusicVoice measure 142 / measure 13]           %! SM4
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -8654,7 +8654,7 @@ C_ViolaMusicVoice = {
         % [C ViolaMusicVoice measure 143 / measure 14]           %! SM4
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         - \tweak Y-extent ##f                                    %! PWC1
@@ -8680,12 +8680,12 @@ C_ViolaMusicVoice = {
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
@@ -8693,17 +8693,17 @@ C_ViolaMusicVoice = {
     \times 4/6 {
         
         % [C ViolaMusicVoice measure 144 / measure 15]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         
@@ -8714,7 +8714,7 @@ C_ViolaMusicVoice = {
     \times 3/5 {
         
         % [C ViolaMusicVoice measure 145 / measure 16]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
@@ -8771,12 +8771,12 @@ C_ViolaMusicVoice = {
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \times 4/6 {
@@ -8784,17 +8784,17 @@ C_ViolaMusicVoice = {
         % [C ViolaMusicVoice measure 146 / measure 17]           %! SM4
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \times 4/6 {
@@ -8802,7 +8802,7 @@ C_ViolaMusicVoice = {
         % [C ViolaMusicVoice measure 147 / measure 18]           %! SM4
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         - \tweak Y-extent ##f                                    %! PWC1
@@ -8828,12 +8828,12 @@ C_ViolaMusicVoice = {
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \times 4/6 {
@@ -8841,17 +8841,17 @@ C_ViolaMusicVoice = {
         % [C ViolaMusicVoice measure 148 / measure 19]           %! SM4
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         <> \stopTextSpanOne
@@ -8860,7 +8860,7 @@ C_ViolaMusicVoice = {
     \times 3/5 {
         
         % [C ViolaMusicVoice measure 149 / measure 20]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
@@ -8915,15 +8915,15 @@ C_ViolaMusicVoice = {
         - \tweak staff-padding #7
         \startTextSpanOne
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -8932,25 +8932,25 @@ C_ViolaMusicVoice = {
         % [C ViolaMusicVoice measure 150 / measure 21]           %! SM4
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
     }
     
     % [C ViolaMusicVoice measure 151 / measure 22]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     \stopTextSpan                                                %! PWC1
     [
@@ -8975,27 +8975,27 @@ C_ViolaMusicVoice = {
     - \tweak staff-padding #4                                    %! PWC1
     \startTextSpan                                               %! PWC1
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     ]
     
     r8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     [
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     ]
     
     r8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     [
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     ]
     \tweak text #tuplet-number::calc-fraction-text
@@ -9004,15 +9004,15 @@ C_ViolaMusicVoice = {
         % [C ViolaMusicVoice measure 152 / measure 23]           %! SM4
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         <> \stopTextSpanOne
@@ -9020,7 +9020,7 @@ C_ViolaMusicVoice = {
     \times 4/6 {
         
         % [C ViolaMusicVoice measure 153 / measure 24]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -9076,92 +9076,92 @@ C_ViolaMusicVoice = {
         - \tweak staff-padding #7
         \startTextSpanOne
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \times 4/6 {
         
         % [C ViolaMusicVoice measure 154 / measure 25]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/7 {
         
         % [C ViolaMusicVoice measure 155 / measure 26]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     
     % [C ViolaMusicVoice measure 156 / measure 27]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     [
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8.
     ]
     <> \stopTextSpan
@@ -9170,7 +9170,7 @@ C_ViolaMusicVoice = {
     % [C ViolaMusicVoice measure 157 / measure 28]               %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
@@ -9189,11 +9189,11 @@ C_ViolaMusicVoice = {
     \times 2/3 {
         
         % [C ViolaMusicVoice measure 158 / measure 29]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'2
         \repeatTie
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         \repeatTie
         \revert NoteHead.style                                   %! OC2
@@ -9201,7 +9201,7 @@ C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 159 / measure 30]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \>                                                           %! HC1
     \mf                                                          %! HC1
@@ -9261,17 +9261,17 @@ C_ViolaMusicVoice = {
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolaMusicVoice measure 160 / measure 31]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
@@ -9279,19 +9279,19 @@ C_ViolaMusicVoice = {
     % [C ViolaMusicVoice measure 161 / measure 32]               %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolaMusicVoice measure 162 / measure 33]               %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \pp                                                          %! HC1
     
@@ -9318,7 +9318,7 @@ C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 165 / measure 36]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \<                                                           %! HC1
     \pp                                                          %! HC1
@@ -9375,39 +9375,39 @@ C_ViolaMusicVoice = {
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolaMusicVoice measure 166 / measure 37]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
     % [C ViolaMusicVoice measure 167 / measure 38]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolaMusicVoice measure 168 / measure 39]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \mf                                                          %! HC1
     
@@ -9415,24 +9415,24 @@ C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 169 / measure 40]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \>                                                           %! HC1
     \mf                                                          %! HC1
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolaMusicVoice measure 170 / measure 41]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
@@ -9440,24 +9440,24 @@ C_ViolaMusicVoice = {
     % [C ViolaMusicVoice measure 171 / measure 42]               %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolaMusicVoice measure 172 / measure 43]               %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     \pp                                                          %! HC1
@@ -9465,90 +9465,90 @@ C_ViolaMusicVoice = {
     % [C ViolaMusicVoice measure 173 / measure 44]               %! SM4
     \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     \<                                                           %! HC1
     \pp                                                          %! HC1
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C ViolaMusicVoice measure 174 / measure 45]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolaMusicVoice measure 175 / measure 46]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C ViolaMusicVoice measure 176 / measure 47]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     \f                                                           %! HC1
     
     % [C ViolaMusicVoice measure 177 / measure 48]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     \>                                                           %! HC1
     \f                                                           %! HC1
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C ViolaMusicVoice measure 178 / measure 49]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
     % [C ViolaMusicVoice measure 179 / measure 50]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
@@ -9556,13 +9556,13 @@ C_ViolaMusicVoice = {
     % [C ViolaMusicVoice measure 180 / measure 51]               %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     \pp                                                          %! HC1
@@ -9570,54 +9570,54 @@ C_ViolaMusicVoice = {
     % [C ViolaMusicVoice measure 181 / measure 52]               %! SM4
     \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     \<                                                           %! HC1
     \pp                                                          %! HC1
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolaMusicVoice measure 182 / measure 53]               %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C ViolaMusicVoice measure 183 / measure 54]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolaMusicVoice measure 184 / measure 55]               %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     \ff                                                          %! HC1
     <> \stopTextSpan
     <> \stopTextSpanOne
     
     % [C ViolaMusicVoice measure 185 / measure 56]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -9670,57 +9670,57 @@ C_ViolaMusicVoice = {
     - \tweak staff-padding #7
     \startTextSpanOne
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolaMusicVoice measure 186 / measure 57]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolaMusicVoice measure 187 / measure 58]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C ViolaMusicVoice measure 188 / measure 59]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     <> \stopTextSpan
     <> \stopTextSpanOne
@@ -9728,7 +9728,7 @@ C_ViolaMusicVoice = {
     % [C ViolaMusicVoice measure 189 / measure 60]               %! SM4
     \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2
     \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
     - \tweak Y-extent ##f
@@ -9758,7 +9758,7 @@ C_ViolaMusicVoice = {
     \startTextSpan
     
     % [C ViolaMusicVoice measure 190 / measure 61]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2.
     \repeatTie
     <> \stopTextSpan
@@ -9766,7 +9766,7 @@ C_ViolaMusicVoice = {
     % [C ViolaMusicVoice measure 191 / measure 62]               %! SM4
     \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     - \tweak Y-extent ##f
@@ -9822,13 +9822,13 @@ C_ViolaMusicVoice = {
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolaMusicVoice measure 192 / measure 63]               %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
@@ -9836,69 +9836,69 @@ C_ViolaMusicVoice = {
     % [C ViolaMusicVoice measure 193 / measure 64]               %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C ViolaMusicVoice measure 194 / measure 65]               %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolaMusicVoice measure 195 / measure 66]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
     % [C ViolaMusicVoice measure 196 / measure 67]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C ViolaMusicVoice measure 197 / measure 68]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C ViolaMusicVoice measure 198 / measure 69]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     <> \stopTextSpan
     <> \stopTextSpanOne
@@ -10150,7 +10150,7 @@ C_CelloMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     - \tweak Y-extent ##f
@@ -10219,46 +10219,46 @@ C_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         
         % [C CelloMusicVoice measure 131 / measure 2]            %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         
         % [C CelloMusicVoice measure 132 / measure 3]            %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     
     % [C CelloMusicVoice measure 133 / measure 4]                %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     <> \stopTextSpan
     
     % [C CelloMusicVoice measure 134 / measure 5]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4..
     - \tweak circled-tip ##t                                     %! PWC1
     \<                                                           %! PWC1
@@ -10269,7 +10269,7 @@ C_CelloMusicVoice = {
         }                                                        %! IC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4..
     \f                                                           %! PWC1
     - \tweak circled-tip ##t                                     %! PWC1
@@ -10284,7 +10284,7 @@ C_CelloMusicVoice = {
         
         % [C CelloMusicVoice measure 136 / measure 7]            %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         - \tweak Y-extent ##f
@@ -10321,64 +10321,64 @@ C_CelloMusicVoice = {
                     "maximally tight crunch circles: grind at talon" %! IC
             }                                                    %! IC
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/4 {
         
         % [C CelloMusicVoice measure 137 / measure 8]            %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [C CelloMusicVoice measure 138 / measure 9]            %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [C CelloMusicVoice measure 139 / measure 10]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         <> \stopTextSpan
     }
@@ -10395,7 +10395,7 @@ C_CelloMusicVoice = {
     >>
     
     % [C CelloMusicVoice measure 141 / measure 12]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -10455,12 +10455,12 @@ C_CelloMusicVoice = {
     \times 4/3 {
         
         % [C CelloMusicVoice measure 142 / measure 13]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -10469,7 +10469,7 @@ C_CelloMusicVoice = {
         % [C CelloMusicVoice measure 143 / measure 14]           %! SM4
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         - \tweak Y-extent ##f                                    %! PWC1
@@ -10495,7 +10495,7 @@ C_CelloMusicVoice = {
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -10504,7 +10504,7 @@ C_CelloMusicVoice = {
         % [C CelloMusicVoice measure 144 / measure 15]           %! SM4
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         
@@ -10513,7 +10513,7 @@ C_CelloMusicVoice = {
     }
     
     % [C CelloMusicVoice measure 145 / measure 16]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -10573,12 +10573,12 @@ C_CelloMusicVoice = {
     \times 4/3 {
         
         % [C CelloMusicVoice measure 146 / measure 17]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -10587,7 +10587,7 @@ C_CelloMusicVoice = {
         % [C CelloMusicVoice measure 147 / measure 18]           %! SM4
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         - \tweak Y-extent ##f                                    %! PWC1
@@ -10617,19 +10617,19 @@ C_CelloMusicVoice = {
     \times 4/3 {
         
         % [C CelloMusicVoice measure 148 / measure 19]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         <> \stopTextSpanOne
     }
     
     % [C CelloMusicVoice measure 149 / measure 20]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -10684,7 +10684,7 @@ C_CelloMusicVoice = {
     - \tweak staff-padding #7
     \startTextSpanOne
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/4 {
@@ -10692,10 +10692,10 @@ C_CelloMusicVoice = {
         % [C CelloMusicVoice measure 150 / measure 21]           %! SM4
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
@@ -10704,7 +10704,7 @@ C_CelloMusicVoice = {
     \times 6/5 {
         
         % [C CelloMusicVoice measure 151 / measure 22]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         \stopTextSpan                                            %! PWC1
         - \tweak Y-extent ##f                                    %! PWC1
@@ -10728,22 +10728,22 @@ C_CelloMusicVoice = {
         - \tweak staff-padding #4                                %! PWC1
         \startTextSpan                                           %! PWC1
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
         r4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     
     % [C CelloMusicVoice measure 152 / measure 23]               %! SM4
     r4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \stopTextSpan                                                %! PWC1
     <> \stopTextSpanOne
@@ -10751,7 +10751,7 @@ C_CelloMusicVoice = {
     \times 4/3 {
         
         % [C CelloMusicVoice measure 153 / measure 24]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -10807,58 +10807,58 @@ C_CelloMusicVoice = {
         - \tweak staff-padding #7
         \startTextSpanOne
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         
         % [C CelloMusicVoice measure 154 / measure 25]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/4 {
         
         % [C CelloMusicVoice measure 155 / measure 26]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [C CelloMusicVoice measure 156 / measure 27]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'4
         <> \stopTextSpan
         <> \stopTextSpanOne
@@ -10867,7 +10867,7 @@ C_CelloMusicVoice = {
     % [C CelloMusicVoice measure 157 / measure 28]               %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
@@ -10886,11 +10886,11 @@ C_CelloMusicVoice = {
     \times 2/3 {
         
         % [C CelloMusicVoice measure 158 / measure 29]           %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'2
         \repeatTie
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         \repeatTie
         \revert NoteHead.style                                   %! OC2
@@ -10898,7 +10898,7 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 159 / measure 30]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \>                                                           %! HC1
     \mf                                                          %! HC1
@@ -10958,17 +10958,17 @@ C_CelloMusicVoice = {
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C CelloMusicVoice measure 160 / measure 31]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
@@ -10976,19 +10976,19 @@ C_CelloMusicVoice = {
     % [C CelloMusicVoice measure 161 / measure 32]               %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C CelloMusicVoice measure 162 / measure 33]               %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \pp                                                          %! HC1
     
@@ -11001,7 +11001,7 @@ C_CelloMusicVoice = {
     % [C CelloMusicVoice measure 163 / measure 34]               %! SM4
     \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
@@ -11010,19 +11010,19 @@ C_CelloMusicVoice = {
                 "[clouded pane revelation]"                      %! IC
         }                                                        %! IC
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     \repeatTie
     
     % [C CelloMusicVoice measure 164 / measure 35]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2.
     \repeatTie
     
     % [C CelloMusicVoice measure 165 / measure 36]               %! SM4
     \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \<                                                           %! HC1
     \pp                                                          %! HC1
@@ -11079,39 +11079,39 @@ C_CelloMusicVoice = {
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C CelloMusicVoice measure 166 / measure 37]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
     % [C CelloMusicVoice measure 167 / measure 38]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C CelloMusicVoice measure 168 / measure 39]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r8
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \mf                                                          %! HC1
     
@@ -11119,47 +11119,47 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 169 / measure 40]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \>                                                           %! HC1
     \mf                                                          %! HC1
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C CelloMusicVoice measure 170 / measure 41]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
     % [C CelloMusicVoice measure 171 / measure 42]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C CelloMusicVoice measure 172 / measure 43]               %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     \pp                                                          %! HC1
@@ -11167,90 +11167,90 @@ C_CelloMusicVoice = {
     % [C CelloMusicVoice measure 173 / measure 44]               %! SM4
     \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     \<                                                           %! HC1
     \pp                                                          %! HC1
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C CelloMusicVoice measure 174 / measure 45]               %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C CelloMusicVoice measure 175 / measure 46]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C CelloMusicVoice measure 176 / measure 47]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     \f                                                           %! HC1
     
     % [C CelloMusicVoice measure 177 / measure 48]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     \>                                                           %! HC1
     \f                                                           %! HC1
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C CelloMusicVoice measure 178 / measure 49]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C CelloMusicVoice measure 179 / measure 50]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
@@ -11258,13 +11258,13 @@ C_CelloMusicVoice = {
     % [C CelloMusicVoice measure 180 / measure 51]               %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     \pp                                                          %! HC1
@@ -11272,14 +11272,14 @@ C_CelloMusicVoice = {
     % [C CelloMusicVoice measure 181 / measure 52]               %! SM4
     \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     \<                                                           %! HC1
     \pp                                                          %! HC1
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
@@ -11287,41 +11287,41 @@ C_CelloMusicVoice = {
     % [C CelloMusicVoice measure 182 / measure 53]               %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C CelloMusicVoice measure 183 / measure 54]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C CelloMusicVoice measure 184 / measure 55]               %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     \ff                                                          %! HC1
     <> \stopTextSpan
     <> \stopTextSpanOne
     
     % [C CelloMusicVoice measure 185 / measure 56]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -11374,61 +11374,61 @@ C_CelloMusicVoice = {
     - \tweak staff-padding #7
     \startTextSpanOne
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C CelloMusicVoice measure 186 / measure 57]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C CelloMusicVoice measure 187 / measure 58]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C CelloMusicVoice measure 188 / measure 59]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     <> \stopTextSpan
     <> \stopTextSpanOne
@@ -11450,7 +11450,7 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 191 / measure 62]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     - \tweak Y-extent ##f
@@ -11506,13 +11506,13 @@ C_CelloMusicVoice = {
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C CelloMusicVoice measure 192 / measure 63]               %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
@@ -11520,69 +11520,69 @@ C_CelloMusicVoice = {
     % [C CelloMusicVoice measure 193 / measure 64]               %! SM4
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     % [C CelloMusicVoice measure 194 / measure 65]               %! SM4
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C CelloMusicVoice measure 195 / measure 66]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
     % [C CelloMusicVoice measure 196 / measure 67]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     ~
     
     % [C CelloMusicVoice measure 197 / measure 68]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4
     ~
     
     % [C CelloMusicVoice measure 198 / measure 69]               %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     
     r4
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'4.
     
     r8
     
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'8
     <> \stopTextSpan
     <> \stopTextSpanOne

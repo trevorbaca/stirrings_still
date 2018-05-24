@@ -145,22 +145,22 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (686)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <0>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((1))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.1]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -171,7 +171,7 @@ P_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'01'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -185,27 +185,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (687)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <1>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((2))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.2]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'04'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -220,27 +220,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (688)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <2>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((3))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.3]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'08'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -254,27 +254,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (689)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <3>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((4))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.4]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'11'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -289,22 +289,22 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (690)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <4>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((5))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.5]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -315,7 +315,7 @@ P_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'14'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -330,27 +330,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (691)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <5>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((6))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.6]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'17'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -364,27 +364,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (692)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <6>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((7))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.7]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'19'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -399,27 +399,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (693)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <7>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((8))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.8]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'22'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -434,27 +434,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (694)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <8>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((9))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.9]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'24'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -468,27 +468,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (695)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <9>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((10))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.10]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'27'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -503,22 +503,22 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (696)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <10>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((11))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.11]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -529,7 +529,7 @@ P_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'30'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -544,27 +544,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (697)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <11>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((12))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.12]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'32'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -578,27 +578,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (698)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <12>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((13))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.13]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'35'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -613,27 +613,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (699)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <13>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((14))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.14]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'37'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -752,22 +752,22 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (700)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <14>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((15))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.15]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -778,7 +778,7 @@ P_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'39'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -793,27 +793,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (701)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <15>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((16))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.16]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'43'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -827,27 +827,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (702)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <16>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((17))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.17]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'46'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -862,27 +862,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (703)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <17>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((18))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.18]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'50'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -897,27 +897,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (704)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <18>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((19))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.19]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'53'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -932,27 +932,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (705)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <19>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((20))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.20]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'55'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -966,22 +966,22 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (706)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <20>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((21))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.21]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
@@ -992,7 +992,7 @@ P_GlobalSkips = {
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [32'58'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1007,27 +1007,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (707)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <21>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((22))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.22]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [33'01'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1041,27 +1041,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (708)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <22>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((23))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.23]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [33'04'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1076,27 +1076,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (709)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <23>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((24))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.24]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [33'07'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1110,27 +1110,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (710)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <24>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((25))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.25]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [33'11'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1146,27 +1146,27 @@ P_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (711)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <25>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((26))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             [P.26]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
             %@%             [33'14'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
@@ -1199,7 +1199,7 @@ P_ViolinIMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'1
     \ppppp                                                       %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
@@ -1241,37 +1241,37 @@ P_ViolinIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [P ViolinIMusicVoice measure 687 / measure 2]              %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'1
     \repeatTie
     
     % [P ViolinIMusicVoice measure 688 / measure 3]              %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2..
     \repeatTie
     
     % [P ViolinIMusicVoice measure 689 / measure 4]              %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2..
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/5 {
         
         % [P ViolinIMusicVoice measure 690 / measure 5]          %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         [
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         ]
     }
@@ -1279,23 +1279,23 @@ P_ViolinIMusicVoice = {
     \times 6/6 {
         
         % [P ViolinIMusicVoice measure 691 / measure 6]          %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         [
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         ]
     }
@@ -1303,55 +1303,55 @@ P_ViolinIMusicVoice = {
     \times 6/6 {
         
         % [P ViolinIMusicVoice measure 692 / measure 7]          %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         [
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         ]
     }
     
     % [P ViolinIMusicVoice measure 693 / measure 8]              %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2
     
     % [P ViolinIMusicVoice measure 694 / measure 9]              %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2.
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/6 {
         
         % [P ViolinIMusicVoice measure 695 / measure 10]         %! SM4
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         [
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         
-        \baca_blue_music                                                %! SM24
+        \baca_blue_music                                         %! SM24
         c'8
         ]
     }
@@ -1434,7 +1434,7 @@ P_ViolinIIMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'1
     \ppppp                                                       %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
@@ -1476,17 +1476,17 @@ P_ViolinIIMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [P ViolinIIMusicVoice measure 687 / measure 2]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'1
     \repeatTie
     
     % [P ViolinIIMusicVoice measure 688 / measure 3]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2..
     \repeatTie
     
     % [P ViolinIIMusicVoice measure 689 / measure 4]             %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2..
     \repeatTie
     
@@ -1590,7 +1590,7 @@ P_ViolaMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'1
     \ppppp                                                       %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
@@ -1632,17 +1632,17 @@ P_ViolaMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [P ViolaMusicVoice measure 687 / measure 2]                %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'1
     \repeatTie
     
     % [P ViolaMusicVoice measure 688 / measure 3]                %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2..
     \repeatTie
     
     % [P ViolaMusicVoice measure 689 / measure 4]                %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2..
     \repeatTie
     
@@ -1742,7 +1742,7 @@ P_CelloMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'1
     \ppppp                                                       %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
@@ -1784,17 +1784,17 @@ P_CelloMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [P CelloMusicVoice measure 687 / measure 2]                %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'1
     \repeatTie
     
     % [P CelloMusicVoice measure 688 / measure 3]                %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2..
     \repeatTie
     
     % [P CelloMusicVoice measure 689 / measure 4]                %! SM4
-    \baca_blue_music                                                    %! SM24
+    \baca_blue_music                                             %! SM24
     c'2..
     \repeatTie
     
