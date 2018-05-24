@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def accelerando(
@@ -19,21 +19,21 @@ def accelerando(
 
     return baca.rhythm(
         division_expression=baca.sequence().sum().sequence(),
-        rhythm_maker=rhythmos.AccelerandoRhythmMaker(
-            beam_specifier=rhythmos.BeamSpecifier(
+        rhythm_maker=rmakers.AccelerandoRhythmMaker(
+            beam_specifier=rmakers.BeamSpecifier(
                 beam_rests=True,
                 stemlet_length=0.75,
                 use_feather_beams=True,
                 ),
             interpolation_specifiers=[
-                rhythmos.InterpolationSpecifier(
+                rmakers.InterpolationSpecifier(
                     start_duration=abjad.Duration(start),
                     stop_duration=abjad.Duration(stop),
                     written_duration=abjad.Duration(1, 16),
                     ),
                 ],
             logical_tie_masks=logical_tie_masks,
-            tuplet_specifier=rhythmos.TupletSpecifier(
+            tuplet_specifier=rmakers.TupletSpecifier(
                 use_note_duration_bracket=True,
                 ),
             ),

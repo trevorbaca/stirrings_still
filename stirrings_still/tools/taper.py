@@ -1,5 +1,5 @@
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def taper(tuplet_ratio=(1, 4, 1)):
@@ -7,8 +7,8 @@ def taper(tuplet_ratio=(1, 4, 1)):
     Makes taper rhythm.
     """
     return baca.rhythm(
-        rhythm_maker=rhythmos.TupletRhythmMaker(
-            tuplet_specifier=rhythmos.TupletSpecifier(
+        rhythm_maker=rmakers.TupletRhythmMaker(
+            tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,
                 ),
             tuplet_ratios=[tuplet_ratio],

@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def clockticks(displace=False, division_mask=None, encroach=False):
@@ -15,10 +15,10 @@ def clockticks(displace=False, division_mask=None, encroach=False):
         assert not displace
     if displace:
         return baca.rhythm(
-            rhythm_maker=rhythmos.TaleaRhythmMaker(
+            rhythm_maker=rmakers.TaleaRhythmMaker(
                 division_masks=division_masks,
                 extra_counts_per_division=[1],
-                talea=rhythmos.Talea(
+                talea=rmakers.Talea(
                     counts=[1, -1],
                     denominator=8,
                     ),
@@ -31,7 +31,7 @@ def clockticks(displace=False, division_mask=None, encroach=False):
             tuplet_ratios = [(1, -2)]
         return baca.rhythm(
             division_expression=baca.split_by_durations([(1, 4)]),
-            rhythm_maker=rhythmos.TupletRhythmMaker(
+            rhythm_maker=rmakers.TupletRhythmMaker(
                 division_masks=division_masks,
                 tuplet_ratios=tuplet_ratios,
                 ),

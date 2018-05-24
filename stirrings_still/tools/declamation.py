@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def declamation():
@@ -8,9 +8,9 @@ def declamation():
     Makes declamatory rhythm.
     """
     return baca.rhythm(
-        rhythm_maker=rhythmos.TupletRhythmMaker(
+        rhythm_maker=rmakers.TupletRhythmMaker(
             tuplet_ratios=[(2, 1)],
-            tuplet_specifier=rhythmos.TupletSpecifier(
+            tuplet_specifier=rmakers.TupletSpecifier(
                 avoid_dots=True,
                 ),
             ),

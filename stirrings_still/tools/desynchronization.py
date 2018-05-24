@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def desynchronization(
@@ -24,11 +24,11 @@ def desynchronization(
     else:
         logical_tie_masks = None
     return baca.rhythm(
-        rhythm_maker=rhythmos.EvenDivisionRhythmMaker(
+        rhythm_maker=rmakers.EvenDivisionRhythmMaker(
             denominators=denominators,
             extra_counts_per_division=extra_counts,
             logical_tie_masks=logical_tie_masks,
-            tuplet_specifier=rhythmos.TupletSpecifier(
+            tuplet_specifier=rmakers.TupletSpecifier(
                 denominator='divisions',
                 extract_trivial=True,
                 trivialize=True,

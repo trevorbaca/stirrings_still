@@ -54,8 +54,8 @@ maker(
     ('v1', (5, 10)),
 #    baca.rhythm(
 #        rhythm_maker=[
-#            (abjad.rhythmos.EvenDivisionRhythmMaker(), True),
-#            (abjad.rhythmos.NoteRhythmMaker(), True),
+#            (abjad.rmakers.EvenDivisionRhythmMaker(), True),
+#            (abjad.rmakers.NoteRhythmMaker(), True),
 #            ],
 #        ),
     stirrings_still.wave(),
