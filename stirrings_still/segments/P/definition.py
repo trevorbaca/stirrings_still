@@ -52,24 +52,10 @@ maker(
 
 maker(
     ('v1', (5, 10)),
-    baca.map(
-        baca.group_by_measures()[:3].group(),
-        *baca.apply(
-            baca.pheads(),
-            baca.marcato(),
-            baca.staccato(),
-            ),
-        baca.slur(),
-        ),
-#    stirrings_still.synchronized_circles(
-#        gaps=False,
-#        rotation=0,
-#        sustain=[0, 3, 4],
-#        ),
-    baca.RhythmCommand(
+    baca.rhythm(
         rhythm_maker=[
-            (abjad.rhythmos.NoteRhythmMaker(), abjad.index([0], 2)),
-            (abjad.rhythmos.EvenDivisionRhythmMaker(), abjad.index([1], 2)),
+            (abjad.rhythmos.NoteRhythmMaker(), (-3, -1)),
+            (abjad.rhythmos.EvenDivisionRhythmMaker(), abjad.index([0], 1)),
             ],
         ),
     )

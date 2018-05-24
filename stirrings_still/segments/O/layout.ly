@@ -22,56 +22,56 @@
             #'((Y-offset . 10) (alignment-distances . (20 24)))                          %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1
-        %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
+        %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 679 / measure 2]                                       %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
-        %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
+        %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 680 / measure 3]                                       %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
-        %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
+        %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 681 / measure 4]                                       %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
-        %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
+        %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 682 / measure 5]                                       %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
-        %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
+        %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 683 / measure 6]                                       %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 5/4
-        %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
+        %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 684 / measure 7]                                       %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 1 15)             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
-        %@% ^ \markup { \make-forest-green "[1/15]" }                                    %! HSS2:SPACING_MARKUP
+        %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                                    %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 685 / measure 8]                                       %! SM4
             \newSpacingSection                                                           %! HSS1:SPACING
             \set Score.proportionalNotationDuration = #(ly:make-moment 35 96)            %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/4
-        %@% ^ \markup { \make-forest-green "[[1/4 * 35/24]]" }                           %! HSS2:SPACING_MARKUP
+        %@% ^ \markup { \baca-forest-green-markup "[[1/4 * 35/24]]" }                           %! HSS2:SPACING_MARKUP
             
         }   %*% PageLayout
     >>
