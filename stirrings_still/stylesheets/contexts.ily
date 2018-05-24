@@ -195,7 +195,7 @@
 
         autoBeaming = ##f
         % activate in score
-        %barNumberFormatter = #format-oval-barnumbers
+        %barNumberFormatter = #baca-oval-bar-numbers
         markFormatter = #format-mark-box-alphabet
         proportionalNotationDuration = #(ly:make-moment 1 24)
         tupletFullLength = ##t
