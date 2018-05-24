@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def pickets(fuse, extra_count, division_mask=None):
@@ -28,10 +28,10 @@ def pickets(fuse, extra_count, division_mask=None):
         division_masks = [division_mask]
     return baca.rhythm(
         division_expression=division_expression,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
+        rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=division_masks,
             tuplet_ratios=[tuplet_ratio],
-            tuplet_specifier=rhythmos.TupletSpecifier(
+            tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,
                 ),
             ),

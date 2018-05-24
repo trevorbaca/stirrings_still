@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 # TODO: stub
@@ -13,8 +13,8 @@ def grid_to_trajectory():
     """
     counts = baca.sequence([1])
     return baca.rhythm(
-        rhythm_maker=rhythmos.TaleaRhythmMaker(
-            talea=rhythmos.Talea(
+        rhythm_maker=rmakers.TaleaRhythmMaker(
+            talea=rmakers.Talea(
                 counts=counts,
                 denominator=4,
                 ),

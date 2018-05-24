@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def to_flight(
@@ -18,26 +18,26 @@ def to_flight(
         division_masks = [division_mask]
     return baca.rhythm(
         division_expression=baca.split_by_durations(divisions),
-        rhythm_maker=rhythmos.AccelerandoRhythmMaker(
-            beam_specifier=rhythmos.BeamSpecifier(
+        rhythm_maker=rmakers.AccelerandoRhythmMaker(
+            beam_specifier=rmakers.BeamSpecifier(
                 beam_rests=True,
                 stemlet_length=0.75,
                 use_feather_beams=True,
                 ),
             division_masks=division_masks,
             interpolation_specifiers=[
-                rhythmos.InterpolationSpecifier(
+                rmakers.InterpolationSpecifier(
                     start_duration=start,
                     stop_duration=stop,
                     written_duration=(1, 16),
                     ),
-                rhythmos.InterpolationSpecifier(
+                rmakers.InterpolationSpecifier(
                     start_duration=(1, 2),
                     stop_duration=(1, 2),
                     written_duration=(1, 4),
                     ),
                 ],
-            tuplet_specifier=rhythmos.TupletSpecifier(
+            tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,
                 use_note_duration_bracket=True,
                 ),

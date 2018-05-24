@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def synchronized_circles(gaps=True, rests=None, rotation=0, sustain=None):
@@ -24,10 +24,10 @@ def synchronized_circles(gaps=True, rests=None, rotation=0, sustain=None):
     else:
         division_masks = None
     return baca.rhythm(
-        rhythm_maker=rhythmos.TaleaRhythmMaker(
+        rhythm_maker=rmakers.TaleaRhythmMaker(
             division_masks=division_masks,
             logical_tie_masks=logical_tie_masks,
-            talea=rhythmos.Talea(
+            talea=rmakers.Talea(
                 counts=counts,
                 denominator=8,
                 ),

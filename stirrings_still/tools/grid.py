@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def grid(stage, rotation=0):
@@ -11,8 +11,8 @@ def grid(stage, rotation=0):
         counts = baca.sequence([1, -3, 1, -3, 1, -2])
         counts = counts.rotate(n=rotation)
         return baca.rhythm(
-            rhythm_maker=rhythmos.TaleaRhythmMaker(
-                talea=rhythmos.Talea(
+            rhythm_maker=rmakers.TaleaRhythmMaker(
+                talea=rmakers.Talea(
                     counts=counts,
                     denominator=8,
                     ),

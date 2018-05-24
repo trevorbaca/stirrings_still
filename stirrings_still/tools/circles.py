@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def circles(
@@ -20,13 +20,13 @@ def circles(
         durations=[duration],
         remainder=remainder,
         )
-    beam_specifier = rhythmos.BeamSpecifier(
+    beam_specifier = rmakers.BeamSpecifier(
         beam_divisions_together=True,
         beam_each_division=True,
         )
     return baca.rhythm(
         division_expression=division_expression,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
+        rhythm_maker=rmakers.NoteRhythmMaker(
             beam_specifier=beam_specifier,
             division_masks=division_masks,
             ),
