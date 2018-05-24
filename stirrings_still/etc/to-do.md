@@ -40,15 +40,15 @@ TO-DO
 5.  Analyze volta application.
 
 6.  Make full down-bow and full up-bow glyphs.
-    Add to baca/stylesheets/baca.ily.
+    Add to baca/lilypond/baca.ily.
 
 7.  Make stop-on-string glyph.
     Make all transition-type glyphs.
-    Add to baca/stylesheets/baca.ily.
+    Add to baca/lilypond/baca.ily.
 
 8.  Make full-down-bow-stop-on-string and full-up-bow-stop-on-string glyphs.
     Make all bow direction / bow termination ligatures.
-    Add to baca/stylesheets/baca.ily.
+    Add to baca/lilypond/baca.ily.
 
 9.  Add wellformedness check for multiple text spanners with same LilyPond ID
     attaching to same leaf.
