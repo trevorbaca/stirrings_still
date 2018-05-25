@@ -67,6 +67,15 @@ Sequence([Sequence([1, 0, 0, 1, 0, 1])])
 
 maker(
     ('v1', (5, 10)),
+    baca.map(
+        baca.group_by_measures([1, 2])[1],
+        baca.marcato(selector=baca.pheads()),
+        baca.enchained_hairpin(
+            baca.make_dynamics('ppp p ppp'),
+            selector=baca.leaves().group_by_measure(),
+            spanner_selector=baca.rleaves(),
+            ),
+        ),
     baca.rhythm(
         [
             (stirrings_still.wave(start=(4, 16)), [1, 2, 5]),
