@@ -47,7 +47,7 @@ maker(
     ('tutti', (1, 4)),
     baca.dynamic('ppppp'),
     baca.markup('tasto [TODO: clouded pane fixed pitches]'),
-    baca.make_repeat_tied_notes(),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     )
 
 """
@@ -78,7 +78,7 @@ maker(
     baca.map(
         baca.leaves().group_by_measure()[5],
         baca.enchained_hairpin(
-            baca.make_dynamics('ppp p ppp'),
+            baca.make_dynamics('ppp p ppppp'),
             selector=baca.leaves().partition_by_counts(
                 [3, 5, 1],
                 enchain=True,
@@ -121,7 +121,7 @@ maker(
     baca.map(
         baca.leaves().group_by_measure()[4],
         baca.enchained_hairpin(
-            baca.make_dynamics('ppp p ppp'),
+            baca.make_dynamics('ppp p ppppp'),
             selector=baca.leaves().partition_by_counts(
                 [2, 4, 1],
                 enchain=True,
@@ -142,7 +142,7 @@ maker(
     baca.map(
         baca.group_by_measures([3])[1],
         baca.enchained_hairpin(
-            baca.make_dynamics('ppppp p ppp'),
+            baca.make_dynamics('ppppp p ppppp'),
             selector=baca.group_by_measures([1, 2]),
             spanner_selector=baca.rleaves(),
             ),
@@ -160,7 +160,7 @@ maker(
     baca.map(
         baca.group_by_measures([1, 3])[1],
         baca.enchained_hairpin(
-            baca.make_dynamics('ppppp p ppp'),
+            baca.make_dynamics('ppppp p ppppp'),
             selector=baca.group_by_measures([1, 2]),
             spanner_selector=baca.rleaves(),
             ),
@@ -171,4 +171,10 @@ maker(
             (baca.make_repeat_tied_notes(), True),
             ],
         ),
+    )
+
+maker(
+    ('tutti', (11, 14)),
+    baca.markup('tasto [TODO: clouded pane fixed pitches]'),
+    baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     )
