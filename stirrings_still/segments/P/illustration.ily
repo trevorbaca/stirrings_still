@@ -1394,10 +1394,12 @@ P_ViolinIMusicVoice = {
     % [P ViolinIMusicVoice measure 694 / measure 9]              %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2.
+    \repeatTie
     
     % [P ViolinIMusicVoice measure 695 / measure 10]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2.
+    \repeatTie
     
     % [P ViolinIMusicVoice measure 696 / measure 11]             %! SM4
     R1 * 5/8
