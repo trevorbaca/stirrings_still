@@ -178,3 +178,111 @@ maker(
     baca.markup('tasto [TODO: clouded pane fixed pitches]'),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     )
+
+maker(
+    ('v1', (15, 20)),
+    baca.map(
+        baca.group_by_measures([1, 2])[1],
+        baca.enchained_hairpin(
+            baca.make_dynamics('ppppp p ppp'),
+            selector=baca.leaves().group_by_measure(),
+            spanner_selector=baca.rleaves(),
+            ),
+        ),
+    baca.map(
+        baca.leaves().group_by_measure()[5],
+        baca.enchained_hairpin(
+            baca.make_dynamics('ppp p pp'),
+            selector=baca.leaves().partition_by_counts(
+                [3, 5, 1],
+                enchain=True,
+                ),
+            spanner_selector=baca.rleaves(),
+            ),
+        ),
+    baca.rhythm(
+        [
+            (stirrings_still.wave(start=(4, 16)), [1, 2, 5]),
+            (baca.make_repeat_tied_notes(), True),
+            ],
+        ),
+    )
+
+maker(
+    ('v2', (15, 20)),
+    baca.map(
+        baca.leaves().group_by_measure()[0],
+        baca.enchained_hairpin(
+            baca.make_dynamics('ppppp p pp'),
+            selector=baca.leaves().partition_by_counts(
+                [2, 5, 1],
+                enchain=True,
+                ),
+            spanner_selector=baca.rleaves(),
+            ),
+        ),
+    baca.map(
+        baca.leaves().group_by_measure()[2],
+        baca.enchained_hairpin(
+            baca.make_dynamics('ppp p pp'),
+            selector=baca.leaves().partition_by_counts(
+                [8, 2, 1],
+                enchain=True,
+                ),
+            spanner_selector=baca.rleaves(),
+            ),
+        ),
+    baca.map(
+        baca.leaves().group_by_measure()[4],
+        baca.enchained_hairpin(
+            baca.make_dynamics('ppp p pp'),
+            selector=baca.leaves().partition_by_counts(
+                [2, 3, 1],
+                enchain=True,
+                ),
+            spanner_selector=baca.rleaves(),
+            ),
+        ),
+    baca.rhythm(
+        [
+            (stirrings_still.wave(start=(6, 16)), [0, 2, 4]),
+            (baca.make_repeat_tied_notes(), True),
+            ],
+        ),
+    )
+
+maker(
+    ('va', (15, 20)),
+    baca.map(
+        baca.group_by_measures([3])[1],
+        baca.enchained_hairpin(
+            baca.make_dynamics('ppppp p pp'),
+            selector=baca.group_by_measures([1, 2]),
+            spanner_selector=baca.rleaves(),
+            ),
+        ),
+    baca.rhythm(
+        [
+            (stirrings_still.wave(start=(5, 16)), [3, 4, 5]),
+            (baca.make_repeat_tied_notes(), True),
+            ],
+        ),
+    )
+
+maker(
+    ('vc', (15, 20)),
+    baca.map(
+        baca.group_by_measures([1, 3])[1],
+        baca.enchained_hairpin(
+            baca.make_dynamics('ppppp p pp'),
+            selector=baca.group_by_measures([1, 2]),
+            spanner_selector=baca.rleaves(),
+            ),
+        ),
+    baca.rhythm(
+        [
+            (stirrings_still.wave(start=(7, 16)), [1, 2, 3]),
+            (baca.make_repeat_tied_notes(), True),
+            ],
+        ),
+    )

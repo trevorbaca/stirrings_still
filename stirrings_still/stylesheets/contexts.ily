@@ -160,6 +160,9 @@
         \override DynamicLineSpanner.Y-extent = #'(-4 . 4)
         \override DynamicLineSpanner.padding = #1.5
 
+        % TODO: maybe propagate to *all* scores?
+        \override DynamicText.self-alignment-X = #left
+
         \override Glissando.breakable = ##t
         \override Glissando.thickness = 3
 
