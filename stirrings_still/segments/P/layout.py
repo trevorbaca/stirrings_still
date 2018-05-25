@@ -10,7 +10,7 @@ breaks = baca.breaks(
             ),
         baca.system(
             20, 24,
-            measure=14,
+            measure=16,
             y_offset=140,
             ),
         ),
@@ -20,7 +20,7 @@ breaks = baca.breaks(
 spacing = baca.scorewide_spacing(
     __file__,
     breaks=breaks,
-    fallback_duration=(1, 15),
+    fallback_duration=(1, 10),
     )
 spacing.override((5, 10), (1, 24))
-spacing.override((15, 20), (1, 24))
+spacing.override((15, 25), (1, 24))
