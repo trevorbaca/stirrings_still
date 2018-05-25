@@ -3019,7 +3019,7 @@ SEGMENTS
         hair continues;
         clouded pane fixed pitches continue;
         tasto < irregular ellipses > tasto, independently;
-        ppppp < p > ppppp governs stage;
+        intermittent ppppp < p > ppppp govern stage;
     attacca;
 
     [P.3] (11-14)
@@ -3041,7 +3041,7 @@ SEGMENTS
         hair continues;
         up-glissandi begin;
         tasto < irregular ellipses begin;
-        ppppp < mp governs first half of stage;
+        intermittent ppppp < p > pp govern stage;
     attacca;
 
     [P.5] (21-26)
@@ -3052,7 +3052,7 @@ SEGMENTS
         hair continues;
         up-glissandi achieve endpoint at start of measure -1;
         ellipses achieve fixed fast speed at start of measure -1;
-        mp > p governs first half of stage;
+        pp continues;
     surprisingly short breath;
 
 [Q] time series B; rotation -40
