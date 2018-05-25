@@ -1306,31 +1306,25 @@ P_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 241/64
-        -\marcato                                                %! IC
         \<                                                       %! PWC1
-        \ppp                                                     %! PWC1
+        \ppppp                                                   %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 49/16
-        -\marcato                                                %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 61/32
-        -\marcato                                                %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 41/32
-        -\marcato                                                %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 33/32
-        -\marcato                                                %! IC
         
         \revert Staff.Stem.stemlet-length
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 61/64
-        -\marcato                                                %! IC
         ]
     }
     \revert TupletNumber.text
@@ -1378,35 +1372,28 @@ P_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 29/32
-        -\marcato                                                %! IC
         \p                                                       %! PWC1
         \>                                                       %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 61/64
-        -\marcato                                                %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 35/32
-        -\marcato                                                %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 87/64
-        -\marcato                                                %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 117/64
-        -\marcato                                                %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 81/32
-        -\marcato                                                %! IC
         
         \revert Staff.Stem.stemlet-length
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 213/64
-        -\marcato                                                %! IC
         ]
     }
     \revert TupletNumber.text
@@ -1462,15 +1449,21 @@ P_ViolinIMusicVoice = {
         % [P ViolinIMusicVoice measure 695 / measure 10]         %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 241/64
+        \<                                                       %! PWC1
+        \ppp                                                     %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 49/16
         
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 61/32
+        \p                                                       %! PWC1
+        \>                                                       %! PWC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 41/32
@@ -1486,7 +1479,9 @@ P_ViolinIMusicVoice = {
     \revert TupletNumber.text
     
     % [P ViolinIMusicVoice measure 696 / measure 11]             %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 5/8
+    \ppp                                                         %! PWC1
     
     % [P ViolinIMusicVoice measure 697 / measure 12]             %! SM4
     R1 * 3/4
@@ -1661,12 +1656,18 @@ P_ViolinIIMusicVoice = {
         % [P ViolinIIMusicVoice measure 690 / measure 5]         %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 351/64
+        \<                                                       %! PWC1
+        \ppppp                                                   %! PWC1
         [
         
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 5/2
+        \p                                                       %! PWC1
+        \>                                                       %! PWC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 35/32
@@ -1679,8 +1680,10 @@ P_ViolinIIMusicVoice = {
     \revert TupletNumber.text
     
     % [P ViolinIIMusicVoice measure 691 / measure 6]             %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \baca_unpitched_music_warning                                %! SM24
     c'2.
+    \ppp                                                         %! PWC1
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1722,8 +1725,11 @@ P_ViolinIIMusicVoice = {
         % [P ViolinIIMusicVoice measure 692 / measure 7]         %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 57/64
+        \<                                                       %! PWC1
+        \ppp                                                     %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
@@ -1739,15 +1745,20 @@ P_ViolinIIMusicVoice = {
         c'16 * 11/4
         
         \revert Staff.Stem.stemlet-length
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 285/64
+        \p                                                       %! PWC1
         ]
+        \>                                                       %! PWC1
     }
     \revert TupletNumber.text
     
     % [P ViolinIIMusicVoice measure 693 / measure 8]             %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \baca_unpitched_music_warning                                %! SM24
     c'2
+    \ppp                                                         %! PWC1
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1789,12 +1800,18 @@ P_ViolinIIMusicVoice = {
         % [P ViolinIIMusicVoice measure 694 / measure 9]         %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 381/64
+        \<                                                       %! PWC1
+        \ppp                                                     %! PWC1
         [
         
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 111/32
+        \p                                                       %! PWC1
+        \>                                                       %! PWC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 3/2
@@ -1807,8 +1824,10 @@ P_ViolinIIMusicVoice = {
     \revert TupletNumber.text
     
     % [P ViolinIIMusicVoice measure 695 / measure 10]            %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \baca_unpitched_music_warning                                %! SM24
     c'2.
+    \ppp                                                         %! PWC1
     
     % [P ViolinIIMusicVoice measure 696 / measure 11]            %! SM4
     R1 * 5/8
@@ -2006,8 +2025,11 @@ P_ViolaMusicVoice = {
         % [P ViolaMusicVoice measure 693 / measure 8]            %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 77/16
+        \<                                                       %! PWC1
+        \ppppp                                                   %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
@@ -2060,8 +2082,11 @@ P_ViolaMusicVoice = {
         % [P ViolaMusicVoice measure 694 / measure 9]            %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 47/64
+        \p                                                       %! PWC1
+        \>                                                       %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
@@ -2147,7 +2172,9 @@ P_ViolaMusicVoice = {
     \revert TupletNumber.text
     
     % [P ViolaMusicVoice measure 696 / measure 11]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 5/8
+    \ppp                                                         %! PWC1
     
     % [P ViolaMusicVoice measure 697 / measure 12]               %! SM4
     R1 * 3/4
@@ -2328,8 +2355,11 @@ P_CelloMusicVoice = {
         % [P CelloMusicVoice measure 691 / measure 6]            %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 107/16
+        \<                                                       %! PWC1
+        \ppppp                                                   %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
@@ -2385,8 +2415,11 @@ P_CelloMusicVoice = {
         % [P CelloMusicVoice measure 692 / measure 7]            %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 3/4
+        \p                                                       %! PWC1
+        \>                                                       %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
@@ -2461,8 +2494,10 @@ P_CelloMusicVoice = {
     
     % [P CelloMusicVoice measure 694 / measure 9]                %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \baca_unpitched_music_warning                                %! SM24
     c'2.
+    \ppp                                                         %! PWC1
     
     % [P CelloMusicVoice measure 695 / measure 10]               %! SM4
     \baca_unpitched_music_warning                                %! SM24

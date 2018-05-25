@@ -1413,7 +1413,7 @@ S_ViolinIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     R1 * 1
-    \ppppp                                                       %! SM8:REAPPLIED_DYNAMIC:SM37
+    \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
             {
@@ -1579,7 +1579,7 @@ S_ViolinIIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     R1 * 1
-    \ppppp                                                       %! SM8:REAPPLIED_DYNAMIC:SM37
+    \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
             {
@@ -1749,7 +1749,7 @@ S_ViolaMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     R1 * 1
-    \ppppp                                                       %! SM8:REAPPLIED_DYNAMIC:SM37
+    \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
             {
@@ -1915,7 +1915,7 @@ S_CelloMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     R1 * 1
-    \ppppp                                                       %! SM8:REAPPLIED_DYNAMIC:SM37
+    \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
             {
