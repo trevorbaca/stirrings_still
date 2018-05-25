@@ -58,7 +58,7 @@
         \accepts GlobalRests
         \accepts PageLayout
 
-        % hide in score:
+        % TODO: hide in score:
         \override BarNumber.break-visibility = #end-of-line-invisible
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
