@@ -246,6 +246,7 @@ maker(
     baca.rhythm(
         [
             (stirrings_still.wave(start=(6, 16)), [0, 2, 4]),
+            (stirrings_still.eighths(), [5]),
             (baca.make_repeat_tied_notes(), True),
             ],
         ),
@@ -282,7 +283,34 @@ maker(
     baca.rhythm(
         [
             (stirrings_still.wave(start=(7, 16)), [1, 2, 3]),
+            (stirrings_still.eighths(), [4, 5]),
             (baca.make_repeat_tied_notes(), True),
             ],
         ),
+    )
+
+maker(
+    ('tutti', (21, 25)),
+    baca.breathe_after(),
+    stirrings_still.eighths(),
+    )
+
+maker(
+    ('v1', (21, 25)),
+    stirrings_still.glissando_interpolation('G4', 'Bb4'),
+    )
+
+maker(
+    ('v2', (20, 25)),
+    stirrings_still.glissando_interpolation('E4', 'Gb4'),
+    )
+
+maker(
+    ('va', (21, 25)),
+    stirrings_still.glissando_interpolation('F3', 'Ab3'),
+    )
+
+maker(
+    ('vc', (19, 25)),
+    stirrings_still.glissando_interpolation('A2', 'C3'),
     )

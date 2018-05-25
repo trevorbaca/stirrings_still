@@ -1742,22 +1742,128 @@ P_ViolinIMusicVoice = {
     
     % [P ViolinIMusicVoice measure 706 / measure 21]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    R1 * 3/4
+    g'8
     \pp                                                          %! PWC1
+    \glissando                                                   %! SC
+    
+    \hide NoteHead                                               %! SC
+    \override Accidental.stencil = ##f                           %! SC
+    \override NoteColumn.glissando-skip = ##t                    %! SC
+    \override NoteHead.no-ledgers = ##t                          %! SC
+    g'8
+    \glissando                                                   %! SC
+    
+    g'8
+    \glissando                                                   %! SC
+    
+    g'8
+    \glissando                                                   %! SC
+    
+    g'8
+    \glissando                                                   %! SC
+    
+    g'8
+    \glissando                                                   %! SC
     
     % [P ViolinIMusicVoice measure 707 / measure 22]             %! SM4
-    R1 * 7/8
+    g'8
+    \glissando                                                   %! SC
+    
+    g'8
+    \glissando                                                   %! SC
+    
+    g'8
+    \glissando                                                   %! SC
+    
+    a'8
+    \glissando                                                   %! SC
+    
+    a'8
+    \glissando                                                   %! SC
+    
+    a'8
+    \glissando                                                   %! SC
+    
+    a'8
+    \glissando                                                   %! SC
     
     % [P ViolinIMusicVoice measure 708 / measure 23]             %! SM4
-    R1 * 7/8
+    a'8
+    \glissando                                                   %! SC
+    
+    a'8
+    \glissando                                                   %! SC
+    
+    a'8
+    \glissando                                                   %! SC
+    
+    a'8
+    \glissando                                                   %! SC
+    
+    a'8
+    \glissando                                                   %! SC
+    
+    a'8
+    \glissando                                                   %! SC
+    
+    a'8
+    \glissando                                                   %! SC
     
     % [P ViolinIMusicVoice measure 709 / measure 24]             %! SM4
-    R1 * 1
+    a'8
+    \glissando                                                   %! SC
+    
+    a'8
+    \glissando                                                   %! SC
+    
+    a'8
+    \glissando                                                   %! SC
+    
+    a'8
+    \glissando                                                   %! SC
+    
+    a'8
+    \glissando                                                   %! SC
+    
+    a'8
+    \glissando                                                   %! SC
+    
+    a'8
+    \glissando                                                   %! SC
+    
+    b'8
+    \glissando                                                   %! SC
     
     % [P ViolinIMusicVoice measure 710 / measure 25]             %! SM4
-    R1 * 1
+    b'8
+    \glissando                                                   %! SC
+    
+    b'8
+    \glissando                                                   %! SC
+    
+    b'8
+    \glissando                                                   %! SC
+    
+    b'8
+    \glissando                                                   %! SC
+    
+    b'8
+    \glissando                                                   %! SC
+    
+    b'8
+    \glissando                                                   %! SC
+    
+    b'8
+    \glissando                                                   %! SC
+    
+    \revert Accidental.stencil                                   %! SC
+    \revert NoteColumn.glissando-skip                            %! SC
+    \revert NoteHead.no-ledgers                                  %! SC
+    \undo \hide NoteHead                                         %! SC
+    bf'!8
     
     % [P ViolinIMusicVoice measure 711 / measure 26]             %! SM4
+    \breathe                                                     %! IC
     R1 * 5/8
     
 }
@@ -2304,26 +2410,147 @@ P_ViolinIIMusicVoice = {
     
     % [P ViolinIIMusicVoice measure 705 / measure 20]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \baca_unpitched_music_warning                                %! SM24
-    c'2.
+    e'8
     \pp                                                          %! PWC1
+    \glissando                                                   %! SC
+    
+    \hide NoteHead                                               %! SC
+    \override Accidental.stencil = ##f                           %! SC
+    \override NoteColumn.glissando-skip = ##t                    %! SC
+    \override NoteHead.no-ledgers = ##t                          %! SC
+    e'8
+    \glissando                                                   %! SC
+    
+    e'8
+    \glissando                                                   %! SC
+    
+    e'8
+    \glissando                                                   %! SC
+    
+    e'8
+    \glissando                                                   %! SC
+    
+    e'8
+    \glissando                                                   %! SC
     
     % [P ViolinIIMusicVoice measure 706 / measure 21]            %! SM4
-    R1 * 3/4
+    e'8
+    \glissando                                                   %! SC
+    
+    e'8
+    \glissando                                                   %! SC
+    
+    e'8
+    \glissando                                                   %! SC
+    
+    e'8
+    \glissando                                                   %! SC
+    
+    e'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
     
     % [P ViolinIIMusicVoice measure 707 / measure 22]            %! SM4
-    R1 * 7/8
+    f'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
     
     % [P ViolinIIMusicVoice measure 708 / measure 23]            %! SM4
-    R1 * 7/8
+    f'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
     
     % [P ViolinIIMusicVoice measure 709 / measure 24]            %! SM4
-    R1 * 1
+    f'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
+    
+    f'8
+    \glissando                                                   %! SC
+    
+    g'8
+    \glissando                                                   %! SC
+    
+    g'8
+    \glissando                                                   %! SC
+    
+    g'8
+    \glissando                                                   %! SC
     
     % [P ViolinIIMusicVoice measure 710 / measure 25]            %! SM4
-    R1 * 1
+    g'8
+    \glissando                                                   %! SC
+    
+    g'8
+    \glissando                                                   %! SC
+    
+    g'8
+    \glissando                                                   %! SC
+    
+    g'8
+    \glissando                                                   %! SC
+    
+    g'8
+    \glissando                                                   %! SC
+    
+    g'8
+    \glissando                                                   %! SC
+    
+    g'8
+    \glissando                                                   %! SC
+    
+    \revert Accidental.stencil                                   %! SC
+    \revert NoteColumn.glissando-skip                            %! SC
+    \revert NoteHead.no-ledgers                                  %! SC
+    \undo \hide NoteHead                                         %! SC
+    gf'!8
     
     % [P ViolinIIMusicVoice measure 711 / measure 26]            %! SM4
+    \breathe                                                     %! IC
     R1 * 5/8
     
 }
@@ -2856,22 +3083,128 @@ P_ViolaMusicVoice = {
     
     % [P ViolaMusicVoice measure 706 / measure 21]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    R1 * 3/4
+    f8
     \pp                                                          %! PWC1
+    \glissando                                                   %! SC
+    
+    \hide NoteHead                                               %! SC
+    \override Accidental.stencil = ##f                           %! SC
+    \override NoteColumn.glissando-skip = ##t                    %! SC
+    \override NoteHead.no-ledgers = ##t                          %! SC
+    f8
+    \glissando                                                   %! SC
+    
+    f8
+    \glissando                                                   %! SC
+    
+    f8
+    \glissando                                                   %! SC
+    
+    f8
+    \glissando                                                   %! SC
+    
+    f8
+    \glissando                                                   %! SC
     
     % [P ViolaMusicVoice measure 707 / measure 22]               %! SM4
-    R1 * 7/8
+    f8
+    \glissando                                                   %! SC
+    
+    f8
+    \glissando                                                   %! SC
+    
+    f8
+    \glissando                                                   %! SC
+    
+    g8
+    \glissando                                                   %! SC
+    
+    g8
+    \glissando                                                   %! SC
+    
+    g8
+    \glissando                                                   %! SC
+    
+    g8
+    \glissando                                                   %! SC
     
     % [P ViolaMusicVoice measure 708 / measure 23]               %! SM4
-    R1 * 7/8
+    g8
+    \glissando                                                   %! SC
+    
+    g8
+    \glissando                                                   %! SC
+    
+    g8
+    \glissando                                                   %! SC
+    
+    g8
+    \glissando                                                   %! SC
+    
+    g8
+    \glissando                                                   %! SC
+    
+    g8
+    \glissando                                                   %! SC
+    
+    g8
+    \glissando                                                   %! SC
     
     % [P ViolaMusicVoice measure 709 / measure 24]               %! SM4
-    R1 * 1
+    g8
+    \glissando                                                   %! SC
+    
+    g8
+    \glissando                                                   %! SC
+    
+    g8
+    \glissando                                                   %! SC
+    
+    g8
+    \glissando                                                   %! SC
+    
+    g8
+    \glissando                                                   %! SC
+    
+    g8
+    \glissando                                                   %! SC
+    
+    g8
+    \glissando                                                   %! SC
+    
+    a8
+    \glissando                                                   %! SC
     
     % [P ViolaMusicVoice measure 710 / measure 25]               %! SM4
-    R1 * 1
+    a8
+    \glissando                                                   %! SC
+    
+    a8
+    \glissando                                                   %! SC
+    
+    a8
+    \glissando                                                   %! SC
+    
+    a8
+    \glissando                                                   %! SC
+    
+    a8
+    \glissando                                                   %! SC
+    
+    a8
+    \glissando                                                   %! SC
+    
+    a8
+    \glissando                                                   %! SC
+    
+    \revert Accidental.stencil                                   %! SC
+    \revert NoteColumn.glissando-skip                            %! SC
+    \revert NoteHead.no-ledgers                                  %! SC
+    \undo \hide NoteHead                                         %! SC
+    af!8
     
     % [P ViolaMusicVoice measure 711 / measure 26]               %! SM4
+    \breathe                                                     %! IC
     R1 * 5/8
     
 }
@@ -3382,33 +3715,161 @@ P_CelloMusicVoice = {
     \revert TupletNumber.text
     
     % [P CelloMusicVoice measure 704 / measure 19]               %! SM4
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
+    a,8
     \pp                                                          %! PWC1
+    \glissando                                                   %! SC
+    
+    \hide NoteHead                                               %! SC
+    \override Accidental.stencil = ##f                           %! SC
+    \override NoteColumn.glissando-skip = ##t                    %! SC
+    \override NoteHead.no-ledgers = ##t                          %! SC
+    a,8
+    \glissando                                                   %! SC
+    
+    a,8
+    \glissando                                                   %! SC
+    
+    a,8
+    \glissando                                                   %! SC
     
     % [P CelloMusicVoice measure 705 / measure 20]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2.
-    \repeatTie
+    a,8
+    \glissando                                                   %! SC
+    
+    a,8
+    \glissando                                                   %! SC
+    
+    a,8
+    \glissando                                                   %! SC
+    
+    a,8
+    \glissando                                                   %! SC
+    
+    a,8
+    \glissando                                                   %! SC
+    
+    a,8
+    \glissando                                                   %! SC
     
     % [P CelloMusicVoice measure 706 / measure 21]               %! SM4
-    R1 * 3/4
+    a,8
+    \glissando                                                   %! SC
+    
+    a,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
     
     % [P CelloMusicVoice measure 707 / measure 22]               %! SM4
-    R1 * 7/8
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
     
     % [P CelloMusicVoice measure 708 / measure 23]               %! SM4
-    R1 * 7/8
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
     
     % [P CelloMusicVoice measure 709 / measure 24]               %! SM4
-    R1 * 1
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
+    
+    b,8
+    \glissando                                                   %! SC
+    
+    c8
+    \glissando                                                   %! SC
+    
+    c8
+    \glissando                                                   %! SC
+    
+    c8
+    \glissando                                                   %! SC
+    
+    c8
+    \glissando                                                   %! SC
     
     % [P CelloMusicVoice measure 710 / measure 25]               %! SM4
-    R1 * 1
+    c8
+    \glissando                                                   %! SC
+    
+    c8
+    \glissando                                                   %! SC
+    
+    c8
+    \glissando                                                   %! SC
+    
+    c8
+    \glissando                                                   %! SC
+    
+    c8
+    \glissando                                                   %! SC
+    
+    c8
+    \glissando                                                   %! SC
+    
+    c8
+    \glissando                                                   %! SC
+    
+    \revert Accidental.stencil                                   %! SC
+    \revert NoteColumn.glissando-skip                            %! SC
+    \revert NoteHead.no-ledgers                                  %! SC
+    \undo \hide NoteHead                                         %! SC
+    c8
     
     % [P CelloMusicVoice measure 711 / measure 26]               %! SM4
+    \breathe                                                     %! IC
     R1 * 5/8
     
 }

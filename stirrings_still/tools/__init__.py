@@ -10,6 +10,7 @@ from .clouded_pane import clouded_pane
 from .continuous_tremolo import continuous_tremolo
 from .declamation import declamation
 from .desynchronization import desynchronization
+from .eighths import eighths
 from .first_order_stages import first_order_stages
 from .glissando_interpolation import glissando_interpolation
 from .glissando_without_ties import glissando_without_ties
