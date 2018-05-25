@@ -4927,10 +4927,12 @@ D_ViolinIIMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 211 / measure 5]             %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 212 / measure 6]             %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     \baca_unpitched_music_warning                                %! SM24
@@ -4957,6 +4959,7 @@ D_ViolinIIMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 215 / measure 9]             %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     \baca_unpitched_music_warning                                %! SM24
@@ -4972,6 +4975,7 @@ D_ViolinIIMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 217 / measure 11]            %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \glissando                                                   %! SC
     
@@ -5015,6 +5019,7 @@ D_ViolinIIMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolinIIMusicVoice measure 223 / measure 17]            %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     \baca_unpitched_music_warning                                %! SM24
@@ -5468,6 +5473,7 @@ D_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 214 / measure 8]                %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     \baca_unpitched_music_warning                                %! SM24
@@ -5498,6 +5504,7 @@ D_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 217 / measure 11]               %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     
     \baca_unpitched_music_warning                                %! SM24
@@ -5508,9 +5515,11 @@ D_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 218 / measure 12]               %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \glissando                                                   %! SC
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
@@ -5555,6 +5564,7 @@ D_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 223 / measure 17]               %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     \baca_unpitched_music_warning                                %! SM24
@@ -5565,6 +5575,7 @@ D_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 224 / measure 18]               %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     
     \baca_unpitched_music_warning                                %! SM24
@@ -5581,6 +5592,7 @@ D_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 227 / measure 21]               %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
@@ -5606,6 +5618,7 @@ D_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 229 / measure 23]               %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     \baca_unpitched_music_warning                                %! SM24
@@ -5616,9 +5629,11 @@ D_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [D ViolaMusicVoice measure 230 / measure 24]               %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \glissando                                                   %! SC
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
@@ -6066,6 +6081,7 @@ D_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 216 / measure 10]               %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
@@ -6096,6 +6112,7 @@ D_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 221 / measure 15]               %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     \baca_unpitched_music_warning                                %! SM24
@@ -6105,11 +6122,13 @@ D_CelloMusicVoice = {
     c'2
     \glissando                                                   %! SC
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \glissando                                                   %! SC
     [
     
     % [D CelloMusicVoice measure 222 / measure 16]               %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     \baca_unpitched_music_warning                                %! SM24
@@ -6128,6 +6147,7 @@ D_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 224 / measure 18]               %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     
     \baca_unpitched_music_warning                                %! SM24
@@ -6150,6 +6170,7 @@ D_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 227 / measure 21]               %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     \glissando                                                   %! SC
     
@@ -6166,6 +6187,7 @@ D_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 228 / measure 22]               %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     \baca_unpitched_music_warning                                %! SM24
@@ -6181,9 +6203,11 @@ D_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 230 / measure 24]               %! SM4
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \glissando                                                   %! SC
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     

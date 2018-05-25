@@ -1479,18 +1479,35 @@ P_ViolinIMusicVoice = {
     \revert TupletNumber.text
     
     % [P ViolinIMusicVoice measure 696 / measure 11]             %! SM4
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    R1 * 5/8
-    \ppp                                                         %! PWC1
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \ppppp                                                       %! PWC1
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "tasto [TODO: clouded pane fixed pitches]"       %! IC
+        }                                                        %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    \repeatTie
     
     % [P ViolinIMusicVoice measure 697 / measure 12]             %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [P ViolinIMusicVoice measure 698 / measure 13]             %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [P ViolinIMusicVoice measure 699 / measure 14]             %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \repeatTie
     
     % [P ViolinIMusicVoice measure 700 / measure 15]             %! SM4
     R1 * 7/8
@@ -1827,19 +1844,35 @@ P_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \baca_unpitched_music_warning                                %! SM24
     c'2.
-    \ppp                                                         %! PWC1
+    \ppppp                                                       %! PWC1
     
     % [P ViolinIIMusicVoice measure 696 / measure 11]            %! SM4
-    R1 * 5/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "tasto [TODO: clouded pane fixed pitches]"       %! IC
+        }                                                        %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    \repeatTie
     
     % [P ViolinIIMusicVoice measure 697 / measure 12]            %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [P ViolinIIMusicVoice measure 698 / measure 13]            %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [P ViolinIIMusicVoice measure 699 / measure 14]            %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \repeatTie
     
     % [P ViolinIIMusicVoice measure 700 / measure 15]            %! SM4
     R1 * 7/8
@@ -2172,18 +2205,35 @@ P_ViolaMusicVoice = {
     \revert TupletNumber.text
     
     % [P ViolaMusicVoice measure 696 / measure 11]               %! SM4
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    R1 * 5/8
-    \ppp                                                         %! PWC1
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \ppppp                                                       %! PWC1
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "tasto [TODO: clouded pane fixed pitches]"       %! IC
+        }                                                        %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    \repeatTie
     
     % [P ViolaMusicVoice measure 697 / measure 12]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [P ViolaMusicVoice measure 698 / measure 13]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [P ViolaMusicVoice measure 699 / measure 14]               %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \repeatTie
     
     % [P ViolaMusicVoice measure 700 / measure 15]               %! SM4
     R1 * 7/8
@@ -2497,7 +2547,7 @@ P_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \baca_unpitched_music_warning                                %! SM24
     c'2.
-    \ppp                                                         %! PWC1
+    \ppppp                                                       %! PWC1
     
     % [P CelloMusicVoice measure 695 / measure 10]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -2505,16 +2555,32 @@ P_CelloMusicVoice = {
     \repeatTie
     
     % [P CelloMusicVoice measure 696 / measure 11]               %! SM4
-    R1 * 5/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "tasto [TODO: clouded pane fixed pitches]"       %! IC
+        }                                                        %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    \repeatTie
     
     % [P CelloMusicVoice measure 697 / measure 12]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [P CelloMusicVoice measure 698 / measure 13]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [P CelloMusicVoice measure 699 / measure 14]               %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \repeatTie
     
     % [P CelloMusicVoice measure 700 / measure 15]               %! SM4
     R1 * 7/8
