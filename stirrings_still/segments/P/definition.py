@@ -51,16 +51,17 @@ maker(
     )
 
 """
-permutation = baca.sequence([1, 3, 5, 2, 4, 0])
+permutation = baca.sequence([1, 3, 5, 4, 2, 0])
 operand = baca.sequence().permute(permutation)
 mask = baca.sequence([0, 1, 1, 0, 0, 1])
 for item in baca.sequence([mask]).accumulate([operand]):
     print(item)
 
 Sequence([Sequence([0, 1, 1, 0, 0, 1])])
-Sequence([Sequence([1, 0, 1, 1, 0, 0])])
-Sequence([Sequence([0, 1, 0, 1, 0, 1])])
-Sequence([Sequence([1, 1, 1, 0, 0, 0])])
+Sequence([Sequence([1, 0, 1, 0, 1, 0])])
+Sequence([Sequence([0, 0, 0, 1, 1, 1])])
+Sequence([Sequence([0, 1, 1, 1, 0, 0])])
+Sequence([Sequence([1, 1, 0, 0, 1, 0])])
 Sequence([Sequence([1, 0, 0, 1, 0, 1])])
 """
 
@@ -68,7 +69,7 @@ maker(
     ('v1', (5, 10)),
     baca.rhythm(
         [
-            (stirrings_still.wave(stop=(1, 8)), [1, 2]),
+            (stirrings_still.wave(start=(4, 16)), [1, 2, 5]),
             (baca.make_repeat_tied_notes(), True),
             ],
         ),
@@ -78,7 +79,7 @@ maker(
     ('v2', (5, 10)),
     baca.rhythm(
         [
-            (stirrings_still.wave(), [0, 2, 3]),
+            (stirrings_still.wave(start=(6, 16)), [0, 2, 4]),
             (baca.make_repeat_tied_notes(), True),
             ],
         ),
@@ -88,7 +89,7 @@ maker(
     ('va', (5, 10)),
     baca.rhythm(
         [
-            (stirrings_still.wave(), [1, 3, 5]),
+            (stirrings_still.wave(start=(5, 16)), [3, 4, 5]),
             (baca.make_repeat_tied_notes(), True),
             ],
         ),
@@ -98,7 +99,7 @@ maker(
     ('vc', (5, 10)),
     baca.rhythm(
         [
-            (stirrings_still.wave(stop=(1, 8)), [0, 1, 2]),
+            (stirrings_still.wave(start=(7, 16)), [1, 2, 3]),
             (baca.make_repeat_tied_notes(), True),
             ],
         ),
