@@ -1254,6 +1254,14 @@ P_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2..
     \repeatTie
+    
+    % [P ViolinIMusicVoice measure 690 / measure 5]              %! SM4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    \repeatTie
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1281,9 +1289,7 @@ P_ViolinIMusicVoice = {
                             tupletFullLength = ##t
                         }
                         {
-                            c'2
-                            ~
-                            c'8
+                            c'2.
                         }
                     >>
                     \layout {
@@ -1294,32 +1300,25 @@ P_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [P ViolinIMusicVoice measure 690 / measure 5]          %! SM4
+        % [P ViolinIMusicVoice measure 691 / measure 6]          %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \baca_unpitched_music_warning                            %! SM24
-        c'16 * 119/32
+        c'16 * 251/64
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16 * 177/64
+        c'16 * 55/16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16 * 97/64
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'16 * 17/16
+        c'16 * 41/16
         
         \revert Staff.Stem.stemlet-length
         \baca_unpitched_music_warning                            %! SM24
-        c'16 * 15/16
+        c'16 * 133/64
         ]
     }
     \revert TupletNumber.text
-    
-    % [P ViolinIMusicVoice measure 691 / measure 6]              %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2.
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1362,27 +1361,21 @@ P_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \baca_unpitched_music_warning                            %! SM24
-        c'16 * 29/32
+        c'16 * 7/4
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16 * 61/64
+        c'16 * 15/8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16 * 35/32
+        c'16 * 71/32
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16 * 87/64
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'16 * 117/64
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'16 * 81/32
+        c'16 * 89/32
         
         \revert Staff.Stem.stemlet-length
         \baca_unpitched_music_warning                            %! SM24
-        c'16 * 213/64
+        c'16 * 27/8
         ]
     }
     \revert TupletNumber.text
@@ -1534,24 +1527,205 @@ P_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2..
     \repeatTie
-    
-    % [P ViolinIIMusicVoice measure 690 / measure 5]             %! SM4
-    R1 * 5/8
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'2
+                            ~
+                            c'8
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [P ViolinIIMusicVoice measure 690 / measure 5]         %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 119/32
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 177/64
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 97/64
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 17/16
+        
+        \revert Staff.Stem.stemlet-length
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 15/16
+        ]
+    }
+    \revert TupletNumber.text
     
     % [P ViolinIIMusicVoice measure 691 / measure 6]             %! SM4
-    R1 * 3/4
-    
-    % [P ViolinIIMusicVoice measure 692 / measure 7]             %! SM4
-    R1 * 3/4
-    
-    % [P ViolinIIMusicVoice measure 693 / measure 8]             %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'2.
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [P ViolinIIMusicVoice measure 692 / measure 7]         %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #left
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 29/32
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 61/64
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 35/32
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 87/64
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 117/64
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 81/32
+        
+        \revert Staff.Stem.stemlet-length
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 213/64
+        ]
+    }
+    \revert TupletNumber.text
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'2
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [P ViolinIIMusicVoice measure 693 / measure 8]         %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 117/32
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 73/32
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 73/64
+        
+        \revert Staff.Stem.stemlet-length
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 59/64
+        ]
+    }
+    \revert TupletNumber.text
     
     % [P ViolinIIMusicVoice measure 694 / measure 9]             %! SM4
-    R1 * 3/4
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
     
     % [P ViolinIIMusicVoice measure 695 / measure 10]            %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [P ViolinIIMusicVoice measure 696 / measure 11]            %! SM4
     R1 * 5/8
@@ -1692,22 +1866,206 @@ P_ViolaMusicVoice = {
     \repeatTie
     
     % [P ViolaMusicVoice measure 690 / measure 5]                %! SM4
-    R1 * 5/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
     
-    % [P ViolaMusicVoice measure 691 / measure 6]                %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    \repeatTie
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'2.
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [P ViolaMusicVoice measure 691 / measure 6]            %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 241/64
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 49/16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 61/32
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 41/32
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 33/32
+        
+        \revert Staff.Stem.stemlet-length
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 61/64
+        ]
+    }
+    \revert TupletNumber.text
     
     % [P ViolaMusicVoice measure 692 / measure 7]                %! SM4
-    R1 * 3/4
-    
-    % [P ViolaMusicVoice measure 693 / measure 8]                %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'2
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [P ViolaMusicVoice measure 693 / measure 8]            %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #left
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 55/64
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 61/64
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 81/64
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 31/16
+        
+        \revert Staff.Stem.stemlet-length
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 191/64
+        ]
+    }
+    \revert TupletNumber.text
     
     % [P ViolaMusicVoice measure 694 / measure 9]                %! SM4
-    R1 * 3/4
-    
-    % [P ViolaMusicVoice measure 695 / measure 10]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'2.
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [P ViolaMusicVoice measure 695 / measure 10]           %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 241/64
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 49/16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 61/32
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 41/32
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 33/32
+        
+        \revert Staff.Stem.stemlet-length
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 61/64
+        ]
+    }
+    \revert TupletNumber.text
     
     % [P ViolaMusicVoice measure 696 / measure 11]               %! SM4
     R1 * 5/8
@@ -1842,24 +2200,196 @@ P_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2..
     \repeatTie
-    
-    % [P CelloMusicVoice measure 690 / measure 5]                %! SM4
-    R1 * 5/8
-    
-    % [P CelloMusicVoice measure 691 / measure 6]                %! SM4
-    R1 * 3/4
-    
-    % [P CelloMusicVoice measure 692 / measure 7]                %! SM4
-    R1 * 3/4
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'2
+                            ~
+                            c'8
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [P CelloMusicVoice measure 690 / measure 5]            %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 55/16
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 91/32
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 2
+        
+        \revert Staff.Stem.stemlet-length
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 55/32
+        ]
+    }
+    \revert TupletNumber.text
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'2.
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [P CelloMusicVoice measure 691 / measure 6]            %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #left
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 7/4
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 15/8
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 71/32
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 89/32
+        
+        \revert Staff.Stem.stemlet-length
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 27/8
+        ]
+    }
+    \revert TupletNumber.text
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'2.
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [P CelloMusicVoice measure 692 / measure 7]            %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 251/64
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 55/16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 41/16
+        
+        \revert Staff.Stem.stemlet-length
+        \baca_unpitched_music_warning                            %! SM24
+        c'16 * 133/64
+        ]
+    }
+    \revert TupletNumber.text
     
     % [P CelloMusicVoice measure 693 / measure 8]                %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
     
     % [P CelloMusicVoice measure 694 / measure 9]                %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [P CelloMusicVoice measure 695 / measure 10]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [P CelloMusicVoice measure 696 / measure 11]               %! SM4
     R1 * 5/8
