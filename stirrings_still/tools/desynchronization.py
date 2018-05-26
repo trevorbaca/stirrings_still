@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def desynchronization(
@@ -17,9 +17,9 @@ def desynchronization(
         assert isinstance(denominator, int), repr(denominator)
         denominators = [denominator]
     if rests is True:
-        logical_tie_masks = [abjad.silence([1], period=2)]
+        logical_tie_masks = [rmakers.silence([1], period=2)]
     elif isinstance(rests, tuple):
-        mask = abjad.silence(*rests)
+        mask = rmakers.silence(*rests)
         logical_tie_masks = [mask]
     else:
         logical_tie_masks = None

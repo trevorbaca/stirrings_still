@@ -2,6 +2,7 @@ import abjad
 import baca
 import os
 import stirrings_still
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -66,7 +67,7 @@ maker(
     baca.markup('8” cir./stem; golden tone'),
     stirrings_still.circles(
         (1, 2),
-        division_mask=abjad.silence([0]),
+        division_mask=rmakers.silence([0]),
         remainder=abjad.Left,
         ),
     )

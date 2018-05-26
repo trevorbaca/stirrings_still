@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def trajectories(counts='A', rotation=0, extra_counts_rotation=0):

@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def synchronized_circles(gaps=True, rests=None, rotation=0, sustain=None):
@@ -15,12 +15,12 @@ def synchronized_circles(gaps=True, rests=None, rotation=0, sustain=None):
     if rests is None:
         logical_tie_masks = None
     elif isinstance(rests, list):
-        logical_tie_masks = [abjad.silence(rests)]
+        logical_tie_masks = [rmakers.silence(rests)]
     else:
         raise TypeError(rests)
     if sustain is not None:
         assert isinstance(sustain, list)
-        division_masks = [abjad.sustain(sustain)]
+        division_masks = [rmakers.sustain(sustain)]
     else:
         division_masks = None
     return baca.rhythm(

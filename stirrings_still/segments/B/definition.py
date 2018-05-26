@@ -2,6 +2,7 @@ import abjad
 import baca
 import os
 import stirrings_still
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -124,7 +125,7 @@ maker(
     ('v1', (1, 4)),
     stirrings_still.clockticks(
         displace=True,
-        division_mask=abjad.silence([0], 2),
+        division_mask=rmakers.silence([0], 2),
         ),
     )
 
