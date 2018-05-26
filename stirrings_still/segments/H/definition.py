@@ -2,6 +2,7 @@ import abjad
 import baca
 import os
 import stirrings_still
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -312,9 +313,9 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (23, 28)),
-    (stirrings_still.pickets(4, 2, abjad.silence([0])), 0),
-    (stirrings_still.pickets(4, 1, abjad.silence([0])), 1),
-    (stirrings_still.pickets(4, 0, abjad.silence([0])), 2),
+    (stirrings_still.pickets(4, 2, rmakers.silence([0])), 0),
+    (stirrings_still.pickets(4, 1, rmakers.silence([0])), 1),
+    (stirrings_still.pickets(4, 0, rmakers.silence([0])), 2),
     baca.markup('8” circles continue'),
     )
 

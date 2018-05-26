@@ -2,6 +2,7 @@ import abjad
 import baca
 import os
 import stirrings_still
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -92,55 +93,55 @@ stirrings_still.time(maker, time)
 
 maker(
     ('tutti', (1, 6)),
-    (stirrings_still.strokes(0, abjad.silence([0], 2)), 0),
-    (stirrings_still.strokes(-1, abjad.silence([1], 2)), 1),
-    (stirrings_still.strokes(-2, abjad.silence([0, 1], 3)), 2),
-    (stirrings_still.strokes(-3, abjad.silence([1, 2], 3)), 3),
+    (stirrings_still.strokes(0, rmakers.silence([0], 2)), 0),
+    (stirrings_still.strokes(-1, rmakers.silence([1], 2)), 1),
+    (stirrings_still.strokes(-2, rmakers.silence([0, 1], 3)), 2),
+    (stirrings_still.strokes(-3, rmakers.silence([1, 2], 3)), 3),
     stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
     ('tutti', (7, 12)),
-    (stirrings_still.strokes(0, abjad.silence([0], 2)), 0),
-    (stirrings_still.strokes(-1, abjad.silence([1], 2)), 1),
-    (stirrings_still.strokes(-2, abjad.silence([0], 3)), 2),
-    (stirrings_still.strokes(-3, abjad.silence([1, 2], 3)), 3),
+    (stirrings_still.strokes(0, rmakers.silence([0], 2)), 0),
+    (stirrings_still.strokes(-1, rmakers.silence([1], 2)), 1),
+    (stirrings_still.strokes(-2, rmakers.silence([0], 3)), 2),
+    (stirrings_still.strokes(-3, rmakers.silence([1, 2], 3)), 3),
     stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
     ('tutti', (13, 18)),
-    (stirrings_still.strokes(0, abjad.silence([0], 2)), 0),
-    (stirrings_still.strokes(-1, abjad.silence([1], 2)), 1),
-    (stirrings_still.strokes(-2, abjad.silence([0], 3)), 2),
-    (stirrings_still.strokes(-3, abjad.silence([1], 3)), 3),
+    (stirrings_still.strokes(0, rmakers.silence([0], 2)), 0),
+    (stirrings_still.strokes(-1, rmakers.silence([1], 2)), 1),
+    (stirrings_still.strokes(-2, rmakers.silence([0], 3)), 2),
+    (stirrings_still.strokes(-3, rmakers.silence([1], 3)), 3),
     stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
     ('tutti', (19, 24)),
-    (stirrings_still.strokes(0, abjad.silence([0], 2)), 0),
-    (stirrings_still.strokes(0, abjad.silence([2], 3)), 1),
-    (stirrings_still.strokes(-2, abjad.silence([0], 3)), 2),
-    (stirrings_still.strokes(-3, abjad.silence([1], 3)), 3),
+    (stirrings_still.strokes(0, rmakers.silence([0], 2)), 0),
+    (stirrings_still.strokes(0, rmakers.silence([2], 3)), 1),
+    (stirrings_still.strokes(-2, rmakers.silence([0], 3)), 2),
+    (stirrings_still.strokes(-3, rmakers.silence([1], 3)), 3),
     stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
     ('tutti', (25, 30)),
-    (stirrings_still.strokes(0, abjad.silence([0], 2)), 0),
-    (stirrings_still.strokes(0, abjad.silence([2], 3)), 1),
-    (stirrings_still.strokes(-2, abjad.silence([0], 2)), 2),
-    (stirrings_still.strokes(-2, abjad.silence([2], 3)), 3),
+    (stirrings_still.strokes(0, rmakers.silence([0], 2)), 0),
+    (stirrings_still.strokes(0, rmakers.silence([2], 3)), 1),
+    (stirrings_still.strokes(-2, rmakers.silence([0], 2)), 2),
+    (stirrings_still.strokes(-2, rmakers.silence([2], 3)), 3),
     stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
     ('tutti', (31, 36)),
-    (stirrings_still.strokes(0, abjad.silence([0], 2)), 0),
-    (stirrings_still.strokes(0, abjad.silence([2], 3)), 1),
-    (stirrings_still.strokes(0, abjad.silence([1], 2)), 2),
-    (stirrings_still.strokes(0, abjad.silence([0], 3)), 3),
+    (stirrings_still.strokes(0, rmakers.silence([0], 2)), 0),
+    (stirrings_still.strokes(0, rmakers.silence([2], 3)), 1),
+    (stirrings_still.strokes(0, rmakers.silence([1], 2)), 2),
+    (stirrings_still.strokes(0, rmakers.silence([0], 3)), 3),
     baca.dynamic('mf'),
     stirrings_still.ntlt_flat_glissandi(),
     )
