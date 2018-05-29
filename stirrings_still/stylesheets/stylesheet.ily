@@ -51,7 +51,6 @@
         (padding . 0)
         (stretchability . 0)
     )
-    %systems-per-page = 3
     top-markup-spacing = #'(
         (basic-distance . 0)
         (minimum-distance . 18)
