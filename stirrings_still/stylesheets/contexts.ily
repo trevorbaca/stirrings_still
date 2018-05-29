@@ -157,10 +157,9 @@
         \override Beam.breakable = ##t
         \override Beam.damping = 99
 
-        \override DynamicLineSpanner.Y-extent = #'(-4 . 4)
-        \override DynamicLineSpanner.padding = #1.5
+        \override DynamicLineSpanner.padding = #3
 
-        % TODO: maybe propagate to *all* scores?
+        % TODO: propagate to other scores?
         \override DynamicText.self-alignment-X = #left
 
         \override Glissando.breakable = ##t
@@ -192,9 +191,9 @@
 
         \override TupletBracket.breakable = ##t
         \override TupletBracket.full-length-to-extent = ##f
+        \override TupletBracket.padding = 2
 
         \override TupletNumber.font-size = 1
-        \override TupletNumber.text = #tuplet-number::calc-fraction-text
 
         autoBeaming = ##f
         % activate in score
