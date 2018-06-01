@@ -4681,16 +4681,16 @@ D_ViolinIMusicVoice = {
     % [D ViolinIMusicVoice measure 252 / measure 46]             %! SM4
     R1 * 1/4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/12 {
+    \times 7/6 {
         
         % [D ViolinIMusicVoice measure 253 / measure 47]         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
-        c'1
+        c'2
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         
         \baca_unpitched_music_warning                            %! SM24
-        c'2
+        c'4
     }
     
     % [D ViolinIMusicVoice measure 254 / measure 48]             %! SM4
@@ -5220,16 +5220,16 @@ D_ViolinIIMusicVoice = {
     % [D ViolinIIMusicVoice measure 252 / measure 46]            %! SM4
     R1 * 1/4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/12 {
+    \times 7/6 {
         
         % [D ViolinIIMusicVoice measure 253 / measure 47]        %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
-        c'1
+        c'2
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         
         \baca_unpitched_music_warning                            %! SM24
-        c'2
+        c'4
     }
     
     % [D ViolinIIMusicVoice measure 254 / measure 48]            %! SM4
@@ -5793,16 +5793,16 @@ D_ViolaMusicVoice = {
     % [D ViolaMusicVoice measure 252 / measure 46]               %! SM4
     R1 * 1/4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/12 {
+    \times 7/6 {
         
         % [D ViolaMusicVoice measure 253 / measure 47]           %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
-        c'1
+        c'2
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         
         \baca_unpitched_music_warning                            %! SM24
-        c'2
+        c'4
     }
     
     % [D ViolaMusicVoice measure 254 / measure 48]               %! SM4
@@ -6490,16 +6490,16 @@ D_CelloMusicVoice = {
     % [D CelloMusicVoice measure 252 / measure 46]               %! SM4
     R1 * 1/4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/12 {
+    \times 7/6 {
         
         % [D CelloMusicVoice measure 253 / measure 47]           %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
-        c'1
+        c'2
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         
         \baca_unpitched_music_warning                            %! SM24
-        c'2
+        c'4
     }
     
     % [D CelloMusicVoice measure 254 / measure 48]               %! SM4
