@@ -5301,23 +5301,26 @@ B_ViolinIMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4.
-    \times 4/7 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/7 {
         
         % [B ViolinIMusicVoice measure 116 / measure 53]         %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'4
+        c'8
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        ]
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2
         ~
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5372,20 +5375,21 @@ B_ViolinIMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4.
-    \times 4/7 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/7 {
         
         % [B ViolinIMusicVoice measure 120 / measure 57]         %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'4
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2.
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4.
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
     }
     
     % [B ViolinIMusicVoice measure 121 / measure 58]             %! SM4
@@ -5886,24 +5890,27 @@ B_ViolinIIMusicVoice = {
     c'8
     ~
     ]
-    \times 4/7 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/7 {
         
         % [B ViolinIIMusicVoice measure 84 / measure 21]         %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'2.
+        c'4.
         
         \baca_unpitched_music_warning                            %! SM24
-        c'4
+        c'8
+        [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'4
+        c'8
         ~
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
@@ -5958,17 +5965,19 @@ B_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         % [B ViolinIIMusicVoice measure 88 / measure 25]         %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'2.
+        c'4.
         
         \baca_unpitched_music_warning                            %! SM24
-        c'4
+        c'8
+        [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'4
+        c'8
+        ]
     }
     \times 2/3 {
         
@@ -6270,23 +6279,26 @@ B_ViolinIIMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4.
-    \times 4/7 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/7 {
         
         % [B ViolinIIMusicVoice measure 116 / measure 53]        %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'4
+        c'8
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        ]
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2
         ~
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -6341,20 +6353,21 @@ B_ViolinIIMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4.
-    \times 4/7 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/7 {
         
         % [B ViolinIIMusicVoice measure 120 / measure 57]        %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'4
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2.
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4.
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
     }
     
     % [B ViolinIIMusicVoice measure 121 / measure 58]            %! SM4
@@ -7031,23 +7044,26 @@ B_ViolaMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4.
-    \times 4/7 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/7 {
         
         % [B ViolaMusicVoice measure 116 / measure 53]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'4
+        c'8
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        ]
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2
         ~
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -7102,20 +7118,21 @@ B_ViolaMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4.
-    \times 4/7 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/7 {
         
         % [B ViolaMusicVoice measure 120 / measure 57]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'4
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2.
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4.
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
     }
     
     % [B ViolaMusicVoice measure 121 / measure 58]               %! SM4
@@ -7752,23 +7769,26 @@ B_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4.
-    \times 4/7 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/7 {
         
         % [B CelloMusicVoice measure 116 / measure 53]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'4
+        c'8
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        ]
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2
         ~
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -7823,20 +7843,21 @@ B_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4.
-    \times 4/7 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/7 {
         
         % [B CelloMusicVoice measure 120 / measure 57]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'4
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2.
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4.
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
     }
     
     % [B CelloMusicVoice measure 121 / measure 58]               %! SM4
