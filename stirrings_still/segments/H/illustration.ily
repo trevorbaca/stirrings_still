@@ -7223,10 +7223,11 @@ H_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     \startTextSpan
-    \times 4/7 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/7 {
         
         % [H CelloMusicVoice measure 507 / measure 49]           %! SM4
-        e,4
+        e,8
         \stopTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
@@ -7250,7 +7251,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        e,2
+        e,4
         -\downbow
         \stopTextSpan
         \glissando                                               %! SC
@@ -7275,9 +7276,10 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        e,4
+        e,8
         \stopTextSpan
         \glissando                                               %! SC
+        [
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -7299,7 +7301,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        e,4
+        e,8
         \stopTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
@@ -7323,7 +7325,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        e,4
+        e,8
         \stopTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
@@ -7347,8 +7349,9 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startTextSpan
         
-        e,4
+        e,8
         -\upbow
+        ]
         \stopTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f

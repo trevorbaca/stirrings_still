@@ -5241,11 +5241,11 @@ K_ViolaMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center
     \startTextSpan
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/12 {
+    \times 7/6 {
         
         % [K ViolaMusicVoice measure 539 / measure 2]            %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'2
+        c'4
         -\downbow
         \stopTextSpan
         \glissando                                               %! SC
@@ -5271,7 +5271,7 @@ K_ViolaMusicVoice = {
         \startTextSpan
         
         \baca_unpitched_music_warning                            %! SM24
-        c'2
+        c'4
         -\upbow
         \stopTextSpan
         \glissando                                               %! SC
@@ -5307,7 +5307,7 @@ K_ViolaMusicVoice = {
         \startTextSpan
         
         \baca_unpitched_music_warning                            %! SM24
-        c'2
+        c'4
         -\downbow
         \stopTextSpan
         \revert TextScript.parent-alignment-X                    %! OC2
@@ -5613,7 +5613,7 @@ K_ViolaMusicStaff = {
 
 K_CelloMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         % [K CelloMusicVoice measure 538 / measure 1]            %! SM4
         \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -5640,7 +5640,7 @@ K_CelloMusicVoice = {
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
-        c'2.
+        c'4.
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\downbow
         \glissando                                               %! SC
@@ -5706,10 +5706,11 @@ K_CelloMusicVoice = {
             }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         
         \baca_unpitched_music_warning                            %! SM24
-        c'4
+        c'8
         -\upbow
         \stopTextSpan
         \glissando                                               %! SC
+        [
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -5732,8 +5733,9 @@ K_CelloMusicVoice = {
         \startTextSpan
         
         \baca_unpitched_music_warning                            %! SM24
-        c'4
+        c'8
         -\downbow
+        ]
         \stopTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
@@ -5969,7 +5971,7 @@ K_CelloMusicVoice = {
     \revert TextScript.staff-padding                             %! OC2
     \revert TextSpanner.staff-padding                            %! OC2
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/12 {
+    \times 7/6 {
         
         % [K CelloMusicVoice measure 542 / measure 5]            %! SM4
         \once \override DynamicText.self-alignment-X = #left     %! OC1
@@ -5979,7 +5981,7 @@ K_CelloMusicVoice = {
         \override TextSpanner.staff-padding = #7                 %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
-        c'2.
+        c'4.
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\downbow
         \glissando                                               %! SC
@@ -6013,7 +6015,7 @@ K_CelloMusicVoice = {
             }                                                    %! IC
         
         \baca_unpitched_music_warning                            %! SM24
-        c'4
+        c'8
         -\upbow
         \stopTextSpan
         \glissando                                               %! SC
@@ -6039,7 +6041,7 @@ K_CelloMusicVoice = {
         \startTextSpan
         
         \baca_unpitched_music_warning                            %! SM24
-        c'2
+        c'4
         -\downbow
         \stopTextSpan
         \glissando                                               %! SC
