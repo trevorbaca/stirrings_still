@@ -1063,8 +1063,8 @@ A_GlobalSkips = {
         }
     
     % [A GlobalSkips measure 18]                                         %! SM4
-    \once \override GlobalContext.RehearsalMark.Y-offset = #12           %! OC1
     \time 16/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \tweak Y-offset #12                                                  %! IC
     \mark #1                                                             %! IC
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
