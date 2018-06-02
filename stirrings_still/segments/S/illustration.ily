@@ -117,8 +117,8 @@ S_GlobalRests = {
 S_GlobalSkips = {
     
     % [S GlobalSkips measure 820 / measure 1]                            %! SM4
-    \once \override GlobalContext.RehearsalMark.Y-offset = #12           %! OC1
     \time 4/4                                                            %! SM8:REAPPLIED_TIME_SIGNATURE:SM38:SM1
+    \tweak Y-offset #12                                                  %! IC
     \mark #19                                                            %! IC
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
     \once \override Score.TimeSignature.color = #(x11-color 'green4)     %! SM6:REAPPLIED_TIME_SIGNATURE_COLOR:SM38:SM1

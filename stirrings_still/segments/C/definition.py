@@ -17,7 +17,10 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.rehearsal_mark('C', tweaks=[('extra-offset', (0, 6))]),
+    baca.rehearsal_mark(
+        'C',
+        tweaks=[('Y-offset', 12)],
+        ),
     baca.text_script_extra_offset((0, 5)),
     )
 

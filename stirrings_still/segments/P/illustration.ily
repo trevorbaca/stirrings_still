@@ -84,9 +84,9 @@ P_GlobalRests = {
 P_GlobalSkips = {
     
     % [P GlobalSkips measure 686 / measure 1]                            %! SM4
-    \once \override GlobalContext.RehearsalMark.Y-offset = #12           %! OC1
     \override TextScript.extra-offset = #'(0 . 5)                        %! OC1
     \time 16/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \tweak Y-offset #12                                                  %! IC
     \mark #16                                                            %! IC
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1

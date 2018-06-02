@@ -288,9 +288,9 @@ Q_GlobalRests = {
 Q_GlobalSkips = {
     
     % [Q GlobalSkips measure 712 / measure 1]                            %! SM4
-    \once \override GlobalContext.RehearsalMark.Y-offset = #12           %! OC1
     \override TextScript.extra-offset = #'(0 . 5)                        %! OC1
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \tweak Y-offset #12                                                  %! IC
     \mark #17                                                            %! IC
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
