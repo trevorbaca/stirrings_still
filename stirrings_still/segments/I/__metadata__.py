@@ -24,7 +24,7 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [511],
+            [511, 518],
             ),
         ('duration', "1'05''"),
         ('first_measure_number', 511),
@@ -60,7 +60,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='CelloMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='p',
+                                value='niente',
                                 ),
                             ],
                         ),
