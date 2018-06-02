@@ -137,7 +137,7 @@ maker(
 maker(
     ('vc', 5),
     baca.markup('[clouded pane (stopped)]'),
-    baca.swell('f', [2], spanner_selector=baca.rleaves()),
+    baca.swell('f', [2], selector=baca.rleaves()),
     stirrings_still.taper((1, 1)),
     )
 
@@ -165,7 +165,7 @@ maker(
         baca.markup('max. tight cir.'),
         baca.markup('1-2” circles'),
         do_not_bookend=True,
-        selector=baca.group_notes_by_measures([2]),
+        pieces=baca.group_notes_by_measures([2]),
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
@@ -188,7 +188,7 @@ maker(
         baca.markup('1-2” circles'),
         baca.markup('2-4” circles'),
         do_not_bookend=True,
-        selector=baca.group_notes_by_measures([2]),
+        pieces=baca.group_notes_by_measures([2]),
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
@@ -211,7 +211,7 @@ maker(
         baca.markup('2-4” circles'),
         baca.markup('4-8” circles'),
         do_not_bookend=True,
-        selector=baca.group_notes_by_measures([2]),
+        pieces=baca.group_notes_by_measures([2]),
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
@@ -414,7 +414,7 @@ maker(
         baca.markup('8” circles'),
         baca.markup('2” circles'),
         do_not_bookend=True,
-        selector=baca.group_notes_by_measures([3]),
+        pieces=baca.group_notes_by_measures([3]),
         tweaks=[('staff-padding', 4)],
         ),
     # TODO: revoice

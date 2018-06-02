@@ -77,3 +77,22 @@ maker(
     baca.beam(),
     stirrings_still.eighths(),
     )
+
+maker(
+    ('vc', (7, -1)),
+    stirrings_still.cello_cell(),
+    )
+
+maker(
+    'vc',
+    baca.enchained_hairpin(
+        baca.make_dynamics('p f f niente'),
+        bookend=-1,
+        pieces=baca.group_by_measures([5, 4, 2]),
+        ),
+    baca.text_spanner(
+        baca.markup.boxed('1/2 clt'),
+        leak=True,
+        tweaks=[('staff-padding', 5)],
+        ),
+    )

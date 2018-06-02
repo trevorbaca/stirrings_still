@@ -1347,11 +1347,40 @@ I_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    \p                                                           %! SM8:REAPPLIED_DYNAMIC:SM37
     [                                                            %! SC
+    \<                                                           %! PWC1
+    \p                                                           %! PWC1
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \whiteout
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                "1/2 clt"
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 1.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #5
+    \startTextSpan
     ^ \markup {
         \column
             {
@@ -1494,8 +1523,10 @@ I_CelloMusicVoice = {
     c'8
     
     % [I CelloMusicVoice measure 516 / measure 6]                %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \baca_unpitched_music_warning                                %! SM24
     c'8
+    \f                                                           %! PWC1
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
@@ -1526,19 +1557,208 @@ I_CelloMusicVoice = {
     ]                                                            %! SC
     
     % [I CelloMusicVoice measure 517 / measure 7]                %! SM4
-    R1 * 3/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'8.
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8.
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8.
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
     
     % [I CelloMusicVoice measure 518 / measure 8]                %! SM4
-    R1 * 3/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'8.
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8.
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8.
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
     
     % [I CelloMusicVoice measure 519 / measure 9]                %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'8.
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8.
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    ]
     
     % [I CelloMusicVoice measure 520 / measure 10]               %! SM4
-    R1 * 1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    \f                                                           %! PWC1
+    - \tweak circled-tip ##t                                     %! PWC1
+    \>                                                           %! PWC1
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8.
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8.
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    ]
     
     % [I CelloMusicVoice measure 521 / measure 11]               %! SM4
-    R1 * 5/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8.
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8.
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    ]
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    \!                                                           %! PWC1
+    ]
+    <> \stopTextSpan
     
 }
 

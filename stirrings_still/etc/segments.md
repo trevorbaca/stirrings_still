@@ -2458,8 +2458,8 @@ SEGMENTS
     vc 1/2 clt solo trajectory:
         stopped lh continues;
         1/2 clt continues;
-        repetition quasivortex continues;
-            longer strokes to shorter strokes;
+        repetition quasivortex becomes repetition cell;
+            strokes become patterned;
         f continues;
     attacca;
 
@@ -2473,8 +2473,7 @@ SEGMENTS
         1/2 clt continues;
         single pitch begins at trajectory endpoint:
             pitch is not upper register;
-        quasivortex now trapped repetition cell;
-            patterned strokes;
+        trapped repetition cell continues;
         f continues;
     attacca;
 
@@ -2490,7 +2489,7 @@ SEGMENTS
         stopped lh continues until end;
         1/2 clt continues until end;
         single pitch continues until end;
-        single trapped cell continues until end;
+        trapped cell continues until end;
         f > niente governs stage;
     attacca;
 

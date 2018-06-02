@@ -92,8 +92,7 @@ maker(
     baca.transition(
         baca.markup.rasp_partial_2(),
         baca.markup.flaut_partial_2(),
-        #selector=baca.notes()[:4].group(),
-        spanner_selector=baca.notes()[:4],
+        selector=baca.notes()[:4],
         ),
     )
 
@@ -171,7 +170,7 @@ maker(
         baca.markup('6” circles'),
         baca.markup('8” circles'),
         do_not_bookend=True,
-        selector=baca.group_by_measures([2]),
+        pieces=baca.group_by_measures([2]),
         ),
     )
 
@@ -203,7 +202,7 @@ maker(
         baca.markup('6” circles'),
         baca.markup('8” circles'),
         do_not_bookend=True,
-        selector=baca.group_by_measures([1, 1, 2, 2, 2]),
+        pieces=baca.group_by_measures([1, 1, 2, 2, 2]),
         ),
     )
 
@@ -284,8 +283,7 @@ maker(
     baca.transition(
         baca.markup.flaut(),
         baca.markup.non_flaut(),
-        #selector=baca.notes()[:2].group(),
-        spanner_selector=baca.notes()[:2],
+        selector=baca.notes()[:2],
         ),
     )
 
@@ -336,8 +334,7 @@ maker(
     baca.transition(
         baca.markup('“whisk” circles'),
         baca.markup('poco scratch circles'),
-        #selector=baca.leaves()[:3].group(),
-        spanner_selector=baca.leaves()[:3],
+        selector=baca.leaves()[:3],
         ),
     )
 
@@ -390,8 +387,7 @@ maker(
     baca.transition(
         baca.markup('“whisk” circles'),
         baca.markup('mod. scratch circles'),
-        #selector=baca.leaves()[:3].group(),
-        spanner_selector=baca.leaves()[:3],
+        selector=baca.leaves()[:3],
         ),
     )
 
@@ -406,8 +402,7 @@ maker(
     baca.transition(
         baca.markup('“whisk” circles'),
         baca.markup('molto scratch circles'),
-        #selector=baca.leaves()[:3].group(),
-        spanner_selector=baca.leaves()[:3],
+        selector=baca.leaves()[:3],
         ),
     )
 
@@ -429,8 +424,7 @@ maker(
     baca.transition(
         baca.markup.molto_scratch(),
         baca.markup.pochiss_scratch(),
-        #selector=baca.leaves().group_by_measure()[-2:].leaves()[:-3].group(),
-        spanner_selector=baca.leaves().group_by_measure()[-2:].leaves()[:-3],
+        selector=baca.leaves().group_by_measure()[-2:].leaves()[:-3],
         ),
     )
 

@@ -46,13 +46,13 @@ maker(
     stirrings_still.clouded_pane(),
     (baca.enchained_hairpin(
         baca.make_dynamics('pp f'),
-        selector=baca.leaves().enchain([2, 3]),
+        pieces=baca.leaves().enchain([2, 3]),
         ), 0),
     (baca.hairpin('f > niente', selector=baca.rleaves()[-3:]), 0),
     (baca.enchained_hairpin(
         baca.make_dynamics('pp f'),
         bookend=True,
-        selector=baca.leaves().enchain([3, 2]),
+        pieces=baca.leaves().enchain([3, 2]),
         ), 1),
     (baca.hairpin('f > niente', selector=baca.rleaves()[-2:]), 1),
     (baca.markup('[clouded pane partials (double-stop)]'), (0, 1)),
