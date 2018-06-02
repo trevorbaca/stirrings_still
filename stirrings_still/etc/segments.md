@@ -2388,8 +2388,8 @@ SEGMENTS
     vc 1/2 clt solo trajectory:
         stopped lh continues;
         1/2 clt continues;
-        starts up on local accelerandi;
         repetition quasivortex begins;
+            longer strokes to shorter strokes;
         p continues;
     attacca;
 
@@ -2406,8 +2406,8 @@ SEGMENTS
     vc 1/2 clt solo trajectory:
         stopped lh continues;
         1/2 clt continues;
-        local accelerandi achieve stable rhythm at stage midpoint;
         repetition quasivortex continues;
+            longer strokes to shorter strokes;
         (p) < f begins;
     attacca;
 
@@ -2425,7 +2425,7 @@ SEGMENTS
         stopped lh continues;
         1/2 clt continues;
         repetition quasivortex continues;
-        vortex now inflected by ritardando;
+            longer strokes to shorter strokes;
         (p < f) continues;
     attacca;
 
@@ -2443,6 +2443,7 @@ SEGMENTS
         stopped lh continues;
         1/2 clt continues;
         repetition quasivortex continues;
+            longer strokes to shorter strokes;
         (p < f) achieves f on last event;
     attacca;
 
@@ -2458,6 +2459,7 @@ SEGMENTS
         stopped lh continues;
         1/2 clt continues;
         repetition quasivortex continues;
+            longer strokes to shorter strokes;
         f continues;
     attacca;
 
@@ -2472,6 +2474,7 @@ SEGMENTS
         single pitch begins at trajectory endpoint:
             pitch is not upper register;
         quasivortex now trapped repetition cell;
+            patterned strokes;
         f continues;
     attacca;
 
