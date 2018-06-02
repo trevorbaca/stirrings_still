@@ -1348,8 +1348,10 @@ I_CelloMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     \p                                                           %! SM8:REAPPLIED_DYNAMIC:SM37
+    [                                                            %! SC
     ^ \markup {
         \column
             {
@@ -1382,20 +1384,146 @@ I_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
     % [I CelloMusicVoice measure 512 / measure 2]                %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     
     % [I CelloMusicVoice measure 513 / measure 3]                %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     
     % [I CelloMusicVoice measure 514 / measure 4]                %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     
     % [I CelloMusicVoice measure 515 / measure 5]                %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     
     % [I CelloMusicVoice measure 516 / measure 6]                %! SM4
-    R1 * 5/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]                                                            %! SC
     
     % [I CelloMusicVoice measure 517 / measure 7]                %! SM4
     R1 * 3/2

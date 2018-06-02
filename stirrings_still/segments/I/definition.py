@@ -71,3 +71,9 @@ maker(
         remainder=abjad.Left,
         ),
     )
+
+maker(
+    ('vc', (1, 6)),
+    baca.beam(),
+    stirrings_still.eighths(),
+    )

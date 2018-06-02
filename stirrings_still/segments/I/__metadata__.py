@@ -186,7 +186,7 @@ metadata = abjad.OrderedDict(
             'sounds_during_segment',
             abjad.OrderedDict(
                 [
-                    ('CelloMusicVoice', False),
+                    ('CelloMusicVoice', True),
                     ('ViolaMusicVoice', True),
                     ('ViolinIIMusicVoice', True),
                     ('ViolinIMusicVoice', True),
