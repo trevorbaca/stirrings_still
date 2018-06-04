@@ -6345,7 +6345,7 @@ D_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
                 \upright                                         %! IC
@@ -6358,7 +6358,7 @@ D_CelloMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4.
         -\upbow
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -6379,12 +6379,12 @@ D_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         [
         - \tweak Y-extent ##f
@@ -6416,13 +6416,13 @@ D_CelloMusicVoice = {
                         7
                 }
             }
-        \startTextSpan
+        \startBCPTextSpan
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow
         ]
-        \stopTextSpan
+        \stopBCPTextSpan
         \revert DynamicLineSpanner.staff-padding                 %! OC2
         \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2

@@ -6329,7 +6329,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
                 \upright                                         %! IC
@@ -6341,7 +6341,7 @@ H_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 201/64
-        \stopTextSpan
+        \stopBCPTextSpan
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -6361,11 +6361,11 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 137/64
-        \stopTextSpan
+        \stopBCPTextSpan
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -6385,11 +6385,11 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 51/32
-        \stopTextSpan
+        \stopBCPTextSpan
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -6419,14 +6419,14 @@ H_CelloMusicVoice = {
                         7
                 }
             }
-        \startTextSpan
+        \startBCPTextSpan
         
         \revert Staff.Stem.stemlet-length
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 45/32
         -\upbow
         ]
-        \stopTextSpan
+        \stopBCPTextSpan
         \revert Script.staff-padding                             %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
         \revert TupletBracket.staff-padding                      %! OC2
@@ -6800,7 +6800,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
                 \upright                                         %! IC
@@ -6813,7 +6813,7 @@ H_CelloMusicVoice = {
         e,8
         -\downbow
         ]
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -6834,11 +6834,11 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         e,4
         -\upbow
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -6859,11 +6859,11 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         e,8
         -\downbow
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         [
         - \tweak Y-extent ##f
@@ -6885,12 +6885,12 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         e,8
         -\upbow
         ]
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -6911,7 +6911,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
@@ -6919,7 +6919,7 @@ H_CelloMusicVoice = {
         % [H CelloMusicVoice measure 505 / measure 47]           %! SM4
         e,8
         -\downbow
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -6940,11 +6940,11 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         e,4
         -\upbow
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -6965,11 +6965,11 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         e,8
         -\downbow
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         [
         - \tweak Y-extent ##f
@@ -6991,10 +6991,10 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         e,8
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -7015,10 +7015,10 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         e,8
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -7039,11 +7039,11 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         e,8
         ]
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -7064,7 +7064,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
     }
     
     % [H CelloMusicVoice measure 506 / measure 48]               %! SM4
@@ -7074,7 +7074,7 @@ H_CelloMusicVoice = {
     
     e,8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     \glissando                                                   %! SC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -7095,11 +7095,11 @@ H_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    \startTextSpan
+    \startBCPTextSpan
     
     e,8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     \glissando                                                   %! SC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -7120,12 +7120,12 @@ H_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    \startTextSpan
+    \startBCPTextSpan
     
     e,8
     -\upbow
     ]
-    \stopTextSpan
+    \stopBCPTextSpan
     \glissando                                                   %! SC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -7146,11 +7146,11 @@ H_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    \startTextSpan
+    \startBCPTextSpan
     
     e,4
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     \glissando                                                   %! SC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -7171,10 +7171,10 @@ H_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    \startTextSpan
+    \startBCPTextSpan
     
     e,8
-    \stopTextSpan
+    \stopBCPTextSpan
     \glissando                                                   %! SC
     [
     - \tweak Y-extent ##f
@@ -7196,12 +7196,12 @@ H_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    \startTextSpan
+    \startBCPTextSpan
     
     e,8
     -\upbow
     ]
-    \stopTextSpan
+    \stopBCPTextSpan
     \glissando                                                   %! SC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -7222,13 +7222,13 @@ H_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    \startTextSpan
+    \startBCPTextSpan
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [H CelloMusicVoice measure 507 / measure 49]           %! SM4
         e,8
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -7249,11 +7249,11 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         e,4
         -\downbow
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -7274,10 +7274,10 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         e,8
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         [
         - \tweak Y-extent ##f
@@ -7299,10 +7299,10 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         e,8
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -7323,10 +7323,10 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         e,8
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -7347,12 +7347,12 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         e,8
         -\upbow
         ]
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -7373,7 +7373,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/6 {
@@ -7387,7 +7387,7 @@ H_CelloMusicVoice = {
         
         e,8
         -\downbow
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -7408,11 +7408,11 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         e,8
         -\upbow
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -7433,12 +7433,12 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         e,8
         -\downbow
         ]
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -7469,11 +7469,11 @@ H_CelloMusicVoice = {
                         7
                 }
             }
-        \startTextSpan
+        \startBCPTextSpan
         
         e,4
         -\upbow
-        \stopTextSpan
+        \stopBCPTextSpan
         \revert DynamicLineSpanner.staff-padding                 %! OC2
         \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
@@ -7527,7 +7527,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
                 \upright                                         %! IC
@@ -7540,7 +7540,7 @@ H_CelloMusicVoice = {
         e,8
         -\downbow
         ]
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -7561,11 +7561,11 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startTextSpan
+        \startBCPTextSpan
         
         e,4
         -\upbow
-        \stopTextSpan
+        \stopBCPTextSpan
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -7596,11 +7596,11 @@ H_CelloMusicVoice = {
                         7
                 }
             }
-        \startTextSpan
+        \startBCPTextSpan
         
         e,8
         -\downbow
-        \stopTextSpan
+        \stopBCPTextSpan
         \revert DynamicLineSpanner.staff-padding                 %! OC2
         \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
