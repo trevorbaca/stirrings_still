@@ -236,8 +236,14 @@ maker(
 
 maker(
     (['v1', 'va'], (7, 14)),
-    (stirrings_still.glissando_interpolation('Gb4', 'Bb4', baca.rleaves()), 0),
-    (stirrings_still.glissando_interpolation('Ab3', 'B3', baca.rleaves()), 1),
+    baca.pick(
+        0,
+        stirrings_still.glissando_interpolation('Gb4', 'Bb4', baca.rleaves()),
+        ),
+    baca.pick(
+        1,
+        stirrings_still.glissando_interpolation('Ab3', 'B3', baca.rleaves()),
+        ),
     )
 
 maker(
