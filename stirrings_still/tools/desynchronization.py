@@ -4,18 +4,22 @@ from abjadext import rmakers
 
 
 def desynchronization(
-    denominator=None,
-    extra_counts=None,
+    denominator,
+    extra_counts,
+    *,
     rests=None,
     ):
     """
     Makes desynchronization rhythms.
     """
-    if denominator is None:
-        denominators = [8]
-    else:
-        assert isinstance(denominator, int), repr(denominator)
-        denominators = [denominator]
+#    if denominator is None:
+#        denominators = [8]
+#    else:
+#        assert isinstance(denominator, int), repr(denominator)
+#        denominators = [denominator]
+    assert isinstance(denominator, int), repr(denominator)
+    denominators = [denominator]
+    assert isinstance(extra_counts, list), repr(extra_counts)
     if rests is True:
         logical_tie_masks = [rmakers.silence([1], period=2)]
     elif isinstance(rests, tuple):

@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def synchronized_circles(gaps=True, rests=None, rotation=0, sustain=None):
+def synchronized_circles(*, gaps=True, rests=None, rotation=0, sustain=None):
     """
     Makes rhythm for synchronized circles.
     """

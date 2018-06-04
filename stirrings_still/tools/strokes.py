@@ -3,17 +3,17 @@ import baca
 from abjadext import rmakers
 
 
-def strokes(rotation=0, division_mask=None):
+def strokes(rotation, *, mask=None):
     """
     Makes stroke rhythm.
     """
     expression = baca.DivisionSequenceExpression()
     expression = expression.division_sequence()
     expression = expression.rotate(n=rotation)
-    if division_mask is None:
+    if mask is None:
         division_masks = None
     else:
-        division_masks = [division_mask]
+        division_masks = [mask]
     return baca.rhythm(
         division_expression=expression,
         multimeasure_rests=True,

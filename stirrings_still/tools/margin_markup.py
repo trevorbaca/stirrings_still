@@ -5,6 +5,7 @@ import stirrings_still
 
 def margin_markup(
     key: str,
+    *,
     alert: baca.IndicatorCommand  = None,
     context: str = 'Staff',
     selector: baca.Typing.Selector = 'baca.leaf(0)',

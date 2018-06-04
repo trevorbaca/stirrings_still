@@ -74,7 +74,7 @@ maker(
 maker(
     ('tutti', (12, 13)),
     (stirrings_still.desynchronization(4, [1]), 0),
-    (stirrings_still.desynchronization(4), 1),
+    (stirrings_still.desynchronization(4, [0]), 1),
     (stirrings_still.glissando_interpolation('F4', 'Ab4'), 1),
     (stirrings_still.desynchronization(4, [2]), 2),
     (stirrings_still.desynchronization(4, [-1]), 3),

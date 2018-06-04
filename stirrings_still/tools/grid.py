@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def grid(stage, rotation=0):
+def grid(stage, *, rotation=0):
     """
     Makes grid rhythm.
     """

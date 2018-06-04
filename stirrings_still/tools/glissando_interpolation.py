@@ -1,7 +1,12 @@
 import baca
 
 
-def glissando_interpolation(start_pitch, stop_pitch, selector=baca.leaves()):
+def glissando_interpolation(
+    start_pitch,
+    stop_pitch,
+    *,
+    selector=baca.leaves(),
+    ):
     """
     Makes glissando interpolation.
     """

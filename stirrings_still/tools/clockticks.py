@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def clockticks(displace=False, division_mask=None, encroach=False):
+def clockticks(*, displace=False, division_mask=None, encroach=False):
     """
     Makes clocktick rhythm.
     """
