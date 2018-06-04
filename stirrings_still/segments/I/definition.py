@@ -78,6 +78,12 @@ maker(
     stirrings_still.eighths(),
     )
 
+for n in range(1, 6 + 1):
+    maker(
+        ('vc', n),
+        stirrings_still.transition_bcps(tweaks=[('staff-padding', 7)]),
+        )
+
 maker(
     ('vc', (7, -1)),
     stirrings_still.cello_cell(),
@@ -93,6 +99,7 @@ maker(
     baca.text_spanner(
         baca.markup.boxed('1/2 clt'),
         leak=True,
-        tweaks=[('staff-padding', 5)],
+        lilypond_id=1,
+        tweaks=[('staff-padding', 12)],
         ),
     )
