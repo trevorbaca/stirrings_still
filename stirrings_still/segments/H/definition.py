@@ -228,10 +228,10 @@ maker(
 
 maker(
     ('tutti', (1, 5)),
-    (baca.pitch('Gb4'), 0),
-    (baca.pitch('F4'), 1),
-    (baca.pitch('Ab3'), 2),
-    (baca.pitch('Ab2'), 3),
+    baca.pick(0, baca.pitch('Gb4')),
+    baca.pick(1, baca.pitch('F4')),
+    baca.pick(2, baca.pitch('Ab3')),
+    baca.pick(3, baca.pitch('Ab2')),
     )
 
 maker(
@@ -269,8 +269,8 @@ maker(
 maker(
     ('vc', [(7, 28), (30, 31)]),
     baca.make_notes(repeat_ties=True),
-    (baca.repeat_tie(selector=baca.notes()[1:]), 0),
-    (baca.repeat_tie(), 1),
+    baca.pick(0, baca.repeat_tie(selector=baca.notes()[1:])),
+    baca.pick(1, baca.repeat_tie()),
     )
 
 maker(
