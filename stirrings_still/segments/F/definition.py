@@ -44,13 +44,13 @@ stirrings_still.time(maker, time)
 maker(
     (['v1', 'v2', 'vc'], (1, 8)),
     stirrings_still.clouded_pane(),
-    (baca.enchained_hairpin(
-        baca.make_dynamics('pp f'),
+    (baca.hairpin_chain(
+        baca.dynamics('pp f'),
         pieces=baca.leaves().enchain([2, 3]),
         ), 0),
     (baca.hairpin('f > niente', selector=baca.rleaves()[-3:]), 0),
-    (baca.enchained_hairpin(
-        baca.make_dynamics('pp f'),
+    (baca.hairpin_chain(
+        baca.dynamics('pp f'),
         bookend=True,
         pieces=baca.leaves().enchain([3, 2]),
         ), 1),
