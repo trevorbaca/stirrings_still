@@ -39,8 +39,8 @@ stirrings_still.time(maker, time)
 maker(
     'vc',
     stirrings_still.clouded_pane(),
-    baca.enchained_hairpin(
-        baca.make_dynamics('p ff ff p ff ff p ff ff p ff ff'),
+    baca.hairpin_chain(
+        baca.dynamics('p ff ff p ff ff p ff ff p ff ff'),
         pieces=baca.group_by_measures([2, 1, 1]),
         ),
     )

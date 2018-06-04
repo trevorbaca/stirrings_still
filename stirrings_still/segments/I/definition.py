@@ -85,8 +85,8 @@ maker(
 
 maker(
     'vc',
-    baca.enchained_hairpin(
-        baca.make_dynamics('p f f niente'),
+    baca.hairpin_chain(
+        baca.dynamics('p f f niente'),
         bookend=-1,
         pieces=baca.group_by_measures([5, 4, 2]),
         ),

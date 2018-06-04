@@ -69,16 +69,16 @@ maker(
     ('v1', (5, 10)),
     baca.map(
         baca.group_by_measures([1, 2])[1],
-        baca.enchained_hairpin(
-            baca.make_dynamics('ppppp p ppp'),
+        baca.hairpin_chain(
+            baca.dynamics('ppppp p ppp'),
             pieces=baca.leaves().group_by_measure(),
             selector=baca.rleaves(),
             ),
         ),
     baca.map(
         baca.leaves().group_by_measure()[5],
-        baca.enchained_hairpin(
-            baca.make_dynamics('ppp p ppppp'),
+        baca.hairpin_chain(
+            baca.dynamics('ppp p ppppp'),
             pieces=baca.leaves().partition_by_counts(
                 [3, 5, 1],
                 enchain=True,
@@ -98,8 +98,8 @@ maker(
     ('v2', (5, 10)),
     baca.map(
         baca.leaves().group_by_measure()[0],
-        baca.enchained_hairpin(
-            baca.make_dynamics('ppppp p ppp'),
+        baca.hairpin_chain(
+            baca.dynamics('ppppp p ppp'),
             pieces=baca.leaves().partition_by_counts(
                 [2, 4, 1],
                 enchain=True,
@@ -109,8 +109,8 @@ maker(
         ),
     baca.map(
         baca.leaves().group_by_measure()[2],
-        baca.enchained_hairpin(
-            baca.make_dynamics('ppp p ppp'),
+        baca.hairpin_chain(
+            baca.dynamics('ppp p ppp'),
             pieces=baca.leaves().partition_by_counts(
                 [6, 2, 1],
                 enchain=True,
@@ -120,8 +120,8 @@ maker(
         ),
     baca.map(
         baca.leaves().group_by_measure()[4],
-        baca.enchained_hairpin(
-            baca.make_dynamics('ppp p ppppp'),
+        baca.hairpin_chain(
+            baca.dynamics('ppp p ppppp'),
             pieces=baca.leaves().partition_by_counts(
                 [2, 4, 1],
                 enchain=True,
@@ -141,8 +141,8 @@ maker(
     ('va', (5, 10)),
     baca.map(
         baca.group_by_measures([3])[1],
-        baca.enchained_hairpin(
-            baca.make_dynamics('ppppp p ppppp'),
+        baca.hairpin_chain(
+            baca.dynamics('ppppp p ppppp'),
             pieces=baca.group_by_measures([1, 2]),
             selector=baca.rleaves(),
             ),
@@ -159,8 +159,8 @@ maker(
     ('vc', (5, 10)),
     baca.map(
         baca.group_by_measures([1, 3])[1],
-        baca.enchained_hairpin(
-            baca.make_dynamics('ppppp p ppppp'),
+        baca.hairpin_chain(
+            baca.dynamics('ppppp p ppppp'),
             pieces=baca.group_by_measures([1, 2]),
             selector=baca.rleaves(),
             ),
@@ -183,16 +183,16 @@ maker(
     ('v1', (15, 20)),
     baca.map(
         baca.group_by_measures([1, 2])[1],
-        baca.enchained_hairpin(
-            baca.make_dynamics('ppppp p ppp'),
+        baca.hairpin_chain(
+            baca.dynamics('ppppp p ppp'),
             pieces=baca.leaves().group_by_measure(),
             selector=baca.rleaves(),
             ),
         ),
     baca.map(
         baca.leaves().group_by_measure()[5],
-        baca.enchained_hairpin(
-            baca.make_dynamics('ppp p pp'),
+        baca.hairpin_chain(
+            baca.dynamics('ppp p pp'),
             pieces=baca.leaves().partition_by_counts(
                 [3, 5, 1],
                 enchain=True,
@@ -212,8 +212,8 @@ maker(
     ('v2', (15, 20)),
     baca.map(
         baca.leaves().group_by_measure()[0],
-        baca.enchained_hairpin(
-            baca.make_dynamics('ppppp p pp'),
+        baca.hairpin_chain(
+            baca.dynamics('ppppp p pp'),
             pieces=baca.leaves().partition_by_counts(
                 [2, 5, 1],
                 enchain=True,
@@ -223,8 +223,8 @@ maker(
         ),
     baca.map(
         baca.leaves().group_by_measure()[2],
-        baca.enchained_hairpin(
-            baca.make_dynamics('ppp p pp'),
+        baca.hairpin_chain(
+            baca.dynamics('ppp p pp'),
             pieces=baca.leaves().partition_by_counts(
                 [8, 2, 1],
                 enchain=True,
@@ -234,8 +234,8 @@ maker(
         ),
     baca.map(
         baca.leaves().group_by_measure()[4],
-        baca.enchained_hairpin(
-            baca.make_dynamics('ppp p pp'),
+        baca.hairpin_chain(
+            baca.dynamics('ppp p pp'),
             pieces=baca.leaves().partition_by_counts(
                 [2, 3, 1],
                 enchain=True,
@@ -256,8 +256,8 @@ maker(
     ('va', (15, 20)),
     baca.map(
         baca.group_by_measures([3])[1],
-        baca.enchained_hairpin(
-            baca.make_dynamics('ppppp p pp'),
+        baca.hairpin_chain(
+            baca.dynamics('ppppp p pp'),
             pieces=baca.group_by_measures([1, 2]),
             selector=baca.rleaves(),
             ),
@@ -274,8 +274,8 @@ maker(
     ('vc', (15, 20)),
     baca.map(
         baca.group_by_measures([1, 3])[1],
-        baca.enchained_hairpin(
-            baca.make_dynamics('ppppp p pp'),
+        baca.hairpin_chain(
+            baca.dynamics('ppppp p pp'),
             pieces=baca.group_by_measures([1, 2]),
             selector=baca.rleaves(),
             ),
