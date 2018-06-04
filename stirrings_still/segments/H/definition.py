@@ -448,7 +448,7 @@ maker(
 
 maker(
     ('vc', 51),
-    baca.swell('f', [2]),
+    baca.hairpin_swell('f', [2]),
     stirrings_still.taper((4, 4, -2)),
     )
 
