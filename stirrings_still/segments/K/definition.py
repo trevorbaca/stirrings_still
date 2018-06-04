@@ -91,7 +91,7 @@ maker(
         baca.dynamic('"f"'),
         baca.dynamic_text_left(),
         ],
-    baca.markup('hair: circles (each as wide as poss.)'),
+    baca.markup.markup('hair: circles (each as wide as poss.)'),
     baca.text_script_staff_padding(9),
     baca.text_spanner_staff_padding(5),
     baca.transition(

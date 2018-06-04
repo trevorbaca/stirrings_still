@@ -52,19 +52,19 @@ maker(
 
 maker(
     ('v1', (1, 7)),
-    baca.markup('8” cir./stem; golden tone'),
+    baca.markup.markup('8” cir./stem; golden tone'),
     stirrings_still.circles((1, 8)),
     )
 
 maker(
     ('v2', (1, 7)),
-    baca.markup('8” cir./stem; golden tone'),
+    baca.markup.markup('8” cir./stem; golden tone'),
     stirrings_still.circles((1, 4)),
     )
 
 maker(
     ('va', (1, 7)),
-    baca.markup('8” cir./stem; golden tone'),
+    baca.markup.markup('8” cir./stem; golden tone'),
     stirrings_still.circles(
         (1, 2),
         division_mask=rmakers.silence([0]),
