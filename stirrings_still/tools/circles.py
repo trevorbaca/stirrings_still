@@ -5,6 +5,7 @@ from abjadext import rmakers
 
 def circles(
     duration,
+    *,
     division_mask=None,
     remainder=abjad.Right,
     ):

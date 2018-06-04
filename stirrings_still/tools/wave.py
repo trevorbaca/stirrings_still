@@ -4,6 +4,7 @@ from abjadext import rmakers
 
 
 def wave(
+    *,
     start=(1, 4),
     stop=(1, 16),
     ):

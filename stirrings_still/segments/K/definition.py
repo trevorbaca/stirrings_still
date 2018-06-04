@@ -113,9 +113,9 @@ maker(
 
 maker(
     (['v1', 'v2', 'vc'], (6, 8)),
-    (stirrings_still.accelerando((8, 32), (1, 2)), 0),
-    (stirrings_still.accelerando((10, 32), (1, 2)), 1),
-    (stirrings_still.accelerando((11, 32), (1, 2)), -1),
+    (stirrings_still.accelerando(start=(8, 32), stop=(1, 2)), 0),
+    (stirrings_still.accelerando(start=(10, 32), stop=(1, 2)), 1),
+    (stirrings_still.accelerando(start=(11, 32), stop=(1, 2)), -1),
     )
 
 maker(

@@ -1,7 +1,7 @@
 import baca
 
 
-def bcps(rotation=0):
+def bcps(*, rotation=0):
     """
     Makes bow contact points.
     """

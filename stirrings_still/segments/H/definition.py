@@ -139,7 +139,7 @@ maker(
     ('v1', (7, 8)),
     baca.dynamic('p'),
     baca.tuplet_bracket_down(),
-    stirrings_still.accelerando((1, 2), (8, 32)),
+    stirrings_still.accelerando(start=(1, 2), stop=(8, 32)),
     )
 
 maker(
@@ -151,7 +151,7 @@ maker(
     ('va', (7, 8)),
     baca.dynamic('p'),
     baca.tuplet_bracket_down(),
-    stirrings_still.accelerando((1, 2), (6, 32)),
+    stirrings_still.accelerando(start=(1, 2), stop=(6, 32)),
     )
 
 maker(
@@ -184,7 +184,7 @@ maker(
     ('v2', (11, 12)),
     baca.markup.markup('(always one circle per stem)'),
     baca.tuplet_bracket_down(),
-    stirrings_still.accelerando((1, 2), (7, 32)),
+    stirrings_still.accelerando(start=(1, 2), stop=(7, 32)),
     )
 
 maker(
@@ -213,7 +213,9 @@ maker(
 
 maker(
     ('v2', (11, 14)),
-    stirrings_still.glissando_interpolation('F4', 'Ab4', baca.rleaves()),
+    stirrings_still.glissando_interpolation(
+        'F4', 'Ab4', selector=baca.rleaves(),
+        ),
     )
 
 maker(
@@ -238,11 +240,15 @@ maker(
     (['v1', 'va'], (7, 14)),
     baca.pick(
         0,
-        stirrings_still.glissando_interpolation('Gb4', 'Bb4', baca.rleaves()),
+        stirrings_still.glissando_interpolation(
+            'Gb4', 'Bb4', selector=baca.rleaves(),
+            ),
         ),
     baca.pick(
         1,
-        stirrings_still.glissando_interpolation('Ab3', 'B3', baca.rleaves()),
+        stirrings_still.glissando_interpolation(
+            'Ab3', 'B3', selector=baca.rleaves(),
+            ),
         ),
     )
 
@@ -317,9 +323,9 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (23, 28)),
-    (stirrings_still.pickets(4, 2, rmakers.silence([0])), 0),
-    (stirrings_still.pickets(4, 1, rmakers.silence([0])), 1),
-    (stirrings_still.pickets(4, 0, rmakers.silence([0])), 2),
+    (stirrings_still.pickets(4, 2, mask=rmakers.silence([0])), 0),
+    (stirrings_still.pickets(4, 1, mask=rmakers.silence([0])), 1),
+    (stirrings_still.pickets(4, 0, mask=rmakers.silence([0])), 2),
     baca.markup.markup('8” circles continue'),
     )
 
@@ -330,9 +336,9 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (30, 31)),
-    (stirrings_still.accelerando((1, 2), (4, 32)), 0),
-    (stirrings_still.accelerando((1, 2), (8, 32)), 1),
-    (stirrings_still.accelerando((1, 2), (12, 32)), 2),
+    (stirrings_still.accelerando(start=(1, 2), stop=(4, 32)), 0),
+    (stirrings_still.accelerando(start=(1, 2), stop=(8, 32)), 1),
+    (stirrings_still.accelerando(start=(1, 2), stop=(12, 32)), 2),
     baca.dynamic('mp'),
     baca.markup.markup('thinking color (no longer width)'),
     baca.text_script_staff_padding(5),
@@ -384,9 +390,9 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (37, 39)),
-    (stirrings_still.accelerando((1, 2), (4, 32)), 0),
-    (stirrings_still.accelerando((1, 2), (8, 32)), 1),
-    (stirrings_still.accelerando((1, 2), (12, 32)), 2),
+    (stirrings_still.accelerando(start=(1, 2), stop=(4, 32)), 0),
+    (stirrings_still.accelerando(start=(1, 2), stop=(8, 32)), 1),
+    (stirrings_still.accelerando(start=(1, 2), stop=(12, 32)), 2),
     baca.dynamic('mf'),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
@@ -399,9 +405,9 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (41, 44)),
-    (stirrings_still.accelerando((1, 2), (4, 32)), 0),
-    (stirrings_still.accelerando((1, 2), (8, 32)), 1),
-    (stirrings_still.accelerando((1, 2), (12, 32)), 2),
+    (stirrings_still.accelerando(start=(1, 2), stop=(4, 32)), 0),
+    (stirrings_still.accelerando(start=(1, 2), stop=(8, 32)), 1),
+    (stirrings_still.accelerando(start=(1, 2), stop=(12, 32)), 2),
     baca.dynamic('f'),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
@@ -416,7 +422,7 @@ maker(
     ('vc', (37, 45)),
     baca.dynamic('ppp'),
     baca.make_repeated_duration_notes([(1, 4)], do_not_rewrite_meter=True),
-    stirrings_still.glissando_interpolation('Gb2', 'E2', baca.rleaves()),
+    stirrings_still.glissando_interpolation('Gb2', 'E2', selector=baca.rleaves()),
     )
 
 maker(

@@ -5,6 +5,7 @@ from abjadext import rmakers
 
 def to_flight(
     divisions,
+    *,
     start=(1, 4),
     stop=(1, 8),
     division_mask=None,

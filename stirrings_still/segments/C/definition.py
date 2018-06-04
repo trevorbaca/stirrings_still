@@ -104,7 +104,7 @@ stirrings_still.time(maker, time)
 maker(
     ('tutti', (1, 4)),
     (stirrings_still.desynchronization(4, [1]), 0),
-    (stirrings_still.desynchronization(4), 1),
+    (stirrings_still.desynchronization(4, [0]), 1),
     (stirrings_still.desynchronization(4, [2]), 2),
     (stirrings_still.desynchronization(4, [-1]), 3),
     baca.dynamic('"ff"'),
@@ -152,7 +152,7 @@ maker(
         tweaks=[('staff-padding', 7)],
         ),
     (stirrings_still.desynchronization(4, [1]), 0),
-    (stirrings_still.desynchronization(4), 1),
+    (stirrings_still.desynchronization(4, [0]), 1),
     (stirrings_still.glissando_interpolation('F4', 'Ab4'), 1),
     (stirrings_still.desynchronization(4, [2]), 2),
     (stirrings_still.desynchronization(4, [-1]), 3),
@@ -176,7 +176,7 @@ maker(
         tweaks=[('staff-padding', 7)],
         ),
     (stirrings_still.desynchronization(4, [1], rests=True), 0),
-    (stirrings_still.desynchronization(4, rests=True), 1),
+    (stirrings_still.desynchronization(4, [0], rests=True), 1),
     (stirrings_still.desynchronization(4, [2], rests=True), 2),
     (stirrings_still.desynchronization(4, [-1], rests=True), 3),
     )
@@ -199,7 +199,7 @@ maker(
         tweaks=[('staff-padding', 7)],
         ),
     (stirrings_still.desynchronization(4, [1], rests=True), 0),
-    (stirrings_still.desynchronization(4, rests=True), 1),
+    (stirrings_still.desynchronization(4, [0], rests=True), 1),
     (stirrings_still.desynchronization(4, [2], rests=True), 2),
     (stirrings_still.desynchronization(4, [-1], rests=True), 3),
     )
@@ -222,7 +222,7 @@ maker(
         tweaks=[('staff-padding', 7)],
         ),
     (stirrings_still.desynchronization(4, [1], rests=([2], 3)), 0),
-    (stirrings_still.desynchronization(4, rests=([2], 3)), 1),
+    (stirrings_still.desynchronization(4, [0], rests=([2], 3)), 1),
     (stirrings_still.desynchronization(4, [2], rests=([2], 3)), 2),
     (stirrings_still.desynchronization(4, [-1], rests=([2], 3)), 3),
     )
@@ -244,7 +244,7 @@ maker(
         tweaks=[('staff-padding', 7)],
         ),
     (stirrings_still.desynchronization(4, [1]), 0),
-    (stirrings_still.desynchronization(4), 1),
+    (stirrings_still.desynchronization(4, [0]), 1),
     (stirrings_still.desynchronization(4, [2]), 2),
     (stirrings_still.desynchronization(4, [-1]), 3),
     )
@@ -420,7 +420,7 @@ maker(
     # TODO: revoice
     (stirrings_still.desynchronization(4, [1]), 0),
     (stirrings_still.glissando_interpolation('Bb4', 'G4'), 0),
-    (stirrings_still.desynchronization(4), 1),
+    (stirrings_still.desynchronization(4, [0]), 1),
     (stirrings_still.glissando_interpolation('Ab4', 'F4'), 1),
     (stirrings_still.desynchronization(4, [2]), 2),
     (stirrings_still.glissando_interpolation('A3', 'B2'), 2),
