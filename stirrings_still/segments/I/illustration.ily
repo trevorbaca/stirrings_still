@@ -1374,7 +1374,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1438,7 +1438,7 @@ I_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1459,12 +1459,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1485,12 +1485,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1511,12 +1511,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1537,12 +1537,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1563,12 +1563,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1599,12 +1599,12 @@ I_CelloMusicVoice = {
             }
         }
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     
     % [I CelloMusicVoice measure 512 / measure 2]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -1630,12 +1630,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1656,12 +1656,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1682,12 +1682,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1708,12 +1708,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1744,12 +1744,12 @@ I_CelloMusicVoice = {
             }
         }
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     
     % [I CelloMusicVoice measure 513 / measure 3]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -1775,12 +1775,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1801,12 +1801,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1827,12 +1827,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1853,12 +1853,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1879,12 +1879,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1905,12 +1905,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1941,12 +1941,12 @@ I_CelloMusicVoice = {
             }
         }
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     
     % [I CelloMusicVoice measure 514 / measure 4]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -1972,12 +1972,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1998,12 +1998,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2024,12 +2024,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2050,12 +2050,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2086,12 +2086,12 @@ I_CelloMusicVoice = {
             }
         }
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     
     % [I CelloMusicVoice measure 515 / measure 5]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -2117,12 +2117,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2143,12 +2143,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2169,12 +2169,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2195,12 +2195,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2221,12 +2221,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2247,12 +2247,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2283,12 +2283,12 @@ I_CelloMusicVoice = {
             }
         }
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     
     % [I CelloMusicVoice measure 516 / measure 6]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -2316,12 +2316,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2342,12 +2342,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2368,12 +2368,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2394,12 +2394,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2420,12 +2420,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2446,12 +2446,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2472,12 +2472,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2498,12 +2498,12 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
-    \stopTextSpan
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2534,13 +2534,13 @@ I_CelloMusicVoice = {
             }
         }
     - \tweak staff-padding #7
-    \startTextSpan
+    \startBCPTextSpan
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     ]                                                            %! SC
-    \stopTextSpan
+    \stopBCPTextSpan
     
     % [I CelloMusicVoice measure 517 / measure 7]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
