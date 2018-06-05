@@ -163,12 +163,12 @@ maker(
     (['v1', 'va'], (7, 14)), 
     baca.text_script_staff_padding(1.5),
     baca.text_spanner_staff_padding(5),
-    baca.markups.markup('(always one circle per stem)'),
+    baca.markup('(always one circle per stem)'),
     baca.transition(
-        baca.markups.markup('2” circles'),
-        baca.markups.markup('4” circles'),
-        baca.markups.markup('6” circles'),
-        baca.markups.markup('8” circles'),
+        baca.markup('2” circles'),
+        baca.markup('4” circles'),
+        baca.markup('6” circles'),
+        baca.markup('8” circles'),
         do_not_bookend=True,
         pieces=baca.group_by_measures([2]),
         ),
@@ -182,7 +182,7 @@ maker(
 
 maker(
     ('v2', (11, 12)),
-    baca.markups.markup('(always one circle per stem)'),
+    baca.markup('(always one circle per stem)'),
     baca.tuplet_bracket_down(),
     stirrings_still.accelerando(start=(1, 2), stop=(7, 32)),
     )
@@ -198,9 +198,9 @@ maker(
     baca.transition(
         baca.markups.flaut_partial_2(),
         baca.markups.ord(),
-        baca.markups.markup('4” circles'),
-        baca.markups.markup('6” circles'),
-        baca.markups.markup('8” circles'),
+        baca.markup('4” circles'),
+        baca.markup('6” circles'),
+        baca.markup('8” circles'),
         do_not_bookend=True,
         pieces=baca.group_by_measures([1, 1, 2, 2, 2]),
         ),
@@ -326,7 +326,7 @@ maker(
     (stirrings_still.pickets(4, 2, mask=rmakers.silence([0])), 0),
     (stirrings_still.pickets(4, 1, mask=rmakers.silence([0])), 1),
     (stirrings_still.pickets(4, 0, mask=rmakers.silence([0])), 2),
-    baca.markups.markup('8” circles continue'),
+    baca.markup('8” circles continue'),
     )
 
 maker(
@@ -340,12 +340,12 @@ maker(
     (stirrings_still.accelerando(start=(1, 2), stop=(8, 32)), 1),
     (stirrings_still.accelerando(start=(1, 2), stop=(12, 32)), 2),
     baca.dynamic('mp'),
-    baca.markups.markup('thinking color (no longer width)'),
+    baca.markup('thinking color (no longer width)'),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.transition(
-        baca.markups.markup('“whisk” circles'),
-        baca.markups.markup('poco scratch circles'),
+        baca.markup('“whisk” circles'),
+        baca.markup('poco scratch circles'),
         selector=baca.leaves()[:3],
         ),
     )
@@ -397,8 +397,8 @@ maker(
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.transition(
-        baca.markups.markup('“whisk” circles'),
-        baca.markups.markup('mod. scratch circles'),
+        baca.markup('“whisk” circles'),
+        baca.markup('mod. scratch circles'),
         selector=baca.leaves()[:3],
         ),
     )
@@ -412,8 +412,8 @@ maker(
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.transition(
-        baca.markups.markup('“whisk” circles'),
-        baca.markups.markup('molto scratch circles'),
+        baca.markup('“whisk” circles'),
+        baca.markup('molto scratch circles'),
         selector=baca.leaves()[:3],
         ),
     )
