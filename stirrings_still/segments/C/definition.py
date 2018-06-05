@@ -19,7 +19,7 @@ maker(
     'GlobalSkips',
     baca.rehearsal_mark(
         'C',
-        tweaks=[('Y-offset', 12)],
+        abjad.tweak(12).Y_offset,
         ),
     baca.text_script_extra_offset((0, 5)),
     )
@@ -111,9 +111,9 @@ maker(
     baca.markup('maximally tight crunch circles: grind at talon'),
     baca.text_spanner(
         baca.markups.damp().boxed(),
+        abjad.tweak(7).staff_padding,
         leak=True,
         right_padding=3.25,
-        tweaks=[('staff-padding', 7)],
         ),
     )
 
@@ -147,9 +147,9 @@ maker(
     baca.markup('maximally tight crunch circles: grind at talon'),
     baca.text_spanner(
         baca.markups.damp().boxed(),
+        abjad.tweak(7).staff_padding,
         leak=True,
         right_padding=3.25,
-        tweaks=[('staff-padding', 7)],
         ),
     (stirrings_still.desynchronization(4, [1]), 0),
     (stirrings_still.desynchronization(4, [0]), 1),
@@ -166,14 +166,14 @@ maker(
         baca.markups.circles(1, 2),
         do_not_bookend=True,
         pieces=baca.group_notes_by_measures([2]),
-        tweaks=[('staff-padding', 4)],
+        tweaks=[abjad.tweak(4).staff_padding],
         ),
     baca.text_spanner(
         baca.markups.damp().boxed(),
+        abjad.tweak(7).staff_padding,
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
-        tweaks=[('staff-padding', 7)],
         ),
     (stirrings_still.desynchronization(4, [1], rests=True), 0),
     (stirrings_still.desynchronization(4, [0], rests=True), 1),
@@ -189,14 +189,14 @@ maker(
         baca.markups.circles(2, 4),
         do_not_bookend=True,
         pieces=baca.group_notes_by_measures([2]),
-        tweaks=[('staff-padding', 4)],
+        tweaks=[abjad.tweak(4).staff_padding],
         ),
     baca.text_spanner(
         baca.markups.damp().boxed(),
+        abjad.tweak(7).staff_padding,
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
-        tweaks=[('staff-padding', 7)],
         ),
     (stirrings_still.desynchronization(4, [1], rests=True), 0),
     (stirrings_still.desynchronization(4, [0], rests=True), 1),
@@ -212,14 +212,14 @@ maker(
         baca.markups.circles(4, 8),
         do_not_bookend=True,
         pieces=baca.group_notes_by_measures([2]),
-        tweaks=[('staff-padding', 4)],
+        tweaks=[abjad.tweak(4).staff_padding],
         ),
     baca.text_spanner(
         baca.markups.damp().boxed(),
+        abjad.tweak(7).staff_padding,
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
-        tweaks=[('staff-padding', 7)],
         ),
     (stirrings_still.desynchronization(4, [1], rests=([2], 3)), 0),
     (stirrings_still.desynchronization(4, [0], rests=([2], 3)), 1),
@@ -232,16 +232,16 @@ maker(
     baca.dynamic('p', redundant=True),
     baca.text_spanner(
         baca.markups.circles(8),
+        abjad.tweak(4).staff_padding,
         leak=True,
         right_padding=3.25,
-        tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
         baca.markups.damp().boxed(),
+        abjad.tweak(7).staff_padding,
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
-        tweaks=[('staff-padding', 7)],
         ),
     (stirrings_still.desynchronization(4, [1]), 0),
     (stirrings_still.desynchronization(4, [0]), 1),
@@ -265,10 +265,10 @@ maker(
     baca.markup('[clockticks]'),
     baca.text_spanner(
         baca.markups.lhd_plus_half_clt().boxed(),
+        abjad.tweak(7).staff_padding,
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
-        tweaks=[('staff-padding', 7)],
         ),
     stirrings_still.clockticks(),
     )
@@ -279,16 +279,16 @@ maker(
     baca.hairpin('mf > pp'),
     baca.text_spanner(
         baca.markups.circles(8),
+        abjad.tweak(4).staff_padding,
         leak=True,
         right_padding=3.25,
-        tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
         baca.markups.damp().boxed(),
+        abjad.tweak(7).staff_padding,
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
-        tweaks=[('staff-padding', 7)],
         ),
     stirrings_still.synchronized_circles(rests=[-1]),
     )
@@ -307,16 +307,16 @@ maker(
     ('tutti', (36, 55)),
     baca.text_spanner(
         baca.markups.circles(8),
+        abjad.tweak(4).staff_padding,
         leak=True,
         right_padding=3.25,
-        tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
         '[triple -> double -> single harmonic]',
+        abjad.tweak(7).staff_padding,
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
-        tweaks=[('staff-padding', 7)],
         ),
     (stirrings_still.synchronized_circles(rotation=0), 0),
     (stirrings_still.synchronized_circles(rotation=-1), 1),
@@ -358,16 +358,16 @@ maker(
     baca.dynamic('ff', redundant=True),
     baca.text_spanner(
         baca.markups.circles(8),
+        abjad.tweak(4).staff_padding,
         leak=True,
         right_padding=3.25,
-        tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
         '[harmonic -> half -> stopped]',
+        abjad.tweak(7).staff_padding,
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
-        tweaks=[('staff-padding', 7)],
         ),
     (stirrings_still.synchronized_circles(gaps=False, rotation=0), 0),
     (stirrings_still.synchronized_circles(gaps=False, rotation=-1), 1),
@@ -381,9 +381,9 @@ maker(
     baca.dynamic('appena_udibile'),
     baca.text_spanner(
         '[double-stop field]',
+        abjad.tweak(4).staff_padding,
         leak=True,
         right_padding=3.25,
-        tweaks=[('staff-padding', 4)],
         ),
     stirrings_still.urtext_field(),
     )
@@ -393,16 +393,16 @@ maker(
     baca.dynamic('p'),
     baca.text_spanner(
         baca.markups.circles(8),
+        abjad.tweak(4).staff_padding,
         leak=True,
         right_padding=3.25,
-        tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
         '[TODO: jeux des terminaisons ...]',
+        abjad.tweak(7).staff_padding,
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
-        tweaks=[('staff-padding', 7)],
         ),
     stirrings_still.synchronized_circles(rotation=0)
     )
@@ -415,7 +415,7 @@ maker(
         baca.markups.circles(2),
         do_not_bookend=True,
         pieces=baca.group_notes_by_measures([3]),
-        tweaks=[('staff-padding', 4)],
+        tweaks=[abjad.tweak(4).staff_padding],
         ),
     # TODO: revoice
     (stirrings_still.desynchronization(4, [1]), 0),

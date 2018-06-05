@@ -1,7 +1,7 @@
 import baca
 
 
-def transition_bcps(*, rotation=0, tweaks=None):
+def transition_bcps(*tweaks, rotation=0):
     """
     Makes transition bow contact points.
     """
@@ -12,4 +12,4 @@ def transition_bcps(*, rotation=0, tweaks=None):
         (1, 7), (6, 7),
         (1, 7), (7, 7),
         ])
-    return baca.bcps(bcps, tweaks=tweaks)
+    return baca.bcps(bcps, *tweaks)

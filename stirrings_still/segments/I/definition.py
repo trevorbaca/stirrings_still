@@ -20,7 +20,7 @@ maker(
     'GlobalSkips',
     baca.rehearsal_mark(
         'I',
-        tweaks=[('Y-offset', 12)],
+        abjad.tweak(12).Y_offset,
         ),
     baca.text_script_extra_offset((0, 5)),
     )
@@ -81,7 +81,9 @@ maker(
 for n in range(1, 6 + 1):
     maker(
         ('vc', n),
-        stirrings_still.transition_bcps(tweaks=[('staff-padding', 7)]),
+        stirrings_still.transition_bcps(
+            abjad.tweak(7).staff_padding,
+            ),
         )
 
 maker(
@@ -98,8 +100,8 @@ maker(
         ),
     baca.text_spanner(
         baca.markups.half_clt().boxed(),
+        abjad.tweak(12).staff_padding,
         leak=True,
         lilypond_id=1,
-        tweaks=[('staff-padding', 12)],
         ),
     )
