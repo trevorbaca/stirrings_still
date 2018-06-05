@@ -141,9 +141,7 @@ F_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [F.1]                                    %! IC
+                        [F.1]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -425,9 +423,7 @@ F_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [F.2]                                    %! IC
+                        [F.2]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -586,9 +582,7 @@ F_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.2]                                    %! IC
+                        [C.2]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -716,9 +710,7 @@ F_ViolinIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "[clouded pane partials (double-stop)]" %! IC
+                        "[clouded pane partials (double-stop)]"  %! IC
                     }                                            %! IC
             }
         }
@@ -812,11 +804,7 @@ F_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "maximally tight crunch circles: grind at talon" %! IC
-            }                                                    %! IC
+        ^ \markup { "maximally tight crunch circles: grind at talon" } %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -1004,11 +992,7 @@ F_ViolinIIMusicVoice = {
     f'4
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "maximally tight crunch circles: grind at talon" %! IC
-        }                                                        %! IC
+    ^ \markup { "maximally tight crunch circles: grind at talon" } %! IC
     
     \hide NoteHead                                               %! SC
     \override Accidental.stencil = ##f                           %! SC
@@ -1112,12 +1096,10 @@ F_ViolaMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                \override                        %! IC
-                                    #'(box-padding . 0.5)        %! IC
-                                    \box                         %! IC
-                                        tailpiece                %! IC
+                        \override                                %! IC
+                            #'(box-padding . 0.5)                %! IC
+                            \box                                 %! IC
+                                tailpiece                        %! IC
                     }                                            %! IC
             }
         }
@@ -1178,11 +1160,7 @@ F_ViolaMusicVoice = {
     
     % [F ViolaMusicVoice measure 434 / measure 10]               %! SM4
     c'1.
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "terminate abruptly"                             %! IC
-        }                                                        %! IC
+    ^ \markup { "terminate abruptly" }                           %! IC
     \revert Hairpin.shorten-pair                                 %! OC2
     \revert RepeatTie.direction                                  %! OC2
     \revert TextScript.parent-alignment-X                        %! OC2
@@ -1200,11 +1178,7 @@ F_ViolaMusicVoice = {
     c'8.
     \mp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     [
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "maximally tight crunch circles: grind at talon" %! IC
-        }                                                        %! IC
+    ^ \markup { "maximally tight crunch circles: grind at talon" } %! IC
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
@@ -1309,9 +1283,7 @@ F_CelloMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "[clouded pane fundamental]"     %! IC
+                        "[clouded pane fundamental]"             %! IC
                     }                                            %! IC
             }
         }
@@ -1393,11 +1365,7 @@ F_CelloMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "maximally tight crunch circles: grind at talon" %! IC
-            }                                                    %! IC
+        ^ \markup { "maximally tight crunch circles: grind at talon" } %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4

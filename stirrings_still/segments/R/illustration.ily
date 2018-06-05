@@ -135,9 +135,7 @@ R_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [R.1]                                    %! IC
+                        [R.1]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -281,9 +279,7 @@ R_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [R.2]                                    %! IC
+                        [R.2]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -426,9 +422,7 @@ R_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [R.3]                                    %! IC
+                        [R.3]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -571,9 +565,7 @@ R_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [R.4]                                    %! IC
+                        [R.4]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP

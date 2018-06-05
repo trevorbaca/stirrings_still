@@ -342,9 +342,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.1]                                    %! IC
+                        [C.1]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -537,9 +535,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [G.1]                                    %! IC
+                        [G.1]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -663,9 +659,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.2]                                    %! IC
+                        [C.2]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -893,9 +887,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.3]                                    %! IC
+                        [C.3]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1039,9 +1031,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.4]                                    %! IC
+                        [C.4]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1183,9 +1173,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.5]                                    %! IC
+                        [C.5]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1329,9 +1317,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.6]                                    %! IC
+                        [C.6]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1524,9 +1510,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.7]                                    %! IC
+                        [C.7]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1654,9 +1638,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.8]                                    %! IC
+                        [C.8]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1898,9 +1880,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [D.9]                                    %! IC
+                        [D.9]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2028,9 +2008,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.9]                                    %! IC
+                        [C.9]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2278,9 +2256,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.10]                                   %! IC
+                        [C.10]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2526,9 +2502,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.11]                                   %! IC
+                        [C.11]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2776,9 +2750,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.12]                                   %! IC
+                        [C.12]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -3024,9 +2996,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.13]                                   %! IC
+                        [C.13]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -3269,9 +3239,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.14]                                   %! IC
+                        [C.14]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -3465,9 +3433,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [J.1]                                    %! IC
+                        [J.1]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -3595,9 +3561,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.15]                                   %! IC
+                        [C.15]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -3775,9 +3739,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.16]                                   %! IC
+                        [C.16]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -3953,9 +3915,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.17]                                   %! IC
+                        [C.17]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -4132,9 +4092,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.18]                                   %! IC
+                        [C.18]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -4293,9 +4251,7 @@ C_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.19]                                   %! IC
+                        [C.19]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -4694,9 +4650,7 @@ C_ViolinIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "maximally tight crunch circles: grind at talon" %! IC
+                        "maximally tight crunch circles: grind at talon" %! IC
                     }                                            %! IC
             }
         }
@@ -4789,15 +4743,11 @@ C_ViolinIMusicVoice = {
             {
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "[urtext double stop]"           %! IC
+                        "[urtext double stop]"                   %! IC
                     }                                            %! IC
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                louré                            %! IC
+                        louré                                    %! IC
                     }                                            %! IC
             }
         }
@@ -4863,11 +4813,7 @@ C_ViolinIMusicVoice = {
             }
         - \tweak staff-padding #7
         \startTextSpan
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "maximally tight crunch circles: grind at talon" %! IC
-            }                                                    %! IC
+        ^ \markup { "maximally tight crunch circles: grind at talon" } %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -5513,16 +5459,14 @@ C_ViolinIMusicVoice = {
     c'2.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        \column                                  %! IC
-                            {                                    %! IC
-                                "[clouded pane:"                 %! IC
-                                "shin. beacon]"                  %! IC
-                            }                                    %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                \column                                          %! IC
+                    {                                            %! IC
+                        "[clouded pane:"                         %! IC
+                        "shin. beacon]"                          %! IC
+                    }                                            %! IC
         }                                                        %! IC
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
@@ -5685,9 +5629,7 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "[triple -> double -> single harmonic]"
+                "[triple -> double -> single harmonic]"
                 \hspace
                     #0.5
             }
@@ -5974,9 +5916,7 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "[harmonic -> half -> stopped]"
+                "[harmonic -> half -> stopped]"
                 \hspace
                     #0.5
             }
@@ -6057,9 +5997,7 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "[double-stop field]"
+                "[double-stop field]"
                 \hspace
                     #0.5
             }
@@ -6118,9 +6056,7 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "[TODO: jeux des terminaisons ...]"
+                "[TODO: jeux des terminaisons ...]"
                 \hspace
                     #0.5
             }
@@ -6498,9 +6434,7 @@ C_ViolinIIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "maximally tight crunch circles: grind at talon" %! IC
+                        "maximally tight crunch circles: grind at talon" %! IC
                     }                                            %! IC
             }
         }
@@ -6574,15 +6508,11 @@ C_ViolinIIMusicVoice = {
             {
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "[urtext double stop]"           %! IC
+                        "[urtext double stop]"                   %! IC
                     }                                            %! IC
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                louré                            %! IC
+                        louré                                    %! IC
                     }                                            %! IC
             }
         }
@@ -6651,11 +6581,7 @@ C_ViolinIIMusicVoice = {
         }
     - \tweak staff-padding #7
     \startTextSpan
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "maximally tight crunch circles: grind at talon" %! IC
-        }                                                        %! IC
+    ^ \markup { "maximally tight crunch circles: grind at talon" } %! IC
     
     \hide NoteHead                                               %! SC
     \override Accidental.stencil = ##f                           %! SC
@@ -7237,11 +7163,7 @@ C_ViolinIIMusicVoice = {
             }
         - \tweak staff-padding #7
         \startTextSpanOne
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    [clockticks]                                 %! IC
-            }                                                    %! IC
+        ^ \markup { [clockticks] }                               %! IC
         
         r4
     }
@@ -7424,9 +7346,7 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "[triple -> double -> single harmonic]"
+                "[triple -> double -> single harmonic]"
                 \hspace
                     #0.5
             }
@@ -7719,9 +7639,7 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "[harmonic -> half -> stopped]"
+                "[harmonic -> half -> stopped]"
                 \hspace
                     #0.5
             }
@@ -7806,9 +7724,7 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "[double-stop field]"
+                "[double-stop field]"
                 \hspace
                     #0.5
             }
@@ -7867,9 +7783,7 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "[TODO: jeux des terminaisons ...]"
+                "[TODO: jeux des terminaisons ...]"
                 \hspace
                     #0.5
             }
@@ -8215,9 +8129,7 @@ C_ViolaMusicVoice = {
                         }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "maximally tight crunch circles: grind at talon" %! IC
+                            "maximally tight crunch circles: grind at talon" %! IC
                         }                                        %! IC
                 }
             }
@@ -8325,15 +8237,11 @@ C_ViolaMusicVoice = {
                 {
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    "[clouded partial (stopped)]" %! IC
+                            "[clouded partial (stopped)]"        %! IC
                         }                                        %! IC
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    louré                        %! IC
+                            louré                                %! IC
                         }                                        %! IC
                 }
             }
@@ -8396,11 +8304,7 @@ C_ViolaMusicVoice = {
             }
         - \tweak staff-padding #7
         \startTextSpan
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "maximally tight crunch circles: grind at talon" %! IC
-            }                                                    %! IC
+        ^ \markup { "maximally tight crunch circles: grind at talon" } %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -9109,16 +9013,14 @@ C_ViolaMusicVoice = {
     c'2.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        \column                                  %! IC
-                            {                                    %! IC
-                                "[clouded pane:"                 %! IC
-                                "shin. beacon]"                  %! IC
-                            }                                    %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                \column                                          %! IC
+                    {                                            %! IC
+                        "[clouded pane:"                         %! IC
+                        "shin. beacon]"                          %! IC
+                    }                                            %! IC
         }                                                        %! IC
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
@@ -9281,9 +9183,7 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "[triple -> double -> single harmonic]"
+                "[triple -> double -> single harmonic]"
                 \hspace
                     #0.5
             }
@@ -9576,9 +9476,7 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "[harmonic -> half -> stopped]"
+                "[harmonic -> half -> stopped]"
                 \hspace
                     #0.5
             }
@@ -9663,9 +9561,7 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "[double-stop field]"
+                "[double-stop field]"
                 \hspace
                     #0.5
             }
@@ -9724,9 +9620,7 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "[TODO: jeux des terminaisons ...]"
+                "[TODO: jeux des terminaisons ...]"
                 \hspace
                     #0.5
             }
@@ -10121,9 +10015,7 @@ C_CelloMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "maximally tight crunch circles: grind at talon" %! IC
+                        "maximally tight crunch circles: grind at talon" %! IC
                     }                                            %! IC
             }
         }
@@ -10185,11 +10077,7 @@ C_CelloMusicVoice = {
     c'4..
     - \tweak circled-tip ##t                                     %! PWC1
     \<                                                           %! PWC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "[clouded pane (stopped)]"                       %! IC
-        }                                                        %! IC
+    ^ \markup { "[clouded pane (stopped)]" }                     %! IC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \baca_unpitched_music_warning                                %! SM24
@@ -10237,11 +10125,7 @@ C_CelloMusicVoice = {
             }
         - \tweak staff-padding #7
         \startTextSpan
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "maximally tight crunch circles: grind at talon" %! IC
-            }                                                    %! IC
+        ^ \markup { "maximally tight crunch circles: grind at talon" } %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -10781,16 +10665,14 @@ C_CelloMusicVoice = {
     c'2.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        \column                                  %! IC
-                            {                                    %! IC
-                                "[clouded pane:"                 %! IC
-                                "shin. beacon]"                  %! IC
-                            }                                    %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                \column                                          %! IC
+                    {                                            %! IC
+                        "[clouded pane:"                         %! IC
+                        "shin. beacon]"                          %! IC
+                    }                                            %! IC
         }                                                        %! IC
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
@@ -10911,11 +10793,7 @@ C_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "[clouded pane revelation]"                      %! IC
-        }                                                        %! IC
+    ^ \markup { "[clouded pane revelation]" }                    %! IC
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
@@ -10960,9 +10838,7 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "[triple -> double -> single harmonic]"
+                "[triple -> double -> single harmonic]"
                 \hspace
                     #0.5
             }
@@ -11255,9 +11131,7 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "[harmonic -> half -> stopped]"
+                "[harmonic -> half -> stopped]"
                 \hspace
                     #0.5
             }
@@ -11383,9 +11257,7 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "[TODO: jeux des terminaisons ...]"
+                "[TODO: jeux des terminaisons ...]"
                 \hspace
                     #0.5
             }
