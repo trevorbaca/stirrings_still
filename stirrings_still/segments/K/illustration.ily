@@ -3047,9 +3047,8 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            ord.                                 %! PWC1
+                    \upright                                     %! PWC1
+                        ord.                                     %! PWC1
                     \hspace                                      %! PWC1
                         #0.25                                    %! PWC1
                 }                                                %! PWC1
@@ -4207,9 +4206,8 @@ K_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        ord.                                     %! PWC1
+                \upright                                         %! PWC1
+                    ord.                                         %! PWC1
                 \hspace                                          %! PWC1
                     #0.25                                        %! PWC1
             }                                                    %! PWC1
@@ -5398,9 +5396,8 @@ K_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        ord.                                     %! PWC1
+                \upright                                         %! PWC1
+                    ord.                                         %! PWC1
                 \hspace                                          %! PWC1
                     #0.25                                        %! PWC1
             }                                                    %! PWC1
@@ -5949,9 +5946,8 @@ K_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        ord.                                     %! PWC1
+                \upright                                         %! PWC1
+                    ord.                                         %! PWC1
                 \hspace                                          %! PWC1
                     #0.25                                        %! PWC1
             }                                                    %! PWC1

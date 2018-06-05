@@ -67,7 +67,10 @@ maker(
         baca.hairpin('niente < "mp"', selector=baca.notes()[:2]),
         baca.hairpin_shorten_pair((0.75, 0)),
         ],
-    baca.markups.terminate_abruptly(baca.pleaf(-1)),
+    baca.markup(
+        baca.markups.terminate_abruptly(),
+        selector=baca.pleaf(-1),
+        ),
     stirrings_still.tailpiece(),
     )
 

@@ -88,10 +88,13 @@ maker(
     baca.dls_staff_padding(3),
     baca.hairpin('niente < mp', selector=baca.notes()[:4]),
     baca.make_repeat_tied_notes(),
-    baca.markups.string_number(3),
+    baca.markup(
+        baca.markups.string_number(3),
+        direction=abjad.Down,
+        ),
     baca.transition(
-        baca.markups.rasp_partial_2(),
-        baca.markups.flaut_partial_2(),
+        baca.markups.rasp_partial_2().upright(),
+        baca.markups.flaut_partial_2().upright(),
         selector=baca.notes()[:4],
         ),
     )
@@ -196,8 +199,8 @@ maker(
     ('v2', (9, 16)), 
     baca.text_spanner_staff_padding(5),
     baca.transition(
-        baca.markups.flaut_partial_2(),
-        baca.markups.ord(),
+        baca.markups.flaut_partial_2().upright(),
+        baca.markups.ord().upright(),
         baca.markup('4” circles'),
         baca.markup('6” circles'),
         baca.markup('8” circles'),
@@ -288,13 +291,17 @@ maker(
     ('vc', (7, 32)),
     baca.dynamic('mp'),
     baca.finger_pressure_transition(selector=baca.notes()[:2]),
-    baca.markups.string_number(4, selector=baca.note(0)),
+    baca.markup(
+        baca.markups.string_number(4),
+        selector=baca.note(0),
+        direction=abjad.Down,
+        ),
     baca.note_head_style_harmonic(selector=baca.notes()[1:]),
     baca.pitch('Ab2', selector=baca.note(0)),
     baca.pitch('Gb2', selector=baca.notes()[1:]),
     baca.transition(
-        baca.markups.flaut(),
-        baca.markups.non_flaut(),
+        baca.markups.flaut().upright(),
+        baca.markups.non_flaut().upright(),
         selector=baca.notes()[:2],
         ),
     )
@@ -302,13 +309,19 @@ maker(
 maker(
     ('vc', (9, 12)),
     baca.hairpin('mp < f', selector=baca.rleaves()),
-    baca.markups.poco_overpressure(selector=baca.rleaves()[-1]),
+    baca.markup(
+        baca.markups.poco_overpressure(),
+        selector=baca.rleaves()[-1],
+        ),
     )
 
 maker(
     ('vc', (15, 16)),
     baca.hairpin('f < ff', selector=baca.rleaves()),
-    baca.markups.molto_overpressure(selector=baca.rleaves()[-1]),
+    baca.markup(
+        baca.markups.molto_overpressure(),
+        selector=baca.rleaves()[-1],
+        ),
     )
 
 maker(
@@ -381,10 +394,13 @@ maker(
     baca.dls_staff_padding(3),
     baca.hairpin('niente < mp', selector=baca.notes()[:4]),
     baca.make_repeat_tied_notes(),
-    baca.markups.string_number(3),
+    baca.markup(
+        baca.markups.string_number(3),
+        direction=abjad.Down,
+        ),
     baca.transition(
-        baca.markups.rasp_partial_2(),
-        baca.markups.poco_rasp_partial_2(),
+        baca.markups.rasp_partial_2().upright(),
+        baca.markups.poco_rasp_partial_2().upright(),
         ),
     )
 
@@ -434,8 +450,8 @@ maker(
     baca.hairpin('ff > mf', selector=baca.leaves().group_by_measure()[-2:]),
     baca.text_spanner_staff_padding(4),
     baca.transition(
-        baca.markups.molto_scratch(),
-        baca.markups.pochiss_scratch(),
+        baca.markups.molto_scratch().upright(),
+        baca.markups.pochiss_scratch().upright(),
         selector=baca.leaves().group_by_measure()[-2:].leaves()[:-3],
         ),
     )
