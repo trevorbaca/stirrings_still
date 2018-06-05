@@ -50,7 +50,7 @@ stirrings_still.time(maker, time)
 maker(
     (['v1', 'v2', 'va'], (1, 2)),
     baca.dynamic('appena_udibile'),
-    baca.markups.markup('[double-stop cont.]'),
+    baca.markup('[double-stop cont.]'),
     stirrings_still.urtext_field(),
     )
 
@@ -76,7 +76,7 @@ maker(
 maker(
     (['v1', 'v2', 'va'], (4, 10)),
     baca.dynamic('appena_udibile'),
-    baca.markups.markup('[double-stop cont.]'),
+    baca.markup('[double-stop cont.]'),
     stirrings_still.urtext_field(),
     )
 
