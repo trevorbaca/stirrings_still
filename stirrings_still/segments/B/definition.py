@@ -139,7 +139,7 @@ maker(
     baca.alternate_bow_strokes(),
     baca.dynamic('mp'),
     baca.text_spanner(
-        baca.markup.boxed('LHD + 1/2 clt'),
+        baca.markups.boxed('LHD + 1/2 clt'),
         right_padding=1.75,
         selector=baca.rleaves(),
         ),
@@ -181,7 +181,7 @@ maker(
 maker(
     ('vc', (6, 11)),
     baca.breathe_after(),
-    baca.markup.markup('[overpressure]'),
+    baca.markups.markup('[overpressure]'),
     baca.note_head_style_harmonic(),
     stirrings_still.clouded_pane(),
     )
