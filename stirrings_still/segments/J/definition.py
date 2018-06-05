@@ -65,7 +65,7 @@ maker(
     ('v2', 3),
     baca.dynamic('mp'),
     baca.text_spanner(
-        baca.markups.boxed('LHD + 1/2 clt'),
+        baca.markups.lhd_plus_half_clt().upright().boxed(),
         right_padding=1.75,
         selector=baca.rleaves(),
         ),

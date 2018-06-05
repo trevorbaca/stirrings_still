@@ -4660,12 +4660,11 @@ H_ViolinIIMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \whiteout
-                        \upright
-                            \override
-                                #'(box-padding . 0.5)
-                                \box
-                                    "LHD + 1/2 clt"
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
+                            \upright
+                                "lhd + 1/2 clt"
                     \hspace
                         #0.5
                 }
@@ -5241,13 +5240,14 @@ H_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2
     ^ \markup {                                                  %! IC
-        \upright                                                 %! IC
-            \column                                              %! IC
-                {                                                %! IC
-                    \whiteout                                    %! IC
-                        "one circle every half-note;"            %! IC
-                    "'golden' tone"                              %! IC
-                }                                                %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                \column                                          %! IC
+                    {                                            %! IC
+                        \whiteout                                %! IC
+                            "one circle every half-note;"        %! IC
+                        "'golden' tone"                          %! IC
+                    }                                            %! IC
         }                                                        %! IC
     
     \baca_unpitched_music_warning                                %! SM24

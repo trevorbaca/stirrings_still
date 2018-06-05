@@ -116,7 +116,6 @@ maker(
     ('va', 6),
     baca.markups.lines(
         [line, "'golden' tone"],
-        no_whiteout=True,
         ),
     stirrings_still.circles((1, 2)),
     )
@@ -124,7 +123,7 @@ maker(
 maker(
     ('vc', 6),
     baca.dynamic('p'),
-    baca.markups.boxed('1/2 clt'),
+    baca.markups.half_clt().boxed(),
     baca.script_staff_padding(6),
     baca.text_spanner_staff_padding(3),
     baca.tuplet_bracket_staff_padding(1),
@@ -375,7 +374,7 @@ maker(
     baca.alternate_bow_strokes(),
     baca.dynamic('mp', redundant=True),
     baca.text_spanner(
-        baca.markups.boxed('LHD + 1/2 clt'),
+        baca.markups.lhd_plus_half_clt().upright().boxed(),
         right_padding=2.25,
         selector=baca.rleaves(),
         ),
@@ -461,7 +460,7 @@ maker(
     (stirrings_still.bcps(rotation=-4), 0),
     (stirrings_still.bcps(rotation=-8), 1),
     baca.dls_staff_padding(5),
-    baca.markups.boxed('1/2 clt'),
+    baca.markups.half_clt().boxed(),
     baca.pitch('E2'),
     baca.text_script_staff_padding(11),
     baca.text_spanner_staff_padding(7),

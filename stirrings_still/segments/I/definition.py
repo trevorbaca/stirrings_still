@@ -97,7 +97,7 @@ maker(
         pieces=baca.group_by_measures([5, 4, 2]),
         ),
     baca.text_spanner(
-        baca.markups.boxed('1/2 clt'),
+        baca.markups.half_clt().upright().boxed(),
         leak=True,
         lilypond_id=1,
         tweaks=[('staff-padding', 12)],

@@ -97,7 +97,7 @@ maker(
     (['v1', 'v2', 'va'], (1, 2)),
     baca.dynamic('p'),
     baca.text_spanner(
-        baca.markups.boxed('LHD + 1/2 clt'),
+        baca.markups.lhd_plus_half_clt().upright().boxed(),
         right_padding=1.75,
         selector=baca.rleaves(),
         ),
@@ -121,7 +121,7 @@ maker(
 maker(
     (['v1', 'v2', 'va'], (6, 19)),
     baca.text_spanner(
-        baca.markups.boxed('[grid-to-trajectory]'),
+        baca.Markup('[grid-to-trajectory]').upright().boxed(),
         ),
     stirrings_still.grid_to_trajectory(),
     )
