@@ -167,10 +167,10 @@ maker(
     baca.text_spanner_staff_padding(5),
     baca.markup('(always one circle per stem)'),
     baca.transition(
-        baca.markup('2” circles'),
-        baca.markup('4” circles'),
-        baca.markup('6” circles'),
-        baca.markup('8” circles'),
+        baca.markups.circles(2),
+        baca.markups.circles(4),
+        baca.markups.circles(6),
+        baca.markups.circles(8),
         do_not_bookend=True,
         pieces=baca.group_by_measures([2]),
         ),
@@ -200,9 +200,9 @@ maker(
     baca.transition(
         baca.markups.flaut_partial_2().upright(),
         baca.markups.ord().upright(),
-        baca.markup('4” circles'),
-        baca.markup('6” circles'),
-        baca.markup('8” circles'),
+        baca.markups.circles(4),
+        baca.markups.circles(6),
+        baca.markups.circles(8),
         do_not_bookend=True,
         pieces=baca.group_by_measures([1, 1, 2, 2, 2]),
         ),
@@ -356,8 +356,8 @@ maker(
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.transition(
-        baca.markup('“whisk” circles'),
-        baca.markup('poco scratch circles'),
+        baca.markups.markup('“whisk” circles'),
+        baca.markups.markup('poco scratch circles'),
         selector=baca.leaves()[:3],
         ),
     )
@@ -412,8 +412,8 @@ maker(
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.transition(
-        baca.markup('“whisk” circles'),
-        baca.markup('mod. scratch circles'),
+        baca.markups.markup('“whisk” circles'),
+        baca.markups.markup('mod. scratch circles'),
         selector=baca.leaves()[:3],
         ),
     )
@@ -427,8 +427,8 @@ maker(
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.transition(
-        baca.markup('“whisk” circles'),
-        baca.markup('molto scratch circles'),
+        baca.markups.markup('“whisk” circles'),
+        baca.markups.markup('molto scratch circles'),
         selector=baca.leaves()[:3],
         ),
     )

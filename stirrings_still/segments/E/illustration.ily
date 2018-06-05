@@ -6221,11 +6221,9 @@ E_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
-                            [grid-to-trajectory]
+                \whiteout
+                    \upright
+                        [grid-to-trajectory]
                 \hspace
                     #0.5
             }
@@ -6878,11 +6876,9 @@ E_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
-                            [grid-to-trajectory]
+                \whiteout
+                    \upright
+                        [grid-to-trajectory]
                 \hspace
                     #0.5
             }
@@ -7535,11 +7531,9 @@ E_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
-                            [grid-to-trajectory]
+                \whiteout
+                    \upright
+                        [grid-to-trajectory]
                 \hspace
                     #0.5
             }
