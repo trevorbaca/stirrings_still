@@ -93,8 +93,8 @@ maker(
         direction=abjad.Down,
         ),
     baca.transition(
-        baca.markups.rasp_partial_2().upright(),
-        baca.markups.flaut_partial_2().upright(),
+        baca.markups.rasp_partial_2(),
+        baca.markups.flaut_partial_2(),
         selector=baca.notes()[:4],
         ),
     )
@@ -198,8 +198,8 @@ maker(
     ('v2', (9, 16)), 
     baca.text_spanner_staff_padding(5),
     baca.transition(
-        baca.markups.flaut_partial_2().upright(),
-        baca.markups.ord().upright(),
+        baca.markups.flaut_partial_2(),
+        baca.markups.ord(),
         baca.markups.circles(4),
         baca.markups.circles(6),
         baca.markups.circles(8),
@@ -299,8 +299,8 @@ maker(
     baca.pitch('Ab2', selector=baca.note(0)),
     baca.pitch('Gb2', selector=baca.notes()[1:]),
     baca.transition(
-        baca.markups.flaut().upright(),
-        baca.markups.non_flaut().upright(),
+        baca.markups.flaut(),
+        baca.markups.non_flaut(),
         selector=baca.notes()[:2],
         ),
     )
@@ -374,7 +374,7 @@ maker(
     baca.alternate_bow_strokes(),
     baca.dynamic('mp', redundant=True),
     baca.text_spanner(
-        baca.markups.lhd_plus_half_clt().upright().boxed(),
+        baca.markups.lhd_plus_half_clt().boxed(),
         right_padding=2.25,
         selector=baca.rleaves(),
         ),
@@ -398,8 +398,8 @@ maker(
         direction=abjad.Down,
         ),
     baca.transition(
-        baca.markups.rasp_partial_2().upright(),
-        baca.markups.poco_rasp_partial_2().upright(),
+        baca.markups.rasp_partial_2(),
+        baca.markups.poco_rasp_partial_2(),
         ),
     )
 
@@ -449,8 +449,8 @@ maker(
     baca.hairpin('ff > mf', selector=baca.leaves().group_by_measure()[-2:]),
     baca.text_spanner_staff_padding(4),
     baca.transition(
-        baca.markups.molto_scratch().upright(),
-        baca.markups.pochiss_scratch().upright(),
+        baca.markups.molto_scratch(),
+        baca.markups.pochiss_scratch(),
         selector=baca.leaves().group_by_measure()[-2:].leaves()[:-3],
         ),
     )

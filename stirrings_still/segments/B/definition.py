@@ -139,7 +139,7 @@ maker(
     baca.alternate_bow_strokes(),
     baca.dynamic('mp'),
     baca.text_spanner(
-        baca.markups.lhd_plus_half_clt().upright().boxed(),
+        baca.markups.lhd_plus_half_clt().boxed(),
         right_padding=1.75,
         selector=baca.rleaves(),
         ),

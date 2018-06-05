@@ -1357,10 +1357,10 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             "1/2 clt"
                 \hspace
                     #0.5
