@@ -97,7 +97,7 @@ maker(
     baca.transition(
         abjad.Markup.musicglyph('noteheads.s0harmonic'),
         abjad.Markup.musicglyph('noteheads.s2harmonic'),
-        baca.markups.ord(),
+        baca.markups.ord().upright(),
         do_not_bookend=True,
         pieces=baca.leaves().partition_by_ratio((1, 1, 1)),
         ),
