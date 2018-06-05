@@ -4973,9 +4973,8 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "max. tight cir."                        %! PWC1
+                \upright                                         %! PWC1
+                    "max. tight cir."                            %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -5056,9 +5055,8 @@ C_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "1-2” circles"                       %! PWC1
+                    \upright                                     %! PWC1
+                        "1-2” circles"                           %! PWC1
                     \hspace                                      %! PWC1
                         #0.25                                    %! PWC1
                 }                                                %! PWC1
@@ -5108,9 +5106,8 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "1-2” circles"                           %! PWC1
+                \upright                                         %! PWC1
+                    "1-2” circles"                               %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -5190,9 +5187,8 @@ C_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "2-4” circles"                       %! PWC1
+                    \upright                                     %! PWC1
+                        "2-4” circles"                           %! PWC1
                     \hspace                                      %! PWC1
                         #0.25                                    %! PWC1
                 }                                                %! PWC1
@@ -5241,9 +5237,8 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "2-4” circles"                           %! PWC1
+                \upright                                         %! PWC1
+                    "2-4” circles"                               %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -5328,9 +5323,8 @@ C_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "4-8” circles"                       %! PWC1
+                    \upright                                     %! PWC1
+                        "4-8” circles"                           %! PWC1
                     \hspace                                      %! PWC1
                         #0.25                                    %! PWC1
                 }                                                %! PWC1
@@ -5385,9 +5379,7 @@ C_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \whiteout
-                        \upright
-                            "8” circles"
+                    "8” circles"
                     \hspace
                         #0.5
                 }
@@ -5556,9 +5548,7 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -5672,9 +5662,7 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -5963,9 +5951,7 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -6109,9 +6095,7 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -6263,9 +6247,8 @@ C_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "8” circles"                         %! PWC1
+                    \upright                                     %! PWC1
+                        "8” circles"                             %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -6363,9 +6346,8 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "2” circles"                             %! PWC1
+                \upright                                         %! PWC1
+                    "2” circles"                                 %! PWC1
                 \hspace                                          %! PWC1
                     #0.25                                        %! PWC1
             }                                                    %! PWC1
@@ -6764,9 +6746,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "max. tight cir."                        %! PWC1
+                \upright                                         %! PWC1
+                    "max. tight cir."                            %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -6838,9 +6819,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "1-2” circles"                           %! PWC1
+                \upright                                         %! PWC1
+                    "1-2” circles"                               %! PWC1
                 \hspace                                          %! PWC1
                     #0.25                                        %! PWC1
             }                                                    %! PWC1
@@ -6882,9 +6862,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "1-2” circles"                           %! PWC1
+                \upright                                         %! PWC1
+                    "1-2” circles"                               %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -6956,9 +6935,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "2-4” circles"                           %! PWC1
+                \upright                                         %! PWC1
+                    "2-4” circles"                               %! PWC1
                 \hspace                                          %! PWC1
                     #0.25                                        %! PWC1
             }                                                    %! PWC1
@@ -6998,9 +6976,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "2-4” circles"                           %! PWC1
+                \upright                                         %! PWC1
+                    "2-4” circles"                               %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -7076,9 +7053,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "4-8” circles"                           %! PWC1
+                \upright                                         %! PWC1
+                    "4-8” circles"                               %! PWC1
                 \hspace                                          %! PWC1
                     #0.25                                        %! PWC1
             }                                                    %! PWC1
@@ -7122,9 +7098,7 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -7313,9 +7287,7 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -7429,9 +7401,7 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -7726,9 +7696,7 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -7876,9 +7844,7 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -8028,9 +7994,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "8” circles"                             %! PWC1
+                \upright                                         %! PWC1
+                    "8” circles"                                 %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -8111,9 +8076,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "2” circles"                             %! PWC1
+                \upright                                         %! PWC1
+                    "2” circles"                                 %! PWC1
                 \hspace                                          %! PWC1
                     #0.25                                        %! PWC1
             }                                                    %! PWC1
@@ -8554,9 +8518,8 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "max. tight cir."                    %! PWC1
+                    \upright                                     %! PWC1
+                        "max. tight cir."                        %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -8643,9 +8606,8 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "1-2” circles"                       %! PWC1
+                    \upright                                     %! PWC1
+                        "1-2” circles"                           %! PWC1
                     \hspace                                      %! PWC1
                         #0.25                                    %! PWC1
                 }                                                %! PWC1
@@ -8702,9 +8664,8 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "1-2” circles"                       %! PWC1
+                    \upright                                     %! PWC1
+                        "1-2” circles"                           %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -8790,9 +8751,8 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "2-4” circles"                       %! PWC1
+                    \upright                                     %! PWC1
+                        "2-4” circles"                           %! PWC1
                     \hspace                                      %! PWC1
                         #0.25                                    %! PWC1
                 }                                                %! PWC1
@@ -8847,9 +8807,8 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "2-4” circles"                       %! PWC1
+                    \upright                                     %! PWC1
+                        "2-4” circles"                           %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -8938,9 +8897,8 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "4-8” circles"                           %! PWC1
+                \upright                                         %! PWC1
+                    "4-8” circles"                               %! PWC1
                 \hspace                                          %! PWC1
                     #0.25                                        %! PWC1
             }                                                    %! PWC1
@@ -9006,9 +8964,7 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \whiteout
-                        \upright
-                            "8” circles"
+                    "8” circles"
                     \hspace
                         #0.5
                 }
@@ -9188,9 +9144,7 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -9304,9 +9258,7 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -9601,9 +9553,7 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -9751,9 +9701,7 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -9905,9 +9853,8 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "8” circles"                         %! PWC1
+                    \upright                                     %! PWC1
+                        "8” circles"                             %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -10013,9 +9960,8 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "2” circles"                         %! PWC1
+                    \upright                                     %! PWC1
+                        "2” circles"                             %! PWC1
                     \hspace                                      %! PWC1
                         #0.25                                    %! PWC1
                 }                                                %! PWC1
@@ -10377,9 +10323,8 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "max. tight cir."                        %! PWC1
+                \upright                                         %! PWC1
+                    "max. tight cir."                            %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -10451,9 +10396,8 @@ C_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "1-2” circles"                       %! PWC1
+                    \upright                                     %! PWC1
+                        "1-2” circles"                           %! PWC1
                     \hspace                                      %! PWC1
                         #0.25                                    %! PWC1
                 }                                                %! PWC1
@@ -10494,9 +10438,8 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "1-2” circles"                           %! PWC1
+                \upright                                         %! PWC1
+                    "1-2” circles"                               %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -10568,9 +10511,8 @@ C_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "2-4” circles"                       %! PWC1
+                    \upright                                     %! PWC1
+                        "2-4” circles"                           %! PWC1
                     \hspace                                      %! PWC1
                         #0.25                                    %! PWC1
                 }                                                %! PWC1
@@ -10609,9 +10551,8 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "2-4” circles"                           %! PWC1
+                \upright                                         %! PWC1
+                    "2-4” circles"                               %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -10684,9 +10625,8 @@ C_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "4-8” circles"                       %! PWC1
+                    \upright                                     %! PWC1
+                        "4-8” circles"                           %! PWC1
                     \hspace                                      %! PWC1
                         #0.25                                    %! PWC1
                 }                                                %! PWC1
@@ -10730,9 +10670,7 @@ C_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \whiteout
-                        \upright
-                            "8” circles"
+                    "8” circles"
                     \hspace
                         #0.5
                 }
@@ -10878,9 +10816,7 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -11001,9 +10937,7 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -11298,9 +11232,7 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -11428,9 +11360,7 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \whiteout
-                    \upright
-                        "8” circles"
+                "8” circles"
                 \hspace
                     #0.5
             }
@@ -11582,9 +11512,8 @@ C_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "8” circles"                         %! PWC1
+                    \upright                                     %! PWC1
+                        "8” circles"                             %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -11663,9 +11592,8 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "2” circles"                             %! PWC1
+                \upright                                         %! PWC1
+                    "2” circles"                                 %! PWC1
                 \hspace                                          %! PWC1
                     #0.25                                        %! PWC1
             }                                                    %! PWC1

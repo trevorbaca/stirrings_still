@@ -3108,9 +3108,7 @@ H_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "2” circles"                         %! PWC1
+                    "2” circles"                                 %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -3161,9 +3159,7 @@ H_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "4” circles"                         %! PWC1
+                    "4” circles"                                 %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -3213,9 +3209,7 @@ H_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "6” circles"                             %! PWC1
+                "6” circles"                                     %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -3266,9 +3260,7 @@ H_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "8” circles"                         %! PWC1
+                    "8” circles"                                 %! PWC1
                     \hspace                                      %! PWC1
                         #0.25                                    %! PWC1
                 }                                                %! PWC1
@@ -3519,9 +3511,7 @@ H_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "“whisk” circles"                    %! PWC1
+                    "“whisk” circles"                            %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -3542,9 +3532,7 @@ H_ViolinIMusicVoice = {
                 {                                                %! PWC1
                     \hspace                                      %! PWC1
                         #0.0                                     %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "poco scratch circles"               %! PWC1
+                    "poco scratch circles"                       %! PWC1
                 }                                                %! PWC1
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
@@ -3699,9 +3687,7 @@ H_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "“whisk” circles"                    %! PWC1
+                    "“whisk” circles"                            %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -3722,9 +3708,7 @@ H_ViolinIMusicVoice = {
                 {                                                %! PWC1
                     \hspace                                      %! PWC1
                         #0.0                                     %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "mod. scratch circles"               %! PWC1
+                    "mod. scratch circles"                       %! PWC1
                 }                                                %! PWC1
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
@@ -3808,9 +3792,7 @@ H_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "“whisk” circles"                    %! PWC1
+                    "“whisk” circles"                            %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -3831,9 +3813,7 @@ H_ViolinIMusicVoice = {
                 {                                                %! PWC1
                     \hspace                                      %! PWC1
                         #0.0                                     %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "molto scratch circles"              %! PWC1
+                    "molto scratch circles"                      %! PWC1
                 }                                                %! PWC1
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
@@ -4270,9 +4250,7 @@ H_ViolinIIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "4” circles"                         %! PWC1
+                    "4” circles"                                 %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -4327,9 +4305,7 @@ H_ViolinIIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "6” circles"                         %! PWC1
+                    "6” circles"                                 %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -4378,9 +4354,7 @@ H_ViolinIIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "8” circles"                         %! PWC1
+                    "8” circles"                                 %! PWC1
                     \hspace                                      %! PWC1
                         #0.25                                    %! PWC1
                 }                                                %! PWC1
@@ -4591,9 +4565,7 @@ H_ViolinIIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "“whisk” circles"                    %! PWC1
+                    "“whisk” circles"                            %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -4614,9 +4586,7 @@ H_ViolinIIMusicVoice = {
                 {                                                %! PWC1
                     \hspace                                      %! PWC1
                         #0.0                                     %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "poco scratch circles"               %! PWC1
+                    "poco scratch circles"                       %! PWC1
                 }                                                %! PWC1
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
@@ -4811,9 +4781,7 @@ H_ViolinIIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "“whisk” circles"                    %! PWC1
+                    "“whisk” circles"                            %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -4834,9 +4802,7 @@ H_ViolinIIMusicVoice = {
                 {                                                %! PWC1
                     \hspace                                      %! PWC1
                         #0.0                                     %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "mod. scratch circles"               %! PWC1
+                    "mod. scratch circles"                       %! PWC1
                 }                                                %! PWC1
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
@@ -4914,9 +4880,7 @@ H_ViolinIIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "“whisk” circles"                    %! PWC1
+                    "“whisk” circles"                            %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -4937,9 +4901,7 @@ H_ViolinIIMusicVoice = {
                 {                                                %! PWC1
                     \hspace                                      %! PWC1
                         #0.0                                     %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "molto scratch circles"              %! PWC1
+                    "molto scratch circles"                      %! PWC1
                 }                                                %! PWC1
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
@@ -5309,9 +5271,7 @@ H_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "2” circles"                         %! PWC1
+                    "2” circles"                                 %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -5362,9 +5322,7 @@ H_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "4” circles"                         %! PWC1
+                    "4” circles"                                 %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -5409,9 +5367,7 @@ H_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "6” circles"                         %! PWC1
+                    "6” circles"                                 %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -5467,9 +5423,7 @@ H_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "8” circles"                         %! PWC1
+                    "8” circles"                                 %! PWC1
                     \hspace                                      %! PWC1
                         #0.25                                    %! PWC1
                 }                                                %! PWC1
@@ -5676,9 +5630,7 @@ H_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "“whisk” circles"                    %! PWC1
+                    "“whisk” circles"                            %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -5699,9 +5651,7 @@ H_ViolaMusicVoice = {
                 {                                                %! PWC1
                     \hspace                                      %! PWC1
                         #0.0                                     %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "poco scratch circles"               %! PWC1
+                    "poco scratch circles"                       %! PWC1
                 }                                                %! PWC1
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
@@ -5847,9 +5797,7 @@ H_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "“whisk” circles"                    %! PWC1
+                    "“whisk” circles"                            %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -5870,9 +5818,7 @@ H_ViolaMusicVoice = {
                 {                                                %! PWC1
                     \hspace                                      %! PWC1
                         #0.0                                     %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "mod. scratch circles"               %! PWC1
+                    "mod. scratch circles"                       %! PWC1
                 }                                                %! PWC1
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
@@ -5950,9 +5896,7 @@ H_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "“whisk” circles"                    %! PWC1
+                    "“whisk” circles"                            %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -5973,9 +5917,7 @@ H_ViolaMusicVoice = {
                 {                                                %! PWC1
                     \hspace                                      %! PWC1
                         #0.0                                     %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "molto scratch circles"              %! PWC1
+                    "molto scratch circles"                      %! PWC1
                 }                                                %! PWC1
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
