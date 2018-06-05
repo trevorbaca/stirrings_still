@@ -277,9 +277,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.1]                                    %! IC
+                        [H.1]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -471,9 +469,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.2]                                    %! IC
+                        [H.2]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -562,9 +558,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [I.1]                                    %! IC
+                        [I.1]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -653,9 +647,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.3]                                    %! IC
+                        [H.3]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -783,9 +775,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.4]                                    %! IC
+                        [H.4]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -859,9 +849,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.5]                                    %! IC
+                        [H.5]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -988,9 +976,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.6]                                    %! IC
+                        [H.6]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1114,9 +1100,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.7]                                    %! IC
+                        [H.7]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1243,9 +1227,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.8]                                    %! IC
+                        [H.8]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1509,9 +1491,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.9]                                    %! IC
+                        [H.9]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1759,9 +1739,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.10]                                   %! IC
+                        [H.10]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1869,9 +1847,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.7]                                    %! IC
+                        [C.7]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1995,9 +1971,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.1]                                    %! IC
+                        [H.1]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2120,9 +2094,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.11]                                   %! IC
+                        [H.11]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2266,9 +2238,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.12]                                   %! IC
+                        [H.12]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2500,9 +2470,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.13]                                   %! IC
+                        [H.13]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2695,9 +2663,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.14]                                   %! IC
+                        [H.14]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2836,9 +2802,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [G.5]                                    %! IC
+                        [G.5]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2878,9 +2842,7 @@ H_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.14]                                   %! IC
+                        [H.14]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2969,11 +2931,7 @@ H_ViolinIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             }
         }
-    _ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                III                                              %! IC
-        }                                                        %! IC
+    _ \markup { III }                                            %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -3017,13 +2975,11 @@ H_ViolinIMusicVoice = {
     c'8
     [
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \column                                          %! IC
-                    {                                            %! IC
-                        "one circle every eighth-note;"          %! IC
-                        "'golden' tone"                          %! IC
-                    }                                            %! IC
+        \column                                                  %! IC
+            {                                                    %! IC
+                "one circle every eighth-note;"                  %! IC
+                "'golden' tone"                                  %! IC
+            }                                                    %! IC
         }                                                        %! IC
     
     \set stemLeftBeamCount = 1
@@ -3125,11 +3081,7 @@ H_ViolinIMusicVoice = {
         - \tweak bound-details.right.padding 0.5                 %! PWC1
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "(always one circle per stem)"               %! IC
-            }                                                    %! IC
+        ^ \markup { "(always one circle per stem)" }             %! IC
         
         \hide NoteHead                                           %! SC
         \override Accidental.stencil = ##f                       %! SC
@@ -3353,11 +3305,7 @@ H_ViolinIMusicVoice = {
         c'4
         - \tweak circled-tip ##t                                 %! HC1
         \<                                                       %! HC1
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "8” circles continue"                        %! IC
-            }                                                    %! IC
+        ^ \markup { "8” circles continue" }                      %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -3536,11 +3484,7 @@ H_ViolinIMusicVoice = {
                 }                                                %! PWC1
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "thinking color (no longer width)"           %! IC
-            }                                                    %! IC
+        ^ \markup { "thinking color (no longer width)" }         %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 209/32
@@ -3622,11 +3566,7 @@ H_ViolinIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    _ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                III                                              %! IC
-        }                                                        %! IC
+    _ \markup { III }                                            %! IC
     
     % [H ViolinIMusicVoice measure 494 / measure 36]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -3992,11 +3932,7 @@ H_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "pochiss. scratch"                           %! IC
-            }                                                    %! IC
+        ^ \markup { "pochiss. scratch" }                         %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -4087,11 +4023,7 @@ H_ViolinIIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             }
         }
-    _ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                III                                              %! IC
-        }                                                        %! IC
+    _ \markup { III }                                            %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -4267,11 +4199,7 @@ H_ViolinIIMusicVoice = {
         - \tweak bound-details.right.padding 0.5                 %! PWC1
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "(always one circle per stem)"               %! IC
-            }                                                    %! IC
+        ^ \markup { "(always one circle per stem)" }             %! IC
         
         \hide NoteHead                                           %! SC
         \override Accidental.stencil = ##f                       %! SC
@@ -4422,11 +4350,7 @@ H_ViolinIIMusicVoice = {
         c'4
         - \tweak circled-tip ##t                                 %! HC1
         \<                                                       %! HC1
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "8” circles continue"                        %! IC
-            }                                                    %! IC
+        ^ \markup { "8” circles continue" }                      %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -4590,11 +4514,7 @@ H_ViolinIIMusicVoice = {
                 }                                                %! PWC1
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "thinking color (no longer width)"           %! IC
-            }                                                    %! IC
+        ^ \markup { "thinking color (no longer width)" }         %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 219/32
@@ -4716,11 +4636,7 @@ H_ViolinIIMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    _ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                III                                              %! IC
-        }                                                        %! IC
+    _ \markup { III }                                            %! IC
     
     % [H ViolinIIMusicVoice measure 494 / measure 36]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -5061,11 +4977,7 @@ H_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "pochiss. scratch"                           %! IC
-            }                                                    %! IC
+        ^ \markup { "pochiss. scratch" }                         %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -5157,11 +5069,7 @@ H_ViolaMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             }
         }
-    _ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                III                                              %! IC
-        }                                                        %! IC
+    _ \markup { III }                                            %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -5202,14 +5110,12 @@ H_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \column                                          %! IC
-                    {                                            %! IC
-                        \whiteout                                %! IC
-                            "one circle every half-note;"        %! IC
-                        "'golden' tone"                          %! IC
-                    }                                            %! IC
+        \column                                                  %! IC
+            {                                                    %! IC
+                \whiteout                                        %! IC
+                    "one circle every half-note;"                %! IC
+                "'golden' tone"                                  %! IC
+            }                                                    %! IC
         }                                                        %! IC
     
     \baca_unpitched_music_warning                                %! SM24
@@ -5288,11 +5194,7 @@ H_ViolaMusicVoice = {
         - \tweak bound-details.right.padding 0.5                 %! PWC1
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "(always one circle per stem)"               %! IC
-            }                                                    %! IC
+        ^ \markup { "(always one circle per stem)" }             %! IC
         
         \hide NoteHead                                           %! SC
         \override Accidental.stencil = ##f                       %! SC
@@ -5508,11 +5410,7 @@ H_ViolaMusicVoice = {
     c'4
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "8” circles continue"                            %! IC
-        }                                                        %! IC
+    ^ \markup { "8” circles continue" }                          %! IC
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -5655,11 +5553,7 @@ H_ViolaMusicVoice = {
                 }                                                %! PWC1
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "thinking color (no longer width)"           %! IC
-            }                                                    %! IC
+        ^ \markup { "thinking color (no longer width)" }         %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 477/64
@@ -5732,11 +5626,7 @@ H_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    _ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                III                                              %! IC
-        }                                                        %! IC
+    _ \markup { III }                                            %! IC
     
     % [H ViolaMusicVoice measure 494 / measure 36]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -6048,11 +5938,7 @@ H_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "pochiss. scratch"                               %! IC
-        }                                                        %! IC
+    ^ \markup { "pochiss. scratch" }                             %! IC
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -6139,11 +6025,7 @@ H_CelloMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             }
         }
-    _ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                III                                              %! IC
-        }                                                        %! IC
+    _ \markup { III }                                            %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -6251,12 +6133,10 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startBCPTextSpan
         ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    \override                                    %! IC
-                        #'(box-padding . 0.5)                    %! IC
-                        \box                                     %! IC
-                            "1/2 clt"                            %! IC
+            \override                                            %! IC
+                #'(box-padding . 0.5)                            %! IC
+                \box                                             %! IC
+                    "1/2 clt"                                    %! IC
             }                                                    %! IC
         
         \baca_unpitched_music_warning                            %! SM24
@@ -6395,11 +6275,7 @@ H_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    _ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                IV                                               %! IC
-        }                                                        %! IC
+    _ \markup { IV }                                             %! IC
     
     % [H CelloMusicVoice measure 466 / measure 8]                %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
@@ -6437,11 +6313,7 @@ H_CelloMusicVoice = {
     gf,!4.
     \repeatTie                                                   %! SC
     \f                                                           %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "poco overpressure"                              %! IC
-        }                                                        %! IC
+    ^ \markup { "poco overpressure" }                            %! IC
     
     gf,!4
     \repeatTie                                                   %! SC
@@ -6466,11 +6338,7 @@ H_CelloMusicVoice = {
     gf,!1
     \repeatTie                                                   %! SC
     \ff                                                          %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "molto overpressure"                             %! IC
-        }                                                        %! IC
+    ^ \markup { "molto overpressure" }                           %! IC
     
     % [H CelloMusicVoice measure 476 / measure 18]               %! SM4
     gf,!2
@@ -6591,11 +6459,7 @@ H_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    _ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                III                                              %! IC
-        }                                                        %! IC
+    _ \markup { III }                                            %! IC
     
     % [H CelloMusicVoice measure 494 / measure 36]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -6718,12 +6582,10 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startBCPTextSpan
         ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    \override                                    %! IC
-                        #'(box-padding . 0.5)                    %! IC
-                        \box                                     %! IC
-                            "1/2 clt"                            %! IC
+            \override                                            %! IC
+                #'(box-padding . 0.5)                            %! IC
+                \box                                             %! IC
+                    "1/2 clt"                                    %! IC
             }                                                    %! IC
         
         e,8
@@ -7445,12 +7307,10 @@ H_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startBCPTextSpan
         ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    \override                                    %! IC
-                        #'(box-padding . 0.5)                    %! IC
-                        \box                                     %! IC
-                            "1/2 clt"                            %! IC
+            \override                                            %! IC
+                #'(box-padding . 0.5)                            %! IC
+                \box                                             %! IC
+                    "1/2 clt"                                    %! IC
             }                                                    %! IC
         
         e,8

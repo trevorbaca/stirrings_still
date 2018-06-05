@@ -135,9 +135,7 @@ J_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [J.1]                                    %! IC
+                        [J.1]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -261,9 +259,7 @@ J_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.7]                                    %! IC
+                        [C.7]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -352,9 +348,7 @@ J_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [J.1]                                    %! IC
+                        [J.1]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -481,9 +475,7 @@ J_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [J.2]                                    %! IC
+                        [J.2]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -556,9 +548,7 @@ J_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [J.3]                                    %! IC
+                        [J.3]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -682,9 +672,7 @@ J_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [J.4]                                    %! IC
+                        [J.4]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -723,9 +711,7 @@ J_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [J.5]                                    %! IC
+                        [J.5]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -798,9 +784,7 @@ J_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [J.6]                                    %! IC
+                        [J.6]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -963,9 +947,7 @@ J_ViolinIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "[double-stop cont.]"            %! IC
+                        "[double-stop cont.]"                    %! IC
                     }                                            %! IC
             }
         }
@@ -1001,11 +983,7 @@ J_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "[double-stop cont.]"                            %! IC
-        }                                                        %! IC
+    ^ \markup { "[double-stop cont.]" }                          %! IC
     
     % [J ViolinIMusicVoice measure 526 / measure 5]              %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -1045,11 +1023,7 @@ J_ViolinIMusicVoice = {
     c'2.
     \repeatTie
     \fff                                                         %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "poco scratch"                                   %! IC
-        }                                                        %! IC
+    ^ \markup { "poco scratch" }                                 %! IC
     
     % [J ViolinIMusicVoice measure 532 / measure 11]             %! SM4
     R1 * 7/8
@@ -1119,9 +1093,7 @@ J_ViolinIIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "[double-stop cont.]"            %! IC
+                        "[double-stop cont.]"                    %! IC
                     }                                            %! IC
             }
         }
@@ -1203,11 +1175,7 @@ J_ViolinIIMusicVoice = {
     c'2.
     \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
     \stopTextSpan
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "[double-stop cont.]"                            %! IC
-        }                                                        %! IC
+    ^ \markup { "[double-stop cont.]" }                          %! IC
     
     % [J ViolinIIMusicVoice measure 526 / measure 5]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -1247,11 +1215,7 @@ J_ViolinIIMusicVoice = {
     c'2.
     \repeatTie
     \fff                                                         %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "poco scratch"                                   %! IC
-        }                                                        %! IC
+    ^ \markup { "poco scratch" }                                 %! IC
     
     % [J ViolinIIMusicVoice measure 532 / measure 11]            %! SM4
     R1 * 7/8
@@ -1325,9 +1289,7 @@ J_ViolaMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "[double-stop cont.]"            %! IC
+                        "[double-stop cont.]"                    %! IC
                     }                                            %! IC
             }
         }
@@ -1363,11 +1325,7 @@ J_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "[double-stop cont.]"                            %! IC
-        }                                                        %! IC
+    ^ \markup { "[double-stop cont.]" }                          %! IC
     
     % [J ViolaMusicVoice measure 526 / measure 5]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -1407,11 +1365,7 @@ J_ViolaMusicVoice = {
     c'2.
     \repeatTie
     \fff                                                         %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "poco scratch"                                   %! IC
-        }                                                        %! IC
+    ^ \markup { "poco scratch" }                                 %! IC
     
     % [J ViolaMusicVoice measure 532 / measure 11]               %! SM4
     R1 * 7/8
@@ -1543,11 +1497,7 @@ J_CelloMusicVoice = {
     c'2.
     \repeatTie
     \fff                                                         %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "poco scratch"                                   %! IC
-        }                                                        %! IC
+    ^ \markup { "poco scratch" }                                 %! IC
     
     % [J CelloMusicVoice measure 532 / measure 11]               %! SM4
     R1 * 7/8

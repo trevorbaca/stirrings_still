@@ -165,9 +165,7 @@ P_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [P.1]                                    %! IC
+                        [P.1]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -309,9 +307,7 @@ P_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [P.2]                                    %! IC
+                        [P.2]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -523,9 +519,7 @@ P_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [P.3]                                    %! IC
+                        [P.3]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -772,9 +766,7 @@ P_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [P.4]                                    %! IC
+                        [P.4]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -986,9 +978,7 @@ P_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [P.5]                                    %! IC
+                        [P.5]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1219,9 +1209,7 @@ P_ViolinIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tasto [TODO: clouded pane fixed pitches]" %! IC
+                        "tasto [TODO: clouded pane fixed pitches]" %! IC
                     }                                            %! IC
             }
         }
@@ -1484,11 +1472,7 @@ P_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2
     \ppppp                                                       %! PWC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto [TODO: clouded pane fixed pitches]"       %! IC
-        }                                                        %! IC
+    ^ \markup { "tasto [TODO: clouded pane fixed pitches]" }     %! IC
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
@@ -1916,9 +1900,7 @@ P_ViolinIIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tasto [TODO: clouded pane fixed pitches]" %! IC
+                        "tasto [TODO: clouded pane fixed pitches]" %! IC
                     }                                            %! IC
             }
         }
@@ -2170,11 +2152,7 @@ P_ViolinIIMusicVoice = {
     % [P ViolinIIMusicVoice measure 696 / measure 11]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto [TODO: clouded pane fixed pitches]"       %! IC
-        }                                                        %! IC
+    ^ \markup { "tasto [TODO: clouded pane fixed pitches]" }     %! IC
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
@@ -2607,9 +2585,7 @@ P_ViolaMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tasto [TODO: clouded pane fixed pitches]" %! IC
+                        "tasto [TODO: clouded pane fixed pitches]" %! IC
                     }                                            %! IC
             }
         }
@@ -2853,11 +2829,7 @@ P_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2
     \ppppp                                                       %! PWC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto [TODO: clouded pane fixed pitches]"       %! IC
-        }                                                        %! IC
+    ^ \markup { "tasto [TODO: clouded pane fixed pitches]" }     %! IC
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
@@ -3257,9 +3229,7 @@ P_CelloMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tasto [TODO: clouded pane fixed pitches]" %! IC
+                        "tasto [TODO: clouded pane fixed pitches]" %! IC
                     }                                            %! IC
             }
         }
@@ -3493,11 +3463,7 @@ P_CelloMusicVoice = {
     % [P CelloMusicVoice measure 696 / measure 11]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto [TODO: clouded pane fixed pitches]"       %! IC
-        }                                                        %! IC
+    ^ \markup { "tasto [TODO: clouded pane fixed pitches]" }     %! IC
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
