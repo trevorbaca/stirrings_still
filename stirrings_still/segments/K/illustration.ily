@@ -246,9 +246,7 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [K.1]                                    %! IC
+                        [K.1]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -372,9 +370,7 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [C.14]                                   %! IC
+                        [C.14]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -498,9 +494,7 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [K.1]                                    %! IC
+                        [K.1]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -539,9 +533,7 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [K.2]                                    %! IC
+                        [K.2]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -650,9 +642,7 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [K.3]                                    %! IC
+                        [K.3]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -760,9 +750,7 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [K.4]                                    %! IC
+                        [K.4]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -871,9 +859,7 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [K.5]                                    %! IC
+                        [K.5]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1036,9 +1022,7 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [K.6]                                    %! IC
+                        [K.6]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1246,9 +1230,7 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.13]                                   %! IC
+                        [H.13]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1337,9 +1319,7 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [I.6]                                    %! IC
+                        [I.6]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1428,9 +1408,7 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [H.13]                                   %! IC
+                        [H.13]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1469,9 +1447,7 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [K.7]                                    %! IC
+                        [K.7]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1807,9 +1783,7 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [K.8]                                    %! IC
+                        [K.8]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2072,9 +2046,7 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [K.9]                                    %! IC
+                        [K.9]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2302,9 +2274,7 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [K.5]                                    %! IC
+                        [K.5]                                            %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2413,9 +2383,7 @@ K_GlobalSkips = {
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
                 \line                                                    %! IC
                     {                                                    %! IC
-                        \whiteout                                        %! IC
-                            \upright                                     %! IC
-                                [K.10]                                   %! IC
+                        [K.10]                                           %! IC
                     }                                                    %! IC
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -2745,12 +2713,10 @@ K_ViolinIMusicVoice = {
                         }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    \override                    %! IC
-                                        #'(box-padding . 0.5)    %! IC
-                                        \box                     %! IC
-                                            "1/2 clt"            %! IC
+                            \override                            %! IC
+                                #'(box-padding . 0.5)            %! IC
+                                \box                             %! IC
+                                    "1/2 clt"                    %! IC
                         }                                        %! IC
                 }
             }
@@ -2965,8 +2931,9 @@ K_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \musicglyph                                      %! PWC1
-                    #"noteheads.s0harmonic"                      %! PWC1
+                \upright                                         %! PWC1
+                    \musicglyph                                  %! PWC1
+                        #"noteheads.s0harmonic"                  %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -2983,11 +2950,7 @@ K_ViolinIMusicVoice = {
     - \tweak bound-details.right.padding 0.5                     %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
     \startTextSpan                                               %! PWC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "hair: circles (each as wide as poss.)"          %! IC
-        }                                                        %! IC
+    ^ \markup { "hair: circles (each as wide as poss.)" }        %! IC
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
@@ -3005,8 +2968,9 @@ K_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \musicglyph                                      %! PWC1
-                    #"noteheads.s2harmonic"                      %! PWC1
+                \upright                                         %! PWC1
+                    \musicglyph                                  %! PWC1
+                        #"noteheads.s2harmonic"                  %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -3110,12 +3074,10 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startBCPTextSpan
         ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    \override                                    %! IC
-                        #'(box-padding . 0.5)                    %! IC
-                        \box                                     %! IC
-                            "1/2 clt"                            %! IC
+            \override                                            %! IC
+                #'(box-padding . 0.5)                            %! IC
+                \box                                             %! IC
+                    "1/2 clt"                                    %! IC
             }                                                    %! IC
         
         \baca_unpitched_music_warning                            %! SM24
@@ -3944,12 +3906,10 @@ K_ViolinIIMusicVoice = {
                         }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    \override                    %! IC
-                                        #'(box-padding . 0.5)    %! IC
-                                        \box                     %! IC
-                                            "1/2 clt"            %! IC
+                            \override                            %! IC
+                                #'(box-padding . 0.5)            %! IC
+                                \box                             %! IC
+                                    "1/2 clt"                    %! IC
                         }                                        %! IC
                 }
             }
@@ -4131,8 +4091,9 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \musicglyph                                  %! PWC1
-                        #"noteheads.s0harmonic"                  %! PWC1
+                    \upright                                     %! PWC1
+                        \musicglyph                              %! PWC1
+                            #"noteheads.s0harmonic"              %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -4149,11 +4110,7 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right.padding 0.5                 %! PWC1
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "hair: circles (each as wide as poss.)"      %! IC
-            }                                                    %! IC
+        ^ \markup { "hair: circles (each as wide as poss.)" }    %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -4171,8 +4128,9 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \musicglyph                                  %! PWC1
-                        #"noteheads.s2harmonic"                  %! PWC1
+                    \upright                                     %! PWC1
+                        \musicglyph                              %! PWC1
+                            #"noteheads.s2harmonic"              %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -4269,12 +4227,10 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startBCPTextSpan
         ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    \override                                    %! IC
-                        #'(box-padding . 0.5)                    %! IC
-                        \box                                     %! IC
-                            "1/2 clt"                            %! IC
+            \override                                            %! IC
+                #'(box-padding . 0.5)                            %! IC
+                \box                                             %! IC
+                    "1/2 clt"                                    %! IC
             }                                                    %! IC
         
         \baca_unpitched_music_warning                            %! SM24
@@ -5164,12 +5120,10 @@ K_ViolaMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                \override                        %! IC
-                                    #'(box-padding . 0.5)        %! IC
-                                    \box                         %! IC
-                                        "1/2 clt"                %! IC
+                        \override                                %! IC
+                            #'(box-padding . 0.5)                %! IC
+                            \box                                 %! IC
+                                "1/2 clt"                        %! IC
                     }                                            %! IC
             }
         }
@@ -5326,8 +5280,9 @@ K_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \musicglyph                                      %! PWC1
-                    #"noteheads.s0harmonic"                      %! PWC1
+                \upright                                         %! PWC1
+                    \musicglyph                                  %! PWC1
+                        #"noteheads.s0harmonic"                  %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -5344,11 +5299,7 @@ K_ViolaMusicVoice = {
     - \tweak bound-details.right.padding 0.5                     %! PWC1
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
     \startTextSpan                                               %! PWC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "hair: circles (each as wide as poss.)"          %! IC
-        }                                                        %! IC
+    ^ \markup { "hair: circles (each as wide as poss.)" }        %! IC
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -5363,8 +5314,9 @@ K_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \musicglyph                                      %! PWC1
-                    #"noteheads.s2harmonic"                      %! PWC1
+                \upright                                         %! PWC1
+                    \musicglyph                                  %! PWC1
+                        #"noteheads.s2harmonic"                  %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -5437,12 +5389,10 @@ K_ViolaMusicVoice = {
     \effort_mp                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        "tailpiece: poco flicker"                %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                "tailpiece: poco flicker"                        %! IC
         }                                                        %! IC
     
     c'8
@@ -5678,12 +5628,10 @@ K_CelloMusicVoice = {
                         }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     \line                                        %! IC
                         {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    \override                    %! IC
-                                        #'(box-padding . 0.5)    %! IC
-                                        \box                     %! IC
-                                            "1/2 clt"            %! IC
+                            \override                            %! IC
+                                #'(box-padding . 0.5)            %! IC
+                                \box                             %! IC
+                                    "1/2 clt"                    %! IC
                         }                                        %! IC
                 }
             }
@@ -5878,8 +5826,9 @@ K_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \musicglyph                                  %! PWC1
-                        #"noteheads.s0harmonic"                  %! PWC1
+                    \upright                                     %! PWC1
+                        \musicglyph                              %! PWC1
+                            #"noteheads.s0harmonic"              %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -5896,11 +5845,7 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right.padding 0.5                 %! PWC1
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "hair: circles (each as wide as poss.)"      %! IC
-            }                                                    %! IC
+        ^ \markup { "hair: circles (each as wide as poss.)" }    %! IC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -5912,8 +5857,9 @@ K_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \musicglyph                                  %! PWC1
-                        #"noteheads.s2harmonic"                  %! PWC1
+                    \upright                                     %! PWC1
+                        \musicglyph                              %! PWC1
+                            #"noteheads.s2harmonic"              %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -6002,12 +5948,10 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center
         \startBCPTextSpan
         ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    \override                                    %! IC
-                        #'(box-padding . 0.5)                    %! IC
-                        \box                                     %! IC
-                            "1/2 clt"                            %! IC
+            \override                                            %! IC
+                #'(box-padding . 0.5)                            %! IC
+                \box                                             %! IC
+                    "1/2 clt"                                    %! IC
             }                                                    %! IC
         
         \baca_unpitched_music_warning                            %! SM24

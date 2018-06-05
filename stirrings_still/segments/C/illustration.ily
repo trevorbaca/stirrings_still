@@ -4610,10 +4610,10 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -4790,10 +4790,10 @@ C_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            \upright
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
                                 damp
                     \hspace
                         #0.5
@@ -4942,10 +4942,10 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -5075,10 +5075,10 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -5206,10 +5206,10 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -5325,7 +5325,8 @@ C_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    "8” circles"
+                    \upright
+                        "8” circles"
                     \hspace
                         #0.5
                 }
@@ -5348,10 +5349,10 @@ C_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            \upright
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
                                 damp
                     \hspace
                         #0.5
@@ -5492,7 +5493,8 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -5515,10 +5517,10 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -5606,7 +5608,8 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -5629,7 +5632,8 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "[triple -> double -> single harmonic]"
+                \upright
+                    "[triple -> double -> single harmonic]"
                 \hspace
                     #0.5
             }
@@ -5893,7 +5897,8 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -5916,7 +5921,8 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "[harmonic -> half -> stopped]"
+                \upright
+                    "[harmonic -> half -> stopped]"
                 \hspace
                     #0.5
             }
@@ -5997,7 +6003,8 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "[double-stop field]"
+                \upright
+                    "[double-stop field]"
                 \hspace
                     #0.5
             }
@@ -6033,7 +6040,8 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -6056,7 +6064,8 @@ C_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "[TODO: jeux des terminaisons ...]"
+                \upright
+                    "[TODO: jeux des terminaisons ...]"
                 \hspace
                     #0.5
             }
@@ -6394,10 +6403,10 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -6558,10 +6567,10 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -6695,10 +6704,10 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -6811,10 +6820,10 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -6925,10 +6934,10 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -7024,7 +7033,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -7047,10 +7057,10 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -7140,10 +7150,10 @@ C_ViolinIIMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            \upright
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
                                 "lhd + 1/2 clt"
                     \hspace
                         #0.5
@@ -7209,7 +7219,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -7232,10 +7243,10 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -7323,7 +7334,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -7346,7 +7358,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "[triple -> double -> single harmonic]"
+                \upright
+                    "[triple -> double -> single harmonic]"
                 \hspace
                     #0.5
             }
@@ -7616,7 +7629,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -7639,7 +7653,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "[harmonic -> half -> stopped]"
+                \upright
+                    "[harmonic -> half -> stopped]"
                 \hspace
                     #0.5
             }
@@ -7724,7 +7739,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "[double-stop field]"
+                \upright
+                    "[double-stop field]"
                 \hspace
                     #0.5
             }
@@ -7760,7 +7776,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -7783,7 +7800,8 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "[TODO: jeux des terminaisons ...]"
+                \upright
+                    "[TODO: jeux des terminaisons ...]"
                 \hspace
                     #0.5
             }
@@ -8089,10 +8107,10 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            \upright
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
                                 damp
                     \hspace
                         #0.5
@@ -8281,10 +8299,10 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            \upright
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
                                 damp
                     \hspace
                         #0.5
@@ -8445,10 +8463,10 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            \upright
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
                                 damp
                     \hspace
                         #0.5
@@ -8591,10 +8609,10 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            \upright
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
                                 damp
                     \hspace
                         #0.5
@@ -8734,10 +8752,10 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            \upright
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
                                 damp
                     \hspace
                         #0.5
@@ -8868,7 +8886,8 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    "8” circles"
+                    \upright
+                        "8” circles"
                     \hspace
                         #0.5
                 }
@@ -8891,10 +8910,10 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            \upright
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
                                 damp
                     \hspace
                         #0.5
@@ -9046,7 +9065,8 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -9069,10 +9089,10 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -9160,7 +9180,8 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -9183,7 +9204,8 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "[triple -> double -> single harmonic]"
+                \upright
+                    "[triple -> double -> single harmonic]"
                 \hspace
                     #0.5
             }
@@ -9453,7 +9475,8 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -9476,7 +9499,8 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "[harmonic -> half -> stopped]"
+                \upright
+                    "[harmonic -> half -> stopped]"
                 \hspace
                     #0.5
             }
@@ -9561,7 +9585,8 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "[double-stop field]"
+                \upright
+                    "[double-stop field]"
                 \hspace
                     #0.5
             }
@@ -9597,7 +9622,8 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -9620,7 +9646,8 @@ C_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "[TODO: jeux des terminaisons ...]"
+                \upright
+                    "[TODO: jeux des terminaisons ...]"
                 \hspace
                     #0.5
             }
@@ -9975,10 +10002,10 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -10102,10 +10129,10 @@ C_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            \upright
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
                                 damp
                     \hspace
                         #0.5
@@ -10230,10 +10257,10 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -10345,10 +10372,10 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -10458,10 +10485,10 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -10554,7 +10581,8 @@ C_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    "8” circles"
+                    \upright
+                        "8” circles"
                     \hspace
                         #0.5
                 }
@@ -10577,10 +10605,10 @@ C_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            \upright
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
                                 damp
                     \hspace
                         #0.5
@@ -10698,7 +10726,8 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -10721,10 +10750,10 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             damp
                 \hspace
                     #0.5
@@ -10815,7 +10844,8 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -10838,7 +10868,8 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "[triple -> double -> single harmonic]"
+                \upright
+                    "[triple -> double -> single harmonic]"
                 \hspace
                     #0.5
             }
@@ -11108,7 +11139,8 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -11131,7 +11163,8 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "[harmonic -> half -> stopped]"
+                \upright
+                    "[harmonic -> half -> stopped]"
                 \hspace
                     #0.5
             }
@@ -11234,7 +11267,8 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "8” circles"
+                \upright
+                    "8” circles"
                 \hspace
                     #0.5
             }
@@ -11257,7 +11291,8 @@ C_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                "[TODO: jeux des terminaisons ...]"
+                \upright
+                    "[TODO: jeux des terminaisons ...]"
                 \hspace
                     #0.5
             }

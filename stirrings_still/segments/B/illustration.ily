@@ -4469,10 +4469,10 @@ B_ViolinIMusicVoice = {
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \override
-                    #'(box-padding . 0.5)
-                    \box
-                        \upright
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
                             "lhd + 1/2 clt"
                 \hspace
                     #0.5
@@ -5403,10 +5403,10 @@ B_ViolinIIMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            \upright
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
                                 "lhd + 1/2 clt"
                     \hspace
                         #0.5
@@ -6420,10 +6420,10 @@ B_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            \upright
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
                                 "lhd + 1/2 clt"
                     \hspace
                         #0.5
@@ -7144,10 +7144,10 @@ B_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            \upright
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
                                 "lhd + 1/2 clt"
                     \hspace
                         #0.5

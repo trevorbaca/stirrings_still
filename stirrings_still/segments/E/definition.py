@@ -97,7 +97,7 @@ maker(
     (['v1', 'v2', 'va'], (1, 2)),
     baca.dynamic('p'),
     baca.text_spanner(
-        baca.markups.lhd_plus_half_clt().upright().boxed(),
+        baca.markups.lhd_plus_half_clt().boxed(),
         right_padding=1.75,
         selector=baca.rleaves(),
         ),
