@@ -55,10 +55,10 @@ maker(
         pieces=baca.leaves().enchain([3, 2]),
         ), 1),
     (baca.hairpin('f > niente', selector=baca.rleaves()[-2:]), 1),
-    (baca.markup.markup('[clouded pane partials (double-stop)]'), (0, 1)),
+    (baca.markups.markup('[clouded pane partials (double-stop)]'), (0, 1)),
     (baca.hairpin('p < ff', selector=baca.notes()[:2]), 2),
     (baca.hairpin('ff > niente', selector=baca.rleaves()[-2:]), 2),
-    (baca.markup.markup('[clouded pane fundamental]'), 2),
+    (baca.markups.markup('[clouded pane fundamental]'), 2),
     )
 
 maker(
@@ -67,7 +67,7 @@ maker(
         baca.hairpin('niente < "mp"', selector=baca.notes()[:2]),
         baca.hairpin_shorten_pair((0.75, 0)),
         ],
-    baca.markup.terminate_abruptly(baca.pleaf(-1)),
+    baca.markups.terminate_abruptly(baca.pleaf(-1)),
     stirrings_still.tailpiece(),
     )
 
@@ -79,5 +79,5 @@ maker(
     (stirrings_still.desynchronization(4, [2]), 2),
     (stirrings_still.desynchronization(4, [-1]), 3),
     baca.dynamic('mp'),
-    baca.markup.markup('maximally tight crunch circles: grind at talon'),
+    baca.markups.markup('maximally tight crunch circles: grind at talon'),
     )

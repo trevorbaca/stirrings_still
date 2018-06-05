@@ -35,7 +35,7 @@ TO-DO
     make sure flat glissando extends without gaps;
     add to library as baca.make_filled_extent().
 
-4.  Allow baca.markup.crine.boxed() instead of baca.markup.boxed('crine').
+4.  Allow baca.markups.crine.boxed() instead of baca.markups.boxed('crine').
 
 5.  Analyze volta application.
 

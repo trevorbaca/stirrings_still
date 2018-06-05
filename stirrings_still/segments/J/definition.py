@@ -50,7 +50,7 @@ stirrings_still.time(maker, time)
 maker(
     (['v1', 'v2', 'va'], (1, 2)),
     baca.dynamic('appena_udibile'),
-    baca.markup.markup('[double-stop cont.]'),
+    baca.markups.markup('[double-stop cont.]'),
     stirrings_still.urtext_field(),
     )
 
@@ -65,7 +65,7 @@ maker(
     ('v2', 3),
     baca.dynamic('mp'),
     baca.text_spanner(
-        baca.markup.boxed('LHD + 1/2 clt'),
+        baca.markups.boxed('LHD + 1/2 clt'),
         right_padding=1.75,
         selector=baca.rleaves(),
         ),
@@ -76,7 +76,7 @@ maker(
 maker(
     (['v1', 'v2', 'va'], (4, 10)),
     baca.dynamic('appena_udibile'),
-    baca.markup.markup('[double-stop cont.]'),
+    baca.markups.markup('[double-stop cont.]'),
     stirrings_still.urtext_field(),
     )
 
@@ -97,5 +97,5 @@ maker(
 
 maker(
     ('tutti', 10),
-    baca.markup.poco_scratch(),
+    baca.markups.poco_scratch(),
     )

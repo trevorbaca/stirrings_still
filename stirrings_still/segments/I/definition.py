@@ -52,19 +52,19 @@ maker(
 
 maker(
     ('v1', (1, 7)),
-    baca.markup.markup('8” cir./stem; golden tone'),
+    baca.markups.markup('8” cir./stem; golden tone'),
     stirrings_still.circles((1, 8)),
     )
 
 maker(
     ('v2', (1, 7)),
-    baca.markup.markup('8” cir./stem; golden tone'),
+    baca.markups.markup('8” cir./stem; golden tone'),
     stirrings_still.circles((1, 4)),
     )
 
 maker(
     ('va', (1, 7)),
-    baca.markup.markup('8” cir./stem; golden tone'),
+    baca.markups.markup('8” cir./stem; golden tone'),
     stirrings_still.circles(
         (1, 2),
         division_mask=rmakers.silence([0]),
@@ -97,7 +97,7 @@ maker(
         pieces=baca.group_by_measures([5, 4, 2]),
         ),
     baca.text_spanner(
-        baca.markup.boxed('1/2 clt'),
+        baca.markups.boxed('1/2 clt'),
         leak=True,
         lilypond_id=1,
         tweaks=[('staff-padding', 12)],

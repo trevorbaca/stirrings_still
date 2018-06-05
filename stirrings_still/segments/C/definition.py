@@ -108,9 +108,9 @@ maker(
     (stirrings_still.desynchronization(4, [2]), 2),
     (stirrings_still.desynchronization(4, [-1]), 3),
     baca.dynamic('"ff"'),
-    baca.markup.markup('maximally tight crunch circles: grind at talon'),
+    baca.markups.markup('maximally tight crunch circles: grind at talon'),
     baca.text_spanner(
-        baca.markup.boxed('damp'),
+        baca.markups.boxed('damp'),
         leak=True,
         right_padding=3.25,
         tweaks=[('staff-padding', 7)],
@@ -120,8 +120,8 @@ maker(
 maker(
     (['v1', 'v2'], 5),
     baca.dynamic('mp'),
-    baca.markup.markup('[urtext double stop]'),
-    baca.markup.loure(),
+    baca.markups.markup('[urtext double stop]'),
+    baca.markups.loure(),
     (stirrings_still.loure_tuplets(0), 0),
     (stirrings_still.loure_tuplets(1), 1),
     )
@@ -129,14 +129,14 @@ maker(
 maker(
     ('va', 5),
     baca.dynamic('mp'),
-    baca.markup.markup('[clouded partial (stopped)]'),
-    baca.markup.loure(),
+    baca.markups.markup('[clouded partial (stopped)]'),
+    baca.markups.loure(),
     stirrings_still.loure_tuplets(-1),
     )
 
 maker(
     ('vc', 5),
-    baca.markup.markup('[clouded pane (stopped)]'),
+    baca.markups.markup('[clouded pane (stopped)]'),
     baca.hairpin_swell('f', [2], selector=baca.rleaves()),
     stirrings_still.taper((1, 1)),
     )
@@ -144,9 +144,9 @@ maker(
 maker(
     ('tutti', (7, 10)),
     baca.dynamic('p'),
-    baca.markup.markup('maximally tight crunch circles: grind at talon'),
+    baca.markups.markup('maximally tight crunch circles: grind at talon'),
     baca.text_spanner(
-        baca.markup.boxed('damp'),
+        baca.markups.boxed('damp'),
         leak=True,
         right_padding=3.25,
         tweaks=[('staff-padding', 7)],
@@ -162,14 +162,14 @@ maker(
     ('tutti', (12, 15)),
     baca.dynamic('p', redundant=True),
     baca.transition(
-        baca.markup.markup('max. tight cir.'),
-        baca.markup.markup('1-2” circles'),
+        baca.markups.markup('max. tight cir.'),
+        baca.markups.markup('1-2” circles'),
         do_not_bookend=True,
         pieces=baca.group_notes_by_measures([2]),
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
-        baca.markup.boxed('damp'),
+        baca.markups.boxed('damp'),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
@@ -185,14 +185,14 @@ maker(
     ('tutti', (16, 19)),
     baca.dynamic('p', redundant=True),
     baca.transition(
-        baca.markup.markup('1-2” circles'),
-        baca.markup.markup('2-4” circles'),
+        baca.markups.markup('1-2” circles'),
+        baca.markups.markup('2-4” circles'),
         do_not_bookend=True,
         pieces=baca.group_notes_by_measures([2]),
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
-        baca.markup.boxed('damp'),
+        baca.markups.boxed('damp'),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
@@ -208,14 +208,14 @@ maker(
     ('tutti', (20, 23)),
     baca.dynamic('p', redundant=True),
     baca.transition(
-        baca.markup.markup('2-4” circles'),
-        baca.markup.markup('4-8” circles'),
+        baca.markups.markup('2-4” circles'),
+        baca.markups.markup('4-8” circles'),
         do_not_bookend=True,
         pieces=baca.group_notes_by_measures([2]),
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
-        baca.markup.boxed('damp'),
+        baca.markups.boxed('damp'),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
@@ -231,13 +231,13 @@ maker(
     ('tutti', (24, 27)),
     baca.dynamic('p', redundant=True),
     baca.text_spanner(
-        baca.markup.markup('8” circles'),
+        baca.markups.markup('8” circles'),
         leak=True,
         right_padding=3.25,
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
-        baca.markup.boxed('damp'),
+        baca.markups.boxed('damp'),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
@@ -252,7 +252,7 @@ maker(
 maker(
     (['v1', 'va', 'vc'], (28, 29)),
     baca.dynamic('pp'),
-    baca.markup.boxed_lines(['[clouded pane:', 'shin. beacon]']),
+    baca.markups.boxed_lines(['[clouded pane:', 'shin. beacon]']),
     baca.note_head_style_harmonic(),
     (stirrings_still.clouded_pane(), 0),
     (stirrings_still.clouded_pane(), 1),
@@ -262,9 +262,9 @@ maker(
 maker(
     ('v2', (28, 29)),
     baca.dynamic('mp'),
-    baca.markup.markup('[clockticks]'),
+    baca.markups.markup('[clockticks]'),
     baca.text_spanner(
-        baca.markup.boxed('damp + 1/2 clt'),
+        baca.markups.boxed('damp + 1/2 clt'),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
@@ -278,13 +278,13 @@ maker(
     baca.breathe_after(),
     baca.hairpin('mf > pp'),
     baca.text_spanner(
-        baca.markup.markup('8” circles'),
+        baca.markups.markup('8” circles'),
         leak=True,
         right_padding=3.25,
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
-        baca.markup.boxed('damp'),
+        baca.markups.boxed('damp'),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
@@ -297,7 +297,7 @@ maker(
     ('vc', (34, 35)),
     baca.breathe_after(),
     baca.dynamic('p'),
-    baca.markup.markup('[clouded pane revelation]'),
+    baca.markups.markup('[clouded pane revelation]'),
     stirrings_still.clouded_pane(),
     )
 
@@ -306,13 +306,13 @@ maker(
 maker(
     ('tutti', (36, 55)),
     baca.text_spanner(
-        baca.markup.markup('8” circles'),
+        baca.markups.markup('8” circles'),
         leak=True,
         right_padding=3.25,
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
-        baca.markup.markup('[triple -> double -> single harmonic]'),
+        baca.markups.markup('[triple -> double -> single harmonic]'),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
@@ -357,13 +357,13 @@ maker(
     baca.breathe_after(),
     baca.dynamic('ff', redundant=True),
     baca.text_spanner(
-        baca.markup.markup('8” circles'),
+        baca.markups.markup('8” circles'),
         leak=True,
         right_padding=3.25,
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
-        baca.markup.markup('[harmonic -> half -> stopped]'),
+        baca.markups.markup('[harmonic -> half -> stopped]'),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
@@ -380,7 +380,7 @@ maker(
     baca.breathe_after(),
     baca.dynamic('appena_udibile'),
     baca.text_spanner(
-        baca.markup.markup('[double-stop field]'),
+        baca.markups.markup('[double-stop field]'),
         leak=True,
         right_padding=3.25,
         tweaks=[('staff-padding', 4)],
@@ -392,13 +392,13 @@ maker(
     ('tutti', (62, 69)),
     baca.dynamic('p'),
     baca.text_spanner(
-        baca.markup.markup('8” circles'),
+        baca.markups.markup('8” circles'),
         leak=True,
         right_padding=3.25,
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
-        baca.markup.markup('[TODO: jeux des terminaisons ...]'),
+        baca.markups.markup('[TODO: jeux des terminaisons ...]'),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
@@ -411,8 +411,8 @@ maker(
     ('tutti', (71, 76)),
     baca.hairpin('f > niente'),
     baca.transition(
-        baca.markup.markup('8” circles'),
-        baca.markup.markup('2” circles'),
+        baca.markups.markup('8” circles'),
+        baca.markups.markup('2” circles'),
         do_not_bookend=True,
         pieces=baca.group_notes_by_measures([3]),
         tweaks=[('staff-padding', 4)],
