@@ -110,7 +110,7 @@ maker(
     baca.dynamic('"ff"'),
     baca.markup('maximally tight crunch circles: grind at talon'),
     baca.text_spanner(
-        baca.markups.boxed('damp'),
+        baca.markups.damp().upright().boxed(),
         leak=True,
         right_padding=3.25,
         tweaks=[('staff-padding', 7)],
@@ -146,7 +146,7 @@ maker(
     baca.dynamic('p'),
     baca.markup('maximally tight crunch circles: grind at talon'),
     baca.text_spanner(
-        baca.markups.boxed('damp'),
+        baca.markups.damp().upright().boxed(),
         leak=True,
         right_padding=3.25,
         tweaks=[('staff-padding', 7)],
@@ -169,7 +169,7 @@ maker(
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
-        baca.markups.boxed('damp'),
+        baca.markups.damp().upright().boxed(),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
@@ -192,7 +192,7 @@ maker(
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
-        baca.markups.boxed('damp'),
+        baca.markups.damp().upright().boxed(),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
@@ -215,7 +215,7 @@ maker(
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
-        baca.markups.boxed('damp'),
+        baca.markups.damp().upright().boxed(),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
@@ -231,13 +231,14 @@ maker(
     ('tutti', (24, 27)),
     baca.dynamic('p', redundant=True),
     baca.text_spanner(
+        # TODO: forbid indicator command in favor of markup:
         baca.markup('8” circles'),
         leak=True,
         right_padding=3.25,
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
-        baca.markups.boxed('damp'),
+        baca.markups.damp().upright().boxed(),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
@@ -252,7 +253,7 @@ maker(
 maker(
     (['v1', 'va', 'vc'], (28, 29)),
     baca.dynamic('pp'),
-    baca.markups.boxed_lines(['[clouded pane:', 'shin. beacon]']),
+    baca.markups.lines(['[clouded pane:', 'shin. beacon]']).boxed(),
     baca.note_head_style_harmonic(),
     (stirrings_still.clouded_pane(), 0),
     (stirrings_still.clouded_pane(), 1),
@@ -264,7 +265,7 @@ maker(
     baca.dynamic('mp'),
     baca.markup('[clockticks]'),
     baca.text_spanner(
-        baca.markups.boxed('damp + 1/2 clt'),
+        baca.markups.lhd_plus_half_clt().upright().boxed(),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,
@@ -284,7 +285,7 @@ maker(
         tweaks=[('staff-padding', 4)],
         ),
     baca.text_spanner(
-        baca.markups.boxed('damp'),
+        baca.markups.damp().upright().boxed(),
         leak=True,
         lilypond_id=1,
         right_padding=3.25,

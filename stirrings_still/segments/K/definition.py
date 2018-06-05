@@ -73,7 +73,7 @@ maker(
     (stirrings_still.trajectories('B', -2, -2), 2),
     (stirrings_still.trajectories('B', -3, -3), 3),
     baca.dynamic('pp'),
-    baca.markups.boxed('1/2 clt'),
+    baca.markups.half_clt().boxed(),
     baca.not_segment(baca.dynamic_text_left()),
     baca.text_script_parent_center(),
     baca.text_script_staff_padding(11),
@@ -126,7 +126,7 @@ maker(
     (stirrings_still.bcps(rotation=-3), -1),
     baca.dynamic('pp'),
     baca.dynamic_text_left(),
-    baca.markups.boxed('1/2 clt'),
+    baca.markups.half_clt().boxed(),
     baca.text_script_parent_center(),
     baca.text_script_staff_padding(11),
     baca.text_spanner_staff_padding(7),
@@ -140,7 +140,9 @@ maker(
         baca.dynamic_text_left(),
         ],
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-    baca.markups.boxed('tailpiece: poco flicker'),
+    baca.markup(
+        baca.markups.markup('tailpiece: poco flicker').boxed(),
+        ),
     baca.repeat_tie_up(),
     baca.staff_position(0),
     baca.suite(

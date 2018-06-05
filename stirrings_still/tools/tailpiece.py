@@ -8,7 +8,7 @@ def tailpiece():
     """
     return [
         baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-        baca.markups.boxed('tailpiece'),
+        baca.markups.tailpiece().boxed(),
         baca.repeat_tie_up(),
         baca.staff_position(0),
         baca.suite(

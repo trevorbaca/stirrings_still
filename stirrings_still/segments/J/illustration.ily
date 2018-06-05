@@ -1156,12 +1156,11 @@ J_ViolinIIMusicVoice = {
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \whiteout
-                        \upright
-                            \override
-                                #'(box-padding . 0.5)
-                                \box
-                                    "LHD + 1/2 clt"
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
+                            \upright
+                                "lhd + 1/2 clt"
                     \hspace
                         #0.5
                 }
