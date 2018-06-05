@@ -19,8 +19,8 @@ maker(
     'GlobalSkips',
     baca.rehearsal_mark(
         'A',
+        abjad.tweak(12).Y_offset,
         selector=baca.skip(18 - 1),
-        tweaks=[('Y-offset', 12)],
         ),
     baca.text_script_extra_offset((0, 5)),
     )

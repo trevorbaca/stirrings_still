@@ -19,7 +19,7 @@ maker(
     'GlobalSkips',
     baca.rehearsal_mark(
         'S',
-        tweaks=[('Y-offset', 12)],
+        abjad.tweak(12).Y_offset,
         ),
     )
 
