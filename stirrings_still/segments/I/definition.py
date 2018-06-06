@@ -78,13 +78,22 @@ maker(
     stirrings_still.eighths(),
     )
 
-for n in range(1, 6 + 1):
-    maker(
-        ('vc', n),
-        stirrings_still.transition_bcps(
-            abjad.tweak(7).staff_padding,
-            ),
-        )
+#for n in range(1, 6 + 1):
+#    maker(
+#        ('vc', n),
+#        stirrings_still.transition_bcps(
+#            abjad.tweak(7).staff_padding,
+#            abjad.tweak('red').color,
+#            ),
+#        )
+
+maker(
+    ('vc', (1, 6)),
+    stirrings_still.transition_bcps(
+        abjad.tweak(7).staff_padding,
+        abjad.tweak('red').color,
+        ),
+    )
 
 maker(
     ('vc', (7, -1)),
