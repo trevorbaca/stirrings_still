@@ -111,3 +111,10 @@ maker(
         lilypond_id=1,
         ),
     )
+
+maker(
+    (['v1', 'v2', 'va'], (10, 11)),
+    baca.dynamic('appena_udibile'),
+    baca.markup('[TODO: sustained double stops]'),
+    stirrings_still.urtext_field(),
+    )
