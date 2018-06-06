@@ -52,3 +52,8 @@ TO-DO
         TaleaRhythmMaker.tie_specifier
     Write nonstate examples:
         TaleaRhythmMaker.tie_split_notes
+        
+10. Make abjad.tweak('DeepPink1').color for x11 color.
+    Add (conventional and x11) color name-checking.
+
+11. Write spanner tweak tests.
