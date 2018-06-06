@@ -29,8 +29,7 @@ TO-DO
 
 8.  Fix clocktick edgecase notation.
 
-9.  Typehint rhythm-makers.
-    Write AccelerandoRhythmMaker state tests:
+9.  Write AccelerandoRhythmMaker state tests:
         AccelerandoRhythmMaker.beam_specifier
         AccelerandoRhythmMaker.division_masks
         AccelerandoRhythmMaker.interpolation_specifiers
@@ -53,4 +52,3 @@ TO-DO
         TaleaRhythmMaker.tie_specifier
     Write nonstate examples:
         TaleaRhythmMaker.tie_split_notes
-     
