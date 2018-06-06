@@ -982,10 +982,20 @@ I_ViolinIMusicVoice = {
     R1 * 3/4
     
     % [I ViolinIMusicVoice measure 520 / measure 10]             %! SM4
-    R1 * 1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \baca_unpitched_music_warning                                %! SM24
+    c'1
+    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    ^ \markup { "[TODO: sustained double stops]" }               %! IC
     
     % [I ViolinIMusicVoice measure 521 / measure 11]             %! SM4
-    R1 * 5/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'1
+    \repeatTie
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'4
+    \repeatTie
     
 }
 
@@ -1159,10 +1169,20 @@ I_ViolinIIMusicVoice = {
     R1 * 3/4
     
     % [I ViolinIIMusicVoice measure 520 / measure 10]            %! SM4
-    R1 * 1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \baca_unpitched_music_warning                                %! SM24
+    c'1
+    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    ^ \markup { "[TODO: sustained double stops]" }               %! IC
     
     % [I ViolinIIMusicVoice measure 521 / measure 11]            %! SM4
-    R1 * 5/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'1
+    \repeatTie
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'4
+    \repeatTie
     
 }
 
@@ -1291,10 +1311,20 @@ I_ViolaMusicVoice = {
     R1 * 3/4
     
     % [I ViolaMusicVoice measure 520 / measure 10]               %! SM4
-    R1 * 1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \baca_unpitched_music_warning                                %! SM24
+    c'1
+    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    ^ \markup { "[TODO: sustained double stops]" }               %! IC
     
     % [I ViolaMusicVoice measure 521 / measure 11]               %! SM4
-    R1 * 5/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'1
+    \repeatTie
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'4
+    \repeatTie
     
 }
 
