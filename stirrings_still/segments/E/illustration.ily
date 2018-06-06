@@ -8009,7 +8009,7 @@ E_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    \p                                                           %! SM8:REAPPLIED_DYNAMIC:SM37
+    \mf                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
             {

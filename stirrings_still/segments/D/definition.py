@@ -36,7 +36,7 @@ stage_markup = (
     ('[D.6]', 31),
     ('[I.6]', 38),
     ('[D.7]', 40),
-    ('[A.1]', 47),
+    ('[D.8 (A.1)]', 47),
     ('[D.9]', 49),
     ('[F.2]', 51),
     ('[D.9]', 52),
@@ -93,56 +93,128 @@ stirrings_still.time(maker, time)
 
 maker(
     ('tutti', (1, 6)),
-    (stirrings_still.strokes(0, mask=rmakers.silence([0], 2)), 0),
-    (stirrings_still.strokes(-1, mask=rmakers.silence([1], 2)), 1),
-    (stirrings_still.strokes(-2, mask=rmakers.silence([0, 1], 3)), 2),
-    (stirrings_still.strokes(-3, mask=rmakers.silence([1, 2], 3)), 3),
+    baca.pick(
+        0,
+        stirrings_still.strokes(0, mask=rmakers.silence([0], 2)),
+        ),
+    baca.pick(
+        1,
+        stirrings_still.strokes(-1, mask=rmakers.silence([1], 2)),
+        ),
+    baca.pick(
+        2,
+        stirrings_still.strokes(-2, mask=rmakers.silence([0, 1], 3)),
+        ),
+    baca.pick(
+        3,
+        stirrings_still.strokes(-3, mask=rmakers.silence([1, 2], 3)),
+        ),
     stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
     ('tutti', (7, 12)),
-    (stirrings_still.strokes(0, mask=rmakers.silence([0], 2)), 0),
-    (stirrings_still.strokes(-1, mask=rmakers.silence([1], 2)), 1),
-    (stirrings_still.strokes(-2, mask=rmakers.silence([0], 3)), 2),
-    (stirrings_still.strokes(-3, mask=rmakers.silence([1, 2], 3)), 3),
+    baca.pick(
+        0,
+        stirrings_still.strokes(0, mask=rmakers.silence([0], 2)),
+        ),
+    baca.pick(
+        1,
+        stirrings_still.strokes(-1, mask=rmakers.silence([1], 2)),
+        ),
+    baca.pick(
+        2,
+        stirrings_still.strokes(-2, mask=rmakers.silence([0], 3)),
+        ),
+    baca.pick(
+        3,
+        stirrings_still.strokes(-3, mask=rmakers.silence([1, 2], 3)),
+        ),
     stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
     ('tutti', (13, 18)),
-    (stirrings_still.strokes(0, mask=rmakers.silence([0], 2)), 0),
-    (stirrings_still.strokes(-1, mask=rmakers.silence([1], 2)), 1),
-    (stirrings_still.strokes(-2, mask=rmakers.silence([0], 3)), 2),
-    (stirrings_still.strokes(-3, mask=rmakers.silence([1], 3)), 3),
+    baca.pick(
+        0,
+        stirrings_still.strokes(0, mask=rmakers.silence([0], 2)),
+        ),
+    baca.pick(
+        1,
+        stirrings_still.strokes(-1, mask=rmakers.silence([1], 2)),
+        ),
+    baca.pick(
+        2,
+        stirrings_still.strokes(-2, mask=rmakers.silence([0], 3)),
+        ),
+    baca.pick(
+        3,
+        stirrings_still.strokes(-3, mask=rmakers.silence([1], 3)),
+        ),
     stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
     ('tutti', (19, 24)),
-    (stirrings_still.strokes(0, mask=rmakers.silence([0], 2)), 0),
-    (stirrings_still.strokes(0, mask=rmakers.silence([2], 3)), 1),
-    (stirrings_still.strokes(-2, mask=rmakers.silence([0], 3)), 2),
-    (stirrings_still.strokes(-3, mask=rmakers.silence([1], 3)), 3),
+    baca.pick(
+        0,
+        stirrings_still.strokes(0, mask=rmakers.silence([0], 2)),
+        ),
+    baca.pick(
+        1,
+        stirrings_still.strokes(0, mask=rmakers.silence([2], 3)),
+        ),
+    baca.pick(
+        2,
+        stirrings_still.strokes(-2, mask=rmakers.silence([0], 3)),
+        ),
+    baca.pick(
+        3,
+        stirrings_still.strokes(-3, mask=rmakers.silence([1], 3)),
+        ),
     stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
     ('tutti', (25, 30)),
-    (stirrings_still.strokes(0, mask=rmakers.silence([0], 2)), 0),
-    (stirrings_still.strokes(0, mask=rmakers.silence([2], 3)), 1),
-    (stirrings_still.strokes(-2, mask=rmakers.silence([0], 2)), 2),
-    (stirrings_still.strokes(-2, mask=rmakers.silence([2], 3)), 3),
+    baca.pick(
+        0,
+        stirrings_still.strokes(0, mask=rmakers.silence([0], 2)),
+        ),
+    baca.pick(
+        1,
+        stirrings_still.strokes(0, mask=rmakers.silence([2], 3)),
+        ),
+    baca.pick(
+        2,
+        stirrings_still.strokes(-2, mask=rmakers.silence([0], 2)),
+        ),
+    baca.pick(
+        3,
+        stirrings_still.strokes(-2, mask=rmakers.silence([2], 3)),
+        ),
     stirrings_still.ntlt_flat_glissandi(),
     )
 
 maker(
     ('tutti', (31, 36)),
-    (stirrings_still.strokes(0, mask=rmakers.silence([0], 2)), 0),
-    (stirrings_still.strokes(0, mask=rmakers.silence([2], 3)), 1),
-    (stirrings_still.strokes(0, mask=rmakers.silence([1], 2)), 2),
-    (stirrings_still.strokes(0, mask=rmakers.silence([0], 3)), 3),
     baca.dynamic('mf'),
+    baca.pick(
+        0,
+        stirrings_still.strokes(0, mask=rmakers.silence([0], 2)),
+        ),
+    baca.pick(
+        1,
+        stirrings_still.strokes(0, mask=rmakers.silence([2], 3)),
+        ),
+    baca.pick(
+        2,
+        stirrings_still.strokes(0, mask=rmakers.silence([1], 2)),
+        ),
+    baca.pick(
+        3,
+        stirrings_still.strokes(0, mask=rmakers.silence([0], 3)),
+        ),
     stirrings_still.ntlt_flat_glissandi(),
     )
 
@@ -190,4 +262,62 @@ maker(
 maker(
     ('va', 55),
     baca.staff_lines(5),
+    )
+
+maker(
+    ('tutti', 55),
+    baca.pick(
+        2,
+        baca.dynamic('p'),
+        ),
+    stirrings_still.declamation(),
+    )
+
+maker(
+    (['v1', 'v2'], 57),
+    baca.pick(
+        0,
+        stirrings_still.accelerando(start=(1, 4), stop=(1, 16)),
+        ),
+    baca.pick(
+        1,
+        stirrings_still.accelerando(start=(1, 4), stop=(2, 16)),
+        ),
+    baca.text_spanner(
+        baca.markups.circles().boxed(),
+        abjad.tweak(5).staff_padding,
+        ),
+    baca.text_spanner(
+        '[TODO: fast whisked ellipses]',
+        abjad.tweak('magenta').color,
+        abjad.tweak(9).staff_padding,
+        lilypond_id=1,
+        ),
+    )
+
+maker(
+    ('va', 57),
+    baca.dynamic('pp'),
+    baca.make_repeat_tied_notes(),
+    baca.markup(
+        '[memory of flight]',
+        abjad.tweak('magenta').color,
+        abjad.tweak(9).staff_padding,
+        ),
+    baca.pitch('Bb2'),
+    baca.text_spanner(
+        baca.markups.hair().boxed(),
+        abjad.tweak('darkcyan').color,
+        abjad.tweak(5).staff_padding,
+        selector=baca.rleaves(),
+        ),
+    )
+
+maker(
+    ('vc', 57),
+    baca.hairpin(
+        'pp < mf',
+        abjad.tweak('magenta').color,
+        ),
+    stirrings_still.strokes(0),
     )
