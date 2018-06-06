@@ -1351,6 +1351,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     - \tweak Y-extent ##f
@@ -1435,6 +1436,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1461,6 +1463,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1487,6 +1490,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1513,6 +1517,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1539,6 +1544,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1565,16 +1571,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \fraction
-                    6
-                    7
-            }
-        }
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1582,11 +1579,34 @@ I_CelloMusicVoice = {
     c'8
     -\upbow
     \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    6
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
+    - \tweak staff-padding #7
+    \startBCPTextSpan
     
     % [I CelloMusicVoice measure 512 / measure 2]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1606,6 +1626,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1632,6 +1653,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1658,6 +1680,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1684,6 +1707,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1710,16 +1734,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \fraction
-                    5
-                    7
-            }
-        }
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1727,11 +1742,34 @@ I_CelloMusicVoice = {
     c'8
     -\upbow
     \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    5
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
+    - \tweak staff-padding #7
+    \startBCPTextSpan
     
     % [I CelloMusicVoice measure 513 / measure 3]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1751,6 +1789,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1777,6 +1816,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1803,6 +1843,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1829,6 +1870,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1855,6 +1897,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1881,6 +1924,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1907,16 +1951,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \fraction
-                    6
-                    7
-            }
-        }
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1924,11 +1959,34 @@ I_CelloMusicVoice = {
     c'8
     -\upbow
     \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    6
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
+    - \tweak staff-padding #7
+    \startBCPTextSpan
     
     % [I CelloMusicVoice measure 514 / measure 4]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -1948,6 +2006,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -1974,6 +2033,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2000,6 +2060,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2026,6 +2087,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2052,16 +2114,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \fraction
-                    5
-                    7
-            }
-        }
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2069,11 +2122,34 @@ I_CelloMusicVoice = {
     c'8
     -\upbow
     \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    5
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
+    - \tweak staff-padding #7
+    \startBCPTextSpan
     
     % [I CelloMusicVoice measure 515 / measure 5]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2093,6 +2169,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2119,6 +2196,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2145,6 +2223,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2171,6 +2250,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2197,6 +2277,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2223,6 +2304,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2249,16 +2331,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \fraction
-                    6
-                    7
-            }
-        }
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2266,6 +2339,28 @@ I_CelloMusicVoice = {
     c'8
     -\upbow
     \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    6
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
+    - \tweak staff-padding #7
+    \startBCPTextSpan
     
     % [I CelloMusicVoice measure 516 / measure 6]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -2273,6 +2368,7 @@ I_CelloMusicVoice = {
     c'8
     -\downbow
     \f                                                           %! PWC1
+    \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2292,6 +2388,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2318,6 +2415,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2344,6 +2442,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2370,6 +2469,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2396,6 +2496,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2422,6 +2523,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2448,6 +2550,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2474,6 +2577,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2510,6 +2614,7 @@ I_CelloMusicVoice = {
                     7
             }
         }
+    - \tweak color #red
     - \tweak staff-padding #7
     \startBCPTextSpan
     
