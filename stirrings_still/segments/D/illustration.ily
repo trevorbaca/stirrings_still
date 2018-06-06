@@ -4704,8 +4704,11 @@ D_ViolinIMusicVoice = {
         % [D ViolinIMusicVoice measure 263 / measure 57]         %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 249/64
+        \<                                                       %! HC1
+        \pp                                                      %! HC1
         [
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -4790,9 +4793,12 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 1
         
+        \once \override DynamicText.parent-alignment-X = #-4     %! OC1
         \revert Staff.Stem.stemlet-length
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 61/64
+        \mp                                                      %! HC1
         ]
         \stopTextSpan
         \stopTextSpanOne
@@ -5381,8 +5387,11 @@ D_ViolinIIMusicVoice = {
         % [D ViolinIIMusicVoice measure 263 / measure 57]        %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 239/64
+        \<                                                       %! HC1
+        \pp                                                      %! HC1
         [
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -5458,9 +5467,12 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 61/32
         
+        \once \override DynamicText.parent-alignment-X = #-4     %! OC1
         \revert Staff.Stem.stemlet-length
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 119/64
+        \mp                                                      %! HC1
         ]
         \stopTextSpan
         \stopTextSpanOne
@@ -6074,41 +6086,12 @@ D_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     bf,!1.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            hair
-                \hspace
-                    #0.5
-            }
-        }
-    - \tweak dash-fraction 0.25
-    - \tweak dash-period 1.5
-    - \tweak bound-details.left-broken.text ##f
-    - \tweak bound-details.left.stencil-align-dir-y 0
-    - \tweak bound-details.right-broken.arrow ##f
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 1.25
-    - \tweak bound-details.right.text \markup {
-        \draw-line
-            #'(0 . -1)
-        }
-    - \tweak color #darkcyan
-    - \tweak staff-padding #5
-    \startTextSpan
     - \tweak color #magenta                                      %! IC
     - \tweak staff-padding #9                                    %! IC
     ^ \markup { "[memory of flight]" }                           %! IC
     
     % [D ViolaMusicVoice measure 264 / measure 58]               %! SM4
     R1 * 7/8
-    \stopTextSpan
     
     % [D ViolaMusicVoice measure 265 / measure 59]               %! SM4
     R1 * 3/4
@@ -6790,20 +6773,18 @@ D_CelloMusicVoice = {
     
     % [D CelloMusicVoice measure 263 / measure 57]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_unpitched_music_warning                                %! SM24
-    c'1
+    b,,1
     ~
-    - \tweak color #magenta                                      %! HC1
+    - \tweak stencil #flared-hairpin-new                         %! HC1
     \<                                                           %! HC1
     \pp                                                          %! HC1
     
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
+    b,,4.
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
+    r8
     \mf                                                          %! HC1
+    ^ \markup { RH! }                                            %! IC
     
     % [D CelloMusicVoice measure 264 / measure 58]               %! SM4
     R1 * 7/8
