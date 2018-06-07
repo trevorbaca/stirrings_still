@@ -309,7 +309,7 @@ maker(
     baca.markup(
         '[memory of flight]',
         abjad.tweak('magenta').color,
-        abjad.tweak(9).staff_padding,
+        abjad.tweak(5).staff_padding,
         ),
     baca.pitch('Bb2'),
     )
@@ -318,11 +318,13 @@ maker(
     ('vc', 57),
     baca.hairpin(
         'pp < mf',
-        abjad.tweak(abjad.Scheme('flared-hairpin-new')).stencil,
+        abjad.tweak('#flared-hairpin-new').stencil,
         selector=baca.leaves(),
         ),
     baca.markup(
         'RH!',
+        abjad.tweak('magenta').color,
+        abjad.tweak(-4).parent_alignment_X,
         selector=baca.leaf(-1),
         ),
     baca.pitch('B1'),

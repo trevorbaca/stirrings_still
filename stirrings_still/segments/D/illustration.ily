@@ -6087,7 +6087,7 @@ D_ViolaMusicVoice = {
     bf,!1.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     - \tweak color #magenta                                      %! IC
-    - \tweak staff-padding #9                                    %! IC
+    - \tweak staff-padding #5                                    %! IC
     ^ \markup { "[memory of flight]" }                           %! IC
     
     % [D ViolaMusicVoice measure 264 / measure 58]               %! SM4
@@ -6784,6 +6784,8 @@ D_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r8
     \mf                                                          %! HC1
+    - \tweak color #magenta                                      %! IC
+    - \tweak parent-alignment-X #-4                              %! IC
     ^ \markup { RH! }                                            %! IC
     
     % [D CelloMusicVoice measure 264 / measure 58]               %! SM4

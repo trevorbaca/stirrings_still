@@ -183,7 +183,8 @@
         \override TextScript.font-name = #"Palatino"
         \override TextScript.padding = 1
         \override TextScript.X-extent = ##f
-        \override TextScript.Y-extent = #'(-1.5 . 1.5)
+        % TODO: remove?
+        %%%\override TextScript.Y-extent = #'(-1.5 . 1.5)
 
         \override TextSpanner.staff-padding = 2
 
