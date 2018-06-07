@@ -4815,7 +4815,7 @@ D_ViolinIMusicVoice = {
         \concat
             {
                 \upright
-                    "TODO: jeux des terminaisons"
+                    "jeux des terminaisons"
                 \hspace
                     #0.5
             }
@@ -4908,7 +4908,31 @@ D_ViolinIMusicVoice = {
     >>
     
     % [D ViolinIMusicVoice measure 271 / measure 65]             %! SM4
-    R1 * 5/8
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    ^ \markup {
+        \column
+            {
+                \line                                            %! IC
+                    {                                            %! IC
+                        \column                                  %! IC
+                            {                                    %! IC
+                                dense                            %! IC
+                                "db. stops"                      %! IC
+                            }                                    %! IC
+                    }                                            %! IC
+                \line                                            %! IC
+                    {                                            %! IC
+                        "urtext field"                           %! IC
+                    }                                            %! IC
+            }
+        }
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    \repeatTie
     
     % [D ViolinIMusicVoice measure 272 / measure 66]             %! SM4
     R1 * 3/4
@@ -5570,7 +5594,7 @@ D_ViolinIIMusicVoice = {
         \concat
             {
                 \upright
-                    "TODO: jeux des terminaisons"
+                    "jeux des terminaisons"
                 \hspace
                     #0.5
             }
@@ -5663,7 +5687,31 @@ D_ViolinIIMusicVoice = {
     >>
     
     % [D ViolinIIMusicVoice measure 271 / measure 65]            %! SM4
-    R1 * 5/8
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    ^ \markup {
+        \column
+            {
+                \line                                            %! IC
+                    {                                            %! IC
+                        \column                                  %! IC
+                            {                                    %! IC
+                                dense                            %! IC
+                                "db. stops"                      %! IC
+                            }                                    %! IC
+                    }                                            %! IC
+                \line                                            %! IC
+                    {                                            %! IC
+                        "urtext field"                           %! IC
+                    }                                            %! IC
+            }
+        }
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    \repeatTie
     
     % [D ViolinIIMusicVoice measure 272 / measure 66]            %! SM4
     R1 * 3/4
@@ -6291,7 +6339,7 @@ D_ViolaMusicVoice = {
         \concat
             {
                 \upright
-                    "TODO: jeux des terminaisons"
+                    "jeux des terminaisons"
                 \hspace
                     #0.5
             }
@@ -6384,7 +6432,31 @@ D_ViolaMusicVoice = {
     >>
     
     % [D ViolaMusicVoice measure 271 / measure 65]               %! SM4
-    R1 * 5/8
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    ^ \markup {
+        \column
+            {
+                \line                                            %! IC
+                    {                                            %! IC
+                        \column                                  %! IC
+                            {                                    %! IC
+                                dense                            %! IC
+                                "db. stops"                      %! IC
+                            }                                    %! IC
+                    }                                            %! IC
+                \line                                            %! IC
+                    {                                            %! IC
+                        "urtext field"                           %! IC
+                    }                                            %! IC
+            }
+        }
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    \repeatTie
     
     % [D ViolaMusicVoice measure 272 / measure 66]               %! SM4
     R1 * 3/4
@@ -7099,7 +7171,7 @@ D_CelloMusicVoice = {
         \concat
             {
                 \upright
-                    "TODO: jeux des terminaisons"
+                    "jeux des terminaisons"
                 \hspace
                     #0.5
             }
@@ -7192,7 +7264,19 @@ D_CelloMusicVoice = {
     >>
     
     % [D CelloMusicVoice measure 271 / measure 65]               %! SM4
-    R1 * 5/8
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
+    - \tweak color #darkgreen                                    %! IC
+    ^ \markup { "clouded pane" }                                 %! IC
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    \repeatTie
+    \p                                                           %! HC1
     
     % [D CelloMusicVoice measure 272 / measure 66]               %! SM4
     R1 * 3/4
