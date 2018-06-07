@@ -340,7 +340,7 @@ maker(
         right_padding=3.25,
         ),
     baca.text_spanner(
-        'TODO: jeux des terminaisons',
+        'jeux des terminaisons',
         abjad.tweak('magenta').color,
         abjad.tweak(9).staff_padding,
         leak=True,
@@ -349,4 +349,28 @@ maker(
         ),
     stirrings_still.ntlt_flat_glissandi(),
     stirrings_still.strokes(0),
+    )
+
+maker(
+    (['v1', 'v2', 'va'], 65),
+    baca.dynamic('p'),
+    baca.markup(
+        baca.markups.column('dense', 'db. stops'),
+        abjad.tweak('magenta').color,
+        ),
+    baca.markup(
+        'urtext field',
+        abjad.tweak('darkgreen').color,
+        ),
+    stirrings_still.urtext_field(),
+    )
+
+maker(
+    ('vc', 65),
+    baca.hairpin('niente < p'),
+    baca.markup(
+        'clouded pane',
+        abjad.tweak('darkgreen').color,
+        ),
+    stirrings_still.clouded_pane(),
     )
