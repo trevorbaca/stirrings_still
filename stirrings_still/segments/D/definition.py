@@ -355,12 +355,10 @@ maker(
     (['v1', 'v2', 'va'], 65),
     baca.dynamic('p'),
     baca.markup(
-        baca.markups.column('dense', 'db. stops'),
-        abjad.tweak('magenta').color,
+        baca.markups.column('dense', 'db. stops').with_color('magenta'),
         ),
     baca.markup(
-        'urtext field',
-        abjad.tweak('darkgreen').color,
+        baca.Markup('urtext field').with_color('darkgreen'),
         ),
     stirrings_still.urtext_field(),
     )
@@ -369,8 +367,41 @@ maker(
     ('vc', 65),
     baca.hairpin('niente < p'),
     baca.markup(
-        'clouded pane',
-        abjad.tweak('darkgreen').color,
+        baca.Markup('clouded pane').with_color('darkgreen'),
         ),
     stirrings_still.clouded_pane(),
+    )
+
+maker(
+    (['v1', 'v2', 'va'], 66),
+    #baca.markup('8” cir./stem; golden tone'),
+    baca.pick(
+        0,
+        stirrings_still.circles((1, 8)),
+        ),
+    baca.pick(
+        1,
+        stirrings_still.circles((1, 4)),
+        ),
+    baca.pick(
+        2,
+        stirrings_still.circles(
+            (1, 2),
+            division_mask=rmakers.silence([0]),
+            remainder=abjad.Left,
+            ),
+        ),
+    baca.text_spanner(
+        baca.markups.cir(8),
+        abjad.tweak(5).staff_padding,
+        leak=True,
+        selector=baca.tleaves(),
+        ),
+    baca.text_spanner(
+        baca.markups.golden_tone(),
+        abjad.tweak(9).staff_padding,
+        leak=True,
+        lilypond_id=1,
+        selector=baca.tleaves(),
+        ),
     )

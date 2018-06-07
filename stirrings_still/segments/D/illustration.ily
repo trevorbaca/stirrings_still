@@ -4917,15 +4917,19 @@ D_ViolinIMusicVoice = {
             {
                 \line                                            %! IC
                     {                                            %! IC
-                        \column                                  %! IC
-                            {                                    %! IC
-                                dense                            %! IC
-                                "db. stops"                      %! IC
-                            }                                    %! IC
+                        \with-color                              %! IC
+                            #magenta                             %! IC
+                            \column                              %! IC
+                                {                                %! IC
+                                    dense                        %! IC
+                                    "db. stops"                  %! IC
+                                }                                %! IC
                     }                                            %! IC
                 \line                                            %! IC
                     {                                            %! IC
-                        "urtext field"                           %! IC
+                        \with-color                              %! IC
+                            #darkgreen                           %! IC
+                            "urtext field"                       %! IC
                     }                                            %! IC
             }
         }
@@ -4935,10 +4939,98 @@ D_ViolinIMusicVoice = {
     \repeatTie
     
     % [D ViolinIMusicVoice measure 272 / measure 66]             %! SM4
-    R1 * 3/4
+    \set stemLeftBeamCount = 0
+    \set stemRightBeamCount = 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    "8” cir."
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 1.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #5
+    \startTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    "golden tone"
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 1.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #9
+    \startTextSpanOne
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \set stemLeftBeamCount = 1
+    \set stemRightBeamCount = 0
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
+    <> \stopTextSpan
+    <> \stopTextSpanOne
     
     % [D ViolinIMusicVoice measure 273 / measure 67]             %! SM4
+    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 3/4
+    \\
     R1 * 3/4
+    >>
     
     % [D ViolinIMusicVoice measure 274 / measure 68]             %! SM4
     R1 * 3/4
@@ -5696,15 +5788,19 @@ D_ViolinIIMusicVoice = {
             {
                 \line                                            %! IC
                     {                                            %! IC
-                        \column                                  %! IC
-                            {                                    %! IC
-                                dense                            %! IC
-                                "db. stops"                      %! IC
-                            }                                    %! IC
+                        \with-color                              %! IC
+                            #magenta                             %! IC
+                            \column                              %! IC
+                                {                                %! IC
+                                    dense                        %! IC
+                                    "db. stops"                  %! IC
+                                }                                %! IC
                     }                                            %! IC
                 \line                                            %! IC
                     {                                            %! IC
-                        "urtext field"                           %! IC
+                        \with-color                              %! IC
+                            #darkgreen                           %! IC
+                            "urtext field"                       %! IC
                     }                                            %! IC
             }
         }
@@ -5714,10 +5810,75 @@ D_ViolinIIMusicVoice = {
     \repeatTie
     
     % [D ViolinIIMusicVoice measure 272 / measure 66]            %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'4
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    "8” cir."
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 1.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #5
+    \startTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    "golden tone"
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 1.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #9
+    \startTextSpanOne
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'4
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'4
+    <> \stopTextSpan
+    <> \stopTextSpanOne
     
     % [D ViolinIIMusicVoice measure 273 / measure 67]            %! SM4
+    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 3/4
+    \\
     R1 * 3/4
+    >>
     
     % [D ViolinIIMusicVoice measure 274 / measure 68]            %! SM4
     R1 * 3/4
@@ -6441,15 +6602,19 @@ D_ViolaMusicVoice = {
             {
                 \line                                            %! IC
                     {                                            %! IC
-                        \column                                  %! IC
-                            {                                    %! IC
-                                dense                            %! IC
-                                "db. stops"                      %! IC
-                            }                                    %! IC
+                        \with-color                              %! IC
+                            #magenta                             %! IC
+                            \column                              %! IC
+                                {                                %! IC
+                                    dense                        %! IC
+                                    "db. stops"                  %! IC
+                                }                                %! IC
                     }                                            %! IC
                 \line                                            %! IC
                     {                                            %! IC
-                        "urtext field"                           %! IC
+                        \with-color                              %! IC
+                            #darkgreen                           %! IC
+                            "urtext field"                       %! IC
                     }                                            %! IC
             }
         }
@@ -6459,10 +6624,21 @@ D_ViolaMusicVoice = {
     \repeatTie
     
     % [D ViolaMusicVoice measure 272 / measure 66]               %! SM4
-    R1 * 3/4
+    r4
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
     
     % [D ViolaMusicVoice measure 273 / measure 67]               %! SM4
+    \voices "ViolaMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 3/4
+    \\
     R1 * 3/4
+    >>
     
     % [D ViolaMusicVoice measure 274 / measure 68]               %! SM4
     R1 * 3/4
@@ -7269,8 +7445,11 @@ D_CelloMusicVoice = {
     c'2
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
-    - \tweak color #darkgreen                                    %! IC
-    ^ \markup { "clouded pane" }                                 %! IC
+    ^ \markup {                                                  %! IC
+        \with-color                                              %! IC
+            #darkgreen                                           %! IC
+            "clouded pane"                                       %! IC
+        }                                                        %! IC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \baca_unpitched_music_warning                                %! SM24

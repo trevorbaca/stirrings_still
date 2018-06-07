@@ -641,6 +641,30 @@ I_ViolinIMusicVoice = {
     c'8
     \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
     [
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    "8” cir."
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 1.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #5
+    \startTextSpan
     ^ \markup {
         \column
             {
@@ -658,7 +682,7 @@ I_ViolinIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        "8” cir./stem; golden tone"              %! IC
+                        "golden tone"                            %! IC
                     }                                            %! IC
             }
         }
@@ -969,14 +993,23 @@ I_ViolinIMusicVoice = {
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 0
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
+    <> \!                                                        %! HC1
+    <> \stopTextSpan
     
     % [I ViolinIMusicVoice measure 518 / measure 8]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 3/2
+    \\
     R1 * 3/2
-    \!                                                           %! HC1
+    >>
     
     % [I ViolinIMusicVoice measure 519 / measure 9]              %! SM4
     R1 * 3/4
@@ -986,7 +1019,11 @@ I_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup { "[TODO: sustained double stops]" }               %! IC
+    ^ \markup {                                                  %! IC
+        \with-color                                              %! IC
+            #magenta                                             %! IC
+            "sustained double stops"                             %! IC
+        }                                                        %! IC
     
     % [I ViolinIMusicVoice measure 521 / measure 11]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -1030,6 +1067,30 @@ I_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    "8” cir."
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 1.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #5
+    \startTextSpan
     ^ \markup {
         \column
             {
@@ -1047,7 +1108,7 @@ I_ViolinIIMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        "8” cir./stem; golden tone"              %! IC
+                        "golden tone"                            %! IC
                     }                                            %! IC
             }
         }
@@ -1157,13 +1218,22 @@ I_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \baca_unpitched_music_warning                                %! SM24
     c'4
+    <> \!                                                        %! HC1
+    <> \stopTextSpan
     
     % [I ViolinIIMusicVoice measure 518 / measure 8]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 3/2
+    \\
     R1 * 3/2
-    \!                                                           %! HC1
+    >>
     
     % [I ViolinIIMusicVoice measure 519 / measure 9]             %! SM4
     R1 * 3/4
@@ -1173,7 +1243,11 @@ I_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup { "[TODO: sustained double stops]" }               %! IC
+    ^ \markup {                                                  %! IC
+        \with-color                                              %! IC
+            #magenta                                             %! IC
+            "sustained double stops"                             %! IC
+        }                                                        %! IC
     
     % [I ViolinIIMusicVoice measure 521 / measure 11]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -1254,7 +1328,32 @@ I_ViolaMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    ^ \markup { "8” cir./stem; golden tone" }                    %! IC
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    "8” cir."
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 1.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #5
+    \startTextSpan
+    - \tweak staff-padding #9                                    %! IC
+    ^ \markup { "golden tone" }                                  %! IC
     
     \baca_unpitched_music_warning                                %! SM24
     c'2
@@ -1299,13 +1398,22 @@ I_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \baca_unpitched_music_warning                                %! SM24
     c'2
+    <> \!                                                        %! HC1
+    <> \stopTextSpan
     
     % [I ViolaMusicVoice measure 518 / measure 8]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \voices "ViolaMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 3/2
+    \\
     R1 * 3/2
-    \!                                                           %! HC1
+    >>
     
     % [I ViolaMusicVoice measure 519 / measure 9]                %! SM4
     R1 * 3/4
@@ -1315,7 +1423,11 @@ I_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup { "[TODO: sustained double stops]" }               %! IC
+    ^ \markup {                                                  %! IC
+        \with-color                                              %! IC
+            #magenta                                             %! IC
+            "sustained double stops"                             %! IC
+        }                                                        %! IC
     
     % [I ViolaMusicVoice measure 521 / measure 11]               %! SM4
     \baca_unpitched_music_warning                                %! SM24

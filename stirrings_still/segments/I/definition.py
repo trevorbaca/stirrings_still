@@ -46,29 +46,39 @@ time = (
 stirrings_still.time(maker, time)
 
 maker(
-    ('trio', (4, 7)),
-    baca.hairpin('mp > niente', selector=baca.rleaves()),
-    )
-
-maker(
-    ('v1', (1, 7)),
-    baca.markup('8” cir./stem; golden tone'),
-    stirrings_still.circles((1, 8)),
-    )
-
-maker(
-    ('v2', (1, 7)),
-    baca.markup('8” cir./stem; golden tone'),
-    stirrings_still.circles((1, 4)),
-    )
-
-maker(
-    ('va', (1, 7)),
-    baca.markup('8” cir./stem; golden tone'),
-    stirrings_still.circles(
-        (1, 2),
-        division_mask=rmakers.silence([0]),
-        remainder=abjad.Left,
+    ('trio', (1, 7)),
+    baca.map(
+        baca.group_by_measures()[3:].group(),
+        baca.hairpin(
+            'mp > niente',
+            leak=True,
+            ),
+        ),
+    baca.pick(
+        0,
+        stirrings_still.circles((1, 8)),
+        ),
+    baca.pick(
+        1,
+        stirrings_still.circles((1, 4)),
+        ),
+    baca.pick(
+        2,
+        stirrings_still.circles(
+            (1, 2),
+            division_mask=rmakers.silence([0]),
+            remainder=abjad.Left,
+            ),
+        ),
+    baca.text_spanner(
+        baca.markups.cir(8),
+        abjad.tweak(5).staff_padding,
+        leak=True,
+        selector=baca.tleaves(),
+        ),
+    baca.markup(
+        baca.markups.golden_tone(),
+        abjad.tweak(9).staff_padding,
         ),
     )
 
@@ -115,6 +125,8 @@ maker(
 maker(
     (['v1', 'v2', 'va'], (10, 11)),
     baca.dynamic('appena_udibile'),
-    baca.markup('[TODO: sustained double stops]'),
+    baca.markup(
+        baca.Markup('sustained double stops').with_color('magenta'),
+        ),
     stirrings_still.urtext_field(),
     )

@@ -1295,7 +1295,7 @@ SEGMENTS
             stopped lh returns;
             hair returns;
             niente < p governs first half of stage;
-            >>[I.1 (gears)] bisect [D.12]<<:
+            >>[I.1 (gears)] bisect [D.12]<< (66):
                 >>summon future time<<;
                 largo;
                 measure 2/2;

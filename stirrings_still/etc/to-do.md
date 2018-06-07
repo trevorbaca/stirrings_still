@@ -61,9 +61,17 @@ TO-DO
         TaleaRhythmMaker.tie_split_notes
         
 12. Make abjad.tweak('DeepPink1').color for x11 color.
-    Add (conventional and x11) color name-checking.
+    Add color name-checking (conventional and x11).
+    Add abjad.tweak('color').color checking.
+    Add abjad.Markup.with_color('color') checking.
+    Add abjad.Scheme.format_scheme_value('color') checking.
 
 13. Write spanner tweak tests.
 
 14. Document LilyPond TextScript alignment.
     Parameterize TextScript.self-alignment-X, TextScript.parent-alignment-X.
+
+15. First measure of [I] "golden tone" markup trapped in autocolumn.
+    Result is that markup does not obey staff padding tweak.
+    Add Abjad option somewhere to format score without autocolumn.
+    Or, this finally motivates removing autocolumn altogether.
