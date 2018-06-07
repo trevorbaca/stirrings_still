@@ -4715,10 +4715,7 @@ D_ViolinIMusicVoice = {
             \concat
                 {
                     \upright
-                        \override
-                            #'(box-padding . 0.5)
-                            \box
-                                circles
+                        "fast whisked ellipses"
                     \hspace
                         #0.5
                 }
@@ -4730,38 +4727,13 @@ D_ViolinIMusicVoice = {
         - \tweak bound-details.right-broken.arrow ##f
         - \tweak bound-details.right-broken.padding 0
         - \tweak bound-details.right-broken.text ##f
-        - \tweak bound-details.right.padding 1.25
+        - \tweak bound-details.right.padding 2
         - \tweak bound-details.right.text \markup {
             \draw-line
                 #'(0 . -1)
             }
         - \tweak staff-padding #5
         \startTextSpan
-        - \tweak Y-extent ##f
-        - \tweak bound-details.left.text \markup {
-            \concat
-                {
-                    \upright
-                        "[TODO: fast whisked ellipses]"
-                    \hspace
-                        #0.5
-                }
-            }
-        - \tweak dash-fraction 0.25
-        - \tweak dash-period 1.5
-        - \tweak bound-details.left-broken.text ##f
-        - \tweak bound-details.left.stencil-align-dir-y 0
-        - \tweak bound-details.right-broken.arrow ##f
-        - \tweak bound-details.right-broken.padding 0
-        - \tweak bound-details.right-broken.text ##f
-        - \tweak bound-details.right.padding 1.25
-        - \tweak bound-details.right.text \markup {
-            \draw-line
-                #'(0 . -1)
-            }
-        - \tweak color #magenta
-        - \tweak staff-padding #9
-        \startTextSpanOne
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 59/16
@@ -4800,31 +4772,140 @@ D_ViolinIMusicVoice = {
         c'16 * 61/64
         \mp                                                      %! HC1
         ]
-        \stopTextSpan
-        \stopTextSpanOne
+        <> \stopTextSpan
     }
     \revert TupletNumber.text
     
     % [D ViolinIMusicVoice measure 264 / measure 58]             %! SM4
-    R1 * 7/8
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    - \tweak circled-tip ##t                                     %! HC1
+    \>                                                           %! HC1
+    \mf                                                          %! HC1
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
+                            damp
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 3.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #5
+    \startTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    "TODO: jeux des terminaisons"
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 3.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak color #magenta
+    - \tweak staff-padding #9
+    \startTextSpanOne
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 265 / measure 59]             %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
     
     % [D ViolinIMusicVoice measure 266 / measure 60]             %! SM4
-    R1 * 5/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 267 / measure 61]             %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
     
     % [D ViolinIMusicVoice measure 268 / measure 62]             %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'4.
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     
     % [D ViolinIMusicVoice measure 269 / measure 63]             %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    <> \!                                                        %! HC1
+    ]
+    <> \stopTextSpan
+    <> \stopTextSpanOne
     
     % [D ViolinIMusicVoice measure 270 / measure 64]             %! SM4
+    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 1/4
+    \\
     R1 * 1/4
+    >>
     
     % [D ViolinIMusicVoice measure 271 / measure 65]             %! SM4
     R1 * 5/8
@@ -5398,10 +5479,7 @@ D_ViolinIIMusicVoice = {
             \concat
                 {
                     \upright
-                        \override
-                            #'(box-padding . 0.5)
-                            \box
-                                circles
+                        "fast whisked ellipses"
                     \hspace
                         #0.5
                 }
@@ -5413,38 +5491,13 @@ D_ViolinIIMusicVoice = {
         - \tweak bound-details.right-broken.arrow ##f
         - \tweak bound-details.right-broken.padding 0
         - \tweak bound-details.right-broken.text ##f
-        - \tweak bound-details.right.padding 1.25
+        - \tweak bound-details.right.padding 2
         - \tweak bound-details.right.text \markup {
             \draw-line
                 #'(0 . -1)
             }
         - \tweak staff-padding #5
         \startTextSpan
-        - \tweak Y-extent ##f
-        - \tweak bound-details.left.text \markup {
-            \concat
-                {
-                    \upright
-                        "[TODO: fast whisked ellipses]"
-                    \hspace
-                        #0.5
-                }
-            }
-        - \tweak dash-fraction 0.25
-        - \tweak dash-period 1.5
-        - \tweak bound-details.left-broken.text ##f
-        - \tweak bound-details.left.stencil-align-dir-y 0
-        - \tweak bound-details.right-broken.arrow ##f
-        - \tweak bound-details.right-broken.padding 0
-        - \tweak bound-details.right-broken.text ##f
-        - \tweak bound-details.right.padding 1.25
-        - \tweak bound-details.right.text \markup {
-            \draw-line
-                #'(0 . -1)
-            }
-        - \tweak color #magenta
-        - \tweak staff-padding #9
-        \startTextSpanOne
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 231/64
@@ -5474,31 +5527,140 @@ D_ViolinIIMusicVoice = {
         c'16 * 119/64
         \mp                                                      %! HC1
         ]
-        \stopTextSpan
-        \stopTextSpanOne
+        <> \stopTextSpan
     }
     \revert TupletNumber.text
     
     % [D ViolinIIMusicVoice measure 264 / measure 58]            %! SM4
-    R1 * 7/8
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    - \tweak circled-tip ##t                                     %! HC1
+    \>                                                           %! HC1
+    \mf                                                          %! HC1
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
+                            damp
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 3.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #5
+    \startTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    "TODO: jeux des terminaisons"
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 3.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak color #magenta
+    - \tweak staff-padding #9
+    \startTextSpanOne
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 265 / measure 59]            %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
     
     % [D ViolinIIMusicVoice measure 266 / measure 60]            %! SM4
-    R1 * 5/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 267 / measure 61]            %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
     
     % [D ViolinIIMusicVoice measure 268 / measure 62]            %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'4.
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     
     % [D ViolinIIMusicVoice measure 269 / measure 63]            %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    <> \!                                                        %! HC1
+    ]
+    <> \stopTextSpan
+    <> \stopTextSpanOne
     
     % [D ViolinIIMusicVoice measure 270 / measure 64]            %! SM4
+    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 1/4
+    \\
     R1 * 1/4
+    >>
     
     % [D ViolinIIMusicVoice measure 271 / measure 65]            %! SM4
     R1 * 5/8
@@ -6086,30 +6248,140 @@ D_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     bf,!1.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak color #magenta                                      %! IC
+    - \tweak color #darkgreen                                    %! IC
     - \tweak staff-padding #5                                    %! IC
-    ^ \markup { "[memory of flight]" }                           %! IC
+    ^ \markup { "memory of flight" }                             %! IC
     
     % [D ViolaMusicVoice measure 264 / measure 58]               %! SM4
-    R1 * 7/8
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    - \tweak circled-tip ##t                                     %! HC1
+    \>                                                           %! HC1
+    \mf                                                          %! HC1
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
+                            damp
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 3.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #5
+    \startTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    "TODO: jeux des terminaisons"
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 3.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak color #magenta
+    - \tweak staff-padding #9
+    \startTextSpanOne
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     
     % [D ViolaMusicVoice measure 265 / measure 59]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
     
     % [D ViolaMusicVoice measure 266 / measure 60]               %! SM4
-    R1 * 5/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     
     % [D ViolaMusicVoice measure 267 / measure 61]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
     
     % [D ViolaMusicVoice measure 268 / measure 62]               %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'4.
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     
     % [D ViolaMusicVoice measure 269 / measure 63]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    <> \!                                                        %! HC1
+    ]
+    <> \stopTextSpan
+    <> \stopTextSpanOne
     
     % [D ViolaMusicVoice measure 270 / measure 64]               %! SM4
+    \voices "ViolaMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 1/4
+    \\
     R1 * 1/4
+    >>
     
     % [D ViolaMusicVoice measure 271 / measure 65]               %! SM4
     R1 * 5/8
@@ -6785,29 +7057,139 @@ D_CelloMusicVoice = {
     r8
     \mf                                                          %! HC1
     - \tweak color #magenta                                      %! IC
-    - \tweak parent-alignment-X #-4                              %! IC
-    ^ \markup { RH! }                                            %! IC
+    - \tweak parent-alignment-X #-8                              %! IC
+    ^ \markup { HAND! }                                          %! IC
     
     % [D CelloMusicVoice measure 264 / measure 58]               %! SM4
-    R1 * 7/8
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    - \tweak circled-tip ##t                                     %! HC1
+    \>                                                           %! HC1
+    \mf                                                          %! HC1
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    \override
+                        #'(box-padding . 0.5)
+                        \box
+                            damp
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 3.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #5
+    \startTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    "TODO: jeux des terminaisons"
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 3.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak color #magenta
+    - \tweak staff-padding #9
+    \startTextSpanOne
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     
     % [D CelloMusicVoice measure 265 / measure 59]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
     
     % [D CelloMusicVoice measure 266 / measure 60]               %! SM4
-    R1 * 5/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     
     % [D CelloMusicVoice measure 267 / measure 61]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
     
     % [D CelloMusicVoice measure 268 / measure 62]               %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'4.
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     
     % [D CelloMusicVoice measure 269 / measure 63]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \glissando                                                   %! SC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    <> \!                                                        %! HC1
+    ]
+    <> \stopTextSpan
+    <> \stopTextSpanOne
     
     % [D CelloMusicVoice measure 270 / measure 64]               %! SM4
+    \voices "CelloMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 1/4
+    \\
     R1 * 1/4
+    >>
     
     % [D CelloMusicVoice measure 271 / measure 65]               %! SM4
     R1 * 5/8

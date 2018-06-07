@@ -291,14 +291,10 @@ maker(
         stirrings_still.accelerando(start=(1, 4), stop=(2, 16)),
         ),
     baca.text_spanner(
-        baca.markups.circles().boxed(),
+        baca.markups.fast_whisked_ellipses(),
         abjad.tweak(5).staff_padding,
-        ),
-    baca.text_spanner(
-        '[TODO: fast whisked ellipses]',
-        abjad.tweak('magenta').color,
-        abjad.tweak(9).staff_padding,
-        lilypond_id=1,
+        leak=True,
+        right_padding=2,
         ),
     )
 
@@ -307,8 +303,8 @@ maker(
     baca.dynamic('pp'),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        '[memory of flight]',
-        abjad.tweak('magenta').color,
+        'memory of flight',
+        abjad.tweak('darkgreen').color,
         abjad.tweak(5).staff_padding,
         ),
     baca.pitch('Bb2'),
@@ -322,11 +318,35 @@ maker(
         selector=baca.leaves(),
         ),
     baca.markup(
-        'RH!',
+        'HAND!',
         abjad.tweak('magenta').color,
-        abjad.tweak(-4).parent_alignment_X,
+        abjad.tweak(-8).parent_alignment_X,
         selector=baca.leaf(-1),
         ),
     baca.pitch('B1'),
     stirrings_still.strokes(0, ltmask=rmakers.silence([-1])),
+    )
+
+maker(
+    ('tutti', (58, 63)),
+    baca.hairpin(
+        'mf > niente',
+        leak=True,
+        ),
+    baca.text_spanner(
+        baca.markups.damp().boxed(),
+        abjad.tweak(5).staff_padding,
+        leak=True,
+        right_padding=3.25,
+        ),
+    baca.text_spanner(
+        'TODO: jeux des terminaisons',
+        abjad.tweak('magenta').color,
+        abjad.tweak(9).staff_padding,
+        leak=True,
+        lilypond_id=1,
+        right_padding=3.25,
+        ),
+    stirrings_still.ntlt_flat_glissandi(),
+    stirrings_still.strokes(0),
     )
