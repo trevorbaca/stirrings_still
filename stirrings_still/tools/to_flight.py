@@ -39,8 +39,8 @@ def to_flight(
                     ),
                 ],
             tuplet_specifier=rmakers.TupletSpecifier(
+                duration_bracket=True,
                 extract_trivial=True,
-                use_note_duration_bracket=True,
                 ),
             ),
         )

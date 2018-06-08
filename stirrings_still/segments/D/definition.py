@@ -419,16 +419,34 @@ maker(
         ),
     )
 
+
+"""
+1,-5    -6      -6
+1,-5    2,-4    -6
+2,-4    3,-4    2,-4
+3,-3    4,-2    3,-3
+4,-2    6       4,-2
+6       6       6
+"""
+counts_a = [
+    8,
+    1, 17,
+    1, 5, 2, 10,
+    2, 4, 3, 4, 2, 4,
+    3, 3, 4, 2, 3, 3,
+    4, 2, 10, 2,
+    99,
+    ]
 maker(
     ('trio', (68, 83)),
     baca.map(
         baca.plts()[abjad.index([1], 2)],
         baca.espressivo(),
-        baca.stem_tremolo(),
+        baca.stem_tremolo(selector=baca.pleaves()),
         ),
     baca.pick(
         0,
-        stirrings_still.flight([9, 1, 18, 2, 7, 3, 16, 4, 4, 6], 0),
+        stirrings_still.flight(counts_a, 0),
         ),
     baca.pick(
         1,
