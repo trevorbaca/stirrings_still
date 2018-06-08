@@ -178,7 +178,7 @@ B_GlobalRests = {
         }                                                                %! GFC1
     
     % [B GlobalRests measure 111 / measure 48]                           %! SM4
-    R1 * 3/4
+    R1 * 1
     
     % [B GlobalRests measure 112 / measure 49]                           %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
@@ -238,7 +238,7 @@ B_GlobalRests = {
         }                                                                %! GFC1
     
     % [B GlobalRests measure 127 / measure 64]                           %! SM4
-    R1 * 1
+    R1 * 7/8
     
     % [B GlobalRests measure 128 / measure 65]                           %! SM4
     R1 * 5/8
@@ -3324,9 +3324,9 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 111 / measure 48]                           %! SM4
-    \time 12/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \time 16/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    s1 * 1
     \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
 %@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
@@ -3442,7 +3442,7 @@ B_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'20'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'21'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3620,7 +3620,7 @@ B_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'23'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'24'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3748,7 +3748,7 @@ B_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'28'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'29'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3853,7 +3853,7 @@ B_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'40'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'41'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3888,7 +3888,7 @@ B_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'44'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'45'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -3980,7 +3980,7 @@ B_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [4'49'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [4'50'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -4216,15 +4216,15 @@ B_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'00'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'01'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
     % [B GlobalSkips measure 127 / measure 64]                           %! SM4
-    \time 16/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \time 14/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    s1 * 7/8
     \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
 %@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
@@ -4305,7 +4305,7 @@ B_GlobalSkips = {
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [5'01'']                                     %! SM28:CLOCK_TIME_MARKUP
+            %@%             [5'02'']                                     %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
@@ -5182,7 +5182,7 @@ B_ViolinIMusicVoice = {
     
     % [B ViolinIMusicVoice measure 111 / measure 48]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
-    c'2.
+    c'1
     
     % [B ViolinIMusicVoice measure 112 / measure 49]             %! SM4
     R1 * 1/4
@@ -5347,7 +5347,7 @@ B_ViolinIMusicVoice = {
     
     % [B ViolinIMusicVoice measure 127 / measure 64]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
-    c'1
+    c'2..
     
     % [B ViolinIMusicVoice measure 128 / measure 65]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -6159,7 +6159,7 @@ B_ViolinIIMusicVoice = {
     
     % [B ViolinIIMusicVoice measure 111 / measure 48]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
-    c'2.
+    c'1
     
     % [B ViolinIIMusicVoice measure 112 / measure 49]            %! SM4
     R1 * 1/4
@@ -6364,7 +6364,7 @@ B_ViolinIIMusicVoice = {
     
     % [B ViolinIIMusicVoice measure 127 / measure 64]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
-    c'1
+    c'2..
     
     % [B ViolinIIMusicVoice measure 128 / measure 65]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -6923,7 +6923,7 @@ B_ViolaMusicVoice = {
     
     % [B ViolaMusicVoice measure 111 / measure 48]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
-    c'2.
+    c'1
     
     % [B ViolaMusicVoice measure 112 / measure 49]               %! SM4
     R1 * 1/4
@@ -7088,7 +7088,7 @@ B_ViolaMusicVoice = {
     
     % [B ViolaMusicVoice measure 127 / measure 64]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
-    c'1
+    c'2..
     
     % [B ViolaMusicVoice measure 128 / measure 65]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -7643,7 +7643,7 @@ B_CelloMusicVoice = {
     R1 * 1/4
     
     % [B CelloMusicVoice measure 111 / measure 48]               %! SM4
-    R1 * 3/4
+    R1 * 1
     
     % [B CelloMusicVoice measure 112 / measure 49]               %! SM4
     R1 * 1/4
@@ -7807,7 +7807,7 @@ B_CelloMusicVoice = {
     R1 * 1/4
     
     % [B CelloMusicVoice measure 127 / measure 64]               %! SM4
-    R1 * 1
+    R1 * 7/8
     
     % [B CelloMusicVoice measure 128 / measure 65]               %! SM4
     \baca_unpitched_music_warning                                %! SM24

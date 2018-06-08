@@ -1,90 +1,90 @@
 H_GlobalRests = {
     
-    % [H GlobalRests measure 459 / measure 1]                            %! SM4
+    % [H GlobalRests measure 467 / measure 1]                            %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 460 / measure 2]                            %! SM4
+    % [H GlobalRests measure 468 / measure 2]                            %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 461 / measure 3]                            %! SM4
+    % [H GlobalRests measure 469 / measure 3]                            %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 462 / measure 4]                            %! SM4
+    % [H GlobalRests measure 470 / measure 4]                            %! SM4
     R1 * 7/8
     
-    % [H GlobalRests measure 463 / measure 5]                            %! SM4
+    % [H GlobalRests measure 471 / measure 5]                            %! SM4
     R1 * 7/8
     
-    % [H GlobalRests measure 464 / measure 6]                            %! SM4
+    % [H GlobalRests measure 472 / measure 6]                            %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 465 / measure 7]                            %! SM4
+    % [H GlobalRests measure 473 / measure 7]                            %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 466 / measure 8]                            %! SM4
+    % [H GlobalRests measure 474 / measure 8]                            %! SM4
     R1 * 1/2
     
-    % [H GlobalRests measure 467 / measure 9]                            %! SM4
+    % [H GlobalRests measure 475 / measure 9]                            %! SM4
     R1 * 5/8
     
-    % [H GlobalRests measure 468 / measure 10]                           %! SM4
+    % [H GlobalRests measure 476 / measure 10]                           %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 469 / measure 11]                           %! SM4
+    % [H GlobalRests measure 477 / measure 11]                           %! SM4
     R1 * 7/8
     
-    % [H GlobalRests measure 470 / measure 12]                           %! SM4
+    % [H GlobalRests measure 478 / measure 12]                           %! SM4
     R1 * 7/8
     
-    % [H GlobalRests measure 471 / measure 13]                           %! SM4
+    % [H GlobalRests measure 479 / measure 13]                           %! SM4
     R1 * 5/8
     
-    % [H GlobalRests measure 472 / measure 14]                           %! SM4
+    % [H GlobalRests measure 480 / measure 14]                           %! SM4
     R1 * 1/2
     
-    % [H GlobalRests measure 473 / measure 15]                           %! SM4
+    % [H GlobalRests measure 481 / measure 15]                           %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 474 / measure 16]                           %! SM4
+    % [H GlobalRests measure 482 / measure 16]                           %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 475 / measure 17]                           %! SM4
+    % [H GlobalRests measure 483 / measure 17]                           %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 476 / measure 18]                           %! SM4
+    % [H GlobalRests measure 484 / measure 18]                           %! SM4
     R1 * 1/2
     
-    % [H GlobalRests measure 477 / measure 19]                           %! SM4
+    % [H GlobalRests measure 485 / measure 19]                           %! SM4
     R1 * 5/8
     
-    % [H GlobalRests measure 478 / measure 20]                           %! SM4
+    % [H GlobalRests measure 486 / measure 20]                           %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 479 / measure 21]                           %! SM4
+    % [H GlobalRests measure 487 / measure 21]                           %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 480 / measure 22]                           %! SM4
+    % [H GlobalRests measure 488 / measure 22]                           %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 481 / measure 23]                           %! SM4
+    % [H GlobalRests measure 489 / measure 23]                           %! SM4
     R1 * 7/8
     
-    % [H GlobalRests measure 482 / measure 24]                           %! SM4
+    % [H GlobalRests measure 490 / measure 24]                           %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 483 / measure 25]                           %! SM4
+    % [H GlobalRests measure 491 / measure 25]                           %! SM4
     R1 * 7/8
     
-    % [H GlobalRests measure 484 / measure 26]                           %! SM4
+    % [H GlobalRests measure 492 / measure 26]                           %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 485 / measure 27]                           %! SM4
+    % [H GlobalRests measure 493 / measure 27]                           %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 486 / measure 28]                           %! SM4
+    % [H GlobalRests measure 494 / measure 28]                           %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 487 / measure 29]                           %! SM4
+    % [H GlobalRests measure 495 / measure 29]                           %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -93,13 +93,13 @@ H_GlobalRests = {
             #"scripts.ushortfermata"                                     %! GFC1
         }                                                                %! GFC1
     
-    % [H GlobalRests measure 488 / measure 30]                           %! SM4
+    % [H GlobalRests measure 496 / measure 30]                           %! SM4
     R1 * 7/8
     
-    % [H GlobalRests measure 489 / measure 31]                           %! SM4
+    % [H GlobalRests measure 497 / measure 31]                           %! SM4
     R1 * 7/8
     
-    % [H GlobalRests measure 490 / measure 32]                           %! SM4
+    % [H GlobalRests measure 498 / measure 32]                           %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -108,10 +108,10 @@ H_GlobalRests = {
             #"scripts.ushortfermata"                                     %! GFC1
         }                                                                %! GFC1
     
-    % [H GlobalRests measure 491 / measure 33]                           %! SM4
+    % [H GlobalRests measure 499 / measure 33]                           %! SM4
     R1 * 5/8
     
-    % [H GlobalRests measure 492 / measure 34]                           %! SM4
+    % [H GlobalRests measure 500 / measure 34]                           %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -120,22 +120,22 @@ H_GlobalRests = {
             #"scripts.ushortfermata"                                     %! GFC1
         }                                                                %! GFC1
     
-    % [H GlobalRests measure 493 / measure 35]                           %! SM4
+    % [H GlobalRests measure 501 / measure 35]                           %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 494 / measure 36]                           %! SM4
+    % [H GlobalRests measure 502 / measure 36]                           %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 495 / measure 37]                           %! SM4
+    % [H GlobalRests measure 503 / measure 37]                           %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 496 / measure 38]                           %! SM4
+    % [H GlobalRests measure 504 / measure 38]                           %! SM4
     R1 * 5/8
     
-    % [H GlobalRests measure 497 / measure 39]                           %! SM4
+    % [H GlobalRests measure 505 / measure 39]                           %! SM4
     R1 * 1/2
     
-    % [H GlobalRests measure 498 / measure 40]                           %! SM4
+    % [H GlobalRests measure 506 / measure 40]                           %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -144,19 +144,19 @@ H_GlobalRests = {
             #"scripts.ushortfermata"                                     %! GFC1
         }                                                                %! GFC1
     
-    % [H GlobalRests measure 499 / measure 41]                           %! SM4
+    % [H GlobalRests measure 507 / measure 41]                           %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 500 / measure 42]                           %! SM4
+    % [H GlobalRests measure 508 / measure 42]                           %! SM4
     R1 * 7/8
     
-    % [H GlobalRests measure 501 / measure 43]                           %! SM4
+    % [H GlobalRests measure 509 / measure 43]                           %! SM4
     R1 * 7/8
     
-    % [H GlobalRests measure 502 / measure 44]                           %! SM4
+    % [H GlobalRests measure 510 / measure 44]                           %! SM4
     R1 * 1/2
     
-    % [H GlobalRests measure 503 / measure 45]                           %! SM4
+    % [H GlobalRests measure 511 / measure 45]                           %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! GFC2
     \once \override Score.TimeSignature.stencil = ##f                    %! GFC2
     R1 * 1/4
@@ -165,25 +165,25 @@ H_GlobalRests = {
             #"scripts.ushortfermata"                                     %! GFC1
         }                                                                %! GFC1
     
-    % [H GlobalRests measure 504 / measure 46]                           %! SM4
+    % [H GlobalRests measure 512 / measure 46]                           %! SM4
     R1 * 5/8
     
-    % [H GlobalRests measure 505 / measure 47]                           %! SM4
+    % [H GlobalRests measure 513 / measure 47]                           %! SM4
     R1 * 3/4
     
-    % [H GlobalRests measure 506 / measure 48]                           %! SM4
+    % [H GlobalRests measure 514 / measure 48]                           %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 507 / measure 49]                           %! SM4
+    % [H GlobalRests measure 515 / measure 49]                           %! SM4
     R1 * 1
     
-    % [H GlobalRests measure 508 / measure 50]                           %! SM4
+    % [H GlobalRests measure 516 / measure 50]                           %! SM4
     R1 * 5/8
     
-    % [H GlobalRests measure 509 / measure 51]                           %! SM4
+    % [H GlobalRests measure 517 / measure 51]                           %! SM4
     R1 * 5/8
     
-    % [H GlobalRests measure 510 / measure 52]                           %! SM4
+    % [H GlobalRests measure 518 / measure 52]                           %! SM4
     R1 * 1/2
     
 }
@@ -191,7 +191,7 @@ H_GlobalRests = {
 
 H_GlobalSkips = {
     
-    % [H GlobalSkips measure 459 / measure 1]                            %! SM4
+    % [H GlobalSkips measure 467 / measure 1]                            %! SM4
     \override TextScript.extra-offset = #'(0 . 5)                        %! OC1
     \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \tweak Y-offset #12                                                  %! IC
@@ -258,7 +258,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (459)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (467)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -287,7 +287,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 460 / measure 2]                            %! SM4
+    % [H GlobalSkips measure 468 / measure 2]                            %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -296,7 +296,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (460)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (468)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -321,7 +321,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 461 / measure 3]                            %! SM4
+    % [H GlobalSkips measure 469 / measure 3]                            %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -331,7 +331,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (461)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (469)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -356,7 +356,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 462 / measure 4]                            %! SM4
+    % [H GlobalSkips measure 470 / measure 4]                            %! SM4
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
@@ -416,7 +416,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (462)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (470)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -441,7 +441,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 463 / measure 5]                            %! SM4
+    % [H GlobalSkips measure 471 / measure 5]                            %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
@@ -450,7 +450,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (463)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (471)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -479,7 +479,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 464 / measure 6]                            %! SM4
+    % [H GlobalSkips measure 472 / measure 6]                            %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -539,7 +539,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (464)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (472)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -568,7 +568,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 465 / measure 7]                            %! SM4
+    % [H GlobalSkips measure 473 / measure 7]                            %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -628,7 +628,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (465)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (473)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -657,7 +657,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 466 / measure 8]                            %! SM4
+    % [H GlobalSkips measure 474 / measure 8]                            %! SM4
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -667,7 +667,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (466)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (474)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -692,462 +692,10 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 467 / measure 9]                            %! SM4
+    % [H GlobalSkips measure 475 / measure 9]                            %! SM4
     \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/8
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
-%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%             65                                                       %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                        65                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    - \tweak arrow-width 0.25                                            %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-fraction 0.25                                          %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-period 1.5                                             %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.arrow ##t                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.arrow ##f                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (467)                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             <8>                                          %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%             ((9))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [H.9]                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        [H.4]                                            %! IC
-                    }                                                    %! IC
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'25'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 468 / measure 10]                           %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (468)                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             <9>                                          %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%             ((10))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [H.10]                                       %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'27'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 469 / measure 11]                           %! SM4
-    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (469)                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             <10>                                         %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%             ((11))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [H.11]                                       %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        [H.5]                                            %! IC
-                    }                                                    %! IC
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'30'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 470 / measure 12]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/8
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
-%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%             117                                                      %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                        117                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    - \tweak arrow-width 0.25                                            %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-fraction 0.25                                          %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-period 1.5                                             %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.arrow ##t                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.arrow ##f                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (470)                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             <11>                                         %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%             ((12))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [H.12]                                       %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'33'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 471 / measure 13]                           %! SM4
-    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/8
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (471)                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             <12>                                         %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%             ((13))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [H.13]                                       %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        [H.6]                                            %! IC
-                    }                                                    %! IC
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'35'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 472 / measure 14]                           %! SM4
-    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1/2
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
-%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%             65                                                       %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                        65                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
-    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (472)                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             <13>                                         %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%             ((14))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [H.14]                                       %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'36'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 473 / measure 15]                           %! SM4
-    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (473)                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             <14>                                         %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%             ((15))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [H.15]                                       %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-                \line                                                    %! IC
-                    {                                                    %! IC
-                        [H.7]                                            %! IC
-                    }                                                    %! IC
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'38'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 474 / measure 16]                           %! SM4
-    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (474)                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             <15>                                         %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%             ((16))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             [H.16]                                       %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
-            %@%             [19'41'']                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [H GlobalSkips measure 475 / measure 17]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
     \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
 %@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
@@ -1213,6 +761,458 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             <8>                                          %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((9))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [H.9]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        [H.4]                                            %! IC
+                    }                                                    %! IC
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'25'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [H GlobalSkips measure 476 / measure 10]                           %! SM4
+    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (476)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             <9>                                          %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((10))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [H.10]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'27'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [H GlobalSkips measure 477 / measure 11]                           %! SM4
+    \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 7/8
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (477)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             <10>                                         %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((11))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [H.11]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        [H.5]                                            %! IC
+                    }                                                    %! IC
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'30'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [H GlobalSkips measure 478 / measure 12]                           %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 7/8
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             117                                                      %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        117                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    - \tweak arrow-width 0.25                                            %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-fraction 0.25                                          %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 1.5                                             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.arrow ##t                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.arrow ##f                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (478)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             <11>                                         %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((12))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [H.12]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'33'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [H GlobalSkips measure 479 / measure 13]                           %! SM4
+    \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 5/8
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (479)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             <12>                                         %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((13))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [H.13]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        [H.6]                                            %! IC
+                    }                                                    %! IC
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'35'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [H GlobalSkips measure 480 / measure 14]                           %! SM4
+    \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             65                                                       %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        65                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (480)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             <13>                                         %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((14))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [H.14]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'36'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [H GlobalSkips measure 481 / measure 15]                           %! SM4
+    \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (481)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             <14>                                         %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((15))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [H.15]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+                \line                                                    %! IC
+                    {                                                    %! IC
+                        [H.7]                                            %! IC
+                    }                                                    %! IC
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'38'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [H GlobalSkips measure 482 / measure 16]                           %! SM4
+    \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (482)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             <15>                                         %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%             ((16))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [H.16]                                       %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM28:CLOCK_TIME_MARKUP
+            %@%             [19'41'']                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [H GlobalSkips measure 483 / measure 17]                           %! SM4
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
+%@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%                 #1.5                                                 %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%             65                                                       %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.text \markup {                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                            #1.5                                         %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                        65                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
+    - \tweak arrow-width 0.25                                            %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-fraction 0.25                                          %! SM29:METRONOME_MARK_SPANNER
+    - \tweak dash-period 1.5                                             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.arrow ##t                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.arrow ##f                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
+    - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
+    \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (483)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             <16>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
@@ -1237,7 +1237,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 476 / measure 18]                           %! SM4
+    % [H GlobalSkips measure 484 / measure 18]                           %! SM4
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -1247,7 +1247,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (476)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (484)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1272,7 +1272,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 477 / measure 19]                           %! SM4
+    % [H GlobalSkips measure 485 / measure 19]                           %! SM4
     \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/8
@@ -1282,7 +1282,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (477)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (485)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1307,7 +1307,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 478 / measure 20]                           %! SM4
+    % [H GlobalSkips measure 486 / measure 20]                           %! SM4
     \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -1317,7 +1317,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (478)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (486)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1342,7 +1342,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 479 / measure 21]                           %! SM4
+    % [H GlobalSkips measure 487 / measure 21]                           %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -1352,7 +1352,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (479)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (487)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1377,7 +1377,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 480 / measure 22]                           %! SM4
+    % [H GlobalSkips measure 488 / measure 22]                           %! SM4
     \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -1387,7 +1387,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (480)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (488)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1412,7 +1412,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 481 / measure 23]                           %! SM4
+    % [H GlobalSkips measure 489 / measure 23]                           %! SM4
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
@@ -1472,7 +1472,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (481)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (489)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1501,7 +1501,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 482 / measure 24]                           %! SM4
+    % [H GlobalSkips measure 490 / measure 24]                           %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -1511,7 +1511,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (482)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (490)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1536,7 +1536,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 483 / measure 25]                           %! SM4
+    % [H GlobalSkips measure 491 / measure 25]                           %! SM4
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
@@ -1546,7 +1546,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (483)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (491)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1571,7 +1571,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 484 / measure 26]                           %! SM4
+    % [H GlobalSkips measure 492 / measure 26]                           %! SM4
     \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -1581,7 +1581,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (484)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (492)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1606,7 +1606,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 485 / measure 27]                           %! SM4
+    % [H GlobalSkips measure 493 / measure 27]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -1615,7 +1615,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (485)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (493)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1640,7 +1640,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 486 / measure 28]                           %! SM4
+    % [H GlobalSkips measure 494 / measure 28]                           %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -1650,7 +1650,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (486)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (494)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1675,7 +1675,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 487 / measure 29]                           %! SM4
+    % [H GlobalSkips measure 495 / measure 29]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -1685,7 +1685,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (487)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (495)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1710,7 +1710,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 488 / measure 30]                           %! SM4
+    % [H GlobalSkips measure 496 / measure 30]                           %! SM4
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
@@ -1720,7 +1720,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (488)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (496)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1749,7 +1749,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 489 / measure 31]                           %! SM4
+    % [H GlobalSkips measure 497 / measure 31]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
@@ -1758,7 +1758,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (489)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (497)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1783,7 +1783,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 490 / measure 32]                           %! SM4
+    % [H GlobalSkips measure 498 / measure 32]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -1793,7 +1793,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (490)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (498)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1818,7 +1818,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 491 / measure 33]                           %! SM4
+    % [H GlobalSkips measure 499 / measure 33]                           %! SM4
     \time 10/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/8
@@ -1828,7 +1828,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (491)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (499)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1857,7 +1857,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 492 / measure 34]                           %! SM4
+    % [H GlobalSkips measure 500 / measure 34]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -1867,7 +1867,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (492)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (500)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1892,7 +1892,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 493 / measure 35]                           %! SM4
+    % [H GlobalSkips measure 501 / measure 35]                           %! SM4
     \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -1952,7 +1952,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (493)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (501)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1981,7 +1981,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 494 / measure 36]                           %! SM4
+    % [H GlobalSkips measure 502 / measure 36]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
@@ -1990,7 +1990,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (494)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (502)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2015,7 +2015,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 495 / measure 37]                           %! SM4
+    % [H GlobalSkips measure 503 / measure 37]                           %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -2075,7 +2075,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (495)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (503)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2104,7 +2104,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 496 / measure 38]                           %! SM4
+    % [H GlobalSkips measure 504 / measure 38]                           %! SM4
     \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/8
@@ -2114,7 +2114,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (496)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (504)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2139,7 +2139,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 497 / measure 39]                           %! SM4
+    % [H GlobalSkips measure 505 / measure 39]                           %! SM4
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -2149,7 +2149,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (497)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (505)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2174,7 +2174,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 498 / measure 40]                           %! SM4
+    % [H GlobalSkips measure 506 / measure 40]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -2184,7 +2184,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (498)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (506)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2209,7 +2209,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 499 / measure 41]                           %! SM4
+    % [H GlobalSkips measure 507 / measure 41]                           %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -2219,7 +2219,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (499)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (507)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2248,7 +2248,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 500 / measure 42]                           %! SM4
+    % [H GlobalSkips measure 508 / measure 42]                           %! SM4
     \time 7/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
@@ -2258,7 +2258,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (500)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (508)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2283,7 +2283,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 501 / measure 43]                           %! SM4
+    % [H GlobalSkips measure 509 / measure 43]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
@@ -2292,7 +2292,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (501)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (509)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2317,7 +2317,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 502 / measure 44]                           %! SM4
+    % [H GlobalSkips measure 510 / measure 44]                           %! SM4
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -2327,7 +2327,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (502)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (510)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2352,7 +2352,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 503 / measure 45]                           %! SM4
+    % [H GlobalSkips measure 511 / measure 45]                           %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
@@ -2362,7 +2362,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (503)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (511)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2387,7 +2387,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 504 / measure 46]                           %! SM4
+    % [H GlobalSkips measure 512 / measure 46]                           %! SM4
     \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/8
@@ -2451,7 +2451,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (504)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (512)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2480,7 +2480,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 505 / measure 47]                           %! SM4
+    % [H GlobalSkips measure 513 / measure 47]                           %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -2490,7 +2490,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (505)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (513)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2515,7 +2515,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 506 / measure 48]                           %! SM4
+    % [H GlobalSkips measure 514 / measure 48]                           %! SM4
     \time 8/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -2525,7 +2525,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (506)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (514)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2550,7 +2550,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 507 / measure 49]                           %! SM4
+    % [H GlobalSkips measure 515 / measure 49]                           %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
@@ -2609,7 +2609,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (507)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (515)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2634,7 +2634,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 508 / measure 50]                           %! SM4
+    % [H GlobalSkips measure 516 / measure 50]                           %! SM4
     \time 5/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/8
@@ -2644,7 +2644,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (508)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (516)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2673,7 +2673,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 509 / measure 51]                           %! SM4
+    % [H GlobalSkips measure 517 / measure 51]                           %! SM4
     \time 10/16                                                          %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/8
@@ -2783,7 +2783,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (509)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (517)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2812,7 +2812,7 @@ H_GlobalSkips = {
             }
         }
     
-    % [H GlobalSkips measure 510 / measure 52]                           %! SM4
+    % [H GlobalSkips measure 518 / measure 52]                           %! SM4
     \time 4/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -2823,7 +2823,7 @@ H_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (510)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (518)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -2860,7 +2860,7 @@ H_GlobalSkips = {
 
 H_ViolinIMusicVoice = {
     
-    % [H ViolinIMusicVoice measure 459 / measure 1]              %! SM4
+    % [H ViolinIMusicVoice measure 467 / measure 1]              %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2947,27 +2947,27 @@ H_ViolinIMusicVoice = {
             "Vn. I"                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [H ViolinIMusicVoice measure 460 / measure 2]              %! SM4
+    % [H ViolinIMusicVoice measure 468 / measure 2]              %! SM4
     gf'!1
     \repeatTie
     
-    % [H ViolinIMusicVoice measure 461 / measure 3]              %! SM4
+    % [H ViolinIMusicVoice measure 469 / measure 3]              %! SM4
     gf'!2.
     \repeatTie
     
-    % [H ViolinIMusicVoice measure 462 / measure 4]              %! SM4
+    % [H ViolinIMusicVoice measure 470 / measure 4]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     gf'!2..
     \repeatTie
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [H ViolinIMusicVoice measure 463 / measure 5]              %! SM4
+    % [H ViolinIMusicVoice measure 471 / measure 5]              %! SM4
     gf'!2..
     \repeatTie
     \revert DynamicLineSpanner.staff-padding                     %! OC2
     
-    % [H ViolinIMusicVoice measure 464 / measure 6]              %! SM4
+    % [H ViolinIMusicVoice measure 472 / measure 6]              %! SM4
     \breathe                                                     %! IC
     \set stemLeftBeamCount = 0
     \set stemRightBeamCount = 1
@@ -3047,7 +3047,7 @@ H_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [H ViolinIMusicVoice measure 465 / measure 7]          %! SM4
+        % [H ViolinIMusicVoice measure 473 / measure 7]          %! SM4
         \breathe                                                 %! IC
         \override TupletBracket.direction = #down                %! OC1
         \override TextScript.staff-padding = #1.5                %! OC1
@@ -3104,7 +3104,7 @@ H_ViolinIMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/4 {
         
-        % [H ViolinIMusicVoice measure 467 / measure 9]          %! SM4
+        % [H ViolinIMusicVoice measure 475 / measure 9]          %! SM4
         g'4
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
@@ -3137,7 +3137,7 @@ H_ViolinIMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/10 {
         
-        % [H ViolinIMusicVoice measure 468 / measure 10]         %! SM4
+        % [H ViolinIMusicVoice measure 476 / measure 10]         %! SM4
         a'4
         \glissando                                               %! SC
         
@@ -3154,7 +3154,7 @@ H_ViolinIMusicVoice = {
         \glissando                                               %! SC
     }
     
-    % [H ViolinIMusicVoice measure 469 / measure 11]             %! SM4
+    % [H ViolinIMusicVoice measure 477 / measure 11]             %! SM4
     a'8..
     \stopTextSpan                                                %! PWC1
     \glissando                                                   %! SC
@@ -3194,7 +3194,7 @@ H_ViolinIMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/6 {
         
-        % [H ViolinIMusicVoice measure 470 / measure 12]         %! SM4
+        % [H ViolinIMusicVoice measure 478 / measure 12]         %! SM4
         a'4
         \glissando                                               %! SC
         
@@ -3207,7 +3207,7 @@ H_ViolinIMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/4 {
         
-        % [H ViolinIMusicVoice measure 471 / measure 13]         %! SM4
+        % [H ViolinIMusicVoice measure 479 / measure 13]         %! SM4
         b'4
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
@@ -3235,7 +3235,7 @@ H_ViolinIMusicVoice = {
     }
     \times 4/6 {
         
-        % [H ViolinIMusicVoice measure 472 / measure 14]         %! SM4
+        % [H ViolinIMusicVoice measure 480 / measure 14]         %! SM4
         b'4
         \glissando                                               %! SC
         
@@ -3249,7 +3249,7 @@ H_ViolinIMusicVoice = {
         \revert TextSpanner.staff-padding                        %! OC2
     }
     
-    % [H ViolinIMusicVoice measure 473 / measure 15]             %! SM4
+    % [H ViolinIMusicVoice measure 481 / measure 15]             %! SM4
     \revert Accidental.stencil                                   %! SC
     \revert NoteColumn.glissando-skip                            %! SC
     \revert NoteHead.no-ledgers                                  %! SC
@@ -3265,7 +3265,7 @@ H_ViolinIMusicVoice = {
     a'4
     \times 8/12 {
         
-        % [H ViolinIMusicVoice measure 474 / measure 16]         %! SM4
+        % [H ViolinIMusicVoice measure 482 / measure 16]         %! SM4
         a'4
         
         a'4
@@ -3280,27 +3280,27 @@ H_ViolinIMusicVoice = {
         \revert TupletBracket.staff-padding                      %! OC2
     }
     
-    % [H ViolinIMusicVoice measure 475 / measure 17]             %! SM4
+    % [H ViolinIMusicVoice measure 483 / measure 17]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     R1 * 1
     \!                                                           %! HC1
     
-    % [H ViolinIMusicVoice measure 476 / measure 18]             %! SM4
+    % [H ViolinIMusicVoice measure 484 / measure 18]             %! SM4
     R1 * 1/2
     
-    % [H ViolinIMusicVoice measure 477 / measure 19]             %! SM4
+    % [H ViolinIMusicVoice measure 485 / measure 19]             %! SM4
     R1 * 5/8
     
-    % [H ViolinIMusicVoice measure 478 / measure 20]             %! SM4
+    % [H ViolinIMusicVoice measure 486 / measure 20]             %! SM4
     R1 * 1
     
-    % [H ViolinIMusicVoice measure 479 / measure 21]             %! SM4
+    % [H ViolinIMusicVoice measure 487 / measure 21]             %! SM4
     R1 * 3/4
     
-    % [H ViolinIMusicVoice measure 480 / measure 22]             %! SM4
+    % [H ViolinIMusicVoice measure 488 / measure 22]             %! SM4
     R1 * 1
     
-    % [H ViolinIMusicVoice measure 481 / measure 23]             %! SM4
+    % [H ViolinIMusicVoice measure 489 / measure 23]             %! SM4
     r4
     \times 2/3 {
         
@@ -3409,7 +3409,7 @@ H_ViolinIMusicVoice = {
         c'4
     }
     
-    % [H ViolinIMusicVoice measure 487 / measure 29]             %! SM4
+    % [H ViolinIMusicVoice measure 495 / measure 29]             %! SM4
     R1 * 1/4
     \override TupletNumber.text = \markup {
         \scale
@@ -3449,7 +3449,7 @@ H_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [H ViolinIMusicVoice measure 488 / measure 30]         %! SM4
+        % [H ViolinIMusicVoice measure 496 / measure 30]         %! SM4
         \override TextScript.staff-padding = #5                  %! OC1
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
@@ -3517,10 +3517,10 @@ H_ViolinIMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H ViolinIMusicVoice measure 490 / measure 32]             %! SM4
+    % [H ViolinIMusicVoice measure 498 / measure 32]             %! SM4
     R1 * 1/4
     
-    % [H ViolinIMusicVoice measure 491 / measure 33]             %! SM4
+    % [H ViolinIMusicVoice measure 499 / measure 33]             %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
@@ -3532,10 +3532,10 @@ H_ViolinIMusicVoice = {
     \repeatTie
     \revert NoteHead.style                                       %! OC2
     
-    % [H ViolinIMusicVoice measure 492 / measure 34]             %! SM4
+    % [H ViolinIMusicVoice measure 500 / measure 34]             %! SM4
     R1 * 1/4
     
-    % [H ViolinIMusicVoice measure 493 / measure 35]             %! SM4
+    % [H ViolinIMusicVoice measure 501 / measure 35]             %! SM4
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf'!1
@@ -3574,7 +3574,7 @@ H_ViolinIMusicVoice = {
     \startTextSpan                                               %! PWC1
     _ \markup { III }                                            %! IC
     
-    % [H ViolinIMusicVoice measure 494 / measure 36]             %! SM4
+    % [H ViolinIMusicVoice measure 502 / measure 36]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     gf'!1
     \repeatTie
@@ -3619,7 +3619,7 @@ H_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [H ViolinIMusicVoice measure 495 / measure 37]         %! SM4
+        % [H ViolinIMusicVoice measure 503 / measure 37]         %! SM4
         \override TextScript.staff-padding = #5                  %! OC1
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
@@ -3686,7 +3686,7 @@ H_ViolinIMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H ViolinIMusicVoice measure 498 / measure 40]             %! SM4
+    % [H ViolinIMusicVoice measure 506 / measure 40]             %! SM4
     R1 * 1/4
     \override TupletNumber.text = \markup {
         \scale
@@ -3726,7 +3726,7 @@ H_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [H ViolinIMusicVoice measure 499 / measure 41]         %! SM4
+        % [H ViolinIMusicVoice measure 507 / measure 41]         %! SM4
         \override TextScript.staff-padding = #5                  %! OC1
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
@@ -3808,11 +3808,11 @@ H_ViolinIMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H ViolinIMusicVoice measure 503 / measure 45]             %! SM4
+    % [H ViolinIMusicVoice measure 511 / measure 45]             %! SM4
     R1 * 1/4
     \times 2/3 {
         
-        % [H ViolinIMusicVoice measure 504 / measure 46]         %! SM4
+        % [H ViolinIMusicVoice measure 512 / measure 46]         %! SM4
         \override TextSpanner.staff-padding = #4                 %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
@@ -3933,11 +3933,11 @@ H_ViolinIMusicVoice = {
         \revert TextSpanner.staff-padding                        %! OC2
     }
     
-    % [H ViolinIMusicVoice measure 509 / measure 51]             %! SM4
+    % [H ViolinIMusicVoice measure 517 / measure 51]             %! SM4
     R1 * 5/8
     \times 2/3 {
         
-        % [H ViolinIMusicVoice measure 510 / measure 52]         %! SM4
+        % [H ViolinIMusicVoice measure 518 / measure 52]         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -3962,7 +3962,7 @@ H_ViolinIMusicStaff = {
 
 H_ViolinIIMusicVoice = {
     
-    % [H ViolinIIMusicVoice measure 459 / measure 1]             %! SM4
+    % [H ViolinIIMusicVoice measure 467 / measure 1]             %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -4049,39 +4049,39 @@ H_ViolinIIMusicVoice = {
             "Vn. II"                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [H ViolinIIMusicVoice measure 460 / measure 2]             %! SM4
+    % [H ViolinIIMusicVoice measure 468 / measure 2]             %! SM4
     f'1
     \repeatTie                                                   %! TCC
     
-    % [H ViolinIIMusicVoice measure 461 / measure 3]             %! SM4
+    % [H ViolinIIMusicVoice measure 469 / measure 3]             %! SM4
     f'2.
     \repeatTie                                                   %! TCC
     
-    % [H ViolinIIMusicVoice measure 462 / measure 4]             %! SM4
+    % [H ViolinIIMusicVoice measure 470 / measure 4]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     f'2..
     \repeatTie                                                   %! TCC
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [H ViolinIIMusicVoice measure 463 / measure 5]             %! SM4
+    % [H ViolinIIMusicVoice measure 471 / measure 5]             %! SM4
     f'2..
     \repeatTie                                                   %! TCC
     \revert DynamicLineSpanner.staff-padding                     %! OC2
     
-    % [H ViolinIIMusicVoice measure 464 / measure 6]             %! SM4
+    % [H ViolinIIMusicVoice measure 472 / measure 6]             %! SM4
     f'2.
     \repeatTie                                                   %! TCC
     
-    % [H ViolinIIMusicVoice measure 465 / measure 7]             %! SM4
+    % [H ViolinIIMusicVoice measure 473 / measure 7]             %! SM4
     f'2.
     \repeatTie                                                   %! TCC
     
-    % [H ViolinIIMusicVoice measure 466 / measure 8]             %! SM4
+    % [H ViolinIIMusicVoice measure 474 / measure 8]             %! SM4
     f'2
     \repeatTie                                                   %! TCC
     
-    % [H ViolinIIMusicVoice measure 467 / measure 9]             %! SM4
+    % [H ViolinIIMusicVoice measure 475 / measure 9]             %! SM4
     \override TextSpanner.staff-padding = #5                     %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'4.
@@ -4114,7 +4114,7 @@ H_ViolinIIMusicVoice = {
     f'4
     \repeatTie                                                   %! TCC
     
-    % [H ViolinIIMusicVoice measure 468 / measure 10]            %! SM4
+    % [H ViolinIIMusicVoice measure 476 / measure 10]            %! SM4
     f'2.
     \repeatTie                                                   %! TCC
     \stopTextSpan                                                %! PWC1
@@ -4178,7 +4178,7 @@ H_ViolinIIMusicVoice = {
         }
     \times 1/1 {
         
-        % [H ViolinIIMusicVoice measure 469 / measure 11]        %! SM4
+        % [H ViolinIIMusicVoice measure 477 / measure 11]        %! SM4
         \override TupletBracket.direction = #down                %! OC1
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
@@ -4235,7 +4235,7 @@ H_ViolinIIMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/6 {
         
-        % [H ViolinIIMusicVoice measure 471 / measure 13]        %! SM4
+        % [H ViolinIIMusicVoice measure 479 / measure 13]        %! SM4
         \override TupletBracket.staff-padding = #1.5             %! OC1
         g'4
         \stopTextSpan                                            %! PWC1
@@ -4270,7 +4270,7 @@ H_ViolinIIMusicVoice = {
         \glissando                                               %! SC
     }
     
-    % [H ViolinIIMusicVoice measure 472 / measure 14]            %! SM4
+    % [H ViolinIIMusicVoice measure 480 / measure 14]            %! SM4
     a'4
     \glissando                                                   %! SC
     
@@ -4279,7 +4279,7 @@ H_ViolinIIMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/10 {
         
-        % [H ViolinIIMusicVoice measure 473 / measure 15]        %! SM4
+        % [H ViolinIIMusicVoice measure 481 / measure 15]        %! SM4
         \revert Accidental.stencil                               %! SC
         \revert NoteColumn.glissando-skip                        %! SC
         \revert NoteHead.no-ledgers                              %! SC
@@ -4319,7 +4319,7 @@ H_ViolinIIMusicVoice = {
     }
     \times 8/10 {
         
-        % [H ViolinIIMusicVoice measure 474 / measure 16]        %! SM4
+        % [H ViolinIIMusicVoice measure 482 / measure 16]        %! SM4
         af'!4
         
         af'!4
@@ -4334,27 +4334,27 @@ H_ViolinIIMusicVoice = {
         \revert TupletBracket.staff-padding                      %! OC2
     }
     
-    % [H ViolinIIMusicVoice measure 475 / measure 17]            %! SM4
+    % [H ViolinIIMusicVoice measure 483 / measure 17]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     R1 * 1
     \!                                                           %! HC1
     
-    % [H ViolinIIMusicVoice measure 476 / measure 18]            %! SM4
+    % [H ViolinIIMusicVoice measure 484 / measure 18]            %! SM4
     R1 * 1/2
     
-    % [H ViolinIIMusicVoice measure 477 / measure 19]            %! SM4
+    % [H ViolinIIMusicVoice measure 485 / measure 19]            %! SM4
     R1 * 5/8
     
-    % [H ViolinIIMusicVoice measure 478 / measure 20]            %! SM4
+    % [H ViolinIIMusicVoice measure 486 / measure 20]            %! SM4
     R1 * 1
     
-    % [H ViolinIIMusicVoice measure 479 / measure 21]            %! SM4
+    % [H ViolinIIMusicVoice measure 487 / measure 21]            %! SM4
     R1 * 3/4
     
-    % [H ViolinIIMusicVoice measure 480 / measure 22]            %! SM4
+    % [H ViolinIIMusicVoice measure 488 / measure 22]            %! SM4
     R1 * 1
     
-    % [H ViolinIIMusicVoice measure 481 / measure 23]            %! SM4
+    % [H ViolinIIMusicVoice measure 489 / measure 23]            %! SM4
     r4
     \times 4/5 {
         
@@ -4448,7 +4448,7 @@ H_ViolinIIMusicVoice = {
         c'4
     }
     
-    % [H ViolinIIMusicVoice measure 487 / measure 29]            %! SM4
+    % [H ViolinIIMusicVoice measure 495 / measure 29]            %! SM4
     R1 * 1/4
     \override TupletNumber.text = \markup {
         \scale
@@ -4488,7 +4488,7 @@ H_ViolinIIMusicVoice = {
         }
     \times 1/1 {
         
-        % [H ViolinIIMusicVoice measure 488 / measure 30]        %! SM4
+        % [H ViolinIIMusicVoice measure 496 / measure 30]        %! SM4
         \override TextScript.staff-padding = #5                  %! OC1
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
@@ -4550,11 +4550,11 @@ H_ViolinIIMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H ViolinIIMusicVoice measure 490 / measure 32]            %! SM4
+    % [H ViolinIIMusicVoice measure 498 / measure 32]            %! SM4
     R1 * 1/4
     \times 2/3 {
         
-        % [H ViolinIIMusicVoice measure 491 / measure 33]        %! SM4
+        % [H ViolinIIMusicVoice measure 499 / measure 33]        %! SM4
         \override TextSpanner.staff-padding = #7                 %! OC1
         \override TupletBracket.staff-padding = #2               %! OC1
         \override TupletNumber.text = #tuplet-number::calc-denominator-text %! OC1
@@ -4610,11 +4610,11 @@ H_ViolinIIMusicVoice = {
         \revert TupletNumber.text                                %! OC2
     }
     
-    % [H ViolinIIMusicVoice measure 492 / measure 34]            %! SM4
+    % [H ViolinIIMusicVoice measure 500 / measure 34]            %! SM4
     R1 * 1/4
     \stopTextSpan
     
-    % [H ViolinIIMusicVoice measure 493 / measure 35]            %! SM4
+    % [H ViolinIIMusicVoice measure 501 / measure 35]            %! SM4
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'1
@@ -4653,7 +4653,7 @@ H_ViolinIIMusicVoice = {
     \startTextSpan                                               %! PWC1
     _ \markup { III }                                            %! IC
     
-    % [H ViolinIIMusicVoice measure 494 / measure 36]            %! SM4
+    % [H ViolinIIMusicVoice measure 502 / measure 36]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     f'1
     \repeatTie
@@ -4698,7 +4698,7 @@ H_ViolinIIMusicVoice = {
         }
     \times 1/1 {
         
-        % [H ViolinIIMusicVoice measure 495 / measure 37]        %! SM4
+        % [H ViolinIIMusicVoice measure 503 / measure 37]        %! SM4
         \override TextScript.staff-padding = #5                  %! OC1
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
@@ -4759,7 +4759,7 @@ H_ViolinIIMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H ViolinIIMusicVoice measure 498 / measure 40]            %! SM4
+    % [H ViolinIIMusicVoice measure 506 / measure 40]            %! SM4
     R1 * 1/4
     \override TupletNumber.text = \markup {
         \scale
@@ -4799,7 +4799,7 @@ H_ViolinIIMusicVoice = {
         }
     \times 1/1 {
         
-        % [H ViolinIIMusicVoice measure 499 / measure 41]        %! SM4
+        % [H ViolinIIMusicVoice measure 507 / measure 41]        %! SM4
         \override TextScript.staff-padding = #5                  %! OC1
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
@@ -4872,11 +4872,11 @@ H_ViolinIIMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H ViolinIIMusicVoice measure 503 / measure 45]            %! SM4
+    % [H ViolinIIMusicVoice measure 511 / measure 45]            %! SM4
     R1 * 1/4
     \times 4/5 {
         
-        % [H ViolinIIMusicVoice measure 504 / measure 46]        %! SM4
+        % [H ViolinIIMusicVoice measure 512 / measure 46]        %! SM4
         \override TextSpanner.staff-padding = #4                 %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
@@ -4985,11 +4985,11 @@ H_ViolinIIMusicVoice = {
         \revert TextSpanner.staff-padding                        %! OC2
     }
     
-    % [H ViolinIIMusicVoice measure 509 / measure 51]            %! SM4
+    % [H ViolinIIMusicVoice measure 517 / measure 51]            %! SM4
     R1 * 5/8
     \times 4/5 {
         
-        % [H ViolinIIMusicVoice measure 510 / measure 52]        %! SM4
+        % [H ViolinIIMusicVoice measure 518 / measure 52]        %! SM4
         r8
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -5013,7 +5013,7 @@ H_ViolinIIMusicStaff = {
 
 H_ViolaMusicVoice = {
     
-    % [H ViolaMusicVoice measure 459 / measure 1]                %! SM4
+    % [H ViolaMusicVoice measure 467 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -5104,27 +5104,27 @@ H_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [H ViolaMusicVoice measure 460 / measure 2]                %! SM4
+    % [H ViolaMusicVoice measure 468 / measure 2]                %! SM4
     af!1
     \repeatTie
     
-    % [H ViolaMusicVoice measure 461 / measure 3]                %! SM4
+    % [H ViolaMusicVoice measure 469 / measure 3]                %! SM4
     af!2.
     \repeatTie
     
-    % [H ViolaMusicVoice measure 462 / measure 4]                %! SM4
+    % [H ViolaMusicVoice measure 470 / measure 4]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     af!2..
     \repeatTie
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [H ViolaMusicVoice measure 463 / measure 5]                %! SM4
+    % [H ViolaMusicVoice measure 471 / measure 5]                %! SM4
     af!2..
     \repeatTie
     \revert DynamicLineSpanner.staff-padding                     %! OC2
     
-    % [H ViolaMusicVoice measure 464 / measure 6]                %! SM4
+    % [H ViolaMusicVoice measure 472 / measure 6]                %! SM4
     \breathe                                                     %! IC
     \baca_unpitched_music_warning                                %! SM24
     c'2
@@ -5179,7 +5179,7 @@ H_ViolaMusicVoice = {
         }
     \times 1/1 {
         
-        % [H ViolaMusicVoice measure 465 / measure 7]            %! SM4
+        % [H ViolaMusicVoice measure 473 / measure 7]            %! SM4
         \breathe                                                 %! IC
         \override TupletBracket.direction = #down                %! OC1
         \override TextScript.staff-padding = #1.5                %! OC1
@@ -5236,7 +5236,7 @@ H_ViolaMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/6 {
         
-        % [H ViolaMusicVoice measure 467 / measure 9]            %! SM4
+        % [H ViolaMusicVoice measure 475 / measure 9]            %! SM4
         a4
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
@@ -5270,7 +5270,7 @@ H_ViolaMusicVoice = {
         \glissando                                               %! SC
     }
     
-    % [H ViolaMusicVoice measure 468 / measure 10]               %! SM4
+    % [H ViolaMusicVoice measure 476 / measure 10]               %! SM4
     a4
     \glissando                                                   %! SC
     
@@ -5282,7 +5282,7 @@ H_ViolaMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/10 {
         
-        % [H ViolaMusicVoice measure 469 / measure 11]           %! SM4
+        % [H ViolaMusicVoice measure 477 / measure 11]           %! SM4
         a4
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
@@ -5322,7 +5322,7 @@ H_ViolaMusicVoice = {
         \glissando                                               %! SC
     }
     
-    % [H ViolaMusicVoice measure 470 / measure 12]               %! SM4
+    % [H ViolaMusicVoice measure 478 / measure 12]               %! SM4
     b8..
     \glissando                                                   %! SC
     [
@@ -5339,7 +5339,7 @@ H_ViolaMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/4 {
         
-        % [H ViolaMusicVoice measure 471 / measure 13]           %! SM4
+        % [H ViolaMusicVoice measure 479 / measure 13]           %! SM4
         b4
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
@@ -5366,7 +5366,7 @@ H_ViolaMusicVoice = {
         \glissando                                               %! SC
     }
     
-    % [H ViolaMusicVoice measure 472 / measure 14]               %! SM4
+    % [H ViolaMusicVoice measure 480 / measure 14]               %! SM4
     b4
     \glissando                                                   %! SC
     
@@ -5376,7 +5376,7 @@ H_ViolaMusicVoice = {
     \revert TextScript.staff-padding                             %! OC2
     \revert TextSpanner.staff-padding                            %! OC2
     
-    % [H ViolaMusicVoice measure 473 / measure 15]               %! SM4
+    % [H ViolaMusicVoice measure 481 / measure 15]               %! SM4
     \revert Accidental.stencil                                   %! SC
     \revert NoteColumn.glissando-skip                            %! SC
     \revert NoteHead.no-ledgers                                  %! SC
@@ -5395,7 +5395,7 @@ H_ViolaMusicVoice = {
     b8.
     ]
     
-    % [H ViolaMusicVoice measure 474 / measure 16]               %! SM4
+    % [H ViolaMusicVoice measure 482 / measure 16]               %! SM4
     b4
     
     b4
@@ -5405,27 +5405,27 @@ H_ViolaMusicVoice = {
     b4
     \revert TupletBracket.staff-padding                          %! OC2
     
-    % [H ViolaMusicVoice measure 475 / measure 17]               %! SM4
+    % [H ViolaMusicVoice measure 483 / measure 17]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     R1 * 1
     \!                                                           %! HC1
     
-    % [H ViolaMusicVoice measure 476 / measure 18]               %! SM4
+    % [H ViolaMusicVoice measure 484 / measure 18]               %! SM4
     R1 * 1/2
     
-    % [H ViolaMusicVoice measure 477 / measure 19]               %! SM4
+    % [H ViolaMusicVoice measure 485 / measure 19]               %! SM4
     R1 * 5/8
     
-    % [H ViolaMusicVoice measure 478 / measure 20]               %! SM4
+    % [H ViolaMusicVoice measure 486 / measure 20]               %! SM4
     R1 * 1
     
-    % [H ViolaMusicVoice measure 479 / measure 21]               %! SM4
+    % [H ViolaMusicVoice measure 487 / measure 21]               %! SM4
     R1 * 3/4
     
-    % [H ViolaMusicVoice measure 480 / measure 22]               %! SM4
+    % [H ViolaMusicVoice measure 488 / measure 22]               %! SM4
     R1 * 1
     
-    % [H ViolaMusicVoice measure 481 / measure 23]               %! SM4
+    % [H ViolaMusicVoice measure 489 / measure 23]               %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -5461,7 +5461,7 @@ H_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    % [H ViolaMusicVoice measure 484 / measure 26]               %! SM4
+    % [H ViolaMusicVoice measure 492 / measure 26]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
@@ -5474,7 +5474,7 @@ H_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    % [H ViolaMusicVoice measure 485 / measure 27]               %! SM4
+    % [H ViolaMusicVoice measure 493 / measure 27]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
@@ -5487,7 +5487,7 @@ H_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    % [H ViolaMusicVoice measure 486 / measure 28]               %! SM4
+    % [H ViolaMusicVoice measure 494 / measure 28]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
@@ -5497,7 +5497,7 @@ H_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    % [H ViolaMusicVoice measure 487 / measure 29]               %! SM4
+    % [H ViolaMusicVoice measure 495 / measure 29]               %! SM4
     R1 * 1/4
     \override TupletNumber.text = \markup {
         \scale
@@ -5537,7 +5537,7 @@ H_ViolaMusicVoice = {
         }
     \times 1/1 {
         
-        % [H ViolaMusicVoice measure 488 / measure 30]           %! SM4
+        % [H ViolaMusicVoice measure 496 / measure 30]           %! SM4
         \override TextScript.staff-padding = #5                  %! OC1
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
@@ -5596,10 +5596,10 @@ H_ViolaMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H ViolaMusicVoice measure 490 / measure 32]               %! SM4
+    % [H ViolaMusicVoice measure 498 / measure 32]               %! SM4
     R1 * 1/4
     
-    % [H ViolaMusicVoice measure 491 / measure 33]               %! SM4
+    % [H ViolaMusicVoice measure 499 / measure 33]               %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
@@ -5611,10 +5611,10 @@ H_ViolaMusicVoice = {
     \repeatTie
     \revert NoteHead.style                                       %! OC2
     
-    % [H ViolaMusicVoice measure 492 / measure 34]               %! SM4
+    % [H ViolaMusicVoice measure 500 / measure 34]               %! SM4
     R1 * 1/4
     
-    % [H ViolaMusicVoice measure 493 / measure 35]               %! SM4
+    % [H ViolaMusicVoice measure 501 / measure 35]               %! SM4
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af!1
@@ -5653,7 +5653,7 @@ H_ViolaMusicVoice = {
     \startTextSpan                                               %! PWC1
     _ \markup { III }                                            %! IC
     
-    % [H ViolaMusicVoice measure 494 / measure 36]               %! SM4
+    % [H ViolaMusicVoice measure 502 / measure 36]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     af!1
     \repeatTie
@@ -5698,7 +5698,7 @@ H_ViolaMusicVoice = {
         }
     \times 1/1 {
         
-        % [H ViolaMusicVoice measure 495 / measure 37]           %! SM4
+        % [H ViolaMusicVoice measure 503 / measure 37]           %! SM4
         \override TextScript.staff-padding = #5                  %! OC1
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
@@ -5759,7 +5759,7 @@ H_ViolaMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H ViolaMusicVoice measure 498 / measure 40]               %! SM4
+    % [H ViolaMusicVoice measure 506 / measure 40]               %! SM4
     R1 * 1/4
     \override TupletNumber.text = \markup {
         \scale
@@ -5799,7 +5799,7 @@ H_ViolaMusicVoice = {
         }
     \times 1/1 {
         
-        % [H ViolaMusicVoice measure 499 / measure 41]           %! SM4
+        % [H ViolaMusicVoice measure 507 / measure 41]           %! SM4
         \override TextScript.staff-padding = #5                  %! OC1
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override Staff.Stem.stemlet-length = 0.75
@@ -5866,10 +5866,10 @@ H_ViolaMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H ViolaMusicVoice measure 503 / measure 45]               %! SM4
+    % [H ViolaMusicVoice measure 511 / measure 45]               %! SM4
     R1 * 1/4
     
-    % [H ViolaMusicVoice measure 504 / measure 46]               %! SM4
+    % [H ViolaMusicVoice measure 512 / measure 46]               %! SM4
     \override TextSpanner.staff-padding = #4                     %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
@@ -5959,10 +5959,10 @@ H_ViolaMusicVoice = {
     \mf                                                          %! HC1
     \revert TextSpanner.staff-padding                            %! OC2
     
-    % [H ViolaMusicVoice measure 509 / measure 51]               %! SM4
+    % [H ViolaMusicVoice measure 517 / measure 51]               %! SM4
     R1 * 5/8
     
-    % [H ViolaMusicVoice measure 510 / measure 52]               %! SM4
+    % [H ViolaMusicVoice measure 518 / measure 52]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -5983,7 +5983,7 @@ H_ViolaMusicStaff = {
 
 H_CelloMusicVoice = {
     
-    % [H CelloMusicVoice measure 459 / measure 1]                %! SM4
+    % [H CelloMusicVoice measure 467 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -6070,22 +6070,22 @@ H_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [H CelloMusicVoice measure 460 / measure 2]                %! SM4
+    % [H CelloMusicVoice measure 468 / measure 2]                %! SM4
     af,!1
     \repeatTie
     
-    % [H CelloMusicVoice measure 461 / measure 3]                %! SM4
+    % [H CelloMusicVoice measure 469 / measure 3]                %! SM4
     af,!2.
     \repeatTie
     
-    % [H CelloMusicVoice measure 462 / measure 4]                %! SM4
+    % [H CelloMusicVoice measure 470 / measure 4]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     af,!2..
     \repeatTie
     \mp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
     
-    % [H CelloMusicVoice measure 463 / measure 5]                %! SM4
+    % [H CelloMusicVoice measure 471 / measure 5]                %! SM4
     af,!2..
     \repeatTie
     \revert DynamicLineSpanner.staff-padding                     %! OC2
@@ -6127,7 +6127,7 @@ H_CelloMusicVoice = {
         }
     \times 1/1 {
         
-        % [H CelloMusicVoice measure 464 / measure 6]            %! SM4
+        % [H CelloMusicVoice measure 472 / measure 6]            %! SM4
         \breathe                                                 %! IC
         \override Script.staff-padding = #6                      %! OC1
         \override TextSpanner.staff-padding = #3                 %! OC1
@@ -6263,7 +6263,7 @@ H_CelloMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [H CelloMusicVoice measure 465 / measure 7]                %! SM4
+    % [H CelloMusicVoice measure 473 / measure 7]                %! SM4
     \breathe                                                     %! IC
     \override Glissando.arrow-length = #'2                       %! OC1
     \override Glissando.arrow-width = #'0.5                      %! OC1
@@ -6306,7 +6306,7 @@ H_CelloMusicVoice = {
     \startTextSpan                                               %! PWC1
     _ \markup { IV }                                             %! IC
     
-    % [H CelloMusicVoice measure 466 / measure 8]                %! SM4
+    % [H CelloMusicVoice measure 474 / measure 8]                %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     gf,!2
     \stopTextSpan                                                %! PWC1
@@ -6315,7 +6315,7 @@ H_CelloMusicVoice = {
     \revert Glissando.bound-details.right.arrow                  %! OC2
     \revert Glissando.thickness                                  %! OC2
     
-    % [H CelloMusicVoice measure 467 / measure 9]                %! SM4
+    % [H CelloMusicVoice measure 475 / measure 9]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf,!4.
     \repeatTie                                                   %! SC
@@ -6325,19 +6325,19 @@ H_CelloMusicVoice = {
     gf,!4
     \repeatTie                                                   %! SC
     
-    % [H CelloMusicVoice measure 468 / measure 10]               %! SM4
+    % [H CelloMusicVoice measure 476 / measure 10]               %! SM4
     gf,!2.
     \repeatTie                                                   %! SC
     
-    % [H CelloMusicVoice measure 469 / measure 11]               %! SM4
+    % [H CelloMusicVoice measure 477 / measure 11]               %! SM4
     gf,!2..
     \repeatTie                                                   %! SC
     
-    % [H CelloMusicVoice measure 470 / measure 12]               %! SM4
+    % [H CelloMusicVoice measure 478 / measure 12]               %! SM4
     gf,!2..
     \repeatTie                                                   %! SC
     
-    % [H CelloMusicVoice measure 471 / measure 13]               %! SM4
+    % [H CelloMusicVoice measure 479 / measure 13]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     gf,!4.
     \repeatTie                                                   %! SC
@@ -6347,96 +6347,96 @@ H_CelloMusicVoice = {
     gf,!4
     \repeatTie                                                   %! SC
     
-    % [H CelloMusicVoice measure 472 / measure 14]               %! SM4
+    % [H CelloMusicVoice measure 480 / measure 14]               %! SM4
     gf,!2
     \repeatTie                                                   %! SC
     
-    % [H CelloMusicVoice measure 473 / measure 15]               %! SM4
+    % [H CelloMusicVoice measure 481 / measure 15]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf,!2.
     \repeatTie                                                   %! SC
     \<                                                           %! HC1
     \f                                                           %! HC1
     
-    % [H CelloMusicVoice measure 474 / measure 16]               %! SM4
+    % [H CelloMusicVoice measure 482 / measure 16]               %! SM4
     gf,!1
     \repeatTie                                                   %! SC
     
-    % [H CelloMusicVoice measure 475 / measure 17]               %! SM4
+    % [H CelloMusicVoice measure 483 / measure 17]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     gf,!1
     \repeatTie                                                   %! SC
     \ff                                                          %! HC1
     ^ \markup { "molto overpressure" }                           %! IC
     
-    % [H CelloMusicVoice measure 476 / measure 18]               %! SM4
+    % [H CelloMusicVoice measure 484 / measure 18]               %! SM4
     gf,!2
     \repeatTie                                                   %! SC
     
-    % [H CelloMusicVoice measure 477 / measure 19]               %! SM4
+    % [H CelloMusicVoice measure 485 / measure 19]               %! SM4
     gf,!4.
     \repeatTie                                                   %! SC
     
     gf,!4
     \repeatTie                                                   %! SC
     
-    % [H CelloMusicVoice measure 478 / measure 20]               %! SM4
+    % [H CelloMusicVoice measure 486 / measure 20]               %! SM4
     gf,!1
     \repeatTie                                                   %! SC
     
-    % [H CelloMusicVoice measure 479 / measure 21]               %! SM4
+    % [H CelloMusicVoice measure 487 / measure 21]               %! SM4
     gf,!2.
     \repeatTie                                                   %! SC
     
-    % [H CelloMusicVoice measure 480 / measure 22]               %! SM4
+    % [H CelloMusicVoice measure 488 / measure 22]               %! SM4
     gf,!1
     \repeatTie                                                   %! SC
     
-    % [H CelloMusicVoice measure 481 / measure 23]               %! SM4
+    % [H CelloMusicVoice measure 489 / measure 23]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf,!2..
     \repeatTie                                                   %! SC
     \>                                                           %! HC1
     \ff                                                          %! HC1
     
-    % [H CelloMusicVoice measure 482 / measure 24]               %! SM4
+    % [H CelloMusicVoice measure 490 / measure 24]               %! SM4
     gf,!2.
     \repeatTie                                                   %! SC
     
-    % [H CelloMusicVoice measure 483 / measure 25]               %! SM4
+    % [H CelloMusicVoice measure 491 / measure 25]               %! SM4
     gf,!2..
     \repeatTie                                                   %! SC
     
-    % [H CelloMusicVoice measure 484 / measure 26]               %! SM4
+    % [H CelloMusicVoice measure 492 / measure 26]               %! SM4
     gf,!1
     \repeatTie                                                   %! SC
     
-    % [H CelloMusicVoice measure 485 / measure 27]               %! SM4
+    % [H CelloMusicVoice measure 493 / measure 27]               %! SM4
     gf,!1
     \repeatTie                                                   %! SC
     
-    % [H CelloMusicVoice measure 486 / measure 28]               %! SM4
+    % [H CelloMusicVoice measure 494 / measure 28]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     gf,!2.
     \repeatTie                                                   %! SC
     \ppp                                                         %! HC1
     
-    % [H CelloMusicVoice measure 487 / measure 29]               %! SM4
+    % [H CelloMusicVoice measure 495 / measure 29]               %! SM4
     R1 * 1/4
     
-    % [H CelloMusicVoice measure 488 / measure 30]               %! SM4
+    % [H CelloMusicVoice measure 496 / measure 30]               %! SM4
     gf,!2..
     \repeatTie                                                   %! IC
     
-    % [H CelloMusicVoice measure 489 / measure 31]               %! SM4
+    % [H CelloMusicVoice measure 497 / measure 31]               %! SM4
     gf,!2..
     \repeatTie                                                   %! SC
     \revert NoteHead.style                                       %! OC2
     
-    % [H CelloMusicVoice measure 490 / measure 32]               %! SM4
+    % [H CelloMusicVoice measure 498 / measure 32]               %! SM4
     R1 * 1/4
     
-    % [H CelloMusicVoice measure 491 / measure 33]               %! SM4
+    % [H CelloMusicVoice measure 499 / measure 33]               %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
@@ -6448,10 +6448,10 @@ H_CelloMusicVoice = {
     \repeatTie
     \revert NoteHead.style                                       %! OC2
     
-    % [H CelloMusicVoice measure 492 / measure 34]               %! SM4
+    % [H CelloMusicVoice measure 500 / measure 34]               %! SM4
     R1 * 1/4
     
-    % [H CelloMusicVoice measure 493 / measure 35]               %! SM4
+    % [H CelloMusicVoice measure 501 / measure 35]               %! SM4
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af,!1
@@ -6490,7 +6490,7 @@ H_CelloMusicVoice = {
     \startTextSpan                                               %! PWC1
     _ \markup { III }                                            %! IC
     
-    % [H CelloMusicVoice measure 494 / measure 36]               %! SM4
+    % [H CelloMusicVoice measure 502 / measure 36]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     af,!1
     \repeatTie
@@ -6498,7 +6498,7 @@ H_CelloMusicVoice = {
     \stopTextSpan                                                %! PWC1
     \revert DynamicLineSpanner.staff-padding                     %! OC2
     
-    % [H CelloMusicVoice measure 495 / measure 37]               %! SM4
+    % [H CelloMusicVoice measure 503 / measure 37]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     gf,!4
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
@@ -6514,7 +6514,7 @@ H_CelloMusicVoice = {
     g,4
     \glissando                                                   %! SC
     
-    % [H CelloMusicVoice measure 496 / measure 38]               %! SM4
+    % [H CelloMusicVoice measure 504 / measure 38]               %! SM4
     g,4
     \glissando                                                   %! SC
     
@@ -6551,7 +6551,7 @@ H_CelloMusicVoice = {
     f,4
     \glissando                                                   %! SC
     
-    % [H CelloMusicVoice measure 501 / measure 43]               %! SM4
+    % [H CelloMusicVoice measure 509 / measure 43]               %! SM4
     f,4
     \glissando                                                   %! SC
     
@@ -6575,7 +6575,7 @@ H_CelloMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/6 {
         
-        % [H CelloMusicVoice measure 504 / measure 46]           %! SM4
+        % [H CelloMusicVoice measure 512 / measure 46]           %! SM4
         \override DynamicLineSpanner.staff-padding = #'5         %! OC1
         \override TextScript.staff-padding = #11                 %! OC1
         \override TextSpanner.staff-padding = #7                 %! OC1
@@ -6723,7 +6723,7 @@ H_CelloMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        % [H CelloMusicVoice measure 505 / measure 47]           %! SM4
+        % [H CelloMusicVoice measure 513 / measure 47]           %! SM4
         e,8
         -\downbow
         \stopBCPTextSpan
@@ -6874,7 +6874,7 @@ H_CelloMusicVoice = {
         \startBCPTextSpan
     }
     
-    % [H CelloMusicVoice measure 506 / measure 48]               %! SM4
+    % [H CelloMusicVoice measure 514 / measure 48]               %! SM4
     e,8
     \glissando                                                   %! SC
     [
@@ -7033,7 +7033,7 @@ H_CelloMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
-        % [H CelloMusicVoice measure 507 / measure 49]           %! SM4
+        % [H CelloMusicVoice measure 515 / measure 49]           %! SM4
         e,8
         \stopBCPTextSpan
         \glissando                                               %! SC
@@ -7185,7 +7185,7 @@ H_CelloMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/6 {
         
-        % [H CelloMusicVoice measure 508 / measure 50]           %! SM4
+        % [H CelloMusicVoice measure 516 / measure 50]           %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         e,8
         \p                                                       %! HC1
@@ -7286,7 +7286,7 @@ H_CelloMusicVoice = {
         \revert TextSpanner.staff-padding                        %! OC2
     }
     
-    % [H CelloMusicVoice measure 509 / measure 51]               %! SM4
+    % [H CelloMusicVoice measure 517 / measure 51]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -7305,7 +7305,7 @@ H_CelloMusicVoice = {
     \!                                                           %! PWC1
     \times 4/5 {
         
-        % [H CelloMusicVoice measure 510 / measure 52]           %! SM4
+        % [H CelloMusicVoice measure 518 / measure 52]           %! SM4
         \override DynamicLineSpanner.staff-padding = #'5         %! OC1
         \override TextScript.staff-padding = #11                 %! OC1
         \override TextSpanner.staff-padding = #7                 %! OC1

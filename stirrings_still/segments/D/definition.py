@@ -15,7 +15,7 @@ maker = baca.SegmentMaker(
     metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=stirrings_still.time_signatures('D'),
-    validate_measure_count=91,
+    validate_measure_count=99,
     )
 
 maker(
@@ -47,18 +47,18 @@ stage_markup = (
     ('[I.1]', 66),
     ('[D.12]', 67),
     ('[D.13]', 68),
-    ('[D.14]', 70),
-    ('[D.15]', 72),
-    ('[D.16]', 74),
-    ('[D.17]', 76),
-    ('[D.18]', 78),
-    ('[D.19]', 80),
-    ('[D.20]', 82),
-    ('[D.21]', 84),
-    ('[F.2]', 85),
-    ('[D.21]', 86),
-    ('[D.22]', 87),
-    ('[C.2]', 89),
+    ('[D.14]', 72),
+    ('[D.15]', 76),
+    ('[D.16]', 80),
+    ('[D.17]', 84),
+    ('[D.18]', 86),
+    ('[D.19]', 88),
+    ('[D.20]', 90),
+    ('[D.21]', 92),
+    ('[F.2]', 93),
+    ('[D.21]', 94),
+    ('[D.22]', 96),
+    ('[C.2]', 97),
     )
 
 stirrings_still.stage_markup(maker, stage_markup)
@@ -81,12 +81,12 @@ time = (
     (abjad.Ritardando(), 58),
     ('largo', 63),
     ('long', 64),
-    ('largo', 70),
-    (abjad.Accelerando(), 70),
-    ('allegro', 76),
-    ('largo', 78),
-    ('adagio', 89),
-    ('short', 91),
+    ('largo', 72),
+    (abjad.Accelerando(), 72),
+    ('allegro', 84),
+    ('largo', 86),
+    ('adagio', 97),
+    ('short', 99),
     )
 
 stirrings_still.time(maker, time)
@@ -364,19 +364,26 @@ maker(
     )
 
 maker(
-    ('vc', (65, 83)),
+    ('vc', (65, 91)),
     baca.map(
         baca.group_by_measures()[:3].group(),
         baca.hairpin('niente < p'),
         ),
-    baca.map(
-        baca.group_by_measures()[-6:-3].group(),
-        baca.hairpin('p < fff'),
-        ),
+# TODO:
+#    baca.measures(
+#        (86, 89),
+#        baca.hairpin('p < fff'),
+#        ),
     baca.markup(
         baca.Markup('clouded pane').with_color('darkgreen'),
         ),
     stirrings_still.clouded_pane(),
+    )
+
+# TODO: replace with baca.measures()
+maker(
+    ('vc', (86, 89)),
+    baca.hairpin('p < fff'),
     )
 
 maker(
@@ -410,4 +417,9 @@ maker(
         lilypond_id=1,
         selector=baca.tleaves(),
         ),
+    )
+
+maker(
+    ('trio', (68, 83)),
+    stirrings_still.flight([4, 1, 5, 1]),
     )

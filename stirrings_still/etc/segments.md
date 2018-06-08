@@ -1316,7 +1316,7 @@ SEGMENTS
             >>attacca second half of [D.12]<<;
     attacca;
 
-    [D.13] (68-69)
+    [D.13] (68-71)
     (2 measures)
     largo continues;
     composite urtext field / clouded pane continues:
@@ -1337,7 +1337,7 @@ SEGMENTS
             p continues;
     attacca;
 
-    [D.14] (70-71)
+    [D.14] (72-75)
     (2 measures)
     largo-to-allegro accelerando begins;
     composite urtext field / clouded pane / flight continues:
@@ -1355,7 +1355,7 @@ SEGMENTS
             p continues;
     attacca;
 
-    [D.15] (72-73)
+    [D.15] (76-79)
     (2 measures)
     largo-to-allegro accelerando continues;
     composite urtext field / clouded pane / flight continues:
@@ -1373,7 +1373,7 @@ SEGMENTS
         p continues;
     attacca;
 
-    [D.16] (74-75)
+    [D.16] (80-83)
     (2 measures)
     largo-to-allegro accelerando continues;
     composite urtext field / clouded pane / flight continues:
@@ -1392,7 +1392,7 @@ SEGMENTS
             p continues;
     attacca;
 
-    [D.17] (76-77)
+    [D.17] (84-85)
     (2 measures)
     accelerando achieves allegro at start of stage;
     composite urtext field / clouded pane / flight continues:
@@ -1402,7 +1402,7 @@ SEGMENTS
             tasto continues;
             densely spaced double-stops continue;
             continuous sound continues;
-                continuous tremolo in all parts arrives at start of stage;
+            continuous tremolo in all parts;
             p continues;
         vc clouded pane continues:
             stoped lh continues;
@@ -1410,7 +1410,7 @@ SEGMENTS
             p continues;
     attacca;
 
-    [D.18] (78-79)
+    [D.18] (86-87)
     (2 measures)
     subito largo;
     composite urtext field / clouded pane / flight continues:
@@ -1426,7 +1426,7 @@ SEGMENTS
             p < fff scratch begins;
     attacca;
 
-    [D.19] (80-81)
+    [D.19] (88-89)
     (2 measures)
     largo continues;
     composite urtext field / clouded pane / flight continues:
@@ -1442,7 +1442,7 @@ SEGMENTS
             p < fff scratch achieves fff scratch at start of measure 1:2;
     attacca;
 
-    [D.20] (82-83)
+    [D.20] (90-91)
     (2 measures)
     largo continues;
     composite urtext field / clouded pane / flight continues:
@@ -1458,7 +1458,7 @@ SEGMENTS
             fff scratch continues until end of stage;
     attacca;
 
-    [D.21] (84 + 85 + 86)
+    [D.21] (92 + 93 + 94)
     (2 measures)
     largo continues;
     composite urtext field / clouded pane / flight continues:
@@ -1481,7 +1481,7 @@ SEGMENTS
         >>attacca second half of [D.21]<<;
     attacca;
 
-    [D.22] (87-88 + 89-90 + short)
+    [D.22] (95-96 + 97-98 + short)
     (2 measures)
     largo continues;
     composite urtext field / clouded pane / flight continues to end of stage:
@@ -1497,7 +1497,7 @@ SEGMENTS
             hair resumes;
             reenters up one step;
             niente < p governs stage;
-        <<[C.2 (crunch circles + up-glissando) 3-4/4] suffix [D.22]>> (89-90):
+        <<[C.2 (crunch circles + up-glissando) 3-4/4] suffix [D.22]>> (97-98):
             <<summon past time>>;
             adagio;
             tutti maximally tight talon-crunch circles repeat:
@@ -1507,7 +1507,7 @@ SEGMENTS
                     slow up-glissando;
                 desynchronization;
                 p;
-    short fermata [vc continues through fermata] (91);
+    short fermata [vc continues through fermata] (99);
 
 [E] time series B; rotation -8
 
