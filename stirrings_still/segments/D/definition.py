@@ -428,7 +428,7 @@ maker(
         ),
     baca.pick(
         0,
-        stirrings_still.flight([10, 1, 9, 1, 8, 1, 7, 1, 6, 1], 0),
+        stirrings_still.flight([9, 1, 18, 2, 7, 3, 16, 4, 4, 6], 0),
         ),
     baca.pick(
         1,
