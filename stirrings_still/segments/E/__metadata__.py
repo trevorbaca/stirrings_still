@@ -29,10 +29,10 @@ metadata = abjad.OrderedDict(
         ('duration', "4'33''"),
         (
             'fermata_measure_numbers',
-            [300, 338, 359, 378, 383, 408],
+            [308, 346, 367, 386, 391, 416],
             ),
-        ('first_measure_number', 298),
-        ('last_measure_number', 424),
+        ('first_measure_number', 306),
+        ('last_measure_number', 432),
         (
             'persistent_indicators',
             abjad.OrderedDict(

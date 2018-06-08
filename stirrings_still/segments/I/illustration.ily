@@ -1,36 +1,36 @@
 I_GlobalRests = {
     
-    % [I GlobalRests measure 511 / measure 1]                            %! SM4
+    % [I GlobalRests measure 519 / measure 1]                            %! SM4
     R1 * 1
     
-    % [I GlobalRests measure 512 / measure 2]                            %! SM4
+    % [I GlobalRests measure 520 / measure 2]                            %! SM4
     R1 * 3/4
     
-    % [I GlobalRests measure 513 / measure 3]                            %! SM4
+    % [I GlobalRests measure 521 / measure 3]                            %! SM4
     R1 * 1
     
-    % [I GlobalRests measure 514 / measure 4]                            %! SM4
+    % [I GlobalRests measure 522 / measure 4]                            %! SM4
     R1 * 3/4
     
-    % [I GlobalRests measure 515 / measure 5]                            %! SM4
+    % [I GlobalRests measure 523 / measure 5]                            %! SM4
     R1 * 1
     
-    % [I GlobalRests measure 516 / measure 6]                            %! SM4
+    % [I GlobalRests measure 524 / measure 6]                            %! SM4
     R1 * 5/4
     
-    % [I GlobalRests measure 517 / measure 7]                            %! SM4
+    % [I GlobalRests measure 525 / measure 7]                            %! SM4
     R1 * 3/2
     
-    % [I GlobalRests measure 518 / measure 8]                            %! SM4
+    % [I GlobalRests measure 526 / measure 8]                            %! SM4
     R1 * 3/2
     
-    % [I GlobalRests measure 519 / measure 9]                            %! SM4
+    % [I GlobalRests measure 527 / measure 9]                            %! SM4
     R1 * 3/4
     
-    % [I GlobalRests measure 520 / measure 10]                           %! SM4
+    % [I GlobalRests measure 528 / measure 10]                           %! SM4
     R1 * 1
     
-    % [I GlobalRests measure 521 / measure 11]                           %! SM4
+    % [I GlobalRests measure 529 / measure 11]                           %! SM4
     R1 * 5/4
     
 }
@@ -38,7 +38,7 @@ I_GlobalRests = {
 
 I_GlobalSkips = {
     
-    % [I GlobalSkips measure 511 / measure 1]                            %! SM4
+    % [I GlobalSkips measure 519 / measure 1]                            %! SM4
     \override TextScript.extra-offset = #'(0 . 5)                        %! OC1
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \tweak Y-offset #12                                                  %! IC
@@ -101,7 +101,7 @@ I_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (511)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (519)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -130,7 +130,7 @@ I_GlobalSkips = {
             }
         }
     
-    % [I GlobalSkips measure 512 / measure 2]                            %! SM4
+    % [I GlobalSkips measure 520 / measure 2]                            %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -140,7 +140,7 @@ I_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (512)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (520)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -165,7 +165,7 @@ I_GlobalSkips = {
             }
         }
     
-    % [I GlobalSkips measure 513 / measure 3]                            %! SM4
+    % [I GlobalSkips measure 521 / measure 3]                            %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -229,7 +229,7 @@ I_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (513)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (521)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -258,7 +258,7 @@ I_GlobalSkips = {
             }
         }
     
-    % [I GlobalSkips measure 514 / measure 4]                            %! SM4
+    % [I GlobalSkips measure 522 / measure 4]                            %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -268,7 +268,7 @@ I_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (514)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (522)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -297,7 +297,7 @@ I_GlobalSkips = {
             }
         }
     
-    % [I GlobalSkips measure 515 / measure 5]                            %! SM4
+    % [I GlobalSkips measure 523 / measure 5]                            %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -307,7 +307,7 @@ I_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (515)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (523)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -336,7 +336,7 @@ I_GlobalSkips = {
             }
         }
     
-    % [I GlobalSkips measure 516 / measure 6]                            %! SM4
+    % [I GlobalSkips measure 524 / measure 6]                            %! SM4
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
@@ -396,7 +396,7 @@ I_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (516)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (524)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -425,7 +425,7 @@ I_GlobalSkips = {
             }
         }
     
-    % [I GlobalSkips measure 517 / measure 7]                            %! SM4
+    % [I GlobalSkips measure 525 / measure 7]                            %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -435,7 +435,7 @@ I_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (517)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (525)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -460,7 +460,7 @@ I_GlobalSkips = {
             }
         }
     
-    % [I GlobalSkips measure 518 / measure 8]                            %! SM4
+    % [I GlobalSkips measure 526 / measure 8]                            %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
     ^ \markup {
@@ -469,7 +469,7 @@ I_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (518)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (526)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -498,7 +498,7 @@ I_GlobalSkips = {
             }
         }
     
-    % [I GlobalSkips measure 519 / measure 9]                            %! SM4
+    % [I GlobalSkips measure 527 / measure 9]                            %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -508,7 +508,7 @@ I_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (519)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (527)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -533,7 +533,7 @@ I_GlobalSkips = {
             }
         }
     
-    % [I GlobalSkips measure 520 / measure 10]                           %! SM4
+    % [I GlobalSkips measure 528 / measure 10]                           %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -543,7 +543,7 @@ I_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (520)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (528)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -572,7 +572,7 @@ I_GlobalSkips = {
             }
         }
     
-    % [I GlobalSkips measure 521 / measure 11]                           %! SM4
+    % [I GlobalSkips measure 529 / measure 11]                           %! SM4
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
@@ -583,7 +583,7 @@ I_GlobalSkips = {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%         \baca-dark-cyan-markup                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             (521)                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             (529)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -616,7 +616,7 @@ I_GlobalSkips = {
 
 I_ViolinIMusicVoice = {
     
-    % [I ViolinIMusicVoice measure 511 / measure 1]              %! SM4
+    % [I ViolinIMusicVoice measure 519 / measure 1]              %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -736,7 +736,7 @@ I_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     
-    % [I ViolinIMusicVoice measure 512 / measure 2]              %! SM4
+    % [I ViolinIMusicVoice measure 520 / measure 2]              %! SM4
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
     \baca_unpitched_music_warning                                %! SM24
@@ -767,7 +767,7 @@ I_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     
-    % [I ViolinIMusicVoice measure 513 / measure 3]              %! SM4
+    % [I ViolinIMusicVoice measure 521 / measure 3]              %! SM4
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
     \baca_unpitched_music_warning                                %! SM24
@@ -808,7 +808,7 @@ I_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     
-    % [I ViolinIMusicVoice measure 514 / measure 4]              %! SM4
+    % [I ViolinIMusicVoice measure 522 / measure 4]              %! SM4
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -843,7 +843,7 @@ I_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     
-    % [I ViolinIMusicVoice measure 515 / measure 5]              %! SM4
+    % [I ViolinIMusicVoice measure 523 / measure 5]              %! SM4
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
     \baca_unpitched_music_warning                                %! SM24
@@ -884,7 +884,7 @@ I_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     
-    % [I ViolinIMusicVoice measure 516 / measure 6]              %! SM4
+    % [I ViolinIMusicVoice measure 524 / measure 6]              %! SM4
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
     \baca_unpitched_music_warning                                %! SM24
@@ -935,7 +935,7 @@ I_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     
-    % [I ViolinIMusicVoice measure 517 / measure 7]              %! SM4
+    % [I ViolinIMusicVoice measure 525 / measure 7]              %! SM4
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
     \baca_unpitched_music_warning                                %! SM24
@@ -1000,7 +1000,7 @@ I_ViolinIMusicVoice = {
     <> \!                                                        %! HC1
     <> \stopTextSpan
     
-    % [I ViolinIMusicVoice measure 518 / measure 8]              %! SM4
+    % [I ViolinIMusicVoice measure 526 / measure 8]              %! SM4
     \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
     <<
         \tweak NoteHead.no-ledgers ##t
@@ -1011,10 +1011,10 @@ I_ViolinIMusicVoice = {
     R1 * 3/2
     >>
     
-    % [I ViolinIMusicVoice measure 519 / measure 9]              %! SM4
+    % [I ViolinIMusicVoice measure 527 / measure 9]              %! SM4
     R1 * 3/4
     
-    % [I ViolinIMusicVoice measure 520 / measure 10]             %! SM4
+    % [I ViolinIMusicVoice measure 528 / measure 10]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'1
@@ -1025,7 +1025,7 @@ I_ViolinIMusicVoice = {
             "sustained double stops"                             %! IC
         }                                                        %! IC
     
-    % [I ViolinIMusicVoice measure 521 / measure 11]             %! SM4
+    % [I ViolinIMusicVoice measure 529 / measure 11]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
@@ -1045,7 +1045,7 @@ I_ViolinIMusicStaff = {
 
 I_ViolinIIMusicVoice = {
     
-    % [I ViolinIIMusicVoice measure 511 / measure 1]             %! SM4
+    % [I ViolinIIMusicVoice measure 519 / measure 1]             %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1136,7 +1136,7 @@ I_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    % [I ViolinIIMusicVoice measure 512 / measure 2]             %! SM4
+    % [I ViolinIIMusicVoice measure 520 / measure 2]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
@@ -1146,7 +1146,7 @@ I_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    % [I ViolinIIMusicVoice measure 513 / measure 3]             %! SM4
+    % [I ViolinIIMusicVoice measure 521 / measure 3]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
@@ -1159,7 +1159,7 @@ I_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    % [I ViolinIIMusicVoice measure 514 / measure 4]             %! SM4
+    % [I ViolinIIMusicVoice measure 522 / measure 4]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -1173,7 +1173,7 @@ I_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    % [I ViolinIIMusicVoice measure 515 / measure 5]             %! SM4
+    % [I ViolinIIMusicVoice measure 523 / measure 5]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
@@ -1186,7 +1186,7 @@ I_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    % [I ViolinIIMusicVoice measure 516 / measure 6]             %! SM4
+    % [I ViolinIIMusicVoice measure 524 / measure 6]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
@@ -1202,7 +1202,7 @@ I_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    % [I ViolinIIMusicVoice measure 517 / measure 7]             %! SM4
+    % [I ViolinIIMusicVoice measure 525 / measure 7]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
@@ -1224,7 +1224,7 @@ I_ViolinIIMusicVoice = {
     <> \!                                                        %! HC1
     <> \stopTextSpan
     
-    % [I ViolinIIMusicVoice measure 518 / measure 8]             %! SM4
+    % [I ViolinIIMusicVoice measure 526 / measure 8]             %! SM4
     \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
     <<
         \tweak NoteHead.no-ledgers ##t
@@ -1235,10 +1235,10 @@ I_ViolinIIMusicVoice = {
     R1 * 3/2
     >>
     
-    % [I ViolinIIMusicVoice measure 519 / measure 9]             %! SM4
+    % [I ViolinIIMusicVoice measure 527 / measure 9]             %! SM4
     R1 * 3/4
     
-    % [I ViolinIIMusicVoice measure 520 / measure 10]            %! SM4
+    % [I ViolinIIMusicVoice measure 528 / measure 10]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'1
@@ -1249,7 +1249,7 @@ I_ViolinIIMusicVoice = {
             "sustained double stops"                             %! IC
         }                                                        %! IC
     
-    % [I ViolinIIMusicVoice measure 521 / measure 11]            %! SM4
+    % [I ViolinIIMusicVoice measure 529 / measure 11]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
@@ -1269,7 +1269,7 @@ I_ViolinIIMusicStaff = {
 
 I_ViolaMusicVoice = {
     
-    % [I ViolaMusicVoice measure 511 / measure 1]                %! SM4
+    % [I ViolaMusicVoice measure 519 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1361,14 +1361,14 @@ I_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2
     
-    % [I ViolaMusicVoice measure 513 / measure 3]                %! SM4
+    % [I ViolaMusicVoice measure 521 / measure 3]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2
     
     \baca_unpitched_music_warning                                %! SM24
     c'2
     
-    % [I ViolaMusicVoice measure 514 / measure 4]                %! SM4
+    % [I ViolaMusicVoice measure 522 / measure 4]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'2
@@ -1391,7 +1391,7 @@ I_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2
     
-    % [I ViolaMusicVoice measure 517 / measure 7]                %! SM4
+    % [I ViolaMusicVoice measure 525 / measure 7]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2
     
@@ -1404,7 +1404,7 @@ I_ViolaMusicVoice = {
     <> \!                                                        %! HC1
     <> \stopTextSpan
     
-    % [I ViolaMusicVoice measure 518 / measure 8]                %! SM4
+    % [I ViolaMusicVoice measure 526 / measure 8]                %! SM4
     \voices "ViolaMusicVoice", "MultimeasureRestVoice"
     <<
         \tweak NoteHead.no-ledgers ##t
@@ -1415,10 +1415,10 @@ I_ViolaMusicVoice = {
     R1 * 3/2
     >>
     
-    % [I ViolaMusicVoice measure 519 / measure 9]                %! SM4
+    % [I ViolaMusicVoice measure 527 / measure 9]                %! SM4
     R1 * 3/4
     
-    % [I ViolaMusicVoice measure 520 / measure 10]               %! SM4
+    % [I ViolaMusicVoice measure 528 / measure 10]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'1
@@ -1429,7 +1429,7 @@ I_ViolaMusicVoice = {
             "sustained double stops"                             %! IC
         }                                                        %! IC
     
-    % [I ViolaMusicVoice measure 521 / measure 11]               %! SM4
+    % [I ViolaMusicVoice measure 529 / measure 11]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
@@ -1449,7 +1449,7 @@ I_ViolaMusicStaff = {
 
 I_CelloMusicVoice = {
     
-    % [I CelloMusicVoice measure 511 / measure 1]                %! SM4
+    % [I CelloMusicVoice measure 519 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1736,7 +1736,7 @@ I_CelloMusicVoice = {
     - \tweak staff-padding #7
     \startBCPTextSpan
     
-    % [I CelloMusicVoice measure 512 / measure 2]                %! SM4
+    % [I CelloMusicVoice measure 520 / measure 2]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
@@ -1893,373 +1893,7 @@ I_CelloMusicVoice = {
     - \tweak staff-padding #7
     \startBCPTextSpan
     
-    % [I CelloMusicVoice measure 513 / measure 3]                %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    -\downbow
-    \stopBCPTextSpan
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \fraction
-                    1
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
-    \startBCPTextSpan
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    -\upbow
-    \stopBCPTextSpan
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \fraction
-                    3
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
-    \startBCPTextSpan
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    -\downbow
-    \stopBCPTextSpan
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \fraction
-                    1
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
-    \startBCPTextSpan
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    -\upbow
-    \stopBCPTextSpan
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \fraction
-                    4
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
-    \startBCPTextSpan
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    -\downbow
-    \stopBCPTextSpan
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \fraction
-                    1
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
-    \startBCPTextSpan
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    -\upbow
-    \stopBCPTextSpan
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \fraction
-                    5
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
-    \startBCPTextSpan
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    -\downbow
-    \stopBCPTextSpan
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \fraction
-                    1
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
-    \startBCPTextSpan
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    -\upbow
-    \stopBCPTextSpan
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \fraction
-                    6
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
-    \startBCPTextSpan
-    
-    % [I CelloMusicVoice measure 514 / measure 4]                %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    -\downbow
-    \stopBCPTextSpan
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \fraction
-                    1
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
-    \startBCPTextSpan
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    -\upbow
-    \stopBCPTextSpan
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \fraction
-                    3
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
-    \startBCPTextSpan
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    -\downbow
-    \stopBCPTextSpan
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \fraction
-                    1
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
-    \startBCPTextSpan
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    -\upbow
-    \stopBCPTextSpan
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \fraction
-                    4
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
-    \startBCPTextSpan
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    -\downbow
-    \stopBCPTextSpan
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \fraction
-                    1
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
-    \startBCPTextSpan
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    -\upbow
-    \stopBCPTextSpan
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \fraction
-                    5
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
-    \startBCPTextSpan
-    
-    % [I CelloMusicVoice measure 515 / measure 5]                %! SM4
+    % [I CelloMusicVoice measure 521 / measure 3]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
@@ -2468,7 +2102,373 @@ I_CelloMusicVoice = {
     - \tweak staff-padding #7
     \startBCPTextSpan
     
-    % [I CelloMusicVoice measure 516 / measure 6]                %! SM4
+    % [I CelloMusicVoice measure 522 / measure 4]                %! SM4
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\downbow
+    \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    1
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak staff-padding #7
+    \startBCPTextSpan
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\upbow
+    \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    3
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak staff-padding #7
+    \startBCPTextSpan
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\downbow
+    \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    1
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak staff-padding #7
+    \startBCPTextSpan
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\upbow
+    \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    4
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak staff-padding #7
+    \startBCPTextSpan
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\downbow
+    \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    1
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak staff-padding #7
+    \startBCPTextSpan
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\upbow
+    \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    5
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak staff-padding #7
+    \startBCPTextSpan
+    
+    % [I CelloMusicVoice measure 523 / measure 5]                %! SM4
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\downbow
+    \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    1
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak staff-padding #7
+    \startBCPTextSpan
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\upbow
+    \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    3
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak staff-padding #7
+    \startBCPTextSpan
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\downbow
+    \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    1
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak staff-padding #7
+    \startBCPTextSpan
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\upbow
+    \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    4
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak staff-padding #7
+    \startBCPTextSpan
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\downbow
+    \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    1
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak staff-padding #7
+    \startBCPTextSpan
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\upbow
+    \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    5
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak staff-padding #7
+    \startBCPTextSpan
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\downbow
+    \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    1
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak staff-padding #7
+    \startBCPTextSpan
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\upbow
+    \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    6
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak staff-padding #7
+    \startBCPTextSpan
+    
+    % [I CelloMusicVoice measure 524 / measure 6]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \baca_unpitched_music_warning                                %! SM24
     c'8
@@ -2721,7 +2721,7 @@ I_CelloMusicVoice = {
     ]                                                            %! SC
     \stopBCPTextSpan
     
-    % [I CelloMusicVoice measure 517 / measure 7]                %! SM4
+    % [I CelloMusicVoice measure 525 / measure 7]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8.
     -\downbow
@@ -3045,7 +3045,7 @@ I_CelloMusicVoice = {
     - \tweak staff-padding #7
     \startBCPTextSpan
     
-    % [I CelloMusicVoice measure 518 / measure 8]                %! SM4
+    % [I CelloMusicVoice measure 526 / measure 8]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8.
     -\downbow
@@ -3370,7 +3370,7 @@ I_CelloMusicVoice = {
     - \tweak staff-padding #7
     \startBCPTextSpan
     
-    % [I CelloMusicVoice measure 519 / measure 9]                %! SM4
+    % [I CelloMusicVoice measure 527 / measure 9]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8.
     -\downbow
@@ -3533,7 +3533,7 @@ I_CelloMusicVoice = {
     - \tweak staff-padding #7
     \startBCPTextSpan
     
-    % [I CelloMusicVoice measure 520 / measure 10]               %! SM4
+    % [I CelloMusicVoice measure 528 / measure 10]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \baca_unpitched_music_warning                                %! SM24
     c'8
@@ -3754,7 +3754,7 @@ I_CelloMusicVoice = {
     - \tweak staff-padding #7
     \startBCPTextSpan
     
-    % [I CelloMusicVoice measure 521 / measure 11]               %! SM4
+    % [I CelloMusicVoice measure 529 / measure 11]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
