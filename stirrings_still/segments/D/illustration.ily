@@ -6628,6 +6628,56 @@ D_ViolaMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'2
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    "8” cir."
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 1.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #5
+    \startTextSpan
+    <> \stopTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    "golden tone"
+                \hspace
+                    #0.5
+            }
+        }
+    - \tweak dash-fraction 0.25
+    - \tweak dash-period 1.5
+    - \tweak bound-details.left-broken.text ##f
+    - \tweak bound-details.left.stencil-align-dir-y 0
+    - \tweak bound-details.right-broken.arrow ##f
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 1.25
+    - \tweak bound-details.right.text \markup {
+        \draw-line
+            #'(0 . -1)
+        }
+    - \tweak staff-padding #9
+    \startTextSpanOne
+    <> \stopTextSpanOne
     
     % [D ViolaMusicVoice measure 273 / measure 67]               %! SM4
     \voices "ViolaMusicVoice", "MultimeasureRestVoice"
