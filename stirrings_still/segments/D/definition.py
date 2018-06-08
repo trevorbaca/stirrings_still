@@ -421,5 +421,8 @@ maker(
 
 maker(
     ('trio', (68, 83)),
-    stirrings_still.flight([4, 1, 5, 1]),
+    baca.pick(
+        0,
+        stirrings_still.flight([10, 1, 9, 1, 8, 1, 7, 1, 6, 1], 0),
+        ),
     )

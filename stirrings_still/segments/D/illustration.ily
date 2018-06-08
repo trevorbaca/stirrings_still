@@ -5333,70 +5333,49 @@ D_ViolinIMusicVoice = {
     \\
     R1 * 3/4
     >>
-    
-    % [D ViolinIMusicVoice measure 274 / measure 68]             %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ~
-    ]
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 12/16 {
+        
+        % [D ViolinIMusicVoice measure 274 / measure 68]         %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'1
+        ~
+    }
     
     % [D ViolinIMusicVoice measure 275 / measure 69]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
-    c'2
+    c'4.
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    [
     
     \baca_unpitched_music_warning                                %! SM24
-    c'8
+    c'4
     ~
-    ]
     
     % [D ViolinIMusicVoice measure 276 / measure 70]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    % [D ViolinIMusicVoice measure 277 / measure 71]             %! SM4
-    \baca_unpitched_music_warning                                %! SM24
     c'2
     ~
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ~
-    ]
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 14/16 {
+        
+        % [D ViolinIMusicVoice measure 277 / measure 71]         %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        ]
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'2.
+        ~
+    }
     
     % [D ViolinIMusicVoice measure 278 / measure 72]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    ~
-    
-    % [D ViolinIMusicVoice measure 279 / measure 73]             %! SM4
-    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     \baca_unpitched_music_warning                                %! SM24
@@ -5404,26 +5383,31 @@ D_ViolinIMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    % [D ViolinIMusicVoice measure 280 / measure 74]             %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
     ~
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ]
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'4
-    ~
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 16/20 {
+        
+        % [D ViolinIMusicVoice measure 279 / measure 73]         %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4.
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'2.
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 16/18 {
+        
+        % [D ViolinIMusicVoice measure 280 / measure 74]         %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'1
+        ~
+    }
     
     % [D ViolinIMusicVoice measure 281 / measure 75]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -5437,67 +5421,63 @@ D_ViolinIMusicVoice = {
     c'8
     ~
     ]
-    
-    % [D ViolinIMusicVoice measure 282 / measure 76]             %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ~
-    ]
-    
-    % [D ViolinIMusicVoice measure 283 / measure 77]             %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'4
-    ~
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 12/16 {
+        
+        % [D ViolinIMusicVoice measure 282 / measure 76]         %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'1
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 12/14 {
+        
+        % [D ViolinIMusicVoice measure 283 / measure 77]         %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'2.
+        ~
+    }
     
     % [D ViolinIMusicVoice measure 284 / measure 78]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    
-    % [D ViolinIMusicVoice measure 285 / measure 79]             %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    ~
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ]
-    
-    % [D ViolinIMusicVoice measure 286 / measure 80]             %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
     c'4
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
     ~
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ~
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 14/18 {
+        
+        % [D ViolinIMusicVoice measure 285 / measure 79]         %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'2.
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 14/16 {
+        
+        % [D ViolinIMusicVoice measure 286 / measure 80]         %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'2..
+        ~
+    }
     
     % [D ViolinIMusicVoice measure 287 / measure 81]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -5508,24 +5488,34 @@ D_ViolinIMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    
-    % [D ViolinIMusicVoice measure 288 / measure 82]             %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
     ~
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    % [D ViolinIMusicVoice measure 289 / measure 83]             %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 12/16 {
+        
+        % [D ViolinIMusicVoice measure 288 / measure 82]         %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'2
+        ~
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        ]
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        ~
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 10/16 {
+        
+        % [D ViolinIMusicVoice measure 289 / measure 83]         %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'1
+    }
     
     % [D ViolinIMusicVoice measure 290 / measure 84]             %! SM4
     R1 * 1
@@ -6352,197 +6342,52 @@ D_ViolinIIMusicVoice = {
     >>
     
     % [D ViolinIIMusicVoice measure 274 / measure 68]            %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ~
-    ]
+    R1 * 3/4
     
     % [D ViolinIIMusicVoice measure 275 / measure 69]            %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ~
-    ]
+    R1 * 3/4
     
     % [D ViolinIIMusicVoice measure 276 / measure 70]            %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
+    R1 * 1/2
     
     % [D ViolinIIMusicVoice measure 277 / measure 71]            %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    ~
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ~
-    ]
+    R1 * 7/8
     
     % [D ViolinIIMusicVoice measure 278 / measure 72]            %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    ~
+    R1 * 7/8
     
     % [D ViolinIIMusicVoice measure 279 / measure 73]            %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
+    R1 * 1
     
     % [D ViolinIIMusicVoice measure 280 / measure 74]            %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    ~
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ]
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'4
-    ~
+    R1 * 1
     
     % [D ViolinIIMusicVoice measure 281 / measure 75]            %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ~
-    ]
+    R1 * 1/2
     
     % [D ViolinIIMusicVoice measure 282 / measure 76]            %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ~
-    ]
+    R1 * 3/4
     
     % [D ViolinIIMusicVoice measure 283 / measure 77]            %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'4
-    ~
+    R1 * 3/4
     
     % [D ViolinIIMusicVoice measure 284 / measure 78]            %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
+    R1 * 1
     
     % [D ViolinIIMusicVoice measure 285 / measure 79]            %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    ~
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ]
+    R1 * 7/8
     
     % [D ViolinIIMusicVoice measure 286 / measure 80]            %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'4
-    ~
+    R1 * 7/8
     
     % [D ViolinIIMusicVoice measure 287 / measure 81]            %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
+    R1 * 1
     
     % [D ViolinIIMusicVoice measure 288 / measure 82]            %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    ~
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
+    R1 * 3/4
     
     % [D ViolinIIMusicVoice measure 289 / measure 83]            %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
+    R1 * 5/8
     
     % [D ViolinIIMusicVoice measure 290 / measure 84]            %! SM4
     R1 * 1
@@ -7331,197 +7176,52 @@ D_ViolaMusicVoice = {
     >>
     
     % [D ViolaMusicVoice measure 274 / measure 68]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ~
-    ]
+    R1 * 3/4
     
     % [D ViolaMusicVoice measure 275 / measure 69]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ~
-    ]
+    R1 * 3/4
     
     % [D ViolaMusicVoice measure 276 / measure 70]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
+    R1 * 1/2
     
     % [D ViolaMusicVoice measure 277 / measure 71]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    ~
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ~
-    ]
+    R1 * 7/8
     
     % [D ViolaMusicVoice measure 278 / measure 72]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    ~
+    R1 * 7/8
     
     % [D ViolaMusicVoice measure 279 / measure 73]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
+    R1 * 1
     
     % [D ViolaMusicVoice measure 280 / measure 74]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    ~
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ]
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'4
-    ~
+    R1 * 1
     
     % [D ViolaMusicVoice measure 281 / measure 75]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ~
-    ]
+    R1 * 1/2
     
     % [D ViolaMusicVoice measure 282 / measure 76]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ~
-    ]
+    R1 * 3/4
     
     % [D ViolaMusicVoice measure 283 / measure 77]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'4
-    ~
+    R1 * 3/4
     
     % [D ViolaMusicVoice measure 284 / measure 78]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
+    R1 * 1
     
     % [D ViolaMusicVoice measure 285 / measure 79]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    ~
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    ]
+    R1 * 7/8
     
     % [D ViolaMusicVoice measure 286 / measure 80]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'4
-    ~
+    R1 * 7/8
     
     % [D ViolaMusicVoice measure 287 / measure 81]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
+    R1 * 1
     
     % [D ViolaMusicVoice measure 288 / measure 82]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
-    ~
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
+    R1 * 3/4
     
     % [D ViolaMusicVoice measure 289 / measure 83]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'2
+    R1 * 5/8
     
     % [D ViolaMusicVoice measure 290 / measure 84]               %! SM4
     R1 * 1
