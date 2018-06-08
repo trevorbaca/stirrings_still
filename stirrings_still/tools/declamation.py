@@ -11,7 +11,7 @@ def declamation():
         rhythm_maker=rmakers.TupletRhythmMaker(
             tuplet_ratios=[(2, 1)],
             tuplet_specifier=rmakers.TupletSpecifier(
-                avoid_dots=True,
+                rewrite_dots=True,
                 ),
             ),
         )
