@@ -17,11 +17,11 @@ def flight(counts, rotation):
                 denominator=8,
                 ),
             tuplet_specifier=rmakers.TupletSpecifier(
-                avoid_dots=True,
                 extract_trivial=True,
                 diminution=True,
                 denominator=(1, 16),
                 force_fraction=True,
+                rewrite_dots=True,
                 trivialize=True,
                 ),
             ),
