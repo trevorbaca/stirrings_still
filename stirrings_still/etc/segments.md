@@ -1328,8 +1328,7 @@ SEGMENTS
             tasto continues;
             densely spaced double-stops continue;
             continuous sound continues;
-            tremolo begins revving up:
-                sparse tremolo attempts;
+            tremolo begins revving up with sparse tremolo attempts;
             p continues;
         vc clouded pane continues:
             stopped lh continues;
