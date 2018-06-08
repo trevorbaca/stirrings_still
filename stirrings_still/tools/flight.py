@@ -22,6 +22,7 @@ def flight(counts, rotation):
                 denominator=(1, 8),
                 force_fraction=True,
                 rewrite_dots=True,
+                rewrite_sustained=True,
                 trivialize=True,
                 ),
             ),

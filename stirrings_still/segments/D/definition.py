@@ -429,7 +429,7 @@ maker(
 6       6       6
 """
 counts_a = [
-    8,
+    8 + 4 + 4,
     1, 17,
     1, 5, 2, 10,
     2, 4, 3, 4, 2, 4,
@@ -437,6 +437,27 @@ counts_a = [
     4, 2, 10, 2,
     99,
     ]
+
+counts_b = [
+    8 + 4,
+    1, 16,
+    1, 5, 2, 9,
+    2, 4, 3, 4, 2, 3,
+    3, 3, 4, 2, 3, 2,
+    4, 2, 10, 1,
+    99,
+    ]
+
+counts_c = [
+    8,
+    1, 15,
+    1, 5, 2, 8,
+    2, 4, 3, 4, 2, 2,
+    3, 3, 4, 2, 3, 1,
+    4, 2, 99,
+    ]
+
+
 maker(
     ('trio', (68, 83)),
     baca.map(
@@ -450,10 +471,10 @@ maker(
         ),
     baca.pick(
         1,
-        stirrings_still.flight([10, 1, 9, 1, 8, 1, 7, 1, 6, 1], -1),
+        stirrings_still.flight(counts_c, -1),
         ),
     baca.pick(
         2,
-        stirrings_still.flight([10, 1, 9, 1, 8, 1, 7, 1, 6, 1], -2),
+        stirrings_still.flight(counts_b, -2),
         ),
     )
