@@ -421,8 +421,21 @@ maker(
 
 maker(
     ('trio', (68, 83)),
+    baca.map(
+        baca.plts()[abjad.index([1], 2)],
+        baca.espressivo(),
+        baca.stem_tremolo(),
+        ),
     baca.pick(
         0,
         stirrings_still.flight([10, 1, 9, 1, 8, 1, 7, 1, 6, 1], 0),
+        ),
+    baca.pick(
+        1,
+        stirrings_still.flight([10, 1, 9, 1, 8, 1, 7, 1, 6, 1], -1),
+        ),
+    baca.pick(
+        2,
+        stirrings_still.flight([10, 1, 9, 1, 8, 1, 7, 1, 6, 1], -2),
         ),
     )
