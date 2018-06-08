@@ -1304,6 +1304,7 @@ SEGMENTS
                 golden tone (senza scratch);
                 circles (SL = BW) locked in binary rate ratio 1:4;
                 mp;
+            instead of ...
             >>[I.1 (vc 1/2 clt solo trajectory] bisects [D.12]<<:
                 >>summons future time<<;
                 stopped lh;
@@ -1311,6 +1312,7 @@ SEGMENTS
                 starts up on local accelerandi;
                 repetition quasivortex begins;
                 p;
+            ... vc continues clouded pane.
             >>attacca second half of [D.12]<<;
     attacca;
 
