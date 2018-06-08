@@ -75,3 +75,6 @@ TO-DO
     Result is that markup does not obey staff padding tweak.
     Add Abjad option somewhere to format score without autocolumn.
     Or, this finally motivates removing autocolumn altogether.
+
+16. Fix text spanners leaked to first leaf after line break.
+    Break after [I] measure 7 to test.
