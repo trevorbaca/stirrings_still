@@ -364,8 +364,15 @@ maker(
     )
 
 maker(
-    ('vc', 65),
-    baca.hairpin('niente < p'),
+    ('vc', (65, 83)),
+    baca.map(
+        baca.group_by_measures()[:3].group(),
+        baca.hairpin('niente < p'),
+        ),
+    baca.map(
+        baca.group_by_measures()[-6:-3].group(),
+        baca.hairpin('p < fff'),
+        ),
     baca.markup(
         baca.Markup('clouded pane').with_color('darkgreen'),
         ),
@@ -374,7 +381,6 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], 66),
-    #baca.markup('8” cir./stem; golden tone'),
     baca.pick(
         0,
         stirrings_still.circles((1, 8)),

@@ -7501,65 +7501,110 @@ D_CelloMusicVoice = {
             "clouded pane"                                       %! IC
         }                                                        %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
-    \p                                                           %! HC1
     
     % [D CelloMusicVoice measure 272 / measure 66]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [D CelloMusicVoice measure 273 / measure 67]               %! SM4
-    R1 * 3/4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
+    \p                                                           %! HC1
     
     % [D CelloMusicVoice measure 274 / measure 68]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [D CelloMusicVoice measure 275 / measure 69]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [D CelloMusicVoice measure 276 / measure 70]               %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \repeatTie
     
     % [D CelloMusicVoice measure 277 / measure 71]               %! SM4
-    R1 * 7/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2..
+    \repeatTie
     
     % [D CelloMusicVoice measure 278 / measure 72]               %! SM4
-    R1 * 7/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2..
+    \repeatTie
     
     % [D CelloMusicVoice measure 279 / measure 73]               %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'1
+    \repeatTie
     
     % [D CelloMusicVoice measure 280 / measure 74]               %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'1
+    \repeatTie
     
     % [D CelloMusicVoice measure 281 / measure 75]               %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \repeatTie
     
     % [D CelloMusicVoice measure 282 / measure 76]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [D CelloMusicVoice measure 283 / measure 77]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [D CelloMusicVoice measure 284 / measure 78]               %! SM4
-    R1 * 1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \baca_unpitched_music_warning                                %! SM24
+    c'1
+    \repeatTie
+    \<                                                           %! HC1
+    \p                                                           %! HC1
     
     % [D CelloMusicVoice measure 285 / measure 79]               %! SM4
-    R1 * 7/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2..
+    \repeatTie
     
     % [D CelloMusicVoice measure 286 / measure 80]               %! SM4
-    R1 * 7/8
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'2..
+    \repeatTie
+    \fff                                                         %! HC1
     
     % [D CelloMusicVoice measure 287 / measure 81]               %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'1
+    \repeatTie
     
     % [D CelloMusicVoice measure 288 / measure 82]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    \repeatTie
     
     % [D CelloMusicVoice measure 289 / measure 83]               %! SM4
-    R1 * 5/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \repeatTie
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    \repeatTie
     
     % [D CelloMusicVoice measure 290 / measure 84]               %! SM4
     R1 * 1
