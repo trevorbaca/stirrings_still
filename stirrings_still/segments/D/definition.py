@@ -478,3 +478,15 @@ maker(
         stirrings_still.flight(counts_b, -2),
         ),
     )
+
+maker(
+    (['v1', 'v2'], (84, 96)),
+    baca.repeat_tie_to(),
+    stirrings_still.continuous_tremolo(),
+    )
+
+maker(
+    ('va', [(84, 92), (94, 96)]),
+    baca.pick(0, baca.repeat_tie_to()),
+    stirrings_still.continuous_tremolo(),
+    )
