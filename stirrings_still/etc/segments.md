@@ -1470,14 +1470,14 @@ SEGMENTS
             continuous tremolo continues;
         vc:
             tacet subito;
-        >>[F.2 (clearing) 1/2] bisects [D.21 (clearing)]<<:
+        >>[F.2 (clearing) 1/2] bisects [D.21 (clearing)]<< (93):
             >>summons future time<<;
             largo;
             va tailpiece:
                 absent lh;
                 poco flicker;
                 mp;
-        >>attacca second half of [D.21]<<;
+        >>attacca second half of [D.21]<< (94);
     attacca;
 
     [D.22] (95-96 + 97-98 + short)

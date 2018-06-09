@@ -5515,57 +5515,106 @@ D_ViolinIMusicVoice = {
         c'2.
         :32                                                      %! IC
         -\espressivo                                             %! IC
-        ~
+        ~                                                        %! TCC
     }
     
     % [D ViolinIMusicVoice measure 289 / measure 83]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2
     :32                                                          %! IC
-    ~
+    ~                                                            %! TCC
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIMusicVoice measure 290 / measure 84]             %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'1
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIMusicVoice measure 291 / measure 85]             %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'1
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIMusicVoice measure 292 / measure 86]             %! SM4
-    R1 * 7/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2..
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIMusicVoice measure 293 / measure 87]             %! SM4
-    R1 * 7/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2..
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIMusicVoice measure 294 / measure 88]             %! SM4
-    R1 * 5/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    :32                                                          %! IC
+    ~                                                            %! TCC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIMusicVoice measure 295 / measure 89]             %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIMusicVoice measure 296 / measure 90]             %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIMusicVoice measure 297 / measure 91]             %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIMusicVoice measure 298 / measure 92]             %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIMusicVoice measure 299 / measure 93]             %! SM4
-    R1 * 3/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'1.
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIMusicVoice measure 300 / measure 94]             %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIMusicVoice measure 301 / measure 95]             %! SM4
-    R1 * 5/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    :32                                                          %! IC
+    ~                                                            %! TCC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIMusicVoice measure 302 / measure 96]             %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    :32                                                          %! IC
     
     % [D ViolinIMusicVoice measure 303 / measure 97]             %! SM4
     R1 * 3/2
@@ -6526,81 +6575,130 @@ D_ViolinIIMusicVoice = {
         c'4
         :32                                                      %! IC
         -\espressivo                                             %! IC
-        ~
+        ~                                                        %! TCC
     }
     
     % [D ViolinIIMusicVoice measure 285 / measure 79]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2..
     :32                                                          %! IC
-    ~
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 286 / measure 80]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2..
     :32                                                          %! IC
-    ~
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 287 / measure 81]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'1
     :32                                                          %! IC
-    ~
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 288 / measure 82]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
-    ~
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 289 / measure 83]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2
     :32                                                          %! IC
-    ~
+    ~                                                            %! TCC
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 290 / measure 84]            %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'1
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 291 / measure 85]            %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'1
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 292 / measure 86]            %! SM4
-    R1 * 7/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2..
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 293 / measure 87]            %! SM4
-    R1 * 7/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2..
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 294 / measure 88]            %! SM4
-    R1 * 5/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    :32                                                          %! IC
+    ~                                                            %! TCC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 295 / measure 89]            %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 296 / measure 90]            %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 297 / measure 91]            %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 298 / measure 92]            %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 299 / measure 93]            %! SM4
-    R1 * 3/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'1.
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 300 / measure 94]            %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 301 / measure 95]            %! SM4
-    R1 * 5/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    :32                                                          %! IC
+    ~                                                            %! TCC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 302 / measure 96]            %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    :32                                                          %! IC
     
     % [D ViolinIIMusicVoice measure 303 / measure 97]            %! SM4
     R1 * 3/2
@@ -7537,62 +7635,107 @@ D_ViolaMusicVoice = {
     c'1
     :32                                                          %! IC
     -\espressivo                                                 %! IC
-    ~
+    ~                                                            %! TCC
     
     % [D ViolaMusicVoice measure 288 / measure 82]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
-    ~
+    ~                                                            %! TCC
     
     % [D ViolaMusicVoice measure 289 / measure 83]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2
     :32                                                          %! IC
-    ~
+    ~                                                            %! TCC
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolaMusicVoice measure 290 / measure 84]               %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'1
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolaMusicVoice measure 291 / measure 85]               %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'1
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolaMusicVoice measure 292 / measure 86]               %! SM4
-    R1 * 7/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2..
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolaMusicVoice measure 293 / measure 87]               %! SM4
-    R1 * 7/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2..
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolaMusicVoice measure 294 / measure 88]               %! SM4
-    R1 * 5/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    :32                                                          %! IC
+    ~                                                            %! TCC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolaMusicVoice measure 295 / measure 89]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolaMusicVoice measure 296 / measure 90]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolaMusicVoice measure 297 / measure 91]               %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    :32                                                          %! IC
+    ~                                                            %! TCC
     
     % [D ViolaMusicVoice measure 298 / measure 92]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    :32                                                          %! IC
     
     % [D ViolaMusicVoice measure 299 / measure 93]               %! SM4
     R1 * 3/2
     
     % [D ViolaMusicVoice measure 300 / measure 94]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    :32                                                          %! IC
     
     % [D ViolaMusicVoice measure 301 / measure 95]               %! SM4
-    R1 * 5/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    :32                                                          %! IC
+    \repeatTie
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    :32                                                          %! IC
+    \repeatTie
     
     % [D ViolaMusicVoice measure 302 / measure 96]               %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'2.
+    :32                                                          %! IC
+    \repeatTie
     
     % [D ViolaMusicVoice measure 303 / measure 97]               %! SM4
     R1 * 3/2
