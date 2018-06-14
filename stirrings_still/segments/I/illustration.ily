@@ -2702,16 +2702,6 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \fraction
-                    7
-                    7
-            }
-        }
     - \tweak staff-padding #7
     \startBCPTextSpan
     
@@ -2720,11 +2710,33 @@ I_CelloMusicVoice = {
     -\upbow
     ]                                                            %! SC
     \stopBCPTextSpan
+    - \tweak Y-extent ##f
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \fraction
+                    7
+                    7
+                \hspace
+                    #0.25
+            }
+        }
+    - \tweak arrow-width 0.25
+    - \tweak dash-fraction 1
+    - \tweak bound-details.left.stencil-align-dir-y #center
+    - \tweak bound-details.right.arrow ##t
+    - \tweak bound-details.right-broken.padding 0
+    - \tweak bound-details.right-broken.text ##f
+    - \tweak bound-details.right.padding 0.5
+    - \tweak bound-details.right.stencil-align-dir-y #center
+    - \tweak staff-padding #7
+    \startBCPTextSpan
     
     % [I CelloMusicVoice measure 525 / measure 7]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8.
     -\downbow
+    \stopBCPTextSpan
     [
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
