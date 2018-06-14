@@ -83,28 +83,22 @@ maker(
     )
 
 maker(
-    ('vc', (1, 6)),
-    baca.beam(),
-    stirrings_still.eighths(),
-    )
-
-maker(
-    ('vc', (1, 6)),
-    stirrings_still.transition_bcps(
-        abjad.tweak(7).staff_padding,
+    ('vc', [(1, 6), (7, -1)]),
+    baca.pick(
+        0,
+        baca.beam(),
+        stirrings_still.eighths(),
+        stirrings_still.transition_bcps(
+            abjad.tweak(7).staff_padding,
+            ),
         ),
-    )
-
-maker(
-    ('vc', (7, 11)),
-    stirrings_still.cello_cell_bcps(
-        abjad.tweak(7).staff_padding,
+    baca.pick(
+        1,
+        stirrings_still.cello_cell(),
+        stirrings_still.cello_cell_bcps(
+            abjad.tweak(7).staff_padding,
+            ),
         ),
-    )
-
-maker(
-    ('vc', (7, -1)),
-    stirrings_still.cello_cell(),
     )
 
 maker(
