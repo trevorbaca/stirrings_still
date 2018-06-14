@@ -460,10 +460,14 @@ counts_c = [
 
 maker(
     ('trio', (68, 83)),
-    baca.map(
-        baca.plts()[abjad.index([1], 2)],
-        baca.espressivo(),
-        baca.stem_tremolo(selector=baca.pleaves()),
+    baca.suite(
+        baca.map(
+            baca.plts()[abjad.index([1], 2)],
+            baca.espressivo(),
+            baca.stem_tremolo(selector=baca.pleaves()),
+            ),
+        baca.untie_to(selector=baca.pleaves()),
+        baca.tie(repeat=(1, 4)),
         ),
     baca.pick(
         0,
