@@ -84,46 +84,24 @@ maker(
 
 maker(
     'vc',
-    baca.bcps(
-        abjad.tweak(7).staff_padding,
-        ),
+    # TODO: allow suite
+    #baca.suite(
+        baca.bcps(
+            abjad.tweak(7).staff_padding,
+            ),
+        baca.measures(
+            (1, 6),
+            baca.beam(),
+            stirrings_still.eighths(),
+            stirrings_still.transition_bcps(),
+            ),
+        baca.measures(
+            (7, -1),
+            stirrings_still.cello_cell(),
+            stirrings_still.cello_cell_bcps(),
+            ),
+    #    ),
     )
-
-maker(
-    ('vc', [(1, 6), (7, -1)]),
-    baca.pick(
-        0,
-        baca.beam(),
-        stirrings_still.eighths(),
-        stirrings_still.transition_bcps()
-        ),
-    baca.pick(
-        1,
-        stirrings_still.cello_cell(),
-        stirrings_still.cello_cell_bcps(),
-        ),
-    )
-
-# TODO:
-#maker(
-#    'vc',
-#    baca.suite(
-#        baca.bcps(
-#            abjad.tweak(7).staff_padding,
-#            ),
-#        baca.measures(
-#            (1, 6),
-#            baca.beam(),
-#            stirrings_still.eighths(),
-#            stirrings_still.transition_bcps(),
-#            ),
-#        baca.measures(
-#            (7, -1),
-#            stirrings_still.cello_cell(),
-#            stirrings_still.cello_cell_bcps(),
-#            ),
-#        ),
-#    )
 
 maker(
     'vc',
