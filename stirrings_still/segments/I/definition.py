@@ -85,7 +85,6 @@ maker(
 maker(
     'vc',
     baca.bcps(
-        [],
         abjad.tweak(7).staff_padding,
         ),
     )
