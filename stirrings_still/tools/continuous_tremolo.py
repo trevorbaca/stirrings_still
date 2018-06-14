@@ -1,4 +1,5 @@
 import baca
+from abjadext import rmakers
 
 
 def continuous_tremolo():
@@ -6,6 +7,13 @@ def continuous_tremolo():
     Makes continuous tremolo.
     """
     return [
-        baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
+        baca.rhythm(
+            rhythm_maker=rmakers.NoteRhythmMaker(
+                tie_specifier=rmakers.TieSpecifier(
+                    tie_across_divisions=True,
+                    repeat_ties=(1, 2),
+                    ),
+                ),
+            ),
         baca.stem_tremolo(selector=baca.pleaves()),
         ]
