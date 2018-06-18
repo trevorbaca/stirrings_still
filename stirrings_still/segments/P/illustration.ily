@@ -1294,8 +1294,8 @@ P_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 241/64
-        \<                                                       %! PWC1
         \ppppp                                                   %! PWC1
+        \<                                                       %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
@@ -1440,8 +1440,8 @@ P_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 241/64
-        \<                                                       %! PWC1
         \ppp                                                     %! PWC1
+        \<                                                       %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
@@ -1540,8 +1540,8 @@ P_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 245/64
-        \<                                                       %! PWC1
         \ppppp                                                   %! PWC1
+        \<                                                       %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
@@ -1698,8 +1698,8 @@ P_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 241/64
-        \<                                                       %! PWC1
         \ppp                                                     %! PWC1
+        \<                                                       %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
@@ -1979,8 +1979,8 @@ P_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 351/64
-        \<                                                       %! PWC1
         \ppppp                                                   %! PWC1
+        \<                                                       %! PWC1
         [
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -2048,8 +2048,8 @@ P_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 57/64
-        \<                                                       %! PWC1
         \ppp                                                     %! PWC1
+        \<                                                       %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
@@ -2123,8 +2123,8 @@ P_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 381/64
-        \<                                                       %! PWC1
         \ppp                                                     %! PWC1
+        \<                                                       %! PWC1
         [
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -2216,8 +2216,8 @@ P_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 377/64
-        \<                                                       %! PWC1
         \ppppp                                                   %! PWC1
+        \<                                                       %! PWC1
         [
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -2288,8 +2288,8 @@ P_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 13/16
-        \<                                                       %! PWC1
         \ppp                                                     %! PWC1
+        \<                                                       %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
@@ -2369,8 +2369,8 @@ P_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 351/64
-        \<                                                       %! PWC1
         \ppp                                                     %! PWC1
+        \<                                                       %! PWC1
         [
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -2680,8 +2680,8 @@ P_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 77/16
-        \<                                                       %! PWC1
         \ppppp                                                   %! PWC1
+        \<                                                       %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
@@ -2907,8 +2907,8 @@ P_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 307/64
-        \<                                                       %! PWC1
         \ppppp                                                   %! PWC1
+        \<                                                       %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
@@ -3314,8 +3314,8 @@ P_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 107/16
-        \<                                                       %! PWC1
         \ppppp                                                   %! PWC1
+        \<                                                       %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24
@@ -3531,8 +3531,8 @@ P_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 447/64
-        \<                                                       %! PWC1
         \ppppp                                                   %! PWC1
+        \<                                                       %! PWC1
         [
         
         \baca_unpitched_music_warning                            %! SM24

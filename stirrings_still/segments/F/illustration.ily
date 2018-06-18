@@ -691,8 +691,8 @@ F_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \baca_unpitched_music_warning                                %! SM24
     c'1
-    \<                                                           %! PWC1
     \pp                                                          %! PWC1
+    \<                                                           %! PWC1
     ^ \markup {
         \column
             {
@@ -777,9 +777,9 @@ F_ViolinIMusicVoice = {
     c'1
     \repeatTie
     \f                                                           %! PWC1
+    \f                                                           %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \f                                                           %! HC1
     
     % [F ViolinIMusicVoice measure 440 / measure 8]              %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -885,8 +885,8 @@ F_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \baca_unpitched_music_warning                                %! SM24
     c'1
-    \<                                                           %! PWC1
     \pp                                                          %! PWC1
+    \<                                                           %! PWC1
     ^ \markup {
         \column
             {
@@ -972,9 +972,9 @@ F_ViolinIIMusicVoice = {
     c'1
     \repeatTie
     \f                                                           %! PWC1
+    \f                                                           %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \f                                                           %! HC1
     
     % [F ViolinIIMusicVoice measure 441 / measure 9]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -1266,8 +1266,8 @@ F_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'1
-    \<                                                           %! HC1
     \p                                                           %! HC1
+    \<                                                           %! HC1
     ^ \markup {
         \column
             {
@@ -1345,9 +1345,9 @@ F_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
+    \ff                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \ff                                                          %! HC1
     
     % [F CelloMusicVoice measure 441 / measure 9]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3

@@ -1027,8 +1027,8 @@ L_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     \baca_unpitched_music_warning                                %! SM24
     c'2.
-    \<                                                           %! PWC1
     \p                                                           %! PWC1
+    \<                                                           %! PWC1
     ^ \markup {
         \column
             {

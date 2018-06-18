@@ -5009,8 +5009,8 @@ D_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 249/64
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
         [
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -5082,9 +5082,9 @@ D_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'2.
+    \mf                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \mf                                                          %! HC1
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -6138,8 +6138,8 @@ D_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 239/64
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
         [
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -6202,9 +6202,9 @@ D_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'2.
+    \mf                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \mf                                                          %! HC1
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -7280,9 +7280,9 @@ D_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'2.
+    \mf                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \mf                                                          %! HC1
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -8419,9 +8419,9 @@ D_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b,,1
     ~
+    \pp                                                          %! HC1
     - \tweak stencil #flared-hairpin-new                         %! HC1
     \<                                                           %! HC1
-    \pp                                                          %! HC1
     
     b,,4.
     
@@ -8436,9 +8436,9 @@ D_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'2.
+    \mf                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \mf                                                          %! HC1
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -8690,8 +8690,8 @@ D_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2..
     \repeatTie
-    \<                                                           %! HC1
     \p                                                           %! HC1
+    \<                                                           %! HC1
     
     % [D CelloMusicVoice measure 293 / measure 87]               %! SM4
     \baca_unpitched_music_warning                                %! SM24

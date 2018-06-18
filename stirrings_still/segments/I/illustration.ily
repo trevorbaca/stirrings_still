@@ -814,9 +814,9 @@ I_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'8
+    \mp                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \mp                                                          %! HC1
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
@@ -1163,9 +1163,9 @@ I_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'4
+    \mp                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \mp                                                          %! HC1
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -1372,9 +1372,9 @@ I_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'2
+    \mp                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \mp                                                          %! HC1
     
     \baca_unpitched_music_warning                                %! SM24
     c'2
@@ -1472,8 +1472,8 @@ I_CelloMusicVoice = {
     c'8
     -\downbow
     [                                                            %! SC
-    \<                                                           %! PWC1
     \p                                                           %! PWC1
+    \<                                                           %! PWC1
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
