@@ -12,11 +12,6 @@ def desynchronization(
     """
     Makes desynchronization rhythms.
     """
-#    if denominator is None:
-#        denominators = [8]
-#    else:
-#        assert isinstance(denominator, int), repr(denominator)
-#        denominators = [denominator]
     assert isinstance(denominator, int), repr(denominator)
     denominators = [denominator]
     assert isinstance(extra_counts, list), repr(extra_counts)
@@ -27,14 +22,23 @@ def desynchronization(
         logical_tie_masks = [mask]
     else:
         logical_tie_masks = None
+    if extra_counts[0] < 0:
+        diminution = False
+    elif extra_counts[0] == 0:
+        diminution = None
+    else:
+        diminution = True
     return baca.rhythm(
         rhythm_maker=rmakers.EvenDivisionRhythmMaker(
             denominators=denominators,
             extra_counts_per_division=extra_counts,
             logical_tie_masks=logical_tie_masks,
             tuplet_specifier=rmakers.TupletSpecifier(
-                denominator='divisions',
+                denominator=(1, denominator),
+                diminution=diminution,
                 extract_trivial=True,
+                force_fraction=True,
+                rewrite_dots=True,
                 trivialize=True,
                 ),
             ),

@@ -1282,8 +1282,11 @@ G_ViolinIMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 7/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
     \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
+    -\espressivo                                                 %! IC
+    [
     ^ \markup {
         \column
             {
@@ -1299,6 +1302,12 @@ G_ViolinIMusicVoice = {
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             "[“Vn. I”]"                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                \line                                            %! IC
+                    {                                            %! IC
+                        \with-color                              %! IC
+                            #magenta                             %! IC
+                            "urtext double stop"                 %! IC
+                    }                                            %! IC
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1316,11 +1325,69 @@ G_ViolinIMusicVoice = {
             "Vn. I"                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    ]
+    
     % [G ViolinIMusicVoice measure 448 / measure 2]              %! SM4
     R1 * 1/4
     
     % [G ViolinIMusicVoice measure 449 / measure 3]              %! SM4
-    R1 * 7/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    [
+    ^ \markup {                                                  %! IC
+        \with-color                                              %! IC
+            #magenta                                             %! IC
+            "urtext double stop"                                 %! IC
+        }                                                        %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    ]
     
     % [G ViolinIMusicVoice measure 450 / measure 4]              %! SM4
     R1 * 1/4
@@ -1332,7 +1399,44 @@ G_ViolinIMusicVoice = {
     R1 * 3/4
     
     % [G ViolinIMusicVoice measure 453 / measure 7]              %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    [
+    ^ \markup {                                                  %! IC
+        \with-color                                              %! IC
+            #magenta                                             %! IC
+            "urtext double stop"                                 %! IC
+        }                                                        %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    ]
     
     % [G ViolinIMusicVoice measure 454 / measure 8]              %! SM4
     R1 * 1/4
@@ -1344,13 +1448,67 @@ G_ViolinIMusicVoice = {
     R1 * 1/4
     
     % [G ViolinIMusicVoice measure 457 / measure 11]             %! SM4
-    R1 * 5/8
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    [
+    ^ \markup {                                                  %! IC
+        \with-color                                              %! IC
+            #magenta                                             %! IC
+            "urtext double stop"                                 %! IC
+        }                                                        %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    ]
     
     % [G ViolinIMusicVoice measure 458 / measure 12]             %! SM4
     R1 * 3/4
     
     % [G ViolinIMusicVoice measure 459 / measure 13]             %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    [
+    ^ \markup {                                                  %! IC
+        \with-color                                              %! IC
+            #magenta                                             %! IC
+            "urtext double stop"                                 %! IC
+        }                                                        %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    -\espressivo                                                 %! IC
+    ]
     
     % [G ViolinIMusicVoice measure 460 / measure 14]             %! SM4
     R1 * 1/4
@@ -1383,65 +1541,146 @@ G_ViolinIMusicStaff = {
 
 
 G_ViolinIIMusicVoice = {
-    
-    % [G ViolinIIMusicVoice measure 447 / measure 1]             %! SM4
-    \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            "Vn. II"                                             %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                             %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            "Vn. II"                                             %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 7/8
-    \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“ViolinI”)                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Vn. II”]"                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [G ViolinIIMusicVoice measure 447 / measure 1]         %! SM4
+        \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                #12                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                "Vn. II"                                         %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \set Staff.shortInstrumentName =                         %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                #12                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                "Vn. II"                                         %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \clef "treble"                                           %! SM8:REAPPLIED_CLEF:SM37
+        \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
+    %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+        \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+        \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        \mp                                                      %! SM8:REAPPLIED_DYNAMIC:SM37
+        -\espressivo                                             %! IC
+        [
+        ^ \markup {
+            \column
+                {
+                    \line                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        {                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                            \with-color                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                                #(x11-color 'green4)             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                                (“ViolinI”)                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                    \line                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                        {                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                            \with-color                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                                #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                                "[“Vn. II”]"                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                        }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                    \line                                        %! IC
+                        {                                        %! IC
+                            \with-color                          %! IC
+                                #magenta                         %! IC
+                                "urtext double stop"             %! IC
+                        }                                        %! IC
+                }
             }
-        }
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            "Vn. II"                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            "Vn. II"                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+        \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \markup {                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                #12                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                "Vn. II"                                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \set Staff.shortInstrumentName =                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \markup {                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                #12                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                "Vn. II"                                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        ]
+    }
     
     % [G ViolinIIMusicVoice measure 448 / measure 2]             %! SM4
     R1 * 1/4
-    
-    % [G ViolinIIMusicVoice measure 449 / measure 3]             %! SM4
-    R1 * 7/8
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [G ViolinIIMusicVoice measure 449 / measure 3]         %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        [
+        ^ \markup {                                              %! IC
+            \with-color                                          %! IC
+                #magenta                                         %! IC
+                "urtext double stop"                             %! IC
+            }                                                    %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        ]
+    }
     
     % [G ViolinIIMusicVoice measure 450 / measure 4]             %! SM4
     R1 * 1/4
@@ -1451,9 +1690,53 @@ G_ViolinIIMusicVoice = {
     
     % [G ViolinIIMusicVoice measure 452 / measure 6]             %! SM4
     R1 * 3/4
-    
-    % [G ViolinIIMusicVoice measure 453 / measure 7]             %! SM4
-    R1 * 1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/9 {
+        
+        % [G ViolinIIMusicVoice measure 453 / measure 7]         %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        [
+        ^ \markup {                                              %! IC
+            \with-color                                          %! IC
+                #magenta                                         %! IC
+                "urtext double stop"                             %! IC
+            }                                                    %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        ]
+    }
     
     % [G ViolinIIMusicVoice measure 454 / measure 8]             %! SM4
     R1 * 1/4
@@ -1463,15 +1746,83 @@ G_ViolinIIMusicVoice = {
     
     % [G ViolinIIMusicVoice measure 456 / measure 10]            %! SM4
     R1 * 1/4
-    
-    % [G ViolinIIMusicVoice measure 457 / measure 11]            %! SM4
-    R1 * 5/8
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [G ViolinIIMusicVoice measure 457 / measure 11]        %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        [
+        ^ \markup {                                              %! IC
+            \with-color                                          %! IC
+                #magenta                                         %! IC
+                "urtext double stop"                             %! IC
+            }                                                    %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        ]
+    }
     
     % [G ViolinIIMusicVoice measure 458 / measure 12]            %! SM4
     R1 * 3/4
-    
-    % [G ViolinIIMusicVoice measure 459 / measure 13]            %! SM4
-    R1 * 3/4
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/7 {
+        
+        % [G ViolinIIMusicVoice measure 459 / measure 13]        %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        [
+        ^ \markup {                                              %! IC
+            \with-color                                          %! IC
+                #magenta                                         %! IC
+                "urtext double stop"                             %! IC
+            }                                                    %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        ]
+    }
     
     % [G ViolinIIMusicVoice measure 460 / measure 14]            %! SM4
     R1 * 1/4
@@ -1504,69 +1855,134 @@ G_ViolinIIMusicStaff = {
 
 
 G_ViolaMusicVoice = {
-    
-    % [G ViolaMusicVoice measure 447 / measure 1]                %! SM4
-    \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            Va.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                             %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            Va.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \once \override Staff.StaffSymbol.line-count = 5             %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \clef "alto"                                                 %! SM8:REAPPLIED_CLEF:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 7/8
-    \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {
-        \column
-            {
-                \line                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Viola”)                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            [“Va.”]                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/6 {
+        
+        % [G ViolaMusicVoice measure 447 / measure 1]            %! SM4
+        \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                #12                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                Va.                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \set Staff.shortInstrumentName =                         %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                #12                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                Va.                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
+        \once \override Staff.StaffSymbol.line-count = 5         %! SM8:REAPPLIED_STAFF_LINES:SM37
+        \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
+        \clef "alto"                                             %! SM8:REAPPLIED_CLEF:SM37
+        \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
+    %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+        \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+        \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
+        \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        \mp                                                      %! SM8:REAPPLIED_DYNAMIC:SM37
+        -\espressivo                                             %! IC
+        [
+        ^ \markup {
+            \column
+                {
+                    \line                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        {                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                            \with-color                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                                #(x11-color 'green4)             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                                (“Viola”)                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                    \line                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                        {                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                            \with-color                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                                #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                                [“Va.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                        }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                    \line                                        %! IC
+                        {                                        %! IC
+                            \with-color                          %! IC
+                                #magenta                         %! IC
+                                "clouded pane partial"           %! IC
+                        }                                        %! IC
+                }
             }
-        }
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            Va.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            Va.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+        \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \markup {                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                #12                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                Va.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \set Staff.shortInstrumentName =                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \markup {                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                #12                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                Va.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        ]
+    }
     
     % [G ViolaMusicVoice measure 448 / measure 2]                %! SM4
     R1 * 1/4
-    
-    % [G ViolaMusicVoice measure 449 / measure 3]                %! SM4
-    R1 * 7/8
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/6 {
+        
+        % [G ViolaMusicVoice measure 449 / measure 3]            %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        [
+        ^ \markup {                                              %! IC
+            \with-color                                          %! IC
+                #magenta                                         %! IC
+                "clouded pane partial"                           %! IC
+            }                                                    %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        ]
+    }
     
     % [G ViolaMusicVoice measure 450 / measure 4]                %! SM4
     R1 * 1/4
@@ -1576,9 +1992,45 @@ G_ViolaMusicVoice = {
     
     % [G ViolaMusicVoice measure 452 / measure 6]                %! SM4
     R1 * 3/4
-    
-    % [G ViolaMusicVoice measure 453 / measure 7]                %! SM4
-    R1 * 1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/7 {
+        
+        % [G ViolaMusicVoice measure 453 / measure 7]            %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        [
+        ^ \markup {                                              %! IC
+            \with-color                                          %! IC
+                #magenta                                         %! IC
+                "clouded pane partial"                           %! IC
+            }                                                    %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        ]
+    }
     
     % [G ViolaMusicVoice measure 454 / measure 8]                %! SM4
     R1 * 1/4
@@ -1588,15 +2040,67 @@ G_ViolaMusicVoice = {
     
     % [G ViolaMusicVoice measure 456 / measure 10]               %! SM4
     R1 * 1/4
-    
-    % [G ViolaMusicVoice measure 457 / measure 11]               %! SM4
-    R1 * 5/8
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/4 {
+        
+        % [G ViolaMusicVoice measure 457 / measure 11]           %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        [
+        ^ \markup {                                              %! IC
+            \with-color                                          %! IC
+                #magenta                                         %! IC
+                "clouded pane partial"                           %! IC
+            }                                                    %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        ]
+    }
     
     % [G ViolaMusicVoice measure 458 / measure 12]               %! SM4
     R1 * 3/4
-    
-    % [G ViolaMusicVoice measure 459 / measure 13]               %! SM4
-    R1 * 3/4
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/5 {
+        
+        % [G ViolaMusicVoice measure 459 / measure 13]           %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        [
+        ^ \markup {                                              %! IC
+            \with-color                                          %! IC
+                #magenta                                         %! IC
+                "clouded pane partial"                           %! IC
+            }                                                    %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        ]
+    }
     
     % [G ViolaMusicVoice measure 460 / measure 14]               %! SM4
     R1 * 1/4
@@ -1648,9 +2152,11 @@ G_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 7/8
-    \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'4..
+    - \tweak circled-tip ##t                                     %! PWC1
+    \<                                                           %! PWC1
     ^ \markup {
         \column
             {
@@ -1683,14 +2189,36 @@ G_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'4..
+    \f                                                           %! PWC1
+    - \tweak circled-tip ##t                                     %! PWC1
+    \>                                                           %! PWC1
+    
     % [G CelloMusicVoice measure 448 / measure 2]                %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 1/4
+    \!                                                           %! PWC1
     
     % [G CelloMusicVoice measure 449 / measure 3]                %! SM4
-    R1 * 7/8
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'4..
+    - \tweak circled-tip ##t                                     %! PWC1
+    \<                                                           %! PWC1
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'4..
+    \f                                                           %! PWC1
+    - \tweak circled-tip ##t                                     %! PWC1
+    \>                                                           %! PWC1
     
     % [G CelloMusicVoice measure 450 / measure 4]                %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 1/4
+    \!                                                           %! PWC1
     
     % [G CelloMusicVoice measure 451 / measure 5]                %! SM4
     R1 * 1/2
@@ -1699,28 +2227,70 @@ G_CelloMusicVoice = {
     R1 * 3/4
     
     % [G CelloMusicVoice measure 453 / measure 7]                %! SM4
-    R1 * 1
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    - \tweak circled-tip ##t                                     %! PWC1
+    \<                                                           %! PWC1
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'2
+    \f                                                           %! PWC1
+    - \tweak circled-tip ##t                                     %! PWC1
+    \>                                                           %! PWC1
     
     % [G CelloMusicVoice measure 454 / measure 8]                %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 1/4
+    \!                                                           %! PWC1
     
     % [G CelloMusicVoice measure 455 / measure 9]                %! SM4
     R1 * 1
     
     % [G CelloMusicVoice measure 456 / measure 10]               %! SM4
     R1 * 1/4
-    
-    % [G CelloMusicVoice measure 457 / measure 11]               %! SM4
-    R1 * 5/8
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [G CelloMusicVoice measure 457 / measure 11]           %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+        \baca_unpitched_music_warning                            %! SM24
+        c'4.
+        - \tweak circled-tip ##t                                 %! PWC1
+        \<                                                       %! PWC1
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+        \baca_unpitched_music_warning                            %! SM24
+        c'4.
+        \f                                                       %! PWC1
+        - \tweak circled-tip ##t                                 %! PWC1
+        \>                                                       %! PWC1
+    }
     
     % [G CelloMusicVoice measure 458 / measure 12]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 3/4
+    \!                                                           %! PWC1
     
     % [G CelloMusicVoice measure 459 / measure 13]               %! SM4
-    R1 * 3/4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'4.
+    - \tweak circled-tip ##t                                     %! PWC1
+    \<                                                           %! PWC1
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \baca_unpitched_music_warning                                %! SM24
+    c'4.
+    \f                                                           %! PWC1
+    - \tweak circled-tip ##t                                     %! PWC1
+    \>                                                           %! PWC1
     
     % [G CelloMusicVoice measure 460 / measure 14]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     R1 * 1/4
+    \!                                                           %! PWC1
     
     % [G CelloMusicVoice measure 461 / measure 15]               %! SM4
     R1 * 3/4
