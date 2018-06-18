@@ -995,8 +995,8 @@ J_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
-    \<                                                           %! HC1
     \appena_udibile                                              %! HC1
+    \<                                                           %! HC1
     
     % [J ViolinIMusicVoice measure 536 / measure 7]              %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -1187,8 +1187,8 @@ J_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
-    \<                                                           %! HC1
     \appena_udibile                                              %! HC1
+    \<                                                           %! HC1
     
     % [J ViolinIIMusicVoice measure 536 / measure 7]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -1337,8 +1337,8 @@ J_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
-    \<                                                           %! HC1
     \appena_udibile                                              %! HC1
+    \<                                                           %! HC1
     
     % [J ViolaMusicVoice measure 536 / measure 7]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -1469,8 +1469,8 @@ J_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'1
-    \<                                                           %! HC1
     \appena_udibile                                              %! HC1
+    \<                                                           %! HC1
     
     % [J CelloMusicVoice measure 536 / measure 7]                %! SM4
     \baca_unpitched_music_warning                                %! SM24

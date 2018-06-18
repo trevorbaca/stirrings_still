@@ -3260,9 +3260,9 @@ H_ViolinIMusicVoice = {
     \undo \hide NoteHead                                         %! SC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'4
+    \p                                                           %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \p                                                           %! HC1
     
     a'4
     
@@ -3873,8 +3873,8 @@ H_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \>                                                       %! HC1
         \ff                                                      %! HC1
+        \>                                                       %! HC1
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
@@ -4091,8 +4091,8 @@ H_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'4.
     \repeatTie                                                   %! TCC
-    \>                                                           %! HC1
     \mp                                                          %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -4292,9 +4292,9 @@ H_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         af'!4
         \stopTextSpan                                            %! PWC1
+        \p                                                       %! HC1
         - \tweak circled-tip ##t                                 %! HC1
         \>                                                       %! HC1
-        \p                                                       %! HC1
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
@@ -4929,8 +4929,8 @@ H_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \>                                                       %! HC1
         \ff                                                      %! HC1
+        \>                                                       %! HC1
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
@@ -5392,9 +5392,9 @@ H_ViolaMusicVoice = {
         \undo \hide NoteHead                                     %! SC
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         b4
+        \p                                                       %! HC1
         - \tweak circled-tip ##t                                 %! HC1
         \>                                                       %! HC1
-        \p                                                       %! HC1
         
         b4
         
@@ -5914,8 +5914,8 @@ H_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \>                                                           %! HC1
     \ff                                                          %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -6327,8 +6327,8 @@ H_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf,!4.
     \repeatTie                                                   %! SC
-    \<                                                           %! HC1
     \mp                                                          %! HC1
+    \<                                                           %! HC1
     
     gf,!4
     \repeatTie                                                   %! SC
@@ -6363,8 +6363,8 @@ H_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf,!2.
     \repeatTie                                                   %! SC
-    \<                                                           %! HC1
     \f                                                           %! HC1
+    \<                                                           %! HC1
     
     % [H CelloMusicVoice measure 482 / measure 16]               %! SM4
     gf,!1
@@ -6404,8 +6404,8 @@ H_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gf,!2..
     \repeatTie                                                   %! SC
-    \>                                                           %! HC1
     \ff                                                          %! HC1
+    \>                                                           %! HC1
     
     % [H CelloMusicVoice measure 490 / measure 24]               %! SM4
     gf,!2.
@@ -6595,8 +6595,8 @@ H_CelloMusicVoice = {
         e,8
         -\upbow
         \glissando                                               %! SC
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
         [
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
