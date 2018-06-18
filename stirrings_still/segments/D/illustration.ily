@@ -5190,11 +5190,10 @@ D_ViolinIMusicVoice = {
     c'8
     [
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    <> \!                                                        %! HC1
     ]
+    <> \!                                                        %! HC1
     <> \stopTextSpan
     <> \stopTextSpanOne
     
@@ -6310,11 +6309,10 @@ D_ViolinIIMusicVoice = {
     c'8
     [
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    <> \!                                                        %! HC1
     ]
+    <> \!                                                        %! HC1
     <> \stopTextSpan
     <> \stopTextSpanOne
     
@@ -7388,11 +7386,10 @@ D_ViolaMusicVoice = {
     c'8
     [
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    <> \!                                                        %! HC1
     ]
+    <> \!                                                        %! HC1
     <> \stopTextSpan
     <> \stopTextSpanOne
     
@@ -8544,11 +8541,10 @@ D_CelloMusicVoice = {
     c'8
     [
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    <> \!                                                        %! HC1
     ]
+    <> \!                                                        %! HC1
     <> \stopTextSpan
     <> \stopTextSpanOne
     
