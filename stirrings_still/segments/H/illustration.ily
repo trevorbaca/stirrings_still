@@ -3135,7 +3135,7 @@ H_ViolinIMusicVoice = {
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/10 {
+    \times 3/5 {
         
         % [H ViolinIMusicVoice measure 476 / measure 10]         %! SM4
         a'4
@@ -3153,44 +3153,47 @@ H_ViolinIMusicVoice = {
         a'4
         \glissando                                               %! SC
     }
-    
-    % [H ViolinIMusicVoice measure 477 / measure 11]             %! SM4
-    a'8..
-    \stopTextSpan                                                %! PWC1
-    \glissando                                                   %! SC
-    [
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "6” circles"                                 %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/4 {
+        
+        % [H ViolinIMusicVoice measure 477 / measure 11]         %! SM4
+        a'8
+        \stopTextSpan                                            %! PWC1
+        \glissando                                               %! SC
+        [
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {               %! PWC1
+            \concat                                              %! PWC1
+                {                                                %! PWC1
+                    \upright                                     %! PWC1
+                        "6” circles"                             %! PWC1
+                    \hspace                                      %! PWC1
+                        #0.5                                     %! PWC1
+                }                                                %! PWC1
             }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    \startTextSpan                                               %! PWC1
-    
-    a'8..
-    \glissando                                                   %! SC
-    
-    a'8..
-    \glissando                                                   %! SC
-    
-    a'8..
-    ]
-    \glissando                                                   %! SC
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        \startTextSpan                                           %! PWC1
+        
+        a'8
+        \glissando                                               %! SC
+        
+        a'8
+        \glissando                                               %! SC
+        
+        a'8
+        ]
+        \glissando                                               %! SC
+    }
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/6 {
         
@@ -3233,7 +3236,8 @@ H_ViolinIMusicVoice = {
         b'4
         \glissando                                               %! SC
     }
-    \times 4/6 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 2/3 {
         
         % [H ViolinIMusicVoice measure 480 / measure 14]         %! SM4
         b'4
@@ -3263,7 +3267,8 @@ H_ViolinIMusicVoice = {
     a'4
     
     a'4
-    \times 8/12 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/6 {
         
         % [H ViolinIMusicVoice measure 482 / measure 16]         %! SM4
         a'4
@@ -4277,7 +4282,7 @@ H_ViolinIIMusicVoice = {
     a'4
     \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/10 {
+    \times 3/5 {
         
         % [H ViolinIIMusicVoice measure 481 / measure 15]        %! SM4
         \revert Accidental.stencil                               %! SC
@@ -4317,7 +4322,8 @@ H_ViolinIIMusicVoice = {
         
         af'!4
     }
-    \times 8/10 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/5 {
         
         % [H ViolinIIMusicVoice measure 482 / measure 16]        %! SM4
         af'!4
@@ -5321,26 +5327,27 @@ H_ViolaMusicVoice = {
         b4
         \glissando                                               %! SC
     }
-    
-    % [H ViolaMusicVoice measure 478 / measure 12]               %! SM4
-    b8..
-    \glissando                                                   %! SC
-    [
-    
-    b8..
-    \glissando                                                   %! SC
-    
-    b8..
-    \glissando                                                   %! SC
-    
-    b8..
-    ]
-    \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 7/8 {
+        
+        % [H ViolaMusicVoice measure 478 / measure 12]           %! SM4
+        b4
+        \glissando                                               %! SC
+        
+        b4
+        \glissando                                               %! SC
+        
+        b4
+        \glissando                                               %! SC
+        
+        b4
+        \glissando                                               %! SC
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/8 {
         
         % [H ViolaMusicVoice measure 479 / measure 13]           %! SM4
-        b4
+        b2
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
         - \tweak Y-extent ##f                                    %! PWC1
@@ -5362,7 +5369,7 @@ H_ViolaMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         \startTextSpan                                           %! PWC1
         
-        b4
+        b2
         \glissando                                               %! SC
     }
     
@@ -5375,25 +5382,26 @@ H_ViolaMusicVoice = {
     \glissando                                                   %! SC
     \revert TextScript.staff-padding                             %! OC2
     \revert TextSpanner.staff-padding                            %! OC2
-    
-    % [H ViolaMusicVoice measure 481 / measure 15]               %! SM4
-    \revert Accidental.stencil                                   %! SC
-    \revert NoteColumn.glissando-skip                            %! SC
-    \revert NoteHead.no-ledgers                                  %! SC
-    \undo \hide NoteHead                                         %! SC
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    b8.
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
-    \p                                                           %! HC1
-    [
-    
-    b8.
-    
-    b8.
-    
-    b8.
-    ]
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/4 {
+        
+        % [H ViolaMusicVoice measure 481 / measure 15]           %! SM4
+        \revert Accidental.stencil                               %! SC
+        \revert NoteColumn.glissando-skip                        %! SC
+        \revert NoteHead.no-ledgers                              %! SC
+        \undo \hide NoteHead                                     %! SC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        b4
+        - \tweak circled-tip ##t                                 %! HC1
+        \>                                                       %! HC1
+        \p                                                       %! HC1
+        
+        b4
+        
+        b4
+        
+        b4
+    }
     
     % [H ViolaMusicVoice measure 482 / measure 16]               %! SM4
     b4

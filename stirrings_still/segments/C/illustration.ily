@@ -4582,102 +4582,104 @@ C_GlobalSkips = {
 
 
 C_ViolinIMusicVoice = {
-    
-    % [C ViolinIMusicVoice measure 130 / measure 1]              %! SM4
-    \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            "Vn. I"                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                             %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            "Vn. I"                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
-    [
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            damp
-                \hspace
-                    #0.5
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/4 {
+        
+        % [C ViolinIMusicVoice measure 130 / measure 1]          %! SM4
+        \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                #12                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                "Vn. I"                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \set Staff.shortInstrumentName =                         %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                #12                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                "Vn. I"                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \clef "treble"                                           %! SM8:REAPPLIED_CLEF:SM37
+        \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
+    %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+        \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        \effort_ff                                               %! SM8:EXPLICIT_DYNAMIC:IC
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
+            \concat
+                {
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                damp
+                    \hspace
+                        #0.5
+                }
             }
-        }
-    - \tweak dash-fraction 0.25
-    - \tweak dash-period 1.5
-    - \tweak bound-details.left-broken.text ##f
-    - \tweak bound-details.left.stencil-align-dir-y 0
-    - \tweak bound-details.right-broken.arrow ##f
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 3.25
-    - \tweak bound-details.right.text \markup {
-        \draw-line
-            #'(0 . -1)
-        }
-    - \tweak staff-padding #7
-    \startTextSpan
-    ^ \markup {
-        \column
-            {
-                \line                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“ViolinI”)                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            "[“Vn. I”]"                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                            %! IC
-                    {                                            %! IC
-                        "maximally tight crunch circles: grind at talon" %! IC
-                    }                                            %! IC
+        - \tweak dash-fraction 0.25
+        - \tweak dash-period 1.5
+        - \tweak bound-details.left-broken.text ##f
+        - \tweak bound-details.left.stencil-align-dir-y 0
+        - \tweak bound-details.right-broken.arrow ##f
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 3.25
+        - \tweak bound-details.right.text \markup {
+            \draw-line
+                #'(0 . -1)
             }
-        }
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            "Vn. I"                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            "Vn. I"                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    ]
+        - \tweak staff-padding #7
+        \startTextSpan
+        ^ \markup {
+            \column
+                {
+                    \line                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        {                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                            \with-color                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                                #(x11-color 'green4)             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                                (“ViolinI”)                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                    \line                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                        {                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                            \with-color                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                                #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                                "[“Vn. I”]"                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                        }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                    \line                                        %! IC
+                        {                                        %! IC
+                            "maximally tight crunch circles: grind at talon" %! IC
+                        }                                        %! IC
+                }
+            }
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+        \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \markup {                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                #12                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                "Vn. I"                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \set Staff.shortInstrumentName =                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \markup {                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                #12                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                "Vn. I"                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 131 / measure 2]          %! SM4
@@ -4696,6 +4698,7 @@ C_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 132 / measure 3]          %! SM4
@@ -4714,22 +4717,23 @@ C_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
-    
-    % [C ViolinIMusicVoice measure 133 / measure 4]              %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    ]
-    <> \stopTextSpan
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/4 {
+        
+        % [C ViolinIMusicVoice measure 133 / measure 4]          %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        <> \stopTextSpan
+    }
     
     % [C ViolinIMusicVoice measure 134 / measure 5]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -4779,6 +4783,7 @@ C_ViolinIMusicVoice = {
     
     % [C ViolinIMusicVoice measure 135 / measure 6]              %! SM4
     R1 * 1/4
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 136 / measure 7]          %! SM4
@@ -4911,67 +4916,71 @@ C_ViolinIMusicVoice = {
     \\
     R1 * 1/4
     >>
-    
-    % [C ViolinIMusicVoice measure 141 / measure 12]             %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "max. tight cir."                            %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/4 {
+        
+        % [C ViolinIMusicVoice measure 141 / measure 12]         %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {               %! PWC1
+            \concat                                              %! PWC1
+                {                                                %! PWC1
+                    \upright                                     %! PWC1
+                        "max. tight cir."                        %! PWC1
+                    \hspace                                      %! PWC1
+                        #0.5                                     %! PWC1
+                }                                                %! PWC1
             }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak staff-padding #4                                    %! PWC1
-    \startTextSpan                                               %! PWC1
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            damp
-                \hspace
-                    #0.5
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak staff-padding #4                                %! PWC1
+        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
+            \concat
+                {
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                damp
+                    \hspace
+                        #0.5
+                }
             }
-        }
-    - \tweak dash-fraction 0.25
-    - \tweak dash-period 1.5
-    - \tweak bound-details.left-broken.text ##f
-    - \tweak bound-details.left.stencil-align-dir-y 0
-    - \tweak bound-details.right-broken.arrow ##f
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 3.25
-    - \tweak bound-details.right.text \markup {
-        \draw-line
-            #'(0 . -1)
-        }
-    - \tweak staff-padding #7
-    \startTextSpanOne
-    
-    r8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    r8.
+        - \tweak dash-fraction 0.25
+        - \tweak dash-period 1.5
+        - \tweak bound-details.left-broken.text ##f
+        - \tweak bound-details.left.stencil-align-dir-y 0
+        - \tweak bound-details.right-broken.arrow ##f
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 3.25
+        - \tweak bound-details.right.text \markup {
+            \draw-line
+                #'(0 . -1)
+            }
+        - \tweak staff-padding #7
+        \startTextSpanOne
+        
+        r4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        r4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 142 / measure 13]         %! SM4
@@ -5027,6 +5036,7 @@ C_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 144 / measure 15]         %! SM4
@@ -5044,67 +5054,71 @@ C_ViolinIMusicVoice = {
         r4
         <> \stopTextSpanOne
     }
-    
-    % [C ViolinIMusicVoice measure 145 / measure 16]             %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "1-2” circles"                               %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/4 {
+        
+        % [C ViolinIMusicVoice measure 145 / measure 16]         %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {               %! PWC1
+            \concat                                              %! PWC1
+                {                                                %! PWC1
+                    \upright                                     %! PWC1
+                        "1-2” circles"                           %! PWC1
+                    \hspace                                      %! PWC1
+                        #0.5                                     %! PWC1
+                }                                                %! PWC1
             }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak staff-padding #4                                    %! PWC1
-    \startTextSpan                                               %! PWC1
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            damp
-                \hspace
-                    #0.5
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak staff-padding #4                                %! PWC1
+        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
+            \concat
+                {
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                damp
+                    \hspace
+                        #0.5
+                }
             }
-        }
-    - \tweak dash-fraction 0.25
-    - \tweak dash-period 1.5
-    - \tweak bound-details.left-broken.text ##f
-    - \tweak bound-details.left.stencil-align-dir-y 0
-    - \tweak bound-details.right-broken.arrow ##f
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 3.25
-    - \tweak bound-details.right.text \markup {
-        \draw-line
-            #'(0 . -1)
-        }
-    - \tweak staff-padding #7
-    \startTextSpanOne
-    
-    r8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    r8.
+        - \tweak dash-fraction 0.25
+        - \tweak dash-period 1.5
+        - \tweak bound-details.left-broken.text ##f
+        - \tweak bound-details.left.stencil-align-dir-y 0
+        - \tweak bound-details.right-broken.arrow ##f
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 3.25
+        - \tweak bound-details.right.text \markup {
+            \draw-line
+                #'(0 . -1)
+            }
+        - \tweak staff-padding #7
+        \startTextSpanOne
+        
+        r4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        r4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 146 / measure 17]         %! SM4
@@ -5121,6 +5135,7 @@ C_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 147 / measure 18]         %! SM4
@@ -5156,6 +5171,7 @@ C_ViolinIMusicVoice = {
         
         r4
     }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 148 / measure 19]         %! SM4
@@ -5174,70 +5190,71 @@ C_ViolinIMusicVoice = {
         \stopTextSpan                                            %! PWC1
         <> \stopTextSpanOne
     }
-    
-    % [C ViolinIMusicVoice measure 149 / measure 20]             %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    [
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "2-4” circles"                               %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/4 {
+        
+        % [C ViolinIMusicVoice measure 149 / measure 20]         %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {               %! PWC1
+            \concat                                              %! PWC1
+                {                                                %! PWC1
+                    \upright                                     %! PWC1
+                        "2-4” circles"                           %! PWC1
+                    \hspace                                      %! PWC1
+                        #0.5                                     %! PWC1
+                }                                                %! PWC1
             }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak staff-padding #4                                    %! PWC1
-    \startTextSpan                                               %! PWC1
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            damp
-                \hspace
-                    #0.5
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak staff-padding #4                                %! PWC1
+        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
+            \concat
+                {
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                damp
+                    \hspace
+                        #0.5
+                }
             }
-        }
-    - \tweak dash-fraction 0.25
-    - \tweak dash-period 1.5
-    - \tweak bound-details.left-broken.text ##f
-    - \tweak bound-details.left.stencil-align-dir-y 0
-    - \tweak bound-details.right-broken.arrow ##f
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 3.25
-    - \tweak bound-details.right.text \markup {
-        \draw-line
-            #'(0 . -1)
-        }
-    - \tweak staff-padding #7
-    \startTextSpanOne
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    ]
-    
-    r8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
+        - \tweak dash-fraction 0.25
+        - \tweak dash-period 1.5
+        - \tweak bound-details.left-broken.text ##f
+        - \tweak bound-details.left.stencil-align-dir-y 0
+        - \tweak bound-details.right-broken.arrow ##f
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 3.25
+        - \tweak bound-details.right.text \markup {
+            \draw-line
+                #'(0 . -1)
+            }
+        - \tweak staff-padding #7
+        \startTextSpanOne
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        r4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+    }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/6 {
         
@@ -5301,21 +5318,23 @@ C_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
-    
-    % [C ViolinIMusicVoice measure 152 / measure 23]             %! SM4
-    r8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    ]
-    \stopTextSpan                                                %! PWC1
-    
-    r8.
-    <> \stopTextSpanOne
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/4 {
+        
+        % [C ViolinIMusicVoice measure 152 / measure 23]         %! SM4
+        r4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        \stopTextSpan                                            %! PWC1
+        
+        r4
+        <> \stopTextSpanOne
+    }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 153 / measure 24]         %! SM4
@@ -5385,6 +5404,7 @@ C_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 154 / measure 25]         %! SM4
@@ -6281,41 +6301,43 @@ C_ViolinIMusicVoice = {
         a'4
         \glissando                                               %! SC
     }
-    
-    % [C ViolinIMusicVoice measure 203 / measure 74]             %! SM4
-    a'8.
-    \stopTextSpan                                                %! PWC1
-    \glissando                                                   %! SC
-    [
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "2” circles"                                 %! PWC1
-                \hspace                                          %! PWC1
-                    #0.25                                        %! PWC1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/4 {
+        
+        % [C ViolinIMusicVoice measure 203 / measure 74]         %! SM4
+        a'4
+        \stopTextSpan                                            %! PWC1
+        \glissando                                               %! SC
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {               %! PWC1
+            \concat                                              %! PWC1
+                {                                                %! PWC1
+                    \upright                                     %! PWC1
+                        "2” circles"                             %! PWC1
+                    \hspace                                      %! PWC1
+                        #0.25                                    %! PWC1
+                }                                                %! PWC1
             }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak dash-period 0                                       %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 1.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak staff-padding #4                                    %! PWC1
-    \startTextSpan                                               %! PWC1
-    
-    a'8.
-    \glissando                                                   %! SC
-    
-    a'8.
-    \glissando                                                   %! SC
-    
-    a'8.
-    ]
-    \glissando                                                   %! SC
+        - \tweak dash-period 0                                   %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 1.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak staff-padding #4                                %! PWC1
+        \startTextSpan                                           %! PWC1
+        
+        a'4
+        \glissando                                               %! SC
+        
+        a'4
+        \glissando                                               %! SC
+        
+        a'4
+        \glissando                                               %! SC
+    }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/5 {
         
         % [C ViolinIMusicVoice measure 204 / measure 75]         %! SM4
@@ -6504,56 +6526,59 @@ C_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     <> \stopTextSpan
-    
-    % [C ViolinIIMusicVoice measure 134 / measure 5]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_unpitched_music_warning                                %! SM24
-    c'16..
-    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    -\espressivo                                                 %! IC
-    [
-    ^ \markup {
-        \column
-            {
-                \line                                            %! IC
-                    {                                            %! IC
-                        "[urtext double stop]"                   %! IC
-                    }                                            %! IC
-                \line                                            %! IC
-                    {                                            %! IC
-                        louré                                    %! IC
-                    }                                            %! IC
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [C ViolinIIMusicVoice measure 134 / measure 5]         %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\espressivo                                             %! IC
+        [
+        ^ \markup {
+            \column
+                {
+                    \line                                        %! IC
+                        {                                        %! IC
+                            "[urtext double stop]"               %! IC
+                        }                                        %! IC
+                    \line                                        %! IC
+                        {                                        %! IC
+                            louré                                %! IC
+                        }                                        %! IC
+                }
             }
-        }
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16..
-    -\espressivo                                                 %! IC
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16..
-    -\espressivo                                                 %! IC
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16..
-    -\espressivo                                                 %! IC
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16..
-    -\espressivo                                                 %! IC
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16..
-    -\espressivo                                                 %! IC
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16..
-    -\espressivo                                                 %! IC
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16..
-    -\espressivo                                                 %! IC
-    ]
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'8
+        -\espressivo                                             %! IC
+        ]
+    }
     
     % [C ViolinIIMusicVoice measure 135 / measure 6]             %! SM4
     R1 * 1/4
@@ -8178,6 +8203,7 @@ C_ViolaMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/6 {
         
         % [C ViolaMusicVoice measure 131 / measure 2]            %! SM4
@@ -8199,6 +8225,7 @@ C_ViolaMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/6 {
         
         % [C ViolaMusicVoice measure 132 / measure 3]            %! SM4
@@ -8241,7 +8268,7 @@ C_ViolaMusicVoice = {
         <> \stopTextSpan
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 14/12 {
+    \times 7/6 {
         
         % [C ViolaMusicVoice measure 134 / measure 5]            %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -8288,6 +8315,7 @@ C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 135 / measure 6]                %! SM4
     R1 * 1/4
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/6 {
         
         % [C ViolaMusicVoice measure 136 / measure 7]            %! SM4
@@ -8364,61 +8392,63 @@ C_ViolaMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
-    
-    % [C ViolaMusicVoice measure 138 / measure 9]                %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    ]
-    
-    % [C ViolaMusicVoice measure 139 / measure 10]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    ]
-    <> \stopTextSpan
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/8 {
+        
+        % [C ViolaMusicVoice measure 138 / measure 9]            %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/8 {
+        
+        % [C ViolaMusicVoice measure 139 / measure 10]           %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        <> \stopTextSpan
+    }
     
     % [C ViolaMusicVoice measure 140 / measure 11]               %! SM4
     \voices "ViolaMusicVoice", "MultimeasureRestVoice"
@@ -8497,6 +8527,7 @@ C_ViolaMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/6 {
         
         % [C ViolaMusicVoice measure 142 / measure 13]           %! SM4
@@ -8556,6 +8587,7 @@ C_ViolaMusicVoice = {
         
         r4
     }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/6 {
         
         % [C ViolaMusicVoice measure 144 / measure 15]           %! SM4
@@ -8643,6 +8675,7 @@ C_ViolaMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/6 {
         
         % [C ViolaMusicVoice measure 146 / measure 17]           %! SM4
@@ -8661,6 +8694,7 @@ C_ViolaMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/6 {
         
         % [C ViolaMusicVoice measure 147 / measure 18]           %! SM4
@@ -8699,6 +8733,7 @@ C_ViolaMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/6 {
         
         % [C ViolaMusicVoice measure 148 / measure 19]           %! SM4
@@ -8809,55 +8844,52 @@ C_ViolaMusicVoice = {
         
         r4
     }
-    
-    % [C ViolaMusicVoice measure 151 / measure 22]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    \stopTextSpan                                                %! PWC1
-    [
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "4-8” circles"                               %! PWC1
-                \hspace                                          %! PWC1
-                    #0.25                                        %! PWC1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/8 {
+        
+        % [C ViolaMusicVoice measure 151 / measure 22]           %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        \stopTextSpan                                            %! PWC1
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {               %! PWC1
+            \concat                                              %! PWC1
+                {                                                %! PWC1
+                    \upright                                     %! PWC1
+                        "4-8” circles"                           %! PWC1
+                    \hspace                                      %! PWC1
+                        #0.25                                    %! PWC1
+                }                                                %! PWC1
             }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak dash-period 0                                       %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 1.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak staff-padding #4                                    %! PWC1
-    \startTextSpan                                               %! PWC1
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    ]
-    
-    r8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    ]
-    
-    r8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    ]
+        - \tweak dash-period 0                                   %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 1.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak staff-padding #4                                %! PWC1
+        \startTextSpan                                           %! PWC1
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        r4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        r4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+    }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
@@ -8877,6 +8909,7 @@ C_ViolaMusicVoice = {
         \stopTextSpan                                            %! PWC1
         <> \stopTextSpanOne
     }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/6 {
         
         % [C ViolaMusicVoice measure 153 / measure 24]           %! SM4
@@ -8949,6 +8982,7 @@ C_ViolaMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/6 {
         
         % [C ViolaMusicVoice measure 154 / measure 25]           %! SM4
@@ -8995,35 +9029,36 @@ C_ViolaMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
-    
-    % [C ViolaMusicVoice measure 156 / measure 27]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    ]
-    <> \stopTextSpan
-    <> \stopTextSpanOne
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/8 {
+        
+        % [C ViolaMusicVoice measure 156 / measure 27]           %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        <> \stopTextSpan
+        <> \stopTextSpanOne
+    }
     
     % [C ViolaMusicVoice measure 157 / measure 28]               %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
@@ -9816,60 +9851,62 @@ C_ViolaMusicVoice = {
         g4
         \glissando                                               %! SC
     }
-    
-    % [C ViolaMusicVoice measure 201 / measure 72]               %! SM4
-    g8.
-    \glissando                                                   %! SC
-    [
-    
-    g8.
-    \glissando                                                   %! SC
-    
-    g8.
-    \glissando                                                   %! SC
-    
-    f8.
-    \glissando                                                   %! SC
-    
-    f8.
-    \glissando                                                   %! SC
-    
-    f8.
-    \glissando                                                   %! SC
-    
-    f8.
-    \glissando                                                   %! SC
-    
-    f8.
-    ]
-    \glissando                                                   %! SC
-    
-    % [C ViolaMusicVoice measure 202 / measure 73]               %! SM4
-    f8.
-    \glissando                                                   %! SC
-    [
-    
-    f8.
-    \glissando                                                   %! SC
-    
-    e8.
-    \glissando                                                   %! SC
-    
-    e8.
-    \glissando                                                   %! SC
-    
-    e8.
-    \glissando                                                   %! SC
-    
-    e8.
-    \glissando                                                   %! SC
-    
-    e8.
-    \glissando                                                   %! SC
-    
-    e8.
-    ]
-    \glissando                                                   %! SC
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/8 {
+        
+        % [C ViolaMusicVoice measure 201 / measure 72]           %! SM4
+        g4
+        \glissando                                               %! SC
+        
+        g4
+        \glissando                                               %! SC
+        
+        g4
+        \glissando                                               %! SC
+        
+        f4
+        \glissando                                               %! SC
+        
+        f4
+        \glissando                                               %! SC
+        
+        f4
+        \glissando                                               %! SC
+        
+        f4
+        \glissando                                               %! SC
+        
+        f4
+        \glissando                                               %! SC
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/8 {
+        
+        % [C ViolaMusicVoice measure 202 / measure 73]           %! SM4
+        f4
+        \glissando                                               %! SC
+        
+        f4
+        \glissando                                               %! SC
+        
+        e4
+        \glissando                                               %! SC
+        
+        e4
+        \glissando                                               %! SC
+        
+        e4
+        \glissando                                               %! SC
+        
+        e4
+        \glissando                                               %! SC
+        
+        e4
+        \glissando                                               %! SC
+        
+        e4
+        \glissando                                               %! SC
+    }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
@@ -9909,6 +9946,7 @@ C_ViolaMusicVoice = {
         d4
         \glissando                                               %! SC
     }
+    \tweak text #tuplet-number::calc-fraction-text
     \times 4/6 {
         
         % [C ViolaMusicVoice measure 204 / measure 75]           %! SM4
@@ -9975,94 +10013,97 @@ C_ViolaMusicStaff = {
 
 
 C_CelloMusicVoice = {
-    
-    % [C CelloMusicVoice measure 130 / measure 1]                %! SM4
-    \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            Vc.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                             %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            Vc.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "bass"                                                 %! SM8:REAPPLIED_CLEF:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            damp
-                \hspace
-                    #0.5
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/2 {
+        
+        % [C CelloMusicVoice measure 130 / measure 1]            %! SM4
+        \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                #12                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                Vc.                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \set Staff.shortInstrumentName =                         %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                #12                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+                Vc.                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+            }                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+        \clef "bass"                                             %! SM8:REAPPLIED_CLEF:SM37
+        \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
+    %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+        \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        \effort_ff                                               %! SM8:EXPLICIT_DYNAMIC:IC
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
+            \concat
+                {
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                damp
+                    \hspace
+                        #0.5
+                }
             }
-        }
-    - \tweak dash-fraction 0.25
-    - \tweak dash-period 1.5
-    - \tweak bound-details.left-broken.text ##f
-    - \tweak bound-details.left.stencil-align-dir-y 0
-    - \tweak bound-details.right-broken.arrow ##f
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 3.25
-    - \tweak bound-details.right.text \markup {
-        \draw-line
-            #'(0 . -1)
-        }
-    - \tweak staff-padding #7
-    \startTextSpan
-    ^ \markup {
-        \column
-            {
-                \line                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    {                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                        \with-color                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                            (“Cello”)                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                    }                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                \line                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    {                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                        \with-color                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                            [“Vc.”]                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                            %! IC
-                    {                                            %! IC
-                        "maximally tight crunch circles: grind at talon" %! IC
-                    }                                            %! IC
+        - \tweak dash-fraction 0.25
+        - \tweak dash-period 1.5
+        - \tweak bound-details.left-broken.text ##f
+        - \tweak bound-details.left.stencil-align-dir-y 0
+        - \tweak bound-details.right-broken.arrow ##f
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 3.25
+        - \tweak bound-details.right.text \markup {
+            \draw-line
+                #'(0 . -1)
             }
-        }
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
+        - \tweak staff-padding #7
+        \startTextSpan
+        ^ \markup {
+            \column
+                {
+                    \line                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        {                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                            \with-color                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                                #(x11-color 'green4)             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                                (“Cello”)                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                        }                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+                    \line                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                        {                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                            \with-color                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                                #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                                [“Vc.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                        }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+                    \line                                        %! IC
+                        {                                        %! IC
+                            "maximally tight crunch circles: grind at talon" %! IC
+                        }                                        %! IC
+                }
+            }
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
+        \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \markup {                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                #12                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                Vc.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \set Staff.shortInstrumentName =                         %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        \markup {                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                #12                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+                Vc.                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+            }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+    }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         
@@ -10089,14 +10130,17 @@ C_CelloMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
-    
-    % [C CelloMusicVoice measure 133 / measure 4]                %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    <> \stopTextSpan
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/2 {
+        
+        % [C CelloMusicVoice measure 133 / measure 4]            %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        <> \stopTextSpan
+    }
     
     % [C CelloMusicVoice measure 134 / measure 5]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
@@ -10226,62 +10270,65 @@ C_CelloMusicVoice = {
     \\
     R1 * 1/4
     >>
-    
-    % [C CelloMusicVoice measure 141 / measure 12]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "max. tight cir."                            %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/2 {
+        
+        % [C CelloMusicVoice measure 141 / measure 12]           %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {               %! PWC1
+            \concat                                              %! PWC1
+                {                                                %! PWC1
+                    \upright                                     %! PWC1
+                        "max. tight cir."                        %! PWC1
+                    \hspace                                      %! PWC1
+                        #0.5                                     %! PWC1
+                }                                                %! PWC1
             }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak staff-padding #4                                    %! PWC1
-    \startTextSpan                                               %! PWC1
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            damp
-                \hspace
-                    #0.5
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak staff-padding #4                                %! PWC1
+        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
+            \concat
+                {
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                damp
+                    \hspace
+                        #0.5
+                }
             }
-        }
-    - \tweak dash-fraction 0.25
-    - \tweak dash-period 1.5
-    - \tweak bound-details.left-broken.text ##f
-    - \tweak bound-details.left.stencil-align-dir-y 0
-    - \tweak bound-details.right-broken.arrow ##f
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 3.25
-    - \tweak bound-details.right.text \markup {
-        \draw-line
-            #'(0 . -1)
-        }
-    - \tweak staff-padding #7
-    \startTextSpanOne
-    
-    r4.
+        - \tweak dash-fraction 0.25
+        - \tweak dash-period 1.5
+        - \tweak bound-details.left-broken.text ##f
+        - \tweak bound-details.left.stencil-align-dir-y 0
+        - \tweak bound-details.right-broken.arrow ##f
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 3.25
+        - \tweak bound-details.right.text \markup {
+            \draw-line
+                #'(0 . -1)
+            }
+        - \tweak staff-padding #7
+        \startTextSpanOne
+        
+        r4
+    }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         
@@ -10341,62 +10388,65 @@ C_CelloMusicVoice = {
         r4
         <> \stopTextSpanOne
     }
-    
-    % [C CelloMusicVoice measure 145 / measure 16]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "1-2” circles"                               %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/2 {
+        
+        % [C CelloMusicVoice measure 145 / measure 16]           %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {               %! PWC1
+            \concat                                              %! PWC1
+                {                                                %! PWC1
+                    \upright                                     %! PWC1
+                        "1-2” circles"                           %! PWC1
+                    \hspace                                      %! PWC1
+                        #0.5                                     %! PWC1
+                }                                                %! PWC1
             }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak staff-padding #4                                    %! PWC1
-    \startTextSpan                                               %! PWC1
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            damp
-                \hspace
-                    #0.5
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak staff-padding #4                                %! PWC1
+        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
+            \concat
+                {
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                damp
+                    \hspace
+                        #0.5
+                }
             }
-        }
-    - \tweak dash-fraction 0.25
-    - \tweak dash-period 1.5
-    - \tweak bound-details.left-broken.text ##f
-    - \tweak bound-details.left.stencil-align-dir-y 0
-    - \tweak bound-details.right-broken.arrow ##f
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 3.25
-    - \tweak bound-details.right.text \markup {
-        \draw-line
-            #'(0 . -1)
-        }
-    - \tweak staff-padding #7
-    \startTextSpanOne
-    
-    r4.
+        - \tweak dash-fraction 0.25
+        - \tweak dash-period 1.5
+        - \tweak bound-details.left-broken.text ##f
+        - \tweak bound-details.left.stencil-align-dir-y 0
+        - \tweak bound-details.right-broken.arrow ##f
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 3.25
+        - \tweak bound-details.right.text \markup {
+            \draw-line
+                #'(0 . -1)
+            }
+        - \tweak staff-padding #7
+        \startTextSpanOne
+        
+        r4
+    }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         
@@ -10454,63 +10504,66 @@ C_CelloMusicVoice = {
         \stopTextSpan                                            %! PWC1
         <> \stopTextSpanOne
     }
-    
-    % [C CelloMusicVoice measure 149 / measure 20]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "2-4” circles"                               %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/2 {
+        
+        % [C CelloMusicVoice measure 149 / measure 20]           %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {               %! PWC1
+            \concat                                              %! PWC1
+                {                                                %! PWC1
+                    \upright                                     %! PWC1
+                        "2-4” circles"                           %! PWC1
+                    \hspace                                      %! PWC1
+                        #0.5                                     %! PWC1
+                }                                                %! PWC1
             }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak staff-padding #4                                    %! PWC1
-    \startTextSpan                                               %! PWC1
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            damp
-                \hspace
-                    #0.5
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak staff-padding #4                                %! PWC1
+        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f
+        - \tweak bound-details.left.text \markup {
+            \concat
+                {
+                    \upright
+                        \override
+                            #'(box-padding . 0.5)
+                            \box
+                                damp
+                    \hspace
+                        #0.5
+                }
             }
-        }
-    - \tweak dash-fraction 0.25
-    - \tweak dash-period 1.5
-    - \tweak bound-details.left-broken.text ##f
-    - \tweak bound-details.left.stencil-align-dir-y 0
-    - \tweak bound-details.right-broken.arrow ##f
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 3.25
-    - \tweak bound-details.right.text \markup {
-        \draw-line
-            #'(0 . -1)
-        }
-    - \tweak staff-padding #7
-    \startTextSpanOne
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
+        - \tweak dash-fraction 0.25
+        - \tweak dash-period 1.5
+        - \tweak bound-details.left-broken.text ##f
+        - \tweak bound-details.left.stencil-align-dir-y 0
+        - \tweak bound-details.right-broken.arrow ##f
+        - \tweak bound-details.right-broken.padding 0
+        - \tweak bound-details.right-broken.text ##f
+        - \tweak bound-details.right.padding 3.25
+        - \tweak bound-details.right.text \markup {
+            \draw-line
+                #'(0 . -1)
+            }
+        - \tweak staff-padding #7
+        \startTextSpanOne
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+    }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/4 {
         
@@ -10563,14 +10616,17 @@ C_CelloMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
-    
-    % [C CelloMusicVoice measure 152 / measure 23]               %! SM4
-    r4.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    \stopTextSpan                                                %! PWC1
-    <> \stopTextSpanOne
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/2 {
+        
+        % [C CelloMusicVoice measure 152 / measure 23]           %! SM4
+        r4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        \stopTextSpan                                            %! PWC1
+        <> \stopTextSpanOne
+    }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         
@@ -11490,33 +11546,36 @@ C_CelloMusicVoice = {
         d,4
         \glissando                                               %! SC
     }
-    
-    % [C CelloMusicVoice measure 203 / measure 74]               %! SM4
-    d,4.
-    \stopTextSpan                                                %! PWC1
-    \glissando                                                   %! SC
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "2” circles"                                 %! PWC1
-                \hspace                                          %! PWC1
-                    #0.25                                        %! PWC1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/2 {
+        
+        % [C CelloMusicVoice measure 203 / measure 74]           %! SM4
+        d,4
+        \stopTextSpan                                            %! PWC1
+        \glissando                                               %! SC
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {               %! PWC1
+            \concat                                              %! PWC1
+                {                                                %! PWC1
+                    \upright                                     %! PWC1
+                        "2” circles"                             %! PWC1
+                    \hspace                                      %! PWC1
+                        #0.25                                    %! PWC1
+                }                                                %! PWC1
             }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak dash-period 0                                       %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 1.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak staff-padding #4                                    %! PWC1
-    \startTextSpan                                               %! PWC1
-    
-    d,4.
-    \glissando                                                   %! SC
+        - \tweak dash-period 0                                   %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 1.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        - \tweak staff-padding #4                                %! PWC1
+        \startTextSpan                                           %! PWC1
+        
+        d,4
+        \glissando                                               %! SC
+    }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         

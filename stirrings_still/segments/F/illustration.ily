@@ -1171,63 +1171,65 @@ F_ViolaMusicVoice = {
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     R1 * 1/4
-    
-    % [F ViolaMusicVoice measure 444 / measure 12]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    \mp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
-    [
-    ^ \markup { "maximally tight crunch circles: grind at talon" } %! IC
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    ]
-    
-    % [F ViolaMusicVoice measure 445 / measure 13]               %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    ]
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/8 {
+        
+        % [F ViolaMusicVoice measure 444 / measure 12]           %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        \mp                                                      %! SM8:REDUNDANT_DYNAMIC:IC
+        ^ \markup { "maximally tight crunch circles: grind at talon" } %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/8 {
+        
+        % [F ViolaMusicVoice measure 445 / measure 13]           %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+    }
     
     % [F ViolaMusicVoice measure 446 / measure 14]               %! SM4
     R1 * 1/4

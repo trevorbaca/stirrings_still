@@ -2916,87 +2916,88 @@ K_ViolinIMusicVoice = {
         \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
     }
-    
-    % [K ViolinIMusicVoice measure 548 / measure 3]              %! SM4
-    \once \override DynamicText.self-alignment-X = #left         %! OC1
-    \once \override DynamicText.X-extent = #'(0 . 0)             %! OC1
-    \override TextScript.staff-padding = #9                      %! OC1
-    \override TextSpanner.staff-padding = #5                     %! OC1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    \effort_f                                                    %! SM8:EXPLICIT_DYNAMIC:IC
-    [
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    \musicglyph                                  %! PWC1
-                        #"noteheads.s0harmonic"                  %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/8 {
+        
+        % [K ViolinIMusicVoice measure 548 / measure 3]          %! SM4
+        \once \override DynamicText.self-alignment-X = #left     %! OC1
+        \once \override DynamicText.X-extent = #'(0 . 0)         %! OC1
+        \override TextScript.staff-padding = #9                  %! OC1
+        \override TextSpanner.staff-padding = #5                 %! OC1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {               %! PWC1
+            \concat                                              %! PWC1
+                {                                                %! PWC1
+                    \upright                                     %! PWC1
+                        \musicglyph                              %! PWC1
+                            #"noteheads.s0harmonic"              %! PWC1
+                    \hspace                                      %! PWC1
+                        #0.5                                     %! PWC1
+                }                                                %! PWC1
             }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    \startTextSpan                                               %! PWC1
-    ^ \markup { "hair: circles (each as wide as poss.)" }        %! IC
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    \stopTextSpan                                                %! PWC1
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    \musicglyph                                  %! PWC1
-                        #"noteheads.s2harmonic"                  %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        \startTextSpan                                           %! PWC1
+        ^ \markup { "hair: circles (each as wide as poss.)" }    %! IC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        \stopTextSpan                                            %! PWC1
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {               %! PWC1
+            \concat                                              %! PWC1
+                {                                                %! PWC1
+                    \upright                                     %! PWC1
+                        \musicglyph                              %! PWC1
+                            #"noteheads.s2harmonic"              %! PWC1
+                    \hspace                                      %! PWC1
+                        #0.5                                     %! PWC1
+                }                                                %! PWC1
             }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    \startTextSpan                                               %! PWC1
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    ]
+        - \tweak arrow-width 0.25                                %! PWC1
+        - \tweak dash-fraction 0.25                              %! PWC1
+        - \tweak dash-period 1.5                                 %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right.arrow ##t                   %! PWC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 0.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        \startTextSpan                                           %! PWC1
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+    }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
@@ -4154,43 +4155,44 @@ K_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
-    
-    % [K ViolinIIMusicVoice measure 549 / measure 4]             %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    \stopTextSpan                                                %! PWC1
-    [
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    ord.                                         %! PWC1
-                \hspace                                          %! PWC1
-                    #0.25                                        %! PWC1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/4 {
+        
+        % [K ViolinIIMusicVoice measure 549 / measure 4]         %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        \stopTextSpan                                            %! PWC1
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {               %! PWC1
+            \concat                                              %! PWC1
+                {                                                %! PWC1
+                    \upright                                     %! PWC1
+                        ord.                                     %! PWC1
+                    \hspace                                      %! PWC1
+                        #0.25                                    %! PWC1
+                }                                                %! PWC1
             }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak dash-period 0                                       %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 1.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    \startTextSpan                                               %! PWC1
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'8.
-    ]
-    \stopTextSpan                                                %! PWC1
-    \revert TextScript.staff-padding                             %! OC2
-    \revert TextSpanner.staff-padding                            %! OC2
+        - \tweak dash-period 0                                   %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 1.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        \startTextSpan                                           %! PWC1
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        \stopTextSpan                                            %! PWC1
+        \revert TextScript.staff-padding                         %! OC2
+        \revert TextSpanner.staff-padding                        %! OC2
+    }
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/8 {
         
@@ -5883,35 +5885,38 @@ K_CelloMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
     }
-    
-    % [K CelloMusicVoice measure 549 / measure 4]                %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    \stopTextSpan                                                %! PWC1
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    ord.                                         %! PWC1
-                \hspace                                          %! PWC1
-                    #0.25                                        %! PWC1
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/2 {
+        
+        % [K CelloMusicVoice measure 549 / measure 4]            %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        \stopTextSpan                                            %! PWC1
+        - \tweak Y-extent ##f                                    %! PWC1
+        - \tweak bound-details.left.text \markup {               %! PWC1
+            \concat                                              %! PWC1
+                {                                                %! PWC1
+                    \upright                                     %! PWC1
+                        ord.                                     %! PWC1
+                    \hspace                                      %! PWC1
+                        #0.25                                    %! PWC1
+                }                                                %! PWC1
             }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak dash-period 0                                       %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 1.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    \startTextSpan                                               %! PWC1
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'4.
-    \stopTextSpan                                                %! PWC1
-    \revert TextScript.staff-padding                             %! OC2
-    \revert TextSpanner.staff-padding                            %! OC2
+        - \tweak dash-period 0                                   %! PWC1
+        - \tweak bound-details.left-broken.text ##f              %! PWC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
+        - \tweak bound-details.right-broken.padding 0            %! PWC1
+        - \tweak bound-details.right-broken.text ##f             %! PWC1
+        - \tweak bound-details.right.padding 1.5                 %! PWC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
+        \startTextSpan                                           %! PWC1
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        \stopTextSpan                                            %! PWC1
+        \revert TextScript.staff-padding                         %! OC2
+        \revert TextSpanner.staff-padding                        %! OC2
+    }
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/6 {
         

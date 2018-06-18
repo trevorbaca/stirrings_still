@@ -59,3 +59,33 @@ time = (
     )
 
 stirrings_still.time(maker, time)
+
+maker(
+    ('v1', [1, 3, 7, 11, 13]),
+    baca.markup(
+        baca.Markup('urtext double stop').with_color('magenta'),
+        ),
+    stirrings_still.loure_tuplets(0),
+    )
+
+maker(
+    ('v2', [1, 3, 7, 11, 13]),
+    baca.markup(
+        baca.Markup('urtext double stop').with_color('magenta'),
+        ),
+    stirrings_still.loure_tuplets(1),
+    )
+
+maker(
+    ('va', [1, 3, 7, 11, 13]),
+    baca.markup(
+        baca.Markup('clouded pane partial').with_color('magenta'),
+        ),
+    stirrings_still.loure_tuplets(-1),
+    )
+
+maker(
+    ('vc', [1, 3, 7, 11, 13]),
+    baca.hairpin_swell('f', [2], selector=baca.rleaves()),
+    stirrings_still.taper((1, 1)),
+    )
