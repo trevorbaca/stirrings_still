@@ -137,7 +137,11 @@ maker(
 maker(
     ('vc', 5),
     baca.markup('[clouded pane (stopped)]'),
-    baca.hairpin_swell('f', [2], selector=baca.rleaves()),
+    baca.hairpin_chain(
+        baca.dynamics('niente f niente'),
+        pieces=baca.rleaves().partition_by_counts([1, 1, 1]),
+        selector=baca.rleaves(),
+        ),
     stirrings_still.taper((1, 1)),
     )
 

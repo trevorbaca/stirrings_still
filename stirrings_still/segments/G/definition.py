@@ -86,6 +86,10 @@ maker(
 
 maker(
     ('vc', [1, 3, 7, 11, 13]),
-    baca.hairpin_swell('f', [2], selector=baca.rleaves()),
+    baca.hairpin_chain(
+        baca.dynamics('niente f niente'),
+        pieces=baca.rleaves().partition_by_counts([1, 1, 1]),
+        selector=baca.rleaves(),
+        ),
     stirrings_still.taper((1, 1)),
     )

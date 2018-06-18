@@ -993,7 +993,6 @@ I_ViolinIMusicVoice = {
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 0
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
@@ -1218,7 +1217,6 @@ I_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \baca_unpitched_music_warning                                %! SM24
     c'4
     <> \!                                                        %! HC1
@@ -1398,7 +1396,6 @@ I_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \baca_unpitched_music_warning                                %! SM24
     c'2
     <> \!                                                        %! HC1
