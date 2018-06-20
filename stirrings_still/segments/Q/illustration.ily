@@ -469,7 +469,6 @@ Q_GlobalSkips = {
         }
     
     % [Q GlobalSkips measure 722 / measure 3]                            %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
         \column
@@ -573,7 +572,6 @@ Q_GlobalSkips = {
         }
     
     % [Q GlobalSkips measure 725 / measure 6]                            %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
         \column
@@ -840,7 +838,6 @@ Q_GlobalSkips = {
         }
     
     % [Q GlobalSkips measure 731 / measure 12]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
         \column
@@ -1014,7 +1011,6 @@ Q_GlobalSkips = {
         }
     
     % [Q GlobalSkips measure 736 / measure 17]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
         \column
@@ -1417,7 +1413,6 @@ Q_GlobalSkips = {
         }
     
     % [Q GlobalSkips measure 746 / measure 27]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
         \column
@@ -1579,7 +1574,6 @@ Q_GlobalSkips = {
         }
     
     % [Q GlobalSkips measure 749 / measure 30]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
         \column
@@ -1788,7 +1782,6 @@ Q_GlobalSkips = {
         }
     
     % [Q GlobalSkips measure 755 / measure 36]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
         \column
@@ -2016,7 +2009,6 @@ Q_GlobalSkips = {
         }
     
     % [Q GlobalSkips measure 760 / measure 41]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
         \column
@@ -2423,7 +2415,6 @@ Q_GlobalSkips = {
         }
     
     % [Q GlobalSkips measure 770 / measure 51]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
@@ -2581,7 +2572,6 @@ Q_GlobalSkips = {
         }
     
     % [Q GlobalSkips measure 773 / measure 54]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
         \column
@@ -2848,7 +2838,6 @@ Q_GlobalSkips = {
         }
     
     % [Q GlobalSkips measure 779 / measure 60]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
         \column
@@ -3134,7 +3123,6 @@ Q_GlobalSkips = {
         }
     
     % [Q GlobalSkips measure 784 / measure 65]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
         \column
@@ -3688,7 +3676,6 @@ Q_GlobalSkips = {
         }
     
     % [Q GlobalSkips measure 795 / measure 76]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
         \column
@@ -3792,7 +3779,6 @@ Q_GlobalSkips = {
         }
     
     % [Q GlobalSkips measure 798 / measure 79]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
         \column
@@ -4001,7 +3987,6 @@ Q_GlobalSkips = {
         }
     
     % [Q GlobalSkips measure 804 / measure 85]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 7/8
     ^ \markup {
         \column
@@ -4225,7 +4210,6 @@ Q_GlobalSkips = {
         }
     
     % [Q GlobalSkips measure 809 / measure 90]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
         \column
