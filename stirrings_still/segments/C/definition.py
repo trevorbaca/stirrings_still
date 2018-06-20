@@ -279,7 +279,7 @@ maker(
 
 maker(
     ('tutti', (30, 33)),
-    baca.breathe_after(),
+    baca.breathe(),
     baca.hairpin('mf > pp'),
     baca.text_spanner(
         baca.markups.circles(8),
@@ -299,7 +299,7 @@ maker(
 
 maker(
     ('vc', (34, 35)),
-    baca.breathe_after(),
+    baca.breathe(),
     baca.dynamic('p'),
     baca.markup('[clouded pane revelation]'),
     stirrings_still.clouded_pane(),
@@ -335,7 +335,7 @@ maker(
 
 maker(
     ('tutti', (40, 43)),
-    baca.breathe_after(),
+    baca.breathe(),
     baca.hairpin('mf > pp'),
     )
 
@@ -346,7 +346,7 @@ maker(
 
 maker(
     ('tutti', (48, 51)),
-    baca.breathe_after(),
+    baca.breathe(),
     baca.hairpin('f > pp'),
     )
 
@@ -358,7 +358,7 @@ maker(
 # TODO: intermittent harmonic -> half-harmonic -> stopped
 maker(
     ('tutti', (56, 59)),
-    baca.breathe_after(),
+    baca.breathe(),
     baca.dynamic('ff', redundant=True),
     baca.text_spanner(
         baca.markups.circles(8),
@@ -381,7 +381,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (60, 61)),
-    baca.breathe_after(),
+    baca.breathe(),
     baca.dynamic('appena_udibile'),
     baca.text_spanner(
         '[double-stop field]',

@@ -2957,9 +2957,9 @@ H_ViolinIMusicVoice = {
     gf'!2..
     \repeatTie
     \revert DynamicLineSpanner.staff-padding                     %! OC2
+    \breathe                                                     %! IC
     
     % [H ViolinIMusicVoice measure 472 / measure 6]              %! SM4
-    \breathe                                                     %! IC
     \set stemLeftBeamCount = 0
     \set stemRightBeamCount = 1
     \baca_unpitched_music_warning                                %! SM24
@@ -2998,6 +2998,7 @@ H_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
+    \breathe                                                     %! IC
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3039,7 +3040,6 @@ H_ViolinIMusicVoice = {
     \times 1/1 {
         
         % [H ViolinIMusicVoice measure 473 / measure 7]          %! SM4
-        \breathe                                                 %! IC
         \override TupletBracket.direction = #down                %! OC1
         \override TextScript.staff-padding = #1.5                %! OC1
         \override TextSpanner.staff-padding = #5                 %! OC1
@@ -5120,9 +5120,9 @@ H_ViolaMusicVoice = {
     af!2..
     \repeatTie
     \revert DynamicLineSpanner.staff-padding                     %! OC2
+    \breathe                                                     %! IC
     
     % [H ViolaMusicVoice measure 472 / measure 6]                %! SM4
-    \breathe                                                     %! IC
     \baca_unpitched_music_warning                                %! SM24
     c'2
     ^ \markup {                                                  %! IC
@@ -5136,6 +5136,7 @@ H_ViolaMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
+    \breathe                                                     %! IC
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -5177,7 +5178,6 @@ H_ViolaMusicVoice = {
     \times 1/1 {
         
         % [H ViolaMusicVoice measure 473 / measure 7]            %! SM4
-        \breathe                                                 %! IC
         \override TupletBracket.direction = #down                %! OC1
         \override TextScript.staff-padding = #1.5                %! OC1
         \override TextSpanner.staff-padding = #5                 %! OC1
@@ -6088,6 +6088,7 @@ H_CelloMusicVoice = {
     af,!2..
     \repeatTie
     \revert DynamicLineSpanner.staff-padding                     %! OC2
+    \breathe                                                     %! IC
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -6127,7 +6128,6 @@ H_CelloMusicVoice = {
     \times 1/1 {
         
         % [H CelloMusicVoice measure 472 / measure 6]            %! SM4
-        \breathe                                                 %! IC
         \override Script.staff-padding = #6                      %! OC1
         \override TextSpanner.staff-padding = #3                 %! OC1
         \override TupletBracket.staff-padding = #1               %! OC1
@@ -6259,11 +6259,11 @@ H_CelloMusicVoice = {
         \revert TextSpanner.staff-padding                        %! OC2
         \revert TupletBracket.staff-padding                      %! OC2
         \revert TupletBracket.direction                          %! OC2
+        \breathe                                                 %! IC
     }
     \revert TupletNumber.text
     
     % [H CelloMusicVoice measure 473 / measure 7]                %! SM4
-    \breathe                                                     %! IC
     \override Glissando.arrow-length = #'2                       %! OC1
     \override Glissando.arrow-width = #'0.5                      %! OC1
     \override Glissando.bound-details.right.arrow = ##t          %! OC1

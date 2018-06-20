@@ -1836,9 +1836,9 @@ P_ViolinIMusicVoice = {
     \revert NoteHead.no-ledgers                                  %! SC
     \undo \hide NoteHead                                         %! SC
     bf'!8
+    \breathe                                                     %! IC
     
     % [P ViolinIMusicVoice measure 719 / measure 26]             %! SM4
-    \breathe                                                     %! IC
     R1 * 5/8
     
 }
@@ -2517,9 +2517,9 @@ P_ViolinIIMusicVoice = {
     \revert NoteHead.no-ledgers                                  %! SC
     \undo \hide NoteHead                                         %! SC
     gf'!8
+    \breathe                                                     %! IC
     
     % [P ViolinIIMusicVoice measure 719 / measure 26]            %! SM4
-    \breathe                                                     %! IC
     R1 * 5/8
     
 }
@@ -3165,9 +3165,9 @@ P_ViolaMusicVoice = {
     \revert NoteHead.no-ledgers                                  %! SC
     \undo \hide NoteHead                                         %! SC
     af!8
+    \breathe                                                     %! IC
     
     % [P ViolaMusicVoice measure 719 / measure 26]               %! SM4
-    \breathe                                                     %! IC
     R1 * 5/8
     
 }
@@ -3824,9 +3824,9 @@ P_CelloMusicVoice = {
     \revert NoteHead.no-ledgers                                  %! SC
     \undo \hide NoteHead                                         %! SC
     c8
+    \breathe                                                     %! IC
     
     % [P CelloMusicVoice measure 719 / measure 26]               %! SM4
-    \breathe                                                     %! IC
     R1 * 5/8
     
 }

@@ -7351,10 +7351,10 @@ B_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
+    \breathe                                                     %! IC
     \revert NoteHead.style                                       %! OC2
     
     % [B CelloMusicVoice measure 75 / measure 12]                %! SM4
-    \breathe                                                     %! IC
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
