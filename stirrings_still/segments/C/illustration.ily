@@ -5580,6 +5580,7 @@ C_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \pp                                                          %! HC1
+    \breathe                                                     %! IC
     
     r4
     
@@ -5588,7 +5589,6 @@ C_ViolinIMusicVoice = {
     <> \stopTextSpanOne
     
     % [C ViolinIMusicVoice measure 163 / measure 34]             %! SM4
-    \breathe                                                     %! IC
     \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
     <<
         \tweak NoteHead.no-ledgers ##t
@@ -5749,9 +5749,9 @@ C_ViolinIMusicVoice = {
     c'8
     ~
     \pp                                                          %! HC1
+    \breathe                                                     %! IC
     
     % [C ViolinIMusicVoice measure 173 / measure 44]             %! SM4
-    \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -5844,9 +5844,9 @@ C_ViolinIMusicVoice = {
     c'4
     ~
     \pp                                                          %! HC1
+    \breathe                                                     %! IC
     
     % [C ViolinIMusicVoice measure 181 / measure 52]             %! SM4
-    \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'8
@@ -5996,9 +5996,9 @@ C_ViolinIMusicVoice = {
     c'4
     <> \stopTextSpan
     <> \stopTextSpanOne
+    \breathe                                                     %! IC
     
     % [C ViolinIMusicVoice measure 189 / measure 60]             %! SM4
-    \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'2
@@ -6033,9 +6033,9 @@ C_ViolinIMusicVoice = {
     c'2.
     \repeatTie
     <> \stopTextSpan
+    \breathe                                                     %! IC
     
     % [C ViolinIMusicVoice measure 191 / measure 62]             %! SM4
-    \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'4.
@@ -7311,6 +7311,7 @@ C_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \pp                                                          %! HC1
+    \breathe                                                     %! IC
     
     r4
     
@@ -7319,7 +7320,6 @@ C_ViolinIIMusicVoice = {
     <> \stopTextSpanOne
     
     % [C ViolinIIMusicVoice measure 163 / measure 34]            %! SM4
-    \breathe                                                     %! IC
     \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
     <<
         \tweak NoteHead.no-ledgers ##t
@@ -7482,9 +7482,9 @@ C_ViolinIIMusicVoice = {
     c'8
     ~
     \pp                                                          %! HC1
+    \breathe                                                     %! IC
     
     % [C ViolinIIMusicVoice measure 173 / measure 44]            %! SM4
-    \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -7581,9 +7581,9 @@ C_ViolinIIMusicVoice = {
     c'4
     ~
     \pp                                                          %! HC1
+    \breathe                                                     %! IC
     
     % [C ViolinIIMusicVoice measure 181 / measure 52]            %! SM4
-    \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'8
@@ -7737,9 +7737,9 @@ C_ViolinIIMusicVoice = {
     c'4.
     <> \stopTextSpan
     <> \stopTextSpanOne
+    \breathe                                                     %! IC
     
     % [C ViolinIIMusicVoice measure 189 / measure 60]            %! SM4
-    \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'2
@@ -7774,9 +7774,9 @@ C_ViolinIIMusicVoice = {
     c'2.
     \repeatTie
     <> \stopTextSpan
+    \breathe                                                     %! IC
     
     % [C ViolinIIMusicVoice measure 191 / measure 62]            %! SM4
-    \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'4.
@@ -9167,6 +9167,7 @@ C_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \pp                                                          %! HC1
+    \breathe                                                     %! IC
     
     r4
     
@@ -9175,7 +9176,6 @@ C_ViolaMusicVoice = {
     <> \stopTextSpanOne
     
     % [C ViolaMusicVoice measure 163 / measure 34]               %! SM4
-    \breathe                                                     %! IC
     \voices "ViolaMusicVoice", "MultimeasureRestVoice"
     <<
         \tweak NoteHead.no-ledgers ##t
@@ -9332,9 +9332,9 @@ C_ViolaMusicVoice = {
     c'8
     ~
     \pp                                                          %! HC1
+    \breathe                                                     %! IC
     
     % [C ViolaMusicVoice measure 173 / measure 44]               %! SM4
-    \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -9437,9 +9437,9 @@ C_ViolaMusicVoice = {
     c'4
     ~
     \pp                                                          %! HC1
+    \breathe                                                     %! IC
     
     % [C ViolaMusicVoice measure 181 / measure 52]               %! SM4
-    \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'8
@@ -9593,9 +9593,9 @@ C_ViolaMusicVoice = {
     c'4.
     <> \stopTextSpan
     <> \stopTextSpanOne
+    \breathe                                                     %! IC
     
     % [C ViolaMusicVoice measure 189 / measure 60]               %! SM4
-    \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'2
@@ -9630,9 +9630,9 @@ C_ViolaMusicVoice = {
     c'2.
     \repeatTie
     <> \stopTextSpan
+    \breathe                                                     %! IC
     
     % [C ViolaMusicVoice measure 191 / measure 62]               %! SM4
-    \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'4.
@@ -10849,6 +10849,7 @@ C_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \pp                                                          %! HC1
+    \breathe                                                     %! IC
     
     r4
     
@@ -10857,7 +10858,6 @@ C_CelloMusicVoice = {
     <> \stopTextSpanOne
     
     % [C CelloMusicVoice measure 163 / measure 34]               %! SM4
-    \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'2
@@ -10872,9 +10872,9 @@ C_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
+    \breathe                                                     %! IC
     
     % [C CelloMusicVoice measure 165 / measure 36]               %! SM4
-    \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'4.
@@ -11015,9 +11015,9 @@ C_CelloMusicVoice = {
     c'8
     ~
     \pp                                                          %! HC1
+    \breathe                                                     %! IC
     
     % [C CelloMusicVoice measure 173 / measure 44]               %! SM4
-    \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -11120,9 +11120,9 @@ C_CelloMusicVoice = {
     c'4
     ~
     \pp                                                          %! HC1
+    \breathe                                                     %! IC
     
     % [C CelloMusicVoice measure 181 / measure 52]               %! SM4
-    \breathe                                                     %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \baca_unpitched_music_warning                                %! SM24
     c'8
@@ -11282,9 +11282,9 @@ C_CelloMusicVoice = {
     c'4.
     <> \stopTextSpan
     <> \stopTextSpanOne
+    \breathe                                                     %! IC
     
     % [C CelloMusicVoice measure 189 / measure 60]               %! SM4
-    \breathe                                                     %! IC
     \voices "CelloMusicVoice", "MultimeasureRestVoice"
     <<
         \tweak NoteHead.no-ledgers ##t

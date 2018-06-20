@@ -84,13 +84,16 @@ stirrings_still.time(maker, time)
 
 maker(
     ('tutti', (1, 5)),
-    (baca.breathe_after(), [0, 2, 3]),
     baca.dls_staff_padding(3),
     baca.hairpin('niente < mp', selector=baca.notes()[:4]),
     baca.make_repeat_tied_notes(),
     baca.markup(
         baca.markups.string_number(3),
         direction=abjad.Down,
+        ),
+    baca.pick(
+        [0, 2, 3],
+        baca.breathe(),
         ),
     baca.transition(
         baca.markups.rasp_partial_2(),
@@ -134,7 +137,7 @@ maker(
 
 maker(
     (['v1', 'va', 'vc'], 6),
-    baca.breathe_after(),
+    baca.breathe(),
     )
 
 maker(

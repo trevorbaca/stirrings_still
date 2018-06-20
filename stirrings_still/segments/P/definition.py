@@ -291,7 +291,7 @@ maker(
 
 maker(
     ('tutti', (21, 25)),
-    baca.breathe_after(),
+    baca.breathe(),
     stirrings_still.eighths(),
     )
 
