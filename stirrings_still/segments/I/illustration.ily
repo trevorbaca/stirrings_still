@@ -3385,9 +3385,9 @@ I_CelloMusicVoice = {
     -\downbow
     \f                                                           %! PWC1
     \stopBCPTextSpan
+    [
     - \tweak circled-tip ##t                                     %! PWC1
     \>                                                           %! PWC1
-    [
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -3857,8 +3857,8 @@ I_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \!                                                           %! PWC1
     ]
+    \!                                                           %! PWC1
     \stopBCPTextSpan
     <> \stopTextSpanOne
     

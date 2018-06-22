@@ -3895,9 +3895,9 @@ D_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 249/64
+        [
         \pp                                                      %! HC1
         \<                                                       %! HC1
-        [
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -3958,8 +3958,8 @@ D_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 61/64
-        \mp                                                      %! HC1
         ]
+        \mp                                                      %! HC1
         <> \stopTextSpan
     }
     \revert TupletNumber.text
@@ -5009,9 +5009,9 @@ D_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 239/64
+        [
         \pp                                                      %! HC1
         \<                                                       %! HC1
-        [
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -5063,8 +5063,8 @@ D_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 119/64
-        \mp                                                      %! HC1
         ]
+        \mp                                                      %! HC1
         <> \stopTextSpan
     }
     \revert TupletNumber.text
@@ -6837,8 +6837,8 @@ D_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    \glissando                                                   %! SC
     [
+    \glissando                                                   %! SC
     
     % [D CelloMusicVoice measure 222 / measure 16]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -7096,8 +7096,8 @@ D_CelloMusicVoice = {
         c'8
         -\downbow
         \stopBCPTextSpan
-        \glissando                                               %! SC
         [
+        \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
