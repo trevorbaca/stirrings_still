@@ -41,7 +41,7 @@ time = (
     ('allegro', 3),
     ('larghissimo', 4),
     ('larghissimo', 6),
-    (abjad.Accelerando(), 6),
+    (baca.Accelerando(), 6),
     ('andante', 10),
     )
 

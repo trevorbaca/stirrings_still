@@ -53,7 +53,7 @@ time = (
     ('larghissimo', 15),
     ('long', 17),
     ('presto', 18),
-    (abjad.Ritardando(), 18),
+    (baca.Ritardando(), 18),
     ('andante', 20),
     ('long', 20),
     )
