@@ -37,7 +37,7 @@ stirrings_still.stage_markup(maker, stage_markup)
 time = (
     ('adagio', 1),
     ('adagio', 15),
-    (abjad.Accelerando(), 15),
+    (baca.Accelerando(), 15),
     ('presto', 26),
     )
 

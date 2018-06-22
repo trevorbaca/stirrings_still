@@ -4233,17 +4233,17 @@ D_ViolinIMusicVoice = {
         :32                                                      %! IC
         -\espressivo                                             %! IC
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
     }
     
     % [D ViolinIMusicVoice measure 277 / measure 71]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2..
+    \repeatTie                                                   %! TCC
     
     % [D ViolinIMusicVoice measure 278 / measure 72]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -4258,27 +4258,26 @@ D_ViolinIMusicVoice = {
         :32                                                      %! IC
         -\espressivo                                             %! IC
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \baca_unpitched_music_warning                            %! SM24
         c'2
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \baca_unpitched_music_warning                            %! SM24
         c'4
         :32                                                      %! IC
         -\espressivo                                             %! IC
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/9 {
@@ -4286,13 +4285,13 @@ D_ViolinIMusicVoice = {
         % [D ViolinIMusicVoice measure 280 / measure 74]         %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'1
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
         :32                                                      %! IC
         -\espressivo                                             %! IC
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
     }
     
     % [D ViolinIMusicVoice measure 281 / measure 75]             %! SM4
@@ -4300,10 +4299,11 @@ D_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     :32                                                          %! IC
-    ~                                                            %! TCC
+    \repeatTie                                                   %! TCC
     
     \baca_unpitched_music_warning                                %! SM24
     c'4.
+    \repeatTie                                                   %! TCC
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
         
@@ -4311,13 +4311,13 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'8
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \baca_unpitched_music_warning                            %! SM24
         c'4.
         :32                                                      %! IC
         -\espressivo                                             %! IC
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'2
@@ -4332,17 +4332,16 @@ D_ViolinIMusicVoice = {
         :32                                                      %! IC
         -\espressivo                                             %! IC
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'2
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
         :32                                                      %! IC
         -\espressivo                                             %! IC
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
     }
     
     % [D ViolinIMusicVoice measure 284 / measure 78]             %! SM4
@@ -4350,6 +4349,7 @@ D_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     :32                                                          %! IC
+    \repeatTie                                                   %! TCC
     
     \baca_unpitched_music_warning                                %! SM24
     c'4.
@@ -4368,17 +4368,17 @@ D_ViolinIMusicVoice = {
         c'8
         :32                                                      %! IC
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4.
         :32                                                      %! IC
         -\espressivo                                             %! IC
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4.
@@ -4397,19 +4397,19 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         :32                                                      %! IC
         -\espressivo                                             %! IC
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
     }
     
     % [D ViolinIMusicVoice measure 287 / measure 81]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'1
     :32                                                          %! IC
+    \repeatTie                                                   %! TCC
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
         
@@ -4417,12 +4417,12 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'2.
         :32                                                      %! IC
         -\espressivo                                             %! IC
+        \repeatTie                                               %! TCC
     }
     
     % [D ViolinIMusicVoice measure 289 / measure 83]             %! SM4
@@ -4435,12 +4435,12 @@ D_ViolinIMusicVoice = {
     c'8
     :32                                                          %! IC
     \repeatTie                                                   %! TCC
-    ~                                                            %! TCC
     
     % [D ViolinIMusicVoice measure 290 / measure 84]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'1
     :32                                                          %! IC
+    \repeatTie                                                   %! TCC
     
     % [D ViolinIMusicVoice measure 291 / measure 85]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -4470,12 +4470,12 @@ D_ViolinIMusicVoice = {
     c'8
     :32                                                          %! IC
     \repeatTie                                                   %! TCC
-    ~                                                            %! TCC
     
     % [D ViolinIMusicVoice measure 295 / measure 89]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
+    \repeatTie                                                   %! TCC
     
     % [D ViolinIMusicVoice measure 296 / measure 90]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -4517,12 +4517,12 @@ D_ViolinIMusicVoice = {
     c'8
     :32                                                          %! IC
     \repeatTie                                                   %! TCC
-    ~                                                            %! TCC
     
     % [D ViolinIMusicVoice measure 302 / measure 96]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
+    \repeatTie                                                   %! TCC
     
     % [D ViolinIMusicVoice measure 303 / measure 97]             %! SM4
     R1 * 3/2
@@ -5304,28 +5304,28 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
         :32                                                      %! IC
         -\espressivo                                             %! IC
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \baca_unpitched_music_warning                            %! SM24
         c'2
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
     }
     
     % [D ViolinIIMusicVoice measure 276 / measure 70]            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \baca_unpitched_music_warning                                %! SM24
     c'2
+    \repeatTie                                                   %! TCC
     
     % [D ViolinIIMusicVoice measure 277 / measure 71]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -5335,18 +5335,17 @@ D_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie                                                   %! TCC
-    ~                                                            %! TCC
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     :32                                                          %! IC
     -\espressivo                                                 %! IC
-    ~                                                            %! TCC
+    \repeatTie                                                   %! TCC
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    ~                                                            %! TCC
+    \repeatTie                                                   %! TCC
     ]
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/9 {
@@ -5354,16 +5353,17 @@ D_ViolinIIMusicVoice = {
         % [D ViolinIIMusicVoice measure 278 / measure 72]        %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'2
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         :32                                                      %! IC
         -\espressivo                                             %! IC
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4.
+        \repeatTie                                               %! TCC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/9 {
@@ -5376,23 +5376,23 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'8
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \baca_unpitched_music_warning                            %! SM24
         c'4
         :32                                                      %! IC
         -\espressivo                                             %! IC
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
     }
     
     % [D ViolinIIMusicVoice measure 280 / measure 74]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'4
+    \repeatTie                                                   %! TCC
     
     \baca_unpitched_music_warning                                %! SM24
     c'4.
@@ -5410,24 +5410,23 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'8
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \baca_unpitched_music_warning                            %! SM24
         c'4
         :32                                                      %! IC
         -\espressivo                                             %! IC
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
         :32                                                      %! IC
         -\espressivo                                             %! IC
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
@@ -5437,23 +5436,24 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
         :32                                                      %! IC
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4.
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         :32                                                      %! IC
         -\espressivo                                             %! IC
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
     }
     
     % [D ViolinIIMusicVoice measure 283 / measure 77]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'4
     :32                                                          %! IC
+    \repeatTie                                                   %! TCC
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -5472,13 +5472,12 @@ D_ViolinIIMusicVoice = {
         c'8
         :32                                                      %! IC
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         [
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \baca_unpitched_music_warning                            %! SM24
         c'8
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
         ]
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -5486,23 +5485,24 @@ D_ViolinIIMusicVoice = {
         c'2
         :32                                                      %! IC
         -\espressivo                                             %! IC
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         :32                                                      %! IC
         -\espressivo                                             %! IC
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
     }
     
     % [D ViolinIIMusicVoice measure 285 / measure 79]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2..
     :32                                                          %! IC
+    \repeatTie                                                   %! TCC
     
     % [D ViolinIIMusicVoice measure 286 / measure 80]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -5532,12 +5532,12 @@ D_ViolinIIMusicVoice = {
     c'8
     :32                                                          %! IC
     \repeatTie                                                   %! TCC
-    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 290 / measure 84]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'1
     :32                                                          %! IC
+    \repeatTie                                                   %! TCC
     
     % [D ViolinIIMusicVoice measure 291 / measure 85]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -5567,12 +5567,12 @@ D_ViolinIIMusicVoice = {
     c'8
     :32                                                          %! IC
     \repeatTie                                                   %! TCC
-    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 295 / measure 89]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
+    \repeatTie                                                   %! TCC
     
     % [D ViolinIIMusicVoice measure 296 / measure 90]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -5614,12 +5614,12 @@ D_ViolinIIMusicVoice = {
     c'8
     :32                                                          %! IC
     \repeatTie                                                   %! TCC
-    ~                                                            %! TCC
     
     % [D ViolinIIMusicVoice measure 302 / measure 96]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
+    \repeatTie                                                   %! TCC
     
     % [D ViolinIIMusicVoice measure 303 / measure 97]            %! SM4
     R1 * 3/2
@@ -6369,17 +6369,17 @@ D_ViolaMusicVoice = {
         :32                                                      %! IC
         -\espressivo                                             %! IC
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
     }
     
     % [D ViolaMusicVoice measure 276 / measure 70]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2
+    \repeatTie                                                   %! TCC
     
     % [D ViolaMusicVoice measure 277 / measure 71]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -6392,7 +6392,6 @@ D_ViolaMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'8
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         [
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -6400,17 +6399,17 @@ D_ViolaMusicVoice = {
         c'8
         :32                                                      %! IC
         -\espressivo                                             %! IC
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
         ]
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \baca_unpitched_music_warning                            %! SM24
         c'2
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         [
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -6418,7 +6417,7 @@ D_ViolaMusicVoice = {
         c'8
         :32                                                      %! IC
         -\espressivo                                             %! IC
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
         ]
     }
     
@@ -6427,10 +6426,11 @@ D_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     :32                                                          %! IC
-    ~                                                            %! TCC
+    \repeatTie                                                   %! TCC
     
     \baca_unpitched_music_warning                                %! SM24
     c'2..
+    \repeatTie                                                   %! TCC
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/10 {
         
@@ -6438,23 +6438,22 @@ D_ViolaMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'4
-        :32                                                      %! IC
-        -\espressivo                                             %! IC
-        ~                                                        %! TCC
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'2
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         :32                                                      %! IC
         -\espressivo                                             %! IC
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'2
+        \repeatTie                                               %! TCC
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'4
+        :32                                                      %! IC
+        -\espressivo                                             %! IC
+        \repeatTie                                               %! TCC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/5 {
@@ -6463,11 +6462,12 @@ D_ViolaMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'8
         :32                                                      %! IC
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \baca_unpitched_music_warning                            %! SM24
         c'2
+        \repeatTie                                               %! TCC
     }
     
     % [D ViolaMusicVoice measure 282 / measure 76]               %! SM4
@@ -6486,7 +6486,6 @@ D_ViolaMusicVoice = {
     :32                                                          %! IC
     -\espressivo                                                 %! IC
     \repeatTie                                                   %! TCC
-    ~                                                            %! TCC
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
         
@@ -6494,10 +6493,11 @@ D_ViolaMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
         :32                                                      %! IC
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4.
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4.
@@ -6513,28 +6513,27 @@ D_ViolaMusicVoice = {
         c'8
         :32                                                      %! IC
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4.
         :32                                                      %! IC
         -\espressivo                                             %! IC
+        \repeatTie                                               %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
         :32                                                      %! IC
         -\espressivo                                             %! IC
-        ~                                                        %! TCC
+        \repeatTie                                               %! TCC
     }
     
     % [D ViolaMusicVoice measure 285 / measure 79]               %! SM4
@@ -6542,6 +6541,7 @@ D_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     :32                                                          %! IC
+    \repeatTie                                                   %! TCC
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -6564,7 +6564,6 @@ D_ViolaMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'8
         \repeatTie                                               %! TCC
-        ~                                                        %! TCC
     }
     
     % [D ViolaMusicVoice measure 287 / measure 81]               %! SM4
@@ -6573,6 +6572,7 @@ D_ViolaMusicVoice = {
     c'1
     :32                                                          %! IC
     -\espressivo                                                 %! IC
+    \repeatTie                                                   %! TCC
     
     % [D ViolaMusicVoice measure 288 / measure 82]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -6590,12 +6590,12 @@ D_ViolaMusicVoice = {
     c'8
     :32                                                          %! IC
     \repeatTie                                                   %! TCC
-    ~                                                            %! TCC
     
     % [D ViolaMusicVoice measure 290 / measure 84]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'1
     :32                                                          %! IC
+    \repeatTie                                                   %! TCC
     
     % [D ViolaMusicVoice measure 291 / measure 85]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -6625,12 +6625,12 @@ D_ViolaMusicVoice = {
     c'8
     :32                                                          %! IC
     \repeatTie                                                   %! TCC
-    ~                                                            %! TCC
     
     % [D ViolaMusicVoice measure 295 / measure 89]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
+    \repeatTie                                                   %! TCC
     
     % [D ViolaMusicVoice measure 296 / measure 90]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -6668,12 +6668,12 @@ D_ViolaMusicVoice = {
     c'8
     :32                                                          %! IC
     \repeatTie
-    ~
     
     % [D ViolaMusicVoice measure 302 / measure 96]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
+    \repeatTie
     
     % [D ViolaMusicVoice measure 303 / measure 97]               %! SM4
     R1 * 3/2

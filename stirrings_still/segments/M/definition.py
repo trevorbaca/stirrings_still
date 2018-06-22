@@ -38,7 +38,7 @@ stirrings_still.stage_markup(maker, stage_markup)
 
 time = (
     ('largo meno mosso', 29),
-    (abjad.Ritardando(), 29),
+    (baca.Ritardando(), 29),
     ('larghissimo', 31),
     )
 

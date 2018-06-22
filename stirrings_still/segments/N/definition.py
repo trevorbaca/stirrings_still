@@ -41,11 +41,11 @@ stirrings_still.stage_markup(maker, stage_markup)
 
 time = (
     ('larghissimo', 23),
-    (abjad.Accelerando(), 23),
+    (baca.Accelerando(), 23),
     ('presto', 28),
     ('andante', 29),
     ('presto', 30),
-    (abjad.Ritardando(), 30),
+    (baca.Ritardando(), 30),
     ('larghissimo', 35),
     ('very_long', 36),
     ('very_long', 39),

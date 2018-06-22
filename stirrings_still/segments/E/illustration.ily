@@ -4753,12 +4753,12 @@ E_ViolinIMusicVoice = {
     c'8
     :32                                                          %! IC
     \repeatTie
-    ~
     
     % [E ViolinIMusicVoice measure 307 / measure 2]              %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2
     :32                                                          %! IC
+    \repeatTie
     
     % [E ViolinIMusicVoice measure 308 / measure 3]              %! SM4
     R1 * 1/4
@@ -5399,12 +5399,12 @@ E_ViolinIIMusicVoice = {
     c'8
     :32                                                          %! IC
     \repeatTie
-    ~
     
     % [E ViolinIIMusicVoice measure 307 / measure 2]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2
     :32                                                          %! IC
+    \repeatTie
     
     % [E ViolinIIMusicVoice measure 308 / measure 3]             %! SM4
     R1 * 1/4
@@ -6046,12 +6046,12 @@ E_ViolaMusicVoice = {
     c'8
     :32                                                          %! IC
     \repeatTie
-    ~
     
     % [E ViolaMusicVoice measure 307 / measure 2]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'2
     :32                                                          %! IC
+    \repeatTie
     
     % [E ViolaMusicVoice measure 308 / measure 3]                %! SM4
     R1 * 1/4
