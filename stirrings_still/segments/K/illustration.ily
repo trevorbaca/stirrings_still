@@ -2222,8 +2222,8 @@ K_ViolinIMusicVoice = {
         % [K ViolinIMusicVoice measure 547 / measure 2]          %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'8
-        \glissando                                               %! SC
         [
+        \glissando                                               %! SC
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
@@ -2607,8 +2607,8 @@ K_ViolinIMusicVoice = {
         c'16 * 117/32
         -\upbow
         \stopBCPTextSpan
-        \glissando                                               %! SC
         [
+        \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -3754,8 +3754,8 @@ K_ViolinIIMusicVoice = {
         c'16 * 159/32
         -\downbow
         \stopBCPTextSpan
-        \glissando                                               %! SC
         [
+        \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -5038,8 +5038,8 @@ K_CelloMusicVoice = {
         c'8
         -\upbow
         \stopBCPTextSpan
-        \glissando                                               %! SC
         [
+        \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -5152,8 +5152,8 @@ K_CelloMusicVoice = {
         c'8
         -\upbow
         \stopBCPTextSpan
-        \glissando                                               %! SC
         [
+        \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -5438,8 +5438,8 @@ K_CelloMusicVoice = {
         c'16 * 327/64
         -\upbow
         \stopBCPTextSpan
-        \glissando                                               %! SC
         [
+        \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat

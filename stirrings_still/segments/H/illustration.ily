@@ -2465,8 +2465,8 @@ H_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         gf'!16 * 439/64
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        \glissando                                               %! SC
         [
+        \glissando                                               %! SC
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
@@ -2566,8 +2566,8 @@ H_ViolinIMusicVoice = {
         % [H ViolinIMusicVoice measure 477 / measure 11]         %! SM4
         a'8
         \stopTextSpan                                            %! PWC1
-        \glissando                                               %! SC
         [
+        \glissando                                               %! SC
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
@@ -3591,8 +3591,8 @@ H_ViolinIIMusicVoice = {
         f'16 * 503/64
         \p                                                       %! HC1
         \stopTextSpan                                            %! PWC1
-        \glissando                                               %! SC
         [
+        \glissando                                               %! SC
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
@@ -4589,8 +4589,8 @@ H_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         af!16 * 15/2
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        \glissando                                               %! SC
         [
+        \glissando                                               %! SC
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
@@ -5980,10 +5980,10 @@ H_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         e,8
         -\upbow
+        [
         \glissando                                               %! SC
         \ppp                                                     %! HC1
         \<                                                       %! HC1
-        [
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -6065,8 +6065,8 @@ H_CelloMusicVoice = {
         e,8
         -\downbow
         \stopBCPTextSpan
-        \glissando                                               %! SC
         [
+        \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -6171,8 +6171,8 @@ H_CelloMusicVoice = {
         e,8
         -\downbow
         \stopBCPTextSpan
-        \glissando                                               %! SC
         [
+        \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -6270,8 +6270,8 @@ H_CelloMusicVoice = {
     
     % [H CelloMusicVoice measure 514 / measure 48]               %! SM4
     e,8
-    \glissando                                                   %! SC
     [
+    \glissando                                                   %! SC
     
     e,8
     -\upbow
@@ -6376,8 +6376,8 @@ H_CelloMusicVoice = {
     
     e,8
     \stopBCPTextSpan
-    \glissando                                                   %! SC
     [
+    \glissando                                                   %! SC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -6479,8 +6479,8 @@ H_CelloMusicVoice = {
         
         e,8
         \stopBCPTextSpan
-        \glissando                                               %! SC
         [
+        \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
@@ -6583,8 +6583,8 @@ H_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         e,8
         \p                                                       %! HC1
-        \glissando                                               %! SC
         [
+        \glissando                                               %! SC
         
         e,8
         -\downbow
@@ -6707,8 +6707,8 @@ H_CelloMusicVoice = {
         e,8
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         -\upbow
-        \glissando                                               %! SC
         [
+        \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
             \concat
