@@ -49,10 +49,8 @@ maker(
     ('trio', (1, 7)),
     baca.map(
         baca.group_by_measures()[3:].group(),
-        baca.hairpin(
-            'mp > niente',
-            leak=True,
-            ),
+        # TODO: leak niente
+        baca.hairpin('mp > niente'),
         ),
     baca.pick(
         0,

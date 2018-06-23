@@ -329,10 +329,7 @@ maker(
 
 maker(
     ('tutti', (58, 63)),
-    baca.hairpin(
-        'mf > niente',
-        leak=True,
-        ),
+    baca.hairpin('mf > niente'),
     baca.text_spanner(
         baca.markups.damp().boxed(),
         abjad.tweak(5).staff_padding,
