@@ -53,11 +53,7 @@ maker(
         ),
     baca.pick(
         0,
-        baca.new_hairpin(
-            'f >o niente',
-            start_selector=baca.leaf(-2),
-            stop_selector=baca.rleaf(-1),
-            ),
+        baca.new_hairpin('f >o niente', selector=baca.rleaves()[-3:]),
         ),
     baca.pick(
         1,
@@ -69,11 +65,7 @@ maker(
         ),
     baca.pick(
         1,
-        baca.new_hairpin(
-            'f >o niente',
-            start_selector=baca.leaf(-1),
-            stop_selector=baca.rleaf(-1),
-            ),
+        baca.new_hairpin('f >o niente', selector=baca.rleaves()[-2:]),
         ),
     baca.pick(
         (0, 1),
@@ -81,18 +73,11 @@ maker(
         ),
     baca.pick(
         2,
-        baca.new_hairpin(
-            'p < ff',
-            stop_selector=baca.leaf(1),
-            ),
+        baca.new_hairpin('p < ff', selector=baca.leaves()[:2]),
         ),
     baca.pick(
         2,
-        baca.new_hairpin(
-            'ff >o niente',
-            start_selector=baca.leaf(-1),
-            stop_selector=baca.rleaf(-1),
-            ),
+        baca.new_hairpin('ff >o niente', selector=baca.rleaves()[-2:]),
         ),
     baca.pick(
         2,
@@ -103,7 +88,7 @@ maker(
 maker(
     ('va', (1, 10)),
     [
-        baca.new_hairpin('niente o< "mp"', stop_selector=baca.leaf(1)),
+        baca.new_hairpin('niente o< "mp"', selector=baca.leaves()[:2]),
         baca.hairpin_shorten_pair((0.75, 0)),
         ],
     baca.markup(

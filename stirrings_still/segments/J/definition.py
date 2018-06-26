@@ -98,7 +98,7 @@ maker(
             abjad.DynamicTrend('<'),
             abjad.Dynamic('fff'),
             ],
-        stop_selector=baca.rleaf(-1),
+        selector=baca.rleaves(),
         ),
     )
 
