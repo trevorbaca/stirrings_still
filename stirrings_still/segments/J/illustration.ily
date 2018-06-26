@@ -798,8 +798,8 @@ J_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-    \repeatTie
     \<                                                           %! IC:BACA_HAIRPIN
+    \repeatTie
     
     % [J ViolinIMusicVoice measure 536 / measure 7]              %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -980,8 +980,8 @@ J_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-    \repeatTie
     \<                                                           %! IC:BACA_HAIRPIN
+    \repeatTie
     
     % [J ViolinIIMusicVoice measure 536 / measure 7]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -1120,8 +1120,8 @@ J_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-    \repeatTie
     \<                                                           %! IC:BACA_HAIRPIN
+    \repeatTie
     
     % [J ViolaMusicVoice measure 536 / measure 7]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
