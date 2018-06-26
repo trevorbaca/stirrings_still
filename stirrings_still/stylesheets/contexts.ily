@@ -162,6 +162,8 @@
         % TODO: propagate to other scores?
         \override DynamicText.self-alignment-X = #left
 
+        \override Hairpin.to-barline = ##f
+
         \override Glissando.breakable = ##t
         \override Glissando.thickness = 3
 
