@@ -3896,6 +3896,7 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 249/64
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         [
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -3921,7 +3922,6 @@ D_ViolinIMusicVoice = {
             }
         - \tweak staff-padding #5
         \startTextSpan
-        \<                                                       %! IC:BACA_HAIRPIN
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 59/16
@@ -3969,6 +3969,8 @@ D_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \>                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -4021,8 +4023,6 @@ D_ViolinIMusicVoice = {
     - \tweak color #magenta
     - \tweak staff-padding #9
     \startTextSpanOne
-    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
-    \>                                                           %! IC:BACA_HAIRPIN
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
@@ -5011,6 +5011,7 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 239/64
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         [
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -5036,7 +5037,6 @@ D_ViolinIIMusicVoice = {
             }
         - \tweak staff-padding #5
         \startTextSpan
-        \<                                                       %! IC:BACA_HAIRPIN
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 231/64
@@ -5075,6 +5075,8 @@ D_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \>                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -5127,8 +5129,6 @@ D_ViolinIIMusicVoice = {
     - \tweak color #magenta
     - \tweak staff-padding #9
     \startTextSpanOne
-    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
-    \>                                                           %! IC:BACA_HAIRPIN
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
@@ -6139,6 +6139,8 @@ D_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \>                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -6191,8 +6193,6 @@ D_ViolaMusicVoice = {
     - \tweak color #magenta
     - \tweak staff-padding #9
     \startTextSpanOne
-    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
-    \>                                                           %! IC:BACA_HAIRPIN
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
@@ -7263,9 +7263,9 @@ D_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b,,1
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-    ~
     - \tweak stencil #abjad-flared-hairpin                       %! IC:BACA_HAIRPIN
     \<                                                           %! IC:BACA_HAIRPIN
+    ~
     
     b,,4.
     
@@ -7281,6 +7281,8 @@ D_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     \mf                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \>                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -7333,8 +7335,6 @@ D_CelloMusicVoice = {
     - \tweak color #magenta
     - \tweak staff-padding #9
     \startTextSpanOne
-    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
-    \>                                                           %! IC:BACA_HAIRPIN
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
@@ -7535,8 +7535,8 @@ D_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2..
     \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
-    \repeatTie
     \<                                                           %! IC:BACA_HAIRPIN
+    \repeatTie
     
     % [D CelloMusicVoice measure 293 / measure 87]               %! SM4
     \baca_unpitched_music_warning                                %! SM24

@@ -4635,6 +4635,7 @@ C_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \>                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -4686,7 +4687,6 @@ C_ViolinIMusicVoice = {
         }
     - \tweak staff-padding #7
     \startTextSpanOne
-    \>                                                           %! IC:BACA_HAIRPIN
     
     r4
     
@@ -4750,6 +4750,7 @@ C_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -4798,7 +4799,6 @@ C_ViolinIMusicVoice = {
         }
     - \tweak staff-padding #7
     \startTextSpanOne
-    \<                                                           %! IC:BACA_HAIRPIN
     
     r4
     
@@ -5332,6 +5332,8 @@ C_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         bf'!4
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \>                                                       %! IC:BACA_HAIRPIN
         \glissando                                               %! SC
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
@@ -5356,8 +5358,6 @@ C_ViolinIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         - \tweak staff-padding #4                                %! PWC1
         \startTextSpan                                           %! PWC1
-        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
-        \>                                                       %! IC:BACA_HAIRPIN
         
         \hide NoteHead                                           %! SC
         \override Accidental.stencil = ##f                       %! SC
@@ -6345,6 +6345,7 @@ C_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \>                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -6396,7 +6397,6 @@ C_ViolinIIMusicVoice = {
         }
     - \tweak staff-padding #7
     \startTextSpanOne
-    \>                                                           %! IC:BACA_HAIRPIN
     
     r4
     
@@ -6460,6 +6460,7 @@ C_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -6508,7 +6509,6 @@ C_ViolinIIMusicVoice = {
         }
     - \tweak staff-padding #7
     \startTextSpanOne
-    \<                                                           %! IC:BACA_HAIRPIN
     
     r4
     
@@ -7050,6 +7050,8 @@ C_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     af'!4
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \>                                                           %! IC:BACA_HAIRPIN
     \glissando                                                   %! SC
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -7074,8 +7076,6 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
     - \tweak staff-padding #4                                    %! PWC1
     \startTextSpan                                               %! PWC1
-    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
-    \>                                                           %! IC:BACA_HAIRPIN
     
     \hide NoteHead                                               %! SC
     \override Accidental.stencil = ##f                           %! SC
@@ -8180,6 +8180,7 @@ C_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \>                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -8231,7 +8232,6 @@ C_ViolaMusicVoice = {
         }
     - \tweak staff-padding #7
     \startTextSpanOne
-    \>                                                           %! IC:BACA_HAIRPIN
     
     r4
     
@@ -8295,6 +8295,7 @@ C_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -8343,7 +8344,6 @@ C_ViolaMusicVoice = {
         }
     - \tweak staff-padding #7
     \startTextSpanOne
-    \<                                                           %! IC:BACA_HAIRPIN
     
     r4
     
@@ -8887,6 +8887,8 @@ C_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         a4
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \>                                                       %! IC:BACA_HAIRPIN
         \glissando                                               %! SC
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
@@ -8911,8 +8913,6 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         - \tweak staff-padding #4                                %! PWC1
         \startTextSpan                                           %! PWC1
-        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
-        \>                                                       %! IC:BACA_HAIRPIN
         
         \hide NoteHead                                           %! SC
         \override Accidental.stencil = ##f                       %! SC
@@ -9852,6 +9852,7 @@ C_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \>                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -9903,7 +9904,6 @@ C_CelloMusicVoice = {
         }
     - \tweak staff-padding #7
     \startTextSpanOne
-    \>                                                           %! IC:BACA_HAIRPIN
     
     r4
     
@@ -9970,6 +9970,7 @@ C_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -10018,7 +10019,6 @@ C_CelloMusicVoice = {
         }
     - \tweak staff-padding #7
     \startTextSpanOne
-    \<                                                           %! IC:BACA_HAIRPIN
     
     r8
     
@@ -10543,6 +10543,8 @@ C_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         g,4
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \>                                                       %! IC:BACA_HAIRPIN
         \glissando                                               %! SC
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
@@ -10567,8 +10569,6 @@ C_CelloMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
         - \tweak staff-padding #4                                %! PWC1
         \startTextSpan                                           %! PWC1
-        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
-        \>                                                       %! IC:BACA_HAIRPIN
         
         \hide NoteHead                                           %! SC
         \override Accidental.stencil = ##f                       %! SC

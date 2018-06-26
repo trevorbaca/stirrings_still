@@ -614,10 +614,10 @@ F_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-    \repeatTie
-    \f                                                           %! PWC1
     - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
+    \repeatTie
+    \f                                                           %! PWC1
     
     % [F ViolinIMusicVoice measure 440 / measure 8]              %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -802,10 +802,10 @@ F_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-    \repeatTie
-    \f                                                           %! PWC1
     - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
+    \repeatTie
+    \f                                                           %! PWC1
     
     % [F ViolinIIMusicVoice measure 441 / measure 9]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
@@ -924,9 +924,9 @@ F_ViolaMusicVoice = {
             \box                                                 %! IC
                 tailpiece                                        %! IC
         }                                                        %! IC
-    \glissando                                                   %! SC
     - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
     \<                                                           %! IC:BACA_HAIRPIN
+    \glissando                                                   %! SC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1159,9 +1159,9 @@ F_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \ff                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
-    \repeatTie
     - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
+    \repeatTie
     
     % [F CelloMusicVoice measure 441 / measure 9]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
