@@ -312,7 +312,7 @@ maker(
 
 maker(
     ('vc', 57),
-    baca.new_hairpin('pp <| mf', stop_selector=baca.leaf(-1)),
+    baca.new_hairpin('pp <| mf', selector=baca.leaves()),
     baca.markup(
         'HAND!',
         abjad.tweak('magenta').color,
