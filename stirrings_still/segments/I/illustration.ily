@@ -670,12 +670,12 @@ I_ViolinIMusicVoice = {
     % [I ViolinIMusicVoice measure 522 / measure 4]              %! SM4
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    \mp                                                          %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    \mp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \>                                                           %! IC:BACA_HAIRPIN
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
@@ -852,11 +852,11 @@ I_ViolinIMusicVoice = {
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 0
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'8
+    <> \!                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ]
-    \!                                                           %! HC1
     <> \stopTextSpan
     
     % [I ViolinIMusicVoice measure 526 / measure 8]              %! SM4
@@ -1010,12 +1010,12 @@ I_ViolinIIMusicVoice = {
     c'4
     
     % [I ViolinIIMusicVoice measure 522 / measure 4]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \mp                                                          %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    \mp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \>                                                           %! IC:BACA_HAIRPIN
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -1068,10 +1068,10 @@ I_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \!                                                           %! HC1
+    <> \!                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     <> \stopTextSpan
     
     % [I ViolinIIMusicVoice measure 526 / measure 8]             %! SM4
@@ -1212,12 +1212,12 @@ I_ViolaMusicVoice = {
     c'2
     
     % [I ViolaMusicVoice measure 522 / measure 4]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    \mp                                                          %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    \mp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \>                                                           %! IC:BACA_HAIRPIN
     
     \baca_unpitched_music_warning                                %! SM24
     c'2
@@ -1241,10 +1241,10 @@ I_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    \!                                                           %! HC1
+    <> \!                                                        %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     <> \stopTextSpan
     
     % [I ViolaMusicVoice measure 526 / measure 8]                %! SM4

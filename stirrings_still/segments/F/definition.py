@@ -44,27 +44,66 @@ stirrings_still.time(maker, time)
 maker(
     (['v1', 'v2', 'vc'], (1, 8)),
     stirrings_still.clouded_pane(),
-    (baca.hairpin_chain(
-        baca.dynamics('pp f'),
-        pieces=baca.leaves().enchain([2, 3]),
-        ), 0),
-    (baca.hairpin('f > niente', selector=baca.rleaves()[-3:]), 0),
-    (baca.hairpin_chain(
-        baca.dynamics('pp f'),
-        bookend=True,
-        pieces=baca.leaves().enchain([3, 2]),
-        ), 1),
-    (baca.hairpin('f > niente', selector=baca.rleaves()[-2:]), 1),
-    (baca.markup('[clouded pane partials (double-stop)]'), (0, 1)),
-    (baca.hairpin('p < ff', selector=baca.notes()[:2]), 2),
-    (baca.hairpin('ff > niente', selector=baca.rleaves()[-2:]), 2),
-    (baca.markup('[clouded pane fundamental]'), 2),
+    baca.pick(
+        0,
+        baca.hairpin_chain(
+            baca.dynamics('pp f'),
+            pieces=baca.leaves().enchain([2, 3]),
+            ),
+        ),
+    baca.pick(
+        0,
+        baca.new_hairpin(
+            'f >o niente',
+            start_selector=baca.leaf(-2),
+            stop_selector=baca.rleaf(-1),
+            ),
+        ),
+    baca.pick(
+        1,
+        baca.hairpin_chain(
+            baca.dynamics('pp f'),
+            bookend=True,
+            pieces=baca.leaves().enchain([3, 2]),
+            ),
+        ),
+    baca.pick(
+        1,
+        baca.new_hairpin(
+            'f >o niente',
+            start_selector=baca.leaf(-1),
+            stop_selector=baca.rleaf(-1),
+            ),
+        ),
+    baca.pick(
+        (0, 1),
+        baca.markup('[clouded pane partials (double-stop)]'),
+        ),
+    baca.pick(
+        2,
+        baca.new_hairpin(
+            'p < ff',
+            stop_selector=baca.leaf(1),
+            ),
+        ),
+    baca.pick(
+        2,
+        baca.new_hairpin(
+            'ff >o niente',
+            start_selector=baca.leaf(-1),
+            stop_selector=baca.rleaf(-1),
+            ),
+        ),
+    baca.pick(
+        2,
+        baca.markup('[clouded pane fundamental]'),
+        ),
     )
 
 maker(
     ('va', (1, 10)),
     [
-        baca.hairpin('niente < "mp"', selector=baca.notes()[:2]),
+        baca.new_hairpin('niente o< "mp"', stop_selector=baca.leaf(1)),
         baca.hairpin_shorten_pair((0.75, 0)),
         ],
     baca.markup(

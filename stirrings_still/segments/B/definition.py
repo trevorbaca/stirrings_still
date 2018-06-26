@@ -155,7 +155,7 @@ maker(
 
 maker(
     (['v1', 'v2'], (6, 7)),
-    baca.hairpin('mf > niente', selector=baca.leaves()) 
+    baca.new_hairpin('mf >o niente', stop_selector=baca.leaf(-1)),
     )
 
 maker(
@@ -175,7 +175,7 @@ maker(
 
 maker(
     ('va', 6),
-    baca.hairpin('niente < p', selector=baca.rleaves()),
+    baca.new_hairpin('niente o< p', stop_selector=baca.rleaf(-1)),
     )
 
 maker(
@@ -188,7 +188,7 @@ maker(
 
 maker(
     ('vc', (6, 9)),
-    baca.hairpin('niente < f', selector=baca.rleaves()),
+    baca.new_hairpin('niente o< f', stop_selector=baca.rleaf(-1)),
     )
 
 maker(

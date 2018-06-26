@@ -47,10 +47,15 @@ stirrings_still.time(maker, time)
 
 maker(
     ('trio', (1, 7)),
-    baca.map(
-        baca.group_by_measures()[3:].group(),
-        # TODO: leak niente
-        baca.hairpin('mp > niente'),
+    baca.measures(
+        (4, 7),
+        baca.new_hairpin(
+            [
+                abjad.Dynamic('mp'),
+                abjad.DynamicTrend('>o'),
+                abjad.Dynamic('niente', command=r'\!', leak=True),
+                ],
+            ),
         ),
     baca.pick(
         0,

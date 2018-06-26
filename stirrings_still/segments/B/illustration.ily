@@ -3831,12 +3831,12 @@ B_ViolinIMusicVoice = {
     }
     \times 2/3 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         \baca_unpitched_music_warning                            %! SM24
         c'8
-        \mf                                                      %! HC1
-        - \tweak circled-tip ##t                                 %! HC1
-        \>                                                       %! HC1
+        \mf                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \>                                                       %! IC:BACA_HAIRPIN
         
         r4
     }
@@ -3880,9 +3880,9 @@ B_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'16
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \!                                                       %! HC1
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [B ViolinIMusicVoice measure 71 / measure 8]               %! SM4
@@ -4801,12 +4801,12 @@ B_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         \baca_unpitched_music_warning                            %! SM24
         c'8
-        \mf                                                      %! HC1
-        - \tweak circled-tip ##t                                 %! HC1
-        \>                                                       %! HC1
+        \mf                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \>                                                       %! IC:BACA_HAIRPIN
         
         r4
     }
@@ -4850,9 +4850,9 @@ B_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'16
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \!                                                       %! HC1
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [B ViolinIIMusicVoice measure 71 / measure 8]              %! SM4
@@ -5811,11 +5811,12 @@ B_ViolaMusicVoice = {
     }
     
     % [B ViolaMusicVoice measure 69 / measure 6]                 %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -5824,10 +5825,10 @@ B_ViolaMusicVoice = {
     c'4
     
     % [B ViolaMusicVoice measure 70 / measure 7]                 %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \p                                                           %! HC1
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -6530,12 +6531,13 @@ B_CelloMusicVoice = {
     % [B CelloMusicVoice measure 69 / measure 6]                 %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'2.
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup { [overpressure] }                                 %! IC
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [B CelloMusicVoice measure 70 / measure 7]                 %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -6557,11 +6559,11 @@ B_CelloMusicVoice = {
     \repeatTie
     
     % [B CelloMusicVoice measure 73 / measure 10]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'2
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
-    \f                                                           %! HC1
     
     % [B CelloMusicVoice measure 74 / measure 11]                %! SM4
     \baca_unpitched_music_warning                                %! SM24

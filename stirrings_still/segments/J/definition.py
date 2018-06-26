@@ -82,16 +82,23 @@ maker(
 
 maker(
     ('vc', (6, 10)),
-    #baca.dynamic('appena_udibile'),
     stirrings_still.urtext_field(),
     )
 
 maker(
     ('tutti', (6, 9)),
-    baca.hairpin(
-        'appena_udibile < fff',
-        selector=baca.rleaves(),
-        start_ordinal=-999,
+    baca.new_hairpin(
+        [
+            abjad.Dynamic(
+                'appena_udibile',
+                command=r'\appena_udibile',
+                name_is_textual=True,
+                ordinal=-999,
+                ),
+            abjad.DynamicTrend('<'),
+            abjad.Dynamic('fff'),
+            ],
+        stop_selector=baca.rleaf(-1),
         ),
     )
 
