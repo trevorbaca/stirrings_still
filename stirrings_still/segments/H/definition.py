@@ -449,9 +449,9 @@ maker(
     (stirrings_still.pickets(4, 1), 1),
     (stirrings_still.pickets(4, 0), 2),
     baca.dynamic('ff'),
-    baca.hairpin(
-        'ff > mf',
-        start_selector=baca.leaves().group_by_measure()[-2:].pleaf(0),
+    baca.measures(
+        (49, 50),
+        baca.hairpin('ff > mf'),
         ),
     baca.text_spanner_staff_padding(4),
     baca.transition(
