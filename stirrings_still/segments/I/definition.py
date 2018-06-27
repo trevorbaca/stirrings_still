@@ -111,7 +111,7 @@ maker(
     baca.hairpin_chain(
         baca.make_dynamics('p f f niente'),
         bookend=-1,
-        pieces=baca.group_by_measures([5, 4, 2]),
+        piece_selector=baca.group_by_measures([5, 4, 2]),
         ),
     baca.text_spanner(
         baca.markups.half_clt().boxed(),
