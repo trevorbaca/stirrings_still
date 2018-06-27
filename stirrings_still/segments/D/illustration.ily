@@ -7277,10 +7277,10 @@ D_CelloMusicVoice = {
     ^ \markup { HAND! }                                          %! IC
     
     % [D CelloMusicVoice measure 264 / measure 58]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'2.
-    \mf                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
@@ -7408,10 +7408,10 @@ D_CelloMusicVoice = {
     >>
     
     % [D CelloMusicVoice measure 271 / measure 65]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup {                                                  %! IC
         \with-color                                              %! IC
             #darkgreen                                           %! IC
@@ -7531,10 +7531,10 @@ D_CelloMusicVoice = {
     \repeatTie
     
     % [D CelloMusicVoice measure 292 / measure 86]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'2..
-    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \<                                                           %! IC:BACA_HAIRPIN
     \repeatTie
     
