@@ -47,7 +47,7 @@ maker(
     baca.pick(
         0,
         baca.hairpin_chain(
-            baca.dynamics('pp f'),
+            baca.make_dynamics('pp f'),
             pieces=baca.leaves().enchain([2, 3]),
             ),
         ),
@@ -58,7 +58,7 @@ maker(
     baca.pick(
         1,
         baca.hairpin_chain(
-            baca.dynamics('pp f'),
+            baca.make_dynamics('pp f'),
             bookend=True,
             pieces=baca.leaves().enchain([3, 2]),
             ),
