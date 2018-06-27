@@ -6,10 +6,7 @@ TO-DO
 
 2.  Teach segment-maker to check for unterminated dynamic trend.
 
-3.  Teach baca.hairpin() to set \tweak to-barline ##t
-    for every o< and >o dynamic trend.
-
-4.  Where ...
+3.  Where ...
         maker(
             ('vc', (65, 91)),
             ...
@@ -31,7 +28,7 @@ TO-DO
             )
     ... instead.
 
-5.  Add a new selector.
+4.  Add a new selector.
     Change ...
         baca.map(
             baca.group_by_measures()[:2].group(),
@@ -44,38 +41,38 @@ TO-DO
             )
     ... instead.
 
-6.  Namespace Nalesnik LilyPond functions.
+5.  Namespace Nalesnik LilyPond functions.
     Namespace Solomon LilyPond functions.
     Add flared-hairpin.ily to abjad/docs/source/_stylesheets/default.ily.
 
-7.  Add trajectories notator:
+6.  Add trajectories notator:
     baca.hide_black_note_heads().
 
-8.  Extend tailpiece():
+7.  Extend tailpiece():
     hide all note-heads except the first;
     add extent-terminal grace note;
     make sure flat glissando extends without gaps;
     add to library as baca.make_filled_extent().
 
-9.  Analyze volta application.
+8.  Analyze volta application.
 
-10. Make full down-bow and full up-bow glyphs.
+9.  Make full down-bow and full up-bow glyphs.
     Add to baca/lilypond/baca.ily.
 
-11. Make stop-on-string glyph.
+10. Make stop-on-string glyph.
     Make all transition-type glyphs.
     Add to baca/lilypond/baca.ily.
 
-12. Make full-down-bow-stop-on-string and full-up-bow-stop-on-string glyphs.
+11. Make full-down-bow-stop-on-string and full-up-bow-stop-on-string glyphs.
     Make all bow direction / bow termination ligatures.
     Add to baca/lilypond/baca.ily.
 
-13. Make damp-with-[LH|RH]-hand glyph.
+12. Make damp-with-[LH|RH]-hand glyph.
     Add to baca/lilypond/baca.ily.
 
-14. Fix clocktick edgecase notation.
+13. Fix clocktick edgecase notation.
 
-15. Write AccelerandoRhythmMaker state tests:
+14. Write AccelerandoRhythmMaker state tests:
         AccelerandoRhythmMaker.beam_specifier
         AccelerandoRhythmMaker.division_masks
         AccelerandoRhythmMaker.interpolation_specifiers
@@ -99,25 +96,25 @@ TO-DO
     Write nonstate examples:
         TaleaRhythmMaker.tie_split_notes
         
-16. Make abjad.tweak('DeepPink1').color for x11 color.
+15. Make abjad.tweak('DeepPink1').color for x11 color.
     Add color name-checking (conventional and x11).
     Add abjad.tweak('color').color checking.
     Add abjad.Markup.with_color('color') checking.
     Add abjad.Scheme.format_scheme_value('color') checking.
 
-17. Write spanner tweak tests.
+16. Write spanner tweak tests.
 
-18. Document LilyPond TextScript alignment.
+17. Document LilyPond TextScript alignment.
     Parameterize TextScript.self-alignment-X, TextScript.parent-alignment-X.
 
-19. First measure of [I] "golden tone" markup trapped in autocolumn.
+18. First measure of [I] "golden tone" markup trapped in autocolumn.
     Result is that markup does not obey staff padding tweak.
     Add Abjad option somewhere to format score without autocolumn.
     Or, this finally motivates removing autocolumn altogether.
 
-20. Fix text spanners leaked to first leaf after line break.
+19. Fix text spanners leaked to first leaf after line break.
     Break after [I] measure 7 to test.
 
-21. Audit overlapping transitions.
+20. Audit overlapping transitions.
 
-22. Integrate stage number functions into definition files.
+21. Integrate stage number functions into definition files.

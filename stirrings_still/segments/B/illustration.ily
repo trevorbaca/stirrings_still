@@ -3835,6 +3835,7 @@ B_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'8
         \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak to-barline ##t                                  %! IC:BACA_HAIRPIN
         - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
         
@@ -4805,6 +4806,7 @@ B_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'8
         \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak to-barline ##t                                  %! IC:BACA_HAIRPIN
         - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
         

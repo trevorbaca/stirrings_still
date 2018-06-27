@@ -1933,6 +1933,7 @@ G_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4..
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
     - \tweak circled-tip ##t                                     %! PIC
     \>                                                           %! PIC
     
@@ -1953,6 +1954,7 @@ G_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4..
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
     - \tweak circled-tip ##t                                     %! PIC
     \>                                                           %! PIC
     
@@ -1979,6 +1981,7 @@ G_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
     - \tweak circled-tip ##t                                     %! PIC
     \>                                                           %! PIC
     
@@ -2007,6 +2010,7 @@ G_CelloMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4.
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak to-barline ##t                                  %! PIC
         - \tweak circled-tip ##t                                 %! PIC
         \>                                                       %! PIC
     }
@@ -2028,6 +2032,7 @@ G_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
     - \tweak circled-tip ##t                                     %! PIC
     \>                                                           %! PIC
     

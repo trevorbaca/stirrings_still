@@ -3969,6 +3969,7 @@ D_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak to-barline ##t                                      %! IC:BACA_HAIRPIN
     - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
@@ -5075,6 +5076,7 @@ D_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak to-barline ##t                                      %! IC:BACA_HAIRPIN
     - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
@@ -6139,6 +6141,7 @@ D_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak to-barline ##t                                      %! IC:BACA_HAIRPIN
     - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
@@ -7281,6 +7284,7 @@ D_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak to-barline ##t                                      %! IC:BACA_HAIRPIN
     - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     - \tweak Y-extent ##f
