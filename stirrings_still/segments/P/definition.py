@@ -79,10 +79,7 @@ maker(
         10,
         baca.hairpin_indicator_chain(
             'ppp < p > ppppp',
-            piece_selector=baca.leaves().partition_by_counts(
-                [3, 5, 1],
-                enchain=True,
-                ),
+            piece_selector=baca.leaves().partition_by_counts([2, 4, 1]),
             selector=baca.rleaves(),
             ),
         ),
@@ -100,10 +97,7 @@ maker(
         5,
         baca.hairpin_indicator_chain(
             'ppppp < p > ppp',
-            piece_selector=baca.leaves().partition_by_counts(
-                [2, 4, 1],
-                enchain=True,
-                ),
+            piece_selector=baca.leaves().partition_by_counts([1, 3, 1]),
             selector=baca.rleaves(),
             ),
         ),
@@ -111,10 +105,7 @@ maker(
         7,
         baca.hairpin_indicator_chain(
             'ppp < p > ppp',
-            piece_selector=baca.leaves().partition_by_counts(
-                [6, 2, 1],
-                enchain=True,
-                ),
+            piece_selector=baca.leaves().partition_by_counts([5, 1, 1]),
             selector=baca.rleaves(),
             ),
         ),
@@ -122,10 +113,7 @@ maker(
         9,
         baca.hairpin_indicator_chain(
             'ppp < p > ppppp',
-            piece_selector=baca.leaves().partition_by_counts(
-                [2, 4, 1],
-                enchain=True,
-                ),
+            piece_selector=baca.leaves().partition_by_counts([1, 3, 1]),
             selector=baca.rleaves(),
             ),
         ),
@@ -193,10 +181,7 @@ maker(
         20,
         baca.hairpin_indicator_chain(
             'ppp < p > pp',
-            piece_selector=baca.leaves().partition_by_counts(
-                [3, 5, 1],
-                enchain=True,
-                ),
+            piece_selector=baca.leaves().partition_by_counts([2, 4, 1]),
             selector=baca.rleaves(),
             ),
         ),
@@ -214,10 +199,7 @@ maker(
         15,
         baca.hairpin_indicator_chain(
             'ppppp < p > pp',
-            piece_selector=baca.leaves().partition_by_counts(
-                [2, 5, 1],
-                enchain=True,
-                ),
+            piece_selector=baca.leaves().partition_by_counts([1, 4, 1]),
             selector=baca.rleaves(),
             ),
         ),
@@ -225,10 +207,7 @@ maker(
         17,
         baca.hairpin_indicator_chain(
             'ppp < p > pp',
-            piece_selector=baca.leaves().partition_by_counts(
-                [8, 2, 1],
-                enchain=True,
-                ),
+            piece_selector=baca.leaves().partition_by_counts([7, 1, 1]),
             selector=baca.rleaves(),
             ),
         ),
@@ -236,10 +215,7 @@ maker(
         19,
         baca.hairpin_indicator_chain(
             'ppp < p > pp',
-            piece_selector=baca.leaves().partition_by_counts(
-                [2, 3, 1],
-                enchain=True,
-                ),
+            piece_selector=baca.leaves().partition_by_counts([1, 2, 1]),
             selector=baca.rleaves(),
             ),
         ),
