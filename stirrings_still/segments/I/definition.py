@@ -49,7 +49,7 @@ maker(
     ('trio', (1, 7)),
     baca.measures(
         (4, 7),
-        baca.new_hairpin(
+        baca.hairpin(
             [
                 abjad.Dynamic('mp'),
                 abjad.DynamicTrend('>o'),
