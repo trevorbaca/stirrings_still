@@ -6692,22 +6692,23 @@ H_CelloMusicVoice = {
     }
     
     % [H CelloMusicVoice measure 517 / measure 51]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    - \tweak circled-tip ##t                                     %! PWC1
-    \<                                                           %! PWC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \f                                                           %! PWC1
-    - \tweak circled-tip ##t                                     %! PWC1
-    \>                                                           %! PWC1
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r8
-    \!                                                           %! PWC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \times 4/5 {
         
         % [H CelloMusicVoice measure 518 / measure 52]           %! SM4

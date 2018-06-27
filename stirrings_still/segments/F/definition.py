@@ -46,26 +46,21 @@ maker(
     stirrings_still.clouded_pane(),
     baca.pick(
         0,
-        baca.hairpin_chain(
-            baca.make_dynamics('pp f'),
-            piece_selector=baca.leaves().enchain([2, 3]),
-            ),
-        ),
-    baca.pick(
-        0,
-        baca.new_hairpin('f >o niente', selector=baca.rleaves()[-3:]),
-        ),
-    baca.pick(
-        1,
-        baca.hairpin_chain(
-            baca.make_dynamics('pp f'),
-            bookend=True,
-            piece_selector=baca.leaves().enchain([3, 2]),
+        baca.hairpin_indicator_chain(
+            'pp < f > pp < f > pp < f >o niente',
+            piece_selector=baca.group_by_measures([1, 2, 1, 2, 1, 1]),
+            selector=baca.rleaves(),
             ),
         ),
     baca.pick(
         1,
-        baca.new_hairpin('f >o niente', selector=baca.rleaves()[-2:]),
+        baca.hairpin_indicator_chain(
+            'pp < f > pp < f > pp < f >o niente',
+            piece_selector=baca.group_by_measures([1, 2, 1, 2, 1, 1]),
+            # TODO: make this selector work:
+            #piece_selector=baca.group_by_measures([2, 1, 2, 1, 1, 1]),
+            selector=baca.rleaves(),
+            ),
         ),
     baca.pick(
         (0, 1),
@@ -73,11 +68,12 @@ maker(
         ),
     baca.pick(
         2,
-        baca.new_hairpin('p < ff', selector=baca.leaves()[:2]),
-        ),
-    baca.pick(
-        2,
-        baca.new_hairpin('ff >o niente', selector=baca.rleaves()[-2:]),
+        # TODO: allow for variable-length middle part
+        baca.hairpin_indicator_chain(
+            'pp < ff ff >o niente',
+            piece_selector=baca.group_by_measures([1, 6, 1, 1]),
+            selector=baca.rleaves(),
+            ),
         ),
     baca.pick(
         2,
@@ -87,13 +83,13 @@ maker(
 
 maker(
     ('va', (1, 10)),
-    [
-        baca.new_hairpin('niente o< "mp"', selector=baca.leaves()[:2]),
-        baca.hairpin_shorten_pair((0.75, 0)),
-        ],
     baca.markup(
         baca.markups.terminate_abruptly(),
         selector=baca.pleaf(-1),
+        ),
+    baca.suite(
+        baca.new_hairpin('niente o< "mp"', selector=baca.rmleaves(1)),
+        baca.hairpin_shorten_pair((0.75, 0)),
         ),
     stirrings_still.tailpiece(),
     )

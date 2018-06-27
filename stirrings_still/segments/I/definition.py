@@ -108,8 +108,8 @@ maker(
 
 maker(
     'vc',
-    baca.hairpin_chain(
-        baca.make_dynamics('p f f niente'),
+    baca.hairpin_indicator_chain(
+        'p < f f >o niente',
         bookend=-1,
         piece_selector=baca.group_by_measures([5, 4, 2]),
         ),
