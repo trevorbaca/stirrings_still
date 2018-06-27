@@ -5332,6 +5332,7 @@ C_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         bf'!4
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak to-barline ##t                                  %! IC:BACA_HAIRPIN
         - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
         \glissando                                               %! SC
@@ -7050,6 +7051,7 @@ C_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     af'!4
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak to-barline ##t                                      %! IC:BACA_HAIRPIN
     - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \glissando                                                   %! SC
@@ -8887,6 +8889,7 @@ C_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         a4
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak to-barline ##t                                  %! IC:BACA_HAIRPIN
         - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
         \glissando                                               %! SC
@@ -9230,6 +9233,7 @@ C_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4..
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
     - \tweak circled-tip ##t                                     %! PIC
     \>                                                           %! PIC
     
@@ -10544,6 +10548,7 @@ C_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         g,4
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak to-barline ##t                                  %! IC:BACA_HAIRPIN
         - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
         \glissando                                               %! SC

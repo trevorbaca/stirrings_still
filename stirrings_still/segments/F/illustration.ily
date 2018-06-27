@@ -618,6 +618,7 @@ F_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
     - \tweak circled-tip ##t                                     %! PIC
     \>                                                           %! PIC
     \repeatTie
@@ -799,6 +800,7 @@ F_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
     - \tweak circled-tip ##t                                     %! PIC
     \>                                                           %! PIC
     \repeatTie
@@ -1155,6 +1157,7 @@ F_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \ff                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
     - \tweak circled-tip ##t                                     %! PIC
     \>                                                           %! PIC
     \repeatTie
