@@ -1310,9 +1310,10 @@ I_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'8
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:PIC
     -\downbow
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1324,9 +1325,8 @@ I_CelloMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Vc.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    \<                                                           %! PIC
     [                                                            %! SC
-    \p                                                           %! PWC1
-    \<                                                           %! PWC1
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -2305,11 +2305,11 @@ I_CelloMusicVoice = {
     \startBCPTextSpan
     
     % [I CelloMusicVoice measure 524 / measure 6]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'8
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     -\downbow
-    \f                                                           %! PWC1
     \stopBCPTextSpan
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -3382,15 +3382,15 @@ I_CelloMusicVoice = {
     \startBCPTextSpan
     
     % [I CelloMusicVoice measure 528 / measure 10]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'8
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     -\downbow
-    \f                                                           %! PWC1
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     \stopBCPTextSpan
     [
-    - \tweak circled-tip ##t                                     %! PWC1
-    \>                                                           %! PWC1
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -3856,12 +3856,12 @@ I_CelloMusicVoice = {
     - \tweak staff-padding #7
     \startBCPTextSpan
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'8
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     -\upbow
     ]
-    \!                                                           %! PWC1
     \stopBCPTextSpan
     <> \stopTextSpanOne
     

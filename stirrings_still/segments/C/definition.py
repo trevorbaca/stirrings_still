@@ -137,8 +137,8 @@ maker(
 maker(
     ('vc', 5),
     baca.markup('[clouded pane (stopped)]'),
-    baca.hairpin_chain(
-        baca.make_dynamics('niente f niente'),
+    baca.hairpin_indicator_chain(
+        'niente o< f >o niente',
         piece_selector=baca.rleaves().partition_by_counts([1, 1, 1]),
         selector=baca.rleaves(),
         ),
