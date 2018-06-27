@@ -87,7 +87,7 @@ maker(
 maker(
     ('vc', [1, 3, 7, 11, 13]),
     baca.hairpin_chain(
-        baca.dynamics('niente f niente'),
+        baca.make_dynamics('niente f niente'),
         pieces=baca.rleaves().partition_by_counts([1, 1, 1]),
         selector=baca.rleaves(),
         ),
