@@ -139,7 +139,7 @@ maker(
     baca.markup('[clouded pane (stopped)]'),
     baca.hairpin_chain(
         baca.make_dynamics('niente f niente'),
-        pieces=baca.rleaves().partition_by_counts([1, 1, 1]),
+        piece_selector=baca.rleaves().partition_by_counts([1, 1, 1]),
         selector=baca.rleaves(),
         ),
     stirrings_still.taper((1, 1)),
@@ -169,7 +169,7 @@ maker(
         baca.markups.markup('max. tight cir.'),
         baca.markups.circles(1, 2),
         do_not_bookend=True,
-        pieces=baca.group_notes_by_measures([2]),
+        piece_selector=baca.group_notes_by_measures([2]),
         tweaks=[abjad.tweak(4).staff_padding],
         ),
     baca.text_spanner(
@@ -192,7 +192,7 @@ maker(
         baca.markups.circles(1, 2),
         baca.markups.circles(2, 4),
         do_not_bookend=True,
-        pieces=baca.group_notes_by_measures([2]),
+        piece_selector=baca.group_notes_by_measures([2]),
         tweaks=[abjad.tweak(4).staff_padding],
         ),
     baca.text_spanner(
@@ -215,7 +215,7 @@ maker(
         baca.markups.circles(2, 4),
         baca.markups.circles(4, 8),
         do_not_bookend=True,
-        pieces=baca.group_notes_by_measures([2]),
+        piece_selector=baca.group_notes_by_measures([2]),
         tweaks=[abjad.tweak(4).staff_padding],
         ),
     baca.text_spanner(
@@ -418,7 +418,7 @@ maker(
         baca.markups.circles(8),
         baca.markups.circles(2),
         do_not_bookend=True,
-        pieces=baca.group_notes_by_measures([3]),
+        piece_selector=baca.group_notes_by_measures([3]),
         tweaks=[abjad.tweak(4).staff_padding],
         ),
     # TODO: revoice

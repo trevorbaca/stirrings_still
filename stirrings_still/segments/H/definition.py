@@ -175,7 +175,7 @@ maker(
         baca.markups.circles(6),
         baca.markups.circles(8),
         do_not_bookend=True,
-        pieces=baca.group_by_measures([2]),
+        piece_selector=baca.group_by_measures([2]),
         ),
     )
 
@@ -207,7 +207,7 @@ maker(
         baca.markups.circles(6),
         baca.markups.circles(8),
         do_not_bookend=True,
-        pieces=baca.group_by_measures([1, 1, 2, 2, 2]),
+        piece_selector=baca.group_by_measures([1, 1, 2, 2, 2]),
         ),
     )
 
@@ -483,7 +483,7 @@ maker(
     ('vc', 51),
     baca.hairpin_chain(
         baca.make_dynamics('niente f niente'),
-        pieces=baca.leaves().partition_by_counts([1, 1, 1]),
+        piece_selector=baca.leaves().partition_by_counts([1, 1, 1]),
         selector=baca.leaves(),
         ),
     stirrings_still.taper((4, 4, -2)),
