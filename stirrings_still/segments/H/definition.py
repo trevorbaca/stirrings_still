@@ -481,7 +481,7 @@ maker(
 
 maker(
     ('vc', 51),
-    baca.hairpin_indicator_chain(
+    baca.hairpin_chain(
         'niente o< f >o niente',
         piece_selector=baca.leaves().partition_by_counts([1, 1, 1]),
         selector=baca.leaves(),
