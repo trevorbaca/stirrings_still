@@ -1672,11 +1672,10 @@ P_ViolinIIMusicVoice = {
         % [P ViolinIIMusicVoice measure 698 / measure 5]         %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:PIC
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 351/64
-        \ppppp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                       %! PIC
+        \ppppp                                                   %! SM8:REDUNDANT_DYNAMIC:PIC
         [
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
@@ -1765,7 +1764,6 @@ P_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 285/64
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                       %! PIC
         ]
     }
     \revert TupletNumber.text
@@ -1816,11 +1814,10 @@ P_ViolinIIMusicVoice = {
         % [P ViolinIIMusicVoice measure 702 / measure 9]         %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:PIC
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 381/64
-        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                       %! PIC
+        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
         [
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
@@ -1909,11 +1906,10 @@ P_ViolinIIMusicVoice = {
         % [P ViolinIIMusicVoice measure 708 / measure 15]        %! SM4
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:PIC
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 377/64
-        \ppppp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                       %! PIC
+        \ppppp                                                   %! SM8:REDUNDANT_DYNAMIC:PIC
         [
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
@@ -2011,7 +2007,6 @@ P_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 151/32
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                       %! PIC
         ]
     }
     \revert TupletNumber.text
@@ -2066,7 +2061,6 @@ P_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 351/64
         \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                       %! PIC
         [
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
