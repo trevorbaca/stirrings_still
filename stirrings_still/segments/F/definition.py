@@ -46,7 +46,7 @@ maker(
     stirrings_still.clouded_pane(),
     baca.pick(
         0,
-        baca.hairpin_chain(
+        baca.hairpins(
             'pp < f > pp < f > pp < f >o niente',
             piece_selector=baca.group_by_measures([1, 2, 1, 2, 1, 1]),
             selector=baca.rleaves(),
@@ -54,7 +54,7 @@ maker(
         ),
     baca.pick(
         1,
-        baca.hairpin_chain(
+        baca.hairpins(
             'pp < f > pp < f > pp < f >o niente',
             piece_selector=baca.group_by_measures([1, 2, 1, 2, 1, 1]),
             # TODO: make this selector work:
@@ -69,7 +69,7 @@ maker(
     baca.pick(
         2,
         # TODO: allow for variable-length middle part
-        baca.hairpin_chain(
+        baca.hairpins(
             'pp < ff ff >o niente',
             piece_selector=baca.group_by_measures([1, 6, 1, 1]),
             selector=baca.rleaves(),
@@ -88,7 +88,7 @@ maker(
         selector=baca.pleaf(-1),
         ),
     baca.suite(
-        baca.generalized_hairpin('niente o< "mp"', selector=baca.rmleaves(1)),
+        baca.hairpin('niente o< "mp"', selector=baca.rmleaves(1)),
         baca.hairpin_shorten_pair((0.75, 0)),
         ),
     stirrings_still.tailpiece(),

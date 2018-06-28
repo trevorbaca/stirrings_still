@@ -49,7 +49,7 @@ maker(
     ('trio', (1, 7)),
     baca.measures(
         (4, 7),
-        baca.generalized_hairpin(
+        baca.hairpin(
             [
                 abjad.Dynamic('mp'),
                 abjad.DynamicTrend('>o'),
@@ -108,7 +108,7 @@ maker(
 
 maker(
     'vc',
-    baca.hairpin_chain(
+    baca.hairpins(
         'p < f f >o niente',
         bookend=-1,
         piece_selector=baca.group_by_measures([5, 4, 2]),
