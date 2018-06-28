@@ -137,7 +137,7 @@ maker(
 maker(
     ('vc', 5),
     baca.markup('[clouded pane (stopped)]'),
-    baca.hairpin_chain(
+    baca.hairpins(
         'niente o< f >o niente',
         piece_selector=baca.rleaves().partition_by_counts([1, 1, 1]),
         selector=baca.rleaves(),
@@ -280,7 +280,7 @@ maker(
 maker(
     ('tutti', (30, 33)),
     baca.breathe(),
-    baca.generalized_hairpin('mf > pp'),
+    baca.hairpin('mf > pp'),
     baca.text_spanner(
         baca.markups.circles(8),
         abjad.tweak(4).staff_padding,
@@ -330,29 +330,29 @@ maker(
 
 maker(
     ('tutti', (36, 39)),
-    baca.generalized_hairpin('pp < mf'),
+    baca.hairpin('pp < mf'),
     )
 
 maker(
     ('tutti', (40, 43)),
     baca.breathe(),
-    baca.generalized_hairpin('mf > pp'),
+    baca.hairpin('mf > pp'),
     )
 
 maker(
     ('tutti', (44, 47)),
-    baca.generalized_hairpin('pp < f'),
+    baca.hairpin('pp < f'),
     )
 
 maker(
     ('tutti', (48, 51)),
     baca.breathe(),
-    baca.generalized_hairpin('f > pp'),
+    baca.hairpin('f > pp'),
     )
 
 maker(
     ('tutti', (52, 55)),
-    baca.generalized_hairpin('pp < ff'),
+    baca.hairpin('pp < ff'),
     )
 
 # TODO: intermittent harmonic -> half-harmonic -> stopped
@@ -413,7 +413,7 @@ maker(
 
 maker(
     ('tutti', (71, 76)),
-    baca.generalized_hairpin('f >o niente'),
+    baca.hairpin('f >o niente'),
     baca.transition(
         baca.markups.circles(8),
         baca.markups.circles(2),

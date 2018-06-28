@@ -85,7 +85,7 @@ stirrings_still.time(maker, time)
 maker(
     ('tutti', (1, 5)),
     baca.dls_staff_padding(3),
-    baca.generalized_hairpin('niente o< mp', selector=baca.rmleaves(3)),
+    baca.hairpin('niente o< mp', selector=baca.rmleaves(3)),
     baca.make_repeat_tied_notes(),
     baca.markup(
         baca.markups.string_number(3),
@@ -213,7 +213,7 @@ maker(
 
 maker(
     ('v2', (9, 10)),
-    baca.generalized_hairpin('mp > p', selector=baca.rleaves()),
+    baca.hairpin('mp > p', selector=baca.rleaves()),
     )
 
 maker(
@@ -310,7 +310,7 @@ maker(
 
 maker(
     ('vc', (9, 12)),
-    baca.generalized_hairpin('mp < f', selector=baca.rleaves()),
+    baca.hairpin('mp < f', selector=baca.rleaves()),
     baca.markup(
         baca.markups.poco_overpressure(),
         selector=baca.rleaves()[-1],
@@ -319,7 +319,7 @@ maker(
 
 maker(
     ('vc', (15, 16)),
-    baca.generalized_hairpin('f < ff', selector=baca.rleaves()),
+    baca.hairpin('f < ff', selector=baca.rleaves()),
     baca.markup(
         baca.markups.molto_overpressure(),
         selector=baca.rleaves()[-1],
@@ -328,12 +328,12 @@ maker(
 
 maker(
     ('vc', (23, 27)),
-    baca.generalized_hairpin('ff > ppp', selector=baca.rleaves()),
+    baca.hairpin('ff > ppp', selector=baca.rleaves()),
     )
 
 maker(
     (['v1', 'v2', 'va'], (15, 16)),
-    baca.generalized_hairpin('p >o niente', selector=baca.rleaves()),
+    baca.hairpin('p >o niente', selector=baca.rleaves()),
     )
 
 maker(
@@ -346,7 +346,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (23, 24)),
-    baca.generalized_hairpin('niente o< p', selector=baca.tleaves().rleak()),
+    baca.hairpin('niente o< p', selector=baca.tleaves().rleak()),
     )
 
 maker(
@@ -394,7 +394,7 @@ maker(
     (baca.pitch('Ab3'), 2),
     (baca.pitch('Ab2'), 3),
     baca.dls_staff_padding(3),
-    baca.generalized_hairpin('niente o< mp', selector=baca.rmleaves(1)),
+    baca.hairpin('niente o< mp', selector=baca.rmleaves(1)),
     baca.make_repeat_tied_notes(),
     baca.markup(
         baca.markups.string_number(3),
@@ -451,7 +451,7 @@ maker(
     baca.dynamic('ff'),
     baca.measures(
         (49, 50),
-        baca.generalized_hairpin('ff > mf'),
+        baca.hairpin('ff > mf'),
         ),
     baca.text_spanner_staff_padding(4),
     baca.transition(
@@ -476,12 +476,12 @@ maker(
 
 maker(
     ('vc', (46, 49)),
-    baca.generalized_hairpin('ppp < p', selector=baca.rleaves()),
+    baca.hairpin('ppp < p', selector=baca.rleaves()),
     )
 
 maker(
     ('vc', 51),
-    baca.hairpin_chain(
+    baca.hairpins(
         'niente o< f >o niente',
         piece_selector=baca.leaves().partition_by_counts([1, 1, 1]),
         selector=baca.leaves(),
