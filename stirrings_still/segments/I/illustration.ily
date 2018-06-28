@@ -670,10 +670,12 @@ I_ViolinIMusicVoice = {
     % [I ViolinIMusicVoice measure 522 / measure 4]              %! SM4
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:PIC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    \mp                                                          %! SM8:REDUNDANT_DYNAMIC:PIC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
@@ -850,8 +852,10 @@ I_ViolinIMusicVoice = {
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 0
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'8
+    <> \!                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
     ]
     <> \stopTextSpan
     
@@ -1006,10 +1010,12 @@ I_ViolinIIMusicVoice = {
     c'4
     
     % [I ViolinIIMusicVoice measure 522 / measure 4]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:PIC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \mp                                                          %! SM8:REDUNDANT_DYNAMIC:PIC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -1062,8 +1068,10 @@ I_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'4
+    <> \!                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
     <> \stopTextSpan
     
     % [I ViolinIIMusicVoice measure 526 / measure 8]             %! SM4
@@ -1204,10 +1212,12 @@ I_ViolaMusicVoice = {
     c'2
     
     % [I ViolaMusicVoice measure 522 / measure 4]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:PIC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    \mp                                                          %! SM8:REDUNDANT_DYNAMIC:PIC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     
     \baca_unpitched_music_warning                                %! SM24
     c'2
@@ -1231,8 +1241,10 @@ I_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'2
+    <> \!                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
     <> \stopTextSpan
     
     % [I ViolaMusicVoice measure 526 / measure 8]                %! SM4
