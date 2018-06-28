@@ -280,7 +280,7 @@ maker(
             -4,
             selector=baca.pleaf(-1),
             ),
-        baca.hairpin('pp < mp'),
+        baca.generalized_hairpin('pp < mp'),
         ],
     baca.pick(
         0,
@@ -312,7 +312,7 @@ maker(
 
 maker(
     ('vc', 57),
-    baca.hairpin('pp <| mf', selector=baca.leaves()),
+    baca.generalized_hairpin('pp <| mf', selector=baca.leaves()),
     baca.markup(
         'HAND!',
         abjad.tweak('magenta').color,
@@ -325,7 +325,7 @@ maker(
 
 maker(
     ('tutti', (58, 63)),
-    baca.hairpin('mf >o niente'),
+    baca.generalized_hairpin('mf >o niente'),
     baca.text_spanner(
         baca.markups.damp().boxed(),
         abjad.tweak(5).staff_padding,
@@ -360,12 +360,12 @@ maker(
     ('vc', (65, 91)),
     baca.map(
         baca.group_by_measures()[:3].group(),
-        baca.hairpin('niente o< p'),
+        baca.generalized_hairpin('niente o< p'),
         ),
 # TODO:
 #    baca.measures(
 #        (86, 89),
-#        baca.hairpin('p < fff'),
+#        baca.generalized_hairpin('p < fff'),
 #        ),
     baca.markup(
         baca.Markup('clouded pane').with_color('darkgreen'),
@@ -376,7 +376,7 @@ maker(
 # TODO: replace with baca.measures()
 maker(
     ('vc', (86, 89)),
-    baca.hairpin('p < fff'),
+    baca.generalized_hairpin('p < fff'),
     )
 
 maker(

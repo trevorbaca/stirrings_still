@@ -88,7 +88,7 @@ maker(
         selector=baca.pleaf(-1),
         ),
     baca.suite(
-        baca.hairpin('niente o< "mp"', selector=baca.rmleaves(1)),
+        baca.generalized_hairpin('niente o< "mp"', selector=baca.rmleaves(1)),
         baca.hairpin_shorten_pair((0.75, 0)),
         ),
     stirrings_still.tailpiece(),

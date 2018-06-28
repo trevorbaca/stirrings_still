@@ -794,11 +794,10 @@ J_ViolinIMusicVoice = {
     \repeatTie
     
     % [J ViolinIMusicVoice measure 535 / measure 6]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'1
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-    \<                                                           %! IC:BACA_HAIRPIN
+    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     % [J ViolinIMusicVoice measure 536 / measure 7]              %! SM4
@@ -821,10 +820,8 @@ J_ViolinIMusicVoice = {
     \repeatTie
     
     % [J ViolinIMusicVoice measure 539 / measure 10]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'2.
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup { "poco scratch" }                                 %! IC
     \repeatTie
     
@@ -976,11 +973,10 @@ J_ViolinIIMusicVoice = {
     \repeatTie
     
     % [J ViolinIIMusicVoice measure 535 / measure 6]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'1
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-    \<                                                           %! IC:BACA_HAIRPIN
+    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     % [J ViolinIIMusicVoice measure 536 / measure 7]             %! SM4
@@ -1003,10 +999,8 @@ J_ViolinIIMusicVoice = {
     \repeatTie
     
     % [J ViolinIIMusicVoice measure 539 / measure 10]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'2.
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup { "poco scratch" }                                 %! IC
     \repeatTie
     
@@ -1116,11 +1110,10 @@ J_ViolaMusicVoice = {
     \repeatTie
     
     % [J ViolaMusicVoice measure 535 / measure 6]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'1
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-    \<                                                           %! IC:BACA_HAIRPIN
+    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     % [J ViolaMusicVoice measure 536 / measure 7]                %! SM4
@@ -1143,10 +1136,8 @@ J_ViolaMusicVoice = {
     \repeatTie
     
     % [J ViolaMusicVoice measure 539 / measure 10]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'2.
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup { "poco scratch" }                                 %! IC
     \repeatTie
     
@@ -1242,11 +1233,10 @@ J_CelloMusicVoice = {
     R1 * 1
     
     % [J CelloMusicVoice measure 535 / measure 6]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'1
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-    \<                                                           %! IC:BACA_HAIRPIN
+    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [J CelloMusicVoice measure 536 / measure 7]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -1268,10 +1258,8 @@ J_CelloMusicVoice = {
     \repeatTie
     
     % [J CelloMusicVoice measure 539 / measure 10]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'2.
-    \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup { "poco scratch" }                                 %! IC
     \repeatTie
     
