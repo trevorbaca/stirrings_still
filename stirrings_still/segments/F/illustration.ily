@@ -551,7 +551,6 @@ F_ViolinIMusicVoice = {
             "[“Vn. I”]"                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     ^ \markup { "[clouded pane partials (double-stop)]" }        %! IC
-    \<                                                           %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -610,7 +609,6 @@ F_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                           %! PIC
     \repeatTie
     
     % [F ViolinIMusicVoice measure 440 / measure 8]              %! SM4
@@ -618,9 +616,6 @@ F_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                      %! PIC
-    - \tweak circled-tip ##t                                     %! PIC
-    \>                                                           %! PIC
     \repeatTie
     
     % [F ViolinIMusicVoice measure 441 / measure 9]              %! SM4
@@ -733,7 +728,6 @@ F_ViolinIIMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Vn. II”]"                                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \<                                                           %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -792,7 +786,6 @@ F_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                           %! PIC
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 440 / measure 8]             %! SM4
@@ -800,9 +793,6 @@ F_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                      %! PIC
-    - \tweak circled-tip ##t                                     %! PIC
-    \>                                                           %! PIC
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 441 / measure 9]             %! SM4
@@ -1100,7 +1090,6 @@ F_CelloMusicVoice = {
             [“Vc.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     ^ \markup { "[clouded pane fundamental]" }                   %! IC
-    \<                                                           %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1153,13 +1142,10 @@ F_CelloMusicVoice = {
     \repeatTie
     
     % [F CelloMusicVoice measure 440 / measure 8]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'1
-    \ff                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                      %! PIC
-    - \tweak circled-tip ##t                                     %! PIC
-    \>                                                           %! PIC
+    \ff                                                          %! SM8:REDUNDANT_DYNAMIC:PIC
     \repeatTie
     
     % [F CelloMusicVoice measure 441 / measure 9]                %! SM4

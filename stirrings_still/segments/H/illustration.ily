@@ -2309,37 +2309,37 @@ H_ViolinIMusicVoice = {
     _ \markup { III }                                            %! IC
     - \tweak circled-tip ##t                                     %! PIC
     \<                                                           %! PIC
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "rasp (2°)"                                  %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak bound-details.right.text \markup {                  %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \hspace                                          %! PWC1
-                    #0.0                                         %! PWC1
-                \upright                                         %! PWC1
-                    "flaut. (2°)"                                %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    \startTextSpan                                               %! PWC1
+    - \tweak Y-extent ##f                                        %! PSC1
+    - \tweak bound-details.left.text \markup {                   %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \upright                                         %! PSC1
+                    "rasp (2°)"                                  %! PSC1
+                \hspace                                          %! PSC1
+                    #0.5                                         %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    - \tweak arrow-width 0.25                                    %! PSC1
+    - \tweak dash-fraction 0.25                                  %! PSC1
+    - \tweak dash-period 1.5                                     %! PSC1
+    - \tweak bound-details.left-broken.text ##f                  %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
+    - \tweak bound-details.right.arrow ##t                       %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
+    - \tweak bound-details.right-broken.padding 0                %! PSC1
+    - \tweak bound-details.right-broken.text ##f                 %! PSC1
+    - \tweak bound-details.right.padding 0.5                     %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
+    - \tweak bound-details.right.text \markup {                  %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \hspace                                          %! PSC1
+                    #0.0                                         %! PSC1
+                \upright                                         %! PSC1
+                    "flaut. (2°)"                                %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    \startTextSpan                                               %! PSC1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2368,7 +2368,7 @@ H_ViolinIMusicVoice = {
     gf'!2..
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
-    \stopTextSpan                                                %! PWC1
+    \stopTextSpan                                                %! PSC1
     
     % [H ViolinIMusicVoice measure 471 / measure 5]              %! SM4
     gf'!2..
@@ -2469,28 +2469,28 @@ H_ViolinIMusicVoice = {
         ^ \markup { "(always one circle per stem)" }             %! IC
         [
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "2” circles"                             %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "2” circles"                             %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        \startTextSpan                                           %! PSC1
         
         \hide NoteHead                                           %! SC
         \override Accidental.stencil = ##f                       %! SC
@@ -2514,30 +2514,30 @@ H_ViolinIMusicVoice = {
         
         % [H ViolinIMusicVoice measure 475 / measure 9]          %! SM4
         g'4
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "4” circles"                             %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "4” circles"                             %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        \startTextSpan                                           %! PSC1
         
         g'4
         \glissando                                               %! SC
@@ -2566,31 +2566,31 @@ H_ViolinIMusicVoice = {
         
         % [H ViolinIMusicVoice measure 477 / measure 11]         %! SM4
         a'8
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         [
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "6” circles"                             %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "6” circles"                             %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        \startTextSpan                                           %! PSC1
         
         a'8
         \glissando                                               %! SC
@@ -2620,26 +2620,26 @@ H_ViolinIMusicVoice = {
         
         % [H ViolinIMusicVoice measure 479 / measure 13]         %! SM4
         b'4
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "8” circles"                             %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.25                                    %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak dash-period 0                                   %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 1.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "8” circles"                             %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.25                                    %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak dash-period 0                                   %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 1.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        \startTextSpan                                           %! PSC1
         
         b'4
         \glissando                                               %! SC
@@ -2655,7 +2655,7 @@ H_ViolinIMusicVoice = {
         \glissando                                               %! SC
         
         b'4
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         \glissando                                               %! SC
         \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
@@ -2875,44 +2875,44 @@ H_ViolinIMusicVoice = {
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "thinking color (no longer width)" }         %! IC
         [
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "“whisk” circles"                        %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        - \tweak bound-details.right.text \markup {              %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.0                                     %! PWC1
-                    \upright                                     %! PWC1
-                        "poco scratch circles"                   %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "“whisk” circles"                        %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        - \tweak bound-details.right.text \markup {              %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.0                                     %! PSC1
+                    \upright                                     %! PSC1
+                        "poco scratch circles"                   %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 209/32
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 143/32
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 197/64
@@ -2958,44 +2958,44 @@ H_ViolinIMusicVoice = {
     _ \markup { III }                                            %! IC
     - \tweak circled-tip ##t                                     %! PIC
     \<                                                           %! PIC
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "rasp (2°)"                                  %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak bound-details.right.text \markup {                  %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \hspace                                          %! PWC1
-                    #0.0                                         %! PWC1
-                \upright                                         %! PWC1
-                    "poco rasp (2°)"                             %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    \startTextSpan                                               %! PWC1
+    - \tweak Y-extent ##f                                        %! PSC1
+    - \tweak bound-details.left.text \markup {                   %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \upright                                         %! PSC1
+                    "rasp (2°)"                                  %! PSC1
+                \hspace                                          %! PSC1
+                    #0.5                                         %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    - \tweak arrow-width 0.25                                    %! PSC1
+    - \tweak dash-fraction 0.25                                  %! PSC1
+    - \tweak dash-period 1.5                                     %! PSC1
+    - \tweak bound-details.left-broken.text ##f                  %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
+    - \tweak bound-details.right.arrow ##t                       %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
+    - \tweak bound-details.right-broken.padding 0                %! PSC1
+    - \tweak bound-details.right-broken.text ##f                 %! PSC1
+    - \tweak bound-details.right.padding 0.5                     %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
+    - \tweak bound-details.right.text \markup {                  %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \hspace                                          %! PSC1
+                    #0.0                                         %! PSC1
+                \upright                                         %! PSC1
+                    "poco rasp (2°)"                             %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    \startTextSpan                                               %! PSC1
     
     % [H ViolinIMusicVoice measure 502 / measure 36]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     gf'!1
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
-    \stopTextSpan                                                %! PWC1
+    \stopTextSpan                                                %! PSC1
     \revert DynamicLineSpanner.staff-padding                     %! OC2
     \override TupletNumber.text = \markup {
         \scale
@@ -3045,44 +3045,44 @@ H_ViolinIMusicVoice = {
         c'16 * 63/8
         \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "“whisk” circles"                        %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        - \tweak bound-details.right.text \markup {              %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.0                                     %! PWC1
-                    \upright                                     %! PWC1
-                        "mod. scratch circles"                   %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "“whisk” circles"                        %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        - \tweak bound-details.right.text \markup {              %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.0                                     %! PSC1
+                    \upright                                     %! PSC1
+                        "mod. scratch circles"                   %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 221/32
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 315/64
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 221/64
@@ -3152,44 +3152,44 @@ H_ViolinIMusicVoice = {
         c'16 * 497/64
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "“whisk” circles"                        %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        - \tweak bound-details.right.text \markup {              %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.0                                     %! PWC1
-                    \upright                                     %! PWC1
-                        "molto scratch circles"                  %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "“whisk” circles"                        %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        - \tweak bound-details.right.text \markup {              %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.0                                     %! PSC1
+                    \upright                                     %! PSC1
+                        "molto scratch circles"                  %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 59/8
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 51/8
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 333/64
@@ -3286,37 +3286,37 @@ H_ViolinIMusicVoice = {
         c'4
         \ff                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
         \>                                                       %! PIC
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "molto scratch"                          %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        - \tweak bound-details.right.text \markup {              %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.0                                     %! PWC1
-                    \upright                                     %! PWC1
-                        "pochiss. scratch"                       %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "molto scratch"                          %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        - \tweak bound-details.right.text \markup {              %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.0                                     %! PSC1
+                    \upright                                     %! PSC1
+                        "pochiss. scratch"                       %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -3334,7 +3334,7 @@ H_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -3413,37 +3413,37 @@ H_ViolinIIMusicVoice = {
     _ \markup { III }                                            %! IC
     - \tweak circled-tip ##t                                     %! PIC
     \<                                                           %! PIC
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "rasp (2°)"                                  %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak bound-details.right.text \markup {                  %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \hspace                                          %! PWC1
-                    #0.0                                         %! PWC1
-                \upright                                         %! PWC1
-                    "flaut. (2°)"                                %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    \startTextSpan                                               %! PWC1
+    - \tweak Y-extent ##f                                        %! PSC1
+    - \tweak bound-details.left.text \markup {                   %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \upright                                         %! PSC1
+                    "rasp (2°)"                                  %! PSC1
+                \hspace                                          %! PSC1
+                    #0.5                                         %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    - \tweak arrow-width 0.25                                    %! PSC1
+    - \tweak dash-fraction 0.25                                  %! PSC1
+    - \tweak dash-period 1.5                                     %! PSC1
+    - \tweak bound-details.left-broken.text ##f                  %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
+    - \tweak bound-details.right.arrow ##t                       %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
+    - \tweak bound-details.right-broken.padding 0                %! PSC1
+    - \tweak bound-details.right-broken.text ##f                 %! PSC1
+    - \tweak bound-details.right.padding 0.5                     %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
+    - \tweak bound-details.right.text \markup {                  %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \hspace                                          %! PSC1
+                    #0.0                                         %! PSC1
+                \upright                                         %! PSC1
+                    "flaut. (2°)"                                %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    \startTextSpan                                               %! PSC1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -3472,7 +3472,7 @@ H_ViolinIIMusicVoice = {
     f'2..
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie                                                   %! TCC
-    \stopTextSpan                                                %! PWC1
+    \stopTextSpan                                                %! PSC1
     
     % [H ViolinIIMusicVoice measure 471 / measure 5]             %! SM4
     f'2..
@@ -3498,28 +3498,28 @@ H_ViolinIIMusicVoice = {
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
     \repeatTie                                                   %! TCC
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "flaut. (2°)"                                %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    \startTextSpan                                               %! PWC1
+    - \tweak Y-extent ##f                                        %! PSC1
+    - \tweak bound-details.left.text \markup {                   %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \upright                                         %! PSC1
+                    "flaut. (2°)"                                %! PSC1
+                \hspace                                          %! PSC1
+                    #0.5                                         %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    - \tweak arrow-width 0.25                                    %! PSC1
+    - \tweak dash-fraction 0.25                                  %! PSC1
+    - \tweak dash-period 1.5                                     %! PSC1
+    - \tweak bound-details.left-broken.text ##f                  %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
+    - \tweak bound-details.right.arrow ##t                       %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
+    - \tweak bound-details.right-broken.padding 0                %! PSC1
+    - \tweak bound-details.right-broken.text ##f                 %! PSC1
+    - \tweak bound-details.right.padding 0.5                     %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
+    \startTextSpan                                               %! PSC1
     
     f'4
     \repeatTie                                                   %! TCC
@@ -3527,29 +3527,29 @@ H_ViolinIIMusicVoice = {
     % [H ViolinIIMusicVoice measure 476 / measure 10]            %! SM4
     f'2.
     \repeatTie                                                   %! TCC
-    \stopTextSpan                                                %! PWC1
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    ord.                                         %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    \startTextSpan                                               %! PWC1
+    \stopTextSpan                                                %! PSC1
+    - \tweak Y-extent ##f                                        %! PSC1
+    - \tweak bound-details.left.text \markup {                   %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \upright                                         %! PSC1
+                    ord.                                         %! PSC1
+                \hspace                                          %! PSC1
+                    #0.5                                         %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    - \tweak arrow-width 0.25                                    %! PSC1
+    - \tweak dash-fraction 0.25                                  %! PSC1
+    - \tweak dash-period 1.5                                     %! PSC1
+    - \tweak bound-details.left-broken.text ##f                  %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
+    - \tweak bound-details.right.arrow ##t                       %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
+    - \tweak bound-details.right-broken.padding 0                %! PSC1
+    - \tweak bound-details.right-broken.text ##f                 %! PSC1
+    - \tweak bound-details.right.padding 0.5                     %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
+    \startTextSpan                                               %! PSC1
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3596,31 +3596,31 @@ H_ViolinIIMusicVoice = {
         f'16 * 503/64
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
         ^ \markup { "(always one circle per stem)" }             %! IC
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         [
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "4” circles"                             %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "4” circles"                             %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        \startTextSpan                                           %! PSC1
         
         \hide NoteHead                                           %! SC
         \override Accidental.stencil = ##f                       %! SC
@@ -3648,30 +3648,30 @@ H_ViolinIIMusicVoice = {
         % [H ViolinIIMusicVoice measure 479 / measure 13]        %! SM4
         \override TupletBracket.staff-padding = #1.5             %! OC1
         g'4
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "6” circles"                             %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "6” circles"                             %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        \startTextSpan                                           %! PSC1
         
         g'4
         \glissando                                               %! SC
@@ -3700,25 +3700,25 @@ H_ViolinIIMusicVoice = {
         - \tweak to-barline ##t                                  %! PIC
         - \tweak circled-tip ##t                                 %! PIC
         \>                                                       %! PIC
-        \stopTextSpan                                            %! PWC1
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "8” circles"                             %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.25                                    %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak dash-period 0                                   %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 1.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        \startTextSpan                                           %! PWC1
+        \stopTextSpan                                            %! PSC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "8” circles"                             %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.25                                    %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak dash-period 0                                   %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 1.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        \startTextSpan                                           %! PSC1
         
         af'!4
         
@@ -3741,7 +3741,7 @@ H_ViolinIIMusicVoice = {
         af'!4
         
         af'!4
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         \revert TextSpanner.staff-padding                        %! OC2
         \revert TupletBracket.staff-padding                      %! OC2
     }
@@ -3912,44 +3912,44 @@ H_ViolinIIMusicVoice = {
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "thinking color (no longer width)" }         %! IC
         [
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "“whisk” circles"                        %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        - \tweak bound-details.right.text \markup {              %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.0                                     %! PWC1
-                    \upright                                     %! PWC1
-                        "poco scratch circles"                   %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "“whisk” circles"                        %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        - \tweak bound-details.right.text \markup {              %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.0                                     %! PSC1
+                    \upright                                     %! PSC1
+                        "poco scratch circles"                   %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 219/32
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 173/32
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 139/32
@@ -4035,44 +4035,44 @@ H_ViolinIIMusicVoice = {
     _ \markup { III }                                            %! IC
     - \tweak circled-tip ##t                                     %! PIC
     \<                                                           %! PIC
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "rasp (2°)"                                  %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak bound-details.right.text \markup {                  %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \hspace                                          %! PWC1
-                    #0.0                                         %! PWC1
-                \upright                                         %! PWC1
-                    "poco rasp (2°)"                             %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    \startTextSpan                                               %! PWC1
+    - \tweak Y-extent ##f                                        %! PSC1
+    - \tweak bound-details.left.text \markup {                   %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \upright                                         %! PSC1
+                    "rasp (2°)"                                  %! PSC1
+                \hspace                                          %! PSC1
+                    #0.5                                         %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    - \tweak arrow-width 0.25                                    %! PSC1
+    - \tweak dash-fraction 0.25                                  %! PSC1
+    - \tweak dash-period 1.5                                     %! PSC1
+    - \tweak bound-details.left-broken.text ##f                  %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
+    - \tweak bound-details.right.arrow ##t                       %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
+    - \tweak bound-details.right-broken.padding 0                %! PSC1
+    - \tweak bound-details.right-broken.text ##f                 %! PSC1
+    - \tweak bound-details.right.padding 0.5                     %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
+    - \tweak bound-details.right.text \markup {                  %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \hspace                                          %! PSC1
+                    #0.0                                         %! PSC1
+                \upright                                         %! PSC1
+                    "poco rasp (2°)"                             %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    \startTextSpan                                               %! PSC1
     
     % [H ViolinIIMusicVoice measure 502 / measure 36]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     f'1
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
-    \stopTextSpan                                                %! PWC1
+    \stopTextSpan                                                %! PSC1
     \revert DynamicLineSpanner.staff-padding                     %! OC2
     \override TupletNumber.text = \markup {
         \scale
@@ -4122,44 +4122,44 @@ H_ViolinIIMusicVoice = {
         c'16 * 127/16
         \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "“whisk” circles"                        %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        - \tweak bound-details.right.text \markup {              %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.0                                     %! PWC1
-                    \upright                                     %! PWC1
-                        "mod. scratch circles"                   %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "“whisk” circles"                        %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        - \tweak bound-details.right.text \markup {              %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.0                                     %! PSC1
+                    \upright                                     %! PSC1
+                        "mod. scratch circles"                   %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 233/32
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 377/64
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 19/4
@@ -4223,44 +4223,44 @@ H_ViolinIIMusicVoice = {
         c'16 * 477/64
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "“whisk” circles"                        %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        - \tweak bound-details.right.text \markup {              %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.0                                     %! PWC1
-                    \upright                                     %! PWC1
-                        "molto scratch circles"                  %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "“whisk” circles"                        %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        - \tweak bound-details.right.text \markup {              %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.0                                     %! PSC1
+                    \upright                                     %! PSC1
+                        "molto scratch circles"                  %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 461/64
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 105/16
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 23/4
@@ -4339,37 +4339,37 @@ H_ViolinIIMusicVoice = {
         c'4
         \ff                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
         \>                                                       %! PIC
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "molto scratch"                          %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        - \tweak bound-details.right.text \markup {              %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.0                                     %! PWC1
-                    \upright                                     %! PWC1
-                        "pochiss. scratch"                       %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "molto scratch"                          %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        - \tweak bound-details.right.text \markup {              %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.0                                     %! PSC1
+                    \upright                                     %! PSC1
+                        "pochiss. scratch"                       %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -4384,7 +4384,7 @@ H_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -4466,37 +4466,37 @@ H_ViolaMusicVoice = {
     _ \markup { III }                                            %! IC
     - \tweak circled-tip ##t                                     %! PIC
     \<                                                           %! PIC
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "rasp (2°)"                                  %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak bound-details.right.text \markup {                  %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \hspace                                          %! PWC1
-                    #0.0                                         %! PWC1
-                \upright                                         %! PWC1
-                    "flaut. (2°)"                                %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    \startTextSpan                                               %! PWC1
+    - \tweak Y-extent ##f                                        %! PSC1
+    - \tweak bound-details.left.text \markup {                   %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \upright                                         %! PSC1
+                    "rasp (2°)"                                  %! PSC1
+                \hspace                                          %! PSC1
+                    #0.5                                         %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    - \tweak arrow-width 0.25                                    %! PSC1
+    - \tweak dash-fraction 0.25                                  %! PSC1
+    - \tweak dash-period 1.5                                     %! PSC1
+    - \tweak bound-details.left-broken.text ##f                  %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
+    - \tweak bound-details.right.arrow ##t                       %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
+    - \tweak bound-details.right-broken.padding 0                %! PSC1
+    - \tweak bound-details.right-broken.text ##f                 %! PSC1
+    - \tweak bound-details.right.padding 0.5                     %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
+    - \tweak bound-details.right.text \markup {                  %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \hspace                                          %! PSC1
+                    #0.0                                         %! PSC1
+                \upright                                         %! PSC1
+                    "flaut. (2°)"                                %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    \startTextSpan                                               %! PSC1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -4525,7 +4525,7 @@ H_ViolaMusicVoice = {
     af!2..
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
-    \stopTextSpan                                                %! PWC1
+    \stopTextSpan                                                %! PSC1
     
     % [H ViolaMusicVoice measure 471 / measure 5]                %! SM4
     af!2..
@@ -4601,28 +4601,28 @@ H_ViolaMusicVoice = {
         ^ \markup { "(always one circle per stem)" }             %! IC
         [
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "2” circles"                             %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "2” circles"                             %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        \startTextSpan                                           %! PSC1
         
         \hide NoteHead                                           %! SC
         \override Accidental.stencil = ##f                       %! SC
@@ -4646,30 +4646,30 @@ H_ViolaMusicVoice = {
         
         % [H ViolaMusicVoice measure 475 / measure 9]            %! SM4
         a4
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "4” circles"                             %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "4” circles"                             %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        \startTextSpan                                           %! PSC1
         
         a4
         \glissando                                               %! SC
@@ -4692,30 +4692,30 @@ H_ViolaMusicVoice = {
         
         % [H ViolaMusicVoice measure 477 / measure 11]           %! SM4
         a4
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "6” circles"                             %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "6” circles"                             %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        \startTextSpan                                           %! PSC1
         
         a4
         \glissando                                               %! SC
@@ -4750,26 +4750,26 @@ H_ViolaMusicVoice = {
         
         % [H ViolaMusicVoice measure 479 / measure 13]           %! SM4
         b2
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "8” circles"                             %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.25                                    %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak dash-period 0                                   %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 1.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "8” circles"                             %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.25                                    %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak dash-period 0                                   %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 1.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        \startTextSpan                                           %! PSC1
         
         b2
         \glissando                                               %! SC
@@ -4780,7 +4780,7 @@ H_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     b4
-    \stopTextSpan                                                %! PWC1
+    \stopTextSpan                                                %! PSC1
     \glissando                                                   %! SC
     \revert TextScript.staff-padding                             %! OC2
     \revert TextSpanner.staff-padding                            %! OC2
@@ -4960,44 +4960,44 @@ H_ViolaMusicVoice = {
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "thinking color (no longer width)" }         %! IC
         [
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "“whisk” circles"                        %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        - \tweak bound-details.right.text \markup {              %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.0                                     %! PWC1
-                    \upright                                     %! PWC1
-                        "poco scratch circles"                   %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "“whisk” circles"                        %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        - \tweak bound-details.right.text \markup {              %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.0                                     %! PSC1
+                    \upright                                     %! PSC1
+                        "poco scratch circles"                   %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 477/64
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 427/64
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         
         \revert Staff.Stem.stemlet-length
         \baca_unpitched_music_warning                            %! SM24
@@ -5034,44 +5034,44 @@ H_ViolaMusicVoice = {
     _ \markup { III }                                            %! IC
     - \tweak circled-tip ##t                                     %! PIC
     \<                                                           %! PIC
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "rasp (2°)"                                  %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak bound-details.right.text \markup {                  %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \hspace                                          %! PWC1
-                    #0.0                                         %! PWC1
-                \upright                                         %! PWC1
-                    "poco rasp (2°)"                             %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    \startTextSpan                                               %! PWC1
+    - \tweak Y-extent ##f                                        %! PSC1
+    - \tweak bound-details.left.text \markup {                   %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \upright                                         %! PSC1
+                    "rasp (2°)"                                  %! PSC1
+                \hspace                                          %! PSC1
+                    #0.5                                         %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    - \tweak arrow-width 0.25                                    %! PSC1
+    - \tweak dash-fraction 0.25                                  %! PSC1
+    - \tweak dash-period 1.5                                     %! PSC1
+    - \tweak bound-details.left-broken.text ##f                  %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
+    - \tweak bound-details.right.arrow ##t                       %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
+    - \tweak bound-details.right-broken.padding 0                %! PSC1
+    - \tweak bound-details.right-broken.text ##f                 %! PSC1
+    - \tweak bound-details.right.padding 0.5                     %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
+    - \tweak bound-details.right.text \markup {                  %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \hspace                                          %! PSC1
+                    #0.0                                         %! PSC1
+                \upright                                         %! PSC1
+                    "poco rasp (2°)"                             %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    \startTextSpan                                               %! PSC1
     
     % [H ViolaMusicVoice measure 502 / measure 36]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     af!1
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
-    \stopTextSpan                                                %! PWC1
+    \stopTextSpan                                                %! PSC1
     \revert DynamicLineSpanner.staff-padding                     %! OC2
     \override TupletNumber.text = \markup {
         \scale
@@ -5121,44 +5121,44 @@ H_ViolaMusicVoice = {
         c'16 * 55/8
         \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "“whisk” circles"                        %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        - \tweak bound-details.right.text \markup {              %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.0                                     %! PWC1
-                    \upright                                     %! PWC1
-                        "mod. scratch circles"                   %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "“whisk” circles"                        %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        - \tweak bound-details.right.text \markup {              %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.0                                     %! PSC1
+                    \upright                                     %! PSC1
+                        "mod. scratch circles"                   %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 211/32
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 381/64
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 173/32
@@ -5222,44 +5222,44 @@ H_ViolaMusicVoice = {
         c'16 * 249/32
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        - \tweak Y-extent ##f                                    %! PWC1
-        - \tweak bound-details.left.text \markup {               %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \upright                                     %! PWC1
-                        "“whisk” circles"                        %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.5                                     %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        - \tweak arrow-width 0.25                                %! PWC1
-        - \tweak dash-fraction 0.25                              %! PWC1
-        - \tweak dash-period 1.5                                 %! PWC1
-        - \tweak bound-details.left-broken.text ##f              %! PWC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PWC1
-        - \tweak bound-details.right.arrow ##t                   %! PWC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PWC1
-        - \tweak bound-details.right-broken.padding 0            %! PWC1
-        - \tweak bound-details.right-broken.text ##f             %! PWC1
-        - \tweak bound-details.right.padding 0.5                 %! PWC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PWC1
-        - \tweak bound-details.right.text \markup {              %! PWC1
-            \concat                                              %! PWC1
-                {                                                %! PWC1
-                    \hspace                                      %! PWC1
-                        #0.0                                     %! PWC1
-                    \upright                                     %! PWC1
-                        "molto scratch circles"                  %! PWC1
-                }                                                %! PWC1
-            }                                                    %! PWC1
-        \startTextSpan                                           %! PWC1
+        - \tweak Y-extent ##f                                    %! PSC1
+        - \tweak bound-details.left.text \markup {               %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \upright                                     %! PSC1
+                        "“whisk” circles"                        %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.5                                     %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        - \tweak arrow-width 0.25                                %! PSC1
+        - \tweak dash-fraction 0.25                              %! PSC1
+        - \tweak dash-period 1.5                                 %! PSC1
+        - \tweak bound-details.left-broken.text ##f              %! PSC1
+        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
+        - \tweak bound-details.right.arrow ##t                   %! PSC1
+        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
+        - \tweak bound-details.right-broken.padding 0            %! PSC1
+        - \tweak bound-details.right-broken.text ##f             %! PSC1
+        - \tweak bound-details.right.padding 0.5                 %! PSC1
+        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
+        - \tweak bound-details.right.text \markup {              %! PSC1
+            \concat                                              %! PSC1
+                {                                                %! PSC1
+                    \hspace                                      %! PSC1
+                        #0.0                                     %! PSC1
+                    \upright                                     %! PSC1
+                        "molto scratch circles"                  %! PSC1
+                }                                                %! PSC1
+            }                                                    %! PSC1
+        \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 245/32
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 117/16
-        \stopTextSpan                                            %! PWC1
+        \stopTextSpan                                            %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 439/64
@@ -5321,44 +5321,44 @@ H_ViolaMusicVoice = {
     c'4
     \ff                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "molto scratch"                              %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak bound-details.right.text \markup {                  %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \hspace                                          %! PWC1
-                    #0.0                                         %! PWC1
-                \upright                                         %! PWC1
-                    "pochiss. scratch"                           %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    \startTextSpan                                               %! PWC1
+    - \tweak Y-extent ##f                                        %! PSC1
+    - \tweak bound-details.left.text \markup {                   %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \upright                                         %! PSC1
+                    "molto scratch"                              %! PSC1
+                \hspace                                          %! PSC1
+                    #0.5                                         %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    - \tweak arrow-width 0.25                                    %! PSC1
+    - \tweak dash-fraction 0.25                                  %! PSC1
+    - \tweak dash-period 1.5                                     %! PSC1
+    - \tweak bound-details.left-broken.text ##f                  %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
+    - \tweak bound-details.right.arrow ##t                       %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
+    - \tweak bound-details.right-broken.padding 0                %! PSC1
+    - \tweak bound-details.right-broken.text ##f                 %! PSC1
+    - \tweak bound-details.right.padding 0.5                     %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
+    - \tweak bound-details.right.text \markup {                  %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \hspace                                          %! PSC1
+                    #0.0                                         %! PSC1
+                \upright                                         %! PSC1
+                    "pochiss. scratch"                           %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    \startTextSpan                                               %! PSC1
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \stopTextSpan                                                %! PWC1
+    \stopTextSpan                                                %! PSC1
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -5431,37 +5431,37 @@ H_CelloMusicVoice = {
     _ \markup { III }                                            %! IC
     - \tweak circled-tip ##t                                     %! PIC
     \<                                                           %! PIC
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "rasp (2°)"                                  %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak bound-details.right.text \markup {                  %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \hspace                                          %! PWC1
-                    #0.0                                         %! PWC1
-                \upright                                         %! PWC1
-                    "flaut. (2°)"                                %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    \startTextSpan                                               %! PWC1
+    - \tweak Y-extent ##f                                        %! PSC1
+    - \tweak bound-details.left.text \markup {                   %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \upright                                         %! PSC1
+                    "rasp (2°)"                                  %! PSC1
+                \hspace                                          %! PSC1
+                    #0.5                                         %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    - \tweak arrow-width 0.25                                    %! PSC1
+    - \tweak dash-fraction 0.25                                  %! PSC1
+    - \tweak dash-period 1.5                                     %! PSC1
+    - \tweak bound-details.left-broken.text ##f                  %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
+    - \tweak bound-details.right.arrow ##t                       %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
+    - \tweak bound-details.right-broken.padding 0                %! PSC1
+    - \tweak bound-details.right-broken.text ##f                 %! PSC1
+    - \tweak bound-details.right.padding 0.5                     %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
+    - \tweak bound-details.right.text \markup {                  %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \hspace                                          %! PSC1
+                    #0.0                                         %! PSC1
+                \upright                                         %! PSC1
+                    "flaut. (2°)"                                %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    \startTextSpan                                               %! PSC1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -5490,7 +5490,7 @@ H_CelloMusicVoice = {
     af,!2..
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
-    \stopTextSpan                                                %! PWC1
+    \stopTextSpan                                                %! PSC1
     
     % [H CelloMusicVoice measure 471 / measure 5]                %! SM4
     af,!2..
@@ -5681,42 +5681,42 @@ H_CelloMusicVoice = {
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     _ \markup { IV }                                             %! IC
     \glissando                                                   %! SC
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    flaut.                                       %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak bound-details.right.text \markup {                  %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \hspace                                          %! PWC1
-                    #0.0                                         %! PWC1
-                \upright                                         %! PWC1
-                    "non flaut."                                 %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    \startTextSpan                                               %! PWC1
+    - \tweak Y-extent ##f                                        %! PSC1
+    - \tweak bound-details.left.text \markup {                   %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \upright                                         %! PSC1
+                    flaut.                                       %! PSC1
+                \hspace                                          %! PSC1
+                    #0.5                                         %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    - \tweak arrow-width 0.25                                    %! PSC1
+    - \tweak dash-fraction 0.25                                  %! PSC1
+    - \tweak dash-period 1.5                                     %! PSC1
+    - \tweak bound-details.left-broken.text ##f                  %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
+    - \tweak bound-details.right.arrow ##t                       %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
+    - \tweak bound-details.right-broken.padding 0                %! PSC1
+    - \tweak bound-details.right-broken.text ##f                 %! PSC1
+    - \tweak bound-details.right.padding 0.5                     %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
+    - \tweak bound-details.right.text \markup {                  %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \hspace                                          %! PSC1
+                    #0.0                                         %! PSC1
+                \upright                                         %! PSC1
+                    "non flaut."                                 %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    \startTextSpan                                               %! PSC1
     
     % [H CelloMusicVoice measure 474 / measure 8]                %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     gf,!2
-    \stopTextSpan                                                %! PWC1
+    \stopTextSpan                                                %! PSC1
     \revert Glissando.arrow-length                               %! OC2
     \revert Glissando.arrow-width                                %! OC2
     \revert Glissando.bound-details.right.arrow                  %! OC2
@@ -5866,44 +5866,44 @@ H_CelloMusicVoice = {
     _ \markup { III }                                            %! IC
     - \tweak circled-tip ##t                                     %! PIC
     \<                                                           %! PIC
-    - \tweak Y-extent ##f                                        %! PWC1
-    - \tweak bound-details.left.text \markup {                   %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \upright                                         %! PWC1
-                    "rasp (2°)"                                  %! PWC1
-                \hspace                                          %! PWC1
-                    #0.5                                         %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    - \tweak arrow-width 0.25                                    %! PWC1
-    - \tweak dash-fraction 0.25                                  %! PWC1
-    - \tweak dash-period 1.5                                     %! PWC1
-    - \tweak bound-details.left-broken.text ##f                  %! PWC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PWC1
-    - \tweak bound-details.right.arrow ##t                       %! PWC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PWC1
-    - \tweak bound-details.right-broken.padding 0                %! PWC1
-    - \tweak bound-details.right-broken.text ##f                 %! PWC1
-    - \tweak bound-details.right.padding 0.5                     %! PWC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PWC1
-    - \tweak bound-details.right.text \markup {                  %! PWC1
-        \concat                                                  %! PWC1
-            {                                                    %! PWC1
-                \hspace                                          %! PWC1
-                    #0.0                                         %! PWC1
-                \upright                                         %! PWC1
-                    "poco rasp (2°)"                             %! PWC1
-            }                                                    %! PWC1
-        }                                                        %! PWC1
-    \startTextSpan                                               %! PWC1
+    - \tweak Y-extent ##f                                        %! PSC1
+    - \tweak bound-details.left.text \markup {                   %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \upright                                         %! PSC1
+                    "rasp (2°)"                                  %! PSC1
+                \hspace                                          %! PSC1
+                    #0.5                                         %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    - \tweak arrow-width 0.25                                    %! PSC1
+    - \tweak dash-fraction 0.25                                  %! PSC1
+    - \tweak dash-period 1.5                                     %! PSC1
+    - \tweak bound-details.left-broken.text ##f                  %! PSC1
+    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
+    - \tweak bound-details.right.arrow ##t                       %! PSC1
+    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
+    - \tweak bound-details.right-broken.padding 0                %! PSC1
+    - \tweak bound-details.right-broken.text ##f                 %! PSC1
+    - \tweak bound-details.right.padding 0.5                     %! PSC1
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
+    - \tweak bound-details.right.text \markup {                  %! PSC1
+        \concat                                                  %! PSC1
+            {                                                    %! PSC1
+                \hspace                                          %! PSC1
+                    #0.0                                         %! PSC1
+                \upright                                         %! PSC1
+                    "poco rasp (2°)"                             %! PSC1
+            }                                                    %! PSC1
+        }                                                        %! PSC1
+    \startTextSpan                                               %! PSC1
     
     % [H CelloMusicVoice measure 502 / measure 36]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     af,!1
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
-    \stopTextSpan                                                %! PWC1
+    \stopTextSpan                                                %! PSC1
     \revert DynamicLineSpanner.staff-padding                     %! OC2
     
     % [H CelloMusicVoice measure 503 / measure 37]               %! SM4
@@ -6699,16 +6699,11 @@ H_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                     %! PIC
-    \<                                                           %! PIC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'4
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                      %! PIC
-    - \tweak circled-tip ##t                                     %! PIC
-    \>                                                           %! PIC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r8
