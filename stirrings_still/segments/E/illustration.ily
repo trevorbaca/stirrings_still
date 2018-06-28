@@ -4770,13 +4770,13 @@ E_ViolinIMusicVoice = {
     r8
     \times 2/3 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
         ^ \markup { "hair: 8” circles" }                         %! IC
-        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
-        \<                                                       %! IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! PIC
+        \<                                                       %! PIC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -4795,10 +4795,10 @@ E_ViolinIMusicVoice = {
     }
     
     % [E ViolinIMusicVoice measure 311 / measure 6]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -5417,13 +5417,13 @@ E_ViolinIIMusicVoice = {
     r8
     \times 4/5 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
         ^ \markup { "hair: 8” circles" }                         %! IC
-        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
-        \<                                                       %! IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! PIC
+        \<                                                       %! PIC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -5439,10 +5439,10 @@ E_ViolinIIMusicVoice = {
     }
     
     % [E ViolinIIMusicVoice measure 311 / measure 6]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -6064,13 +6064,13 @@ E_ViolaMusicVoice = {
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "hair: 8” circles" }                             %! IC
-    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
-    \<                                                           %! IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
     % [E ViolaMusicVoice measure 310 / measure 5]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -6083,10 +6083,10 @@ E_ViolaMusicVoice = {
     c'4
     
     % [E ViolaMusicVoice measure 311 / measure 6]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat

@@ -87,7 +87,7 @@ maker(
 
 maker(
     ('tutti', (6, 9)),
-    baca.hairpin(
+    baca.generalized_hairpin(
         [
             abjad.Dynamic(
                 'appena_udibile',
