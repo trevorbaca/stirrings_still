@@ -89,7 +89,7 @@ maker(
     ('tutti', (6, 9)),
     baca.hairpin(
         [
-            baca.DynamicBundle(abjad.Dynamic(
+            baca.IndicatorBundle(abjad.Dynamic(
                 'appena_udibile',
                 command=r'\baca_appena_udibile',
                 name_is_textual=True,
@@ -97,7 +97,7 @@ maker(
                 ),
                 abjad.DynamicTrend('<'),
                 ),
-            baca.DynamicBundle(abjad.Dynamic('fff')),
+            baca.IndicatorBundle(abjad.Dynamic('fff')),
             ],
         selector=baca.rleaves(),
         ),
