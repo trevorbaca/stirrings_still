@@ -3810,7 +3810,7 @@ B_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
         c'8
-        \mf_sub                                                  %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_mf_sub                                             %! SM8:EXPLICIT_DYNAMIC:IC
         \stopTextSpan
         
         r4
@@ -4781,7 +4781,7 @@ B_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
         c'8
-        \mf_sub                                                  %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_mf_sub                                             %! SM8:EXPLICIT_DYNAMIC:IC
         \stopTextSpan
         
         r4
@@ -5792,7 +5792,7 @@ B_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
         c'8
-        \mf_sub                                                  %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_mf_sub                                             %! SM8:EXPLICIT_DYNAMIC:IC
         \stopTextSpan
         
         r4
@@ -6510,7 +6510,7 @@ B_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
         c'8
-        \mf_sub                                                  %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_mf_sub                                             %! SM8:EXPLICIT_DYNAMIC:IC
         \stopTextSpan
         
         r4

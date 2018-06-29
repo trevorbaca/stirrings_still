@@ -877,7 +877,7 @@ I_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'1
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \with-color                                              %! IC
             #magenta                                             %! IC
@@ -1092,7 +1092,7 @@ I_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'1
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \with-color                                              %! IC
             #magenta                                             %! IC
@@ -1265,7 +1265,7 @@ I_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'1
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \with-color                                              %! IC
             #magenta                                             %! IC

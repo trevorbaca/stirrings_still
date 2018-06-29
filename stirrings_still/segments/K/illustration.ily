@@ -2333,7 +2333,7 @@ K_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_effort_f                                           %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "hair: circles (each as wide as poss.)" }    %! IC
         - \tweak Y-extent ##f                                    %! PSC1
         - \tweak bound-details.left.text \markup {               %! PSC1
@@ -3485,7 +3485,7 @@ K_ViolinIIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_effort_f                                           %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "hair: circles (each as wide as poss.)" }    %! IC
         - \tweak Y-extent ##f                                    %! PSC1
         - \tweak bound-details.left.text \markup {               %! PSC1
@@ -4667,7 +4667,7 @@ K_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \effort_f                                                    %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_effort_f                                               %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { "hair: circles (each as wide as poss.)" }        %! IC
     - \tweak Y-extent ##f                                        %! PSC1
     - \tweak bound-details.left.text \markup {                   %! PSC1
@@ -4778,7 +4778,7 @@ K_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c'2
-    \effort_mp                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_effort_mp                                              %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \override                                                %! IC
             #'(box-padding . 0.5)                                %! IC
@@ -5205,7 +5205,7 @@ K_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_effort_f                                           %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "hair: circles (each as wide as poss.)" }    %! IC
         - \tweak Y-extent ##f                                    %! PSC1
         - \tweak bound-details.left.text \markup {               %! PSC1

@@ -742,7 +742,7 @@ J_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -785,7 +785,7 @@ J_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'2.
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { "[double-stop cont.]" }                          %! IC
     
     % [J ViolinIMusicVoice measure 534 / measure 5]              %! SM4
@@ -797,7 +797,7 @@ J_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'1
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     \repeatTie
     
@@ -878,7 +878,7 @@ J_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -966,7 +966,7 @@ J_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'2.
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { "[double-stop cont.]" }                          %! IC
     \stopTextSpan
     
@@ -979,7 +979,7 @@ J_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'1
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     \repeatTie
     
@@ -1064,7 +1064,7 @@ J_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1107,7 +1107,7 @@ J_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'2.
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { "[double-stop cont.]" }                          %! IC
     
     % [J ViolaMusicVoice measure 534 / measure 5]                %! SM4
@@ -1119,7 +1119,7 @@ J_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'1
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     \repeatTie
     
@@ -1245,7 +1245,7 @@ J_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'1
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     
     % [J CelloMusicVoice measure 536 / measure 7]                %! SM4
