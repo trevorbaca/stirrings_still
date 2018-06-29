@@ -41,7 +41,7 @@ maker(
     stirrings_still.clouded_pane(),
     baca.measures(
         (1, 15),
-        baca.hairpins(
+        baca.hairpin(
             'p < ff ff > p < ff ff > p < ff ff > p < ff',
             piece_selector=baca.group_by_measures([2, 1, 1]),
             ),
