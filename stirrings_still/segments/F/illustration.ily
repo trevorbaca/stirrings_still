@@ -933,7 +933,7 @@ F_ViolaMusicVoice = {
     % [F ViolaMusicVoice measure 434 / measure 2]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     c'1
-    \effort_mp                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_effort_mp                                              %! SM8:EXPLICIT_DYNAMIC:PIC
     \glissando                                                   %! SC
     
     % [F ViolaMusicVoice measure 435 / measure 3]                %! SM4

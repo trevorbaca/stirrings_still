@@ -51,8 +51,8 @@ maker(
         (4, 7),
         baca.hairpin(
             [
-                (abjad.Dynamic('mp'), abjad.DynamicTrend('>o')),
-                abjad.Dynamic('niente', command=r'\!', leak=True),
+                baca.DynamicBundle(abjad.Dynamic('mp'), abjad.DynamicTrend('>o')),
+                baca.DynamicBundle(abjad.Dynamic('niente', command=r'\!', leak=True)),
                 ],
             ),
         ),

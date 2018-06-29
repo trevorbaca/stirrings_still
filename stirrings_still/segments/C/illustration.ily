@@ -3754,7 +3754,7 @@ C_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \effort_ff                                               %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_effort_ff                                          %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -5145,7 +5145,7 @@ C_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:IC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -5548,7 +5548,7 @@ C_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_effort_ff                                              %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -6866,7 +6866,7 @@ C_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:IC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -7235,7 +7235,7 @@ C_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \effort_ff                                               %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_effort_ff                                          %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -8702,7 +8702,7 @@ C_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    \appena_udibile                                              %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:IC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
         \concat
@@ -9125,7 +9125,7 @@ C_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \effort_ff                                               %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_effort_ff                                          %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
