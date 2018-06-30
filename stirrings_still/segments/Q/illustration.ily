@@ -357,12 +357,8 @@ Q_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \baca_invisible_line_segment                                       %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     
@@ -433,12 +429,8 @@ Q_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \baca_invisible_line_segment                                       %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     
@@ -1031,12 +1023,8 @@ Q_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \baca_invisible_line_segment                                       %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     
@@ -1531,12 +1519,8 @@ Q_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \baca_invisible_line_segment                                       %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     
@@ -1958,12 +1942,8 @@ Q_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \baca_invisible_line_segment                                       %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     
@@ -2310,12 +2290,8 @@ Q_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \baca_invisible_line_segment                                       %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     
@@ -2589,12 +2565,8 @@ Q_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \baca_invisible_line_segment                                       %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     
@@ -3243,12 +3215,8 @@ Q_GlobalSkips = {
                     #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
             }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
         }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR %! SM29:METRONOME_MARK_SPANNER
-    - \tweak dash-period 0                                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.left.stencil-align-dir-y #center              %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.padding 0                        %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right-broken.text ##f                         %! SM29:METRONOME_MARK_SPANNER
+    - \baca_invisible_line_segment                                       %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.right.padding 0                               %! SM29:METRONOME_MARK_SPANNER
-    - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     
