@@ -3199,7 +3199,7 @@ C_ViolinIMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_start_text_span_invisible                       %! PSC1
+        - \abjad_invisible_line_segment                          %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -3331,7 +3331,7 @@ C_ViolinIMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_start_text_span_invisible                       %! PSC1
+        - \abjad_invisible_line_segment                          %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -3463,7 +3463,7 @@ C_ViolinIMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_start_text_span_invisible                       %! PSC1
+        - \abjad_invisible_line_segment                          %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -4484,7 +4484,7 @@ C_ViolinIMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_start_text_span_invisible                       %! PSC1
+        - \abjad_invisible_line_segment                          %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -4924,7 +4924,7 @@ C_ViolinIIMusicVoice = {
                     #0.25                                        %! PSC1
             }                                                    %! PSC1
         }                                                        %! PSC1
-    - \abjad_start_text_span_invisible                           %! PSC1
+    - \abjad_invisible_line_segment                              %! PSC1
     - \tweak staff-padding #4                                    %! PSC1
     \startTextSpan                                               %! PSC1
     
@@ -5034,7 +5034,7 @@ C_ViolinIIMusicVoice = {
                     #0.25                                        %! PSC1
             }                                                    %! PSC1
         }                                                        %! PSC1
-    - \abjad_start_text_span_invisible                           %! PSC1
+    - \abjad_invisible_line_segment                              %! PSC1
     - \tweak staff-padding #4                                    %! PSC1
     \startTextSpan                                               %! PSC1
     
@@ -5146,7 +5146,7 @@ C_ViolinIIMusicVoice = {
                     #0.25                                        %! PSC1
             }                                                    %! PSC1
         }                                                        %! PSC1
-    - \abjad_start_text_span_invisible                           %! PSC1
+    - \abjad_invisible_line_segment                              %! PSC1
     - \tweak staff-padding #4                                    %! PSC1
     \startTextSpan                                               %! PSC1
     
@@ -6161,7 +6161,7 @@ C_ViolinIIMusicVoice = {
                     #0.25                                        %! PSC1
             }                                                    %! PSC1
         }                                                        %! PSC1
-    - \abjad_start_text_span_invisible                           %! PSC1
+    - \abjad_invisible_line_segment                              %! PSC1
     - \tweak staff-padding #4                                    %! PSC1
     \startTextSpan                                               %! PSC1
     
@@ -6660,7 +6660,7 @@ C_ViolaMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_start_text_span_invisible                       %! PSC1
+        - \abjad_invisible_line_segment                          %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -6802,7 +6802,7 @@ C_ViolaMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_start_text_span_invisible                       %! PSC1
+        - \abjad_invisible_line_segment                          %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -6944,7 +6944,7 @@ C_ViolaMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_start_text_span_invisible                       %! PSC1
+        - \abjad_invisible_line_segment                          %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -8002,7 +8002,7 @@ C_ViolaMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_start_text_span_invisible                       %! PSC1
+        - \abjad_invisible_line_segment                          %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -8419,7 +8419,7 @@ C_CelloMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_start_text_span_invisible                       %! PSC1
+        - \abjad_invisible_line_segment                          %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -8531,7 +8531,7 @@ C_CelloMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_start_text_span_invisible                       %! PSC1
+        - \abjad_invisible_line_segment                          %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -8642,7 +8642,7 @@ C_CelloMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_start_text_span_invisible                       %! PSC1
+        - \abjad_invisible_line_segment                          %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -9605,7 +9605,7 @@ C_CelloMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_start_text_span_invisible                       %! PSC1
+        - \abjad_invisible_line_segment                          %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
