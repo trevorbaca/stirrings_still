@@ -1787,7 +1787,7 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1805,7 +1805,7 @@ K_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -1826,11 +1826,11 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -1851,11 +1851,11 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -1876,7 +1876,7 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/8 {
@@ -1891,7 +1891,7 @@ K_ViolinIMusicVoice = {
         c'8
         -\upbow
         ]
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -1912,12 +1912,12 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         -\downbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -1938,12 +1938,12 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         -\upbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -1974,12 +1974,12 @@ K_ViolinIMusicVoice = {
                         7
                 }
             }
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         -\downbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \revert TextScript.parent-alignment-X                    %! OC2
         \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
@@ -2086,7 +2086,7 @@ K_ViolinIMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_start_text_span_invisible                       %! PSC1
+        - \abjad_invisible_line_segment                          %! PSC1
         \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
@@ -2141,11 +2141,11 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -2166,11 +2166,11 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -2191,11 +2191,11 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'4.
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -2216,7 +2216,7 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
     }
     \override TupletNumber.text = \markup {
         \scale
@@ -2262,7 +2262,7 @@ K_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 117/32
         -\upbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         [
         \glissando                                               %! SC
         - \tweak Y-extent ##f
@@ -2284,12 +2284,12 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 61/16
         -\downbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -2310,12 +2310,12 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 137/32
         -\upbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -2336,12 +2336,12 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 325/64
         -\downbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -2362,12 +2362,12 @@ K_ViolinIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 391/64
         -\upbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -2398,14 +2398,14 @@ K_ViolinIMusicVoice = {
                         7
                 }
             }
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \revert Staff.Stem.stemlet-length
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 113/16
         -\downbow
         ]
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \revert TextScript.parent-alignment-X                    %! OC2
         \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
@@ -2967,7 +2967,7 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2985,7 +2985,7 @@ K_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -3006,11 +3006,11 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'4.
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -3031,14 +3031,14 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
     }
     
     % [K ViolinIIMusicVoice measure 547 / measure 2]             %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopBCPTextSpan
+    \bacaStopTextSpanBCP
     \glissando                                                   %! SC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -3059,12 +3059,12 @@ K_ViolinIIMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    \startBCPTextSpan
+    \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
     -\downbow
-    \stopBCPTextSpan
+    \bacaStopTextSpanBCP
     \glissando                                                   %! SC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -3085,12 +3085,12 @@ K_ViolinIIMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    \startBCPTextSpan
+    \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
     -\upbow
-    \stopBCPTextSpan
+    \bacaStopTextSpanBCP
     \glissando                                                   %! SC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -3121,12 +3121,12 @@ K_ViolinIIMusicVoice = {
                     7
             }
         }
-    \startBCPTextSpan
+    \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
     -\downbow
-    \stopBCPTextSpan
+    \bacaStopTextSpanBCP
     \revert TextScript.parent-alignment-X                        %! OC2
     \revert TextScript.staff-padding                             %! OC2
     \revert TextSpanner.staff-padding                            %! OC2
@@ -3226,7 +3226,7 @@ K_ViolinIIMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_start_text_span_invisible                       %! PSC1
+        - \abjad_invisible_line_segment                          %! PSC1
         \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
@@ -3281,11 +3281,11 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -3306,11 +3306,11 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'4.
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -3331,12 +3331,12 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -3357,7 +3357,7 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
     }
     \override TupletNumber.text = \markup {
         \scale
@@ -3403,7 +3403,7 @@ K_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 159/32
         -\downbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         [
         \glissando                                               %! SC
         - \tweak Y-extent ##f
@@ -3425,12 +3425,12 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 331/64
         -\upbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -3451,12 +3451,12 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 367/64
         -\downbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -3477,12 +3477,12 @@ K_ViolinIIMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 423/64
         -\upbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -3513,14 +3513,14 @@ K_ViolinIIMusicVoice = {
                         7
                 }
             }
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \revert Staff.Stem.stemlet-length
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 481/64
         -\downbow
         ]
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \revert TextScript.parent-alignment-X                    %! OC2
         \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
@@ -4168,7 +4168,7 @@ K_ViolaMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    \startBCPTextSpan
+    \bacaStartTextSpanBCP
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -4186,7 +4186,7 @@ K_ViolaMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4.
-    \stopBCPTextSpan
+    \bacaStopTextSpanBCP
     \glissando                                                   %! SC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -4207,12 +4207,12 @@ K_ViolaMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    \startBCPTextSpan
+    \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    \stopBCPTextSpan
+    \bacaStopTextSpanBCP
     \glissando                                                   %! SC
     - \tweak Y-extent ##f
     - \tweak bound-details.left.text \markup {
@@ -4233,7 +4233,7 @@ K_ViolaMusicVoice = {
     - \tweak bound-details.right-broken.text ##f
     - \tweak bound-details.right.padding 0.5
     - \tweak bound-details.right.stencil-align-dir-y #center
-    \startBCPTextSpan
+    \bacaStartTextSpanBCP
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/6 {
         
@@ -4241,7 +4241,7 @@ K_ViolaMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
         -\downbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -4262,12 +4262,12 @@ K_ViolaMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         -\upbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -4298,12 +4298,12 @@ K_ViolaMusicVoice = {
                         7
                 }
             }
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         -\downbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \revert TextScript.parent-alignment-X                    %! OC2
         \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
@@ -4396,7 +4396,7 @@ K_ViolaMusicVoice = {
                     #0.25                                        %! PSC1
             }                                                    %! PSC1
         }                                                        %! PSC1
-    - \abjad_start_text_span_invisible                           %! PSC1
+    - \abjad_invisible_line_segment                              %! PSC1
     \startTextSpan                                               %! PSC1
     
     \baca_unpitched_music_warning                                %! SM24
@@ -4662,7 +4662,7 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -4681,7 +4681,7 @@ K_CelloMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         [
         \glissando                                               %! SC
         - \tweak Y-extent ##f
@@ -4703,13 +4703,13 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow
         ]
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -4730,7 +4730,7 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/8 {
@@ -4743,7 +4743,7 @@ K_CelloMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
         -\upbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -4764,12 +4764,12 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'4.
         -\downbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -4790,12 +4790,12 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         [
         \glissando                                               %! SC
         - \tweak Y-extent ##f
@@ -4827,13 +4827,13 @@ K_CelloMusicVoice = {
                         7
                 }
             }
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow
         ]
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \revert TextScript.parent-alignment-X                    %! OC2
         \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
@@ -4928,7 +4928,7 @@ K_CelloMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_start_text_span_invisible                       %! PSC1
+        - \abjad_invisible_line_segment                          %! PSC1
         \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
@@ -4977,12 +4977,12 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
         -\upbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -5003,12 +5003,12 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         -\downbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -5029,7 +5029,7 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
     }
     \override TupletNumber.text = \markup {
         \scale
@@ -5075,7 +5075,7 @@ K_CelloMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 327/64
         -\upbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         [
         \glissando                                               %! SC
         - \tweak Y-extent ##f
@@ -5097,12 +5097,12 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 339/64
         -\downbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -5123,12 +5123,12 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 93/16
         -\upbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -5149,12 +5149,12 @@ K_CelloMusicVoice = {
         - \tweak bound-details.right-broken.text ##f
         - \tweak bound-details.right.padding 0.5
         - \tweak bound-details.right.stencil-align-dir-y #center
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 105/16
         -\downbow
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \glissando                                               %! SC
         - \tweak Y-extent ##f
         - \tweak bound-details.left.text \markup {
@@ -5185,14 +5185,14 @@ K_CelloMusicVoice = {
                         7
                 }
             }
-        \startBCPTextSpan
+        \bacaStartTextSpanBCP
         
         \revert Staff.Stem.stemlet-length
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 231/32
         -\upbow
         ]
-        \stopBCPTextSpan
+        \bacaStopTextSpanBCP
         \revert TextScript.parent-alignment-X                    %! OC2
         \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
