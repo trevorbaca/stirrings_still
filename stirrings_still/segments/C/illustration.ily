@@ -3314,8 +3314,8 @@ C_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        <> \stopTextSpanOne                                      %! IC
         \stopTextSpan                                            %! PSC1
+        <> \stopTextSpanOne                                      %! IC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/4 {
@@ -3662,9 +3662,9 @@ C_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    \breathe                                                     %! IC
     <> \stopTextSpan                                             %! IC
     <> \stopTextSpanOne                                          %! IC
-    \breathe                                                     %! IC
     
     r4
     
@@ -4024,9 +4024,9 @@ C_ViolinIMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
+    \breathe                                                     %! IC
     <> \stopTextSpan                                             %! IC
     <> \stopTextSpanOne                                          %! IC
-    \breathe                                                     %! IC
     
     % [C ViolinIMusicVoice measure 189 / measure 60]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -4051,8 +4051,8 @@ C_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
-    <> \stopTextSpan                                             %! IC
     \breathe                                                     %! IC
+    <> \stopTextSpan                                             %! IC
     
     % [C ViolinIMusicVoice measure 191 / measure 62]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -4825,8 +4825,8 @@ C_ViolinIIMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    <> \stopTextSpanOne                                          %! IC
     \stopTextSpan                                                %! PSC1
+    <> \stopTextSpanOne                                          %! IC
     
     % [C ViolinIIMusicVoice measure 149 / measure 20]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -4930,8 +4930,8 @@ C_ViolinIIMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    <> \stopTextSpanOne                                          %! IC
     \stopTextSpan                                                %! PSC1
+    <> \stopTextSpanOne                                          %! IC
     
     % [C ViolinIIMusicVoice measure 153 / measure 24]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -5154,9 +5154,9 @@ C_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    \breathe                                                     %! IC
     <> \stopTextSpan                                             %! IC
     <> \stopTextSpanOne                                          %! IC
-    \breathe                                                     %! IC
     
     r4
     
@@ -5526,9 +5526,9 @@ C_ViolinIIMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4.
+    \breathe                                                     %! IC
     <> \stopTextSpan                                             %! IC
     <> \stopTextSpanOne                                          %! IC
-    \breathe                                                     %! IC
     
     % [C ViolinIIMusicVoice measure 189 / measure 60]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -5553,8 +5553,8 @@ C_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
-    <> \stopTextSpan                                             %! IC
     \breathe                                                     %! IC
+    <> \stopTextSpan                                             %! IC
     
     % [C ViolinIIMusicVoice measure 191 / measure 62]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -6411,8 +6411,8 @@ C_ViolaMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        <> \stopTextSpanOne                                      %! IC
         \stopTextSpan                                            %! PSC1
+        <> \stopTextSpanOne                                      %! IC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
@@ -6549,8 +6549,8 @@ C_ViolaMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        <> \stopTextSpanOne                                      %! IC
         \stopTextSpan                                            %! PSC1
+        <> \stopTextSpanOne                                      %! IC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/6 {
@@ -6782,9 +6782,9 @@ C_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    \breathe                                                     %! IC
     <> \stopTextSpan                                             %! IC
     <> \stopTextSpanOne                                          %! IC
-    \breathe                                                     %! IC
     
     r4
     
@@ -7154,9 +7154,9 @@ C_ViolaMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4.
+    \breathe                                                     %! IC
     <> \stopTextSpan                                             %! IC
     <> \stopTextSpanOne                                          %! IC
-    \breathe                                                     %! IC
     
     % [C ViolaMusicVoice measure 189 / measure 60]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -7181,8 +7181,8 @@ C_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
-    <> \stopTextSpan                                             %! IC
     \breathe                                                     %! IC
+    <> \stopTextSpan                                             %! IC
     
     % [C ViolaMusicVoice measure 191 / measure 62]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -7941,8 +7941,8 @@ C_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        <> \stopTextSpanOne                                      %! IC
         \stopTextSpan                                            %! PSC1
+        <> \stopTextSpanOne                                      %! IC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/2 {
@@ -8047,8 +8047,8 @@ C_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        <> \stopTextSpanOne                                      %! IC
         \stopTextSpan                                            %! PSC1
+        <> \stopTextSpanOne                                      %! IC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
@@ -8244,9 +8244,9 @@ C_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    \breathe                                                     %! IC
     <> \stopTextSpan                                             %! IC
     <> \stopTextSpanOne                                          %! IC
-    \breathe                                                     %! IC
     
     r4
     
@@ -8631,9 +8631,9 @@ C_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4.
+    \breathe                                                     %! IC
     <> \stopTextSpan                                             %! IC
     <> \stopTextSpanOne                                          %! IC
-    \breathe                                                     %! IC
     
     % [C CelloMusicVoice measure 189 / measure 60]               %! SM4
     \voices "CelloMusicVoice", "MultimeasureRestVoice"

@@ -751,8 +751,8 @@ I_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     <> \!                                                        %! SM8:EXPLICIT_DYNAMIC:PIC
-    <> \stopTextSpan                                             %! IC
     ]
+    <> \stopTextSpan                                             %! IC
     
     % [I ViolinIMusicVoice measure 526 / measure 8]              %! SM4
     \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
@@ -3724,9 +3724,9 @@ I_CelloMusicVoice = {
     c'8
     \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     -\upbow
-    <> \stopTextSpanOne                                          %! IC
     ]
     \bacaStopTextSpanBCP
+    <> \stopTextSpanOne                                          %! IC
     
 }
 

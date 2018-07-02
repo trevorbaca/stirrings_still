@@ -794,8 +794,8 @@ J_ViolinIIMusicVoice = {
         c'8
         
         r4
-        <> \stopTextSpan                                         %! IC
         \revert TextSpanner.staff-padding                        %! OC2
+        <> \stopTextSpan                                         %! IC
     }
     
     % [J ViolinIIMusicVoice measure 533 / measure 4]             %! SM4
