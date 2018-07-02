@@ -3529,10 +3529,10 @@ H_ViolinIIMusicVoice = {
         -\downbow                                                %! IC
         
         r8
-        <> \stopTextSpan                                         %! IC
         \revert TextSpanner.staff-padding                        %! OC2
         \revert TupletBracket.staff-padding                      %! OC2
         \revert TupletNumber.text                                %! OC2
+        <> \stopTextSpan                                         %! IC
     }
     
     % [H ViolinIIMusicVoice measure 500 / measure 34]            %! SM4

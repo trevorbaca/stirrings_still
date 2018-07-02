@@ -3550,8 +3550,8 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 61/64
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
-        <> \stopTextSpan                                         %! IC
         ]
+        <> \stopTextSpan                                         %! IC
     }
     \revert TupletNumber.text
     
@@ -3650,9 +3650,9 @@ D_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    ]
     <> \stopTextSpan                                             %! IC
     <> \stopTextSpanOne                                          %! IC
-    ]
     
     % [D ViolinIMusicVoice measure 270 / measure 64]             %! SM4
     \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
@@ -3746,9 +3746,9 @@ D_ViolinIMusicVoice = {
     \set stemRightBeamCount = 0
     \baca_unpitched_music_warning                                %! SM24
     c'8
+    ]
     <> \stopTextSpan                                             %! IC
     <> \stopTextSpanOne                                          %! IC
-    ]
     
     % [D ViolinIMusicVoice measure 273 / measure 67]             %! SM4
     \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
@@ -4602,8 +4602,8 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'16 * 119/64
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
-        <> \stopTextSpan                                         %! IC
         ]
+        <> \stopTextSpan                                         %! IC
     }
     \revert TupletNumber.text
     
@@ -4702,9 +4702,9 @@ D_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    ]
     <> \stopTextSpan                                             %! IC
     <> \stopTextSpanOne                                          %! IC
-    ]
     
     % [D ViolinIIMusicVoice measure 270 / measure 64]            %! SM4
     \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
@@ -5723,9 +5723,9 @@ D_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    ]
     <> \stopTextSpan                                             %! IC
     <> \stopTextSpanOne                                          %! IC
-    ]
     
     % [D ViolaMusicVoice measure 270 / measure 64]               %! SM4
     \voices "ViolaMusicVoice", "MultimeasureRestVoice"
@@ -5767,8 +5767,6 @@ D_ViolaMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'2
-    <> \stopTextSpan                                             %! IC
-    <> \stopTextSpanOne                                          %! IC
     - \abjad_dashed_line_with_hook                               %! IC
     - \tweak bound-details.left.text \markup {                   %! IC
         \concat                                                  %! IC
@@ -5795,6 +5793,8 @@ D_ViolaMusicVoice = {
     - \tweak bound-details.right.padding 3.25                    %! IC
     - \tweak staff-padding #9                                    %! IC
     \startTextSpanOne                                            %! IC
+    <> \stopTextSpan                                             %! IC
+    <> \stopTextSpanOne                                          %! IC
     
     % [D ViolaMusicVoice measure 273 / measure 67]               %! SM4
     \voices "ViolaMusicVoice", "MultimeasureRestVoice"
@@ -6822,9 +6822,9 @@ D_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    ]
     <> \stopTextSpan                                             %! IC
     <> \stopTextSpanOne                                          %! IC
-    ]
     
     % [D CelloMusicVoice measure 270 / measure 64]               %! SM4
     \voices "CelloMusicVoice", "MultimeasureRestVoice"
