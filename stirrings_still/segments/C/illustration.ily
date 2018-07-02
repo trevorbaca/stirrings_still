@@ -3199,7 +3199,7 @@ C_ViolinIMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -3331,7 +3331,7 @@ C_ViolinIMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -3463,7 +3463,7 @@ C_ViolinIMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -3761,24 +3761,16 @@ C_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    <> \stopTextSpan
+    <> \stopTextSpanOne
     \breathe                                                     %! IC
     
     r4
     
     r8
-    <> \stopTextSpan
-    <> \stopTextSpanOne
     
     % [C ViolinIMusicVoice measure 163 / measure 34]             %! SM4
-    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
-    <<
-        \tweak NoteHead.no-ledgers ##t
-        \tweak NoteHead.transparent ##t
-        \tweak Dots.transparent ##t
-        c'1 * 5/8
-    \\
     R1 * 5/8
-    >>
     
     % [C ViolinIMusicVoice measure 164 / measure 35]             %! SM4
     R1 * 3/4
@@ -4484,7 +4476,7 @@ C_ViolinIMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -4924,7 +4916,7 @@ C_ViolinIIMusicVoice = {
                     #0.25                                        %! PSC1
             }                                                    %! PSC1
         }                                                        %! PSC1
-    - \abjad_invisible_line                              %! PSC1
+    - \abjad_invisible_line                                      %! PSC1
     - \tweak staff-padding #4                                    %! PSC1
     \startTextSpan                                               %! PSC1
     
@@ -5034,7 +5026,7 @@ C_ViolinIIMusicVoice = {
                     #0.25                                        %! PSC1
             }                                                    %! PSC1
         }                                                        %! PSC1
-    - \abjad_invisible_line                              %! PSC1
+    - \abjad_invisible_line                                      %! PSC1
     - \tweak staff-padding #4                                    %! PSC1
     \startTextSpan                                               %! PSC1
     
@@ -5146,7 +5138,7 @@ C_ViolinIIMusicVoice = {
                     #0.25                                        %! PSC1
             }                                                    %! PSC1
         }                                                        %! PSC1
-    - \abjad_invisible_line                              %! PSC1
+    - \abjad_invisible_line                                      %! PSC1
     - \tweak staff-padding #4                                    %! PSC1
     \startTextSpan                                               %! PSC1
     
@@ -5350,9 +5342,9 @@ C_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'16
+        <> \stopTextSpanOne
         
         r8
-        <> \stopTextSpanOne
     }
     
     % [C ViolinIIMusicVoice measure 159 / measure 30]            %! SM4
@@ -5448,24 +5440,16 @@ C_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    <> \stopTextSpan
+    <> \stopTextSpanOne
     \breathe                                                     %! IC
     
     r4
     
     r8
-    <> \stopTextSpan
-    <> \stopTextSpanOne
     
     % [C ViolinIIMusicVoice measure 163 / measure 34]            %! SM4
-    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
-    <<
-        \tweak NoteHead.no-ledgers ##t
-        \tweak NoteHead.transparent ##t
-        \tweak Dots.transparent ##t
-        c'1 * 5/8
-    \\
     R1 * 5/8
-    >>
     
     % [C ViolinIIMusicVoice measure 164 / measure 35]            %! SM4
     R1 * 3/4
@@ -6161,7 +6145,7 @@ C_ViolinIIMusicVoice = {
                     #0.25                                        %! PSC1
             }                                                    %! PSC1
         }                                                        %! PSC1
-    - \abjad_invisible_line                              %! PSC1
+    - \abjad_invisible_line                                      %! PSC1
     - \tweak staff-padding #4                                    %! PSC1
     \startTextSpan                                               %! PSC1
     
@@ -6660,7 +6644,7 @@ C_ViolaMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -6802,7 +6786,7 @@ C_ViolaMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -6944,7 +6928,7 @@ C_ViolaMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -7260,24 +7244,16 @@ C_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    <> \stopTextSpan
+    <> \stopTextSpanOne
     \breathe                                                     %! IC
     
     r4
     
     r8
-    <> \stopTextSpan
-    <> \stopTextSpanOne
     
     % [C ViolaMusicVoice measure 163 / measure 34]               %! SM4
-    \voices "ViolaMusicVoice", "MultimeasureRestVoice"
-    <<
-        \tweak NoteHead.no-ledgers ##t
-        \tweak NoteHead.transparent ##t
-        \tweak Dots.transparent ##t
-        c'1 * 5/8
-    \\
     R1 * 5/8
-    >>
     
     % [C ViolaMusicVoice measure 164 / measure 35]               %! SM4
     R1 * 3/4
@@ -8002,7 +7978,7 @@ C_ViolaMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -8419,7 +8395,7 @@ C_CelloMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -8531,7 +8507,7 @@ C_CelloMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -8642,7 +8618,7 @@ C_CelloMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
@@ -8906,13 +8882,13 @@ C_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    <> \stopTextSpan
+    <> \stopTextSpanOne
     \breathe                                                     %! IC
     
     r4
     
     r8
-    <> \stopTextSpan
-    <> \stopTextSpanOne
     
     % [C CelloMusicVoice measure 163 / measure 34]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -9605,7 +9581,7 @@ C_CelloMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         - \tweak staff-padding #4                                %! PSC1
         \startTextSpan                                           %! PSC1
         
