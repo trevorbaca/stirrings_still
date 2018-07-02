@@ -2166,7 +2166,7 @@ H_ViolinIMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         \startTextSpan                                           %! PSC1
         
         b'4
@@ -3239,7 +3239,7 @@ H_ViolinIIMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         \startTextSpan                                           %! PSC1
         
         af'!4
@@ -3496,32 +3496,21 @@ H_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow                                                %! IC
-        - \tweak Y-extent ##f
-        - \tweak bound-details.left.text \markup {
-            \concat
-                {
-                    \upright
-                        \override
-                            #'(box-padding . 0.5)
-                            \box
-                                "lhd + 1/2 clt"
-                    \hspace
-                        #0.5
-                }
-            }
-        - \tweak dash-fraction 0.25
-        - \tweak dash-period 1.5
-        - \tweak bound-details.left-broken.text ##f
-        - \tweak bound-details.left.stencil-align-dir-y 0
-        - \tweak bound-details.right-broken.arrow ##f
-        - \tweak bound-details.right-broken.padding 0
-        - \tweak bound-details.right-broken.text ##f
-        - \tweak bound-details.right.padding 2.25
-        - \tweak bound-details.right.text \markup {
-            \draw-line
-                #'(0 . -1)
-            }
-        \startTextSpan
+        - \abjad_dashed_line_with_hook                           %! IC
+        - \tweak bound-details.left.text \markup {               %! IC
+            \concat                                              %! IC
+                {                                                %! IC
+                    \upright                                     %! IC
+                        \override                                %! IC
+                            #'(box-padding . 0.5)                %! IC
+                            \box                                 %! IC
+                                "lhd + 1/2 clt"                  %! IC
+                    \hspace                                      %! IC
+                        #0.5                                     %! IC
+                }                                                %! IC
+            }                                                    %! IC
+        - \tweak bound-details.right.padding 3.25                %! IC
+        \startTextSpan                                           %! IC
         
         r4
     }
@@ -3540,14 +3529,22 @@ H_ViolinIIMusicVoice = {
         -\downbow                                                %! IC
         
         r8
+        <> \stopTextSpan                                         %! IC
         \revert TextSpanner.staff-padding                        %! OC2
         \revert TupletBracket.staff-padding                      %! OC2
         \revert TupletNumber.text                                %! OC2
     }
     
     % [H ViolinIIMusicVoice measure 500 / measure 34]            %! SM4
+    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 1/4
+    \\
     R1 * 1/4
-    \stopTextSpan
+    >>
     
     % [H ViolinIIMusicVoice measure 501 / measure 35]            %! SM4
     \override DynamicLineSpanner.staff-padding = #'3             %! OC1
@@ -4284,7 +4281,7 @@ H_ViolaMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         \startTextSpan                                           %! PSC1
         
         b2

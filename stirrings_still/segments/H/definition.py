@@ -378,8 +378,9 @@ maker(
     baca.dynamic('mp', redundant=True),
     baca.text_spanner(
         baca.markups.lhd_plus_half_clt().boxed(),
-        right_padding=2.25,
-        selector=baca.rleaves(),
+        leak=True,
+        right_padding=3.25,
+        selector=baca.leaves(),
         ),
     baca.text_spanner_staff_padding(7),
     baca.tuplet_bracket_staff_padding(2),

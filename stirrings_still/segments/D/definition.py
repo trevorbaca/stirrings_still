@@ -401,14 +401,14 @@ maker(
         baca.markups.cir(8),
         abjad.tweak(5).staff_padding,
         leak=True,
-        selector=baca.tleaves(),
+        right_padding=3.25,
         ),
     baca.text_spanner(
         baca.markups.golden_tone(),
         abjad.tweak(9).staff_padding,
         leak=True,
         lilypond_id=1,
-        selector=baca.tleaves(),
+        right_padding=3.25,
         ),
     )
 

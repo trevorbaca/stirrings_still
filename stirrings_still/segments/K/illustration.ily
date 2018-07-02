@@ -2086,7 +2086,7 @@ K_ViolinIMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
@@ -3226,7 +3226,7 @@ K_ViolinIIMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
@@ -4396,7 +4396,7 @@ K_ViolaMusicVoice = {
                     #0.25                                        %! PSC1
             }                                                    %! PSC1
         }                                                        %! PSC1
-    - \abjad_invisible_line                              %! PSC1
+    - \abjad_invisible_line                                      %! PSC1
     \startTextSpan                                               %! PSC1
     
     \baca_unpitched_music_warning                                %! SM24
@@ -4928,7 +4928,7 @@ K_CelloMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line                          %! PSC1
+        - \abjad_invisible_line                                  %! PSC1
         \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
