@@ -120,6 +120,6 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (6, 19)),
-    baca.text_spanner('[grid-to-trajectory]'),
+    baca.text_spanner('[grid-to-trajectory]', leak=True, right_padding=3.25),
     stirrings_still.grid_to_trajectory(),
     )

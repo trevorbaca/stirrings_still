@@ -66,8 +66,9 @@ maker(
     baca.dynamic('mp'),
     baca.text_spanner(
         baca.markups.lhd_plus_half_clt().boxed(),
-        right_padding=1.75,
-        selector=baca.rleaves(),
+        leak=True,
+        right_padding=2.5,
+        selector=baca.leaves(),
         ),
     baca.text_spanner_staff_padding(5),
     stirrings_still.clockticks(),

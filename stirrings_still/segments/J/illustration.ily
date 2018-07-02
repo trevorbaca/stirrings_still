@@ -763,32 +763,21 @@ J_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'8
         \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak Y-extent ##f
-        - \tweak bound-details.left.text \markup {
-            \concat
-                {
-                    \upright
-                        \override
-                            #'(box-padding . 0.5)
-                            \box
-                                "lhd + 1/2 clt"
-                    \hspace
-                        #0.5
-                }
-            }
-        - \tweak dash-fraction 0.25
-        - \tweak dash-period 1.5
-        - \tweak bound-details.left-broken.text ##f
-        - \tweak bound-details.left.stencil-align-dir-y 0
-        - \tweak bound-details.right-broken.arrow ##f
-        - \tweak bound-details.right-broken.padding 0
-        - \tweak bound-details.right-broken.text ##f
-        - \tweak bound-details.right.padding 1.75
-        - \tweak bound-details.right.text \markup {
-            \draw-line
-                #'(0 . -1)
-            }
-        \startTextSpan
+        - \abjad_dashed_line_with_hook                           %! IC
+        - \tweak bound-details.left.text \markup {               %! IC
+            \concat                                              %! IC
+                {                                                %! IC
+                    \upright                                     %! IC
+                        \override                                %! IC
+                            #'(box-padding . 0.5)                %! IC
+                            \box                                 %! IC
+                                "lhd + 1/2 clt"                  %! IC
+                    \hspace                                      %! IC
+                        #0.5                                     %! IC
+                }                                                %! IC
+            }                                                    %! IC
+        - \tweak bound-details.right.padding 2.5                 %! IC
+        \startTextSpan                                           %! IC
         
         r4
     }
@@ -805,6 +794,7 @@ J_ViolinIIMusicVoice = {
         c'8
         
         r4
+        <> \stopTextSpan                                         %! IC
         \revert TextSpanner.staff-padding                        %! OC2
     }
     
@@ -814,7 +804,6 @@ J_ViolinIIMusicVoice = {
     c'2.
     \baca_appena_udibile                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { "[double-stop cont.]" }                          %! IC
-    \stopTextSpan
     
     % [J ViolinIIMusicVoice measure 534 / measure 5]             %! SM4
     \baca_unpitched_music_warning                                %! SM24

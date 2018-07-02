@@ -2647,32 +2647,21 @@ B_ViolinIMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Vn. I”]"                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \override
-                        #'(box-padding . 0.5)
-                        \box
-                            "lhd + 1/2 clt"
-                \hspace
-                    #0.5
-            }
-        }
-    - \tweak dash-fraction 0.25
-    - \tweak dash-period 1.5
-    - \tweak bound-details.left-broken.text ##f
-    - \tweak bound-details.left.stencil-align-dir-y 0
-    - \tweak bound-details.right-broken.arrow ##f
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 1.75
-    - \tweak bound-details.right.text \markup {
-        \draw-line
-            #'(0 . -1)
-        }
-    \startTextSpan
+    - \abjad_dashed_line_with_hook                               %! IC
+    - \tweak bound-details.left.text \markup {                   %! IC
+        \concat                                                  %! IC
+            {                                                    %! IC
+                \upright                                         %! IC
+                    \override                                    %! IC
+                        #'(box-padding . 0.5)                    %! IC
+                        \box                                     %! IC
+                            "lhd + 1/2 clt"                      %! IC
+                \hspace                                          %! IC
+                    #0.5                                         %! IC
+            }                                                    %! IC
+        }                                                        %! IC
+    - \tweak bound-details.right.padding 1.75                    %! IC
+    \startTextSpan                                               %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2747,7 +2736,7 @@ B_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'8
         \baca_mf_sub                                             %! SM8:EXPLICIT_DYNAMIC:IC
-        \stopTextSpan
+        \stopTextSpan                                            %! IC
         
         r4
     }
@@ -3575,32 +3564,21 @@ B_ViolinIIMusicVoice = {
                 #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 "[“Vn. II”]"                                     %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        - \tweak Y-extent ##f
-        - \tweak bound-details.left.text \markup {
-            \concat
-                {
-                    \upright
-                        \override
-                            #'(box-padding . 0.5)
-                            \box
-                                "lhd + 1/2 clt"
-                    \hspace
-                        #0.5
-                }
-            }
-        - \tweak dash-fraction 0.25
-        - \tweak dash-period 1.5
-        - \tweak bound-details.left-broken.text ##f
-        - \tweak bound-details.left.stencil-align-dir-y 0
-        - \tweak bound-details.right-broken.arrow ##f
-        - \tweak bound-details.right-broken.padding 0
-        - \tweak bound-details.right-broken.text ##f
-        - \tweak bound-details.right.padding 1.75
-        - \tweak bound-details.right.text \markup {
-            \draw-line
-                #'(0 . -1)
-            }
-        \startTextSpan
+        - \abjad_dashed_line_with_hook                           %! IC
+        - \tweak bound-details.left.text \markup {               %! IC
+            \concat                                              %! IC
+                {                                                %! IC
+                    \upright                                     %! IC
+                        \override                                %! IC
+                            #'(box-padding . 0.5)                %! IC
+                            \box                                 %! IC
+                                "lhd + 1/2 clt"                  %! IC
+                    \hspace                                      %! IC
+                        #0.5                                     %! IC
+                }                                                %! IC
+            }                                                    %! IC
+        - \tweak bound-details.right.padding 1.75                %! IC
+        \startTextSpan                                           %! IC
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -3718,7 +3696,7 @@ B_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'8
         \baca_mf_sub                                             %! SM8:EXPLICIT_DYNAMIC:IC
-        \stopTextSpan
+        \stopTextSpan                                            %! IC
         
         r4
     }
@@ -4586,32 +4564,21 @@ B_ViolaMusicVoice = {
                 #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 [“Va.”]                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        - \tweak Y-extent ##f
-        - \tweak bound-details.left.text \markup {
-            \concat
-                {
-                    \upright
-                        \override
-                            #'(box-padding . 0.5)
-                            \box
-                                "lhd + 1/2 clt"
-                    \hspace
-                        #0.5
-                }
-            }
-        - \tweak dash-fraction 0.25
-        - \tweak dash-period 1.5
-        - \tweak bound-details.left-broken.text ##f
-        - \tweak bound-details.left.stencil-align-dir-y 0
-        - \tweak bound-details.right-broken.arrow ##f
-        - \tweak bound-details.right-broken.padding 0
-        - \tweak bound-details.right-broken.text ##f
-        - \tweak bound-details.right.padding 1.75
-        - \tweak bound-details.right.text \markup {
-            \draw-line
-                #'(0 . -1)
-            }
-        \startTextSpan
+        - \abjad_dashed_line_with_hook                           %! IC
+        - \tweak bound-details.left.text \markup {               %! IC
+            \concat                                              %! IC
+                {                                                %! IC
+                    \upright                                     %! IC
+                        \override                                %! IC
+                            #'(box-padding . 0.5)                %! IC
+                            \box                                 %! IC
+                                "lhd + 1/2 clt"                  %! IC
+                    \hspace                                      %! IC
+                        #0.5                                     %! IC
+                }                                                %! IC
+            }                                                    %! IC
+        - \tweak bound-details.right.padding 1.75                %! IC
+        \startTextSpan                                           %! IC
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -4729,7 +4696,7 @@ B_ViolaMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'8
         \baca_mf_sub                                             %! SM8:EXPLICIT_DYNAMIC:IC
-        \stopTextSpan
+        \stopTextSpan                                            %! IC
         
         r4
     }
@@ -5304,32 +5271,21 @@ B_CelloMusicVoice = {
                 #(x11-color 'green4)                             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 [“Vc.”]                                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             }                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        - \tweak Y-extent ##f
-        - \tweak bound-details.left.text \markup {
-            \concat
-                {
-                    \upright
-                        \override
-                            #'(box-padding . 0.5)
-                            \box
-                                "lhd + 1/2 clt"
-                    \hspace
-                        #0.5
-                }
-            }
-        - \tweak dash-fraction 0.25
-        - \tweak dash-period 1.5
-        - \tweak bound-details.left-broken.text ##f
-        - \tweak bound-details.left.stencil-align-dir-y 0
-        - \tweak bound-details.right-broken.arrow ##f
-        - \tweak bound-details.right-broken.padding 0
-        - \tweak bound-details.right-broken.text ##f
-        - \tweak bound-details.right.padding 1.75
-        - \tweak bound-details.right.text \markup {
-            \draw-line
-                #'(0 . -1)
-            }
-        \startTextSpan
+        - \abjad_dashed_line_with_hook                           %! IC
+        - \tweak bound-details.left.text \markup {               %! IC
+            \concat                                              %! IC
+                {                                                %! IC
+                    \upright                                     %! IC
+                        \override                                %! IC
+                            #'(box-padding . 0.5)                %! IC
+                            \box                                 %! IC
+                                "lhd + 1/2 clt"                  %! IC
+                    \hspace                                      %! IC
+                        #0.5                                     %! IC
+                }                                                %! IC
+            }                                                    %! IC
+        - \tweak bound-details.right.padding 1.75                %! IC
+        \startTextSpan                                           %! IC
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \set Staff.instrumentName =                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -5447,7 +5403,7 @@ B_CelloMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'8
         \baca_mf_sub                                             %! SM8:EXPLICIT_DYNAMIC:IC
-        \stopTextSpan
+        \stopTextSpan                                            %! IC
         
         r4
     }
