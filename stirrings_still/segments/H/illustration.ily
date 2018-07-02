@@ -2166,7 +2166,7 @@ H_ViolinIMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line_segment                          %! PSC1
+        - \abjad_invisible_line                          %! PSC1
         \startTextSpan                                           %! PSC1
         
         b'4
@@ -3239,7 +3239,7 @@ H_ViolinIIMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line_segment                          %! PSC1
+        - \abjad_invisible_line                          %! PSC1
         \startTextSpan                                           %! PSC1
         
         af'!4
@@ -4284,7 +4284,7 @@ H_ViolaMusicVoice = {
                         #0.25                                    %! PSC1
                 }                                                %! PSC1
             }                                                    %! PSC1
-        - \abjad_invisible_line_segment                          %! PSC1
+        - \abjad_invisible_line                          %! PSC1
         \startTextSpan                                           %! PSC1
         
         b2
