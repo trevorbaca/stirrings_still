@@ -165,10 +165,11 @@ maker(
 maker(
     ('tutti', (12, 15)),
     baca.dynamic('p', redundant=True),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.markup('max. tight cir.'),
+        '=>',
         baca.markups.circles(1, 2),
-        do_not_bookend=True,
+        bookend=False,
         piece_selector=baca.group_notes_by_measures([2]),
         tweaks=[abjad.tweak(4).staff_padding],
         ),
@@ -189,10 +190,11 @@ maker(
 maker(
     ('tutti', (16, 19)),
     baca.dynamic('p', redundant=True),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.circles(1, 2),
+        '=>',
         baca.markups.circles(2, 4),
-        do_not_bookend=True,
+        bookend=False,
         piece_selector=baca.group_notes_by_measures([2]),
         tweaks=[abjad.tweak(4).staff_padding],
         ),
@@ -212,10 +214,11 @@ maker(
 maker(
     ('tutti', (20, 23)),
     baca.dynamic('p', redundant=True),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.circles(2, 4),
+        '=>',
         baca.markups.circles(4, 8),
-        do_not_bookend=True,
+        bookend=False,
         piece_selector=baca.group_notes_by_measures([2]),
         tweaks=[abjad.tweak(4).staff_padding],
         ),
@@ -416,10 +419,11 @@ maker(
 maker(
     ('tutti', (71, 76)),
     baca.hairpin('f >o niente'),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.circles(8),
+        '=>',
         baca.markups.circles(2),
-        do_not_bookend=True,
+        bookend=False,
         piece_selector=baca.group_notes_by_measures([3]),
         tweaks=[abjad.tweak(4).staff_padding],
         ),

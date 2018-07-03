@@ -3083,6 +3083,18 @@ C_ViolinIMusicVoice = {
         % [C ViolinIMusicVoice measure 141 / measure 12]         %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'4
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "max. tight cir."                        %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         - \abjad_dashed_line_with_hook                           %! IC
         - \tweak bound-details.left.text \markup {               %! IC
             \concat                                              %! IC
@@ -3099,29 +3111,6 @@ C_ViolinIMusicVoice = {
         - \tweak bound-details.right.padding 3.25                %! IC
         - \tweak staff-padding #7                                %! IC
         \startTextSpanOne                                        %! IC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "max. tight cir."                        %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
         
         r4
         
@@ -3155,20 +3144,19 @@ C_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "1-2” circles"                           %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.25                                    %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \abjad_invisible_line                                  %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_invisible_line                                  %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "1-2” circles"                           %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         
         r4
         
@@ -3193,7 +3181,7 @@ C_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
         
         r4
         <> \stopTextSpanOne                                      %! IC
@@ -3204,6 +3192,18 @@ C_ViolinIMusicVoice = {
         % [C ViolinIMusicVoice measure 145 / measure 16]         %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'4
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "1-2” circles"                           %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         - \abjad_dashed_line_with_hook                           %! IC
         - \tweak bound-details.left.text \markup {               %! IC
             \concat                                              %! IC
@@ -3220,29 +3220,6 @@ C_ViolinIMusicVoice = {
         - \tweak bound-details.right.padding 3.25                %! IC
         - \tweak staff-padding #7                                %! IC
         \startTextSpanOne                                        %! IC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "1-2” circles"                           %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
         
         r4
         
@@ -3276,20 +3253,19 @@ C_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "2-4” circles"                           %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.25                                    %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \abjad_invisible_line                                  %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_invisible_line                                  %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "2-4” circles"                           %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         
         r4
         
@@ -3314,7 +3290,7 @@ C_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
         <> \stopTextSpanOne                                      %! IC
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3323,6 +3299,18 @@ C_ViolinIMusicVoice = {
         % [C ViolinIMusicVoice measure 149 / measure 20]         %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'4
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "2-4” circles"                           %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         - \abjad_dashed_line_with_hook                           %! IC
         - \tweak bound-details.left.text \markup {               %! IC
             \concat                                              %! IC
@@ -3339,29 +3327,6 @@ C_ViolinIMusicVoice = {
         - \tweak bound-details.right.padding 3.25                %! IC
         - \tweak staff-padding #7                                %! IC
         \startTextSpanOne                                        %! IC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "2-4” circles"                           %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -3397,20 +3362,19 @@ C_ViolinIMusicVoice = {
         % [C ViolinIMusicVoice measure 151 / measure 22]         %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "4-8” circles"                           %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.25                                    %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \abjad_invisible_line                                  %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_invisible_line                                  %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "4-8” circles"                           %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         
         r4
         
@@ -3439,7 +3403,7 @@ C_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
         
         r4
         <> \stopTextSpanOne                                      %! IC
@@ -4189,30 +4153,19 @@ C_ViolinIMusicVoice = {
         - \tweak to-barline ##t                                  %! PIC
         - \tweak circled-tip ##t                                 %! PIC
         \>                                                       %! PIC
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "8” circles"                             %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "8” circles"                             %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
         
         \hide NoteHead                                           %! SC
         \override Accidental.stencil = ##f                       %! SC
@@ -4288,21 +4241,20 @@ C_ViolinIMusicVoice = {
         
         % [C ViolinIMusicVoice measure 203 / measure 74]         %! SM4
         a'4
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_invisible_line                                  %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "2” circles"                             %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "2” circles"                             %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.25                                    %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \abjad_invisible_line                                  %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
         
         a'4
         \glissando                                               %! SC
@@ -4358,7 +4310,7 @@ C_ViolinIMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         g'4
         \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
     }
     
     % [C ViolinIMusicVoice measure 206 / measure 77]             %! SM4
@@ -4635,6 +4587,18 @@ C_ViolinIIMusicVoice = {
     % [C ViolinIIMusicVoice measure 141 / measure 12]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'4
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    "max. tight cir."                            %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak staff-padding #4                                    %! PIC
+    \startTextSpan                                               %! PIC
     - \abjad_dashed_line_with_hook                               %! IC
     - \tweak bound-details.left.text \markup {                   %! IC
         \concat                                                  %! IC
@@ -4651,29 +4615,6 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.right.padding 3.25                    %! IC
     - \tweak staff-padding #7                                    %! IC
     \startTextSpanOne                                            %! IC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    "max. tight cir."                            %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak staff-padding #4                                    %! PSC1
-    \startTextSpan                                               %! PSC1
     
     r4
     
@@ -4696,20 +4637,19 @@ C_ViolinIIMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \stopTextSpan                                                %! PSC1
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    "1-2” circles"                               %! PSC1
-                \hspace                                          %! PSC1
-                    #0.25                                        %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \abjad_invisible_line                                      %! PSC1
-    - \tweak staff-padding #4                                    %! PSC1
-    \startTextSpan                                               %! PSC1
+    \stopTextSpan                                                %! PIC
+    - \abjad_invisible_line                                      %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    "1-2” circles"                               %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak staff-padding #4                                    %! PIC
+    \startTextSpan                                               %! PIC
     
     r4
     
@@ -4726,7 +4666,7 @@ C_ViolinIIMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     r4
     <> \stopTextSpanOne                                          %! IC
@@ -4734,6 +4674,18 @@ C_ViolinIIMusicVoice = {
     % [C ViolinIIMusicVoice measure 145 / measure 16]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'4
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    "1-2” circles"                               %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak staff-padding #4                                    %! PIC
+    \startTextSpan                                               %! PIC
     - \abjad_dashed_line_with_hook                               %! IC
     - \tweak bound-details.left.text \markup {                   %! IC
         \concat                                                  %! IC
@@ -4750,29 +4702,6 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.right.padding 3.25                    %! IC
     - \tweak staff-padding #7                                    %! IC
     \startTextSpanOne                                            %! IC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    "1-2” circles"                               %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak staff-padding #4                                    %! PSC1
-    \startTextSpan                                               %! PSC1
     
     r4
     
@@ -4795,20 +4724,19 @@ C_ViolinIIMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \stopTextSpan                                                %! PSC1
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    "2-4” circles"                               %! PSC1
-                \hspace                                          %! PSC1
-                    #0.25                                        %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \abjad_invisible_line                                      %! PSC1
-    - \tweak staff-padding #4                                    %! PSC1
-    \startTextSpan                                               %! PSC1
+    \stopTextSpan                                                %! PIC
+    - \abjad_invisible_line                                      %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    "2-4” circles"                               %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak staff-padding #4                                    %! PIC
+    \startTextSpan                                               %! PIC
     
     r4
     
@@ -4825,12 +4753,24 @@ C_ViolinIIMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     <> \stopTextSpanOne                                          %! IC
     
     % [C ViolinIIMusicVoice measure 149 / measure 20]            %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'4
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    "2-4” circles"                               %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak staff-padding #4                                    %! PIC
+    \startTextSpan                                               %! PIC
     - \abjad_dashed_line_with_hook                               %! IC
     - \tweak bound-details.left.text \markup {                   %! IC
         \concat                                                  %! IC
@@ -4847,29 +4787,6 @@ C_ViolinIIMusicVoice = {
     - \tweak bound-details.right.padding 3.25                    %! IC
     - \tweak staff-padding #7                                    %! IC
     \startTextSpanOne                                            %! IC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    "2-4” circles"                               %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak staff-padding #4                                    %! PSC1
-    \startTextSpan                                               %! PSC1
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -4896,20 +4813,19 @@ C_ViolinIIMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \stopTextSpan                                                %! PSC1
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    "4-8” circles"                               %! PSC1
-                \hspace                                          %! PSC1
-                    #0.25                                        %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \abjad_invisible_line                                      %! PSC1
-    - \tweak staff-padding #4                                    %! PSC1
-    \startTextSpan                                               %! PSC1
+    \stopTextSpan                                                %! PIC
+    - \abjad_invisible_line                                      %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    "4-8” circles"                               %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak staff-padding #4                                    %! PIC
+    \startTextSpan                                               %! PIC
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -4930,7 +4846,7 @@ C_ViolinIIMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     <> \stopTextSpanOne                                          %! IC
     
     % [C ViolinIIMusicVoice measure 153 / measure 24]            %! SM4
@@ -5689,30 +5605,19 @@ C_ViolinIIMusicVoice = {
     - \tweak to-barline ##t                                      %! PIC
     - \tweak circled-tip ##t                                     %! PIC
     \>                                                           %! PIC
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    "8” circles"                                 %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak staff-padding #4                                    %! PIC
+    \startTextSpan                                               %! PIC
     \glissando                                                   %! SC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    "8” circles"                                 %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak staff-padding #4                                    %! PSC1
-    \startTextSpan                                               %! PSC1
     
     \hide NoteHead                                               %! SC
     \override Accidental.stencil = ##f                           %! SC
@@ -5770,21 +5675,20 @@ C_ViolinIIMusicVoice = {
     
     % [C ViolinIIMusicVoice measure 203 / measure 74]            %! SM4
     g'4
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
+    - \abjad_invisible_line                                      %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    "2” circles"                                 %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak staff-padding #4                                    %! PIC
+    \startTextSpan                                               %! PIC
     \glissando                                                   %! SC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    "2” circles"                                 %! PSC1
-                \hspace                                          %! PSC1
-                    #0.25                                        %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \abjad_invisible_line                                      %! PSC1
-    - \tweak staff-padding #4                                    %! PSC1
-    \startTextSpan                                               %! PSC1
     
     g'4
     \glissando                                                   %! SC
@@ -5825,7 +5729,7 @@ C_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     f'4
     \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [C ViolinIIMusicVoice measure 206 / measure 77]            %! SM4
     R1 * 1/4
@@ -6160,6 +6064,18 @@ C_ViolaMusicVoice = {
         % [C ViolaMusicVoice measure 141 / measure 12]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'4
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "max. tight cir."                        %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         - \abjad_dashed_line_with_hook                           %! IC
         - \tweak bound-details.left.text \markup {               %! IC
             \concat                                              %! IC
@@ -6176,29 +6092,6 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.right.padding 3.25                %! IC
         - \tweak staff-padding #7                                %! IC
         \startTextSpanOne                                        %! IC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "max. tight cir."                        %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
         
         r4
         
@@ -6237,20 +6130,19 @@ C_ViolaMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "1-2” circles"                           %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.25                                    %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \abjad_invisible_line                                  %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_invisible_line                                  %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "1-2” circles"                           %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         
         r4
         
@@ -6280,7 +6172,7 @@ C_ViolaMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
         
         r4
         <> \stopTextSpanOne                                      %! IC
@@ -6291,6 +6183,18 @@ C_ViolaMusicVoice = {
         % [C ViolaMusicVoice measure 145 / measure 16]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'4
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "1-2” circles"                           %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         - \abjad_dashed_line_with_hook                           %! IC
         - \tweak bound-details.left.text \markup {               %! IC
             \concat                                              %! IC
@@ -6307,29 +6211,6 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.right.padding 3.25                %! IC
         - \tweak staff-padding #7                                %! IC
         \startTextSpanOne                                        %! IC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "1-2” circles"                           %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
         
         r4
         
@@ -6368,20 +6249,19 @@ C_ViolaMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "2-4” circles"                           %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.25                                    %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \abjad_invisible_line                                  %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_invisible_line                                  %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "2-4” circles"                           %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         
         r4
         
@@ -6411,7 +6291,7 @@ C_ViolaMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
         <> \stopTextSpanOne                                      %! IC
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -6420,6 +6300,18 @@ C_ViolaMusicVoice = {
         % [C ViolaMusicVoice measure 149 / measure 20]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'4
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "2-4” circles"                           %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         - \abjad_dashed_line_with_hook                           %! IC
         - \tweak bound-details.left.text \markup {               %! IC
             \concat                                              %! IC
@@ -6436,29 +6328,6 @@ C_ViolaMusicVoice = {
         - \tweak bound-details.right.padding 3.25                %! IC
         - \tweak staff-padding #7                                %! IC
         \startTextSpanOne                                        %! IC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "2-4” circles"                           %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -6499,20 +6368,19 @@ C_ViolaMusicVoice = {
         % [C ViolaMusicVoice measure 151 / measure 22]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "4-8” circles"                           %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.25                                    %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \abjad_invisible_line                                  %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_invisible_line                                  %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "4-8” circles"                           %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -6549,7 +6417,7 @@ C_ViolaMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
         <> \stopTextSpanOne                                      %! IC
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -7319,30 +7187,19 @@ C_ViolaMusicVoice = {
         - \tweak to-barline ##t                                  %! PIC
         - \tweak circled-tip ##t                                 %! PIC
         \>                                                       %! PIC
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "8” circles"                             %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "8” circles"                             %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
         
         \hide NoteHead                                           %! SC
         \override Accidental.stencil = ##f                       %! SC
@@ -7427,21 +7284,20 @@ C_ViolaMusicVoice = {
         
         % [C ViolaMusicVoice measure 203 / measure 74]           %! SM4
         e4
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_invisible_line                                  %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "2” circles"                             %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "2” circles"                             %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.25                                    %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \abjad_invisible_line                                  %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
         
         d4
         \glissando                                               %! SC
@@ -7506,7 +7362,7 @@ C_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         b,4
         \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
     }
     
     % [C ViolaMusicVoice measure 206 / measure 77]               %! SM4
@@ -7750,6 +7606,18 @@ C_CelloMusicVoice = {
         % [C CelloMusicVoice measure 141 / measure 12]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'4
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "max. tight cir."                        %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         - \abjad_dashed_line_with_hook                           %! IC
         - \tweak bound-details.left.text \markup {               %! IC
             \concat                                              %! IC
@@ -7766,29 +7634,6 @@ C_CelloMusicVoice = {
         - \tweak bound-details.right.padding 3.25                %! IC
         - \tweak staff-padding #7                                %! IC
         \startTextSpanOne                                        %! IC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "max. tight cir."                        %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
         
         r4
     }
@@ -7812,20 +7657,19 @@ C_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "1-2” circles"                           %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.25                                    %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \abjad_invisible_line                                  %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_invisible_line                                  %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "1-2” circles"                           %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         
         r4
         
@@ -7840,7 +7684,7 @@ C_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
         
         r4
         <> \stopTextSpanOne                                      %! IC
@@ -7851,6 +7695,18 @@ C_CelloMusicVoice = {
         % [C CelloMusicVoice measure 145 / measure 16]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'4
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "1-2” circles"                           %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         - \abjad_dashed_line_with_hook                           %! IC
         - \tweak bound-details.left.text \markup {               %! IC
             \concat                                              %! IC
@@ -7867,29 +7723,6 @@ C_CelloMusicVoice = {
         - \tweak bound-details.right.padding 3.25                %! IC
         - \tweak staff-padding #7                                %! IC
         \startTextSpanOne                                        %! IC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "1-2” circles"                           %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
         
         r4
     }
@@ -7913,20 +7746,19 @@ C_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "2-4” circles"                           %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.25                                    %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \abjad_invisible_line                                  %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_invisible_line                                  %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "2-4” circles"                           %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         
         r4
     }
@@ -7941,7 +7773,7 @@ C_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
         <> \stopTextSpanOne                                      %! IC
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -7950,6 +7782,18 @@ C_CelloMusicVoice = {
         % [C CelloMusicVoice measure 149 / measure 20]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'4
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "2-4” circles"                           %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         - \abjad_dashed_line_with_hook                           %! IC
         - \tweak bound-details.left.text \markup {               %! IC
             \concat                                              %! IC
@@ -7966,29 +7810,6 @@ C_CelloMusicVoice = {
         - \tweak bound-details.right.padding 3.25                %! IC
         - \tweak staff-padding #7                                %! IC
         \startTextSpanOne                                        %! IC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "2-4” circles"                           %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -8013,20 +7834,19 @@ C_CelloMusicVoice = {
         % [C CelloMusicVoice measure 151 / measure 22]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "4-8” circles"                           %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.25                                    %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \abjad_invisible_line                                  %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_invisible_line                                  %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "4-8” circles"                           %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -8047,7 +7867,7 @@ C_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
         <> \stopTextSpanOne                                      %! IC
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -8784,30 +8604,19 @@ C_CelloMusicVoice = {
         - \tweak to-barline ##t                                  %! PIC
         - \tweak circled-tip ##t                                 %! PIC
         \>                                                       %! PIC
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "8” circles"                             %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "8” circles"                             %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
         
         \hide NoteHead                                           %! SC
         \override Accidental.stencil = ##f                       %! SC
@@ -8865,21 +8674,20 @@ C_CelloMusicVoice = {
         
         % [C CelloMusicVoice measure 203 / measure 74]           %! SM4
         d,4
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_invisible_line                                  %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        "2” circles"                             %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        - \tweak staff-padding #4                                %! PIC
+        \startTextSpan                                           %! PIC
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "2” circles"                             %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.25                                    %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \abjad_invisible_line                                  %! PSC1
-        - \tweak staff-padding #4                                %! PSC1
-        \startTextSpan                                           %! PSC1
         
         d,4
         \glissando                                               %! SC
@@ -8917,7 +8725,7 @@ C_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         bf,,!4
         \!                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
     }
     
     % [C CelloMusicVoice measure 206 / measure 77]               %! SM4

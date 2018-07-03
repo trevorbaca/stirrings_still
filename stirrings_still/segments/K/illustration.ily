@@ -1997,29 +1997,18 @@ K_ViolinIMusicVoice = {
         c'4
         \baca_effort_f                                           %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "hair: circles (each as wide as poss.)" }    %! IC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        \musicglyph                              %! PSC1
-                            #"noteheads.s0harmonic"              %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        \startTextSpan                                           %! PSC1
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        \musicglyph                              %! PIC
+                            #"noteheads.s0harmonic"              %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        \startTextSpan                                           %! PIC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -2032,30 +2021,19 @@ K_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        \musicglyph                              %! PSC1
-                            #"noteheads.s2harmonic"              %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        \startTextSpan                                           %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        \musicglyph                              %! PIC
+                            #"noteheads.s2harmonic"              %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        \startTextSpan                                           %! PIC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -2075,19 +2053,18 @@ K_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        ord.                                     %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.25                                    %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \abjad_invisible_line                                  %! PSC1
-        \startTextSpan                                           %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_invisible_line                                  %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        ord.                                     %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        \startTextSpan                                           %! PIC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -2097,7 +2074,7 @@ K_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
         \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
     }
@@ -3143,29 +3120,18 @@ K_ViolinIIMusicVoice = {
         c'4
         \baca_effort_f                                           %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "hair: circles (each as wide as poss.)" }    %! IC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        \musicglyph                              %! PSC1
-                            #"noteheads.s0harmonic"              %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        \startTextSpan                                           %! PSC1
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        \musicglyph                              %! PIC
+                            #"noteheads.s0harmonic"              %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        \startTextSpan                                           %! PIC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -3178,30 +3144,19 @@ K_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        \musicglyph                              %! PSC1
-                            #"noteheads.s2harmonic"              %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        \startTextSpan                                           %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        \musicglyph                              %! PIC
+                            #"noteheads.s2harmonic"              %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        \startTextSpan                                           %! PIC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -3215,19 +3170,18 @@ K_ViolinIIMusicVoice = {
         % [K ViolinIIMusicVoice measure 549 / measure 4]         %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        ord.                                     %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.25                                    %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \abjad_invisible_line                                  %! PSC1
-        \startTextSpan                                           %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_invisible_line                                  %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        ord.                                     %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        \startTextSpan                                           %! PIC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -3237,7 +3191,7 @@ K_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
         \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
     }
@@ -4319,29 +4273,18 @@ K_ViolaMusicVoice = {
     c'4
     \baca_effort_f                                               %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { "hair: circles (each as wide as poss.)" }        %! IC
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    \musicglyph                                  %! PSC1
-                        #"noteheads.s0harmonic"                  %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    \musicglyph                                  %! PIC
+                        #"noteheads.s0harmonic"                  %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    \startTextSpan                                               %! PIC
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -4351,30 +4294,19 @@ K_ViolaMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \stopTextSpan                                                %! PSC1
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    \musicglyph                                  %! PSC1
-                        #"noteheads.s2harmonic"                  %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    \startTextSpan                                               %! PSC1
+    \stopTextSpan                                                %! PIC
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    \musicglyph                                  %! PIC
+                        #"noteheads.s2harmonic"                  %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    \startTextSpan                                               %! PIC
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
@@ -4385,26 +4317,25 @@ K_ViolaMusicVoice = {
     % [K ViolaMusicVoice measure 549 / measure 4]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \stopTextSpan                                                %! PSC1
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    ord.                                         %! PSC1
-                \hspace                                          %! PSC1
-                    #0.25                                        %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \abjad_invisible_line                                      %! PSC1
-    \startTextSpan                                               %! PSC1
+    \stopTextSpan                                                %! PIC
+    - \abjad_invisible_line                                      %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    ord.                                         %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    \startTextSpan                                               %! PIC
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
     
     \baca_unpitched_music_warning                                %! SM24
     c'4
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     \revert TextScript.staff-padding                             %! OC2
     \revert TextSpanner.staff-padding                            %! OC2
     
@@ -4851,59 +4782,37 @@ K_CelloMusicVoice = {
         c'4
         \baca_effort_f                                           %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "hair: circles (each as wide as poss.)" }    %! IC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        \musicglyph                              %! PSC1
-                            #"noteheads.s0harmonic"              %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        \startTextSpan                                           %! PSC1
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        \musicglyph                              %! PIC
+                            #"noteheads.s0harmonic"              %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        \startTextSpan                                           %! PIC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        \musicglyph                              %! PSC1
-                            #"noteheads.s2harmonic"              %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        \startTextSpan                                           %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_dashed_line_with_arrow                          %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        \musicglyph                              %! PIC
+                            #"noteheads.s2harmonic"              %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        \startTextSpan                                           %! PIC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
@@ -4917,23 +4826,22 @@ K_CelloMusicVoice = {
         % [K CelloMusicVoice measure 549 / measure 4]            %! SM4
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        ord.                                     %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.25                                    %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \abjad_invisible_line                                  %! PSC1
-        \startTextSpan                                           %! PSC1
+        \stopTextSpan                                            %! PIC
+        - \abjad_invisible_line                                  %! PIC
+        - \tweak bound-details.left.text \markup {               %! PIC
+            \concat                                              %! PIC
+                {                                                %! PIC
+                    \upright                                     %! PIC
+                        ord.                                     %! PIC
+                    \hspace                                      %! PIC
+                        #0.5                                     %! PIC
+                }                                                %! PIC
+            }                                                    %! PIC
+        \startTextSpan                                           %! PIC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4
-        \stopTextSpan                                            %! PSC1
+        \stopTextSpan                                            %! PIC
         \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
     }
