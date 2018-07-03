@@ -88,14 +88,12 @@ maker(
     'vc',
     # TODO: allow suite
     #baca.suite(
-        baca.bcps(
-            abjad.tweak(7).staff_padding,
-            ),
+        baca.text_spanner_staff_padding(7),
         baca.measures(
             (1, 6),
             baca.beam(),
             stirrings_still.eighths(),
-            stirrings_still.transition_bcps(),
+            stirrings_still.transition_bcps(final_spanner=True),
             ),
         baca.measures(
             (7, -1),
