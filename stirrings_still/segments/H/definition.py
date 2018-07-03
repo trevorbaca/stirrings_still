@@ -95,7 +95,7 @@ maker(
         [0, 2, 3],
         baca.breathe(),
         ),
-    baca.transition(
+    baca.new_transition(
         baca.markups.rasp_partial_2(),
         baca.markups.flaut_partial_2(),
         selector=baca.notes()[:4],
@@ -169,12 +169,15 @@ maker(
     baca.text_script_staff_padding(1.5),
     baca.text_spanner_staff_padding(5),
     baca.markup('(always one circle per stem)'),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.circles(2),
+        '=>',
         baca.markups.circles(4),
+        '=>',
         baca.markups.circles(6),
+        '=>',
         baca.markups.circles(8),
-        do_not_bookend=True,
+        bookend=False,
         piece_selector=baca.group_by_measures([2]),
         ),
     )
@@ -200,13 +203,17 @@ maker(
 maker(
     ('v2', (9, 16)), 
     baca.text_spanner_staff_padding(5),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.flaut_partial_2(),
+        '=>',
         baca.markups.ord(),
+        '=>',
         baca.markups.circles(4),
+        '=>',
         baca.markups.circles(6),
+        '=>',
         baca.markups.circles(8),
-        do_not_bookend=True,
+        bookend=False,
         piece_selector=baca.group_by_measures([1, 1, 2, 2, 2]),
         ),
     )
@@ -301,7 +308,7 @@ maker(
     baca.note_head_style_harmonic(selector=baca.notes()[1:]),
     baca.pitch('Ab2', selector=baca.note(0)),
     baca.pitch('Gb2', selector=baca.notes()[1:]),
-    baca.transition(
+    baca.new_transition(
         baca.markups.flaut(),
         baca.markups.non_flaut(),
         selector=baca.notes()[:2],
@@ -358,7 +365,7 @@ maker(
     baca.markup('thinking color (no longer width)'),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
-    baca.transition(
+    baca.new_transition(
         baca.markups.markup('“whisk” circles'),
         baca.markups.markup('poco scratch circles'),
         selector=baca.leaves()[:3],
@@ -401,7 +408,7 @@ maker(
         baca.markups.string_number(3),
         direction=abjad.Down,
         ),
-    baca.transition(
+    baca.new_transition(
         baca.markups.rasp_partial_2(),
         baca.markups.poco_rasp_partial_2(),
         ),
@@ -415,7 +422,7 @@ maker(
     baca.dynamic('mf'),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
-    baca.transition(
+    baca.new_transition(
         baca.markups.markup('“whisk” circles'),
         baca.markups.markup('mod. scratch circles'),
         selector=baca.leaves()[:3],
@@ -430,7 +437,7 @@ maker(
     baca.dynamic('f'),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
-    baca.transition(
+    baca.new_transition(
         baca.markups.markup('“whisk” circles'),
         baca.markups.markup('molto scratch circles'),
         selector=baca.leaves()[:3],
@@ -455,7 +462,7 @@ maker(
         baca.hairpin('ff > mf'),
         ),
     baca.text_spanner_staff_padding(4),
-    baca.transition(
+    baca.new_transition(
         baca.markups.molto_scratch(),
         baca.markups.pochiss_scratch(),
         selector=baca.leaves().group_by_measure()[-2:].leaves()[:-3],
