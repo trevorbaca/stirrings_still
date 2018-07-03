@@ -1178,6 +1178,7 @@ I_CelloMusicVoice = {
             #12                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Vc.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+    \override TextSpanner.staff-padding = #7                     %! OC1
     \clef "bass"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1199,6 +1200,20 @@ I_CelloMusicVoice = {
             [“Vc.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \<                                                           %! PIC
+    \bacaStopTextSpanBCP
+    - \abjad_solid_line_with_arrow
+    - \tweak bound-details.left.text \markup {
+        \concat
+            {
+                \upright
+                    \fraction
+                        1
+                        7
+                \hspace
+                    #0.5
+            }
+        }
+    \bacaStartTextSpanBCP
     - \abjad_dashed_line_with_hook                               %! IC
     - \tweak bound-details.left.text \markup {                   %! IC
         \concat                                                  %! IC
@@ -1216,27 +1231,6 @@ I_CelloMusicVoice = {
     - \tweak staff-padding #12                                   %! IC
     \startTextSpanOne                                            %! IC
     [                                                            %! SC
-    - \tweak Y-extent ##f
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \fraction
-                    1
-                    7
-                \hspace
-                    #0.25
-            }
-        }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
-    \bacaStartTextSpanBCP
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1256,182 +1250,126 @@ I_CelloMusicVoice = {
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    3
-                    7
+                \upright
+                    \fraction
+                        3
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    6
-                    7
+                \upright
+                    \fraction
+                        6
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 520 / measure 2]                %! SM4
@@ -1439,156 +1377,108 @@ I_CelloMusicVoice = {
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    3
-                    7
+                \upright
+                    \fraction
+                        3
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 521 / measure 3]                %! SM4
@@ -1596,208 +1486,144 @@ I_CelloMusicVoice = {
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    3
-                    7
+                \upright
+                    \fraction
+                        3
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    6
-                    7
+                \upright
+                    \fraction
+                        6
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 522 / measure 4]                %! SM4
@@ -1805,156 +1631,108 @@ I_CelloMusicVoice = {
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    3
-                    7
+                \upright
+                    \fraction
+                        3
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 523 / measure 5]                %! SM4
@@ -1962,208 +1740,144 @@ I_CelloMusicVoice = {
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    3
-                    7
+                \upright
+                    \fraction
+                        3
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    6
-                    7
+                \upright
+                    \fraction
+                        6
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 524 / measure 6]                %! SM4
@@ -2173,261 +1887,181 @@ I_CelloMusicVoice = {
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    3
-                    7
+                \upright
+                    \fraction
+                        3
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    6
-                    7
+                \upright
+                    \fraction
+                        6
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
+    \bacaStopTextSpanBCP
     ]                                                            %! SC
-    \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    7
-                    7
+                \upright
+                    \fraction
+                        7
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 525 / measure 7]                %! SM4
@@ -2435,324 +2069,228 @@ I_CelloMusicVoice = {
     c'8.
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    7
-                    7
+                \upright
+                    \fraction
+                        7
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    7
-                    7
+                \upright
+                    \fraction
+                        7
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    7
-                    7
+                \upright
+                    \fraction
+                        7
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 526 / measure 8]                %! SM4
@@ -2760,324 +2298,228 @@ I_CelloMusicVoice = {
     c'8.
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    7
-                    7
+                \upright
+                    \fraction
+                        7
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    7
-                    7
+                \upright
+                    \fraction
+                        7
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    7
-                    7
+                \upright
+                    \fraction
+                        7
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 527 / measure 9]                %! SM4
@@ -3085,162 +2527,114 @@ I_CelloMusicVoice = {
     c'8.
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    7
-                    7
+                \upright
+                    \fraction
+                        7
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    7
-                    7
+                \upright
+                    \fraction
+                        7
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 528 / measure 10]               %! SM4
@@ -3253,216 +2647,152 @@ I_CelloMusicVoice = {
     - \tweak circled-tip ##t                                     %! PIC
     \>                                                           %! PIC
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    7
-                    7
+                \upright
+                    \fraction
+                        7
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    7
-                    7
+                \upright
+                    \fraction
+                        7
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 529 / measure 11]               %! SM4
@@ -3470,262 +2800,186 @@ I_CelloMusicVoice = {
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    7
-                    7
+                \upright
+                    \fraction
+                        7
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    5
-                    7
+                \upright
+                    \fraction
+                        5
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    4
-                    7
+                \upright
+                    \fraction
+                        4
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
     -\upbow
-    ]
     \bacaStopTextSpanBCP
-    - \tweak Y-extent ##f
+    ]
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    7
-                    7
+                \upright
+                    \fraction
+                        7
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
     -\downbow
     \bacaStopTextSpanBCP
-    [
-    - \tweak Y-extent ##f
+    - \abjad_solid_line_with_arrow
     - \tweak bound-details.left.text \markup {
         \concat
             {
-                \fraction
-                    1
-                    7
+                \upright
+                    \fraction
+                        1
+                        7
                 \hspace
-                    #0.25
+                    #0.5
             }
         }
-    - \tweak arrow-width 0.25
-    - \tweak dash-fraction 1
-    - \tweak bound-details.left.stencil-align-dir-y #center
-    - \tweak bound-details.right.arrow ##t
-    - \tweak bound-details.right-broken.padding 0
-    - \tweak bound-details.right-broken.text ##f
-    - \tweak bound-details.right.padding 0.5
-    - \tweak bound-details.right.stencil-align-dir-y #center
     - \tweak bound-details.right.text \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \fraction
-                    5
-                    7
-            }
+        \upright
+            \fraction
+                5
+                7
         }
-    - \tweak staff-padding #7
     \bacaStartTextSpanBCP
+    [
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'8
     \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    -\upbow
-    ]
     \bacaStopTextSpanBCP
+    ]
+    \revert TextSpanner.staff-padding                            %! OC2
     <> \stopTextSpanOne                                          %! IC
     
 }

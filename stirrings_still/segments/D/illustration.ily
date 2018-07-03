@@ -6498,96 +6498,71 @@ D_CelloMusicVoice = {
                 \box                                             %! IC
                     "1/2 clt"                                    %! IC
             }                                                    %! IC
-        \glissando                                               %! SC
-        - \tweak Y-extent ##f
+        \bacaStopTextSpanBCP
+        - \abjad_solid_line_with_arrow
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \fraction
-                        6
-                        7
+                    \upright
+                        \fraction
+                            6
+                            7
                     \hspace
-                        #0.25
+                        #0.5
                 }
             }
-        - \tweak arrow-width 0.25
-        - \tweak dash-fraction 1
-        - \tweak bound-details.left.stencil-align-dir-y #center
-        - \tweak bound-details.right.arrow ##t
-        - \tweak bound-details.right-broken.padding 0
-        - \tweak bound-details.right-broken.text ##f
-        - \tweak bound-details.right.padding 0.5
-        - \tweak bound-details.right.stencil-align-dir-y #center
         \bacaStartTextSpanBCP
+        \glissando                                               %! SC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4.
         -\upbow
         \bacaStopTextSpanBCP
-        \glissando                                               %! SC
-        - \tweak Y-extent ##f
+        - \abjad_solid_line_with_arrow
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \fraction
-                        7
-                        7
+                    \upright
+                        \fraction
+                            7
+                            7
                     \hspace
-                        #0.25
+                        #0.5
                 }
             }
-        - \tweak arrow-width 0.25
-        - \tweak dash-fraction 1
-        - \tweak bound-details.left.stencil-align-dir-y #center
-        - \tweak bound-details.right.arrow ##t
-        - \tweak bound-details.right-broken.padding 0
-        - \tweak bound-details.right-broken.text ##f
-        - \tweak bound-details.right.padding 0.5
-        - \tweak bound-details.right.stencil-align-dir-y #center
         \bacaStartTextSpanBCP
+        \glissando                                               %! SC
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
         -\downbow
         \bacaStopTextSpanBCP
-        [
-        \glissando                                               %! SC
-        - \tweak Y-extent ##f
+        - \abjad_solid_line_with_arrow
         - \tweak bound-details.left.text \markup {
             \concat
                 {
-                    \fraction
-                        6
-                        7
+                    \upright
+                        \fraction
+                            6
+                            7
                     \hspace
-                        #0.25
+                        #0.5
                 }
             }
-        - \tweak arrow-width 0.25
-        - \tweak dash-fraction 1
-        - \tweak bound-details.left.stencil-align-dir-y #center
-        - \tweak bound-details.right.arrow ##t
-        - \tweak bound-details.right-broken.padding 0
-        - \tweak bound-details.right-broken.text ##f
-        - \tweak bound-details.right.padding 0.5
-        - \tweak bound-details.right.stencil-align-dir-y #center
         - \tweak bound-details.right.text \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \fraction
-                        7
-                        7
-                }
+            \upright
+                \fraction
+                    7
+                    7
             }
         \bacaStartTextSpanBCP
+        [
+        \glissando                                               %! SC
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
-        -\upbow
-        ]
         \bacaStopTextSpanBCP
+        ]
         \revert DynamicLineSpanner.staff-padding                 %! OC2
         \revert TextScript.staff-padding                         %! OC2
         \revert TextSpanner.staff-padding                        %! OC2
