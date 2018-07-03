@@ -6,6 +6,7 @@ TO-DO
     Remove LineSegment, ArrowLineSegment from Abjad.
     Reimplement MetronomeMarkSpanner with indicators.
     Remove piecewise logic from all spanners.
+    Change library methods to functions.
 
 2.  Teach segment-maker to analyze "mp" ... mp as nonredundant.
     Integrate [F].
