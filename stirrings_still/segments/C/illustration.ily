@@ -7643,11 +7643,16 @@ C_CelloMusicVoice = {
     c'4..
     \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "[clouded pane (stopped)]" }                     %! IC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'4..
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     
     % [C CelloMusicVoice measure 135 / measure 6]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC

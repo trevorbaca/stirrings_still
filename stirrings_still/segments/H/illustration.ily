@@ -5681,11 +5681,16 @@ H_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'4
     \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'4
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r8
