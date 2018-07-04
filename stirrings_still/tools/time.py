@@ -14,5 +14,5 @@ def time(maker, pairs):
         else:
             maker(
                 'GlobalSkips',
-                baca.metronome_mark(value, selector=baca.skip(lmn - 1)),
+                baca.metronome_mark_new(value, selector=baca.skip(lmn - 1)),
                 )
