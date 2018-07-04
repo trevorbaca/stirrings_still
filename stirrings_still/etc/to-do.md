@@ -1,8 +1,7 @@
 TO-DO
 =====
 
-1.  Remove LineSegment, ArrowLineSegment from library.
-    Change library methods to functions.
+1.  Change library methods to functions.
 
 2.  Teach segment-maker to analyze "mp" ... mp as nonredundant.
     Integrate [F].
