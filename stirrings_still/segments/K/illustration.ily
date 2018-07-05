@@ -1836,6 +1836,7 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1868,6 +1869,7 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -1886,6 +1888,7 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -1904,6 +1907,7 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -1933,6 +1937,7 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -1952,6 +1957,7 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -1971,6 +1977,7 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction
@@ -2114,6 +2121,7 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -2132,6 +2140,7 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -2150,6 +2159,7 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -2168,6 +2178,7 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -2231,6 +2242,7 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -2251,6 +2263,7 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -2270,6 +2283,7 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -2289,6 +2303,7 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -2308,6 +2323,7 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction
@@ -2891,6 +2907,7 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -2923,6 +2940,7 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -2941,6 +2959,7 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -2962,6 +2981,7 @@ K_ViolinIIMusicVoice = {
                     #0.5
             }
         }
+    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     
@@ -2981,6 +3001,7 @@ K_ViolinIIMusicVoice = {
                     #0.5
             }
         }
+    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     
@@ -3000,6 +3021,7 @@ K_ViolinIIMusicVoice = {
                     #0.5
             }
         }
+    - \tweak bound-details.left-broken.text ##f
     - \tweak bound-details.right.text \markup {
         \upright
             \fraction
@@ -3136,6 +3158,7 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -3154,6 +3177,7 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -3172,6 +3196,7 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -3191,6 +3216,7 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -3254,6 +3280,7 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -3274,6 +3301,7 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -3293,6 +3321,7 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -3312,6 +3341,7 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction
@@ -3987,6 +4017,7 @@ K_ViolaMusicVoice = {
                     #0.5
             }
         }
+    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -4019,6 +4050,7 @@ K_ViolaMusicVoice = {
                     #0.5
             }
         }
+    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     
@@ -4038,6 +4070,7 @@ K_ViolaMusicVoice = {
                     #0.5
             }
         }
+    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
@@ -4060,6 +4093,7 @@ K_ViolaMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -4079,6 +4113,7 @@ K_ViolaMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction
@@ -4419,6 +4454,7 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -4452,6 +4488,7 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -4473,6 +4510,7 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -4500,6 +4538,7 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -4519,6 +4558,7 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -4538,6 +4578,7 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction
@@ -4665,6 +4706,7 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -4684,6 +4726,7 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -4703,6 +4746,7 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -4766,6 +4810,7 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -4786,6 +4831,7 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -4805,6 +4851,7 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -4824,6 +4871,7 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction

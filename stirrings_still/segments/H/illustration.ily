@@ -4794,6 +4794,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         
@@ -4812,6 +4813,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
@@ -4829,6 +4831,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
@@ -4846,6 +4849,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction
@@ -5183,6 +5187,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -5203,6 +5208,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5221,6 +5227,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5239,6 +5246,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -5259,6 +5267,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -5281,6 +5290,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5299,6 +5309,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5317,6 +5328,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -5335,6 +5347,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5352,6 +5365,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5370,6 +5384,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -5394,6 +5409,7 @@ H_CelloMusicVoice = {
                     #0.5
             }
         }
+    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     
@@ -5412,6 +5428,7 @@ H_CelloMusicVoice = {
                     #0.5
             }
         }
+    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     
@@ -5431,6 +5448,7 @@ H_CelloMusicVoice = {
                     #0.5
             }
         }
+    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     
@@ -5449,6 +5467,7 @@ H_CelloMusicVoice = {
                     #0.5
             }
         }
+    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     
@@ -5466,6 +5485,7 @@ H_CelloMusicVoice = {
                     #0.5
             }
         }
+    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     \glissando                                                   %! SC
@@ -5486,6 +5506,7 @@ H_CelloMusicVoice = {
                     #0.5
             }
         }
+    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
@@ -5506,6 +5527,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5524,6 +5546,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5541,6 +5564,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -5559,6 +5583,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5576,6 +5601,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5595,6 +5621,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -5623,6 +5650,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5641,6 +5669,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5660,6 +5689,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction
@@ -5724,6 +5754,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -5744,6 +5775,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5762,6 +5794,7 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction

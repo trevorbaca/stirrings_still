@@ -6583,6 +6583,7 @@ D_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -6602,6 +6603,7 @@ D_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -6621,6 +6623,7 @@ D_CelloMusicVoice = {
                         #0.5
                 }
             }
+        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction
