@@ -1198,7 +1198,7 @@ I_CelloMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     \p                                                           %! SM8:REDUNDANT_DYNAMIC:PIC
-    -\downbow
+    -\downbow                                                    %! BACA_BCP_COMMAND
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1210,20 +1210,10 @@ I_CelloMusicVoice = {
             [“Vc.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \<                                                           %! PIC
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     - \abjad_dashed_line_with_hook                               %! IC
     - \tweak bound-details.left.text \markup {                   %! IC
         \concat                                                  %! IC
@@ -1258,1736 +1248,811 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        3
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        6
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     % [I CelloMusicVoice measure 520 / measure 2]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        3
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     % [I CelloMusicVoice measure 521 / measure 3]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        3
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        6
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     % [I CelloMusicVoice measure 522 / measure 4]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        3
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     % [I CelloMusicVoice measure 523 / measure 5]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        3
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        6
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     % [I CelloMusicVoice measure 524 / measure 6]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'8
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        3
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        6
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]                                                            %! SC
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        7
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     % [I CelloMusicVoice measure 525 / measure 7]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8.
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        7
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        7
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        7
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     % [I CelloMusicVoice measure 526 / measure 8]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8.
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        7
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        7
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        7
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     % [I CelloMusicVoice measure 527 / measure 9]                %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8.
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        7
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        7
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     % [I CelloMusicVoice measure 528 / measure 10]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'8
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    -\downbow
+    -\downbow                                                    %! BACA_BCP_COMMAND
     - \tweak to-barline ##t                                      %! PIC
     - \tweak circled-tip ##t                                     %! PIC
     \>                                                           %! PIC
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        7
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        7
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     % [I CelloMusicVoice measure 529 / measure 11]               %! SM4
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        7
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        5
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8.
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        4
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \baca_unpitched_music_warning                                %! SM24
     c'16
-    -\upbow
-    \bacaStopTextSpanBCP
+    -\upbow                                                      %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        7
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    \bacaStartTextSpanBCP
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     
     \baca_unpitched_music_warning                                %! SM24
     c'8
-    -\downbow
-    \bacaStopTextSpanBCP
-    - \abjad_solid_line_with_arrow
-    - \tweak bound-details.left.text \markup {
-        \concat
-            {
-                \upright
-                    \fraction
-                        1
-                        7
-                \hspace
-                    #0.5
-            }
-        }
-    - \tweak bound-details.right.text \markup {
-        \upright
-            \fraction
-                5
-                7
-        }
-    \bacaStartTextSpanBCP
+    -\downbow                                                    %! BACA_BCP_COMMAND
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
+    - \abjad_solid_line_with_arrow                               %! BACA_BCP_COMMAND
+    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7 %! BACA_BCP_COMMAND
+    - \tweak bound-details.right.text \markup \baca-bcp-right #5 #7 %! BACA_BCP_COMMAND
+    \bacaStartTextSpanBCP                                        %! BACA_BCP_COMMAND
     [
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                %! SM24
     c'8
     \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
-    \bacaStopTextSpanBCP
+    \bacaStopTextSpanBCP                                         %! BACA_BCP_COMMAND
     ]
     \revert TextSpanner.staff-padding                            %! OC2
     <> \stopTextSpanOne                                          %! IC
