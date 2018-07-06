@@ -98,7 +98,7 @@ maker(
         '=>',
         baca.Markup.musicglyph('noteheads.s2harmonic'),
         '=>',
-        baca.markups.ord(),
+        'ord.',
         bookend=False,
         piece_selector=baca.leaves().partition_by_ratio((1, 1, 1)),
         ),
