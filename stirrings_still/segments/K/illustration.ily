@@ -1961,15 +1961,7 @@ K_ViolinIMusicVoice = {
         c'4
         \stopTextSpan                                            %! PIC
         - \abjad_invisible_line                                  %! PIC
-        - \tweak bound-details.left.text \markup {               %! PIC
-            \concat                                              %! PIC
-                {                                                %! PIC
-                    \upright                                     %! PIC
-                        ord.                                     %! PIC
-                    \hspace                                      %! PIC
-                        #0.5                                     %! PIC
-                }                                                %! PIC
-            }                                                    %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "ord." %! PIC
         \startTextSpan                                           %! PIC
         
         \baca_unpitched_music_warning                            %! SM24
@@ -2823,15 +2815,7 @@ K_ViolinIIMusicVoice = {
         c'4
         \stopTextSpan                                            %! PIC
         - \abjad_invisible_line                                  %! PIC
-        - \tweak bound-details.left.text \markup {               %! PIC
-            \concat                                              %! PIC
-                {                                                %! PIC
-                    \upright                                     %! PIC
-                        ord.                                     %! PIC
-                    \hspace                                      %! PIC
-                        #0.5                                     %! PIC
-                }                                                %! PIC
-            }                                                    %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "ord." %! PIC
         \startTextSpan                                           %! PIC
         
         \baca_unpitched_music_warning                            %! SM24
@@ -3755,15 +3739,7 @@ K_ViolaMusicVoice = {
     c'4
     \stopTextSpan                                                %! PIC
     - \abjad_invisible_line                                      %! PIC
-    - \tweak bound-details.left.text \markup {                   %! PIC
-        \concat                                                  %! PIC
-            {                                                    %! PIC
-                \upright                                         %! PIC
-                    ord.                                         %! PIC
-                \hspace                                          %! PIC
-                    #0.5                                         %! PIC
-            }                                                    %! PIC
-        }                                                        %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ord."   %! PIC
     \startTextSpan                                               %! PIC
     
     \baca_unpitched_music_warning                                %! SM24
@@ -4153,15 +4129,7 @@ K_CelloMusicVoice = {
         c'4
         \stopTextSpan                                            %! PIC
         - \abjad_invisible_line                                  %! PIC
-        - \tweak bound-details.left.text \markup {               %! PIC
-            \concat                                              %! PIC
-                {                                                %! PIC
-                    \upright                                     %! PIC
-                        ord.                                     %! PIC
-                    \hspace                                      %! PIC
-                        #0.5                                     %! PIC
-                }                                                %! PIC
-            }                                                    %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "ord." %! PIC
         \startTextSpan                                           %! PIC
         
         \baca_unpitched_music_warning                            %! SM24
