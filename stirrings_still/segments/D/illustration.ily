@@ -6537,77 +6537,42 @@ D_CelloMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c'4
         \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        -\downbow
+        -\downbow                                                %! BACA_BCP_COMMAND
         ^ \markup {                                              %! IC
             \override                                            %! IC
                 #'(box-padding . 0.5)                            %! IC
                 \box                                             %! IC
                     "1/2 clt"                                    %! IC
             }                                                    %! IC
-        \bacaStopTextSpanBCP
-        - \abjad_solid_line_with_arrow
-        - \tweak bound-details.left.text \markup {
-            \concat
-                {
-                    \upright
-                        \fraction
-                            6
-                            7
-                    \hspace
-                        #0.5
-                }
-            }
-        \bacaStartTextSpanBCP
+        \bacaStopTextSpanBCP                                     %! BACA_BCP_COMMAND
+        - \abjad_solid_line_with_arrow                           %! BACA_BCP_COMMAND
+        - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7 %! BACA_BCP_COMMAND
+        \bacaStartTextSpanBCP                                    %! BACA_BCP_COMMAND
         \glissando                                               %! SC
         
         \baca_unpitched_music_warning                            %! SM24
         c'4.
-        -\upbow
-        \bacaStopTextSpanBCP
-        - \abjad_solid_line_with_arrow
-        - \tweak bound-details.left.text \markup {
-            \concat
-                {
-                    \upright
-                        \fraction
-                            7
-                            7
-                    \hspace
-                        #0.5
-                }
-            }
-        \bacaStartTextSpanBCP
+        -\upbow                                                  %! BACA_BCP_COMMAND
+        \bacaStopTextSpanBCP                                     %! BACA_BCP_COMMAND
+        - \abjad_solid_line_with_arrow                           %! BACA_BCP_COMMAND
+        - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7 %! BACA_BCP_COMMAND
+        \bacaStartTextSpanBCP                                    %! BACA_BCP_COMMAND
         \glissando                                               %! SC
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
-        -\downbow
-        \bacaStopTextSpanBCP
-        - \abjad_solid_line_with_arrow
-        - \tweak bound-details.left.text \markup {
-            \concat
-                {
-                    \upright
-                        \fraction
-                            6
-                            7
-                    \hspace
-                        #0.5
-                }
-            }
-        - \tweak bound-details.right.text \markup {
-            \upright
-                \fraction
-                    7
-                    7
-            }
-        \bacaStartTextSpanBCP
+        -\downbow                                                %! BACA_BCP_COMMAND
+        \bacaStopTextSpanBCP                                     %! BACA_BCP_COMMAND
+        - \abjad_solid_line_with_arrow                           %! BACA_BCP_COMMAND
+        - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7 %! BACA_BCP_COMMAND
+        - \tweak bound-details.right.text \markup \baca-bcp-right #7 #7 %! BACA_BCP_COMMAND
+        \bacaStartTextSpanBCP                                    %! BACA_BCP_COMMAND
         [
         \glissando                                               %! SC
         
         \baca_unpitched_music_warning                            %! SM24
         c'8
-        \bacaStopTextSpanBCP
+        \bacaStopTextSpanBCP                                     %! BACA_BCP_COMMAND
         ]
         \revert DynamicLineSpanner.staff-padding                 %! OC2
         \revert TextScript.staff-padding                         %! OC2
