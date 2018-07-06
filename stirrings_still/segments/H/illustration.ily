@@ -230,7 +230,6 @@ H_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_dashed_line_with_arrow                                      %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -243,7 +242,6 @@ H_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [H GlobalSkips measure 468 / measure 2]                            %! SM4
@@ -328,7 +326,6 @@ H_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -341,7 +338,6 @@ H_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [H GlobalSkips measure 471 / measure 5]                            %! SM4
@@ -403,7 +399,6 @@ H_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -416,7 +411,6 @@ H_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [H GlobalSkips measure 473 / measure 7]                            %! SM4
@@ -454,7 +448,6 @@ H_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -467,7 +460,6 @@ H_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [H GlobalSkips measure 474 / measure 8]                            %! SM4
@@ -530,7 +522,6 @@ H_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_dashed_line_with_arrow                                      %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -543,7 +534,6 @@ H_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [H GlobalSkips measure 476 / measure 10]                           %! SM4
@@ -629,7 +619,6 @@ H_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_dashed_line_with_arrow                                      %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -642,7 +631,6 @@ H_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [H GlobalSkips measure 479 / measure 13]                           %! SM4
@@ -705,7 +693,6 @@ H_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -718,7 +705,6 @@ H_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [H GlobalSkips measure 481 / measure 15]                           %! SM4
@@ -805,7 +791,6 @@ H_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_dashed_line_with_arrow                                      %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -818,7 +803,6 @@ H_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [H GlobalSkips measure 484 / measure 18]                           %! SM4
@@ -981,7 +965,6 @@ H_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -994,7 +977,6 @@ H_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [H GlobalSkips measure 490 / measure 24]                           %! SM4
@@ -1305,7 +1287,6 @@ H_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -1318,7 +1299,6 @@ H_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [H GlobalSkips measure 502 / measure 36]                           %! SM4
@@ -1379,7 +1359,6 @@ H_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -1392,7 +1371,6 @@ H_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [H GlobalSkips measure 504 / measure 38]                           %! SM4
@@ -1629,7 +1607,6 @@ H_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_dashed_line_with_arrow                                      %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -1642,7 +1619,6 @@ H_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [H GlobalSkips measure 513 / measure 47]                           %! SM4
@@ -1727,7 +1703,6 @@ H_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -1740,7 +1715,6 @@ H_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [H GlobalSkips measure 516 / measure 50]                           %! SM4
@@ -1804,7 +1778,6 @@ H_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% - \tweak bound-details.right.text \markup {                          %! MMI2
 %@%     \abjad-metronome-mark-markup #2 #0 #1 #"52"                      %! MMI2
 %@%     }                                                                %! MMI2
@@ -1820,7 +1793,6 @@ H_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     - \tweak bound-details.right.text \markup {                          %! MMI3
         \with-color                                                      %! MMI3
             #(x11-color 'blue)                                           %! MMI3
@@ -4794,7 +4766,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         
@@ -4813,7 +4784,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
@@ -4831,7 +4801,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         
         \baca_unpitched_music_warning                            %! SM24
@@ -4849,7 +4818,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction
@@ -5187,7 +5155,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -5208,7 +5175,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5227,7 +5193,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5246,7 +5211,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -5267,7 +5231,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -5290,7 +5253,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5309,7 +5271,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5328,7 +5289,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -5347,7 +5307,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5365,7 +5324,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5384,7 +5342,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -5409,7 +5366,6 @@ H_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     
@@ -5428,7 +5384,6 @@ H_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     
@@ -5448,7 +5403,6 @@ H_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     
@@ -5467,7 +5421,6 @@ H_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     
@@ -5485,7 +5438,6 @@ H_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     \glissando                                                   %! SC
@@ -5506,7 +5458,6 @@ H_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
@@ -5527,7 +5478,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5546,7 +5496,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5564,7 +5513,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -5583,7 +5531,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5601,7 +5548,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5621,7 +5567,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -5650,7 +5595,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5669,7 +5613,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5689,7 +5632,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction
@@ -5754,7 +5696,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -5775,7 +5716,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -5794,7 +5734,6 @@ H_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction

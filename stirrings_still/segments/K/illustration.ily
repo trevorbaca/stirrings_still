@@ -203,7 +203,6 @@ K_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -216,7 +215,6 @@ K_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [K GlobalSkips measure 547 / measure 2]                            %! SM4
@@ -279,7 +277,6 @@ K_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -292,7 +289,6 @@ K_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [K GlobalSkips measure 549 / measure 4]                            %! SM4
@@ -355,7 +351,6 @@ K_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -368,7 +363,6 @@ K_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [K GlobalSkips measure 551 / measure 6]                            %! SM4
@@ -708,7 +702,6 @@ K_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_dashed_line_with_arrow                                      %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -721,7 +714,6 @@ K_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [K GlobalSkips measure 564 / measure 19]                           %! SM4
@@ -781,7 +773,6 @@ K_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -794,7 +785,6 @@ K_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [K GlobalSkips measure 566 / measure 21]                           %! SM4
@@ -832,7 +822,6 @@ K_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -845,7 +834,6 @@ K_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [K GlobalSkips measure 567 / measure 22]                           %! SM4
@@ -883,7 +871,6 @@ K_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -896,7 +883,6 @@ K_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [K GlobalSkips measure 568 / measure 23]                           %! SM4
@@ -934,7 +920,6 @@ K_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -947,7 +932,6 @@ K_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [K GlobalSkips measure 569 / measure 24]                           %! SM4
@@ -1182,7 +1166,6 @@ K_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_dashed_line_with_arrow                                      %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -1195,7 +1178,6 @@ K_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [K GlobalSkips measure 578 / measure 33]                           %! SM4
@@ -1356,7 +1338,6 @@ K_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -1369,7 +1350,6 @@ K_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [K GlobalSkips measure 584 / measure 39]                           %! SM4
@@ -1505,7 +1485,6 @@ K_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -1518,7 +1497,6 @@ K_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [K GlobalSkips measure 589 / measure 44]                           %! SM4
@@ -1836,7 +1814,6 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1869,7 +1846,6 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -1888,7 +1864,6 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -1907,7 +1882,6 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -1937,7 +1911,6 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -1957,7 +1930,6 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -1977,7 +1949,6 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction
@@ -2121,7 +2092,6 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -2140,7 +2110,6 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -2159,7 +2128,6 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -2178,7 +2146,6 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -2242,7 +2209,6 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -2263,7 +2229,6 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -2283,7 +2248,6 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -2303,7 +2267,6 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -2323,7 +2286,6 @@ K_ViolinIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction
@@ -2907,7 +2869,6 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -2940,7 +2901,6 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -2959,7 +2919,6 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -2981,7 +2940,6 @@ K_ViolinIIMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     
@@ -3001,7 +2959,6 @@ K_ViolinIIMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     
@@ -3021,7 +2978,6 @@ K_ViolinIIMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     - \tweak bound-details.right.text \markup {
         \upright
             \fraction
@@ -3158,7 +3114,6 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -3177,7 +3132,6 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -3196,7 +3150,6 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -3216,7 +3169,6 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -3280,7 +3232,6 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -3301,7 +3252,6 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -3321,7 +3271,6 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -3341,7 +3290,6 @@ K_ViolinIIMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction
@@ -4017,7 +3965,6 @@ K_ViolaMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -4050,7 +3997,6 @@ K_ViolaMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     
@@ -4070,7 +4016,6 @@ K_ViolaMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
@@ -4093,7 +4038,6 @@ K_ViolaMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -4113,7 +4057,6 @@ K_ViolaMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction
@@ -4454,7 +4397,6 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -4488,7 +4430,6 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -4510,7 +4451,6 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -4538,7 +4478,6 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -4558,7 +4497,6 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -4578,7 +4516,6 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction
@@ -4706,7 +4643,6 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -4726,7 +4662,6 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -4746,7 +4681,6 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
     }
@@ -4810,7 +4744,6 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         [
         \glissando                                               %! SC
@@ -4831,7 +4764,6 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -4851,7 +4783,6 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         \bacaStartTextSpanBCP
         \glissando                                               %! SC
         
@@ -4871,7 +4802,6 @@ K_CelloMusicVoice = {
                         #0.5
                 }
             }
-        - \tweak bound-details.left-broken.text ##f
         - \tweak bound-details.right.text \markup {
             \upright
                 \fraction
