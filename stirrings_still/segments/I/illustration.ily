@@ -77,7 +77,6 @@ I_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -90,7 +89,6 @@ I_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [I GlobalSkips measure 520 / measure 2]                            %! SM4
@@ -153,7 +151,6 @@ I_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_dashed_line_with_arrow                                      %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -166,7 +163,6 @@ I_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [I GlobalSkips measure 522 / measure 4]                            %! SM4
@@ -256,7 +252,6 @@ I_GlobalSkips = {
 %@%                 #0.5                                                 %! MMI2
 %@%         }                                                            %! MMI2
 %@%     }                                                                %! MMI2
-%@% - \tweak bound-details.left-broken.text ##f                          %! MMI2
 %@% \startTextSpan                                                       %! MMI2
     - \abjad_invisible_line                                              %! MMI3
     - \tweak bound-details.left.text \markup {                           %! MMI3
@@ -269,7 +264,6 @@ I_GlobalSkips = {
                     #0.5                                                 %! MMI3
             }                                                            %! MMI3
         }                                                                %! MMI3
-    - \tweak bound-details.left-broken.text ##f                          %! MMI3
     \startTextSpan                                                       %! MMI3
     
     % [I GlobalSkips measure 525 / measure 7]                            %! SM4
@@ -1229,7 +1223,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     - \abjad_dashed_line_with_hook                               %! IC
     - \tweak bound-details.left.text \markup {                   %! IC
@@ -1279,7 +1272,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1298,7 +1290,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1317,7 +1308,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1336,7 +1326,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1355,7 +1344,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1374,7 +1362,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1393,7 +1380,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 520 / measure 2]                %! SM4
@@ -1413,7 +1399,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1432,7 +1417,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1451,7 +1435,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1470,7 +1453,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1489,7 +1471,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1508,7 +1489,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 521 / measure 3]                %! SM4
@@ -1528,7 +1508,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1547,7 +1526,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1566,7 +1544,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1585,7 +1562,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1604,7 +1580,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1623,7 +1598,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1642,7 +1616,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1661,7 +1634,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 522 / measure 4]                %! SM4
@@ -1681,7 +1653,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1700,7 +1671,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1719,7 +1689,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1738,7 +1707,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1757,7 +1725,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1776,7 +1743,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 523 / measure 5]                %! SM4
@@ -1796,7 +1762,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1815,7 +1780,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1834,7 +1798,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1853,7 +1816,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1872,7 +1834,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1891,7 +1852,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1910,7 +1870,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1929,7 +1888,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 524 / measure 6]                %! SM4
@@ -1951,7 +1909,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1970,7 +1927,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1989,7 +1945,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2008,7 +1963,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2027,7 +1981,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2046,7 +1999,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2065,7 +2017,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2084,7 +2035,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2103,7 +2053,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2123,7 +2072,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 525 / measure 7]                %! SM4
@@ -2143,7 +2091,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2164,7 +2111,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2183,7 +2129,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2204,7 +2149,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2223,7 +2167,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2244,7 +2187,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2263,7 +2205,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2284,7 +2225,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2303,7 +2243,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2324,7 +2263,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2343,7 +2281,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2364,7 +2301,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 526 / measure 8]                %! SM4
@@ -2384,7 +2320,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2405,7 +2340,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2424,7 +2358,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2445,7 +2378,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2464,7 +2396,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2485,7 +2416,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2504,7 +2434,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2525,7 +2454,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2544,7 +2472,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2565,7 +2492,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2584,7 +2510,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2605,7 +2530,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 527 / measure 9]                %! SM4
@@ -2625,7 +2549,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2646,7 +2569,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2665,7 +2587,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2686,7 +2607,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2705,7 +2625,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2726,7 +2645,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 528 / measure 10]               %! SM4
@@ -2751,7 +2669,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2772,7 +2689,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2791,7 +2707,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2812,7 +2727,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2831,7 +2745,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2852,7 +2765,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2871,7 +2783,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2892,7 +2803,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     % [I CelloMusicVoice measure 529 / measure 11]               %! SM4
@@ -2912,7 +2822,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2933,7 +2842,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2952,7 +2860,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -2973,7 +2880,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -2992,7 +2898,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -3013,7 +2918,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -3032,7 +2936,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     [
     
@@ -3053,7 +2956,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     \bacaStartTextSpanBCP
     
     \baca_unpitched_music_warning                                %! SM24
@@ -3072,7 +2974,6 @@ I_CelloMusicVoice = {
                     #0.5
             }
         }
-    - \tweak bound-details.left-broken.text ##f
     - \tweak bound-details.right.text \markup {
         \upright
             \fraction
