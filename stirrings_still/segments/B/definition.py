@@ -137,10 +137,12 @@ maker(
     ('tutti', (1, 4)),
     baca.alternate_bow_strokes(),
     baca.dynamic('mp'),
-    baca.text_spanner(
+    baca.new_text_spanner(
         baca.markups.lhd_plus_half_clt().boxed(),
-        right_padding=1.75,
+        '=|',
+        bookend=False,
         selector=baca.rleaves(),
+        tweaks=[abjad.tweak(1.75).bound_details__right__padding],
         ),
     baca.text_spanner_staff_padding(7),
     baca.tuplet_bracket_staff_padding(2),

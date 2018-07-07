@@ -63,11 +63,13 @@ maker(
 maker(
     ('v2', 3),
     baca.dynamic('mp'),
-    baca.text_spanner(
+    baca.new_text_spanner(
         baca.markups.lhd_plus_half_clt().boxed(),
+        '=|',
+        bookend=False,
         leak=True,
-        right_padding=2.5,
         selector=baca.leaves(),
+        tweaks=[abjad.tweak(2.5).bound_details__right__padding],
         ),
     baca.text_spanner_staff_padding(5),
     stirrings_still.clockticks(),

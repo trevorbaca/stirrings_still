@@ -95,10 +95,14 @@ stirrings_still.time(maker, time)
 maker(
     (['v1', 'v2', 'va'], (1, 2)),
     baca.dynamic('p'),
-    baca.text_spanner(
+    baca.new_text_spanner(
         baca.markups.lhd_plus_half_clt().boxed(),
-        right_padding=1.75,
+        '=|',
+        bookend=False,
         selector=baca.rleaves(),
+        tweaks=[
+            abjad.tweak(1.75).bound_details__right__padding,
+            ],
         ),
     stirrings_still.continuous_tremolo(),
     )
@@ -119,6 +123,14 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (6, 19)),
-    baca.text_spanner('[grid-to-trajectory]', leak=True, right_padding=3.25),
+    baca.new_text_spanner(
+        '[grid-to-trajectory]',
+        '=|',
+        bookend=False,
+        leak=True,
+        tweaks=[
+            abjad.tweak(3.25).bound_details__right__padding,
+            ],
+        ),
     stirrings_still.grid_to_trajectory(),
     )

@@ -71,11 +71,15 @@ maker(
             remainder=abjad.Left,
             ),
         ),
-    baca.text_spanner(
+    baca.new_text_spanner(
         baca.markups.cir(8),
-        abjad.tweak(5).staff_padding,
+        '=|',
+        bookend=False,
         leak=True,
         selector=baca.tleaves(),
+        tweaks=[
+            abjad.tweak(5).staff_padding,
+            ],
         ),
     baca.markup(
         baca.markups.golden_tone(),
@@ -109,11 +113,15 @@ maker(
         bookend=-1,
         piece_selector=baca.group_by_measures([5, 4, 2]),
         ),
-    baca.text_spanner(
+    baca.new_text_spanner(
         baca.markups.half_clt().boxed(),
-        abjad.tweak(12).staff_padding,
+        '=|',
+        bookend=False,
         leak=True,
         lilypond_id=1,
+        tweaks=[
+            abjad.tweak(12).staff_padding,
+            ],
         ),
     )
 
