@@ -4691,10 +4691,6 @@ H_CelloMusicVoice = {
     \revert TupletNumber.text
     
     % [H CelloMusicVoice measure 473 / measure 7]                %! SM4
-    \override Glissando.arrow-length = #'2                       %! OC1
-    \override Glissando.arrow-width = #'0.5                      %! OC1
-    \override Glissando.bound-details.right.arrow = ##t          %! OC1
-    \override Glissando.thickness = #'3                          %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     af,!2.
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
@@ -4716,16 +4712,16 @@ H_CelloMusicVoice = {
     - \tweak bound-details.right.padding #0.5                    %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
     \startTextSpan                                               %! PIC
+    - \tweak arrow-length #2                                     %! SC
+    - \tweak arrow-width #0.5                                    %! SC
+    - \tweak bound-details.right.arrow ##t                       %! SC
+    - \tweak thickness #3                                        %! SC
     \glissando                                                   %! SC
     
     % [H CelloMusicVoice measure 474 / measure 8]                %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     gf,!2
     \stopTextSpan                                                %! PIC
-    \revert Glissando.arrow-length                               %! OC2
-    \revert Glissando.arrow-width                                %! OC2
-    \revert Glissando.bound-details.right.arrow                  %! OC2
-    \revert Glissando.thickness                                  %! OC2
     
     % [H CelloMusicVoice measure 475 / measure 9]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
