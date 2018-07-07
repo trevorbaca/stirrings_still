@@ -95,7 +95,7 @@ stirrings_still.time(maker, time)
 maker(
     (['v1', 'v2', 'va'], (1, 2)),
     baca.dynamic('p'),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.lhd_plus_half_clt().boxed(),
         '=|',
         bookend=False,
@@ -123,7 +123,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (6, 19)),
-    baca.new_text_spanner(
+    baca.text_spanner(
         '[grid-to-trajectory]',
         '=|',
         bookend=False,
