@@ -3278,21 +3278,21 @@ H_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         -\downbow                                                          %! IC
-        - \abjad_dashed_line_with_hook                                     %! IC
-        - \tweak bound-details.left.text \markup {                         %! IC
-            \concat                                                        %! IC
-                {                                                          %! IC
-                    \upright                                               %! IC
-                        \override                                          %! IC
-                            #'(box-padding . 0.5)                          %! IC
-                            \box                                           %! IC
-                                "lhd + 1/2 clt"                            %! IC
-                    \hspace                                                %! IC
-                        #0.5                                               %! IC
-                }                                                          %! IC
-            }                                                              %! IC
-        - \tweak bound-details.right.padding 3.25                          %! IC
-        \startTextSpan                                                     %! IC
+        - \abjad_dashed_line_with_hook                                     %! PIC
+        - \tweak bound-details.left.text \markup {                         %! PIC
+            \concat                                                        %! PIC
+                {                                                          %! PIC
+                    \upright                                               %! PIC
+                        \override                                          %! PIC
+                            #'(box-padding . 0.5)                          %! PIC
+                            \box                                           %! PIC
+                                "lhd + 1/2 clt"                            %! PIC
+                    \hspace                                                %! PIC
+                        #0.5                                               %! PIC
+                }                                                          %! PIC
+            }                                                              %! PIC
+        - \tweak bound-details.right.padding #3.25                         %! PIC
+        \startTextSpan                                                     %! PIC
         
         r4
     }
@@ -3314,7 +3314,7 @@ H_ViolinIIMusicVoice = {
         \revert TextSpanner.staff-padding                                  %! OC2
         \revert TupletBracket.staff-padding                                %! OC2
         \revert TupletNumber.text                                          %! OC2
-        <> \stopTextSpan                                                   %! IC
+        <> \stopTextSpan                                                   %! PIC
     }
     
     % [H ViolinIIMusicVoice measure 500 / measure 34]                      %! SM4

@@ -386,11 +386,15 @@ maker(
     ('v2', 33),
     baca.alternate_bow_strokes(),
     baca.dynamic('mp', redundant=True),
-    baca.text_spanner(
+    baca.new_text_spanner(
         baca.markups.lhd_plus_half_clt().boxed(),
+        '=|',
+        bookend=False,
         leak=True,
-        right_padding=3.25,
         selector=baca.leaves(),
+        tweaks=[
+            abjad.tweak(3.25).bound_details__right__padding,
+            ],
         ),
     baca.text_spanner_staff_padding(7),
     baca.tuplet_bracket_staff_padding(2),

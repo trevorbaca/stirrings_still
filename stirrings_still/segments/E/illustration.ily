@@ -4114,21 +4114,21 @@ E_ViolinIMusicVoice = {
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Vn. I”]"                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    \override                                              %! IC
-                        #'(box-padding . 0.5)                              %! IC
-                        \box                                               %! IC
-                            "lhd + 1/2 clt"                                %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 1.75                              %! IC
-    \startTextSpan                                                         %! IC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup {                             %! PIC
+        \concat                                                            %! PIC
+            {                                                              %! PIC
+                \upright                                                   %! PIC
+                    \override                                              %! PIC
+                        #'(box-padding . 0.5)                              %! PIC
+                        \box                                               %! PIC
+                            "lhd + 1/2 clt"                                %! PIC
+                \hspace                                                    %! PIC
+                    #0.5                                                   %! PIC
+            }                                                              %! PIC
+        }                                                                  %! PIC
+    - \tweak bound-details.right.padding #1.75                             %! PIC
+    \startTextSpan                                                         %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -4157,7 +4157,7 @@ E_ViolinIMusicVoice = {
     
     % [E ViolinIMusicVoice measure 308 / measure 3]                        %! SM4
     R1 * 1/4
-    \stopTextSpan                                                          %! IC
+    \stopTextSpan                                                          %! PIC
     
     % [E ViolinIMusicVoice measure 309 / measure 4]                        %! SM4
     r2
@@ -4194,18 +4194,10 @@ E_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    [grid-to-trajectory]                                   %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    \startTextSpan                                                         %! IC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "[grid-to-trajectory]" %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    \startTextSpan                                                         %! PIC
     
     \baca_unpitched_music_warning                                          %! SM24
     c'4
@@ -4369,7 +4361,7 @@ E_ViolinIMusicVoice = {
     
     \baca_unpitched_music_warning                                          %! SM24
     c'8
-    <> \stopTextSpan                                                       %! IC
+    <> \stopTextSpan                                                       %! PIC
     
     % [E ViolinIMusicVoice measure 325 / measure 20]                       %! SM4
     \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
@@ -4747,21 +4739,21 @@ E_ViolinIIMusicVoice = {
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“Vn. II”]"                                                   %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    \override                                              %! IC
-                        #'(box-padding . 0.5)                              %! IC
-                        \box                                               %! IC
-                            "lhd + 1/2 clt"                                %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 1.75                              %! IC
-    \startTextSpan                                                         %! IC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup {                             %! PIC
+        \concat                                                            %! PIC
+            {                                                              %! PIC
+                \upright                                                   %! PIC
+                    \override                                              %! PIC
+                        #'(box-padding . 0.5)                              %! PIC
+                        \box                                               %! PIC
+                            "lhd + 1/2 clt"                                %! PIC
+                \hspace                                                    %! PIC
+                    #0.5                                                   %! PIC
+            }                                                              %! PIC
+        }                                                                  %! PIC
+    - \tweak bound-details.right.padding #1.75                             %! PIC
+    \startTextSpan                                                         %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -4790,7 +4782,7 @@ E_ViolinIIMusicVoice = {
     
     % [E ViolinIIMusicVoice measure 308 / measure 3]                       %! SM4
     R1 * 1/4
-    \stopTextSpan                                                          %! IC
+    \stopTextSpan                                                          %! PIC
     
     % [E ViolinIIMusicVoice measure 309 / measure 4]                       %! SM4
     r2
@@ -4824,18 +4816,10 @@ E_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    [grid-to-trajectory]                                   %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    \startTextSpan                                                         %! IC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "[grid-to-trajectory]" %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    \startTextSpan                                                         %! PIC
     
     \baca_unpitched_music_warning                                          %! SM24
     c'4
@@ -4999,7 +4983,7 @@ E_ViolinIIMusicVoice = {
     
     \baca_unpitched_music_warning                                          %! SM24
     c'8
-    <> \stopTextSpan                                                       %! IC
+    <> \stopTextSpan                                                       %! PIC
     
     % [E ViolinIIMusicVoice measure 325 / measure 20]                      %! SM4
     \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
@@ -5381,21 +5365,21 @@ E_ViolaMusicVoice = {
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Va.”]                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    \override                                              %! IC
-                        #'(box-padding . 0.5)                              %! IC
-                        \box                                               %! IC
-                            "lhd + 1/2 clt"                                %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 1.75                              %! IC
-    \startTextSpan                                                         %! IC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup {                             %! PIC
+        \concat                                                            %! PIC
+            {                                                              %! PIC
+                \upright                                                   %! PIC
+                    \override                                              %! PIC
+                        #'(box-padding . 0.5)                              %! PIC
+                        \box                                               %! PIC
+                            "lhd + 1/2 clt"                                %! PIC
+                \hspace                                                    %! PIC
+                    #0.5                                                   %! PIC
+            }                                                              %! PIC
+        }                                                                  %! PIC
+    - \tweak bound-details.right.padding #1.75                             %! PIC
+    \startTextSpan                                                         %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -5424,7 +5408,7 @@ E_ViolaMusicVoice = {
     
     % [E ViolaMusicVoice measure 308 / measure 3]                          %! SM4
     R1 * 1/4
-    \stopTextSpan                                                          %! IC
+    \stopTextSpan                                                          %! PIC
     
     % [E ViolaMusicVoice measure 309 / measure 4]                          %! SM4
     r2
@@ -5454,18 +5438,10 @@ E_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    [grid-to-trajectory]                                   %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    \startTextSpan                                                         %! IC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "[grid-to-trajectory]" %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    \startTextSpan                                                         %! PIC
     
     \baca_unpitched_music_warning                                          %! SM24
     c'4
@@ -5629,7 +5605,7 @@ E_ViolaMusicVoice = {
     
     \baca_unpitched_music_warning                                          %! SM24
     c'8
-    <> \stopTextSpan                                                       %! IC
+    <> \stopTextSpan                                                       %! PIC
     
     % [E ViolaMusicVoice measure 325 / measure 20]                         %! SM4
     \voices "ViolaMusicVoice", "MultimeasureRestVoice"

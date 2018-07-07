@@ -3542,19 +3542,19 @@ D_ViolinIMusicVoice = {
         c'16 * 249/64
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         \<                                                                 %! PIC
-        - \abjad_dashed_line_with_hook                                     %! IC
-        - \tweak bound-details.left.text \markup {                         %! IC
-            \concat                                                        %! IC
-                {                                                          %! IC
-                    \upright                                               %! IC
-                        "fast whisked ellipses"                            %! IC
-                    \hspace                                                %! IC
-                        #0.5                                               %! IC
-                }                                                          %! IC
-            }                                                              %! IC
-        - \tweak bound-details.right.padding 2                             %! IC
-        - \tweak staff-padding #5                                          %! IC
-        \startTextSpan                                                     %! IC
+        - \abjad_dashed_line_with_hook                                     %! PIC
+        - \tweak bound-details.left.text \markup {                         %! PIC
+            \concat                                                        %! PIC
+                {                                                          %! PIC
+                    \upright                                               %! PIC
+                        "fast whisked ellipses"                            %! PIC
+                    \hspace                                                %! PIC
+                        #0.5                                               %! PIC
+                }                                                          %! PIC
+            }                                                              %! PIC
+        - \tweak bound-details.right.padding #2                            %! PIC
+        - \tweak staff-padding #5                                          %! PIC
+        \startTextSpan                                                     %! PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -3594,7 +3594,7 @@ D_ViolinIMusicVoice = {
         c'16 * 61/64
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         ]
-        <> \stopTextSpan                                                   %! IC
+        <> \stopTextSpan                                                   %! PIC
     }
     \revert TupletNumber.text
     
@@ -3606,36 +3606,28 @@ D_ViolinIMusicVoice = {
     - \tweak to-barline ##t                                                %! PIC
     - \tweak circled-tip ##t                                               %! PIC
     \>                                                                     %! PIC
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    \override                                              %! IC
-                        #'(box-padding . 0.5)                              %! IC
-                        \box                                               %! IC
-                            damp                                           %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    - \tweak staff-padding #5                                              %! IC
-    \startTextSpan                                                         %! IC
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    "jeux des terminaisons"                                %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    - \tweak color #magenta                                                %! IC
-    - \tweak staff-padding #9                                              %! IC
-    \startTextSpanOne                                                      %! IC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup {                             %! PIC
+        \concat                                                            %! PIC
+            {                                                              %! PIC
+                \upright                                                   %! PIC
+                    \override                                              %! PIC
+                        #'(box-padding . 0.5)                              %! PIC
+                        \box                                               %! PIC
+                            damp                                           %! PIC
+                \hspace                                                    %! PIC
+                    #0.5                                                   %! PIC
+            }                                                              %! PIC
+        }                                                                  %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak staff-padding #5                                              %! PIC
+    \startTextSpan                                                         %! PIC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "jeux des terminaisons" %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak color #magenta                                                %! PIC
+    - \tweak staff-padding #9                                              %! PIC
+    \startTextSpanOne                                                      %! PIC
     
     \baca_unpitched_music_warning                                          %! SM24
     c'8
@@ -3694,8 +3686,8 @@ D_ViolinIMusicVoice = {
     c'8
     \!                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     ]
-    <> \stopTextSpan                                                       %! IC
-    <> \stopTextSpanOne                                                    %! IC
+    <> \stopTextSpan                                                       %! PIC
+    <> \stopTextSpanOne                                                    %! PIC
     
     % [D ViolinIMusicVoice measure 270 / measure 64]                       %! SM4
     \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
@@ -3737,32 +3729,32 @@ D_ViolinIMusicVoice = {
     \set stemRightBeamCount = 1
     \baca_unpitched_music_warning                                          %! SM24
     c'8
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    "8” cir."                                              %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    - \tweak staff-padding #5                                              %! IC
-    \startTextSpan                                                         %! IC
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    "golden tone"                                          %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    - \tweak staff-padding #9                                              %! IC
-    \startTextSpanOne                                                      %! IC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup {                             %! PIC
+        \concat                                                            %! PIC
+            {                                                              %! PIC
+                \upright                                                   %! PIC
+                    "8” cir."                                              %! PIC
+                \hspace                                                    %! PIC
+                    #0.5                                                   %! PIC
+            }                                                              %! PIC
+        }                                                                  %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak staff-padding #5                                              %! PIC
+    \startTextSpan                                                         %! PIC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup {                             %! PIC
+        \concat                                                            %! PIC
+            {                                                              %! PIC
+                \upright                                                   %! PIC
+                    "golden tone"                                          %! PIC
+                \hspace                                                    %! PIC
+                    #0.5                                                   %! PIC
+            }                                                              %! PIC
+        }                                                                  %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak staff-padding #9                                              %! PIC
+    \startTextSpanOne                                                      %! PIC
     [
     
     \set stemLeftBeamCount = 1
@@ -3790,8 +3782,8 @@ D_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     ]
-    <> \stopTextSpan                                                       %! IC
-    <> \stopTextSpanOne                                                    %! IC
+    <> \stopTextSpan                                                       %! PIC
+    <> \stopTextSpanOne                                                    %! PIC
     
     % [D ViolinIMusicVoice measure 273 / measure 67]                       %! SM4
     \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
@@ -4606,19 +4598,19 @@ D_ViolinIIMusicVoice = {
         c'16 * 239/64
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         \<                                                                 %! PIC
-        - \abjad_dashed_line_with_hook                                     %! IC
-        - \tweak bound-details.left.text \markup {                         %! IC
-            \concat                                                        %! IC
-                {                                                          %! IC
-                    \upright                                               %! IC
-                        "fast whisked ellipses"                            %! IC
-                    \hspace                                                %! IC
-                        #0.5                                               %! IC
-                }                                                          %! IC
-            }                                                              %! IC
-        - \tweak bound-details.right.padding 2                             %! IC
-        - \tweak staff-padding #5                                          %! IC
-        \startTextSpan                                                     %! IC
+        - \abjad_dashed_line_with_hook                                     %! PIC
+        - \tweak bound-details.left.text \markup {                         %! PIC
+            \concat                                                        %! PIC
+                {                                                          %! PIC
+                    \upright                                               %! PIC
+                        "fast whisked ellipses"                            %! PIC
+                    \hspace                                                %! PIC
+                        #0.5                                               %! PIC
+                }                                                          %! PIC
+            }                                                              %! PIC
+        - \tweak bound-details.right.padding #2                            %! PIC
+        - \tweak staff-padding #5                                          %! PIC
+        \startTextSpan                                                     %! PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -4649,7 +4641,7 @@ D_ViolinIIMusicVoice = {
         c'16 * 119/64
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         ]
-        <> \stopTextSpan                                                   %! IC
+        <> \stopTextSpan                                                   %! PIC
     }
     \revert TupletNumber.text
     
@@ -4661,36 +4653,28 @@ D_ViolinIIMusicVoice = {
     - \tweak to-barline ##t                                                %! PIC
     - \tweak circled-tip ##t                                               %! PIC
     \>                                                                     %! PIC
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    \override                                              %! IC
-                        #'(box-padding . 0.5)                              %! IC
-                        \box                                               %! IC
-                            damp                                           %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    - \tweak staff-padding #5                                              %! IC
-    \startTextSpan                                                         %! IC
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    "jeux des terminaisons"                                %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    - \tweak color #magenta                                                %! IC
-    - \tweak staff-padding #9                                              %! IC
-    \startTextSpanOne                                                      %! IC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup {                             %! PIC
+        \concat                                                            %! PIC
+            {                                                              %! PIC
+                \upright                                                   %! PIC
+                    \override                                              %! PIC
+                        #'(box-padding . 0.5)                              %! PIC
+                        \box                                               %! PIC
+                            damp                                           %! PIC
+                \hspace                                                    %! PIC
+                    #0.5                                                   %! PIC
+            }                                                              %! PIC
+        }                                                                  %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak staff-padding #5                                              %! PIC
+    \startTextSpan                                                         %! PIC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "jeux des terminaisons" %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak color #magenta                                                %! PIC
+    - \tweak staff-padding #9                                              %! PIC
+    \startTextSpanOne                                                      %! PIC
     
     \baca_unpitched_music_warning                                          %! SM24
     c'8
@@ -4749,8 +4733,8 @@ D_ViolinIIMusicVoice = {
     c'8
     \!                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     ]
-    <> \stopTextSpan                                                       %! IC
-    <> \stopTextSpanOne                                                    %! IC
+    <> \stopTextSpan                                                       %! PIC
+    <> \stopTextSpanOne                                                    %! PIC
     
     % [D ViolinIIMusicVoice measure 270 / measure 64]                      %! SM4
     \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
@@ -4790,40 +4774,40 @@ D_ViolinIIMusicVoice = {
     % [D ViolinIIMusicVoice measure 272 / measure 66]                      %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'4
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    "8” cir."                                              %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    - \tweak staff-padding #5                                              %! IC
-    \startTextSpan                                                         %! IC
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    "golden tone"                                          %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    - \tweak staff-padding #9                                              %! IC
-    \startTextSpanOne                                                      %! IC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup {                             %! PIC
+        \concat                                                            %! PIC
+            {                                                              %! PIC
+                \upright                                                   %! PIC
+                    "8” cir."                                              %! PIC
+                \hspace                                                    %! PIC
+                    #0.5                                                   %! PIC
+            }                                                              %! PIC
+        }                                                                  %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak staff-padding #5                                              %! PIC
+    \startTextSpan                                                         %! PIC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup {                             %! PIC
+        \concat                                                            %! PIC
+            {                                                              %! PIC
+                \upright                                                   %! PIC
+                    "golden tone"                                          %! PIC
+                \hspace                                                    %! PIC
+                    #0.5                                                   %! PIC
+            }                                                              %! PIC
+        }                                                                  %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak staff-padding #9                                              %! PIC
+    \startTextSpanOne                                                      %! PIC
     
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     
     \baca_unpitched_music_warning                                          %! SM24
     c'4
-    <> \stopTextSpan                                                       %! IC
-    <> \stopTextSpanOne                                                    %! IC
+    <> \stopTextSpan                                                       %! PIC
+    <> \stopTextSpanOne                                                    %! PIC
     
     % [D ViolinIIMusicVoice measure 273 / measure 67]                      %! SM4
     \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
@@ -5682,36 +5666,28 @@ D_ViolaMusicVoice = {
     - \tweak to-barline ##t                                                %! PIC
     - \tweak circled-tip ##t                                               %! PIC
     \>                                                                     %! PIC
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    \override                                              %! IC
-                        #'(box-padding . 0.5)                              %! IC
-                        \box                                               %! IC
-                            damp                                           %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    - \tweak staff-padding #5                                              %! IC
-    \startTextSpan                                                         %! IC
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    "jeux des terminaisons"                                %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    - \tweak color #magenta                                                %! IC
-    - \tweak staff-padding #9                                              %! IC
-    \startTextSpanOne                                                      %! IC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup {                             %! PIC
+        \concat                                                            %! PIC
+            {                                                              %! PIC
+                \upright                                                   %! PIC
+                    \override                                              %! PIC
+                        #'(box-padding . 0.5)                              %! PIC
+                        \box                                               %! PIC
+                            damp                                           %! PIC
+                \hspace                                                    %! PIC
+                    #0.5                                                   %! PIC
+            }                                                              %! PIC
+        }                                                                  %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak staff-padding #5                                              %! PIC
+    \startTextSpan                                                         %! PIC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "jeux des terminaisons" %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak color #magenta                                                %! PIC
+    - \tweak staff-padding #9                                              %! PIC
+    \startTextSpanOne                                                      %! PIC
     
     \baca_unpitched_music_warning                                          %! SM24
     c'8
@@ -5770,8 +5746,8 @@ D_ViolaMusicVoice = {
     c'8
     \!                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     ]
-    <> \stopTextSpan                                                       %! IC
-    <> \stopTextSpanOne                                                    %! IC
+    <> \stopTextSpan                                                       %! PIC
+    <> \stopTextSpanOne                                                    %! PIC
     
     % [D ViolaMusicVoice measure 270 / measure 64]                         %! SM4
     \voices "ViolaMusicVoice", "MultimeasureRestVoice"
@@ -5813,34 +5789,34 @@ D_ViolaMusicVoice = {
     
     \baca_unpitched_music_warning                                          %! SM24
     c'2
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    "8” cir."                                              %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    - \tweak staff-padding #5                                              %! IC
-    \startTextSpan                                                         %! IC
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    "golden tone"                                          %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    - \tweak staff-padding #9                                              %! IC
-    \startTextSpanOne                                                      %! IC
-    <> \stopTextSpan                                                       %! IC
-    <> \stopTextSpanOne                                                    %! IC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup {                             %! PIC
+        \concat                                                            %! PIC
+            {                                                              %! PIC
+                \upright                                                   %! PIC
+                    "8” cir."                                              %! PIC
+                \hspace                                                    %! PIC
+                    #0.5                                                   %! PIC
+            }                                                              %! PIC
+        }                                                                  %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak staff-padding #5                                              %! PIC
+    \startTextSpan                                                         %! PIC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup {                             %! PIC
+        \concat                                                            %! PIC
+            {                                                              %! PIC
+                \upright                                                   %! PIC
+                    "golden tone"                                          %! PIC
+                \hspace                                                    %! PIC
+                    #0.5                                                   %! PIC
+            }                                                              %! PIC
+        }                                                                  %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak staff-padding #9                                              %! PIC
+    \startTextSpanOne                                                      %! PIC
+    <> \stopTextSpan                                                       %! PIC
+    <> \stopTextSpanOne                                                    %! PIC
     
     % [D ViolaMusicVoice measure 273 / measure 67]                         %! SM4
     \voices "ViolaMusicVoice", "MultimeasureRestVoice"
@@ -6721,36 +6697,28 @@ D_CelloMusicVoice = {
     - \tweak to-barline ##t                                                %! PIC
     - \tweak circled-tip ##t                                               %! PIC
     \>                                                                     %! PIC
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    \override                                              %! IC
-                        #'(box-padding . 0.5)                              %! IC
-                        \box                                               %! IC
-                            damp                                           %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    - \tweak staff-padding #5                                              %! IC
-    \startTextSpan                                                         %! IC
-    - \abjad_dashed_line_with_hook                                         %! IC
-    - \tweak bound-details.left.text \markup {                             %! IC
-        \concat                                                            %! IC
-            {                                                              %! IC
-                \upright                                                   %! IC
-                    "jeux des terminaisons"                                %! IC
-                \hspace                                                    %! IC
-                    #0.5                                                   %! IC
-            }                                                              %! IC
-        }                                                                  %! IC
-    - \tweak bound-details.right.padding 3.25                              %! IC
-    - \tweak color #magenta                                                %! IC
-    - \tweak staff-padding #9                                              %! IC
-    \startTextSpanOne                                                      %! IC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup {                             %! PIC
+        \concat                                                            %! PIC
+            {                                                              %! PIC
+                \upright                                                   %! PIC
+                    \override                                              %! PIC
+                        #'(box-padding . 0.5)                              %! PIC
+                        \box                                               %! PIC
+                            damp                                           %! PIC
+                \hspace                                                    %! PIC
+                    #0.5                                                   %! PIC
+            }                                                              %! PIC
+        }                                                                  %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak staff-padding #5                                              %! PIC
+    \startTextSpan                                                         %! PIC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "jeux des terminaisons" %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak color #magenta                                                %! PIC
+    - \tweak staff-padding #9                                              %! PIC
+    \startTextSpanOne                                                      %! PIC
     
     \baca_unpitched_music_warning                                          %! SM24
     c'8
@@ -6809,8 +6777,8 @@ D_CelloMusicVoice = {
     c'8
     \!                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     ]
-    <> \stopTextSpan                                                       %! IC
-    <> \stopTextSpanOne                                                    %! IC
+    <> \stopTextSpan                                                       %! PIC
+    <> \stopTextSpanOne                                                    %! PIC
     
     % [D CelloMusicVoice measure 270 / measure 64]                         %! SM4
     \voices "CelloMusicVoice", "MultimeasureRestVoice"

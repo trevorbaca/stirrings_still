@@ -289,11 +289,15 @@ maker(
         1,
         stirrings_still.accelerando(start=(1, 4), stop=(2, 16)),
         ),
-    baca.text_spanner(
+    baca.new_text_spanner(
         baca.markups.fast_whisked_ellipses(),
-        abjad.tweak(5).staff_padding,
+        '=|',
+        bookend=False,
         leak=True,
-        right_padding=2,
+        tweaks=[
+            abjad.tweak(2).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            ],
         ),
     )
 
@@ -325,19 +329,27 @@ maker(
 maker(
     ('tutti', (58, 63)),
     baca.hairpin('mf >o niente'),
-    baca.text_spanner(
+    baca.new_text_spanner(
         baca.markups.damp().boxed(),
-        abjad.tweak(5).staff_padding,
+        '=|',
+        bookend=False,
         leak=True,
-        right_padding=3.25,
+        tweaks=[
+            abjad.tweak(3.25).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            ],
         ),
-    baca.text_spanner(
+    baca.new_text_spanner(
         'jeux des terminaisons',
-        abjad.tweak('magenta').color,
-        abjad.tweak(9).staff_padding,
+        '=|',
+        bookend=False,
         leak=True,
         lilypond_id=1,
-        right_padding=3.25,
+        tweaks=[
+            abjad.tweak(3.25).bound_details__right__padding,
+            abjad.tweak('magenta').color,
+            abjad.tweak(9).staff_padding,
+            ],
         ),
     stirrings_still.ntlt_flat_glissandi(),
     stirrings_still.strokes(0),
@@ -396,18 +408,26 @@ maker(
             remainder=abjad.Left,
             ),
         ),
-    baca.text_spanner(
+    baca.new_text_spanner(
         baca.markups.cir(8),
-        abjad.tweak(5).staff_padding,
+        '=|',
+        bookend=False,
         leak=True,
-        right_padding=3.25,
+        tweaks=[
+            abjad.tweak(3.25).bound_details__right__padding,
+            abjad.tweak(5).staff_padding,
+            ],
         ),
-    baca.text_spanner(
+    baca.new_text_spanner(
         baca.markups.golden_tone(),
-        abjad.tweak(9).staff_padding,
+        '=|',
+        bookend=False,
         leak=True,
         lilypond_id=1,
-        right_padding=3.25,
+        tweaks=[
+            abjad.tweak(3.25).bound_details__right__padding,
+            abjad.tweak(9).staff_padding,
+            ],
         ),
     )
 
