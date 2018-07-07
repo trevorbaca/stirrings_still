@@ -71,7 +71,7 @@ maker(
             remainder=abjad.Left,
             ),
         ),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.cir(8),
         '=|',
         bookend=False,
@@ -113,7 +113,7 @@ maker(
         bookend=-1,
         piece_selector=baca.group_by_measures([5, 4, 2]),
         ),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.half_clt().boxed(),
         '=|',
         bookend=False,

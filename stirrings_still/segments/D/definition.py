@@ -289,7 +289,7 @@ maker(
         1,
         stirrings_still.accelerando(start=(1, 4), stop=(2, 16)),
         ),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.fast_whisked_ellipses(),
         '=|',
         bookend=False,
@@ -329,7 +329,7 @@ maker(
 maker(
     ('tutti', (58, 63)),
     baca.hairpin('mf >o niente'),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.damp().boxed(),
         '=|',
         bookend=False,
@@ -339,7 +339,7 @@ maker(
             abjad.tweak(5).staff_padding,
             ],
         ),
-    baca.new_text_spanner(
+    baca.text_spanner(
         'jeux des terminaisons',
         '=|',
         bookend=False,
@@ -408,7 +408,7 @@ maker(
             remainder=abjad.Left,
             ),
         ),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.cir(8),
         '=|',
         bookend=False,
@@ -418,7 +418,7 @@ maker(
             abjad.tweak(5).staff_padding,
             ],
         ),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.golden_tone(),
         '=|',
         bookend=False,

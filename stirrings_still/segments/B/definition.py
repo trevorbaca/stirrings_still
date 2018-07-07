@@ -137,7 +137,7 @@ maker(
     ('tutti', (1, 4)),
     baca.alternate_bow_strokes(),
     baca.dynamic('mp'),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.lhd_plus_half_clt().boxed(),
         '=|',
         bookend=False,

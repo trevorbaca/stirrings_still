@@ -63,7 +63,7 @@ maker(
 maker(
     ('v2', 3),
     baca.dynamic('mp'),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.lhd_plus_half_clt().boxed(),
         '=|',
         bookend=False,

@@ -95,7 +95,7 @@ maker(
         [0, 2, 3],
         baca.breathe(),
         ),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.rasp_partial_2(),
         '=>',
         baca.markups.flaut_partial_2(),
@@ -170,7 +170,7 @@ maker(
     baca.text_script_staff_padding(1.5),
     baca.text_spanner_staff_padding(5),
     baca.markup('(always one circle per stem)'),
-    baca.new_text_spanner(
+    baca.text_spanner(
         u'2” circles',
         '=>',
         u'4” circles',
@@ -204,7 +204,7 @@ maker(
 maker(
     ('v2', (9, 16)), 
     baca.text_spanner_staff_padding(5),
-    baca.new_text_spanner(
+    baca.text_spanner(
         'flaut. (2°)',
         '=>',
         'ord.'
@@ -309,7 +309,7 @@ maker(
     baca.note_head_style_harmonic(selector=baca.notes()[1:]),
     baca.pitch('Ab2', selector=baca.note(0)),
     baca.pitch('Gb2', selector=baca.notes()[1:]),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.flaut(),
         '=>',
         baca.markups.non_flaut(),
@@ -367,7 +367,7 @@ maker(
     baca.markup('thinking color (no longer width)'),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.markup('“whisk” circles'),
         '=>',
         baca.markups.markup('poco scratch circles'),
@@ -386,7 +386,7 @@ maker(
     ('v2', 33),
     baca.alternate_bow_strokes(),
     baca.dynamic('mp', redundant=True),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.lhd_plus_half_clt().boxed(),
         '=|',
         bookend=False,
@@ -415,7 +415,7 @@ maker(
         baca.markups.string_number(3),
         direction=abjad.Down,
         ),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.rasp_partial_2(),
         '=>',
         baca.markups.poco_rasp_partial_2(),
@@ -430,7 +430,7 @@ maker(
     baca.dynamic('mf'),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.markup('“whisk” circles'),
         '=>',
         baca.markups.markup('mod. scratch circles'),
@@ -446,7 +446,7 @@ maker(
     baca.dynamic('f'),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.markup('“whisk” circles'),
         '=>',
         baca.markups.markup('molto scratch circles'),
@@ -472,7 +472,7 @@ maker(
         baca.hairpin('ff > mf'),
         ),
     baca.text_spanner_staff_padding(4),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.molto_scratch(),
         '=>',
         baca.markups.pochiss_scratch(),

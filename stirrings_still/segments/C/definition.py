@@ -109,7 +109,7 @@ maker(
     (stirrings_still.desynchronization(4, [-1]), 3),
     baca.dynamic('"ff"'),
     baca.markup('maximally tight crunch circles: grind at talon'),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.damp().boxed(),
         '=|',
         bookend=False,
@@ -153,7 +153,7 @@ maker(
     ('tutti', (7, 10)),
     baca.dynamic('p'),
     baca.markup('maximally tight crunch circles: grind at talon'),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.damp().boxed(),
         '=|',
         bookend=False,
@@ -173,7 +173,7 @@ maker(
 maker(
     ('tutti', (12, 15)),
     baca.dynamic('p', redundant=True),
-    baca.new_text_spanner(
+    baca.text_spanner(
         'max. tight cir.',
         '=>',
         #u'1-2” circles',
@@ -182,7 +182,7 @@ maker(
         piece_selector=baca.group_notes_by_measures([2]),
         tweaks=[abjad.tweak(4).staff_padding],
         ),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.damp().boxed(),
         '=|',
         bookend=False,
@@ -203,7 +203,7 @@ maker(
 maker(
     ('tutti', (16, 19)),
     baca.dynamic('p', redundant=True),
-    baca.new_text_spanner(
+    baca.text_spanner(
         #u'1-2” circles',
         baca.markups.circles(1, 2, as_string=True),
         '=>',
@@ -213,7 +213,7 @@ maker(
         piece_selector=baca.group_notes_by_measures([2]),
         tweaks=[abjad.tweak(4).staff_padding],
         ),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.damp().boxed(),
         '=|',
         bookend=False,
@@ -233,7 +233,7 @@ maker(
 maker(
     ('tutti', (20, 23)),
     baca.dynamic('p', redundant=True),
-    baca.new_text_spanner(
+    baca.text_spanner(
         #u'2-4” circles',
         baca.markups.circles(2, 4, as_string=True),
         '=>',
@@ -243,7 +243,7 @@ maker(
         piece_selector=baca.group_notes_by_measures([2]),
         tweaks=[abjad.tweak(4).staff_padding],
         ),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.damp().boxed(),
         '=|',
         bookend=False,
@@ -264,7 +264,7 @@ maker(
 maker(
     ('tutti', (24, 27)),
     baca.dynamic('p', redundant=True),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.circles(8),
         '=|',
         bookend=False,
@@ -274,7 +274,7 @@ maker(
             abjad.tweak(4).staff_padding,
             ],
         ),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.damp().boxed(),
         '=|',
         bookend=False,
@@ -305,7 +305,7 @@ maker(
     ('v2', (28, 29)),
     baca.dynamic('mp'),
     baca.markup('[clockticks]'),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.lhd_plus_half_clt().boxed(),
         '=|',
         bookend=False,
@@ -323,7 +323,7 @@ maker(
     ('tutti', (30, 33)),
     baca.breathe(),
     baca.hairpin('mf > pp'),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.circles(8),
         '=|',
         bookend=False,
@@ -333,7 +333,7 @@ maker(
             abjad.tweak(4).staff_padding,
             ],
         ),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.damp().boxed(),
         '=|',
         bookend=False,
@@ -359,7 +359,7 @@ maker(
 # TODO: intermittent triple -> double -> single harmonic
 maker(
     ('tutti', (36, 55)),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.circles(8),
         '=|',
         bookend=False,
@@ -369,7 +369,7 @@ maker(
             abjad.tweak(4).staff_padding,
             ],
         ),
-    baca.new_text_spanner(
+    baca.text_spanner(
         '[triple -> double -> single harmonic]',
         '=|',
         bookend=False,
@@ -418,7 +418,7 @@ maker(
     ('tutti', (56, 59)),
     baca.breathe(),
     baca.dynamic('ff', redundant=True),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.circles(8),
         '=|',
         bookend=False,
@@ -428,7 +428,7 @@ maker(
             abjad.tweak(4).staff_padding,
             ],
         ),
-    baca.new_text_spanner(
+    baca.text_spanner(
         '[harmonic -> half -> stopped]',
         '=|',
         bookend=False,
@@ -449,7 +449,7 @@ maker(
     (['v1', 'v2', 'va'], (60, 61)),
     baca.breathe(),
     baca.dynamic('appena_udibile'),
-    baca.new_text_spanner(
+    baca.text_spanner(
         '[double-stop field]',
         '=|',
         bookend=False,
@@ -465,7 +465,7 @@ maker(
 maker(
     ('tutti', (62, 69)),
     baca.dynamic('p'),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.circles(8),
         '=|',
         bookend=False,
@@ -475,7 +475,7 @@ maker(
             abjad.tweak(4).staff_padding,
             ],
         ),
-    baca.new_text_spanner(
+    baca.text_spanner(
         '[TODO: jeux des terminaisons ...]',
         '=|',
         bookend=False,
@@ -492,7 +492,7 @@ maker(
 maker(
     ('tutti', (71, 76)),
     baca.hairpin('f >o niente'),
-    baca.new_text_spanner(
+    baca.text_spanner(
         u'8” circles',
         '=>',
         u'2” circles',
