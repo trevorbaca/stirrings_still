@@ -138,7 +138,7 @@ maker(
     baca.alternate_bow_strokes(),
     baca.dynamic('mp'),
     baca.text_spanner(
-        baca.markups.lhd_plus_half_clt().boxed(),
+        baca.markuplib.lhd_plus_half_clt().boxed(),
         '=|',
         bookend=False,
         selector=baca.rleaves(),

@@ -72,7 +72,7 @@ maker(
             ),
         ),
     baca.text_spanner(
-        baca.markups.cir(8),
+        baca.markuplib.cir(8),
         '=|',
         bookend=False,
         leak=True,
@@ -82,7 +82,7 @@ maker(
             ],
         ),
     baca.markup(
-        baca.markups.golden_tone(),
+        baca.markuplib.golden_tone(),
         abjad.tweak(9).staff_padding,
         ),
     )
@@ -114,7 +114,7 @@ maker(
         piece_selector=baca.group_by_measures([5, 4, 2]),
         ),
     baca.text_spanner(
-        baca.markups.half_clt().boxed(),
+        baca.markuplib.half_clt().boxed(),
         '=|',
         bookend=False,
         leak=True,
