@@ -221,7 +221,7 @@ maker(
     ('vc', 38),
     baca.dls_staff_padding(5),
     baca.dynamic('f'),
-    baca.markups.half_clt().boxed(),
+    baca.markuplib.half_clt().boxed(),
     baca.text_script_staff_padding(11),
     baca.text_spanner_staff_padding(7),
     stirrings_still.bcps(rotation=-3),
@@ -246,7 +246,7 @@ maker(
     ('va', (49, 53)),
     baca.dynamic('"mp"'),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-    baca.markups.markup('tailpiece: poco flicker').boxed(),
+    baca.markuplib.markup('tailpiece: poco flicker').boxed(),
     baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
@@ -290,7 +290,7 @@ maker(
         stirrings_still.accelerando(start=(1, 4), stop=(2, 16)),
         ),
     baca.text_spanner(
-        baca.markups.fast_whisked_ellipses(),
+        baca.markuplib.fast_whisked_ellipses(),
         '=|',
         bookend=False,
         leak=True,
@@ -330,7 +330,7 @@ maker(
     ('tutti', (58, 63)),
     baca.hairpin('mf >o niente'),
     baca.text_spanner(
-        baca.markups.damp().boxed(),
+        baca.markuplib.damp().boxed(),
         '=|',
         bookend=False,
         leak=True,
@@ -359,7 +359,7 @@ maker(
     (['v1', 'v2', 'va'], 65),
     baca.dynamic('p'),
     baca.markup(
-        baca.markups.column('dense', 'db. stops').with_color('magenta'),
+        baca.markuplib.column('dense', 'db. stops').with_color('magenta'),
         ),
     baca.markup(
         baca.Markup('urtext field').with_color('darkgreen'),
@@ -409,7 +409,7 @@ maker(
             ),
         ),
     baca.text_spanner(
-        baca.markups.cir(8),
+        baca.markuplib.cir(8),
         '=|',
         bookend=False,
         leak=True,
@@ -419,7 +419,7 @@ maker(
             ],
         ),
     baca.text_spanner(
-        baca.markups.golden_tone(),
+        baca.markuplib.golden_tone(),
         '=|',
         bookend=False,
         leak=True,

@@ -64,7 +64,7 @@ maker(
     ('v2', 3),
     baca.dynamic('mp'),
     baca.text_spanner(
-        baca.markups.lhd_plus_half_clt().boxed(),
+        baca.markuplib.lhd_plus_half_clt().boxed(),
         '=|',
         bookend=False,
         leak=True,
@@ -107,5 +107,5 @@ maker(
 
 maker(
     ('tutti', 10),
-    baca.markups.poco_scratch(),
+    baca.markuplib.poco_scratch(),
     )
