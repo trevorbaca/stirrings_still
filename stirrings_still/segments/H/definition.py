@@ -375,12 +375,10 @@ maker(
             baca.markups.lhd_plus_half_clt().boxed(),
             '=|',
             ],
+        abjad.tweak(3.25).bound_details__right__padding,
         bookend=False,
         leak=True,
         selector=baca.leaves(),
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            ],
         ),
     baca.text_spanner_staff_padding(7),
     baca.tuplet_bracket_staff_padding(2),

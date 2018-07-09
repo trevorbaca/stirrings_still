@@ -114,12 +114,10 @@ maker(
             baca.markups.damp().boxed(),
             '=|',
             ],
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(7).staff_padding,
         bookend=False,
         leak=True,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(7).staff_padding,
-            ],
         ),
     )
 
@@ -160,12 +158,10 @@ maker(
             baca.markups.damp().boxed(),
             '=|',
             ],
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(7).staff_padding,
         bookend=False,
         leak=True,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(7).staff_padding,
-            ],
         ),
     (stirrings_still.desynchronization(4, [1]), 0),
     (stirrings_still.desynchronization(4, [0]), 1),
@@ -179,23 +175,21 @@ maker(
     baca.dynamic('p', redundant=True),
     baca.text_spanner(
         'max. tight cir. => 1-2˝ circles',
+        abjad.tweak(4).staff_padding,
         bookend=False,
         piece_selector=baca.group_notes_by_measures([2]),
-        tweaks=[abjad.tweak(4).staff_padding],
         ),
     baca.text_spanner(
         [
             baca.markups.damp().boxed(),
             '=|',
             ],
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(7).staff_padding,
         bookend=False,
         leak=True,
         lilypond_id=1,
         selector=baca.leaves(),
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(7).staff_padding,
-            ],
         ),
     (stirrings_still.desynchronization(4, [1], rests=True), 0),
     (stirrings_still.desynchronization(4, [0], rests=True), 1),
@@ -208,22 +202,20 @@ maker(
     baca.dynamic('p', redundant=True),
     baca.text_spanner(
         '1-2˝ circles => 2-4˝ circles',
+        abjad.tweak(4).staff_padding,
         bookend=False,
         piece_selector=baca.group_notes_by_measures([2]),
-        tweaks=[abjad.tweak(4).staff_padding],
         ),
     baca.text_spanner(
         [
             baca.markups.damp().boxed(),
             '=|',
             ],
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(7).staff_padding,
         bookend=False,
         leak=True,
         lilypond_id=1,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(7).staff_padding,
-            ],
         ),
     (stirrings_still.desynchronization(4, [1], rests=True), 0),
     (stirrings_still.desynchronization(4, [0], rests=True), 1),
@@ -236,23 +228,21 @@ maker(
     baca.dynamic('p', redundant=True),
     baca.text_spanner(
         '2-4˝ circles => 4-8˝ circles',
+        abjad.tweak(4).staff_padding,
         bookend=False,
         piece_selector=baca.group_notes_by_measures([2]),
-        tweaks=[abjad.tweak(4).staff_padding],
         ),
     baca.text_spanner(
         [
             baca.markups.damp().boxed(),
             '=|',
             ],
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(7).staff_padding,
         bookend=False,
         leak=True,
         lilypond_id=1,
         selector=baca.leaves(),
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(7).staff_padding,
-            ],
         ),
     (stirrings_still.desynchronization(4, [1], rests=([2], 3)), 0),
     (stirrings_still.desynchronization(4, [0], rests=([2], 3)), 1),
@@ -265,25 +255,21 @@ maker(
     baca.dynamic('p', redundant=True),
     baca.text_spanner(
         '8˝ circles =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(4).staff_padding,
         bookend=False,
         leak=True,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(4).staff_padding,
-            ],
         ),
     baca.text_spanner(
         [
             baca.markups.damp().boxed(),
             '=|',
             ],
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(7).staff_padding,
         bookend=False,
         leak=True,
         lilypond_id=1,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(7).staff_padding,
-            ],
         ),
     (stirrings_still.desynchronization(4, [1]), 0),
     (stirrings_still.desynchronization(4, [0]), 1),
@@ -310,13 +296,11 @@ maker(
             baca.markups.lhd_plus_half_clt().boxed(),
             '=|',
             ],
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(7).staff_padding,
         bookend=False,
         leak=True,
         lilypond_id=1,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(7).staff_padding,
-            ],
         ),
     stirrings_still.clockticks(),
     )
@@ -327,25 +311,21 @@ maker(
     baca.hairpin('mf > pp'),
     baca.text_spanner(
         '8˝ circles =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(4).staff_padding,
         bookend=False,
         leak=True,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(4).staff_padding,
-            ],
         ),
     baca.text_spanner(
         [
             baca.markups.damp().boxed(),
             '=|',
             ],
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(7).staff_padding,
         bookend=False,
         leak=True,
         lilypond_id=1,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(7).staff_padding,
-            ],
         ),
     stirrings_still.synchronized_circles(rests=[-1]),
     )
@@ -364,22 +344,18 @@ maker(
     ('tutti', (36, 55)),
     baca.text_spanner(
         '8˝ circles =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(4).staff_padding,
         bookend=False,
         leak=True,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(4).staff_padding,
-            ],
         ),
     baca.text_spanner(
         '[triple --> double --> single harmonic] =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(7).staff_padding,
         bookend=False,
         leak=True,
         lilypond_id=1,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(7).staff_padding,
-            ],
         ),
     (stirrings_still.synchronized_circles(rotation=0), 0),
     (stirrings_still.synchronized_circles(rotation=-1), 1),
@@ -421,22 +397,18 @@ maker(
     baca.dynamic('ff', redundant=True),
     baca.text_spanner(
         '8˝ circles =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(4).staff_padding,
         bookend=False,
         leak=True,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(4).staff_padding,
-            ],
         ),
     baca.text_spanner(
         '[harmonic --> half --> stopped] =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(7).staff_padding,
         bookend=False,
         leak=True,
         lilypond_id=1,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(7).staff_padding,
-            ],
         ),
     (stirrings_still.synchronized_circles(gaps=False, rotation=0), 0),
     (stirrings_still.synchronized_circles(gaps=False, rotation=-1), 1),
@@ -450,12 +422,10 @@ maker(
     baca.dynamic('appena_udibile'),
     baca.text_spanner(
         '[double-stop field] =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(4).staff_padding,
         bookend=False,
         leak=True,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(4).staff_padding,
-            ],
         ),
     stirrings_still.urtext_field(),
     )
@@ -465,22 +435,18 @@ maker(
     baca.dynamic('p'),
     baca.text_spanner(
         '8˝ circles =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(4).staff_padding,
         bookend=False,
         leak=True,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(4).staff_padding,
-            ],
         ),
     baca.text_spanner(
         '[TODO: jeux des terminaisons ...] =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(7).staff_padding,
         bookend=False,
         leak=True,
         lilypond_id=1,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(7).staff_padding,
-            ],
         ),
     stirrings_still.synchronized_circles(rotation=0)
     )
@@ -490,9 +456,9 @@ maker(
     baca.hairpin('f >o niente'),
     baca.text_spanner(
         '8˝ circles => 2˝ circles',
+        abjad.tweak(4).staff_padding,
         bookend=False,
         piece_selector=baca.group_notes_by_measures([3]),
-        tweaks=[abjad.tweak(4).staff_padding],
         ),
     # TODO: revoice
     (stirrings_still.desynchronization(4, [1]), 0),

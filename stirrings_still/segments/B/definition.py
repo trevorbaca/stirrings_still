@@ -142,11 +142,11 @@ maker(
             baca.markups.lhd_plus_half_clt().boxed(),
             '=|',
             ],
+        abjad.tweak(1.75).bound_details__right__padding,
+        abjad.tweak(7).staff_padding,
         bookend=False,
         selector=baca.rleaves(),
-        tweaks=[abjad.tweak(1.75).bound_details__right__padding],
         ),
-    baca.text_spanner_staff_padding(7),
     baca.tuplet_bracket_staff_padding(2),
     baca.tuplet_number_denominator(),
     )

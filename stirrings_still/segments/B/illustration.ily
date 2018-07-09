@@ -2731,7 +2731,6 @@ B_ViolinIMusicVoice = {
             #12                                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             "Vn. I"                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \override TextSpanner.staff-padding = #7                               %! OC1
     \override TupletBracket.staff-padding = #2                             %! OC1
     \override TupletNumber.text = #tuplet-number::calc-denominator-text    %! OC1
     \clef "treble"                                                         %! SM8:REAPPLIED_CLEF:SM37
@@ -2764,6 +2763,7 @@ B_ViolinIMusicVoice = {
             }                                                              %! PIC
         }                                                                  %! PIC
     - \tweak bound-details.right.padding #1.75                             %! PIC
+    - \tweak staff-padding #7                                              %! PIC
     \startTextSpan                                                         %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -2828,7 +2828,6 @@ B_ViolinIMusicVoice = {
         -\upbow                                                            %! IC
         
         r8
-        \revert TextSpanner.staff-padding                                  %! OC2
         \revert TupletBracket.staff-padding                                %! OC2
         \revert TupletNumber.text                                          %! OC2
     }
@@ -3644,7 +3643,6 @@ B_ViolinIIMusicVoice = {
                 #12                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 "Vn. II"                                                   %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             }                                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \override TextSpanner.staff-padding = #7                           %! OC1
         \override TupletBracket.staff-padding = #2                         %! OC1
         \override TupletNumber.text = #tuplet-number::calc-denominator-text %! OC1
         \clef "treble"                                                     %! SM8:REAPPLIED_CLEF:SM37
@@ -3681,6 +3679,7 @@ B_ViolinIIMusicVoice = {
                 }                                                          %! PIC
             }                                                              %! PIC
         - \tweak bound-details.right.padding #1.75                         %! PIC
+        - \tweak staff-padding #7                                          %! PIC
         \startTextSpan                                                     %! PIC
         \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -3788,7 +3787,6 @@ B_ViolinIIMusicVoice = {
         -\upbow                                                            %! IC
         
         r4
-        \revert TextSpanner.staff-padding                                  %! OC2
         \revert TupletBracket.staff-padding                                %! OC2
         \revert TupletNumber.text                                          %! OC2
     }
@@ -4644,7 +4642,6 @@ B_ViolaMusicVoice = {
                 #12                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 Va.                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             }                                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \override TextSpanner.staff-padding = #7                           %! OC1
         \override TupletBracket.staff-padding = #2                         %! OC1
         \override TupletNumber.text = #tuplet-number::calc-denominator-text %! OC1
         \clef "alto"                                                       %! SM8:REAPPLIED_CLEF:SM37
@@ -4681,6 +4678,7 @@ B_ViolaMusicVoice = {
                 }                                                          %! PIC
             }                                                              %! PIC
         - \tweak bound-details.right.padding #1.75                         %! PIC
+        - \tweak staff-padding #7                                          %! PIC
         \startTextSpan                                                     %! PIC
         \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -4788,7 +4786,6 @@ B_ViolaMusicVoice = {
         -\upbow                                                            %! IC
         
         r4
-        \revert TextSpanner.staff-padding                                  %! OC2
         \revert TupletBracket.staff-padding                                %! OC2
         \revert TupletNumber.text                                          %! OC2
     }
@@ -5351,7 +5348,6 @@ B_CelloMusicVoice = {
                 #12                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
                 Vc.                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             }                                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \override TextSpanner.staff-padding = #7                           %! OC1
         \override TupletBracket.staff-padding = #2                         %! OC1
         \override TupletNumber.text = #tuplet-number::calc-denominator-text %! OC1
         \clef "bass"                                                       %! SM8:REAPPLIED_CLEF:SM37
@@ -5388,6 +5384,7 @@ B_CelloMusicVoice = {
                 }                                                          %! PIC
             }                                                              %! PIC
         - \tweak bound-details.right.padding #1.75                         %! PIC
+        - \tweak staff-padding #7                                          %! PIC
         \startTextSpan                                                     %! PIC
         \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -5495,7 +5492,6 @@ B_CelloMusicVoice = {
         -\upbow                                                            %! IC
         
         r4
-        \revert TextSpanner.staff-padding                                  %! OC2
         \revert TupletBracket.staff-padding                                %! OC2
         \revert TupletNumber.text                                          %! OC2
     }

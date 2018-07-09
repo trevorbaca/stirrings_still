@@ -291,12 +291,10 @@ maker(
         ),
     baca.text_spanner(
         'fast whisked ellipses =|',
+        abjad.tweak(2).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
         bookend=False,
         leak=True,
-        tweaks=[
-            abjad.tweak(2).bound_details__right__padding,
-            abjad.tweak(5).staff_padding,
-            ],
         ),
     )
 
@@ -330,23 +328,19 @@ maker(
     baca.hairpin('mf >o niente'),
     baca.text_spanner(
         'damp =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
         bookend=False,
         leak=True,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(5).staff_padding,
-            ],
         ),
     baca.text_spanner(
         'jeux des terminaisons =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak('magenta').color,
+        abjad.tweak(9).staff_padding,
         bookend=False,
         leak=True,
         lilypond_id=1,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak('magenta').color,
-            abjad.tweak(9).staff_padding,
-            ],
         ),
     stirrings_still.ntlt_flat_glissandi(),
     stirrings_still.strokes(0),
@@ -407,22 +401,18 @@ maker(
         ),
     baca.text_spanner(
         '8˝ cir. =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
         bookend=False,
         leak=True,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(5).staff_padding,
-            ],
         ),
     baca.text_spanner(
         'golden tone =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
         bookend=False,
         leak=True,
         lilypond_id=1,
-        tweaks=[
-            abjad.tweak(3.25).bound_details__right__padding,
-            abjad.tweak(9).staff_padding,
-            ],
         ),
     )
 
