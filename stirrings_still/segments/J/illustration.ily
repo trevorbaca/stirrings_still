@@ -656,10 +656,8 @@ J_ViolinIMusicVoice = {
     \repeatTie
     
     % [J ViolinIMusicVoice measure 535 / measure 6]                        %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                          %! SM24
     c'1
-    \baca_appena_udibile                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! PIC
     \repeatTie
     
@@ -827,10 +825,8 @@ J_ViolinIIMusicVoice = {
     \repeatTie
     
     % [J ViolinIIMusicVoice measure 535 / measure 6]                       %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                          %! SM24
     c'1
-    \baca_appena_udibile                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! PIC
     \repeatTie
     
@@ -967,10 +963,8 @@ J_ViolaMusicVoice = {
     \repeatTie
     
     % [J ViolaMusicVoice measure 535 / measure 6]                          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                          %! SM24
     c'1
-    \baca_appena_udibile                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! PIC
     \repeatTie
     
@@ -1093,10 +1087,8 @@ J_CelloMusicVoice = {
     R1 * 1
     
     % [J CelloMusicVoice measure 535 / measure 6]                          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                          %! SM24
     c'1
-    \baca_appena_udibile                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! PIC
     
     % [J CelloMusicVoice measure 536 / measure 7]                          %! SM4
