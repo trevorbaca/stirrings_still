@@ -570,6 +570,7 @@ I_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                                %! PIC
     - \tweak circled-tip ##t                                               %! PIC
     \>                                                                     %! PIC
     
@@ -751,8 +752,8 @@ I_ViolinIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
-    <> \!                                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
     ]
+    <> \!                                                                  %! SM8:EXPLICIT_DYNAMIC:PIC
     <> \stopTextSpan                                                       %! PIC
     
     % [I ViolinIMusicVoice measure 526 / measure 8]                        %! SM4
@@ -890,6 +891,7 @@ I_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                                %! PIC
     - \tweak circled-tip ##t                                               %! PIC
     \>                                                                     %! PIC
     
@@ -1072,6 +1074,7 @@ I_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'2
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                                %! PIC
     - \tweak circled-tip ##t                                               %! PIC
     \>                                                                     %! PIC
     
