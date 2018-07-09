@@ -94,11 +94,13 @@ maker(
     baca.text_script_staff_padding(9),
     baca.text_spanner_staff_padding(5),
     baca.text_spanner(
-        baca.Markup.musicglyph('noteheads.s0harmonic'),
-        '=>',
-        baca.Markup.musicglyph('noteheads.s2harmonic'),
-        '=>',
-        'ord.',
+        [
+            baca.Markup.musicglyph('noteheads.s0harmonic'),
+            '=>',
+            baca.Markup.musicglyph('noteheads.s2harmonic'),
+            '=>',
+            'ord.',
+            ],
         bookend=False,
         piece_selector=baca.leaves().partition_by_ratio((1, 1, 1)),
         ),

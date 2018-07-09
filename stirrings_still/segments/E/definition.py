@@ -96,8 +96,10 @@ maker(
     (['v1', 'v2', 'va'], (1, 2)),
     baca.dynamic('p'),
     baca.text_spanner(
-        baca.markuplib.lhd_plus_half_clt().boxed(),
-        '=|',
+        [
+            baca.markuplib.lhd_plus_half_clt().boxed(),
+            '=|',
+            ],
         bookend=False,
         selector=baca.rleaves(),
         tweaks=[
@@ -124,8 +126,7 @@ maker(
 maker(
     (['v1', 'v2', 'va'], (6, 19)),
     baca.text_spanner(
-        '[grid-to-trajectory]',
-        '=|',
+        '[grid-to-trajectory] =|',
         bookend=False,
         leak=True,
         tweaks=[

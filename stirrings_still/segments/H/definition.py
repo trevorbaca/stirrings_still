@@ -96,9 +96,11 @@ maker(
         baca.breathe(),
         ),
     baca.text_spanner(
-        baca.markuplib.rasp_partial_2(),
-        '=>',
-        baca.markuplib.flaut_partial_2(),
+        [
+            baca.markuplib.rasp_partial_2(),
+            '=>',
+            baca.markuplib.flaut_partial_2(),
+            ],
         selector=baca.notes()[:4],
         ),
     )
@@ -171,13 +173,7 @@ maker(
     baca.text_spanner_staff_padding(5),
     baca.markup('(always one circle per stem)'),
     baca.text_spanner(
-        u'2” circles',
-        '=>',
-        u'4” circles',
-        '=>',
-        u'6” circles',
-        '=>',
-        u'8” circles',
+        '2" circles => 4" circles => 6" circles => 8" circles',
         bookend=False,
         piece_selector=baca.group_by_measures([2]),
         ),
@@ -205,15 +201,7 @@ maker(
     ('v2', (9, 16)), 
     baca.text_spanner_staff_padding(5),
     baca.text_spanner(
-        'flaut. (2°)',
-        '=>',
-        'ord.'
-        '=>',
-        u'4” circles',
-        '=>',
-        u'6” circles',
-        '=>',
-        u'8” circles',
+        'flaut. (2°) => ord. => 4" circles => 6" circles => 8" circles',
         bookend=False,
         piece_selector=baca.group_by_measures([1, 1, 2, 2, 2]),
         ),
@@ -310,9 +298,7 @@ maker(
     baca.pitch('Ab2', selector=baca.note(0)),
     baca.pitch('Gb2', selector=baca.notes()[1:]),
     baca.text_spanner(
-        baca.markuplib.flaut(),
-        '=>',
-        baca.markuplib.non_flaut(),
+        'flaut. => non flaut.',
         selector=baca.notes()[:2],
         ),
     )
@@ -368,9 +354,7 @@ maker(
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.text_spanner(
-        baca.markuplib.markup('“whisk” circles'),
-        '=>',
-        baca.markuplib.markup('poco scratch circles'),
+        '"whisk" circles => poco scratch circles',
         selector=baca.leaves()[:3],
         ),
     )
@@ -387,8 +371,10 @@ maker(
     baca.alternate_bow_strokes(),
     baca.dynamic('mp', redundant=True),
     baca.text_spanner(
-        baca.markuplib.lhd_plus_half_clt().boxed(),
-        '=|',
+        [
+            baca.markuplib.lhd_plus_half_clt().boxed(),
+            '=|',
+            ],
         bookend=False,
         leak=True,
         selector=baca.leaves(),
@@ -416,9 +402,11 @@ maker(
         direction=abjad.Down,
         ),
     baca.text_spanner(
-        baca.markuplib.rasp_partial_2(),
-        '=>',
-        baca.markuplib.poco_rasp_partial_2(),
+        [
+            baca.markuplib.rasp_partial_2(),
+            '=>',
+            baca.markuplib.poco_rasp_partial_2(),
+            ],
         ),
     )
 
@@ -431,9 +419,7 @@ maker(
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.text_spanner(
-        baca.markuplib.markup('“whisk” circles'),
-        '=>',
-        baca.markuplib.markup('mod. scratch circles'),
+        '"whisk" circles => mod. scratch circles',
         selector=baca.leaves()[:3],
         ),
     )
@@ -447,9 +433,7 @@ maker(
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.text_spanner(
-        baca.markuplib.markup('“whisk” circles'),
-        '=>',
-        baca.markuplib.markup('molto scratch circles'),
+        '"whisk" circles => molto scratch circles',
         selector=baca.leaves()[:3],
         ),
     )
@@ -473,9 +457,7 @@ maker(
         ),
     baca.text_spanner_staff_padding(4),
     baca.text_spanner(
-        baca.markuplib.molto_scratch(),
-        '=>',
-        baca.markuplib.pochiss_scratch(),
+        'molto scratch => pochiss. scratch',
         selector=baca.leaves().group_by_measure()[-2:].leaves()[:-3],
         ),
     )

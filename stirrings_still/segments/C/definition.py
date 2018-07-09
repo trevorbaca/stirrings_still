@@ -110,8 +110,10 @@ maker(
     baca.dynamic('"ff"'),
     baca.markup('maximally tight crunch circles: grind at talon'),
     baca.text_spanner(
-        baca.markuplib.damp().boxed(),
-        '=|',
+        [
+            baca.markuplib.damp().boxed(),
+            '=|',
+            ],
         bookend=False,
         leak=True,
         tweaks=[
@@ -154,8 +156,10 @@ maker(
     baca.dynamic('p'),
     baca.markup('maximally tight crunch circles: grind at talon'),
     baca.text_spanner(
-        baca.markuplib.damp().boxed(),
-        '=|',
+        [
+            baca.markuplib.damp().boxed(),
+            '=|',
+            ],
         bookend=False,
         leak=True,
         tweaks=[
@@ -174,17 +178,16 @@ maker(
     ('tutti', (12, 15)),
     baca.dynamic('p', redundant=True),
     baca.text_spanner(
-        'max. tight cir.',
-        '=>',
-        #u'1-2” circles',
-        baca.markuplib.circles(1, 2, as_string=True),
+        'max. tight cir. => 1-2˝ circles',
         bookend=False,
         piece_selector=baca.group_notes_by_measures([2]),
         tweaks=[abjad.tweak(4).staff_padding],
         ),
     baca.text_spanner(
-        baca.markuplib.damp().boxed(),
-        '=|',
+        [
+            baca.markuplib.damp().boxed(),
+            '=|',
+            ],
         bookend=False,
         leak=True,
         lilypond_id=1,
@@ -204,18 +207,16 @@ maker(
     ('tutti', (16, 19)),
     baca.dynamic('p', redundant=True),
     baca.text_spanner(
-        #u'1-2” circles',
-        baca.markuplib.circles(1, 2, as_string=True),
-        '=>',
-        #u'2-4” circles',
-        baca.markuplib.circles(2, 4, as_string=True),
+        '1-2˝ circles => 2-4˝ circles',
         bookend=False,
         piece_selector=baca.group_notes_by_measures([2]),
         tweaks=[abjad.tweak(4).staff_padding],
         ),
     baca.text_spanner(
-        baca.markuplib.damp().boxed(),
-        '=|',
+        [
+            baca.markuplib.damp().boxed(),
+            '=|',
+            ],
         bookend=False,
         leak=True,
         lilypond_id=1,
@@ -234,18 +235,16 @@ maker(
     ('tutti', (20, 23)),
     baca.dynamic('p', redundant=True),
     baca.text_spanner(
-        #u'2-4” circles',
-        baca.markuplib.circles(2, 4, as_string=True),
-        '=>',
-        #u'4-8” circles',
-        baca.markuplib.circles(4, 8, as_string=True),
+        '2-4˝ circles => 4-8˝ circles',
         bookend=False,
         piece_selector=baca.group_notes_by_measures([2]),
         tweaks=[abjad.tweak(4).staff_padding],
         ),
     baca.text_spanner(
-        baca.markuplib.damp().boxed(),
-        '=|',
+        [
+            baca.markuplib.damp().boxed(),
+            '=|',
+            ],
         bookend=False,
         leak=True,
         lilypond_id=1,
@@ -265,8 +264,7 @@ maker(
     ('tutti', (24, 27)),
     baca.dynamic('p', redundant=True),
     baca.text_spanner(
-        baca.markuplib.circles(8),
-        '=|',
+        '8˝ circles =|',
         bookend=False,
         leak=True,
         tweaks=[
@@ -275,8 +273,10 @@ maker(
             ],
         ),
     baca.text_spanner(
-        baca.markuplib.damp().boxed(),
-        '=|',
+        [
+            baca.markuplib.damp().boxed(),
+            '=|',
+            ],
         bookend=False,
         leak=True,
         lilypond_id=1,
@@ -306,8 +306,10 @@ maker(
     baca.dynamic('mp'),
     baca.markup('[clockticks]'),
     baca.text_spanner(
-        baca.markuplib.lhd_plus_half_clt().boxed(),
-        '=|',
+        [
+            baca.markuplib.lhd_plus_half_clt().boxed(),
+            '=|',
+            ],
         bookend=False,
         leak=True,
         lilypond_id=1,
@@ -324,8 +326,7 @@ maker(
     baca.breathe(),
     baca.hairpin('mf > pp'),
     baca.text_spanner(
-        baca.markuplib.circles(8),
-        '=|',
+        '8˝ circles =|',
         bookend=False,
         leak=True,
         tweaks=[
@@ -334,8 +335,10 @@ maker(
             ],
         ),
     baca.text_spanner(
-        baca.markuplib.damp().boxed(),
-        '=|',
+        [
+            baca.markuplib.damp().boxed(),
+            '=|',
+            ],
         bookend=False,
         leak=True,
         lilypond_id=1,
@@ -360,8 +363,7 @@ maker(
 maker(
     ('tutti', (36, 55)),
     baca.text_spanner(
-        baca.markuplib.circles(8),
-        '=|',
+        '8˝ circles =|',
         bookend=False,
         leak=True,
         tweaks=[
@@ -370,8 +372,7 @@ maker(
             ],
         ),
     baca.text_spanner(
-        '[triple -> double -> single harmonic]',
-        '=|',
+        '[triple --> double --> single harmonic] =|',
         bookend=False,
         leak=True,
         lilypond_id=1,
@@ -419,8 +420,7 @@ maker(
     baca.breathe(),
     baca.dynamic('ff', redundant=True),
     baca.text_spanner(
-        baca.markuplib.circles(8),
-        '=|',
+        '8˝ circles =|',
         bookend=False,
         leak=True,
         tweaks=[
@@ -429,8 +429,7 @@ maker(
             ],
         ),
     baca.text_spanner(
-        '[harmonic -> half -> stopped]',
-        '=|',
+        '[harmonic --> half --> stopped] =|',
         bookend=False,
         leak=True,
         lilypond_id=1,
@@ -450,8 +449,7 @@ maker(
     baca.breathe(),
     baca.dynamic('appena_udibile'),
     baca.text_spanner(
-        '[double-stop field]',
-        '=|',
+        '[double-stop field] =|',
         bookend=False,
         leak=True,
         tweaks=[
@@ -466,8 +464,7 @@ maker(
     ('tutti', (62, 69)),
     baca.dynamic('p'),
     baca.text_spanner(
-        baca.markuplib.circles(8),
-        '=|',
+        '8˝ circles =|',
         bookend=False,
         leak=True,
         tweaks=[
@@ -476,8 +473,7 @@ maker(
             ],
         ),
     baca.text_spanner(
-        '[TODO: jeux des terminaisons ...]',
-        '=|',
+        '[TODO: jeux des terminaisons ...] =|',
         bookend=False,
         leak=True,
         lilypond_id=1,
@@ -493,9 +489,7 @@ maker(
     ('tutti', (71, 76)),
     baca.hairpin('f >o niente'),
     baca.text_spanner(
-        u'8” circles',
-        '=>',
-        u'2” circles',
+        '8˝ circles => 2˝ circles',
         bookend=False,
         piece_selector=baca.group_notes_by_measures([3]),
         tweaks=[abjad.tweak(4).staff_padding],

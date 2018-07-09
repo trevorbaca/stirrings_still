@@ -3229,7 +3229,7 @@ C_ViolinIMusicVoice = {
         c'4
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "1-2” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "1-2˝ circles" %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         
@@ -3268,7 +3268,7 @@ C_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "1-2” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "1-2˝ circles" %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         - \abjad_dashed_line_with_hook                                     %! PIC
@@ -3322,7 +3322,7 @@ C_ViolinIMusicVoice = {
         c'4
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "2-4” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "2-4˝ circles" %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         
@@ -3359,7 +3359,7 @@ C_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "2-4” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "2-4˝ circles" %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         - \abjad_dashed_line_with_hook                                     %! PIC
@@ -3415,7 +3415,7 @@ C_ViolinIMusicVoice = {
         c'4
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "4-8” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "4-8˝ circles" %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         
@@ -3458,15 +3458,7 @@ C_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         - \abjad_dashed_line_with_hook                                     %! PIC
-        - \tweak bound-details.left.text \markup {                         %! PIC
-            \concat                                                        %! PIC
-                {                                                          %! PIC
-                    \upright                                               %! PIC
-                        "8” circles"                                       %! PIC
-                    \hspace                                                %! PIC
-                        #0.5                                               %! PIC
-                }                                                          %! PIC
-            }                                                              %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"   %! PIC
         - \tweak bound-details.right.padding #3.25                         %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
@@ -3605,15 +3597,7 @@ C_ViolinIMusicVoice = {
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
@@ -3690,20 +3674,12 @@ C_ViolinIMusicVoice = {
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "[triple -> double -> single harmonic]" %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "[triple --> double --> single harmonic]" %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #7                                              %! PIC
     \startTextSpanOne                                                      %! PIC
@@ -3949,20 +3925,12 @@ C_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'4.
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "[harmonic -> half -> stopped]" %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "[harmonic --> half --> stopped]" %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #7                                              %! PIC
     \startTextSpanOne                                                      %! PIC
@@ -4043,15 +4011,7 @@ C_ViolinIMusicVoice = {
     c'4.
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:IC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
@@ -4165,7 +4125,7 @@ C_ViolinIMusicVoice = {
         - \tweak circled-tip ##t                                           %! PIC
         \>                                                                 %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "8” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"   %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
@@ -4246,7 +4206,7 @@ C_ViolinIMusicVoice = {
         a'4
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "2” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "2˝ circles"   %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
@@ -4626,7 +4586,7 @@ C_ViolinIIMusicVoice = {
     c'4
     \stopTextSpan                                                          %! PIC
     - \abjad_invisible_line                                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "1-2” circles"     %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "1-2˝ circles"     %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
     
@@ -4654,7 +4614,7 @@ C_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "1-2” circles"     %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "1-2˝ circles"     %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
@@ -4697,7 +4657,7 @@ C_ViolinIIMusicVoice = {
     c'4
     \stopTextSpan                                                          %! PIC
     - \abjad_invisible_line                                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "2-4” circles"     %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "2-4˝ circles"     %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
     
@@ -4723,7 +4683,7 @@ C_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "2-4” circles"     %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "2-4˝ circles"     %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
@@ -4770,7 +4730,7 @@ C_ViolinIIMusicVoice = {
     c'4
     \stopTextSpan                                                          %! PIC
     - \abjad_invisible_line                                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "4-8” circles"     %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "4-8˝ circles"     %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
     
@@ -4800,15 +4760,7 @@ C_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
@@ -4953,15 +4905,7 @@ C_ViolinIIMusicVoice = {
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
@@ -5038,20 +4982,12 @@ C_ViolinIIMusicVoice = {
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "[triple -> double -> single harmonic]" %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "[triple --> double --> single harmonic]" %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #7                                              %! PIC
     \startTextSpanOne                                                      %! PIC
@@ -5303,20 +5239,12 @@ C_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'4.
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "[harmonic -> half -> stopped]" %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "[harmonic --> half --> stopped]" %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #7                                              %! PIC
     \startTextSpanOne                                                      %! PIC
@@ -5401,15 +5329,7 @@ C_ViolinIIMusicVoice = {
     c'4.
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:IC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
@@ -5521,7 +5441,7 @@ C_ViolinIIMusicVoice = {
     - \tweak circled-tip ##t                                               %! PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "8” circles"       %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
     \glissando                                                             %! SC
@@ -5584,7 +5504,7 @@ C_ViolinIIMusicVoice = {
     g'4
     \stopTextSpan                                                          %! PIC
     - \abjad_invisible_line                                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "2” circles"       %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "2˝ circles"       %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
     \glissando                                                             %! SC
@@ -6023,7 +5943,7 @@ C_ViolaMusicVoice = {
         c'4
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "1-2” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "1-2˝ circles" %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         
@@ -6067,7 +5987,7 @@ C_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "1-2” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "1-2˝ circles" %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         - \abjad_dashed_line_with_hook                                     %! PIC
@@ -6126,7 +6046,7 @@ C_ViolaMusicVoice = {
         c'4
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "2-4” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "2-4˝ circles" %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         
@@ -6168,7 +6088,7 @@ C_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "2-4” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "2-4˝ circles" %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         - \abjad_dashed_line_with_hook                                     %! PIC
@@ -6229,7 +6149,7 @@ C_ViolaMusicVoice = {
         c'4
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "4-8” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "4-8˝ circles" %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         
@@ -6278,15 +6198,7 @@ C_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         - \abjad_dashed_line_with_hook                                     %! PIC
-        - \tweak bound-details.left.text \markup {                         %! PIC
-            \concat                                                        %! PIC
-                {                                                          %! PIC
-                    \upright                                               %! PIC
-                        "8” circles"                                       %! PIC
-                    \hspace                                                %! PIC
-                        #0.5                                               %! PIC
-                }                                                          %! PIC
-            }                                                              %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"   %! PIC
         - \tweak bound-details.right.padding #3.25                         %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
@@ -6437,15 +6349,7 @@ C_ViolaMusicVoice = {
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
@@ -6522,20 +6426,12 @@ C_ViolaMusicVoice = {
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "[triple -> double -> single harmonic]" %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "[triple --> double --> single harmonic]" %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #7                                              %! PIC
     \startTextSpanOne                                                      %! PIC
@@ -6787,20 +6683,12 @@ C_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'4.
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "[harmonic -> half -> stopped]" %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "[harmonic --> half --> stopped]" %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #7                                              %! PIC
     \startTextSpanOne                                                      %! PIC
@@ -6885,15 +6773,7 @@ C_ViolaMusicVoice = {
     c'4.
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:IC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
@@ -7007,7 +6887,7 @@ C_ViolaMusicVoice = {
         - \tweak circled-tip ##t                                           %! PIC
         \>                                                                 %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "8” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"   %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
@@ -7097,7 +6977,7 @@ C_ViolaMusicVoice = {
         e4
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "2” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "2˝ circles"   %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
@@ -7459,7 +7339,7 @@ C_CelloMusicVoice = {
         c'4
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "1-2” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "1-2˝ circles" %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         
@@ -7488,7 +7368,7 @@ C_CelloMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "1-2” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "1-2˝ circles" %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         - \abjad_dashed_line_with_hook                                     %! PIC
@@ -7532,7 +7412,7 @@ C_CelloMusicVoice = {
         c'4
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "2-4” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "2-4˝ circles" %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         
@@ -7559,7 +7439,7 @@ C_CelloMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "2-4” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "2-4˝ circles" %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         - \abjad_dashed_line_with_hook                                     %! PIC
@@ -7604,7 +7484,7 @@ C_CelloMusicVoice = {
         c'4
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "4-8” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "4-8˝ circles" %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         
@@ -7637,15 +7517,7 @@ C_CelloMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         - \abjad_dashed_line_with_hook                                     %! PIC
-        - \tweak bound-details.left.text \markup {                         %! PIC
-            \concat                                                        %! PIC
-                {                                                          %! PIC
-                    \upright                                               %! PIC
-                        "8” circles"                                       %! PIC
-                    \hspace                                                %! PIC
-                        #0.5                                               %! PIC
-                }                                                          %! PIC
-            }                                                              %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"   %! PIC
         - \tweak bound-details.right.padding #3.25                         %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
@@ -7760,15 +7632,7 @@ C_CelloMusicVoice = {
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
@@ -7856,20 +7720,12 @@ C_CelloMusicVoice = {
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "[triple -> double -> single harmonic]" %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "[triple --> double --> single harmonic]" %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #7                                              %! PIC
     \startTextSpanOne                                                      %! PIC
@@ -8121,20 +7977,12 @@ C_CelloMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'4.
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "[harmonic -> half -> stopped]" %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "[harmonic --> half --> stopped]" %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #7                                              %! PIC
     \startTextSpanOne                                                      %! PIC
@@ -8219,15 +8067,7 @@ C_CelloMusicVoice = {
     c'4.
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:IC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” circles"                                           %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #4                                              %! PIC
     \startTextSpan                                                         %! PIC
@@ -8341,7 +8181,7 @@ C_CelloMusicVoice = {
         - \tweak circled-tip ##t                                           %! PIC
         \>                                                                 %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "8” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"   %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
@@ -8404,7 +8244,7 @@ C_CelloMusicVoice = {
         d,4
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "2” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "2˝ circles"   %! PIC
         - \tweak staff-padding #4                                          %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC

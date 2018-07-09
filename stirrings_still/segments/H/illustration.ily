@@ -2018,7 +2018,7 @@ H_ViolinIMusicVoice = {
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "(always one circle per stem)" }                       %! IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "2” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "2" circles"   %! PIC
         \startTextSpan                                                     %! PIC
         [
         \glissando                                                         %! SC
@@ -2047,7 +2047,7 @@ H_ViolinIMusicVoice = {
         g'4
         \stopTextSpan                                                      %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "4” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "4" circles"   %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
         
@@ -2080,7 +2080,7 @@ H_ViolinIMusicVoice = {
         a'8
         \stopTextSpan                                                      %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "6” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "6" circles"   %! PIC
         \startTextSpan                                                     %! PIC
         [
         \glissando                                                         %! SC
@@ -2115,7 +2115,7 @@ H_ViolinIMusicVoice = {
         b'4
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "8” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "8" circles"   %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
         
@@ -2356,19 +2356,8 @@ H_ViolinIMusicVoice = {
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "thinking color (no longer width)" }                   %! IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup {                         %! PIC
-            \concat                                                        %! PIC
-                {                                                          %! PIC
-                    \upright                                               %! PIC
-                        "“whisk” circles"                                  %! PIC
-                    \hspace                                                %! PIC
-                        #0.5                                               %! PIC
-                }                                                          %! PIC
-            }                                                              %! PIC
-        - \tweak bound-details.right.text \markup {                        %! PIC
-            \upright                                                       %! PIC
-                "poco scratch circles"                                     %! PIC
-            }                                                              %! PIC
+        - \tweak bound-details.left.text \markup \baca-left ""whisk" circles" %! PIC
+        - \tweak bound-details.right.text \markup \baca-right "poco scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
         \startTextSpan                                                     %! PIC
@@ -2501,19 +2490,8 @@ H_ViolinIMusicVoice = {
         c'16 * 63/8
         \mf                                                                %! SM8:EXPLICIT_DYNAMIC:IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup {                         %! PIC
-            \concat                                                        %! PIC
-                {                                                          %! PIC
-                    \upright                                               %! PIC
-                        "“whisk” circles"                                  %! PIC
-                    \hspace                                                %! PIC
-                        #0.5                                               %! PIC
-                }                                                          %! PIC
-            }                                                              %! PIC
-        - \tweak bound-details.right.text \markup {                        %! PIC
-            \upright                                                       %! PIC
-                "mod. scratch circles"                                     %! PIC
-            }                                                              %! PIC
+        - \tweak bound-details.left.text \markup \baca-left ""whisk" circles" %! PIC
+        - \tweak bound-details.right.text \markup \baca-right "mod. scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
         \startTextSpan                                                     %! PIC
@@ -2597,19 +2575,8 @@ H_ViolinIMusicVoice = {
         c'16 * 497/64
         \f                                                                 %! SM8:EXPLICIT_DYNAMIC:IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup {                         %! PIC
-            \concat                                                        %! PIC
-                {                                                          %! PIC
-                    \upright                                               %! PIC
-                        "“whisk” circles"                                  %! PIC
-                    \hspace                                                %! PIC
-                        #0.5                                               %! PIC
-                }                                                          %! PIC
-            }                                                              %! PIC
-        - \tweak bound-details.right.text \markup {                        %! PIC
-            \upright                                                       %! PIC
-                "molto scratch circles"                                    %! PIC
-            }                                                              %! PIC
+        - \tweak bound-details.left.text \markup \baca-left ""whisk" circles" %! PIC
+        - \tweak bound-details.right.text \markup \baca-right "molto scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
         \startTextSpan                                                     %! PIC
@@ -2718,19 +2685,8 @@ H_ViolinIMusicVoice = {
         \ff                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         \>                                                                 %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup {                         %! PIC
-            \concat                                                        %! PIC
-                {                                                          %! PIC
-                    \upright                                               %! PIC
-                        "molto scratch"                                    %! PIC
-                    \hspace                                                %! PIC
-                        #0.5                                               %! PIC
-                }                                                          %! PIC
-            }                                                              %! PIC
-        - \tweak bound-details.right.text \markup {                        %! PIC
-            \upright                                                       %! PIC
-                "pochiss. scratch"                                         %! PIC
-            }                                                              %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "molto scratch" %! PIC
+        - \tweak bound-details.right.text \markup \baca-right "pochiss. scratch" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
         \startTextSpan                                                     %! PIC
@@ -2912,8 +2868,8 @@ H_ViolinIIMusicVoice = {
     f'2.
     \repeatTie                                                             %! TCC
     \stopTextSpan                                                          %! PIC
-    - \abjad_invisible_line                                                %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "ord.=>"           %! PIC
+    - \abjad_dashed_line_with_arrow                                        %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "ord."             %! PIC
     \startTextSpan                                                         %! PIC
     \override TupletNumber.text = \markup {
         \scale
@@ -2966,7 +2922,7 @@ H_ViolinIIMusicVoice = {
         ^ \markup { "(always one circle per stem)" }                       %! IC
         \stopTextSpan                                                      %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "4” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "4" circles"   %! PIC
         \startTextSpan                                                     %! PIC
         [
         \glissando                                                         %! SC
@@ -2999,7 +2955,7 @@ H_ViolinIIMusicVoice = {
         g'4
         \stopTextSpan                                                      %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "6” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "6" circles"   %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
         
@@ -3032,7 +2988,7 @@ H_ViolinIIMusicVoice = {
         \>                                                                 %! PIC
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "8” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "8" circles"   %! PIC
         \startTextSpan                                                     %! PIC
         
         af'!4
@@ -3230,19 +3186,8 @@ H_ViolinIIMusicVoice = {
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "thinking color (no longer width)" }                   %! IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup {                         %! PIC
-            \concat                                                        %! PIC
-                {                                                          %! PIC
-                    \upright                                               %! PIC
-                        "“whisk” circles"                                  %! PIC
-                    \hspace                                                %! PIC
-                        #0.5                                               %! PIC
-                }                                                          %! PIC
-            }                                                              %! PIC
-        - \tweak bound-details.right.text \markup {                        %! PIC
-            \upright                                                       %! PIC
-                "poco scratch circles"                                     %! PIC
-            }                                                              %! PIC
+        - \tweak bound-details.left.text \markup \baca-left ""whisk" circles" %! PIC
+        - \tweak bound-details.right.text \markup \baca-right "poco scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
         \startTextSpan                                                     %! PIC
@@ -3412,19 +3357,8 @@ H_ViolinIIMusicVoice = {
         c'16 * 127/16
         \mf                                                                %! SM8:EXPLICIT_DYNAMIC:IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup {                         %! PIC
-            \concat                                                        %! PIC
-                {                                                          %! PIC
-                    \upright                                               %! PIC
-                        "“whisk” circles"                                  %! PIC
-                    \hspace                                                %! PIC
-                        #0.5                                               %! PIC
-                }                                                          %! PIC
-            }                                                              %! PIC
-        - \tweak bound-details.right.text \markup {                        %! PIC
-            \upright                                                       %! PIC
-                "mod. scratch circles"                                     %! PIC
-            }                                                              %! PIC
+        - \tweak bound-details.left.text \markup \baca-left ""whisk" circles" %! PIC
+        - \tweak bound-details.right.text \markup \baca-right "mod. scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
         \startTextSpan                                                     %! PIC
@@ -3502,19 +3436,8 @@ H_ViolinIIMusicVoice = {
         c'16 * 477/64
         \f                                                                 %! SM8:EXPLICIT_DYNAMIC:IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup {                         %! PIC
-            \concat                                                        %! PIC
-                {                                                          %! PIC
-                    \upright                                               %! PIC
-                        "“whisk” circles"                                  %! PIC
-                    \hspace                                                %! PIC
-                        #0.5                                               %! PIC
-                }                                                          %! PIC
-            }                                                              %! PIC
-        - \tweak bound-details.right.text \markup {                        %! PIC
-            \upright                                                       %! PIC
-                "molto scratch circles"                                    %! PIC
-            }                                                              %! PIC
+        - \tweak bound-details.left.text \markup \baca-left ""whisk" circles" %! PIC
+        - \tweak bound-details.right.text \markup \baca-right "molto scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
         \startTextSpan                                                     %! PIC
@@ -3605,19 +3528,8 @@ H_ViolinIIMusicVoice = {
         \ff                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         \>                                                                 %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup {                         %! PIC
-            \concat                                                        %! PIC
-                {                                                          %! PIC
-                    \upright                                               %! PIC
-                        "molto scratch"                                    %! PIC
-                    \hspace                                                %! PIC
-                        #0.5                                               %! PIC
-                }                                                          %! PIC
-            }                                                              %! PIC
-        - \tweak bound-details.right.text \markup {                        %! PIC
-            \upright                                                       %! PIC
-                "pochiss. scratch"                                         %! PIC
-            }                                                              %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "molto scratch" %! PIC
+        - \tweak bound-details.right.text \markup \baca-right "pochiss. scratch" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
         \startTextSpan                                                     %! PIC
@@ -3840,7 +3752,7 @@ H_ViolaMusicVoice = {
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "(always one circle per stem)" }                       %! IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "2” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "2" circles"   %! PIC
         \startTextSpan                                                     %! PIC
         [
         \glissando                                                         %! SC
@@ -3869,7 +3781,7 @@ H_ViolaMusicVoice = {
         a4
         \stopTextSpan                                                      %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "4” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "4" circles"   %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
         
@@ -3896,7 +3808,7 @@ H_ViolaMusicVoice = {
         a4
         \stopTextSpan                                                      %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "6” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "6" circles"   %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
         
@@ -3935,7 +3847,7 @@ H_ViolaMusicVoice = {
         b2
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "8” circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "8" circles"   %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
         
@@ -4131,19 +4043,8 @@ H_ViolaMusicVoice = {
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "thinking color (no longer width)" }                   %! IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup {                         %! PIC
-            \concat                                                        %! PIC
-                {                                                          %! PIC
-                    \upright                                               %! PIC
-                        "“whisk” circles"                                  %! PIC
-                    \hspace                                                %! PIC
-                        #0.5                                               %! PIC
-                }                                                          %! PIC
-            }                                                              %! PIC
-        - \tweak bound-details.right.text \markup {                        %! PIC
-            \upright                                                       %! PIC
-                "poco scratch circles"                                     %! PIC
-            }                                                              %! PIC
+        - \tweak bound-details.left.text \markup \baca-left ""whisk" circles" %! PIC
+        - \tweak bound-details.right.text \markup \baca-right "poco scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
         \startTextSpan                                                     %! PIC
@@ -4267,19 +4168,8 @@ H_ViolaMusicVoice = {
         c'16 * 55/8
         \mf                                                                %! SM8:EXPLICIT_DYNAMIC:IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup {                         %! PIC
-            \concat                                                        %! PIC
-                {                                                          %! PIC
-                    \upright                                               %! PIC
-                        "“whisk” circles"                                  %! PIC
-                    \hspace                                                %! PIC
-                        #0.5                                               %! PIC
-                }                                                          %! PIC
-            }                                                              %! PIC
-        - \tweak bound-details.right.text \markup {                        %! PIC
-            \upright                                                       %! PIC
-                "mod. scratch circles"                                     %! PIC
-            }                                                              %! PIC
+        - \tweak bound-details.left.text \markup \baca-left ""whisk" circles" %! PIC
+        - \tweak bound-details.right.text \markup \baca-right "mod. scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
         \startTextSpan                                                     %! PIC
@@ -4357,19 +4247,8 @@ H_ViolaMusicVoice = {
         c'16 * 249/32
         \f                                                                 %! SM8:EXPLICIT_DYNAMIC:IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup {                         %! PIC
-            \concat                                                        %! PIC
-                {                                                          %! PIC
-                    \upright                                               %! PIC
-                        "“whisk” circles"                                  %! PIC
-                    \hspace                                                %! PIC
-                        #0.5                                               %! PIC
-                }                                                          %! PIC
-            }                                                              %! PIC
-        - \tweak bound-details.right.text \markup {                        %! PIC
-            \upright                                                       %! PIC
-                "molto scratch circles"                                    %! PIC
-            }                                                              %! PIC
+        - \tweak bound-details.left.text \markup \baca-left ""whisk" circles" %! PIC
+        - \tweak bound-details.right.text \markup \baca-right "molto scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
         \startTextSpan                                                     %! PIC
@@ -4443,19 +4322,8 @@ H_ViolaMusicVoice = {
     \ff                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "molto scratch"                                        %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "pochiss. scratch"                                             %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "molto scratch"    %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "pochiss. scratch" %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -4696,19 +4564,8 @@ H_CelloMusicVoice = {
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:IC
     _ \markup { IV }                                                       %! IC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    flaut.                                                 %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "non flaut."                                                   %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "flaut."           %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "non flaut."     %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
