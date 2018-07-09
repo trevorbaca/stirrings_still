@@ -48,12 +48,7 @@ maker(
     ('trio', (1, 7)),
     baca.measures(
         (4, 7),
-        baca.hairpin(
-            [
-                baca.IndicatorBundle(abjad.Dynamic('mp'), abjad.DynamicTrend('>o')),
-                baca.IndicatorBundle(abjad.Dynamic('niente', command=r'\!', leak=True)),
-                ],
-            ),
+        baca.hairpin('mp >o niente', leak=True),
         ),
     baca.pick(
         0,
@@ -88,19 +83,21 @@ maker(
     'vc',
     # TODO: allow suite
     #baca.suite(
+    [
         baca.text_spanner_staff_padding(7),
-        baca.measures(
+        *baca.measures(
             (1, 6),
             baca.beam(),
             stirrings_still.eighths(),
             stirrings_still.transition_bcps(final_spanner=True),
             ),
-        baca.measures(
+        *baca.measures(
             (7, -1),
             stirrings_still.cello_cell(),
             stirrings_still.cello_cell_bcps(),
             ),
-    #    ),
+        ],
+        #)
     )
 
 maker(
