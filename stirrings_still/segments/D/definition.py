@@ -221,7 +221,7 @@ maker(
     ('vc', 38),
     baca.dls_staff_padding(5),
     baca.dynamic('f'),
-    baca.markups.half_clt().boxed(),
+    baca.markup('1/2 clt', boxed=True),
     baca.text_script_staff_padding(11),
     baca.text_spanner_staff_padding(7),
     stirrings_still.bcps(rotation=-3),
