@@ -73,12 +73,10 @@ maker(
         ),
     baca.text_spanner(
         '8" =|',
+        abjad.tweak(5).staff_padding,
         bookend=False,
         leak=True,
         selector=baca.tleaves(),
-        tweaks=[
-            abjad.tweak(5).staff_padding,
-            ],
         ),
     baca.markup(
         baca.markups.golden_tone(),
@@ -117,12 +115,10 @@ maker(
             baca.markups.half_clt().boxed(),
             '=|',
             ],
+        abjad.tweak(12).staff_padding,
         bookend=False,
         leak=True,
         lilypond_id=1,
-        tweaks=[
-            abjad.tweak(12).staff_padding,
-            ],
         ),
     )
 
