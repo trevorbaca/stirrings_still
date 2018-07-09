@@ -85,13 +85,13 @@ maker(
     #baca.suite(
     [
         baca.text_spanner_staff_padding(7),
-        *baca.measures(
+        baca.measures(
             (1, 6),
             baca.beam(),
             stirrings_still.eighths(),
             stirrings_still.transition_bcps(final_spanner=True),
             ),
-        *baca.measures(
+        baca.measures(
             (7, -1),
             stirrings_still.cello_cell(),
             stirrings_still.cello_cell_bcps(),
