@@ -110,13 +110,11 @@ maker(
     baca.dynamic('"ff"'),
     baca.markup('maximally tight crunch circles: grind at talon'),
     baca.text_spanner(
-        [
-            baca.markups.damp().boxed(),
-            '=|',
-            ],
+        'damp =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,
+        boxed=True,
         leak=True,
         ),
     )
@@ -125,7 +123,7 @@ maker(
     (['v1', 'v2'], 5),
     baca.dynamic('mp'),
     baca.markup('[urtext double stop]'),
-    baca.markups.loure(),
+    baca.markup('louré'),
     (stirrings_still.loure_tuplets(0), 0),
     (stirrings_still.loure_tuplets(1), 1),
     )
@@ -134,7 +132,7 @@ maker(
     ('va', 5),
     baca.dynamic('mp'),
     baca.markup('[clouded partial (stopped)]'),
-    baca.markups.loure(),
+    baca.markup('louré'),
     stirrings_still.loure_tuplets(-1),
     )
 
@@ -154,13 +152,11 @@ maker(
     baca.dynamic('p'),
     baca.markup('maximally tight crunch circles: grind at talon'),
     baca.text_spanner(
-        [
-            baca.markups.damp().boxed(),
-            '=|',
-            ],
+        'damp =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,
+        boxed=True,
         leak=True,
         ),
     (stirrings_still.desynchronization(4, [1]), 0),
@@ -180,13 +176,11 @@ maker(
         piece_selector=baca.group_notes_by_measures([2]),
         ),
     baca.text_spanner(
-        [
-            baca.markups.damp().boxed(),
-            '=|',
-            ],
+        'damp =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,
+        boxed=True,
         leak=True,
         lilypond_id=1,
         selector=baca.leaves(),
@@ -207,13 +201,11 @@ maker(
         piece_selector=baca.group_notes_by_measures([2]),
         ),
     baca.text_spanner(
-        [
-            baca.markups.damp().boxed(),
-            '=|',
-            ],
+        'damp =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,
+        boxed=True,
         leak=True,
         lilypond_id=1,
         ),
@@ -233,13 +225,11 @@ maker(
         piece_selector=baca.group_notes_by_measures([2]),
         ),
     baca.text_spanner(
-        [
-            baca.markups.damp().boxed(),
-            '=|',
-            ],
+        'damp =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,
+        boxed=True,
         leak=True,
         lilypond_id=1,
         selector=baca.leaves(),
@@ -261,13 +251,11 @@ maker(
         leak=True,
         ),
     baca.text_spanner(
-        [
-            baca.markups.damp().boxed(),
-            '=|',
-            ],
+        'damp =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,
+        boxed=True,
         leak=True,
         lilypond_id=1,
         ),
@@ -280,7 +268,7 @@ maker(
 maker(
     (['v1', 'va', 'vc'], (28, 29)),
     baca.dynamic('pp'),
-    baca.markups.lines(['[clouded pane:', 'shin. beacon]']).boxed(),
+    baca.markups.lines(['[clouded pane:', 'shin. beacon]'], boxed=True),
     baca.note_head_style_harmonic(),
     (stirrings_still.clouded_pane(), 0),
     (stirrings_still.clouded_pane(), 1),
@@ -292,13 +280,11 @@ maker(
     baca.dynamic('mp'),
     baca.markup('[clockticks]'),
     baca.text_spanner(
-        [
-            baca.markups.lhd_plus_half_clt().boxed(),
-            '=|',
-            ],
+        'lhd + 1/2 clt =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,
+        boxed=True,
         leak=True,
         lilypond_id=1,
         ),
@@ -317,13 +303,11 @@ maker(
         leak=True,
         ),
     baca.text_spanner(
-        [
-            baca.markups.damp().boxed(),
-            '=|',
-            ],
+        'damp =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,
+        boxed=True,
         leak=True,
         lilypond_id=1,
         ),

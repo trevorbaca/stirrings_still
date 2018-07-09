@@ -1871,19 +1871,8 @@ H_ViolinIMusicVoice = {
     - \tweak circled-tip ##t                                               %! PIC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "rasp (2°)"                                            %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "flaut. (2°)"                                                  %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"        %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "flaut. (2°)"    %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -2415,19 +2404,8 @@ H_ViolinIMusicVoice = {
     - \tweak circled-tip ##t                                               %! PIC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "rasp (2°)"                                            %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "poco rasp (2°)"                                               %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"        %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "poco rasp (2°)" %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -2787,19 +2765,8 @@ H_ViolinIIMusicVoice = {
     - \tweak circled-tip ##t                                               %! PIC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "rasp (2°)"                                            %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "flaut. (2°)"                                                  %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"        %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "flaut. (2°)"    %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -3282,19 +3249,8 @@ H_ViolinIIMusicVoice = {
     - \tweak circled-tip ##t                                               %! PIC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "rasp (2°)"                                            %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "poco rasp (2°)"                                               %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"        %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "poco rasp (2°)" %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -3630,19 +3586,8 @@ H_ViolaMusicVoice = {
     - \tweak circled-tip ##t                                               %! PIC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "rasp (2°)"                                            %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "flaut. (2°)"                                                  %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"        %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "flaut. (2°)"    %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -4093,19 +4038,8 @@ H_ViolaMusicVoice = {
     - \tweak circled-tip ##t                                               %! PIC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "rasp (2°)"                                            %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "poco rasp (2°)"                                               %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"        %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "poco rasp (2°)" %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -4407,19 +4341,8 @@ H_CelloMusicVoice = {
     - \tweak circled-tip ##t                                               %! PIC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "rasp (2°)"                                            %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "flaut. (2°)"                                                  %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"        %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "flaut. (2°)"    %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -4725,19 +4648,8 @@ H_CelloMusicVoice = {
     - \tweak circled-tip ##t                                               %! PIC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "rasp (2°)"                                            %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "poco rasp (2°)"                                               %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"        %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "poco rasp (2°)" %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC

@@ -138,13 +138,11 @@ maker(
     baca.alternate_bow_strokes(),
     baca.dynamic('mp'),
     baca.text_spanner(
-        [
-            baca.markups.lhd_plus_half_clt().boxed(),
-            '=|',
-            ],
+        'lhd + 1/2 clt =|',
         abjad.tweak(1.75).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,
+        boxed=True,
         selector=baca.rleaves(),
         ),
     baca.tuplet_bracket_staff_padding(2),

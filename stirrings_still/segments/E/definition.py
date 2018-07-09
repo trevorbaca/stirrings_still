@@ -96,12 +96,10 @@ maker(
     (['v1', 'v2', 'va'], (1, 2)),
     baca.dynamic('p'),
     baca.text_spanner(
-        [
-            baca.markups.lhd_plus_half_clt().boxed(),
-            '=|',
-            ],
+        'lhd + 1/2 clt =|',
         abjad.tweak(1.75).bound_details__right__padding,
         bookend=False,
+        boxed=True,
         selector=baca.rleaves(),
         ),
     stirrings_still.continuous_tremolo(),

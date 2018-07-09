@@ -64,12 +64,10 @@ maker(
     ('v2', 3),
     baca.dynamic('mp'),
     baca.text_spanner(
-        [
-            baca.markups.lhd_plus_half_clt().boxed(),
-            '=|',
-            ],
+        'lhd + 1/2 clt =|',
         abjad.tweak(2.5).bound_details__right__padding,
         bookend=False,
+        boxed=True,
         leak=True,
         selector=baca.leaves(),
         ),
@@ -99,5 +97,5 @@ maker(
 
 maker(
     ('tutti', 10),
-    baca.markups.poco_scratch(),
+    baca.markup('poco scratch'),
     )

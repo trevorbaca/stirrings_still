@@ -74,7 +74,7 @@ maker(
         selector=baca.tleaves(),
         ),
     baca.markup(
-        baca.markups.golden_tone(),
+        'golden tone',
         abjad.tweak(9).staff_padding,
         ),
     )
@@ -107,12 +107,10 @@ maker(
         piece_selector=baca.group_by_measures([5, 4, 2]),
         ),
     baca.text_spanner(
-        [
-            baca.markups.half_clt().boxed(),
-            '=|',
-            ],
+        '1/2 clt =|',
         abjad.tweak(12).staff_padding,
         bookend=False,
+        boxed=True,
         leak=True,
         lilypond_id=1,
         ),
