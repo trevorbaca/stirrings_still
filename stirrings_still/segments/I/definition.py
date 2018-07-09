@@ -81,7 +81,7 @@ maker(
             ],
         ),
     baca.markup(
-        baca.markuplib.golden_tone(),
+        baca.markups.golden_tone(),
         abjad.tweak(9).staff_padding,
         ),
     )
@@ -114,7 +114,7 @@ maker(
         ),
     baca.text_spanner(
         [
-            baca.markuplib.half_clt().boxed(),
+            baca.markups.half_clt().boxed(),
             '=|',
             ],
         bookend=False,

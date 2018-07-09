@@ -139,7 +139,7 @@ maker(
     baca.dynamic('mp'),
     baca.text_spanner(
         [
-            baca.markuplib.lhd_plus_half_clt().boxed(),
+            baca.markups.lhd_plus_half_clt().boxed(),
             '=|',
             ],
         bookend=False,

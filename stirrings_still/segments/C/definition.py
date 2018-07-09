@@ -111,7 +111,7 @@ maker(
     baca.markup('maximally tight crunch circles: grind at talon'),
     baca.text_spanner(
         [
-            baca.markuplib.damp().boxed(),
+            baca.markups.damp().boxed(),
             '=|',
             ],
         bookend=False,
@@ -127,7 +127,7 @@ maker(
     (['v1', 'v2'], 5),
     baca.dynamic('mp'),
     baca.markup('[urtext double stop]'),
-    baca.markuplib.loure(),
+    baca.markups.loure(),
     (stirrings_still.loure_tuplets(0), 0),
     (stirrings_still.loure_tuplets(1), 1),
     )
@@ -136,7 +136,7 @@ maker(
     ('va', 5),
     baca.dynamic('mp'),
     baca.markup('[clouded partial (stopped)]'),
-    baca.markuplib.loure(),
+    baca.markups.loure(),
     stirrings_still.loure_tuplets(-1),
     )
 
@@ -157,7 +157,7 @@ maker(
     baca.markup('maximally tight crunch circles: grind at talon'),
     baca.text_spanner(
         [
-            baca.markuplib.damp().boxed(),
+            baca.markups.damp().boxed(),
             '=|',
             ],
         bookend=False,
@@ -185,7 +185,7 @@ maker(
         ),
     baca.text_spanner(
         [
-            baca.markuplib.damp().boxed(),
+            baca.markups.damp().boxed(),
             '=|',
             ],
         bookend=False,
@@ -214,7 +214,7 @@ maker(
         ),
     baca.text_spanner(
         [
-            baca.markuplib.damp().boxed(),
+            baca.markups.damp().boxed(),
             '=|',
             ],
         bookend=False,
@@ -242,7 +242,7 @@ maker(
         ),
     baca.text_spanner(
         [
-            baca.markuplib.damp().boxed(),
+            baca.markups.damp().boxed(),
             '=|',
             ],
         bookend=False,
@@ -274,7 +274,7 @@ maker(
         ),
     baca.text_spanner(
         [
-            baca.markuplib.damp().boxed(),
+            baca.markups.damp().boxed(),
             '=|',
             ],
         bookend=False,
@@ -294,7 +294,7 @@ maker(
 maker(
     (['v1', 'va', 'vc'], (28, 29)),
     baca.dynamic('pp'),
-    baca.markuplib.lines(['[clouded pane:', 'shin. beacon]']).boxed(),
+    baca.markups.lines(['[clouded pane:', 'shin. beacon]']).boxed(),
     baca.note_head_style_harmonic(),
     (stirrings_still.clouded_pane(), 0),
     (stirrings_still.clouded_pane(), 1),
@@ -307,7 +307,7 @@ maker(
     baca.markup('[clockticks]'),
     baca.text_spanner(
         [
-            baca.markuplib.lhd_plus_half_clt().boxed(),
+            baca.markups.lhd_plus_half_clt().boxed(),
             '=|',
             ],
         bookend=False,
@@ -336,7 +336,7 @@ maker(
         ),
     baca.text_spanner(
         [
-            baca.markuplib.damp().boxed(),
+            baca.markups.damp().boxed(),
             '=|',
             ],
         bookend=False,
