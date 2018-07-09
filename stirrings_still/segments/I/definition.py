@@ -72,7 +72,7 @@ maker(
             ),
         ),
     baca.text_spanner(
-        '8" =|',
+        '8˝ =|',
         abjad.tweak(5).staff_padding,
         bookend=False,
         leak=True,
