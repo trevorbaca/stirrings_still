@@ -2018,7 +2018,7 @@ H_ViolinIMusicVoice = {
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "(always one circle per stem)" }                       %! IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "2" circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "2˝ circles"   %! PIC
         \startTextSpan                                                     %! PIC
         [
         \glissando                                                         %! SC
@@ -2047,7 +2047,7 @@ H_ViolinIMusicVoice = {
         g'4
         \stopTextSpan                                                      %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "4" circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "4˝ circles"   %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
         
@@ -2080,7 +2080,7 @@ H_ViolinIMusicVoice = {
         a'8
         \stopTextSpan                                                      %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "6" circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "6˝ circles"   %! PIC
         \startTextSpan                                                     %! PIC
         [
         \glissando                                                         %! SC
@@ -2115,7 +2115,7 @@ H_ViolinIMusicVoice = {
         b'4
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "8" circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"   %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
         
@@ -2922,7 +2922,7 @@ H_ViolinIIMusicVoice = {
         ^ \markup { "(always one circle per stem)" }                       %! IC
         \stopTextSpan                                                      %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "4" circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "4˝ circles"   %! PIC
         \startTextSpan                                                     %! PIC
         [
         \glissando                                                         %! SC
@@ -2955,7 +2955,7 @@ H_ViolinIIMusicVoice = {
         g'4
         \stopTextSpan                                                      %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "6" circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "6˝ circles"   %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
         
@@ -2988,7 +2988,7 @@ H_ViolinIIMusicVoice = {
         \>                                                                 %! PIC
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "8" circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"   %! PIC
         \startTextSpan                                                     %! PIC
         
         af'!4
@@ -3752,7 +3752,7 @@ H_ViolaMusicVoice = {
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "(always one circle per stem)" }                       %! IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "2" circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "2˝ circles"   %! PIC
         \startTextSpan                                                     %! PIC
         [
         \glissando                                                         %! SC
@@ -3781,7 +3781,7 @@ H_ViolaMusicVoice = {
         a4
         \stopTextSpan                                                      %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "4" circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "4˝ circles"   %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
         
@@ -3808,7 +3808,7 @@ H_ViolaMusicVoice = {
         a4
         \stopTextSpan                                                      %! PIC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "6" circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "6˝ circles"   %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
         
@@ -3847,7 +3847,7 @@ H_ViolaMusicVoice = {
         b2
         \stopTextSpan                                                      %! PIC
         - \abjad_invisible_line                                            %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "8" circles"   %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"   %! PIC
         \startTextSpan                                                     %! PIC
         \glissando                                                         %! SC
         

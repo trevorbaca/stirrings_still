@@ -173,7 +173,7 @@ maker(
     baca.text_spanner_staff_padding(5),
     baca.markup('(always one circle per stem)'),
     baca.text_spanner(
-        '2" circles => 4" circles => 6" circles => 8" circles',
+        '2˝ circles => 4˝ circles => 6˝ circles => 8˝ circles',
         bookend=False,
         piece_selector=baca.group_by_measures([2]),
         ),
@@ -201,7 +201,7 @@ maker(
     ('v2', (9, 16)), 
     baca.text_spanner_staff_padding(5),
     baca.text_spanner(
-        'flaut. (2°) => ord. => 4" circles => 6" circles => 8" circles',
+        'flaut. (2°) => ord. => 4˝ circles => 6˝ circles => 8˝ circles',
         bookend=False,
         piece_selector=baca.group_by_measures([1, 1, 2, 2, 2]),
         ),
