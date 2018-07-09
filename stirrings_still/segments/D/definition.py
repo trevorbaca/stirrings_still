@@ -221,7 +221,7 @@ maker(
     ('vc', 38),
     baca.dls_staff_padding(5),
     baca.dynamic('f'),
-    baca.markuplib.half_clt().boxed(),
+    baca.markups.half_clt().boxed(),
     baca.text_script_staff_padding(11),
     baca.text_spanner_staff_padding(7),
     stirrings_still.bcps(rotation=-3),
@@ -246,7 +246,7 @@ maker(
     ('va', (49, 53)),
     baca.dynamic('"mp"'),
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
-    baca.markuplib.markup('tailpiece: poco flicker').boxed(),
+    baca.markups.markup('tailpiece: poco flicker').boxed(),
     baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
@@ -356,7 +356,7 @@ maker(
     (['v1', 'v2', 'va'], 65),
     baca.dynamic('p'),
     baca.markup(
-        baca.markuplib.column('dense', 'db. stops').with_color('magenta'),
+        baca.markups.column('dense', 'db. stops').with_color('magenta'),
         ),
     baca.markup(
         baca.Markup('urtext field').with_color('darkgreen'),

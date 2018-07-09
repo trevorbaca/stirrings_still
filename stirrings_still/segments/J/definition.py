@@ -65,7 +65,7 @@ maker(
     baca.dynamic('mp'),
     baca.text_spanner(
         [
-            baca.markuplib.lhd_plus_half_clt().boxed(),
+            baca.markups.lhd_plus_half_clt().boxed(),
             '=|',
             ],
         bookend=False,
@@ -109,5 +109,5 @@ maker(
 
 maker(
     ('tutti', 10),
-    baca.markuplib.poco_scratch(),
+    baca.markups.poco_scratch(),
     )
