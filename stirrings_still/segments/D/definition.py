@@ -290,8 +290,7 @@ maker(
         stirrings_still.accelerando(start=(1, 4), stop=(2, 16)),
         ),
     baca.text_spanner(
-        baca.markuplib.fast_whisked_ellipses(),
-        '=|',
+        'fast whisked ellipses =|',
         bookend=False,
         leak=True,
         tweaks=[
@@ -330,8 +329,7 @@ maker(
     ('tutti', (58, 63)),
     baca.hairpin('mf >o niente'),
     baca.text_spanner(
-        baca.markuplib.damp().boxed(),
-        '=|',
+        'damp =|',
         bookend=False,
         leak=True,
         tweaks=[
@@ -340,8 +338,7 @@ maker(
             ],
         ),
     baca.text_spanner(
-        'jeux des terminaisons',
-        '=|',
+        'jeux des terminaisons =|',
         bookend=False,
         leak=True,
         lilypond_id=1,
@@ -409,8 +406,7 @@ maker(
             ),
         ),
     baca.text_spanner(
-        baca.markuplib.cir(8),
-        '=|',
+        '8˝ cir. =|',
         bookend=False,
         leak=True,
         tweaks=[
@@ -419,8 +415,7 @@ maker(
             ],
         ),
     baca.text_spanner(
-        baca.markuplib.golden_tone(),
-        '=|',
+        'golden tone =|',
         bookend=False,
         leak=True,
         lilypond_id=1,

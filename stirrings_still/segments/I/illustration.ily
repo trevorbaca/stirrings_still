@@ -437,15 +437,7 @@ I_ViolinIMusicVoice = {
     - \tweak staff-padding #9                                              %! IC
     ^ \markup { "golden tone" }                                            %! IC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” cir."                                              %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8""               %! PIC
     - \tweak staff-padding #5                                              %! PIC
     \startTextSpan                                                         %! PIC
     [
@@ -843,15 +835,7 @@ I_ViolinIIMusicVoice = {
     - \tweak staff-padding #9                                              %! IC
     ^ \markup { "golden tone" }                                            %! IC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” cir."                                              %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8""               %! PIC
     - \tweak staff-padding #5                                              %! PIC
     \startTextSpan                                                         %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -1066,15 +1050,7 @@ I_ViolaMusicVoice = {
     - \tweak staff-padding #9                                              %! IC
     ^ \markup { "golden tone" }                                            %! IC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "8” cir."                                              %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "8""               %! PIC
     - \tweak staff-padding #5                                              %! PIC
     \startTextSpan                                                         %! PIC
     

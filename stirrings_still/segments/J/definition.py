@@ -64,8 +64,10 @@ maker(
     ('v2', 3),
     baca.dynamic('mp'),
     baca.text_spanner(
-        baca.markuplib.lhd_plus_half_clt().boxed(),
-        '=|',
+        [
+            baca.markuplib.lhd_plus_half_clt().boxed(),
+            '=|',
+            ],
         bookend=False,
         leak=True,
         selector=baca.leaves(),

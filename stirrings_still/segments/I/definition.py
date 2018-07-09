@@ -72,8 +72,7 @@ maker(
             ),
         ),
     baca.text_spanner(
-        baca.markuplib.cir(8),
-        '=|',
+        '8" =|',
         bookend=False,
         leak=True,
         selector=baca.tleaves(),
@@ -114,8 +113,10 @@ maker(
         piece_selector=baca.group_by_measures([5, 4, 2]),
         ),
     baca.text_spanner(
-        baca.markuplib.half_clt().boxed(),
-        '=|',
+        [
+            baca.markuplib.half_clt().boxed(),
+            '=|',
+            ],
         bookend=False,
         leak=True,
         lilypond_id=1,
