@@ -127,7 +127,7 @@ maker(
 maker(
     ('vc', 6),
     baca.dynamic('p'),
-    baca.markups.half_clt().boxed(),
+    baca.markup('1/2 clt', boxed=True),
     baca.script_staff_padding(6),
     baca.text_spanner_staff_padding(3),
     baca.tuplet_bracket_staff_padding(1),
