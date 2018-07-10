@@ -268,7 +268,9 @@ maker(
 maker(
     (['v1', 'va', 'vc'], (28, 29)),
     baca.dynamic('pp'),
-    baca.markups.lines(['[clouded pane:', 'shin. beacon]'], boxed=True),
+    baca.markup(
+        baca.markups.lines(['[clouded pane:', 'shin. beacon]'], boxed=True),
+        ),
     baca.note_head_style_harmonic(),
     (stirrings_still.clouded_pane(), 0),
     (stirrings_still.clouded_pane(), 1),
