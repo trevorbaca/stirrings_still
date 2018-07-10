@@ -8,7 +8,7 @@ def ntlt_flat_glissandi():
     return baca.map(
         baca.logical_ties(nontrivial=True), 
         baca.suite(
-            baca.untie_to(selector=baca.leaves()),
             baca.glissando(allow_repeats=True),
+            baca.untie_to(selector=baca.leaves()),
             ),
         )
