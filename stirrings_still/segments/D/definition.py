@@ -92,19 +92,19 @@ stirrings_still.time(maker, time)
 
 maker(
     ('tutti', (1, 6)),
-    baca.pick(
+    baca.match(
         0,
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
         ),
-    baca.pick(
+    baca.match(
         1,
         stirrings_still.strokes(-1, dmask=rmakers.silence([1], 2)),
         ),
-    baca.pick(
+    baca.match(
         2,
         stirrings_still.strokes(-2, dmask=rmakers.silence([0, 1], 3)),
         ),
-    baca.pick(
+    baca.match(
         3,
         stirrings_still.strokes(-3, dmask=rmakers.silence([1, 2], 3)),
         ),
@@ -113,19 +113,19 @@ maker(
 
 maker(
     ('tutti', (7, 12)),
-    baca.pick(
+    baca.match(
         0,
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
         ),
-    baca.pick(
+    baca.match(
         1,
         stirrings_still.strokes(-1, dmask=rmakers.silence([1], 2)),
         ),
-    baca.pick(
+    baca.match(
         2,
         stirrings_still.strokes(-2, dmask=rmakers.silence([0], 3)),
         ),
-    baca.pick(
+    baca.match(
         3,
         stirrings_still.strokes(-3, dmask=rmakers.silence([1, 2], 3)),
         ),
@@ -134,19 +134,19 @@ maker(
 
 maker(
     ('tutti', (13, 18)),
-    baca.pick(
+    baca.match(
         0,
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
         ),
-    baca.pick(
+    baca.match(
         1,
         stirrings_still.strokes(-1, dmask=rmakers.silence([1], 2)),
         ),
-    baca.pick(
+    baca.match(
         2,
         stirrings_still.strokes(-2, dmask=rmakers.silence([0], 3)),
         ),
-    baca.pick(
+    baca.match(
         3,
         stirrings_still.strokes(-3, dmask=rmakers.silence([1], 3)),
         ),
@@ -155,19 +155,19 @@ maker(
 
 maker(
     ('tutti', (19, 24)),
-    baca.pick(
+    baca.match(
         0,
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
         ),
-    baca.pick(
+    baca.match(
         1,
         stirrings_still.strokes(0, dmask=rmakers.silence([2], 3)),
         ),
-    baca.pick(
+    baca.match(
         2,
         stirrings_still.strokes(-2, dmask=rmakers.silence([0], 3)),
         ),
-    baca.pick(
+    baca.match(
         3,
         stirrings_still.strokes(-3, dmask=rmakers.silence([1], 3)),
         ),
@@ -176,19 +176,19 @@ maker(
 
 maker(
     ('tutti', (25, 30)),
-    baca.pick(
+    baca.match(
         0,
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
         ),
-    baca.pick(
+    baca.match(
         1,
         stirrings_still.strokes(0, dmask=rmakers.silence([2], 3)),
         ),
-    baca.pick(
+    baca.match(
         2,
         stirrings_still.strokes(-2, dmask=rmakers.silence([0], 2)),
         ),
-    baca.pick(
+    baca.match(
         3,
         stirrings_still.strokes(-2, dmask=rmakers.silence([2], 3)),
         ),
@@ -198,19 +198,19 @@ maker(
 maker(
     ('tutti', (31, 36)),
     baca.dynamic('mf'),
-    baca.pick(
+    baca.match(
         0,
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 2)),
         ),
-    baca.pick(
+    baca.match(
         1,
         stirrings_still.strokes(0, dmask=rmakers.silence([2], 3)),
         ),
-    baca.pick(
+    baca.match(
         2,
         stirrings_still.strokes(0, dmask=rmakers.silence([1], 2)),
         ),
-    baca.pick(
+    baca.match(
         3,
         stirrings_still.strokes(0, dmask=rmakers.silence([0], 3)),
         ),
@@ -265,7 +265,7 @@ maker(
 
 maker(
     ('tutti', 55),
-    baca.pick(
+    baca.match(
         2,
         baca.dynamic('p'),
         ),
@@ -281,11 +281,11 @@ maker(
             ),
         baca.hairpin('pp < mp'),
         ],
-    baca.pick(
+    baca.match(
         0,
         stirrings_still.accelerando(start=(1, 4), stop=(1, 16)),
         ),
-    baca.pick(
+    baca.match(
         1,
         stirrings_still.accelerando(start=(1, 4), stop=(2, 16)),
         ),
@@ -383,15 +383,15 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], 66),
-    baca.pick(
+    baca.match(
         0,
         stirrings_still.circles((1, 8)),
         ),
-    baca.pick(
+    baca.match(
         1,
         stirrings_still.circles((1, 4)),
         ),
-    baca.pick(
+    baca.match(
         2,
         stirrings_still.circles(
             (1, 2),
@@ -466,15 +466,15 @@ maker(
         baca.untie_to(selector=baca.pleaves()),
         baca.tie(repeat=(1, 4)),
         ),
-    baca.pick(
+    baca.match(
         0,
         stirrings_still.flight(counts_a, 0),
         ),
-    baca.pick(
+    baca.match(
         1,
         stirrings_still.flight(counts_c, -1),
         ),
-    baca.pick(
+    baca.match(
         2,
         stirrings_still.flight(counts_b, -2),
         ),
@@ -488,6 +488,6 @@ maker(
 
 maker(
     ('va', [(84, 92), (94, 96)]),
-    baca.pick(0, baca.repeat_tie_to()),
+    baca.match(0, baca.repeat_tie_to()),
     stirrings_still.continuous_tremolo(),
     )
