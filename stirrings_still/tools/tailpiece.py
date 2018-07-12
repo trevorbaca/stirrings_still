@@ -6,7 +6,7 @@ def tailpiece():
     """
     Makes tailpiece rhythm.
     """
-    return [
+    return baca.suite(
         baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
         baca.markup('tailpiece', boxed=True),
         baca.repeat_tie_up(),
@@ -17,4 +17,4 @@ def tailpiece():
             ),
         baca.text_script_parent_center(),
         stirrings_still.glissando_without_ties(),
-        ]
+        )

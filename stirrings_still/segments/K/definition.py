@@ -63,16 +63,28 @@ stirrings_still.time(maker, time)
 
 maker(
     ('tutti', (1, 2)),
-    (stirrings_still.bcps(rotation=0), 0),
-    (stirrings_still.bcps(rotation=-1), 1),
-    (stirrings_still.bcps(rotation=-2), 2),
-    (stirrings_still.bcps(rotation=-3), 3),
-    (stirrings_still.trajectories('B', 0, 0), 0),
-    (stirrings_still.trajectories('B', -1, -1), 1),
-    (stirrings_still.trajectories('B', -2, -2), 2),
-    (stirrings_still.trajectories('B', -3, -3), 3),
     baca.dynamic('pp'),
     baca.markup('1/2 clt', boxed=True),
+    baca.match(
+        0,
+        stirrings_still.bcps(rotation=0),
+        stirrings_still.trajectories('B', 0, 0),
+        ),
+    baca.match(
+        1,
+        stirrings_still.bcps(rotation=-1),
+        stirrings_still.trajectories('B', -1, -1),
+        ),
+    baca.match(
+        2,
+        stirrings_still.bcps(rotation=-2),
+        stirrings_still.trajectories('B', -2, -2),
+        ),
+    baca.match(
+        3,
+        stirrings_still.bcps(rotation=-3),
+        stirrings_still.trajectories('B', -3, -3),
+        ),
     baca.not_segment(baca.dynamic_text_left()),
     baca.text_script_parent_center(),
     baca.text_script_staff_padding(11),
@@ -82,15 +94,27 @@ maker(
 
 maker(
     ('tutti', (3, 4)),
-    (stirrings_still.desynchronization(4, [2]), 0),
-    (stirrings_still.desynchronization(4, [1]), 1),
-    (stirrings_still.desynchronization(4, [0]), 2),
-    (stirrings_still.desynchronization(4, [-1]), 3),
-    [
+    baca.markup('hair: circles (each as wide as poss.)'),
+    baca.match(
+        0,
+        stirrings_still.desynchronization(4, [2]),
+        ),
+    baca.match(
+        1,
+        stirrings_still.desynchronization(4, [1]),
+        ),
+    baca.match(
+        2,
+        stirrings_still.desynchronization(4, [0]),
+        ),
+    baca.match(
+        3,
+        stirrings_still.desynchronization(4, [-1]),
+        ),
+    baca.suite(
         baca.dynamic('"f"'),
         baca.dynamic_text_left(),
-        ],
-    baca.markup('hair: circles (each as wide as poss.)'),
+        ),
     baca.text_script_staff_padding(9),
     baca.text_spanner_staff_padding(5),
     baca.text_spanner(
@@ -108,28 +132,61 @@ maker(
 
 maker(
     (['v1', 'v2', 'vc'], 5),
-    (stirrings_still.trajectories('B', 0, 0), 0),
-    (stirrings_still.trajectories('B', -1, -1), 1),
-    #(stirrings_still.trajectories('B', -2, -2), 2),
-    (stirrings_still.trajectories('B', -3, -3), -1),
+    baca.match(
+        0,
+        stirrings_still.trajectories('B', 0, 0),
+        ),
+    baca.match(
+        1,
+        stirrings_still.trajectories('B', -1, -1),
+        ),
+    #baca.match(
+    #    2,
+    #    stirrings_still.trajectories('B', -2, -2),
+    #    ),
+    baca.match(
+        -1,
+        stirrings_still.trajectories('B', -3, -3),
+        ),
     )
 
 maker(
     (['v1', 'v2', 'vc'], (6, 8)),
-    (stirrings_still.accelerando(start=(8, 32), stop=(1, 2)), 0),
-    (stirrings_still.accelerando(start=(10, 32), stop=(1, 2)), 1),
-    (stirrings_still.accelerando(start=(11, 32), stop=(1, 2)), -1),
+    baca.match(
+        0,
+        stirrings_still.accelerando(start=(8, 32), stop=(1, 2)),
+        ),
+    baca.match(
+        1,
+        stirrings_still.accelerando(start=(10, 32), stop=(1, 2)),
+        ),
+    baca.match(
+        -1,
+        stirrings_still.accelerando(start=(11, 32), stop=(1, 2)),
+        ),
     )
 
 maker(
     (['v1', 'v2', 'vc'], (5, 8)),
-    (stirrings_still.bcps(rotation=0), 0),
-    (stirrings_still.bcps(rotation=-1), 1),
-    #(stirrings_still.bcps(rotation=-2), 2),
-    (stirrings_still.bcps(rotation=-3), -1),
     baca.dynamic('pp'),
     baca.dynamic_text_left(),
     baca.markup('1/2 clt', boxed=True),
+    baca.match(
+        0,
+        stirrings_still.bcps(rotation=0),
+        ),
+    baca.match(
+        1,
+        stirrings_still.bcps(rotation=-1),
+        ),
+    #baca.match(
+    #    2,
+    #    stirrings_still.bcps(rotation=-2),
+    #    ),
+    baca.match(
+        -1,
+        stirrings_still.bcps(rotation=-3),
+        ),
     baca.text_script_parent_center(),
     baca.text_script_staff_padding(11),
     baca.text_spanner_staff_padding(7),
@@ -138,14 +195,14 @@ maker(
 
 maker(
     ('va', (6, 11)),
-    [
-        baca.dynamic('"mp"'),
-        baca.dynamic_text_left(),
-        ],
     baca.make_repeat_tied_notes(do_not_rewrite_meter=True),
     baca.markup('tailpiece: poco flicker', boxed=True),
     baca.repeat_tie_up(),
     baca.staff_position(0),
+    baca.suite(
+        baca.dynamic('"mp"'),
+        baca.dynamic_text_left(),
+        ),
     baca.suite(
         baca.staff_lines(1),
         baca.staff_lines(5, selector=baca.rleaves()[-1:]),
@@ -156,7 +213,16 @@ maker(
 
 maker(
     (['v1', 'v2', 'vc'], (9, 17)),
-    (stirrings_still.to_flight([(10, 8), (3, 16)]), 0),
-    (stirrings_still.to_flight([(8, 8), (3, 16)]), 1),
-    (stirrings_still.to_flight([(12, 8), (3, 16)]), -1),
+    baca.match(
+        0,
+        stirrings_still.to_flight([(10, 8), (3, 16)]),
+        ),
+    baca.match(
+        1,
+        stirrings_still.to_flight([(8, 8), (3, 16)]),
+        ),
+    baca.match(
+        -1,
+        stirrings_still.to_flight([(12, 8), (3, 16)]),
+        ),
     )

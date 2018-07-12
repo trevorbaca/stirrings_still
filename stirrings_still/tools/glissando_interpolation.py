@@ -10,7 +10,7 @@ def glissando_interpolation(
     """
     Makes glissando interpolation.
     """
-    return [
+    return baca.suite(
         baca.glissando(
             allow_repeats=True,
             stems=True,
@@ -21,4 +21,4 @@ def glissando_interpolation(
             stop_pitch,
             selector=selector,
             ),
-        ]
+        )
