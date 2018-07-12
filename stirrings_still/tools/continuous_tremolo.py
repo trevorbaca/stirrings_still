@@ -6,7 +6,7 @@ def continuous_tremolo():
     """
     Makes continuous tremolo.
     """
-    return [
+    return baca.suite(
         baca.rhythm(
             rhythm_maker=rmakers.NoteRhythmMaker(
                 tie_specifier=rmakers.TieSpecifier(
@@ -16,4 +16,4 @@ def continuous_tremolo():
                 ),
             ),
         baca.stem_tremolo(selector=baca.pleaves()),
-        ]
+        )

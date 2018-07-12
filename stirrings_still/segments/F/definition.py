@@ -95,11 +95,23 @@ maker(
 
 maker(
     ('tutti', (12, 13)),
-    (stirrings_still.desynchronization(4, [1]), 0),
-    (stirrings_still.desynchronization(4, [0]), 1),
-    (stirrings_still.glissando_interpolation('F4', 'Ab4'), 1),
-    (stirrings_still.desynchronization(4, [2]), 2),
-    (stirrings_still.desynchronization(4, [-1]), 3),
     baca.dynamic('mp'),
     baca.markup('maximally tight crunch circles: grind at talon'),
+    baca.match(
+        0,
+        stirrings_still.desynchronization(4, [1]),
+        ),
+    baca.match(
+        1,
+        stirrings_still.desynchronization(4, [0]),
+        stirrings_still.glissando_interpolation('F4', 'Ab4'),
+        ),
+    baca.match(
+        2,
+        stirrings_still.desynchronization(4, [2]),
+        ),
+    baca.match(
+        3,
+        stirrings_still.desynchronization(4, [-1]),
+        ),
     )

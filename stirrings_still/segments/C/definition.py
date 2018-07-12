@@ -103,10 +103,22 @@ stirrings_still.time(maker, time)
 
 maker(
     ('tutti', (1, 4)),
-    (stirrings_still.desynchronization(4, [1]), 0),
-    (stirrings_still.desynchronization(4, [0]), 1),
-    (stirrings_still.desynchronization(4, [2]), 2),
-    (stirrings_still.desynchronization(4, [-1]), 3),
+    baca.match(
+        0,
+        stirrings_still.desynchronization(4, [1]),
+        ),
+    baca.match(
+        1,
+        stirrings_still.desynchronization(4, [0]),
+        ),
+    baca.match(
+        2,
+        stirrings_still.desynchronization(4, [2]),
+        ),
+    baca.match(
+        3,
+        stirrings_still.desynchronization(4, [-1]),
+        ),
     baca.dynamic('"ff"'),
     baca.markup('maximally tight crunch circles: grind at talon'),
     baca.text_spanner(
@@ -124,8 +136,14 @@ maker(
     baca.dynamic('mp'),
     baca.markup('[urtext double stop]'),
     baca.markup('louré'),
-    (stirrings_still.loure_tuplets(0), 0),
-    (stirrings_still.loure_tuplets(1), 1),
+    baca.match(
+        0,
+        stirrings_still.loure_tuplets(0),
+        ),
+    baca.match(
+        1,
+        stirrings_still.loure_tuplets(1),
+        ),
     )
 
 maker(
@@ -151,6 +169,23 @@ maker(
     ('tutti', (7, 10)),
     baca.dynamic('p'),
     baca.markup('maximally tight crunch circles: grind at talon'),
+    baca.match(
+        0,
+        stirrings_still.desynchronization(4, [1]),
+        ),
+    baca.match(
+        1,
+        stirrings_still.desynchronization(4, [0]),
+        stirrings_still.glissando_interpolation('F4', 'Ab4'),
+        ),
+    baca.match(
+        2,
+        stirrings_still.desynchronization(4, [2]),
+        ),
+    baca.match(
+        3,
+        stirrings_still.desynchronization(4, [-1]),
+        ),
     baca.text_spanner(
         'damp =|',
         abjad.tweak(3.25).bound_details__right__padding,
@@ -159,16 +194,27 @@ maker(
         boxed=True,
         leak=True,
         ),
-    (stirrings_still.desynchronization(4, [1]), 0),
-    (stirrings_still.desynchronization(4, [0]), 1),
-    (stirrings_still.glissando_interpolation('F4', 'Ab4'), 1),
-    (stirrings_still.desynchronization(4, [2]), 2),
-    (stirrings_still.desynchronization(4, [-1]), 3),
     )
 
 maker(
     ('tutti', (12, 15)),
     baca.dynamic('p', redundant=True),
+    baca.match(
+        0,
+        stirrings_still.desynchronization(4, [1], rests=True),
+        ),
+    baca.match(
+        1,
+        stirrings_still.desynchronization(4, [0], rests=True),
+        ),
+    baca.match(
+        2,
+        stirrings_still.desynchronization(4, [2], rests=True),
+        ),
+    baca.match(
+        3,
+        stirrings_still.desynchronization(4, [-1], rests=True),
+        ),
     baca.text_spanner(
         'max. tight cir. => 1-2˝ circles',
         abjad.tweak(4).staff_padding,
@@ -185,15 +231,27 @@ maker(
         lilypond_id=1,
         selector=baca.leaves(),
         ),
-    (stirrings_still.desynchronization(4, [1], rests=True), 0),
-    (stirrings_still.desynchronization(4, [0], rests=True), 1),
-    (stirrings_still.desynchronization(4, [2], rests=True), 2),
-    (stirrings_still.desynchronization(4, [-1], rests=True), 3),
     )
 
 maker(
     ('tutti', (16, 19)),
     baca.dynamic('p', redundant=True),
+    baca.match(
+        0,
+        stirrings_still.desynchronization(4, [1], rests=True),
+        ),
+    baca.match(
+        1,
+        stirrings_still.desynchronization(4, [0], rests=True),
+        ),
+    baca.match(
+        2,
+        stirrings_still.desynchronization(4, [2], rests=True),
+        ),
+    baca.match(
+        3,
+        stirrings_still.desynchronization(4, [-1], rests=True),
+        ),
     baca.text_spanner(
         '1-2˝ circles => 2-4˝ circles',
         abjad.tweak(4).staff_padding,
@@ -209,15 +267,27 @@ maker(
         leak=True,
         lilypond_id=1,
         ),
-    (stirrings_still.desynchronization(4, [1], rests=True), 0),
-    (stirrings_still.desynchronization(4, [0], rests=True), 1),
-    (stirrings_still.desynchronization(4, [2], rests=True), 2),
-    (stirrings_still.desynchronization(4, [-1], rests=True), 3),
     )
 
 maker(
     ('tutti', (20, 23)),
     baca.dynamic('p', redundant=True),
+    baca.match(
+        0,
+        stirrings_still.desynchronization(4, [1], rests=([2], 3)),
+        ),
+    baca.match(
+        1,
+        stirrings_still.desynchronization(4, [0], rests=([2], 3)),
+        ),
+    baca.match(
+        2,
+        stirrings_still.desynchronization(4, [2], rests=([2], 3)),
+        ),
+    baca.match(
+        3,
+        stirrings_still.desynchronization(4, [-1], rests=([2], 3)),
+        ),
     baca.text_spanner(
         '2-4˝ circles => 4-8˝ circles',
         abjad.tweak(4).staff_padding,
@@ -234,15 +304,27 @@ maker(
         lilypond_id=1,
         selector=baca.leaves(),
         ),
-    (stirrings_still.desynchronization(4, [1], rests=([2], 3)), 0),
-    (stirrings_still.desynchronization(4, [0], rests=([2], 3)), 1),
-    (stirrings_still.desynchronization(4, [2], rests=([2], 3)), 2),
-    (stirrings_still.desynchronization(4, [-1], rests=([2], 3)), 3),
     )
 
 maker(
     ('tutti', (24, 27)),
     baca.dynamic('p', redundant=True),
+    baca.match(
+        0,
+        stirrings_still.desynchronization(4, [1]),
+        ),
+    baca.match(
+        1,
+        stirrings_still.desynchronization(4, [0]),
+        ),
+    baca.match(
+        2,
+        stirrings_still.desynchronization(4, [2]),
+        ),
+    baca.match(
+        3,
+        stirrings_still.desynchronization(4, [-1]),
+        ),
     baca.text_spanner(
         '8˝ circles =|',
         abjad.tweak(3.25).bound_details__right__padding,
@@ -259,10 +341,6 @@ maker(
         leak=True,
         lilypond_id=1,
         ),
-    (stirrings_still.desynchronization(4, [1]), 0),
-    (stirrings_still.desynchronization(4, [0]), 1),
-    (stirrings_still.desynchronization(4, [2]), 2),
-    (stirrings_still.desynchronization(4, [-1]), 3),
     )
 
 maker(
@@ -271,10 +349,19 @@ maker(
     baca.markup(
         baca.markups.lines(['[clouded pane:', 'shin. beacon]'], boxed=True),
         ),
+    baca.match(
+        0,
+        stirrings_still.clouded_pane(),
+        ),
+    baca.match(
+        1,
+        stirrings_still.clouded_pane(),
+        ),
+    baca.match(
+        2,
+        stirrings_still.clouded_pane(),
+        ),
     baca.note_head_style_harmonic(),
-    (stirrings_still.clouded_pane(), 0),
-    (stirrings_still.clouded_pane(), 1),
-    (stirrings_still.clouded_pane(), 2),
     )
 
 maker(
@@ -328,6 +415,22 @@ maker(
 # TODO: intermittent triple -> double -> single harmonic
 maker(
     ('tutti', (36, 55)),
+    baca.match(
+        0,
+        stirrings_still.synchronized_circles(rotation=0),
+        ),
+    baca.match(
+        1,
+        stirrings_still.synchronized_circles(rotation=-1),
+        ),
+    baca.match(
+        2,
+        stirrings_still.synchronized_circles(rotation=-2),
+        ),
+    baca.match(
+        3,
+        stirrings_still.synchronized_circles(rotation=-3),
+        ),
     baca.text_spanner(
         '8˝ circles =|',
         abjad.tweak(3.25).bound_details__right__padding,
@@ -343,10 +446,6 @@ maker(
         leak=True,
         lilypond_id=1,
         ),
-    (stirrings_still.synchronized_circles(rotation=0), 0),
-    (stirrings_still.synchronized_circles(rotation=-1), 1),
-    (stirrings_still.synchronized_circles(rotation=-2), 2),
-    (stirrings_still.synchronized_circles(rotation=-3), 3),
     )
 
 maker(
@@ -381,6 +480,22 @@ maker(
     ('tutti', (56, 59)),
     baca.breathe(),
     baca.dynamic('ff', redundant=True),
+    baca.match(
+        0,
+        stirrings_still.synchronized_circles(gaps=False, rotation=0),
+        ),
+    baca.match(
+        1,
+        stirrings_still.synchronized_circles(gaps=False, rotation=-1),
+        ),
+    baca.match(
+        2,
+        stirrings_still.synchronized_circles(gaps=False, rotation=-2),
+        ),
+    baca.match(
+        3,
+        stirrings_still.synchronized_circles(gaps=False, rotation=-3),
+        ),
     baca.text_spanner(
         '8˝ circles =|',
         abjad.tweak(3.25).bound_details__right__padding,
@@ -396,10 +511,6 @@ maker(
         leak=True,
         lilypond_id=1,
         ),
-    (stirrings_still.synchronized_circles(gaps=False, rotation=0), 0),
-    (stirrings_still.synchronized_circles(gaps=False, rotation=-1), 1),
-    (stirrings_still.synchronized_circles(gaps=False, rotation=-2), 2),
-    (stirrings_still.synchronized_circles(gaps=False, rotation=-3), 3),
     )
 
 maker(
@@ -440,19 +551,31 @@ maker(
 maker(
     ('tutti', (71, 76)),
     baca.hairpin('f >o niente'),
+    # TODO: revoice
+    baca.match(
+        0,
+        stirrings_still.desynchronization(4, [1]),
+        stirrings_still.glissando_interpolation('Bb4', 'G4'),
+        ),
+    baca.match(
+        1,
+        stirrings_still.desynchronization(4, [0]),
+        stirrings_still.glissando_interpolation('Ab4', 'F4'),
+        ),
+    baca.match(
+        2,
+        stirrings_still.desynchronization(4, [2]),
+        stirrings_still.glissando_interpolation('A3', 'B2'),
+        ),
+    baca.match(
+        3,
+        stirrings_still.desynchronization(4, [-1]),
+        stirrings_still.glissando_interpolation('G2', 'Bb1'),
+        ),
     baca.text_spanner(
         '8˝ circles => 2˝ circles',
         abjad.tweak(4).staff_padding,
         bookend=False,
         piece_selector=baca.group_notes_by_measures([3]),
         ),
-    # TODO: revoice
-    (stirrings_still.desynchronization(4, [1]), 0),
-    (stirrings_still.glissando_interpolation('Bb4', 'G4'), 0),
-    (stirrings_still.desynchronization(4, [0]), 1),
-    (stirrings_still.glissando_interpolation('Ab4', 'F4'), 1),
-    (stirrings_still.desynchronization(4, [2]), 2),
-    (stirrings_still.glissando_interpolation('A3', 'B2'), 2),
-    (stirrings_still.desynchronization(4, [-1]), 3),
-    (stirrings_still.glissando_interpolation('G2', 'Bb1'), 3),
     )

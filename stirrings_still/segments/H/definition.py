@@ -331,10 +331,19 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (23, 28)),
-    (stirrings_still.pickets(4, 2, mask=rmakers.silence([0])), 0),
-    (stirrings_still.pickets(4, 1, mask=rmakers.silence([0])), 1),
-    (stirrings_still.pickets(4, 0, mask=rmakers.silence([0])), 2),
     baca.markup('8” circles continue'),
+    baca.match(
+        0,
+        stirrings_still.pickets(4, 2, mask=rmakers.silence([0])),
+        ),
+    baca.match(
+        1,
+        stirrings_still.pickets(4, 1, mask=rmakers.silence([0])),
+        ),
+    baca.match(
+        2,
+        stirrings_still.pickets(4, 0, mask=rmakers.silence([0])),
+        ),
     )
 
 maker(
@@ -344,11 +353,20 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (30, 31)),
-    (stirrings_still.accelerando(start=(1, 2), stop=(4, 32)), 0),
-    (stirrings_still.accelerando(start=(1, 2), stop=(8, 32)), 1),
-    (stirrings_still.accelerando(start=(1, 2), stop=(12, 32)), 2),
     baca.dynamic('mp'),
     baca.markup('thinking color (no longer width)'),
+    baca.match(
+        0,
+        stirrings_still.accelerando(start=(1, 2), stop=(4, 32)),
+        ),
+    baca.match(
+        1,
+        stirrings_still.accelerando(start=(1, 2), stop=(8, 32)),
+        ),
+    baca.match(
+        2,
+        stirrings_still.accelerando(start=(1, 2), stop=(12, 32)),
+        ),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.text_spanner(
@@ -384,10 +402,6 @@ maker(
 
 maker(
     ('tutti', (35, 36)),
-    (baca.pitch('Gb4'), 0),
-    (baca.pitch('F4'), 1),
-    (baca.pitch('Ab3'), 2),
-    (baca.pitch('Ab2'), 3),
     baca.dls_staff_padding(3),
     baca.hairpin('niente o< mp', selector=baca.rmleaves(1)),
     baca.make_repeat_tied_notes(),
@@ -395,15 +409,40 @@ maker(
         'III',
         direction=abjad.Down,
         ),
+    baca.match(
+        0,
+        baca.pitch('Gb4'),
+        ),
+    baca.match(
+        1,
+        baca.pitch('F4'),
+        ),
+    baca.match(
+        2,
+        baca.pitch('Ab3'),
+        ),
+    baca.match(
+        3,
+        baca.pitch('Ab2'),
+        ),
     baca.text_spanner('rasp (2°) => poco rasp (2°)'),
     )
 
 maker(
     (['v1', 'v2', 'va'], (37, 39)),
-    (stirrings_still.accelerando(start=(1, 2), stop=(4, 32)), 0),
-    (stirrings_still.accelerando(start=(1, 2), stop=(8, 32)), 1),
-    (stirrings_still.accelerando(start=(1, 2), stop=(12, 32)), 2),
     baca.dynamic('mf'),
+    baca.match(
+        0,
+        stirrings_still.accelerando(start=(1, 2), stop=(4, 32)),
+        ),
+    baca.match(
+        1,
+        stirrings_still.accelerando(start=(1, 2), stop=(8, 32)),
+        ),
+    baca.match(
+        2,
+        stirrings_still.accelerando(start=(1, 2), stop=(12, 32)),
+        ),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.text_spanner(
@@ -414,10 +453,19 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (41, 44)),
-    (stirrings_still.accelerando(start=(1, 2), stop=(4, 32)), 0),
-    (stirrings_still.accelerando(start=(1, 2), stop=(8, 32)), 1),
-    (stirrings_still.accelerando(start=(1, 2), stop=(12, 32)), 2),
     baca.dynamic('f'),
+    baca.match(
+        0,
+        stirrings_still.accelerando(start=(1, 2), stop=(4, 32)),
+        ),
+    baca.match(
+        1,
+        stirrings_still.accelerando(start=(1, 2), stop=(8, 32)),
+        ),
+    baca.match(
+        2,
+        stirrings_still.accelerando(start=(1, 2), stop=(12, 32)),
+        ),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.text_spanner(
@@ -435,10 +483,19 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (46, 50)),
-    (stirrings_still.pickets(4, 2), 0),
-    (stirrings_still.pickets(4, 1), 1),
-    (stirrings_still.pickets(4, 0), 2),
     baca.dynamic('ff'),
+    baca.match(
+        0,
+        stirrings_still.pickets(4, 2),
+        ),
+    baca.match(
+        1,
+        stirrings_still.pickets(4, 1),
+        ),
+    baca.match(
+        2,
+        stirrings_still.pickets(4, 0),
+        ),
     baca.measures(
         (49, 50),
         baca.hairpin('ff > mf'),
@@ -452,10 +509,16 @@ maker(
 
 maker(
     ('vc', [(46, 50), 52]),
-    (stirrings_still.bcps(rotation=-4), 0),
-    (stirrings_still.bcps(rotation=-8), 1),
     baca.dls_staff_padding(5),
     baca.markup('1/2 clt', boxed=True),
+    baca.match(
+        0,
+        stirrings_still.bcps(rotation=-4),
+        ),
+    baca.match(
+        1,
+        stirrings_still.bcps(rotation=-8),
+        ),
     baca.pitch('E2'),
     baca.text_script_staff_padding(11),
     baca.text_spanner_staff_padding(7),
@@ -485,9 +548,18 @@ maker(
     
 maker(
     (['v1', 'v2', 'va'], 52),
-    (stirrings_still.pickets(4, [1, 1, 1]), 0),
-    (stirrings_still.pickets(4, [-1, 2, 2]), 1),
-    (stirrings_still.pickets(4, [1, 1]), 2),
     baca.dynamic('mp'),
     baca.markup('pochiss. scratch'),
+    baca.match(
+        0,
+        stirrings_still.pickets(4, [1, 1, 1]),
+        ),
+    baca.match(
+        1,
+        stirrings_still.pickets(4, [-1, 2, 2]),
+        ),
+    baca.match(
+        2,
+        stirrings_still.pickets(4, [1, 1]),
+        ),
     )

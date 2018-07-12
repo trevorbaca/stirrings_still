@@ -3758,9 +3758,9 @@ K_ViolaMusicVoice = {
     \stopStaff                                                             %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                            %! SM8:EXPLICIT_STAFF_LINES:IC
+    \override RepeatTie.direction = #up                                    %! OC1
     \once \override DynamicText.self-alignment-X = #left                   %! OC1
     \once \override DynamicText.X-extent = #'(0 . 0)                       %! OC1
-    \override RepeatTie.direction = #up                                    %! OC1
     \override TextScript.parent-alignment-X = #0                           %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
