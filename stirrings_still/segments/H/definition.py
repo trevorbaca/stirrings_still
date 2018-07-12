@@ -91,7 +91,7 @@ maker(
         'III',
         direction=abjad.Down,
         ),
-    baca.pick(
+    baca.match(
         [0, 2, 3],
         baca.breathe(),
         ),
@@ -229,21 +229,21 @@ maker(
 
 maker(
     ('tutti', (1, 5)),
-    baca.pick(0, baca.pitch('Gb4')),
-    baca.pick(1, baca.pitch('F4')),
-    baca.pick(2, baca.pitch('Ab3')),
-    baca.pick(3, baca.pitch('Ab2')),
+    baca.match(0, baca.pitch('Gb4')),
+    baca.match(1, baca.pitch('F4')),
+    baca.match(2, baca.pitch('Ab3')),
+    baca.match(3, baca.pitch('Ab2')),
     )
 
 maker(
     (['v1', 'va'], (7, 14)),
-    baca.pick(
+    baca.match(
         0,
         stirrings_still.glissando_interpolation(
             'Gb4', 'Bb4', selector=baca.rleaves(),
             ),
         ),
-    baca.pick(
+    baca.match(
         1,
         stirrings_still.glissando_interpolation(
             'Ab3', 'B3', selector=baca.rleaves(),
@@ -274,8 +274,8 @@ maker(
 maker(
     ('vc', [(7, 28), (30, 31)]),
     baca.make_notes(repeat_ties=True),
-    baca.pick(0, baca.repeat_tie(selector=baca.notes()[1:])),
-    baca.pick(1, baca.repeat_tie()),
+    baca.match(0, baca.repeat_tie(selector=baca.notes()[1:])),
+    baca.match(1, baca.repeat_tie()),
     )
 
 maker(

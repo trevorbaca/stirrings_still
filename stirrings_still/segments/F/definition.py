@@ -43,7 +43,7 @@ stirrings_still.time(maker, time)
 maker(
     (['v1', 'v2', 'vc'], (1, 8)),
     stirrings_still.clouded_pane(),
-    baca.pick(
+    baca.match(
         0,
         baca.hairpin(
             'pp < f > pp < f > pp < f >o niente',
@@ -51,7 +51,7 @@ maker(
             selector=baca.rleaves(),
             ),
         ),
-    baca.pick(
+    baca.match(
         1,
         baca.hairpin(
             'pp < f > pp < f > pp < f >o niente',
@@ -61,11 +61,11 @@ maker(
             selector=baca.rleaves(),
             ),
         ),
-    baca.pick(
+    baca.match(
         (0, 1),
         baca.markup('[clouded pane partials (double-stop)]'),
         ),
-    baca.pick(
+    baca.match(
         2,
         # TODO: allow for variable-length middle part
         baca.hairpin(
@@ -74,7 +74,7 @@ maker(
             selector=baca.rleaves(),
             ),
         ),
-    baca.pick(
+    baca.match(
         2,
         baca.markup('[clouded pane fundamental]'),
         ),
