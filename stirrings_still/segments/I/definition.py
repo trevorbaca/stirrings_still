@@ -81,10 +81,7 @@ maker(
 
 maker(
     'vc',
-    # TODO: allow suite
-    #baca.suite(
-    [
-        baca.text_spanner_staff_padding(7),
+    baca.suite(
         baca.measures(
             (1, 6),
             baca.beam(),
@@ -96,8 +93,8 @@ maker(
             stirrings_still.cello_cell(),
             stirrings_still.cello_cell_bcps(),
             ),
-        ],
-        #)
+        baca.text_spanner_staff_padding(7),
+        )
     )
 
 maker(
