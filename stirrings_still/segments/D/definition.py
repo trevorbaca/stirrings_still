@@ -364,21 +364,14 @@ maker(
         baca.group_by_measures()[:3].group(),
         baca.hairpin('niente o< p'),
         ),
-# TODO:
-#    baca.measures(
-#        (86, 89),
-#        baca.hairpin('p < fff'),
-#        ),
     baca.markup(
         baca.Markup('clouded pane').with_color('darkgreen'),
         ),
+    baca.measures(
+        (86, 89),
+        baca.hairpin('p < fff'),
+        ),
     stirrings_still.clouded_pane(),
-    )
-
-# TODO: replace with baca.measures()
-maker(
-    ('vc', (86, 89)),
-    baca.hairpin('p < fff'),
     )
 
 maker(
