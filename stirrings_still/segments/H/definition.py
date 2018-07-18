@@ -503,7 +503,7 @@ maker(
     baca.text_spanner_staff_padding(4),
     baca.text_spanner(
         'molto scratch => pochiss. scratch',
-        selector=baca.leaves().group_by_measure()[-2:].leaves()[:-3],
+        selector=baca.mleaves(-2)[:-3],
         ),
     )
 

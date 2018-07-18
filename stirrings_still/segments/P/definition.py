@@ -172,7 +172,7 @@ maker(
         (16, 17),
         baca.hairpin(
             'ppppp < p > ppp',
-            piece_selector=baca.leaves().group_by_measure(),
+            piece_selector=baca.group_by_measures(),
             selector=baca.rleaves(),
             ),
         ),
