@@ -944,10 +944,10 @@ F_ViolaMusicVoice = {
     \times 6/8 {
         
         % [F ViolaMusicVoice measure 444 / measure 12]                     %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
-        \mp                                                                %! SM8:REDUNDANT_DYNAMIC:IC
+        \mp                                                                %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { "maximally tight crunch circles: grind at talon" }     %! IC
         
         \baca_unpitched_music_warning                                      %! SM24
