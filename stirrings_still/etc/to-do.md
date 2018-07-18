@@ -1,52 +1,36 @@
 TO-DO
 =====
 
-1.  Add a new selector.
-    Change ...
-        baca.map(
-            baca.mgroups()[:2].group(),
-            baca.hairpin('niente < p'),
-            )
-    ... to ...
-        baca.map(
-            baca.mleaves(stop=2),
-            baca.hairpin('niente < p'),
-            )
-    ... instead.
+1.  Teach segment-maker to check for unterminated dynamic trend.
 
-2.  Teach segment-maker to analyze "mp" ... mp as nonredundant.
-    Integrate [F].
-
-3.  Teach segment-maker to check for unterminated dynamic trend.
-
-4.  Add trajectories notator:
+2.  Add trajectories notator:
     baca.hide_black_note_heads().
 
-5.  Extend tailpiece():
+3.  Extend tailpiece():
     hide all note-heads except the first;
     add extent-terminal grace note;
     make sure flat glissando extends without gaps;
     add to library as baca.make_filled_extent().
 
-6.  Analyze volta application.
+4.  Analyze volta application.
 
-7.  Make full down-bow and full up-bow glyphs.
+5.  Make full down-bow and full up-bow glyphs.
     Add to baca/lilypond/baca.ily.
 
-8.  Make stop-on-string glyph.
+6.  Make stop-on-string glyph.
     Make all transition-type glyphs.
     Add to baca/lilypond/baca.ily.
 
-9.  Make full-down-bow-stop-on-string and full-up-bow-stop-on-string glyphs.
+7.  Make full-down-bow-stop-on-string and full-up-bow-stop-on-string glyphs.
     Make all bow direction / bow termination ligatures.
     Add to baca/lilypond/baca.ily.
 
-10. Make damp-with-[LH|RH]-hand glyph.
+8.  Make damp-with-[LH|RH]-hand glyph.
     Add to baca/lilypond/baca.ily.
 
-11. Fix clocktick edgecase notation.
+9.  Fix clocktick edgecase notation.
 
-12. Write AccelerandoRhythmMaker state tests:
+10. Write AccelerandoRhythmMaker state tests:
         AccelerandoRhythmMaker.beam_specifier
         AccelerandoRhythmMaker.division_masks
         AccelerandoRhythmMaker.interpolation_specifiers
@@ -70,16 +54,16 @@ TO-DO
     Write nonstate examples:
         TaleaRhythmMaker.tie_split_notes
         
-13. Make abjad.tweak('DeepPink1').color for x11 color.
+11. Make abjad.tweak('DeepPink1').color for x11 color.
     Add color name-checking (conventional and x11).
     Add abjad.tweak('color').color checking.
     Add abjad.Markup.with_color('color') checking.
     Add abjad.Scheme.format_scheme_value('color') checking.
 
-14. Document LilyPond TextScript alignment.
+12. Document LilyPond TextScript alignment.
     Parameterize TextScript.self-alignment-X, TextScript.parent-alignment-X.
 
-15. Fix text spanners leaked to first leaf after line break.
+13. Fix text spanners leaked to first leaf after line break.
     Break after [I] measure 7 to test.
 
-16. Audit overlapping transitions.
+14. Audit overlapping transitions.
