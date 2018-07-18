@@ -101,7 +101,7 @@ maker(
     'vc',
     baca.hairpin(
         'p < f f >o niente',
-        piece_selector=baca.group_by_measures([5, 4, 2]),
+        piece_selector=baca.mgroups([5, 4, 2]),
         ),
     baca.text_spanner(
         '1/2 clt =|',
