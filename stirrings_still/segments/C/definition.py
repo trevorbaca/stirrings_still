@@ -219,7 +219,7 @@ maker(
         'max. tight cir. => 1-2˝ circles',
         abjad.tweak(4).staff_padding,
         bookend=False,
-        piece_selector=baca.group_notes_by_measures([2]),
+        piece_selector=baca.notes().mgroups([2]),
         ),
     baca.text_spanner(
         'damp =|',
@@ -256,7 +256,7 @@ maker(
         '1-2˝ circles => 2-4˝ circles',
         abjad.tweak(4).staff_padding,
         bookend=False,
-        piece_selector=baca.group_notes_by_measures([2]),
+        piece_selector=baca.notes().mgroups([2]),
         ),
     baca.text_spanner(
         'damp =|',
@@ -292,7 +292,7 @@ maker(
         '2-4˝ circles => 4-8˝ circles',
         abjad.tweak(4).staff_padding,
         bookend=False,
-        piece_selector=baca.group_notes_by_measures([2]),
+        piece_selector=baca.notes().mgroups([2]),
         ),
     baca.text_spanner(
         'damp =|',
@@ -576,6 +576,6 @@ maker(
         '8˝ circles => 2˝ circles',
         abjad.tweak(4).staff_padding,
         bookend=False,
-        piece_selector=baca.group_notes_by_measures([3]),
+        piece_selector=baca.notes().mgroups([3]),
         ),
     )

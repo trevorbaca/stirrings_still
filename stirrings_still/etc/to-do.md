@@ -4,7 +4,7 @@ TO-DO
 1.  Add a new selector.
     Change ...
         baca.map(
-            baca.group_by_measures()[:2].group(),
+            baca.mgroups()[:2].group(),
             baca.hairpin('niente < p'),
             )
     ... to ...

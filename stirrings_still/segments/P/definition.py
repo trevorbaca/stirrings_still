@@ -70,7 +70,7 @@ maker(
         (6, 7),
         baca.hairpin(
             'ppppp < p > ppp',
-            piece_selector=baca.group_by_measures(),
+            piece_selector=baca.mgroups(),
             selector=baca.rleaves(),
             ),
         ),
@@ -130,7 +130,7 @@ maker(
         (8, 10),
         baca.hairpin(
             'ppppp < p > ppppp',
-            piece_selector=baca.group_by_measures([1, 2]),
+            piece_selector=baca.mgroups([1, 2]),
             selector=baca.rleaves(),
             ),
         ),
@@ -148,7 +148,7 @@ maker(
         (6, 8),
         baca.hairpin(
             'ppppp < p > ppppp',
-            piece_selector=baca.group_by_measures([1, 2]),
+            piece_selector=baca.mgroups([1, 2]),
             selector=baca.rleaves(),
             ),
         ),
@@ -172,7 +172,7 @@ maker(
         (16, 17),
         baca.hairpin(
             'ppppp < p > ppp',
-            piece_selector=baca.group_by_measures(),
+            piece_selector=baca.mgroups(),
             selector=baca.rleaves(),
             ),
         ),
@@ -233,7 +233,7 @@ maker(
         (18, 20),
         baca.hairpin(
             'ppppp < p > pp',
-            piece_selector=baca.group_by_measures([1, 2]),
+            piece_selector=baca.mgroups([1, 2]),
             selector=baca.rleaves(),
             ),
         ),
@@ -251,7 +251,7 @@ maker(
         (16, 18),
         baca.hairpin(
             'ppppp < p > pp',
-            piece_selector=baca.group_by_measures([1, 2]),
+            piece_selector=baca.mgroups([1, 2]),
             selector=baca.rleaves(),
             ),
         ),
