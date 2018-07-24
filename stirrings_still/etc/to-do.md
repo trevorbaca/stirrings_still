@@ -1,32 +1,32 @@
 TO-DO
 =====
 
-1.  Teach segment-maker to check for unterminated dynamic trend.
+1.  Make full down-bow and full up-bow glyphs.
+    Add to baca/lilypond/baca.ily.
 
-2.  Add trajectories notator:
+2.  Make stop-on-string glyph.
+    Make all transition-type glyphs.
+    Add to baca/lilypond/baca.ily.
+
+3.  Make full-down-bow-stop-on-string and full-up-bow-stop-on-string glyphs.
+    Make all bow direction / bow termination ligatures.
+    Add to baca/lilypond/baca.ily.
+
+4.  Make damp-with-[LH|RH]-hand glyph.
+    Add to baca/lilypond/baca.ily.
+
+5.  Teach segment-maker to check for unterminated dynamic trend.
+
+6.  Add trajectories notator:
     baca.hide_black_note_heads().
 
-3.  Extend tailpiece():
+7.  Extend tailpiece():
     hide all note-heads except the first;
     add extent-terminal grace note;
     make sure flat glissando extends without gaps;
     add to library as baca.make_filled_extent().
 
-4.  Analyze volta application.
-
-5.  Make full down-bow and full up-bow glyphs.
-    Add to baca/lilypond/baca.ily.
-
-6.  Make stop-on-string glyph.
-    Make all transition-type glyphs.
-    Add to baca/lilypond/baca.ily.
-
-7.  Make full-down-bow-stop-on-string and full-up-bow-stop-on-string glyphs.
-    Make all bow direction / bow termination ligatures.
-    Add to baca/lilypond/baca.ily.
-
-8.  Make damp-with-[LH|RH]-hand glyph.
-    Add to baca/lilypond/baca.ily.
+8.  Analyze volta application.
 
 9.  Fix clocktick edgecase notation.
 
