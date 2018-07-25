@@ -128,11 +128,19 @@ maker(
 
 maker(
     ('trio', 1),
+    baca.apply(
+        baca.note(1),
+        baca.breathe(selector=baca.note(1)),
+        baca.tie_to(selector=baca.note(1)),
+        ),
+    baca.apply(
+        baca.note(-1),
+        baca.repeat_tie_to(),
+        baca.stop_on_string(),
+        ),
     baca.hairpin(
         'p <| mp p < mp',
         piece_selector=baca.lyparts([1]),
         ),
-    baca.repeat_tie_to(selector=baca.note(-1)),
-    baca.tie_to(selector=baca.note(1)),
     stirrings_still.declamation(),
     )
