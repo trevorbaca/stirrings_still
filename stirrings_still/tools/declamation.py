@@ -9,8 +9,9 @@ def declamation():
     """
     return baca.rhythm(
         rhythm_maker=rmakers.TupletRhythmMaker(
-            tuplet_ratios=[(2, 1)],
+            tuplet_ratios=[(3, 1, 7, 1)],
             tuplet_specifier=rmakers.TupletSpecifier(
+                force_fraction=True,
                 rewrite_dots=True,
                 ),
             ),

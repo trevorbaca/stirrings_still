@@ -125,3 +125,14 @@ maker(
         baca.start_markup('Cello', hcenter_in=14),
         ),
     )
+
+maker(
+    ('trio', 1),
+    baca.hairpin(
+        'p <| mp p < mp',
+        piece_selector=baca.lyparts([1]),
+        ),
+    baca.repeat_tie_to(selector=baca.note(-1)),
+    baca.tie_to(selector=baca.note(1)),
+    stirrings_still.declamation(),
+    )
