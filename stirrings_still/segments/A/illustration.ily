@@ -1412,6 +1412,7 @@ A_ViolinIMusicVoice = {
         c'16
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         ]
+        \breathe                                                           %! IC
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie             %! SM26
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
@@ -1425,6 +1426,7 @@ A_ViolinIMusicVoice = {
         c'16
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         \repeatTie                                                         %! TCC
+        \baca_stop_on_string                                               %! IC
     }
     
     % [A ViolinIMusicVoice measure 2]                                      %! SM4
@@ -1688,6 +1690,7 @@ A_ViolinIIMusicVoice = {
         c'16
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         ]
+        \breathe                                                           %! IC
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie             %! SM26
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
@@ -1701,6 +1704,7 @@ A_ViolinIIMusicVoice = {
         c'16
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         \repeatTie                                                         %! TCC
+        \baca_stop_on_string                                               %! IC
     }
     
     % [A ViolinIIMusicVoice measure 2]                                     %! SM4
@@ -1964,6 +1968,7 @@ A_ViolaMusicVoice = {
         c'16
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         ]
+        \breathe                                                           %! IC
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie             %! SM26
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
@@ -1977,6 +1982,7 @@ A_ViolaMusicVoice = {
         c'16
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
         \repeatTie                                                         %! TCC
+        \baca_stop_on_string                                               %! IC
     }
     
     % [A ViolaMusicVoice measure 2]                                        %! SM4
