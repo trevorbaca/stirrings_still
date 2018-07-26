@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def pickets(fuse, extra_count, *, mask=None):
+def pickets(fuse, extra_count, *, dmask=None):
     """
     Makes picket polyrhythm.
     """
@@ -22,10 +22,10 @@ def pickets(fuse, extra_count, *, mask=None):
         assert isinstance(extra_count, list)
         tuplet_ratio = extra_count
     
-    if mask is None:
+    if dmask is None:
         division_masks = None
     else:
-        division_masks = [mask]
+        division_masks = [dmask]
     return baca.rhythm(
         division_expression=division_expression,
         rhythm_maker=rmakers.TupletRhythmMaker(

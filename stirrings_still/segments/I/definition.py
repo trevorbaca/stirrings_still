@@ -62,7 +62,7 @@ maker(
         2,
         stirrings_still.circles(
             (1, 2),
-            division_mask=rmakers.silence([0]),
+            dmask=rmakers.silence([0]),
             remainder=abjad.Left,
             ),
         ),

@@ -3,14 +3,14 @@ import baca
 from abjadext import rmakers
 
 
-def clockticks(*, displace=False, division_mask=None, encroach=False):
+def clockticks(*, displace=False, dmask=None, encroach=False):
     """
     Makes clocktick rhythm.
     """
-    if division_mask is None:
+    if dmask is None:
         division_masks = None
     else:
-        division_masks = [division_mask]
+        division_masks = [dmask]
     if encroach is True:
         assert not displace
     if displace:

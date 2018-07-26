@@ -124,7 +124,7 @@ maker(
     ('v1', (1, 4)),
     stirrings_still.clockticks(
         displace=True,
-        division_mask=rmakers.silence([0], 2),
+        dmask=rmakers.silence([0], 2),
         ),
     )
 
