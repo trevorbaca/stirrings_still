@@ -42,7 +42,7 @@ maker(
         baca.markup('extremely wide, fast circles'),
         ),
     baca.match(
-        [0, 1, 2, 3],
+        (0, 4),
         baca.hairpin(
             'p > ppp <',
             piece_selector=baca.mgroups(),
@@ -50,7 +50,7 @@ maker(
         stirrings_still.wave((1, 4), (3, 32)),
         ),
     baca.match(
-        [4, 5, 6, 7],
+        (4, 8),
         baca.hairpin(
             'ppp < p >',
             piece_selector=baca.mgroups(),
@@ -58,8 +58,38 @@ maker(
         stirrings_still.wave((5, 32), (1, 4)),
         ),
     baca.match(
-        [8, 9, 10, 11],
+        8,
+        baca.hairpin('o< mf'),
+        baca.make_rhythm('c1 ~ c4 ~ c4'),
+        ),
+    baca.match(
+        (9, 12),
         baca.make_repeat_tied_notes(),
-        #baca.pitch('B0'),
+        ),
+    baca.match(
+        (8, 12),
+        baca.ottava_bassa(),
+        baca.pitch('B0', allow_out_of_range=True),
+        ),
+    baca.match(
+        9,
+        baca.hairpin(
+            'o< f',
+            selector=baca.rmleaves(1),
+            ),
+        ),
+    baca.match(
+        10,
+        baca.hairpin(
+            'o< ff',
+            selector=baca.rmleaves(1),
+            ),
+        ),
+    baca.match(
+        11,
+        baca.hairpin(
+            'o< fff',
+            selector=baca.rmleaves(1),
+            ),
         ),
     )
