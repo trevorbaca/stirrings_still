@@ -398,6 +398,7 @@ maker(
         abjad.tweak(5).staff_padding,
         bookend=False,
         leak=True,
+        selector=baca.tleaves(),
         ),
     baca.text_spanner(
         'golden tone =|',
@@ -406,6 +407,7 @@ maker(
         bookend=False,
         leak=True,
         lilypond_id=1,
+        selector=baca.tleaves(),
         ),
     )
 
