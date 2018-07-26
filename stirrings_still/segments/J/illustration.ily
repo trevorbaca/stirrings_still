@@ -538,20 +538,15 @@ J_ViolinIIMusicVoice = {
         c'8
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:IC
         - \abjad_dashed_line_with_hook                                     %! PIC
-        - \tweak bound-details.left.text \markup {                         %! PIC
-            \concat                                                        %! PIC
-                {                                                          %! PIC
-                    \upright                                               %! PIC
-                        \override                                          %! PIC
-                            #'(box-padding . 0.5)                          %! PIC
-                            \box                                           %! PIC
-                                "lhd + 1/2 clt"                            %! PIC
-                    \hspace                                                %! PIC
-                        #0.5                                               %! PIC
-                }                                                          %! PIC
-            }                                                              %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "1/2 clt"      %! PIC
         - \tweak bound-details.right.padding #2.5                          %! PIC
+        - \tweak staff-padding #7                                          %! PIC
         \startTextSpan                                                     %! PIC
+        - \abjad_dashed_line_with_hook                                     %! PIC
+        - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup %! PIC
+        - \tweak bound-details.right.padding #2.5                          %! PIC
+        - \tweak staff-padding #10                                         %! PIC
+        \startTextSpanOne                                                  %! PIC
         
         r4
     }
@@ -570,6 +565,7 @@ J_ViolinIIMusicVoice = {
         r4
         \revert TextSpanner.staff-padding                                  %! OC2
         <> \stopTextSpan                                                   %! PIC
+        <> \stopTextSpanOne                                                %! PIC
     }
     
     % [J ViolinIIMusicVoice measure 533 / measure 4]                       %! SM4

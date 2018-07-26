@@ -1598,6 +1598,11 @@ Q_ViolinIMusicVoice = {
         % [Q ViolinIMusicVoice measure 721 / measure 2]                    %! SM4
         \baca_unpitched_music_warning                                      %! SM24
         c'4
+        - \abjad_dashed_line_with_hook                                     %! PIC
+        - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup %! PIC
+        - \tweak bound-details.right.padding #2.75                         %! PIC
+        - \tweak staff-padding #5                                          %! PIC
+        \startTextSpan                                                     %! PIC
         
         \baca_unpitched_music_warning                                      %! SM24
         c'4
@@ -1729,9 +1734,18 @@ Q_ViolinIMusicVoice = {
     
     \baca_unpitched_music_warning                                          %! SM24
     c'4
+    <> \stopTextSpan                                                       %! PIC
     
     % [Q ViolinIMusicVoice measure 729 / measure 10]                       %! SM4
+    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 3/4
+    \\
     R1 * 3/4
+    >>
     
     % [Q ViolinIMusicVoice measure 730 / measure 11]                       %! SM4
     R1 * 7/8
@@ -2041,6 +2055,11 @@ Q_ViolinIIMusicVoice = {
         % [Q ViolinIIMusicVoice measure 721 / measure 2]                   %! SM4
         \baca_unpitched_music_warning                                      %! SM24
         c'4
+        - \abjad_dashed_line_with_hook                                     %! PIC
+        - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup %! PIC
+        - \tweak bound-details.right.padding #2.75                         %! PIC
+        - \tweak staff-padding #5                                          %! PIC
+        \startTextSpan                                                     %! PIC
         
         \baca_unpitched_music_warning                                      %! SM24
         c'4
@@ -2162,10 +2181,19 @@ Q_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                                      %! SM24
         c'4
+        <> \stopTextSpan                                                   %! PIC
     }
     
     % [Q ViolinIIMusicVoice measure 729 / measure 10]                      %! SM4
+    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 3/4
+    \\
     R1 * 3/4
+    >>
     
     % [Q ViolinIIMusicVoice measure 730 / measure 11]                      %! SM4
     R1 * 7/8
@@ -2477,6 +2505,11 @@ Q_ViolaMusicVoice = {
     % [Q ViolaMusicVoice measure 721 / measure 2]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'4
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PIC
+    - \tweak bound-details.right.padding #2.75                             %! PIC
+    - \tweak staff-padding #5                                              %! PIC
+    \startTextSpan                                                         %! PIC
     
     \baca_unpitched_music_warning                                          %! SM24
     c'4
@@ -2562,9 +2595,18 @@ Q_ViolaMusicVoice = {
     
     \baca_unpitched_music_warning                                          %! SM24
     c'4
+    <> \stopTextSpan                                                       %! PIC
     
     % [Q ViolaMusicVoice measure 729 / measure 10]                         %! SM4
+    \voices "ViolaMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 3/4
+    \\
     R1 * 3/4
+    >>
     
     % [Q ViolaMusicVoice measure 730 / measure 11]                         %! SM4
     R1 * 7/8
@@ -2874,6 +2916,11 @@ Q_CelloMusicVoice = {
         % [Q CelloMusicVoice measure 721 / measure 2]                      %! SM4
         \baca_unpitched_music_warning                                      %! SM24
         c'4
+        - \abjad_dashed_line_with_hook                                     %! PIC
+        - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup %! PIC
+        - \tweak bound-details.right.padding #2.75                         %! PIC
+        - \tweak staff-padding #5                                          %! PIC
+        \startTextSpan                                                     %! PIC
         
         \baca_unpitched_music_warning                                      %! SM24
         c'4
@@ -2951,9 +2998,18 @@ Q_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                          %! SM24
     c'4
+    <> \stopTextSpan                                                       %! PIC
     
     % [Q CelloMusicVoice measure 729 / measure 10]                         %! SM4
+    \voices "CelloMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 3/4
+    \\
     R1 * 3/4
+    >>
     
     % [Q CelloMusicVoice measure 730 / measure 11]                         %! SM4
     R1 * 7/8

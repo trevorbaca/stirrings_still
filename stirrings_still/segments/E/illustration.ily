@@ -2210,20 +2210,15 @@ E_ViolinIMusicVoice = {
             "[“Vn. I”]"                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    \override                                              %! PIC
-                        #'(box-padding . 0.5)                              %! PIC
-                        \box                                               %! PIC
-                            "lhd + 1/2 clt"                                %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.padding #1.75                             %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "1/2 clt"          %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak staff-padding #7                                              %! PIC
     \startTextSpan                                                         %! PIC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak staff-padding #10                                             %! PIC
+    \startTextSpanOne                                                      %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2249,10 +2244,19 @@ E_ViolinIMusicVoice = {
     c'2
     :32                                                                    %! IC
     \repeatTie
+    <> \stopTextSpan                                                       %! PIC
+    <> \stopTextSpanOne                                                    %! PIC
     
     % [E ViolinIMusicVoice measure 308 / measure 3]                        %! SM4
+    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 1/4
+    \\
     R1 * 1/4
-    \stopTextSpan                                                          %! PIC
+    >>
     
     % [E ViolinIMusicVoice measure 309 / measure 4]                        %! SM4
     r2
@@ -2835,20 +2839,15 @@ E_ViolinIIMusicVoice = {
             "[“Vn. II”]"                                                   %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    \override                                              %! PIC
-                        #'(box-padding . 0.5)                              %! PIC
-                        \box                                               %! PIC
-                            "lhd + 1/2 clt"                                %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.padding #1.75                             %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "1/2 clt"          %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak staff-padding #7                                              %! PIC
     \startTextSpan                                                         %! PIC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak staff-padding #10                                             %! PIC
+    \startTextSpanOne                                                      %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2874,10 +2873,19 @@ E_ViolinIIMusicVoice = {
     c'2
     :32                                                                    %! IC
     \repeatTie
+    <> \stopTextSpan                                                       %! PIC
+    <> \stopTextSpanOne                                                    %! PIC
     
     % [E ViolinIIMusicVoice measure 308 / measure 3]                       %! SM4
+    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 1/4
+    \\
     R1 * 1/4
-    \stopTextSpan                                                          %! PIC
+    >>
     
     % [E ViolinIIMusicVoice measure 309 / measure 4]                       %! SM4
     r2
@@ -3461,20 +3469,15 @@ E_ViolaMusicVoice = {
             [“Va.”]                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    \override                                              %! PIC
-                        #'(box-padding . 0.5)                              %! PIC
-                        \box                                               %! PIC
-                            "lhd + 1/2 clt"                                %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.padding #1.75                             %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "1/2 clt"          %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak staff-padding #7                                              %! PIC
     \startTextSpan                                                         %! PIC
+    - \abjad_dashed_line_with_hook                                         %! PIC
+    - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PIC
+    - \tweak bound-details.right.padding #3.25                             %! PIC
+    - \tweak staff-padding #10                                             %! PIC
+    \startTextSpanOne                                                      %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -3500,10 +3503,19 @@ E_ViolaMusicVoice = {
     c'2
     :32                                                                    %! IC
     \repeatTie
+    <> \stopTextSpan                                                       %! PIC
+    <> \stopTextSpanOne                                                    %! PIC
     
     % [E ViolaMusicVoice measure 308 / measure 3]                          %! SM4
+    \voices "ViolaMusicVoice", "MultimeasureRestVoice"
+    <<
+        \tweak NoteHead.no-ledgers ##t
+        \tweak NoteHead.transparent ##t
+        \tweak Dots.transparent ##t
+        c'1 * 1/4
+    \\
     R1 * 1/4
-    \stopTextSpan                                                          %! PIC
+    >>
     
     % [E ViolaMusicVoice measure 309 / measure 4]                          %! SM4
     r2
