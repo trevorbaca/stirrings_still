@@ -2127,7 +2127,7 @@ D_ViolinIMusicVoice = {
     - \tweak circled-tip ##t                                               %! PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "damp"             %! PIC
+    - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #5                                              %! PIC
     \startTextSpan                                                         %! PIC
@@ -3152,7 +3152,7 @@ D_ViolinIIMusicVoice = {
     - \tweak circled-tip ##t                                               %! PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "damp"             %! PIC
+    - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #5                                              %! PIC
     \startTextSpan                                                         %! PIC
@@ -4151,7 +4151,7 @@ D_ViolaMusicVoice = {
     - \tweak circled-tip ##t                                               %! PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "damp"             %! PIC
+    - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #5                                              %! PIC
     \startTextSpan                                                         %! PIC
@@ -5168,7 +5168,7 @@ D_CelloMusicVoice = {
     - \tweak circled-tip ##t                                               %! PIC
     \>                                                                     %! PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
-    - \tweak bound-details.left.text \markup \baca-left "damp"             %! PIC
+    - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
     - \tweak staff-padding #5                                              %! PIC
     \startTextSpan                                                         %! PIC

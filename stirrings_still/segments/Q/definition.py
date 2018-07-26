@@ -72,6 +72,13 @@ stirrings_still.time(maker, time)
 
 maker(
     ('tutti', (2, 9)),
+    baca.text_spanner(
+        r'\baca_damp_markup =|',
+        abjad.tweak(2.75).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        leak=True,
+        ),
     baca.match(
         0,
         stirrings_still.desynchronization(4, [2]),

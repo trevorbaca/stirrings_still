@@ -327,7 +327,7 @@ maker(
     ('tutti', (58, 63)),
     baca.hairpin('mf >o niente'),
     baca.text_spanner(
-        'damp =|',
+        r'\baca_damp_markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,

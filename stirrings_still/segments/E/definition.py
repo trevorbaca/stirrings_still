@@ -96,11 +96,19 @@ maker(
     (['v1', 'v2', 'va'], (1, 2)),
     baca.dynamic('p'),
     baca.text_spanner(
-        'lhd + 1/2 clt =|',
-        abjad.tweak(1.75).bound_details__right__padding,
+        '1/2 clt =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(7).staff_padding,
+        leak=True,
         bookend=False,
-        boxed=True,
-        selector=baca.rleaves(),
+        ),
+    baca.text_spanner(
+        r'\baca_damp_markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(10).staff_padding,
+        bookend=False,
+        leak=True,
+        lilypond_id=1,
         ),
     stirrings_still.continuous_tremolo(),
     )

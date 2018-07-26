@@ -770,7 +770,7 @@ G_ViolinIMusicStaff = {
 
 G_ViolinIIMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 14/16 {
         
         % [G ViolinIIMusicVoice measure 447 / measure 1]                   %! SM4
         \set Staff.instrumentName =                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -859,7 +859,7 @@ G_ViolinIIMusicVoice = {
     % [G ViolinIIMusicVoice measure 448 / measure 2]                       %! SM4
     R1 * 1/4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 14/16 {
         
         % [G ViolinIIMusicVoice measure 449 / measure 3]                   %! SM4
         \baca_unpitched_music_warning                                      %! SM24
@@ -911,7 +911,7 @@ G_ViolinIIMusicVoice = {
     % [G ViolinIIMusicVoice measure 452 / measure 6]                       %! SM4
     R1 * 3/4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/9 {
+    \times 16/18 {
         
         % [G ViolinIIMusicVoice measure 453 / measure 7]                   %! SM4
         \baca_unpitched_music_warning                                      %! SM24
@@ -967,7 +967,7 @@ G_ViolinIIMusicVoice = {
     % [G ViolinIIMusicVoice measure 456 / measure 10]                      %! SM4
     R1 * 1/4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 10/12 {
         
         % [G ViolinIIMusicVoice measure 457 / measure 11]                  %! SM4
         \baca_unpitched_music_warning                                      %! SM24
@@ -1005,7 +1005,7 @@ G_ViolinIIMusicVoice = {
     % [G ViolinIIMusicVoice measure 458 / measure 12]                      %! SM4
     R1 * 3/4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \times 12/14 {
         
         % [G ViolinIIMusicVoice measure 459 / measure 13]                  %! SM4
         \baca_unpitched_music_warning                                      %! SM24
@@ -1076,7 +1076,7 @@ G_ViolinIIMusicStaff = {
 
 G_ViolaMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 14/12 {
         
         % [G ViolaMusicVoice measure 447 / measure 1]                      %! SM4
         \set Staff.instrumentName =                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1161,7 +1161,7 @@ G_ViolaMusicVoice = {
     % [G ViolaMusicVoice measure 448 / measure 2]                          %! SM4
     R1 * 1/4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 14/12 {
         
         % [G ViolaMusicVoice measure 449 / measure 3]                      %! SM4
         \baca_unpitched_music_warning                                      %! SM24
@@ -1205,7 +1205,7 @@ G_ViolaMusicVoice = {
     % [G ViolaMusicVoice measure 452 / measure 6]                          %! SM4
     R1 * 3/4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 8/7 {
+    \times 16/14 {
         
         % [G ViolaMusicVoice measure 453 / measure 7]                      %! SM4
         \baca_unpitched_music_warning                                      %! SM24
@@ -1253,7 +1253,7 @@ G_ViolaMusicVoice = {
     % [G ViolaMusicVoice measure 456 / measure 10]                         %! SM4
     R1 * 1/4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/4 {
+    \times 10/8 {
         
         % [G ViolaMusicVoice measure 457 / measure 11]                     %! SM4
         \baca_unpitched_music_warning                                      %! SM24
@@ -1283,7 +1283,7 @@ G_ViolaMusicVoice = {
     % [G ViolaMusicVoice measure 458 / measure 12]                         %! SM4
     R1 * 3/4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \times 12/10 {
         
         % [G ViolaMusicVoice measure 459 / measure 13]                     %! SM4
         \baca_unpitched_music_warning                                      %! SM24
