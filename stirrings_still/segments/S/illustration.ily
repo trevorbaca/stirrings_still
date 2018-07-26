@@ -2444,8 +2444,19 @@ S_CelloMusicVoice = {
     R1 * 5/4
     
     % [S CelloMusicVoice measure 832 / measure 5]                          %! SM4
-    \baca_unpitched_music_warning                                          %! SM24
-    c'1.
+    \ottava #-1                                                            %! SC
+    b,,,1
+    - \tweak circled-tip ##t                                               %! PIC
+    \<                                                                     %! PIC
+    ~
+    
+    b,,,4
+    ~
+    
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    b,,,4
+    \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
+    \ottava #0                                                             %! SC
     
     % [S CelloMusicVoice measure 833 / measure 6]                          %! SM4
     R1 * 3/2
@@ -2460,13 +2471,17 @@ S_CelloMusicVoice = {
     R1 * 5/4
     
     % [S CelloMusicVoice measure 837 / measure 10]                         %! SM4
-    \baca_unpitched_music_warning                                          %! SM24
-    c'1
+    \ottava #-1                                                            %! SC
+    b,,,1
+    - \tweak circled-tip ##t                                               %! PIC
+    \<                                                                     %! PIC
     
     % [S CelloMusicVoice measure 838 / measure 11]                         %! SM4
-    \baca_unpitched_music_warning                                          %! SM24
-    c'2.
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    b,,,2.
+    \f                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
+    \ottava #0                                                             %! SC
     
     % [S CelloMusicVoice measure 839 / measure 12]                         %! SM4
     R1 * 1
@@ -2481,22 +2496,24 @@ S_CelloMusicVoice = {
     R1 * 3/4
     
     % [S CelloMusicVoice measure 843 / measure 16]                         %! SM4
-    \baca_unpitched_music_warning                                          %! SM24
-    c'2.
+    \ottava #-1                                                            %! SC
+    b,,,2.
+    - \tweak circled-tip ##t                                               %! PIC
+    \<                                                                     %! PIC
     
-    \baca_unpitched_music_warning                                          %! SM24
-    c'2
+    b,,,2
     \repeatTie
     
     % [S CelloMusicVoice measure 844 / measure 17]                         %! SM4
-    \baca_unpitched_music_warning                                          %! SM24
-    c'1.
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    b,,,1.
+    \ff                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     % [S CelloMusicVoice measure 845 / measure 18]                         %! SM4
-    \baca_unpitched_music_warning                                          %! SM24
-    c'2.
+    b,,,2.
     \repeatTie
+    \ottava #0                                                             %! SC
     
     % [S CelloMusicVoice measure 846 / measure 19]                         %! SM4
     R1 * 1
@@ -2511,23 +2528,25 @@ S_CelloMusicVoice = {
     R1 * 3/2
     
     % [S CelloMusicVoice measure 850 / measure 23]                         %! SM4
-    \baca_unpitched_music_warning                                          %! SM24
-    c'2.
+    \ottava #-1                                                            %! SC
+    b,,,2.
+    - \tweak circled-tip ##t                                               %! PIC
+    \<                                                                     %! PIC
     
     % [S CelloMusicVoice measure 851 / measure 24]                         %! SM4
-    \baca_unpitched_music_warning                                          %! SM24
-    c'2.
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+    b,,,2.
+    \fff                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     % [S CelloMusicVoice measure 852 / measure 25]                         %! SM4
-    \baca_unpitched_music_warning                                          %! SM24
-    c'1
+    b,,,1
     \repeatTie
     
     % [S CelloMusicVoice measure 853 / measure 26]                         %! SM4
-    \baca_unpitched_music_warning                                          %! SM24
-    c'1
+    b,,,1
     \repeatTie
+    \ottava #0                                                             %! SC
     
     % [S CelloMusicVoice measure 854 / measure 27]                         %! SM4
     R1 * 1
