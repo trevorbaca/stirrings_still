@@ -385,12 +385,16 @@ maker(
 maker(
     ('tutti', (30, 33)),
     baca.breathe(),
-    baca.hairpin('mf > pp'),
+    baca.hairpin(
+        'mf > pp',
+        selector=baca.tleaves(),
+        ),
     baca.text_spanner(
         '8˝ circles =|',
         abjad.tweak(4).staff_padding,
         bookend=False,
         leak=True,
+        selector=baca.tleaves(),
         ),
     baca.text_spanner(
         r'\baca_damp_markup =|',
@@ -398,6 +402,7 @@ maker(
         bookend=False,
         leak=True,
         lilypond_id=1,
+        selector=baca.tleaves(),
         ),
     stirrings_still.synchronized_circles(rests=[-1]),
     )
@@ -449,29 +454,44 @@ maker(
 
 maker(
     ('tutti', (36, 39)),
-    baca.hairpin('pp < mf'),
+    baca.hairpin(
+        'pp < mf',
+        selector=baca.tleaves(),
+        ),
     )
 
 maker(
     ('tutti', (40, 43)),
     baca.breathe(),
-    baca.hairpin('mf > pp'),
+    baca.hairpin(
+        'mf > pp',
+        selector=baca.tleaves(),
+        ),
     )
 
 maker(
     ('tutti', (44, 47)),
-    baca.hairpin('pp < f'),
+    baca.hairpin(
+        'pp < f',
+        selector=baca.tleaves(),
+        ),
     )
 
 maker(
     ('tutti', (48, 51)),
     baca.breathe(),
-    baca.hairpin('f > pp'),
+    baca.hairpin(
+        'f > pp',
+        selector=baca.tleaves(),
+        ),
     )
 
 maker(
     ('tutti', (52, 55)),
-    baca.hairpin('pp < ff'),
+    baca.hairpin(
+        'pp < ff',
+        selector=baca.tleaves(),
+        ),
     )
 
 # TODO: intermittent harmonic -> half-harmonic -> stopped
