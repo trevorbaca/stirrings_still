@@ -13,10 +13,6 @@ def circles(
     Makes circle rhythm with ``duration``.
     """
     duration = abjad.Duration(duration)
-    if dmask is None:
-        division_masks = None
-    else:
-        division_masks = [dmask]
     division_expression = baca.split_by_durations(
         durations=[duration],
         remainder=remainder,
@@ -29,6 +25,6 @@ def circles(
         division_expression=division_expression,
         rhythm_maker=rmakers.NoteRhythmMaker(
             beam_specifier=beam_specifier,
-            division_masks=division_masks,
+            division_masks=dmask,
             ),
         )

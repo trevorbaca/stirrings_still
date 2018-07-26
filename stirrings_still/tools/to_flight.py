@@ -6,18 +6,14 @@ from abjadext import rmakers
 def to_flight(
     divisions,
     *,
+    dmask=None,
     start=(1, 4),
     stop=(1, 8),
-    dmask=None,
     ):
     """
     Makes trajectories-to-flight rhythm.
     """
 
-    if dmask is None:
-        division_masks = None
-    else:
-        division_masks = [dmask]
     return baca.rhythm(
         division_expression=baca.split_by_durations(divisions),
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
@@ -26,7 +22,7 @@ def to_flight(
                 stemlet_length=0.75,
                 use_feather_beams=True,
                 ),
-            division_masks=division_masks,
+            division_masks=dmask,
             interpolation_specifiers=[
                 rmakers.InterpolationSpecifier(
                     start_duration=start,
