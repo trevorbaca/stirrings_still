@@ -13,6 +13,7 @@ def to_flight(
     """
     Makes trajectories-to-flight rhythm.
     """
+
     if division_mask is None:
         division_masks = None
     else:

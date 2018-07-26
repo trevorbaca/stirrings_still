@@ -36,27 +36,14 @@ maker(
     )
 
 maker(
-    (['v1', 'v2'], [5, 10, 16, 23]),
+    (['v1', 'v2'], [5, (10, 11), (16, 18), (23, 26)]),
     baca.hairpin('mp > pp'),
     baca.match(
         [0, 1, 2, 3],
-        stirrings_still.accelerando(stop=(3, 32)),
+        stirrings_still.wave((1, 4), (3, 32)),
         ),
     baca.match(
         [4, 5, 6, 7],
-        stirrings_still.accelerando(stop=(5, 32)),
-        ),
-    )
-
-maker(
-    (['v1', 'v2'], [11, (17, 18), (24, 26)]),
-    baca.beam(),
-    baca.match(
-        [0, 1, 2],
-        baca.make_repeated_duration_notes((3, 32), do_not_rewrite_meter=True),
-        ),
-    baca.match(
-        [3, 4, 5],
-        baca.make_repeated_duration_notes((1, 8), do_not_rewrite_meter=True),
+        stirrings_still.wave((5, 32), (1, 4)),
         ),
     )

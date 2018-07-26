@@ -4,9 +4,9 @@ from abjadext import rmakers
 
 
 def accelerando(
+    start,
+    stop,
     *,
-    start=(1, 4),
-    stop=(1, 8),
     lt_mask=None,
     ):
     """

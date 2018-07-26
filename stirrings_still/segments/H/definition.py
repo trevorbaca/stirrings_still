@@ -132,7 +132,7 @@ maker(
     baca.text_spanner_staff_padding(3),
     baca.tuplet_bracket_staff_padding(1),
     baca.tuplet_bracket_down(),
-    stirrings_still.accelerando(stop=(3, 32)),
+    stirrings_still.accelerando((1, 4), (3, 32)),
     stirrings_still.bcps(rotation=0),
     )
 
@@ -145,7 +145,7 @@ maker(
     ('v1', (7, 8)),
     baca.dynamic('p'),
     baca.tuplet_bracket_down(),
-    stirrings_still.accelerando(start=(1, 2), stop=(8, 32)),
+    stirrings_still.accelerando((1, 2), (8, 32)),
     )
 
 maker(
@@ -157,7 +157,7 @@ maker(
     ('va', (7, 8)),
     baca.dynamic('p'),
     baca.tuplet_bracket_down(),
-    stirrings_still.accelerando(start=(1, 2), stop=(6, 32)),
+    stirrings_still.accelerando((1, 2), (6, 32)),
     )
 
 maker(
@@ -187,7 +187,7 @@ maker(
     ('v2', (11, 12)),
     baca.markup('(always one circle per stem)'),
     baca.tuplet_bracket_down(),
-    stirrings_still.accelerando(start=(1, 2), stop=(7, 32)),
+    stirrings_still.accelerando((1, 2), (7, 32)),
     )
 
 maker(
@@ -357,15 +357,15 @@ maker(
     baca.markup('thinking color (no longer width)'),
     baca.match(
         0,
-        stirrings_still.accelerando(start=(1, 2), stop=(4, 32)),
+        stirrings_still.accelerando((1, 2), (4, 32)),
         ),
     baca.match(
         1,
-        stirrings_still.accelerando(start=(1, 2), stop=(8, 32)),
+        stirrings_still.accelerando((1, 2), (8, 32)),
         ),
     baca.match(
         2,
-        stirrings_still.accelerando(start=(1, 2), stop=(12, 32)),
+        stirrings_still.accelerando((1, 2), (12, 32)),
         ),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
@@ -433,15 +433,15 @@ maker(
     baca.dynamic('mf'),
     baca.match(
         0,
-        stirrings_still.accelerando(start=(1, 2), stop=(4, 32)),
+        stirrings_still.accelerando((1, 2), (4, 32)),
         ),
     baca.match(
         1,
-        stirrings_still.accelerando(start=(1, 2), stop=(8, 32)),
+        stirrings_still.accelerando((1, 2), (8, 32)),
         ),
     baca.match(
         2,
-        stirrings_still.accelerando(start=(1, 2), stop=(12, 32)),
+        stirrings_still.accelerando((1, 2), (12, 32)),
         ),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
@@ -456,15 +456,15 @@ maker(
     baca.dynamic('f'),
     baca.match(
         0,
-        stirrings_still.accelerando(start=(1, 2), stop=(4, 32)),
+        stirrings_still.accelerando((1, 2), (4, 32)),
         ),
     baca.match(
         1,
-        stirrings_still.accelerando(start=(1, 2), stop=(8, 32)),
+        stirrings_still.accelerando((1, 2), (8, 32)),
         ),
     baca.match(
         2,
-        stirrings_still.accelerando(start=(1, 2), stop=(12, 32)),
+        stirrings_still.accelerando((1, 2), (12, 32)),
         ),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
