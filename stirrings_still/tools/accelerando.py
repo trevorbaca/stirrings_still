@@ -13,11 +13,6 @@ def accelerando(
     Makes accelerando.
     """
 
-    if ltmask is not None:
-        logical_tie_masks = [ltmask]
-    else:
-        logical_tie_masks = None
-
     return baca.rhythm(
         division_expression=baca.sequence().sum().sequence(),
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
@@ -33,7 +28,7 @@ def accelerando(
                     written_duration=abjad.Duration(1, 16),
                     ),
                 ],
-            logical_tie_masks=logical_tie_masks,
+            logical_tie_masks=ltmask,
             tuplet_specifier=rmakers.TupletSpecifier(
                 duration_bracket=True,
                 ),

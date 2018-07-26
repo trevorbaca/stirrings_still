@@ -22,14 +22,10 @@ def pickets(fuse, extra_count, *, dmask=None):
         assert isinstance(extra_count, list)
         tuplet_ratio = extra_count
     
-    if dmask is None:
-        division_masks = None
-    else:
-        division_masks = [dmask]
     return baca.rhythm(
         division_expression=division_expression,
         rhythm_maker=rmakers.TupletRhythmMaker(
-            division_masks=division_masks,
+            division_masks=dmask,
             tuplet_ratios=[tuplet_ratio],
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,
