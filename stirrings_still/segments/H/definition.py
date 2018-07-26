@@ -334,15 +334,15 @@ maker(
     baca.markup('8” circles continue'),
     baca.match(
         0,
-        stirrings_still.pickets(4, 2, mask=rmakers.silence([0])),
+        stirrings_still.pickets(4, 2, dmask=rmakers.silence([0])),
         ),
     baca.match(
         1,
-        stirrings_still.pickets(4, 1, mask=rmakers.silence([0])),
+        stirrings_still.pickets(4, 1, dmask=rmakers.silence([0])),
         ),
     baca.match(
         2,
-        stirrings_still.pickets(4, 0, mask=rmakers.silence([0])),
+        stirrings_still.pickets(4, 0, dmask=rmakers.silence([0])),
         ),
     )
 

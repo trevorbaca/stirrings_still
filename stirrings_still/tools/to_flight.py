@@ -8,16 +8,16 @@ def to_flight(
     *,
     start=(1, 4),
     stop=(1, 8),
-    division_mask=None,
+    dmask=None,
     ):
     """
     Makes trajectories-to-flight rhythm.
     """
 
-    if division_mask is None:
+    if dmask is None:
         division_masks = None
     else:
-        division_masks = [division_mask]
+        division_masks = [dmask]
     return baca.rhythm(
         division_expression=baca.split_by_durations(divisions),
         rhythm_maker=rmakers.AccelerandoRhythmMaker(

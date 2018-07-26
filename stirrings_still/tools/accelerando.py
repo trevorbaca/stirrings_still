@@ -7,14 +7,14 @@ def accelerando(
     start,
     stop,
     *,
-    lt_mask=None,
+    ltmask=None,
     ):
     """
     Makes accelerando.
     """
 
-    if lt_mask is not None:
-        logical_tie_masks = [lt_mask]
+    if ltmask is not None:
+        logical_tie_masks = [ltmask]
     else:
         logical_tie_masks = None
 

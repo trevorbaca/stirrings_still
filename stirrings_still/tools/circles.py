@@ -6,17 +6,17 @@ from abjadext import rmakers
 def circles(
     duration,
     *,
-    division_mask=None,
+    dmask=None,
     remainder=abjad.Right,
     ):
     """
     Makes circle rhythm with ``duration``.
     """
     duration = abjad.Duration(duration)
-    if division_mask is None:
+    if dmask is None:
         division_masks = None
     else:
-        division_masks = [division_mask]
+        division_masks = [dmask]
     division_expression = baca.split_by_durations(
         durations=[duration],
         remainder=remainder,
