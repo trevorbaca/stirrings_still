@@ -1264,7 +1264,7 @@ H_ViolinIMusicVoice = {
         \glissando                                                         %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/10 {
         
         % [H ViolinIMusicVoice measure 476 / measure 10]                   %! SM4
         a'4
@@ -1332,7 +1332,7 @@ H_ViolinIMusicVoice = {
         \glissando                                                         %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 2/3 {
+    \times 4/6 {
         
         % [H ViolinIMusicVoice measure 480 / measure 14]                   %! SM4
         b'4
@@ -1364,7 +1364,7 @@ H_ViolinIMusicVoice = {
     
     a'4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \times 8/12 {
         
         % [H ViolinIMusicVoice measure 482 / measure 16]                   %! SM4
         a'4
@@ -2160,7 +2160,7 @@ H_ViolinIIMusicVoice = {
     a'4
     \glissando                                                             %! SC
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/10 {
         
         % [H ViolinIIMusicVoice measure 481 / measure 15]                  %! SM4
         \revert Accidental.stencil                                         %! SC
@@ -2187,7 +2187,7 @@ H_ViolinIIMusicVoice = {
         af'!4
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 4/5 {
+    \times 8/10 {
         
         % [H ViolinIIMusicVoice measure 482 / measure 16]                  %! SM4
         af'!4
@@ -3030,7 +3030,7 @@ H_ViolaMusicVoice = {
     \revert TextScript.staff-padding                                       %! OC2
     \revert TextSpanner.staff-padding                                      %! OC2
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/4 {
+    \times 6/8 {
         
         % [H ViolaMusicVoice measure 481 / measure 15]                     %! SM4
         \revert Accidental.stencil                                         %! SC

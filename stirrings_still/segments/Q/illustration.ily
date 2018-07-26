@@ -1592,30 +1592,143 @@ Q_ViolinIMusicVoice = {
             #12                                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
             "Vn. I"                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    
-    % [Q ViolinIMusicVoice measure 721 / measure 2]                        %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 722 / measure 3]                        %! SM4
-    R1 * 1
-    
-    % [Q ViolinIMusicVoice measure 723 / measure 4]                        %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIMusicVoice measure 724 / measure 5]                        %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 725 / measure 6]                        %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIMusicVoice measure 726 / measure 7]                        %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIMusicVoice measure 727 / measure 8]                        %! SM4
-    R1 * 5/8
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/12 {
+        
+        % [Q ViolinIMusicVoice measure 721 / measure 2]                    %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/12 {
+        
+        % [Q ViolinIMusicVoice measure 722 / measure 3]                    %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/10 {
+        
+        % [Q ViolinIMusicVoice measure 723 / measure 4]                    %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/10 {
+        
+        % [Q ViolinIMusicVoice measure 724 / measure 5]                    %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/10 {
+        
+        % [Q ViolinIMusicVoice measure 725 / measure 6]                    %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/10 {
+        
+        % [Q ViolinIMusicVoice measure 726 / measure 7]                    %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/8 {
+        
+        % [Q ViolinIMusicVoice measure 727 / measure 8]                    %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'2
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'2
+    }
     
     % [Q ViolinIMusicVoice measure 728 / measure 9]                        %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
     
     % [Q ViolinIMusicVoice measure 729 / measure 10]                       %! SM4
     R1 * 3/4
@@ -1922,30 +2035,134 @@ Q_ViolinIIMusicVoice = {
             #12                                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
             "Vn. II"                                                       %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    
-    % [Q ViolinIIMusicVoice measure 721 / measure 2]                       %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 722 / measure 3]                       %! SM4
-    R1 * 1
-    
-    % [Q ViolinIIMusicVoice measure 723 / measure 4]                       %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIIMusicVoice measure 724 / measure 5]                       %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 725 / measure 6]                       %! SM4
-    R1 * 7/8
-    
-    % [Q ViolinIIMusicVoice measure 726 / measure 7]                       %! SM4
-    R1 * 3/4
-    
-    % [Q ViolinIIMusicVoice measure 727 / measure 8]                       %! SM4
-    R1 * 5/8
-    
-    % [Q ViolinIIMusicVoice measure 728 / measure 9]                       %! SM4
-    R1 * 1/2
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/10 {
+        
+        % [Q ViolinIIMusicVoice measure 721 / measure 2]                   %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/10 {
+        
+        % [Q ViolinIIMusicVoice measure 722 / measure 3]                   %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/8 {
+        
+        % [Q ViolinIIMusicVoice measure 723 / measure 4]                   %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [Q ViolinIIMusicVoice measure 724 / measure 5]                   %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/8 {
+        
+        % [Q ViolinIIMusicVoice measure 725 / measure 6]                   %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/8 {
+        
+        % [Q ViolinIIMusicVoice measure 726 / measure 7]                   %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/6 {
+        
+        % [Q ViolinIIMusicVoice measure 727 / measure 8]                   %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/6 {
+        
+        % [Q ViolinIIMusicVoice measure 728 / measure 9]                   %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
     
     % [Q ViolinIIMusicVoice measure 729 / measure 10]                      %! SM4
     R1 * 3/4
@@ -2258,28 +2475,93 @@ Q_ViolaMusicVoice = {
         }                                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [Q ViolaMusicVoice measure 721 / measure 2]                          %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
     
     % [Q ViolaMusicVoice measure 722 / measure 3]                          %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
     
     % [Q ViolaMusicVoice measure 723 / measure 4]                          %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
     
-    % [Q ViolaMusicVoice measure 724 / measure 5]                          %! SM4
-    R1 * 7/8
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
     
-    % [Q ViolaMusicVoice measure 725 / measure 6]                          %! SM4
-    R1 * 7/8
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/6 {
+        
+        % [Q ViolaMusicVoice measure 724 / measure 5]                      %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/6 {
+        
+        % [Q ViolaMusicVoice measure 725 / measure 6]                      %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
     
     % [Q ViolaMusicVoice measure 726 / measure 7]                          %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
     
-    % [Q ViolaMusicVoice measure 727 / measure 8]                          %! SM4
-    R1 * 5/8
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/4 {
+        
+        % [Q ViolaMusicVoice measure 727 / measure 8]                      %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
     
     % [Q ViolaMusicVoice measure 728 / measure 9]                          %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
     
     % [Q ViolaMusicVoice measure 729 / measure 10]                         %! SM4
     R1 * 3/4
@@ -2586,30 +2868,89 @@ Q_CelloMusicVoice = {
             #12                                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
             Vc.                                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    
-    % [Q CelloMusicVoice measure 721 / measure 2]                          %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 722 / measure 3]                          %! SM4
-    R1 * 1
-    
-    % [Q CelloMusicVoice measure 723 / measure 4]                          %! SM4
-    R1 * 3/4
-    
-    % [Q CelloMusicVoice measure 724 / measure 5]                          %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 725 / measure 6]                          %! SM4
-    R1 * 7/8
-    
-    % [Q CelloMusicVoice measure 726 / measure 7]                          %! SM4
-    R1 * 3/4
-    
-    % [Q CelloMusicVoice measure 727 / measure 8]                          %! SM4
-    R1 * 5/8
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/6 {
+        
+        % [Q CelloMusicVoice measure 721 / measure 2]                      %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/6 {
+        
+        % [Q CelloMusicVoice measure 722 / measure 3]                      %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/4 {
+        
+        % [Q CelloMusicVoice measure 723 / measure 4]                      %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/4 {
+        
+        % [Q CelloMusicVoice measure 724 / measure 5]                      %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 7/4 {
+        
+        % [Q CelloMusicVoice measure 725 / measure 6]                      %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/4 {
+        
+        % [Q CelloMusicVoice measure 726 / measure 7]                      %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 5/4 {
+        
+        % [Q CelloMusicVoice measure 727 / measure 8]                      %! SM4
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'4
+    }
     
     % [Q CelloMusicVoice measure 728 / measure 9]                          %! SM4
-    R1 * 1/2
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'4
     
     % [Q CelloMusicVoice measure 729 / measure 10]                         %! SM4
     R1 * 3/4

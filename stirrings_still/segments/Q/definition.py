@@ -69,3 +69,23 @@ time = (
     )
 
 stirrings_still.time(maker, time)
+
+maker(
+    ('tutti', (2, 9)),
+    baca.match(
+        0,
+        stirrings_still.desynchronization(4, [2]),
+        ),
+    baca.match(
+        1,
+        stirrings_still.desynchronization(4, [1]),
+        ),
+    baca.match(
+        2,
+        stirrings_still.desynchronization(4, [0]),
+        ),
+    baca.match(
+        3,
+        stirrings_still.desynchronization(4, [-1]),
+        ),
+    )
