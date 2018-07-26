@@ -3322,7 +3322,7 @@ SEGMENTS
     v1, v2 ellipses reappear:
         stopped lh joins va;
         hair joins va;
-        fast whisked ellipses on accelerando and crescendo;
+        fast whisked ellipses on accelerando and decrescendo;
     va memory of flight continues:
         stopped lh continues;
         hair continues;
@@ -3330,7 +3330,7 @@ SEGMENTS
     vc memory of flight returns:
         stopped lh joins va;
         hair joins va;
-        B0 slack-string up-bow rh-terminated exponential crescendo to mf;
+        B0 slack-string mf dal niente;
     attacca;
 
     [S.3] (6-9)
@@ -3352,7 +3352,7 @@ SEGMENTS
     v1, v2 ellipses:
         stopped lh joins va;
         hair joins va;
-        fast whisked ellipses on accelerando and crescendo;
+        fast whisked ellipses on accelerando and decrescendo;
     va memory of flight continues:
         stopped lh continues;
         hair continues;
@@ -3360,7 +3360,7 @@ SEGMENTS
     vc memory of flight returns:
         stopped lh joins va;
         hair joins va;
-        Bb0 slack-string up-bow rh-terminated exponential crescendo to f;
+        Bb0 slack-string f dal niente;
     attacca;
 
     [S.5] (12-15)
@@ -3382,7 +3382,7 @@ SEGMENTS
     v1, v2 ellipses:
         stopped lh joins va;
         hair joins va;
-        fast whisked ellipses on accelerando and crescendo;
+        fast whisked ellipses on accelerando and decrescendo;
     va memory of flight continues:
         stopped lh continues;
         hair continues;
@@ -3390,7 +3390,7 @@ SEGMENTS
     vc memory of flight returns:
         stopped lh joins va;
         hair joins va;
-        Bb0 slack-string up-bow rh-terminated exponential crescendo to ff;
+        Bb0 slack-string ff dal niente;
     attacca;
 
     [S.7] (19-22)
@@ -3412,7 +3412,7 @@ SEGMENTS
     v1, v2 ellipses:
         stopped lh joins va;
         hair joins va;
-        fast whisked ellipses on accelerando and crescendo;
+        fast whisked ellipses on accelerando and decrescendo;
     va memory of flight continues:
         stopped lh continues;
         hair continues;
@@ -3420,7 +3420,7 @@ SEGMENTS
     vc memory of flight returns:
         stopped lh joins va;
         hair joins va;
-        Bb0 slack-string up-bow rh-terminated exponential crescendo to fff;
+        Bb0 slack-string fff dal niente;
     attacca;
 
     [S.9] (27-34 + long)

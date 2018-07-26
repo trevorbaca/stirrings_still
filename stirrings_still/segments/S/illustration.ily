@@ -538,9 +538,89 @@ S_ViolinIMusicVoice = {
     
     % [S ViolinIMusicVoice measure 831 / measure 4]                        %! SM4
     R1 * 5/4
-    
-    % [S ViolinIMusicVoice measure 832 / measure 5]                        %! SM4
-    R1 * 3/2
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.minimum-length = #4
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                            \override TupletNumber.font-size = #0
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'1.
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [S ViolinIMusicVoice measure 832 / measure 5]                    %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 245/64
+        \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! PIC
+        [
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 235/64
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 13/4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 11/4
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 37/16
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 63/32
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 111/64
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 25/16
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 95/64
+        
+        \revert Staff.Stem.stemlet-length
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 23/16
+        \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        ]
+    }
+    \revert TupletNumber.text
     
     % [S ViolinIMusicVoice measure 833 / measure 6]                        %! SM4
     R1 * 3/2
@@ -553,12 +633,107 @@ S_ViolinIMusicVoice = {
     
     % [S ViolinIMusicVoice measure 836 / measure 9]                        %! SM4
     R1 * 5/4
-    
-    % [S ViolinIMusicVoice measure 837 / measure 10]                       %! SM4
-    R1 * 1
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.minimum-length = #4
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                            \override TupletNumber.font-size = #0
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'1
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [S ViolinIMusicVoice measure 837 / measure 10]                   %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 235/64
+        \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! PIC
+        [
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 213/64
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 167/64
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 127/64
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 103/64
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 23/16
+        
+        \revert Staff.Stem.stemlet-length
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 87/64
+        \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        ]
+    }
+    \revert TupletNumber.text
     
     % [S ViolinIMusicVoice measure 838 / measure 11]                       %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    [                                                                      %! SC
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    ]                                                                      %! SC
     
     % [S ViolinIMusicVoice measure 839 / measure 12]                       %! SM4
     R1 * 1
@@ -571,15 +746,161 @@ S_ViolinIMusicVoice = {
     
     % [S ViolinIMusicVoice measure 842 / measure 15]                       %! SM4
     R1 * 3/4
-    
-    % [S ViolinIMusicVoice measure 843 / measure 16]                       %! SM4
-    R1 * 5/4
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.minimum-length = #4
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                            \override TupletNumber.font-size = #0
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'1
+                            ~
+                            c'4
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [S ViolinIMusicVoice measure 843 / measure 16]                   %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 125/32
+        \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! PIC
+        [
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 235/64
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 199/64
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 5/2
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 131/64
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 111/64
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 25/16
+        
+        \revert Staff.Stem.stemlet-length
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 47/32
+        \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        ]
+    }
+    \revert TupletNumber.text
     
     % [S ViolinIMusicVoice measure 844 / measure 17]                       %! SM4
-    R1 * 3/2
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    [                                                                      %! SC
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
     
     % [S ViolinIMusicVoice measure 845 / measure 18]                       %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    ]                                                                      %! SC
     
     % [S ViolinIMusicVoice measure 846 / measure 19]                       %! SM4
     R1 * 1
@@ -592,18 +913,168 @@ S_ViolinIMusicVoice = {
     
     % [S ViolinIMusicVoice measure 849 / measure 22]                       %! SM4
     R1 * 3/2
-    
-    % [S ViolinIMusicVoice measure 850 / measure 23]                       %! SM4
-    R1 * 3/4
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.minimum-length = #4
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                            \override TupletNumber.font-size = #0
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'2.
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [S ViolinIMusicVoice measure 850 / measure 23]                   %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 119/32
+        \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! PIC
+        [
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 201/64
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 137/64
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 51/32
+        
+        \revert Staff.Stem.stemlet-length
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 45/32
+        \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        ]
+    }
+    \revert TupletNumber.text
     
     % [S ViolinIMusicVoice measure 851 / measure 24]                       %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    [                                                                      %! SC
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
     
     % [S ViolinIMusicVoice measure 852 / measure 25]                       %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
     
-    % [S ViolinIMusicVoice measure 853 / measure 26]                       %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'16.
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'32
+    ]                                                                      %! SC
     
     % [S ViolinIMusicVoice measure 854 / measure 27]                       %! SM4
     R1 * 1
@@ -697,9 +1168,83 @@ S_ViolinIIMusicVoice = {
     
     % [S ViolinIIMusicVoice measure 831 / measure 4]                       %! SM4
     R1 * 5/4
-    
-    % [S ViolinIIMusicVoice measure 832 / measure 5]                       %! SM4
-    R1 * 3/2
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.minimum-length = #4
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                            \override TupletNumber.font-size = #0
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'1.
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [S ViolinIIMusicVoice measure 832 / measure 5]                   %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 15/4
+        \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! PIC
+        [
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 117/32
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 109/32
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 99/32
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 179/64
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 41/16
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 77/32
+        
+        \revert Staff.Stem.stemlet-length
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 149/64
+        \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        ]
+    }
+    \revert TupletNumber.text
     
     % [S ViolinIIMusicVoice measure 833 / measure 6]                       %! SM4
     R1 * 3/2
@@ -712,12 +1257,95 @@ S_ViolinIIMusicVoice = {
     
     % [S ViolinIIMusicVoice measure 836 / measure 9]                       %! SM4
     R1 * 5/4
-    
-    % [S ViolinIIMusicVoice measure 837 / measure 10]                      %! SM4
-    R1 * 1
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.minimum-length = #4
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                            \override TupletNumber.font-size = #0
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'1
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [S ViolinIIMusicVoice measure 837 / measure 10]                  %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 249/64
+        \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! PIC
+        [
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 235/64
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 51/16
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 11/4
+        
+        \revert Staff.Stem.stemlet-length
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 5/2
+        \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        ]
+    }
+    \revert TupletNumber.text
     
     % [S ViolinIIMusicVoice measure 838 / measure 11]                      %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    [                                                                      %! SC
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    ]                                                                      %! SC
     
     % [S ViolinIIMusicVoice measure 839 / measure 12]                      %! SM4
     R1 * 1
@@ -730,15 +1358,140 @@ S_ViolinIIMusicVoice = {
     
     % [S ViolinIIMusicVoice measure 842 / measure 15]                      %! SM4
     R1 * 3/4
-    
-    % [S ViolinIIMusicVoice measure 843 / measure 16]                      %! SM4
-    R1 * 5/4
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.minimum-length = #4
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                            \override TupletNumber.font-size = #0
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'1
+                            ~
+                            c'4
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [S ViolinIIMusicVoice measure 843 / measure 16]                  %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 115/32
+        \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! PIC
+        [
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 111/32
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 201/64
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 89/32
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 159/64
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 37/16
+        
+        \revert Staff.Stem.stemlet-length
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 71/32
+        \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        ]
+    }
+    \revert TupletNumber.text
     
     % [S ViolinIIMusicVoice measure 844 / measure 17]                      %! SM4
-    R1 * 3/2
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    [                                                                      %! SC
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
     
     % [S ViolinIIMusicVoice measure 845 / measure 18]                      %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    ]                                                                      %! SC
     
     % [S ViolinIIMusicVoice measure 846 / measure 19]                      %! SM4
     R1 * 1
@@ -751,18 +1504,142 @@ S_ViolinIIMusicVoice = {
     
     % [S ViolinIIMusicVoice measure 849 / measure 22]                      %! SM4
     R1 * 3/2
-    
-    % [S ViolinIIMusicVoice measure 850 / measure 23]                      %! SM4
-    R1 * 3/4
+    \override TupletNumber.text = \markup {
+        \scale
+            #'(0.75 . 0.75)
+            \score
+                {
+                    \new Score
+                    \with
+                    {
+                        \override SpacingSpanner.spacing-increment = #0.5
+                        proportionalNotationDuration = ##f
+                    }
+                    <<
+                        \new RhythmicStaff
+                        \with
+                        {
+                            \remove Time_signature_engraver
+                            \remove Staff_symbol_engraver
+                            \override Stem.direction = #up
+                            \override Stem.length = #5
+                            \override TupletBracket.bracket-visibility = ##t
+                            \override TupletBracket.direction = #up
+                            \override TupletBracket.minimum-length = #4
+                            \override TupletBracket.padding = #1.25
+                            \override TupletBracket.shorten-pair = #'(-1 . -1.5)
+                            \override TupletBracket.springs-and-rods = #ly:spanner::set-spacing-rods
+                            \override TupletNumber.font-size = #0
+                            \override TupletNumber.text = #tuplet-number::calc-fraction-text
+                            tupletFullLength = ##t
+                        }
+                        {
+                            c'2.
+                        }
+                    >>
+                    \layout {
+                        indent = #0
+                        ragged-right = ##t
+                    }
+                }
+        }
+    \times 1/1 {
+        
+        % [S ViolinIIMusicVoice measure 850 / measure 23]                  %! SM4
+        \override Staff.Stem.stemlet-length = 0.75
+        \once \override Beam.grow-direction = #right
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 117/32
+        \mp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! PIC
+        [
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 53/16
+        
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 43/16
+        
+        \revert Staff.Stem.stemlet-length
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
+        \baca_unpitched_music_warning                                      %! SM24
+        c'16 * 75/32
+        \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        ]
+    }
+    \revert TupletNumber.text
     
     % [S ViolinIIMusicVoice measure 851 / measure 24]                      %! SM4
-    R1 * 3/4
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    [                                                                      %! SC
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
     
     % [S ViolinIIMusicVoice measure 852 / measure 25]                      %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
     
     % [S ViolinIIMusicVoice measure 853 / measure 26]                      %! SM4
-    R1 * 1
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                          %! SM24
+    c'8
+    ]                                                                      %! SC
     
     % [S ViolinIIMusicVoice measure 854 / measure 27]                      %! SM4
     R1 * 1
@@ -824,9 +1701,9 @@ S_ViolaMusicVoice = {
     \set Staff.forceClef = ##t                                             %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1
-    \pp                                                                    %! SM8:REAPPLIED_DYNAMIC:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    bf,!1
+    \baca_pp_sempre                                                        %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {                                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -853,103 +1730,151 @@ S_ViolaMusicVoice = {
         }                                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [S ViolaMusicVoice measure 829 / measure 2]                          %! SM4
-    R1 * 3/4
+    bf,!2.
+    \repeatTie
     
     % [S ViolaMusicVoice measure 830 / measure 3]                          %! SM4
-    R1 * 1
+    bf,!1
+    \repeatTie
     
     % [S ViolaMusicVoice measure 831 / measure 4]                          %! SM4
-    R1 * 5/4
+    bf,!2.
+    \repeatTie
+    
+    bf,!2
+    \repeatTie
     
     % [S ViolaMusicVoice measure 832 / measure 5]                          %! SM4
-    R1 * 3/2
+    bf,!1.
+    \repeatTie
     
     % [S ViolaMusicVoice measure 833 / measure 6]                          %! SM4
-    R1 * 3/2
+    bf,!1.
+    \repeatTie
     
     % [S ViolaMusicVoice measure 834 / measure 7]                          %! SM4
-    R1 * 3/4
+    bf,!2.
+    \repeatTie
     
     % [S ViolaMusicVoice measure 835 / measure 8]                          %! SM4
-    R1 * 1
+    bf,!1
+    \repeatTie
     
     % [S ViolaMusicVoice measure 836 / measure 9]                          %! SM4
-    R1 * 5/4
+    bf,!2.
+    \repeatTie
+    
+    bf,!2
+    \repeatTie
     
     % [S ViolaMusicVoice measure 837 / measure 10]                         %! SM4
-    R1 * 1
+    bf,!1
+    \repeatTie
     
     % [S ViolaMusicVoice measure 838 / measure 11]                         %! SM4
-    R1 * 3/4
+    bf,!2.
+    \repeatTie
     
     % [S ViolaMusicVoice measure 839 / measure 12]                         %! SM4
-    R1 * 1
+    bf,!1
+    \repeatTie
     
     % [S ViolaMusicVoice measure 840 / measure 13]                         %! SM4
-    R1 * 1
+    bf,!1
+    \repeatTie
     
     % [S ViolaMusicVoice measure 841 / measure 14]                         %! SM4
-    R1 * 1
+    bf,!1
+    \repeatTie
     
     % [S ViolaMusicVoice measure 842 / measure 15]                         %! SM4
-    R1 * 3/4
+    bf,!2.
+    \repeatTie
     
     % [S ViolaMusicVoice measure 843 / measure 16]                         %! SM4
-    R1 * 5/4
+    bf,!2.
+    \repeatTie
+    
+    bf,!2
+    \repeatTie
     
     % [S ViolaMusicVoice measure 844 / measure 17]                         %! SM4
-    R1 * 3/2
+    bf,!1.
+    \repeatTie
     
     % [S ViolaMusicVoice measure 845 / measure 18]                         %! SM4
-    R1 * 3/4
+    bf,!2.
+    \repeatTie
     
     % [S ViolaMusicVoice measure 846 / measure 19]                         %! SM4
-    R1 * 1
+    bf,!1
+    \repeatTie
     
     % [S ViolaMusicVoice measure 847 / measure 20]                         %! SM4
-    R1 * 1
+    bf,!1
+    \repeatTie
     
     % [S ViolaMusicVoice measure 848 / measure 21]                         %! SM4
-    R1 * 5/4
+    bf,!2.
+    \repeatTie
+    
+    bf,!2
+    \repeatTie
     
     % [S ViolaMusicVoice measure 849 / measure 22]                         %! SM4
-    R1 * 3/2
+    bf,!1.
+    \repeatTie
     
     % [S ViolaMusicVoice measure 850 / measure 23]                         %! SM4
-    R1 * 3/4
+    bf,!2.
+    \repeatTie
     
     % [S ViolaMusicVoice measure 851 / measure 24]                         %! SM4
-    R1 * 3/4
+    bf,!2.
+    \repeatTie
     
     % [S ViolaMusicVoice measure 852 / measure 25]                         %! SM4
-    R1 * 1
+    bf,!1
+    \repeatTie
     
     % [S ViolaMusicVoice measure 853 / measure 26]                         %! SM4
-    R1 * 1
+    bf,!1
+    \repeatTie
     
     % [S ViolaMusicVoice measure 854 / measure 27]                         %! SM4
-    R1 * 1
+    bf,!1
+    \repeatTie
     
     % [S ViolaMusicVoice measure 855 / measure 28]                         %! SM4
-    R1 * 3/4
+    bf,!2.
+    \repeatTie
     
     % [S ViolaMusicVoice measure 856 / measure 29]                         %! SM4
-    R1 * 1
+    bf,!1
+    \repeatTie
     
     % [S ViolaMusicVoice measure 857 / measure 30]                         %! SM4
-    R1 * 3/4
+    bf,!2.
+    \repeatTie
     
     % [S ViolaMusicVoice measure 858 / measure 31]                         %! SM4
-    R1 * 1
+    bf,!1
+    \repeatTie
     
     % [S ViolaMusicVoice measure 859 / measure 32]                         %! SM4
-    R1 * 5/4
+    bf,!2.
+    \repeatTie
+    
+    bf,!2
+    \repeatTie
     
     % [S ViolaMusicVoice measure 860 / measure 33]                         %! SM4
-    R1 * 3/2
+    bf,!1.
+    \repeatTie
     
     % [S ViolaMusicVoice measure 861 / measure 34]                         %! SM4
-    R1 * 3/2
+    bf,!1.
+    \repeatTie
     
     % [S ViolaMusicVoice measure 862 / measure 35]                         %! SM4
     R1 * 1/4
