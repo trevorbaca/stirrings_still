@@ -3,11 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def wave(
-    *,
-    start=(1, 4),
-    stop=(1, 16),
-    ):
+def wave(start, stop):
     """
     Makes wave rhythm.
     """

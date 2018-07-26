@@ -283,11 +283,11 @@ maker(
         ],
     baca.match(
         0,
-        stirrings_still.accelerando(start=(1, 4), stop=(1, 16)),
+        stirrings_still.accelerando((1, 4), (1, 16)),
         ),
     baca.match(
         1,
-        stirrings_still.accelerando(start=(1, 4), stop=(2, 16)),
+        stirrings_still.accelerando((1, 4), (2, 16)),
         ),
     baca.text_spanner(
         'fast whisked ellipses =|',
