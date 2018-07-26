@@ -34,7 +34,8 @@ def desynchronization(
             extra_counts_per_division=extra_counts,
             logical_tie_masks=logical_tie_masks,
             tuplet_specifier=rmakers.TupletSpecifier(
-                denominator=(1, denominator),
+                #denominator=(1, denominator),
+                denominator='divisions',
                 diminution=diminution,
                 extract_trivial=True,
                 force_fraction=True,

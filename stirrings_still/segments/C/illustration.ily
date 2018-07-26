@@ -3234,7 +3234,7 @@ C_ViolinIIMusicVoice = {
     c'4
     <> \stopTextSpan                                                       %! PIC
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \times 14/16 {
         
         % [C ViolinIIMusicVoice measure 134 / measure 5]                   %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -4552,7 +4552,7 @@ C_ViolaMusicVoice = {
         <> \stopTextSpan                                                   %! PIC
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/6 {
+    \times 14/12 {
         
         % [C ViolaMusicVoice measure 134 / measure 5]                      %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
