@@ -2448,14 +2448,14 @@ S_CelloMusicVoice = {
     b,,,1
     - \tweak circled-tip ##t                                               %! PIC
     \<                                                                     %! PIC
-    ~
     
     b,,,4
-    ~
+    \repeatTie
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b,,,4
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
+    \repeatTie
     \ottava #0                                                             %! SC
     
     % [S CelloMusicVoice measure 833 / measure 6]                          %! SM4

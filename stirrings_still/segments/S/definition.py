@@ -60,7 +60,10 @@ maker(
     baca.match(
         8,
         baca.hairpin('o< mf'),
-        baca.make_rhythm('c1 ~ c4 ~ c4'),
+        baca.make_rhythm(
+            'c1 ~ c4 ~ c4',
+            repeat_tie_threshold=(1, 4),
+            ),
         ),
     baca.match(
         (9, 12),
