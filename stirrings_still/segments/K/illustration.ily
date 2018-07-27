@@ -2963,7 +2963,6 @@ K_ViolaMusicVoice = {
     \stopStaff                                                             %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                            %! SM8:EXPLICIT_STAFF_LINES:IC
-    \override RepeatTie.direction = #up                                    %! OC1
     \once \override DynamicText.self-alignment-X = #left                   %! OC1
     \once \override DynamicText.X-extent = #'(0 . 0)                       %! OC1
     \override TextScript.parent-alignment-X = #0                           %! OC1
@@ -3000,7 +2999,6 @@ K_ViolaMusicVoice = {
     
     % [K ViolaMusicVoice measure 556 / measure 11]                         %! SM4
     c'2
-    \revert RepeatTie.direction                                            %! OC2
     \revert TextScript.parent-alignment-X                                  %! OC2
     
     % [K ViolaMusicVoice measure 557 / measure 12]                         %! SM4

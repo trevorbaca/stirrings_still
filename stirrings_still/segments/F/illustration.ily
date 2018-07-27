@@ -632,7 +632,6 @@ F_ViolaMusicVoice = {
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                            %! SM8:EXPLICIT_STAFF_LINES:IC
     \override Hairpin.shorten-pair = #'(0.75 . 0)                          %! OC1
-    \override RepeatTie.direction = #up                                    %! OC1
     \override TextScript.parent-alignment-X = #0                           %! OC1
     \clef "alto"                                                           %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! SM6:REAPPLIED_CLEF_COLOR:SM37
@@ -721,7 +720,6 @@ F_ViolaMusicVoice = {
     c'1.
     ^ \markup { "terminate abruptly" }                                     %! IC
     \revert Hairpin.shorten-pair                                           %! OC2
-    \revert RepeatTie.direction                                            %! OC2
     \revert TextScript.parent-alignment-X                                  %! OC2
     
     % [F ViolaMusicVoice measure 443 / measure 11]                         %! SM4

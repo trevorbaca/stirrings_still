@@ -716,12 +716,14 @@ J_ViolaMusicVoice = {
     % [J ViolaMusicVoice measure 534 / measure 5]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [J ViolaMusicVoice measure 535 / measure 6]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     \<                                                                     %! PIC
+    - \tweak direction #up
     \repeatTie
     
     % [J ViolaMusicVoice measure 536 / measure 7]                          %! SM4

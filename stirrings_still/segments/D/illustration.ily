@@ -4074,7 +4074,6 @@ D_ViolaMusicVoice = {
     \stopStaff                                                             %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                            %! SM8:EXPLICIT_STAFF_LINES:IC
-    \override RepeatTie.direction = #up                                    %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c'2
@@ -4095,6 +4094,7 @@ D_ViolaMusicVoice = {
     
     % [D ViolaMusicVoice measure 257 / measure 51]                         %! SM4
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [D ViolaMusicVoice measure 258 / measure 52]                         %! SM4
@@ -4103,8 +4103,8 @@ D_ViolaMusicVoice = {
     
     % [D ViolaMusicVoice measure 259 / measure 53]                         %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
-    \revert RepeatTie.direction                                            %! OC2
     
     % [D ViolaMusicVoice measure 260 / measure 54]                         %! SM4
     R1 * 1/4
@@ -4492,6 +4492,7 @@ D_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'1
         :32                                                                %! IC
+        - \tweak direction #up                                             %! TCC
         \repeatTie                                                         %! TCC
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -4534,6 +4535,7 @@ D_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     :32                                                                    %! IC
+    - \tweak direction #up                                                 %! TCC
     \repeatTie                                                             %! TCC
     
     % [D ViolaMusicVoice measure 292 / measure 86]                         %! SM4

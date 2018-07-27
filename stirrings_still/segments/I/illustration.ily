@@ -969,6 +969,7 @@ I_ViolaMusicVoice = {
     % [I ViolaMusicVoice measure 529 / measure 11]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     \baca_unpitched_music_warning                                          %! SM24
