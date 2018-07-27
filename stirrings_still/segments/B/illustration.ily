@@ -3994,6 +3994,7 @@ B_ViolaMusicVoice = {
     % [B ViolaMusicVoice measure 96 / measure 33]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/8 {

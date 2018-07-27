@@ -1840,6 +1840,7 @@ P_ViolaMusicVoice = {
     % [P ViolaMusicVoice measure 695 / measure 2]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [P ViolaMusicVoice measure 696 / measure 3]                          %! SM4
@@ -2099,11 +2100,13 @@ P_ViolaMusicVoice = {
     % [P ViolaMusicVoice measure 709 / measure 16]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [P ViolaMusicVoice measure 710 / measure 17]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     \override TupletNumber.text = \markup {
         \scale
