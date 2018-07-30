@@ -1,22 +1,20 @@
 TO-DO
 =====
 
-1.  Teach segment-maker to check for unterminated dynamic trend.
-
-2.  Add trajectories notator:
+1.  Add trajectories notator:
     baca.hide_black_note_heads().
 
-3.  Extend tailpiece():
+2.  Extend tailpiece():
     hide all note-heads except the first;
     add extent-terminal grace note;
     make sure flat glissando extends without gaps;
     add to library as baca.make_filled_extent().
 
-4.  Analyze volta application.
+3.  Analyze volta application.
 
-5.  Fix clocktick edgecase notation.
+4.  Fix clocktick edgecase notation.
 
-6.  Write AccelerandoRhythmMaker state tests:
+5.  Write AccelerandoRhythmMaker state tests:
         AccelerandoRhythmMaker.beam_specifier
         AccelerandoRhythmMaker.division_masks
         AccelerandoRhythmMaker.interpolation_specifiers
@@ -40,16 +38,16 @@ TO-DO
     Write nonstate examples:
         TaleaRhythmMaker.tie_split_notes
         
-7.  Make abjad.tweak('DeepPink1').color for x11 color.
+6.  Make abjad.tweak('DeepPink1').color for x11 color.
     Add color name-checking (conventional and x11).
     Add abjad.tweak('color').color checking.
     Add abjad.Markup.with_color('color') checking.
     Add abjad.Scheme.format_scheme_value('color') checking.
 
-8.  Document LilyPond TextScript alignment.
+7.  Document LilyPond TextScript alignment.
     Parameterize TextScript.self-alignment-X, TextScript.parent-alignment-X.
 
-9.  Fix text spanners leaked to first leaf after line break.
+8.  Fix text spanners leaked to first leaf after line break.
     Break after [I] measure 7 to test.
 
-10. Audit overlapping transitions.
+9.  Audit overlapping transitions.
