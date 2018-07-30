@@ -354,7 +354,6 @@ maker(
 maker(
     (['v1', 'v2', 'va'], (30, 31)),
     baca.dynamic('mp'),
-    baca.markup('thinking color (no longer width)'),
     baca.match(
         0,
         stirrings_still.accelerando((1, 2), (4, 32)),
@@ -370,7 +369,8 @@ maker(
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.text_spanner(
-        '"whisk" circles => poco scratch circles',
+        '“whisk” circles => poco scratch circles',
+        abjad.tweak(5).staff_padding,
         selector=baca.leaves()[:3],
         ),
     )
@@ -453,7 +453,8 @@ maker(
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.text_spanner(
-        '"whisk" circles => mod. scratch circles',
+        '“whisk” circles => mod. scratch circles',
+        abjad.tweak(5).staff_padding,
         selector=baca.leaves()[:3],
         ),
     )
@@ -476,7 +477,8 @@ maker(
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
     baca.text_spanner(
-        '"whisk" circles => molto scratch circles',
+        '“whisk” circles => molto scratch circles',
+        abjad.tweak(5).staff_padding,
         selector=baca.leaves()[:3],
         ),
     )
