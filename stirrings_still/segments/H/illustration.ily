@@ -3963,6 +3963,7 @@ H_CelloMusicVoice = {
         \revert NoteColumn.glissando-skip                                  %! SC
         \revert NoteHead.no-ledgers                                        %! SC
         \undo \hide NoteHead                                               %! SC
+        \once \override NoteHead.transparent = ##t                         %! IC
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         e,8
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
@@ -3981,6 +3982,7 @@ H_CelloMusicVoice = {
         [
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         -\downbow                                                          %! BACA_BCP_COMMAND
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -3990,6 +3992,7 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,4
         -\upbow                                                            %! BACA_BCP_COMMAND
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -3998,6 +4001,7 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         -\downbow                                                          %! BACA_BCP_COMMAND
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -4007,6 +4011,7 @@ H_CelloMusicVoice = {
         [
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         -\upbow                                                            %! BACA_BCP_COMMAND
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -4020,6 +4025,7 @@ H_CelloMusicVoice = {
     \times 6/7 {
         
         % [H CelloMusicVoice measure 513 / measure 47]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         -\downbow                                                          %! BACA_BCP_COMMAND
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -4028,6 +4034,7 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,4
         -\upbow                                                            %! BACA_BCP_COMMAND
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -4036,6 +4043,7 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         -\downbow                                                          %! BACA_BCP_COMMAND
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -4045,6 +4053,7 @@ H_CelloMusicVoice = {
         [
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
         - \abjad_solid_line_with_arrow                                     %! BACA_BCP_COMMAND
@@ -4052,6 +4061,7 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
         - \abjad_solid_line_with_arrow                                     %! BACA_BCP_COMMAND
@@ -4059,6 +4069,7 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
         ]
@@ -4069,10 +4080,12 @@ H_CelloMusicVoice = {
     }
     
     % [H CelloMusicVoice measure 514 / measure 48]                         %! SM4
+    \once \override NoteHead.transparent = ##t                             %! IC
     e,8
     [
     \glissando                                                             %! SC
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     e,8
     -\upbow                                                                %! BACA_BCP_COMMAND
     \bacaStopTextSpanBCP                                                   %! BACA_BCP_COMMAND
@@ -4081,6 +4094,7 @@ H_CelloMusicVoice = {
     \bacaStartTextSpanBCP                                                  %! BACA_BCP_COMMAND
     \glissando                                                             %! SC
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     e,8
     -\downbow                                                              %! BACA_BCP_COMMAND
     \bacaStopTextSpanBCP                                                   %! BACA_BCP_COMMAND
@@ -4089,6 +4103,7 @@ H_CelloMusicVoice = {
     \bacaStartTextSpanBCP                                                  %! BACA_BCP_COMMAND
     \glissando                                                             %! SC
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     e,8
     -\upbow                                                                %! BACA_BCP_COMMAND
     \bacaStopTextSpanBCP                                                   %! BACA_BCP_COMMAND
@@ -4098,6 +4113,7 @@ H_CelloMusicVoice = {
     \bacaStartTextSpanBCP                                                  %! BACA_BCP_COMMAND
     \glissando                                                             %! SC
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     e,4
     -\downbow                                                              %! BACA_BCP_COMMAND
     \bacaStopTextSpanBCP                                                   %! BACA_BCP_COMMAND
@@ -4106,6 +4122,7 @@ H_CelloMusicVoice = {
     \bacaStartTextSpanBCP                                                  %! BACA_BCP_COMMAND
     \glissando                                                             %! SC
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     e,8
     \bacaStopTextSpanBCP                                                   %! BACA_BCP_COMMAND
     - \abjad_solid_line_with_arrow                                         %! BACA_BCP_COMMAND
@@ -4114,6 +4131,7 @@ H_CelloMusicVoice = {
     [
     \glissando                                                             %! SC
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     e,8
     -\upbow                                                                %! BACA_BCP_COMMAND
     \bacaStopTextSpanBCP                                                   %! BACA_BCP_COMMAND
@@ -4126,6 +4144,7 @@ H_CelloMusicVoice = {
     \times 8/7 {
         
         % [H CelloMusicVoice measure 515 / measure 49]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
         - \abjad_solid_line_with_arrow                                     %! BACA_BCP_COMMAND
@@ -4133,6 +4152,7 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,4
         -\downbow                                                          %! BACA_BCP_COMMAND
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -4141,6 +4161,7 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
         - \abjad_solid_line_with_arrow                                     %! BACA_BCP_COMMAND
@@ -4149,6 +4170,7 @@ H_CelloMusicVoice = {
         [
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
         - \abjad_solid_line_with_arrow                                     %! BACA_BCP_COMMAND
@@ -4156,6 +4178,7 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
         - \abjad_solid_line_with_arrow                                     %! BACA_BCP_COMMAND
@@ -4163,6 +4186,7 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         -\upbow                                                            %! BACA_BCP_COMMAND
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -4176,12 +4200,14 @@ H_CelloMusicVoice = {
     \times 5/6 {
         
         % [H CelloMusicVoice measure 516 / measure 50]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         e,8
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         -\downbow                                                          %! BACA_BCP_COMMAND
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -4190,6 +4216,7 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         -\upbow                                                            %! BACA_BCP_COMMAND
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -4198,6 +4225,7 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         -\downbow                                                          %! BACA_BCP_COMMAND
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -4208,6 +4236,7 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,4
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
         \revert DynamicLineSpanner.staff-padding                           %! OC2
@@ -4240,6 +4269,7 @@ H_CelloMusicVoice = {
         \override DynamicLineSpanner.staff-padding = #'5                   %! OC1
         \override TextScript.staff-padding = #11                           %! OC1
         \override TextSpanner.staff-padding = #7                           %! OC1
+        \once \override NoteHead.transparent = ##t                         %! IC
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         e,8
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:IC
@@ -4257,6 +4287,7 @@ H_CelloMusicVoice = {
         [
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         -\downbow                                                          %! BACA_BCP_COMMAND
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -4266,6 +4297,7 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,4
         -\upbow                                                            %! BACA_BCP_COMMAND
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -4275,6 +4307,7 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         e,8
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
         \revert DynamicLineSpanner.staff-padding                           %! OC2
