@@ -985,6 +985,7 @@ K_ViolinIMusicVoice = {
         \once \override Staff.Clef.color = #(x11-color 'green4)            %! SM6:REAPPLIED_CLEF_COLOR:SM37
     %@% \override Staff.Clef.color = ##f                                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
         \set Staff.forceClef = ##t                                         %! SM8:REAPPLIED_CLEF:SM33:SM37
+        \once \override NoteHead.transparent = ##t                         %! IC
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
@@ -1026,6 +1027,7 @@ K_ViolinIMusicVoice = {
             }                                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -1034,6 +1036,7 @@ K_ViolinIMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -1042,6 +1045,7 @@ K_ViolinIMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -1054,11 +1058,13 @@ K_ViolinIMusicVoice = {
     \times 7/8 {
         
         % [K ViolinIMusicVoice measure 547 / measure 2]                    %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         -\upbow                                                            %! BACA_BCP_COMMAND
@@ -1069,6 +1075,7 @@ K_ViolinIMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         -\downbow                                                          %! BACA_BCP_COMMAND
@@ -1078,6 +1085,7 @@ K_ViolinIMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         -\upbow                                                            %! BACA_BCP_COMMAND
@@ -1088,6 +1096,7 @@ K_ViolinIMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -1190,6 +1199,7 @@ K_ViolinIMusicVoice = {
         \override TextScript.parent-alignment-X = #0                       %! OC1
         \override TextScript.staff-padding = #11                           %! OC1
         \override TextSpanner.staff-padding = #7                           %! OC1
+        \once \override NoteHead.transparent = ##t                         %! IC
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
@@ -1207,6 +1217,7 @@ K_ViolinIMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -1215,6 +1226,7 @@ K_ViolinIMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -1223,6 +1235,7 @@ K_ViolinIMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -1862,6 +1875,7 @@ K_ViolinIIMusicVoice = {
         \once \override Staff.Clef.color = #(x11-color 'green4)            %! SM6:REAPPLIED_CLEF_COLOR:SM37
     %@% \override Staff.Clef.color = ##f                                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
         \set Staff.forceClef = ##t                                         %! SM8:REAPPLIED_CLEF:SM33:SM37
+        \once \override NoteHead.transparent = ##t                         %! IC
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
@@ -1903,6 +1917,7 @@ K_ViolinIIMusicVoice = {
             }                                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -1911,6 +1926,7 @@ K_ViolinIIMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -1921,6 +1937,7 @@ K_ViolinIIMusicVoice = {
     }
     
     % [K ViolinIIMusicVoice measure 547 / measure 2]                       %! SM4
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     -\upbow                                                                %! BACA_BCP_COMMAND
@@ -1930,6 +1947,7 @@ K_ViolinIIMusicVoice = {
     \bacaStartTextSpanBCP                                                  %! BACA_BCP_COMMAND
     \glissando                                                             %! SC
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     -\downbow                                                              %! BACA_BCP_COMMAND
@@ -1939,6 +1957,7 @@ K_ViolinIIMusicVoice = {
     \bacaStartTextSpanBCP                                                  %! BACA_BCP_COMMAND
     \glissando                                                             %! SC
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     -\upbow                                                                %! BACA_BCP_COMMAND
@@ -1949,6 +1968,7 @@ K_ViolinIIMusicVoice = {
     \bacaStartTextSpanBCP                                                  %! BACA_BCP_COMMAND
     \glissando                                                             %! SC
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     \bacaStopTextSpanBCP                                                   %! BACA_BCP_COMMAND
@@ -2044,6 +2064,7 @@ K_ViolinIIMusicVoice = {
         \override TextScript.parent-alignment-X = #0                       %! OC1
         \override TextScript.staff-padding = #11                           %! OC1
         \override TextSpanner.staff-padding = #7                           %! OC1
+        \once \override NoteHead.transparent = ##t                         %! IC
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
@@ -2061,6 +2082,7 @@ K_ViolinIIMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -2069,6 +2091,7 @@ K_ViolinIIMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -2077,6 +2100,7 @@ K_ViolinIIMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         -\upbow                                                            %! BACA_BCP_COMMAND
@@ -2800,6 +2824,7 @@ K_ViolaMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                       %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                             %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
+    \once \override NoteHead.transparent = ##t                             %! IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4
@@ -2841,6 +2866,7 @@ K_ViolaMusicVoice = {
         }                                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4.
     \bacaStopTextSpanBCP                                                   %! BACA_BCP_COMMAND
@@ -2849,6 +2875,7 @@ K_ViolaMusicVoice = {
     \bacaStartTextSpanBCP                                                  %! BACA_BCP_COMMAND
     \glissando                                                             %! SC
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     -\upbow                                                                %! BACA_BCP_COMMAND
@@ -2861,6 +2888,7 @@ K_ViolaMusicVoice = {
     \times 7/6 {
         
         % [K ViolaMusicVoice measure 547 / measure 2]                      %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         -\downbow                                                          %! BACA_BCP_COMMAND
@@ -2870,6 +2898,7 @@ K_ViolaMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         -\upbow                                                            %! BACA_BCP_COMMAND
@@ -2880,6 +2909,7 @@ K_ViolaMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -3167,6 +3197,7 @@ K_CelloMusicVoice = {
         \once \override Staff.Clef.color = #(x11-color 'green4)            %! SM6:REAPPLIED_CLEF_COLOR:SM37
     %@% \override Staff.Clef.color = ##f                                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
         \set Staff.forceClef = ##t                                         %! SM8:REAPPLIED_CLEF:SM33:SM37
+        \once \override NoteHead.transparent = ##t                         %! IC
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
@@ -3208,6 +3239,7 @@ K_CelloMusicVoice = {
             }                                                              %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         -\upbow                                                            %! BACA_BCP_COMMAND
@@ -3218,6 +3250,7 @@ K_CelloMusicVoice = {
         [
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         -\downbow                                                          %! BACA_BCP_COMMAND
@@ -3232,10 +3265,12 @@ K_CelloMusicVoice = {
     \times 7/8 {
         
         % [K CelloMusicVoice measure 547 / measure 2]                      %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         -\upbow                                                            %! BACA_BCP_COMMAND
@@ -3245,6 +3280,7 @@ K_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         -\downbow                                                          %! BACA_BCP_COMMAND
@@ -3254,6 +3290,7 @@ K_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         -\upbow                                                            %! BACA_BCP_COMMAND
@@ -3265,6 +3302,7 @@ K_CelloMusicVoice = {
         [
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
@@ -3350,6 +3388,7 @@ K_CelloMusicVoice = {
         \override TextScript.parent-alignment-X = #0                       %! OC1
         \override TextScript.staff-padding = #11                           %! OC1
         \override TextSpanner.staff-padding = #7                           %! OC1
+        \once \override NoteHead.transparent = ##t                         %! IC
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
@@ -3367,6 +3406,7 @@ K_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         -\upbow                                                            %! BACA_BCP_COMMAND
@@ -3376,6 +3416,7 @@ K_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         -\downbow                                                          %! BACA_BCP_COMMAND

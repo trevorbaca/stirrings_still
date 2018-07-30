@@ -4968,6 +4968,7 @@ D_CelloMusicVoice = {
         \override DynamicLineSpanner.staff-padding = #'5                   %! OC1
         \override TextScript.staff-padding = #11                           %! OC1
         \override TextSpanner.staff-padding = #7                           %! OC1
+        \once \override NoteHead.transparent = ##t                         %! IC
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
@@ -4985,6 +4986,7 @@ D_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         -\upbow                                                            %! BACA_BCP_COMMAND
@@ -4994,6 +4996,7 @@ D_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BACA_BCP_COMMAND
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         -\downbow                                                          %! BACA_BCP_COMMAND
@@ -5005,6 +5008,7 @@ D_CelloMusicVoice = {
         [
         \glissando                                                         %! SC
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND

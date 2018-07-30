@@ -2234,16 +2234,20 @@ B_ViolinIMusicVoice = {
     \times 5/6 {
         
         % [B ViolinIMusicVoice measure 92 / measure 29]                    %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ~
@@ -2253,19 +2257,24 @@ B_ViolinIMusicVoice = {
     \times 6/7 {
         
         % [B ViolinIMusicVoice measure 93 / measure 30]                    %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
@@ -2286,20 +2295,25 @@ B_ViolinIMusicVoice = {
     \times 7/8 {
         
         % [B ViolinIMusicVoice measure 97 / measure 34]                    %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -2307,20 +2321,25 @@ B_ViolinIMusicVoice = {
     \times 7/8 {
         
         % [B ViolinIMusicVoice measure 98 / measure 35]                    %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -2331,29 +2350,36 @@ B_ViolinIMusicVoice = {
     \times 5/6 {
         
         % [B ViolinIMusicVoice measure 100 / measure 37]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
     }
     \times 4/5 {
         
         % [B ViolinIMusicVoice measure 101 / measure 38]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
     }
@@ -2364,16 +2390,20 @@ B_ViolinIMusicVoice = {
     \times 6/7 {
         
         % [B ViolinIMusicVoice measure 103 / measure 40]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
@@ -2381,18 +2411,23 @@ B_ViolinIMusicVoice = {
     \times 8/9 {
         
         % [B ViolinIMusicVoice measure 104 / measure 41]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
     }
@@ -2412,23 +2447,29 @@ B_ViolinIMusicVoice = {
     \times 8/9 {
         
         % [B ViolinIMusicVoice measure 107 / measure 44]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -2438,13 +2479,16 @@ B_ViolinIMusicVoice = {
     \times 4/5 {
         
         % [B ViolinIMusicVoice measure 109 / measure 46]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
@@ -2463,20 +2507,25 @@ B_ViolinIMusicVoice = {
     \times 5/6 {
         
         % [B ViolinIMusicVoice measure 113 / measure 50]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ~
@@ -2484,49 +2533,62 @@ B_ViolinIMusicVoice = {
     \times 8/9 {
         
         % [B ViolinIMusicVoice measure 114 / measure 51]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
     
     % [B ViolinIMusicVoice measure 115 / measure 52]                       %! SM4
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4.
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [B ViolinIMusicVoice measure 116 / measure 53]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         ~
@@ -2535,20 +2597,25 @@ B_ViolinIMusicVoice = {
     \times 7/8 {
         
         % [B ViolinIMusicVoice measure 117 / measure 54]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -2556,46 +2623,58 @@ B_ViolinIMusicVoice = {
     \times 6/7 {
         
         % [B ViolinIMusicVoice measure 118 / measure 55]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
     
     % [B ViolinIMusicVoice measure 119 / measure 56]                       %! SM4
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     [
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     ]
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4.
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [B ViolinIMusicVoice measure 120 / measure 57]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -3022,15 +3101,19 @@ B_ViolinIIMusicVoice = {
     \times 6/7 {
         
         % [B ViolinIIMusicVoice measure 81 / measure 18]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -3038,38 +3121,48 @@ B_ViolinIIMusicVoice = {
     \times 7/8 {
         
         % [B ViolinIIMusicVoice measure 82 / measure 19]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
     }
     
     % [B ViolinIIMusicVoice measure 83 / measure 20]                       %! SM4
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4.
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     [
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     ~
@@ -3078,19 +3171,24 @@ B_ViolinIIMusicVoice = {
     \times 8/7 {
         
         % [B ViolinIIMusicVoice measure 84 / measure 21]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ~
@@ -3100,19 +3198,24 @@ B_ViolinIIMusicVoice = {
     \times 6/7 {
         
         % [B ViolinIIMusicVoice measure 85 / measure 22]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
@@ -3121,44 +3224,55 @@ B_ViolinIIMusicVoice = {
     \times 7/8 {
         
         % [B ViolinIIMusicVoice measure 86 / measure 23]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
     }
     
     % [B ViolinIIMusicVoice measure 87 / measure 24]                       %! SM4
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4.
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     [
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     ]
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [B ViolinIIMusicVoice measure 88 / measure 25]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
@@ -3184,9 +3298,11 @@ B_ViolinIIMusicVoice = {
     \times 4/5 {
         
         % [B ViolinIIMusicVoice measure 90 / measure 27]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
     }
@@ -3197,16 +3313,20 @@ B_ViolinIIMusicVoice = {
     \times 5/6 {
         
         % [B ViolinIIMusicVoice measure 92 / measure 29]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ~
@@ -3216,19 +3336,24 @@ B_ViolinIIMusicVoice = {
     \times 6/7 {
         
         % [B ViolinIIMusicVoice measure 93 / measure 30]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
@@ -3249,20 +3374,25 @@ B_ViolinIIMusicVoice = {
     \times 7/8 {
         
         % [B ViolinIIMusicVoice measure 97 / measure 34]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -3270,20 +3400,25 @@ B_ViolinIIMusicVoice = {
     \times 7/8 {
         
         % [B ViolinIIMusicVoice measure 98 / measure 35]                   %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -3294,29 +3429,36 @@ B_ViolinIIMusicVoice = {
     \times 5/6 {
         
         % [B ViolinIIMusicVoice measure 100 / measure 37]                  %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
     }
     \times 4/5 {
         
         % [B ViolinIIMusicVoice measure 101 / measure 38]                  %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
     }
@@ -3327,16 +3469,20 @@ B_ViolinIIMusicVoice = {
     \times 6/7 {
         
         % [B ViolinIIMusicVoice measure 103 / measure 40]                  %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
@@ -3344,18 +3490,23 @@ B_ViolinIIMusicVoice = {
     \times 8/9 {
         
         % [B ViolinIIMusicVoice measure 104 / measure 41]                  %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
     }
@@ -3375,23 +3526,29 @@ B_ViolinIIMusicVoice = {
     \times 8/9 {
         
         % [B ViolinIIMusicVoice measure 107 / measure 44]                  %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -3401,13 +3558,16 @@ B_ViolinIIMusicVoice = {
     \times 4/5 {
         
         % [B ViolinIIMusicVoice measure 109 / measure 46]                  %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
@@ -3426,20 +3586,25 @@ B_ViolinIIMusicVoice = {
     \times 5/6 {
         
         % [B ViolinIIMusicVoice measure 113 / measure 50]                  %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ~
@@ -3447,49 +3612,62 @@ B_ViolinIIMusicVoice = {
     \times 8/9 {
         
         % [B ViolinIIMusicVoice measure 114 / measure 51]                  %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
     
     % [B ViolinIIMusicVoice measure 115 / measure 52]                      %! SM4
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4.
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [B ViolinIIMusicVoice measure 116 / measure 53]                  %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         ~
@@ -3498,20 +3676,25 @@ B_ViolinIIMusicVoice = {
     \times 7/8 {
         
         % [B ViolinIIMusicVoice measure 117 / measure 54]                  %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -3519,46 +3702,58 @@ B_ViolinIIMusicVoice = {
     \times 6/7 {
         
         % [B ViolinIIMusicVoice measure 118 / measure 55]                  %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
     
     % [B ViolinIIMusicVoice measure 119 / measure 56]                      %! SM4
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     [
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     ]
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4.
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [B ViolinIIMusicVoice measure 120 / measure 57]                  %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -3947,16 +4142,20 @@ B_ViolaMusicVoice = {
     \times 5/6 {
         
         % [B ViolaMusicVoice measure 92 / measure 29]                      %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ~
@@ -3966,19 +4165,24 @@ B_ViolaMusicVoice = {
     \times 6/7 {
         
         % [B ViolaMusicVoice measure 93 / measure 30]                      %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
@@ -4000,20 +4204,25 @@ B_ViolaMusicVoice = {
     \times 7/8 {
         
         % [B ViolaMusicVoice measure 97 / measure 34]                      %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -4021,20 +4230,25 @@ B_ViolaMusicVoice = {
     \times 7/8 {
         
         % [B ViolaMusicVoice measure 98 / measure 35]                      %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -4045,29 +4259,36 @@ B_ViolaMusicVoice = {
     \times 5/6 {
         
         % [B ViolaMusicVoice measure 100 / measure 37]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
     }
     \times 4/5 {
         
         % [B ViolaMusicVoice measure 101 / measure 38]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
     }
@@ -4078,16 +4299,20 @@ B_ViolaMusicVoice = {
     \times 6/7 {
         
         % [B ViolaMusicVoice measure 103 / measure 40]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
@@ -4095,18 +4320,23 @@ B_ViolaMusicVoice = {
     \times 8/9 {
         
         % [B ViolaMusicVoice measure 104 / measure 41]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
     }
@@ -4126,23 +4356,29 @@ B_ViolaMusicVoice = {
     \times 8/9 {
         
         % [B ViolaMusicVoice measure 107 / measure 44]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -4152,13 +4388,16 @@ B_ViolaMusicVoice = {
     \times 4/5 {
         
         % [B ViolaMusicVoice measure 109 / measure 46]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
@@ -4177,20 +4416,25 @@ B_ViolaMusicVoice = {
     \times 5/6 {
         
         % [B ViolaMusicVoice measure 113 / measure 50]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ~
@@ -4198,49 +4442,62 @@ B_ViolaMusicVoice = {
     \times 8/9 {
         
         % [B ViolaMusicVoice measure 114 / measure 51]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
     
     % [B ViolaMusicVoice measure 115 / measure 52]                         %! SM4
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4.
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [B ViolaMusicVoice measure 116 / measure 53]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         ~
@@ -4249,20 +4506,25 @@ B_ViolaMusicVoice = {
     \times 7/8 {
         
         % [B ViolaMusicVoice measure 117 / measure 54]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -4270,46 +4532,58 @@ B_ViolaMusicVoice = {
     \times 6/7 {
         
         % [B ViolaMusicVoice measure 118 / measure 55]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
     
     % [B ViolaMusicVoice measure 119 / measure 56]                         %! SM4
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     [
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     ]
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4.
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [B ViolaMusicVoice measure 120 / measure 57]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -4646,16 +4920,20 @@ B_CelloMusicVoice = {
     \times 5/6 {
         
         % [B CelloMusicVoice measure 92 / measure 29]                      %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ~
@@ -4665,19 +4943,24 @@ B_CelloMusicVoice = {
     \times 6/7 {
         
         % [B CelloMusicVoice measure 93 / measure 30]                      %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
@@ -4698,20 +4981,25 @@ B_CelloMusicVoice = {
     \times 7/8 {
         
         % [B CelloMusicVoice measure 97 / measure 34]                      %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -4719,20 +5007,25 @@ B_CelloMusicVoice = {
     \times 7/8 {
         
         % [B CelloMusicVoice measure 98 / measure 35]                      %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -4743,29 +5036,36 @@ B_CelloMusicVoice = {
     \times 5/6 {
         
         % [B CelloMusicVoice measure 100 / measure 37]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
     }
     \times 4/5 {
         
         % [B CelloMusicVoice measure 101 / measure 38]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
     }
@@ -4776,16 +5076,20 @@ B_CelloMusicVoice = {
     \times 6/7 {
         
         % [B CelloMusicVoice measure 103 / measure 40]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
@@ -4793,18 +5097,23 @@ B_CelloMusicVoice = {
     \times 8/9 {
         
         % [B CelloMusicVoice measure 104 / measure 41]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
     }
@@ -4824,23 +5133,29 @@ B_CelloMusicVoice = {
     \times 8/9 {
         
         % [B CelloMusicVoice measure 107 / measure 44]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -4850,13 +5165,16 @@ B_CelloMusicVoice = {
     \times 4/5 {
         
         % [B CelloMusicVoice measure 109 / measure 46]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
@@ -4874,20 +5192,25 @@ B_CelloMusicVoice = {
     \times 5/6 {
         
         % [B CelloMusicVoice measure 113 / measure 50]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ~
@@ -4895,49 +5218,62 @@ B_CelloMusicVoice = {
     \times 8/9 {
         
         % [B CelloMusicVoice measure 114 / measure 51]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
     
     % [B CelloMusicVoice measure 115 / measure 52]                         %! SM4
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4.
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [B CelloMusicVoice measure 116 / measure 53]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         ~
@@ -4946,20 +5282,25 @@ B_CelloMusicVoice = {
     \times 7/8 {
         
         % [B CelloMusicVoice measure 117 / measure 54]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         [
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         ]
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
@@ -4967,46 +5308,58 @@ B_CelloMusicVoice = {
     \times 6/7 {
         
         % [B CelloMusicVoice measure 118 / measure 55]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
     
     % [B CelloMusicVoice measure 119 / measure 56]                         %! SM4
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     [
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     ]
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     
+    \once \override NoteHead.transparent = ##t                             %! IC
     \baca_unpitched_music_warning                                          %! SM24
     c'4.
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [B CelloMusicVoice measure 120 / measure 57]                     %! SM4
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'4.
         
+        \once \override NoteHead.transparent = ##t                         %! IC
         \baca_unpitched_music_warning                                      %! SM24
         c'8
     }
