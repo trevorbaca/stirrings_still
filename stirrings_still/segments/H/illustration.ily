@@ -1564,7 +1564,7 @@ H_ViolinIMusicVoice = {
         c'16 * 487/64
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "whisk circles" %! PIC
         - \tweak bound-details.right.text \markup \baca-right "poco scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
@@ -1688,7 +1688,7 @@ H_ViolinIMusicVoice = {
         c'16 * 63/8
         \mf                                                                %! SM8:EXPLICIT_DYNAMIC:IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "whisk circles" %! PIC
         - \tweak bound-details.right.text \markup \baca-right "mod. scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
@@ -1774,7 +1774,7 @@ H_ViolinIMusicVoice = {
         c'16 * 497/64
         \f                                                                 %! SM8:EXPLICIT_DYNAMIC:IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "whisk circles" %! PIC
         - \tweak bound-details.right.text \markup \baca-right "molto scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
@@ -2374,7 +2374,7 @@ H_ViolinIIMusicVoice = {
         c'16 * 121/16
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "whisk circles" %! PIC
         - \tweak bound-details.right.text \markup \baca-right "poco scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
@@ -2531,7 +2531,7 @@ H_ViolinIIMusicVoice = {
         c'16 * 127/16
         \mf                                                                %! SM8:EXPLICIT_DYNAMIC:IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "whisk circles" %! PIC
         - \tweak bound-details.right.text \markup \baca-right "mod. scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
@@ -2611,7 +2611,7 @@ H_ViolinIIMusicVoice = {
         c'16 * 477/64
         \f                                                                 %! SM8:EXPLICIT_DYNAMIC:IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "whisk circles" %! PIC
         - \tweak bound-details.right.text \markup \baca-right "molto scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
@@ -3207,7 +3207,7 @@ H_ViolaMusicVoice = {
         c'16 * 501/64
         \mp                                                                %! SM8:EXPLICIT_DYNAMIC:IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "whisk circles" %! PIC
         - \tweak bound-details.right.text \markup \baca-right "poco scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
@@ -3322,7 +3322,7 @@ H_ViolaMusicVoice = {
         c'16 * 55/8
         \mf                                                                %! SM8:EXPLICIT_DYNAMIC:IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "whisk circles" %! PIC
         - \tweak bound-details.right.text \markup \baca-right "mod. scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
@@ -3402,7 +3402,7 @@ H_ViolaMusicVoice = {
         c'16 * 249/32
         \f                                                                 %! SM8:EXPLICIT_DYNAMIC:IC
         - \abjad_dashed_line_with_arrow                                    %! PIC
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles" %! PIC
+        - \tweak bound-details.left.text \markup \baca-left "whisk circles" %! PIC
         - \tweak bound-details.right.text \markup \baca-right "molto scratch circles" %! PIC
         - \tweak bound-details.right.padding #0.5                          %! PIC
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PIC
