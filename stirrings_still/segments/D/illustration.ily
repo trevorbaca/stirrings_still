@@ -2069,7 +2069,8 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 249/64
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         - \abjad_dashed_line_with_hook                                     %! PIC
         - \tweak bound-details.left.text \markup \baca-left "fast whisked ellipses" %! PIC
         - \tweak bound-details.right.padding #2                            %! PIC
@@ -2123,9 +2124,10 @@ D_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'2.
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                                %! PIC
-    - \tweak circled-tip ##t                                               %! PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
     - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
@@ -3103,7 +3105,8 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 239/64
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         - \abjad_dashed_line_with_hook                                     %! PIC
         - \tweak bound-details.left.text \markup \baca-left "fast whisked ellipses" %! PIC
         - \tweak bound-details.right.padding #2                            %! PIC
@@ -3148,9 +3151,10 @@ D_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'2.
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                                %! PIC
-    - \tweak circled-tip ##t                                               %! PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
     - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
@@ -4147,9 +4151,10 @@ D_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'2.
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                                %! PIC
-    - \tweak circled-tip ##t                                               %! PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
     - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
@@ -5152,8 +5157,9 @@ D_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b,,1
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak stencil #abjad-flared-hairpin                                 %! PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak stencil #abjad-flared-hairpin                                 %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     ~
     
     b,,4.
@@ -5170,9 +5176,10 @@ D_CelloMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'2.
     \mf                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                                %! PIC
-    - \tweak circled-tip ##t                                               %! PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_hook                                         %! PIC
     - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PIC
     - \tweak bound-details.right.padding #3.25                             %! PIC
@@ -5266,8 +5273,9 @@ D_CelloMusicVoice = {
             #darkgreen                                                     %! IC
             "clouded pane"                                                 %! IC
         }                                                                  %! IC
-    - \tweak circled-tip ##t                                               %! PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     \baca_unpitched_music_warning                                          %! SM24
     c'8
@@ -5384,7 +5392,8 @@ D_CelloMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'2..
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     % [D CelloMusicVoice measure 293 / measure 87]                         %! SM4

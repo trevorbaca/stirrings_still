@@ -2269,8 +2269,9 @@ E_ViolinIMusicVoice = {
         c'4
         \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         ^ \markup { "hair: 8” circles" }                                   %! IC
-        - \tweak circled-tip ##t                                           %! PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         
         \baca_unpitched_music_warning                                      %! SM24
         c'4
@@ -2898,8 +2899,9 @@ E_ViolinIIMusicVoice = {
         c'4
         \!                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         ^ \markup { "hair: 8” circles" }                                   %! IC
-        - \tweak circled-tip ##t                                           %! PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         
         \baca_unpitched_music_warning                                      %! SM24
         c'4
@@ -3527,8 +3529,9 @@ E_ViolaMusicVoice = {
     c'4
     \!                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "hair: 8” circles" }                                       %! IC
-    - \tweak circled-tip ##t                                               %! PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [E ViolaMusicVoice measure 310 / measure 5]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24

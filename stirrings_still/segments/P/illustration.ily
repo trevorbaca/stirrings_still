@@ -515,7 +515,8 @@ P_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 241/64
         \ppppp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -584,7 +585,8 @@ P_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 29/32
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -667,7 +669,8 @@ P_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 241/64
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -677,7 +680,8 @@ P_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 61/32
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 41/32
@@ -770,7 +774,8 @@ P_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 245/64
         \ppppp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -845,7 +850,8 @@ P_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 59/64
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -934,7 +940,8 @@ P_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 241/64
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -944,7 +951,8 @@ P_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 61/32
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 41/32
@@ -1208,14 +1216,16 @@ P_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 351/64
         \ppppp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 5/2
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 35/32
@@ -1280,7 +1290,8 @@ P_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 57/64
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -1300,7 +1311,8 @@ P_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 285/64
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         ]
     }
     \revert TupletNumber.text
@@ -1358,14 +1370,16 @@ P_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 381/64
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 111/32
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 3/2
@@ -1454,14 +1468,16 @@ P_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 377/64
         \ppppp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 255/64
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 15/8
@@ -1529,7 +1545,8 @@ P_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 13/16
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -1555,7 +1572,8 @@ P_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 151/32
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         ]
     }
     \revert TupletNumber.text
@@ -1613,14 +1631,16 @@ P_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 351/64
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 101/64
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         
         \revert Staff.Stem.stemlet-length
         \baca_unpitched_music_warning                                      %! SM24
@@ -1918,7 +1938,8 @@ P_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 77/16
         \ppppp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -1978,7 +1999,8 @@ P_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 47/64
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -2156,7 +2178,8 @@ P_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 307/64
         \ppppp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -2225,7 +2248,8 @@ P_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 45/64
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -2562,7 +2586,8 @@ P_CelloMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 107/16
         \ppppp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -2625,7 +2650,8 @@ P_CelloMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 3/4
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -2788,7 +2814,8 @@ P_CelloMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 447/64
         \ppppp                                                             %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
@@ -2854,7 +2881,8 @@ P_CelloMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'16 * 63/64
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         
         \baca_unpitched_music_warning                                      %! SM24
