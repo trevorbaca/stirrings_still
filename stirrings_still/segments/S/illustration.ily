@@ -2466,7 +2466,7 @@ S_CelloMusicVoice = {
     % [S CelloMusicVoice measure 832 / measure 5]                          %! SM4
     \ottava #-1                                                            %! SC
     b,,,1
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
@@ -2494,7 +2494,7 @@ S_CelloMusicVoice = {
     % [S CelloMusicVoice measure 837 / measure 10]                         %! SM4
     \ottava #-1                                                            %! SC
     b,,,1
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
@@ -2520,7 +2520,7 @@ S_CelloMusicVoice = {
     % [S CelloMusicVoice measure 843 / measure 16]                         %! SM4
     \ottava #-1                                                            %! SC
     b,,,2.
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
@@ -2553,7 +2553,7 @@ S_CelloMusicVoice = {
     % [S CelloMusicVoice measure 850 / measure 23]                         %! SM4
     \ottava #-1                                                            %! SC
     b,,,2.
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
