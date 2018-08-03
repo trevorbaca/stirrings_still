@@ -405,9 +405,10 @@ I_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'8
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                                %! PIC
-    - \tweak circled-tip ##t                                               %! PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
@@ -726,9 +727,10 @@ I_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                                %! PIC
-    - \tweak circled-tip ##t                                               %! PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     \baca_unpitched_music_warning                                          %! SM24
     c'4
@@ -909,9 +911,10 @@ I_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'2
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak to-barline ##t                                                %! PIC
-    - \tweak circled-tip ##t                                               %! PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     \baca_unpitched_music_warning                                          %! SM24
     c'2
@@ -1021,7 +1024,8 @@ I_CelloMusicVoice = {
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Cello”)                                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \bacaStopTextSpanBCP                                                   %! BACA_BCP_COMMAND
     - \abjad_solid_line_with_arrow                                         %! BACA_BCP_COMMAND
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7          %! BACA_BCP_COMMAND
@@ -1704,9 +1708,10 @@ I_CelloMusicVoice = {
     c'8
     \f                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     -\downbow                                                              %! BACA_BCP_COMMAND
-    - \tweak to-barline ##t                                                %! PIC
-    - \tweak circled-tip ##t                                               %! PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \bacaStopTextSpanBCP                                                   %! BACA_BCP_COMMAND
     - \abjad_solid_line_with_arrow                                         %! BACA_BCP_COMMAND
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7          %! BACA_BCP_COMMAND

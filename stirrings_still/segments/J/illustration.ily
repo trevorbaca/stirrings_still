@@ -418,7 +418,8 @@ J_ViolinIMusicVoice = {
     % [J ViolinIMusicVoice measure 535 / measure 6]                        %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     % [J ViolinIMusicVoice measure 536 / measure 7]                        %! SM4
@@ -583,7 +584,8 @@ J_ViolinIIMusicVoice = {
     % [J ViolinIIMusicVoice measure 535 / measure 6]                       %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     % [J ViolinIIMusicVoice measure 536 / measure 7]                       %! SM4
@@ -722,7 +724,8 @@ J_ViolaMusicVoice = {
     % [J ViolaMusicVoice measure 535 / measure 6]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak direction #up
     \repeatTie
     
@@ -847,7 +850,8 @@ J_CelloMusicVoice = {
     % [J CelloMusicVoice measure 535 / measure 6]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [J CelloMusicVoice measure 536 / measure 7]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24

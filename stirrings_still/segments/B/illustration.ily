@@ -1869,9 +1869,10 @@ B_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         \mf                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        - \tweak to-barline ##t                                            %! PIC
-        - \tweak circled-tip ##t                                           %! PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         
         r4
     }
@@ -2911,9 +2912,10 @@ B_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'8
         \mf                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        - \tweak to-barline ##t                                            %! PIC
-        - \tweak circled-tip ##t                                           %! PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak to-barline ##t                                            %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak circled-tip ##t                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         
         r4
     }
@@ -4030,8 +4032,9 @@ B_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     \!                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                               %! PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     \baca_unpitched_music_warning                                          %! SM24
     c'4
@@ -4823,8 +4826,9 @@ B_CelloMusicVoice = {
     c'2.
     \!                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { [overpressure] }                                           %! IC
-    - \tweak circled-tip ##t                                               %! PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [B CelloMusicVoice measure 70 / measure 7]                           %! SM4
     \baca_unpitched_music_warning                                          %! SM24

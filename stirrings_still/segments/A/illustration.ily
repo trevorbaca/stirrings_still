@@ -1388,8 +1388,9 @@ A_ViolinIMusicVoice = {
                 #(x11-color 'blue)                                         %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                 "[“Vn. I”]"                                                %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
             }                                                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-        - \tweak stencil #abjad-flared-hairpin                             %! PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak stencil #abjad-flared-hairpin                             %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         ~                                                                  %! TCC
         [
         \override Staff.Clef.color = #(x11-color 'violet)                  %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
@@ -1419,7 +1420,8 @@ A_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'4..
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         \baca_unpitched_music_warning                                      %! SM24
@@ -1666,8 +1668,9 @@ A_ViolinIIMusicVoice = {
                 #(x11-color 'blue)                                         %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                 "[“Vn. II”]"                                               %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
             }                                                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-        - \tweak stencil #abjad-flared-hairpin                             %! PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak stencil #abjad-flared-hairpin                             %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         ~                                                                  %! TCC
         [
         \override Staff.Clef.color = #(x11-color 'violet)                  %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
@@ -1697,7 +1700,8 @@ A_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'4..
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         \baca_unpitched_music_warning                                      %! SM24
@@ -1944,8 +1948,9 @@ A_ViolaMusicVoice = {
                 #(x11-color 'blue)                                         %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                 [“Va.”]                                                    %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
             }                                                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-        - \tweak stencil #abjad-flared-hairpin                             %! PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak stencil #abjad-flared-hairpin                             %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         ~                                                                  %! TCC
         [
         \override Staff.Clef.color = #(x11-color 'violet)                  %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
@@ -1975,7 +1980,8 @@ A_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                      %! SM24
         c'4..
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         \baca_unpitched_music_warning                                      %! SM24
