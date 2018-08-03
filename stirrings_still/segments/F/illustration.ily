@@ -288,7 +288,7 @@ F_ViolinIMusicVoice = {
             (“ViolinI”)                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     ^ \markup { "[clouded pane partials (double-stop)]" }                  %! IC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -310,7 +310,7 @@ F_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     \f                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -324,7 +324,7 @@ F_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -337,7 +337,7 @@ F_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1.
     \f                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -351,7 +351,7 @@ F_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -476,7 +476,7 @@ F_ViolinIIMusicVoice = {
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“ViolinI”)                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -498,7 +498,7 @@ F_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     \f                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -512,7 +512,7 @@ F_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -525,7 +525,7 @@ F_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1.
     \f                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -539,7 +539,7 @@ F_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -670,7 +670,7 @@ F_ViolaMusicVoice = {
             \box                                                           %! IC
                 tailpiece                                                  %! IC
         }                                                                  %! IC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \glissando                                                             %! SC
@@ -848,7 +848,7 @@ F_CelloMusicVoice = {
             (“Cello”)                                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     ^ \markup { "[clouded pane fundamental]" }                             %! IC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37

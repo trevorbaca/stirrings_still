@@ -584,7 +584,7 @@ L_CelloMusicVoice = {
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Cello”)                                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                            %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -618,7 +618,7 @@ L_CelloMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     \ff                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -631,7 +631,7 @@ L_CelloMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1.
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -652,7 +652,7 @@ L_CelloMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     \ff                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -661,7 +661,7 @@ L_CelloMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -686,7 +686,7 @@ L_CelloMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     \ff                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -695,7 +695,7 @@ L_CelloMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'2.
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     

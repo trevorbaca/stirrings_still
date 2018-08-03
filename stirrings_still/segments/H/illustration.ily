@@ -2050,7 +2050,7 @@ H_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     f'4.
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie                                                             %! TCC
     - \abjad_dashed_line_with_arrow                                        %! PIC
@@ -2473,9 +2473,9 @@ H_ViolinIIMusicVoice = {
     f'1
     \!                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     _ \markup { III }                                                      %! IC
-    - \tweak color #blue                                                   %! SM8:REDUNDANT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                               %! SM8:REDUNDANT_DYNAMIC:PIC
-    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"        %! PIC
     - \tweak bound-details.right.text \markup \baca-right "poco rasp (2°)" %! PIC
@@ -3269,9 +3269,9 @@ H_ViolaMusicVoice = {
     af!1
     \!                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     _ \markup { III }                                                      %! IC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM8:REDUNDANT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                               %! SM8:REDUNDANT_DYNAMIC:PIC
+    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
     - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"        %! PIC
     - \tweak bound-details.right.text \markup \baca-right "poco rasp (2°)" %! PIC
@@ -3746,7 +3746,7 @@ H_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     gf,!4.
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie                                                             %! SC
     
@@ -3783,7 +3783,7 @@ H_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     gf,!2.
     \f                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie                                                             %! SC
     
@@ -3825,7 +3825,7 @@ H_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     gf,!2..
     \ff                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie                                                             %! SC
     
@@ -4001,7 +4001,7 @@ H_CelloMusicVoice = {
                 \box                                                       %! IC
                     "1/2 clt"                                              %! IC
             }                                                              %! IC
-        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
         \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         \bacaStopTextSpanBCP                                               %! BACA_BCP_COMMAND
         - \abjad_solid_line_with_arrow                                     %! BACA_BCP_COMMAND
@@ -4277,7 +4277,7 @@ H_CelloMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'4
     \!                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
