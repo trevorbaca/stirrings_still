@@ -13,7 +13,7 @@
         \context PageLayout = "PageLayout"
         {   %*% PageLayout
             
-            % [PageLayout measure 546]                                                   %! SM4
+            % [PageLayout measure 546]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \autoPageBreaksOff                                                           %! BMM1:BREAK
             \noBreak                                                                     %! BMM2:BREAK
@@ -22,97 +22,97 @@
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 547]                                                   %! SM4
+            % [PageLayout measure 547]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 7/8
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 548]                                                   %! SM4
+            % [PageLayout measure 548]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/2
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 549]                                                   %! SM4
+            % [PageLayout measure 549]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 550]                                                   %! SM4
+            % [PageLayout measure 550]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 7/8
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 551]                                                   %! SM4
+            % [PageLayout measure 551]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 5/8
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 552]                                                   %! SM4
+            % [PageLayout measure 552]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/2
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 553]                                                   %! SM4
+            % [PageLayout measure 553]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 554]                                                   %! SM4
+            % [PageLayout measure 554]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 555]                                                   %! SM4
+            % [PageLayout measure 555]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 556]                                                   %! SM4
+            % [PageLayout measure 556]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/2
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 557]                                                   %! SM4
+            % [PageLayout measure 557]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 5/8
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 558]                                                   %! SM4
+            % [PageLayout measure 558]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 559]                                                   %! SM4
+            % [PageLayout measure 559]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 560]                                                   %! SM4
+            % [PageLayout measure 560]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 561]                                                   %! SM4
+            % [PageLayout measure 561]                                                   %! SM_4
             \baca_new_spacing_section #35 #360                                           %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 7/8
         %@% ^ \markup { \baca-forest-green-markup "[[1/15 * 35/24]]" }                   %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 562]                                                   %! SM4
+            % [PageLayout measure 562]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \baca_lbsd #140 #'(20 24)                                                    %! IC:BREAK
@@ -120,97 +120,97 @@
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 563]                                                   %! SM4
+            % [PageLayout measure 563]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 7/8
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 564]                                                   %! SM4
+            % [PageLayout measure 564]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 565]                                                   %! SM4
+            % [PageLayout measure 565]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 566]                                                   %! SM4
+            % [PageLayout measure 566]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 567]                                                   %! SM4
+            % [PageLayout measure 567]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 568]                                                   %! SM4
+            % [PageLayout measure 568]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 569]                                                   %! SM4
+            % [PageLayout measure 569]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 570]                                                   %! SM4
+            % [PageLayout measure 570]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 7/8
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 571]                                                   %! SM4
+            % [PageLayout measure 571]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 7/8
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 572]                                                   %! SM4
+            % [PageLayout measure 572]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 573]                                                   %! SM4
+            % [PageLayout measure 573]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 5/8
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 574]                                                   %! SM4
+            % [PageLayout measure 574]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/2
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 575]                                                   %! SM4
+            % [PageLayout measure 575]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 576]                                                   %! SM4
+            % [PageLayout measure 576]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 7/8
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 577]                                                   %! SM4
+            % [PageLayout measure 577]                                                   %! SM_4
             \baca_new_spacing_section #35 #360                                           %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 7/8
         %@% ^ \markup { \baca-forest-green-markup "[[1/15 * 35/24]]" }                   %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 578]                                                   %! SM4
+            % [PageLayout measure 578]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \baca_lbsd #10 #'(20 24)                                                     %! IC:BREAK
@@ -218,91 +218,91 @@
             s1 * 1/2
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 579]                                                   %! SM4
+            % [PageLayout measure 579]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 5/8
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 580]                                                   %! SM4
+            % [PageLayout measure 580]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 581]                                                   %! SM4
+            % [PageLayout measure 581]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 582]                                                   %! SM4
+            % [PageLayout measure 582]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 583]                                                   %! SM4
+            % [PageLayout measure 583]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 5/8
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 584]                                                   %! SM4
+            % [PageLayout measure 584]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/2
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 585]                                                   %! SM4
+            % [PageLayout measure 585]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 586]                                                   %! SM4
+            % [PageLayout measure 586]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 587]                                                   %! SM4
+            % [PageLayout measure 587]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 588]                                                   %! SM4
+            % [PageLayout measure 588]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 589]                                                   %! SM4
+            % [PageLayout measure 589]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 7/8
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 590]                                                   %! SM4
+            % [PageLayout measure 590]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 591]                                                   %! SM4
+            % [PageLayout measure 591]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 592]                                                   %! SM4
+            % [PageLayout measure 592]                                                   %! SM_4
             \baca_new_spacing_section #35 #360                                           %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[[1/15 * 35/24]]" }                   %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 593]                                                   %! SM4
+            % [PageLayout measure 593]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             \baca_lbsd #140 #'(20 24)                                                    %! IC:BREAK
@@ -310,31 +310,31 @@
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 594]                                                   %! SM4
+            % [PageLayout measure 594]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 7/8
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 595]                                                   %! SM4
+            % [PageLayout measure 595]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 7/8
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 596]                                                   %! SM4
+            % [PageLayout measure 596]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 597]                                                   %! SM4
+            % [PageLayout measure 597]                                                   %! SM_4
             \baca_new_spacing_section #1 #15                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/2
         %@% ^ \markup { \baca-forest-green-markup "[1/15]" }                             %! HSS2:SPACING_MARKUP
             
-            % [PageLayout measure 598]                                                   %! SM4
+            % [PageLayout measure 598]                                                   %! SM_4
             \baca_new_spacing_section #35 #360                                           %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 5/8
