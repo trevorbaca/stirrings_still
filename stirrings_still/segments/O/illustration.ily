@@ -1,47 +1,47 @@
 O_GlobalRests = {
     
-    % [O GlobalRests measure 686 / measure 1]                                      %! SM4
+    % [O GlobalRests measure 686 / measure 1]                                      %! SM_4
     R1 * 1
     
-    % [O GlobalRests measure 687 / measure 2]                                      %! SM4
+    % [O GlobalRests measure 687 / measure 2]                                      %! SM_4
     R1 * 1
     
-    % [O GlobalRests measure 688 / measure 3]                                      %! SM4
+    % [O GlobalRests measure 688 / measure 3]                                      %! SM_4
     R1 * 3/4
     
-    % [O GlobalRests measure 689 / measure 4]                                      %! SM4
+    % [O GlobalRests measure 689 / measure 4]                                      %! SM_4
     R1 * 3/4
     
-    % [O GlobalRests measure 690 / measure 5]                                      %! SM4
+    % [O GlobalRests measure 690 / measure 5]                                      %! SM_4
     R1 * 1
     
-    % [O GlobalRests measure 691 / measure 6]                                      %! SM4
+    % [O GlobalRests measure 691 / measure 6]                                      %! SM_4
     R1 * 5/4
     
-    % [O GlobalRests measure 692 / measure 7]                                      %! SM4
+    % [O GlobalRests measure 692 / measure 7]                                      %! SM_4
     R1 * 1
     
-    % [O GlobalRests measure 693 / measure 8]                                      %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
-    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
+    % [O GlobalRests measure 693 / measure 8]                                      %! SM_4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC_2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC_2
     R1 * 1/4
-    ^ \markup {                                                                    %! GFC1
-        \musicglyph                                                                %! GFC1
-            #"scripts.uverylongfermata"                                            %! GFC1
-        }                                                                          %! GFC1
+    ^ \markup {                                                                    %! GFC_1
+        \musicglyph                                                                %! GFC_1
+            #"scripts.uverylongfermata"                                            %! GFC_1
+        }                                                                          %! GFC_1
     
 }
 
 
 O_GlobalSkips = {
     
-    % [O GlobalSkips measure 686 / measure 1]                                      %! SM4
+    % [O GlobalSkips measure 686 / measure 1]                                      %! SM_4
     \override TextScript.extra-offset = #'(0 . 5)                                  %! OC1
-    \time 4/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \time 4/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
     \tweak Y-offset #12                                                            %! IC
     \mark #15                                                                      %! IC
     \bar ""                                                                        %! SM2:+SEGMENT:EMPTY_START_BAR
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (686)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <0>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -49,31 +49,31 @@ O_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [O.1]                                         %! SM3:STAGE_NUMBER_MARKUP
     ^ \markup { [O.1] }                                                            %! IC
 %@% ^ \markup \baca-dark-cyan-markup "[31'31'']"                                   %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! MMI1
-%@% - \abjad_invisible_line                                                        %! MMI2
-%@% - \tweak bound-details.left.text \markup {                                     %! MMI2
-%@%     \concat                                                                    %! MMI2
-%@%         {                                                                      %! MMI2
-%@%             \abjad-metronome-mark-markup #2 #0 #1 #"56"                        %! MMI2
-%@%             \hspace                                                            %! MMI2
-%@%                 #0.5                                                           %! MMI2
-%@%         }                                                                      %! MMI2
-%@%     }                                                                          %! MMI2
-%@% \startTextSpan                                                                 %! MMI2
-    - \abjad_invisible_line                                                        %! MMI3
-    - \tweak bound-details.left.text \markup {                                     %! MMI3
-        \concat                                                                    %! MMI3
-            {                                                                      %! MMI3
-                \with-color                                                        %! MMI3
-                    #(x11-color 'blue)                                             %! MMI3
-                    \abjad-metronome-mark-markup #2 #0 #1 #"56"                    %! MMI3
-                \hspace                                                            %! MMI3
-                    #0.5                                                           %! MMI3
-            }                                                                      %! MMI3
-        }                                                                          %! MMI3
-    \startTextSpan                                                                 %! MMI3
+    \stopTextSpan                                                                  %! MMI_1
+%@% - \abjad_invisible_line                                                        %! MMI_2
+%@% - \tweak bound-details.left.text \markup {                                     %! MMI_2
+%@%     \concat                                                                    %! MMI_2
+%@%         {                                                                      %! MMI_2
+%@%             \abjad-metronome-mark-markup #2 #0 #1 #"56"                        %! MMI_2
+%@%             \hspace                                                            %! MMI_2
+%@%                 #0.5                                                           %! MMI_2
+%@%         }                                                                      %! MMI_2
+%@%     }                                                                          %! MMI_2
+%@% \startTextSpan                                                                 %! MMI_2
+    - \abjad_invisible_line                                                        %! MMI_3
+    - \tweak bound-details.left.text \markup {                                     %! MMI_3
+        \concat                                                                    %! MMI_3
+            {                                                                      %! MMI_3
+                \with-color                                                        %! MMI_3
+                    #(x11-color 'blue)                                             %! MMI_3
+                    \abjad-metronome-mark-markup #2 #0 #1 #"56"                    %! MMI_3
+                \hspace                                                            %! MMI_3
+                    #0.5                                                           %! MMI_3
+            }                                                                      %! MMI_3
+        }                                                                          %! MMI_3
+    \startTextSpan                                                                 %! MMI_3
     
-    % [O GlobalSkips measure 687 / measure 2]                                      %! SM4
+    % [O GlobalSkips measure 687 / measure 2]                                      %! SM_4
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (687)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <1>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -81,9 +81,9 @@ O_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [O.2]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[31'35'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [O GlobalSkips measure 688 / measure 3]                                      %! SM4
-    \time 3/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [O GlobalSkips measure 688 / measure 3]                                      %! SM_4
+    \time 3/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 3/4
 %@% ^ \markup \baca-dark-cyan-markup (688)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <2>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -91,7 +91,7 @@ O_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [O.3]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[31'39'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [O GlobalSkips measure 689 / measure 4]                                      %! SM4
+    % [O GlobalSkips measure 689 / measure 4]                                      %! SM_4
     s1 * 3/4
 %@% ^ \markup \baca-dark-cyan-markup (689)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <3>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -99,9 +99,9 @@ O_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [O.4]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[31'42'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [O GlobalSkips measure 690 / measure 5]                                      %! SM4
-    \time 4/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [O GlobalSkips measure 690 / measure 5]                                      %! SM_4
+    \time 4/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (690)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <4>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -109,9 +109,9 @@ O_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [O.5]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[31'46'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [O GlobalSkips measure 691 / measure 6]                                      %! SM4
-    \time 5/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [O GlobalSkips measure 691 / measure 6]                                      %! SM_4
+    \time 5/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 5/4
 %@% ^ \markup \baca-dark-cyan-markup (691)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <5>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -119,9 +119,9 @@ O_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [O.6]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[31'50'']"                                   %! SM28:CLOCK_TIME_MARKUP
     
-    % [O GlobalSkips measure 692 / measure 7]                                      %! SM4
-    \time 8/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [O GlobalSkips measure 692 / measure 7]                                      %! SM_4
+    \time 8/8                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1
 %@% ^ \markup \baca-dark-cyan-markup (692)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <6>                                           %! SM32:MEASURE_INDEX_MARKUP
@@ -129,50 +129,50 @@ O_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [O.7]                                         %! SM3:STAGE_NUMBER_MARKUP
     ^ \markup { [H.3] }                                                            %! IC
 %@% ^ \markup \baca-dark-cyan-markup "[31'55'']"                                   %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! MMI1
-%@% - \abjad_invisible_line                                                        %! MMI2
-%@% - \tweak bound-details.left.text \markup {                                     %! MMI2
-%@%     \concat                                                                    %! MMI2
-%@%         {                                                                      %! MMI2
-%@%             \abjad-metronome-mark-markup #2 #0 #1 #"52"                        %! MMI2
-%@%             \hspace                                                            %! MMI2
-%@%                 #0.5                                                           %! MMI2
-%@%         }                                                                      %! MMI2
-%@%     }                                                                          %! MMI2
-%@% \startTextSpan                                                                 %! MMI2
-    - \abjad_invisible_line                                                        %! MMI3
-    - \tweak bound-details.left.text \markup {                                     %! MMI3
-        \concat                                                                    %! MMI3
-            {                                                                      %! MMI3
-                \with-color                                                        %! MMI3
-                    #(x11-color 'blue)                                             %! MMI3
-                    \abjad-metronome-mark-markup #2 #0 #1 #"52"                    %! MMI3
-                \hspace                                                            %! MMI3
-                    #0.5                                                           %! MMI3
-            }                                                                      %! MMI3
-        }                                                                          %! MMI3
-    \startTextSpan                                                                 %! MMI3
+    \stopTextSpan                                                                  %! MMI_1
+%@% - \abjad_invisible_line                                                        %! MMI_2
+%@% - \tweak bound-details.left.text \markup {                                     %! MMI_2
+%@%     \concat                                                                    %! MMI_2
+%@%         {                                                                      %! MMI_2
+%@%             \abjad-metronome-mark-markup #2 #0 #1 #"52"                        %! MMI_2
+%@%             \hspace                                                            %! MMI_2
+%@%                 #0.5                                                           %! MMI_2
+%@%         }                                                                      %! MMI_2
+%@%     }                                                                          %! MMI_2
+%@% \startTextSpan                                                                 %! MMI_2
+    - \abjad_invisible_line                                                        %! MMI_3
+    - \tweak bound-details.left.text \markup {                                     %! MMI_3
+        \concat                                                                    %! MMI_3
+            {                                                                      %! MMI_3
+                \with-color                                                        %! MMI_3
+                    #(x11-color 'blue)                                             %! MMI_3
+                    \abjad-metronome-mark-markup #2 #0 #1 #"52"                    %! MMI_3
+                \hspace                                                            %! MMI_3
+                    #0.5                                                           %! MMI_3
+            }                                                                      %! MMI_3
+        }                                                                          %! MMI_3
+    \startTextSpan                                                                 %! MMI_3
     
-    % [O GlobalSkips measure 693 / measure 8]                                      %! SM4
-    \time 1/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    % [O GlobalSkips measure 693 / measure 8]                                      %! SM_4
+    \time 1/4                                                                      %! SM8:EXPLICIT_TIME_SIGNATURE:SM_1
+    \baca_time_signature_color "blue"                                              %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM_1
     s1 * 1/4
 %@% ^ \markup \baca-dark-cyan-markup (693)                                         %! SM31:MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup <7>                                           %! SM32:MEASURE_INDEX_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup ((8))                                         %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup [O.8]                                         %! SM3:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[32'00'']"                                   %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! MMI4
+    \stopTextSpan                                                                  %! MMI_4
     \revert TextScript.extra-offset                                                %! OC2
-    \baca_bar_line_visible                                                         %! SM5
-    \bar "|"                                                                       %! SM5
+    \baca_bar_line_visible                                                         %! SM_5
+    \bar "|"                                                                       %! SM_5
     
 }
 
 
 O_ViolinIMusicVoice = {
     
-    % [O ViolinIMusicVoice measure 686 / measure 1]                        %! SM4
+    % [O ViolinIMusicVoice measure 686 / measure 1]                        %! SM_4
     \set Staff.instrumentName =                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -218,25 +218,25 @@ O_ViolinIMusicVoice = {
         }                                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [O ViolinIMusicVoice measure 687 / measure 2]                        %! SM4
+    % [O ViolinIMusicVoice measure 687 / measure 2]                        %! SM_4
     R1 * 1
     
-    % [O ViolinIMusicVoice measure 688 / measure 3]                        %! SM4
+    % [O ViolinIMusicVoice measure 688 / measure 3]                        %! SM_4
     R1 * 3/4
     
-    % [O ViolinIMusicVoice measure 689 / measure 4]                        %! SM4
+    % [O ViolinIMusicVoice measure 689 / measure 4]                        %! SM_4
     R1 * 3/4
     
-    % [O ViolinIMusicVoice measure 690 / measure 5]                        %! SM4
+    % [O ViolinIMusicVoice measure 690 / measure 5]                        %! SM_4
     R1 * 1
     
-    % [O ViolinIMusicVoice measure 691 / measure 6]                        %! SM4
+    % [O ViolinIMusicVoice measure 691 / measure 6]                        %! SM_4
     R1 * 5/4
     
-    % [O ViolinIMusicVoice measure 692 / measure 7]                        %! SM4
+    % [O ViolinIMusicVoice measure 692 / measure 7]                        %! SM_4
     R1 * 1
     
-    % [O ViolinIMusicVoice measure 693 / measure 8]                        %! SM4
+    % [O ViolinIMusicVoice measure 693 / measure 8]                        %! SM_4
     R1 * 1/4
     
 }
@@ -250,7 +250,7 @@ O_ViolinIMusicStaff = {
 
 O_ViolinIIMusicVoice = {
     
-    % [O ViolinIIMusicVoice measure 686 / measure 1]                       %! SM4
+    % [O ViolinIIMusicVoice measure 686 / measure 1]                       %! SM_4
     \set Staff.instrumentName =                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -296,25 +296,25 @@ O_ViolinIIMusicVoice = {
         }                                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [O ViolinIIMusicVoice measure 687 / measure 2]                       %! SM4
+    % [O ViolinIIMusicVoice measure 687 / measure 2]                       %! SM_4
     R1 * 1
     
-    % [O ViolinIIMusicVoice measure 688 / measure 3]                       %! SM4
+    % [O ViolinIIMusicVoice measure 688 / measure 3]                       %! SM_4
     R1 * 3/4
     
-    % [O ViolinIIMusicVoice measure 689 / measure 4]                       %! SM4
+    % [O ViolinIIMusicVoice measure 689 / measure 4]                       %! SM_4
     R1 * 3/4
     
-    % [O ViolinIIMusicVoice measure 690 / measure 5]                       %! SM4
+    % [O ViolinIIMusicVoice measure 690 / measure 5]                       %! SM_4
     R1 * 1
     
-    % [O ViolinIIMusicVoice measure 691 / measure 6]                       %! SM4
+    % [O ViolinIIMusicVoice measure 691 / measure 6]                       %! SM_4
     R1 * 5/4
     
-    % [O ViolinIIMusicVoice measure 692 / measure 7]                       %! SM4
+    % [O ViolinIIMusicVoice measure 692 / measure 7]                       %! SM_4
     R1 * 1
     
-    % [O ViolinIIMusicVoice measure 693 / measure 8]                       %! SM4
+    % [O ViolinIIMusicVoice measure 693 / measure 8]                       %! SM_4
     R1 * 1/4
     
 }
@@ -328,7 +328,7 @@ O_ViolinIIMusicStaff = {
 
 O_ViolaMusicVoice = {
     
-    % [O ViolaMusicVoice measure 686 / measure 1]                          %! SM4
+    % [O ViolaMusicVoice measure 686 / measure 1]                          %! SM_4
     \set Staff.instrumentName =                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -378,25 +378,25 @@ O_ViolaMusicVoice = {
         }                                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [O ViolaMusicVoice measure 687 / measure 2]                          %! SM4
+    % [O ViolaMusicVoice measure 687 / measure 2]                          %! SM_4
     R1 * 1
     
-    % [O ViolaMusicVoice measure 688 / measure 3]                          %! SM4
+    % [O ViolaMusicVoice measure 688 / measure 3]                          %! SM_4
     R1 * 3/4
     
-    % [O ViolaMusicVoice measure 689 / measure 4]                          %! SM4
+    % [O ViolaMusicVoice measure 689 / measure 4]                          %! SM_4
     R1 * 3/4
     
-    % [O ViolaMusicVoice measure 690 / measure 5]                          %! SM4
+    % [O ViolaMusicVoice measure 690 / measure 5]                          %! SM_4
     R1 * 1
     
-    % [O ViolaMusicVoice measure 691 / measure 6]                          %! SM4
+    % [O ViolaMusicVoice measure 691 / measure 6]                          %! SM_4
     R1 * 5/4
     
-    % [O ViolaMusicVoice measure 692 / measure 7]                          %! SM4
+    % [O ViolaMusicVoice measure 692 / measure 7]                          %! SM_4
     R1 * 1
     
-    % [O ViolaMusicVoice measure 693 / measure 8]                          %! SM4
+    % [O ViolaMusicVoice measure 693 / measure 8]                          %! SM_4
     R1 * 1/4
     
 }
@@ -410,7 +410,7 @@ O_ViolaMusicStaff = {
 
 O_CelloMusicVoice = {
     
-    % [O CelloMusicVoice measure 686 / measure 1]                          %! SM4
+    % [O CelloMusicVoice measure 686 / measure 1]                          %! SM_4
     \set Staff.instrumentName =                                            %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -456,25 +456,25 @@ O_CelloMusicVoice = {
         }                                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [O CelloMusicVoice measure 687 / measure 2]                          %! SM4
+    % [O CelloMusicVoice measure 687 / measure 2]                          %! SM_4
     R1 * 1
     
-    % [O CelloMusicVoice measure 688 / measure 3]                          %! SM4
+    % [O CelloMusicVoice measure 688 / measure 3]                          %! SM_4
     R1 * 3/4
     
-    % [O CelloMusicVoice measure 689 / measure 4]                          %! SM4
+    % [O CelloMusicVoice measure 689 / measure 4]                          %! SM_4
     R1 * 3/4
     
-    % [O CelloMusicVoice measure 690 / measure 5]                          %! SM4
+    % [O CelloMusicVoice measure 690 / measure 5]                          %! SM_4
     R1 * 1
     
-    % [O CelloMusicVoice measure 691 / measure 6]                          %! SM4
+    % [O CelloMusicVoice measure 691 / measure 6]                          %! SM_4
     R1 * 5/4
     
-    % [O CelloMusicVoice measure 692 / measure 7]                          %! SM4
+    % [O CelloMusicVoice measure 692 / measure 7]                          %! SM_4
     R1 * 1
     
-    % [O CelloMusicVoice measure 693 / measure 8]                          %! SM4
+    % [O CelloMusicVoice measure 693 / measure 8]                          %! SM_4
     R1 * 1/4
     
 }
