@@ -1,541 +1,511 @@
 S_GlobalRests = {
     
-    % [S GlobalRests measure 828 / measure 1]                                      %! COMMENT_MEASURE_NUMBERS
-    R1 * 1                                                                         %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 828 / measure 1]                                      %! _comment_measure_numbers
+    R1 * 1                                                                         %! _make_global_rests
     
-    % [S GlobalRests measure 829 / measure 2]                                      %! COMMENT_MEASURE_NUMBERS
-    R1 * 3/4                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 829 / measure 2]                                      %! _comment_measure_numbers
+    R1 * 3/4                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 830 / measure 3]                                      %! COMMENT_MEASURE_NUMBERS
-    R1 * 1                                                                         %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 830 / measure 3]                                      %! _comment_measure_numbers
+    R1 * 1                                                                         %! _make_global_rests
     
-    % [S GlobalRests measure 831 / measure 4]                                      %! COMMENT_MEASURE_NUMBERS
-    R1 * 5/4                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 831 / measure 4]                                      %! _comment_measure_numbers
+    R1 * 5/4                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 832 / measure 5]                                      %! COMMENT_MEASURE_NUMBERS
-    R1 * 3/2                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 832 / measure 5]                                      %! _comment_measure_numbers
+    R1 * 3/2                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 833 / measure 6]                                      %! COMMENT_MEASURE_NUMBERS
-    R1 * 3/2                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 833 / measure 6]                                      %! _comment_measure_numbers
+    R1 * 3/2                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 834 / measure 7]                                      %! COMMENT_MEASURE_NUMBERS
-    R1 * 3/4                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 834 / measure 7]                                      %! _comment_measure_numbers
+    R1 * 3/4                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 835 / measure 8]                                      %! COMMENT_MEASURE_NUMBERS
-    R1 * 1                                                                         %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 835 / measure 8]                                      %! _comment_measure_numbers
+    R1 * 1                                                                         %! _make_global_rests
     
-    % [S GlobalRests measure 836 / measure 9]                                      %! COMMENT_MEASURE_NUMBERS
-    R1 * 5/4                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 836 / measure 9]                                      %! _comment_measure_numbers
+    R1 * 5/4                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 837 / measure 10]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 1                                                                         %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 837 / measure 10]                                     %! _comment_measure_numbers
+    R1 * 1                                                                         %! _make_global_rests
     
-    % [S GlobalRests measure 838 / measure 11]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 3/4                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 838 / measure 11]                                     %! _comment_measure_numbers
+    R1 * 3/4                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 839 / measure 12]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 1                                                                         %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 839 / measure 12]                                     %! _comment_measure_numbers
+    R1 * 1                                                                         %! _make_global_rests
     
-    % [S GlobalRests measure 840 / measure 13]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 1                                                                         %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 840 / measure 13]                                     %! _comment_measure_numbers
+    R1 * 1                                                                         %! _make_global_rests
     
-    % [S GlobalRests measure 841 / measure 14]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 1                                                                         %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 841 / measure 14]                                     %! _comment_measure_numbers
+    R1 * 1                                                                         %! _make_global_rests
     
-    % [S GlobalRests measure 842 / measure 15]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 3/4                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 842 / measure 15]                                     %! _comment_measure_numbers
+    R1 * 3/4                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 843 / measure 16]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 5/4                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 843 / measure 16]                                     %! _comment_measure_numbers
+    R1 * 5/4                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 844 / measure 17]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 3/2                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 844 / measure 17]                                     %! _comment_measure_numbers
+    R1 * 3/2                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 845 / measure 18]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 3/4                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 845 / measure 18]                                     %! _comment_measure_numbers
+    R1 * 3/4                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 846 / measure 19]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 1                                                                         %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 846 / measure 19]                                     %! _comment_measure_numbers
+    R1 * 1                                                                         %! _make_global_rests
     
-    % [S GlobalRests measure 847 / measure 20]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 1                                                                         %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 847 / measure 20]                                     %! _comment_measure_numbers
+    R1 * 1                                                                         %! _make_global_rests
     
-    % [S GlobalRests measure 848 / measure 21]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 5/4                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 848 / measure 21]                                     %! _comment_measure_numbers
+    R1 * 5/4                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 849 / measure 22]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 3/2                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 849 / measure 22]                                     %! _comment_measure_numbers
+    R1 * 3/2                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 850 / measure 23]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 3/4                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 850 / measure 23]                                     %! _comment_measure_numbers
+    R1 * 3/4                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 851 / measure 24]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 3/4                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 851 / measure 24]                                     %! _comment_measure_numbers
+    R1 * 3/4                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 852 / measure 25]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 1                                                                         %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 852 / measure 25]                                     %! _comment_measure_numbers
+    R1 * 1                                                                         %! _make_global_rests
     
-    % [S GlobalRests measure 853 / measure 26]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 1                                                                         %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 853 / measure 26]                                     %! _comment_measure_numbers
+    R1 * 1                                                                         %! _make_global_rests
     
-    % [S GlobalRests measure 854 / measure 27]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 1                                                                         %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 854 / measure 27]                                     %! _comment_measure_numbers
+    R1 * 1                                                                         %! _make_global_rests
     
-    % [S GlobalRests measure 855 / measure 28]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 3/4                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 855 / measure 28]                                     %! _comment_measure_numbers
+    R1 * 3/4                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 856 / measure 29]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 1                                                                         %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 856 / measure 29]                                     %! _comment_measure_numbers
+    R1 * 1                                                                         %! _make_global_rests
     
-    % [S GlobalRests measure 857 / measure 30]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 3/4                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 857 / measure 30]                                     %! _comment_measure_numbers
+    R1 * 3/4                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 858 / measure 31]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 1                                                                         %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 858 / measure 31]                                     %! _comment_measure_numbers
+    R1 * 1                                                                         %! _make_global_rests
     
-    % [S GlobalRests measure 859 / measure 32]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 5/4                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 859 / measure 32]                                     %! _comment_measure_numbers
+    R1 * 5/4                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 860 / measure 33]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 3/2                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 860 / measure 33]                                     %! _comment_measure_numbers
+    R1 * 3/2                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 861 / measure 34]                                     %! COMMENT_MEASURE_NUMBERS
-    R1 * 3/2                                                                       %! MAKE_GLOBAL_RESTS
+    % [S GlobalRests measure 861 / measure 34]                                     %! _comment_measure_numbers
+    R1 * 3/2                                                                       %! _make_global_rests
     
-    % [S GlobalRests measure 862 / measure 35]                                     %! COMMENT_MEASURE_NUMBERS
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GLOBAL_FERMATA_COMMAND_2
-    \once \override Score.TimeSignature.stencil = ##f                              %! GLOBAL_FERMATA_COMMAND_2
-    R1 * 1/4                                                                       %! MAKE_GLOBAL_RESTS
-    ^ \markup {                                                                    %! GLOBAL_FERMATA_COMMAND_1
-        \musicglyph                                                                %! GLOBAL_FERMATA_COMMAND_1
-            #"scripts.ulongfermata"                                                %! GLOBAL_FERMATA_COMMAND_1
-        }                                                                          %! GLOBAL_FERMATA_COMMAND_1
+    % [S GlobalRests measure 862 / measure 35]                                     %! _comment_measure_numbers
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                              %! GlobalFermataCommand(2)
+    R1 * 1/4                                                                       %! _make_global_rests
+    ^ \markup {                                                                    %! GlobalFermataCommand(1)
+        \musicglyph                                                                %! GlobalFermataCommand(1)
+            #"scripts.ulongfermata"                                                %! GlobalFermataCommand(1)
+        }                                                                          %! GlobalFermataCommand(1)
     
 }
 
 
 S_GlobalSkips = {
     
-    % [S GlobalSkips measure 828 / measure 1]                                      %! COMMENT_MEASURE_NUMBERS
-    \time 4/4                                                                      %! SET_STATUS_TAG:REAPPLIED_TIME_SIGNATURE:SM38:MAKE_GLOBAL_SKIPS_2
-    \tweak Y-offset #12                                                            %! INDICATOR_COMMAND
-    \mark #19                                                                      %! INDICATOR_COMMAND
-    \bar ""                                                                        %! MAKE_GLOBAL_SKIPS_3:+SEGMENT:EMPTY_START_BAR
-    \baca_time_signature_color "green4"                                            %! ATTACH_COLOR_LITERAL_2:REAPPLIED_TIME_SIGNATURE_COLOR:SM38:MAKE_GLOBAL_SKIPS_2
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (828)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <0>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((1))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.1]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[37'41'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
-%@% - \abjad_invisible_line                                                        %! ATTACH_METRONOME_MARKS_2
-%@% - \tweak bound-details.left.text \markup {                                     %! ATTACH_METRONOME_MARKS_2
-%@%     \concat                                                                    %! ATTACH_METRONOME_MARKS_2
-%@%         {                                                                      %! ATTACH_METRONOME_MARKS_2
-%@%             \abjad-metronome-mark-markup #2 #0 #1 #"52"                        %! ATTACH_METRONOME_MARKS_2
-%@%             \hspace                                                            %! ATTACH_METRONOME_MARKS_2
-%@%                 #0.5                                                           %! ATTACH_METRONOME_MARKS_2
-%@%         }                                                                      %! ATTACH_METRONOME_MARKS_2
-%@%     }                                                                          %! ATTACH_METRONOME_MARKS_2
-%@% \startTextSpan                                                                 %! ATTACH_METRONOME_MARKS_2
-    - \abjad_invisible_line                                                        %! ATTACH_METRONOME_MARKS_3
-    - \tweak bound-details.left.text \markup {                                     %! ATTACH_METRONOME_MARKS_3
-        \concat                                                                    %! ATTACH_METRONOME_MARKS_3
-            {                                                                      %! ATTACH_METRONOME_MARKS_3
-                \with-color                                                        %! ATTACH_METRONOME_MARKS_3
-                    #(x11-color 'green4)                                           %! ATTACH_METRONOME_MARKS_3
-                    \abjad-metronome-mark-markup #2 #0 #1 #"52"                    %! ATTACH_METRONOME_MARKS_3
-                \hspace                                                            %! ATTACH_METRONOME_MARKS_3
-                    #0.5                                                           %! ATTACH_METRONOME_MARKS_3
-            }                                                                      %! ATTACH_METRONOME_MARKS_3
-        }                                                                          %! ATTACH_METRONOME_MARKS_3
-    \startTextSpan                                                                 %! ATTACH_METRONOME_MARKS_3
+    % [S GlobalSkips measure 828 / measure 1]                                      %! _comment_measure_numbers
+    \time 4/4                                                                      %! REAPPLIED_TIME_SIGNATURE:_set_status_tag:_reapply_persistent_indicators(1):_make_global_skips(2)
+    \tweak Y-offset #12                                                            %! IndicatorCommand
+    \mark #19                                                                      %! IndicatorCommand
+    \bar ""                                                                        %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
+    \baca_time_signature_color "green4"                                            %! REAPPLIED_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (828)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <0>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((1))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.1]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[37'41'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% - \abjad_invisible_line                                                        %! _attach_metronome_marks(2)
+%@% - \tweak bound-details.left.text \markup {                                     %! _attach_metronome_marks(2)
+%@%     \concat                                                                    %! _attach_metronome_marks(2)
+%@%         {                                                                      %! _attach_metronome_marks(2)
+%@%             \abjad-metronome-mark-markup #2 #0 #1 #"52"                        %! _attach_metronome_marks(2)
+%@%             \hspace                                                            %! _attach_metronome_marks(2)
+%@%                 #0.5                                                           %! _attach_metronome_marks(2)
+%@%         }                                                                      %! _attach_metronome_marks(2)
+%@%     }                                                                          %! _attach_metronome_marks(2)
+%@% \startTextSpan                                                                 %! _attach_metronome_marks(2)
+    - \abjad_invisible_line                                                        %! _attach_metronome_marks(3)
+    - \tweak bound-details.left.text \markup {                                     %! _attach_metronome_marks(3)
+        \concat                                                                    %! _attach_metronome_marks(3)
+            {                                                                      %! _attach_metronome_marks(3)
+                \with-color                                                        %! _attach_metronome_marks(3)
+                    #(x11-color 'green4)                                           %! _attach_metronome_marks(3)
+                    \abjad-metronome-mark-markup #2 #0 #1 #"52"                    %! _attach_metronome_marks(3)
+                \hspace                                                            %! _attach_metronome_marks(3)
+                    #0.5                                                           %! _attach_metronome_marks(3)
+            }                                                                      %! _attach_metronome_marks(3)
+        }                                                                          %! _attach_metronome_marks(3)
+    \startTextSpan                                                                 %! _attach_metronome_marks(3)
     
-    % [S GlobalSkips measure 829 / measure 2]                                      %! COMMENT_MEASURE_NUMBERS
-    \time 3/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 3/4                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (829)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <1>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((2))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.2]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[37'45'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 829 / measure 2]                                      %! _comment_measure_numbers
+    \time 3/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 3/4                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (829)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <1>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((2))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.2]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[37'45'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 830 / measure 3]                                      %! COMMENT_MEASURE_NUMBERS
-    \time 4/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (830)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <2>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((3))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.3]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[37'49'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 830 / measure 3]                                      %! _comment_measure_numbers
+    \time 4/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (830)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <2>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((3))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.3]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[37'49'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 831 / measure 4]                                      %! COMMENT_MEASURE_NUMBERS
-    \time 5/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 5/4                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (831)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <3>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((4))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.4]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[37'53'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 831 / measure 4]                                      %! _comment_measure_numbers
+    \time 5/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 5/4                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (831)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <3>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((4))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.4]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[37'53'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 832 / measure 5]                                      %! COMMENT_MEASURE_NUMBERS
-    \time 6/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 3/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (832)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <4>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((5))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.5]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[37'59'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 832 / measure 5]                                      %! _comment_measure_numbers
+    \time 6/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 3/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (832)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <4>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((5))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.5]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[37'59'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 833 / measure 6]                                      %! COMMENT_MEASURE_NUMBERS
-    s1 * 3/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (833)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <5>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((6))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.6]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[38'06'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 833 / measure 6]                                      %! _comment_measure_numbers
+    s1 * 3/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (833)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <5>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((6))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.6]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[38'06'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 834 / measure 7]                                      %! COMMENT_MEASURE_NUMBERS
-    \time 3/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 3/4                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (834)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <6>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((7))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.7]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[38'13'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 834 / measure 7]                                      %! _comment_measure_numbers
+    \time 3/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 3/4                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (834)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <6>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((7))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.7]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[38'13'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 835 / measure 8]                                      %! COMMENT_MEASURE_NUMBERS
-    \time 4/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (835)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <7>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((8))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.8]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[38'16'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 835 / measure 8]                                      %! _comment_measure_numbers
+    \time 4/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (835)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <7>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((8))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.8]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[38'16'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 836 / measure 9]                                      %! COMMENT_MEASURE_NUMBERS
-    \time 5/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 5/4                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (836)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <8>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((9))                                         %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.9]                                         %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[38'21'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 836 / measure 9]                                      %! _comment_measure_numbers
+    \time 5/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 5/4                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (836)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <8>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((9))                                         %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.9]                                         %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[38'21'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 837 / measure 10]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 4/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (837)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <9>                                           %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((10))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.10]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[38'27'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 837 / measure 10]                                     %! _comment_measure_numbers
+    \time 4/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (837)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <9>                                           %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((10))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.10]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[38'27'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 838 / measure 11]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 3/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 3/4                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (838)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <10>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((11))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.11]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[38'31'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 838 / measure 11]                                     %! _comment_measure_numbers
+    \time 3/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 3/4                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (838)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <10>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((11))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.11]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[38'31'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 839 / measure 12]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 4/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (839)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <11>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((12))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.12]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[38'35'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 839 / measure 12]                                     %! _comment_measure_numbers
+    \time 4/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (839)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <11>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((12))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.12]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[38'35'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 840 / measure 13]                                     %! COMMENT_MEASURE_NUMBERS
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (840)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <12>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((13))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.13]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[38'39'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 840 / measure 13]                                     %! _comment_measure_numbers
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (840)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <12>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((13))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.13]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[38'39'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 841 / measure 14]                                     %! COMMENT_MEASURE_NUMBERS
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (841)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <13>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((14))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.14]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[38'44'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 841 / measure 14]                                     %! _comment_measure_numbers
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (841)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <13>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((14))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.14]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[38'44'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 842 / measure 15]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 3/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 3/4                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (842)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <14>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((15))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.15]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[38'49'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 842 / measure 15]                                     %! _comment_measure_numbers
+    \time 3/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 3/4                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (842)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <14>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((15))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.15]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[38'49'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 843 / measure 16]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 5/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 5/4                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (843)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <15>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((16))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.16]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[38'52'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 843 / measure 16]                                     %! _comment_measure_numbers
+    \time 5/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 5/4                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (843)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <15>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((16))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.16]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[38'52'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 844 / measure 17]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 6/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 3/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (844)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <16>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((17))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.17]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[38'58'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 844 / measure 17]                                     %! _comment_measure_numbers
+    \time 6/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 3/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (844)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <16>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((17))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.17]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[38'58'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 845 / measure 18]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 3/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 3/4                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (845)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <17>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((18))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.18]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[39'05'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 845 / measure 18]                                     %! _comment_measure_numbers
+    \time 3/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 3/4                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (845)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <17>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((18))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.18]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[39'05'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 846 / measure 19]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 4/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (846)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <18>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((19))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.19]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[39'08'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 846 / measure 19]                                     %! _comment_measure_numbers
+    \time 4/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (846)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <18>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((19))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.19]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[39'08'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 847 / measure 20]                                     %! COMMENT_MEASURE_NUMBERS
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (847)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <19>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((20))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.20]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[39'13'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 847 / measure 20]                                     %! _comment_measure_numbers
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (847)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <19>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((20))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.20]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[39'13'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 848 / measure 21]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 5/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 5/4                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (848)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <20>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((21))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.21]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[39'17'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 848 / measure 21]                                     %! _comment_measure_numbers
+    \time 5/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 5/4                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (848)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <20>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((21))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.21]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[39'17'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 849 / measure 22]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 6/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 3/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (849)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <21>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((22))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.22]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[39'23'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 849 / measure 22]                                     %! _comment_measure_numbers
+    \time 6/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 3/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (849)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <21>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((22))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.22]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[39'23'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 850 / measure 23]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 3/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 3/4                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (850)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <22>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((23))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.23]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[39'30'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 850 / measure 23]                                     %! _comment_measure_numbers
+    \time 3/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 3/4                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (850)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <22>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((23))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.23]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[39'30'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 851 / measure 24]                                     %! COMMENT_MEASURE_NUMBERS
-    s1 * 3/4                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (851)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <23>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((24))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.24]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[39'34'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 851 / measure 24]                                     %! _comment_measure_numbers
+    s1 * 3/4                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (851)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <23>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((24))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.24]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[39'34'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 852 / measure 25]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 4/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (852)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <24>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((25))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.25]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[39'37'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 852 / measure 25]                                     %! _comment_measure_numbers
+    \time 4/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (852)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <24>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((25))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.25]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[39'37'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 853 / measure 26]                                     %! COMMENT_MEASURE_NUMBERS
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (853)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <25>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((26))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.26]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[39'42'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 853 / measure 26]                                     %! _comment_measure_numbers
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (853)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <25>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((26))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.26]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[39'42'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 854 / measure 27]                                     %! COMMENT_MEASURE_NUMBERS
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (854)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <26>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((27))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.27]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[39'46'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 854 / measure 27]                                     %! _comment_measure_numbers
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (854)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <26>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((27))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.27]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[39'46'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 855 / measure 28]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 3/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 3/4                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (855)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <27>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((28))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.28]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[39'51'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 855 / measure 28]                                     %! _comment_measure_numbers
+    \time 3/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 3/4                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (855)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <27>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((28))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.28]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[39'51'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 856 / measure 29]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 4/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (856)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <28>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((29))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.29]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[39'54'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 856 / measure 29]                                     %! _comment_measure_numbers
+    \time 4/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (856)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <28>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((29))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.29]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[39'54'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 857 / measure 30]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 3/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 3/4                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (857)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <29>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((30))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.30]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[39'59'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 857 / measure 30]                                     %! _comment_measure_numbers
+    \time 3/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 3/4                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (857)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <29>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((30))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.30]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[39'59'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 858 / measure 31]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 4/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1                                                                         %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (858)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <30>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((31))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.31]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[40'02'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 858 / measure 31]                                     %! _comment_measure_numbers
+    \time 4/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1                                                                         %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (858)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <30>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((31))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.31]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[40'02'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 859 / measure 32]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 5/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 5/4                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (859)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <31>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((32))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.32]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[40'07'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 859 / measure 32]                                     %! _comment_measure_numbers
+    \time 5/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 5/4                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (859)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <31>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((32))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.32]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[40'07'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 860 / measure 33]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 6/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 3/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (860)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <32>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((33))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.33]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[40'13'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 860 / measure 33]                                     %! _comment_measure_numbers
+    \time 6/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 3/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (860)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <32>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((33))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.33]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[40'13'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 861 / measure 34]                                     %! COMMENT_MEASURE_NUMBERS
-    s1 * 3/2                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (861)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <33>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((34))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.34]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[40'20'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
+    % [S GlobalSkips measure 861 / measure 34]                                     %! _comment_measure_numbers
+    s1 * 3/2                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (861)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <33>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((34))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.34]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[40'20'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     
-    % [S GlobalSkips measure 862 / measure 35]                                     %! COMMENT_MEASURE_NUMBERS
-    \time 1/4                                                                      %! SET_STATUS_TAG:EXPLICIT_TIME_SIGNATURE:MAKE_GLOBAL_SKIPS_2
-    \baca_time_signature_color "blue"                                              %! ATTACH_COLOR_LITERAL_2:EXPLICIT_TIME_SIGNATURE_COLOR:MAKE_GLOBAL_SKIPS_2
-    s1 * 1/4                                                                       %! MAKE_GLOBAL_SKIPS_1
-%@% ^ \markup \baca-dark-cyan-markup (862)                                         %! LABEL_MEASURE_INDICES_1:MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup <34>                                          %! LABEL_MEASURE_INDICES_2:MEASURE_INDEX_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup ((35))                                        %! LABEL_MEASURE_INDICES_3:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup [S.35]                                        %! LABEL_STAGE_NUMBERS:STAGE_NUMBER_MARKUP
-%@% ^ \markup \baca-dark-cyan-markup "[40'27'']"                                   %! LABEL_CLOCK_TIME:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! ATTACH_METRONOME_MARKS_4
-    \baca_bar_line_visible                                                         %! ATTACH_FINAL_BAR_LINE
-    \bar "|"                                                                       %! ATTACH_FINAL_BAR_LINE
+    % [S GlobalSkips measure 862 / measure 35]                                     %! _comment_measure_numbers
+    \time 1/4                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \baca_time_signature_color "blue"                                              %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    s1 * 1/4                                                                       %! _make_global_skips(1)
+%@% ^ \markup \baca-dark-cyan-markup (862)                                         %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
+%@% ^ \markup \baca-dark-cyan-markup <34>                                          %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
+%@% ^ \markup \baca-dark-cyan-markup ((35))                                        %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% ^ \markup \baca-dark-cyan-markup [S.35]                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
+%@% ^ \markup \baca-dark-cyan-markup "[40'27'']"                                   %! CLOCK_TIME_MARKUP:_label_clock_time
+    \stopTextSpan                                                                  %! _attach_metronome_marks(4)
+    \baca_bar_line_visible                                                         %! _attach_final_bar_line
+    \bar "|"                                                                       %! _attach_final_bar_line
     
 }
 
 
 S_ViolinIMusicVoice = {
     
-    % [S ViolinIMusicVoice measure 828 / measure 1]                        %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                            %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                            %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            "Vn. I"                                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                                  %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                       %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                            %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            "Vn. I"                                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                                  %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "treble"                                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)                %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                       %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                             %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! ATTACH_COLOR_LITERAL_2:REAPPLIED_DYNAMIC_COLOR:SM37
+    % [S ViolinIMusicVoice measure 828 / measure 1]                        %! _comment_measure_numbers
+    \set Staff.shortInstrumentName = \stirrings_still_vn_i                 %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     R1 * 1
-    \pp                                                                    %! SET_STATUS_TAG:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {                                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                           %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            "[“Vn. I”]"                                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“ViolinI”)                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                            %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                            %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            "Vn. I"                                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                                  %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                       %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                            %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            "Vn. I"                                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                                  %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \pp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+    ^ \markup \baca-reapplied-indicator-markup "[“Vn. I”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"               %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName = \stirrings_still_vn_i                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [S ViolinIMusicVoice measure 829 / measure 2]                        %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 829 / measure 2]                        %! _comment_measure_numbers
     R1 * 3/4
     
-    % [S ViolinIMusicVoice measure 830 / measure 3]                        %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 830 / measure 3]                        %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIMusicVoice measure 831 / measure 4]                        %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 831 / measure 4]                        %! _comment_measure_numbers
     R1 * 5/4
     \override TupletNumber.text = \markup {
         \scale
@@ -578,16 +548,16 @@ S_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIMusicVoice measure 832 / measure 5]                    %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIMusicVoice measure 832 / measure 5]                    %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 245/64
-        \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        ^ \markup { "extremely wide, fast circles" }                       %! INDICATOR_COMMAND
-        - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+        \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        ^ \markup { "extremely wide, fast circles" }                       %! IndicatorCommand
+        - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -615,24 +585,24 @@ S_ViolinIMusicVoice = {
         c'16 * 95/64
         
         \revert Staff.Stem.stemlet-length
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 23/16
-        \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+        \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]
     }
     \revert TupletNumber.text
     
-    % [S ViolinIMusicVoice measure 833 / measure 6]                        %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 833 / measure 6]                        %! _comment_measure_numbers
     R1 * 3/2
     
-    % [S ViolinIMusicVoice measure 834 / measure 7]                        %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 834 / measure 7]                        %! _comment_measure_numbers
     R1 * 3/4
     
-    % [S ViolinIMusicVoice measure 835 / measure 8]                        %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 835 / measure 8]                        %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIMusicVoice measure 836 / measure 9]                        %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 836 / measure 9]                        %! _comment_measure_numbers
     R1 * 5/4
     \override TupletNumber.text = \markup {
         \scale
@@ -675,15 +645,15 @@ S_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIMusicVoice measure 837 / measure 10]                   %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIMusicVoice measure 837 / measure 10]                   %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 235/64
-        \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:REDUNDANT_DYNAMIC:PIC_1
-        \>                                                                 %! SET_STATUS_TAG:REDUNDANT_DYNAMIC:PIC_1
+        \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \>                                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -748,15 +718,15 @@ S_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIMusicVoice measure 838 / measure 11]                   %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIMusicVoice measure 838 / measure 11]                   %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 79/64
-        \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+        \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -772,24 +742,24 @@ S_ViolinIMusicVoice = {
         c'16 * 169/64
         
         \revert Staff.Stem.stemlet-length
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 13/4
-        \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+        \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]
     }
     \revert TupletNumber.text
     
-    % [S ViolinIMusicVoice measure 839 / measure 12]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 839 / measure 12]                       %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIMusicVoice measure 840 / measure 13]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 840 / measure 13]                       %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIMusicVoice measure 841 / measure 14]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 841 / measure 14]                       %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIMusicVoice measure 842 / measure 15]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 842 / measure 15]                       %! _comment_measure_numbers
     R1 * 3/4
     \override TupletNumber.text = \markup {
         \scale
@@ -834,15 +804,15 @@ S_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIMusicVoice measure 843 / measure 16]                   %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIMusicVoice measure 843 / measure 16]                   %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 125/32
-        \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+        \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -910,15 +880,15 @@ S_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIMusicVoice measure 844 / measure 17]                   %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIMusicVoice measure 844 / measure 17]                   %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 43/32
-        \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+        \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -995,15 +965,15 @@ S_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIMusicVoice measure 845 / measure 18]                   %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIMusicVoice measure 845 / measure 18]                   %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 119/32
-        \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+        \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -1016,24 +986,24 @@ S_ViolinIMusicVoice = {
         c'16 * 51/32
         
         \revert Staff.Stem.stemlet-length
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 45/32
-        \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+        \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]
     }
     \revert TupletNumber.text
     
-    % [S ViolinIMusicVoice measure 846 / measure 19]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 846 / measure 19]                       %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIMusicVoice measure 847 / measure 20]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 847 / measure 20]                       %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIMusicVoice measure 848 / measure 21]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 848 / measure 21]                       %! _comment_measure_numbers
     R1 * 5/4
     
-    % [S ViolinIMusicVoice measure 849 / measure 22]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 849 / measure 22]                       %! _comment_measure_numbers
     R1 * 3/2
     \override TupletNumber.text = \markup {
         \scale
@@ -1076,15 +1046,15 @@ S_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIMusicVoice measure 850 / measure 23]                   %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIMusicVoice measure 850 / measure 23]                   %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 119/32
-        \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:REDUNDANT_DYNAMIC:PIC_1
-        \>                                                                 %! SET_STATUS_TAG:REDUNDANT_DYNAMIC:PIC_1
+        \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \>                                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -1143,15 +1113,15 @@ S_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIMusicVoice measure 851 / measure 24]                   %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIMusicVoice measure 851 / measure 24]                   %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 79/64
-        \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+        \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -1213,15 +1183,15 @@ S_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIMusicVoice measure 852 / measure 25]                   %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIMusicVoice measure 852 / measure 25]                   %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 235/64
-        \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+        \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -1286,15 +1256,15 @@ S_ViolinIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIMusicVoice measure 853 / measure 26]                   %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIMusicVoice measure 853 / measure 26]                   %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 77/64
-        \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+        \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -1316,39 +1286,39 @@ S_ViolinIMusicVoice = {
         c'16 * 189/64
         
         \revert Staff.Stem.stemlet-length
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 205/64
-        \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+        \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]
     }
     \revert TupletNumber.text
     
-    % [S ViolinIMusicVoice measure 854 / measure 27]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 854 / measure 27]                       %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIMusicVoice measure 855 / measure 28]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 855 / measure 28]                       %! _comment_measure_numbers
     R1 * 3/4
     
-    % [S ViolinIMusicVoice measure 856 / measure 29]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 856 / measure 29]                       %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIMusicVoice measure 857 / measure 30]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 857 / measure 30]                       %! _comment_measure_numbers
     R1 * 3/4
     
-    % [S ViolinIMusicVoice measure 858 / measure 31]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 858 / measure 31]                       %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIMusicVoice measure 859 / measure 32]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 859 / measure 32]                       %! _comment_measure_numbers
     R1 * 5/4
     
-    % [S ViolinIMusicVoice measure 860 / measure 33]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 860 / measure 33]                       %! _comment_measure_numbers
     R1 * 3/2
     
-    % [S ViolinIMusicVoice measure 861 / measure 34]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 861 / measure 34]                       %! _comment_measure_numbers
     R1 * 3/2
     
-    % [S ViolinIMusicVoice measure 862 / measure 35]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIMusicVoice measure 862 / measure 35]                       %! _comment_measure_numbers
     R1 * 1/4
     
 }
@@ -1362,59 +1332,29 @@ S_ViolinIMusicStaff = {
 
 S_ViolinIIMusicVoice = {
     
-    % [S ViolinIIMusicVoice measure 828 / measure 1]                       %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                            %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                            %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            "Vn. II"                                                       %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                                  %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                       %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                            %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            "Vn. II"                                                       %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                                  %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "treble"                                                         %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)                %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                       %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                             %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! ATTACH_COLOR_LITERAL_2:REAPPLIED_DYNAMIC_COLOR:SM37
+    % [S ViolinIIMusicVoice measure 828 / measure 1]                       %! _comment_measure_numbers
+    \set Staff.shortInstrumentName = \stirrings_still_vn_ii                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     R1 * 1
-    \pp                                                                    %! SET_STATUS_TAG:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {                                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                           %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            "[“Vn. II”]"                                                   %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“ViolinI”)                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                            %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                            %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            "Vn. II"                                                       %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                                  %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                       %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                            %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            "Vn. II"                                                       %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                                  %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \pp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+    ^ \markup \baca-reapplied-indicator-markup "[“Vn. II”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"               %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName = \stirrings_still_vn_ii                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [S ViolinIIMusicVoice measure 829 / measure 2]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 829 / measure 2]                       %! _comment_measure_numbers
     R1 * 3/4
     
-    % [S ViolinIIMusicVoice measure 830 / measure 3]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 830 / measure 3]                       %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIIMusicVoice measure 831 / measure 4]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 831 / measure 4]                       %! _comment_measure_numbers
     R1 * 5/4
     \override TupletNumber.text = \markup {
         \scale
@@ -1457,16 +1397,16 @@ S_ViolinIIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIIMusicVoice measure 832 / measure 5]                   %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIIMusicVoice measure 832 / measure 5]                   %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 155/64
-        \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        ^ \markup { "extremely wide, fast circles" }                       %! INDICATOR_COMMAND
-        - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+        \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        ^ \markup { "extremely wide, fast circles" }                       %! IndicatorCommand
+        - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -1488,24 +1428,24 @@ S_ViolinIIMusicVoice = {
         c'16 * 231/64
         
         \revert Staff.Stem.stemlet-length
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 245/64
-        \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+        \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]
     }
     \revert TupletNumber.text
     
-    % [S ViolinIIMusicVoice measure 833 / measure 6]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 833 / measure 6]                       %! _comment_measure_numbers
     R1 * 3/2
     
-    % [S ViolinIIMusicVoice measure 834 / measure 7]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 834 / measure 7]                       %! _comment_measure_numbers
     R1 * 3/4
     
-    % [S ViolinIIMusicVoice measure 835 / measure 8]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 835 / measure 8]                       %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIIMusicVoice measure 836 / measure 9]                       %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 836 / measure 9]                       %! _comment_measure_numbers
     R1 * 5/4
     \override TupletNumber.text = \markup {
         \scale
@@ -1548,15 +1488,15 @@ S_ViolinIIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIIMusicVoice measure 837 / measure 10]                  %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIIMusicVoice measure 837 / measure 10]                  %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 17/8
-        \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:REDUNDANT_DYNAMIC:PIC_1
-        \<                                                                 %! SET_STATUS_TAG:REDUNDANT_DYNAMIC:PIC_1
+        \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \<                                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -1618,15 +1558,15 @@ S_ViolinIIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIIMusicVoice measure 838 / measure 11]                  %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIIMusicVoice measure 838 / measure 11]                  %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 117/32
-        \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+        \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -1636,24 +1576,24 @@ S_ViolinIIMusicVoice = {
         c'16 * 43/16
         
         \revert Staff.Stem.stemlet-length
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 75/32
-        \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+        \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]
     }
     \revert TupletNumber.text
     
-    % [S ViolinIIMusicVoice measure 839 / measure 12]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 839 / measure 12]                      %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIIMusicVoice measure 840 / measure 13]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 840 / measure 13]                      %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIIMusicVoice measure 841 / measure 14]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 841 / measure 14]                      %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIIMusicVoice measure 842 / measure 15]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 842 / measure 15]                      %! _comment_measure_numbers
     R1 * 3/4
     \override TupletNumber.text = \markup {
         \scale
@@ -1698,15 +1638,15 @@ S_ViolinIIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIIMusicVoice measure 843 / measure 16]                  %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIIMusicVoice measure 843 / measure 16]                  %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 147/64
-        \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+        \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -1771,15 +1711,15 @@ S_ViolinIIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIIMusicVoice measure 844 / measure 17]                  %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIIMusicVoice measure 844 / measure 17]                  %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 15/4
-        \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+        \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -1847,15 +1787,15 @@ S_ViolinIIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIIMusicVoice measure 845 / measure 18]                  %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIIMusicVoice measure 845 / measure 18]                  %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 121/64
-        \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+        \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -1868,24 +1808,24 @@ S_ViolinIIMusicVoice = {
         c'16 * 177/64
         
         \revert Staff.Stem.stemlet-length
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 193/64
-        \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+        \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]
     }
     \revert TupletNumber.text
     
-    % [S ViolinIIMusicVoice measure 846 / measure 19]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 846 / measure 19]                      %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIIMusicVoice measure 847 / measure 20]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 847 / measure 20]                      %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIIMusicVoice measure 848 / measure 21]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 848 / measure 21]                      %! _comment_measure_numbers
     R1 * 5/4
     
-    % [S ViolinIIMusicVoice measure 849 / measure 22]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 849 / measure 22]                      %! _comment_measure_numbers
     R1 * 3/2
     \override TupletNumber.text = \markup {
         \scale
@@ -1928,15 +1868,15 @@ S_ViolinIIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIIMusicVoice measure 850 / measure 23]                  %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIIMusicVoice measure 850 / measure 23]                  %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 121/64
-        \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:REDUNDANT_DYNAMIC:PIC_1
-        \<                                                                 %! SET_STATUS_TAG:REDUNDANT_DYNAMIC:PIC_1
+        \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \<                                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -1995,15 +1935,15 @@ S_ViolinIIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIIMusicVoice measure 851 / measure 24]                  %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIIMusicVoice measure 851 / measure 24]                  %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 117/32
-        \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+        \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -2059,15 +1999,15 @@ S_ViolinIIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIIMusicVoice measure 852 / measure 25]                  %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIIMusicVoice measure 852 / measure 25]                  %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 17/8
-        \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        \<                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+        \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -2129,15 +2069,15 @@ S_ViolinIIMusicVoice = {
         }
     \times 1/1 {
         
-        % [S ViolinIIMusicVoice measure 853 / measure 26]                  %! COMMENT_MEASURE_NUMBERS
+        % [S ViolinIIMusicVoice measure 853 / measure 26]                  %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 249/64
-        \p                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        - \tweak color #blue                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-        \>                                                                 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+        \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
         \baca_unpitched_music_warning                                      %! SM_24
@@ -2150,39 +2090,39 @@ S_ViolinIIMusicVoice = {
         c'16 * 11/4
         
         \revert Staff.Stem.stemlet-length
-        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! SM_24
         c'16 * 5/2
-        \ppp                                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+        \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]
     }
     \revert TupletNumber.text
     
-    % [S ViolinIIMusicVoice measure 854 / measure 27]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 854 / measure 27]                      %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIIMusicVoice measure 855 / measure 28]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 855 / measure 28]                      %! _comment_measure_numbers
     R1 * 3/4
     
-    % [S ViolinIIMusicVoice measure 856 / measure 29]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 856 / measure 29]                      %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIIMusicVoice measure 857 / measure 30]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 857 / measure 30]                      %! _comment_measure_numbers
     R1 * 3/4
     
-    % [S ViolinIIMusicVoice measure 858 / measure 31]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 858 / measure 31]                      %! _comment_measure_numbers
     R1 * 1
     
-    % [S ViolinIIMusicVoice measure 859 / measure 32]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 859 / measure 32]                      %! _comment_measure_numbers
     R1 * 5/4
     
-    % [S ViolinIIMusicVoice measure 860 / measure 33]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 860 / measure 33]                      %! _comment_measure_numbers
     R1 * 3/2
     
-    % [S ViolinIIMusicVoice measure 861 / measure 34]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 861 / measure 34]                      %! _comment_measure_numbers
     R1 * 3/2
     
-    % [S ViolinIIMusicVoice measure 862 / measure 35]                      %! COMMENT_MEASURE_NUMBERS
+    % [S ViolinIIMusicVoice measure 862 / measure 35]                      %! _comment_measure_numbers
     R1 * 1/4
     
 }
@@ -2196,204 +2136,174 @@ S_ViolinIIMusicStaff = {
 
 S_ViolaMusicVoice = {
     
-    % [S ViolaMusicVoice measure 828 / measure 1]                          %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                            %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                            %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            Va.                                                            %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                                  %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                       %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                            %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            Va.                                                            %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                                  %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \stopStaff                                                             %! SET_STATUS_TAG:REAPPLIED_STAFF_LINES:SM37
-    \once \override Staff.StaffSymbol.line-count = 5                       %! SET_STATUS_TAG:REAPPLIED_STAFF_LINES:SM37
-    \startStaff                                                            %! SET_STATUS_TAG:REAPPLIED_STAFF_LINES:SM37
-    \clef "alto"                                                           %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)                %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                       %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                             %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! ATTACH_COLOR_LITERAL_2:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! ATTACH_COLOR_LITERAL_2:REDUNDANT_DYNAMIC_COLOR:INDICATOR_COMMAND
+    % [S ViolaMusicVoice measure 828 / measure 1]                          %! _comment_measure_numbers
+    \set Staff.shortInstrumentName = \stirrings_still_va                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \stopStaff                                                             %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.StaffSymbol.line-count = 5                       %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \clef "alto"                                                           %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     bf,!1
-    \baca_pp_sempre                                                        %! SET_STATUS_TAG:REDUNDANT_DYNAMIC:INDICATOR_COMMAND
-    ^ \markup {                                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                           %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“Va.”]                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Viola”)                                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                            %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                            %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            Va.                                                            %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                                  %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                       %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                            %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            Va.                                                            %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                                  %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \baca_pp_sempre                                                        %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
+    ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName = \stirrings_still_va                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [S ViolaMusicVoice measure 829 / measure 2]                          %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 829 / measure 2]                          %! _comment_measure_numbers
     bf,!2.
     \repeatTie
     
-    % [S ViolaMusicVoice measure 830 / measure 3]                          %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 830 / measure 3]                          %! _comment_measure_numbers
     bf,!1
     \repeatTie
     
-    % [S ViolaMusicVoice measure 831 / measure 4]                          %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 831 / measure 4]                          %! _comment_measure_numbers
     bf,!2.
     \repeatTie
     
     bf,!2
     \repeatTie
     
-    % [S ViolaMusicVoice measure 832 / measure 5]                          %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 832 / measure 5]                          %! _comment_measure_numbers
     bf,!1.
     \repeatTie
     
-    % [S ViolaMusicVoice measure 833 / measure 6]                          %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 833 / measure 6]                          %! _comment_measure_numbers
     bf,!1.
     \repeatTie
     
-    % [S ViolaMusicVoice measure 834 / measure 7]                          %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 834 / measure 7]                          %! _comment_measure_numbers
     bf,!2.
     \repeatTie
     
-    % [S ViolaMusicVoice measure 835 / measure 8]                          %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 835 / measure 8]                          %! _comment_measure_numbers
     bf,!1
     \repeatTie
     
-    % [S ViolaMusicVoice measure 836 / measure 9]                          %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 836 / measure 9]                          %! _comment_measure_numbers
     bf,!2.
     \repeatTie
     
     bf,!2
     \repeatTie
     
-    % [S ViolaMusicVoice measure 837 / measure 10]                         %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 837 / measure 10]                         %! _comment_measure_numbers
     bf,!1
     \repeatTie
     
-    % [S ViolaMusicVoice measure 838 / measure 11]                         %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 838 / measure 11]                         %! _comment_measure_numbers
     bf,!2.
     \repeatTie
     
-    % [S ViolaMusicVoice measure 839 / measure 12]                         %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 839 / measure 12]                         %! _comment_measure_numbers
     bf,!1
     \repeatTie
     
-    % [S ViolaMusicVoice measure 840 / measure 13]                         %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 840 / measure 13]                         %! _comment_measure_numbers
     bf,!1
     \repeatTie
     
-    % [S ViolaMusicVoice measure 841 / measure 14]                         %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 841 / measure 14]                         %! _comment_measure_numbers
     bf,!1
     \repeatTie
     
-    % [S ViolaMusicVoice measure 842 / measure 15]                         %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 842 / measure 15]                         %! _comment_measure_numbers
     bf,!2.
     \repeatTie
     
-    % [S ViolaMusicVoice measure 843 / measure 16]                         %! COMMENT_MEASURE_NUMBERS
-    bf,!2.
-    \repeatTie
-    
-    bf,!2
-    \repeatTie
-    
-    % [S ViolaMusicVoice measure 844 / measure 17]                         %! COMMENT_MEASURE_NUMBERS
-    bf,!1.
-    \repeatTie
-    
-    % [S ViolaMusicVoice measure 845 / measure 18]                         %! COMMENT_MEASURE_NUMBERS
-    bf,!2.
-    \repeatTie
-    
-    % [S ViolaMusicVoice measure 846 / measure 19]                         %! COMMENT_MEASURE_NUMBERS
-    bf,!1
-    \repeatTie
-    
-    % [S ViolaMusicVoice measure 847 / measure 20]                         %! COMMENT_MEASURE_NUMBERS
-    bf,!1
-    \repeatTie
-    
-    % [S ViolaMusicVoice measure 848 / measure 21]                         %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 843 / measure 16]                         %! _comment_measure_numbers
     bf,!2.
     \repeatTie
     
     bf,!2
     \repeatTie
     
-    % [S ViolaMusicVoice measure 849 / measure 22]                         %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 844 / measure 17]                         %! _comment_measure_numbers
     bf,!1.
     \repeatTie
     
-    % [S ViolaMusicVoice measure 850 / measure 23]                         %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 845 / measure 18]                         %! _comment_measure_numbers
     bf,!2.
     \repeatTie
     
-    % [S ViolaMusicVoice measure 851 / measure 24]                         %! COMMENT_MEASURE_NUMBERS
-    bf,!2.
-    \repeatTie
-    
-    % [S ViolaMusicVoice measure 852 / measure 25]                         %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 846 / measure 19]                         %! _comment_measure_numbers
     bf,!1
     \repeatTie
     
-    % [S ViolaMusicVoice measure 853 / measure 26]                         %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 847 / measure 20]                         %! _comment_measure_numbers
     bf,!1
     \repeatTie
     
-    % [S ViolaMusicVoice measure 854 / measure 27]                         %! COMMENT_MEASURE_NUMBERS
-    bf,!1
-    \repeatTie
-    
-    % [S ViolaMusicVoice measure 855 / measure 28]                         %! COMMENT_MEASURE_NUMBERS
-    bf,!2.
-    \repeatTie
-    
-    % [S ViolaMusicVoice measure 856 / measure 29]                         %! COMMENT_MEASURE_NUMBERS
-    bf,!1
-    \repeatTie
-    
-    % [S ViolaMusicVoice measure 857 / measure 30]                         %! COMMENT_MEASURE_NUMBERS
-    bf,!2.
-    \repeatTie
-    
-    % [S ViolaMusicVoice measure 858 / measure 31]                         %! COMMENT_MEASURE_NUMBERS
-    bf,!1
-    \repeatTie
-    
-    % [S ViolaMusicVoice measure 859 / measure 32]                         %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 848 / measure 21]                         %! _comment_measure_numbers
     bf,!2.
     \repeatTie
     
     bf,!2
     \repeatTie
     
-    % [S ViolaMusicVoice measure 860 / measure 33]                         %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 849 / measure 22]                         %! _comment_measure_numbers
     bf,!1.
     \repeatTie
     
-    % [S ViolaMusicVoice measure 861 / measure 34]                         %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 850 / measure 23]                         %! _comment_measure_numbers
+    bf,!2.
+    \repeatTie
+    
+    % [S ViolaMusicVoice measure 851 / measure 24]                         %! _comment_measure_numbers
+    bf,!2.
+    \repeatTie
+    
+    % [S ViolaMusicVoice measure 852 / measure 25]                         %! _comment_measure_numbers
+    bf,!1
+    \repeatTie
+    
+    % [S ViolaMusicVoice measure 853 / measure 26]                         %! _comment_measure_numbers
+    bf,!1
+    \repeatTie
+    
+    % [S ViolaMusicVoice measure 854 / measure 27]                         %! _comment_measure_numbers
+    bf,!1
+    \repeatTie
+    
+    % [S ViolaMusicVoice measure 855 / measure 28]                         %! _comment_measure_numbers
+    bf,!2.
+    \repeatTie
+    
+    % [S ViolaMusicVoice measure 856 / measure 29]                         %! _comment_measure_numbers
+    bf,!1
+    \repeatTie
+    
+    % [S ViolaMusicVoice measure 857 / measure 30]                         %! _comment_measure_numbers
+    bf,!2.
+    \repeatTie
+    
+    % [S ViolaMusicVoice measure 858 / measure 31]                         %! _comment_measure_numbers
+    bf,!1
+    \repeatTie
+    
+    % [S ViolaMusicVoice measure 859 / measure 32]                         %! _comment_measure_numbers
+    bf,!2.
+    \repeatTie
+    
+    bf,!2
+    \repeatTie
+    
+    % [S ViolaMusicVoice measure 860 / measure 33]                         %! _comment_measure_numbers
     bf,!1.
     \repeatTie
     
-    % [S ViolaMusicVoice measure 862 / measure 35]                         %! COMMENT_MEASURE_NUMBERS
+    % [S ViolaMusicVoice measure 861 / measure 34]                         %! _comment_measure_numbers
+    bf,!1.
+    \repeatTie
+    
+    % [S ViolaMusicVoice measure 862 / measure 35]                         %! _comment_measure_numbers
     R1 * 1/4
     
 }
@@ -2407,195 +2317,165 @@ S_ViolaMusicStaff = {
 
 S_CelloMusicVoice = {
     
-    % [S CelloMusicVoice measure 828 / measure 1]                          %! COMMENT_MEASURE_NUMBERS
-    \set Staff.instrumentName =                                            %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                            %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            Vc.                                                            %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                                  %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                       %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \markup {                                                              %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        \hcenter-in                                                        %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            #12                                                            %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-            Vc.                                                            %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-        }                                                                  %! SET_STATUS_TAG:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \clef "bass"                                                           %! SET_STATUS_TAG:REAPPLIED_CLEF:SM37
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! ATTACH_COLOR_LITERAL_2:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Staff.Clef.color = #(x11-color 'green4)                %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_COLOR:SM37
-%@% \override Staff.Clef.color = ##f                                       %! ATTACH_COLOR_LITERAL_1:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set Staff.forceClef = ##t                                             %! SET_STATUS_TAG:REAPPLIED_CLEF:SM33:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! ATTACH_COLOR_LITERAL_2:REAPPLIED_DYNAMIC_COLOR:SM37
+    % [S CelloMusicVoice measure 828 / measure 1]                          %! _comment_measure_numbers
+    \set Staff.shortInstrumentName = \stirrings_still_vc                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "bass"                                                           %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     R1 * 1
-    \pp                                                                    %! SET_STATUS_TAG:REAPPLIED_DYNAMIC:SM37
-    ^ \markup {                                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                           %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“Vc.”]                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Cello”)                                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! ATTACH_COLOR_LITERAL_2:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \set Staff.instrumentName =                                            %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                            %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            Vc.                                                            %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                                  %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \set Staff.shortInstrumentName =                                       %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \markup {                                                              %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        \hcenter-in                                                        %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            #12                                                            %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-            Vc.                                                            %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-        }                                                                  %! SET_STATUS_TAG:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! ATTACH_COLOR_LITERAL_2:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \pp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+    ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName = \stirrings_still_vc                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    % [S CelloMusicVoice measure 829 / measure 2]                          %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 829 / measure 2]                          %! _comment_measure_numbers
     R1 * 3/4
     
-    % [S CelloMusicVoice measure 830 / measure 3]                          %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 830 / measure 3]                          %! _comment_measure_numbers
     R1 * 1
     
-    % [S CelloMusicVoice measure 831 / measure 4]                          %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 831 / measure 4]                          %! _comment_measure_numbers
     R1 * 5/4
     
-    % [S CelloMusicVoice measure 832 / measure 5]                          %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 832 / measure 5]                          %! _comment_measure_numbers
     \ottava #-1                                                            %! SC
     b,,,1
-    - \tweak color #blue                                                   %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-    - \tweak circled-tip ##t                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-    \<                                                                     %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
     b,,,4
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     b,,,4
-    \mf                                                                    %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+    \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     \ottava #0                                                             %! SC
     
-    % [S CelloMusicVoice measure 833 / measure 6]                          %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 833 / measure 6]                          %! _comment_measure_numbers
     R1 * 3/2
     
-    % [S CelloMusicVoice measure 834 / measure 7]                          %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 834 / measure 7]                          %! _comment_measure_numbers
     R1 * 3/4
     
-    % [S CelloMusicVoice measure 835 / measure 8]                          %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 835 / measure 8]                          %! _comment_measure_numbers
     R1 * 1
     
-    % [S CelloMusicVoice measure 836 / measure 9]                          %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 836 / measure 9]                          %! _comment_measure_numbers
     R1 * 5/4
     
-    % [S CelloMusicVoice measure 837 / measure 10]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 837 / measure 10]                         %! _comment_measure_numbers
     \ottava #-1                                                            %! SC
     b,,,1
-    - \tweak color #blue                                                   %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-    - \tweak circled-tip ##t                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-    \<                                                                     %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
-    % [S CelloMusicVoice measure 838 / measure 11]                         %! COMMENT_MEASURE_NUMBERS
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+    % [S CelloMusicVoice measure 838 / measure 11]                         %! _comment_measure_numbers
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     b,,,2.
-    \f                                                                     %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+    \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     \ottava #0                                                             %! SC
     
-    % [S CelloMusicVoice measure 839 / measure 12]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 839 / measure 12]                         %! _comment_measure_numbers
     R1 * 1
     
-    % [S CelloMusicVoice measure 840 / measure 13]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 840 / measure 13]                         %! _comment_measure_numbers
     R1 * 1
     
-    % [S CelloMusicVoice measure 841 / measure 14]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 841 / measure 14]                         %! _comment_measure_numbers
     R1 * 1
     
-    % [S CelloMusicVoice measure 842 / measure 15]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 842 / measure 15]                         %! _comment_measure_numbers
     R1 * 3/4
     
-    % [S CelloMusicVoice measure 843 / measure 16]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 843 / measure 16]                         %! _comment_measure_numbers
     \ottava #-1                                                            %! SC
     b,,,2.
-    - \tweak color #blue                                                   %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-    - \tweak circled-tip ##t                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-    \<                                                                     %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
     b,,,2
     \repeatTie
     
-    % [S CelloMusicVoice measure 844 / measure 17]                         %! COMMENT_MEASURE_NUMBERS
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+    % [S CelloMusicVoice measure 844 / measure 17]                         %! _comment_measure_numbers
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     b,,,1.
-    \ff                                                                    %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+    \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
-    % [S CelloMusicVoice measure 845 / measure 18]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 845 / measure 18]                         %! _comment_measure_numbers
     b,,,2.
     \repeatTie
     \ottava #0                                                             %! SC
     
-    % [S CelloMusicVoice measure 846 / measure 19]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 846 / measure 19]                         %! _comment_measure_numbers
     R1 * 1
     
-    % [S CelloMusicVoice measure 847 / measure 20]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 847 / measure 20]                         %! _comment_measure_numbers
     R1 * 1
     
-    % [S CelloMusicVoice measure 848 / measure 21]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 848 / measure 21]                         %! _comment_measure_numbers
     R1 * 5/4
     
-    % [S CelloMusicVoice measure 849 / measure 22]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 849 / measure 22]                         %! _comment_measure_numbers
     R1 * 3/2
     
-    % [S CelloMusicVoice measure 850 / measure 23]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 850 / measure 23]                         %! _comment_measure_numbers
     \ottava #-1                                                            %! SC
     b,,,2.
-    - \tweak color #blue                                                   %! SM_43 %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-    - \tweak circled-tip ##t                                               %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
-    \<                                                                     %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_1
+    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
-    % [S CelloMusicVoice measure 851 / measure 24]                         %! COMMENT_MEASURE_NUMBERS
-    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! ATTACH_COLOR_LITERAL_2:EXPLICIT_DYNAMIC_COLOR:PIC_2
+    % [S CelloMusicVoice measure 851 / measure 24]                         %! _comment_measure_numbers
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     b,,,2.
-    \fff                                                                   %! SET_STATUS_TAG:EXPLICIT_DYNAMIC:PIC_2
+    \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
-    % [S CelloMusicVoice measure 852 / measure 25]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 852 / measure 25]                         %! _comment_measure_numbers
     b,,,1
     \repeatTie
     
-    % [S CelloMusicVoice measure 853 / measure 26]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 853 / measure 26]                         %! _comment_measure_numbers
     b,,,1
     \repeatTie
     \ottava #0                                                             %! SC
     
-    % [S CelloMusicVoice measure 854 / measure 27]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 854 / measure 27]                         %! _comment_measure_numbers
     R1 * 1
     
-    % [S CelloMusicVoice measure 855 / measure 28]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 855 / measure 28]                         %! _comment_measure_numbers
     R1 * 3/4
     
-    % [S CelloMusicVoice measure 856 / measure 29]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 856 / measure 29]                         %! _comment_measure_numbers
     R1 * 1
     
-    % [S CelloMusicVoice measure 857 / measure 30]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 857 / measure 30]                         %! _comment_measure_numbers
     R1 * 3/4
     
-    % [S CelloMusicVoice measure 858 / measure 31]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 858 / measure 31]                         %! _comment_measure_numbers
     R1 * 1
     
-    % [S CelloMusicVoice measure 859 / measure 32]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 859 / measure 32]                         %! _comment_measure_numbers
     R1 * 5/4
     
-    % [S CelloMusicVoice measure 860 / measure 33]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 860 / measure 33]                         %! _comment_measure_numbers
     R1 * 3/2
     
-    % [S CelloMusicVoice measure 861 / measure 34]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 861 / measure 34]                         %! _comment_measure_numbers
     R1 * 3/2
     
-    % [S CelloMusicVoice measure 862 / measure 35]                         %! COMMENT_MEASURE_NUMBERS
+    % [S CelloMusicVoice measure 862 / measure 35]                         %! _comment_measure_numbers
     R1 * 1/4
     
 }

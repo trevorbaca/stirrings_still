@@ -2,26 +2,21 @@ import abjad
 import baca
 
 
-def _make_margin_markup(markup):
-    return abjad.MarginMarkup(
-        markup=baca.markups.instrument(markup, hcenter_in=12),
-        )
-
 margin_markups = abjad.OrderedDict([
     (
         'Va.',
-        _make_margin_markup('Va.'),
+        abjad.MarginMarkup(markup=r'\stirrings_still_va'),
         ),
     (
         'Vc.',
-        _make_margin_markup('Vc.'),
+        abjad.MarginMarkup(markup=r'\stirrings_still_vc'),
         ),
     (
         'Vn. I',
-        _make_margin_markup('Vn. I'),
+        abjad.MarginMarkup(markup=r'\stirrings_still_vn_i'),
         ),
     (
         'Vn. II',
-        _make_margin_markup('Vn. II'),
+        abjad.MarginMarkup(markup=r'\stirrings_still_vn_ii'),
         ),
     ])

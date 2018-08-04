@@ -99,14 +99,14 @@ maker(
     'v1',
     baca.suite(
         stirrings_still.margin_markup('Vn. I'),
-        baca.start_markup('Violin I', hcenter_in=14),
+        baca.start_markup(r'\stirrings_still_violin_i', literal=True),
         ),
     )
 maker(
     'v2',
     baca.suite(
         stirrings_still.margin_markup('Vn. II'),
-        baca.start_markup('Violin II', hcenter_in=14),
+        baca.start_markup(r'\stirrings_still_violin_ii', literal=True),
         ),
     )
 
@@ -114,7 +114,7 @@ maker(
     'va',
     baca.suite(
         stirrings_still.margin_markup('Va.'),
-        baca.start_markup('Viola', hcenter_in=14),
+        baca.start_markup(r'\stirrings_still_viola', literal=True),
         ),
     )
 
@@ -122,7 +122,7 @@ maker(
     'vc',
     baca.suite(
         stirrings_still.margin_markup('Vc.'),
-        baca.start_markup('Cello', hcenter_in=14),
+        baca.start_markup(r'\stirrings_still_cello', literal=True),
         ),
     )
 
