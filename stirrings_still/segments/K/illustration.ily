@@ -2907,7 +2907,7 @@ K_ViolaMusicVoice = {
     \override TextScript.parent-alignment-X = #0                           %! OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \baca_effort_mp                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                            %! IndicatorCommand
         \override                                                          %! IndicatorCommand
@@ -2917,27 +2917,27 @@ K_ViolaMusicVoice = {
         }                                                                  %! IndicatorCommand
     \glissando                                                             %! SpannerCommand
     
-    c'8
+    c'8                                                                    %! baca_make_repeat_tied_notes
     \glissando                                                             %! SpannerCommand
     
     % [K ViolaMusicVoice measure 552 / measure 7]                          %! _comment_measure_numbers
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \glissando                                                             %! SpannerCommand
     
     % [K ViolaMusicVoice measure 553 / measure 8]                          %! _comment_measure_numbers
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \glissando                                                             %! SpannerCommand
     
     % [K ViolaMusicVoice measure 554 / measure 9]                          %! _comment_measure_numbers
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \glissando                                                             %! SpannerCommand
     
     % [K ViolaMusicVoice measure 555 / measure 10]                         %! _comment_measure_numbers
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \glissando                                                             %! SpannerCommand
     
     % [K ViolaMusicVoice measure 556 / measure 11]                         %! _comment_measure_numbers
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \revert TextScript.parent-alignment-X                                  %! OverrideCommand(2)
     
     % [K ViolaMusicVoice measure 557 / measure 12]                         %! _comment_measure_numbers

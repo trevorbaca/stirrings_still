@@ -3978,7 +3978,7 @@ E_CelloMusicVoice = {
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \fff                                                                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -3987,145 +3987,145 @@ E_CelloMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 307 / measure 2]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 308 / measure 3]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 309 / measure 4]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 310 / measure 5]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 311 / measure 6]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 312 / measure 7]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 313 / measure 8]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 314 / measure 9]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 315 / measure 10]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 316 / measure 11]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 317 / measure 12]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 318 / measure 13]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 319 / measure 14]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 320 / measure 15]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 321 / measure 16]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 322 / measure 17]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 323 / measure 18]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 324 / measure 19]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 325 / measure 20]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 326 / measure 21]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 327 / measure 22]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 328 / measure 23]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 329 / measure 24]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 330 / measure 25]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 331 / measure 26]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 332 / measure 27]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E CelloMusicVoice measure 333 / measure 28]                         %! _comment_measure_numbers

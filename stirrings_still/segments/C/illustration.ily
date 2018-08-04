@@ -2312,7 +2312,7 @@ C_ViolinIMusicVoice = {
     \override NoteHead.style = #'harmonic                                  %! OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                            %! IndicatorCommand
         \override                                                          %! IndicatorCommand
@@ -2329,11 +2329,11 @@ C_ViolinIMusicVoice = {
         
         % [C ViolinIMusicVoice measure 158 / measure 29]                   %! _comment_measure_numbers
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'2
+        c'2                                                                %! baca_make_repeat_tied_notes
         \repeatTie
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! baca_make_repeat_tied_notes
         \repeatTie
         \revert NoteHead.style                                             %! OverrideCommand(2)
     }
@@ -2731,7 +2731,7 @@ C_ViolinIMusicVoice = {
     % [C ViolinIMusicVoice measure 189 / measure 60]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \baca_appena_udibile                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "[double-stop field]" %! PiecewiseIndicatorCommand(1)
@@ -2741,7 +2741,7 @@ C_ViolinIMusicVoice = {
     
     % [C ViolinIMusicVoice measure 190 / measure 61]                       %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     \breathe                                                               %! IndicatorCommand
     <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
@@ -3942,7 +3942,7 @@ C_ViolinIIMusicVoice = {
     % [C ViolinIIMusicVoice measure 189 / measure 60]                      %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \baca_appena_udibile                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "[double-stop field]" %! PiecewiseIndicatorCommand(1)
@@ -3952,7 +3952,7 @@ C_ViolinIIMusicVoice = {
     
     % [C ViolinIIMusicVoice measure 190 / measure 61]                      %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     \breathe                                                               %! IndicatorCommand
     <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
@@ -4855,7 +4855,7 @@ C_ViolaMusicVoice = {
     \override NoteHead.style = #'harmonic                                  %! OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                            %! IndicatorCommand
         \override                                                          %! IndicatorCommand
@@ -4872,11 +4872,11 @@ C_ViolaMusicVoice = {
         
         % [C ViolaMusicVoice measure 158 / measure 29]                     %! _comment_measure_numbers
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'2
+        c'2                                                                %! baca_make_repeat_tied_notes
         \repeatTie
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! baca_make_repeat_tied_notes
         \repeatTie
         \revert NoteHead.style                                             %! OverrideCommand(2)
     }
@@ -5284,7 +5284,7 @@ C_ViolaMusicVoice = {
     % [C ViolaMusicVoice measure 189 / measure 60]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \baca_appena_udibile                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup \baca-left "[double-stop field]" %! PiecewiseIndicatorCommand(1)
@@ -5294,7 +5294,7 @@ C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 190 / measure 61]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     \breathe                                                               %! IndicatorCommand
     <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
@@ -6038,7 +6038,7 @@ C_CelloMusicVoice = {
     \override NoteHead.style = #'harmonic                                  %! OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                            %! IndicatorCommand
         \override                                                          %! IndicatorCommand
@@ -6055,11 +6055,11 @@ C_CelloMusicVoice = {
         
         % [C CelloMusicVoice measure 158 / measure 29]                     %! _comment_measure_numbers
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'2
+        c'2                                                                %! baca_make_repeat_tied_notes
         \repeatTie
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! baca_make_repeat_tied_notes
         \repeatTie
         \revert NoteHead.style                                             %! OverrideCommand(2)
     }
@@ -6126,17 +6126,17 @@ C_CelloMusicVoice = {
     % [C CelloMusicVoice measure 163 / measure 34]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "[clouded pane revelation]" }                              %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C CelloMusicVoice measure 164 / measure 35]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     \breathe                                                               %! IndicatorCommand
     

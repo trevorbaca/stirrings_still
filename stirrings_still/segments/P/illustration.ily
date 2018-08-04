@@ -405,7 +405,7 @@ P_ViolinIMusicVoice = {
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vn. I”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"               %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -416,25 +416,25 @@ P_ViolinIMusicVoice = {
     
     % [P ViolinIMusicVoice measure 695 / measure 2]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolinIMusicVoice measure 696 / measure 3]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolinIMusicVoice measure 697 / measure 4]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolinIMusicVoice measure 698 / measure 5]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     \override TupletNumber.text = \markup {
         \scale
@@ -583,12 +583,12 @@ P_ViolinIMusicVoice = {
     % [P ViolinIMusicVoice measure 701 / measure 8]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
     % [P ViolinIMusicVoice measure 702 / measure 9]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     \override TupletNumber.text = \markup {
         \scale
@@ -669,32 +669,32 @@ P_ViolinIMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup { "tasto [TODO: clouded pane fixed pitches]" }               %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolinIMusicVoice measure 705 / measure 12]                       %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolinIMusicVoice measure 706 / measure 13]                       %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolinIMusicVoice measure 707 / measure 14]                       %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolinIMusicVoice measure 708 / measure 15]                       %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -854,12 +854,12 @@ P_ViolinIMusicVoice = {
     % [P ViolinIMusicVoice measure 711 / measure 18]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
     % [P ViolinIMusicVoice measure 712 / measure 19]                       %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     \override TupletNumber.text = \markup {
         \scale
@@ -1082,7 +1082,7 @@ P_ViolinIIMusicVoice = {
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vn. II”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"               %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1093,17 +1093,17 @@ P_ViolinIIMusicVoice = {
     
     % [P ViolinIIMusicVoice measure 695 / measure 2]                       %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolinIIMusicVoice measure 696 / measure 3]                       %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolinIIMusicVoice measure 697 / measure 4]                       %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     \override TupletNumber.text = \markup {
         \scale
@@ -1179,7 +1179,7 @@ P_ViolinIIMusicVoice = {
     % [P ViolinIIMusicVoice measure 699 / measure 6]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \override TupletNumber.text = \markup {
         \scale
@@ -1259,7 +1259,7 @@ P_ViolinIIMusicVoice = {
     % [P ViolinIIMusicVoice measure 701 / measure 8]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \override TupletNumber.text = \markup {
         \scale
@@ -1333,31 +1333,31 @@ P_ViolinIIMusicVoice = {
     % [P ViolinIIMusicVoice measure 703 / measure 10]                      %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
     % [P ViolinIIMusicVoice measure 704 / measure 11]                      %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     ^ \markup { "tasto [TODO: clouded pane fixed pitches]" }               %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolinIIMusicVoice measure 705 / measure 12]                      %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolinIIMusicVoice measure 706 / measure 13]                      %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolinIIMusicVoice measure 707 / measure 14]                      %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     \override TupletNumber.text = \markup {
         \scale
@@ -1434,7 +1434,7 @@ P_ViolinIIMusicVoice = {
     % [P ViolinIIMusicVoice measure 709 / measure 16]                      %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \override TupletNumber.text = \markup {
         \scale
@@ -1520,7 +1520,7 @@ P_ViolinIIMusicVoice = {
     % [P ViolinIIMusicVoice measure 711 / measure 18]                      %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \override TupletNumber.text = \markup {
         \scale
@@ -1757,7 +1757,7 @@ P_ViolaMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1768,36 +1768,36 @@ P_ViolaMusicVoice = {
     
     % [P ViolaMusicVoice measure 695 / measure 2]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [P ViolaMusicVoice measure 696 / measure 3]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolaMusicVoice measure 697 / measure 4]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolaMusicVoice measure 698 / measure 5]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolaMusicVoice measure 699 / measure 6]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolaMusicVoice measure 700 / measure 7]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     \override TupletNumber.text = \markup {
         \scale
@@ -2001,42 +2001,42 @@ P_ViolaMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup { "tasto [TODO: clouded pane fixed pitches]" }               %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolaMusicVoice measure 705 / measure 12]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolaMusicVoice measure 706 / measure 13]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolaMusicVoice measure 707 / measure 14]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P ViolaMusicVoice measure 708 / measure 15]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     
     % [P ViolaMusicVoice measure 709 / measure 16]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [P ViolaMusicVoice measure 710 / measure 17]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     \override TupletNumber.text = \markup {
@@ -2386,7 +2386,7 @@ P_CelloMusicVoice = {
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -2397,25 +2397,25 @@ P_CelloMusicVoice = {
     
     % [P CelloMusicVoice measure 695 / measure 2]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P CelloMusicVoice measure 696 / measure 3]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P CelloMusicVoice measure 697 / measure 4]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P CelloMusicVoice measure 698 / measure 5]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     \override TupletNumber.text = \markup {
         \scale
@@ -2610,41 +2610,41 @@ P_CelloMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
     % [P CelloMusicVoice measure 703 / measure 10]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P CelloMusicVoice measure 704 / measure 11]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     ^ \markup { "tasto [TODO: clouded pane fixed pitches]" }               %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P CelloMusicVoice measure 705 / measure 12]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P CelloMusicVoice measure 706 / measure 13]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P CelloMusicVoice measure 707 / measure 14]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [P CelloMusicVoice measure 708 / measure 15]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2..
+    c'2..                                                                  %! baca_make_repeat_tied_notes
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
