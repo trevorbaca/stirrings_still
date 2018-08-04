@@ -121,7 +121,6 @@ G_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [G.1]                                         %! SM3:STAGE_NUMBER_MARKUP
     ^ \markup { [G.1] }                                                            %! IC
 %@% ^ \markup \baca-dark-cyan-markup "[18'10'']"                                   %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! MMI_1
 %@% - \abjad_invisible_line                                                        %! MMI_2
 %@% - \tweak bound-details.left.text \markup {                                     %! MMI_2
 %@%     \concat                                                                    %! MMI_2

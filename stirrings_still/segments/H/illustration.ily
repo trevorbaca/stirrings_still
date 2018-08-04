@@ -205,7 +205,6 @@ H_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [H.1]                                         %! SM3:STAGE_NUMBER_MARKUP
     ^ \markup { [H.1] }                                                            %! IC
 %@% ^ \markup \baca-dark-cyan-markup "[18'58'']"                                   %! SM28:CLOCK_TIME_MARKUP
-    \stopTextSpan                                                                  %! MMI_1
 %@% - \abjad_dashed_line_with_arrow                                                %! MMI_2
 %@% - \tweak bound-details.left.text \markup {                                     %! MMI_2
 %@%     \concat                                                                    %! MMI_2
