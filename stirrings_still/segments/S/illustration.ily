@@ -489,14 +489,14 @@ S_ViolinIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     R1 * 1
     \pp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vn. I”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"               %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \stirrings_still_vn_i                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName = \stirrings_still_vn_i                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [S ViolinIMusicVoice measure 829 / measure 2]                        %! _comment_measure_numbers
@@ -552,7 +552,7 @@ S_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 245/64
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ^ \markup { "extremely wide, fast circles" }                       %! IndicatorCommand
@@ -560,33 +560,33 @@ S_ViolinIMusicVoice = {
         \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 235/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 13/4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 11/4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 37/16
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 63/32
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 111/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 25/16
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 95/64
         
         \revert Staff.Stem.stemlet-length
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 23/16
         \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]
@@ -649,30 +649,30 @@ S_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 235/64
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 213/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 167/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 127/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 103/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 23/16
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 87/64
         ]
     }
@@ -722,28 +722,28 @@ S_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 79/64
         \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 21/16
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 25/16
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 2
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 169/64
         
         \revert Staff.Stem.stemlet-length
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 13/4
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]
@@ -808,33 +808,33 @@ S_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 125/32
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 235/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 199/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 5/2
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 131/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 111/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 25/16
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 47/32
         ]
     }
@@ -884,42 +884,42 @@ S_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 43/32
         \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 87/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 91/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 49/32
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 109/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 123/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 71/32
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 83/32
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 191/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 215/64
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 57/16
         ]
     }
@@ -969,25 +969,25 @@ S_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 119/32
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 201/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 137/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 51/32
         
         \revert Staff.Stem.stemlet-length
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 45/32
         \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]
@@ -1050,24 +1050,24 @@ S_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 119/32
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 201/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 137/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 51/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 45/32
         ]
     }
@@ -1117,27 +1117,27 @@ S_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 79/64
         \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 21/16
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 25/16
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 2
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 169/64
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 13/4
         ]
     }
@@ -1187,30 +1187,30 @@ S_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 235/64
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 213/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 167/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 127/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 103/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 23/16
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 87/64
         ]
     }
@@ -1260,34 +1260,34 @@ S_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 77/64
         \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 5/4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 11/8
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 103/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 63/32
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 39/16
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 189/64
         
         \revert Staff.Stem.stemlet-length
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 205/64
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]
@@ -1338,14 +1338,14 @@ S_ViolinIIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     R1 * 1
     \pp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vn. II”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"               %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \stirrings_still_vn_ii                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName = \stirrings_still_vn_ii                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [S ViolinIIMusicVoice measure 829 / measure 2]                       %! _comment_measure_numbers
@@ -1401,7 +1401,7 @@ S_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 155/64
         \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ^ \markup { "extremely wide, fast circles" }                       %! IndicatorCommand
@@ -1409,27 +1409,27 @@ S_ViolinIIMusicVoice = {
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 79/32
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 165/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 177/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 193/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 53/16
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 231/64
         
         \revert Staff.Stem.stemlet-length
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 245/64
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]
@@ -1492,27 +1492,27 @@ S_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 17/8
         \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 141/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 155/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 11/4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 25/8
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 27/8
         ]
     }
@@ -1562,22 +1562,22 @@ S_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 117/32
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 53/16
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 43/16
         
         \revert Staff.Stem.stemlet-length
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 75/32
         \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]
@@ -1642,30 +1642,30 @@ S_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 147/64
         \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 75/32
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 5/2
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 11/4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 49/16
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 109/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 233/64
         ]
     }
@@ -1715,33 +1715,33 @@ S_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 15/4
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 117/32
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 109/32
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 99/32
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 179/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 41/16
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 77/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 149/64
         ]
     }
@@ -1791,25 +1791,25 @@ S_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 121/64
         \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 2
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 149/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 177/64
         
         \revert Staff.Stem.stemlet-length
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 193/64
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]
@@ -1872,24 +1872,24 @@ S_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 121/64
         \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 2
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 149/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 177/64
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 193/64
         ]
     }
@@ -1939,21 +1939,21 @@ S_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 117/32
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 53/16
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 43/16
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 75/32
         ]
     }
@@ -2003,27 +2003,27 @@ S_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 17/8
         \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 141/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 155/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 11/4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 25/8
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 27/8
         ]
     }
@@ -2073,25 +2073,25 @@ S_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 249/64
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 235/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 51/16
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 11/4
         
         \revert Staff.Stem.stemlet-length
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 5/2
         \ppp                                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]
@@ -2145,7 +2145,7 @@ S_ViolaMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     bf,!1
@@ -2153,7 +2153,7 @@ S_ViolaMusicVoice = {
     ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \stirrings_still_va                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName = \stirrings_still_va                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [S ViolaMusicVoice measure 829 / measure 2]                          %! _comment_measure_numbers
@@ -2323,14 +2323,14 @@ S_CelloMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     R1 * 1
     \pp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \stirrings_still_vc                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName = \stirrings_still_vc                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [S CelloMusicVoice measure 829 / measure 2]                          %! _comment_measure_numbers
@@ -2343,9 +2343,9 @@ S_CelloMusicVoice = {
     R1 * 5/4
     
     % [S CelloMusicVoice measure 832 / measure 5]                          %! _comment_measure_numbers
-    \ottava #-1                                                            %! SC
+    \ottava #-1                                                            %! SpannerCommand
     b,,,1
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
@@ -2356,7 +2356,7 @@ S_CelloMusicVoice = {
     b,,,4
     \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    \ottava #0                                                             %! SC
+    \ottava #0                                                             %! SpannerCommand
     
     % [S CelloMusicVoice measure 833 / measure 6]                          %! _comment_measure_numbers
     R1 * 3/2
@@ -2371,9 +2371,9 @@ S_CelloMusicVoice = {
     R1 * 5/4
     
     % [S CelloMusicVoice measure 837 / measure 10]                         %! _comment_measure_numbers
-    \ottava #-1                                                            %! SC
+    \ottava #-1                                                            %! SpannerCommand
     b,,,1
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
@@ -2382,7 +2382,7 @@ S_CelloMusicVoice = {
     b,,,2.
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    \ottava #0                                                             %! SC
+    \ottava #0                                                             %! SpannerCommand
     
     % [S CelloMusicVoice measure 839 / measure 12]                         %! _comment_measure_numbers
     R1 * 1
@@ -2397,9 +2397,9 @@ S_CelloMusicVoice = {
     R1 * 3/4
     
     % [S CelloMusicVoice measure 843 / measure 16]                         %! _comment_measure_numbers
-    \ottava #-1                                                            %! SC
+    \ottava #-1                                                            %! SpannerCommand
     b,,,2.
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
@@ -2415,7 +2415,7 @@ S_CelloMusicVoice = {
     % [S CelloMusicVoice measure 845 / measure 18]                         %! _comment_measure_numbers
     b,,,2.
     \repeatTie
-    \ottava #0                                                             %! SC
+    \ottava #0                                                             %! SpannerCommand
     
     % [S CelloMusicVoice measure 846 / measure 19]                         %! _comment_measure_numbers
     R1 * 1
@@ -2430,9 +2430,9 @@ S_CelloMusicVoice = {
     R1 * 3/2
     
     % [S CelloMusicVoice measure 850 / measure 23]                         %! _comment_measure_numbers
-    \ottava #-1                                                            %! SC
+    \ottava #-1                                                            %! SpannerCommand
     b,,,2.
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
@@ -2449,7 +2449,7 @@ S_CelloMusicVoice = {
     % [S CelloMusicVoice measure 853 / measure 26]                         %! _comment_measure_numbers
     b,,,1
     \repeatTie
-    \ottava #0                                                             %! SC
+    \ottava #0                                                             %! SpannerCommand
     
     % [S CelloMusicVoice measure 854 / measure 27]                         %! _comment_measure_numbers
     R1 * 1

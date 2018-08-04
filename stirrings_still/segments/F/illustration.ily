@@ -260,73 +260,73 @@ F_ViolinIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-reapplied-indicator-markup "[“Vn. I”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"               %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "[clouded pane partials (double-stop)]" }                  %! IndicatorCommand
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \stirrings_still_vn_i                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName = \stirrings_still_vn_i                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [F ViolinIMusicVoice measure 434 / measure 2]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
     
     % [F ViolinIMusicVoice measure 435 / measure 3]                        %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'2.
     \repeatTie
     
     % [F ViolinIMusicVoice measure 436 / measure 4]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     \repeatTie
     
     % [F ViolinIMusicVoice measure 437 / measure 5]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1.
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
     
     % [F ViolinIMusicVoice measure 438 / measure 6]                        %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'2.
     \repeatTie
     
     % [F ViolinIMusicVoice measure 439 / measure 7]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
     
     % [F ViolinIMusicVoice measure 440 / measure 8]                        %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -350,52 +350,52 @@ F_ViolinIMusicVoice = {
         
         % [F ViolinIMusicVoice measure 444 / measure 12]                   %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "maximally tight crunch circles: grind at talon" }     %! IndicatorCommand
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [F ViolinIMusicVoice measure 445 / measure 13]                   %! _comment_measure_numbers
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     
@@ -419,72 +419,72 @@ F_ViolinIIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-reapplied-indicator-markup "[“Vn. II”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"               %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \stirrings_still_vn_ii                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName = \stirrings_still_vn_ii                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [F ViolinIIMusicVoice measure 434 / measure 2]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 435 / measure 3]                       %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'2.
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 436 / measure 4]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 437 / measure 5]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1.
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 438 / measure 6]                       %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'2.
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 439 / measure 7]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
     
     % [F ViolinIIMusicVoice measure 440 / measure 8]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -509,47 +509,47 @@ F_ViolinIIMusicVoice = {
     f'4
     \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "maximally tight crunch circles: grind at talon" }         %! IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
-    \hide NoteHead                                                         %! SC
-    \override Accidental.stencil = ##f                                     %! SC
-    \override NoteColumn.glissando-skip = ##t                              %! SC
-    \override NoteHead.no-ledgers = ##t                                    %! SC
+    \hide NoteHead                                                         %! SpannerCommand
+    \override Accidental.stencil = ##f                                     %! SpannerCommand
+    \override NoteColumn.glissando-skip = ##t                              %! SpannerCommand
+    \override NoteHead.no-ledgers = ##t                                    %! SpannerCommand
     f'4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     f'4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     g'4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     g'4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     g'4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [F ViolinIIMusicVoice measure 445 / measure 13]                      %! _comment_measure_numbers
     g'4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     g'4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     g'4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     a'4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     a'4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
-    \revert Accidental.stencil                                             %! SC
-    \revert NoteColumn.glissando-skip                                      %! SC
-    \revert NoteHead.no-ledgers                                            %! SC
-    \undo \hide NoteHead                                                   %! SC
+    \revert Accidental.stencil                                             %! SpannerCommand
+    \revert NoteColumn.glissando-skip                                      %! SpannerCommand
+    \revert NoteHead.no-ledgers                                            %! SpannerCommand
+    \undo \hide NoteHead                                                   %! SpannerCommand
     af'!4
     
     % [F ViolinIIMusicVoice measure 446 / measure 14]                      %! _comment_measure_numbers
@@ -577,7 +577,7 @@ F_ViolaMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'1
@@ -590,53 +590,53 @@ F_ViolaMusicVoice = {
             \box                                                           %! IndicatorCommand
                 tailpiece                                                  %! IndicatorCommand
         }                                                                  %! IndicatorCommand
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \stirrings_still_va                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName = \stirrings_still_va                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [F ViolaMusicVoice measure 434 / measure 2]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'1
     \baca_effort_mp                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [F ViolaMusicVoice measure 435 / measure 3]                          %! _comment_measure_numbers
     c'2.
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [F ViolaMusicVoice measure 436 / measure 4]                          %! _comment_measure_numbers
     c'1
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     c'4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [F ViolaMusicVoice measure 437 / measure 5]                          %! _comment_measure_numbers
     c'1.
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [F ViolaMusicVoice measure 438 / measure 6]                          %! _comment_measure_numbers
     c'2.
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [F ViolaMusicVoice measure 439 / measure 7]                          %! _comment_measure_numbers
     c'1
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [F ViolaMusicVoice measure 440 / measure 8]                          %! _comment_measure_numbers
     c'1
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [F ViolaMusicVoice measure 441 / measure 9]                          %! _comment_measure_numbers
     c'1
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     c'4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [F ViolaMusicVoice measure 442 / measure 10]                         %! _comment_measure_numbers
     c'1.
@@ -655,58 +655,58 @@ F_ViolaMusicVoice = {
         
         % [F ViolaMusicVoice measure 444 / measure 12]                     %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "maximally tight crunch circles: grind at talon" }     %! IndicatorCommand
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
         
         % [F ViolaMusicVoice measure 445 / measure 13]                     %! _comment_measure_numbers
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     
@@ -730,59 +730,59 @@ F_CelloMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "[clouded pane fundamental]" }                             %! IndicatorCommand
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \stirrings_still_vc                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName = \stirrings_still_vc                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [F CelloMusicVoice measure 434 / measure 2]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1
     \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
     
     % [F CelloMusicVoice measure 435 / measure 3]                          %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 436 / measure 4]                          %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1
     \repeatTie
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     \repeatTie
     
     % [F CelloMusicVoice measure 437 / measure 5]                          %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1.
     \repeatTie
     
     % [F CelloMusicVoice measure 438 / measure 6]                          %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 439 / measure 7]                          %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1
     \repeatTie
     
     % [F CelloMusicVoice measure 440 / measure 8]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'1
     \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -806,40 +806,40 @@ F_CelloMusicVoice = {
         
         % [F CelloMusicVoice measure 444 / measure 12]                     %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "maximally tight crunch circles: grind at talon" }     %! IndicatorCommand
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [F CelloMusicVoice measure 445 / measure 13]                     %! _comment_measure_numbers
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     
