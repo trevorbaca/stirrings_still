@@ -578,7 +578,7 @@ I_ViolinIMusicVoice = {
     % [I ViolinIMusicVoice measure 528 / measure 10]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \baca_appena_udibile                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                            %! IndicatorCommand
         \with-color                                                        %! IndicatorCommand
@@ -588,11 +588,11 @@ I_ViolinIMusicVoice = {
     
     % [I ViolinIMusicVoice measure 529 / measure 11]                       %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -745,7 +745,7 @@ I_ViolinIIMusicVoice = {
     % [I ViolinIIMusicVoice measure 528 / measure 10]                      %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \baca_appena_udibile                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                            %! IndicatorCommand
         \with-color                                                        %! IndicatorCommand
@@ -755,11 +755,11 @@ I_ViolinIIMusicVoice = {
     
     % [I ViolinIIMusicVoice measure 529 / measure 11]                      %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -870,7 +870,7 @@ I_ViolaMusicVoice = {
     % [I ViolaMusicVoice measure 528 / measure 10]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \baca_appena_udibile                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                            %! IndicatorCommand
         \with-color                                                        %! IndicatorCommand
@@ -880,12 +880,12 @@ I_ViolaMusicVoice = {
     
     % [I ViolaMusicVoice measure 529 / measure 11]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
