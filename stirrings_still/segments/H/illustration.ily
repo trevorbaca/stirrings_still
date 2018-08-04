@@ -1061,7 +1061,7 @@ H_ViolinIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     gf'!1
     \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1078,7 +1078,7 @@ H_ViolinIMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \stirrings_still_vn_i                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName = \stirrings_still_vn_i                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [H ViolinIMusicVoice measure 468 / measure 2]                        %! _comment_measure_numbers
@@ -1105,7 +1105,7 @@ H_ViolinIMusicVoice = {
     % [H ViolinIMusicVoice measure 472 / measure 6]                        %! _comment_measure_numbers
     \set stemLeftBeamCount = 0
     \set stemRightBeamCount = 1
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'8
     ^ \markup {                                                            %! IndicatorCommand
         \column                                                            %! IndicatorCommand
@@ -1118,27 +1118,27 @@ H_ViolinIMusicVoice = {
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'8
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'8
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'8
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 1
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'8
     
     \set stemLeftBeamCount = 1
     \set stemRightBeamCount = 0
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'8
     ]
     \breathe                                                               %! IndicatorCommand
@@ -1200,22 +1200,22 @@ H_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup \baca-left "2˝ circles"   %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         [
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
-        \hide NoteHead                                                     %! SC
-        \override Accidental.stencil = ##f                                 %! SC
-        \override NoteColumn.glissando-skip = ##t                          %! SC
-        \override NoteHead.no-ledgers = ##t                                %! SC
+        \hide NoteHead                                                     %! SpannerCommand
+        \override Accidental.stencil = ##f                                 %! SpannerCommand
+        \override NoteColumn.glissando-skip = ##t                          %! SpannerCommand
+        \override NoteHead.no-ledgers = ##t                                %! SpannerCommand
         g'16 * 91/16
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         g'16 * 257/64
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \revert Staff.Stem.stemlet-length
         g'16 * 55/16
         ]
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         \revert TupletBracket.direction                                    %! OverrideCommand(2)
     }
     \revert TupletNumber.text
@@ -1228,29 +1228,29 @@ H_ViolinIMusicVoice = {
         - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.left.text \markup \baca-left "4˝ circles"   %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         g'4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/10 {
         
         % [H ViolinIMusicVoice measure 476 / measure 10]                   %! _comment_measure_numbers
         a'4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         a'4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         a'4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         a'4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         a'4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/4 {
@@ -1262,30 +1262,30 @@ H_ViolinIMusicVoice = {
         - \tweak bound-details.left.text \markup \baca-left "6˝ circles"   %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         [
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         a'8
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         a'8
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         a'8
         ]
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/6 {
         
         % [H ViolinIMusicVoice measure 478 / measure 12]                   %! _comment_measure_numbers
         a'4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         a'4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         a'4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/4 {
@@ -1296,33 +1296,33 @@ H_ViolinIMusicVoice = {
         - \abjad_invisible_line                                            %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.left.text \markup \baca-left "8˝ circles"   %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         b'4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/6 {
         
         % [H ViolinIMusicVoice measure 480 / measure 14]                   %! _comment_measure_numbers
         b'4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         b'4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         b'4
         \stopTextSpan                                                      %! PiecewiseIndicatorCommand(3)
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         \revert TextScript.staff-padding                                   %! OverrideCommand(2)
         \revert TextSpanner.staff-padding                                  %! OverrideCommand(2)
     }
     
     % [H ViolinIMusicVoice measure 481 / measure 15]                       %! _comment_measure_numbers
-    \revert Accidental.stencil                                             %! SC
-    \revert NoteColumn.glissando-skip                                      %! SC
-    \revert NoteHead.no-ledgers                                            %! SC
-    \undo \hide NoteHead                                                   %! SC
+    \revert Accidental.stencil                                             %! SpannerCommand
+    \revert NoteColumn.glissando-skip                                      %! SpannerCommand
+    \revert NoteHead.no-ledgers                                            %! SpannerCommand
+    \undo \hide NoteHead                                                   %! SpannerCommand
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     a'4
     \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1377,7 +1377,7 @@ H_ViolinIMusicVoice = {
     \times 2/3 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ^ \markup { "8” circles continue" }                                %! IndicatorCommand
@@ -1385,101 +1385,101 @@ H_ViolinIMusicVoice = {
         - \tweak circled-tip ##t                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     \times 2/3 {
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-    }
-    \times 2/3 {
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     \times 2/3 {
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     \times 2/3 {
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+    }
+    \times 2/3 {
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     
@@ -1532,7 +1532,7 @@ H_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 487/64
         \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
@@ -1544,24 +1544,24 @@ H_ViolinIMusicVoice = {
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 209/32
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 143/32
         \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 197/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 19/8
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 65/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 61/32
         ]
         \revert TextScript.staff-padding                                   %! OverrideCommand(2)
@@ -1575,11 +1575,11 @@ H_ViolinIMusicVoice = {
     % [H ViolinIMusicVoice measure 499 / measure 33]                       %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                  %! OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'2
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'8
     \repeatTie
     \revert NoteHead.style                                                 %! OverrideCommand(2)
@@ -1657,7 +1657,7 @@ H_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 63/8
         \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
@@ -1669,24 +1669,24 @@ H_ViolinIMusicVoice = {
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 221/32
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 315/64
         \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 221/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 21/8
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 141/64
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 129/64
         ]
         \revert TextScript.staff-padding                                   %! OverrideCommand(2)
@@ -1743,7 +1743,7 @@ H_ViolinIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 497/64
         \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
@@ -1755,39 +1755,39 @@ H_ViolinIMusicVoice = {
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 59/8
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 51/8
         \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 333/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 67/16
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 219/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 185/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 5/2
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 9/4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 133/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 127/64
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 63/32
         ]
         \revert TextScript.staff-padding                                   %! OverrideCommand(2)
@@ -1802,58 +1802,58 @@ H_ViolinIMusicVoice = {
         % [H ViolinIMusicVoice measure 512 / measure 46]                   %! _comment_measure_numbers
         \override TextSpanner.staff-padding = #4                           %! OverrideCommand(1)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-    }
-    \times 2/3 {
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     \times 2/3 {
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+    }
+    \times 2/3 {
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1865,32 +1865,32 @@ H_ViolinIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     \times 2/3 {
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \revert TextSpanner.staff-padding                                  %! OverrideCommand(2)
@@ -1902,15 +1902,15 @@ H_ViolinIMusicVoice = {
         
         % [H ViolinIMusicVoice measure 518 / measure 52]                   %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "pochiss. scratch" }                                   %! IndicatorCommand
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
     }
@@ -1932,7 +1932,7 @@ H_ViolinIIMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     f'1
     \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1949,7 +1949,7 @@ H_ViolinIIMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \stirrings_still_vn_ii                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName = \stirrings_still_vn_ii                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [H ViolinIIMusicVoice measure 468 / measure 2]                       %! _comment_measure_numbers
@@ -1989,7 +1989,7 @@ H_ViolinIIMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     f'4.
     \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie                                                             %! TCC
     - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
@@ -2060,25 +2060,25 @@ H_ViolinIIMusicVoice = {
         - \tweak bound-details.left.text \markup \baca-left "4˝ circles"   %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         [
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
-        \hide NoteHead                                                     %! SC
-        \override Accidental.stencil = ##f                                 %! SC
-        \override NoteColumn.glissando-skip = ##t                          %! SC
-        \override NoteHead.no-ledgers = ##t                                %! SC
+        \hide NoteHead                                                     %! SpannerCommand
+        \override Accidental.stencil = ##f                                 %! SpannerCommand
+        \override NoteColumn.glissando-skip = ##t                          %! SpannerCommand
+        \override NoteHead.no-ledgers = ##t                                %! SpannerCommand
         f'16 * 225/32
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         f'16 * 43/8
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         g'16 * 133/32
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \revert Staff.Stem.stemlet-length
         g'16 * 229/64
         ]
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         \revert TupletBracket.direction                                    %! OverrideCommand(2)
     }
     \revert TupletNumber.text
@@ -2092,29 +2092,29 @@ H_ViolinIIMusicVoice = {
         - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.left.text \markup \baca-left "6˝ circles"   %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         g'4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         g'4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
     }
     
     % [H ViolinIIMusicVoice measure 480 / measure 14]                      %! _comment_measure_numbers
     a'4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     a'4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/10 {
         
         % [H ViolinIIMusicVoice measure 481 / measure 15]                  %! _comment_measure_numbers
-        \revert Accidental.stencil                                         %! SC
-        \revert NoteColumn.glissando-skip                                  %! SC
-        \revert NoteHead.no-ledgers                                        %! SC
-        \undo \hide NoteHead                                               %! SC
+        \revert Accidental.stencil                                         %! SpannerCommand
+        \revert NoteColumn.glissando-skip                                  %! SpannerCommand
+        \revert NoteHead.no-ledgers                                        %! SpannerCommand
+        \undo \hide NoteHead                                               %! SpannerCommand
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         af'!4
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2178,7 +2178,7 @@ H_ViolinIIMusicVoice = {
     \times 4/5 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ^ \markup { "8” circles continue" }                                %! IndicatorCommand
@@ -2186,86 +2186,86 @@ H_ViolinIIMusicVoice = {
         - \tweak circled-tip ##t                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     \times 4/5 {
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-    }
-    \times 4/5 {
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     \times 4/5 {
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     \times 4/5 {
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+    }
+    \times 4/5 {
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     
@@ -2318,7 +2318,7 @@ H_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 121/16
         \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
@@ -2330,18 +2330,18 @@ H_ViolinIIMusicVoice = {
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 219/32
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 173/32
         \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 139/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 123/32
         ]
         \revert TextScript.staff-padding                                   %! OverrideCommand(2)
@@ -2357,7 +2357,7 @@ H_ViolinIIMusicVoice = {
         \override TextSpanner.staff-padding = #7                           %! OverrideCommand(1)
         \override TupletBracket.staff-padding = #2                         %! OverrideCommand(1)
         \override TupletNumber.text = #tuplet-number::calc-denominator-text %! OverrideCommand(1)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'8
         -\downbow                                                          %! IndicatorCommand
         - \abjad_dashed_line_with_hook                                     %! PiecewiseIndicatorCommand(1)
@@ -2375,7 +2375,7 @@ H_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'8
         -\upbow                                                            %! IndicatorCommand
         
@@ -2383,7 +2383,7 @@ H_ViolinIIMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16
         -\downbow                                                          %! IndicatorCommand
         
@@ -2476,7 +2476,7 @@ H_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 127/16
         \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
@@ -2488,18 +2488,18 @@ H_ViolinIIMusicVoice = {
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 233/32
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 377/64
         \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 19/4
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 265/64
         ]
         \revert TextScript.staff-padding                                   %! OverrideCommand(2)
@@ -2556,7 +2556,7 @@ H_ViolinIIMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 477/64
         \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
@@ -2568,30 +2568,30 @@ H_ViolinIIMusicVoice = {
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 461/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 105/16
         \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 23/4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 5
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 71/16
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 259/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 61/16
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 239/64
         ]
         \revert TextScript.staff-padding                                   %! OverrideCommand(2)
@@ -2606,49 +2606,49 @@ H_ViolinIIMusicVoice = {
         % [H ViolinIIMusicVoice measure 512 / measure 46]                  %! _comment_measure_numbers
         \override TextSpanner.staff-padding = #4                           %! OverrideCommand(1)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-    }
-    \times 4/5 {
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
-        c'4
-        
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     \times 4/5 {
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+    }
+    \times 4/5 {
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
+        c'4
+        
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -2660,29 +2660,29 @@ H_ViolinIIMusicVoice = {
         - \tweak bound-details.right.stencil-align-dir-y #center           %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
     }
     \times 4/5 {
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \revert TextSpanner.staff-padding                                  %! OverrideCommand(2)
@@ -2696,12 +2696,12 @@ H_ViolinIIMusicVoice = {
         r8
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "pochiss. scratch" }                                   %! IndicatorCommand
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'4
         
     }
@@ -2726,7 +2726,7 @@ H_ViolaMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     af!1
@@ -2744,7 +2744,7 @@ H_ViolaMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \stirrings_still_va                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName = \stirrings_still_va                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [H ViolaMusicVoice measure 468 / measure 2]                          %! _comment_measure_numbers
@@ -2769,7 +2769,7 @@ H_ViolaMusicVoice = {
     \breathe                                                               %! IndicatorCommand
     
     % [H ViolaMusicVoice measure 472 / measure 6]                          %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'2
     ^ \markup {                                                            %! IndicatorCommand
         \column                                                            %! IndicatorCommand
@@ -2780,7 +2780,7 @@ H_ViolaMusicVoice = {
             }                                                              %! IndicatorCommand
         }                                                                  %! IndicatorCommand
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     \breathe                                                               %! IndicatorCommand
     \override TupletNumber.text = \markup {
@@ -2841,22 +2841,22 @@ H_ViolaMusicVoice = {
         - \tweak bound-details.left.text \markup \baca-left "2˝ circles"   %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         [
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
-        \hide NoteHead                                                     %! SC
-        \override Accidental.stencil = ##f                                 %! SC
-        \override NoteColumn.glissando-skip = ##t                          %! SC
-        \override NoteHead.no-ledgers = ##t                                %! SC
+        \hide NoteHead                                                     %! SpannerCommand
+        \override Accidental.stencil = ##f                                 %! SpannerCommand
+        \override NoteColumn.glissando-skip = ##t                          %! SpannerCommand
+        \override NoteHead.no-ledgers = ##t                                %! SpannerCommand
         a16 * 377/64
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         a16 * 237/64
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \revert Staff.Stem.stemlet-length
         a16 * 93/32
         ]
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         \revert TupletBracket.direction                                    %! OverrideCommand(2)
     }
     \revert TupletNumber.text
@@ -2869,24 +2869,24 @@ H_ViolaMusicVoice = {
         - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.left.text \markup \baca-left "4˝ circles"   %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         a4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         a4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
     }
     
     % [H ViolaMusicVoice measure 476 / measure 10]                         %! _comment_measure_numbers
     a4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     a4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     a4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/10 {
         
@@ -2896,35 +2896,35 @@ H_ViolaMusicVoice = {
         - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.left.text \markup \baca-left "6˝ circles"   %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         a4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         b4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         b4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         b4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 7/8 {
         
         % [H ViolaMusicVoice measure 478 / measure 12]                     %! _comment_measure_numbers
         b4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         b4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         b4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         b4
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/8 {
@@ -2935,29 +2935,29 @@ H_ViolaMusicVoice = {
         - \abjad_invisible_line                                            %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.left.text \markup \baca-left "8˝ circles"   %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         b2
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
     }
     
     % [H ViolaMusicVoice measure 480 / measure 14]                         %! _comment_measure_numbers
     b4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     b4
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     \revert TextScript.staff-padding                                       %! OverrideCommand(2)
     \revert TextSpanner.staff-padding                                      %! OverrideCommand(2)
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/8 {
         
         % [H ViolaMusicVoice measure 481 / measure 15]                     %! _comment_measure_numbers
-        \revert Accidental.stencil                                         %! SC
-        \revert NoteColumn.glissando-skip                                  %! SC
-        \revert NoteHead.no-ledgers                                        %! SC
-        \undo \hide NoteHead                                               %! SC
+        \revert Accidental.stencil                                         %! SpannerCommand
+        \revert NoteColumn.glissando-skip                                  %! SpannerCommand
+        \revert NoteHead.no-ledgers                                        %! SpannerCommand
+        \undo \hide NoteHead                                               %! SpannerCommand
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         b4
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3007,7 +3007,7 @@ H_ViolaMusicVoice = {
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup { "8” circles continue" }                                    %! IndicatorCommand
@@ -3015,66 +3015,66 @@ H_ViolaMusicVoice = {
     - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
     % [H ViolaMusicVoice measure 492 / measure 26]                         %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
     % [H ViolaMusicVoice measure 493 / measure 27]                         %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
     % [H ViolaMusicVoice measure 494 / measure 28]                         %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
     % [H ViolaMusicVoice measure 495 / measure 29]                         %! _comment_measure_numbers
@@ -3126,7 +3126,7 @@ H_ViolaMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 501/64
         \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
@@ -3138,15 +3138,15 @@ H_ViolaMusicVoice = {
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 477/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 427/64
         \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 387/64
         ]
         \revert TextScript.staff-padding                                   %! OverrideCommand(2)
@@ -3160,11 +3160,11 @@ H_ViolaMusicVoice = {
     % [H ViolaMusicVoice measure 499 / measure 33]                         %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                  %! OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'2
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'8
     \repeatTie
     \revert NoteHead.style                                                 %! OverrideCommand(2)
@@ -3242,7 +3242,7 @@ H_ViolaMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 55/8
         \mf                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
@@ -3254,18 +3254,18 @@ H_ViolaMusicVoice = {
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 211/32
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 381/64
         \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 173/32
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 331/64
         ]
         \revert TextScript.staff-padding                                   %! OverrideCommand(2)
@@ -3322,7 +3322,7 @@ H_ViolaMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 249/32
         \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                    %! PiecewiseIndicatorCommand(1)
@@ -3334,24 +3334,24 @@ H_ViolaMusicVoice = {
         \startTextSpan                                                     %! PiecewiseIndicatorCommand(1)
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 245/32
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 117/16
         \stopTextSpan                                                      %! PiecewiseIndicatorCommand(2)
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 439/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 411/64
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 389/64
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 377/64
         ]
         \revert TextScript.staff-padding                                   %! OverrideCommand(2)
@@ -3365,39 +3365,39 @@ H_ViolaMusicVoice = {
     % [H ViolaMusicVoice measure 512 / measure 46]                         %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #4                               %! OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3409,21 +3409,21 @@ H_ViolaMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \revert TextSpanner.staff-padding                                      %! OverrideCommand(2)
@@ -3433,12 +3433,12 @@ H_ViolaMusicVoice = {
     
     % [H ViolaMusicVoice measure 518 / measure 52]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "pochiss. scratch" }                                       %! IndicatorCommand
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     
 }
@@ -3459,7 +3459,7 @@ H_CelloMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:SM33:_reapply_persistent_indicators(3)
+    \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     af,!1
     \!                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3476,7 +3476,7 @@ H_CelloMusicVoice = {
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \stirrings_still_vc                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:SM34:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName = \stirrings_still_vc                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [H CelloMusicVoice measure 468 / measure 2]                          %! _comment_measure_numbers
@@ -3548,7 +3548,7 @@ H_CelloMusicVoice = {
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 119/32
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         -\downbow                                                          %! BowContactPointCommand
@@ -3564,21 +3564,21 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
         [
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 201/64
         \bacaStopTextSpanBCP                                               %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 137/64
         \bacaStopTextSpanBCP                                               %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
         
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 51/32
         \bacaStopTextSpanBCP                                               %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
@@ -3587,7 +3587,7 @@ H_CelloMusicVoice = {
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
         
         \revert Staff.Stem.stemlet-length
-        \baca_unpitched_music_warning                                      %! SM_24
+        \baca_unpitched_music_warning                                      %! _color_unpitched_notes
         c'16 * 45/32
         \bacaStopTextSpanBCP                                               %! BowContactPointCommand
         ]
@@ -3610,11 +3610,11 @@ H_CelloMusicVoice = {
     - \tweak bound-details.right.padding #0.5                              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
-    - \tweak arrow-length #2                                               %! SC
-    - \tweak arrow-width #0.5                                              %! SC
-    - \tweak bound-details.right.arrow ##t                                 %! SC
-    - \tweak thickness #3                                                  %! SC
-    \glissando                                                             %! SC
+    - \tweak arrow-length #2                                               %! SpannerCommand
+    - \tweak arrow-width #0.5                                              %! SpannerCommand
+    - \tweak bound-details.right.arrow ##t                                 %! SpannerCommand
+    - \tweak thickness #3                                                  %! SpannerCommand
+    \glissando                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 474 / measure 8]                          %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                  %! OverrideCommand(1)
@@ -3625,110 +3625,110 @@ H_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     gf,!4.
     \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     gf,!4
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 476 / measure 10]                         %! _comment_measure_numbers
     gf,!2.
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 477 / measure 11]                         %! _comment_measure_numbers
     gf,!2..
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 478 / measure 12]                         %! _comment_measure_numbers
     gf,!2..
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 479 / measure 13]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     gf,!4.
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     ^ \markup { "poco overpressure" }                                      %! IndicatorCommand
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     gf,!4
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 480 / measure 14]                         %! _comment_measure_numbers
     gf,!2
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 481 / measure 15]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     gf,!2.
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 482 / measure 16]                         %! _comment_measure_numbers
     gf,!1
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 483 / measure 17]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     gf,!1
     \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     ^ \markup { "molto overpressure" }                                     %! IndicatorCommand
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 484 / measure 18]                         %! _comment_measure_numbers
     gf,!2
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 485 / measure 19]                         %! _comment_measure_numbers
     gf,!4.
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     gf,!4
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 486 / measure 20]                         %! _comment_measure_numbers
     gf,!1
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 487 / measure 21]                         %! _comment_measure_numbers
     gf,!2.
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 488 / measure 22]                         %! _comment_measure_numbers
     gf,!1
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 489 / measure 23]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     gf,!2..
     \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 490 / measure 24]                         %! _comment_measure_numbers
     gf,!2.
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 491 / measure 25]                         %! _comment_measure_numbers
     gf,!2..
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 492 / measure 26]                         %! _comment_measure_numbers
     gf,!1
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 493 / measure 27]                         %! _comment_measure_numbers
     gf,!1
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 494 / measure 28]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     gf,!2.
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 495 / measure 29]                         %! _comment_measure_numbers
     R1 * 1/4
@@ -3739,7 +3739,7 @@ H_CelloMusicVoice = {
     
     % [H CelloMusicVoice measure 497 / measure 31]                         %! _comment_measure_numbers
     gf,!2..
-    \repeatTie                                                             %! SC
+    \repeatTie                                                             %! SpannerCommand
     \revert NoteHead.style                                                 %! OverrideCommand(2)
     
     % [H CelloMusicVoice measure 498 / measure 32]                         %! _comment_measure_numbers
@@ -3748,11 +3748,11 @@ H_CelloMusicVoice = {
     % [H CelloMusicVoice measure 499 / measure 33]                         %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                  %! OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'2
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'8
     \repeatTie
     \revert NoteHead.style                                                 %! OverrideCommand(2)
@@ -3788,76 +3788,76 @@ H_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     gf,!4
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
-    \hide NoteHead                                                         %! SC
-    \override Accidental.stencil = ##f                                     %! SC
-    \override NoteColumn.glissando-skip = ##t                              %! SC
-    \override NoteHead.no-ledgers = ##t                                    %! SC
+    \hide NoteHead                                                         %! SpannerCommand
+    \override Accidental.stencil = ##f                                     %! SpannerCommand
+    \override NoteColumn.glissando-skip = ##t                              %! SpannerCommand
+    \override NoteHead.no-ledgers = ##t                                    %! SpannerCommand
     g,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     g,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 504 / measure 38]                         %! _comment_measure_numbers
     g,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     g,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     g,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     f,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     f,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     f,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     f,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     f,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     f,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     f,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     f,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     f,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     % [H CelloMusicVoice measure 509 / measure 43]                         %! _comment_measure_numbers
     f,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     f,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     e,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     e,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     e,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     e,4
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     e,8
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/6 {
         
@@ -3865,10 +3865,10 @@ H_CelloMusicVoice = {
         \override DynamicLineSpanner.staff-padding = #'5                   %! OverrideCommand(1)
         \override TextScript.staff-padding = #11                           %! OverrideCommand(1)
         \override TextSpanner.staff-padding = #7                           %! OverrideCommand(1)
-        \revert Accidental.stencil                                         %! SC
-        \revert NoteColumn.glissando-skip                                  %! SC
-        \revert NoteHead.no-ledgers                                        %! SC
-        \undo \hide NoteHead                                               %! SC
+        \revert Accidental.stencil                                         %! SpannerCommand
+        \revert NoteColumn.glissando-skip                                  %! SpannerCommand
+        \revert NoteHead.no-ledgers                                        %! SpannerCommand
+        \undo \hide NoteHead                                               %! SpannerCommand
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         e,8
@@ -3880,14 +3880,14 @@ H_CelloMusicVoice = {
                 \box                                                       %! IndicatorCommand
                     "1/2 clt"                                              %! IndicatorCommand
             }                                                              %! IndicatorCommand
-        - \tweak color #blue                                               %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \bacaStopTextSpanBCP                                               %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
         [
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,8
@@ -3897,7 +3897,7 @@ H_CelloMusicVoice = {
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,4
@@ -3906,7 +3906,7 @@ H_CelloMusicVoice = {
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,8
@@ -3916,7 +3916,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
         [
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,8
@@ -3926,7 +3926,7 @@ H_CelloMusicVoice = {
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
@@ -3939,7 +3939,7 @@ H_CelloMusicVoice = {
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,4
@@ -3948,7 +3948,7 @@ H_CelloMusicVoice = {
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,8
@@ -3958,7 +3958,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
         [
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,8
@@ -3966,7 +3966,7 @@ H_CelloMusicVoice = {
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,8
@@ -3974,7 +3974,7 @@ H_CelloMusicVoice = {
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,8
@@ -3983,14 +3983,14 @@ H_CelloMusicVoice = {
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
     }
     
     % [H CelloMusicVoice measure 514 / measure 48]                         %! _comment_measure_numbers
     \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
     e,8
     [
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
     e,8
@@ -3999,7 +3999,7 @@ H_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7          %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
     e,8
@@ -4008,7 +4008,7 @@ H_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7          %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
     e,8
@@ -4018,7 +4018,7 @@ H_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7          %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
     e,4
@@ -4027,7 +4027,7 @@ H_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #0 #4          %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
     e,8
@@ -4036,7 +4036,7 @@ H_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #4          %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
     [
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     
     \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
     e,8
@@ -4046,7 +4046,7 @@ H_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #2 #4          %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
-    \glissando                                                             %! SC
+    \glissando                                                             %! SpannerCommand
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
@@ -4057,7 +4057,7 @@ H_CelloMusicVoice = {
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #1 #4      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,4
@@ -4066,7 +4066,7 @@ H_CelloMusicVoice = {
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,8
@@ -4075,7 +4075,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
         [
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,8
@@ -4083,7 +4083,7 @@ H_CelloMusicVoice = {
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,8
@@ -4091,7 +4091,7 @@ H_CelloMusicVoice = {
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,8
@@ -4101,7 +4101,7 @@ H_CelloMusicVoice = {
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/6 {
@@ -4112,7 +4112,7 @@ H_CelloMusicVoice = {
         e,8
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         [
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,8
@@ -4121,7 +4121,7 @@ H_CelloMusicVoice = {
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,8
@@ -4130,7 +4130,7 @@ H_CelloMusicVoice = {
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,8
@@ -4141,7 +4141,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7      %! BowContactPointCommand
         - \tweak bound-details.right.text \markup \baca-bcp-right #7 #7    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,4
@@ -4153,15 +4153,15 @@ H_CelloMusicVoice = {
     
     % [H CelloMusicVoice measure 517 / measure 51]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #blue                                                   %! SM_43 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                          %! SM_24
+    \baca_unpitched_music_warning                                          %! _color_unpitched_notes
     c'4
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -4194,7 +4194,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
         [
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,8
@@ -4204,7 +4204,7 @@ H_CelloMusicVoice = {
         - \abjad_solid_line_with_arrow                                     %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7      %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,4
@@ -4214,7 +4214,7 @@ H_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7      %! BowContactPointCommand
         - \tweak bound-details.right.text \markup \baca-bcp-right #0 #7    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                              %! BowContactPointCommand
-        \glissando                                                         %! SC
+        \glissando                                                         %! SpannerCommand
         
         \once \override NoteHead.transparent = ##t                         %! IndicatorCommand
         e,8
