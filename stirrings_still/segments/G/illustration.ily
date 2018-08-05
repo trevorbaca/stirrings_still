@@ -507,7 +507,7 @@ G_ViolinIMusicVoice = {
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     \mp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     -\espressivo                                                           %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vn. I”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -517,74 +517,74 @@ G_ViolinIMusicVoice = {
             #magenta                                                       %! IndicatorCommand
             "urtext double stop"                                           %! IndicatorCommand
         }                                                                  %! IndicatorCommand
-    [
+    [                                                                      %! stirrings_still_desynchronization
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings_still_vn_i                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
-    ]
+    ]                                                                      %! stirrings_still_desynchronization
     
     % [G ViolinIMusicVoice measure 448 / measure 2]                        %! _comment_measure_numbers
     R1 * 1/4
     
     % [G ViolinIMusicVoice measure 449 / measure 3]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     ^ \markup {                                                            %! IndicatorCommand
         \with-color                                                        %! IndicatorCommand
             #magenta                                                       %! IndicatorCommand
             "urtext double stop"                                           %! IndicatorCommand
         }                                                                  %! IndicatorCommand
-    [
+    [                                                                      %! stirrings_still_desynchronization
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
-    ]
+    ]                                                                      %! stirrings_still_desynchronization
     
     % [G ViolinIMusicVoice measure 450 / measure 4]                        %! _comment_measure_numbers
     R1 * 1/4
@@ -597,43 +597,43 @@ G_ViolinIMusicVoice = {
     
     % [G ViolinIMusicVoice measure 453 / measure 7]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     ^ \markup {                                                            %! IndicatorCommand
         \with-color                                                        %! IndicatorCommand
             #magenta                                                       %! IndicatorCommand
             "urtext double stop"                                           %! IndicatorCommand
         }                                                                  %! IndicatorCommand
-    [
+    [                                                                      %! stirrings_still_desynchronization
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
-    ]
+    ]                                                                      %! stirrings_still_desynchronization
     
     % [G ViolinIMusicVoice measure 454 / measure 8]                        %! _comment_measure_numbers
     R1 * 1/4
@@ -646,66 +646,66 @@ G_ViolinIMusicVoice = {
     
     % [G ViolinIMusicVoice measure 457 / measure 11]                       %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     ^ \markup {                                                            %! IndicatorCommand
         \with-color                                                        %! IndicatorCommand
             #magenta                                                       %! IndicatorCommand
             "urtext double stop"                                           %! IndicatorCommand
         }                                                                  %! IndicatorCommand
-    [
+    [                                                                      %! stirrings_still_desynchronization
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
-    ]
+    ]                                                                      %! stirrings_still_desynchronization
     
     % [G ViolinIMusicVoice measure 458 / measure 12]                       %! _comment_measure_numbers
     R1 * 3/4
     
     % [G ViolinIMusicVoice measure 459 / measure 13]                       %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     ^ \markup {                                                            %! IndicatorCommand
         \with-color                                                        %! IndicatorCommand
             #magenta                                                       %! IndicatorCommand
             "urtext double stop"                                           %! IndicatorCommand
         }                                                                  %! IndicatorCommand
-    [
+    [                                                                      %! stirrings_still_desynchronization
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'8
+    c'8                                                                    %! stirrings_still_desynchronization
     -\espressivo                                                           %! IndicatorCommand
-    ]
+    ]                                                                      %! stirrings_still_desynchronization
     
     % [G ViolinIMusicVoice measure 460 / measure 14]                       %! _comment_measure_numbers
     R1 * 1/4
@@ -738,8 +738,8 @@ G_ViolinIMusicStaff = {
 
 
 G_ViolinIIMusicVoice = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 14/16 {
+    \tweak text #tuplet-number::calc-fraction-text                         %! stirrings_still_desynchronization
+    \times 14/16 {                                                         %! stirrings_still_desynchronization
         
         % [G ViolinIIMusicVoice measure 447 / measure 1]                   %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings_still_vn_ii            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -750,7 +750,7 @@ G_ViolinIIMusicVoice = {
         \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Voice.DynamicText.color = #(x11-color 'green4)     %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         \mp                                                                %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         -\espressivo                                                       %! IndicatorCommand
         ^ \markup \baca-reapplied-indicator-markup "[“Vn. II”]"            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -760,86 +760,86 @@ G_ViolinIIMusicVoice = {
                 #magenta                                                   %! IndicatorCommand
                 "urtext double stop"                                       %! IndicatorCommand
             }                                                              %! IndicatorCommand
-        [
+        [                                                                  %! stirrings_still_desynchronization
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \stirrings_still_vn_ii            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
-        ]
-    }
+        ]                                                                  %! stirrings_still_desynchronization
+    }                                                                      %! stirrings_still_desynchronization
     
     % [G ViolinIIMusicVoice measure 448 / measure 2]                       %! _comment_measure_numbers
     R1 * 1/4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 14/16 {
+    \tweak text #tuplet-number::calc-fraction-text                         %! stirrings_still_desynchronization
+    \times 14/16 {                                                         %! stirrings_still_desynchronization
         
         % [G ViolinIIMusicVoice measure 449 / measure 3]                   %! _comment_measure_numbers
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         ^ \markup {                                                        %! IndicatorCommand
             \with-color                                                    %! IndicatorCommand
                 #magenta                                                   %! IndicatorCommand
                 "urtext double stop"                                       %! IndicatorCommand
             }                                                              %! IndicatorCommand
-        [
+        [                                                                  %! stirrings_still_desynchronization
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
-        ]
-    }
+        ]                                                                  %! stirrings_still_desynchronization
+    }                                                                      %! stirrings_still_desynchronization
     
     % [G ViolinIIMusicVoice measure 450 / measure 4]                       %! _comment_measure_numbers
     R1 * 1/4
@@ -849,53 +849,53 @@ G_ViolinIIMusicVoice = {
     
     % [G ViolinIIMusicVoice measure 452 / measure 6]                       %! _comment_measure_numbers
     R1 * 3/4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 16/18 {
+    \tweak text #tuplet-number::calc-fraction-text                         %! stirrings_still_desynchronization
+    \times 16/18 {                                                         %! stirrings_still_desynchronization
         
         % [G ViolinIIMusicVoice measure 453 / measure 7]                   %! _comment_measure_numbers
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         ^ \markup {                                                        %! IndicatorCommand
             \with-color                                                    %! IndicatorCommand
                 #magenta                                                   %! IndicatorCommand
                 "urtext double stop"                                       %! IndicatorCommand
             }                                                              %! IndicatorCommand
-        [
+        [                                                                  %! stirrings_still_desynchronization
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
-        ]
-    }
+        ]                                                                  %! stirrings_still_desynchronization
+    }                                                                      %! stirrings_still_desynchronization
     
     % [G ViolinIIMusicVoice measure 454 / measure 8]                       %! _comment_measure_numbers
     R1 * 1/4
@@ -905,83 +905,83 @@ G_ViolinIIMusicVoice = {
     
     % [G ViolinIIMusicVoice measure 456 / measure 10]                      %! _comment_measure_numbers
     R1 * 1/4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 10/12 {
+    \tweak text #tuplet-number::calc-fraction-text                         %! stirrings_still_desynchronization
+    \times 10/12 {                                                         %! stirrings_still_desynchronization
         
         % [G ViolinIIMusicVoice measure 457 / measure 11]                  %! _comment_measure_numbers
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         ^ \markup {                                                        %! IndicatorCommand
             \with-color                                                    %! IndicatorCommand
                 #magenta                                                   %! IndicatorCommand
                 "urtext double stop"                                       %! IndicatorCommand
             }                                                              %! IndicatorCommand
-        [
+        [                                                                  %! stirrings_still_desynchronization
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
-        ]
-    }
+        ]                                                                  %! stirrings_still_desynchronization
+    }                                                                      %! stirrings_still_desynchronization
     
     % [G ViolinIIMusicVoice measure 458 / measure 12]                      %! _comment_measure_numbers
     R1 * 3/4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 12/14 {
+    \tweak text #tuplet-number::calc-fraction-text                         %! stirrings_still_desynchronization
+    \times 12/14 {                                                         %! stirrings_still_desynchronization
         
         % [G ViolinIIMusicVoice measure 459 / measure 13]                  %! _comment_measure_numbers
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         ^ \markup {                                                        %! IndicatorCommand
             \with-color                                                    %! IndicatorCommand
                 #magenta                                                   %! IndicatorCommand
                 "urtext double stop"                                       %! IndicatorCommand
             }                                                              %! IndicatorCommand
-        [
+        [                                                                  %! stirrings_still_desynchronization
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
-        ]
-    }
+        ]                                                                  %! stirrings_still_desynchronization
+    }                                                                      %! stirrings_still_desynchronization
     
     % [G ViolinIIMusicVoice measure 460 / measure 14]                      %! _comment_measure_numbers
     R1 * 1/4
@@ -1014,8 +1014,8 @@ G_ViolinIIMusicStaff = {
 
 
 G_ViolaMusicVoice = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 14/12 {
+    \tweak text #tuplet-number::calc-fraction-text                         %! stirrings_still_desynchronization
+    \times 14/12 {                                                         %! stirrings_still_desynchronization
         
         % [G ViolaMusicVoice measure 447 / measure 1]                      %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings_still_va               %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1030,7 +1030,7 @@ G_ViolaMusicVoice = {
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \once \override Voice.DynamicText.color = #(x11-color 'green4)     %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         \mp                                                                %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         -\espressivo                                                       %! IndicatorCommand
         ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1040,70 +1040,70 @@ G_ViolaMusicVoice = {
                 #magenta                                                   %! IndicatorCommand
                 "clouded pane partial"                                     %! IndicatorCommand
             }                                                              %! IndicatorCommand
-        [
+        [                                                                  %! stirrings_still_desynchronization
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \stirrings_still_va               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
-        ]
-    }
+        ]                                                                  %! stirrings_still_desynchronization
+    }                                                                      %! stirrings_still_desynchronization
     
     % [G ViolaMusicVoice measure 448 / measure 2]                          %! _comment_measure_numbers
     R1 * 1/4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 14/12 {
+    \tweak text #tuplet-number::calc-fraction-text                         %! stirrings_still_desynchronization
+    \times 14/12 {                                                         %! stirrings_still_desynchronization
         
         % [G ViolaMusicVoice measure 449 / measure 3]                      %! _comment_measure_numbers
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         ^ \markup {                                                        %! IndicatorCommand
             \with-color                                                    %! IndicatorCommand
                 #magenta                                                   %! IndicatorCommand
                 "clouded pane partial"                                     %! IndicatorCommand
             }                                                              %! IndicatorCommand
-        [
+        [                                                                  %! stirrings_still_desynchronization
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
-        ]
-    }
+        ]                                                                  %! stirrings_still_desynchronization
+    }                                                                      %! stirrings_still_desynchronization
     
     % [G ViolaMusicVoice measure 450 / measure 4]                          %! _comment_measure_numbers
     R1 * 1/4
@@ -1113,45 +1113,45 @@ G_ViolaMusicVoice = {
     
     % [G ViolaMusicVoice measure 452 / measure 6]                          %! _comment_measure_numbers
     R1 * 3/4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 16/14 {
+    \tweak text #tuplet-number::calc-fraction-text                         %! stirrings_still_desynchronization
+    \times 16/14 {                                                         %! stirrings_still_desynchronization
         
         % [G ViolaMusicVoice measure 453 / measure 7]                      %! _comment_measure_numbers
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         ^ \markup {                                                        %! IndicatorCommand
             \with-color                                                    %! IndicatorCommand
                 #magenta                                                   %! IndicatorCommand
                 "clouded pane partial"                                     %! IndicatorCommand
             }                                                              %! IndicatorCommand
-        [
+        [                                                                  %! stirrings_still_desynchronization
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
-        ]
-    }
+        ]                                                                  %! stirrings_still_desynchronization
+    }                                                                      %! stirrings_still_desynchronization
     
     % [G ViolaMusicVoice measure 454 / measure 8]                          %! _comment_measure_numbers
     R1 * 1/4
@@ -1161,67 +1161,67 @@ G_ViolaMusicVoice = {
     
     % [G ViolaMusicVoice measure 456 / measure 10]                         %! _comment_measure_numbers
     R1 * 1/4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 10/8 {
+    \tweak text #tuplet-number::calc-fraction-text                         %! stirrings_still_desynchronization
+    \times 10/8 {                                                          %! stirrings_still_desynchronization
         
         % [G ViolaMusicVoice measure 457 / measure 11]                     %! _comment_measure_numbers
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         ^ \markup {                                                        %! IndicatorCommand
             \with-color                                                    %! IndicatorCommand
                 #magenta                                                   %! IndicatorCommand
                 "clouded pane partial"                                     %! IndicatorCommand
             }                                                              %! IndicatorCommand
-        [
+        [                                                                  %! stirrings_still_desynchronization
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
-        ]
-    }
+        ]                                                                  %! stirrings_still_desynchronization
+    }                                                                      %! stirrings_still_desynchronization
     
     % [G ViolaMusicVoice measure 458 / measure 12]                         %! _comment_measure_numbers
     R1 * 3/4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 12/10 {
+    \tweak text #tuplet-number::calc-fraction-text                         %! stirrings_still_desynchronization
+    \times 12/10 {                                                         %! stirrings_still_desynchronization
         
         % [G ViolaMusicVoice measure 459 / measure 13]                     %! _comment_measure_numbers
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         ^ \markup {                                                        %! IndicatorCommand
             \with-color                                                    %! IndicatorCommand
                 #magenta                                                   %! IndicatorCommand
                 "clouded pane partial"                                     %! IndicatorCommand
             }                                                              %! IndicatorCommand
-        [
+        [                                                                  %! stirrings_still_desynchronization
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
         
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8
+        c'8                                                                %! stirrings_still_desynchronization
         -\espressivo                                                       %! IndicatorCommand
-        ]
-    }
+        ]                                                                  %! stirrings_still_desynchronization
+    }                                                                      %! stirrings_still_desynchronization
     
     % [G ViolaMusicVoice measure 460 / measure 14]                         %! _comment_measure_numbers
     R1 * 1/4
@@ -1264,7 +1264,7 @@ G_CelloMusicVoice = {
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4..
+    c'4..                                                                  %! stirrings_still_taper
     \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1277,7 +1277,7 @@ G_CelloMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4..
+    c'4..                                                                  %! stirrings_still_taper
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1292,7 +1292,7 @@ G_CelloMusicVoice = {
     % [G CelloMusicVoice measure 449 / measure 3]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4..
+    c'4..                                                                  %! stirrings_still_taper
     \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1300,7 +1300,7 @@ G_CelloMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4..
+    c'4..                                                                  %! stirrings_still_taper
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1321,7 +1321,7 @@ G_CelloMusicVoice = {
     % [G CelloMusicVoice measure 453 / measure 7]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! stirrings_still_taper
     \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1329,7 +1329,7 @@ G_CelloMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! stirrings_still_taper
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1346,13 +1346,13 @@ G_CelloMusicVoice = {
     
     % [G CelloMusicVoice measure 456 / measure 10]                         %! _comment_measure_numbers
     R1 * 1/4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \tweak text #tuplet-number::calc-fraction-text                         %! stirrings_still_taper
+    \times 5/6 {                                                           %! stirrings_still_taper
         
         % [G CelloMusicVoice measure 457 / measure 11]                     %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'4.
+        c'4.                                                               %! stirrings_still_taper
         \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1360,13 +1360,13 @@ G_CelloMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'4.
+        c'4.                                                               %! stirrings_still_taper
         \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak to-barline ##t                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    }
+    }                                                                      %! stirrings_still_taper
     
     % [G CelloMusicVoice measure 458 / measure 12]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -1376,7 +1376,7 @@ G_CelloMusicVoice = {
     % [G CelloMusicVoice measure 459 / measure 13]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                   %! stirrings_still_taper
     \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1384,7 +1384,7 @@ G_CelloMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                   %! stirrings_still_taper
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)

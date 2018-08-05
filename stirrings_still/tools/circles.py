@@ -26,5 +26,6 @@ def circles(
         rhythm_maker=rmakers.NoteRhythmMaker(
             beam_specifier=beam_specifier,
             division_masks=dmask,
+            tag='stirrings_still_circles',
             ),
         )

@@ -12,6 +12,7 @@ def flight(counts, rotation):
     return baca.rhythm(
         rhythm_maker=rmakers.TaleaRhythmMaker(
             extra_counts_per_division=extra_counts,
+            tag='stirrings_still_flight',
             talea=rmakers.Talea(
                 counts=counts,
                 denominator=8,

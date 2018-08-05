@@ -14,6 +14,7 @@ def grid_to_trajectory():
     counts = baca.sequence([1])
     return baca.rhythm(
         rhythm_maker=rmakers.TaleaRhythmMaker(
+            tag='stirrings_still_grid_to_trajectory',
             talea=rmakers.Talea(
                 counts=counts,
                 denominator=4,

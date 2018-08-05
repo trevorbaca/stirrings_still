@@ -23,6 +23,7 @@ def trajectories(counts='A', rotation=0, extra_counts_rotation=0):
     rhythm = baca.rhythm(
         rhythm_maker=rmakers.TaleaRhythmMaker(
             extra_counts_per_division=extra_counts,
+            tag='stirrings_still_trajectories',
             talea=talea,
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,

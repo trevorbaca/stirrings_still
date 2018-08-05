@@ -8,6 +8,7 @@ def taper(tuplet_ratio=(1, 4, 1)):
     """
     return baca.rhythm(
         rhythm_maker=rmakers.TupletRhythmMaker(
+            tag='stirrings_still_taper',
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,
                 ),

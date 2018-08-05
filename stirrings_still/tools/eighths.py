@@ -13,6 +13,7 @@ def eighths():
                 beam_divisions_together=False,
                 beam_each_division=False,
                 ),
+            tag='stirrings_still_eighths',
             talea=rmakers.Talea(
                 counts=[1],
                 denominator=8,
