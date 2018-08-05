@@ -21,6 +21,7 @@ def strokes(rotation, *, dmask=None, ltmask=None):
                 talea_denominator=8,
                 ),
             logical_tie_masks=ltmask,
+            tag='stirrings_still_strokes',
             ),
         rewrite_rest_filled=True,
         split_at_measure_boundaries=True,

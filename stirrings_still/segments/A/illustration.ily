@@ -1346,8 +1346,8 @@ A_GlobalSkips = {
 
 
 A_ViolinIMusicVoice = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text                         %! stirrings_still_declamation
+    \times 2/3 {                                                           %! stirrings_still_declamation
         
         % [A ViolinIMusicVoice measure 1]                                  %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings_still_vn_i             %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
@@ -1359,7 +1359,7 @@ A_ViolinIMusicVoice = {
         \once \override Staff.InstrumentName.color = #(x11-color 'blue)    %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8.
+        c'8.                                                               %! stirrings_still_declamation
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ^ \markup \baca-default-indicator-markup "(“ViolinI”)"             %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-explicit-indicator-markup "[“Vn. I”]"              %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1367,33 +1367,33 @@ A_ViolinIMusicVoice = {
         - \tweak stencil #abjad-flared-hairpin                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ~                                                                  %! TCC
-        [
+        [                                                                  %! stirrings_still_declamation
         \override Staff.Clef.color = #(x11-color 'violet)                  %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)  %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \stirrings_still_vn_i             %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'16
+        c'16                                                               %! stirrings_still_declamation
         \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        ]
+        ]                                                                  %! stirrings_still_declamation
         \breathe                                                           %! IndicatorCommand
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie             %! _shorten_long_repeat_ties
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'4..
+        c'4..                                                              %! stirrings_still_declamation
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'16
+        c'16                                                               %! stirrings_still_declamation
         \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \repeatTie                                                         %! TCC
         \baca_stop_on_string                                               %! IndicatorCommand
-    }
+    }                                                                      %! stirrings_still_declamation
     
     % [A ViolinIMusicVoice measure 2]                                      %! _comment_measure_numbers
     R1 * 1/4
@@ -1591,8 +1591,8 @@ A_ViolinIMusicStaff = {
 
 
 A_ViolinIIMusicVoice = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text                         %! stirrings_still_declamation
+    \times 2/3 {                                                           %! stirrings_still_declamation
         
         % [A ViolinIIMusicVoice measure 1]                                 %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings_still_vn_ii            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
@@ -1604,7 +1604,7 @@ A_ViolinIIMusicVoice = {
         \once \override Staff.InstrumentName.color = #(x11-color 'blue)    %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8.
+        c'8.                                                               %! stirrings_still_declamation
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ^ \markup \baca-default-indicator-markup "(“ViolinI”)"             %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-explicit-indicator-markup "[“Vn. II”]"             %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1612,33 +1612,33 @@ A_ViolinIIMusicVoice = {
         - \tweak stencil #abjad-flared-hairpin                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ~                                                                  %! TCC
-        [
+        [                                                                  %! stirrings_still_declamation
         \override Staff.Clef.color = #(x11-color 'violet)                  %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)  %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \stirrings_still_vn_ii            %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'16
+        c'16                                                               %! stirrings_still_declamation
         \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        ]
+        ]                                                                  %! stirrings_still_declamation
         \breathe                                                           %! IndicatorCommand
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie             %! _shorten_long_repeat_ties
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'4..
+        c'4..                                                              %! stirrings_still_declamation
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'16
+        c'16                                                               %! stirrings_still_declamation
         \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \repeatTie                                                         %! TCC
         \baca_stop_on_string                                               %! IndicatorCommand
-    }
+    }                                                                      %! stirrings_still_declamation
     
     % [A ViolinIIMusicVoice measure 2]                                     %! _comment_measure_numbers
     R1 * 1/4
@@ -1836,8 +1836,8 @@ A_ViolinIIMusicStaff = {
 
 
 A_ViolaMusicVoice = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text                         %! stirrings_still_declamation
+    \times 2/3 {                                                           %! stirrings_still_declamation
         
         % [A ViolaMusicVoice measure 1]                                    %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings_still_va               %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
@@ -1849,7 +1849,7 @@ A_ViolaMusicVoice = {
         \once \override Staff.InstrumentName.color = #(x11-color 'blue)    %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'8.
+        c'8.                                                               %! stirrings_still_declamation
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ^ \markup \baca-default-indicator-markup "(“Viola”)"               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-explicit-indicator-markup "[“Va.”]"                %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1857,33 +1857,33 @@ A_ViolaMusicVoice = {
         - \tweak stencil #abjad-flared-hairpin                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         ~                                                                  %! TCC
-        [
+        [                                                                  %! stirrings_still_declamation
         \override Staff.Clef.color = #(x11-color 'violet)                  %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)  %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \stirrings_still_va               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'16
+        c'16                                                               %! stirrings_still_declamation
         \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        ]
+        ]                                                                  %! stirrings_still_declamation
         \breathe                                                           %! IndicatorCommand
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie             %! _shorten_long_repeat_ties
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'4..
+        c'4..                                                              %! stirrings_still_declamation
         \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-        c'16
+        c'16                                                               %! stirrings_still_declamation
         \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \repeatTie                                                         %! TCC
         \baca_stop_on_string                                               %! IndicatorCommand
-    }
+    }                                                                      %! stirrings_still_declamation
     
     % [A ViolaMusicVoice measure 2]                                        %! _comment_measure_numbers
     R1 * 1/4

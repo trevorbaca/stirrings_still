@@ -35,6 +35,7 @@ def to_flight(
                     written_duration=(1, 4),
                     ),
                 ],
+            tag='stirrings_still_to_flight',
             tuplet_specifier=rmakers.TupletSpecifier(
                 duration_bracket=True,
                 extract_trivial=True,

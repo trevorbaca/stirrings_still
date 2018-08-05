@@ -7,6 +7,7 @@ def clockticks(*, displace=False, dmask=None, encroach=False):
     """
     Makes clocktick rhythm.
     """
+    tag = 'stirrings_still_clockticks'
     if encroach is True:
         assert not displace
     if displace:
@@ -14,6 +15,7 @@ def clockticks(*, displace=False, dmask=None, encroach=False):
             rhythm_maker=rmakers.TaleaRhythmMaker(
                 division_masks=dmask,
                 extra_counts_per_division=[1],
+                tag=tag,
                 talea=rmakers.Talea(
                     counts=[1, -1],
                     denominator=8,
@@ -29,6 +31,7 @@ def clockticks(*, displace=False, dmask=None, encroach=False):
             division_expression=baca.split_by_durations([(1, 4)]),
             rhythm_maker=rmakers.TupletRhythmMaker(
                 division_masks=dmask,
+                tag=tag,
                 tuplet_ratios=tuplet_ratios,
                 ),
             )

@@ -29,6 +29,7 @@ def accelerando(
                     ),
                 ],
             logical_tie_masks=ltmask,
+            tag='stirrings_still_accelerando',
             tuplet_specifier=rmakers.TupletSpecifier(
                 duration_bracket=True,
                 ),

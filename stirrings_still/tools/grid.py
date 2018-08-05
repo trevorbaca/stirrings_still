@@ -12,6 +12,7 @@ def grid(stage, *, rotation=0):
         counts = counts.rotate(n=rotation)
         return baca.rhythm(
             rhythm_maker=rmakers.TaleaRhythmMaker(
+                tag='stirrings_still_grid',
                 talea=rmakers.Talea(
                     counts=counts,
                     denominator=8,
