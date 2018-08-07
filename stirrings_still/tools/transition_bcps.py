@@ -17,7 +17,7 @@ def transition_bcps(final_spanner=None):
 
     def helper(bcps, argument):
         result = []
-        selector = baca.mgroups()
+        selector = baca.cmgroups()
         for leaves in selector(argument):
             result.extend(bcps[:len(leaves)])
         return result

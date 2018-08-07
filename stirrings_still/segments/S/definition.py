@@ -45,7 +45,7 @@ maker(
         (0, 4),
         baca.hairpin(
             'p > ppp <',
-            piece_selector=baca.mgroups(),
+            piece_selector=baca.cmgroups(),
             ),
         stirrings_still.wave((1, 4), (3, 32)),
         ),
@@ -53,7 +53,7 @@ maker(
         (4, 8),
         baca.hairpin(
             'ppp < p >',
-            piece_selector=baca.mgroups(),
+            piece_selector=baca.cmgroups(),
             ),
         stirrings_still.wave((5, 32), (1, 4)),
         ),

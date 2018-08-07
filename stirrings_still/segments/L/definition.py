@@ -42,7 +42,7 @@ maker(
         (1, 15),
         baca.hairpin(
             'p < ff ff > p < ff ff > p < ff ff > p < ff',
-            piece_selector=baca.mgroups([2, 1, 1]),
+            piece_selector=baca.cmgroups([2, 1, 1]),
             ),
         ),
     )

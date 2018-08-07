@@ -360,7 +360,7 @@ maker(
 maker(
     ('vc', (65, 91)),
     baca.map(
-        baca.mgroups()[:3].group(),
+        baca.cmgroups()[:3].group(),
         baca.hairpin('niente o< p'),
         ),
     baca.markup(
@@ -485,3 +485,12 @@ maker(
     baca.match(0, baca.repeat_tie_to()),
     stirrings_still.continuous_tremolo(),
     )
+
+#maker(
+#    ('vc', (96, 99)),
+#    baca.hairpin(
+#        'o< p',
+#        piece_selector=baca.omgroups([1]),
+#        ),
+#    stirrings_still.clouded_pane(),
+#    )
