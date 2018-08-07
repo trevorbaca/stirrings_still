@@ -16,9 +16,9 @@
             \context GlobalContext = "GlobalContext"                                               %! _make_global_context
             <<                                                                                     %! _make_global_context
                 \context GlobalRests = "GlobalRests"                                               %! _make_global_context
-                \E_GlobalRests                                                                     %! extern
+                \D_GlobalRests                                                                     %! extern
                 \context GlobalSkips = "GlobalSkips"                                               %! _make_global_context
-                \E_GlobalSkips                                                                     %! extern
+                \D_GlobalSkips                                                                     %! extern
             >>                                                                                     %! _make_global_context
             \context MusicContext = "MusicContext"                                                 %! ScoreTemplate
             {                                                                                      %! ScoreTemplate
@@ -26,16 +26,16 @@
                 <<                                                                                 %! ScoreTemplate
                     \tag ViolinI                                                                   %! ScoreTemplate(5)
                     \context Staff = "ViolinIMusicStaff"                                           %! ScoreTemplate
-                    \E_ViolinIMusicStaff                                                           %! extern
+                    \D_ViolinIMusicStaff                                                           %! extern
                     \tag ViolinII                                                                  %! ScoreTemplate(5)
                     \context Staff = "ViolinIIMusicStaff"                                          %! ScoreTemplate
-                    \E_ViolinIIMusicStaff                                                          %! extern
+                    \D_ViolinIIMusicStaff                                                          %! extern
                     \tag viola                                                                     %! ScoreTemplate(5)
                     \context Staff = "ViolaMusicStaff"                                             %! ScoreTemplate
-                    \E_ViolaMusicStaff                                                             %! extern
+                    \D_ViolaMusicStaff                                                             %! extern
                     \tag cello                                                                     %! ScoreTemplate(5)
                     \context Staff = "CelloMusicStaff"                                             %! ScoreTemplate
-                    \E_CelloMusicStaff                                                             %! extern
+                    \D_CelloMusicStaff                                                             %! extern
                 >>                                                                                 %! ScoreTemplate
             }                                                                                      %! ScoreTemplate
         >>                                                                                         %! ScoreTemplate

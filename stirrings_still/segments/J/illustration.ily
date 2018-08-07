@@ -440,7 +440,7 @@ J_ViolinIMusicVoice = {
 
 
 J_ViolinIMusicStaff = {
-    \context Voice = "ViolinIMusicVoice"
+    \context Voice = "ViolinIMusicVoice"                                                           %! ScoreTemplate
     \J_ViolinIMusicVoice                                                                           %! extern
 }
 
@@ -576,7 +576,7 @@ J_ViolinIIMusicVoice = {
 
 
 J_ViolinIIMusicStaff = {
-    \context Voice = "ViolinIIMusicVoice"
+    \context Voice = "ViolinIIMusicVoice"                                                          %! ScoreTemplate
     \J_ViolinIIMusicVoice                                                                          %! extern
 }
 
@@ -687,7 +687,7 @@ J_ViolaMusicVoice = {
 
 
 J_ViolaMusicStaff = {
-    \context Voice = "ViolaMusicVoice"
+    \context Voice = "ViolaMusicVoice"                                                             %! ScoreTemplate
     \J_ViolaMusicVoice                                                                             %! extern
 }
 
@@ -781,6 +781,6 @@ J_CelloMusicVoice = {
 
 
 J_CelloMusicStaff = {
-    \context Voice = "CelloMusicVoice"
+    \context Voice = "CelloMusicVoice"                                                             %! ScoreTemplate
     \J_CelloMusicVoice                                                                             %! extern
 }

@@ -306,7 +306,7 @@ L_ViolinIMusicVoice = {
 
 
 L_ViolinIMusicStaff = {
-    \context Voice = "ViolinIMusicVoice"
+    \context Voice = "ViolinIMusicVoice"                                                           %! ScoreTemplate
     \L_ViolinIMusicVoice                                                                           %! extern
 }
 
@@ -378,7 +378,7 @@ L_ViolinIIMusicVoice = {
 
 
 L_ViolinIIMusicStaff = {
-    \context Voice = "ViolinIIMusicVoice"
+    \context Voice = "ViolinIIMusicVoice"                                                          %! ScoreTemplate
     \L_ViolinIIMusicVoice                                                                          %! extern
 }
 
@@ -454,7 +454,7 @@ L_ViolaMusicVoice = {
 
 
 L_ViolaMusicStaff = {
-    \context Voice = "ViolaMusicVoice"
+    \context Voice = "ViolaMusicVoice"                                                             %! ScoreTemplate
     \L_ViolaMusicVoice                                                                             %! extern
 }
 
@@ -599,6 +599,6 @@ L_CelloMusicVoice = {
 
 
 L_CelloMusicStaff = {
-    \context Voice = "CelloMusicVoice"
+    \context Voice = "CelloMusicVoice"                                                             %! ScoreTemplate
     \L_CelloMusicVoice                                                                             %! extern
 }
