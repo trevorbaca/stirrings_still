@@ -6,38 +6,38 @@
 \include "illustration.ily"
 
 
-\score {
-    <<
-        {
-            \include "layout.ly"
-        }
+\score {                                                                                           %! _make_lilypond_file
+    <<                                                                                             %! _make_lilypond_file
+        {                                                                                          %! _make_lilypond_file
+            \include "layout.ly"                                                                   %! _make_lilypond_file
+        }                                                                                          %! _make_lilypond_file
         \context Score = "Score"
         <<
-            \context GlobalContext = "GlobalContext"
-            <<
-                \context GlobalRests = "GlobalRests"
-                \B_GlobalRests
-                \context GlobalSkips = "GlobalSkips"
-                \B_GlobalSkips
-            >>
+            \context GlobalContext = "GlobalContext"                                               %! _make_global_context
+            <<                                                                                     %! _make_global_context
+                \context GlobalRests = "GlobalRests"                                               %! _make_global_context
+                \B_GlobalRests                                                                     %! extern
+                \context GlobalSkips = "GlobalSkips"                                               %! _make_global_context
+                \B_GlobalSkips                                                                     %! extern
+            >>                                                                                     %! _make_global_context
             \context MusicContext = "MusicContext"
             {
                 \context StringQuartetStaffGroup = "StringQuartetStaffGroup"
                 <<
-                    \tag ViolinI                                                                   %! ST_4
+                    \tag ViolinI                                                                   %! ScoreTemplate(5)
                     \context Staff = "ViolinIMusicStaff"
-                    \B_ViolinIMusicStaff
-                    \tag ViolinII                                                                  %! ST_4
+                    \B_ViolinIMusicStaff                                                           %! extern
+                    \tag ViolinII                                                                  %! ScoreTemplate(5)
                     \context Staff = "ViolinIIMusicStaff"
-                    \B_ViolinIIMusicStaff
-                    \tag viola                                                                     %! ST_4
+                    \B_ViolinIIMusicStaff                                                          %! extern
+                    \tag viola                                                                     %! ScoreTemplate(5)
                     \context Staff = "ViolaMusicStaff"
-                    \B_ViolaMusicStaff
-                    \tag cello                                                                     %! ST_4
+                    \B_ViolaMusicStaff                                                             %! extern
+                    \tag cello                                                                     %! ScoreTemplate(5)
                     \context Staff = "CelloMusicStaff"
-                    \B_CelloMusicStaff
+                    \B_CelloMusicStaff                                                             %! extern
                 >>
             }
         >>
-    >>
-}
+    >>                                                                                             %! _make_lilypond_file
+}                                                                                                  %! _make_lilypond_file
