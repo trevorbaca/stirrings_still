@@ -1812,7 +1812,7 @@ K_ViolinIMusicVoice = {
 
 
 K_ViolinIMusicStaff = {
-    \context Voice = "ViolinIMusicVoice"
+    \context Voice = "ViolinIMusicVoice"                                                           %! ScoreTemplate
     \K_ViolinIMusicVoice                                                                           %! extern
 }
 
@@ -2729,7 +2729,7 @@ K_ViolinIIMusicVoice = {
 
 
 K_ViolinIIMusicStaff = {
-    \context Voice = "ViolinIIMusicVoice"
+    \context Voice = "ViolinIIMusicVoice"                                                          %! ScoreTemplate
     \K_ViolinIIMusicVoice                                                                          %! extern
 }
 
@@ -3074,7 +3074,7 @@ K_ViolaMusicVoice = {
 
 
 K_ViolaMusicStaff = {
-    \context Voice = "ViolaMusicVoice"
+    \context Voice = "ViolaMusicVoice"                                                             %! ScoreTemplate
     \K_ViolaMusicVoice                                                                             %! extern
 }
 
@@ -3889,6 +3889,6 @@ K_CelloMusicVoice = {
 
 
 K_CelloMusicStaff = {
-    \context Voice = "CelloMusicVoice"
+    \context Voice = "CelloMusicVoice"                                                             %! ScoreTemplate
     \K_CelloMusicVoice                                                                             %! extern
 }

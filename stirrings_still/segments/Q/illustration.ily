@@ -1966,7 +1966,7 @@ Q_ViolinIMusicVoice = {
 
 
 Q_ViolinIMusicStaff = {
-    \context Voice = "ViolinIMusicVoice"
+    \context Voice = "ViolinIMusicVoice"                                                           %! ScoreTemplate
     \Q_ViolinIMusicVoice                                                                           %! extern
 }
 
@@ -2384,7 +2384,7 @@ Q_ViolinIIMusicVoice = {
 
 
 Q_ViolinIIMusicStaff = {
-    \context Voice = "ViolinIIMusicVoice"
+    \context Voice = "ViolinIIMusicVoice"                                                          %! ScoreTemplate
     \Q_ViolinIIMusicVoice                                                                          %! extern
 }
 
@@ -2767,7 +2767,7 @@ Q_ViolaMusicVoice = {
 
 
 Q_ViolaMusicStaff = {
-    \context Voice = "ViolaMusicVoice"
+    \context Voice = "ViolaMusicVoice"                                                             %! ScoreTemplate
     \Q_ViolaMusicVoice                                                                             %! extern
 }
 
@@ -3140,6 +3140,6 @@ Q_CelloMusicVoice = {
 
 
 Q_CelloMusicStaff = {
-    \context Voice = "CelloMusicVoice"
+    \context Voice = "CelloMusicVoice"                                                             %! ScoreTemplate
     \Q_CelloMusicVoice                                                                             %! extern
 }
