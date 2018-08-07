@@ -94,7 +94,7 @@ stirrings_still.time(maker, time)
 
 maker(
     (['v1', 'v2', 'va'], (1, 2)),
-    baca.dynamic('p'),
+    baca.dynamic('p', redundant=True),
     baca.text_spanner(
         '1/2 clt =|',
         abjad.tweak(3.25).bound_details__right__padding,
