@@ -5319,16 +5319,31 @@ D_CelloMusicVoice = {
     R1 * 5/8                                                                                       %! _make_measure_silences
     
     % [D CelloMusicVoice measure 302 / measure 96]                                                 %! _comment_measure_numbers
-    R1 * 3/4                                                                                       %! _make_measure_silences
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'2.                                                                                           %! stirrings_still_clouded_pane
+    - \tweak color #'DeepPink1                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak circled-tip ##t                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
     % [D CelloMusicVoice measure 303 / measure 97]                                                 %! _comment_measure_numbers
-    R1 * 3/2                                                                                       %! _make_measure_silences
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'1.                                                                                           %! stirrings_still_clouded_pane
+    \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    \repeatTie
     
     % [D CelloMusicVoice measure 304 / measure 98]                                                 %! _comment_measure_numbers
-    R1 * 3/2                                                                                       %! _make_measure_silences
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'1.                                                                                           %! stirrings_still_clouded_pane
+    \repeatTie
     
     % [D CelloMusicVoice measure 305 / measure 99]                                                 %! _comment_measure_numbers
-    R1 * 1/4                                                                                       %! _make_measure_silences
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'4                                                                                            %! stirrings_still_clouded_pane
+    - \tweak color #'DeepPink1                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+    - \tweak circled-tip ##t                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+    \<                                                                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+    \repeatTie
     
 }
 

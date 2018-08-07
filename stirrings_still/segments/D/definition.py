@@ -486,11 +486,11 @@ maker(
     stirrings_still.continuous_tremolo(),
     )
 
-#maker(
-#    ('vc', (96, 99)),
-#    baca.hairpin(
-#        'o< p',
-#        piece_selector=baca.omgroups([1]),
-#        ),
-#    stirrings_still.clouded_pane(),
-#    )
+maker(
+    ('vc', (96, 99)),
+    baca.hairpin(
+        'o< p',
+        piece_selector=baca.omgroups([1]),
+        ),
+    stirrings_still.clouded_pane(),
+    )
