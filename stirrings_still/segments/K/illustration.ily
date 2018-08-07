@@ -978,7 +978,7 @@ K_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_trajectories
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         ^ \markup \baca-reapplied-indicator-markup "[“Vn. I”]"                                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"                                   %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup {                                                                                %! IndicatorCommand
@@ -1036,7 +1036,7 @@ K_ViolinIMusicVoice = {
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_trajectories
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         ]                                                                                          %! stirrings_still_trajectories
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
@@ -1047,7 +1047,7 @@ K_ViolinIMusicVoice = {
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_trajectories
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7                              %! BowContactPointCommand
@@ -1057,7 +1057,7 @@ K_ViolinIMusicVoice = {
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_trajectories
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -1173,7 +1173,7 @@ K_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_trajectories
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         ^ \markup {                                                                                %! IndicatorCommand
             \override                                                                              %! IndicatorCommand
                 #'(box-padding . 0.5)                                                              %! IndicatorCommand
@@ -1259,7 +1259,7 @@ K_ViolinIMusicVoice = {
         \once \override Beam.grow-direction = #left
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16 * 117/32                                                                              %! stirrings_still_accelerando
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -1269,7 +1269,7 @@ K_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16 * 61/16                                                                               %! stirrings_still_accelerando
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7                              %! BowContactPointCommand
@@ -1278,7 +1278,7 @@ K_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16 * 137/32                                                                              %! stirrings_still_accelerando
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -1287,7 +1287,7 @@ K_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16 * 325/64                                                                              %! stirrings_still_accelerando
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7                              %! BowContactPointCommand
@@ -1296,7 +1296,7 @@ K_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16 * 391/64                                                                              %! stirrings_still_accelerando
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -1838,7 +1838,7 @@ K_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_trajectories
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         ^ \markup \baca-reapplied-indicator-markup "[“Vn. II”]"                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"                                   %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup {                                                                                %! IndicatorCommand
@@ -1879,7 +1879,7 @@ K_ViolinIIMusicVoice = {
     \once \override NoteHead.transparent = ##t                                                     %! IndicatorCommand
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_trajectories
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                                  %! BowContactPointCommand
@@ -1889,7 +1889,7 @@ K_ViolinIIMusicVoice = {
     \once \override NoteHead.transparent = ##t                                                     %! IndicatorCommand
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'4                                                                                            %! stirrings_still_trajectories
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7                                  %! BowContactPointCommand
@@ -1899,7 +1899,7 @@ K_ViolinIIMusicVoice = {
     \once \override NoteHead.transparent = ##t                                                     %! IndicatorCommand
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'4                                                                                            %! stirrings_still_trajectories
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                                  %! BowContactPointCommand
@@ -2008,7 +2008,7 @@ K_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_trajectories
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         ^ \markup {                                                                                %! IndicatorCommand
             \override                                                                              %! IndicatorCommand
                 #'(box-padding . 0.5)                                                              %! IndicatorCommand
@@ -2042,7 +2042,7 @@ K_ViolinIIMusicVoice = {
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_trajectories
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -2095,7 +2095,7 @@ K_ViolinIIMusicVoice = {
         \once \override Beam.grow-direction = #left
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16 * 159/32                                                                              %! stirrings_still_accelerando
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7                              %! BowContactPointCommand
@@ -2105,7 +2105,7 @@ K_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16 * 331/64                                                                              %! stirrings_still_accelerando
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -2114,7 +2114,7 @@ K_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16 * 367/64                                                                              %! stirrings_still_accelerando
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7                              %! BowContactPointCommand
@@ -2123,7 +2123,7 @@ K_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16 * 423/64                                                                              %! stirrings_still_accelerando
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -2757,7 +2757,7 @@ K_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'4                                                                                            %! stirrings_still_trajectories
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup {                                                                                    %! IndicatorCommand
@@ -2787,7 +2787,7 @@ K_ViolaMusicVoice = {
     \once \override NoteHead.transparent = ##t                                                     %! IndicatorCommand
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_trajectories
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                                  %! BowContactPointCommand
@@ -2800,7 +2800,7 @@ K_ViolaMusicVoice = {
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_trajectories
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7                              %! BowContactPointCommand
@@ -2810,7 +2810,7 @@ K_ViolaMusicVoice = {
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_trajectories
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -3100,7 +3100,7 @@ K_CelloMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4.                                                                                       %! stirrings_still_trajectories
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup {                                                                                %! IndicatorCommand
@@ -3121,7 +3121,7 @@ K_CelloMusicVoice = {
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_trajectories
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -3132,7 +3132,7 @@ K_CelloMusicVoice = {
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_trajectories
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         ]                                                                                          %! stirrings_still_trajectories
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
@@ -3152,7 +3152,7 @@ K_CelloMusicVoice = {
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_trajectories
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -3162,7 +3162,7 @@ K_CelloMusicVoice = {
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4.                                                                                       %! stirrings_still_trajectories
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7                              %! BowContactPointCommand
@@ -3172,7 +3172,7 @@ K_CelloMusicVoice = {
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_trajectories
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -3272,7 +3272,7 @@ K_CelloMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4.                                                                                       %! stirrings_still_trajectories
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         ^ \markup {                                                                                %! IndicatorCommand
             \override                                                                              %! IndicatorCommand
                 #'(box-padding . 0.5)                                                              %! IndicatorCommand
@@ -3288,7 +3288,7 @@ K_CelloMusicVoice = {
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_trajectories
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -3298,7 +3298,7 @@ K_CelloMusicVoice = {
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_trajectories
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7                              %! BowContactPointCommand
@@ -3351,7 +3351,7 @@ K_CelloMusicVoice = {
         \once \override Beam.grow-direction = #left
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16 * 327/64                                                                              %! stirrings_still_accelerando
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -3361,7 +3361,7 @@ K_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16 * 339/64                                                                              %! stirrings_still_accelerando
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7                              %! BowContactPointCommand
@@ -3370,7 +3370,7 @@ K_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16 * 93/16                                                                               %! stirrings_still_accelerando
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -3379,7 +3379,7 @@ K_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16 * 105/16                                                                              %! stirrings_still_accelerando
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7                              %! BowContactPointCommand
