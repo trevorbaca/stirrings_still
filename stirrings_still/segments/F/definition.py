@@ -47,7 +47,7 @@ maker(
         0,
         baca.hairpin(
             'pp < f > pp < f > pp < f >o niente',
-            piece_selector=baca.mgroups([1, 2, 1, 2, 1, 1]),
+            piece_selector=baca.cmgroups([1, 2, 1, 2, 1, 1]),
             selector=baca.rleaves(),
             ),
         ),
@@ -55,9 +55,9 @@ maker(
         1,
         baca.hairpin(
             'pp < f > pp < f > pp < f >o niente',
-            piece_selector=baca.mgroups([1, 2, 1, 2, 1, 1]),
+            piece_selector=baca.cmgroups([1, 2, 1, 2, 1, 1]),
             # TODO: make this selector work:
-            #piece_selector=baca.mgroups([2, 1, 2, 1, 1, 1]),
+            #piece_selector=baca.cmgroups([2, 1, 2, 1, 1, 1]),
             selector=baca.rleaves(),
             ),
         ),
@@ -70,7 +70,7 @@ maker(
         # TODO: allow for variable-length middle part
         baca.hairpin(
             'pp < ff ff >o niente',
-            piece_selector=baca.mgroups([1, 6, 1, 1]),
+            piece_selector=baca.cmgroups([1, 6, 1, 1]),
             selector=baca.rleaves(),
             ),
         ),

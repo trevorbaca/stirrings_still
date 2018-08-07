@@ -173,7 +173,7 @@ maker(
     baca.text_spanner(
         '2˝ circles => 4˝ circles => 6˝ circles => 8˝ circles',
         bookend=False,
-        piece_selector=baca.mgroups([2]),
+        piece_selector=baca.cmgroups([2]),
         ),
     )
 
@@ -201,7 +201,7 @@ maker(
     baca.text_spanner(
         'flaut. (2°) => ord. => 4˝ circles => 6˝ circles => 8˝ circles',
         bookend=False,
-        piece_selector=baca.mgroups([1, 1, 2, 2, 2]),
+        piece_selector=baca.cmgroups([1, 1, 2, 2, 2]),
         ),
     )
 
