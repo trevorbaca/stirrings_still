@@ -1817,34 +1817,34 @@ C_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_desynchronization
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\espressivo                                                                                   %! IndicatorCommand
+    - \espressivo                                                                                  %! IndicatorCommand
     ^ \markup { "[urtext double stop]" }                                                           %! IndicatorCommand
     ^ \markup { louré }                                                                            %! IndicatorCommand
     [                                                                                              %! stirrings_still_desynchronization
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_desynchronization
-    -\espressivo                                                                                   %! IndicatorCommand
+    - \espressivo                                                                                  %! IndicatorCommand
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_desynchronization
-    -\espressivo                                                                                   %! IndicatorCommand
+    - \espressivo                                                                                  %! IndicatorCommand
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_desynchronization
-    -\espressivo                                                                                   %! IndicatorCommand
+    - \espressivo                                                                                  %! IndicatorCommand
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_desynchronization
-    -\espressivo                                                                                   %! IndicatorCommand
+    - \espressivo                                                                                  %! IndicatorCommand
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_desynchronization
-    -\espressivo                                                                                   %! IndicatorCommand
+    - \espressivo                                                                                  %! IndicatorCommand
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_desynchronization
-    -\espressivo                                                                                   %! IndicatorCommand
+    - \espressivo                                                                                  %! IndicatorCommand
     ]                                                                                              %! stirrings_still_desynchronization
     
     % [C ViolinIMusicVoice measure 135 / measure 6]                                                %! _comment_measure_numbers
@@ -3097,38 +3097,38 @@ C_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_desynchronization
         \mp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         ^ \markup { "[urtext double stop]" }                                                       %! IndicatorCommand
         ^ \markup { louré }                                                                        %! IndicatorCommand
         [                                                                                          %! stirrings_still_desynchronization
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_desynchronization
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_desynchronization
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_desynchronization
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_desynchronization
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_desynchronization
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_desynchronization
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_desynchronization
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         ]                                                                                          %! stirrings_still_desynchronization
     }                                                                                              %! stirrings_still_desynchronization
     
@@ -4308,30 +4308,30 @@ C_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_desynchronization
         \mp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         ^ \markup { "[clouded partial (stopped)]" }                                                %! IndicatorCommand
         ^ \markup { louré }                                                                        %! IndicatorCommand
         [                                                                                          %! stirrings_still_desynchronization
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_desynchronization
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_desynchronization
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_desynchronization
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_desynchronization
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_desynchronization
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         ]                                                                                          %! stirrings_still_desynchronization
     }                                                                                              %! stirrings_still_desynchronization
     

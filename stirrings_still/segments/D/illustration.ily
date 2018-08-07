@@ -2279,7 +2279,7 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         \repeatTie                                                                                 %! TCC
         ~                                                                                          %! TCC
         
@@ -2304,7 +2304,7 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         \repeatTie                                                                                 %! TCC
         ~                                                                                          %! TCC
         
@@ -2321,7 +2321,7 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         ~                                                                                          %! TCC
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
@@ -2338,7 +2338,7 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         \repeatTie                                                                                 %! TCC
         ~                                                                                          %! TCC
     }                                                                                              %! stirrings_still_flight
@@ -2365,7 +2365,7 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4.                                                                                       %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'2                                                                                        %! stirrings_still_flight
@@ -2378,7 +2378,7 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         \repeatTie                                                                                 %! TCC
         ~                                                                                          %! TCC
         
@@ -2388,7 +2388,7 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         \repeatTie                                                                                 %! TCC
         ~                                                                                          %! TCC
     }                                                                                              %! stirrings_still_flight
@@ -2406,7 +2406,7 @@ D_ViolinIMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'4.                                                                                           %! stirrings_still_flight
     :32                                                                                            %! IndicatorCommand
-    -\espressivo                                                                                   %! IndicatorCommand
+    - \espressivo                                                                                  %! IndicatorCommand
     \repeatTie                                                                                     %! TCC
     \tweak text #tuplet-number::calc-fraction-text                                                 %! stirrings_still_flight
     \times 7/9 {                                                                                   %! stirrings_still_flight
@@ -2426,7 +2426,7 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4.                                                                                       %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4.                                                                                       %! stirrings_still_flight
@@ -2439,7 +2439,7 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'2                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         \repeatTie                                                                                 %! TCC
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
@@ -2450,7 +2450,7 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         ~                                                                                          %! TCC
     }                                                                                              %! stirrings_still_flight
     
@@ -2470,7 +2470,7 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'2.                                                                                       %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
     }                                                                                              %! stirrings_still_flight
     
     % [D ViolinIMusicVoice measure 289 / measure 83]                                               %! _comment_measure_numbers
@@ -3249,7 +3249,7 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         ~                                                                                          %! TCC
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
@@ -3281,7 +3281,7 @@ D_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_flight
     :32                                                                                            %! IndicatorCommand
-    -\espressivo                                                                                   %! IndicatorCommand
+    - \espressivo                                                                                  %! IndicatorCommand
     ~                                                                                              %! TCC
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
@@ -3298,7 +3298,7 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         \repeatTie                                                                                 %! TCC
         ~                                                                                          %! TCC
         
@@ -3322,7 +3322,7 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         ~                                                                                          %! TCC
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
@@ -3337,7 +3337,7 @@ D_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'4.                                                                                           %! stirrings_still_flight
     :32                                                                                            %! IndicatorCommand
-    -\espressivo                                                                                   %! IndicatorCommand
+    - \espressivo                                                                                  %! IndicatorCommand
     \repeatTie                                                                                     %! TCC
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
@@ -3356,7 +3356,7 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         ~                                                                                          %! TCC
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
@@ -3366,7 +3366,7 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         ~                                                                                          %! TCC
     }                                                                                              %! stirrings_still_flight
     \tweak text #tuplet-number::calc-fraction-text                                                 %! stirrings_still_flight
@@ -3385,7 +3385,7 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         \repeatTie                                                                                 %! TCC
         ~                                                                                          %! TCC
     }                                                                                              %! stirrings_still_flight
@@ -3402,7 +3402,7 @@ D_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'4                                                                                            %! stirrings_still_flight
     :32                                                                                            %! IndicatorCommand
-    -\espressivo                                                                                   %! IndicatorCommand
+    - \espressivo                                                                                  %! IndicatorCommand
     \repeatTie                                                                                     %! TCC
     \tweak text #tuplet-number::calc-fraction-text                                                 %! stirrings_still_flight
     \times 8/10 {                                                                                  %! stirrings_still_flight
@@ -3425,7 +3425,7 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'2                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_flight
@@ -3435,7 +3435,7 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         ~                                                                                          %! TCC
     }                                                                                              %! stirrings_still_flight
     
@@ -4214,7 +4214,7 @@ D_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         \repeatTie                                                                                 %! TCC
         ~                                                                                          %! TCC
         
@@ -4246,7 +4246,7 @@ D_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         ~                                                                                          %! TCC
         ]                                                                                          %! stirrings_still_flight
         
@@ -4264,7 +4264,7 @@ D_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         ~                                                                                          %! TCC
         ]                                                                                          %! stirrings_still_flight
     }                                                                                              %! stirrings_still_flight
@@ -4290,7 +4290,7 @@ D_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         ~                                                                                          %! TCC
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
@@ -4299,7 +4299,7 @@ D_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         \repeatTie                                                                                 %! TCC
         ~                                                                                          %! TCC
     }                                                                                              %! stirrings_still_flight
@@ -4321,7 +4321,7 @@ D_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'4                                                                                            %! stirrings_still_flight
     :32                                                                                            %! IndicatorCommand
-    -\espressivo                                                                                   %! IndicatorCommand
+    - \espressivo                                                                                  %! IndicatorCommand
     \repeatTie                                                                                     %! TCC
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
@@ -4331,7 +4331,7 @@ D_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_flight
     :32                                                                                            %! IndicatorCommand
-    -\espressivo                                                                                   %! IndicatorCommand
+    - \espressivo                                                                                  %! IndicatorCommand
     \repeatTie                                                                                     %! TCC
     ~                                                                                              %! TCC
     \tweak text #tuplet-number::calc-fraction-text                                                 %! stirrings_still_flight
@@ -4349,7 +4349,7 @@ D_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4.                                                                                       %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         \repeatTie                                                                                 %! TCC
     }                                                                                              %! stirrings_still_flight
     \tweak text #tuplet-number::calc-fraction-text                                                 %! stirrings_still_flight
@@ -4370,7 +4370,7 @@ D_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4.                                                                                       %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_flight
@@ -4380,7 +4380,7 @@ D_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_flight
         :32                                                                                        %! IndicatorCommand
-        -\espressivo                                                                               %! IndicatorCommand
+        - \espressivo                                                                              %! IndicatorCommand
         ~                                                                                          %! TCC
     }                                                                                              %! stirrings_still_flight
     
@@ -4397,7 +4397,7 @@ D_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'4                                                                                            %! stirrings_still_flight
     :32                                                                                            %! IndicatorCommand
-    -\espressivo                                                                                   %! IndicatorCommand
+    - \espressivo                                                                                  %! IndicatorCommand
     \repeatTie                                                                                     %! TCC
     \tweak text #tuplet-number::calc-fraction-text                                                 %! stirrings_still_flight
     \times 7/9 {                                                                                   %! stirrings_still_flight
@@ -4420,7 +4420,7 @@ D_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'1                                                                                            %! stirrings_still_flight
     :32                                                                                            %! IndicatorCommand
-    -\espressivo                                                                                   %! IndicatorCommand
+    - \espressivo                                                                                  %! IndicatorCommand
     
     % [D ViolaMusicVoice measure 288 / measure 82]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
@@ -4857,7 +4857,7 @@ D_CelloMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_trajectories
         \f                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         ^ \markup {                                                                                %! IndicatorCommand
             \override                                                                              %! IndicatorCommand
                 #'(box-padding . 0.5)                                                              %! IndicatorCommand
@@ -4873,7 +4873,7 @@ D_CelloMusicVoice = {
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4.                                                                                       %! stirrings_still_trajectories
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -4883,7 +4883,7 @@ D_CelloMusicVoice = {
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_trajectories
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7                              %! BowContactPointCommand

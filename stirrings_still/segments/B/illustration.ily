@@ -1754,7 +1754,7 @@ B_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
         \mp                                                                                        %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         - \abjad_dashed_line_with_hook                                                             %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.left.text \markup \baca-left "1/2 clt"                              %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #1.75                                                 %! PiecewiseIndicatorCommand(1)
@@ -1770,19 +1770,19 @@ B_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r8                                                                                         %! stirrings_still_clockticks
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r8                                                                                         %! stirrings_still_clockticks
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
     }                                                                                              %! stirrings_still_clockticks
     
     % [B ViolinIMusicVoice measure 66 / measure 3]                                                 %! _comment_measure_numbers
@@ -1794,13 +1794,13 @@ B_ViolinIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r8                                                                                         %! stirrings_still_clockticks
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r8                                                                                         %! stirrings_still_clockticks
         \revert TupletBracket.staff-padding                                                        %! OverrideCommand(2)
@@ -2708,7 +2708,7 @@ B_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
         \mp                                                                                        %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         ^ \markup \baca-reapplied-indicator-markup "[“Vn. II”]"                                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "(“ViolinI”)"                                   %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         - \abjad_dashed_line_with_hook                                                             %! PiecewiseIndicatorCommand(1)
@@ -2731,7 +2731,7 @@ B_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -2739,7 +2739,7 @@ B_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -2748,7 +2748,7 @@ B_ViolinIIMusicVoice = {
         % [B ViolinIIMusicVoice measure 65 / measure 2]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -2756,7 +2756,7 @@ B_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -2764,7 +2764,7 @@ B_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -2772,7 +2772,7 @@ B_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -2780,7 +2780,7 @@ B_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -2788,7 +2788,7 @@ B_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -2796,7 +2796,7 @@ B_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -2805,7 +2805,7 @@ B_ViolinIIMusicVoice = {
         % [B ViolinIIMusicVoice measure 67 / measure 4]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -2813,7 +2813,7 @@ B_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
         \revert TupletBracket.staff-padding                                                        %! OverrideCommand(2)
@@ -3798,7 +3798,7 @@ B_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
         \mp                                                                                        %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         - \abjad_dashed_line_with_hook                                                             %! PiecewiseIndicatorCommand(1)
@@ -3821,7 +3821,7 @@ B_ViolaMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -3829,7 +3829,7 @@ B_ViolaMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -3838,7 +3838,7 @@ B_ViolaMusicVoice = {
         % [B ViolaMusicVoice measure 65 / measure 2]                                               %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -3846,7 +3846,7 @@ B_ViolaMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -3854,7 +3854,7 @@ B_ViolaMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -3862,7 +3862,7 @@ B_ViolaMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -3870,7 +3870,7 @@ B_ViolaMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -3878,7 +3878,7 @@ B_ViolaMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -3886,7 +3886,7 @@ B_ViolaMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -3895,7 +3895,7 @@ B_ViolaMusicVoice = {
         % [B ViolaMusicVoice measure 67 / measure 4]                                               %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -3903,7 +3903,7 @@ B_ViolaMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
         \revert TupletBracket.staff-padding                                                        %! OverrideCommand(2)
@@ -4559,7 +4559,7 @@ B_CelloMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
         \mp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         - \abjad_dashed_line_with_hook                                                             %! PiecewiseIndicatorCommand(1)
@@ -4582,7 +4582,7 @@ B_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -4590,7 +4590,7 @@ B_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -4599,7 +4599,7 @@ B_CelloMusicVoice = {
         % [B CelloMusicVoice measure 65 / measure 2]                                               %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -4607,7 +4607,7 @@ B_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -4615,7 +4615,7 @@ B_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -4623,7 +4623,7 @@ B_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -4631,7 +4631,7 @@ B_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -4639,7 +4639,7 @@ B_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -4647,7 +4647,7 @@ B_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -4656,7 +4656,7 @@ B_CelloMusicVoice = {
         % [B CelloMusicVoice measure 67 / measure 4]                                               %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -4664,7 +4664,7 @@ B_CelloMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
         \revert TupletBracket.staff-padding                                                        %! OverrideCommand(2)

@@ -911,7 +911,7 @@ I_CelloMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
     \p                                                                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #blue                                                                           %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -942,7 +942,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7                                  %! BowContactPointCommand
@@ -950,7 +950,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -958,7 +958,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -966,7 +966,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -974,7 +974,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7                                  %! BowContactPointCommand
@@ -982,7 +982,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -990,7 +990,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7                                  %! BowContactPointCommand
@@ -999,7 +999,7 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 520 / measure 2]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1007,7 +1007,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7                                  %! BowContactPointCommand
@@ -1015,7 +1015,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1023,7 +1023,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1031,7 +1031,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1039,7 +1039,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7                                  %! BowContactPointCommand
@@ -1048,7 +1048,7 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 521 / measure 3]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1056,7 +1056,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7                                  %! BowContactPointCommand
@@ -1064,7 +1064,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1072,7 +1072,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1080,7 +1080,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1088,7 +1088,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7                                  %! BowContactPointCommand
@@ -1096,7 +1096,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1104,7 +1104,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7                                  %! BowContactPointCommand
@@ -1113,7 +1113,7 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 522 / measure 4]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1121,7 +1121,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7                                  %! BowContactPointCommand
@@ -1129,7 +1129,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1137,7 +1137,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1145,7 +1145,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1153,7 +1153,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7                                  %! BowContactPointCommand
@@ -1162,7 +1162,7 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 523 / measure 5]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1170,7 +1170,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7                                  %! BowContactPointCommand
@@ -1178,7 +1178,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1186,7 +1186,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1194,7 +1194,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1202,7 +1202,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7                                  %! BowContactPointCommand
@@ -1210,7 +1210,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1218,7 +1218,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7                                  %! BowContactPointCommand
@@ -1229,7 +1229,7 @@ I_CelloMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1237,7 +1237,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7                                  %! BowContactPointCommand
@@ -1245,7 +1245,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1253,7 +1253,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1261,7 +1261,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1269,7 +1269,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7                                  %! BowContactPointCommand
@@ -1277,7 +1277,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1285,7 +1285,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7                                  %! BowContactPointCommand
@@ -1293,7 +1293,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1301,7 +1301,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8                                                                                            %! stirrings_still_eighths
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]                                                                                              %! SpannerCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1311,7 +1311,7 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 525 / measure 7]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8.
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1320,7 +1320,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'16
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1329,7 +1329,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1338,7 +1338,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1347,7 +1347,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8.
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1356,7 +1356,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'16
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1365,7 +1365,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1374,7 +1374,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1383,7 +1383,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8.
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1392,7 +1392,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'16
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1401,7 +1401,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1410,7 +1410,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1420,7 +1420,7 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 526 / measure 8]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8.
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1429,7 +1429,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'16
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1438,7 +1438,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1447,7 +1447,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1456,7 +1456,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8.
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1465,7 +1465,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'16
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1474,7 +1474,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1483,7 +1483,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1492,7 +1492,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8.
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1501,7 +1501,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'16
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1510,7 +1510,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1519,7 +1519,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1529,7 +1529,7 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 527 / measure 9]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8.
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1538,7 +1538,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'16
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1547,7 +1547,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1556,7 +1556,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1565,7 +1565,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8.
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1574,7 +1574,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'16
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1586,7 +1586,7 @@ I_CelloMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
     \f                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     - \tweak color #blue                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak to-barline ##t                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1599,7 +1599,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1608,7 +1608,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8.
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1617,7 +1617,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'16
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1626,7 +1626,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1635,7 +1635,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1644,7 +1644,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8.
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1653,7 +1653,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'16
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1663,7 +1663,7 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 529 / measure 11]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1672,7 +1672,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1681,7 +1681,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8.
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1690,7 +1690,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'16
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1699,7 +1699,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand
@@ -1708,7 +1708,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1717,7 +1717,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8.
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7                                  %! BowContactPointCommand
@@ -1726,7 +1726,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'16
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -1735,7 +1735,7 @@ I_CelloMusicVoice = {
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'8
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7                                  %! BowContactPointCommand

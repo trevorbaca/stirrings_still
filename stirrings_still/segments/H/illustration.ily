@@ -2359,7 +2359,7 @@ H_ViolinIIMusicVoice = {
         \override TupletNumber.text = #tuplet-number::calc-denominator-text                        %! OverrideCommand(1)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         - \abjad_dashed_line_with_hook                                                             %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.left.text \markup \baca-left "1/2 clt"                              %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #3.25                                                 %! PiecewiseIndicatorCommand(1)
@@ -2377,7 +2377,7 @@ H_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
-        -\upbow                                                                                    %! IndicatorCommand
+        - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
     }                                                                                              %! stirrings_still_clockticks
@@ -2385,7 +2385,7 @@ H_ViolinIIMusicVoice = {
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16                                                                                       %! stirrings_still_clockticks
-        -\downbow                                                                                  %! IndicatorCommand
+        - \downbow                                                                                 %! IndicatorCommand
         
         r8                                                                                         %! stirrings_still_clockticks
         \revert TextSpanner.staff-padding                                                          %! OverrideCommand(2)
@@ -3551,7 +3551,7 @@ H_CelloMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16 * 119/32                                                                              %! stirrings_still_accelerando
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         ^ \markup {                                                                                %! IndicatorCommand
             \override                                                                              %! IndicatorCommand
                 #'(box-padding . 0.5)                                                              %! IndicatorCommand
@@ -3873,7 +3873,7 @@ H_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         e,8                                                                                        %! stirrings_still_trajectories
         \ppp                                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         ^ \markup {                                                                                %! IndicatorCommand
             \override                                                                              %! IndicatorCommand
                 #'(box-padding . 0.5)                                                              %! IndicatorCommand
@@ -3891,7 +3891,7 @@ H_CelloMusicVoice = {
         
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         e,8                                                                                        %! stirrings_still_trajectories
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         ]                                                                                          %! stirrings_still_trajectories
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
@@ -3901,7 +3901,7 @@ H_CelloMusicVoice = {
         
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         e,4                                                                                        %! stirrings_still_trajectories
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -3910,7 +3910,7 @@ H_CelloMusicVoice = {
         
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         e,8                                                                                        %! stirrings_still_trajectories
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7                              %! BowContactPointCommand
@@ -3920,7 +3920,7 @@ H_CelloMusicVoice = {
         
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         e,8                                                                                        %! stirrings_still_trajectories
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         ]                                                                                          %! stirrings_still_trajectories
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
@@ -3934,7 +3934,7 @@ H_CelloMusicVoice = {
         % [H CelloMusicVoice measure 513 / measure 47]                                             %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         e,8                                                                                        %! stirrings_still_trajectories
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7                              %! BowContactPointCommand
@@ -3943,7 +3943,7 @@ H_CelloMusicVoice = {
         
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         e,4                                                                                        %! stirrings_still_trajectories
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -3952,7 +3952,7 @@ H_CelloMusicVoice = {
         
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         e,8                                                                                        %! stirrings_still_trajectories
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7                              %! BowContactPointCommand
@@ -3994,7 +3994,7 @@ H_CelloMusicVoice = {
     
     \once \override NoteHead.transparent = ##t                                                     %! IndicatorCommand
     e,8                                                                                            %! stirrings_still_trajectories
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                                  %! BowContactPointCommand
@@ -4003,7 +4003,7 @@ H_CelloMusicVoice = {
     
     \once \override NoteHead.transparent = ##t                                                     %! IndicatorCommand
     e,8                                                                                            %! stirrings_still_trajectories
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7                                  %! BowContactPointCommand
@@ -4012,7 +4012,7 @@ H_CelloMusicVoice = {
     
     \once \override NoteHead.transparent = ##t                                                     %! IndicatorCommand
     e,8                                                                                            %! stirrings_still_trajectories
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]                                                                                              %! stirrings_still_trajectories
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -4022,7 +4022,7 @@ H_CelloMusicVoice = {
     
     \once \override NoteHead.transparent = ##t                                                     %! IndicatorCommand
     e,4                                                                                            %! stirrings_still_trajectories
-    -\downbow                                                                                      %! BowContactPointCommand
+    - \downbow                                                                                     %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #0 #4                                  %! BowContactPointCommand
@@ -4040,7 +4040,7 @@ H_CelloMusicVoice = {
     
     \once \override NoteHead.transparent = ##t                                                     %! IndicatorCommand
     e,8                                                                                            %! stirrings_still_trajectories
-    -\upbow                                                                                        %! BowContactPointCommand
+    - \upbow                                                                                       %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]                                                                                              %! stirrings_still_trajectories
     - \abjad_solid_line_with_arrow                                                                 %! BowContactPointCommand
@@ -4061,7 +4061,7 @@ H_CelloMusicVoice = {
         
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         e,4                                                                                        %! stirrings_still_trajectories
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7                              %! BowContactPointCommand
@@ -4095,7 +4095,7 @@ H_CelloMusicVoice = {
         
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         e,8                                                                                        %! stirrings_still_trajectories
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         ]                                                                                          %! stirrings_still_trajectories
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
@@ -4116,7 +4116,7 @@ H_CelloMusicVoice = {
         
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         e,8                                                                                        %! stirrings_still_trajectories
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7                              %! BowContactPointCommand
@@ -4125,7 +4125,7 @@ H_CelloMusicVoice = {
         
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         e,8                                                                                        %! stirrings_still_trajectories
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
@@ -4134,7 +4134,7 @@ H_CelloMusicVoice = {
         
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         e,8                                                                                        %! stirrings_still_trajectories
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         ]                                                                                          %! stirrings_still_trajectories
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
@@ -4182,7 +4182,7 @@ H_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         e,8                                                                                        %! stirrings_still_trajectories
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         ^ \markup {                                                                                %! IndicatorCommand
             \override                                                                              %! IndicatorCommand
                 #'(box-padding . 0.5)                                                              %! IndicatorCommand
@@ -4198,7 +4198,7 @@ H_CelloMusicVoice = {
         
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         e,8                                                                                        %! stirrings_still_trajectories
-        -\downbow                                                                                  %! BowContactPointCommand
+        - \downbow                                                                                 %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         ]                                                                                          %! stirrings_still_trajectories
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
@@ -4208,7 +4208,7 @@ H_CelloMusicVoice = {
         
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         e,4                                                                                        %! stirrings_still_trajectories
-        -\upbow                                                                                    %! BowContactPointCommand
+        - \upbow                                                                                   %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                                             %! BowContactPointCommand
         - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7                              %! BowContactPointCommand
