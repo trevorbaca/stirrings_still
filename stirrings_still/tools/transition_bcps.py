@@ -23,7 +23,7 @@ def transition_bcps(final_spanner=None):
         return result
 
     return baca.bcps(
-        bcps=bcps,
+        bcps,
         final_spanner=final_spanner,
         helper=helper,
         )
