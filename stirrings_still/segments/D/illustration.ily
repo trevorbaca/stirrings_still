@@ -351,7 +351,7 @@ D_GlobalRests = {
 D_GlobalSkips = {
     
     % [D GlobalSkips measure 207 / measure 1]                                                      %! _comment_measure_numbers
-    \override TextScript.extra-offset = #'(0 . 5)                                                  %! OverrideCommand(1)
+    \override TextScript.extra-offset = #'(0 . 5)                                                  %! baca_text_script_extra_offset:OverrideCommand(1)
     \time 10/16                                                                                    %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \tweak Y-offset #12                                                                            %! IndicatorCommand
     \mark #4                                                                                       %! IndicatorCommand
@@ -1625,7 +1625,7 @@ D_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [D.99]                                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[12'57'']"                                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                                                  %! _attach_metronome_marks(4)
-    \revert TextScript.extra-offset                                                                %! OverrideCommand(2)
+    \revert TextScript.extra-offset                                                                %! baca_text_script_extra_offset:OverrideCommand(2)
     \baca_bar_line_visible                                                                         %! _attach_final_bar_line
     \bar "|"                                                                                       %! _attach_final_bar_line
     
@@ -2077,7 +2077,7 @@ D_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16 * 1                                                                                   %! stirrings_still_accelerando
         
-        \once \override DynamicText.parent-alignment-X = #-4                                       %! OverrideCommand(1)
+        \once \override DynamicText.parent-alignment-X = #-4                                       %! baca_dynamic_text_parent_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                                          %! stirrings_still_accelerando
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
@@ -3074,7 +3074,7 @@ D_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'16 * 61/32                                                                               %! stirrings_still_accelerando
         
-        \once \override DynamicText.parent-alignment-X = #-4                                       %! OverrideCommand(1)
+        \once \override DynamicText.parent-alignment-X = #-4                                       %! baca_dynamic_text_parent_alignment_x:OverrideCommand(1)
         \revert Staff.Stem.stemlet-length                                                          %! stirrings_still_accelerando
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
@@ -4849,9 +4849,9 @@ D_CelloMusicVoice = {
     \times 6/7 {                                                                                   %! stirrings_still_trajectories
         
         % [D CelloMusicVoice measure 244 / measure 38]                                             %! _comment_measure_numbers
-        \override DynamicLineSpanner.staff-padding = #'5                                           %! OverrideCommand(1)
-        \override TextScript.staff-padding = #11                                                   %! OverrideCommand(1)
-        \override TextSpanner.staff-padding = #7                                                   %! OverrideCommand(1)
+        \override DynamicLineSpanner.staff-padding = #'5                                           %! baca_dls_staff_padding:OverrideCommand(1)
+        \override TextScript.staff-padding = #11                                                   %! baca_script_staff_padding:OverrideCommand(1)
+        \override TextSpanner.staff-padding = #7                                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
@@ -4897,9 +4897,9 @@ D_CelloMusicVoice = {
         c'8                                                                                        %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         ]                                                                                          %! stirrings_still_trajectories
-        \revert DynamicLineSpanner.staff-padding                                                   %! OverrideCommand(2)
-        \revert TextScript.staff-padding                                                           %! OverrideCommand(2)
-        \revert TextSpanner.staff-padding                                                          %! OverrideCommand(2)
+        \revert DynamicLineSpanner.staff-padding                                                   %! baca_dls_staff_padding:OverrideCommand(2)
+        \revert TextScript.staff-padding                                                           %! baca_script_staff_padding:OverrideCommand(2)
+        \revert TextSpanner.staff-padding                                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
     }                                                                                              %! stirrings_still_trajectories
     
     % [D CelloMusicVoice measure 245 / measure 39]                                                 %! _comment_measure_numbers

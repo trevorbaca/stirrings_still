@@ -54,7 +54,7 @@ J_GlobalRests = {
 J_GlobalSkips = {
     
     % [J GlobalSkips measure 530 / measure 1]                                                      %! _comment_measure_numbers
-    \override TextScript.extra-offset = #'(0 . 5)                                                  %! OverrideCommand(1)
+    \override TextScript.extra-offset = #'(0 . 5)                                                  %! baca_text_script_extra_offset:OverrideCommand(1)
     \time 8/16                                                                                     %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \tweak Y-offset #12                                                                            %! IndicatorCommand
     \mark #10                                                                                      %! IndicatorCommand
@@ -333,7 +333,7 @@ J_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [J.16]                                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[22'56'']"                                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                                                  %! _attach_metronome_marks(4)
-    \revert TextScript.extra-offset                                                                %! OverrideCommand(2)
+    \revert TextScript.extra-offset                                                                %! baca_text_script_extra_offset:OverrideCommand(2)
     \baca_bar_line_visible                                                                         %! _attach_final_bar_line
     \bar "|"                                                                                       %! _attach_final_bar_line
     
@@ -366,7 +366,7 @@ J_ViolinIMusicVoice = {
     \repeatTie
     
     % [J ViolinIMusicVoice measure 532 / measure 3]                                                %! _comment_measure_numbers
-    \once \override NoteHead.style = #'harmonic                                                    %! OverrideCommand(1)
+    \once \override NoteHead.style = #'harmonic                                                    %! baca_note_head_style_harmonic:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'2.                                                                                           %! stirrings_still_clouded_pane
@@ -472,7 +472,7 @@ J_ViolinIIMusicVoice = {
     \times 2/3 {                                                                                   %! stirrings_still_clockticks
         
         % [J ViolinIIMusicVoice measure 532 / measure 3]                                           %! _comment_measure_numbers
-        \override TextSpanner.staff-padding = #5                                                   %! OverrideCommand(1)
+        \override TextSpanner.staff-padding = #5                                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clockticks
@@ -503,7 +503,7 @@ J_ViolinIIMusicVoice = {
         c'8                                                                                        %! stirrings_still_clockticks
         
         r4                                                                                         %! stirrings_still_clockticks
-        \revert TextSpanner.staff-padding                                                          %! OverrideCommand(2)
+        \revert TextSpanner.staff-padding                                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
         <> \stopTextSpan                                                                           %! PiecewiseIndicatorCommand(3)
         <> \stopTextSpanOne                                                                        %! PiecewiseIndicatorCommand(3)
     }                                                                                              %! stirrings_still_clockticks
@@ -611,7 +611,7 @@ J_ViolaMusicVoice = {
     \repeatTie
     
     % [J ViolaMusicVoice measure 532 / measure 3]                                                  %! _comment_measure_numbers
-    \once \override NoteHead.style = #'harmonic                                                    %! OverrideCommand(1)
+    \once \override NoteHead.style = #'harmonic                                                    %! baca_note_head_style_harmonic:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'2.                                                                                           %! stirrings_still_clouded_pane
@@ -714,7 +714,7 @@ J_CelloMusicVoice = {
     R1 * 3/4                                                                                       %! _make_measure_silences
     
     % [J CelloMusicVoice measure 532 / measure 3]                                                  %! _comment_measure_numbers
-    \once \override NoteHead.style = #'harmonic                                                    %! OverrideCommand(1)
+    \once \override NoteHead.style = #'harmonic                                                    %! baca_note_head_style_harmonic:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'2.                                                                                           %! stirrings_still_clouded_pane

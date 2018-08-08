@@ -39,7 +39,7 @@ I_GlobalRests = {
 I_GlobalSkips = {
     
     % [I GlobalSkips measure 519 / measure 1]                                                      %! _comment_measure_numbers
-    \override TextScript.extra-offset = #'(0 . 5)                                                  %! OverrideCommand(1)
+    \override TextScript.extra-offset = #'(0 . 5)                                                  %! baca_text_script_extra_offset:OverrideCommand(1)
     \time 4/4                                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \tweak Y-offset #12                                                                            %! IndicatorCommand
     \mark #9                                                                                       %! IndicatorCommand
@@ -225,7 +225,7 @@ I_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [I.11]                                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[21'54'']"                                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                                                  %! _attach_metronome_marks(4)
-    \revert TextScript.extra-offset                                                                %! OverrideCommand(2)
+    \revert TextScript.extra-offset                                                                %! baca_text_script_extra_offset:OverrideCommand(2)
     \baca_bar_line_visible                                                                         %! _attach_final_bar_line
     \bar "|"                                                                                       %! _attach_final_bar_line
     
@@ -901,7 +901,7 @@ I_CelloMusicVoice = {
     
     % [I CelloMusicVoice measure 519 / measure 1]                                                  %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings_still_vc                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override TextSpanner.staff-padding = #7                                                       %! OverrideCommand(1)
+    \override TextSpanner.staff-padding = #7                                                       %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \clef "bass"                                                                                   %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1749,7 +1749,7 @@ I_CelloMusicVoice = {
     \!                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
     ]
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                                              %! baca_text_spanner_staff_padding:OverrideCommand(2)
     <> \stopTextSpanOne                                                                            %! PiecewiseIndicatorCommand(3)
     
 }

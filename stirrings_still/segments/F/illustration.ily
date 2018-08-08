@@ -60,7 +60,7 @@ F_GlobalRests = {
 F_GlobalSkips = {
     
     % [F GlobalSkips measure 433 / measure 1]                                                      %! _comment_measure_numbers
-    \override TextScript.extra-offset = #'(0 . 5)                                                  %! OverrideCommand(1)
+    \override TextScript.extra-offset = #'(0 . 5)                                                  %! baca_text_script_extra_offset:OverrideCommand(1)
     \time 4/4                                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \tweak Y-offset #12                                                                            %! IndicatorCommand
     \mark #6                                                                                       %! IndicatorCommand
@@ -245,7 +245,7 @@ F_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [F.14]                                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[18'10'']"                                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                                                  %! _attach_metronome_marks(4)
-    \revert TextScript.extra-offset                                                                %! OverrideCommand(2)
+    \revert TextScript.extra-offset                                                                %! baca_text_script_extra_offset:OverrideCommand(2)
     \baca_bar_line_visible                                                                         %! _attach_final_bar_line
     \bar "|"                                                                                       %! _attach_final_bar_line
     
@@ -571,8 +571,8 @@ F_ViolaMusicVoice = {
     \stopStaff                                                                                     %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                                               %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \startStaff                                                                                    %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \override Hairpin.shorten-pair = #'(0.75 . 0)                                                  %! OverrideCommand(1)
-    \override TextScript.parent-alignment-X = #0                                                   %! OverrideCommand(1)
+    \override Hairpin.shorten-pair = #'(0.75 . 0)                                                  %! baca_hairpin_shorten_pair:OverrideCommand(1)
+    \override TextScript.parent-alignment-X = #0                                                   %! baca_text_script_parent_center:OverrideCommand(1)
     \clef "alto"                                                                                   %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -641,8 +641,8 @@ F_ViolaMusicVoice = {
     % [F ViolaMusicVoice measure 442 / measure 10]                                                 %! _comment_measure_numbers
     c'1.                                                                                           %! stirrings_still_tailpiece
     ^ \markup { "terminate abruptly" }                                                             %! IndicatorCommand
-    \revert Hairpin.shorten-pair                                                                   %! OverrideCommand(2)
-    \revert TextScript.parent-alignment-X                                                          %! OverrideCommand(2)
+    \revert Hairpin.shorten-pair                                                                   %! baca_hairpin_shorten_pair:OverrideCommand(2)
+    \revert TextScript.parent-alignment-X                                                          %! baca_text_script_parent_center:OverrideCommand(2)
     
     % [F ViolaMusicVoice measure 443 / measure 11]                                                 %! _comment_measure_numbers
     \stopStaff                                                                                     %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand

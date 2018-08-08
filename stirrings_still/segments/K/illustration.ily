@@ -165,7 +165,7 @@ K_GlobalRests = {
 K_GlobalSkips = {
     
     % [K GlobalSkips measure 546 / measure 1]                                                      %! _comment_measure_numbers
-    \override TextScript.extra-offset = #'(0 . 5)                                                  %! OverrideCommand(1)
+    \override TextScript.extra-offset = #'(0 . 5)                                                  %! baca_text_script_extra_offset:OverrideCommand(1)
     \time 6/8                                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \tweak Y-offset #12                                                                            %! IndicatorCommand
     \mark #11                                                                                      %! IndicatorCommand
@@ -950,7 +950,7 @@ K_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [K.53]                                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[25'17'']"                                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                                                  %! _attach_metronome_marks(4)
-    \revert TextScript.extra-offset                                                                %! OverrideCommand(2)
+    \revert TextScript.extra-offset                                                                %! baca_text_script_extra_offset:OverrideCommand(2)
     \baca_bar_line_visible                                                                         %! _attach_final_bar_line
     \bar "|"                                                                                       %! _attach_final_bar_line
     
@@ -963,11 +963,11 @@ K_ViolinIMusicVoice = {
         
         % [K ViolinIMusicVoice measure 546 / measure 1]                                            %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings_still_vn_i                                     %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    %%% \once \override DynamicText.self-alignment-X = #left                                       %! OverrideCommand(1):-SEGMENT
-    %%% \once \override DynamicText.X-extent = #'(0 . 0)                                           %! OverrideCommand(1):-SEGMENT
-        \override TextScript.parent-alignment-X = #0                                               %! OverrideCommand(1)
-        \override TextScript.staff-padding = #11                                                   %! OverrideCommand(1)
-        \override TextSpanner.staff-padding = #7                                                   %! OverrideCommand(1)
+    %%% \once \override DynamicText.self-alignment-X = #left                                       %! -SEGMENT:baca_dynamic_text_left:OverrideCommand(1)
+    %%% \once \override DynamicText.X-extent = #'(0 . 0)                                           %! -SEGMENT:baca_dynamic_text_left:OverrideCommand(1)
+        \override TextScript.parent-alignment-X = #0                                               %! baca_text_script_parent_center:OverrideCommand(1)
+        \override TextScript.staff-padding = #11                                                   %! baca_script_staff_padding:OverrideCommand(1)
+        \override TextSpanner.staff-padding = #7                                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \clef "treble"                                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)                          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1069,18 +1069,18 @@ K_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
-        \revert TextScript.parent-alignment-X                                                      %! OverrideCommand(2)
-        \revert TextScript.staff-padding                                                           %! OverrideCommand(2)
-        \revert TextSpanner.staff-padding                                                          %! OverrideCommand(2)
+        \revert TextScript.parent-alignment-X                                                      %! baca_text_script_parent_center:OverrideCommand(2)
+        \revert TextScript.staff-padding                                                           %! baca_script_staff_padding:OverrideCommand(2)
+        \revert TextSpanner.staff-padding                                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
     }                                                                                              %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                                                 %! stirrings_still_desynchronization
     \times 6/8 {                                                                                   %! stirrings_still_desynchronization
         
         % [K ViolinIMusicVoice measure 548 / measure 3]                                            %! _comment_measure_numbers
-        \once \override DynamicText.self-alignment-X = #left                                       %! OverrideCommand(1)
-        \once \override DynamicText.X-extent = #'(0 . 0)                                           %! OverrideCommand(1)
-        \override TextScript.staff-padding = #9                                                    %! OverrideCommand(1)
-        \override TextSpanner.staff-padding = #5                                                   %! OverrideCommand(1)
+        \once \override DynamicText.self-alignment-X = #left                                       %! baca_dynamic_text_left:OverrideCommand(1)
+        \once \override DynamicText.X-extent = #'(0 . 0)                                           %! baca_dynamic_text_left:OverrideCommand(1)
+        \override TextScript.staff-padding = #9                                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override TextSpanner.staff-padding = #5                                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_desynchronization
@@ -1156,18 +1156,18 @@ K_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_desynchronization
         \stopTextSpan                                                                              %! PiecewiseIndicatorCommand(3)
-        \revert TextScript.staff-padding                                                           %! OverrideCommand(2)
-        \revert TextSpanner.staff-padding                                                          %! OverrideCommand(2)
+        \revert TextScript.staff-padding                                                           %! baca_script_staff_padding:OverrideCommand(2)
+        \revert TextSpanner.staff-padding                                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
     }                                                                                              %! stirrings_still_desynchronization
     \tweak text #tuplet-number::calc-fraction-text                                                 %! stirrings_still_trajectories
     \times 7/8 {                                                                                   %! stirrings_still_trajectories
         
         % [K ViolinIMusicVoice measure 550 / measure 5]                                            %! _comment_measure_numbers
-        \once \override DynamicText.self-alignment-X = #left                                       %! OverrideCommand(1)
-        \once \override DynamicText.X-extent = #'(0 . 0)                                           %! OverrideCommand(1)
-        \override TextScript.parent-alignment-X = #0                                               %! OverrideCommand(1)
-        \override TextScript.staff-padding = #11                                                   %! OverrideCommand(1)
-        \override TextSpanner.staff-padding = #7                                                   %! OverrideCommand(1)
+        \once \override DynamicText.self-alignment-X = #left                                       %! baca_dynamic_text_left:OverrideCommand(1)
+        \once \override DynamicText.X-extent = #'(0 . 0)                                           %! baca_dynamic_text_left:OverrideCommand(1)
+        \override TextScript.parent-alignment-X = #0                                               %! baca_text_script_parent_center:OverrideCommand(1)
+        \override TextScript.staff-padding = #11                                                   %! baca_script_staff_padding:OverrideCommand(1)
+        \override TextSpanner.staff-padding = #7                                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
@@ -1309,9 +1309,9 @@ K_ViolinIMusicVoice = {
         c'16 * 113/16                                                                              %! stirrings_still_accelerando
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         ]                                                                                          %! stirrings_still_accelerando
-        \revert TextScript.parent-alignment-X                                                      %! OverrideCommand(2)
-        \revert TextScript.staff-padding                                                           %! OverrideCommand(2)
-        \revert TextSpanner.staff-padding                                                          %! OverrideCommand(2)
+        \revert TextScript.parent-alignment-X                                                      %! baca_text_script_parent_center:OverrideCommand(2)
+        \revert TextScript.staff-padding                                                           %! baca_script_staff_padding:OverrideCommand(2)
+        \revert TextSpanner.staff-padding                                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
     }                                                                                              %! stirrings_still_accelerando
     \revert TupletNumber.text
     \override TupletNumber.text = \markup {
@@ -1823,11 +1823,11 @@ K_ViolinIIMusicVoice = {
         
         % [K ViolinIIMusicVoice measure 546 / measure 1]                                           %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings_still_vn_ii                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    %%% \once \override DynamicText.self-alignment-X = #left                                       %! OverrideCommand(1):-SEGMENT
-    %%% \once \override DynamicText.X-extent = #'(0 . 0)                                           %! OverrideCommand(1):-SEGMENT
-        \override TextScript.parent-alignment-X = #0                                               %! OverrideCommand(1)
-        \override TextScript.staff-padding = #11                                                   %! OverrideCommand(1)
-        \override TextSpanner.staff-padding = #7                                                   %! OverrideCommand(1)
+    %%% \once \override DynamicText.self-alignment-X = #left                                       %! -SEGMENT:baca_dynamic_text_left:OverrideCommand(1)
+    %%% \once \override DynamicText.X-extent = #'(0 . 0)                                           %! -SEGMENT:baca_dynamic_text_left:OverrideCommand(1)
+        \override TextScript.parent-alignment-X = #0                                               %! baca_text_script_parent_center:OverrideCommand(1)
+        \override TextScript.staff-padding = #11                                                   %! baca_script_staff_padding:OverrideCommand(1)
+        \override TextSpanner.staff-padding = #7                                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \clef "treble"                                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)                          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1911,17 +1911,17 @@ K_ViolinIIMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'4                                                                                            %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                                           %! BowContactPointCommand
-    \revert TextScript.parent-alignment-X                                                          %! OverrideCommand(2)
-    \revert TextScript.staff-padding                                                               %! OverrideCommand(2)
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2)
+    \revert TextScript.parent-alignment-X                                                          %! baca_text_script_parent_center:OverrideCommand(2)
+    \revert TextScript.staff-padding                                                               %! baca_script_staff_padding:OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                                              %! baca_text_spanner_staff_padding:OverrideCommand(2)
     \tweak text #tuplet-number::calc-fraction-text                                                 %! stirrings_still_desynchronization
     \times 6/7 {                                                                                   %! stirrings_still_desynchronization
         
         % [K ViolinIIMusicVoice measure 548 / measure 3]                                           %! _comment_measure_numbers
-        \once \override DynamicText.self-alignment-X = #left                                       %! OverrideCommand(1)
-        \once \override DynamicText.X-extent = #'(0 . 0)                                           %! OverrideCommand(1)
-        \override TextScript.staff-padding = #9                                                    %! OverrideCommand(1)
-        \override TextSpanner.staff-padding = #5                                                   %! OverrideCommand(1)
+        \once \override DynamicText.self-alignment-X = #left                                       %! baca_dynamic_text_left:OverrideCommand(1)
+        \once \override DynamicText.X-extent = #'(0 . 0)                                           %! baca_dynamic_text_left:OverrideCommand(1)
+        \override TextScript.staff-padding = #9                                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override TextSpanner.staff-padding = #5                                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_desynchronization
@@ -1991,18 +1991,18 @@ K_ViolinIIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_desynchronization
         \stopTextSpan                                                                              %! PiecewiseIndicatorCommand(3)
-        \revert TextScript.staff-padding                                                           %! OverrideCommand(2)
-        \revert TextSpanner.staff-padding                                                          %! OverrideCommand(2)
+        \revert TextScript.staff-padding                                                           %! baca_script_staff_padding:OverrideCommand(2)
+        \revert TextSpanner.staff-padding                                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
     }                                                                                              %! stirrings_still_desynchronization
     \tweak text #tuplet-number::calc-fraction-text                                                 %! stirrings_still_trajectories
     \times 7/8 {                                                                                   %! stirrings_still_trajectories
         
         % [K ViolinIIMusicVoice measure 550 / measure 5]                                           %! _comment_measure_numbers
-        \once \override DynamicText.self-alignment-X = #left                                       %! OverrideCommand(1)
-        \once \override DynamicText.X-extent = #'(0 . 0)                                           %! OverrideCommand(1)
-        \override TextScript.parent-alignment-X = #0                                               %! OverrideCommand(1)
-        \override TextScript.staff-padding = #11                                                   %! OverrideCommand(1)
-        \override TextSpanner.staff-padding = #7                                                   %! OverrideCommand(1)
+        \once \override DynamicText.self-alignment-X = #left                                       %! baca_dynamic_text_left:OverrideCommand(1)
+        \once \override DynamicText.X-extent = #'(0 . 0)                                           %! baca_dynamic_text_left:OverrideCommand(1)
+        \override TextScript.parent-alignment-X = #0                                               %! baca_text_script_parent_center:OverrideCommand(1)
+        \override TextScript.staff-padding = #11                                                   %! baca_script_staff_padding:OverrideCommand(1)
+        \override TextSpanner.staff-padding = #7                                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
@@ -2136,9 +2136,9 @@ K_ViolinIIMusicVoice = {
         c'16 * 481/64                                                                              %! stirrings_still_accelerando
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         ]                                                                                          %! stirrings_still_accelerando
-        \revert TextScript.parent-alignment-X                                                      %! OverrideCommand(2)
-        \revert TextScript.staff-padding                                                           %! OverrideCommand(2)
-        \revert TextSpanner.staff-padding                                                          %! OverrideCommand(2)
+        \revert TextScript.parent-alignment-X                                                      %! baca_text_script_parent_center:OverrideCommand(2)
+        \revert TextScript.staff-padding                                                           %! baca_script_staff_padding:OverrideCommand(2)
+        \revert TextSpanner.staff-padding                                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
     }                                                                                              %! stirrings_still_accelerando
     \revert TupletNumber.text
     \override TupletNumber.text = \markup {
@@ -2741,11 +2741,11 @@ K_ViolaMusicVoice = {
     \stopStaff                                                                                     %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                                               %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                                    %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-%%% \once \override DynamicText.self-alignment-X = #left                                           %! OverrideCommand(1):-SEGMENT
-%%% \once \override DynamicText.X-extent = #'(0 . 0)                                               %! OverrideCommand(1):-SEGMENT
-    \override TextScript.parent-alignment-X = #0                                                   %! OverrideCommand(1)
-    \override TextScript.staff-padding = #11                                                       %! OverrideCommand(1)
-    \override TextSpanner.staff-padding = #7                                                       %! OverrideCommand(1)
+%%% \once \override DynamicText.self-alignment-X = #left                                           %! -SEGMENT:baca_dynamic_text_left:OverrideCommand(1)
+%%% \once \override DynamicText.X-extent = #'(0 . 0)                                               %! -SEGMENT:baca_dynamic_text_left:OverrideCommand(1)
+    \override TextScript.parent-alignment-X = #0                                                   %! baca_text_script_parent_center:OverrideCommand(1)
+    \override TextScript.staff-padding = #11                                                       %! baca_script_staff_padding:OverrideCommand(1)
+    \override TextSpanner.staff-padding = #7                                                       %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \clef "alto"                                                                                   %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2822,16 +2822,16 @@ K_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
-        \revert TextScript.parent-alignment-X                                                      %! OverrideCommand(2)
-        \revert TextScript.staff-padding                                                           %! OverrideCommand(2)
-        \revert TextSpanner.staff-padding                                                          %! OverrideCommand(2)
+        \revert TextScript.parent-alignment-X                                                      %! baca_text_script_parent_center:OverrideCommand(2)
+        \revert TextScript.staff-padding                                                           %! baca_script_staff_padding:OverrideCommand(2)
+        \revert TextSpanner.staff-padding                                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
     }                                                                                              %! stirrings_still_trajectories
     
     % [K ViolaMusicVoice measure 548 / measure 3]                                                  %! _comment_measure_numbers
-    \once \override DynamicText.self-alignment-X = #left                                           %! OverrideCommand(1)
-    \once \override DynamicText.X-extent = #'(0 . 0)                                               %! OverrideCommand(1)
-    \override TextScript.staff-padding = #9                                                        %! OverrideCommand(1)
-    \override TextSpanner.staff-padding = #5                                                       %! OverrideCommand(1)
+    \once \override DynamicText.self-alignment-X = #left                                           %! baca_dynamic_text_left:OverrideCommand(1)
+    \once \override DynamicText.X-extent = #'(0 . 0)                                               %! baca_dynamic_text_left:OverrideCommand(1)
+    \override TextScript.staff-padding = #9                                                        %! baca_script_staff_padding:OverrideCommand(1)
+    \override TextSpanner.staff-padding = #5                                                       %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'4                                                                                            %! stirrings_still_desynchronization
@@ -2892,8 +2892,8 @@ K_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'4                                                                                            %! stirrings_still_desynchronization
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(3)
-    \revert TextScript.staff-padding                                                               %! OverrideCommand(2)
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2)
+    \revert TextScript.staff-padding                                                               %! baca_script_staff_padding:OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                                              %! baca_text_spanner_staff_padding:OverrideCommand(2)
     
     % [K ViolaMusicVoice measure 550 / measure 5]                                                  %! _comment_measure_numbers
     R1 * 7/8                                                                                       %! _make_measure_silences
@@ -2902,9 +2902,9 @@ K_ViolaMusicVoice = {
     \stopStaff                                                                                     %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                                               %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \startStaff                                                                                    %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \once \override DynamicText.self-alignment-X = #left                                           %! OverrideCommand(1)
-    \once \override DynamicText.X-extent = #'(0 . 0)                                               %! OverrideCommand(1)
-    \override TextScript.parent-alignment-X = #0                                                   %! OverrideCommand(1)
+    \once \override DynamicText.self-alignment-X = #left                                           %! baca_dynamic_text_left:OverrideCommand(1)
+    \once \override DynamicText.X-extent = #'(0 . 0)                                               %! baca_dynamic_text_left:OverrideCommand(1)
+    \override TextScript.parent-alignment-X = #0                                                   %! baca_text_script_parent_center:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)                                   %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'2                                                                                            %! baca_make_repeat_tied_notes
@@ -2938,7 +2938,7 @@ K_ViolaMusicVoice = {
     
     % [K ViolaMusicVoice measure 556 / measure 11]                                                 %! _comment_measure_numbers
     c'2                                                                                            %! baca_make_repeat_tied_notes
-    \revert TextScript.parent-alignment-X                                                          %! OverrideCommand(2)
+    \revert TextScript.parent-alignment-X                                                          %! baca_text_script_parent_center:OverrideCommand(2)
     
     % [K ViolaMusicVoice measure 557 / measure 12]                                                 %! _comment_measure_numbers
     \stopStaff                                                                                     %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
@@ -3085,11 +3085,11 @@ K_CelloMusicVoice = {
         
         % [K CelloMusicVoice measure 546 / measure 1]                                              %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings_still_vc                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    %%% \once \override DynamicText.self-alignment-X = #left                                       %! OverrideCommand(1):-SEGMENT
-    %%% \once \override DynamicText.X-extent = #'(0 . 0)                                           %! OverrideCommand(1):-SEGMENT
-        \override TextScript.parent-alignment-X = #0                                               %! OverrideCommand(1)
-        \override TextScript.staff-padding = #11                                                   %! OverrideCommand(1)
-        \override TextSpanner.staff-padding = #7                                                   %! OverrideCommand(1)
+    %%% \once \override DynamicText.self-alignment-X = #left                                       %! -SEGMENT:baca_dynamic_text_left:OverrideCommand(1)
+    %%% \once \override DynamicText.X-extent = #'(0 . 0)                                           %! -SEGMENT:baca_dynamic_text_left:OverrideCommand(1)
+        \override TextScript.parent-alignment-X = #0                                               %! baca_text_script_parent_center:OverrideCommand(1)
+        \override TextScript.staff-padding = #11                                                   %! baca_script_staff_padding:OverrideCommand(1)
+        \override TextSpanner.staff-padding = #7                                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \clef "bass"                                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)                          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -3186,18 +3186,18 @@ K_CelloMusicVoice = {
         c'8                                                                                        %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         ]                                                                                          %! stirrings_still_trajectories
-        \revert TextScript.parent-alignment-X                                                      %! OverrideCommand(2)
-        \revert TextScript.staff-padding                                                           %! OverrideCommand(2)
-        \revert TextSpanner.staff-padding                                                          %! OverrideCommand(2)
+        \revert TextScript.parent-alignment-X                                                      %! baca_text_script_parent_center:OverrideCommand(2)
+        \revert TextScript.staff-padding                                                           %! baca_script_staff_padding:OverrideCommand(2)
+        \revert TextSpanner.staff-padding                                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
     }                                                                                              %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                                                 %! stirrings_still_desynchronization
     \times 6/5 {                                                                                   %! stirrings_still_desynchronization
         
         % [K CelloMusicVoice measure 548 / measure 3]                                              %! _comment_measure_numbers
-        \once \override DynamicText.self-alignment-X = #left                                       %! OverrideCommand(1)
-        \once \override DynamicText.X-extent = #'(0 . 0)                                           %! OverrideCommand(1)
-        \override TextScript.staff-padding = #9                                                    %! OverrideCommand(1)
-        \override TextSpanner.staff-padding = #5                                                   %! OverrideCommand(1)
+        \once \override DynamicText.self-alignment-X = #left                                       %! baca_dynamic_text_left:OverrideCommand(1)
+        \once \override DynamicText.X-extent = #'(0 . 0)                                           %! baca_dynamic_text_left:OverrideCommand(1)
+        \override TextScript.staff-padding = #9                                                    %! baca_script_staff_padding:OverrideCommand(1)
+        \override TextSpanner.staff-padding = #5                                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_desynchronization
@@ -3255,18 +3255,18 @@ K_CelloMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'4                                                                                        %! stirrings_still_desynchronization
         \stopTextSpan                                                                              %! PiecewiseIndicatorCommand(3)
-        \revert TextScript.staff-padding                                                           %! OverrideCommand(2)
-        \revert TextSpanner.staff-padding                                                          %! OverrideCommand(2)
+        \revert TextScript.staff-padding                                                           %! baca_script_staff_padding:OverrideCommand(2)
+        \revert TextSpanner.staff-padding                                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
     }                                                                                              %! stirrings_still_desynchronization
     \tweak text #tuplet-number::calc-fraction-text                                                 %! stirrings_still_trajectories
     \times 7/6 {                                                                                   %! stirrings_still_trajectories
         
         % [K CelloMusicVoice measure 550 / measure 5]                                              %! _comment_measure_numbers
-        \once \override DynamicText.self-alignment-X = #left                                       %! OverrideCommand(1)
-        \once \override DynamicText.X-extent = #'(0 . 0)                                           %! OverrideCommand(1)
-        \override TextScript.parent-alignment-X = #0                                               %! OverrideCommand(1)
-        \override TextScript.staff-padding = #11                                                   %! OverrideCommand(1)
-        \override TextSpanner.staff-padding = #7                                                   %! OverrideCommand(1)
+        \once \override DynamicText.self-alignment-X = #left                                       %! baca_dynamic_text_left:OverrideCommand(1)
+        \once \override DynamicText.X-extent = #'(0 . 0)                                           %! baca_dynamic_text_left:OverrideCommand(1)
+        \override TextScript.parent-alignment-X = #0                                               %! baca_text_script_parent_center:OverrideCommand(1)
+        \override TextScript.staff-padding = #11                                                   %! baca_script_staff_padding:OverrideCommand(1)
+        \override TextSpanner.staff-padding = #7                                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \once \override NoteHead.transparent = ##t                                                 %! IndicatorCommand
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
@@ -3392,9 +3392,9 @@ K_CelloMusicVoice = {
         c'16 * 231/32                                                                              %! stirrings_still_accelerando
         \bacaStopTextSpanBCP                                                                       %! BowContactPointCommand
         ]                                                                                          %! stirrings_still_accelerando
-        \revert TextScript.parent-alignment-X                                                      %! OverrideCommand(2)
-        \revert TextScript.staff-padding                                                           %! OverrideCommand(2)
-        \revert TextSpanner.staff-padding                                                          %! OverrideCommand(2)
+        \revert TextScript.parent-alignment-X                                                      %! baca_text_script_parent_center:OverrideCommand(2)
+        \revert TextScript.staff-padding                                                           %! baca_script_staff_padding:OverrideCommand(2)
+        \revert TextSpanner.staff-padding                                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
     }                                                                                              %! stirrings_still_accelerando
     \revert TupletNumber.text
     \override TupletNumber.text = \markup {
