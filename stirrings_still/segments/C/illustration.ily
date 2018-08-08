@@ -261,7 +261,7 @@ C_GlobalRests = {
 C_GlobalSkips = {
     
     % [C GlobalSkips measure 130 / measure 1]                                                      %! _comment_measure_numbers
-    \override TextScript.extra-offset = #'(0 . 5)                                                  %! OverrideCommand(1)
+    \override TextScript.extra-offset = #'(0 . 5)                                                  %! baca_text_script_extra_offset:OverrideCommand(1)
     \time 3/4                                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \tweak Y-offset #12                                                                            %! IndicatorCommand
     \mark #3                                                                                       %! IndicatorCommand
@@ -1713,7 +1713,7 @@ C_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [C.77]                                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[8'56'']"                                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                                                  %! _attach_metronome_marks(4)
-    \revert TextScript.extra-offset                                                                %! OverrideCommand(2)
+    \revert TextScript.extra-offset                                                                %! baca_text_script_extra_offset:OverrideCommand(2)
     \baca_bar_line_visible                                                                         %! _attach_final_bar_line
     \bar "|"                                                                                       %! _attach_final_bar_line
     
@@ -2309,7 +2309,7 @@ C_ViolinIMusicVoice = {
     }                                                                                              %! stirrings_still_desynchronization
     
     % [C ViolinIMusicVoice measure 157 / measure 28]                                               %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'2.                                                                                           %! stirrings_still_clouded_pane
@@ -2335,7 +2335,7 @@ C_ViolinIMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clouded_pane
         \repeatTie
-        \revert NoteHead.style                                                                     %! OverrideCommand(2)
+        \revert NoteHead.style                                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
     }
     
     % [C ViolinIMusicVoice measure 159 / measure 30]                                               %! _comment_measure_numbers
@@ -4852,7 +4852,7 @@ C_ViolaMusicVoice = {
     }                                                                                              %! stirrings_still_desynchronization
     
     % [C ViolaMusicVoice measure 157 / measure 28]                                                 %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'2.                                                                                           %! stirrings_still_clouded_pane
@@ -4878,7 +4878,7 @@ C_ViolaMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clouded_pane
         \repeatTie
-        \revert NoteHead.style                                                                     %! OverrideCommand(2)
+        \revert NoteHead.style                                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
     }
     
     % [C ViolaMusicVoice measure 159 / measure 30]                                                 %! _comment_measure_numbers
@@ -6035,7 +6035,7 @@ C_CelloMusicVoice = {
     }                                                                                              %! stirrings_still_desynchronization
     
     % [C CelloMusicVoice measure 157 / measure 28]                                                 %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'2.                                                                                           %! stirrings_still_clouded_pane
@@ -6061,7 +6061,7 @@ C_CelloMusicVoice = {
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
         c'8                                                                                        %! stirrings_still_clouded_pane
         \repeatTie
-        \revert NoteHead.style                                                                     %! OverrideCommand(2)
+        \revert NoteHead.style                                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
     }
     
     % [C CelloMusicVoice measure 159 / measure 30]                                                 %! _comment_measure_numbers

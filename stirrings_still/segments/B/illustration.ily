@@ -258,7 +258,7 @@ B_GlobalRests = {
 B_GlobalSkips = {
     
     % [B GlobalSkips measure 64 / measure 1]                                                       %! _comment_measure_numbers
-    \override TextScript.extra-offset = #'(0 . 5)                                                  %! OverrideCommand(1)
+    \override TextScript.extra-offset = #'(0 . 5)                                                  %! baca_text_script_extra_offset:OverrideCommand(1)
     \time 6/8                                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \tweak Y-offset #12                                                                            %! IndicatorCommand
     \mark #2                                                                                       %! IndicatorCommand
@@ -1718,7 +1718,7 @@ B_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [B.66]                                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[5'07'']"                                                    %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                                                  %! _attach_metronome_marks(4)
-    \revert TextScript.extra-offset                                                                %! OverrideCommand(2)
+    \revert TextScript.extra-offset                                                                %! baca_text_script_extra_offset:OverrideCommand(2)
     \baca_bar_line_visible                                                                         %! _attach_final_bar_line
     \bar "|"                                                                                       %! _attach_final_bar_line
     
@@ -1729,8 +1729,8 @@ B_ViolinIMusicVoice = {
     
     % [B ViolinIMusicVoice measure 64 / measure 1]                                                 %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings_still_vn_i                                         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override TupletBracket.staff-padding = #2                                                     %! OverrideCommand(1)
-    \override TupletNumber.text = #tuplet-number::calc-denominator-text                            %! OverrideCommand(1)
+    \override TupletBracket.staff-padding = #2                                                     %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
+    \override TupletNumber.text = #tuplet-number::calc-denominator-text                            %! baca_tuplet_number_denominator:OverrideCommand(1)
     \clef "treble"                                                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1803,8 +1803,8 @@ B_ViolinIMusicVoice = {
         - \upbow                                                                                   %! IndicatorCommand
         
         r8                                                                                         %! stirrings_still_clockticks
-        \revert TupletBracket.staff-padding                                                        %! OverrideCommand(2)
-        \revert TupletNumber.text                                                                  %! OverrideCommand(2)
+        \revert TupletBracket.staff-padding                                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
+        \revert TupletNumber.text                                                                  %! baca_tuplet_number_denominator:OverrideCommand(2)
     }                                                                                              %! stirrings_still_clockticks
     \times 2/3 {                                                                                   %! stirrings_still_clockticks
         
@@ -2697,8 +2697,8 @@ B_ViolinIIMusicVoice = {
         
         % [B ViolinIIMusicVoice measure 64 / measure 1]                                            %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings_still_vn_ii                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \override TupletBracket.staff-padding = #2                                                 %! OverrideCommand(1)
-        \override TupletNumber.text = #tuplet-number::calc-denominator-text                        %! OverrideCommand(1)
+        \override TupletBracket.staff-padding = #2                                                 %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
+        \override TupletNumber.text = #tuplet-number::calc-denominator-text                        %! baca_tuplet_number_denominator:OverrideCommand(1)
         \clef "treble"                                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)                          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2816,8 +2816,8 @@ B_ViolinIIMusicVoice = {
         - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
-        \revert TupletBracket.staff-padding                                                        %! OverrideCommand(2)
-        \revert TupletNumber.text                                                                  %! OverrideCommand(2)
+        \revert TupletBracket.staff-padding                                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
+        \revert TupletNumber.text                                                                  %! baca_tuplet_number_denominator:OverrideCommand(2)
     }                                                                                              %! stirrings_still_clockticks
     \times 2/3 {                                                                                   %! stirrings_still_clockticks
         
@@ -3787,8 +3787,8 @@ B_ViolaMusicVoice = {
         
         % [B ViolaMusicVoice measure 64 / measure 1]                                               %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings_still_va                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \override TupletBracket.staff-padding = #2                                                 %! OverrideCommand(1)
-        \override TupletNumber.text = #tuplet-number::calc-denominator-text                        %! OverrideCommand(1)
+        \override TupletBracket.staff-padding = #2                                                 %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
+        \override TupletNumber.text = #tuplet-number::calc-denominator-text                        %! baca_tuplet_number_denominator:OverrideCommand(1)
         \clef "alto"                                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)                          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -3906,8 +3906,8 @@ B_ViolaMusicVoice = {
         - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
-        \revert TupletBracket.staff-padding                                                        %! OverrideCommand(2)
-        \revert TupletNumber.text                                                                  %! OverrideCommand(2)
+        \revert TupletBracket.staff-padding                                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
+        \revert TupletNumber.text                                                                  %! baca_tuplet_number_denominator:OverrideCommand(2)
     }                                                                                              %! stirrings_still_clockticks
     \times 2/3 {                                                                                   %! stirrings_still_clockticks
         
@@ -4548,8 +4548,8 @@ B_CelloMusicVoice = {
         
         % [B CelloMusicVoice measure 64 / measure 1]                                               %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings_still_vc                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \override TupletBracket.staff-padding = #2                                                 %! OverrideCommand(1)
-        \override TupletNumber.text = #tuplet-number::calc-denominator-text                        %! OverrideCommand(1)
+        \override TupletBracket.staff-padding = #2                                                 %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
+        \override TupletNumber.text = #tuplet-number::calc-denominator-text                        %! baca_tuplet_number_denominator:OverrideCommand(1)
         \clef "bass"                                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)                          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -4667,8 +4667,8 @@ B_CelloMusicVoice = {
         - \upbow                                                                                   %! IndicatorCommand
         
         r4                                                                                         %! stirrings_still_clockticks
-        \revert TupletBracket.staff-padding                                                        %! OverrideCommand(2)
-        \revert TupletNumber.text                                                                  %! OverrideCommand(2)
+        \revert TupletBracket.staff-padding                                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
+        \revert TupletNumber.text                                                                  %! baca_tuplet_number_denominator:OverrideCommand(2)
     }                                                                                              %! stirrings_still_clockticks
     \times 2/3 {                                                                                   %! stirrings_still_clockticks
         
@@ -4698,7 +4698,7 @@ B_CelloMusicVoice = {
     }                                                                                              %! stirrings_still_clockticks
     
     % [B CelloMusicVoice measure 69 / measure 6]                                                   %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
@@ -4740,7 +4740,7 @@ B_CelloMusicVoice = {
     c'1                                                                                            %! stirrings_still_clouded_pane
     \repeatTie
     \breathe                                                                                       %! IndicatorCommand
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [B CelloMusicVoice measure 75 / measure 12]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes

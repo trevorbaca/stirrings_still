@@ -135,7 +135,7 @@ N_GlobalRests = {
 N_GlobalSkips = {
     
     % [N GlobalSkips measure 647 / measure 1]                                                      %! _comment_measure_numbers
-    \override TextScript.extra-offset = #'(0 . 5)                                                  %! OverrideCommand(1)
+    \override TextScript.extra-offset = #'(0 . 5)                                                  %! baca_text_script_extra_offset:OverrideCommand(1)
     \time 4/8                                                                                      %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \tweak Y-offset #12                                                                            %! IndicatorCommand
     \mark #14                                                                                      %! IndicatorCommand
@@ -663,7 +663,7 @@ N_GlobalSkips = {
 %@% ^ \markup \baca-dark-cyan-markup [N.39]                                                        %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \markup \baca-dark-cyan-markup "[31'30'']"                                                   %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                                                  %! _attach_metronome_marks(4)
-    \revert TextScript.extra-offset                                                                %! OverrideCommand(2)
+    \revert TextScript.extra-offset                                                                %! baca_text_script_extra_offset:OverrideCommand(2)
     \baca_bar_line_visible                                                                         %! _attach_final_bar_line
     \bar "|"                                                                                       %! _attach_final_bar_line
     
