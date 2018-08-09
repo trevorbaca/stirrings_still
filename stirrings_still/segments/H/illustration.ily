@@ -2346,7 +2346,7 @@ H_ViolinIIMusicVoice = {                                                       %
         - \tweak staff-padding #7                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_markup \baca_damp_markup                     %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #10                                             %! PiecewiseIndicatorCommand(1)
         \startTextSpanOne                                                      %! PiecewiseIndicatorCommand(1)
@@ -3540,7 +3540,7 @@ H_CelloMusicVoice = {                                                          %
             }                                                                  %! IndicatorCommand
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #0 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         [                                                                      %! stirrings_still_accelerando
 
@@ -3548,21 +3548,21 @@ H_CelloMusicVoice = {                                                          %
         c'16 * 201/64                                                          %! stirrings_still_accelerando
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #4 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
 
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'16 * 137/64                                                          %! stirrings_still_accelerando
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #5 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
 
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'16 * 51/32                                                           %! stirrings_still_accelerando
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #6 #7                                    %! BowContactPointCommand
         - \tweak bound-details.right.text \markup \baca-bcp-right #7 #7        %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
 
@@ -3864,7 +3864,7 @@ H_CelloMusicVoice = {                                                          %
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #7 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! SpannerCommand
@@ -3875,7 +3875,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         ]                                                                      %! stirrings_still_trajectories
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #6 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
 
@@ -3884,7 +3884,7 @@ H_CelloMusicVoice = {                                                          %
         - \upbow                                                               %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #7 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
 
@@ -3893,7 +3893,7 @@ H_CelloMusicVoice = {                                                          %
         - \downbow                                                             %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #0 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! SpannerCommand
@@ -3904,7 +3904,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         ]                                                                      %! stirrings_still_trajectories
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #7 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
     }                                                                          %! stirrings_still_trajectories
@@ -3917,7 +3917,7 @@ H_CelloMusicVoice = {                                                          %
         - \downbow                                                             %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #0 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
 
@@ -3926,7 +3926,7 @@ H_CelloMusicVoice = {                                                          %
         - \upbow                                                               %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #7 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
 
@@ -3935,7 +3935,7 @@ H_CelloMusicVoice = {                                                          %
         - \downbow                                                             %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #0 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! SpannerCommand
@@ -3944,7 +3944,7 @@ H_CelloMusicVoice = {                                                          %
         e,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #4 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
 
@@ -3952,7 +3952,7 @@ H_CelloMusicVoice = {                                                          %
         e,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #5 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
 
@@ -3961,7 +3961,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         ]                                                                      %! stirrings_still_trajectories
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #6 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
     }                                                                          %! stirrings_still_trajectories
@@ -3977,7 +3977,7 @@ H_CelloMusicVoice = {                                                          %
     - \upbow                                                                   %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
-    - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7              %! BowContactPointCommand
+    - \baca_bcp_spanner_left_text #7 #7                                        %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     \glissando                                                                 %! SpannerCommand
 
@@ -3986,7 +3986,7 @@ H_CelloMusicVoice = {                                                          %
     - \downbow                                                                 %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
-    - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7              %! BowContactPointCommand
+    - \baca_bcp_spanner_left_text #6 #7                                        %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     \glissando                                                                 %! SpannerCommand
 
@@ -3996,7 +3996,7 @@ H_CelloMusicVoice = {                                                          %
     \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
     ]                                                                          %! stirrings_still_trajectories
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
-    - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7              %! BowContactPointCommand
+    - \baca_bcp_spanner_left_text #7 #7                                        %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     \glissando                                                                 %! SpannerCommand
 
@@ -4005,7 +4005,7 @@ H_CelloMusicVoice = {                                                          %
     - \downbow                                                                 %! BowContactPointCommand
     \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
-    - \tweak bound-details.left.text \markup \baca-bcp-left #0 #4              %! BowContactPointCommand
+    - \baca_bcp_spanner_left_text #0 #4                                        %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     \glissando                                                                 %! SpannerCommand
 
@@ -4013,7 +4013,7 @@ H_CelloMusicVoice = {                                                          %
     e,8                                                                        %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
-    - \tweak bound-details.left.text \markup \baca-bcp-left #1 #4              %! BowContactPointCommand
+    - \baca_bcp_spanner_left_text #1 #4                                        %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [                                                                          %! stirrings_still_trajectories
     \glissando                                                                 %! SpannerCommand
@@ -4024,7 +4024,7 @@ H_CelloMusicVoice = {                                                          %
     \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
     ]                                                                          %! stirrings_still_trajectories
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
-    - \tweak bound-details.left.text \markup \baca-bcp-left #2 #4              %! BowContactPointCommand
+    - \baca_bcp_spanner_left_text #2 #4                                        %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     \glissando                                                                 %! SpannerCommand
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
@@ -4035,7 +4035,7 @@ H_CelloMusicVoice = {                                                          %
         e,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #1 #4          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #1 #4                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
 
@@ -4044,7 +4044,7 @@ H_CelloMusicVoice = {                                                          %
         - \downbow                                                             %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #0 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
 
@@ -4052,7 +4052,7 @@ H_CelloMusicVoice = {                                                          %
         e,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #4 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! SpannerCommand
@@ -4061,7 +4061,7 @@ H_CelloMusicVoice = {                                                          %
         e,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #5 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
 
@@ -4069,7 +4069,7 @@ H_CelloMusicVoice = {                                                          %
         e,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #6 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
 
@@ -4079,7 +4079,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         ]                                                                      %! stirrings_still_trajectories
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #7 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
     }                                                                          %! stirrings_still_trajectories
@@ -4099,7 +4099,7 @@ H_CelloMusicVoice = {                                                          %
         - \downbow                                                             %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #6 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
 
@@ -4108,7 +4108,7 @@ H_CelloMusicVoice = {                                                          %
         - \upbow                                                               %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #7 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
 
@@ -4118,7 +4118,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         ]                                                                      %! stirrings_still_trajectories
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #0 #7                                    %! BowContactPointCommand
         - \tweak bound-details.right.text \markup \baca-bcp-right #7 #7        %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
@@ -4171,7 +4171,7 @@ H_CelloMusicVoice = {                                                          %
             }                                                                  %! IndicatorCommand
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #7 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! SpannerCommand
@@ -4182,7 +4182,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         ]                                                                      %! stirrings_still_trajectories
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #0 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #0 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
 
@@ -4191,7 +4191,7 @@ H_CelloMusicVoice = {                                                          %
         - \upbow                                                               %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #7 #7                                    %! BowContactPointCommand
         - \tweak bound-details.right.text \markup \baca-bcp-right #0 #7        %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand

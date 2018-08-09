@@ -1564,7 +1564,7 @@ Q_ViolinIMusicVoice = {                                                        %
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_markup \baca_damp_markup                     %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #5                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
@@ -1991,7 +1991,7 @@ Q_ViolinIIMusicVoice = {                                                       %
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_markup \baca_damp_markup                     %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #5                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
@@ -2411,7 +2411,7 @@ Q_ViolaMusicVoice = {                                                          %
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup      %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_markup \baca_damp_markup                         %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -2792,7 +2792,7 @@ Q_CelloMusicVoice = {                                                          %
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_markup \baca_damp_markup                     %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #5                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
