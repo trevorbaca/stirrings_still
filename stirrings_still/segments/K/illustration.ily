@@ -1144,7 +1144,7 @@ K_ViolinIMusicVoice = {                                                        %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "ord."             %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "ord."                                  %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
 
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
@@ -1979,7 +1979,7 @@ K_ViolinIIMusicVoice = {                                                       %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "ord."             %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "ord."                                  %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
 
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
@@ -2883,7 +2883,7 @@ K_ViolaMusicVoice = {                                                          %
     c'4                                                                        %! stirrings_still_desynchronization
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_invisible_line                                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ord."                 %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ord."                                      %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
@@ -3249,7 +3249,7 @@ K_CelloMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "ord."             %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "ord."                                  %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
 
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes

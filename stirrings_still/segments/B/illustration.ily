@@ -1720,7 +1720,7 @@ B_ViolinIMusicVoice = {                                                        %
         \mp                                                                    %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \downbow                                                             %! IndicatorCommand
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "1/2 clt"          %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "½ clt"                                 %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #1.75                             %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
@@ -2676,7 +2676,7 @@ B_ViolinIIMusicVoice = {                                                       %
         ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "1/2 clt"          %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "½ clt"                                 %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #1.75                             %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
@@ -3766,7 +3766,7 @@ B_ViolaMusicVoice = {                                                          %
         ^ \baca-reapplied-indicator-markup "[“Va.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“Viola”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "1/2 clt"          %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "½ clt"                                 %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #1.75                             %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
@@ -4527,7 +4527,7 @@ B_CelloMusicVoice = {                                                          %
         ^ \baca-reapplied-indicator-markup "[“Vc.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“Cello”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "1/2 clt"          %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "½ clt"                                 %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #1.75                             %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)

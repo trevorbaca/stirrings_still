@@ -252,7 +252,7 @@ I_ViolinIMusicVoice = {                                                        %
     - \tweak staff-padding #9                                                  %! IndicatorCommand
     ^ \markup { "golden tone" }                                                %! IndicatorCommand
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝"                   %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝"                                        %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     [                                                                          %! stirrings_still_circles
@@ -622,7 +622,7 @@ I_ViolinIIMusicVoice = {                                                       %
     - \tweak staff-padding #9                                                  %! IndicatorCommand
     ^ \markup { "golden tone" }                                                %! IndicatorCommand
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝"                   %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝"                                        %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -798,7 +798,7 @@ I_ViolaMusicVoice = {                                                          %
     - \tweak staff-padding #9                                                  %! IndicatorCommand
     ^ \markup { "golden tone" }                                                %! IndicatorCommand
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝"                   %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝"                                        %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 

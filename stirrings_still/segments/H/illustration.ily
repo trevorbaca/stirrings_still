@@ -1052,7 +1052,7 @@ H_ViolinIMusicVoice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"            %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "rasp (2°)"                                 %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "flaut. (2°)"        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1177,7 +1177,7 @@ H_ViolinIMusicVoice = {                                                        %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "(always one circle per stem)" }                           %! IndicatorCommand
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "2˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "2˝ circles"                            %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_accelerando
         \glissando                                                             %! SpannerCommand
@@ -1206,7 +1206,7 @@ H_ViolinIMusicVoice = {                                                        %
         g'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "4˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "4˝ circles"                            %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         \glissando                                                             %! SpannerCommand
 
@@ -1239,7 +1239,7 @@ H_ViolinIMusicVoice = {                                                        %
         a'8                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "6˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "6˝ circles"                            %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
@@ -1274,7 +1274,7 @@ H_ViolinIMusicVoice = {                                                        %
         b'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "8˝ circles"                            %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         \glissando                                                             %! SpannerCommand
 
@@ -1516,7 +1516,7 @@ H_ViolinIMusicVoice = {                                                        %
         c'16 * 487/64                                                          %! stirrings_still_accelerando
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles"  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "“whisk” circles"                       %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.text \markup \baca-right "poco scratch circles" %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #0.5                              %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
@@ -1577,7 +1577,7 @@ H_ViolinIMusicVoice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"            %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "rasp (2°)"                                 %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "poco rasp (2°)"     %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1641,7 +1641,7 @@ H_ViolinIMusicVoice = {                                                        %
         c'16 * 63/8                                                            %! stirrings_still_accelerando
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles"  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "“whisk” circles"                       %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.text \markup \baca-right "mod. scratch circles" %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #0.5                              %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
@@ -1727,7 +1727,7 @@ H_ViolinIMusicVoice = {                                                        %
         c'16 * 497/64                                                          %! stirrings_still_accelerando
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles"  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "“whisk” circles"                       %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.text \markup \baca-right "molto scratch circles" %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #0.5                              %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
@@ -1839,7 +1839,7 @@ H_ViolinIMusicVoice = {                                                        %
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "molto scratch"    %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "molto scratch"                         %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.text \markup \baca-right "pochiss. scratch" %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #0.5                              %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
@@ -1923,7 +1923,7 @@ H_ViolinIIMusicVoice = {                                                       %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"            %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "rasp (2°)"                                 %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "flaut. (2°)"        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -1973,7 +1973,7 @@ H_ViolinIIMusicVoice = {                                                       %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie                                                                 %! TCC
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "flaut. (2°)"          %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "flaut. (2°)"                               %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     f'4
@@ -1984,7 +1984,7 @@ H_ViolinIIMusicVoice = {                                                       %
     \repeatTie                                                                 %! TCC
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "ord."                 %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "ord."                                      %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     \override TupletNumber.text = \markup {
         \scale
@@ -2037,7 +2037,7 @@ H_ViolinIIMusicVoice = {                                                       %
         ^ \markup { "(always one circle per stem)" }                           %! IndicatorCommand
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "4˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "4˝ circles"                            %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_accelerando
         \glissando                                                             %! SpannerCommand
@@ -2070,7 +2070,7 @@ H_ViolinIIMusicVoice = {                                                       %
         g'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "6˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "6˝ circles"                            %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         \glissando                                                             %! SpannerCommand
 
@@ -2104,7 +2104,7 @@ H_ViolinIIMusicVoice = {                                                       %
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "8˝ circles"                            %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
 
         af'!4                                                                  %! stirrings_still_desynchronization
@@ -2302,7 +2302,7 @@ H_ViolinIIMusicVoice = {                                                       %
         c'16 * 121/16                                                          %! stirrings_still_accelerando
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles"  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "“whisk” circles"                       %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.text \markup \baca-right "poco scratch circles" %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #0.5                              %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
@@ -2341,7 +2341,7 @@ H_ViolinIIMusicVoice = {                                                       %
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "1/2 clt"          %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "1/2 clt"                               %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
@@ -2396,7 +2396,7 @@ H_ViolinIIMusicVoice = {                                                       %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"            %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "rasp (2°)"                                 %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "poco rasp (2°)"     %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -2460,7 +2460,7 @@ H_ViolinIIMusicVoice = {                                                       %
         c'16 * 127/16                                                          %! stirrings_still_accelerando
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles"  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "“whisk” circles"                       %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.text \markup \baca-right "mod. scratch circles" %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #0.5                              %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
@@ -2540,7 +2540,7 @@ H_ViolinIIMusicVoice = {                                                       %
         c'16 * 477/64                                                          %! stirrings_still_accelerando
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles"  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "“whisk” circles"                       %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.text \markup \baca-right "molto scratch circles" %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #0.5                              %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
@@ -2634,7 +2634,7 @@ H_ViolinIIMusicVoice = {                                                       %
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "molto scratch"    %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "molto scratch"                         %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.text \markup \baca-right "pochiss. scratch" %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #0.5                              %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
@@ -2718,7 +2718,7 @@ H_ViolaMusicVoice = {                                                          %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"            %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "rasp (2°)"                                 %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "flaut. (2°)"        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -2818,7 +2818,7 @@ H_ViolaMusicVoice = {                                                          %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "(always one circle per stem)" }                           %! IndicatorCommand
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "2˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "2˝ circles"                            %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_accelerando
         \glissando                                                             %! SpannerCommand
@@ -2847,7 +2847,7 @@ H_ViolaMusicVoice = {                                                          %
         a4                                                                     %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "4˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "4˝ circles"                            %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         \glissando                                                             %! SpannerCommand
 
@@ -2874,7 +2874,7 @@ H_ViolaMusicVoice = {                                                          %
         a4                                                                     %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "6˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "6˝ circles"                            %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         \glissando                                                             %! SpannerCommand
 
@@ -2913,7 +2913,7 @@ H_ViolaMusicVoice = {                                                          %
         b2                                                                     %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "8˝ circles"                            %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         \glissando                                                             %! SpannerCommand
 
@@ -3110,7 +3110,7 @@ H_ViolaMusicVoice = {                                                          %
         c'16 * 501/64                                                          %! stirrings_still_accelerando
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles"  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "“whisk” circles"                       %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.text \markup \baca-right "poco scratch circles" %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #0.5                              %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
@@ -3162,7 +3162,7 @@ H_ViolaMusicVoice = {                                                          %
     - \tweak circled-tip ##t                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"            %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "rasp (2°)"                                 %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "poco rasp (2°)"     %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -3226,7 +3226,7 @@ H_ViolaMusicVoice = {                                                          %
         c'16 * 55/8                                                            %! stirrings_still_accelerando
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles"  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "“whisk” circles"                       %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.text \markup \baca-right "mod. scratch circles" %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #0.5                              %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
@@ -3306,7 +3306,7 @@ H_ViolaMusicVoice = {                                                          %
         c'16 * 249/32                                                          %! stirrings_still_accelerando
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "“whisk” circles"  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "“whisk” circles"                       %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.text \markup \baca-right "molto scratch circles" %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #0.5                              %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseIndicatorCommand(1)
@@ -3383,7 +3383,7 @@ H_ViolaMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "molto scratch"        %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "molto scratch"                             %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "pochiss. scratch"   %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -3450,7 +3450,7 @@ H_CelloMusicVoice = {                                                          %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"            %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "rasp (2°)"                                 %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "flaut. (2°)"        %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -3585,7 +3585,7 @@ H_CelloMusicVoice = {                                                          %
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     _ \markup { IV }                                                           %! IndicatorCommand
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "flaut."               %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "flaut."                                    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "non flaut."         %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -3750,7 +3750,7 @@ H_CelloMusicVoice = {                                                          %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "rasp (2°)"            %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "rasp (2°)"                                 %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "poco rasp (2°)"     %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)

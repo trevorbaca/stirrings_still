@@ -1951,7 +1951,7 @@ C_ViolinIMusicVoice = {                                                        %
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "max. tight cir."  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "max. tight cir."                       %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
@@ -1994,7 +1994,7 @@ C_ViolinIMusicVoice = {                                                        %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "1-2˝ circles"     %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "1-2˝ circles"                          %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
 
@@ -2033,7 +2033,7 @@ C_ViolinIMusicVoice = {                                                        %
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "1-2˝ circles"     %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "1-2˝ circles"                          %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
@@ -2076,7 +2076,7 @@ C_ViolinIMusicVoice = {                                                        %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "2-4˝ circles"     %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "2-4˝ circles"                          %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
 
@@ -2113,7 +2113,7 @@ C_ViolinIMusicVoice = {                                                        %
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "2-4˝ circles"     %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "2-4˝ circles"                          %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
@@ -2158,7 +2158,7 @@ C_ViolinIMusicVoice = {                                                        %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "4-8˝ circles"     %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "4-8˝ circles"                          %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
 
@@ -2201,7 +2201,7 @@ C_ViolinIMusicVoice = {                                                        %
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "8˝ circles"                            %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #2                                %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
@@ -2330,7 +2330,7 @@ C_ViolinIMusicVoice = {                                                        %
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
@@ -2395,12 +2395,12 @@ C_ViolinIMusicVoice = {                                                        %
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #1.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "[triple --> double --> single harmonic]" %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "[triple --> double --> single harmonic]"   %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #1.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #7                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
@@ -2650,12 +2650,12 @@ C_ViolinIMusicVoice = {                                                        %
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "[harmonic --> half --> stopped]" %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "[harmonic --> half --> stopped]"           %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #7                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
@@ -2718,7 +2718,7 @@ C_ViolinIMusicVoice = {                                                        %
     c'2                                                                        %! stirrings_still_urtext_field
     \baca_appena_udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "[double-stop field]"  %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "[double-stop field]"                       %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #2                                    %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -2736,12 +2736,12 @@ C_ViolinIMusicVoice = {                                                        %
     c'4.                                                                       %! stirrings_still_synchronized_circles
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "[TODO: jeux des terminaisons ...]" %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "[TODO: jeux des terminaisons ...]"         %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #7                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
@@ -2851,7 +2851,7 @@ C_ViolinIMusicVoice = {                                                        %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "8˝ circles"                            %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         \glissando                                                             %! SpannerCommand
@@ -2932,7 +2932,7 @@ C_ViolinIMusicVoice = {                                                        %
         a'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "2˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "2˝ circles"                            %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         \glissando                                                             %! SpannerCommand
@@ -3217,7 +3217,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "max. tight cir."      %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "max. tight cir."                           %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
@@ -3249,7 +3249,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'4                                                                        %! stirrings_still_desynchronization
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_invisible_line                                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "1-2˝ circles"         %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "1-2˝ circles"                              %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
@@ -3277,7 +3277,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "1-2˝ circles"         %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "1-2˝ circles"                              %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
@@ -3309,7 +3309,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'4                                                                        %! stirrings_still_desynchronization
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_invisible_line                                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "2-4˝ circles"         %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "2-4˝ circles"                              %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
@@ -3335,7 +3335,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "2-4˝ circles"         %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "2-4˝ circles"                              %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
@@ -3371,7 +3371,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'4                                                                        %! stirrings_still_desynchronization
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_invisible_line                                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "4-8˝ circles"         %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "4-8˝ circles"                              %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
@@ -3401,7 +3401,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #2                                    %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -3478,7 +3478,7 @@ C_ViolinIIMusicVoice = {                                                       %
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { [clockticks] }                                             %! IndicatorCommand
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "1/2 clt"          %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "1/2 clt"                               %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #1.75                             %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
@@ -3531,7 +3531,7 @@ C_ViolinIIMusicVoice = {                                                       %
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
@@ -3596,12 +3596,12 @@ C_ViolinIIMusicVoice = {                                                       %
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #1.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "[triple --> double --> single harmonic]" %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "[triple --> double --> single harmonic]"   %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #1.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #7                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
@@ -3857,12 +3857,12 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "[harmonic --> half --> stopped]" %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "[harmonic --> half --> stopped]"           %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #7                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
@@ -3929,7 +3929,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'2                                                                        %! stirrings_still_urtext_field
     \baca_appena_udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "[double-stop field]"  %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "[double-stop field]"                       %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #2                                    %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -3947,12 +3947,12 @@ C_ViolinIIMusicVoice = {                                                       %
     c'4.                                                                       %! stirrings_still_synchronized_circles
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "[TODO: jeux des terminaisons ...]" %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "[TODO: jeux des terminaisons ...]"         %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #7                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
@@ -4060,7 +4060,7 @@ C_ViolinIIMusicVoice = {                                                       %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     \glissando                                                                 %! SpannerCommand
@@ -4123,7 +4123,7 @@ C_ViolinIIMusicVoice = {                                                       %
     g'4                                                                        %! stirrings_still_desynchronization
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_invisible_line                                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "2˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "2˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     \glissando                                                                 %! SpannerCommand
@@ -4451,7 +4451,7 @@ C_ViolaMusicVoice = {                                                          %
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "max. tight cir."  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "max. tight cir."                       %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
@@ -4499,7 +4499,7 @@ C_ViolaMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "1-2˝ circles"     %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "1-2˝ circles"                          %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
 
@@ -4543,7 +4543,7 @@ C_ViolaMusicVoice = {                                                          %
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "1-2˝ circles"     %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "1-2˝ circles"                          %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
@@ -4591,7 +4591,7 @@ C_ViolaMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "2-4˝ circles"     %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "2-4˝ circles"                          %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
 
@@ -4633,7 +4633,7 @@ C_ViolaMusicVoice = {                                                          %
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "2-4˝ circles"     %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "2-4˝ circles"                          %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
@@ -4683,7 +4683,7 @@ C_ViolaMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "4-8˝ circles"     %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "4-8˝ circles"                          %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
 
@@ -4732,7 +4732,7 @@ C_ViolaMusicVoice = {                                                          %
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "8˝ circles"                            %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #2                                %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
@@ -4873,7 +4873,7 @@ C_ViolaMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
@@ -4938,12 +4938,12 @@ C_ViolaMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #1.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "[triple --> double --> single harmonic]" %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "[triple --> double --> single harmonic]"   %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #1.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #7                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
@@ -5199,12 +5199,12 @@ C_ViolaMusicVoice = {                                                          %
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "[harmonic --> half --> stopped]" %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "[harmonic --> half --> stopped]"           %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #7                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
@@ -5271,7 +5271,7 @@ C_ViolaMusicVoice = {                                                          %
     c'2                                                                        %! stirrings_still_urtext_field
     \baca_appena_udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "[double-stop field]"  %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "[double-stop field]"                       %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #2                                    %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -5289,12 +5289,12 @@ C_ViolaMusicVoice = {                                                          %
     c'4.                                                                       %! stirrings_still_synchronized_circles
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "[TODO: jeux des terminaisons ...]" %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "[TODO: jeux des terminaisons ...]"         %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #7                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
@@ -5404,7 +5404,7 @@ C_ViolaMusicVoice = {                                                          %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "8˝ circles"                            %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         \glissando                                                             %! SpannerCommand
@@ -5494,7 +5494,7 @@ C_ViolaMusicVoice = {                                                          %
         e4                                                                     %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "2˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "2˝ circles"                            %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         \glissando                                                             %! SpannerCommand
@@ -5762,7 +5762,7 @@ C_CelloMusicVoice = {                                                          %
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "max. tight cir."  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "max. tight cir."                       %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
@@ -5795,7 +5795,7 @@ C_CelloMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "1-2˝ circles"     %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "1-2˝ circles"                          %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
 
@@ -5824,7 +5824,7 @@ C_CelloMusicVoice = {                                                          %
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "1-2˝ circles"     %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "1-2˝ circles"                          %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
@@ -5857,7 +5857,7 @@ C_CelloMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "2-4˝ circles"     %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "2-4˝ circles"                          %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
 
@@ -5884,7 +5884,7 @@ C_CelloMusicVoice = {                                                          %
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "2-4˝ circles"     %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "2-4˝ circles"                          %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
@@ -5918,7 +5918,7 @@ C_CelloMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "4-8˝ circles"     %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "4-8˝ circles"                          %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
 
@@ -5951,7 +5951,7 @@ C_CelloMusicVoice = {                                                          %
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "8˝ circles"                            %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #2                                %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
@@ -6056,7 +6056,7 @@ C_CelloMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
@@ -6132,12 +6132,12 @@ C_CelloMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #1.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "[triple --> double --> single harmonic]" %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "[triple --> double --> single harmonic]"   %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #1.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #7                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
@@ -6393,12 +6393,12 @@ C_CelloMusicVoice = {                                                          %
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_synchronized_circles
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "[harmonic --> half --> stopped]" %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "[harmonic --> half --> stopped]"           %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #7                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
@@ -6483,12 +6483,12 @@ C_CelloMusicVoice = {                                                          %
     c'4.                                                                       %! stirrings_still_synchronized_circles
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "8˝ circles"           %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "8˝ circles"                                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #4                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "[TODO: jeux des terminaisons ...]" %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "[TODO: jeux des terminaisons ...]"         %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #7                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
@@ -6598,7 +6598,7 @@ C_CelloMusicVoice = {                                                          %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "8˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "8˝ circles"                            %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         \glissando                                                             %! SpannerCommand
@@ -6661,7 +6661,7 @@ C_CelloMusicVoice = {                                                          %
         d,4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
         - \abjad_invisible_line                                                %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left "2˝ circles"       %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_text "2˝ circles"                            %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #4                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         \glissando                                                             %! SpannerCommand
