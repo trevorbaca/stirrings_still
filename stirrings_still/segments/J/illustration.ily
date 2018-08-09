@@ -483,7 +483,7 @@ J_ViolinIIMusicVoice = {                                                       %
         - \tweak staff-padding #7                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
         - \abjad_dashed_line_with_hook                                         %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup  %! PiecewiseIndicatorCommand(1)
+        - \baca_text_spanner_left_markup \baca_damp_markup                     %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #2.5                              %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #10                                             %! PiecewiseIndicatorCommand(1)
         \startTextSpanOne                                                      %! PiecewiseIndicatorCommand(1)

@@ -2066,7 +2066,7 @@ D_ViolinIMusicVoice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup      %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_markup \baca_damp_markup                         %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -3063,7 +3063,7 @@ D_ViolinIIMusicVoice = {                                                       %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup      %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_markup \baca_damp_markup                         %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -4033,7 +4033,7 @@ D_ViolaMusicVoice = {                                                          %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup      %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_markup \baca_damp_markup                         %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -4834,7 +4834,7 @@ D_CelloMusicVoice = {                                                          %
             }                                                                  %! IndicatorCommand
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #6 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
 
@@ -4844,7 +4844,7 @@ D_CelloMusicVoice = {                                                          %
         - \upbow                                                               %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #7 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
 
@@ -4854,7 +4854,7 @@ D_CelloMusicVoice = {                                                          %
         - \downbow                                                             %! BowContactPointCommand
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
-        - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7          %! BowContactPointCommand
+        - \baca_bcp_spanner_left_text #6 #7                                    %! BowContactPointCommand
         - \tweak bound-details.right.text \markup \baca-bcp-right #7 #7        %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         [                                                                      %! stirrings_still_trajectories
@@ -5028,7 +5028,7 @@ D_CelloMusicVoice = {                                                          %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left \baca_damp_markup      %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_markup \baca_damp_markup                         %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
