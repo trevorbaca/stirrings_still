@@ -1,226 +1,226 @@
-B_GlobalRests = {
-    
+B_GlobalRests = {                                                              %! extern
+
     % [B GlobalRests measure 64 / measure 1]                                   %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 65 / measure 2]                                   %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 66 / measure 3]                                   %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 67 / measure 4]                                   %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 68 / measure 5]                                   %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 69 / measure 6]                                   %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 70 / measure 7]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [B GlobalRests measure 71 / measure 8]                                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [B GlobalRests measure 72 / measure 9]                                   %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 73 / measure 10]                                  %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 74 / measure 11]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [B GlobalRests measure 75 / measure 12]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 76 / measure 13]                                  %! _comment_measure_numbers
     R1 * 5/12                                                                  %! _make_global_rests
-    
+
     % [B GlobalRests measure 77 / measure 14]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [B GlobalRests measure 78 / measure 15]                                  %! _comment_measure_numbers
     R1 * 5/12                                                                  %! _make_global_rests
-    
+
     % [B GlobalRests measure 79 / measure 16]                                  %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 80 / measure 17]                                  %! _comment_measure_numbers
     R1 * 5/12                                                                  %! _make_global_rests
-    
+
     % [B GlobalRests measure 81 / measure 18]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 82 / measure 19]                                  %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 83 / measure 20]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [B GlobalRests measure 84 / measure 21]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [B GlobalRests measure 85 / measure 22]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 86 / measure 23]                                  %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 87 / measure 24]                                  %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 88 / measure 25]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 89 / measure 26]                                  %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 90 / measure 27]                                  %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 91 / measure 28]                                  %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca_fermata_markup                                                     %! GlobalFermataCommand(1)
-    
+
     % [B GlobalRests measure 92 / measure 29]                                  %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 93 / measure 30]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 94 / measure 31]                                  %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca_fermata_markup                                                     %! GlobalFermataCommand(1)
-    
+
     % [B GlobalRests measure 95 / measure 32]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [B GlobalRests measure 96 / measure 33]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [B GlobalRests measure 97 / measure 34]                                  %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 98 / measure 35]                                  %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 99 / measure 36]                                  %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca_fermata_markup                                                     %! GlobalFermataCommand(1)
-    
+
     % [B GlobalRests measure 100 / measure 37]                                 %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 101 / measure 38]                                 %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 102 / measure 39]                                 %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca_fermata_markup                                                     %! GlobalFermataCommand(1)
-    
+
     % [B GlobalRests measure 103 / measure 40]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 104 / measure 41]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [B GlobalRests measure 105 / measure 42]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 106 / measure 43]                                 %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca_fermata_markup                                                     %! GlobalFermataCommand(1)
-    
+
     % [B GlobalRests measure 107 / measure 44]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [B GlobalRests measure 108 / measure 45]                                 %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 109 / measure 46]                                 %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 110 / measure 47]                                 %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca_fermata_markup                                                     %! GlobalFermataCommand(1)
-    
+
     % [B GlobalRests measure 111 / measure 48]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [B GlobalRests measure 112 / measure 49]                                 %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca_fermata_markup                                                     %! GlobalFermataCommand(1)
-    
+
     % [B GlobalRests measure 113 / measure 50]                                 %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 114 / measure 51]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [B GlobalRests measure 115 / measure 52]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 116 / measure 53]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [B GlobalRests measure 117 / measure 54]                                 %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 118 / measure 55]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 119 / measure 56]                                 %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 120 / measure 57]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [B GlobalRests measure 121 / measure 58]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [B GlobalRests measure 122 / measure 59]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 123 / measure 60]                                 %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 124 / measure 61]                                 %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 125 / measure 62]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 126 / measure 63]                                 %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca_fermata_markup                                                     %! GlobalFermataCommand(1)
-    
+
     % [B GlobalRests measure 127 / measure 64]                                 %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 128 / measure 65]                                 %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
-    
+
     % [B GlobalRests measure 129 / measure 66]                                 %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca_fermata_markup                                                     %! GlobalFermataCommand(1)
-    
-}
+
+}                                                                              %! extern
 
 
-B_GlobalSkips = {
-    
+B_GlobalSkips = {                                                              %! extern
+
     % [B GlobalSkips measure 64 / measure 1]                                   %! _comment_measure_numbers
     \override TextScript.extra-offset = #'(0 . 5)                              %! baca_text_script_extra_offset:OverrideCommand(1)
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -257,7 +257,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 65 / measure 2]                                   %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -267,7 +267,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((2))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.2]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[2'25'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 66 / measure 3]                                   %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (66)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -275,7 +275,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((3))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.3]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[2'29'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 67 / measure 4]                                   %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -285,7 +285,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((4))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.4]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[2'32'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 68 / measure 5]                                   %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -319,7 +319,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 69 / measure 6]                                   %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -353,7 +353,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 70 / measure 7]                                   %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -363,7 +363,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((7))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.7]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[2'39'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 71 / measure 8]                                   %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (71)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -372,7 +372,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup [B.8]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
     ^ \markup { [B.4] }                                                        %! IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[2'42'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 72 / measure 9]                                   %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -382,7 +382,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((9))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.9]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[2'45'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 73 / measure 10]                                  %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -415,7 +415,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 74 / measure 11]                                  %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -425,7 +425,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((11))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.11]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[2'48'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 75 / measure 12]                                  %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -459,7 +459,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 76 / measure 13]                                  %! _comment_measure_numbers
     \time 5/12                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -469,7 +469,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((13))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.13]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[2'52'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 77 / measure 14]                                  %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -503,7 +503,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 78 / measure 15]                                  %! _comment_measure_numbers
     \time 5/12                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -513,7 +513,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((15))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.15]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[2'57'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 79 / measure 16]                                  %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -547,7 +547,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 80 / measure 17]                                  %! _comment_measure_numbers
     \time 5/12                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -557,7 +557,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((17))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.17]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'02'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 81 / measure 18]                                  %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -591,7 +591,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 82 / measure 19]                                  %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -601,7 +601,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((19))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.19]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'06'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 83 / measure 20]                                  %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -635,7 +635,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 84 / measure 21]                                  %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (84)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -666,7 +666,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 85 / measure 22]                                  %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -677,7 +677,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup [B.22]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
     ^ \markup { [B.10] }                                                       %! IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[3'17'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 86 / measure 23]                                  %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -711,7 +711,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 87 / measure 24]                                  %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (87)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -742,7 +742,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 88 / measure 25]                                  %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -753,7 +753,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup [B.25]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
     ^ \markup { [B.12] }                                                       %! IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[3'24'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 89 / measure 26]                                  %! _comment_measure_numbers
     \time 8/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -787,7 +787,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 90 / measure 27]                                  %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -821,7 +821,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 91 / measure 28]                                  %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -831,7 +831,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((28))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.28]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'32'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 92 / measure 29]                                  %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -865,7 +865,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 93 / measure 30]                                  %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -898,7 +898,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 94 / measure 31]                                  %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -908,7 +908,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((31))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.31]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'38'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 95 / measure 32]                                  %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -942,7 +942,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 96 / measure 33]                                  %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (96)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -973,7 +973,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 97 / measure 34]                                  %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -984,7 +984,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup [B.34]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
     ^ \markup { [B.14] }                                                       %! IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[3'48'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 98 / measure 35]                                  %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (98)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -1015,7 +1015,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 99 / measure 36]                                  %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1025,7 +1025,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((36))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.36]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[3'55'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 100 / measure 37]                                 %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1059,7 +1059,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 101 / measure 38]                                 %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1092,7 +1092,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 102 / measure 39]                                 %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1102,7 +1102,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((39))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.39]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[4'00'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 103 / measure 40]                                 %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1136,7 +1136,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 104 / measure 41]                                 %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1169,7 +1169,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 105 / measure 42]                                 %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1203,7 +1203,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 106 / measure 43]                                 %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1213,7 +1213,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((43))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.43]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[4'09'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 107 / measure 44]                                 %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1247,7 +1247,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 108 / measure 45]                                 %! _comment_measure_numbers
     \time 10/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1258,7 +1258,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup [B.45]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
     ^ \markup { [D.9] }                                                        %! IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[4'15'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 109 / measure 46]                                 %! _comment_measure_numbers
     \time 4/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1292,7 +1292,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 110 / measure 47]                                 %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1302,7 +1302,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((47))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.47]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[4'18'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 111 / measure 48]                                 %! _comment_measure_numbers
     \time 16/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1336,7 +1336,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 112 / measure 49]                                 %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1346,7 +1346,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((49))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.49]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[4'21'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 113 / measure 50]                                 %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1380,7 +1380,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 114 / measure 51]                                 %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1413,7 +1413,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 115 / measure 52]                                 %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1447,7 +1447,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 116 / measure 53]                                 %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1457,7 +1457,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((53))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.53]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[4'29'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 117 / measure 54]                                 %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1467,7 +1467,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((54))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.54]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[4'33'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 118 / measure 55]                                 %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1477,7 +1477,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((55))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.55]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[4'37'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 119 / measure 56]                                 %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1487,7 +1487,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((56))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.56]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[4'41'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 120 / measure 57]                                 %! _comment_measure_numbers
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1497,7 +1497,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((57))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.57]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[4'45'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 121 / measure 58]                                 %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (121)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -1529,7 +1529,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 122 / measure 59]                                 %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1539,7 +1539,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((59))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.59]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[4'51'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 123 / measure 60]                                 %! _comment_measure_numbers
     \time 7/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1550,7 +1550,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup [B.60]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
     ^ \markup { [B.21] }                                                       %! IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[4'52'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 124 / measure 61]                                 %! _comment_measure_numbers
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (124)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -1582,7 +1582,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 125 / measure 62]                                 %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1593,7 +1593,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup [B.62]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
     ^ \markup { [B.23] }                                                       %! IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[4'57'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 126 / measure 63]                                 %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1603,7 +1603,7 @@ B_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((63))                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [B.63]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[5'01'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [B GlobalSkips measure 127 / measure 64]                                 %! _comment_measure_numbers
     \time 14/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1637,7 +1637,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 128 / measure 65]                                 %! _comment_measure_numbers
     \time 5/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1671,7 +1671,7 @@ B_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [B GlobalSkips measure 129 / measure 66]                                 %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -1685,12 +1685,12 @@ B_GlobalSkips = {
     \revert TextScript.extra-offset                                            %! baca_text_script_extra_offset:OverrideCommand(2)
     \baca_bar_line_visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
-    
-}
+
+}                                                                              %! extern
 
 
-B_ViolinIMusicVoice = {
-    
+B_ViolinIMusicVoice = {                                                        %! extern
+
     % [B ViolinIMusicVoice measure 64 / measure 1]                             %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings_still_vn_i                     %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \override TupletBracket.staff-padding = #2                                 %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
@@ -1710,10 +1710,10 @@ B_ViolinIMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_clockticks
     \times 7/8 {                                                               %! stirrings_still_clockticks
-        
+
         % [B ViolinIMusicVoice measure 65 / measure 2]                         %! _comment_measure_numbers
         r8                                                                     %! stirrings_still_clockticks
-        
+
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
@@ -1729,49 +1729,49 @@ B_ViolinIMusicVoice = {
         - \tweak bound-details.right.padding #1.75                             %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #10                                             %! PiecewiseIndicatorCommand(1)
         \startTextSpanOne                                                      %! PiecewiseIndicatorCommand(1)
-        
+
         r8                                                                     %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r8                                                                     %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r8                                                                     %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
     }                                                                          %! stirrings_still_clockticks
-    
+
     % [B ViolinIMusicVoice measure 66 / measure 3]                             %! _comment_measure_numbers
     r2..                                                                       %! stirrings_still_clockticks
     \times 4/5 {                                                               %! stirrings_still_clockticks
-        
+
         % [B ViolinIMusicVoice measure 67 / measure 4]                         %! _comment_measure_numbers
         r8                                                                     %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r8                                                                     %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r8                                                                     %! stirrings_still_clockticks
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
         \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B ViolinIMusicVoice measure 68 / measure 5]                         %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
@@ -1779,25 +1779,25 @@ B_ViolinIMusicVoice = {
         \baca_mf_sub                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
         \stopTextSpanOne                                                       %! PiecewiseIndicatorCommand(3)
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
@@ -1806,381 +1806,381 @@ B_ViolinIMusicVoice = {
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_clockticks
-        
+
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! stirrings_still_clockticks
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     }                                                                          %! stirrings_still_clockticks
-    
+
     % [B ViolinIMusicVoice measure 71 / measure 8]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [B ViolinIMusicVoice measure 72 / measure 9]                             %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
-    
+
     % [B ViolinIMusicVoice measure 73 / measure 10]                            %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [B ViolinIMusicVoice measure 74 / measure 11]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [B ViolinIMusicVoice measure 75 / measure 12]                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [B ViolinIMusicVoice measure 76 / measure 13]                            %! _comment_measure_numbers
     R1 * 5/12                                                                  %! _make_measure_silences
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B ViolinIMusicVoice measure 77 / measure 14]                        %! _comment_measure_numbers
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B ViolinIMusicVoice measure 78 / measure 15]                        %! _comment_measure_numbers
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         % [B ViolinIMusicVoice measure 83 / measure 20]                        %! _comment_measure_numbers
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         % [B ViolinIMusicVoice measure 84 / measure 21]                        %! _comment_measure_numbers
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         % [B ViolinIMusicVoice measure 85 / measure 22]                        %! _comment_measure_numbers
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         % [B ViolinIMusicVoice measure 86 / measure 23]                        %! _comment_measure_numbers
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \tweak edge-height #'(0.7 . 0)                                             %! stirrings_still_clockticks
     \times 8/9 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'32                                                                   %! stirrings_still_clockticks
-        
+
         r16                                                                    %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
-    
+
     % [B ViolinIMusicVoice measure 88 / measure 25]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 2/3 {                                                               %! stirrings_still_declamation
-        
+
         % [B ViolinIMusicVoice measure 89 / measure 26]                        %! _comment_measure_numbers
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8.                                                                   %! stirrings_still_declamation
         [                                                                      %! stirrings_still_declamation
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_declamation
         ]                                                                      %! stirrings_still_declamation
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4..                                                                  %! stirrings_still_declamation
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_declamation
     }                                                                          %! stirrings_still_declamation
-    
+
     % [B ViolinIMusicVoice measure 90 / measure 27]                            %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [B ViolinIMusicVoice measure 91 / measure 28]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 5/6 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIMusicVoice measure 92 / measure 29]                        %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
@@ -2189,339 +2189,339 @@ B_ViolinIMusicVoice = {
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIMusicVoice measure 93 / measure 30]                        %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIMusicVoice measure 94 / measure 31]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
+
     % [B ViolinIMusicVoice measure 95 / measure 32]                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_rasp
-    
+
     % [B ViolinIMusicVoice measure 96 / measure 33]                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_rasp
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIMusicVoice measure 97 / measure 34]                        %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIMusicVoice measure 98 / measure 35]                        %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIMusicVoice measure 99 / measure 36]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 5/6 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIMusicVoice measure 100 / measure 37]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \times 4/5 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIMusicVoice measure 101 / measure 38]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIMusicVoice measure 102 / measure 39]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIMusicVoice measure 103 / measure 40]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \times 8/9 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIMusicVoice measure 104 / measure 41]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIMusicVoice measure 105 / measure 42]                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [B ViolinIMusicVoice measure 106 / measure 43]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \times 8/9 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIMusicVoice measure 107 / measure 44]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIMusicVoice measure 108 / measure 45]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
     \times 4/5 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIMusicVoice measure 109 / measure 46]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIMusicVoice measure 110 / measure 47]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
+
     % [B ViolinIMusicVoice measure 111 / measure 48]                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
-    
+
     % [B ViolinIMusicVoice measure 112 / measure 49]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 5/6 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIMusicVoice measure 113 / measure 50]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ~
     }                                                                          %! stirrings_still_trajectories
     \times 8/9 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIMusicVoice measure 114 / measure 51]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIMusicVoice measure 115 / measure 52]                           %! _comment_measure_numbers
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIMusicVoice measure 116 / measure 53]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
@@ -2529,136 +2529,136 @@ B_ViolinIMusicVoice = {
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIMusicVoice measure 117 / measure 54]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIMusicVoice measure 118 / measure 55]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIMusicVoice measure 119 / measure 56]                           %! _comment_measure_numbers
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     [                                                                          %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     ]                                                                          %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIMusicVoice measure 120 / measure 57]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIMusicVoice measure 121 / measure 58]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [B ViolinIMusicVoice measure 122 / measure 59]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
+
     % [B ViolinIMusicVoice measure 123 / measure 60]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [B ViolinIMusicVoice measure 124 / measure 61]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [B ViolinIMusicVoice measure 125 / measure 62]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
+
     % [B ViolinIMusicVoice measure 126 / measure 63]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
+
     % [B ViolinIMusicVoice measure 127 / measure 64]                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_urtext_field
-    
+
     % [B ViolinIMusicVoice measure 128 / measure 65]                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_grid
-    
+
     r4.                                                                        %! stirrings_still_grid
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_grid
-    
+
     % [B ViolinIMusicVoice measure 129 / measure 66]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-B_ViolinIMusicStaff = {
+B_ViolinIMusicStaff = {                                                        %! extern
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \B_ViolinIMusicVoice                                                       %! extern
-}
+}                                                                              %! extern
 
 
-B_ViolinIIMusicVoice = {
+B_ViolinIIMusicVoice = {                                                       %! extern
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B ViolinIIMusicVoice measure 64 / measure 1]                        %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings_still_vn_ii                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \override TupletBracket.staff-padding = #2                             %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
@@ -2688,103 +2688,103 @@ B_ViolinIIMusicVoice = {
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \stirrings_still_vn_ii                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B ViolinIIMusicVoice measure 65 / measure 2]                        %! _comment_measure_numbers
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B ViolinIIMusicVoice measure 67 / measure 4]                        %! _comment_measure_numbers
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
         \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B ViolinIIMusicVoice measure 68 / measure 5]                        %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
@@ -2792,25 +2792,25 @@ B_ViolinIIMusicVoice = {
         \baca_mf_sub                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
         \stopTextSpanOne                                                       %! PiecewiseIndicatorCommand(3)
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
@@ -2819,254 +2819,254 @@ B_ViolinIIMusicVoice = {
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_clockticks
-        
+
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! stirrings_still_clockticks
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     }                                                                          %! stirrings_still_clockticks
-    
+
     % [B ViolinIIMusicVoice measure 71 / measure 8]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [B ViolinIIMusicVoice measure 72 / measure 9]                            %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
-    
+
     % [B ViolinIIMusicVoice measure 73 / measure 10]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [B ViolinIIMusicVoice measure 74 / measure 11]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B ViolinIIMusicVoice measure 75 / measure 12]                       %! _comment_measure_numbers
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B ViolinIIMusicVoice measure 76 / measure 13]                       %! _comment_measure_numbers
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \tweak edge-height #'(0.7 . 0)                                             %! stirrings_still_clockticks
     \times 8/9 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'32                                                                   %! stirrings_still_clockticks
-        
+
         r16                                                                    %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B ViolinIIMusicVoice measure 79 / measure 16]                       %! _comment_measure_numbers
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_clockticks
-        
+
         r8                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_clockticks
-        
+
         r8                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_clockticks
-        
+
         r8                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_clockticks
-        
+
         r8                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_clockticks
-        
+
         r8                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \tweak edge-height #'(0.7 . 0)                                             %! stirrings_still_clockticks
     \times 8/9 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'32                                                                   %! stirrings_still_clockticks
-        
+
         r64                                                                    %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 81 / measure 18]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 82 / measure 19]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIIMusicVoice measure 83 / measure 20]                           %! _comment_measure_numbers
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     [                                                                          %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
@@ -3074,25 +3074,25 @@ B_ViolinIIMusicVoice = {
     ]                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 84 / measure 21]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
@@ -3101,25 +3101,25 @@ B_ViolinIIMusicVoice = {
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 85 / measure 22]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
@@ -3127,56 +3127,56 @@ B_ViolinIIMusicVoice = {
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 86 / measure 23]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIIMusicVoice measure 87 / measure 24]                           %! _comment_measure_numbers
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     [                                                                          %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     ]                                                                          %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/5 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 88 / measure 25]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
@@ -3184,53 +3184,53 @@ B_ViolinIIMusicVoice = {
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 2/3 {                                                               %! stirrings_still_declamation
-        
+
         % [B ViolinIIMusicVoice measure 89 / measure 26]                       %! _comment_measure_numbers
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8.                                                                   %! stirrings_still_declamation
         [                                                                      %! stirrings_still_declamation
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_declamation
         ]                                                                      %! stirrings_still_declamation
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4..                                                                  %! stirrings_still_declamation
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_declamation
     }                                                                          %! stirrings_still_declamation
     \times 4/5 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 90 / measure 27]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIIMusicVoice measure 91 / measure 28]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 5/6 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 92 / measure 29]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
@@ -3239,339 +3239,339 @@ B_ViolinIIMusicVoice = {
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 93 / measure 30]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIIMusicVoice measure 94 / measure 31]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
+
     % [B ViolinIIMusicVoice measure 95 / measure 32]                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_rasp
-    
+
     % [B ViolinIIMusicVoice measure 96 / measure 33]                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_rasp
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 97 / measure 34]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 98 / measure 35]                       %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIIMusicVoice measure 99 / measure 36]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 5/6 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 100 / measure 37]                      %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \times 4/5 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 101 / measure 38]                      %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIIMusicVoice measure 102 / measure 39]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 103 / measure 40]                      %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \times 8/9 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 104 / measure 41]                      %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIIMusicVoice measure 105 / measure 42]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [B ViolinIIMusicVoice measure 106 / measure 43]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \times 8/9 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 107 / measure 44]                      %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIIMusicVoice measure 108 / measure 45]                          %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
     \times 4/5 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 109 / measure 46]                      %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIIMusicVoice measure 110 / measure 47]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
+
     % [B ViolinIIMusicVoice measure 111 / measure 48]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
-    
+
     % [B ViolinIIMusicVoice measure 112 / measure 49]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 5/6 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 113 / measure 50]                      %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ~
     }                                                                          %! stirrings_still_trajectories
     \times 8/9 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 114 / measure 51]                      %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIIMusicVoice measure 115 / measure 52]                          %! _comment_measure_numbers
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 116 / measure 53]                      %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
@@ -3579,176 +3579,176 @@ B_ViolinIIMusicVoice = {
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 117 / measure 54]                      %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 118 / measure 55]                      %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIIMusicVoice measure 119 / measure 56]                          %! _comment_measure_numbers
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     [                                                                          %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     ]                                                                          %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolinIIMusicVoice measure 120 / measure 57]                      %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolinIIMusicVoice measure 121 / measure 58]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [B ViolinIIMusicVoice measure 122 / measure 59]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [B ViolinIIMusicVoice measure 123 / measure 60]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [B ViolinIIMusicVoice measure 125 / measure 62]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [B ViolinIIMusicVoice measure 126 / measure 63]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
+
     % [B ViolinIIMusicVoice measure 127 / measure 64]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_urtext_field
-    
+
     % [B ViolinIIMusicVoice measure 128 / measure 65]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_grid
-    
+
     r4.                                                                        %! stirrings_still_grid
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_grid
-    
+
     % [B ViolinIIMusicVoice measure 129 / measure 66]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-B_ViolinIIMusicStaff = {
+B_ViolinIIMusicStaff = {                                                       %! extern
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \B_ViolinIIMusicVoice                                                      %! extern
-}
+}                                                                              %! extern
 
 
-B_ViolaMusicVoice = {
+B_ViolaMusicVoice = {                                                          %! extern
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B ViolaMusicVoice measure 64 / measure 1]                           %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings_still_va                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \override TupletBracket.staff-padding = #2                             %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
@@ -3778,103 +3778,103 @@ B_ViolaMusicVoice = {
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \stirrings_still_va                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B ViolaMusicVoice measure 65 / measure 2]                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B ViolaMusicVoice measure 67 / measure 4]                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
         \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B ViolaMusicVoice measure 68 / measure 5]                           %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
@@ -3882,24 +3882,24 @@ B_ViolaMusicVoice = {
         \baca_mf_sub                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
         \stopTextSpanOne                                                       %! PiecewiseIndicatorCommand(3)
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_clockticks
-        
+
         r8                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
-    
+
     % [B ViolaMusicVoice measure 69 / measure 6]                               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
@@ -3908,129 +3908,129 @@ B_ViolaMusicVoice = {
     - \tweak color #blue                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [B ViolaMusicVoice measure 70 / measure 7]                               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [B ViolaMusicVoice measure 71 / measure 8]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 72 / measure 9]                               %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 73 / measure 10]                              %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 74 / measure 11]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 75 / measure 12]                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [B ViolaMusicVoice measure 76 / measure 13]                              %! _comment_measure_numbers
     R1 * 5/12                                                                  %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 77 / measure 14]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 78 / measure 15]                              %! _comment_measure_numbers
     R1 * 5/12                                                                  %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 79 / measure 16]                              %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 80 / measure 17]                              %! _comment_measure_numbers
     R1 * 5/12                                                                  %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 81 / measure 18]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 82 / measure 19]                              %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 83 / measure 20]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 84 / measure 21]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 85 / measure 22]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 86 / measure 23]                              %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 87 / measure 24]                              %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 88 / measure 25]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 2/3 {                                                               %! stirrings_still_declamation
-        
+
         % [B ViolaMusicVoice measure 89 / measure 26]                          %! _comment_measure_numbers
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8.                                                                   %! stirrings_still_declamation
         [                                                                      %! stirrings_still_declamation
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_declamation
         ]                                                                      %! stirrings_still_declamation
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4..                                                                  %! stirrings_still_declamation
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_declamation
     }                                                                          %! stirrings_still_declamation
-    
+
     % [B ViolaMusicVoice measure 90 / measure 27]                              %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 91 / measure 28]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 5/6 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolaMusicVoice measure 92 / measure 29]                          %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
@@ -4039,38 +4039,38 @@ B_ViolaMusicVoice = {
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolaMusicVoice measure 93 / measure 30]                          %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolaMusicVoice measure 94 / measure 31]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 95 / measure 32]                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_rasp
-    
+
     % [B ViolaMusicVoice measure 96 / measure 33]                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_rasp
@@ -4078,301 +4078,301 @@ B_ViolaMusicVoice = {
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolaMusicVoice measure 97 / measure 34]                          %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolaMusicVoice measure 98 / measure 35]                          %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolaMusicVoice measure 99 / measure 36]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 5/6 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolaMusicVoice measure 100 / measure 37]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \times 4/5 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolaMusicVoice measure 101 / measure 38]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolaMusicVoice measure 102 / measure 39]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolaMusicVoice measure 103 / measure 40]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \times 8/9 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolaMusicVoice measure 104 / measure 41]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolaMusicVoice measure 105 / measure 42]                             %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [B ViolaMusicVoice measure 106 / measure 43]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \times 8/9 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolaMusicVoice measure 107 / measure 44]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolaMusicVoice measure 108 / measure 45]                             %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
     \times 4/5 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolaMusicVoice measure 109 / measure 46]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolaMusicVoice measure 110 / measure 47]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 111 / measure 48]                             %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
-    
+
     % [B ViolaMusicVoice measure 112 / measure 49]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 5/6 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolaMusicVoice measure 113 / measure 50]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ~
     }                                                                          %! stirrings_still_trajectories
     \times 8/9 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolaMusicVoice measure 114 / measure 51]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolaMusicVoice measure 115 / measure 52]                             %! _comment_measure_numbers
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolaMusicVoice measure 116 / measure 53]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
@@ -4380,136 +4380,136 @@ B_ViolaMusicVoice = {
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolaMusicVoice measure 117 / measure 54]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolaMusicVoice measure 118 / measure 55]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolaMusicVoice measure 119 / measure 56]                             %! _comment_measure_numbers
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     [                                                                          %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     ]                                                                          %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B ViolaMusicVoice measure 120 / measure 57]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B ViolaMusicVoice measure 121 / measure 58]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 122 / measure 59]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 123 / measure 60]                             %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 124 / measure 61]                             %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 125 / measure 62]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 126 / measure 63]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
+
     % [B ViolaMusicVoice measure 127 / measure 64]                             %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_urtext_field
-    
+
     % [B ViolaMusicVoice measure 128 / measure 65]                             %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_grid
-    
+
     r4.                                                                        %! stirrings_still_grid
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_grid
-    
+
     % [B ViolaMusicVoice measure 129 / measure 66]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-B_ViolaMusicStaff = {
+B_ViolaMusicStaff = {                                                          %! extern
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \B_ViolaMusicVoice                                                         %! extern
-}
+}                                                                              %! extern
 
 
-B_CelloMusicVoice = {
+B_CelloMusicVoice = {                                                          %! extern
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B CelloMusicVoice measure 64 / measure 1]                           %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \stirrings_still_vc                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \override TupletBracket.staff-padding = #2                             %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
@@ -4539,103 +4539,103 @@ B_CelloMusicVoice = {
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \stirrings_still_vc                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B CelloMusicVoice measure 65 / measure 2]                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B CelloMusicVoice measure 67 / measure 4]                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! IndicatorCommand
-        
+
         r4                                                                     %! stirrings_still_clockticks
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
         \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         % [B CelloMusicVoice measure 68 / measure 5]                           %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
@@ -4643,24 +4643,24 @@ B_CelloMusicVoice = {
         \baca_mf_sub                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
         \stopTextSpanOne                                                       %! PiecewiseIndicatorCommand(3)
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        
+
         r4                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
     \times 2/3 {                                                               %! stirrings_still_clockticks
-        
+
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_clockticks
-        
+
         r8                                                                     %! stirrings_still_clockticks
     }                                                                          %! stirrings_still_clockticks
-    
+
     % [B CelloMusicVoice measure 69 / measure 6]                               %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -4672,114 +4672,114 @@ B_CelloMusicVoice = {
     - \tweak color #blue                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    
+
     % [B CelloMusicVoice measure 70 / measure 7]                               %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_clouded_pane
     \repeatTie
-    
+
     % [B CelloMusicVoice measure 71 / measure 8]                               %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_clouded_pane
     \repeatTie
-    
+
     % [B CelloMusicVoice measure 72 / measure 9]                               %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_clouded_pane
     \repeatTie
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_clouded_pane
     \repeatTie
-    
+
     % [B CelloMusicVoice measure 73 / measure 10]                              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_clouded_pane
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    
+
     % [B CelloMusicVoice measure 74 / measure 11]                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_clouded_pane
     \repeatTie
     \breathe                                                                   %! IndicatorCommand
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
-    
+
     % [B CelloMusicVoice measure 75 / measure 12]                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [B CelloMusicVoice measure 76 / measure 13]                              %! _comment_measure_numbers
     R1 * 5/12                                                                  %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 77 / measure 14]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 78 / measure 15]                              %! _comment_measure_numbers
     R1 * 5/12                                                                  %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 79 / measure 16]                              %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 80 / measure 17]                              %! _comment_measure_numbers
     R1 * 5/12                                                                  %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 81 / measure 18]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 82 / measure 19]                              %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 83 / measure 20]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 84 / measure 21]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 85 / measure 22]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 86 / measure 23]                              %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 87 / measure 24]                              %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 88 / measure 25]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 89 / measure 26]                              %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 90 / measure 27]                              %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 91 / measure 28]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 5/6 {                                                               %! stirrings_still_trajectories
-        
+
         % [B CelloMusicVoice measure 92 / measure 29]                          %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
@@ -4788,338 +4788,338 @@ B_CelloMusicVoice = {
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B CelloMusicVoice measure 93 / measure 30]                          %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B CelloMusicVoice measure 94 / measure 31]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 95 / measure 32]                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_rasp
-    
+
     % [B CelloMusicVoice measure 96 / measure 33]                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_rasp
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
-        
+
         % [B CelloMusicVoice measure 97 / measure 34]                          %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
-        
+
         % [B CelloMusicVoice measure 98 / measure 35]                          %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B CelloMusicVoice measure 99 / measure 36]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 5/6 {                                                               %! stirrings_still_trajectories
-        
+
         % [B CelloMusicVoice measure 100 / measure 37]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \times 4/5 {                                                               %! stirrings_still_trajectories
-        
+
         % [B CelloMusicVoice measure 101 / measure 38]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B CelloMusicVoice measure 102 / measure 39]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B CelloMusicVoice measure 103 / measure 40]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \times 8/9 {                                                               %! stirrings_still_trajectories
-        
+
         % [B CelloMusicVoice measure 104 / measure 41]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B CelloMusicVoice measure 105 / measure 42]                             %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [B CelloMusicVoice measure 106 / measure 43]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \times 8/9 {                                                               %! stirrings_still_trajectories
-        
+
         % [B CelloMusicVoice measure 107 / measure 44]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B CelloMusicVoice measure 108 / measure 45]                             %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
     \times 4/5 {                                                               %! stirrings_still_trajectories
-        
+
         % [B CelloMusicVoice measure 109 / measure 46]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B CelloMusicVoice measure 110 / measure 47]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 111 / measure 48]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 112 / measure 49]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 5/6 {                                                               %! stirrings_still_trajectories
-        
+
         % [B CelloMusicVoice measure 113 / measure 50]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ~
     }                                                                          %! stirrings_still_trajectories
     \times 8/9 {                                                               %! stirrings_still_trajectories
-        
+
         % [B CelloMusicVoice measure 114 / measure 51]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B CelloMusicVoice measure 115 / measure 52]                             %! _comment_measure_numbers
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B CelloMusicVoice measure 116 / measure 53]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
@@ -5127,127 +5127,127 @@ B_CelloMusicVoice = {
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
-        
+
         % [B CelloMusicVoice measure 117 / measure 54]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         ]                                                                      %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B CelloMusicVoice measure 118 / measure 55]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B CelloMusicVoice measure 119 / measure 56]                             %! _comment_measure_numbers
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     [                                                                          %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
     ]                                                                          %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
-    
+
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/7 {                                                               %! stirrings_still_trajectories
-        
+
         % [B CelloMusicVoice measure 120 / measure 57]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        
+
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca_unpitched_music_warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
     }                                                                          %! stirrings_still_trajectories
-    
+
     % [B CelloMusicVoice measure 121 / measure 58]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 122 / measure 59]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 123 / measure 60]                             %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 124 / measure 61]                             %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 125 / measure 62]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 126 / measure 63]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 127 / measure 64]                             %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
-    
+
     % [B CelloMusicVoice measure 128 / measure 65]                             %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_grid
-    
+
     r4.                                                                        %! stirrings_still_grid
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_grid
-    
+
     % [B CelloMusicVoice measure 129 / measure 66]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-B_CelloMusicStaff = {
+B_CelloMusicStaff = {                                                          %! extern
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \B_CelloMusicVoice                                                         %! extern
-}
+}                                                                              %! extern
