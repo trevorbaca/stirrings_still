@@ -1,43 +1,43 @@
-I_GlobalRests = {
-    
+I_GlobalRests = {                                                              %! extern
+
     % [I GlobalRests measure 519 / measure 1]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [I GlobalRests measure 520 / measure 2]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [I GlobalRests measure 521 / measure 3]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [I GlobalRests measure 522 / measure 4]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [I GlobalRests measure 523 / measure 5]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [I GlobalRests measure 524 / measure 6]                                  %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_global_rests
-    
+
     % [I GlobalRests measure 525 / measure 7]                                  %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_global_rests
-    
+
     % [I GlobalRests measure 526 / measure 8]                                  %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_global_rests
-    
+
     % [I GlobalRests measure 527 / measure 9]                                  %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [I GlobalRests measure 528 / measure 10]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [I GlobalRests measure 529 / measure 11]                                 %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_global_rests
-    
-}
+
+}                                                                              %! extern
 
 
-I_GlobalSkips = {
-    
+I_GlobalSkips = {                                                              %! extern
+
     % [I GlobalSkips measure 519 / measure 1]                                  %! _comment_measure_numbers
     \override TextScript.extra-offset = #'(0 . 5)                              %! baca_text_script_extra_offset:OverrideCommand(1)
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -74,7 +74,7 @@ I_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [I GlobalSkips measure 520 / measure 2]                                  %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -84,7 +84,7 @@ I_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((2))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [I.2]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[21'01'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [I GlobalSkips measure 521 / measure 3]                                  %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -118,7 +118,7 @@ I_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [I GlobalSkips measure 522 / measure 4]                                  %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -129,7 +129,7 @@ I_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup [I.4]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
     ^ \markup { [I.3] }                                                        %! IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[21'09'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [I GlobalSkips measure 523 / measure 5]                                  %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -140,7 +140,7 @@ I_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup [I.5]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
     ^ \markup { [I.4] }                                                        %! IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[21'13'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [I GlobalSkips measure 524 / measure 6]                                  %! _comment_measure_numbers
     \time 5/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -174,7 +174,7 @@ I_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [I GlobalSkips measure 525 / measure 7]                                  %! _comment_measure_numbers
     \time 6/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -184,7 +184,7 @@ I_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((7))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [I.7]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[21'25'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [I GlobalSkips measure 526 / measure 8]                                  %! _comment_measure_numbers
     s1 * 3/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (526)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -193,7 +193,7 @@ I_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup [I.8]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
     ^ \markup { [I.6] }                                                        %! IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[21'34'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [I GlobalSkips measure 527 / measure 9]                                  %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -203,7 +203,7 @@ I_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((9))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [I.9]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[21'43'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [I GlobalSkips measure 528 / measure 10]                                 %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -214,7 +214,7 @@ I_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup [I.10]                                            %! _label_stage_numbers:STAGE_NUMBER_MARKUP
     ^ \markup { [I.7] }                                                        %! IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[21'48'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [I GlobalSkips measure 529 / measure 11]                                 %! _comment_measure_numbers
     \time 5/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -228,12 +228,12 @@ I_GlobalSkips = {
     \revert TextScript.extra-offset                                            %! baca_text_script_extra_offset:OverrideCommand(2)
     \baca_bar_line_visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
-    
-}
+
+}                                                                              %! extern
 
 
-I_ViolinIMusicVoice = {
-    
+I_ViolinIMusicVoice = {                                                        %! extern
+
     % [I ViolinIMusicVoice measure 519 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings_still_vn_i                     %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \set stemLeftBeamCount = 0                                                 %! stirrings_still_circles
@@ -259,114 +259,114 @@ I_ViolinIMusicVoice = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings_still_vn_i                     %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     % [I ViolinIMusicVoice measure 520 / measure 2]                            %! _comment_measure_numbers
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     % [I ViolinIMusicVoice measure 521 / measure 3]                            %! _comment_measure_numbers
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     % [I ViolinIMusicVoice measure 522 / measure 4]                            %! _comment_measure_numbers
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
@@ -378,180 +378,180 @@ I_ViolinIMusicVoice = {
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     % [I ViolinIMusicVoice measure 523 / measure 5]                            %! _comment_measure_numbers
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     % [I ViolinIMusicVoice measure 524 / measure 6]                            %! _comment_measure_numbers
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     % [I ViolinIMusicVoice measure 525 / measure 7]                            %! _comment_measure_numbers
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    
+
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
     \set stemRightBeamCount = 0                                                %! stirrings_still_circles
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -560,7 +560,7 @@ I_ViolinIMusicVoice = {
     ]                                                                          %! stirrings_still_circles
     <> \!                                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
-    
+
     % [I ViolinIMusicVoice measure 526 / measure 8]                            %! _comment_measure_numbers
     \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests
     <<                                                                         %! _parallelize_multimeasure_rests
@@ -571,10 +571,10 @@ I_ViolinIMusicVoice = {
     \\                                                                         %! _parallelize_multimeasure_rests
     R1 * 3/2                                                                   %! _make_measure_silences
     >>                                                                         %! _parallelize_multimeasure_rests
-    
+
     % [I ViolinIMusicVoice measure 527 / measure 9]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
+
     % [I ViolinIMusicVoice measure 528 / measure 10]                           %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
@@ -585,27 +585,27 @@ I_ViolinIMusicVoice = {
             #magenta                                                           %! IndicatorCommand
             "sustained double stops"                                           %! IndicatorCommand
         }                                                                      %! IndicatorCommand
-    
+
     % [I ViolinIMusicVoice measure 529 / measure 11]                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
     \repeatTie
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_urtext_field
     \repeatTie
-    
-}
+
+}                                                                              %! extern
 
 
-I_ViolinIMusicStaff = {
+I_ViolinIMusicStaff = {                                                        %! extern
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \I_ViolinIMusicVoice                                                       %! extern
-}
+}                                                                              %! extern
 
 
-I_ViolinIIMusicVoice = {
-    
+I_ViolinIIMusicVoice = {                                                       %! extern
+
     % [I ViolinIIMusicVoice measure 519 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings_still_vn_ii                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
@@ -628,39 +628,39 @@ I_ViolinIIMusicVoice = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings_still_vn_ii                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [I ViolinIIMusicVoice measure 520 / measure 2]                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [I ViolinIIMusicVoice measure 521 / measure 3]                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [I ViolinIIMusicVoice measure 522 / measure 4]                           %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
@@ -670,64 +670,64 @@ I_ViolinIIMusicVoice = {
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [I ViolinIIMusicVoice measure 523 / measure 5]                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [I ViolinIIMusicVoice measure 524 / measure 6]                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     % [I ViolinIIMusicVoice measure 525 / measure 7]                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    
+
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
     <> \!                                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
-    
+
     % [I ViolinIIMusicVoice measure 526 / measure 8]                           %! _comment_measure_numbers
     \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests
     <<                                                                         %! _parallelize_multimeasure_rests
@@ -738,10 +738,10 @@ I_ViolinIIMusicVoice = {
     \\                                                                         %! _parallelize_multimeasure_rests
     R1 * 3/2                                                                   %! _make_measure_silences
     >>                                                                         %! _parallelize_multimeasure_rests
-    
+
     % [I ViolinIIMusicVoice measure 527 / measure 9]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
+
     % [I ViolinIIMusicVoice measure 528 / measure 10]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
@@ -752,27 +752,27 @@ I_ViolinIIMusicVoice = {
             #magenta                                                           %! IndicatorCommand
             "sustained double stops"                                           %! IndicatorCommand
         }                                                                      %! IndicatorCommand
-    
+
     % [I ViolinIIMusicVoice measure 529 / measure 11]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
     \repeatTie
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_urtext_field
     \repeatTie
-    
-}
+
+}                                                                              %! extern
 
 
-I_ViolinIIMusicStaff = {
+I_ViolinIIMusicStaff = {                                                       %! extern
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \I_ViolinIIMusicVoice                                                      %! extern
-}
+}                                                                              %! extern
 
 
-I_ViolaMusicVoice = {
-    
+I_ViolaMusicVoice = {                                                          %! extern
+
     % [I ViolaMusicVoice measure 519 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings_still_va                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -792,7 +792,7 @@ I_ViolaMusicVoice = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings_still_va                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_circles
     - \tweak staff-padding #9                                                  %! IndicatorCommand
@@ -801,20 +801,20 @@ I_ViolaMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-left "8˝"                   %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_circles
-    
+
     % [I ViolaMusicVoice measure 521 / measure 3]                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_circles
-    
+
     % [I ViolaMusicVoice measure 522 / measure 4]                              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
@@ -824,35 +824,35 @@ I_ViolaMusicVoice = {
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_circles
-    
+
     % [I ViolaMusicVoice measure 525 / measure 7]                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_circles
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_circles
-    
+
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_circles
     <> \!                                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
-    
+
     % [I ViolaMusicVoice measure 526 / measure 8]                              %! _comment_measure_numbers
     \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests
     <<                                                                         %! _parallelize_multimeasure_rests
@@ -863,10 +863,10 @@ I_ViolaMusicVoice = {
     \\                                                                         %! _parallelize_multimeasure_rests
     R1 * 3/2                                                                   %! _make_measure_silences
     >>                                                                         %! _parallelize_multimeasure_rests
-    
+
     % [I ViolaMusicVoice measure 527 / measure 9]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    
+
     % [I ViolaMusicVoice measure 528 / measure 10]                             %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
@@ -877,28 +877,28 @@ I_ViolaMusicVoice = {
             #magenta                                                           %! IndicatorCommand
             "sustained double stops"                                           %! IndicatorCommand
         }                                                                      %! IndicatorCommand
-    
+
     % [I ViolaMusicVoice measure 529 / measure 11]                             %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
     - \tweak direction #up
     \repeatTie
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_urtext_field
     \repeatTie
-    
-}
+
+}                                                                              %! extern
 
 
-I_ViolaMusicStaff = {
+I_ViolaMusicStaff = {                                                          %! extern
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \I_ViolaMusicVoice                                                         %! extern
-}
+}                                                                              %! extern
 
 
-I_CelloMusicVoice = {
-    
+I_CelloMusicVoice = {                                                          %! extern
+
     % [I CelloMusicVoice measure 519 / measure 1]                              %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \stirrings_still_vc                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \override TextSpanner.staff-padding = #7                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
@@ -939,7 +939,7 @@ I_CelloMusicVoice = {
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings_still_vc                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -947,7 +947,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -955,7 +955,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -963,7 +963,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -971,7 +971,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -979,7 +979,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -987,7 +987,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -995,7 +995,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     % [I CelloMusicVoice measure 520 / measure 2]                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
@@ -1004,7 +1004,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1012,7 +1012,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -1020,7 +1020,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1028,7 +1028,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -1036,7 +1036,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1044,7 +1044,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     % [I CelloMusicVoice measure 521 / measure 3]                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
@@ -1053,7 +1053,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1061,7 +1061,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -1069,7 +1069,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1077,7 +1077,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -1085,7 +1085,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1093,7 +1093,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -1101,7 +1101,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1109,7 +1109,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     % [I CelloMusicVoice measure 522 / measure 4]                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
@@ -1118,7 +1118,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1126,7 +1126,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -1134,7 +1134,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1142,7 +1142,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -1150,7 +1150,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1158,7 +1158,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     % [I CelloMusicVoice measure 523 / measure 5]                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
@@ -1167,7 +1167,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1175,7 +1175,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -1183,7 +1183,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1191,7 +1191,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -1199,7 +1199,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1207,7 +1207,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -1215,7 +1215,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1223,7 +1223,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     % [I CelloMusicVoice measure 524 / measure 6]                              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
@@ -1234,7 +1234,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1242,7 +1242,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #3 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -1250,7 +1250,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1258,7 +1258,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -1266,7 +1266,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1274,7 +1274,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -1282,7 +1282,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1290,7 +1290,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #6 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \downbow                                                                 %! BowContactPointCommand
@@ -1298,7 +1298,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \upbow                                                                   %! BowContactPointCommand
@@ -1307,7 +1307,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     % [I CelloMusicVoice measure 525 / measure 7]                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8.
@@ -1317,7 +1317,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'16
     - \upbow                                                                   %! BowContactPointCommand
@@ -1326,7 +1326,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \downbow                                                                 %! BowContactPointCommand
@@ -1335,7 +1335,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \upbow                                                                   %! BowContactPointCommand
@@ -1344,7 +1344,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8.
     - \downbow                                                                 %! BowContactPointCommand
@@ -1353,7 +1353,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'16
     - \upbow                                                                   %! BowContactPointCommand
@@ -1362,7 +1362,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \downbow                                                                 %! BowContactPointCommand
@@ -1371,7 +1371,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \upbow                                                                   %! BowContactPointCommand
@@ -1380,7 +1380,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8.
     - \downbow                                                                 %! BowContactPointCommand
@@ -1389,7 +1389,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'16
     - \upbow                                                                   %! BowContactPointCommand
@@ -1398,7 +1398,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \downbow                                                                 %! BowContactPointCommand
@@ -1407,7 +1407,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \upbow                                                                   %! BowContactPointCommand
@@ -1416,7 +1416,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     % [I CelloMusicVoice measure 526 / measure 8]                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8.
@@ -1426,7 +1426,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'16
     - \upbow                                                                   %! BowContactPointCommand
@@ -1435,7 +1435,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \downbow                                                                 %! BowContactPointCommand
@@ -1444,7 +1444,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \upbow                                                                   %! BowContactPointCommand
@@ -1453,7 +1453,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8.
     - \downbow                                                                 %! BowContactPointCommand
@@ -1462,7 +1462,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'16
     - \upbow                                                                   %! BowContactPointCommand
@@ -1471,7 +1471,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \downbow                                                                 %! BowContactPointCommand
@@ -1480,7 +1480,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \upbow                                                                   %! BowContactPointCommand
@@ -1489,7 +1489,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8.
     - \downbow                                                                 %! BowContactPointCommand
@@ -1498,7 +1498,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'16
     - \upbow                                                                   %! BowContactPointCommand
@@ -1507,7 +1507,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \downbow                                                                 %! BowContactPointCommand
@@ -1516,7 +1516,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \upbow                                                                   %! BowContactPointCommand
@@ -1525,7 +1525,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     % [I CelloMusicVoice measure 527 / measure 9]                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8.
@@ -1535,7 +1535,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'16
     - \upbow                                                                   %! BowContactPointCommand
@@ -1544,7 +1544,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \downbow                                                                 %! BowContactPointCommand
@@ -1553,7 +1553,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \upbow                                                                   %! BowContactPointCommand
@@ -1562,7 +1562,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8.
     - \downbow                                                                 %! BowContactPointCommand
@@ -1571,7 +1571,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'16
     - \upbow                                                                   %! BowContactPointCommand
@@ -1580,7 +1580,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     % [I CelloMusicVoice measure 528 / measure 10]                             %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
@@ -1596,7 +1596,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \upbow                                                                   %! BowContactPointCommand
@@ -1605,7 +1605,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8.
     - \downbow                                                                 %! BowContactPointCommand
@@ -1614,7 +1614,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'16
     - \upbow                                                                   %! BowContactPointCommand
@@ -1623,7 +1623,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \downbow                                                                 %! BowContactPointCommand
@@ -1632,7 +1632,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \upbow                                                                   %! BowContactPointCommand
@@ -1641,7 +1641,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8.
     - \downbow                                                                 %! BowContactPointCommand
@@ -1650,7 +1650,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'16
     - \upbow                                                                   %! BowContactPointCommand
@@ -1659,7 +1659,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     % [I CelloMusicVoice measure 529 / measure 11]                             %! _comment_measure_numbers
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
@@ -1669,7 +1669,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \upbow                                                                   %! BowContactPointCommand
@@ -1678,7 +1678,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8.
     - \downbow                                                                 %! BowContactPointCommand
@@ -1687,7 +1687,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'16
     - \upbow                                                                   %! BowContactPointCommand
@@ -1696,7 +1696,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \downbow                                                                 %! BowContactPointCommand
@@ -1705,7 +1705,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #1 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \upbow                                                                   %! BowContactPointCommand
@@ -1714,7 +1714,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #5 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8.
     - \downbow                                                                 %! BowContactPointCommand
@@ -1723,7 +1723,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup \baca-bcp-left #4 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'16
     - \upbow                                                                   %! BowContactPointCommand
@@ -1732,7 +1732,7 @@ I_CelloMusicVoice = {
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \tweak bound-details.left.text \markup \baca-bcp-left #7 #7              %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
-    
+
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
     - \downbow                                                                 %! BowContactPointCommand
@@ -1742,7 +1742,7 @@ I_CelloMusicVoice = {
     - \tweak bound-details.right.text \markup \baca-bcp-right #5 #7            %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
-    
+
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                              %! _color_unpitched_notes
     c'8
@@ -1751,11 +1751,11 @@ I_CelloMusicVoice = {
     ]
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
     <> \stopTextSpanOne                                                        %! PiecewiseIndicatorCommand(3)
-    
-}
+
+}                                                                              %! extern
 
 
-I_CelloMusicStaff = {
+I_CelloMusicStaff = {                                                          %! extern
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \I_CelloMusicVoice                                                         %! extern
-}
+}                                                                              %! extern
