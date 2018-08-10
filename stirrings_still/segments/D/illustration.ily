@@ -4855,7 +4855,7 @@ D_CelloMusicVoice = {                                                          %
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad_solid_line_with_arrow                                         %! BowContactPointCommand
         - \baca_bcp_spanner_left_text #6 #7                                    %! BowContactPointCommand
-        - \tweak bound-details.right.text \markup \baca-bcp-right #7 #7        %! BowContactPointCommand
+        - \baca_bcp_spanner_right_text #7 #7                                   %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! SpannerCommand
