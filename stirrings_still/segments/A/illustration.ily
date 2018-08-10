@@ -1228,10 +1228,39 @@ A_ViolinIMusicVoice = {                                                        %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A ViolinIMusicVoice measure 62]                                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
+    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_circles
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_markup \baca_damp_markup                         %! PiecewiseIndicatorCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
+    - \tweak staff-padding #8                                                  %! PiecewiseIndicatorCommand(1)
+    \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
+    - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "slow circles"                              %! PiecewiseIndicatorCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
+    - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
+    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+
+    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_circles
+
+    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_circles
+    <> \stopTextSpanOne                                                        %! PiecewiseIndicatorCommand(3)
+    <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
 
     % [A ViolinIMusicVoice measure 63]                                         %! _comment_measure_numbers
+    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests
+    <<                                                                         %! _parallelize_multimeasure_rests
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests
+        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests
+    \\                                                                         %! _parallelize_multimeasure_rests
     R1 * 1/4                                                                   %! _make_measure_silences
+    >>                                                                         %! _parallelize_multimeasure_rests
 
 }                                                                              %! extern
 
@@ -1473,10 +1502,39 @@ A_ViolinIIMusicVoice = {                                                       %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A ViolinIIMusicVoice measure 62]                                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
+    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_circles
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_markup \baca_damp_markup                         %! PiecewiseIndicatorCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
+    - \tweak staff-padding #8                                                  %! PiecewiseIndicatorCommand(1)
+    \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
+    - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "slow circles"                              %! PiecewiseIndicatorCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
+    - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
+    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+
+    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_circles
+
+    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_circles
+    <> \stopTextSpanOne                                                        %! PiecewiseIndicatorCommand(3)
+    <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
 
     % [A ViolinIIMusicVoice measure 63]                                        %! _comment_measure_numbers
+    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests
+    <<                                                                         %! _parallelize_multimeasure_rests
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests
+        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests
+    \\                                                                         %! _parallelize_multimeasure_rests
     R1 * 1/4                                                                   %! _make_measure_silences
+    >>                                                                         %! _parallelize_multimeasure_rests
 
 }                                                                              %! extern
 
@@ -1718,10 +1776,39 @@ A_ViolaMusicVoice = {                                                          %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A ViolaMusicVoice measure 62]                                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_measure_silences
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
+    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_circles
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_markup \baca_damp_markup                         %! PiecewiseIndicatorCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
+    - \tweak staff-padding #8                                                  %! PiecewiseIndicatorCommand(1)
+    \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
+    - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "slow circles"                              %! PiecewiseIndicatorCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
+    - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
+    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+
+    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_circles
+
+    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_circles
+    <> \stopTextSpanOne                                                        %! PiecewiseIndicatorCommand(3)
+    <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
 
     % [A ViolaMusicVoice measure 63]                                           %! _comment_measure_numbers
+    \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests
+    <<                                                                         %! _parallelize_multimeasure_rests
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests
+        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests
+    \\                                                                         %! _parallelize_multimeasure_rests
     R1 * 1/4                                                                   %! _make_measure_silences
+    >>                                                                         %! _parallelize_multimeasure_rests
 
 }                                                                              %! extern
 
@@ -1742,7 +1829,7 @@ A_CelloMusicVoice = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    R1 * 1/2                                                                   %! _call_rhythm_commands
+    R1 * 1/2                                                                   %! _make_measure_silences
     ^ \baca-default-indicator-markup "(“Cello”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \baca-explicit-indicator-markup "[“Vc.”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -1750,190 +1837,219 @@ A_CelloMusicVoice = {                                                          %
     \set Staff.shortInstrumentName = \stirrings_still_vc                       %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:IndicatorCommand
 
     % [A CelloMusicVoice measure 2]                                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+    R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 3]                                            %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 4]                                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+    R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 5]                                            %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 6]                                            %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _call_rhythm_commands
+    R1 * 7/8                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 7]                                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+    R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 8]                                            %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _call_rhythm_commands
+    R1 * 7/8                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 9]                                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [A CelloMusicVoice measure 10]                                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+    R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 11]                                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [A CelloMusicVoice measure 12]                                           %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _call_rhythm_commands
+    R1 * 5/8                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 13]                                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 14]                                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [A CelloMusicVoice measure 15]                                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _call_rhythm_commands
+    R1 * 7/8                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 16]                                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _call_rhythm_commands
+    R1 * 7/8                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 17]                                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+    R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 18]                                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [A CelloMusicVoice measure 19]                                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+    R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 20]                                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 21]                                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+    R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 22]                                           %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _call_rhythm_commands
+    R1 * 5/8                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 23]                                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 24]                                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+    R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 25]                                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _call_rhythm_commands
+    R1 * 1/2                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 26]                                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 27]                                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _call_rhythm_commands
+    R1 * 7/8                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 28]                                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+    R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 29]                                           %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _call_rhythm_commands
+    R1 * 5/8                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 30]                                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 31]                                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 32]                                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 33]                                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _call_rhythm_commands
+    R1 * 1/2                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 34]                                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [A CelloMusicVoice measure 35]                                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [A CelloMusicVoice measure 36]                                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _call_rhythm_commands
+    R1 * 7/8                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 37]                                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _call_rhythm_commands
+    R1 * 7/8                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 38]                                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _call_rhythm_commands
+    R1 * 1/2                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 39]                                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 40]                                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 41]                                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _call_rhythm_commands
+    R1 * 7/8                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 42]                                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [A CelloMusicVoice measure 43]                                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 44]                                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [A CelloMusicVoice measure 45]                                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _call_rhythm_commands
+    R1 * 7/8                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 46]                                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 47]                                           %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _call_rhythm_commands
+    R1 * 5/8                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 48]                                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 49]                                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _call_rhythm_commands
+    R1 * 7/8                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 50]                                           %! _comment_measure_numbers
-    R1 * 7/8                                                                   %! _call_rhythm_commands
+    R1 * 7/8                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 51]                                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+    R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 52]                                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [A CelloMusicVoice measure 53]                                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+    R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 54]                                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [A CelloMusicVoice measure 55]                                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [A CelloMusicVoice measure 56]                                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [A CelloMusicVoice measure 57]                                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+    R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 58]                                           %! _comment_measure_numbers
-    R1 * 5/8                                                                   %! _call_rhythm_commands
+    R1 * 5/8                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 59]                                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+    R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 60]                                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 61]                                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+    R1 * 1/4                                                                   %! _make_measure_silences
 
     % [A CelloMusicVoice measure 62]                                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
+    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_circles
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_markup \baca_damp_markup                         %! PiecewiseIndicatorCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
+    - \tweak staff-padding #8                                                  %! PiecewiseIndicatorCommand(1)
+    \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
+    - \abjad_dashed_line_with_hook                                             %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "slow circles"                              %! PiecewiseIndicatorCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
+    - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
+    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+
+    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_circles
+
+    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_circles
+    <> \stopTextSpanOne                                                        %! PiecewiseIndicatorCommand(3)
+    <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
 
     % [A CelloMusicVoice measure 63]                                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+    \voices "CelloMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests
+    <<                                                                         %! _parallelize_multimeasure_rests
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests
+        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests
+    \\                                                                         %! _parallelize_multimeasure_rests
+    R1 * 1/4                                                                   %! _make_measure_silences
+    >>                                                                         %! _parallelize_multimeasure_rests
 
 }                                                                              %! extern
 
