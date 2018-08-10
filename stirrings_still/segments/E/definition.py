@@ -122,15 +122,15 @@ maker(
     (['v1', 'v2', 'va'], (4, 5)),
     baca.hairpin('niente o< p', selector=baca.tleaves().rleak()),
     baca.markup('hair: 8” circles'),
-    baca.match(
+    baca.scope(
         0,
         stirrings_still.pickets(4, 2, dmask=rmakers.silence([0])),
         ),
-    baca.match(
+    baca.scope(
         1,
         stirrings_still.pickets(4, 1, dmask=rmakers.silence([0])),
         ),
-    baca.match(
+    baca.scope(
         2,
         stirrings_still.pickets(4, 0, dmask=rmakers.silence([0])),
         ),

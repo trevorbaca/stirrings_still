@@ -50,15 +50,15 @@ maker(
         (4, 7),
         baca.hairpin('mp >o niente', leak=True),
         ),
-    baca.match(
+    baca.scope(
         0,
         stirrings_still.circles((1, 8)),
         ),
-    baca.match(
+    baca.scope(
         1,
         stirrings_still.circles((1, 4)),
         ),
-    baca.match(
+    baca.scope(
         2,
         stirrings_still.circles(
             (1, 2),

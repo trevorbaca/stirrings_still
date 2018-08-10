@@ -43,7 +43,7 @@ stirrings_still.time(maker, time)
 maker(
     (['v1', 'v2', 'vc'], (1, 8)),
     stirrings_still.clouded_pane(),
-    baca.match(
+    baca.scope(
         0,
         baca.hairpin(
             'pp < f > pp < f > pp < f >o niente',
@@ -51,7 +51,7 @@ maker(
             selector=baca.rleaves(),
             ),
         ),
-    baca.match(
+    baca.scope(
         1,
         baca.hairpin(
             'pp < f > pp < f > pp < f >o niente',
@@ -61,11 +61,11 @@ maker(
             selector=baca.rleaves(),
             ),
         ),
-    baca.match(
+    baca.scope(
         (0, 1),
         baca.markup('[clouded pane partials (double-stop)]'),
         ),
-    baca.match(
+    baca.scope(
         2,
         # TODO: allow for variable-length middle part
         baca.hairpin(
@@ -74,7 +74,7 @@ maker(
             selector=baca.rleaves(),
             ),
         ),
-    baca.match(
+    baca.scope(
         2,
         baca.markup('[clouded pane fundamental]'),
         ),
@@ -97,20 +97,20 @@ maker(
     ('tutti', (12, 13)),
     baca.dynamic('mp'),
     baca.markup('maximally tight crunch circles: grind at talon'),
-    baca.match(
+    baca.scope(
         0,
         stirrings_still.desynchronization(4, [1]),
         ),
-    baca.match(
+    baca.scope(
         1,
         stirrings_still.desynchronization(4, [0]),
         stirrings_still.glissando_interpolation('F4', 'Ab4'),
         ),
-    baca.match(
+    baca.scope(
         2,
         stirrings_still.desynchronization(4, [2]),
         ),
-    baca.match(
+    baca.scope(
         3,
         stirrings_still.desynchronization(4, [-1]),
         ),
