@@ -46,9 +46,9 @@ stirrings_still.time(maker, time)
 
 maker(
     ('trio', (1, 7)),
-    baca.measures(
-        (4, 7),
+    baca.new(
         baca.hairpin('mp >o niente', leak=True),
+        measures=(4, 7),
         ),
     baca.scope(
         0,
@@ -82,16 +82,16 @@ maker(
 maker(
     'vc',
     baca.suite(
-        baca.measures(
-            (1, 6),
+        baca.new(
             baca.beam(),
             stirrings_still.eighths(),
             stirrings_still.transition_bcps(final_spanner=True),
+            measures=(1, 6),
             ),
-        baca.measures(
-            (7, -1),
+        baca.new(
             stirrings_still.cello_cell(),
             stirrings_still.cello_cell_bcps(),
+            measures=(7, -1),
             ),
         baca.text_spanner_staff_padding(7),
         )
