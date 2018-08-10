@@ -359,9 +359,9 @@ maker(
 
 maker(
     ('vc', (65, 91)),
-    baca.map(
-        baca.cmgroups()[:3].group(),
+    baca.new(
         baca.hairpin('niente o< p'),
+        map=baca.cmgroups()[:3].group(),
         ),
     baca.markup(
         baca.Markup('clouded pane').with_color('darkgreen'),
@@ -452,10 +452,10 @@ counts_c = [
 maker(
     ('trio', (68, 83)),
     baca.suite(
-        baca.map(
-            baca.plts()[abjad.index([1], 2)],
+        baca.new(
             baca.espressivo(),
             baca.stem_tremolo(selector=baca.pleaves()),
+            map=baca.plts()[abjad.index([1], 2)],
             ),
         baca.untie_to(selector=baca.pleaves()),
         baca.tie(repeat=(1, 4)),
