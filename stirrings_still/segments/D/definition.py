@@ -366,9 +366,9 @@ maker(
     baca.markup(
         baca.Markup('clouded pane').with_color('darkgreen'),
         ),
-    baca.measures(
-        (86, 89),
+    baca.new(
         baca.hairpin('p < fff'),
+        measures=(86, 89),
         ),
     stirrings_still.clouded_pane(),
     )

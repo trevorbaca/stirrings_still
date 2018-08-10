@@ -505,9 +505,9 @@ maker(
         2,
         stirrings_still.pickets(4, 0),
         ),
-    baca.measures(
-        (49, 50),
+    baca.new(
         baca.hairpin('ff > mf'),
+        measures=(49, 50),
         ),
     baca.text_spanner_staff_padding(4),
     baca.text_spanner(

@@ -66,21 +66,21 @@ Sequence([Sequence([1, 0, 0, 1, 0, 1])])
 
 maker(
     ('v1', (5, 10)),
-    baca.measures(
-        (6, 7),
+    baca.new(
         baca.hairpin(
             'ppppp < p > ppp',
             piece_selector=baca.cmgroups(),
             selector=baca.rleaves(),
             ),
+        measures=(6, 7),
         ),
-    baca.measures(
-        10,
+    baca.new(
         baca.hairpin(
             'ppp < p > ppppp',
             piece_selector=baca.leaves().partition_by_counts([2, 4, 1]),
             selector=baca.rleaves(),
             ),
+        measures=10,
         ),
     baca.rhythm(
         [
@@ -92,29 +92,29 @@ maker(
 
 maker(
     ('v2', (5, 10)),
-    baca.measures(
-        5,
+    baca.new(
         baca.hairpin(
             'ppppp < p > ppp',
             piece_selector=baca.leaves().partition_by_counts([1, 3, 1]),
             selector=baca.rleaves(),
             ),
+        measures=5,
         ),
-    baca.measures(
-        7,
+    baca.new(
         baca.hairpin(
             'ppp < p > ppp',
             piece_selector=baca.leaves().partition_by_counts([5, 1, 1]),
             selector=baca.rleaves(),
             ),
+        measures=7,
         ),
-    baca.measures(
-        9,
+    baca.new(
         baca.hairpin(
             'ppp < p > ppppp',
             piece_selector=baca.leaves().partition_by_counts([1, 3, 1]),
             selector=baca.rleaves(),
             ),
+        measures=9,
         ),
     baca.rhythm(
         [
@@ -126,13 +126,13 @@ maker(
 
 maker(
     ('va', (5, 10)),
-    baca.measures(
-        (8, 10),
+    baca.new(
         baca.hairpin(
             'ppppp < p > ppppp',
             piece_selector=baca.cmgroups([1, 2]),
             selector=baca.rleaves(),
             ),
+        measures=(8, 10),
         ),
     baca.rhythm(
         [
@@ -144,13 +144,13 @@ maker(
 
 maker(
     ('vc', (5, 10)),
-    baca.measures(
-        (6, 8),
+    baca.new(
         baca.hairpin(
             'ppppp < p > ppppp',
             piece_selector=baca.cmgroups([1, 2]),
             selector=baca.rleaves(),
             ),
+        measures=(6, 8),
         ),
     baca.rhythm(
         [
@@ -168,21 +168,21 @@ maker(
 
 maker(
     ('v1', (15, 20)),
-    baca.measures(
-        (16, 17),
+    baca.new(
         baca.hairpin(
             'ppppp < p > ppp',
             piece_selector=baca.cmgroups(),
             selector=baca.rleaves(),
             ),
+        measures=(16, 17),
         ),
-    baca.measures(
-        20,
+    baca.new(
         baca.hairpin(
             'ppp < p > pp',
             piece_selector=baca.leaves().partition_by_counts([2, 4, 1]),
             selector=baca.rleaves(),
             ),
+        measures=20,
         ),
     baca.rhythm(
         [
@@ -194,29 +194,29 @@ maker(
 
 maker(
     ('v2', (15, 20)),
-    baca.measures(
-        15,
+    baca.new(
         baca.hairpin(
             'ppppp < p > pp',
             piece_selector=baca.leaves().partition_by_counts([1, 4, 1]),
             selector=baca.rleaves(),
             ),
+        measures=15,
         ),
-    baca.measures(
-        17,
+    baca.new(
         baca.hairpin(
             'ppp < p > pp',
             piece_selector=baca.leaves().partition_by_counts([7, 1, 1]),
             selector=baca.rleaves(),
             ),
+        measures=17,
         ),
-    baca.measures(
-        19,
+    baca.new(
         baca.hairpin(
             'ppp < p > pp',
             piece_selector=baca.leaves().partition_by_counts([1, 2, 1]),
             selector=baca.rleaves(),
             ),
+        measures=19,
         ),
     baca.rhythm(
         [
@@ -229,13 +229,13 @@ maker(
 
 maker(
     ('va', (15, 20)),
-    baca.measures(
-        (18, 20),
+    baca.new(
         baca.hairpin(
             'ppppp < p > pp',
             piece_selector=baca.cmgroups([1, 2]),
             selector=baca.rleaves(),
             ),
+        measures=(18, 20),
         ),
     baca.rhythm(
         [
@@ -247,13 +247,13 @@ maker(
 
 maker(
     ('vc', (15, 20)),
-    baca.measures(
-        (16, 18),
+    baca.new(
         baca.hairpin(
             'ppppp < p > pp',
             piece_selector=baca.cmgroups([1, 2]),
             selector=baca.rleaves(),
             ),
+        measures=(16, 18),
         ),
     baca.rhythm(
         [
