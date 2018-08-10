@@ -396,10 +396,8 @@ SEGMENTS
         damped lh continues;
         1/2 clt begins;
         subito mp;
-        v1:
-            intermittently conflicting rhythm governs stage;
-        v2, va, vc:
-            regular homorhythm begins;
+        v1: intermittently conflicting rhythm governs stage;
+        v2, va, vc: regular homorhythm begins;
     attacca;
 
     [B.2] (5)

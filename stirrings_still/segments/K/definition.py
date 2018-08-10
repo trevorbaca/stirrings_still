@@ -65,22 +65,22 @@ maker(
     ('tutti', (1, 2)),
     baca.dynamic('pp'),
     baca.markup('1/2 clt', boxed=True),
-    baca.match(
+    baca.scope(
         0,
         stirrings_still.bcps(rotation=0),
         stirrings_still.trajectories('B', 0, 0),
         ),
-    baca.match(
+    baca.scope(
         1,
         stirrings_still.bcps(rotation=-1),
         stirrings_still.trajectories('B', -1, -1),
         ),
-    baca.match(
+    baca.scope(
         2,
         stirrings_still.bcps(rotation=-2),
         stirrings_still.trajectories('B', -2, -2),
         ),
-    baca.match(
+    baca.scope(
         3,
         stirrings_still.bcps(rotation=-3),
         stirrings_still.trajectories('B', -3, -3),
@@ -95,19 +95,19 @@ maker(
 maker(
     ('tutti', (3, 4)),
     baca.markup('hair: circles (each as wide as poss.)'),
-    baca.match(
+    baca.scope(
         0,
         stirrings_still.desynchronization(4, [2]),
         ),
-    baca.match(
+    baca.scope(
         1,
         stirrings_still.desynchronization(4, [1]),
         ),
-    baca.match(
+    baca.scope(
         2,
         stirrings_still.desynchronization(4, [0]),
         ),
-    baca.match(
+    baca.scope(
         3,
         stirrings_still.desynchronization(4, [-1]),
         ),
@@ -132,19 +132,19 @@ maker(
 
 maker(
     (['v1', 'v2', 'vc'], 5),
-    baca.match(
+    baca.scope(
         0,
         stirrings_still.trajectories('B', 0, 0),
         ),
-    baca.match(
+    baca.scope(
         1,
         stirrings_still.trajectories('B', -1, -1),
         ),
-    #baca.match(
+    #baca.scope(
     #    2,
     #    stirrings_still.trajectories('B', -2, -2),
     #    ),
-    baca.match(
+    baca.scope(
         -1,
         stirrings_still.trajectories('B', -3, -3),
         ),
@@ -152,15 +152,15 @@ maker(
 
 maker(
     (['v1', 'v2', 'vc'], (6, 8)),
-    baca.match(
+    baca.scope(
         0,
         stirrings_still.accelerando((8, 32), (1, 2)),
         ),
-    baca.match(
+    baca.scope(
         1,
         stirrings_still.accelerando((10, 32), (1, 2)),
         ),
-    baca.match(
+    baca.scope(
         -1,
         stirrings_still.accelerando((11, 32), (1, 2)),
         ),
@@ -171,19 +171,19 @@ maker(
     baca.dynamic('pp'),
     baca.dynamic_text_left(),
     baca.markup('1/2 clt', boxed=True),
-    baca.match(
+    baca.scope(
         0,
         stirrings_still.bcps(rotation=0),
         ),
-    baca.match(
+    baca.scope(
         1,
         stirrings_still.bcps(rotation=-1),
         ),
-    #baca.match(
+    #baca.scope(
     #    2,
     #    stirrings_still.bcps(rotation=-2),
     #    ),
-    baca.match(
+    baca.scope(
         -1,
         stirrings_still.bcps(rotation=-3),
         ),
@@ -212,15 +212,15 @@ maker(
 
 maker(
     (['v1', 'v2', 'vc'], (9, 17)),
-    baca.match(
+    baca.scope(
         0,
         stirrings_still.to_flight([(10, 8), (3, 16)]),
         ),
-    baca.match(
+    baca.scope(
         1,
         stirrings_still.to_flight([(8, 8), (3, 16)]),
         ),
-    baca.match(
+    baca.scope(
         -1,
         stirrings_still.to_flight([(12, 8), (3, 16)]),
         ),
