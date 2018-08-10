@@ -1739,7 +1739,7 @@ I_CelloMusicVoice = {                                                          %
     \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
     - \abjad_solid_line_with_arrow                                             %! BowContactPointCommand
     - \baca_bcp_spanner_left_text #1 #7                                        %! BowContactPointCommand
-    - \tweak bound-details.right.text \markup \baca-bcp-right #5 #7            %! BowContactPointCommand
+    - \baca_bcp_spanner_right_text #5 #7                                       %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     [
 
