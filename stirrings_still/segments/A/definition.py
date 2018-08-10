@@ -128,15 +128,15 @@ maker(
 
 maker(
     ('trio', 1),
-    baca.apply(
-        baca.note(1),
+    baca.new(
         baca.breathe(selector=baca.note(1)),
         baca.tie_to(selector=baca.note(1)),
+        selector=baca.note(1),
         ),
-    baca.apply(
-        baca.note(-1),
+    baca.new(
         baca.repeat_tie_to(),
         baca.stop_on_string(),
+        selector=baca.note(-1),
         ),
     baca.hairpin(
         'p <| mp p < mp',
