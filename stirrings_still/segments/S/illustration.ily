@@ -487,6 +487,7 @@ S_ViolinIMusicVoice = {                                                        %
 
     % [S ViolinIMusicVoice measure 831 / measure 4]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -570,6 +571,7 @@ S_ViolinIMusicVoice = {                                                        %
         c'16 * 23/16                                                           %! stirrings_still_wave
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
 
@@ -584,6 +586,7 @@ S_ViolinIMusicVoice = {                                                        %
 
     % [S ViolinIMusicVoice measure 836 / measure 9]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -655,8 +658,10 @@ S_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 87/64                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -727,6 +732,7 @@ S_ViolinIMusicVoice = {                                                        %
         c'16 * 13/4                                                            %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
 
@@ -741,6 +747,7 @@ S_ViolinIMusicVoice = {                                                        %
 
     % [S ViolinIMusicVoice measure 842 / measure 15]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -817,8 +824,10 @@ S_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 47/32                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -902,8 +911,10 @@ S_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 57/16                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -971,6 +982,7 @@ S_ViolinIMusicVoice = {                                                        %
         c'16 * 45/32                                                           %! stirrings_still_wave
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
 
@@ -985,6 +997,7 @@ S_ViolinIMusicVoice = {                                                        %
 
     % [S ViolinIMusicVoice measure 849 / measure 22]                           %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1050,8 +1063,10 @@ S_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 45/32                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1120,8 +1135,10 @@ S_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 13/4                                                            %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1193,8 +1210,10 @@ S_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 87/64                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1271,6 +1290,7 @@ S_ViolinIMusicVoice = {                                                        %
         c'16 * 205/64                                                          %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
 
@@ -1305,8 +1325,10 @@ S_ViolinIMusicVoice = {                                                        %
 
 
 S_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \S_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -1336,6 +1358,7 @@ S_ViolinIIMusicVoice = {                                                       %
 
     % [S ViolinIIMusicVoice measure 831 / measure 4]                           %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1413,6 +1436,7 @@ S_ViolinIIMusicVoice = {                                                       %
         c'16 * 245/64                                                          %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
 
@@ -1427,6 +1451,7 @@ S_ViolinIIMusicVoice = {                                                       %
 
     % [S ViolinIIMusicVoice measure 836 / measure 9]                           %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1495,8 +1520,10 @@ S_ViolinIIMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 27/8                                                            %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1561,6 +1588,7 @@ S_ViolinIIMusicVoice = {                                                       %
         c'16 * 75/32                                                           %! stirrings_still_wave
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
 
@@ -1575,6 +1603,7 @@ S_ViolinIIMusicVoice = {                                                       %
 
     % [S ViolinIIMusicVoice measure 842 / measure 15]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1648,8 +1677,10 @@ S_ViolinIIMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 233/64                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1724,8 +1755,10 @@ S_ViolinIIMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 149/64                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1793,6 +1826,7 @@ S_ViolinIIMusicVoice = {                                                       %
         c'16 * 193/64                                                          %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
 
@@ -1807,6 +1841,7 @@ S_ViolinIIMusicVoice = {                                                       %
 
     % [S ViolinIIMusicVoice measure 849 / measure 22]                          %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1872,8 +1907,10 @@ S_ViolinIIMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 193/64                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1936,8 +1973,10 @@ S_ViolinIIMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 75/32                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2006,8 +2045,10 @@ S_ViolinIIMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 27/8                                                            %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2075,6 +2116,7 @@ S_ViolinIIMusicVoice = {                                                       %
         c'16 * 5/2                                                             %! stirrings_still_wave
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]                                                                      %! stirrings_still_wave
+
     }                                                                          %! stirrings_still_wave
     \revert TupletNumber.text
 
@@ -2109,8 +2151,10 @@ S_ViolinIIMusicVoice = {                                                       %
 
 
 S_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \S_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -2290,8 +2334,10 @@ S_ViolaMusicVoice = {                                                          %
 
 
 S_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \S_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -2462,6 +2508,8 @@ S_CelloMusicVoice = {                                                          %
 
 
 S_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \S_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

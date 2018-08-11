@@ -1871,6 +1871,7 @@ E_ViolinIMusicVoice = {                                                        %
     r2                                                                         %! stirrings_still_pickets
 
     r8                                                                         %! stirrings_still_pickets
+
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -1896,6 +1897,7 @@ E_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
 
     % [E ViolinIMusicVoice measure 311 / measure 6]                            %! _comment_measure_numbers
@@ -2408,8 +2410,10 @@ E_ViolinIMusicVoice = {                                                        %
 
 
 E_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \E_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -2471,6 +2475,7 @@ E_ViolinIIMusicVoice = {                                                       %
     r2                                                                         %! stirrings_still_pickets
 
     r8                                                                         %! stirrings_still_pickets
+
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -2493,6 +2498,7 @@ E_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
 
     % [E ViolinIIMusicVoice measure 311 / measure 6]                           %! _comment_measure_numbers
@@ -3005,8 +3011,10 @@ E_ViolinIIMusicVoice = {                                                       %
 
 
 E_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \E_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -3602,8 +3610,10 @@ E_ViolaMusicVoice = {                                                          %
 
 
 E_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \E_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -4073,6 +4083,8 @@ E_CelloMusicVoice = {                                                          %
 
 
 E_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \E_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

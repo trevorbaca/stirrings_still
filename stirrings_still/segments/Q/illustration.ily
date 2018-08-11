@@ -1317,6 +1317,7 @@ Q_ViolinIMusicVoice = {                                                        %
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings_still_vn_i                     %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 8/12 {                                                              %! stirrings_still_desynchronization
 
@@ -1343,7 +1344,9 @@ Q_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 8/12 {                                                              %! stirrings_still_desynchronization
 
@@ -1365,7 +1368,9 @@ Q_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/10 {                                                              %! stirrings_still_desynchronization
 
@@ -1384,7 +1389,9 @@ Q_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/10 {                                                              %! stirrings_still_desynchronization
 
@@ -1403,7 +1410,9 @@ Q_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/10 {                                                              %! stirrings_still_desynchronization
 
@@ -1422,7 +1431,9 @@ Q_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/10 {                                                              %! stirrings_still_desynchronization
 
@@ -1441,7 +1452,9 @@ Q_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/8 {                                                               %! stirrings_still_desynchronization
 
@@ -1451,6 +1464,7 @@ Q_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q ViolinIMusicVoice measure 728 / measure 9]                            %! _comment_measure_numbers
@@ -1722,8 +1736,10 @@ Q_ViolinIMusicVoice = {                                                        %
 
 
 Q_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \Q_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -1744,6 +1760,7 @@ Q_ViolinIIMusicVoice = {                                                       %
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings_still_vn_ii                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 8/10 {                                                              %! stirrings_still_desynchronization
 
@@ -1767,7 +1784,9 @@ Q_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 8/10 {                                                              %! stirrings_still_desynchronization
 
@@ -1786,7 +1805,9 @@ Q_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
@@ -1802,7 +1823,9 @@ Q_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/8 {                                                               %! stirrings_still_desynchronization
 
@@ -1818,7 +1841,9 @@ Q_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/8 {                                                               %! stirrings_still_desynchronization
 
@@ -1834,7 +1859,9 @@ Q_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
@@ -1850,7 +1877,9 @@ Q_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
@@ -1863,7 +1892,9 @@ Q_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
@@ -1877,6 +1908,7 @@ Q_ViolinIIMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q ViolinIIMusicVoice measure 729 / measure 10]                          %! _comment_measure_numbers
@@ -2140,8 +2172,10 @@ Q_ViolinIIMusicVoice = {                                                       %
 
 
 Q_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \Q_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -2207,6 +2241,7 @@ Q_ViolaMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/6 {                                                               %! stirrings_still_desynchronization
 
@@ -2219,7 +2254,9 @@ Q_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/6 {                                                               %! stirrings_still_desynchronization
 
@@ -2232,6 +2269,7 @@ Q_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q ViolaMusicVoice measure 726 / measure 7]                              %! _comment_measure_numbers
@@ -2243,6 +2281,7 @@ Q_ViolaMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
@@ -2252,6 +2291,7 @@ Q_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q ViolaMusicVoice measure 728 / measure 9]                              %! _comment_measure_numbers
@@ -2523,8 +2563,10 @@ Q_ViolaMusicVoice = {                                                          %
 
 
 Q_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \Q_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -2545,6 +2587,7 @@ Q_CelloMusicVoice = {                                                          %
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings_still_vc                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 8/6 {                                                               %! stirrings_still_desynchronization
 
@@ -2562,7 +2605,9 @@ Q_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 8/6 {                                                               %! stirrings_still_desynchronization
 
@@ -2575,7 +2620,9 @@ Q_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/4 {                                                               %! stirrings_still_desynchronization
 
@@ -2585,7 +2632,9 @@ Q_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/4 {                                                               %! stirrings_still_desynchronization
 
@@ -2595,7 +2644,9 @@ Q_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/4 {                                                               %! stirrings_still_desynchronization
 
@@ -2605,7 +2656,9 @@ Q_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/4 {                                                               %! stirrings_still_desynchronization
 
@@ -2615,7 +2668,9 @@ Q_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
@@ -2625,6 +2680,7 @@ Q_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [Q CelloMusicVoice measure 728 / measure 9]                              %! _comment_measure_numbers
@@ -2896,6 +2952,8 @@ Q_CelloMusicVoice = {                                                          %
 
 
 Q_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \Q_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

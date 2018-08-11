@@ -782,6 +782,7 @@ K_GlobalSkips = {                                                              %
 
 
 K_ViolinIMusicVoice = {                                                        %! extern
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
@@ -846,7 +847,9 @@ K_ViolinIMusicVoice = {                                                        %
         - \baca-bcp-spanner-left-text #6 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_trajectories
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
@@ -896,7 +899,9 @@ K_ViolinIMusicVoice = {                                                        %
         \revert TextScript.parent-alignment-X                                  %! baca_text_script_parent_center:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_trajectories
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
@@ -956,7 +961,9 @@ K_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
@@ -982,7 +989,9 @@ K_ViolinIMusicVoice = {                                                        %
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
@@ -1036,7 +1045,9 @@ K_ViolinIMusicVoice = {                                                        %
         - \baca-bcp-spanner-left-text #6 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_trajectories
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1136,8 +1147,10 @@ K_ViolinIMusicVoice = {                                                        %
         \revert TextScript.parent-alignment-X                                  %! baca_text_script_parent_center:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1207,6 +1220,7 @@ K_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 63/32                                                           %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -1214,6 +1228,7 @@ K_ViolinIMusicVoice = {                                                        %
     \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1282,6 +1297,7 @@ K_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 63/32                                                           %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -1289,6 +1305,7 @@ K_ViolinIMusicVoice = {                                                        %
     \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1357,6 +1374,7 @@ K_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 63/32                                                           %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -1365,6 +1383,7 @@ K_ViolinIMusicVoice = {                                                        %
     \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1433,6 +1452,7 @@ K_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 63/32                                                           %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -1440,6 +1460,7 @@ K_ViolinIMusicVoice = {                                                        %
     \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1508,6 +1529,7 @@ K_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 63/32                                                           %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -1636,12 +1658,15 @@ K_ViolinIMusicVoice = {                                                        %
 
 
 K_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \K_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
 K_ViolinIIMusicVoice = {                                                       %! extern
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
@@ -1697,6 +1722,7 @@ K_ViolinIIMusicVoice = {                                                       %
         - \baca-bcp-spanner-left-text #6 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_trajectories
 
     % [K ViolinIIMusicVoice measure 547 / measure 2]                           %! _comment_measure_numbers
@@ -1738,6 +1764,7 @@ K_ViolinIIMusicVoice = {                                                       %
     \revert TextScript.parent-alignment-X                                      %! baca_text_script_parent_center:OverrideCommand(2)
     \revert TextScript.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
@@ -1794,7 +1821,9 @@ K_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
@@ -1817,7 +1846,9 @@ K_ViolinIIMusicVoice = {                                                       %
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
@@ -1872,7 +1903,9 @@ K_ViolinIIMusicVoice = {                                                       %
         - \baca-bcp-spanner-left-text #7 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_trajectories
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1963,8 +1996,10 @@ K_ViolinIIMusicVoice = {                                                       %
         \revert TextScript.parent-alignment-X                                  %! baca_text_script_parent_center:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2029,6 +2064,7 @@ K_ViolinIIMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 119/64                                                          %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -2037,6 +2073,7 @@ K_ViolinIIMusicVoice = {                                                       %
     \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2100,6 +2137,7 @@ K_ViolinIIMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 119/64                                                          %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -2107,6 +2145,7 @@ K_ViolinIIMusicVoice = {                                                       %
     \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2170,6 +2209,7 @@ K_ViolinIIMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 119/64                                                          %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -2177,6 +2217,7 @@ K_ViolinIIMusicVoice = {                                                       %
     \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2240,6 +2281,7 @@ K_ViolinIIMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 119/64                                                          %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -2247,6 +2289,7 @@ K_ViolinIIMusicVoice = {                                                       %
     \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2310,6 +2353,7 @@ K_ViolinIIMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 119/64                                                          %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -2317,6 +2361,7 @@ K_ViolinIIMusicVoice = {                                                       %
     \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2380,6 +2425,7 @@ K_ViolinIIMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 119/64                                                          %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -2387,6 +2433,7 @@ K_ViolinIIMusicVoice = {                                                       %
     \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2438,6 +2485,7 @@ K_ViolinIIMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 37/16                                                           %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -2553,8 +2601,10 @@ K_ViolinIIMusicVoice = {                                                       %
 
 
 K_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \K_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -2617,6 +2667,7 @@ K_ViolaMusicVoice = {                                                          %
     - \baca-bcp-spanner-left-text #7 #7                                        %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     \glissando                                                                 %! SpannerCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/6 {                                                               %! stirrings_still_trajectories
 
@@ -2649,6 +2700,7 @@ K_ViolaMusicVoice = {                                                          %
         \revert TextScript.parent-alignment-X                                  %! baca_text_script_parent_center:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_trajectories
 
     % [K ViolaMusicVoice measure 548 / measure 3]                              %! _comment_measure_numbers
@@ -2898,12 +2950,15 @@ K_ViolaMusicVoice = {                                                          %
 
 
 K_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \K_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
 K_CelloMusicVoice = {                                                          %! extern
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/5 {                                                               %! stirrings_still_trajectories
 
@@ -2963,7 +3018,9 @@ K_CelloMusicVoice = {                                                          %
         - \baca-bcp-spanner-left-text #6 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_trajectories
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/8 {                                                               %! stirrings_still_trajectories
 
@@ -3013,7 +3070,9 @@ K_CelloMusicVoice = {                                                          %
         \revert TextScript.parent-alignment-X                                  %! baca_text_script_parent_center:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_trajectories
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
@@ -3064,7 +3123,9 @@ K_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
@@ -3081,7 +3142,9 @@ K_CelloMusicVoice = {                                                          %
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/6 {                                                               %! stirrings_still_trajectories
 
@@ -3128,7 +3191,9 @@ K_CelloMusicVoice = {                                                          %
         - \baca-bcp-spanner-left-text #6 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_trajectories
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3219,8 +3284,10 @@ K_CelloMusicVoice = {                                                          %
         \revert TextScript.parent-alignment-X                                  %! baca_text_script_parent_center:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3295,6 +3362,7 @@ K_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 119/64                                                          %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -3302,6 +3370,7 @@ K_CelloMusicVoice = {                                                          %
     \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3374,6 +3443,7 @@ K_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 119/64                                                          %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -3381,6 +3451,7 @@ K_CelloMusicVoice = {                                                          %
     \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3453,6 +3524,7 @@ K_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 119/64                                                          %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -3461,6 +3533,7 @@ K_CelloMusicVoice = {                                                          %
     \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3533,6 +3606,7 @@ K_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 119/64                                                          %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -3540,6 +3614,7 @@ K_CelloMusicVoice = {                                                          %
     \revert Staff.Stem.stemlet-length                                          %! stirrings_still_to_flight
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! stirrings_still_to_flight
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3598,6 +3673,7 @@ K_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 133/64                                                          %! stirrings_still_to_flight
         ]                                                                      %! stirrings_still_to_flight
+
     }                                                                          %! stirrings_still_to_flight
     \revert TupletNumber.text
 
@@ -3713,6 +3789,8 @@ K_CelloMusicVoice = {                                                          %
 
 
 K_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \K_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

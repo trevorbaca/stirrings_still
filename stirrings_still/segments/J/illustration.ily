@@ -360,8 +360,10 @@ J_ViolinIMusicVoice = {                                                        %
 
 
 J_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \J_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -389,6 +391,7 @@ J_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
     \repeatTie
+
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
         % [J ViolinIIMusicVoice measure 532 / measure 3]                       %! _comment_measure_numbers
@@ -409,14 +412,18 @@ J_ViolinIIMusicVoice = {                                                       %
         \startTextSpanOne                                                      %! PiecewiseIndicatorCommand(1)
 
         r4                                                                     %! stirrings_still_clockticks
+
     }                                                                          %! stirrings_still_clockticks
+
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
 
         r4                                                                     %! stirrings_still_clockticks
+
     }                                                                          %! stirrings_still_clockticks
+
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -426,6 +433,7 @@ J_ViolinIIMusicVoice = {                                                       %
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
         <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
         <> \stopTextSpanOne                                                    %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_clockticks
 
     % [J ViolinIIMusicVoice measure 533 / measure 4]                           %! _comment_measure_numbers
@@ -496,8 +504,10 @@ J_ViolinIIMusicVoice = {                                                       %
 
 
 J_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \J_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -607,8 +617,10 @@ J_ViolaMusicVoice = {                                                          %
 
 
 J_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \J_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -701,6 +713,8 @@ J_CelloMusicVoice = {                                                          %
 
 
 J_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \J_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

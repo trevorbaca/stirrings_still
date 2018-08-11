@@ -898,6 +898,7 @@ H_ViolinIMusicVoice = {                                                        %
     c'8                                                                        %! stirrings_still_circles
     ]                                                                          %! stirrings_still_circles
     \breathe                                                                   %! IndicatorCommand
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -973,8 +974,10 @@ H_ViolinIMusicVoice = {                                                        %
         ]                                                                      %! stirrings_still_accelerando
         \glissando                                                             %! SpannerCommand
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
@@ -988,7 +991,9 @@ H_ViolinIMusicVoice = {                                                        %
 
         g'4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/10 {                                                              %! stirrings_still_desynchronization
 
@@ -1007,7 +1012,9 @@ H_ViolinIMusicVoice = {                                                        %
 
         a'4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/4 {                                                               %! stirrings_still_desynchronization
 
@@ -1029,7 +1036,9 @@ H_ViolinIMusicVoice = {                                                        %
         a'8                                                                    %! stirrings_still_desynchronization
         ]                                                                      %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/6 {                                                               %! stirrings_still_desynchronization
 
@@ -1042,7 +1051,9 @@ H_ViolinIMusicVoice = {                                                        %
 
         a'4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
@@ -1056,7 +1067,9 @@ H_ViolinIMusicVoice = {                                                        %
 
         b'4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
@@ -1072,6 +1085,7 @@ H_ViolinIMusicVoice = {                                                        %
         \glissando                                                             %! SpannerCommand
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [H ViolinIMusicVoice measure 481 / measure 15]                           %! _comment_measure_numbers
@@ -1090,6 +1104,7 @@ H_ViolinIMusicVoice = {                                                        %
     a'4                                                                        %! stirrings_still_desynchronization
 
     a'4                                                                        %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 8/12 {                                                              %! stirrings_still_desynchronization
 
@@ -1106,6 +1121,7 @@ H_ViolinIMusicVoice = {                                                        %
 
         a'4                                                                    %! stirrings_still_desynchronization
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [H ViolinIMusicVoice measure 483 / measure 17]                           %! _comment_measure_numbers
@@ -1130,6 +1146,7 @@ H_ViolinIMusicVoice = {                                                        %
 
     % [H ViolinIMusicVoice measure 489 / measure 23]                           %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_pickets
+
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -1155,7 +1172,9 @@ H_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
+
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1177,7 +1196,9 @@ H_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
+
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1197,7 +1218,9 @@ H_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
+
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1217,7 +1240,9 @@ H_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
+
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1237,10 +1262,12 @@ H_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
 
     % [H ViolinIMusicVoice measure 495 / measure 29]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1322,6 +1349,7 @@ H_ViolinIMusicVoice = {                                                        %
         ]                                                                      %! stirrings_still_accelerando
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
 
@@ -1366,6 +1394,7 @@ H_ViolinIMusicVoice = {                                                        %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1447,11 +1476,13 @@ H_ViolinIMusicVoice = {                                                        %
         ]                                                                      %! stirrings_still_accelerando
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
 
     % [H ViolinIMusicVoice measure 506 / measure 40]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1548,11 +1579,13 @@ H_ViolinIMusicVoice = {                                                        %
         ]                                                                      %! stirrings_still_accelerando
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
 
     % [H ViolinIMusicVoice measure 511 / measure 45]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         % [H ViolinIMusicVoice measure 512 / measure 46]                       %! _comment_measure_numbers
@@ -1576,7 +1609,9 @@ H_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
+
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1596,7 +1631,9 @@ H_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
+
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1626,7 +1663,9 @@ H_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
+
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1650,10 +1689,12 @@ H_ViolinIMusicVoice = {                                                        %
         c'4                                                                    %! stirrings_still_pickets
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_pickets
 
     % [H ViolinIMusicVoice measure 517 / measure 51]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
+
     \times 2/3 {                                                               %! stirrings_still_pickets
 
         % [H ViolinIMusicVoice measure 518 / measure 52]                       %! _comment_measure_numbers
@@ -1670,12 +1711,15 @@ H_ViolinIMusicVoice = {                                                        %
         c'4                                                                    %! stirrings_still_pickets
 
     }                                                                          %! stirrings_still_pickets
+
 }                                                                              %! extern
 
 
 H_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \H_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -1762,6 +1806,7 @@ H_ViolinIIMusicVoice = {                                                       %
     - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
     - \baca-text-spanner-left-text "ord."                                      %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1836,8 +1881,10 @@ H_ViolinIIMusicVoice = {                                                       %
         ]                                                                      %! stirrings_still_accelerando
         \glissando                                                             %! SpannerCommand
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
@@ -1855,6 +1902,7 @@ H_ViolinIIMusicVoice = {                                                       %
 
         g'4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [H ViolinIIMusicVoice measure 480 / measure 14]                          %! _comment_measure_numbers
@@ -1863,6 +1911,7 @@ H_ViolinIIMusicVoice = {                                                       %
 
     a'4                                                                        %! stirrings_still_desynchronization
     \glissando                                                                 %! SpannerCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/10 {                                                              %! stirrings_still_desynchronization
 
@@ -1890,7 +1939,9 @@ H_ViolinIIMusicVoice = {                                                       %
         af'!4                                                                  %! stirrings_still_desynchronization
 
         af'!4                                                                  %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 8/10 {                                                              %! stirrings_still_desynchronization
 
@@ -1907,6 +1958,7 @@ H_ViolinIIMusicVoice = {                                                       %
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [H ViolinIIMusicVoice measure 483 / measure 17]                          %! _comment_measure_numbers
@@ -1931,6 +1983,7 @@ H_ViolinIIMusicVoice = {                                                       %
 
     % [H ViolinIIMusicVoice measure 489 / measure 23]                          %! _comment_measure_numbers
     r4                                                                         %! stirrings_still_pickets
+
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -1953,7 +2006,9 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
+
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1972,7 +2027,9 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
+
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1989,7 +2046,9 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
+
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2006,7 +2065,9 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
+
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2023,10 +2084,12 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
 
     % [H ViolinIIMusicVoice measure 495 / measure 29]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2102,11 +2165,13 @@ H_ViolinIIMusicVoice = {                                                       %
         ]                                                                      %! stirrings_still_accelerando
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
 
     % [H ViolinIIMusicVoice measure 498 / measure 32]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
         % [H ViolinIIMusicVoice measure 499 / measure 33]                      %! _comment_measure_numbers
@@ -2128,7 +2193,9 @@ H_ViolinIIMusicVoice = {                                                       %
         \startTextSpanOne                                                      %! PiecewiseIndicatorCommand(1)
 
         r4                                                                     %! stirrings_still_clockticks
+
     }                                                                          %! stirrings_still_clockticks
+
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2136,7 +2203,9 @@ H_ViolinIIMusicVoice = {                                                       %
         - \upbow                                                               %! IndicatorCommand
 
         r4                                                                     %! stirrings_still_clockticks
+
     }                                                                          %! stirrings_still_clockticks
+
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2149,6 +2218,7 @@ H_ViolinIIMusicVoice = {                                                       %
         \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
         <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
         <> \stopTextSpanOne                                                    %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_clockticks
 
     % [H ViolinIIMusicVoice measure 500 / measure 34]                          %! _comment_measure_numbers
@@ -2185,6 +2255,7 @@ H_ViolinIIMusicVoice = {                                                       %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2260,11 +2331,13 @@ H_ViolinIIMusicVoice = {                                                       %
         ]                                                                      %! stirrings_still_accelerando
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
 
     % [H ViolinIIMusicVoice measure 506 / measure 40]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2352,11 +2425,13 @@ H_ViolinIIMusicVoice = {                                                       %
         ]                                                                      %! stirrings_still_accelerando
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
 
     % [H ViolinIIMusicVoice measure 511 / measure 45]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         % [H ViolinIIMusicVoice measure 512 / measure 46]                      %! _comment_measure_numbers
@@ -2377,7 +2452,9 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
+
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2394,7 +2471,9 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
+
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2421,7 +2500,9 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
+
     }                                                                          %! stirrings_still_pickets
+
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2442,10 +2523,12 @@ H_ViolinIIMusicVoice = {                                                       %
         c'4                                                                    %! stirrings_still_pickets
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_pickets
 
     % [H ViolinIIMusicVoice measure 517 / measure 51]                          %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
+
     \times 4/5 {                                                               %! stirrings_still_pickets
 
         % [H ViolinIIMusicVoice measure 518 / measure 52]                      %! _comment_measure_numbers
@@ -2461,12 +2544,15 @@ H_ViolinIIMusicVoice = {                                                       %
         c'4                                                                    %! stirrings_still_pickets
 
     }                                                                          %! stirrings_still_pickets
+
 }                                                                              %! extern
 
 
 H_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \H_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -2539,6 +2625,7 @@ H_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
     \breathe                                                                   %! IndicatorCommand
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2614,8 +2701,10 @@ H_ViolaMusicVoice = {                                                          %
         ]                                                                      %! stirrings_still_accelerando
         \glissando                                                             %! SpannerCommand
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
@@ -2632,6 +2721,7 @@ H_ViolaMusicVoice = {                                                          %
 
         a4                                                                     %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [H ViolaMusicVoice measure 476 / measure 10]                             %! _comment_measure_numbers
@@ -2643,6 +2733,7 @@ H_ViolaMusicVoice = {                                                          %
 
     a4                                                                         %! stirrings_still_desynchronization
     \glissando                                                                 %! SpannerCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/10 {                                                              %! stirrings_still_desynchronization
 
@@ -2665,7 +2756,9 @@ H_ViolaMusicVoice = {                                                          %
 
         b4                                                                     %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/8 {                                                               %! stirrings_still_desynchronization
 
@@ -2681,7 +2774,9 @@ H_ViolaMusicVoice = {                                                          %
 
         b4                                                                     %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/8 {                                                               %! stirrings_still_desynchronization
 
@@ -2695,6 +2790,7 @@ H_ViolaMusicVoice = {                                                          %
 
         b2                                                                     %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [H ViolaMusicVoice measure 480 / measure 14]                             %! _comment_measure_numbers
@@ -2706,6 +2802,7 @@ H_ViolaMusicVoice = {                                                          %
     \glissando                                                                 %! SpannerCommand
     \revert TextScript.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
@@ -2727,6 +2824,7 @@ H_ViolaMusicVoice = {                                                          %
         b4                                                                     %! stirrings_still_desynchronization
 
         b4                                                                     %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [H ViolaMusicVoice measure 482 / measure 16]                             %! _comment_measure_numbers
@@ -2835,6 +2933,7 @@ H_ViolaMusicVoice = {                                                          %
 
     % [H ViolaMusicVoice measure 495 / measure 29]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2907,6 +3006,7 @@ H_ViolaMusicVoice = {                                                          %
         ]                                                                      %! stirrings_still_accelerando
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
 
@@ -2951,6 +3051,7 @@ H_ViolaMusicVoice = {                                                          %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3026,11 +3127,13 @@ H_ViolaMusicVoice = {                                                          %
         ]                                                                      %! stirrings_still_accelerando
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
 
     % [H ViolaMusicVoice measure 506 / measure 40]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3112,6 +3215,7 @@ H_ViolaMusicVoice = {                                                          %
         ]                                                                      %! stirrings_still_accelerando
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
 
@@ -3201,8 +3305,10 @@ H_ViolaMusicVoice = {                                                          %
 
 
 H_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \H_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -3255,6 +3361,7 @@ H_CelloMusicVoice = {                                                          %
     \repeatTie
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
     \breathe                                                                   %! IndicatorCommand
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3352,6 +3459,7 @@ H_CelloMusicVoice = {                                                          %
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
         \breathe                                                               %! IndicatorCommand
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
 
@@ -3614,6 +3722,7 @@ H_CelloMusicVoice = {                                                          %
 
     e,8                                                                        %! baca_make_repeated_duration_notes
     \glissando                                                                 %! SpannerCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 5/6 {                                                               %! stirrings_still_trajectories
 
@@ -3683,7 +3792,9 @@ H_CelloMusicVoice = {                                                          %
         - \baca-bcp-spanner-left-text #7 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_trajectories
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
@@ -3740,6 +3851,7 @@ H_CelloMusicVoice = {                                                          %
         - \baca-bcp-spanner-left-text #6 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_trajectories
 
     % [H CelloMusicVoice measure 514 / measure 48]                             %! _comment_measure_numbers
@@ -3803,6 +3915,7 @@ H_CelloMusicVoice = {                                                          %
     - \baca-bcp-spanner-left-text #2 #4                                        %! BowContactPointCommand
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     \glissando                                                                 %! SpannerCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/7 {                                                               %! stirrings_still_trajectories
 
@@ -3858,7 +3971,9 @@ H_CelloMusicVoice = {                                                          %
         - \baca-bcp-spanner-left-text #7 #7                                    %! BowContactPointCommand
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_trajectories
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 5/6 {                                                               %! stirrings_still_trajectories
 
@@ -3905,6 +4020,7 @@ H_CelloMusicVoice = {                                                          %
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_trajectories
 
     % [H CelloMusicVoice measure 517 / measure 51]                             %! _comment_measure_numbers
@@ -3928,6 +4044,7 @@ H_CelloMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r8                                                                         %! stirrings_still_taper
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \times 4/5 {                                                               %! stirrings_still_trajectories
 
         % [H CelloMusicVoice measure 518 / measure 52]                         %! _comment_measure_numbers
@@ -3980,10 +4097,13 @@ H_CelloMusicVoice = {                                                          %
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_trajectories
+
 }                                                                              %! extern
 
 
 H_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \H_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

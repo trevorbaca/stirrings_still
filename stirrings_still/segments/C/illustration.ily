@@ -1225,6 +1225,7 @@ C_GlobalSkips = {                                                              %
 
 
 C_ViolinIMusicVoice = {                                                        %! extern
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
@@ -1259,7 +1260,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
@@ -1278,7 +1281,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
@@ -1297,7 +1302,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
@@ -1314,6 +1321,7 @@ C_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [C ViolinIMusicVoice measure 134 / measure 5]                            %! _comment_measure_numbers
@@ -1353,6 +1361,7 @@ C_ViolinIMusicVoice = {                                                        %
 
     % [C ViolinIMusicVoice measure 135 / measure 6]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
@@ -1379,7 +1388,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
@@ -1401,7 +1412,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
@@ -1426,7 +1439,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
@@ -1452,6 +1467,7 @@ C_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [C ViolinIMusicVoice measure 140 / measure 11]                           %! _comment_measure_numbers
@@ -1464,6 +1480,7 @@ C_ViolinIMusicVoice = {                                                        %
     \\                                                                         %! _parallelize_multimeasure_rests
     R1 * 1/4                                                                   %! _make_measure_silences
     >>                                                                         %! _parallelize_multimeasure_rests
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
@@ -1486,7 +1503,9 @@ C_ViolinIMusicVoice = {                                                        %
         c'4                                                                    %! stirrings_still_desynchronization
 
         r4
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
@@ -1503,7 +1522,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
@@ -1527,7 +1548,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
@@ -1545,7 +1568,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         r4
         <> \stopTextSpanOne                                                    %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
@@ -1568,7 +1593,9 @@ C_ViolinIMusicVoice = {                                                        %
         c'4                                                                    %! stirrings_still_desynchronization
 
         r4
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
@@ -1585,7 +1612,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
@@ -1606,7 +1635,9 @@ C_ViolinIMusicVoice = {                                                        %
         c'4                                                                    %! stirrings_still_desynchronization
 
         r4
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
@@ -1625,7 +1656,9 @@ C_ViolinIMusicVoice = {                                                        %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
         <> \stopTextSpanOne                                                    %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
@@ -1649,7 +1682,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
@@ -1669,7 +1704,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
@@ -1697,7 +1734,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
@@ -1713,7 +1752,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         r4
         <> \stopTextSpanOne                                                    %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
@@ -1742,7 +1783,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
@@ -1761,7 +1804,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
@@ -1783,7 +1828,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
@@ -1810,6 +1857,7 @@ C_ViolinIMusicVoice = {                                                        %
         c'4                                                                    %! stirrings_still_desynchronization
         <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
         <> \stopTextSpanOne                                                    %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [C ViolinIMusicVoice measure 157 / measure 28]                           %! _comment_measure_numbers
@@ -1828,6 +1876,7 @@ C_ViolinIMusicVoice = {                                                        %
                         "shin. beacon]"                                        %! baca_markup:IndicatorCommand
                     }                                                          %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
+
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
 
@@ -1840,6 +1889,7 @@ C_ViolinIMusicVoice = {                                                        %
         c'8                                                                    %! stirrings_still_clouded_pane
         \repeatTie
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+
     }
 
     % [C ViolinIMusicVoice measure 159 / measure 30]                           %! _comment_measure_numbers
@@ -2359,6 +2409,7 @@ C_ViolinIMusicVoice = {                                                        %
     \\                                                                         %! _parallelize_multimeasure_rests
     R1 * 1/4                                                                   %! _make_measure_silences
     >>                                                                         %! _parallelize_multimeasure_rests
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
@@ -2394,7 +2445,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         b'4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
@@ -2419,7 +2472,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         a'4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
@@ -2444,7 +2499,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         a'4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/4 {                                                               %! stirrings_still_desynchronization
 
@@ -2465,7 +2522,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         a'4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/5 {                                                               %! stirrings_still_desynchronization
 
@@ -2484,7 +2543,9 @@ C_ViolinIMusicVoice = {                                                        %
 
         g'4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/6 {                                                               %! stirrings_still_desynchronization
 
@@ -2512,6 +2573,7 @@ C_ViolinIMusicVoice = {                                                        %
         g'4                                                                    %! stirrings_still_desynchronization
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [C ViolinIMusicVoice measure 206 / measure 77]                           %! _comment_measure_numbers
@@ -2521,8 +2583,10 @@ C_ViolinIMusicVoice = {                                                        %
 
 
 C_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \C_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -2593,6 +2657,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
     <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 14/16 {                                                             %! stirrings_still_desynchronization
 
@@ -2634,6 +2699,7 @@ C_ViolinIIMusicVoice = {                                                       %
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [C ViolinIIMusicVoice measure 135 / measure 6]                           %! _comment_measure_numbers
@@ -2989,6 +3055,7 @@ C_ViolinIIMusicVoice = {                                                       %
     c'4                                                                        %! stirrings_still_desynchronization
     <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
     <> \stopTextSpanOne                                                        %! PiecewiseIndicatorCommand(3)
+
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
         % [C ViolinIIMusicVoice measure 157 / measure 28]                      %! _comment_measure_numbers
@@ -3009,21 +3076,27 @@ C_ViolinIIMusicVoice = {                                                       %
         \startTextSpanOne                                                      %! PiecewiseIndicatorCommand(1)
 
         r4                                                                     %! stirrings_still_clockticks
+
     }                                                                          %! stirrings_still_clockticks
+
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
 
         r4                                                                     %! stirrings_still_clockticks
+
     }                                                                          %! stirrings_still_clockticks
+
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
 
         r4                                                                     %! stirrings_still_clockticks
+
     }                                                                          %! stirrings_still_clockticks
+
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
         % [C ViolinIIMusicVoice measure 158 / measure 29]                      %! _comment_measure_numbers
@@ -3031,7 +3104,9 @@ C_ViolinIIMusicVoice = {                                                       %
         c'8                                                                    %! stirrings_still_clockticks
 
         r4                                                                     %! stirrings_still_clockticks
+
     }                                                                          %! stirrings_still_clockticks
+
     \tweak edge-height #'(0.7 . 0)                                             %! stirrings_still_clockticks
     \times 8/9 {                                                               %! stirrings_still_clockticks
 
@@ -3041,6 +3116,7 @@ C_ViolinIIMusicVoice = {                                                       %
         r8                                                                     %! stirrings_still_clockticks
         <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
         <> \stopTextSpanOne                                                    %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_clockticks
 
     % [C ViolinIIMusicVoice measure 159 / measure 30]                          %! _comment_measure_numbers
@@ -3696,12 +3772,15 @@ C_ViolinIIMusicVoice = {                                                       %
 
 
 C_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \C_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
 C_ViolaMusicVoice = {                                                          %! extern
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
@@ -3739,7 +3818,9 @@ C_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
@@ -3761,7 +3842,9 @@ C_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
@@ -3783,7 +3866,9 @@ C_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
@@ -3803,7 +3888,9 @@ C_ViolaMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 14/12 {                                                             %! stirrings_still_desynchronization
 
@@ -3837,10 +3924,12 @@ C_ViolaMusicVoice = {                                                          %
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [C ViolaMusicVoice measure 135 / measure 6]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
@@ -3870,7 +3959,9 @@ C_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/7 {                                                               %! stirrings_still_desynchronization
 
@@ -3895,7 +3986,9 @@ C_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
@@ -3923,7 +4016,9 @@ C_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
@@ -3952,6 +4047,7 @@ C_ViolaMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [C ViolaMusicVoice measure 140 / measure 11]                             %! _comment_measure_numbers
@@ -3964,6 +4060,7 @@ C_ViolaMusicVoice = {                                                          %
     \\                                                                         %! _parallelize_multimeasure_rests
     R1 * 1/4                                                                   %! _make_measure_silences
     >>                                                                         %! _parallelize_multimeasure_rests
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
@@ -3989,7 +4086,9 @@ C_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
@@ -4008,7 +4107,9 @@ C_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/7 {                                                               %! stirrings_still_desynchronization
 
@@ -4034,7 +4135,9 @@ C_ViolaMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_desynchronization
 
         r4
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
@@ -4055,7 +4158,9 @@ C_ViolaMusicVoice = {                                                          %
 
         r4
         <> \stopTextSpanOne                                                    %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
@@ -4081,7 +4186,9 @@ C_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
@@ -4100,7 +4207,9 @@ C_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
@@ -4124,7 +4233,9 @@ C_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
@@ -4145,7 +4256,9 @@ C_ViolaMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
         <> \stopTextSpanOne                                                    %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
@@ -4172,7 +4285,9 @@ C_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/7 {                                                               %! stirrings_still_desynchronization
 
@@ -4194,7 +4309,9 @@ C_ViolaMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_desynchronization
 
         r4
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
@@ -4225,7 +4342,9 @@ C_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
@@ -4244,7 +4363,9 @@ C_ViolaMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
         <> \stopTextSpanOne                                                    %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
@@ -4276,7 +4397,9 @@ C_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
@@ -4298,7 +4421,9 @@ C_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/7 {                                                               %! stirrings_still_desynchronization
 
@@ -4323,7 +4448,9 @@ C_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
@@ -4353,6 +4480,7 @@ C_ViolaMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_desynchronization
         <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
         <> \stopTextSpanOne                                                    %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [C ViolaMusicVoice measure 157 / measure 28]                             %! _comment_measure_numbers
@@ -4371,6 +4499,7 @@ C_ViolaMusicVoice = {                                                          %
                         "shin. beacon]"                                        %! baca_markup:IndicatorCommand
                     }                                                          %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
+
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
 
@@ -4383,6 +4512,7 @@ C_ViolaMusicVoice = {                                                          %
         c'8                                                                    %! stirrings_still_clouded_pane
         \repeatTie
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+
     }
 
     % [C ViolaMusicVoice measure 159 / measure 30]                             %! _comment_measure_numbers
@@ -4912,6 +5042,7 @@ C_ViolaMusicVoice = {                                                          %
     \\                                                                         %! _parallelize_multimeasure_rests
     R1 * 1/4                                                                   %! _make_measure_silences
     >>                                                                         %! _parallelize_multimeasure_rests
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/7 {                                                               %! stirrings_still_desynchronization
 
@@ -4950,7 +5081,9 @@ C_ViolaMusicVoice = {                                                          %
 
         g4                                                                     %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
@@ -4978,7 +5111,9 @@ C_ViolaMusicVoice = {                                                          %
 
         f4                                                                     %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
@@ -5006,7 +5141,9 @@ C_ViolaMusicVoice = {                                                          %
 
         e4                                                                     %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/5 {                                                               %! stirrings_still_desynchronization
 
@@ -5030,7 +5167,9 @@ C_ViolaMusicVoice = {                                                          %
 
         d4                                                                     %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/6 {                                                               %! stirrings_still_desynchronization
 
@@ -5052,7 +5191,9 @@ C_ViolaMusicVoice = {                                                          %
 
         c4                                                                     %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/7 {                                                               %! stirrings_still_desynchronization
 
@@ -5083,6 +5224,7 @@ C_ViolaMusicVoice = {                                                          %
         b,4                                                                    %! stirrings_still_desynchronization
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [C ViolaMusicVoice measure 206 / measure 77]                             %! _comment_measure_numbers
@@ -5092,12 +5234,15 @@ C_ViolaMusicVoice = {                                                          %
 
 
 C_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \C_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
 C_CelloMusicVoice = {                                                          %! extern
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
@@ -5126,7 +5271,9 @@ C_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
@@ -5139,7 +5286,9 @@ C_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
@@ -5152,7 +5301,9 @@ C_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
@@ -5163,6 +5314,7 @@ C_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [C CelloMusicVoice measure 134 / measure 5]                              %! _comment_measure_numbers
@@ -5188,6 +5340,7 @@ C_CelloMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     R1 * 1/4                                                                   %! _make_measure_silences
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
@@ -5208,7 +5361,9 @@ C_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
@@ -5224,7 +5379,9 @@ C_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
@@ -5243,7 +5400,9 @@ C_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
@@ -5263,6 +5422,7 @@ C_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
         <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [C CelloMusicVoice measure 140 / measure 11]                             %! _comment_measure_numbers
@@ -5275,6 +5435,7 @@ C_CelloMusicVoice = {                                                          %
     \\                                                                         %! _parallelize_multimeasure_rests
     R1 * 1/4                                                                   %! _make_measure_silences
     >>                                                                         %! _parallelize_multimeasure_rests
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
@@ -5292,7 +5453,9 @@ C_CelloMusicVoice = {                                                          %
         \startTextSpanOne                                                      %! PiecewiseIndicatorCommand(1)
 
         r4
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
@@ -5304,7 +5467,9 @@ C_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
@@ -5323,7 +5488,9 @@ C_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
@@ -5336,7 +5503,9 @@ C_CelloMusicVoice = {                                                          %
 
         r4
         <> \stopTextSpanOne                                                    %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
@@ -5354,7 +5523,9 @@ C_CelloMusicVoice = {                                                          %
         \startTextSpanOne                                                      %! PiecewiseIndicatorCommand(1)
 
         r4
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
@@ -5366,7 +5537,9 @@ C_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
@@ -5382,7 +5555,9 @@ C_CelloMusicVoice = {                                                          %
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
 
         r4
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
@@ -5396,7 +5571,9 @@ C_CelloMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
         <> \stopTextSpanOne                                                    %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
@@ -5415,7 +5592,9 @@ C_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
@@ -5429,7 +5608,9 @@ C_CelloMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_desynchronization
 
         r4
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
@@ -5452,7 +5633,9 @@ C_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
@@ -5463,7 +5646,9 @@ C_CelloMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_desynchronization
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
         <> \stopTextSpanOne                                                    %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
@@ -5486,7 +5671,9 @@ C_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
@@ -5499,7 +5686,9 @@ C_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
@@ -5515,7 +5704,9 @@ C_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
@@ -5536,6 +5727,7 @@ C_CelloMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_desynchronization
         <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
         <> \stopTextSpanOne                                                    %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [C CelloMusicVoice measure 157 / measure 28]                             %! _comment_measure_numbers
@@ -5554,6 +5746,7 @@ C_CelloMusicVoice = {                                                          %
                         "shin. beacon]"                                        %! baca_markup:IndicatorCommand
                     }                                                          %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
+
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
 
@@ -5566,6 +5759,7 @@ C_CelloMusicVoice = {                                                          %
         c'8                                                                    %! stirrings_still_clouded_pane
         \repeatTie
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+
     }
 
     % [C CelloMusicVoice measure 159 / measure 30]                             %! _comment_measure_numbers
@@ -6106,6 +6300,7 @@ C_CelloMusicVoice = {                                                          %
     \\                                                                         %! _parallelize_multimeasure_rests
     R1 * 1/4                                                                   %! _make_measure_silences
     >>                                                                         %! _parallelize_multimeasure_rests
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
@@ -6135,7 +6330,9 @@ C_CelloMusicVoice = {                                                          %
 
         f,4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
@@ -6154,7 +6351,9 @@ C_CelloMusicVoice = {                                                          %
 
         e,4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
@@ -6173,7 +6372,9 @@ C_CelloMusicVoice = {                                                          %
 
         d,4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 3/2 {                                                               %! stirrings_still_desynchronization
 
@@ -6188,7 +6389,9 @@ C_CelloMusicVoice = {                                                          %
 
         d,4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 4/3 {                                                               %! stirrings_still_desynchronization
 
@@ -6201,7 +6404,9 @@ C_CelloMusicVoice = {                                                          %
 
         c,4                                                                    %! stirrings_still_desynchronization
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 5/4 {                                                               %! stirrings_still_desynchronization
 
@@ -6223,6 +6428,7 @@ C_CelloMusicVoice = {                                                          %
         bf,,!4                                                                 %! stirrings_still_desynchronization
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [C CelloMusicVoice measure 206 / measure 77]                             %! _comment_measure_numbers
@@ -6232,6 +6438,8 @@ C_CelloMusicVoice = {                                                          %
 
 
 C_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \C_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern
