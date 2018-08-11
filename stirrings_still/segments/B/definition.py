@@ -137,6 +137,7 @@ maker(
     baca.new(
         stirrings_still.clockticks(),
         match=[2, 3],
+        measures=(1, 5),
         ),
     )
 
@@ -174,11 +175,6 @@ maker(
     )
 
 maker(
-    (['va', 'vc'], 5),
-    stirrings_still.clockticks(),
-    )
-
-maker(
     ('tutti', 5),
     baca.dynamic('mf_sub'),
     )
@@ -186,11 +182,10 @@ maker(
 maker(
     ('va', (6, 7)),
     stirrings_still.circles((1, 4)),
-    )
-
-maker(
-    ('va', 6),
-    baca.hairpin('niente o< p', selector=baca.rleaves()),
+    baca.new(
+        baca.hairpin('niente o< p', selector=baca.rleaves()),
+        measures=6,
+        ),
     )
 
 maker(
