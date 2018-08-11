@@ -153,7 +153,7 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
-        r'\baca_damp_markup =|',
+        r'\baca-damp-markup =|',
         abjad.tweak(1.75).bound_details__right__padding,
         abjad.tweak(10).staff_padding,
         bookend=False,

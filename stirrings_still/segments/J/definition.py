@@ -72,7 +72,7 @@ maker(
         selector=baca.leaves(),
         ),
     baca.text_spanner(
-        r'\baca_damp_markup =|',
+        r'\baca-damp-markup =|',
         abjad.tweak(2.5).bound_details__right__padding,
         abjad.tweak(10).staff_padding,
         bookend=False,
