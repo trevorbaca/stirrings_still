@@ -79,20 +79,20 @@ maker(
         bookend=False,
         leak=True,
         ),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.desynchronization(4, [2]),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.desynchronization(4, [1]),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.desynchronization(4, [0]),
+        match=2,
         ),
-    baca.scope(
-        3,
+    baca.new(
         stirrings_still.desynchronization(4, [-1]),
+        match=3,
         ),
     )

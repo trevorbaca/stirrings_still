@@ -91,9 +91,9 @@ maker(
         'III',
         direction=abjad.Down,
         ),
-    baca.scope(
-        [0, 2, 3],
+    baca.new(
         baca.breathe(),
+        match=[0, 2, 3],
         ),
     baca.text_spanner(
         'rasp (2°) => flaut. (2°)',
@@ -229,25 +229,37 @@ maker(
 
 maker(
     ('tutti', (1, 5)),
-    baca.scope(0, baca.pitch('Gb4')),
-    baca.scope(1, baca.pitch('F4')),
-    baca.scope(2, baca.pitch('Ab3')),
-    baca.scope(3, baca.pitch('Ab2')),
+    baca.new(
+        baca.pitch('Gb4'),
+        match=0,
+        ),
+    baca.new(
+        baca.pitch('F4'),
+        match=1,
+        ),
+    baca.new(
+        baca.pitch('Ab3'),
+        match=2,
+        ),
+    baca.new(
+        baca.pitch('Ab2'),
+        match=3,
+        ),
     )
 
 maker(
     (['v1', 'va'], (7, 14)),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.glissando_interpolation(
             'Gb4', 'Bb4', selector=baca.rleaves(),
             ),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.glissando_interpolation(
             'Ab3', 'B3', selector=baca.rleaves(),
             ),
+        match=1,
         ),
     )
 
@@ -274,8 +286,14 @@ maker(
 maker(
     ('vc', [(7, 28), (30, 31)]),
     baca.make_notes(repeat_ties=True),
-    baca.scope(0, baca.repeat_tie(selector=baca.notes()[1:])),
-    baca.scope(1, baca.repeat_tie()),
+    baca.new(
+        baca.repeat_tie(selector=baca.notes()[1:]),
+        match=0,
+        ),
+    baca.new(
+        baca.repeat_tie(),
+        match=1,
+        ),
     )
 
 maker(
@@ -332,17 +350,17 @@ maker(
 maker(
     (['v1', 'v2', 'va'], (23, 28)),
     baca.markup('8” circles continue'),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.pickets(4, 2, dmask=rmakers.silence([0])),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.pickets(4, 1, dmask=rmakers.silence([0])),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.pickets(4, 0, dmask=rmakers.silence([0])),
+        match=2,
         ),
     )
 
@@ -354,17 +372,17 @@ maker(
 maker(
     (['v1', 'v2', 'va'], (30, 31)),
     baca.dynamic('mp'),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.accelerando((1, 2), (4, 32)),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.accelerando((1, 2), (8, 32)),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.accelerando((1, 2), (12, 32)),
+        match=2,
         ),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
@@ -416,21 +434,21 @@ maker(
         'III',
         direction=abjad.Down,
         ),
-    baca.scope(
-        0,
+    baca.new(
         baca.pitch('Gb4'),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         baca.pitch('F4'),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         baca.pitch('Ab3'),
+        match=2,
         ),
-    baca.scope(
-        3,
+    baca.new(
         baca.pitch('Ab2'),
+        match=3,
         ),
     baca.text_spanner('rasp (2°) => poco rasp (2°)'),
     )
@@ -438,17 +456,17 @@ maker(
 maker(
     (['v1', 'v2', 'va'], (37, 39)),
     baca.dynamic('mf'),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.accelerando((1, 2), (4, 32)),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.accelerando((1, 2), (8, 32)),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.accelerando((1, 2), (12, 32)),
+        match=2,
         ),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
@@ -462,17 +480,17 @@ maker(
 maker(
     (['v1', 'v2', 'va'], (41, 44)),
     baca.dynamic('f'),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.accelerando((1, 2), (4, 32)),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.accelerando((1, 2), (8, 32)),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.accelerando((1, 2), (12, 32)),
+        match=2,
         ),
     baca.text_script_staff_padding(5),
     baca.text_spanner_staff_padding(3),
@@ -493,17 +511,17 @@ maker(
 maker(
     (['v1', 'v2', 'va'], (46, 50)),
     baca.dynamic('ff'),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.pickets(4, 2),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.pickets(4, 1),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.pickets(4, 0),
+        match=2,
         ),
     baca.new(
         baca.hairpin('ff > mf'),
@@ -520,13 +538,13 @@ maker(
     ('vc', [(46, 50), 52]),
     baca.dls_staff_padding(5),
     baca.markup('1/2 clt', boxed=True),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.bcps(rotation=-4),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.bcps(rotation=-8),
+        match=1,
         ),
     baca.pitch('E2'),
     baca.text_script_staff_padding(11),
@@ -559,16 +577,16 @@ maker(
     (['v1', 'v2', 'va'], 52),
     baca.dynamic('mp'),
     baca.markup('pochiss. scratch'),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.pickets(4, [1, 1, 1]),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.pickets(4, [-1, 2, 2]),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.pickets(4, [1, 1]),
+        match=2,
         ),
     )

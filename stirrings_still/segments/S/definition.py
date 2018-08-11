@@ -37,62 +37,62 @@ maker(
 
 maker(
     (['v1', 'v2', 'vc'], [5, (10, 11), (16, 18), (23, 26)]),
-    baca.scope(
-        [0, 4],
+    baca.new(
         baca.markup('extremely wide, fast circles'),
+        match=[0, 4],
         ),
-    baca.scope(
-        (0, 4),
+    baca.new(
         baca.hairpin(
             'p > ppp <',
             piece_selector=baca.cmgroups(),
             ),
         stirrings_still.wave((1, 4), (3, 32)),
+        match=(0, 4),
         ),
-    baca.scope(
-        (4, 8),
+    baca.new(
         baca.hairpin(
             'ppp < p >',
             piece_selector=baca.cmgroups(),
             ),
         stirrings_still.wave((5, 32), (1, 4)),
+        match=(4, 8),
         ),
-    baca.scope(
-        8,
+    baca.new(
         baca.hairpin('o< mf'),
         baca.make_rhythm(
             'c1 ~ c4 ~ c4',
             repeat_tie_threshold=(1, 4),
             ),
+        match=8,
         ),
-    baca.scope(
-        (9, 12),
+    baca.new(
         baca.make_repeat_tied_notes(),
+        match=(9, 12),
         ),
-    baca.scope(
-        (8, 12),
+    baca.new(
         baca.ottava_bassa(),
         baca.pitch('B0', allow_out_of_range=True),
+        match=(8, 12),
         ),
-    baca.scope(
-        9,
+    baca.new(
         baca.hairpin(
             'o< f',
             selector=baca.rmleaves(1),
             ),
+        match=9,
         ),
-    baca.scope(
-        10,
+    baca.new(
         baca.hairpin(
             'o< ff',
             selector=baca.rmleaves(1),
             ),
+        match=10,
         ),
-    baca.scope(
-        11,
+    baca.new(
         baca.hairpin(
             'o< fff',
             selector=baca.rmleaves(1),
             ),
+        match=11,
         ),
     )
