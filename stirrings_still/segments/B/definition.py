@@ -192,13 +192,12 @@ maker(
     ('vc', (6, 11)),
     baca.breathe(),
     baca.markup('[overpressure]'),
+    baca.new(
+        baca.hairpin('niente o< f', selector=baca.rleaves()),
+        measures=(6, 9),
+        ),
     baca.note_head_style_harmonic(),
     stirrings_still.clouded_pane(),
-    )
-
-maker(
-    ('vc', (6, 9)),
-    baca.hairpin('niente o< f', selector=baca.rleaves()),
     )
 
 maker(
@@ -212,18 +211,19 @@ maker(
     )
 
 maker(
-    ('v2', (12, 15)),
-    stirrings_still.clockticks(),
-    )
-
-maker(
-    ('v2', (16, 17)),
-    stirrings_still.clockticks(encroach=True),
-    )
-
-maker(
-    ('v2', (18, 25)),
-    stirrings_still.trajectories('C', 0),
+    ('v2', (12, 25)),
+    baca.new(
+        stirrings_still.clockticks(),
+        measures=(12, 15),
+        ),
+    baca.new(
+        stirrings_still.clockticks(encroach=True),
+        measures=(16, 17),
+        ),
+    baca.new(
+        stirrings_still.trajectories('C', 0),
+        measures=(18, 25),
+        ),
     )
 
 maker(
