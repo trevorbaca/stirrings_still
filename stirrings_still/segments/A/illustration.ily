@@ -1044,7 +1044,7 @@ A_ViolinIMusicVoice = {                                                        %
         c'16                                                                   %! stirrings_still_declamation
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \repeatTie                                                             %! TieCorrectionCommand
-        \baca_stop_on_string                                                   %! IndicatorCommand
+        \baca-stop-on-string                                                   %! IndicatorCommand
     }                                                                          %! stirrings_still_declamation
 
     % [A ViolinIMusicVoice measure 2]                                          %! _comment_measure_numbers
@@ -1318,7 +1318,7 @@ A_ViolinIIMusicVoice = {                                                       %
         c'16                                                                   %! stirrings_still_declamation
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \repeatTie                                                             %! TieCorrectionCommand
-        \baca_stop_on_string                                                   %! IndicatorCommand
+        \baca-stop-on-string                                                   %! IndicatorCommand
     }                                                                          %! stirrings_still_declamation
 
     % [A ViolinIIMusicVoice measure 2]                                         %! _comment_measure_numbers
@@ -1592,7 +1592,7 @@ A_ViolaMusicVoice = {                                                          %
         c'16                                                                   %! stirrings_still_declamation
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \repeatTie                                                             %! TieCorrectionCommand
-        \baca_stop_on_string                                                   %! IndicatorCommand
+        \baca-stop-on-string                                                   %! IndicatorCommand
     }                                                                          %! stirrings_still_declamation
 
     % [A ViolaMusicVoice measure 2]                                            %! _comment_measure_numbers
