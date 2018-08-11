@@ -237,33 +237,31 @@ maker(
     )
 
 maker(
-    ('tutti', (29, 30)),
-    stirrings_still.trajectories('C', -2),
-    )
-
-maker(
-    ('tutti', (32, 33)),
-    stirrings_still.rasp(),
-    )
-
-maker(
-    ('tutti', (34, 35)),
-    stirrings_still.trajectories('C', -3),
-    )
-
-maker(
-    ('tutti', (37, 38)),
-    stirrings_still.trajectories('C', -4),
-    )
-
-maker(
-    ('tutti', (40, 41)),
-    stirrings_still.trajectories('C', -5),
-    )
-
-maker(
-    ('tutti', 42),
-    stirrings_still.circles((1, 4)),
+    ('tutti', (29, 46)),
+    baca.new(
+        stirrings_still.trajectories('C', -2),
+        measures=(29, 30),
+        ),
+    baca.new(
+        stirrings_still.rasp(),
+        measures=(32, 33),
+        ),
+    baca.new(
+        stirrings_still.trajectories('C', -3),
+        measures=(34, 35),
+        ),
+    baca.new(
+        stirrings_still.trajectories('C', -4),
+        measures=(37, 38),
+        ),
+    baca.new(
+        stirrings_still.trajectories('C', -5),
+        measures=(40, 41),
+        ),
+    baca.new(
+        stirrings_still.circles((1, 4)),
+        measures=42,
+        ),
     )
 
 maker(
