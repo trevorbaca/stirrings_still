@@ -103,21 +103,21 @@ stirrings_still.time(maker, time)
 
 maker(
     ('tutti', (1, 4)),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.desynchronization(4, [1]),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.desynchronization(4, [0]),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.desynchronization(4, [2]),
+        match=2,
         ),
-    baca.scope(
-        3,
+    baca.new(
         stirrings_still.desynchronization(4, [-1]),
+        match=3,
         ),
     baca.dynamic('"ff"'),
     baca.markup('maximally tight crunch circles: grind at talon'),
@@ -135,13 +135,13 @@ maker(
     baca.dynamic('mp'),
     baca.markup('[urtext double stop]'),
     baca.markup('louré'),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.loure_tuplets(0),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.loure_tuplets(1),
+        match=1,
         ),
     )
 
@@ -168,22 +168,22 @@ maker(
     ('tutti', (7, 10)),
     baca.dynamic('p'),
     baca.markup('maximally tight crunch circles: grind at talon'),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.desynchronization(4, [1]),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.desynchronization(4, [0]),
         stirrings_still.glissando_interpolation('F4', 'Ab4'),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.desynchronization(4, [2]),
+        match=2,
         ),
-    baca.scope(
-        3,
+    baca.new(
         stirrings_still.desynchronization(4, [-1]),
+        match=3,
         ),
     baca.text_spanner(
         r'\baca_damp_markup =|',
@@ -197,21 +197,21 @@ maker(
 maker(
     ('tutti', (12, 15)),
     baca.dynamic('p', redundant=True),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.desynchronization(4, [1], rests=True),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.desynchronization(4, [0], rests=True),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.desynchronization(4, [2], rests=True),
+        match=2,
         ),
-    baca.scope(
-        3,
+    baca.new(
         stirrings_still.desynchronization(4, [-1], rests=True),
+        match=3,
         ),
     baca.text_spanner(
         'max. tight cir. => 1-2˝ circles',
@@ -233,21 +233,21 @@ maker(
 maker(
     ('tutti', (16, 19)),
     baca.dynamic('p', redundant=True),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.desynchronization(4, [1], rests=True),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.desynchronization(4, [0], rests=True),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.desynchronization(4, [2], rests=True),
+        match=2,
         ),
-    baca.scope(
-        3,
+    baca.new(
         stirrings_still.desynchronization(4, [-1], rests=True),
+        match=3,
         ),
     baca.text_spanner(
         '1-2˝ circles => 2-4˝ circles',
@@ -268,21 +268,21 @@ maker(
 maker(
     ('tutti', (20, 23)),
     baca.dynamic('p', redundant=True),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.desynchronization(4, [1], rests=([2], 3)),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.desynchronization(4, [0], rests=([2], 3)),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.desynchronization(4, [2], rests=([2], 3)),
+        match=2,
         ),
-    baca.scope(
-        3,
+    baca.new(
         stirrings_still.desynchronization(4, [-1], rests=([2], 3)),
+        match=3,
         ),
     baca.text_spanner(
         '2-4˝ circles => 4-8˝ circles',
@@ -304,21 +304,21 @@ maker(
 maker(
     ('tutti', (24, 27)),
     baca.dynamic('p', redundant=True),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.desynchronization(4, [1]),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.desynchronization(4, [0]),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.desynchronization(4, [2]),
+        match=2,
         ),
-    baca.scope(
-        3,
+    baca.new(
         stirrings_still.desynchronization(4, [-1]),
+        match=3,
         ),
     baca.text_spanner(
         '8˝ circles =|',
@@ -343,17 +343,17 @@ maker(
     baca.markup(
         baca.markups.lines(['[clouded pane:', 'shin. beacon]'], boxed=True),
         ),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.clouded_pane(),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.clouded_pane(),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.clouded_pane(),
+        match=2,
         ),
     baca.note_head_style_harmonic(),
     )
@@ -419,21 +419,21 @@ maker(
 # TODO: intermittent triple -> double -> single harmonic
 maker(
     ('tutti', (36, 55)),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.synchronized_circles(rotation=0),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.synchronized_circles(rotation=-1),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.synchronized_circles(rotation=-2),
+        match=2,
         ),
-    baca.scope(
-        3,
+    baca.new(
         stirrings_still.synchronized_circles(rotation=-3),
+        match=3,
         ),
     baca.text_spanner(
         '8˝ circles =|',
@@ -499,21 +499,21 @@ maker(
     ('tutti', (56, 59)),
     baca.breathe(),
     baca.dynamic('ff', redundant=True),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.synchronized_circles(gaps=False, rotation=0),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.synchronized_circles(gaps=False, rotation=-1),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.synchronized_circles(gaps=False, rotation=-2),
+        match=2,
         ),
-    baca.scope(
-        3,
+    baca.new(
         stirrings_still.synchronized_circles(gaps=False, rotation=-3),
+        match=3,
         ),
     baca.text_spanner(
         '8˝ circles =|',
@@ -571,25 +571,25 @@ maker(
     ('tutti', (71, 76)),
     baca.hairpin('f >o niente'),
     # TODO: revoice
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.desynchronization(4, [1]),
         stirrings_still.glissando_interpolation('Bb4', 'G4'),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.desynchronization(4, [0]),
         stirrings_still.glissando_interpolation('Ab4', 'F4'),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.desynchronization(4, [2]),
         stirrings_still.glissando_interpolation('A3', 'B2'),
+        match=2,
         ),
-    baca.scope(
-        3,
+    baca.new(
         stirrings_still.desynchronization(4, [-1]),
         stirrings_still.glissando_interpolation('G2', 'Bb1'),
+        match=3,
         ),
     baca.text_spanner(
         '8˝ circles => 2˝ circles',

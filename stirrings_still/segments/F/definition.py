@@ -43,16 +43,15 @@ stirrings_still.time(maker, time)
 maker(
     (['v1', 'v2', 'vc'], (1, 8)),
     stirrings_still.clouded_pane(),
-    baca.scope(
-        0,
+    baca.new(
         baca.hairpin(
             'pp < f > pp < f > pp < f >o niente',
             piece_selector=baca.cmgroups([1, 2, 1, 2, 1, 1]),
             selector=baca.rleaves(),
             ),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         baca.hairpin(
             'pp < f > pp < f > pp < f >o niente',
             piece_selector=baca.cmgroups([1, 2, 1, 2, 1, 1]),
@@ -60,23 +59,24 @@ maker(
             #piece_selector=baca.cmgroups([2, 1, 2, 1, 1, 1]),
             selector=baca.rleaves(),
             ),
+        match=1,
         ),
-    baca.scope(
-        (0, 1),
+    baca.new(
         baca.markup('[clouded pane partials (double-stop)]'),
+        match=(0, 1),
         ),
-    baca.scope(
-        2,
+    baca.new(
         # TODO: allow for variable-length middle part
         baca.hairpin(
             'pp < ff ff >o niente',
             piece_selector=baca.cmgroups([1, 6, 1, 1]),
             selector=baca.rleaves(),
             ),
+        match=2,
         ),
-    baca.scope(
-        2,
+    baca.new(
         baca.markup('[clouded pane fundamental]'),
+        match=2,
         ),
     )
 
@@ -97,21 +97,21 @@ maker(
     ('tutti', (12, 13)),
     baca.dynamic('mp'),
     baca.markup('maximally tight crunch circles: grind at talon'),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.desynchronization(4, [1]),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.desynchronization(4, [0]),
         stirrings_still.glissando_interpolation('F4', 'Ab4'),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.desynchronization(4, [2]),
+        match=2,
         ),
-    baca.scope(
-        3,
+    baca.new(
         stirrings_still.desynchronization(4, [-1]),
+        match=3,
         ),
     )

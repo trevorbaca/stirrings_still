@@ -50,21 +50,21 @@ maker(
         baca.hairpin('mp >o niente', leak=True),
         measures=(4, 7),
         ),
-    baca.scope(
-        0,
+    baca.new(
         stirrings_still.circles((1, 8)),
+        match=0,
         ),
-    baca.scope(
-        1,
+    baca.new(
         stirrings_still.circles((1, 4)),
+        match=1,
         ),
-    baca.scope(
-        2,
+    baca.new(
         stirrings_still.circles(
             (1, 2),
             dmask=rmakers.silence([0]),
             remainder=abjad.Left,
             ),
+        match=2,
         ),
     baca.text_spanner(
         '8˝ =|',
