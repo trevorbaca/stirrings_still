@@ -6,7 +6,7 @@ G_GlobalRests = {                                                              %
     % [G GlobalRests measure 448 / measure 2]                                  %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca_fermata_markup                                                     %! GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! GlobalFermataCommand(1)
 
     % [G GlobalRests measure 449 / measure 3]                                  %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
@@ -14,7 +14,7 @@ G_GlobalRests = {                                                              %
     % [G GlobalRests measure 450 / measure 4]                                  %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca_fermata_markup                                                     %! GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! GlobalFermataCommand(1)
 
     % [G GlobalRests measure 451 / measure 5]                                  %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests
@@ -28,7 +28,7 @@ G_GlobalRests = {                                                              %
     % [G GlobalRests measure 454 / measure 8]                                  %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca_fermata_markup                                                     %! GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! GlobalFermataCommand(1)
 
     % [G GlobalRests measure 455 / measure 9]                                  %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
@@ -36,7 +36,7 @@ G_GlobalRests = {                                                              %
     % [G GlobalRests measure 456 / measure 10]                                 %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca_fermata_markup                                                     %! GlobalFermataCommand(1)
+    ^ \baca-fermata-markup                                                     %! GlobalFermataCommand(1)
 
     % [G GlobalRests measure 457 / measure 11]                                 %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
@@ -50,7 +50,7 @@ G_GlobalRests = {                                                              %
     % [G GlobalRests measure 460 / measure 14]                                 %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca_long_fermata_markup                                                %! GlobalFermataCommand(1)
+    ^ \baca-long-fermata-markup                                                %! GlobalFermataCommand(1)
 
     % [G GlobalRests measure 461 / measure 15]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
@@ -61,7 +61,7 @@ G_GlobalRests = {                                                              %
     % [G GlobalRests measure 463 / measure 17]                                 %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca_long_fermata_markup                                                %! GlobalFermataCommand(1)
+    ^ \baca-long-fermata-markup                                                %! GlobalFermataCommand(1)
 
     % [G GlobalRests measure 464 / measure 18]                                 %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
@@ -72,7 +72,7 @@ G_GlobalRests = {                                                              %
     % [G GlobalRests measure 466 / measure 20]                                 %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca_long_fermata_markup                                                %! GlobalFermataCommand(1)
+    ^ \baca-long-fermata-markup                                                %! GlobalFermataCommand(1)
 
 }                                                                              %! extern
 
@@ -85,7 +85,7 @@ G_GlobalSkips = {                                                              %
     \tweak Y-offset #12                                                        %! IndicatorCommand
     \mark #7                                                                   %! IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (447)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <0>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -93,16 +93,16 @@ G_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [G.1]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
     ^ \markup { [G.1] }                                                        %! stirrings_still_stage_markup:IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[18'10'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% - \abjad_invisible_line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% - \baca_metronome_mark_spanner_left_text 2 0 1 "56"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "56"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-    - \abjad_invisible_line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    - \baca_metronome_mark_spanner_colored_left_text 2 0 1 "56" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "56" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
     % [G GlobalSkips measure 448 / measure 2]                                  %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (448)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <1>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -112,7 +112,7 @@ G_GlobalSkips = {                                                              %
 
     % [G GlobalSkips measure 449 / measure 3]                                  %! _comment_measure_numbers
     \time 14/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (449)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <2>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -123,7 +123,7 @@ G_GlobalSkips = {                                                              %
 
     % [G GlobalSkips measure 450 / measure 4]                                  %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (450)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <3>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -133,7 +133,7 @@ G_GlobalSkips = {                                                              %
 
     % [G GlobalSkips measure 451 / measure 5]                                  %! _comment_measure_numbers
     \time 8/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (451)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <4>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -142,16 +142,16 @@ G_GlobalSkips = {                                                              %
     ^ \markup { [J.1] }                                                        %! stirrings_still_stage_markup:IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[18'19'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                              %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(1)
-%@% - \abjad_invisible_line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% - \baca_metronome_mark_spanner_left_text 2 0 1 "39"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "39"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-    - \abjad_invisible_line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    - \baca_metronome_mark_spanner_colored_left_text 2 0 1 "39" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "39" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
     % [G GlobalSkips measure 452 / measure 6]                                  %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (452)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <5>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -161,7 +161,7 @@ G_GlobalSkips = {                                                              %
 
     % [G GlobalSkips measure 453 / measure 7]                                  %! _comment_measure_numbers
     \time 16/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (453)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <6>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -170,16 +170,16 @@ G_GlobalSkips = {                                                              %
     ^ \markup { [G.3] }                                                        %! stirrings_still_stage_markup:IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[18'27'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                              %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(1)
-%@% - \abjad_invisible_line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% - \baca_metronome_mark_spanner_left_text 2 0 1 "56"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "56"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-    - \abjad_invisible_line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    - \baca_metronome_mark_spanner_colored_left_text 2 0 1 "56" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "56" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
     % [G GlobalSkips measure 454 / measure 8]                                  %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (454)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <7>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -189,7 +189,7 @@ G_GlobalSkips = {                                                              %
 
     % [G GlobalSkips measure 455 / measure 9]                                  %! _comment_measure_numbers
     \time 16/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (455)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <8>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -200,7 +200,7 @@ G_GlobalSkips = {                                                              %
 
     % [G GlobalSkips measure 456 / measure 10]                                 %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (456)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <9>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -210,7 +210,7 @@ G_GlobalSkips = {                                                              %
 
     % [G GlobalSkips measure 457 / measure 11]                                 %! _comment_measure_numbers
     \time 10/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (457)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <10>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -221,7 +221,7 @@ G_GlobalSkips = {                                                              %
 
     % [G GlobalSkips measure 458 / measure 12]                                 %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (458)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <11>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -230,16 +230,16 @@ G_GlobalSkips = {                                                              %
     ^ \markup { [C.7] }                                                        %! stirrings_still_stage_markup:IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[18'40'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                              %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(1)
-%@% - \abjad_invisible_line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% - \baca_metronome_mark_spanner_left_text 2 0 1 "117"                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "117"                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-    - \abjad_invisible_line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    - \baca_metronome_mark_spanner_colored_left_text 2 0 1 "117" #'blue        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "117" #'blue        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
     % [G GlobalSkips measure 459 / measure 13]                                 %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (459)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <12>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -248,16 +248,16 @@ G_GlobalSkips = {                                                              %
     ^ \markup { [G.5] }                                                        %! stirrings_still_stage_markup:IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[18'42'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                              %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(1)
-%@% - \abjad_invisible_line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% - \baca_metronome_mark_spanner_left_text 2 0 1 "56"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "56"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-    - \abjad_invisible_line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    - \baca_metronome_mark_spanner_colored_left_text 2 0 1 "56" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "56" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
     % [G GlobalSkips measure 460 / measure 14]                                 %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (460)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <13>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -267,7 +267,7 @@ G_GlobalSkips = {                                                              %
 
     % [G GlobalSkips measure 461 / measure 15]                                 %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (461)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <14>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -276,16 +276,16 @@ G_GlobalSkips = {                                                              %
     ^ \markup { [G.6] }                                                        %! stirrings_still_stage_markup:IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[18'46'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                              %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(1)
-%@% - \abjad_invisible_line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% - \baca_metronome_mark_spanner_left_text 2 0 1 "39"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "39"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-    - \abjad_invisible_line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    - \baca_metronome_mark_spanner_colored_left_text 2 0 1 "39" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "39" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
     % [G GlobalSkips measure 462 / measure 16]                                 %! _comment_measure_numbers
     \time 8/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (462)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <15>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -295,7 +295,7 @@ G_GlobalSkips = {                                                              %
 
     % [G GlobalSkips measure 463 / measure 17]                                 %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (463)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <16>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -305,7 +305,7 @@ G_GlobalSkips = {                                                              %
 
     % [G GlobalSkips measure 464 / measure 18]                                 %! _comment_measure_numbers
     \time 14/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (464)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <17>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -314,14 +314,14 @@ G_GlobalSkips = {                                                              %
     ^ \markup { [D.1] }                                                        %! stirrings_still_stage_markup:IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[18'55'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                              %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(1)
-%@% - \abjad_dashed_line_with_arrow                                            %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% - \baca_metronome_mark_spanner_left_text 2 0 1 "169"                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \abjad-dashed-line-with-arrow                                            %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "169"                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% - \tweak bound-details.right.text \markup {                                %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@%     \abjad-metronome-mark-markup #2 #0 #1 #"91"                            %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@%     }                                                                      %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-    - \abjad_dashed_line_with_arrow                                            %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(3)
-    - \baca_metronome_mark_spanner_colored_left_text 2 0 1 "169" #'blue        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(3)
+    - \abjad-dashed-line-with-arrow                                            %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "169" #'blue        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(3)
     - \tweak bound-details.right.text \markup {                                %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(3)
         \with-color                                                            %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(3)
             #(x11-color 'blue)                                                 %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(3)
@@ -331,7 +331,7 @@ G_GlobalSkips = {                                                              %
 
     % [G GlobalSkips measure 465 / measure 19]                                 %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (465)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <18>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -341,7 +341,7 @@ G_GlobalSkips = {                                                              %
 
     % [G GlobalSkips measure 466 / measure 20]                                 %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (466)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <19>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -350,7 +350,7 @@ G_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup "[18'58'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                              %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(4)
     \revert TextScript.extra-offset                                            %! baca_text_script_extra_offset:OverrideCommand(2)
-    \baca_bar_line_visible                                                     %! _attach_final_bar_line
+    \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
 }                                                                              %! extern
@@ -366,7 +366,7 @@ G_ViolinIMusicVoice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     \mp                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     - \espressivo                                                              %! IndicatorCommand
@@ -382,27 +382,27 @@ G_ViolinIMusicVoice = {                                                        %
     \set Staff.shortInstrumentName = \stirrings_still_vn_i                     %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
     ]                                                                          %! stirrings_still_desynchronization
@@ -411,7 +411,7 @@ G_ViolinIMusicVoice = {                                                        %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [G ViolinIMusicVoice measure 449 / measure 3]                            %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
@@ -421,27 +421,27 @@ G_ViolinIMusicVoice = {                                                        %
         }                                                                      %! baca_markup:IndicatorCommand
     [                                                                          %! stirrings_still_desynchronization
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
     ]                                                                          %! stirrings_still_desynchronization
@@ -456,7 +456,7 @@ G_ViolinIMusicVoice = {                                                        %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [G ViolinIMusicVoice measure 453 / measure 7]                            %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
@@ -466,31 +466,31 @@ G_ViolinIMusicVoice = {                                                        %
         }                                                                      %! baca_markup:IndicatorCommand
     [                                                                          %! stirrings_still_desynchronization
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
     ]                                                                          %! stirrings_still_desynchronization
@@ -505,7 +505,7 @@ G_ViolinIMusicVoice = {                                                        %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [G ViolinIMusicVoice measure 457 / measure 11]                           %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
@@ -515,19 +515,19 @@ G_ViolinIMusicVoice = {                                                        %
         }                                                                      %! baca_markup:IndicatorCommand
     [                                                                          %! stirrings_still_desynchronization
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
     ]                                                                          %! stirrings_still_desynchronization
@@ -536,7 +536,7 @@ G_ViolinIMusicVoice = {                                                        %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [G ViolinIMusicVoice measure 459 / measure 13]                           %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
@@ -546,23 +546,23 @@ G_ViolinIMusicVoice = {                                                        %
         }                                                                      %! baca_markup:IndicatorCommand
     [                                                                          %! stirrings_still_desynchronization
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_desynchronization
     - \espressivo                                                              %! IndicatorCommand
     ]                                                                          %! stirrings_still_desynchronization
@@ -609,7 +609,7 @@ G_ViolinIIMusicVoice = {                                                       %
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         \mp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         - \espressivo                                                          %! IndicatorCommand
@@ -625,31 +625,31 @@ G_ViolinIIMusicVoice = {                                                       %
         \set Staff.shortInstrumentName = \stirrings_still_vn_ii                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
@@ -661,7 +661,7 @@ G_ViolinIIMusicVoice = {                                                       %
     \times 14/16 {                                                             %! stirrings_still_desynchronization
 
         % [G ViolinIIMusicVoice measure 449 / measure 3]                       %! _comment_measure_numbers
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
@@ -671,31 +671,31 @@ G_ViolinIIMusicVoice = {                                                       %
             }                                                                  %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
@@ -713,7 +713,7 @@ G_ViolinIIMusicVoice = {                                                       %
     \times 16/18 {                                                             %! stirrings_still_desynchronization
 
         % [G ViolinIIMusicVoice measure 453 / measure 7]                       %! _comment_measure_numbers
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
@@ -723,35 +723,35 @@ G_ViolinIIMusicVoice = {                                                       %
             }                                                                  %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
@@ -769,7 +769,7 @@ G_ViolinIIMusicVoice = {                                                       %
     \times 10/12 {                                                             %! stirrings_still_desynchronization
 
         % [G ViolinIIMusicVoice measure 457 / measure 11]                      %! _comment_measure_numbers
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
@@ -779,23 +779,23 @@ G_ViolinIIMusicVoice = {                                                       %
             }                                                                  %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
@@ -807,7 +807,7 @@ G_ViolinIIMusicVoice = {                                                       %
     \times 12/14 {                                                             %! stirrings_still_desynchronization
 
         % [G ViolinIIMusicVoice measure 459 / measure 13]                      %! _comment_measure_numbers
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
@@ -817,27 +817,27 @@ G_ViolinIIMusicVoice = {                                                       %
             }                                                                  %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
@@ -889,7 +889,7 @@ G_ViolaMusicVoice = {                                                          %
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         \mp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         - \espressivo                                                          %! IndicatorCommand
@@ -905,23 +905,23 @@ G_ViolaMusicVoice = {                                                          %
         \set Staff.shortInstrumentName = \stirrings_still_va                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
@@ -933,7 +933,7 @@ G_ViolaMusicVoice = {                                                          %
     \times 14/12 {                                                             %! stirrings_still_desynchronization
 
         % [G ViolaMusicVoice measure 449 / measure 3]                          %! _comment_measure_numbers
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
@@ -943,23 +943,23 @@ G_ViolaMusicVoice = {                                                          %
             }                                                                  %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
@@ -977,7 +977,7 @@ G_ViolaMusicVoice = {                                                          %
     \times 16/14 {                                                             %! stirrings_still_desynchronization
 
         % [G ViolaMusicVoice measure 453 / measure 7]                          %! _comment_measure_numbers
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
@@ -987,27 +987,27 @@ G_ViolaMusicVoice = {                                                          %
             }                                                                  %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
@@ -1025,7 +1025,7 @@ G_ViolaMusicVoice = {                                                          %
     \times 10/8 {                                                              %! stirrings_still_desynchronization
 
         % [G ViolaMusicVoice measure 457 / measure 11]                         %! _comment_measure_numbers
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
@@ -1035,15 +1035,15 @@ G_ViolaMusicVoice = {                                                          %
             }                                                                  %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
@@ -1055,7 +1055,7 @@ G_ViolaMusicVoice = {                                                          %
     \times 12/10 {                                                             %! stirrings_still_desynchronization
 
         % [G ViolaMusicVoice measure 459 / measure 13]                         %! _comment_measure_numbers
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
@@ -1065,19 +1065,19 @@ G_ViolaMusicVoice = {                                                          %
             }                                                                  %! baca_markup:IndicatorCommand
         [                                                                      %! stirrings_still_desynchronization
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
@@ -1123,7 +1123,7 @@ G_CelloMusicVoice = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! stirrings_still_taper
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1136,7 +1136,7 @@ G_CelloMusicVoice = {                                                          %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! stirrings_still_taper
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1151,7 +1151,7 @@ G_CelloMusicVoice = {                                                          %
 
     % [G CelloMusicVoice measure 449 / measure 3]                              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! stirrings_still_taper
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1159,7 +1159,7 @@ G_CelloMusicVoice = {                                                          %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
 
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! stirrings_still_taper
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1180,7 +1180,7 @@ G_CelloMusicVoice = {                                                          %
 
     % [G CelloMusicVoice measure 453 / measure 7]                              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_taper
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1188,7 +1188,7 @@ G_CelloMusicVoice = {                                                          %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
 
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_taper
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1211,7 +1211,7 @@ G_CelloMusicVoice = {                                                          %
 
         % [G CelloMusicVoice measure 457 / measure 11]                         %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_taper
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1219,7 +1219,7 @@ G_CelloMusicVoice = {                                                          %
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_taper
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1235,7 +1235,7 @@ G_CelloMusicVoice = {                                                          %
 
     % [G CelloMusicVoice measure 459 / measure 13]                             %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_taper
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1243,7 +1243,7 @@ G_CelloMusicVoice = {                                                          %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
 
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_taper
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)

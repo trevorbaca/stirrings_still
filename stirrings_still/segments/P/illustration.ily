@@ -89,7 +89,7 @@ P_GlobalSkips = {                                                              %
     \tweak Y-offset #12                                                        %! IndicatorCommand
     \mark #16                                                                  %! IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (694)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <0>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -97,11 +97,11 @@ P_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [P.1]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
     ^ \markup { [P.1] }                                                        %! stirrings_still_stage_markup:IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[32'01'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
-%@% - \abjad_invisible_line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% - \baca_metronome_mark_spanner_left_text 2 0 1 "65"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "65"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-    - \abjad_invisible_line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    - \baca_metronome_mark_spanner_colored_left_text 2 0 1 "65" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "65" #'blue         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
     % [P GlobalSkips measure 695 / measure 2]                                  %! _comment_measure_numbers
@@ -114,7 +114,7 @@ P_GlobalSkips = {                                                              %
 
     % [P GlobalSkips measure 696 / measure 3]                                  %! _comment_measure_numbers
     \time 14/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (696)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <2>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -132,7 +132,7 @@ P_GlobalSkips = {                                                              %
 
     % [P GlobalSkips measure 698 / measure 5]                                  %! _comment_measure_numbers
     \time 10/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (698)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <4>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -143,7 +143,7 @@ P_GlobalSkips = {                                                              %
 
     % [P GlobalSkips measure 699 / measure 6]                                  %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (699)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <5>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -161,7 +161,7 @@ P_GlobalSkips = {                                                              %
 
     % [P GlobalSkips measure 701 / measure 8]                                  %! _comment_measure_numbers
     \time 8/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (701)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <7>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -171,7 +171,7 @@ P_GlobalSkips = {                                                              %
 
     % [P GlobalSkips measure 702 / measure 9]                                  %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (702)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <8>                                               %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -189,7 +189,7 @@ P_GlobalSkips = {                                                              %
 
     % [P GlobalSkips measure 704 / measure 11]                                 %! _comment_measure_numbers
     \time 10/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (704)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <10>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -200,7 +200,7 @@ P_GlobalSkips = {                                                              %
 
     % [P GlobalSkips measure 705 / measure 12]                                 %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (705)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <11>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -218,7 +218,7 @@ P_GlobalSkips = {                                                              %
 
     % [P GlobalSkips measure 707 / measure 14]                                 %! _comment_measure_numbers
     \time 8/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (707)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <13>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -228,7 +228,7 @@ P_GlobalSkips = {                                                              %
 
     % [P GlobalSkips measure 708 / measure 15]                                 %! _comment_measure_numbers
     \time 14/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (708)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <14>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -237,14 +237,14 @@ P_GlobalSkips = {                                                              %
     ^ \markup { [P.4] }                                                        %! stirrings_still_stage_markup:IndicatorCommand
 %@% ^ \baca-dark-cyan-markup "[32'39'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                              %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(1)
-%@% - \abjad_dashed_line_with_arrow                                            %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% - \baca_metronome_mark_spanner_left_text 2 0 1 "65"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \abjad-dashed-line-with-arrow                                            %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "65"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% - \tweak bound-details.right.text \markup {                                %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@%     \abjad-metronome-mark-markup #2 #0 #1 #"169"                           %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@%     }                                                                      %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-    - \abjad_dashed_line_with_arrow                                            %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(3)
-    - \baca_metronome_mark_spanner_colored_left_text 2 0 1 "65" #'blue         %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(3)
+    - \abjad-dashed-line-with-arrow                                            %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "65" #'blue         %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(3)
     - \tweak bound-details.right.text \markup {                                %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(3)
         \with-color                                                            %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(3)
             #(x11-color 'blue)                                                 %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(3)
@@ -254,7 +254,7 @@ P_GlobalSkips = {                                                              %
 
     % [P GlobalSkips measure 709 / measure 16]                                 %! _comment_measure_numbers
     \time 16/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (709)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <15>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -272,7 +272,7 @@ P_GlobalSkips = {                                                              %
 
     % [P GlobalSkips measure 711 / measure 18]                                 %! _comment_measure_numbers
     \time 14/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (711)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <17>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -282,7 +282,7 @@ P_GlobalSkips = {                                                              %
 
     % [P GlobalSkips measure 712 / measure 19]                                 %! _comment_measure_numbers
     \time 8/16                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (712)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <18>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -292,7 +292,7 @@ P_GlobalSkips = {                                                              %
 
     % [P GlobalSkips measure 713 / measure 20]                                 %! _comment_measure_numbers
     \time 12/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (713)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <19>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -311,7 +311,7 @@ P_GlobalSkips = {                                                              %
 
     % [P GlobalSkips measure 715 / measure 22]                                 %! _comment_measure_numbers
     \time 14/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (715)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <21>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -329,7 +329,7 @@ P_GlobalSkips = {                                                              %
 
     % [P GlobalSkips measure 717 / measure 24]                                 %! _comment_measure_numbers
     \time 16/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (717)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <23>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -347,7 +347,7 @@ P_GlobalSkips = {                                                              %
 
     % [P GlobalSkips measure 719 / measure 26]                                 %! _comment_measure_numbers
     \time 10/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \baca_time_signature_color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
+    \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (719)                                             %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
 %@% ^ \baca-dark-cyan-markup <25>                                              %! MEASURE_INDEX_MARKUP:_label_measure_indices(2)
@@ -356,7 +356,7 @@ P_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup "[33'14'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
     \stopTextSpan                                                              %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(4)
     \revert TextScript.extra-offset                                            %! baca_text_script_extra_offset:OverrideCommand(2)
-    \baca_bar_line_visible                                                     %! _attach_final_bar_line
+    \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
 }                                                                              %! extern
@@ -372,7 +372,7 @@ P_ViolinIMusicVoice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \ppppp                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -383,25 +383,25 @@ P_ViolinIMusicVoice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [P ViolinIMusicVoice measure 695 / measure 2]                            %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolinIMusicVoice measure 696 / measure 3]                            %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolinIMusicVoice measure 697 / measure 4]                            %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolinIMusicVoice measure 698 / measure 5]                            %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
     \override TupletNumber.text = \markup {
@@ -449,27 +449,27 @@ P_ViolinIMusicVoice = {                                                        %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 241/64                                                          %! stirrings_still_wave
         \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 49/16                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 61/32                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 41/32                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 33/32                                                           %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 61/64                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -519,30 +519,30 @@ P_ViolinIMusicVoice = {                                                        %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 29/32                                                           %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 61/64                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 35/32                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 87/64                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 117/64                                                          %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 81/32                                                           %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 213/64                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -550,12 +550,12 @@ P_ViolinIMusicVoice = {                                                        %
 
     % [P ViolinIMusicVoice measure 701 / measure 8]                            %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
 
     % [P ViolinIMusicVoice measure 702 / measure 9]                            %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
     \override TupletNumber.text = \markup {
@@ -603,31 +603,31 @@ P_ViolinIMusicVoice = {                                                        %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 241/64                                                          %! stirrings_still_wave
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 49/16                                                           %! stirrings_still_wave
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 61/32                                                           %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 41/32                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 33/32                                                           %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 61/64                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -636,32 +636,32 @@ P_ViolinIMusicVoice = {                                                        %
     % [P ViolinIMusicVoice measure 704 / measure 11]                           %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \ppppp                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup { "tasto [TODO: clouded pane fixed pitches]" }                   %! baca_markup:IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolinIMusicVoice measure 705 / measure 12]                           %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolinIMusicVoice measure 706 / measure 13]                           %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolinIMusicVoice measure 707 / measure 14]                           %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolinIMusicVoice measure 708 / measure 15]                           %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! baca_make_repeat_tied_notes
     \override TupletNumber.text = \markup {
         \scale
@@ -708,33 +708,33 @@ P_ViolinIMusicVoice = {                                                        %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 245/64                                                          %! stirrings_still_wave
         \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 109/32                                                          %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 161/64                                                          %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 115/64                                                          %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 87/64                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 9/8                                                             %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 1                                                               %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 31/32                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -784,36 +784,36 @@ P_ViolinIMusicVoice = {                                                        %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 59/64                                                           %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 61/64                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 33/32                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 19/16                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 91/64                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 113/64                                                          %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 73/32                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 187/64                                                          %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 225/64                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -821,12 +821,12 @@ P_ViolinIMusicVoice = {                                                        %
 
     % [P ViolinIMusicVoice measure 711 / measure 18]                           %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! baca_make_repeat_tied_notes
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
 
     % [P ViolinIMusicVoice measure 712 / measure 19]                           %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
     \override TupletNumber.text = \markup {
@@ -874,31 +874,31 @@ P_ViolinIMusicVoice = {                                                        %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 241/64                                                          %! stirrings_still_wave
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 49/16                                                           %! stirrings_still_wave
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 61/32                                                           %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 41/32                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 33/32                                                           %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 61/64                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -1049,7 +1049,7 @@ P_ViolinIIMusicVoice = {                                                       %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \ppppp                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1060,17 +1060,17 @@ P_ViolinIIMusicVoice = {                                                       %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [P ViolinIIMusicVoice measure 695 / measure 2]                           %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolinIIMusicVoice measure 696 / measure 3]                           %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolinIIMusicVoice measure 697 / measure 4]                           %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
     \override TupletNumber.text = \markup {
@@ -1120,7 +1120,7 @@ P_ViolinIIMusicVoice = {                                                       %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 351/64                                                          %! stirrings_still_wave
         \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1128,17 +1128,17 @@ P_ViolinIIMusicVoice = {                                                       %
         [                                                                      %! stirrings_still_wave
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 5/2                                                             %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 35/32                                                           %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 59/64                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -1146,7 +1146,7 @@ P_ViolinIIMusicVoice = {                                                       %
 
     % [P ViolinIIMusicVoice measure 699 / measure 6]                           %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \override TupletNumber.text = \markup {
@@ -1194,28 +1194,28 @@ P_ViolinIIMusicVoice = {                                                       %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 57/64                                                           %! stirrings_still_wave
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 31/32                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 77/64                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 111/64                                                          %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 11/4                                                            %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 285/64                                                          %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1226,7 +1226,7 @@ P_ViolinIIMusicVoice = {                                                       %
 
     % [P ViolinIIMusicVoice measure 701 / measure 8]                           %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \override TupletNumber.text = \markup {
@@ -1274,7 +1274,7 @@ P_ViolinIIMusicVoice = {                                                       %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 381/64                                                          %! stirrings_still_wave
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1282,17 +1282,17 @@ P_ViolinIIMusicVoice = {                                                       %
         [                                                                      %! stirrings_still_wave
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 111/32                                                          %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 3/2                                                             %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 69/64                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -1300,31 +1300,31 @@ P_ViolinIIMusicVoice = {                                                       %
 
     % [P ViolinIIMusicVoice measure 703 / measure 10]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \ppppp                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
 
     % [P ViolinIIMusicVoice measure 704 / measure 11]                          %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     ^ \markup { "tasto [TODO: clouded pane fixed pitches]" }                   %! baca_markup:IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolinIIMusicVoice measure 705 / measure 12]                          %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolinIIMusicVoice measure 706 / measure 13]                          %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolinIIMusicVoice measure 707 / measure 14]                          %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
     \override TupletNumber.text = \markup {
@@ -1372,7 +1372,7 @@ P_ViolinIIMusicVoice = {                                                       %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 377/64                                                          %! stirrings_still_wave
         \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1380,20 +1380,20 @@ P_ViolinIIMusicVoice = {                                                       %
         [                                                                      %! stirrings_still_wave
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 255/64                                                          %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 15/8                                                            %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 79/64                                                           %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 65/64                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -1401,7 +1401,7 @@ P_ViolinIIMusicVoice = {                                                       %
 
     % [P ViolinIIMusicVoice measure 709 / measure 16]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \override TupletNumber.text = \markup {
@@ -1449,34 +1449,34 @@ P_ViolinIIMusicVoice = {                                                       %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 13/16                                                           %! stirrings_still_wave
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 27/32                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 31/32                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 77/64                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 13/8                                                            %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 75/32                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 223/64                                                          %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 151/32                                                          %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1487,7 +1487,7 @@ P_ViolinIIMusicVoice = {                                                       %
 
     % [P ViolinIIMusicVoice measure 711 / measure 18]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! baca_make_repeat_tied_notes
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \override TupletNumber.text = \markup {
@@ -1535,7 +1535,7 @@ P_ViolinIIMusicVoice = {                                                       %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 351/64                                                          %! stirrings_still_wave
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -1543,14 +1543,14 @@ P_ViolinIIMusicVoice = {                                                       %
         [                                                                      %! stirrings_still_wave
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 101/64                                                          %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 15/16                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -1724,7 +1724,7 @@ P_ViolaMusicVoice = {                                                          %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \ppppp                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1735,36 +1735,36 @@ P_ViolaMusicVoice = {                                                          %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [P ViolaMusicVoice measure 695 / measure 2]                              %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
     % [P ViolaMusicVoice measure 696 / measure 3]                              %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolaMusicVoice measure 697 / measure 4]                              %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolaMusicVoice measure 698 / measure 5]                              %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolaMusicVoice measure 699 / measure 6]                              %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolaMusicVoice measure 700 / measure 7]                              %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
     \override TupletNumber.text = \markup {
@@ -1812,18 +1812,18 @@ P_ViolaMusicVoice = {                                                          %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 77/16                                                           %! stirrings_still_wave
         \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 137/64                                                          %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 67/64                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -1873,30 +1873,30 @@ P_ViolaMusicVoice = {                                                          %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 47/64                                                           %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 25/32                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 15/16                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 81/64                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 59/32                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 179/64                                                          %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 233/64                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -1945,21 +1945,21 @@ P_ViolaMusicVoice = {                                                          %
         % [P ViolaMusicVoice measure 703 / measure 10]                         %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 307/64                                                          %! stirrings_still_wave
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 27/8                                                            %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 109/64                                                          %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 73/64                                                           %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 63/64                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -1968,42 +1968,42 @@ P_ViolaMusicVoice = {                                                          %
     % [P ViolaMusicVoice measure 704 / measure 11]                             %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \ppppp                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup { "tasto [TODO: clouded pane fixed pitches]" }                   %! baca_markup:IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolaMusicVoice measure 705 / measure 12]                             %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolaMusicVoice measure 706 / measure 13]                             %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolaMusicVoice measure 707 / measure 14]                             %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P ViolaMusicVoice measure 708 / measure 15]                             %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! baca_make_repeat_tied_notes
 
     % [P ViolaMusicVoice measure 709 / measure 16]                             %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
     % [P ViolaMusicVoice measure 710 / measure 17]                             %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
@@ -2052,27 +2052,27 @@ P_ViolaMusicVoice = {                                                          %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 307/64                                                          %! stirrings_still_wave
         \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 237/64                                                          %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 67/32                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 87/64                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 17/16                                                           %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 63/64                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -2122,24 +2122,24 @@ P_ViolaMusicVoice = {                                                          %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 45/64                                                           %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 13/16                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 75/64                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 2                                                               %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 53/16                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -2188,21 +2188,21 @@ P_ViolaMusicVoice = {                                                          %
         % [P ViolaMusicVoice measure 713 / measure 20]                         %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 307/64                                                          %! stirrings_still_wave
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 27/8                                                            %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 109/64                                                          %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 73/64                                                           %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 63/64                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -2353,7 +2353,7 @@ P_CelloMusicVoice = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \ppppp                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2364,25 +2364,25 @@ P_CelloMusicVoice = {                                                          %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [P CelloMusicVoice measure 695 / measure 2]                              %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P CelloMusicVoice measure 696 / measure 3]                              %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P CelloMusicVoice measure 697 / measure 4]                              %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P CelloMusicVoice measure 698 / measure 5]                              %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
     \override TupletNumber.text = \markup {
@@ -2430,21 +2430,21 @@ P_CelloMusicVoice = {                                                          %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 107/16                                                          %! stirrings_still_wave
         \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 197/64                                                          %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 81/64                                                           %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 31/32                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -2494,27 +2494,27 @@ P_CelloMusicVoice = {                                                          %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 3/4                                                             %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 53/64                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 69/64                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 53/32                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 183/64                                                          %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 309/64                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -2563,12 +2563,12 @@ P_CelloMusicVoice = {                                                          %
         % [P CelloMusicVoice measure 701 / measure 8]                          %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 109/16                                                          %! stirrings_still_wave
         [                                                                      %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 19/16                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -2577,41 +2577,41 @@ P_CelloMusicVoice = {                                                          %
     % [P CelloMusicVoice measure 702 / measure 9]                              %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \ppppp                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
 
     % [P CelloMusicVoice measure 703 / measure 10]                             %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P CelloMusicVoice measure 704 / measure 11]                             %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     ^ \markup { "tasto [TODO: clouded pane fixed pitches]" }                   %! baca_markup:IndicatorCommand
 
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P CelloMusicVoice measure 705 / measure 12]                             %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P CelloMusicVoice measure 706 / measure 13]                             %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P CelloMusicVoice measure 707 / measure 14]                             %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [P CelloMusicVoice measure 708 / measure 15]                             %! _comment_measure_numbers
-    \baca_unpitched_music_warning                                              %! _color_unpitched_notes
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! baca_make_repeat_tied_notes
     \override TupletNumber.text = \markup {
         \scale
@@ -2658,24 +2658,24 @@ P_CelloMusicVoice = {                                                          %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 447/64                                                          %! stirrings_still_wave
         \ppppp                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 293/64                                                          %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 33/16                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 21/16                                                           %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 17/16                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -2725,30 +2725,30 @@ P_CelloMusicVoice = {                                                          %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #left
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 63/64                                                           %! stirrings_still_wave
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 67/64                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 39/32                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 101/64                                                          %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 9/4                                                             %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 111/32                                                          %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 349/64                                                          %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave
@@ -2797,21 +2797,21 @@ P_CelloMusicVoice = {                                                          %
         % [P CelloMusicVoice measure 711 / measure 18]                         %! _comment_measure_numbers
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_wave
         \once \override Beam.grow-direction = #right
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 53/8                                                            %! stirrings_still_wave
         [                                                                      %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 121/32                                                          %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 25/16                                                           %! stirrings_still_wave
 
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 69/64                                                           %! stirrings_still_wave
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_wave
-        \baca_unpitched_music_warning                                          %! _color_unpitched_notes
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 61/64                                                           %! stirrings_still_wave
         ]                                                                      %! stirrings_still_wave
     }                                                                          %! stirrings_still_wave

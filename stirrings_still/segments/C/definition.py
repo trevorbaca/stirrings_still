@@ -122,7 +122,7 @@ maker(
     baca.dynamic('"ff"'),
     baca.markup('maximally tight crunch circles: grind at talon'),
     baca.text_spanner(
-        r'\baca_damp_markup =|',
+        r'\baca-damp-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,
@@ -186,7 +186,7 @@ maker(
         match=3,
         ),
     baca.text_spanner(
-        r'\baca_damp_markup =|',
+        r'\baca-damp-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,
@@ -220,7 +220,7 @@ maker(
         piece_selector=baca.notes().cmgroups([2]),
         ),
     baca.text_spanner(
-        r'\baca_damp_markup =|',
+        r'\baca-damp-markup =|',
         abjad.tweak(1.75).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,
@@ -256,7 +256,7 @@ maker(
         piece_selector=baca.notes().cmgroups([2]),
         ),
     baca.text_spanner(
-        r'\baca_damp_markup =|',
+        r'\baca-damp-markup =|',
         abjad.tweak(1.75).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,
@@ -291,7 +291,7 @@ maker(
         piece_selector=baca.notes().cmgroups([2]),
         ),
     baca.text_spanner(
-        r'\baca_damp_markup =|',
+        r'\baca-damp-markup =|',
         abjad.tweak(1.75).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,
@@ -328,7 +328,7 @@ maker(
         leak=True,
         ),
     baca.text_spanner(
-        r'\baca_damp_markup =|',
+        r'\baca-damp-markup =|',
         abjad.tweak(2).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,
@@ -371,7 +371,7 @@ maker(
         selector=baca.leaves(),
         ),
     baca.text_spanner(
-        r'\baca_damp_markup =|',
+        r'\baca-damp-markup =|',
         abjad.tweak(1.75).bound_details__right__padding,
         abjad.tweak(10).staff_padding,
         bookend=False,
@@ -397,7 +397,7 @@ maker(
         selector=baca.tleaves(),
         ),
     baca.text_spanner(
-        r'\baca_damp_markup =|',
+        r'\baca-damp-markup =|',
         abjad.tweak(7).staff_padding,
         bookend=False,
         leak=True,
