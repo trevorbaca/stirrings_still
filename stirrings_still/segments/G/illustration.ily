@@ -592,12 +592,15 @@ G_ViolinIMusicVoice = {                                                        %
 
 
 G_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \G_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
 G_ViolinIIMusicVoice = {                                                       %! extern
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 14/16 {                                                             %! stirrings_still_desynchronization
 
@@ -653,10 +656,12 @@ G_ViolinIIMusicVoice = {                                                       %
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [G ViolinIIMusicVoice measure 448 / measure 2]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 14/16 {                                                             %! stirrings_still_desynchronization
 
@@ -699,6 +704,7 @@ G_ViolinIIMusicVoice = {                                                       %
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [G ViolinIIMusicVoice measure 450 / measure 4]                           %! _comment_measure_numbers
@@ -709,6 +715,7 @@ G_ViolinIIMusicVoice = {                                                       %
 
     % [G ViolinIIMusicVoice measure 452 / measure 6]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 16/18 {                                                             %! stirrings_still_desynchronization
 
@@ -755,6 +762,7 @@ G_ViolinIIMusicVoice = {                                                       %
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [G ViolinIIMusicVoice measure 454 / measure 8]                           %! _comment_measure_numbers
@@ -765,6 +773,7 @@ G_ViolinIIMusicVoice = {                                                       %
 
     % [G ViolinIIMusicVoice measure 456 / measure 10]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 10/12 {                                                             %! stirrings_still_desynchronization
 
@@ -799,10 +808,12 @@ G_ViolinIIMusicVoice = {                                                       %
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [G ViolinIIMusicVoice measure 458 / measure 12]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 12/14 {                                                             %! stirrings_still_desynchronization
 
@@ -841,6 +852,7 @@ G_ViolinIIMusicVoice = {                                                       %
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [G ViolinIIMusicVoice measure 460 / measure 14]                          %! _comment_measure_numbers
@@ -868,12 +880,15 @@ G_ViolinIIMusicVoice = {                                                       %
 
 
 G_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \G_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
 G_ViolaMusicVoice = {                                                          %! extern
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 14/12 {                                                             %! stirrings_still_desynchronization
 
@@ -925,10 +940,12 @@ G_ViolaMusicVoice = {                                                          %
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [G ViolaMusicVoice measure 448 / measure 2]                              %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 14/12 {                                                             %! stirrings_still_desynchronization
 
@@ -963,6 +980,7 @@ G_ViolaMusicVoice = {                                                          %
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [G ViolaMusicVoice measure 450 / measure 4]                              %! _comment_measure_numbers
@@ -973,6 +991,7 @@ G_ViolaMusicVoice = {                                                          %
 
     % [G ViolaMusicVoice measure 452 / measure 6]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 16/14 {                                                             %! stirrings_still_desynchronization
 
@@ -1011,6 +1030,7 @@ G_ViolaMusicVoice = {                                                          %
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [G ViolaMusicVoice measure 454 / measure 8]                              %! _comment_measure_numbers
@@ -1021,6 +1041,7 @@ G_ViolaMusicVoice = {                                                          %
 
     % [G ViolaMusicVoice measure 456 / measure 10]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 10/8 {                                                              %! stirrings_still_desynchronization
 
@@ -1047,10 +1068,12 @@ G_ViolaMusicVoice = {                                                          %
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [G ViolaMusicVoice measure 458 / measure 12]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 12/10 {                                                             %! stirrings_still_desynchronization
 
@@ -1081,6 +1104,7 @@ G_ViolaMusicVoice = {                                                          %
         c'8                                                                    %! stirrings_still_desynchronization
         - \espressivo                                                          %! IndicatorCommand
         ]                                                                      %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [G ViolaMusicVoice measure 460 / measure 14]                             %! _comment_measure_numbers
@@ -1108,8 +1132,10 @@ G_ViolaMusicVoice = {                                                          %
 
 
 G_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \G_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -1206,6 +1232,7 @@ G_CelloMusicVoice = {                                                          %
 
     % [G CelloMusicVoice measure 456 / measure 10]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_taper
     \times 5/6 {                                                               %! stirrings_still_taper
 
@@ -1226,6 +1253,7 @@ G_CelloMusicVoice = {                                                          %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! stirrings_still_taper
 
     % [G CelloMusicVoice measure 458 / measure 12]                             %! _comment_measure_numbers
@@ -1278,6 +1306,8 @@ G_CelloMusicVoice = {                                                          %
 
 
 G_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \G_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

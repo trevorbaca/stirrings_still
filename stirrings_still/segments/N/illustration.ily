@@ -702,8 +702,10 @@ N_ViolinIMusicVoice = {                                                        %
 
 
 N_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \N_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -843,8 +845,10 @@ N_ViolinIIMusicVoice = {                                                       %
 
 
 N_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \N_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -988,8 +992,10 @@ N_ViolaMusicVoice = {                                                          %
 
 
 N_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \N_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -1129,6 +1135,8 @@ N_CelloMusicVoice = {                                                          %
 
 
 N_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \N_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

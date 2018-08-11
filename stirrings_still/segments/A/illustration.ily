@@ -998,6 +998,7 @@ A_GlobalSkips = {                                                              %
 
 
 A_ViolinIMusicVoice = {                                                        %! extern
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 2/3 {                                                               %! stirrings_still_declamation
 
@@ -1045,6 +1046,7 @@ A_ViolinIMusicVoice = {                                                        %
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \repeatTie                                                             %! TieCorrectionCommand
         \baca-stop-on-string                                                   %! IndicatorCommand
+
     }                                                                          %! stirrings_still_declamation
 
     % [A ViolinIMusicVoice measure 2]                                          %! _comment_measure_numbers
@@ -1266,12 +1268,15 @@ A_ViolinIMusicVoice = {                                                        %
 
 
 A_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \A_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
 A_ViolinIIMusicVoice = {                                                       %! extern
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 2/3 {                                                               %! stirrings_still_declamation
 
@@ -1319,6 +1324,7 @@ A_ViolinIIMusicVoice = {                                                       %
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \repeatTie                                                             %! TieCorrectionCommand
         \baca-stop-on-string                                                   %! IndicatorCommand
+
     }                                                                          %! stirrings_still_declamation
 
     % [A ViolinIIMusicVoice measure 2]                                         %! _comment_measure_numbers
@@ -1540,12 +1546,15 @@ A_ViolinIIMusicVoice = {                                                       %
 
 
 A_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \A_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
 A_ViolaMusicVoice = {                                                          %! extern
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 2/3 {                                                               %! stirrings_still_declamation
 
@@ -1593,6 +1602,7 @@ A_ViolaMusicVoice = {                                                          %
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \repeatTie                                                             %! TieCorrectionCommand
         \baca-stop-on-string                                                   %! IndicatorCommand
+
     }                                                                          %! stirrings_still_declamation
 
     % [A ViolaMusicVoice measure 2]                                            %! _comment_measure_numbers
@@ -1814,8 +1824,10 @@ A_ViolaMusicVoice = {                                                          %
 
 
 A_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \A_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -2055,6 +2067,8 @@ A_CelloMusicVoice = {                                                          %
 
 
 A_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \A_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

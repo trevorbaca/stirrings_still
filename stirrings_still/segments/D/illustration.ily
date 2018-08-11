@@ -1692,6 +1692,7 @@ D_ViolinIMusicVoice = {                                                        %
 
     % [D ViolinIMusicVoice measure 252 / measure 46]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 7/12 {                                                              %! stirrings_still_declamation
 
@@ -1709,6 +1710,7 @@ D_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_declamation
+
     }                                                                          %! stirrings_still_declamation
 
     % [D ViolinIMusicVoice measure 254 / measure 48]                           %! _comment_measure_numbers
@@ -1731,6 +1733,7 @@ D_ViolinIMusicVoice = {                                                        %
 
     % [D ViolinIMusicVoice measure 260 / measure 54]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 2/3 {                                                               %! stirrings_still_declamation
 
@@ -1746,10 +1749,12 @@ D_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_declamation
+
     }                                                                          %! stirrings_still_declamation
 
     % [D ViolinIMusicVoice measure 262 / measure 56]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1845,6 +1850,7 @@ D_ViolinIMusicVoice = {                                                        %
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]                                                                      %! stirrings_still_accelerando
         <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
 
@@ -2028,6 +2034,7 @@ D_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_flight
     \repeatTie                                                                 %! TieCorrectionCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 4/6 {                                                               %! stirrings_still_flight
 
@@ -2047,6 +2054,7 @@ D_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
         ~                                                                      %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
 
     % [D ViolinIMusicVoice measure 277 / measure 71]                           %! _comment_measure_numbers
@@ -2057,6 +2065,7 @@ D_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_flight
     \repeatTie                                                                 %! TieCorrectionCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 8/10 {                                                              %! stirrings_still_flight
 
@@ -2087,7 +2096,9 @@ D_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
         ~                                                                      %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 8/9 {                                                               %! stirrings_still_flight
 
@@ -2101,6 +2112,7 @@ D_ViolinIMusicVoice = {                                                        %
         - \espressivo                                                          %! IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
 
     % [D ViolinIMusicVoice measure 281 / measure 75]                           %! _comment_measure_numbers
@@ -2112,6 +2124,7 @@ D_ViolinIMusicVoice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_flight
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 6/8 {                                                               %! stirrings_still_flight
 
@@ -2130,7 +2143,9 @@ D_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_flight
         \repeatTie                                                             %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 6/7 {                                                               %! stirrings_still_flight
 
@@ -2151,6 +2166,7 @@ D_ViolinIMusicVoice = {                                                        %
         - \espressivo                                                          %! IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
 
     % [D ViolinIMusicVoice measure 284 / measure 78]                           %! _comment_measure_numbers
@@ -2168,6 +2184,7 @@ D_ViolinIMusicVoice = {                                                        %
     :32                                                                        %! IndicatorCommand
     - \espressivo                                                              %! IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 7/9 {                                                               %! stirrings_still_flight
 
@@ -2191,7 +2208,9 @@ D_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_flight
         \repeatTie                                                             %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 7/8 {                                                               %! stirrings_still_flight
 
@@ -2212,12 +2231,14 @@ D_ViolinIMusicVoice = {                                                        %
         :32                                                                    %! IndicatorCommand
         - \espressivo                                                          %! IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
 
     % [D ViolinIMusicVoice measure 287 / measure 81]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_flight
     :32                                                                        %! IndicatorCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 6/8 {                                                               %! stirrings_still_flight
 
@@ -2231,6 +2252,7 @@ D_ViolinIMusicVoice = {                                                        %
         c'2.                                                                   %! stirrings_still_flight
         :32                                                                    %! IndicatorCommand
         - \espressivo                                                          %! IndicatorCommand
+
     }                                                                          %! stirrings_still_flight
 
     % [D ViolinIMusicVoice measure 289 / measure 83]                           %! _comment_measure_numbers
@@ -2345,8 +2367,10 @@ D_ViolinIMusicVoice = {                                                        %
 
 
 D_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \D_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -2698,6 +2722,7 @@ D_ViolinIIMusicVoice = {                                                       %
 
     % [D ViolinIIMusicVoice measure 252 / measure 46]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 7/12 {                                                              %! stirrings_still_declamation
 
@@ -2715,6 +2740,7 @@ D_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_declamation
+
     }                                                                          %! stirrings_still_declamation
 
     % [D ViolinIIMusicVoice measure 254 / measure 48]                          %! _comment_measure_numbers
@@ -2737,6 +2763,7 @@ D_ViolinIIMusicVoice = {                                                       %
 
     % [D ViolinIIMusicVoice measure 260 / measure 54]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 2/3 {                                                               %! stirrings_still_declamation
 
@@ -2752,10 +2779,12 @@ D_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_declamation
+
     }                                                                          %! stirrings_still_declamation
 
     % [D ViolinIIMusicVoice measure 262 / measure 56]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2842,6 +2871,7 @@ D_ViolinIIMusicVoice = {                                                       %
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]                                                                      %! stirrings_still_accelerando
         <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
+
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
 
@@ -2997,6 +3027,7 @@ D_ViolinIIMusicVoice = {                                                       %
     % [D ViolinIIMusicVoice measure 274 / measure 68]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_flight
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 6/8 {                                                               %! stirrings_still_flight
 
@@ -3020,6 +3051,7 @@ D_ViolinIIMusicVoice = {                                                       %
         c'8                                                                    %! stirrings_still_flight
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
 
     % [D ViolinIIMusicVoice measure 276 / measure 70]                          %! _comment_measure_numbers
@@ -3048,6 +3080,7 @@ D_ViolinIIMusicVoice = {                                                       %
     c'8                                                                        %! stirrings_still_flight
     ~                                                                          %! TieCorrectionCommand
     ]                                                                          %! stirrings_still_flight
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 7/9 {                                                               %! stirrings_still_flight
 
@@ -3064,7 +3097,9 @@ D_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_flight
+
     }                                                                          %! stirrings_still_flight
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 8/9 {                                                               %! stirrings_still_flight
 
@@ -3088,6 +3123,7 @@ D_ViolinIIMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
         ~                                                                      %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
 
     % [D ViolinIIMusicVoice measure 280 / measure 74]                          %! _comment_measure_numbers
@@ -3103,6 +3139,7 @@ D_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_flight
     \repeatTie                                                                 %! TieCorrectionCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 4/6 {                                                               %! stirrings_still_flight
 
@@ -3128,7 +3165,9 @@ D_ViolinIIMusicVoice = {                                                       %
         :32                                                                    %! IndicatorCommand
         - \espressivo                                                          %! IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 6/7 {                                                               %! stirrings_still_flight
 
@@ -3148,6 +3187,7 @@ D_ViolinIIMusicVoice = {                                                       %
         - \espressivo                                                          %! IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
 
     % [D ViolinIIMusicVoice measure 283 / measure 77]                          %! _comment_measure_numbers
@@ -3164,6 +3204,7 @@ D_ViolinIIMusicVoice = {                                                       %
     :32                                                                        %! IndicatorCommand
     - \espressivo                                                              %! IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 8/10 {                                                              %! stirrings_still_flight
 
@@ -3197,6 +3238,7 @@ D_ViolinIIMusicVoice = {                                                       %
         :32                                                                    %! IndicatorCommand
         - \espressivo                                                          %! IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
 
     % [D ViolinIIMusicVoice measure 285 / measure 79]                          %! _comment_measure_numbers
@@ -3334,8 +3376,10 @@ D_ViolinIIMusicVoice = {                                                       %
 
 
 D_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \D_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -3721,6 +3765,7 @@ D_ViolaMusicVoice = {                                                          %
 
     % [D ViolaMusicVoice measure 252 / measure 46]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 7/12 {                                                              %! stirrings_still_declamation
 
@@ -3738,6 +3783,7 @@ D_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_declamation
+
     }                                                                          %! stirrings_still_declamation
 
     % [D ViolaMusicVoice measure 254 / measure 48]                             %! _comment_measure_numbers
@@ -3781,6 +3827,7 @@ D_ViolaMusicVoice = {                                                          %
 
     % [D ViolaMusicVoice measure 260 / measure 54]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 2/3 {                                                               %! stirrings_still_declamation
 
@@ -3802,6 +3849,7 @@ D_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_declamation
+
     }                                                                          %! stirrings_still_declamation
 
     % [D ViolaMusicVoice measure 262 / measure 56]                             %! _comment_measure_numbers
@@ -3963,6 +4011,7 @@ D_ViolaMusicVoice = {                                                          %
     % [D ViolaMusicVoice measure 274 / measure 68]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_flight
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 6/7 {                                                               %! stirrings_still_flight
 
@@ -3982,6 +4031,7 @@ D_ViolaMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
         ~                                                                      %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
 
     % [D ViolaMusicVoice measure 276 / measure 70]                             %! _comment_measure_numbers
@@ -3992,6 +4042,7 @@ D_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_flight
     \repeatTie                                                                 %! TieCorrectionCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 7/8 {                                                               %! stirrings_still_flight
 
@@ -4027,6 +4078,7 @@ D_ViolaMusicVoice = {                                                          %
         - \espressivo                                                          %! IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
         ]                                                                      %! stirrings_still_flight
+
     }                                                                          %! stirrings_still_flight
 
     % [D ViolaMusicVoice measure 279 / measure 73]                             %! _comment_measure_numbers
@@ -4038,6 +4090,7 @@ D_ViolaMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_flight
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 8/10 {                                                              %! stirrings_still_flight
 
@@ -4062,7 +4115,9 @@ D_ViolaMusicVoice = {                                                          %
         - \espressivo                                                          %! IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 4/5 {                                                               %! stirrings_still_flight
 
@@ -4075,6 +4130,7 @@ D_ViolaMusicVoice = {                                                          %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_flight
+
     }                                                                          %! stirrings_still_flight
 
     % [D ViolaMusicVoice measure 282 / measure 76]                             %! _comment_measure_numbers
@@ -4094,6 +4150,7 @@ D_ViolaMusicVoice = {                                                          %
     - \espressivo                                                              %! IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
     ~                                                                          %! TieCorrectionCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 6/8 {                                                               %! stirrings_still_flight
 
@@ -4111,7 +4168,9 @@ D_ViolaMusicVoice = {                                                          %
         :32                                                                    %! IndicatorCommand
         - \espressivo                                                          %! IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 8/9 {                                                               %! stirrings_still_flight
 
@@ -4142,6 +4201,7 @@ D_ViolaMusicVoice = {                                                          %
         :32                                                                    %! IndicatorCommand
         - \espressivo                                                          %! IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
 
     % [D ViolaMusicVoice measure 285 / measure 79]                             %! _comment_measure_numbers
@@ -4159,6 +4219,7 @@ D_ViolaMusicVoice = {                                                          %
     :32                                                                        %! IndicatorCommand
     - \espressivo                                                              %! IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 7/9 {                                                               %! stirrings_still_flight
 
@@ -4173,6 +4234,7 @@ D_ViolaMusicVoice = {                                                          %
         c'8                                                                    %! stirrings_still_flight
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
+
     }                                                                          %! stirrings_still_flight
 
     % [D ViolaMusicVoice measure 287 / measure 81]                             %! _comment_measure_numbers
@@ -4297,8 +4359,10 @@ D_ViolaMusicVoice = {                                                          %
 
 
 D_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \D_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -4605,6 +4669,7 @@ D_CelloMusicVoice = {                                                          %
 
     % [D CelloMusicVoice measure 243 / measure 37]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
@@ -4660,6 +4725,7 @@ D_CelloMusicVoice = {                                                          %
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
+
     }                                                                          %! stirrings_still_trajectories
 
     % [D CelloMusicVoice measure 245 / measure 39]                             %! _comment_measure_numbers
@@ -4723,6 +4789,7 @@ D_CelloMusicVoice = {                                                          %
 
     % [D CelloMusicVoice measure 252 / measure 46]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 7/12 {                                                              %! stirrings_still_declamation
 
@@ -4740,6 +4807,7 @@ D_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_declamation
+
     }                                                                          %! stirrings_still_declamation
 
     % [D CelloMusicVoice measure 254 / measure 48]                             %! _comment_measure_numbers
@@ -4772,6 +4840,7 @@ D_CelloMusicVoice = {                                                          %
 
     % [D CelloMusicVoice measure 260 / measure 54]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 2/3 {                                                               %! stirrings_still_declamation
 
@@ -4787,6 +4856,7 @@ D_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_declamation
+
     }                                                                          %! stirrings_still_declamation
 
     % [D CelloMusicVoice measure 262 / measure 56]                             %! _comment_measure_numbers
@@ -5109,6 +5179,8 @@ D_CelloMusicVoice = {                                                          %
 
 
 D_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \D_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

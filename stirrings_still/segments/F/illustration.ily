@@ -305,6 +305,7 @@ F_ViolinIMusicVoice = {                                                        %
 
     % [F ViolinIMusicVoice measure 443 / measure 11]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
@@ -332,7 +333,9 @@ F_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/7 {                                                               %! stirrings_still_desynchronization
 
@@ -357,6 +360,7 @@ F_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [F ViolinIMusicVoice measure 446 / measure 14]                           %! _comment_measure_numbers
@@ -366,8 +370,10 @@ F_ViolinIMusicVoice = {                                                        %
 
 
 F_ViolinIMusicStaff = {                                                        %! extern
+
     \context Voice = "ViolinIMusicVoice"                                       %! ScoreTemplate
     \F_ViolinIMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -519,8 +525,10 @@ F_ViolinIIMusicVoice = {                                                       %
 
 
 F_ViolinIIMusicStaff = {                                                       %! extern
+
     \context Voice = "ViolinIIMusicVoice"                                      %! ScoreTemplate
     \F_ViolinIIMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -610,6 +618,7 @@ F_ViolaMusicVoice = {                                                          %
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
@@ -640,7 +649,9 @@ F_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
@@ -668,6 +679,7 @@ F_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [F ViolaMusicVoice measure 446 / measure 14]                             %! _comment_measure_numbers
@@ -677,8 +689,10 @@ F_ViolaMusicVoice = {                                                          %
 
 
 F_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \F_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -761,6 +775,7 @@ F_CelloMusicVoice = {                                                          %
 
     % [F CelloMusicVoice measure 443 / measure 11]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
@@ -782,7 +797,9 @@ F_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
+
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/5 {                                                               %! stirrings_still_desynchronization
 
@@ -801,6 +818,7 @@ F_CelloMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
+
     }                                                                          %! stirrings_still_desynchronization
 
     % [F CelloMusicVoice measure 446 / measure 14]                             %! _comment_measure_numbers
@@ -810,6 +828,8 @@ F_CelloMusicVoice = {                                                          %
 
 
 F_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \F_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern
