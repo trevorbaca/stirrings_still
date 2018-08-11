@@ -121,16 +121,23 @@ time = (
 stirrings_still.time(maker, time)
 
 maker(
-    ('v1', (1, 4)),
-    stirrings_still.clockticks(
-        displace=True,
-        dmask=rmakers.silence([0], 2),
+    ('tutti', (1, 4)),
+    baca.new(
+        stirrings_still.clockticks(
+            displace=True,
+            dmask=rmakers.silence([0], 2),
+            ),
+        match=0,
         ),
-    )
-
-maker(
-    (['v2', 'va', 'vc'], (1, 4)),
-    stirrings_still.clockticks(),
+    baca.new(
+        stirrings_still.clockticks(),
+        match=1,
+        measures=(1, 7),
+        ),
+    baca.new(
+        stirrings_still.clockticks(),
+        match=[2, 3],
+        ),
     )
 
 maker(
@@ -157,7 +164,7 @@ maker(
     )
 
 maker(
-    (['v1', 'v2'], (5, 7)),
+    ('v1', (5, 7)),
     stirrings_still.clockticks(),
     )
 
