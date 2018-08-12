@@ -2182,15 +2182,10 @@ H_ViolinIIMusicVoice = {                                                       %
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
         - \abjad-dashed-line-with-hook                                         %! PiecewiseIndicatorCommand(1)
-        - \baca-text-spanner-left-text "½ clt"                                 %! PiecewiseIndicatorCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-half-clt-markup            %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! PiecewiseIndicatorCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! PiecewiseIndicatorCommand(1)
-        - \tweak staff-padding #10                                             %! PiecewiseIndicatorCommand(1)
-        \startTextSpanOne                                                      %! PiecewiseIndicatorCommand(1)
 
         r4                                                                     %! stirrings_still_clockticks
 
@@ -2217,7 +2212,6 @@ H_ViolinIIMusicVoice = {                                                       %
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
         \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
         <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
-        <> \stopTextSpanOne                                                    %! PiecewiseIndicatorCommand(3)
 
     }                                                                          %! stirrings_still_clockticks
 
