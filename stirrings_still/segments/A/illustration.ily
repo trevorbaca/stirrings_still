@@ -1003,8 +1003,8 @@ A_ViolinIMusicVoice = {                                                        %
     \times 2/3 {                                                               %! stirrings_still_declamation
 
         % [A ViolinIMusicVoice measure 1]                                      %! _comment_measure_numbers
-        \set Staff.shortInstrumentName = \stirrings_still_vn_i                 %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:IndicatorCommand
-        \set Staff.instrumentName = \stirrings_still_violin_i                  %! baca_start_markup:-PARTS:IndicatorCommand
+        \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup          %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:IndicatorCommand
+        \set Staff.instrumentName = \stirrings-still-violin-i-markup           %! baca_start_markup:-PARTS:IndicatorCommand
         \clef "treble"                                                         %! DEFAULT_CLEF:_set_status_tag:attach_defaults
         \once \override Staff.Clef.color = #(x11-color 'DarkViolet)            %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -1023,7 +1023,7 @@ A_ViolinIMusicVoice = {                                                        %
         [                                                                      %! stirrings_still_declamation
         \override Staff.Clef.color = #(x11-color 'violet)                      %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \stirrings_still_vn_i                 %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:IndicatorCommand
+        \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup          %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_declamation
@@ -1240,7 +1240,7 @@ A_ViolinIMusicVoice = {                                                        %
     - \tweak staff-padding #8                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
     - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "slow circles"                              %! PiecewiseIndicatorCommand(1)
+    - \baca-text-spanner-left-markup \stirrings-still-slow-circles-markup      %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -1281,8 +1281,8 @@ A_ViolinIIMusicVoice = {                                                       %
     \times 2/3 {                                                               %! stirrings_still_declamation
 
         % [A ViolinIIMusicVoice measure 1]                                     %! _comment_measure_numbers
-        \set Staff.shortInstrumentName = \stirrings_still_vn_ii                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:IndicatorCommand
-        \set Staff.instrumentName = \stirrings_still_violin_ii                 %! baca_start_markup:-PARTS:IndicatorCommand
+        \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup         %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:IndicatorCommand
+        \set Staff.instrumentName = \stirrings-still-violin-ii-markup          %! baca_start_markup:-PARTS:IndicatorCommand
         \clef "treble"                                                         %! DEFAULT_CLEF:_set_status_tag:attach_defaults
         \once \override Staff.Clef.color = #(x11-color 'DarkViolet)            %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -1301,7 +1301,7 @@ A_ViolinIIMusicVoice = {                                                       %
         [                                                                      %! stirrings_still_declamation
         \override Staff.Clef.color = #(x11-color 'violet)                      %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \stirrings_still_vn_ii                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:IndicatorCommand
+        \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup         %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_declamation
@@ -1518,7 +1518,7 @@ A_ViolinIIMusicVoice = {                                                       %
     - \tweak staff-padding #8                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
     - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "slow circles"                              %! PiecewiseIndicatorCommand(1)
+    - \baca-text-spanner-left-markup \stirrings-still-slow-circles-markup      %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -1559,8 +1559,8 @@ A_ViolaMusicVoice = {                                                          %
     \times 2/3 {                                                               %! stirrings_still_declamation
 
         % [A ViolaMusicVoice measure 1]                                        %! _comment_measure_numbers
-        \set Staff.shortInstrumentName = \stirrings_still_va                   %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:IndicatorCommand
-        \set Staff.instrumentName = \stirrings_still_viola                     %! baca_start_markup:-PARTS:IndicatorCommand
+        \set Staff.shortInstrumentName = \stirrings-still-va-markup            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:IndicatorCommand
+        \set Staff.instrumentName = \stirrings-still-viola-markup              %! baca_start_markup:-PARTS:IndicatorCommand
         \clef "alto"                                                           %! DEFAULT_CLEF:_set_status_tag:attach_defaults
         \once \override Staff.Clef.color = #(x11-color 'DarkViolet)            %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -1579,7 +1579,7 @@ A_ViolaMusicVoice = {                                                          %
         [                                                                      %! stirrings_still_declamation
         \override Staff.Clef.color = #(x11-color 'violet)                      %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \stirrings_still_va                   %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:IndicatorCommand
+        \set Staff.shortInstrumentName = \stirrings-still-va-markup            %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_declamation
@@ -1796,7 +1796,7 @@ A_ViolaMusicVoice = {                                                          %
     - \tweak staff-padding #8                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
     - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "slow circles"                              %! PiecewiseIndicatorCommand(1)
+    - \baca-text-spanner-left-markup \stirrings-still-slow-circles-markup      %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -1834,8 +1834,8 @@ A_ViolaMusicStaff = {                                                          %
 A_CelloMusicVoice = {                                                          %! extern
 
     % [A CelloMusicVoice measure 1]                                            %! _comment_measure_numbers
-    \set Staff.shortInstrumentName = \stirrings_still_vc                       %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:IndicatorCommand
-    \set Staff.instrumentName = \stirrings_still_cello                         %! baca_start_markup:-PARTS:IndicatorCommand
+    \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:IndicatorCommand
+    \set Staff.instrumentName = \stirrings-still-cello-markup                  %! baca_start_markup:-PARTS:IndicatorCommand
     \clef "bass"                                                               %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -1846,7 +1846,7 @@ A_CelloMusicVoice = {                                                          %
     ^ \baca-explicit-indicator-markup "[“Vc.”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \stirrings_still_vc                       %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:IndicatorCommand
+    \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:IndicatorCommand
 
     % [A CelloMusicVoice measure 2]                                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
@@ -2039,7 +2039,7 @@ A_CelloMusicVoice = {                                                          %
     - \tweak staff-padding #8                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
     - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "slow circles"                              %! PiecewiseIndicatorCommand(1)
+    - \baca-text-spanner-left-markup \stirrings-still-slow-circles-markup      %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)

@@ -99,14 +99,14 @@ maker(
     'v1',
     baca.suite(
         stirrings_still.margin_markup('Vn. I'),
-        baca.start_markup(r'\stirrings_still_violin_i', literal=True),
+        baca.start_markup(r'\stirrings-still-violin-i-markup', literal=True),
         ),
     )
 maker(
     'v2',
     baca.suite(
         stirrings_still.margin_markup('Vn. II'),
-        baca.start_markup(r'\stirrings_still_violin_ii', literal=True),
+        baca.start_markup(r'\stirrings-still-violin-ii-markup', literal=True),
         ),
     )
 
@@ -114,7 +114,7 @@ maker(
     'va',
     baca.suite(
         stirrings_still.margin_markup('Va.'),
-        baca.start_markup(r'\stirrings_still_viola', literal=True),
+        baca.start_markup(r'\stirrings-still-viola-markup', literal=True),
         ),
     )
 
@@ -122,7 +122,7 @@ maker(
     'vc',
     baca.suite(
         stirrings_still.margin_markup('Vc.'),
-        baca.start_markup(r'\stirrings_still_cello', literal=True),
+        baca.start_markup(r'\stirrings-still-cello-markup', literal=True),
         ),
     )
 
@@ -158,7 +158,7 @@ maker(
         lilypond_id=1,
         ),
     baca.text_spanner(
-        r'slow circles =|',
+        r'\stirrings-still-slow-circles-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,

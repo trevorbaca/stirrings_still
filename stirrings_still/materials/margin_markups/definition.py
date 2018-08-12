@@ -5,18 +5,18 @@ import baca
 margin_markups = abjad.OrderedDict([
     (
         'Va.',
-        abjad.MarginMarkup(markup=r'\stirrings_still_va'),
+        abjad.MarginMarkup(markup=r'\stirrings-still-va-markup'),
         ),
     (
         'Vc.',
-        abjad.MarginMarkup(markup=r'\stirrings_still_vc'),
+        abjad.MarginMarkup(markup=r'\stirrings-still-vc-markup'),
         ),
     (
         'Vn. I',
-        abjad.MarginMarkup(markup=r'\stirrings_still_vn_i'),
+        abjad.MarginMarkup(markup=r'\stirrings-still-vn-i-markup'),
         ),
     (
         'Vn. II',
-        abjad.MarginMarkup(markup=r'\stirrings_still_vn_ii'),
+        abjad.MarginMarkup(markup=r'\stirrings-still-vn-ii-markup'),
         ),
     ])
