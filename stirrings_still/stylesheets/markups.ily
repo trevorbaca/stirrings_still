@@ -1,11 +1,21 @@
-stirrings_still_violin_i = \markup { \hcenter-in #14 "Violin I" }
-stirrings_still_vn_i = \markup { \hcenter-in #12 "Vn. I" }
+\include "/Users/trevorbaca/baca/lilypond/baca.ily"
 
-stirrings_still_violin_ii = \markup { \hcenter-in #14 "Violin II" }
-stirrings_still_vn_ii = \markup { \hcenter-in #12 "Vn. II" }
+stirrings-still-violin-i-markup = \markup { \hcenter-in #14 "Violin I" }
+stirrings-still-vn-i-markup = \markup { \hcenter-in #12 "Vn. I" }
 
-stirrings_still_viola = \markup { \hcenter-in #14 "Viola" }
-stirrings_still_va = \markup { \hcenter-in #12 "Va." }
+stirrings-still-violin-ii-markup = \markup { \hcenter-in #14 "Violin II" }
+stirrings-still-vn-ii-markup = \markup { \hcenter-in #12 "Vn. II" }
 
-stirrings_still_cello = \markup { \hcenter-in #14 "Cello" }
-stirrings_still_vc = \markup { \hcenter-in #12 "Vc." }
+stirrings-still-viola-markup = \markup { \hcenter-in #14 "Viola" }
+stirrings-still-va-markup = \markup { \hcenter-in #12 "Va." }
+
+stirrings-still-cello-markup = \markup { \hcenter-in #14 "Cello" }
+stirrings-still-vc-markup = \markup { \hcenter-in #12 "Vc." }
+
+stirrings-still-circles-markup = \markup \concat {
+    \baca-circle-bowing-markup \hspace #1.25
+    }
+
+stirrings-still-slow-circles-markup = \markup \concat {
+    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 (slow)
+    }

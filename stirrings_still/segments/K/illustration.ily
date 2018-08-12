@@ -787,7 +787,7 @@ K_ViolinIMusicVoice = {                                                        %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [K ViolinIMusicVoice measure 546 / measure 1]                        %! _comment_measure_numbers
-        \set Staff.shortInstrumentName = \stirrings_still_vn_i                 %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     %%% \once \override DynamicText.self-alignment-X = #left                   %! -SEGMENT:baca_dynamic_text_left:OverrideCommand(1)
     %%% \once \override DynamicText.X-extent = #'(0 . 0)                       %! -SEGMENT:baca_dynamic_text_left:OverrideCommand(1)
         \override TextScript.parent-alignment-X = #0                           %! baca_text_script_parent_center:OverrideCommand(1)
@@ -818,7 +818,7 @@ K_ViolinIMusicVoice = {                                                        %
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \stirrings_still_vn_i                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+        \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
@@ -1671,7 +1671,7 @@ K_ViolinIIMusicVoice = {                                                       %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [K ViolinIIMusicVoice measure 546 / measure 1]                       %! _comment_measure_numbers
-        \set Staff.shortInstrumentName = \stirrings_still_vn_ii                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup         %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     %%% \once \override DynamicText.self-alignment-X = #left                   %! -SEGMENT:baca_dynamic_text_left:OverrideCommand(1)
     %%% \once \override DynamicText.X-extent = #'(0 . 0)                       %! -SEGMENT:baca_dynamic_text_left:OverrideCommand(1)
         \override TextScript.parent-alignment-X = #0                           %! baca_text_script_parent_center:OverrideCommand(1)
@@ -1702,7 +1702,7 @@ K_ViolinIIMusicVoice = {                                                       %
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \stirrings_still_vn_ii                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+        \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
@@ -2611,7 +2611,7 @@ K_ViolinIIMusicStaff = {                                                       %
 K_ViolaMusicVoice = {                                                          %! extern
 
     % [K ViolaMusicVoice measure 546 / measure 1]                              %! _comment_measure_numbers
-    \set Staff.shortInstrumentName = \stirrings_still_va                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -2646,7 +2646,7 @@ K_ViolaMusicVoice = {                                                          %
     \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
     \glissando                                                                 %! SpannerCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \stirrings_still_va                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+    \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
@@ -2963,7 +2963,7 @@ K_CelloMusicVoice = {                                                          %
     \times 6/5 {                                                               %! stirrings_still_trajectories
 
         % [K CelloMusicVoice measure 546 / measure 1]                          %! _comment_measure_numbers
-        \set Staff.shortInstrumentName = \stirrings_still_vc                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \set Staff.shortInstrumentName = \stirrings-still-vc-markup            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     %%% \once \override DynamicText.self-alignment-X = #left                   %! -SEGMENT:baca_dynamic_text_left:OverrideCommand(1)
     %%% \once \override DynamicText.X-extent = #'(0 . 0)                       %! -SEGMENT:baca_dynamic_text_left:OverrideCommand(1)
         \override TextScript.parent-alignment-X = #0                           %! baca_text_script_parent_center:OverrideCommand(1)
@@ -2994,7 +2994,7 @@ K_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
         \glissando                                                             %! SpannerCommand
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \stirrings_still_vc                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+        \set Staff.shortInstrumentName = \stirrings-still-vc-markup            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
