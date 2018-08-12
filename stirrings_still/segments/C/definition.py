@@ -363,7 +363,7 @@ maker(
     baca.dynamic('mp'),
     baca.markup('[clockticks]'),
     baca.text_spanner(
-        '1/2 clt =|',
+        '½ clt =|',
         abjad.tweak(1.75).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,

@@ -401,7 +401,7 @@ J_ViolinIIMusicVoice = {                                                       %
         c'8                                                                    %! stirrings_still_clockticks
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \abjad-dashed-line-with-hook                                         %! PiecewiseIndicatorCommand(1)
-        - \baca-text-spanner-left-text "1/2 clt"                               %! PiecewiseIndicatorCommand(1)
+        - \baca-text-spanner-left-text "½ clt"                                 %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #2.5                              %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)

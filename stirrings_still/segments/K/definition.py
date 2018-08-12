@@ -64,7 +64,7 @@ stirrings_still.time(maker, time)
 maker(
     ('tutti', (1, 2)),
     baca.dynamic('pp'),
-    baca.markup('1/2 clt', boxed=True),
+    baca.markup('½ clt', boxed=True),
     baca.new(
         stirrings_still.bcps(rotation=0),
         stirrings_still.trajectories('B', 0, 0),
@@ -170,7 +170,7 @@ maker(
     (['v1', 'v2', 'vc'], (5, 8)),
     baca.dynamic('pp'),
     baca.dynamic_text_left(),
-    baca.markup('1/2 clt', boxed=True),
+    baca.markup('½ clt', boxed=True),
     baca.new(
         stirrings_still.bcps(rotation=0),
         match=0,

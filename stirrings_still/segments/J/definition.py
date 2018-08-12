@@ -64,7 +64,7 @@ maker(
     ('v2', 3),
     baca.dynamic('mp'),
     baca.text_spanner(
-        '1/2 clt =|',
+        '½ clt =|',
         abjad.tweak(2.5).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         leak=True,

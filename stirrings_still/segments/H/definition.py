@@ -127,7 +127,7 @@ maker(
 maker(
     ('vc', 6),
     baca.dynamic('p'),
-    baca.markup('1/2 clt', boxed=True),
+    baca.markup('½ clt', boxed=True),
     baca.script_staff_padding(6),
     baca.text_spanner_staff_padding(3),
     baca.tuplet_bracket_staff_padding(1),
@@ -405,7 +405,7 @@ maker(
     baca.alternate_bow_strokes(),
     baca.dynamic('mp', redundant=True),
     baca.text_spanner(
-        '1/2 clt =|',
+        '½ clt =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         leak=True,
@@ -537,7 +537,7 @@ maker(
 maker(
     ('vc', [(46, 50), 52]),
     baca.dls_staff_padding(5),
-    baca.markup('1/2 clt', boxed=True),
+    baca.markup('½ clt', boxed=True),
     baca.new(
         stirrings_still.bcps(rotation=-4),
         match=0,

@@ -1830,7 +1830,7 @@ E_ViolinIMusicVoice = {                                                        %
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "1/2 clt"                                   %! PiecewiseIndicatorCommand(1)
+    - \baca-text-spanner-left-text "½ clt"                                     %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #7                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -2434,7 +2434,7 @@ E_ViolinIIMusicVoice = {                                                       %
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "1/2 clt"                                   %! PiecewiseIndicatorCommand(1)
+    - \baca-text-spanner-left-text "½ clt"                                     %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #7                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
@@ -3039,7 +3039,7 @@ E_ViolaMusicVoice = {                                                          %
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "1/2 clt"                                   %! PiecewiseIndicatorCommand(1)
+    - \baca-text-spanner-left-text "½ clt"                                     %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
     - \tweak staff-padding #7                                                  %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
