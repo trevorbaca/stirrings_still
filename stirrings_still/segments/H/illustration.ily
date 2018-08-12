@@ -2182,7 +2182,7 @@ H_ViolinIIMusicVoice = {                                                       %
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
         - \abjad-dashed-line-with-hook                                         %! PiecewiseIndicatorCommand(1)
-        - \baca-text-spanner-left-text "1/2 clt"                               %! PiecewiseIndicatorCommand(1)
+        - \baca-text-spanner-left-text "½ clt"                                 %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! PiecewiseIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! PiecewiseIndicatorCommand(1)
         \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
@@ -3419,7 +3419,7 @@ H_CelloMusicVoice = {                                                          %
             \override                                                          %! baca_markup:IndicatorCommand
                 #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
                 \box                                                           %! baca_markup:IndicatorCommand
-                    "1/2 clt"                                                  %! baca_markup:IndicatorCommand
+                    "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad-solid-line-with-arrow                                         %! BowContactPointCommand
@@ -3743,7 +3743,7 @@ H_CelloMusicVoice = {                                                          %
             \override                                                          %! baca_markup:IndicatorCommand
                 #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
                 \box                                                           %! baca_markup:IndicatorCommand
-                    "1/2 clt"                                                  %! baca_markup:IndicatorCommand
+                    "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -4060,7 +4060,7 @@ H_CelloMusicVoice = {                                                          %
             \override                                                          %! baca_markup:IndicatorCommand
                 #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
                 \box                                                           %! baca_markup:IndicatorCommand
-                    "1/2 clt"                                                  %! baca_markup:IndicatorCommand
+                    "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
         \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
         - \abjad-solid-line-with-arrow                                         %! BowContactPointCommand

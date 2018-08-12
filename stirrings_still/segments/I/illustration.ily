@@ -886,7 +886,7 @@ I_CelloMusicVoice = {                                                          %
                     \override                                                  %! PiecewiseIndicatorCommand(1)
                         #'(box-padding . 0.5)                                  %! PiecewiseIndicatorCommand(1)
                         \box                                                   %! PiecewiseIndicatorCommand(1)
-                            "1/2 clt"                                          %! PiecewiseIndicatorCommand(1)
+                            "½ clt"                                            %! PiecewiseIndicatorCommand(1)
                 \hspace                                                        %! PiecewiseIndicatorCommand(1)
                     #0.5                                                       %! PiecewiseIndicatorCommand(1)
             }                                                                  %! PiecewiseIndicatorCommand(1)

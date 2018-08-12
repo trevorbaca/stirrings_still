@@ -104,7 +104,7 @@ maker(
         piece_selector=baca.cmgroups([5, 4, 2]),
         ),
     baca.text_spanner(
-        '1/2 clt =|',
+        '½ clt =|',
         abjad.tweak(12).staff_padding,
         bookend=False,
         boxed=True,

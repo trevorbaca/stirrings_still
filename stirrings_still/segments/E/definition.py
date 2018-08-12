@@ -96,7 +96,7 @@ maker(
     (['v1', 'v2', 'va'], (1, 2)),
     baca.dynamic('p', redundant=True),
     baca.text_spanner(
-        '1/2 clt =|',
+        '½ clt =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         leak=True,
