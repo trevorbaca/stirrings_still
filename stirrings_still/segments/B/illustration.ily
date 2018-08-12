@@ -1232,7 +1232,7 @@ B_ViolinIMusicVoice = {                                                        %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        \baca_mf_sub                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-mf-sub                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
 
         r4                                                                     %! stirrings_still_clockticks
@@ -2391,7 +2391,7 @@ B_ViolinIIMusicVoice = {                                                       %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        \baca_mf_sub                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-mf-sub                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
 
         r4                                                                     %! stirrings_still_clockticks
@@ -3603,7 +3603,7 @@ B_ViolaMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        \baca_mf_sub                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-mf-sub                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
 
         r4                                                                     %! stirrings_still_clockticks
@@ -4424,7 +4424,7 @@ B_CelloMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        \baca_mf_sub                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-mf-sub                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
 
         r4                                                                     %! stirrings_still_clockticks

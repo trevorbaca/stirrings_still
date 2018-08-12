@@ -115,7 +115,7 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (10, 11)),
-    baca.dynamic('appena_udibile'),
+    baca.dynamic('appena-udibile'),
     baca.markup(
         baca.Markup('sustained double stops').with_color('magenta'),
         ),

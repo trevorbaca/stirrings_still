@@ -569,7 +569,7 @@ F_ViolaMusicVoice = {                                                          %
     % [F ViolaMusicVoice measure 434 / measure 2]                              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'1                                                                        %! stirrings_still_tailpiece
-    \baca_effort_mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+    \baca-effort-mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \glissando                                                                 %! SpannerCommand
 
     % [F ViolaMusicVoice measure 435 / measure 3]                              %! _comment_measure_numbers

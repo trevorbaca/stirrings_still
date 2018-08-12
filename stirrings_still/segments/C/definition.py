@@ -526,7 +526,7 @@ maker(
 maker(
     (['v1', 'v2', 'va'], (60, 61)),
     baca.breathe(),
-    baca.dynamic('appena_udibile'),
+    baca.dynamic('appena-udibile'),
     baca.text_spanner(
         '[double-stop field] =|',
         abjad.tweak(2).bound_details__right__padding,
