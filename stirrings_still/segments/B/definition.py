@@ -168,7 +168,7 @@ maker(
 
 maker(
     ('tutti', 5),
-    baca.dynamic('mf_sub'),
+    baca.dynamic('mf-sub'),
     )
 
 maker(

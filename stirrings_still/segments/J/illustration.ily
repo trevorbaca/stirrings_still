@@ -272,7 +272,7 @@ J_ViolinIMusicVoice = {                                                        %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_urtext_field
-    \baca_appena_udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "[double-stop cont.]" }                                        %! baca_markup:IndicatorCommand
@@ -296,7 +296,7 @@ J_ViolinIMusicVoice = {                                                        %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
-    \baca_appena_udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "[double-stop cont.]" }                                        %! baca_markup:IndicatorCommand
 
     % [J ViolinIMusicVoice measure 534 / measure 5]                            %! _comment_measure_numbers
@@ -379,7 +379,7 @@ J_ViolinIIMusicVoice = {                                                       %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_urtext_field
-    \baca_appena_udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "[double-stop cont.]" }                                        %! baca_markup:IndicatorCommand
@@ -434,7 +434,7 @@ J_ViolinIIMusicVoice = {                                                       %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
-    \baca_appena_udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "[double-stop cont.]" }                                        %! baca_markup:IndicatorCommand
 
     % [J ViolinIIMusicVoice measure 534 / measure 5]                           %! _comment_measure_numbers
@@ -521,7 +521,7 @@ J_ViolaMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_urtext_field
-    \baca_appena_udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "[double-stop cont.]" }                                        %! baca_markup:IndicatorCommand
@@ -545,7 +545,7 @@ J_ViolaMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_urtext_field
-    \baca_appena_udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "[double-stop cont.]" }                                        %! baca_markup:IndicatorCommand
 
     % [J ViolaMusicVoice measure 534 / measure 5]                              %! _comment_measure_numbers

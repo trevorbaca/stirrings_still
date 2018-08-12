@@ -111,7 +111,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='ViolaMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='\\baca_effort_mp',
+                                value='\\baca-effort-mp',
                                 ),
                             ],
                         ),

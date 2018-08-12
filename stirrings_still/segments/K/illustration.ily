@@ -913,7 +913,7 @@ K_ViolinIMusicVoice = {                                                        %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \baca_effort_f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "hair: circles (each as wide as poss.)" }                  %! baca_markup:IndicatorCommand
         - \abjad-dashed-line-with-arrow                                        %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.left.text \markup {                             %! PiecewiseIndicatorCommand(1)
@@ -1776,7 +1776,7 @@ K_ViolinIIMusicVoice = {                                                       %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \baca_effort_f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "hair: circles (each as wide as poss.)" }                  %! baca_markup:IndicatorCommand
         - \abjad-dashed-line-with-arrow                                        %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.left.text \markup {                             %! PiecewiseIndicatorCommand(1)
@@ -2711,7 +2711,7 @@ K_ViolaMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-    \baca_effort_f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "hair: circles (each as wide as poss.)" }                      %! baca_markup:IndicatorCommand
     - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.left.text \markup {                                 %! PiecewiseIndicatorCommand(1)
@@ -2784,7 +2784,7 @@ K_ViolaMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'2                                                                        %! baca_make_repeat_tied_notes
-    \baca_effort_mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-effort-mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
         \override                                                              %! baca_markup:IndicatorCommand
             #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
@@ -3084,7 +3084,7 @@ K_CelloMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \baca_effort_f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "hair: circles (each as wide as poss.)" }                  %! baca_markup:IndicatorCommand
         - \abjad-dashed-line-with-arrow                                        %! PiecewiseIndicatorCommand(1)
         - \tweak bound-details.left.text \markup {                             %! PiecewiseIndicatorCommand(1)

@@ -30,7 +30,7 @@ stirrings_still.time(maker, time)
 
 maker(
     ('va', (1, 34)),
-    baca.dynamic('pp_sempre'),
+    baca.dynamic('pp-sempre'),
     baca.make_repeat_tied_notes(),
     baca.pitch('Bb2'),
     )

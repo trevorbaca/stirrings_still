@@ -1239,7 +1239,7 @@ C_ViolinIMusicVoice = {                                                        %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \baca_effort_ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup { "maximally tight crunch circles: grind at talon" }         %! baca_markup:IndicatorCommand
@@ -2286,7 +2286,7 @@ C_ViolinIMusicVoice = {                                                        %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_urtext_field
-    \baca_appena_udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
     - \baca-text-spanner-left-text "[double-stop field]"                       %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #2                                    %! PiecewiseIndicatorCommand(1)
@@ -2602,7 +2602,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-    \baca_effort_ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "maximally tight crunch circles: grind at talon" }             %! baca_markup:IndicatorCommand
@@ -3517,7 +3517,7 @@ C_ViolinIIMusicVoice = {                                                       %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_urtext_field
-    \baca_appena_udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
     - \baca-text-spanner-left-text "[double-stop field]"                       %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #2                                    %! PiecewiseIndicatorCommand(1)
@@ -3788,7 +3788,7 @@ C_ViolaMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \baca_effort_ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \baca-reapplied-indicator-markup "[“Va.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“Viola”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup { "maximally tight crunch circles: grind at talon" }         %! baca_markup:IndicatorCommand
@@ -4913,7 +4913,7 @@ C_ViolaMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_urtext_field
-    \baca_appena_udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
     - \baca-text-spanner-left-text "[double-stop field]"                       %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #2                                    %! PiecewiseIndicatorCommand(1)
@@ -5250,7 +5250,7 @@ C_CelloMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \baca_effort_ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \baca-reapplied-indicator-markup "[“Vc.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“Cello”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup { "maximally tight crunch circles: grind at talon" }         %! baca_markup:IndicatorCommand

@@ -531,7 +531,7 @@ I_ViolinIMusicVoice = {                                                        %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
-    \baca_appena_udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
         \with-color                                                            %! baca_markup:IndicatorCommand
             #magenta                                                           %! baca_markup:IndicatorCommand
@@ -700,7 +700,7 @@ I_ViolinIIMusicVoice = {                                                       %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
-    \baca_appena_udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
         \with-color                                                            %! baca_markup:IndicatorCommand
             #magenta                                                           %! baca_markup:IndicatorCommand
@@ -827,7 +827,7 @@ I_ViolaMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_urtext_field
-    \baca_appena_udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
         \with-color                                                            %! baca_markup:IndicatorCommand
             #magenta                                                           %! baca_markup:IndicatorCommand
