@@ -110,8 +110,8 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='ViolaMusicVoice',
-                                prototype='abjad.Dynamic',
-                                value='p',
+                                prototype='abjad.DynamicTrend',
+                                value='>o',
                                 ),
                             ],
                         ),
