@@ -142,7 +142,13 @@ maker(
     )
 
 maker(
-    ('tutti', (1, 4)),
+    #('tutti', (1, 4)),
+    ([
+        ('v1', [(1, 7), (14, 24)]),
+        ('v2', [(1, 7), (12, 17)]),
+        ('va', (1, 5)),
+        ('vc', (1, 5)),
+        ]),
     baca.alternate_bow_strokes(),
     baca.dynamic('mp'),
     baca.text_spanner(
