@@ -130,19 +130,22 @@ maker(
         match=0,
         ),
     baca.new(
-        stirrings_still.clockticks(),
+        stirrings_still.clockticks(
+            dmask=rmakers.silence([-1]),
+            ),
         match=1,
         measures=(1, 7),
         ),
     baca.new(
-        stirrings_still.clockticks(),
+        stirrings_still.clockticks(
+            dmask=rmakers.silence([-1]),
+            ),
         match=[2, 3],
         measures=(1, 5),
         ),
     )
 
 maker(
-    #('tutti', (1, 4)),
     ([
         ('v1', [(1, 7), (14, 24)]),
         ('v2', [(1, 7), (12, 17)]),
@@ -164,7 +167,9 @@ maker(
 
 maker(
     ('v1', (5, 7)),
-    stirrings_still.clockticks(),
+    stirrings_still.clockticks(
+        dmask=rmakers.silence([-1]),
+        ),
     )
 
 maker(
@@ -205,17 +210,34 @@ maker(
 
 maker(
     ('v1', (14, 24)),
-    stirrings_still.clockticks(),
+    baca.new(
+        stirrings_still.clockticks(),
+        measures=(14, 15),
+        ),
+    baca.new(
+        stirrings_still.clockticks(),
+        measures=(16, 17),
+        ),
+    baca.new(
+        stirrings_still.clockticks(
+            dmask=rmakers.silence([-1]),
+            ),
+        measures=(18, 24),
+        ),
     )
 
 maker(
     ('v2', (12, 25)),
     baca.new(
         stirrings_still.clockticks(),
-        measures=(12, 15),
+        measures=(12, 13),
         ),
     baca.new(
-        stirrings_still.clockticks(encroach=True),
+        stirrings_still.clockticks(),
+        measures=(14, 15),
+        ),
+    baca.new(
+        stirrings_still.clockticks(),
         measures=(16, 17),
         ),
     baca.new(

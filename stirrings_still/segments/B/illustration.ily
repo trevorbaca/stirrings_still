@@ -1323,20 +1323,12 @@ B_ViolinIMusicVoice = {                                                        %
 
     }                                                                          %! stirrings_still_clockticks
 
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r8                                                                     %! stirrings_still_clockticks
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-        \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
-        \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
-        <> \stopTextSpan                                                       %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
-
-    }                                                                          %! stirrings_still_clockticks
+    r8                                                                         %! stirrings_still_clockticks
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \revert TupletBracket.staff-padding                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
+    \revert TupletNumber.text                                                  %! baca_tuplet_number_denominator:OverrideCommand(2)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
     \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
@@ -1432,323 +1424,335 @@ B_ViolinIMusicVoice = {                                                        %
 
     }                                                                          %! stirrings_still_clockticks
 
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        % [B ViolinIMusicVoice measure 83 / measure 20]                        %! _comment_measure_numbers
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        % [B ViolinIMusicVoice measure 84 / measure 21]                        %! _comment_measure_numbers
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        % [B ViolinIMusicVoice measure 85 / measure 22]                        %! _comment_measure_numbers
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        % [B ViolinIMusicVoice measure 86 / measure 23]                        %! _comment_measure_numbers
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r4                                                                     %! stirrings_still_clockticks
-
-    }                                                                          %! stirrings_still_clockticks
-
     \tweak edge-height #'(0.7 . 0)                                             %! stirrings_still_clockticks
-    \times 8/9 {                                                               %! stirrings_still_clockticks
+    \times 4/7 {                                                               %! stirrings_still_clockticks
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'32                                                                   %! stirrings_still_clockticks
+        c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
 
-        r16                                                                    %! stirrings_still_clockticks
-        \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
-        \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
-        <> \stopTextSpan                                                       %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
+        \tweak edge-height #'(0.7 . 0)
+        \times 2/3 {
+
+            r4                                                                 %! stirrings_still_clockticks
+
+        }
 
     }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        % [B ViolinIMusicVoice measure 79 / measure 16]                        %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_clockticks
+    \tweak edge-height #'(0.7 . 0)                                             %! stirrings_still_clockticks
+    \times 1/1 {                                                               %! stirrings_still_clockticks
+
+        \tweak edge-height #'(0.7 . 0)
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'16                                                               %! stirrings_still_clockticks
+            - \upbow                                                           %! baca_alternate_bow_strokes:IndicatorCommand
+
+        }
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        % [B ViolinIMusicVoice measure 81 / measure 18]                        %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        % [B ViolinIMusicVoice measure 82 / measure 19]                        %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        % [B ViolinIMusicVoice measure 87 / measure 24]                        %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    \times 2/3 {                                                               %! stirrings_still_clockticks
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! stirrings_still_clockticks
+        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
+
+        r4                                                                     %! stirrings_still_clockticks
+
+    }                                                                          %! stirrings_still_clockticks
+
+    r8                                                                         %! stirrings_still_clockticks
+    \revert TupletBracket.staff-padding                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
+    \revert TupletNumber.text                                                  %! baca_tuplet_number_denominator:OverrideCommand(2)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
     \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
@@ -2556,20 +2560,12 @@ B_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! stirrings_still_clockticks
 
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_clockticks
-        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r8                                                                     %! stirrings_still_clockticks
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-        \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
-        \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
-        <> \stopTextSpan                                                       %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
-
-    }                                                                          %! stirrings_still_clockticks
+    r8                                                                         %! stirrings_still_clockticks
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \revert TupletBracket.staff-padding                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
+    \revert TupletNumber.text                                                  %! baca_tuplet_number_denominator:OverrideCommand(2)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
     \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
@@ -2642,18 +2638,25 @@ B_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! stirrings_still_clockticks
 
-    \times 2/3 {                                                               %! stirrings_still_clockticks
+    \tweak edge-height #'(0.7 . 0)                                             %! stirrings_still_clockticks
+    \times 4/7 {                                                               %! stirrings_still_clockticks
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
 
-        r4                                                                     %! stirrings_still_clockticks
+        \tweak edge-height #'(0.7 . 0)
+        \times 2/3 {
+
+            r4                                                                 %! stirrings_still_clockticks
+
+        }
 
     }                                                                          %! stirrings_still_clockticks
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
+        % [B ViolinIIMusicVoice measure 77 / measure 14]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
@@ -2694,6 +2697,7 @@ B_ViolinIIMusicVoice = {                                                       %
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
+        % [B ViolinIIMusicVoice measure 78 / measure 15]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
@@ -2703,13 +2707,18 @@ B_ViolinIIMusicVoice = {                                                       %
     }                                                                          %! stirrings_still_clockticks
 
     \tweak edge-height #'(0.7 . 0)                                             %! stirrings_still_clockticks
-    \times 8/9 {                                                               %! stirrings_still_clockticks
+    \times 4/7 {                                                               %! stirrings_still_clockticks
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'32                                                                   %! stirrings_still_clockticks
+        c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
 
-        r16                                                                    %! stirrings_still_clockticks
+        \tweak edge-height #'(0.7 . 0)
+        \times 2/3 {
+
+            r4                                                                 %! stirrings_still_clockticks
+
+        }
 
     }                                                                          %! stirrings_still_clockticks
 
@@ -2717,63 +2726,67 @@ B_ViolinIIMusicVoice = {                                                       %
 
         % [B ViolinIIMusicVoice measure 79 / measure 16]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_clockticks
+        c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
 
-        r8                                                                     %! stirrings_still_clockticks
+        r4                                                                     %! stirrings_still_clockticks
 
     }                                                                          %! stirrings_still_clockticks
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_clockticks
+        c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
 
-        r8                                                                     %! stirrings_still_clockticks
+        r4                                                                     %! stirrings_still_clockticks
 
     }                                                                          %! stirrings_still_clockticks
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_clockticks
+        c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
 
-        r8                                                                     %! stirrings_still_clockticks
+        r4                                                                     %! stirrings_still_clockticks
 
     }                                                                          %! stirrings_still_clockticks
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_clockticks
+        c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
 
-        r8                                                                     %! stirrings_still_clockticks
+        r4                                                                     %! stirrings_still_clockticks
 
     }                                                                          %! stirrings_still_clockticks
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! stirrings_still_clockticks
+        c'8                                                                    %! stirrings_still_clockticks
         - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
 
-        r8                                                                     %! stirrings_still_clockticks
+        r4                                                                     %! stirrings_still_clockticks
 
     }                                                                          %! stirrings_still_clockticks
 
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_clockticks
     \tweak edge-height #'(0.7 . 0)                                             %! stirrings_still_clockticks
-    \times 8/9 {                                                               %! stirrings_still_clockticks
+    \times 1/1 {                                                               %! stirrings_still_clockticks
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'32                                                                   %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
+        \tweak edge-height #'(0.7 . 0)
+        \times 2/3 {
 
-        r64                                                                    %! stirrings_still_clockticks
-        \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
-        \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'16                                                               %! stirrings_still_clockticks
+            - \downbow                                                         %! baca_alternate_bow_strokes:IndicatorCommand
+            \revert TupletBracket.staff-padding                                %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
+            \revert TupletNumber.text                                          %! baca_tuplet_number_denominator:OverrideCommand(2)
+
+        }
 
     }                                                                          %! stirrings_still_clockticks
 
@@ -3739,17 +3752,9 @@ B_ViolaMusicVoice = {                                                          %
 
     }                                                                          %! stirrings_still_clockticks
 
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r8                                                                     %! stirrings_still_clockticks
-        \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
-        \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
-
-    }                                                                          %! stirrings_still_clockticks
+    r8                                                                         %! stirrings_still_clockticks
+    \revert TupletBracket.staff-padding                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
+    \revert TupletNumber.text                                                  %! baca_tuplet_number_denominator:OverrideCommand(2)
 
     % [B ViolaMusicVoice measure 69 / measure 6]                               %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4563,21 +4568,12 @@ B_CelloMusicVoice = {                                                          %
 
     }                                                                          %! stirrings_still_clockticks
 
-    \times 2/3 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r8                                                                     %! stirrings_still_clockticks
-        \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
-        \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
-
-    }                                                                          %! stirrings_still_clockticks
+    r8                                                                         %! stirrings_still_clockticks
+    \revert TupletBracket.staff-padding                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
+    \revert TupletNumber.text                                                  %! baca_tuplet_number_denominator:OverrideCommand(2)
 
     % [B CelloMusicVoice measure 69 / measure 6]                               %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)

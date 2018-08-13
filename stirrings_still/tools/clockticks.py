@@ -29,9 +29,13 @@ def clockticks(*, displace=False, dmask=None, encroach=False):
             tuplet_ratios = [(1, -2)]
         return baca.rhythm(
             division_expression=baca.split_by_durations([(1, 4)]),
-            rhythm_maker=rmakers.TupletRhythmMaker(
+            rhythm_maker=rmakers.TaleaRhythmMaker(
                 division_masks=dmask,
+                extra_counts_per_division=[1],
                 tag=tag,
-                tuplet_ratios=tuplet_ratios,
+                talea=rmakers.Talea(
+                    counts=[1, -2],
+                    denominator=8,
+                    ),
                 ),
             )
