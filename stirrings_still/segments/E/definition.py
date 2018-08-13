@@ -99,8 +99,8 @@ maker(
         r'\baca-damp-half-clt-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
-        leak=True,
         bookend=False,
+        selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.continuous_tremolo(),
     )
@@ -134,7 +134,7 @@ maker(
         '[grid-to-trajectory] =|',
         abjad.tweak(3.25).bound_details__right__padding,
         bookend=False,
-        leak=True,
+        selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.grid_to_trajectory(),
     )

@@ -70,8 +70,7 @@ maker(
         '8˝ =|',
         abjad.tweak(5).staff_padding,
         bookend=False,
-        leak=True,
-        selector=baca.tleaves(),
+        selector=baca.tleaves().rleak(),
         ),
     baca.markup(
         'golden tone',
@@ -110,6 +109,7 @@ maker(
         boxed=True,
         leak=True,
         lilypond_id=1,
+        selector=baca.ltleaves(),
         ),
     )
 

@@ -150,18 +150,18 @@ maker(
     stirrings_still.circles((1, 4)),
     baca.dynamic('p'),
     baca.text_spanner(
-        r'\baca-damp-markup =|',
-        abjad.tweak(3.25).bound_details__right__padding,
-        abjad.tweak(8).staff_padding,
-        bookend=False,
-        leak=True,
-        lilypond_id=1,
-        ),
-    baca.text_spanner(
         r'\stirrings-still-slow-circles-markup =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
-        leak=True,
+        selector=baca.ltleaves().rleak(),
+        ),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(8).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
         ),
     )

@@ -293,7 +293,7 @@ maker(
         abjad.tweak(2).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
-        leak=True,
+        selector=baca.ltleaves().rleak(),
         ),
     )
 
@@ -330,7 +330,7 @@ maker(
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
-        leak=True,
+        selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
         'jeux des terminaisons =|',
@@ -338,8 +338,8 @@ maker(
         abjad.tweak('magenta').color,
         abjad.tweak(9).staff_padding,
         bookend=False,
-        leak=True,
         lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.ntlt_flat_glissandi(),
     stirrings_still.strokes(0),
@@ -396,17 +396,15 @@ maker(
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
-        leak=True,
-        selector=baca.tleaves(),
+        selector=baca.ltleaves().rleak(),
         ),
     baca.text_spanner(
         'golden tone =|',
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(9).staff_padding,
         bookend=False,
-        leak=True,
         lilypond_id=1,
-        selector=baca.tleaves(),
+        selector=baca.ltleaves().rleak(),
         ),
     )
 

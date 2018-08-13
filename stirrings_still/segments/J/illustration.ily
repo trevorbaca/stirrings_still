@@ -426,7 +426,6 @@ J_ViolinIIMusicVoice = {                                                       %
 
         r4                                                                     %! stirrings_still_clockticks
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
-        <> \stopTextSpan                                                       %! baca_text_spanner:PiecewiseCommand(3)
 
     }                                                                          %! stirrings_still_clockticks
 
@@ -436,6 +435,7 @@ J_ViolinIIMusicVoice = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-appena-udibile                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "[double-stop cont.]" }                                        %! baca_markup:IndicatorCommand
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
 
     % [J ViolinIIMusicVoice measure 534 / measure 5]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
