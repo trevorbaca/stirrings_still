@@ -484,6 +484,7 @@ SEGMENTS
             1/2 clt continues;
             clocktick durations encroach rests;
         va ellipses continue:
+            damped lh continues;
             hair continues;
         vc clockticks return;
             1/2 clt returns;
