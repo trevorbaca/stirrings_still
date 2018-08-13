@@ -106,9 +106,9 @@ N_GlobalRests = {                                                              %
     R1 * 7/8                                                                   %! _make_global_rests
 
     % [N GlobalRests measure 682 / measure 36]                                 %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-very-long-fermata-markup                                           %! GlobalFermataCommand(1)
+    ^ \baca-very-long-fermata-markup                                           %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [N GlobalRests measure 683 / measure 37]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
@@ -117,9 +117,9 @@ N_GlobalRests = {                                                              %
     R1 * 1                                                                     %! _make_global_rests
 
     % [N GlobalRests measure 685 / measure 39]                                 %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-very-long-fermata-markup                                           %! GlobalFermataCommand(1)
+    ^ \baca-very-long-fermata-markup                                           %! baca_global_fermata:GlobalFermataCommand(1)
 
 }                                                                              %! extern
 
