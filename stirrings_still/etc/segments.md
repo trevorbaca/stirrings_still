@@ -448,7 +448,8 @@ SEGMENTS
         v2 clockticks resume:
             1/2 clt resumes;
         va ellipses resume:
-            hair begins;
+            damped lh resumes;
+            hair resumes;
         vc ellipses return:
             hair begins;
         p begins;
@@ -464,6 +465,7 @@ SEGMENTS
         v2 clockticks continue:
             1/2 clt continues;
         va ellipses continue:
+            damped lh continues;
             hair continues;
         vc ellipses continue:
             hair continues;

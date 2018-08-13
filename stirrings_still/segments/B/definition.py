@@ -294,7 +294,7 @@ maker(
     )
 
 maker(
-    (['v1', 'va', 'vc'], 12),
+    ('v1', 12),
     stirrings_still.circles((1, 4)),
     )
 
@@ -422,6 +422,35 @@ maker(
         stirrings_still.trajectories('C', 0),
         measures=(18, 25),
         ),
+    )
+
+maker(
+    ('va', (12, 21)),
+    baca.dynamic('p-ancora'),
+    baca.new(
+        baca.hairpin(
+            'p >o',
+            bookend=False,
+            selector=baca.rleaves(),
+            ),
+        measures=(20, 21),
+        ),
+    baca.text_spanner(
+        r'\stirrings-still-slow-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(6.5).staff_padding,
+        bookend=False,
+        selector=baca.ltleaves().rleak(),
+        ),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
+        ),
+    stirrings_still.circles((1, 4)),
     )
 
 maker(
