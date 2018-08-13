@@ -4682,45 +4682,45 @@ D_CelloMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \downbow                                                             %! BowContactPointCommand
+        - \downbow                                                             %! BCPCommand(6)
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
             \override                                                          %! baca_markup:IndicatorCommand
                 #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
-        - \abjad-solid-line-with-arrow                                         %! BowContactPointCommand
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BowContactPointCommand
-        \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
+        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
         \glissando                                                             %! SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        - \upbow                                                               %! BowContactPointCommand
-        \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
-        - \abjad-solid-line-with-arrow                                         %! BowContactPointCommand
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BowContactPointCommand
-        \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
+        - \upbow                                                               %! BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
         \glissando                                                             %! SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        - \downbow                                                             %! BowContactPointCommand
-        \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
-        - \abjad-solid-line-with-arrow                                         %! BowContactPointCommand
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BowContactPointCommand
-        - \baca-bcp-spanner-right-text #7 #7                                   %! BowContactPointCommand
-        \bacaStartTextSpanBCP                                                  %! BowContactPointCommand
+        - \downbow                                                             %! BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
+        - \baca-bcp-spanner-right-text #7 #7                                   %! BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BowContactPointCommand
+        \bacaStopTextSpanBCP                                                   %! BCPCommand(1)
         ]                                                                      %! stirrings_still_trajectories
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)

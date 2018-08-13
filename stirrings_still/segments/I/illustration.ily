@@ -869,15 +869,15 @@ I_CelloMusicVoice = {                                                          %
     c'8                                                                        %! stirrings_still_eighths
     - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \p                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \downbow                                                                 %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(6)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     - \abjad-dashed-line-with-hook                                             %! PiecewiseCommand(1)
     - \tweak bound-details.left.text \markup {                                 %! PiecewiseCommand(1)
         \concat                                                                %! PiecewiseCommand(1)
@@ -900,812 +900,813 @@ I_CelloMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #3 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #3 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #6 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #6 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     % [I CelloMusicVoice measure 520 / measure 2]                              %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #3 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #3 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     % [I CelloMusicVoice measure 521 / measure 3]                              %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #3 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #3 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #6 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #6 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     % [I CelloMusicVoice measure 522 / measure 4]                              %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #3 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #3 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     % [I CelloMusicVoice measure 523 / measure 5]                              %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #3 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #3 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #6 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #6 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     % [I CelloMusicVoice measure 524 / measure 6]                              %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #3 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #3 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #6 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #6 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_eighths
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]                                                                          %! SpannerCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     % [I CelloMusicVoice measure 525 / measure 7]                              %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(6)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(4)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     % [I CelloMusicVoice measure 526 / measure 8]                              %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     % [I CelloMusicVoice measure 527 / measure 9]                              %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     % [I CelloMusicVoice measure 528 / measure 10]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \downbow                                                                 %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     % [I CelloMusicVoice measure 529 / measure 11]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #4 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #4 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16
-    - \upbow                                                                   %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    - \upbow                                                                   %! BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
     ]
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    - \downbow                                                                 %! BowContactPointCommand
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
-    - \abjad-solid-line-with-arrow                                             %! BowContactPointCommand
-    - \baca-bcp-spanner-left-text #1 #7                                        %! BowContactPointCommand
-    - \baca-bcp-spanner-right-text #5 #7                                       %! BowContactPointCommand
-    \bacaStartTextSpanBCP                                                      %! BowContactPointCommand
+    - \downbow                                                                 %! BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #7                                        %! BCPCommand(2)
+    - \baca-bcp-spanner-right-text #5 #7                                       %! BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
     [
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \bacaStopTextSpanBCP                                                       %! BowContactPointCommand
+    \bacaStopTextSpanBCP                                                       %! BCPCommand(1)
     ]
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
     <> \stopTextSpanOne                                                        %! PiecewiseCommand(3)
