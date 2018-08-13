@@ -915,18 +915,18 @@ K_ViolinIMusicVoice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "hair: circles (each as wide as poss.)" }                  %! baca_markup:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup {                             %! PiecewiseIndicatorCommand(1)
-            \concat                                                            %! PiecewiseIndicatorCommand(1)
-                {                                                              %! PiecewiseIndicatorCommand(1)
-                    \upright                                                   %! PiecewiseIndicatorCommand(1)
-                        \musicglyph                                            %! PiecewiseIndicatorCommand(1)
-                            #"noteheads.s0harmonic"                            %! PiecewiseIndicatorCommand(1)
-                    \hspace                                                    %! PiecewiseIndicatorCommand(1)
-                        #0.5                                                   %! PiecewiseIndicatorCommand(1)
-                }                                                              %! PiecewiseIndicatorCommand(1)
-            }                                                                  %! PiecewiseIndicatorCommand(1)
-        \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
+        - \tweak bound-details.left.text \markup {                             %! PiecewiseCommand(1)
+            \concat                                                            %! PiecewiseCommand(1)
+                {                                                              %! PiecewiseCommand(1)
+                    \upright                                                   %! PiecewiseCommand(1)
+                        \musicglyph                                            %! PiecewiseCommand(1)
+                            #"noteheads.s0harmonic"                            %! PiecewiseCommand(1)
+                    \hspace                                                    %! PiecewiseCommand(1)
+                        #0.5                                                   %! PiecewiseCommand(1)
+                }                                                              %! PiecewiseCommand(1)
+            }                                                                  %! PiecewiseCommand(1)
+        \startTextSpan                                                         %! PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -939,19 +939,19 @@ K_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup {                             %! PiecewiseIndicatorCommand(1)
-            \concat                                                            %! PiecewiseIndicatorCommand(1)
-                {                                                              %! PiecewiseIndicatorCommand(1)
-                    \upright                                                   %! PiecewiseIndicatorCommand(1)
-                        \musicglyph                                            %! PiecewiseIndicatorCommand(1)
-                            #"noteheads.s2harmonic"                            %! PiecewiseIndicatorCommand(1)
-                    \hspace                                                    %! PiecewiseIndicatorCommand(1)
-                        #0.5                                                   %! PiecewiseIndicatorCommand(1)
-                }                                                              %! PiecewiseIndicatorCommand(1)
-            }                                                                  %! PiecewiseIndicatorCommand(1)
-        \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
+        \stopTextSpan                                                          %! PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
+        - \tweak bound-details.left.text \markup {                             %! PiecewiseCommand(1)
+            \concat                                                            %! PiecewiseCommand(1)
+                {                                                              %! PiecewiseCommand(1)
+                    \upright                                                   %! PiecewiseCommand(1)
+                        \musicglyph                                            %! PiecewiseCommand(1)
+                            #"noteheads.s2harmonic"                            %! PiecewiseCommand(1)
+                    \hspace                                                    %! PiecewiseCommand(1)
+                        #0.5                                                   %! PiecewiseCommand(1)
+                }                                                              %! PiecewiseCommand(1)
+            }                                                                  %! PiecewiseCommand(1)
+        \startTextSpan                                                         %! PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -973,10 +973,10 @@ K_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
-        - \abjad-invisible-line                                                %! PiecewiseIndicatorCommand(1)
-        - \baca-text-spanner-left-text "ord."                                  %! PiecewiseIndicatorCommand(1)
-        \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
+        \stopTextSpan                                                          %! PiecewiseCommand(1)
+        - \abjad-invisible-line                                                %! PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "ord."                                  %! PiecewiseCommand(1)
+        \startTextSpan                                                         %! PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -986,7 +986,7 @@ K_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
+        \stopTextSpan                                                          %! PiecewiseCommand(3)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
@@ -1778,18 +1778,18 @@ K_ViolinIIMusicVoice = {                                                       %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "hair: circles (each as wide as poss.)" }                  %! baca_markup:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup {                             %! PiecewiseIndicatorCommand(1)
-            \concat                                                            %! PiecewiseIndicatorCommand(1)
-                {                                                              %! PiecewiseIndicatorCommand(1)
-                    \upright                                                   %! PiecewiseIndicatorCommand(1)
-                        \musicglyph                                            %! PiecewiseIndicatorCommand(1)
-                            #"noteheads.s0harmonic"                            %! PiecewiseIndicatorCommand(1)
-                    \hspace                                                    %! PiecewiseIndicatorCommand(1)
-                        #0.5                                                   %! PiecewiseIndicatorCommand(1)
-                }                                                              %! PiecewiseIndicatorCommand(1)
-            }                                                                  %! PiecewiseIndicatorCommand(1)
-        \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
+        - \tweak bound-details.left.text \markup {                             %! PiecewiseCommand(1)
+            \concat                                                            %! PiecewiseCommand(1)
+                {                                                              %! PiecewiseCommand(1)
+                    \upright                                                   %! PiecewiseCommand(1)
+                        \musicglyph                                            %! PiecewiseCommand(1)
+                            #"noteheads.s0harmonic"                            %! PiecewiseCommand(1)
+                    \hspace                                                    %! PiecewiseCommand(1)
+                        #0.5                                                   %! PiecewiseCommand(1)
+                }                                                              %! PiecewiseCommand(1)
+            }                                                                  %! PiecewiseCommand(1)
+        \startTextSpan                                                         %! PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -1802,19 +1802,19 @@ K_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup {                             %! PiecewiseIndicatorCommand(1)
-            \concat                                                            %! PiecewiseIndicatorCommand(1)
-                {                                                              %! PiecewiseIndicatorCommand(1)
-                    \upright                                                   %! PiecewiseIndicatorCommand(1)
-                        \musicglyph                                            %! PiecewiseIndicatorCommand(1)
-                            #"noteheads.s2harmonic"                            %! PiecewiseIndicatorCommand(1)
-                    \hspace                                                    %! PiecewiseIndicatorCommand(1)
-                        #0.5                                                   %! PiecewiseIndicatorCommand(1)
-                }                                                              %! PiecewiseIndicatorCommand(1)
-            }                                                                  %! PiecewiseIndicatorCommand(1)
-        \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
+        \stopTextSpan                                                          %! PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
+        - \tweak bound-details.left.text \markup {                             %! PiecewiseCommand(1)
+            \concat                                                            %! PiecewiseCommand(1)
+                {                                                              %! PiecewiseCommand(1)
+                    \upright                                                   %! PiecewiseCommand(1)
+                        \musicglyph                                            %! PiecewiseCommand(1)
+                            #"noteheads.s2harmonic"                            %! PiecewiseCommand(1)
+                    \hspace                                                    %! PiecewiseCommand(1)
+                        #0.5                                                   %! PiecewiseCommand(1)
+                }                                                              %! PiecewiseCommand(1)
+            }                                                                  %! PiecewiseCommand(1)
+        \startTextSpan                                                         %! PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -1830,10 +1830,10 @@ K_ViolinIIMusicVoice = {                                                       %
         % [K ViolinIIMusicVoice measure 549 / measure 4]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
-        - \abjad-invisible-line                                                %! PiecewiseIndicatorCommand(1)
-        - \baca-text-spanner-left-text "ord."                                  %! PiecewiseIndicatorCommand(1)
-        \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
+        \stopTextSpan                                                          %! PiecewiseCommand(1)
+        - \abjad-invisible-line                                                %! PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "ord."                                  %! PiecewiseCommand(1)
+        \startTextSpan                                                         %! PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -1843,7 +1843,7 @@ K_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
+        \stopTextSpan                                                          %! PiecewiseCommand(3)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
@@ -2713,18 +2713,18 @@ K_ViolaMusicVoice = {                                                          %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "hair: circles (each as wide as poss.)" }                      %! baca_markup:IndicatorCommand
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup {                                 %! PiecewiseIndicatorCommand(1)
-        \concat                                                                %! PiecewiseIndicatorCommand(1)
-            {                                                                  %! PiecewiseIndicatorCommand(1)
-                \upright                                                       %! PiecewiseIndicatorCommand(1)
-                    \musicglyph                                                %! PiecewiseIndicatorCommand(1)
-                        #"noteheads.s0harmonic"                                %! PiecewiseIndicatorCommand(1)
-                \hspace                                                        %! PiecewiseIndicatorCommand(1)
-                    #0.5                                                       %! PiecewiseIndicatorCommand(1)
-            }                                                                  %! PiecewiseIndicatorCommand(1)
-        }                                                                      %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \tweak bound-details.left.text \markup {                                 %! PiecewiseCommand(1)
+        \concat                                                                %! PiecewiseCommand(1)
+            {                                                                  %! PiecewiseCommand(1)
+                \upright                                                       %! PiecewiseCommand(1)
+                    \musicglyph                                                %! PiecewiseCommand(1)
+                        #"noteheads.s0harmonic"                                %! PiecewiseCommand(1)
+                \hspace                                                        %! PiecewiseCommand(1)
+                    #0.5                                                       %! PiecewiseCommand(1)
+            }                                                                  %! PiecewiseCommand(1)
+        }                                                                      %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
@@ -2734,19 +2734,19 @@ K_ViolaMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup {                                 %! PiecewiseIndicatorCommand(1)
-        \concat                                                                %! PiecewiseIndicatorCommand(1)
-            {                                                                  %! PiecewiseIndicatorCommand(1)
-                \upright                                                       %! PiecewiseIndicatorCommand(1)
-                    \musicglyph                                                %! PiecewiseIndicatorCommand(1)
-                        #"noteheads.s2harmonic"                                %! PiecewiseIndicatorCommand(1)
-                \hspace                                                        %! PiecewiseIndicatorCommand(1)
-                    #0.5                                                       %! PiecewiseIndicatorCommand(1)
-            }                                                                  %! PiecewiseIndicatorCommand(1)
-        }                                                                      %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
+    - \tweak bound-details.left.text \markup {                                 %! PiecewiseCommand(1)
+        \concat                                                                %! PiecewiseCommand(1)
+            {                                                                  %! PiecewiseCommand(1)
+                \upright                                                       %! PiecewiseCommand(1)
+                    \musicglyph                                                %! PiecewiseCommand(1)
+                        #"noteheads.s2harmonic"                                %! PiecewiseCommand(1)
+                \hspace                                                        %! PiecewiseCommand(1)
+                    #0.5                                                       %! PiecewiseCommand(1)
+            }                                                                  %! PiecewiseCommand(1)
+        }                                                                      %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
@@ -2757,17 +2757,17 @@ K_ViolaMusicVoice = {                                                          %
     % [K ViolaMusicVoice measure 549 / measure 4]                              %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
-    - \abjad-invisible-line                                                    %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "ord."                                      %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    \stopTextSpan                                                              %! PiecewiseCommand(1)
+    - \abjad-invisible-line                                                    %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ord."                                      %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-    \stopTextSpan                                                              %! PiecewiseIndicatorCommand(3)
+    \stopTextSpan                                                              %! PiecewiseCommand(3)
     \revert TextScript.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
@@ -3086,37 +3086,37 @@ K_CelloMusicVoice = {                                                          %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "hair: circles (each as wide as poss.)" }                  %! baca_markup:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup {                             %! PiecewiseIndicatorCommand(1)
-            \concat                                                            %! PiecewiseIndicatorCommand(1)
-                {                                                              %! PiecewiseIndicatorCommand(1)
-                    \upright                                                   %! PiecewiseIndicatorCommand(1)
-                        \musicglyph                                            %! PiecewiseIndicatorCommand(1)
-                            #"noteheads.s0harmonic"                            %! PiecewiseIndicatorCommand(1)
-                    \hspace                                                    %! PiecewiseIndicatorCommand(1)
-                        #0.5                                                   %! PiecewiseIndicatorCommand(1)
-                }                                                              %! PiecewiseIndicatorCommand(1)
-            }                                                                  %! PiecewiseIndicatorCommand(1)
-        \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
+        - \tweak bound-details.left.text \markup {                             %! PiecewiseCommand(1)
+            \concat                                                            %! PiecewiseCommand(1)
+                {                                                              %! PiecewiseCommand(1)
+                    \upright                                                   %! PiecewiseCommand(1)
+                        \musicglyph                                            %! PiecewiseCommand(1)
+                            #"noteheads.s0harmonic"                            %! PiecewiseCommand(1)
+                    \hspace                                                    %! PiecewiseCommand(1)
+                        #0.5                                                   %! PiecewiseCommand(1)
+                }                                                              %! PiecewiseCommand(1)
+            }                                                                  %! PiecewiseCommand(1)
+        \startTextSpan                                                         %! PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.left.text \markup {                             %! PiecewiseIndicatorCommand(1)
-            \concat                                                            %! PiecewiseIndicatorCommand(1)
-                {                                                              %! PiecewiseIndicatorCommand(1)
-                    \upright                                                   %! PiecewiseIndicatorCommand(1)
-                        \musicglyph                                            %! PiecewiseIndicatorCommand(1)
-                            #"noteheads.s2harmonic"                            %! PiecewiseIndicatorCommand(1)
-                    \hspace                                                    %! PiecewiseIndicatorCommand(1)
-                        #0.5                                                   %! PiecewiseIndicatorCommand(1)
-                }                                                              %! PiecewiseIndicatorCommand(1)
-            }                                                                  %! PiecewiseIndicatorCommand(1)
-        \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
+        \stopTextSpan                                                          %! PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
+        - \tweak bound-details.left.text \markup {                             %! PiecewiseCommand(1)
+            \concat                                                            %! PiecewiseCommand(1)
+                {                                                              %! PiecewiseCommand(1)
+                    \upright                                                   %! PiecewiseCommand(1)
+                        \musicglyph                                            %! PiecewiseCommand(1)
+                            #"noteheads.s2harmonic"                            %! PiecewiseCommand(1)
+                    \hspace                                                    %! PiecewiseCommand(1)
+                        #0.5                                                   %! PiecewiseCommand(1)
+                }                                                              %! PiecewiseCommand(1)
+            }                                                                  %! PiecewiseCommand(1)
+        \startTextSpan                                                         %! PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -3132,14 +3132,14 @@ K_CelloMusicVoice = {                                                          %
         % [K CelloMusicVoice measure 549 / measure 4]                          %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseIndicatorCommand(1)
-        - \abjad-invisible-line                                                %! PiecewiseIndicatorCommand(1)
-        - \baca-text-spanner-left-text "ord."                                  %! PiecewiseIndicatorCommand(1)
-        \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
+        \stopTextSpan                                                          %! PiecewiseCommand(1)
+        - \abjad-invisible-line                                                %! PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "ord."                                  %! PiecewiseCommand(1)
+        \startTextSpan                                                         %! PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseIndicatorCommand(3)
+        \stopTextSpan                                                          %! PiecewiseCommand(3)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
 

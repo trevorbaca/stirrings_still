@@ -1324,11 +1324,11 @@ Q_ViolinIMusicVoice = {                                                        %
         % [Q ViolinIMusicVoice measure 721 / measure 2]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        - \abjad-dashed-line-with-hook                                         %! PiecewiseIndicatorCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! PiecewiseIndicatorCommand(1)
-        - \tweak staff-padding #5                                              %! PiecewiseIndicatorCommand(1)
-        \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! PiecewiseCommand(1)
+        \startTextSpan                                                         %! PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -1473,7 +1473,7 @@ Q_ViolinIMusicVoice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-    <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
+    <> \stopTextSpan                                                           %! PiecewiseCommand(3)
 
     % [Q ViolinIMusicVoice measure 729 / measure 10]                           %! _comment_measure_numbers
     \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests
@@ -1767,11 +1767,11 @@ Q_ViolinIIMusicVoice = {                                                       %
         % [Q ViolinIIMusicVoice measure 721 / measure 2]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        - \abjad-dashed-line-with-hook                                         %! PiecewiseIndicatorCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! PiecewiseIndicatorCommand(1)
-        - \tweak staff-padding #5                                              %! PiecewiseIndicatorCommand(1)
-        \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! PiecewiseCommand(1)
+        \startTextSpan                                                         %! PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -1907,7 +1907,7 @@ Q_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
+        <> \stopTextSpan                                                       %! PiecewiseCommand(3)
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -2204,11 +2204,11 @@ Q_ViolaMusicVoice = {                                                          %
     % [Q ViolaMusicVoice measure 721 / measure 2]                              %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-    - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! PiecewiseIndicatorCommand(1)
-    - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
@@ -2300,7 +2300,7 @@ Q_ViolaMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-    <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
+    <> \stopTextSpan                                                           %! PiecewiseCommand(3)
 
     % [Q ViolaMusicVoice measure 729 / measure 10]                             %! _comment_measure_numbers
     \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests
@@ -2594,11 +2594,11 @@ Q_CelloMusicVoice = {                                                          %
         % [Q CelloMusicVoice measure 721 / measure 2]                          %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        - \abjad-dashed-line-with-hook                                         %! PiecewiseIndicatorCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-markup                     %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! PiecewiseIndicatorCommand(1)
-        - \tweak staff-padding #5                                              %! PiecewiseIndicatorCommand(1)
-        \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-markup                     %! PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! PiecewiseCommand(1)
+        \startTextSpan                                                         %! PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -2689,7 +2689,7 @@ Q_CelloMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-    <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
+    <> \stopTextSpan                                                           %! PiecewiseCommand(3)
 
     % [Q CelloMusicVoice measure 729 / measure 10]                             %! _comment_measure_numbers
     \voices "CelloMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests
