@@ -321,8 +321,8 @@ D_GlobalSkips = {                                                              %
     % [D GlobalSkips measure 207 / measure 1]                                  %! _comment_measure_numbers
     \override TextScript.extra-offset = #'(0 . 5)                              %! baca_text_script_extra_offset:OverrideCommand(1)
     \time 10/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \tweak Y-offset #12                                                        %! IndicatorCommand
-    \mark #4                                                                   %! IndicatorCommand
+    \tweak Y-offset #12                                                        %! baca_rehearsal_mark:IndicatorCommand
+    \mark #4                                                                   %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/8                                                                   %! _make_global_skips(1)
@@ -2045,8 +2045,8 @@ D_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
 
@@ -2072,8 +2072,8 @@ D_ViolinIMusicVoice = {                                                        %
         % [D ViolinIMusicVoice measure 279 / measure 73]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
 
@@ -2089,8 +2089,8 @@ D_ViolinIMusicVoice = {                                                        %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2108,8 +2108,8 @@ D_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
 
@@ -2119,7 +2119,7 @@ D_ViolinIMusicVoice = {                                                        %
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     ~                                                                          %! TieCorrectionCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2137,8 +2137,8 @@ D_ViolinIMusicVoice = {                                                        %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_flight
@@ -2152,8 +2152,8 @@ D_ViolinIMusicVoice = {                                                        %
         % [D ViolinIMusicVoice measure 283 / measure 77]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
 
@@ -2162,8 +2162,8 @@ D_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
 
@@ -2173,7 +2173,7 @@ D_ViolinIMusicVoice = {                                                        %
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_flight
@@ -2181,8 +2181,8 @@ D_ViolinIMusicVoice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
-    - \espressivo                                                              %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
@@ -2191,7 +2191,7 @@ D_ViolinIMusicVoice = {                                                        %
         % [D ViolinIMusicVoice measure 285 / measure 79]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
 
@@ -2202,8 +2202,8 @@ D_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_flight
@@ -2217,8 +2217,8 @@ D_ViolinIMusicVoice = {                                                        %
         % [D ViolinIMusicVoice measure 286 / measure 80]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2228,8 +2228,8 @@ D_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
 
     }                                                                          %! stirrings_still_flight
@@ -2237,7 +2237,7 @@ D_ViolinIMusicVoice = {                                                        %
     % [D ViolinIMusicVoice measure 287 / measure 81]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
     \times 6/8 {                                                               %! stirrings_still_flight
@@ -2250,109 +2250,109 @@ D_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2.                                                                   %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
     }                                                                          %! stirrings_still_flight
 
     % [D ViolinIMusicVoice measure 289 / measure 83]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
     ~                                                                          %! TieCorrectionCommand
 
     % [D ViolinIMusicVoice measure 290 / measure 84]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [D ViolinIMusicVoice measure 291 / measure 85]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIMusicVoice measure 292 / measure 86]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIMusicVoice measure 293 / measure 87]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIMusicVoice measure 294 / measure 88]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
     ~                                                                          %! TieCorrectionCommand
 
     % [D ViolinIMusicVoice measure 295 / measure 89]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [D ViolinIMusicVoice measure 296 / measure 90]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIMusicVoice measure 297 / measure 91]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIMusicVoice measure 298 / measure 92]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIMusicVoice measure 299 / measure 93]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIMusicVoice measure 300 / measure 94]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIMusicVoice measure 301 / measure 95]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
     ~                                                                          %! TieCorrectionCommand
 
     % [D ViolinIMusicVoice measure 302 / measure 96]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [D ViolinIMusicVoice measure 303 / measure 97]                           %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
@@ -3039,8 +3039,8 @@ D_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
@@ -3072,8 +3072,8 @@ D_ViolinIIMusicVoice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
-    - \espressivo                                                              %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
     ~                                                                          %! TieCorrectionCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3090,8 +3090,8 @@ D_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
 
@@ -3116,8 +3116,8 @@ D_ViolinIIMusicVoice = {                                                       %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -3132,8 +3132,8 @@ D_ViolinIIMusicVoice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
-    - \espressivo                                                              %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3152,8 +3152,8 @@ D_ViolinIIMusicVoice = {                                                       %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -3162,8 +3162,8 @@ D_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
 
     }                                                                          %! stirrings_still_flight
@@ -3175,7 +3175,7 @@ D_ViolinIIMusicVoice = {                                                       %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -3183,8 +3183,8 @@ D_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
 
@@ -3193,7 +3193,7 @@ D_ViolinIIMusicVoice = {                                                       %
     % [D ViolinIIMusicVoice measure 283 / measure 77]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_flight
@@ -3201,8 +3201,8 @@ D_ViolinIIMusicVoice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
-    - \espressivo                                                              %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
@@ -3211,7 +3211,7 @@ D_ViolinIIMusicVoice = {                                                       %
         % [D ViolinIIMusicVoice measure 284 / measure 78]                      %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
         [                                                                      %! stirrings_still_flight
@@ -3225,8 +3225,8 @@ D_ViolinIIMusicVoice = {                                                       %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
@@ -3235,8 +3235,8 @@ D_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
 
     }                                                                          %! stirrings_still_flight
@@ -3244,124 +3244,124 @@ D_ViolinIIMusicVoice = {                                                       %
     % [D ViolinIIMusicVoice measure 285 / measure 79]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [D ViolinIIMusicVoice measure 286 / measure 80]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIIMusicVoice measure 287 / measure 81]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIIMusicVoice measure 288 / measure 82]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIIMusicVoice measure 289 / measure 83]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
     ~                                                                          %! TieCorrectionCommand
 
     % [D ViolinIIMusicVoice measure 290 / measure 84]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [D ViolinIIMusicVoice measure 291 / measure 85]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIIMusicVoice measure 292 / measure 86]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIIMusicVoice measure 293 / measure 87]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIIMusicVoice measure 294 / measure 88]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
     ~                                                                          %! TieCorrectionCommand
 
     % [D ViolinIIMusicVoice measure 295 / measure 89]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [D ViolinIIMusicVoice measure 296 / measure 90]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIIMusicVoice measure 297 / measure 91]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIIMusicVoice measure 298 / measure 92]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIIMusicVoice measure 299 / measure 93]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIIMusicVoice measure 300 / measure 94]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolinIIMusicVoice measure 301 / measure 95]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
     ~                                                                          %! TieCorrectionCommand
 
     % [D ViolinIIMusicVoice measure 302 / measure 96]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [D ViolinIIMusicVoice measure 303 / measure 97]                          %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
@@ -3790,9 +3790,9 @@ D_ViolaMusicVoice = {                                                          %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [D ViolaMusicVoice measure 255 / measure 49]                             %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'2                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -3832,9 +3832,9 @@ D_ViolaMusicVoice = {                                                          %
     \times 2/3 {                                                               %! stirrings_still_declamation
 
         % [D ViolaMusicVoice measure 261 / measure 55]                         %! _comment_measure_numbers
-        \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-        \once \override Staff.StaffSymbol.line-count = 5                       %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-        \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
+        \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \once \override Staff.StaffSymbol.line-count = 5                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_declamation
@@ -4022,8 +4022,8 @@ D_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
 
@@ -4056,8 +4056,8 @@ D_ViolaMusicVoice = {                                                          %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
         ]                                                                      %! stirrings_still_flight
 
@@ -4074,8 +4074,8 @@ D_ViolaMusicVoice = {                                                          %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
         ]                                                                      %! stirrings_still_flight
 
@@ -4085,7 +4085,7 @@ D_ViolaMusicVoice = {                                                          %
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     ~                                                                          %! TieCorrectionCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4102,8 +4102,8 @@ D_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -4111,8 +4111,8 @@ D_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
 
@@ -4124,7 +4124,7 @@ D_ViolaMusicVoice = {                                                          %
         % [D ViolaMusicVoice measure 281 / measure 75]                         %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
@@ -4136,8 +4136,8 @@ D_ViolaMusicVoice = {                                                          %
     % [D ViolaMusicVoice measure 282 / measure 76]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
-    - \espressivo                                                              %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4146,8 +4146,8 @@ D_ViolaMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
-    - \espressivo                                                              %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
     ~                                                                          %! TieCorrectionCommand
 
@@ -4157,7 +4157,7 @@ D_ViolaMusicVoice = {                                                          %
         % [D ViolaMusicVoice measure 283 / measure 77]                         %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -4165,8 +4165,8 @@ D_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
 
     }                                                                          %! stirrings_still_flight
@@ -4177,7 +4177,7 @@ D_ViolaMusicVoice = {                                                          %
         % [D ViolaMusicVoice measure 284 / measure 78]                         %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         \repeatTie                                                             %! TieCorrectionCommand
         ~                                                                      %! TieCorrectionCommand
 
@@ -4188,8 +4188,8 @@ D_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_flight
@@ -4198,8 +4198,8 @@ D_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
-        - \espressivo                                                          %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ~                                                                      %! TieCorrectionCommand
 
     }                                                                          %! stirrings_still_flight
@@ -4208,7 +4208,7 @@ D_ViolaMusicVoice = {                                                          %
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_flight
@@ -4216,8 +4216,8 @@ D_ViolaMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
-    - \espressivo                                                              %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_flight
@@ -4226,7 +4226,7 @@ D_ViolaMusicVoice = {                                                          %
         % [D ViolaMusicVoice measure 286 / measure 80]                         %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'1                                                                    %! stirrings_still_flight
-        :32                                                                    %! IndicatorCommand
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak direction #up                                                 %! TieCorrectionCommand
         \repeatTie                                                             %! TieCorrectionCommand
 
@@ -4241,84 +4241,84 @@ D_ViolaMusicVoice = {                                                          %
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
-    - \espressivo                                                              %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
     % [D ViolaMusicVoice measure 288 / measure 82]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolaMusicVoice measure 289 / measure 83]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_flight
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
     ~                                                                          %! TieCorrectionCommand
 
     % [D ViolaMusicVoice measure 290 / measure 84]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [D ViolaMusicVoice measure 291 / measure 85]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up                                                     %! TieCorrectionCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolaMusicVoice measure 292 / measure 86]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolaMusicVoice measure 293 / measure 87]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolaMusicVoice measure 294 / measure 88]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
     ~                                                                          %! TieCorrectionCommand
 
     % [D ViolaMusicVoice measure 295 / measure 89]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [D ViolaMusicVoice measure 296 / measure 90]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolaMusicVoice measure 297 / measure 91]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolaMusicVoice measure 298 / measure 92]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
     % [D ViolaMusicVoice measure 299 / measure 93]                             %! _comment_measure_numbers
@@ -4327,24 +4327,24 @@ D_ViolaMusicVoice = {                                                          %
     % [D ViolaMusicVoice measure 300 / measure 94]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [D ViolaMusicVoice measure 301 / measure 95]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
     ~
 
     % [D ViolaMusicVoice measure 302 / measure 96]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_continuous_tremolo
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [D ViolaMusicVoice measure 303 / measure 97]                             %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
@@ -4677,7 +4677,7 @@ D_CelloMusicVoice = {                                                          %
         \override DynamicLineSpanner.staff-padding = #'5                       %! baca_dls_staff_padding:OverrideCommand(1)
         \override TextScript.staff-padding = #11                               %! baca_script_staff_padding:OverrideCommand(1)
         \override TextSpanner.staff-padding = #7                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -4695,7 +4695,7 @@ D_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
         - \upbow                                                               %! baca_bcps:BCPCommand(7)
@@ -4705,7 +4705,7 @@ D_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! baca_bcps:BCPCommand(8)
@@ -4717,7 +4717,7 @@ D_CelloMusicVoice = {                                                          %
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(1)

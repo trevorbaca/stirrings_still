@@ -86,8 +86,8 @@ P_GlobalSkips = {                                                              %
     % [P GlobalSkips measure 694 / measure 1]                                  %! _comment_measure_numbers
     \override TextScript.extra-offset = #'(0 . 5)                              %! baca_text_script_extra_offset:OverrideCommand(1)
     \time 16/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \tweak Y-offset #12                                                        %! IndicatorCommand
-    \mark #16                                                                  %! IndicatorCommand
+    \tweak Y-offset #12                                                        %! baca_rehearsal_mark:IndicatorCommand
+    \mark #16                                                                  %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -1037,7 +1037,7 @@ P_ViolinIMusicVoice = {                                                        %
     \revert NoteHead.no-ledgers                                                %! baca_glissando:SpannerCommand
     \undo \hide NoteHead                                                       %! baca_glissando:SpannerCommand
     bf'!8                                                                      %! stirrings_still_eighths
-    \breathe                                                                   %! IndicatorCommand
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     % [P ViolinIMusicVoice measure 719 / measure 26]                           %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
@@ -1722,7 +1722,7 @@ P_ViolinIIMusicVoice = {                                                       %
     \revert NoteHead.no-ledgers                                                %! baca_glissando:SpannerCommand
     \undo \hide NoteHead                                                       %! baca_glissando:SpannerCommand
     gf'!8                                                                      %! stirrings_still_eighths
-    \breathe                                                                   %! IndicatorCommand
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     % [P ViolinIIMusicVoice measure 719 / measure 26]                          %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
@@ -2369,7 +2369,7 @@ P_ViolaMusicVoice = {                                                          %
     \revert NoteHead.no-ledgers                                                %! baca_glissando:SpannerCommand
     \undo \hide NoteHead                                                       %! baca_glissando:SpannerCommand
     af!8                                                                       %! stirrings_still_eighths
-    \breathe                                                                   %! IndicatorCommand
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     % [P ViolaMusicVoice measure 719 / measure 26]                             %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
@@ -3024,7 +3024,7 @@ P_CelloMusicVoice = {                                                          %
     \revert NoteHead.no-ledgers                                                %! baca_glissando:SpannerCommand
     \undo \hide NoteHead                                                       %! baca_glissando:SpannerCommand
     c8                                                                         %! stirrings_still_eighths
-    \breathe                                                                   %! IndicatorCommand
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     % [P CelloMusicVoice measure 719 / measure 26]                             %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
