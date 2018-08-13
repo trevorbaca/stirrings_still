@@ -85,9 +85,9 @@ H_GlobalRests = {                                                              %
     R1 * 3/4                                                                   %! _make_global_rests
 
     % [H GlobalRests measure 495 / measure 29]                                 %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-short-fermata-markup                                               %! GlobalFermataCommand(1)
+    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [H GlobalRests measure 496 / measure 30]                                 %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_global_rests
@@ -96,17 +96,17 @@ H_GlobalRests = {                                                              %
     R1 * 7/8                                                                   %! _make_global_rests
 
     % [H GlobalRests measure 498 / measure 32]                                 %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-short-fermata-markup                                               %! GlobalFermataCommand(1)
+    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [H GlobalRests measure 499 / measure 33]                                 %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
 
     % [H GlobalRests measure 500 / measure 34]                                 %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-short-fermata-markup                                               %! GlobalFermataCommand(1)
+    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [H GlobalRests measure 501 / measure 35]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
@@ -124,9 +124,9 @@ H_GlobalRests = {                                                              %
     R1 * 1/2                                                                   %! _make_global_rests
 
     % [H GlobalRests measure 506 / measure 40]                                 %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-short-fermata-markup                                               %! GlobalFermataCommand(1)
+    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [H GlobalRests measure 507 / measure 41]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
@@ -141,9 +141,9 @@ H_GlobalRests = {                                                              %
     R1 * 1/2                                                                   %! _make_global_rests
 
     % [H GlobalRests measure 511 / measure 45]                                 %! _comment_measure_numbers
-    \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
+    \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
-    ^ \baca-short-fermata-markup                                               %! GlobalFermataCommand(1)
+    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
 
     % [H GlobalRests measure 512 / measure 46]                                 %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_global_rests
@@ -819,20 +819,20 @@ H_ViolinIMusicVoice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     gf'!1                                                                      %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     _ \markup { III }                                                          %! baca_markup:IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "rasp (2°)"                                 %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "flaut. (2°)"                              %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "rasp (2°)"                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "flaut. (2°)"                              %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -847,10 +847,10 @@ H_ViolinIMusicVoice = {                                                        %
 
     % [H ViolinIMusicVoice measure 470 / measure 4]                            %! _comment_measure_numbers
     gf'!2..                                                                    %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [H ViolinIMusicVoice measure 471 / measure 5]                            %! _comment_measure_numbers
     gf'!2..                                                                    %! baca_make_repeat_tied_notes
@@ -950,29 +950,29 @@ H_ViolinIMusicVoice = {                                                        %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
         gf'!16 * 439/64                                                        %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { "(always one circle per stem)" }                           %! baca_markup:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "2˝ circles"                            %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "2˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \hide NoteHead                                                         %! SpannerCommand
-        \override Accidental.stencil = ##f                                     %! SpannerCommand
-        \override NoteColumn.glissando-skip = ##t                              %! SpannerCommand
-        \override NoteHead.no-ledgers = ##t                                    %! SpannerCommand
+        \hide NoteHead                                                         %! baca_glissando:SpannerCommand
+        \override Accidental.stencil = ##f                                     %! baca_glissando:SpannerCommand
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando:SpannerCommand
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando:SpannerCommand
         g'16 * 91/16                                                           %! stirrings_still_accelerando
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         g'16 * 257/64                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         g'16 * 55/16                                                           %! stirrings_still_accelerando
         ]                                                                      %! stirrings_still_accelerando
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_accelerando
@@ -983,14 +983,14 @@ H_ViolinIMusicVoice = {                                                        %
 
         % [H ViolinIMusicVoice measure 475 / measure 9]                        %! _comment_measure_numbers
         g'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(1)
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "4˝ circles"                            %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
-        \glissando                                                             %! SpannerCommand
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "4˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         g'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -999,19 +999,19 @@ H_ViolinIMusicVoice = {                                                        %
 
         % [H ViolinIMusicVoice measure 476 / measure 10]                       %! _comment_measure_numbers
         a'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         a'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         a'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         a'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         a'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -1020,22 +1020,22 @@ H_ViolinIMusicVoice = {                                                        %
 
         % [H ViolinIMusicVoice measure 477 / measure 11]                       %! _comment_measure_numbers
         a'8                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(1)
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "6˝ circles"                            %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "6˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         a'8                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         a'8                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         a'8                                                                    %! stirrings_still_desynchronization
         ]                                                                      %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -1044,13 +1044,13 @@ H_ViolinIMusicVoice = {                                                        %
 
         % [H ViolinIMusicVoice measure 478 / measure 12]                       %! _comment_measure_numbers
         a'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         a'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         a'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -1059,14 +1059,14 @@ H_ViolinIMusicVoice = {                                                        %
 
         % [H ViolinIMusicVoice measure 479 / measure 13]                       %! _comment_measure_numbers
         b'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(1)
-        - \abjad-invisible-line                                                %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "8˝ circles"                            %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
-        \glissando                                                             %! SpannerCommand
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-invisible-line                                                %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "8˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         b'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -1075,31 +1075,31 @@ H_ViolinIMusicVoice = {                                                        %
 
         % [H ViolinIMusicVoice measure 480 / measure 14]                       %! _comment_measure_numbers
         b'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         b'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         b'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(3)
-        \glissando                                                             %! SpannerCommand
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
+        \glissando                                                             %! baca_glissando:SpannerCommand
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [H ViolinIMusicVoice measure 481 / measure 15]                           %! _comment_measure_numbers
-    \revert Accidental.stencil                                                 %! SpannerCommand
-    \revert NoteColumn.glissando-skip                                          %! SpannerCommand
-    \revert NoteHead.no-ledgers                                                %! SpannerCommand
-    \undo \hide NoteHead                                                       %! SpannerCommand
+    \revert Accidental.stencil                                                 %! baca_glissando:SpannerCommand
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando:SpannerCommand
+    \revert NoteHead.no-ledgers                                                %! baca_glissando:SpannerCommand
+    \undo \hide NoteHead                                                       %! baca_glissando:SpannerCommand
     a'4                                                                        %! stirrings_still_desynchronization
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     a'4                                                                        %! stirrings_still_desynchronization
 
@@ -1126,8 +1126,8 @@ H_ViolinIMusicVoice = {                                                        %
 
     % [H ViolinIMusicVoice measure 483 / measure 17]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [H ViolinIMusicVoice measure 484 / measure 18]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
@@ -1151,12 +1151,12 @@ H_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         ^ \markup { "8” circles continue" }                                    %! baca_markup:IndicatorCommand
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
@@ -1188,8 +1188,8 @@ H_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
@@ -1316,15 +1316,15 @@ H_ViolinIMusicVoice = {                                                        %
         \once \override Beam.grow-direction = #right
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 487/64                                                          %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "“whisk” circles"                       %! PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "poco scratch circles"                 %! PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "poco scratch circles"                 %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1332,7 +1332,7 @@ H_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 143/32                                                          %! stirrings_still_accelerando
-        \stopTextSpan                                                          %! PiecewiseCommand(2)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 197/64                                                          %! stirrings_still_accelerando
@@ -1360,8 +1360,8 @@ H_ViolinIMusicVoice = {                                                        %
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! baca_make_repeat_tied_notes
@@ -1374,25 +1374,25 @@ H_ViolinIMusicVoice = {                                                        %
     % [H ViolinIMusicVoice measure 501 / measure 35]                           %! _comment_measure_numbers
     \override DynamicLineSpanner.staff-padding = #'3                           %! baca_dls_staff_padding:OverrideCommand(1)
     gf'!1                                                                      %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     _ \markup { III }                                                          %! baca_markup:IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "rasp (2°)"                                 %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "poco rasp (2°)"                           %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "rasp (2°)"                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "poco rasp (2°)"                           %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [H ViolinIMusicVoice measure 502 / measure 36]                           %! _comment_measure_numbers
     gf'!1                                                                      %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     \override TupletNumber.text = \markup {
@@ -1443,15 +1443,15 @@ H_ViolinIMusicVoice = {                                                        %
         \once \override Beam.grow-direction = #right
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 63/8                                                            %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "“whisk” circles"                       %! PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "mod. scratch circles"                 %! PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "mod. scratch circles"                 %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1459,7 +1459,7 @@ H_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 315/64                                                          %! stirrings_still_accelerando
-        \stopTextSpan                                                          %! PiecewiseCommand(2)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 221/64                                                          %! stirrings_still_accelerando
@@ -1531,15 +1531,15 @@ H_ViolinIMusicVoice = {                                                        %
         \once \override Beam.grow-direction = #right
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 497/64                                                          %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "“whisk” circles"                       %! PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "molto scratch circles"                %! PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "molto scratch circles"                %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1547,7 +1547,7 @@ H_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 51/8                                                            %! stirrings_still_accelerando
-        \stopTextSpan                                                          %! PiecewiseCommand(2)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 333/64                                                          %! stirrings_still_accelerando
@@ -1592,8 +1592,8 @@ H_ViolinIMusicVoice = {                                                        %
         \override TextSpanner.staff-padding = #4                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
@@ -1647,16 +1647,16 @@ H_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "molto scratch"                         %! PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "pochiss. scratch"                     %! PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "molto scratch"                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "pochiss. scratch"                     %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
@@ -1676,7 +1676,7 @@ H_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
-        \stopTextSpan                                                          %! PiecewiseCommand(2)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
@@ -1686,8 +1686,8 @@ H_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-        \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_pickets
@@ -1700,8 +1700,8 @@ H_ViolinIMusicVoice = {                                                        %
         % [H ViolinIMusicVoice measure 518 / measure 52]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { "pochiss. scratch" }                                       %! baca_markup:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1734,20 +1734,20 @@ H_ViolinIIMusicVoice = {                                                       %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     f'1                                                                        %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     _ \markup { III }                                                          %! baca_markup:IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "rasp (2°)"                                 %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "flaut. (2°)"                              %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "rasp (2°)"                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "flaut. (2°)"                              %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup             %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -1762,10 +1762,10 @@ H_ViolinIIMusicVoice = {                                                       %
 
     % [H ViolinIIMusicVoice measure 470 / measure 4]                           %! _comment_measure_numbers
     f'2..                                                                      %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie                                                                 %! TieCorrectionCommand
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [H ViolinIIMusicVoice measure 471 / measure 5]                           %! _comment_measure_numbers
     f'2..                                                                      %! baca_make_repeat_tied_notes
@@ -1787,14 +1787,14 @@ H_ViolinIIMusicVoice = {                                                       %
     % [H ViolinIIMusicVoice measure 475 / measure 9]                           %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
     f'4.
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie                                                                 %! TieCorrectionCommand
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "flaut. (2°)"                               %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "flaut. (2°)"                               %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     f'4
     \repeatTie                                                                 %! TieCorrectionCommand
@@ -1802,10 +1802,10 @@ H_ViolinIIMusicVoice = {                                                       %
     % [H ViolinIIMusicVoice measure 476 / measure 10]                          %! _comment_measure_numbers
     f'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie                                                                 %! TieCorrectionCommand
-    \stopTextSpan                                                              %! PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "ord."                                      %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ord."                                      %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     \override TupletNumber.text = \markup {
         \scale
@@ -1853,33 +1853,33 @@ H_ViolinIIMusicVoice = {                                                       %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
         f'16 * 503/64                                                          %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         ^ \markup { "(always one circle per stem)" }                           %! baca_markup:IndicatorCommand
-        \stopTextSpan                                                          %! PiecewiseCommand(1)
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "4˝ circles"                            %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "4˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \hide NoteHead                                                         %! SpannerCommand
-        \override Accidental.stencil = ##f                                     %! SpannerCommand
-        \override NoteColumn.glissando-skip = ##t                              %! SpannerCommand
-        \override NoteHead.no-ledgers = ##t                                    %! SpannerCommand
+        \hide NoteHead                                                         %! baca_glissando:SpannerCommand
+        \override Accidental.stencil = ##f                                     %! baca_glissando:SpannerCommand
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando:SpannerCommand
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando:SpannerCommand
         f'16 * 225/32                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         f'16 * 43/8                                                            %! stirrings_still_accelerando
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         g'16 * 133/32                                                          %! stirrings_still_accelerando
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         g'16 * 229/64                                                          %! stirrings_still_accelerando
         ]                                                                      %! stirrings_still_accelerando
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_accelerando
@@ -1891,46 +1891,46 @@ H_ViolinIIMusicVoice = {                                                       %
         % [H ViolinIIMusicVoice measure 479 / measure 13]                      %! _comment_measure_numbers
         \override TupletBracket.staff-padding = #1.5                           %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
         g'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(1)
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "6˝ circles"                            %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
-        \glissando                                                             %! SpannerCommand
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "6˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         g'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         g'4                                                                    %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [H ViolinIIMusicVoice measure 480 / measure 14]                          %! _comment_measure_numbers
     a'4                                                                        %! stirrings_still_desynchronization
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     a'4                                                                        %! stirrings_still_desynchronization
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 6/10 {                                                              %! stirrings_still_desynchronization
 
         % [H ViolinIIMusicVoice measure 481 / measure 15]                      %! _comment_measure_numbers
-        \revert Accidental.stencil                                             %! SpannerCommand
-        \revert NoteColumn.glissando-skip                                      %! SpannerCommand
-        \revert NoteHead.no-ledgers                                            %! SpannerCommand
-        \undo \hide NoteHead                                                   %! SpannerCommand
+        \revert Accidental.stencil                                             %! baca_glissando:SpannerCommand
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando:SpannerCommand
+        \revert NoteHead.no-ledgers                                            %! baca_glissando:SpannerCommand
+        \undo \hide NoteHead                                                   %! baca_glissando:SpannerCommand
         af'!4                                                                  %! stirrings_still_desynchronization
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \stopTextSpan                                                          %! PiecewiseCommand(1)
-        - \abjad-invisible-line                                                %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "8˝ circles"                            %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-invisible-line                                                %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "8˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         af'!4                                                                  %! stirrings_still_desynchronization
 
@@ -1955,7 +1955,7 @@ H_ViolinIIMusicVoice = {                                                       %
         af'!4                                                                  %! stirrings_still_desynchronization
 
         af'!4                                                                  %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(3)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 
@@ -1963,8 +1963,8 @@ H_ViolinIIMusicVoice = {                                                       %
 
     % [H ViolinIIMusicVoice measure 483 / measure 17]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [H ViolinIIMusicVoice measure 484 / measure 18]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
@@ -1988,12 +1988,12 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         ^ \markup { "8” circles continue" }                                    %! baca_markup:IndicatorCommand
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
@@ -2019,8 +2019,8 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
@@ -2138,15 +2138,15 @@ H_ViolinIIMusicVoice = {                                                       %
         \once \override Beam.grow-direction = #right
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 121/16                                                          %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "“whisk” circles"                       %! PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "poco scratch circles"                 %! PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "poco scratch circles"                 %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2154,7 +2154,7 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 173/32                                                          %! stirrings_still_accelerando
-        \stopTextSpan                                                          %! PiecewiseCommand(2)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 139/32                                                          %! stirrings_still_accelerando
@@ -2181,11 +2181,11 @@ H_ViolinIIMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! IndicatorCommand
-        - \abjad-dashed-line-with-hook                                         %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-markup \baca-damp-half-clt-markup            %! PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! PiecewiseCommand(1)
-        - \tweak staff-padding #7                                              %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-half-clt-markup            %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #7                                              %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         r4                                                                     %! stirrings_still_clockticks
 
@@ -2211,7 +2211,7 @@ H_ViolinIIMusicVoice = {                                                       %
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
         \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
-        <> \stopTextSpan                                                       %! PiecewiseCommand(3)
+        <> \stopTextSpan                                                       %! baca_text_spanner:PiecewiseCommand(3)
 
     }                                                                          %! stirrings_still_clockticks
 
@@ -2229,25 +2229,25 @@ H_ViolinIIMusicVoice = {                                                       %
     % [H ViolinIIMusicVoice measure 501 / measure 35]                          %! _comment_measure_numbers
     \override DynamicLineSpanner.staff-padding = #'3                           %! baca_dls_staff_padding:OverrideCommand(1)
     f'1                                                                        %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     _ \markup { III }                                                          %! baca_markup:IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "rasp (2°)"                                 %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "poco rasp (2°)"                           %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "rasp (2°)"                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "poco rasp (2°)"                           %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [H ViolinIIMusicVoice measure 502 / measure 36]                          %! _comment_measure_numbers
     f'1                                                                        %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     \override TupletNumber.text = \markup {
@@ -2298,15 +2298,15 @@ H_ViolinIIMusicVoice = {                                                       %
         \once \override Beam.grow-direction = #right
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 127/16                                                          %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "“whisk” circles"                       %! PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "mod. scratch circles"                 %! PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "mod. scratch circles"                 %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2314,7 +2314,7 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 377/64                                                          %! stirrings_still_accelerando
-        \stopTextSpan                                                          %! PiecewiseCommand(2)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 19/4                                                            %! stirrings_still_accelerando
@@ -2380,15 +2380,15 @@ H_ViolinIIMusicVoice = {                                                       %
         \once \override Beam.grow-direction = #right
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 477/64                                                          %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "“whisk” circles"                       %! PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "molto scratch circles"                %! PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "molto scratch circles"                %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2396,7 +2396,7 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 105/16                                                          %! stirrings_still_accelerando
-        \stopTextSpan                                                          %! PiecewiseCommand(2)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 23/4                                                            %! stirrings_still_accelerando
@@ -2432,8 +2432,8 @@ H_ViolinIIMusicVoice = {                                                       %
         \override TextSpanner.staff-padding = #4                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
@@ -2478,16 +2478,16 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "molto scratch"                         %! PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "pochiss. scratch"                     %! PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "molto scratch"                         %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "pochiss. scratch"                     %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
@@ -2504,7 +2504,7 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
-        \stopTextSpan                                                          %! PiecewiseCommand(2)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
@@ -2514,8 +2514,8 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-        \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_pickets
@@ -2530,8 +2530,8 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_pickets
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { "pochiss. scratch" }                                       %! baca_markup:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2565,20 +2565,20 @@ H_ViolaMusicVoice = {                                                          %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     af!1                                                                       %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     _ \markup { III }                                                          %! baca_markup:IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "rasp (2°)"                                 %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "flaut. (2°)"                              %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "rasp (2°)"                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "flaut. (2°)"                              %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -2593,10 +2593,10 @@ H_ViolaMusicVoice = {                                                          %
 
     % [H ViolaMusicVoice measure 470 / measure 4]                              %! _comment_measure_numbers
     af!2..                                                                     %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [H ViolaMusicVoice measure 471 / measure 5]                              %! _comment_measure_numbers
     af!2..                                                                     %! baca_make_repeat_tied_notes
@@ -2671,29 +2671,29 @@ H_ViolaMusicVoice = {                                                          %
         \override Staff.Stem.stemlet-length = 0.75                             %! stirrings_still_accelerando
         \once \override Beam.grow-direction = #right
         af!16 * 15/2                                                           %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { "(always one circle per stem)" }                           %! baca_markup:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "2˝ circles"                            %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "2˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \hide NoteHead                                                         %! SpannerCommand
-        \override Accidental.stencil = ##f                                     %! SpannerCommand
-        \override NoteColumn.glissando-skip = ##t                              %! SpannerCommand
-        \override NoteHead.no-ledgers = ##t                                    %! SpannerCommand
+        \hide NoteHead                                                         %! baca_glissando:SpannerCommand
+        \override Accidental.stencil = ##f                                     %! baca_glissando:SpannerCommand
+        \override NoteColumn.glissando-skip = ##t                              %! baca_glissando:SpannerCommand
+        \override NoteHead.no-ledgers = ##t                                    %! baca_glissando:SpannerCommand
         a16 * 377/64                                                           %! stirrings_still_accelerando
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         a16 * 237/64                                                           %! stirrings_still_accelerando
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         a16 * 93/32                                                            %! stirrings_still_accelerando
         ]                                                                      %! stirrings_still_accelerando
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! stirrings_still_accelerando
@@ -2704,52 +2704,52 @@ H_ViolaMusicVoice = {                                                          %
 
         % [H ViolaMusicVoice measure 475 / measure 9]                          %! _comment_measure_numbers
         a4                                                                     %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(1)
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "4˝ circles"                            %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
-        \glissando                                                             %! SpannerCommand
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "4˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         a4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         a4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [H ViolaMusicVoice measure 476 / measure 10]                             %! _comment_measure_numbers
     a4                                                                         %! stirrings_still_desynchronization
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     a4                                                                         %! stirrings_still_desynchronization
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     a4                                                                         %! stirrings_still_desynchronization
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_desynchronization
     \times 7/10 {                                                              %! stirrings_still_desynchronization
 
         % [H ViolaMusicVoice measure 477 / measure 11]                         %! _comment_measure_numbers
         a4                                                                     %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(1)
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "6˝ circles"                            %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
-        \glissando                                                             %! SpannerCommand
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "6˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         a4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -2758,16 +2758,16 @@ H_ViolaMusicVoice = {                                                          %
 
         % [H ViolaMusicVoice measure 478 / measure 12]                         %! _comment_measure_numbers
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         b4                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_desynchronization
 
@@ -2776,24 +2776,24 @@ H_ViolaMusicVoice = {                                                          %
 
         % [H ViolaMusicVoice measure 479 / measure 13]                         %! _comment_measure_numbers
         b2                                                                     %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(1)
-        - \abjad-invisible-line                                                %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "8˝ circles"                            %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
-        \glissando                                                             %! SpannerCommand
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-invisible-line                                                %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "8˝ circles"                            %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         b2                                                                     %! stirrings_still_desynchronization
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_desynchronization
 
     % [H ViolaMusicVoice measure 480 / measure 14]                             %! _comment_measure_numbers
     b4                                                                         %! stirrings_still_desynchronization
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     b4                                                                         %! stirrings_still_desynchronization
-    \stopTextSpan                                                              %! PiecewiseCommand(3)
-    \glissando                                                                 %! SpannerCommand
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
     \revert TextScript.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
@@ -2801,17 +2801,17 @@ H_ViolaMusicVoice = {                                                          %
     \times 6/8 {                                                               %! stirrings_still_desynchronization
 
         % [H ViolaMusicVoice measure 481 / measure 15]                         %! _comment_measure_numbers
-        \revert Accidental.stencil                                             %! SpannerCommand
-        \revert NoteColumn.glissando-skip                                      %! SpannerCommand
-        \revert NoteHead.no-ledgers                                            %! SpannerCommand
-        \undo \hide NoteHead                                                   %! SpannerCommand
+        \revert Accidental.stencil                                             %! baca_glissando:SpannerCommand
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando:SpannerCommand
+        \revert NoteHead.no-ledgers                                            %! baca_glissando:SpannerCommand
+        \undo \hide NoteHead                                                   %! baca_glissando:SpannerCommand
         b4                                                                     %! stirrings_still_desynchronization
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         b4                                                                     %! stirrings_still_desynchronization
 
@@ -2833,8 +2833,8 @@ H_ViolaMusicVoice = {                                                          %
 
     % [H ViolaMusicVoice measure 483 / measure 17]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [H ViolaMusicVoice measure 484 / measure 18]                             %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
@@ -2856,12 +2856,12 @@ H_ViolaMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_pickets
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \markup { "8” circles continue" }                                        %! baca_markup:IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_pickets
@@ -2880,8 +2880,8 @@ H_ViolaMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_pickets
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_pickets
@@ -2976,15 +2976,15 @@ H_ViolaMusicVoice = {                                                          %
         \once \override Beam.grow-direction = #right
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 501/64                                                          %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "“whisk” circles"                       %! PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "poco scratch circles"                 %! PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "poco scratch circles"                 %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2992,7 +2992,7 @@ H_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 427/64                                                          %! stirrings_still_accelerando
-        \stopTextSpan                                                          %! PiecewiseCommand(2)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(2)
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -3011,8 +3011,8 @@ H_ViolaMusicVoice = {                                                          %
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! baca_make_repeat_tied_notes
@@ -3025,25 +3025,25 @@ H_ViolaMusicVoice = {                                                          %
     % [H ViolaMusicVoice measure 501 / measure 35]                             %! _comment_measure_numbers
     \override DynamicLineSpanner.staff-padding = #'3                           %! baca_dls_staff_padding:OverrideCommand(1)
     af!1                                                                       %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     _ \markup { III }                                                          %! baca_markup:IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "rasp (2°)"                                 %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "poco rasp (2°)"                           %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "rasp (2°)"                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "poco rasp (2°)"                           %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [H ViolaMusicVoice measure 502 / measure 36]                             %! _comment_measure_numbers
     af!1                                                                       %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     \override TupletNumber.text = \markup {
@@ -3094,15 +3094,15 @@ H_ViolaMusicVoice = {                                                          %
         \once \override Beam.grow-direction = #right
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 55/8                                                            %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "“whisk” circles"                       %! PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "mod. scratch circles"                 %! PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "mod. scratch circles"                 %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -3110,7 +3110,7 @@ H_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 381/64                                                          %! stirrings_still_accelerando
-        \stopTextSpan                                                          %! PiecewiseCommand(2)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 173/32                                                          %! stirrings_still_accelerando
@@ -3176,15 +3176,15 @@ H_ViolaMusicVoice = {                                                          %
         \once \override Beam.grow-direction = #right
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 249/32                                                          %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "“whisk” circles"                       %! PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "molto scratch circles"                %! PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! PiecewiseCommand(1)
-        - \tweak staff-padding #5                                              %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "“whisk” circles"                       %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-right-text "molto scratch circles"                %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -3192,7 +3192,7 @@ H_ViolaMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 117/16                                                          %! stirrings_still_accelerando
-        \stopTextSpan                                                          %! PiecewiseCommand(2)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 439/64                                                          %! stirrings_still_accelerando
@@ -3220,8 +3220,8 @@ H_ViolaMusicVoice = {                                                          %
     \override TextSpanner.staff-padding = #4                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_pickets
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_pickets
@@ -3252,23 +3252,23 @@ H_ViolaMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_pickets
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "molto scratch"                             %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "pochiss. scratch"                         %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "molto scratch"                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "pochiss. scratch"                         %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_pickets
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_pickets
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_pickets
@@ -3278,8 +3278,8 @@ H_ViolaMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_pickets
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
     % [H ViolaMusicVoice measure 517 / measure 51]                             %! _comment_measure_numbers
@@ -3288,8 +3288,8 @@ H_ViolaMusicVoice = {                                                          %
     % [H ViolaMusicVoice measure 518 / measure 52]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_pickets
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "pochiss. scratch" }                                           %! baca_markup:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3317,20 +3317,20 @@ H_CelloMusicVoice = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     af,!1                                                                      %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \!                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \!                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     _ \markup { III }                                                          %! baca_markup:IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "rasp (2°)"                                 %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "flaut. (2°)"                              %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "rasp (2°)"                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "flaut. (2°)"                              %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -3345,10 +3345,10 @@ H_CelloMusicVoice = {                                                          %
 
     % [H CelloMusicVoice measure 470 / measure 4]                              %! _comment_measure_numbers
     af,!2..                                                                    %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [H CelloMusicVoice measure 471 / measure 5]                              %! _comment_measure_numbers
     af,!2..                                                                    %! baca_make_repeat_tied_notes
@@ -3406,47 +3406,47 @@ H_CelloMusicVoice = {                                                          %
         \once \override Beam.grow-direction = #right
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 119/32                                                          %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \downbow                                                             %! BCPCommand(6)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(6)
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
             \override                                                          %! baca_markup:IndicatorCommand
                 #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #0 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 201/64                                                          %! stirrings_still_accelerando
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #4 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 137/64                                                          %! stirrings_still_accelerando
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #5 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #5 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 51/32                                                           %! stirrings_still_accelerando
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        - \baca-bcp-spanner-right-text #7 #7                                   %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-right-text #7 #7                                   %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 45/32                                                           %! stirrings_still_accelerando
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(1)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_accelerando
         \revert Script.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
@@ -3459,134 +3459,134 @@ H_CelloMusicVoice = {                                                          %
 
     % [H CelloMusicVoice measure 473 / measure 7]                              %! _comment_measure_numbers
     af,!2.                                                                     %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     _ \markup { IV }                                                           %! baca_markup:IndicatorCommand
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "flaut."                                    %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "non flaut."                               %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
-    - \tweak arrow-length #2                                                   %! SpannerCommand
-    - \tweak arrow-width #0.5                                                  %! SpannerCommand
-    - \tweak bound-details.right.arrow ##t                                     %! SpannerCommand
-    - \tweak thickness #3                                                      %! SpannerCommand
-    \glissando                                                                 %! SpannerCommand
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "flaut."                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "non flaut."                               %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak arrow-length #2                                                   %! baca_finger_pressure_transition:SpannerCommand
+    - \tweak arrow-width #0.5                                                  %! baca_finger_pressure_transition:SpannerCommand
+    - \tweak bound-details.right.arrow ##t                                     %! baca_finger_pressure_transition:SpannerCommand
+    - \tweak thickness #3                                                      %! baca_finger_pressure_transition:SpannerCommand
+    \glissando                                                                 %! baca_finger_pressure_transition:SpannerCommand
 
     % [H CelloMusicVoice measure 474 / measure 8]                              %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     gf,!2                                                                      %! baca_make_notes
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [H CelloMusicVoice measure 475 / measure 9]                              %! _comment_measure_numbers
     gf,!4.
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \repeatTie                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     gf,!4
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 476 / measure 10]                             %! _comment_measure_numbers
     gf,!2.                                                                     %! baca_make_notes
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 477 / measure 11]                             %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_notes
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 478 / measure 12]                             %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_notes
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 479 / measure 13]                             %! _comment_measure_numbers
     gf,!4.
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ^ \markup { "poco overpressure" }                                          %! baca_markup:IndicatorCommand
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     gf,!4
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 480 / measure 14]                             %! _comment_measure_numbers
     gf,!2                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 481 / measure 15]                             %! _comment_measure_numbers
     gf,!2.                                                                     %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \repeatTie                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 482 / measure 16]                             %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 483 / measure 17]                             %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     ^ \markup { "molto overpressure" }                                         %! baca_markup:IndicatorCommand
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 484 / measure 18]                             %! _comment_measure_numbers
     gf,!2                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 485 / measure 19]                             %! _comment_measure_numbers
     gf,!4.
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     gf,!4
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 486 / measure 20]                             %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 487 / measure 21]                             %! _comment_measure_numbers
     gf,!2.                                                                     %! baca_make_notes
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 488 / measure 22]                             %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 489 / measure 23]                             %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \repeatTie                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 490 / measure 24]                             %! _comment_measure_numbers
     gf,!2.                                                                     %! baca_make_notes
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 491 / measure 25]                             %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_notes
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 492 / measure 26]                             %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 493 / measure 27]                             %! _comment_measure_numbers
     gf,!1                                                                      %! baca_make_notes
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 494 / measure 28]                             %! _comment_measure_numbers
     gf,!2.                                                                     %! baca_make_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \repeatTie                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
 
     % [H CelloMusicVoice measure 495 / measure 29]                             %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
@@ -3597,7 +3597,7 @@ H_CelloMusicVoice = {                                                          %
 
     % [H CelloMusicVoice measure 497 / measure 31]                             %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_notes
-    \repeatTie                                                                 %! SpannerCommand
+    \repeatTie                                                                 %! baca_repeat_tie:SpannerCommand
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
     % [H CelloMusicVoice measure 498 / measure 32]                             %! _comment_measure_numbers
@@ -3607,8 +3607,8 @@ H_CelloMusicVoice = {                                                          %
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! baca_make_repeat_tied_notes
@@ -3621,101 +3621,101 @@ H_CelloMusicVoice = {                                                          %
     % [H CelloMusicVoice measure 501 / measure 35]                             %! _comment_measure_numbers
     \override DynamicLineSpanner.staff-padding = #'3                           %! baca_dls_staff_padding:OverrideCommand(1)
     af,!1                                                                      %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     _ \markup { III }                                                          %! baca_markup:IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "rasp (2°)"                                 %! PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "poco rasp (2°)"                           %! PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "rasp (2°)"                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "poco rasp (2°)"                           %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [H CelloMusicVoice measure 502 / measure 36]                             %! _comment_measure_numbers
     af,!1                                                                      %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
-    \stopTextSpan                                                              %! PiecewiseCommand(2)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     % [H CelloMusicVoice measure 503 / measure 37]                             %! _comment_measure_numbers
     gf,!4                                                                      %! baca_make_repeated_duration_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    \hide NoteHead                                                             %! SpannerCommand
-    \override Accidental.stencil = ##f                                         %! SpannerCommand
-    \override NoteColumn.glissando-skip = ##t                                  %! SpannerCommand
-    \override NoteHead.no-ledgers = ##t                                        %! SpannerCommand
+    \hide NoteHead                                                             %! baca_glissando:SpannerCommand
+    \override Accidental.stencil = ##f                                         %! baca_glissando:SpannerCommand
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando:SpannerCommand
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando:SpannerCommand
     g,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     g,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [H CelloMusicVoice measure 504 / measure 38]                             %! _comment_measure_numbers
     g,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     g,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     g,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [H CelloMusicVoice measure 509 / measure 43]                             %! _comment_measure_numbers
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     f,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     e,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     e,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     e,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     e,4                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     e,8                                                                        %! baca_make_repeated_duration_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 5/6 {                                                               %! stirrings_still_trajectories
@@ -3724,68 +3724,68 @@ H_CelloMusicVoice = {                                                          %
         \override DynamicLineSpanner.staff-padding = #'5                       %! baca_dls_staff_padding:OverrideCommand(1)
         \override TextScript.staff-padding = #11                               %! baca_script_staff_padding:OverrideCommand(1)
         \override TextSpanner.staff-padding = #7                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
-        \revert Accidental.stencil                                             %! SpannerCommand
-        \revert NoteColumn.glissando-skip                                      %! SpannerCommand
-        \revert NoteHead.no-ledgers                                            %! SpannerCommand
-        \undo \hide NoteHead                                                   %! SpannerCommand
+        \revert Accidental.stencil                                             %! baca_glissando:SpannerCommand
+        \revert NoteColumn.glissando-skip                                      %! baca_glissando:SpannerCommand
+        \revert NoteHead.no-ledgers                                            %! baca_glissando:SpannerCommand
+        \undo \hide NoteHead                                                   %! baca_glissando:SpannerCommand
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \upbow                                                               %! BCPCommand(5)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \upbow                                                               %! baca_bcps:BCPCommand(5)
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
             \override                                                          %! baca_markup:IndicatorCommand
                 #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         [                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,4                                                                    %! stirrings_still_trajectories
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #0 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         [                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_trajectories
 
@@ -3795,56 +3795,56 @@ H_CelloMusicVoice = {                                                          %
         % [H CelloMusicVoice measure 513 / measure 47]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #0 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,4                                                                    %! stirrings_still_trajectories
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #0 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         [                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #4 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #5 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #5 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_trajectories
 
@@ -3852,63 +3852,63 @@ H_CelloMusicVoice = {                                                          %
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     e,8                                                                        %! stirrings_still_trajectories
     [                                                                          %! stirrings_still_trajectories
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     e,8                                                                        %! stirrings_still_trajectories
-    - \upbow                                                                   %! BCPCommand(7)
-    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \upbow                                                                   %! baca_bcps:BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     e,8                                                                        %! stirrings_still_trajectories
-    - \downbow                                                                 %! BCPCommand(8)
-    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
-    - \baca-bcp-spanner-left-text #6 #7                                        %! BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \downbow                                                                 %! baca_bcps:BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #6 #7                                        %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     e,8                                                                        %! stirrings_still_trajectories
-    - \upbow                                                                   %! BCPCommand(7)
-    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \upbow                                                                   %! baca_bcps:BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]                                                                          %! stirrings_still_trajectories
-    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     e,4                                                                        %! stirrings_still_trajectories
-    - \downbow                                                                 %! BCPCommand(8)
-    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
-    - \baca-bcp-spanner-left-text #0 #4                                        %! BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \downbow                                                                 %! baca_bcps:BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #0 #4                                        %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     e,8                                                                        %! stirrings_still_trajectories
-    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
-    - \baca-bcp-spanner-left-text #1 #4                                        %! BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #1 #4                                        %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
     [                                                                          %! stirrings_still_trajectories
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     e,8                                                                        %! stirrings_still_trajectories
-    - \upbow                                                                   %! BCPCommand(7)
-    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
+    - \upbow                                                                   %! baca_bcps:BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     ]                                                                          %! stirrings_still_trajectories
-    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
-    - \baca-bcp-spanner-left-text #2 #4                                        %! BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #2 #4                                        %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 8/7 {                                                               %! stirrings_still_trajectories
@@ -3916,55 +3916,55 @@ H_CelloMusicVoice = {                                                          %
         % [H CelloMusicVoice measure 515 / measure 49]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #1 #4                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #1 #4                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,4                                                                    %! stirrings_still_trajectories
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #0 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #4 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         [                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #5 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #5 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_trajectories
 
@@ -3974,43 +3974,43 @@ H_CelloMusicVoice = {                                                          %
         % [H CelloMusicVoice measure 516 / measure 50]                         %! _comment_measure_numbers
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         [                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #0 #7                                    %! BCPCommand(2)
-        - \baca-bcp-spanner-right-text #7 #7                                   %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-right-text #7 #7                                   %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,4                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(1)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(1)
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
@@ -4020,24 +4020,24 @@ H_CelloMusicVoice = {                                                          %
     % [H CelloMusicVoice measure 517 / measure 51]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_taper
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_taper
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     r8                                                                         %! stirrings_still_taper
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     \times 4/5 {                                                               %! stirrings_still_trajectories
 
@@ -4047,45 +4047,45 @@ H_CelloMusicVoice = {                                                          %
         \override TextSpanner.staff-padding = #7                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \upbow                                                               %! BCPCommand(5)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \upbow                                                               %! baca_bcps:BCPCommand(5)
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
             \override                                                          %! baca_markup:IndicatorCommand
                 #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         [                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #0 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,4                                                                    %! stirrings_still_trajectories
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        - \baca-bcp-spanner-right-text #0 #7                                   %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-right-text #0 #7                                   %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(1)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(1)
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)

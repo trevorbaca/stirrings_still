@@ -801,9 +801,9 @@ K_ViolinIMusicVoice = {                                                        %
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \downbow                                                             %! BCPCommand(6)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(6)
         ^ \baca-reapplied-indicator-markup "[“Vn. I”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
@@ -812,11 +812,11 @@ K_ViolinIMusicVoice = {                                                        %
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #0 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -824,29 +824,29 @@ K_ViolinIMusicVoice = {                                                        %
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #4 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #5 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #5 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_trajectories
 
@@ -858,44 +858,44 @@ K_ViolinIMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
         [                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        - \baca-bcp-spanner-right-text #0 #7                                   %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-right-text #0 #7                                   %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(1)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(1)
         \revert TextScript.parent-alignment-X                                  %! baca_text_script_parent_center:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
@@ -912,21 +912,21 @@ K_ViolinIMusicVoice = {                                                        %
         \override TextSpanner.staff-padding = #5                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { "hair: circles (each as wide as poss.)" }                  %! baca_markup:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \tweak bound-details.left.text \markup {                             %! PiecewiseCommand(1)
-            \concat                                                            %! PiecewiseCommand(1)
-                {                                                              %! PiecewiseCommand(1)
-                    \upright                                                   %! PiecewiseCommand(1)
-                        \musicglyph                                            %! PiecewiseCommand(1)
-                            #"noteheads.s0harmonic"                            %! PiecewiseCommand(1)
-                    \hspace                                                    %! PiecewiseCommand(1)
-                        #0.5                                                   %! PiecewiseCommand(1)
-                }                                                              %! PiecewiseCommand(1)
-            }                                                                  %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left.text \markup {                             %! baca_text_spanner:PiecewiseCommand(1)
+            \concat                                                            %! baca_text_spanner:PiecewiseCommand(1)
+                {                                                              %! baca_text_spanner:PiecewiseCommand(1)
+                    \upright                                                   %! baca_text_spanner:PiecewiseCommand(1)
+                        \musicglyph                                            %! baca_text_spanner:PiecewiseCommand(1)
+                            #"noteheads.s0harmonic"                            %! baca_text_spanner:PiecewiseCommand(1)
+                    \hspace                                                    %! baca_text_spanner:PiecewiseCommand(1)
+                        #0.5                                                   %! baca_text_spanner:PiecewiseCommand(1)
+                }                                                              %! baca_text_spanner:PiecewiseCommand(1)
+            }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -939,19 +939,19 @@ K_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(1)
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \tweak bound-details.left.text \markup {                             %! PiecewiseCommand(1)
-            \concat                                                            %! PiecewiseCommand(1)
-                {                                                              %! PiecewiseCommand(1)
-                    \upright                                                   %! PiecewiseCommand(1)
-                        \musicglyph                                            %! PiecewiseCommand(1)
-                            #"noteheads.s2harmonic"                            %! PiecewiseCommand(1)
-                    \hspace                                                    %! PiecewiseCommand(1)
-                        #0.5                                                   %! PiecewiseCommand(1)
-                }                                                              %! PiecewiseCommand(1)
-            }                                                                  %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left.text \markup {                             %! baca_text_spanner:PiecewiseCommand(1)
+            \concat                                                            %! baca_text_spanner:PiecewiseCommand(1)
+                {                                                              %! baca_text_spanner:PiecewiseCommand(1)
+                    \upright                                                   %! baca_text_spanner:PiecewiseCommand(1)
+                        \musicglyph                                            %! baca_text_spanner:PiecewiseCommand(1)
+                            #"noteheads.s2harmonic"                            %! baca_text_spanner:PiecewiseCommand(1)
+                    \hspace                                                    %! baca_text_spanner:PiecewiseCommand(1)
+                        #0.5                                                   %! baca_text_spanner:PiecewiseCommand(1)
+                }                                                              %! baca_text_spanner:PiecewiseCommand(1)
+            }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -973,10 +973,10 @@ K_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(1)
-        - \abjad-invisible-line                                                %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "ord."                                  %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-invisible-line                                                %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "ord."                                  %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -986,7 +986,7 @@ K_ViolinIMusicVoice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(3)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
@@ -1004,47 +1004,47 @@ K_ViolinIMusicVoice = {                                                        %
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \downbow                                                             %! BCPCommand(6)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(6)
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
             \override                                                          %! baca_markup:IndicatorCommand
                 #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #0 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #4 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #5 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #5 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_trajectories
 
@@ -1094,55 +1094,55 @@ K_ViolinIMusicVoice = {                                                        %
         \once \override Beam.grow-direction = #left
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 117/32                                                          %! stirrings_still_accelerando
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         [                                                                      %! stirrings_still_accelerando
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 61/16                                                           %! stirrings_still_accelerando
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 137/32                                                          %! stirrings_still_accelerando
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 325/64                                                          %! stirrings_still_accelerando
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #0 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 391/64                                                          %! stirrings_still_accelerando
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        - \baca-bcp-spanner-right-text #0 #7                                   %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-right-text #0 #7                                   %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 113/16                                                          %! stirrings_still_accelerando
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(1)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_accelerando
         \revert TextScript.parent-alignment-X                                  %! baca_text_script_parent_center:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
@@ -1685,9 +1685,9 @@ K_ViolinIIMusicVoice = {                                                       %
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \downbow                                                             %! BCPCommand(6)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(6)
         ^ \baca-reapplied-indicator-markup "[“Vn. II”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
@@ -1696,11 +1696,11 @@ K_ViolinIIMusicVoice = {                                                       %
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #4 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -1708,20 +1708,20 @@ K_ViolinIIMusicVoice = {                                                       %
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #5 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #5 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_trajectories
 
@@ -1729,38 +1729,38 @@ K_ViolinIIMusicVoice = {                                                       %
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
-    - \upbow                                                                   %! BCPCommand(7)
-    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \upbow                                                                   %! baca_bcps:BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
-    - \downbow                                                                 %! BCPCommand(8)
-    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
-    - \baca-bcp-spanner-left-text #6 #7                                        %! BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \downbow                                                                 %! baca_bcps:BCPCommand(8)
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #6 #7                                        %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
-    - \upbow                                                                   %! BCPCommand(7)
-    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
-    - \baca-bcp-spanner-right-text #0 #7                                       %! BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \upbow                                                                   %! baca_bcps:BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-right-text #0 #7                                       %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
-    \bacaStopTextSpanBCP                                                       %! BCPCommand(1)
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(1)
     \revert TextScript.parent-alignment-X                                      %! baca_text_script_parent_center:OverrideCommand(2)
     \revert TextScript.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
@@ -1775,21 +1775,21 @@ K_ViolinIIMusicVoice = {                                                       %
         \override TextSpanner.staff-padding = #5                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { "hair: circles (each as wide as poss.)" }                  %! baca_markup:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \tweak bound-details.left.text \markup {                             %! PiecewiseCommand(1)
-            \concat                                                            %! PiecewiseCommand(1)
-                {                                                              %! PiecewiseCommand(1)
-                    \upright                                                   %! PiecewiseCommand(1)
-                        \musicglyph                                            %! PiecewiseCommand(1)
-                            #"noteheads.s0harmonic"                            %! PiecewiseCommand(1)
-                    \hspace                                                    %! PiecewiseCommand(1)
-                        #0.5                                                   %! PiecewiseCommand(1)
-                }                                                              %! PiecewiseCommand(1)
-            }                                                                  %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left.text \markup {                             %! baca_text_spanner:PiecewiseCommand(1)
+            \concat                                                            %! baca_text_spanner:PiecewiseCommand(1)
+                {                                                              %! baca_text_spanner:PiecewiseCommand(1)
+                    \upright                                                   %! baca_text_spanner:PiecewiseCommand(1)
+                        \musicglyph                                            %! baca_text_spanner:PiecewiseCommand(1)
+                            #"noteheads.s0harmonic"                            %! baca_text_spanner:PiecewiseCommand(1)
+                    \hspace                                                    %! baca_text_spanner:PiecewiseCommand(1)
+                        #0.5                                                   %! baca_text_spanner:PiecewiseCommand(1)
+                }                                                              %! baca_text_spanner:PiecewiseCommand(1)
+            }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -1802,19 +1802,19 @@ K_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(1)
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \tweak bound-details.left.text \markup {                             %! PiecewiseCommand(1)
-            \concat                                                            %! PiecewiseCommand(1)
-                {                                                              %! PiecewiseCommand(1)
-                    \upright                                                   %! PiecewiseCommand(1)
-                        \musicglyph                                            %! PiecewiseCommand(1)
-                            #"noteheads.s2harmonic"                            %! PiecewiseCommand(1)
-                    \hspace                                                    %! PiecewiseCommand(1)
-                        #0.5                                                   %! PiecewiseCommand(1)
-                }                                                              %! PiecewiseCommand(1)
-            }                                                                  %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left.text \markup {                             %! baca_text_spanner:PiecewiseCommand(1)
+            \concat                                                            %! baca_text_spanner:PiecewiseCommand(1)
+                {                                                              %! baca_text_spanner:PiecewiseCommand(1)
+                    \upright                                                   %! baca_text_spanner:PiecewiseCommand(1)
+                        \musicglyph                                            %! baca_text_spanner:PiecewiseCommand(1)
+                            #"noteheads.s2harmonic"                            %! baca_text_spanner:PiecewiseCommand(1)
+                    \hspace                                                    %! baca_text_spanner:PiecewiseCommand(1)
+                        #0.5                                                   %! baca_text_spanner:PiecewiseCommand(1)
+                }                                                              %! baca_text_spanner:PiecewiseCommand(1)
+            }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -1830,10 +1830,10 @@ K_ViolinIIMusicVoice = {                                                       %
         % [K ViolinIIMusicVoice measure 549 / measure 4]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(1)
-        - \abjad-invisible-line                                                %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "ord."                                  %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-invisible-line                                                %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "ord."                                  %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -1843,7 +1843,7 @@ K_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(3)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
@@ -1861,48 +1861,48 @@ K_ViolinIIMusicVoice = {                                                       %
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \downbow                                                             %! BCPCommand(6)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(6)
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
             \override                                                          %! baca_markup:IndicatorCommand
                 #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #4 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #4 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #5 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #5 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_trajectories
 
@@ -1952,46 +1952,46 @@ K_ViolinIIMusicVoice = {                                                       %
         \once \override Beam.grow-direction = #left
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 159/32                                                          %! stirrings_still_accelerando
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         [                                                                      %! stirrings_still_accelerando
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 331/64                                                          %! stirrings_still_accelerando
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 367/64                                                          %! stirrings_still_accelerando
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #0 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 423/64                                                          %! stirrings_still_accelerando
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        - \baca-bcp-spanner-right-text #0 #7                                   %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-right-text #0 #7                                   %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 481/64                                                          %! stirrings_still_accelerando
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(1)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_accelerando
         \revert TextScript.parent-alignment-X                                  %! baca_text_script_parent_center:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
@@ -2629,9 +2629,9 @@ K_ViolaMusicVoice = {                                                          %
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_trajectories
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    - \downbow                                                                 %! BCPCommand(6)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \downbow                                                                 %! baca_bcps:BCPCommand(6)
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
@@ -2640,11 +2640,11 @@ K_ViolaMusicVoice = {                                                          %
             \box                                                               %! baca_markup:IndicatorCommand
                 "½ clt"                                                        %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
-    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
-    - \baca-bcp-spanner-left-text #5 #7                                        %! BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \stirrings-still-va-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -2652,21 +2652,21 @@ K_ViolaMusicVoice = {                                                          %
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! stirrings_still_trajectories
-    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
-    - \baca-bcp-spanner-left-text #6 #7                                        %! BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #6 #7                                        %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_trajectories
-    - \upbow                                                                   %! BCPCommand(7)
-    \bacaStopTextSpanBCP                                                       %! BCPCommand(3)
-    - \abjad-solid-line-with-arrow                                             %! BCPCommand(2)
-    - \baca-bcp-spanner-left-text #7 #7                                        %! BCPCommand(2)
-    \bacaStartTextSpanBCP                                                      %! BCPCommand(2)
-    \glissando                                                                 %! SpannerCommand
+    - \upbow                                                                   %! baca_bcps:BCPCommand(7)
+    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
+    - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
+    - \baca-bcp-spanner-left-text #7 #7                                        %! baca_bcps:BCPCommand(2)
+    \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 7/6 {                                                               %! stirrings_still_trajectories
@@ -2675,28 +2675,28 @@ K_ViolaMusicVoice = {                                                          %
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        - \baca-bcp-spanner-right-text #0 #7                                   %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-right-text #0 #7                                   %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(1)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(1)
         \revert TextScript.parent-alignment-X                                  %! baca_text_script_parent_center:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
@@ -2710,21 +2710,21 @@ K_ViolaMusicVoice = {                                                          %
     \override TextSpanner.staff-padding = #5                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "hair: circles (each as wide as poss.)" }                      %! baca_markup:IndicatorCommand
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \tweak bound-details.left.text \markup {                                 %! PiecewiseCommand(1)
-        \concat                                                                %! PiecewiseCommand(1)
-            {                                                                  %! PiecewiseCommand(1)
-                \upright                                                       %! PiecewiseCommand(1)
-                    \musicglyph                                                %! PiecewiseCommand(1)
-                        #"noteheads.s0harmonic"                                %! PiecewiseCommand(1)
-                \hspace                                                        %! PiecewiseCommand(1)
-                    #0.5                                                       %! PiecewiseCommand(1)
-            }                                                                  %! PiecewiseCommand(1)
-        }                                                                      %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left.text \markup {                                 %! baca_text_spanner:PiecewiseCommand(1)
+        \concat                                                                %! baca_text_spanner:PiecewiseCommand(1)
+            {                                                                  %! baca_text_spanner:PiecewiseCommand(1)
+                \upright                                                       %! baca_text_spanner:PiecewiseCommand(1)
+                    \musicglyph                                                %! baca_text_spanner:PiecewiseCommand(1)
+                        #"noteheads.s0harmonic"                                %! baca_text_spanner:PiecewiseCommand(1)
+                \hspace                                                        %! baca_text_spanner:PiecewiseCommand(1)
+                    #0.5                                                       %! baca_text_spanner:PiecewiseCommand(1)
+            }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
+        }                                                                      %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
@@ -2734,19 +2734,19 @@ K_ViolaMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-    \stopTextSpan                                                              %! PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! PiecewiseCommand(1)
-    - \tweak bound-details.left.text \markup {                                 %! PiecewiseCommand(1)
-        \concat                                                                %! PiecewiseCommand(1)
-            {                                                                  %! PiecewiseCommand(1)
-                \upright                                                       %! PiecewiseCommand(1)
-                    \musicglyph                                                %! PiecewiseCommand(1)
-                        #"noteheads.s2harmonic"                                %! PiecewiseCommand(1)
-                \hspace                                                        %! PiecewiseCommand(1)
-                    #0.5                                                       %! PiecewiseCommand(1)
-            }                                                                  %! PiecewiseCommand(1)
-        }                                                                      %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left.text \markup {                                 %! baca_text_spanner:PiecewiseCommand(1)
+        \concat                                                                %! baca_text_spanner:PiecewiseCommand(1)
+            {                                                                  %! baca_text_spanner:PiecewiseCommand(1)
+                \upright                                                       %! baca_text_spanner:PiecewiseCommand(1)
+                    \musicglyph                                                %! baca_text_spanner:PiecewiseCommand(1)
+                        #"noteheads.s2harmonic"                                %! baca_text_spanner:PiecewiseCommand(1)
+                \hspace                                                        %! baca_text_spanner:PiecewiseCommand(1)
+                    #0.5                                                       %! baca_text_spanner:PiecewiseCommand(1)
+            }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
+        }                                                                      %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
@@ -2757,17 +2757,17 @@ K_ViolaMusicVoice = {                                                          %
     % [K ViolaMusicVoice measure 549 / measure 4]                              %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-    \stopTextSpan                                                              %! PiecewiseCommand(1)
-    - \abjad-invisible-line                                                    %! PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "ord."                                      %! PiecewiseCommand(1)
-    \startTextSpan                                                             %! PiecewiseCommand(1)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-invisible-line                                                    %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "ord."                                      %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_desynchronization
-    \stopTextSpan                                                              %! PiecewiseCommand(3)
+    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
     \revert TextScript.staff-padding                                           %! baca_script_staff_padding:OverrideCommand(2)
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
@@ -2783,34 +2783,34 @@ K_ViolaMusicVoice = {                                                          %
     \override TextScript.parent-alignment-X = #0                               %! baca_text_script_parent_center:OverrideCommand(1)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'2                                                                        %! baca_make_repeat_tied_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \baca-effort-mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \baca-effort-mp                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
         \override                                                              %! baca_markup:IndicatorCommand
             #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
             \box                                                               %! baca_markup:IndicatorCommand
                 "tailpiece: poco flicker"                                      %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     c'8                                                                        %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [K ViolaMusicVoice measure 552 / measure 7]                              %! _comment_measure_numbers
     c'2                                                                        %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [K ViolaMusicVoice measure 553 / measure 8]                              %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [K ViolaMusicVoice measure 554 / measure 9]                              %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [K ViolaMusicVoice measure 555 / measure 10]                             %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [K ViolaMusicVoice measure 556 / measure 11]                             %! _comment_measure_numbers
     c'2                                                                        %! baca_make_repeat_tied_notes
@@ -2977,9 +2977,9 @@ K_CelloMusicVoice = {                                                          %
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \downbow                                                             %! BCPCommand(6)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(6)
         ^ \baca-reapplied-indicator-markup "[“Vc.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“Cello”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
@@ -2988,11 +2988,11 @@ K_CelloMusicVoice = {                                                          %
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \stirrings-still-vc-markup            %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -3000,24 +3000,24 @@ K_CelloMusicVoice = {                                                          %
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         [                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_trajectories
 
@@ -3028,44 +3028,44 @@ K_CelloMusicVoice = {                                                          %
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #0 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        - \baca-bcp-spanner-right-text #0 #7                                   %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-right-text #0 #7                                   %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         [                                                                      %! stirrings_still_trajectories
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(1)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_trajectories
         \revert TextScript.parent-alignment-X                                  %! baca_text_script_parent_center:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
@@ -3083,40 +3083,40 @@ K_CelloMusicVoice = {                                                          %
         \override TextSpanner.staff-padding = #5                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { "hair: circles (each as wide as poss.)" }                  %! baca_markup:IndicatorCommand
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \tweak bound-details.left.text \markup {                             %! PiecewiseCommand(1)
-            \concat                                                            %! PiecewiseCommand(1)
-                {                                                              %! PiecewiseCommand(1)
-                    \upright                                                   %! PiecewiseCommand(1)
-                        \musicglyph                                            %! PiecewiseCommand(1)
-                            #"noteheads.s0harmonic"                            %! PiecewiseCommand(1)
-                    \hspace                                                    %! PiecewiseCommand(1)
-                        #0.5                                                   %! PiecewiseCommand(1)
-                }                                                              %! PiecewiseCommand(1)
-            }                                                                  %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left.text \markup {                             %! baca_text_spanner:PiecewiseCommand(1)
+            \concat                                                            %! baca_text_spanner:PiecewiseCommand(1)
+                {                                                              %! baca_text_spanner:PiecewiseCommand(1)
+                    \upright                                                   %! baca_text_spanner:PiecewiseCommand(1)
+                        \musicglyph                                            %! baca_text_spanner:PiecewiseCommand(1)
+                            #"noteheads.s0harmonic"                            %! baca_text_spanner:PiecewiseCommand(1)
+                    \hspace                                                    %! baca_text_spanner:PiecewiseCommand(1)
+                        #0.5                                                   %! baca_text_spanner:PiecewiseCommand(1)
+                }                                                              %! baca_text_spanner:PiecewiseCommand(1)
+            }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(1)
-        - \abjad-dashed-line-with-arrow                                        %! PiecewiseCommand(1)
-        - \tweak bound-details.left.text \markup {                             %! PiecewiseCommand(1)
-            \concat                                                            %! PiecewiseCommand(1)
-                {                                                              %! PiecewiseCommand(1)
-                    \upright                                                   %! PiecewiseCommand(1)
-                        \musicglyph                                            %! PiecewiseCommand(1)
-                            #"noteheads.s2harmonic"                            %! PiecewiseCommand(1)
-                    \hspace                                                    %! PiecewiseCommand(1)
-                        #0.5                                                   %! PiecewiseCommand(1)
-                }                                                              %! PiecewiseCommand(1)
-            }                                                                  %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left.text \markup {                             %! baca_text_spanner:PiecewiseCommand(1)
+            \concat                                                            %! baca_text_spanner:PiecewiseCommand(1)
+                {                                                              %! baca_text_spanner:PiecewiseCommand(1)
+                    \upright                                                   %! baca_text_spanner:PiecewiseCommand(1)
+                        \musicglyph                                            %! baca_text_spanner:PiecewiseCommand(1)
+                            #"noteheads.s2harmonic"                            %! baca_text_spanner:PiecewiseCommand(1)
+                    \hspace                                                    %! baca_text_spanner:PiecewiseCommand(1)
+                        #0.5                                                   %! baca_text_spanner:PiecewiseCommand(1)
+                }                                                              %! baca_text_spanner:PiecewiseCommand(1)
+            }                                                                  %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
@@ -3132,14 +3132,14 @@ K_CelloMusicVoice = {                                                          %
         % [K CelloMusicVoice measure 549 / measure 4]                          %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(1)
-        - \abjad-invisible-line                                                %! PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "ord."                                  %! PiecewiseCommand(1)
-        \startTextSpan                                                         %! PiecewiseCommand(1)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        - \abjad-invisible-line                                                %! baca_text_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "ord."                                  %! baca_text_spanner:PiecewiseCommand(1)
+        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_desynchronization
-        \stopTextSpan                                                          %! PiecewiseCommand(3)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
@@ -3157,40 +3157,40 @@ K_CelloMusicVoice = {                                                          %
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        - \downbow                                                             %! BCPCommand(6)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(6)
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
             \override                                                          %! baca_markup:IndicatorCommand
                 #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! stirrings_still_trajectories
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! stirrings_still_trajectories
 
@@ -3240,46 +3240,46 @@ K_CelloMusicVoice = {                                                          %
         \once \override Beam.grow-direction = #left
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 327/64                                                          %! stirrings_still_accelerando
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         [                                                                      %! stirrings_still_accelerando
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 339/64                                                          %! stirrings_still_accelerando
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #0 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 93/16                                                           %! stirrings_still_accelerando
-        - \upbow                                                               %! BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \upbow                                                               %! baca_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 105/16                                                          %! stirrings_still_accelerando
-        - \downbow                                                             %! BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! BCPCommand(2)
-        - \baca-bcp-spanner-left-text #0 #7                                    %! BCPCommand(2)
-        - \baca-bcp-spanner-right-text #7 #7                                   %! BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! BCPCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \downbow                                                             %! baca_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-right-text #7 #7                                   %! baca_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 231/32                                                          %! stirrings_still_accelerando
-        \bacaStopTextSpanBCP                                                   %! BCPCommand(1)
+        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_accelerando
         \revert TextScript.parent-alignment-X                                  %! baca_text_script_parent_center:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
