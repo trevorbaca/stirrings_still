@@ -1801,15 +1801,15 @@ D_ViolinIMusicVoice = {                                                        %
         \once \override Beam.grow-direction = #right
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 249/64                                                          %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! PiecewiseIndicatorCommand(1)
-        - \baca-text-spanner-left-text "fast whisked ellipses"                 %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.right.padding #2                                %! PiecewiseIndicatorCommand(1)
-        - \tweak staff-padding #5                                              %! PiecewiseIndicatorCommand(1)
-        \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "fast whisked ellipses"                 %! PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2                                %! PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! PiecewiseCommand(1)
+        \startTextSpan                                                         %! PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1846,10 +1846,10 @@ D_ViolinIMusicVoice = {                                                        %
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 61/64                                                           %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         ]                                                                      %! stirrings_still_accelerando
-        <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
+        <> \stopTextSpan                                                       %! PiecewiseCommand(3)
 
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
@@ -1857,23 +1857,23 @@ D_ViolinIMusicVoice = {                                                        %
     % [D ViolinIMusicVoice measure 264 / measure 58]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_strokes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
-    - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "jeux des terminaisons"                     %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
-    - \tweak color #magenta                                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak staff-padding #9                                                  %! PiecewiseIndicatorCommand(1)
-    \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "jeux des terminaisons"                     %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseCommand(1)
+    - \tweak color #magenta                                                    %! PiecewiseCommand(1)
+    - \tweak staff-padding #9                                                  %! PiecewiseCommand(1)
+    \startTextSpanOne                                                          %! PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
@@ -1929,11 +1929,11 @@ D_ViolinIMusicVoice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
     ]
-    <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
-    <> \stopTextSpanOne                                                        %! PiecewiseIndicatorCommand(3)
+    <> \stopTextSpan                                                           %! PiecewiseCommand(3)
+    <> \stopTextSpanOne                                                        %! PiecewiseCommand(3)
 
     % [D ViolinIMusicVoice measure 270 / measure 64]                           %! _comment_measure_numbers
     \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests
@@ -1975,16 +1975,16 @@ D_ViolinIMusicVoice = {                                                        %
     \set stemRightBeamCount = 1                                                %! stirrings_still_circles
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
-    - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "8˝ cir."                                   %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
-    - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "golden tone"                               %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
-    - \tweak staff-padding #9                                                  %! PiecewiseIndicatorCommand(1)
-    \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "8˝ cir."                                   %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "golden tone"                               %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseCommand(1)
+    - \tweak staff-padding #9                                                  %! PiecewiseCommand(1)
+    \startTextSpanOne                                                          %! PiecewiseCommand(1)
     [                                                                          %! stirrings_still_circles
 
     \set stemLeftBeamCount = 1                                                 %! stirrings_still_circles
@@ -2012,8 +2012,8 @@ D_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
     ]                                                                          %! stirrings_still_circles
-    <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
-    <> \stopTextSpanOne                                                        %! PiecewiseIndicatorCommand(3)
+    <> \stopTextSpan                                                           %! PiecewiseCommand(3)
+    <> \stopTextSpanOne                                                        %! PiecewiseCommand(3)
 
     % [D ViolinIMusicVoice measure 273 / measure 67]                           %! _comment_measure_numbers
     \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests
@@ -2831,15 +2831,15 @@ D_ViolinIIMusicVoice = {                                                       %
         \once \override Beam.grow-direction = #right
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 239/64                                                          %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! PiecewiseIndicatorCommand(1)
-        - \baca-text-spanner-left-text "fast whisked ellipses"                 %! PiecewiseIndicatorCommand(1)
-        - \tweak bound-details.right.padding #2                                %! PiecewiseIndicatorCommand(1)
-        - \tweak staff-padding #5                                              %! PiecewiseIndicatorCommand(1)
-        \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "fast whisked ellipses"                 %! PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2                                %! PiecewiseCommand(1)
+        - \tweak staff-padding #5                                              %! PiecewiseCommand(1)
+        \startTextSpan                                                         %! PiecewiseCommand(1)
         [                                                                      %! stirrings_still_accelerando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2867,10 +2867,10 @@ D_ViolinIIMusicVoice = {                                                       %
         \revert Staff.Stem.stemlet-length                                      %! stirrings_still_accelerando
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 119/64                                                          %! stirrings_still_accelerando
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
         ]                                                                      %! stirrings_still_accelerando
-        <> \stopTextSpan                                                       %! PiecewiseIndicatorCommand(3)
+        <> \stopTextSpan                                                       %! PiecewiseCommand(3)
 
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
@@ -2878,23 +2878,23 @@ D_ViolinIIMusicVoice = {                                                       %
     % [D ViolinIIMusicVoice measure 264 / measure 58]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_strokes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
-    - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "jeux des terminaisons"                     %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
-    - \tweak color #magenta                                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak staff-padding #9                                                  %! PiecewiseIndicatorCommand(1)
-    \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "jeux des terminaisons"                     %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseCommand(1)
+    - \tweak color #magenta                                                    %! PiecewiseCommand(1)
+    - \tweak staff-padding #9                                                  %! PiecewiseCommand(1)
+    \startTextSpanOne                                                          %! PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
@@ -2950,11 +2950,11 @@ D_ViolinIIMusicVoice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
     ]
-    <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
-    <> \stopTextSpanOne                                                        %! PiecewiseIndicatorCommand(3)
+    <> \stopTextSpan                                                           %! PiecewiseCommand(3)
+    <> \stopTextSpanOne                                                        %! PiecewiseCommand(3)
 
     % [D ViolinIIMusicVoice measure 270 / measure 64]                          %! _comment_measure_numbers
     \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests
@@ -2994,24 +2994,24 @@ D_ViolinIIMusicVoice = {                                                       %
     % [D ViolinIIMusicVoice measure 272 / measure 66]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "8˝ cir."                                   %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
-    - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "golden tone"                               %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
-    - \tweak staff-padding #9                                                  %! PiecewiseIndicatorCommand(1)
-    \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "8˝ cir."                                   %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "golden tone"                               %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseCommand(1)
+    - \tweak staff-padding #9                                                  %! PiecewiseCommand(1)
+    \startTextSpanOne                                                          %! PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
-    <> \stopTextSpanOne                                                        %! PiecewiseIndicatorCommand(3)
+    <> \stopTextSpan                                                           %! PiecewiseCommand(3)
+    <> \stopTextSpanOne                                                        %! PiecewiseCommand(3)
 
     % [D ViolinIIMusicVoice measure 273 / measure 67]                          %! _comment_measure_numbers
     \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests
@@ -3866,23 +3866,23 @@ D_ViolaMusicVoice = {                                                          %
     % [D ViolaMusicVoice measure 264 / measure 58]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_strokes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
-    - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "jeux des terminaisons"                     %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
-    - \tweak color #magenta                                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak staff-padding #9                                                  %! PiecewiseIndicatorCommand(1)
-    \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "jeux des terminaisons"                     %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseCommand(1)
+    - \tweak color #magenta                                                    %! PiecewiseCommand(1)
+    - \tweak staff-padding #9                                                  %! PiecewiseCommand(1)
+    \startTextSpanOne                                                          %! PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
@@ -3938,11 +3938,11 @@ D_ViolaMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
     ]
-    <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
-    <> \stopTextSpanOne                                                        %! PiecewiseIndicatorCommand(3)
+    <> \stopTextSpan                                                           %! PiecewiseCommand(3)
+    <> \stopTextSpanOne                                                        %! PiecewiseCommand(3)
 
     % [D ViolaMusicVoice measure 270 / measure 64]                             %! _comment_measure_numbers
     \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests
@@ -3984,18 +3984,18 @@ D_ViolaMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_circles
-    - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "8˝ cir."                                   %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
-    - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "golden tone"                               %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
-    - \tweak staff-padding #9                                                  %! PiecewiseIndicatorCommand(1)
-    \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
-    <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
-    <> \stopTextSpanOne                                                        %! PiecewiseIndicatorCommand(3)
+    - \abjad-dashed-line-with-hook                                             %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "8˝ cir."                                   %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "golden tone"                               %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseCommand(1)
+    - \tweak staff-padding #9                                                  %! PiecewiseCommand(1)
+    \startTextSpanOne                                                          %! PiecewiseCommand(1)
+    <> \stopTextSpan                                                           %! PiecewiseCommand(3)
+    <> \stopTextSpanOne                                                        %! PiecewiseCommand(3)
 
     % [D ViolaMusicVoice measure 273 / measure 67]                             %! _comment_measure_numbers
     \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests
@@ -4864,18 +4864,18 @@ D_CelloMusicVoice = {                                                          %
 
     % [D CelloMusicVoice measure 263 / measure 57]                             %! _comment_measure_numbers
     b,,1                                                                       %! stirrings_still_strokes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     ~
 
     b,,4.                                                                      %! stirrings_still_strokes
 
     r8
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
     - \tweak color #magenta                                                    %! baca_markup:IndicatorCommand
     - \tweak parent-alignment-X #-8                                            %! baca_markup:IndicatorCommand
     ^ \markup { HAND! }                                                        %! baca_markup:IndicatorCommand
@@ -4883,23 +4883,23 @@ D_CelloMusicVoice = {                                                          %
     % [D CelloMusicVoice measure 264 / measure 58]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_strokes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
-    - \tweak staff-padding #5                                                  %! PiecewiseIndicatorCommand(1)
-    \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! PiecewiseIndicatorCommand(1)
-    - \baca-text-spanner-left-text "jeux des terminaisons"                     %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseIndicatorCommand(1)
-    - \tweak color #magenta                                                    %! PiecewiseIndicatorCommand(1)
-    - \tweak staff-padding #9                                                  %! PiecewiseIndicatorCommand(1)
-    \startTextSpanOne                                                          %! PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseCommand(1)
+    - \tweak staff-padding #5                                                  %! PiecewiseCommand(1)
+    \startTextSpan                                                             %! PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "jeux des terminaisons"                     %! PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! PiecewiseCommand(1)
+    - \tweak color #magenta                                                    %! PiecewiseCommand(1)
+    - \tweak staff-padding #9                                                  %! PiecewiseCommand(1)
+    \startTextSpanOne                                                          %! PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
@@ -4955,11 +4955,11 @@ D_CelloMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_strokes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
     ]
-    <> \stopTextSpan                                                           %! PiecewiseIndicatorCommand(3)
-    <> \stopTextSpanOne                                                        %! PiecewiseIndicatorCommand(3)
+    <> \stopTextSpan                                                           %! PiecewiseCommand(3)
+    <> \stopTextSpanOne                                                        %! PiecewiseCommand(3)
 
     % [D CelloMusicVoice measure 270 / measure 64]                             %! _comment_measure_numbers
     \voices "CelloMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests
@@ -4975,16 +4975,16 @@ D_CelloMusicVoice = {                                                          %
     % [D CelloMusicVoice measure 271 / measure 65]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_clouded_pane
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
         \with-color                                                            %! baca_markup:IndicatorCommand
             #darkgreen                                                         %! baca_markup:IndicatorCommand
             "clouded pane"                                                     %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_clouded_pane
@@ -4998,8 +4998,8 @@ D_CelloMusicVoice = {                                                          %
     % [D CelloMusicVoice measure 273 / measure 67]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
     \repeatTie
 
     % [D CelloMusicVoice measure 274 / measure 68]                             %! _comment_measure_numbers
@@ -5099,10 +5099,10 @@ D_CelloMusicVoice = {                                                          %
     % [D CelloMusicVoice measure 292 / measure 86]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! stirrings_still_clouded_pane
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
 
     % [D CelloMusicVoice measure 293 / measure 87]                             %! _comment_measure_numbers
@@ -5122,8 +5122,8 @@ D_CelloMusicVoice = {                                                          %
     % [D CelloMusicVoice measure 295 / measure 89]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
     \repeatTie
 
     % [D CelloMusicVoice measure 296 / measure 90]                             %! _comment_measure_numbers
@@ -5151,15 +5151,15 @@ D_CelloMusicVoice = {                                                          %
     % [D CelloMusicVoice measure 302 / measure 96]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! stirrings_still_clouded_pane
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
 
     % [D CelloMusicVoice measure 303 / measure 97]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1.                                                                       %! stirrings_still_clouded_pane
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
     \repeatTie
 
     % [D CelloMusicVoice measure 304 / measure 98]                             %! _comment_measure_numbers
@@ -5170,9 +5170,9 @@ D_CelloMusicVoice = {                                                          %
     % [D CelloMusicVoice measure 305 / measure 99]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_clouded_pane
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
     \repeatTie
 
 }                                                                              %! extern
