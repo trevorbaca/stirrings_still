@@ -212,11 +212,39 @@ maker(
     ('v1', (14, 24)),
     baca.new(
         stirrings_still.clockticks(),
-        measures=(14, 15),
+        measures=14,
         ),
     baca.new(
-        stirrings_still.clockticks(),
-        measures=(16, 17),
+        baca.rhythm(
+            abjad.select([
+                abjad.Tuplet((2, 3), "c'8 r4"),
+                abjad.Tuplet((2, 3), "c'8 r8"),
+                ]),
+            annotate_unpitched_music=True,
+            ),
+        measures=15,
+        ),
+    baca.new(
+        baca.rhythm(
+            abjad.select([
+                abjad.Tuplet((2, 3), "c'8 r4"),
+                abjad.Tuplet((2, 3), "c'8 r4"),
+                abjad.Tuplet((2, 3), "c'8 r4"),
+                abjad.Tuplet((2, 3), "c'8 r16"),
+                ]),
+            annotate_unpitched_music=True,
+            ),
+        measures=16,
+        ),
+    baca.new(
+        baca.rhythm(
+            abjad.select([
+                abjad.Tuplet((2, 3), "c'8 r4"),
+                abjad.Tuplet((2, 3), "c'8 r8"),
+                ]),
+            annotate_unpitched_music=True,
+            ),
+        measures=17,
         ),
     baca.new(
         stirrings_still.clockticks(
@@ -230,15 +258,53 @@ maker(
     ('v2', (12, 25)),
     baca.new(
         stirrings_still.clockticks(),
-        measures=(12, 13),
+        measures=12,
+        ),
+    baca.new(
+        baca.rhythm(
+            abjad.select([
+                abjad.Tuplet((2, 3), "c'8 r4"),
+                abjad.Tuplet((2, 3), "c'8 r8"),
+                ]),
+            annotate_unpitched_music=True,
+            ),
+        measures=13,
         ),
     baca.new(
         stirrings_still.clockticks(),
-        measures=(14, 15),
+        measures=14,
         ),
     baca.new(
-        stirrings_still.clockticks(),
-        measures=(16, 17),
+        baca.rhythm(
+            abjad.select([
+                abjad.Tuplet((2, 3), "c'8 r4"),
+                abjad.Tuplet((2, 3), "c'8 r8"),
+                ]),
+            annotate_unpitched_music=True,
+            ),
+        measures=15,
+        ),
+    baca.new(
+        baca.rhythm(
+            abjad.select([
+                abjad.Tuplet((2, 3), "c'8 r4"),
+                abjad.Tuplet((2, 3), "c'8 r4"),
+                abjad.Tuplet((2, 3), "c'8 r4"),
+                abjad.Tuplet((2, 3), "c'8 r16"),
+                ]),
+            annotate_unpitched_music=True,
+            ),
+        measures=16,
+        ),
+    baca.new(
+        baca.rhythm(
+            abjad.select([
+                abjad.Tuplet((2, 3), "c'8 r4"),
+                abjad.Tuplet((2, 3), "c'8 r8"),
+                ]),
+            annotate_unpitched_music=True,
+            ),
+        measures=17,
         ),
     baca.new(
         stirrings_still.trajectories('C', 0),

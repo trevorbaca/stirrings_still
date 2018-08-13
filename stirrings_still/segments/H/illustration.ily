@@ -2201,13 +2201,12 @@ H_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! stirrings_still_clockticks
 
-    \times 2/3 {                                                               %! stirrings_still_clockticks
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_clockticks
+    \times 1/1 {                                                               %! stirrings_still_clockticks
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_clockticks
+        c'8                                                                    %! stirrings_still_clockticks
         - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-
-        r8                                                                     %! stirrings_still_clockticks
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
         \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
