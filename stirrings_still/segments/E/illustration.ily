@@ -1848,18 +1848,18 @@ E_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_continuous_tremolo
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    <> \stopTextSpan                                                           %! baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
 
     % [E ViolinIMusicVoice measure 308 / measure 3]                            %! _comment_measure_numbers
-    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests
-    <<                                                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests
-        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests
-        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests
-    \\                                                                         %! _parallelize_multimeasure_rests
+    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(1)
+    <<                                                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests(1)
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests(1)
+        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(1)
+    \\                                                                         %! _parallelize_multimeasure_rests(1)
     R1 * 1/4                                                                   %! _make_measure_silences
-    >>                                                                         %! _parallelize_multimeasure_rests
+    >>                                                                         %! _parallelize_multimeasure_rests(1)
 
     % [E ViolinIMusicVoice measure 309 / measure 4]                            %! _comment_measure_numbers
     r2                                                                         %! stirrings_still_pickets
@@ -2066,18 +2066,18 @@ E_ViolinIMusicVoice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_grid_to_trajectory
-    <> \stopTextSpan                                                           %! baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
 
     % [E ViolinIMusicVoice measure 325 / measure 20]                           %! _comment_measure_numbers
-    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests
-    <<                                                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests
-        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests
-        c'1 * 3/4                                                              %! _parallelize_multimeasure_rests
-    \\                                                                         %! _parallelize_multimeasure_rests
+    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(1)
+    <<                                                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests(1)
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests(1)
+        c'1 * 3/4                                                              %! _parallelize_multimeasure_rests(1)
+    \\                                                                         %! _parallelize_multimeasure_rests(1)
     R1 * 3/4                                                                   %! _make_measure_silences
-    >>                                                                         %! _parallelize_multimeasure_rests
+    >>                                                                         %! _parallelize_multimeasure_rests(1)
 
     % [E ViolinIMusicVoice measure 326 / measure 21]                           %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
@@ -2446,18 +2446,18 @@ E_ViolinIIMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_continuous_tremolo
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    <> \stopTextSpan                                                           %! baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
 
     % [E ViolinIIMusicVoice measure 308 / measure 3]                           %! _comment_measure_numbers
-    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests
-    <<                                                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests
-        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests
-        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests
-    \\                                                                         %! _parallelize_multimeasure_rests
+    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests(1)
+    <<                                                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests(1)
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests(1)
+        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(1)
+    \\                                                                         %! _parallelize_multimeasure_rests(1)
     R1 * 1/4                                                                   %! _make_measure_silences
-    >>                                                                         %! _parallelize_multimeasure_rests
+    >>                                                                         %! _parallelize_multimeasure_rests(1)
 
     % [E ViolinIIMusicVoice measure 309 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! stirrings_still_pickets
@@ -2661,18 +2661,18 @@ E_ViolinIIMusicVoice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_grid_to_trajectory
-    <> \stopTextSpan                                                           %! baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
 
     % [E ViolinIIMusicVoice measure 325 / measure 20]                          %! _comment_measure_numbers
-    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests
-    <<                                                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests
-        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests
-        c'1 * 3/4                                                              %! _parallelize_multimeasure_rests
-    \\                                                                         %! _parallelize_multimeasure_rests
+    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests(1)
+    <<                                                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests(1)
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests(1)
+        c'1 * 3/4                                                              %! _parallelize_multimeasure_rests(1)
+    \\                                                                         %! _parallelize_multimeasure_rests(1)
     R1 * 3/4                                                                   %! _make_measure_silences
-    >>                                                                         %! _parallelize_multimeasure_rests
+    >>                                                                         %! _parallelize_multimeasure_rests(1)
 
     % [E ViolinIIMusicVoice measure 326 / measure 21]                          %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences
@@ -3045,18 +3045,18 @@ E_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! stirrings_still_continuous_tremolo
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    <> \stopTextSpan                                                           %! baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
 
     % [E ViolaMusicVoice measure 308 / measure 3]                              %! _comment_measure_numbers
-    \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests
-    <<                                                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests
-        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests
-        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests
-    \\                                                                         %! _parallelize_multimeasure_rests
+    \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests(1)
+    <<                                                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests(1)
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests(1)
+        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(1)
+    \\                                                                         %! _parallelize_multimeasure_rests(1)
     R1 * 1/4                                                                   %! _make_measure_silences
-    >>                                                                         %! _parallelize_multimeasure_rests
+    >>                                                                         %! _parallelize_multimeasure_rests(1)
 
     % [E ViolaMusicVoice measure 309 / measure 4]                              %! _comment_measure_numbers
     r2                                                                         %! stirrings_still_pickets
@@ -3254,18 +3254,18 @@ E_ViolaMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_grid_to_trajectory
-    <> \stopTextSpan                                                           %! baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
 
     % [E ViolaMusicVoice measure 325 / measure 20]                             %! _comment_measure_numbers
-    \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests
-    <<                                                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests
-        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests
-        c'1 * 3/4                                                              %! _parallelize_multimeasure_rests
-    \\                                                                         %! _parallelize_multimeasure_rests
+    \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests(1)
+    <<                                                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests(1)
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests(1)
+        c'1 * 3/4                                                              %! _parallelize_multimeasure_rests(1)
+    \\                                                                         %! _parallelize_multimeasure_rests(1)
     R1 * 3/4                                                                   %! _make_measure_silences
-    >>                                                                         %! _parallelize_multimeasure_rests
+    >>                                                                         %! _parallelize_multimeasure_rests(1)
 
     % [E ViolaMusicVoice measure 326 / measure 21]                             %! _comment_measure_numbers
     R1 * 7/8                                                                   %! _make_measure_silences

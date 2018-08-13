@@ -153,7 +153,7 @@ maker(
     baca.dynamic('mp'),
     baca.text_spanner(
         r'\baca-damp-half-clt-markup =|',
-        abjad.tweak(1.75).bound_details__right__padding,
+        abjad.tweak(2.25).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         bookend=False,
         selector=baca.ltleaves().rleak(),

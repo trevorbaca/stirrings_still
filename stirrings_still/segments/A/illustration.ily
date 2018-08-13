@@ -1235,34 +1235,34 @@ A_ViolinIMusicVoice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \stirrings-still-slow-circles-markup      %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    <> \stopTextSpanOne                                                        %! baca_text_spanner:PiecewiseCommand(3)
-    <> \stopTextSpan                                                           %! baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpanOne                                                        %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
 
     % [A ViolinIMusicVoice measure 63]                                         %! _comment_measure_numbers
-    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests
-    <<                                                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests
-        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests
-        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests
-    \\                                                                         %! _parallelize_multimeasure_rests
+    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(1)
+    <<                                                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests(1)
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests(1)
+        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(1)
+    \\                                                                         %! _parallelize_multimeasure_rests(1)
     R1 * 1/4                                                                   %! _make_measure_silences
-    >>                                                                         %! _parallelize_multimeasure_rests
+    >>                                                                         %! _parallelize_multimeasure_rests(1)
 
 }                                                                              %! extern
 
@@ -1513,34 +1513,34 @@ A_ViolinIIMusicVoice = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \stirrings-still-slow-circles-markup      %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    <> \stopTextSpanOne                                                        %! baca_text_spanner:PiecewiseCommand(3)
-    <> \stopTextSpan                                                           %! baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpanOne                                                        %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
 
     % [A ViolinIIMusicVoice measure 63]                                        %! _comment_measure_numbers
-    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests
-    <<                                                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests
-        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests
-        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests
-    \\                                                                         %! _parallelize_multimeasure_rests
+    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests(1)
+    <<                                                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests(1)
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests(1)
+        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(1)
+    \\                                                                         %! _parallelize_multimeasure_rests(1)
     R1 * 1/4                                                                   %! _make_measure_silences
-    >>                                                                         %! _parallelize_multimeasure_rests
+    >>                                                                         %! _parallelize_multimeasure_rests(1)
 
 }                                                                              %! extern
 
@@ -1791,34 +1791,34 @@ A_ViolaMusicVoice = {                                                          %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \stirrings-still-slow-circles-markup      %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    <> \stopTextSpanOne                                                        %! baca_text_spanner:PiecewiseCommand(3)
-    <> \stopTextSpan                                                           %! baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpanOne                                                        %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
 
     % [A ViolaMusicVoice measure 63]                                           %! _comment_measure_numbers
-    \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests
-    <<                                                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests
-        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests
-        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests
-    \\                                                                         %! _parallelize_multimeasure_rests
+    \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests(1)
+    <<                                                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests(1)
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests(1)
+        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(1)
+    \\                                                                         %! _parallelize_multimeasure_rests(1)
     R1 * 1/4                                                                   %! _make_measure_silences
-    >>                                                                         %! _parallelize_multimeasure_rests
+    >>                                                                         %! _parallelize_multimeasure_rests(1)
 
 }                                                                              %! extern
 
@@ -2034,34 +2034,34 @@ A_CelloMusicVoice = {                                                          %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \stirrings-still-slow-circles-markup      %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #5                                                  %! baca_text_spanner:PiecewiseCommand(1)
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-damp-markup                         %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpanOne                                                          %! baca_text_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    <> \stopTextSpanOne                                                        %! baca_text_spanner:PiecewiseCommand(3)
-    <> \stopTextSpan                                                           %! baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpanOne                                                        %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
 
     % [A CelloMusicVoice measure 63]                                           %! _comment_measure_numbers
-    \voices "CelloMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests
-    <<                                                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests
-        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests
-        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests
-        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests
-    \\                                                                         %! _parallelize_multimeasure_rests
+    \voices "CelloMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests(1)
+    <<                                                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests(1)
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests(1)
+        c'1 * 1/4                                                              %! _parallelize_multimeasure_rests(1)
+    \\                                                                         %! _parallelize_multimeasure_rests(1)
     R1 * 1/4                                                                   %! _make_measure_silences
-    >>                                                                         %! _parallelize_multimeasure_rests
+    >>                                                                         %! _parallelize_multimeasure_rests(1)
 
 }                                                                              %! extern
 

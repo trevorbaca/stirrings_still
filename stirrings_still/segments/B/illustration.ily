@@ -1178,7 +1178,7 @@ B_ViolinIMusicVoice = {                                                        %
         - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-half-clt-markup            %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #1.75                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.25                             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #7                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
@@ -1334,12 +1334,20 @@ B_ViolinIMusicVoice = {                                                        %
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
         \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
+        <> \stopTextSpan                                                       %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
 
     }                                                                          %! stirrings_still_clockticks
 
     % [B ViolinIMusicVoice measure 71 / measure 8]                             %! _comment_measure_numbers
+    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(1)
+    <<                                                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests(1)
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests(1)
+        c'1 * 1                                                                %! _parallelize_multimeasure_rests(1)
+    \\                                                                         %! _parallelize_multimeasure_rests(1)
     R1 * 1                                                                     %! _make_measure_silences
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
+    >>                                                                         %! _parallelize_multimeasure_rests(1)
 
     % [B ViolinIMusicVoice measure 72 / measure 9]                             %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
@@ -1375,7 +1383,7 @@ B_ViolinIMusicVoice = {                                                        %
         - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-half-clt-markup            %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #1.75                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.25                             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #7                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
@@ -1738,12 +1746,20 @@ B_ViolinIMusicVoice = {                                                        %
         r16                                                                    %! stirrings_still_clockticks
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
         \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
+        <> \stopTextSpan                                                       %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
 
     }                                                                          %! stirrings_still_clockticks
 
     % [B ViolinIMusicVoice measure 88 / measure 25]                            %! _comment_measure_numbers
+    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(1)
+    <<                                                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests(1)
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests(1)
+        c'1 * 3/4                                                              %! _parallelize_multimeasure_rests(1)
+    \\                                                                         %! _parallelize_multimeasure_rests(1)
     R1 * 3/4                                                                   %! _make_measure_silences
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
+    >>                                                                         %! _parallelize_multimeasure_rests(1)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_declamation
     \times 2/3 {                                                               %! stirrings_still_declamation
@@ -2318,7 +2334,7 @@ B_ViolinIIMusicVoice = {                                                       %
         ^ \baca-reapplied-indicator-markup "(“ViolinI”)"                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-half-clt-markup            %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #1.75                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.25                             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #7                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -2551,12 +2567,20 @@ B_ViolinIIMusicVoice = {                                                       %
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
         \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
+        <> \stopTextSpan                                                       %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
 
     }                                                                          %! stirrings_still_clockticks
 
     % [B ViolinIIMusicVoice measure 71 / measure 8]                            %! _comment_measure_numbers
+    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests(1)
+    <<                                                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests(1)
+        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests(1)
+        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests(1)
+        c'1 * 1                                                                %! _parallelize_multimeasure_rests(1)
+    \\                                                                         %! _parallelize_multimeasure_rests(1)
     R1 * 1                                                                     %! _make_measure_silences
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(3)
+    >>                                                                         %! _parallelize_multimeasure_rests(1)
 
     % [B ViolinIIMusicVoice measure 72 / measure 9]                            %! _comment_measure_numbers
     R1 * 5/8                                                                   %! _make_measure_silences
@@ -2579,7 +2603,7 @@ B_ViolinIIMusicVoice = {                                                       %
         - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-half-clt-markup            %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #1.75                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.25                             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #7                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
 
@@ -3569,7 +3593,7 @@ B_ViolaMusicVoice = {                                                          %
         ^ \baca-reapplied-indicator-markup "(“Viola”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-half-clt-markup            %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #1.75                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.25                             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #7                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -4393,7 +4417,7 @@ B_CelloMusicVoice = {                                                          %
         ^ \baca-reapplied-indicator-markup "(“Cello”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-half-clt-markup            %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #1.75                             %! baca_text_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.25                             %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #7                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)

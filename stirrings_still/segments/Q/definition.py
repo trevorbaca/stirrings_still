@@ -77,7 +77,7 @@ maker(
         abjad.tweak(2.75).bound_details__right__padding,
         abjad.tweak(5).staff_padding,
         bookend=False,
-        leak=True,
+        selector=baca.ltleaves().rleak(),
         ),
     baca.new(
         stirrings_still.desynchronization(4, [2]),
