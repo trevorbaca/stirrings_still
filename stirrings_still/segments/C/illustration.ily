@@ -3111,12 +3111,17 @@ C_ViolinIIMusicVoice = {                                                       %
     }                                                                          %! stirrings_still_clockticks
 
     \tweak edge-height #'(0.7 . 0)                                             %! stirrings_still_clockticks
-    \times 8/9 {                                                               %! stirrings_still_clockticks
+    \times 4/7 {                                                               %! stirrings_still_clockticks
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'16                                                                   %! stirrings_still_clockticks
+        c'8                                                                    %! stirrings_still_clockticks
 
-        r8                                                                     %! stirrings_still_clockticks
+        \tweak edge-height #'(0.7 . 0)
+        \times 2/3 {
+
+            r4                                                                 %! stirrings_still_clockticks
+
+        }
 
     }                                                                          %! stirrings_still_clockticks
 
