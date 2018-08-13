@@ -511,18 +511,18 @@ I_ViolinIMusicVoice = {                                                        %
     ]                                                                          %! stirrings_still_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     <> \!                                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    % [I ViolinIMusicVoice measure 526 / measure 8]                            %! _comment_measure_numbers
-    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(1)
-    <<                                                                         %! _parallelize_multimeasure_rests(1)
-        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests(1)
-        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests(1)
-        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests(1)
-        c'1 * 3/2                                                              %! _parallelize_multimeasure_rests(1)
-    \\                                                                         %! _parallelize_multimeasure_rests(1)
-    R1 * 3/2                                                                   %! _make_measure_silences
-    >>                                                                         %! _parallelize_multimeasure_rests(1)
+    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
+    <<                                                                         %! _parallelize_multimeasure_rests(2)
+
+        % [I ViolinIMusicVoice measure 526 / measure 8]                        %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
+        c'1 * 3/2                                                              %! _parallelize_multimeasure_rests(4)
+        \\                                                                     %! _parallelize_multimeasure_rests(6)
+        R1 * 3/2                                                               %! _parallelize_multimeasure_rests(6)
+
+    >>                                                                         %! _parallelize_multimeasure_rests(2)
 
     % [I ViolinIMusicVoice measure 527 / measure 9]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -680,18 +680,18 @@ I_ViolinIIMusicVoice = {                                                       %
     c'4                                                                        %! stirrings_still_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     <> \!                                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    % [I ViolinIIMusicVoice measure 526 / measure 8]                           %! _comment_measure_numbers
-    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests(1)
-    <<                                                                         %! _parallelize_multimeasure_rests(1)
-        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests(1)
-        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests(1)
-        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests(1)
-        c'1 * 3/2                                                              %! _parallelize_multimeasure_rests(1)
-    \\                                                                         %! _parallelize_multimeasure_rests(1)
-    R1 * 3/2                                                                   %! _make_measure_silences
-    >>                                                                         %! _parallelize_multimeasure_rests(1)
+    \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests(3)
+    <<                                                                         %! _parallelize_multimeasure_rests(2)
+
+        % [I ViolinIIMusicVoice measure 526 / measure 8]                       %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
+        c'1 * 3/2                                                              %! _parallelize_multimeasure_rests(4)
+        \\                                                                     %! _parallelize_multimeasure_rests(6)
+        R1 * 3/2                                                               %! _parallelize_multimeasure_rests(6)
+
+    >>                                                                         %! _parallelize_multimeasure_rests(2)
 
     % [I ViolinIIMusicVoice measure 527 / measure 9]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -807,18 +807,18 @@ I_ViolaMusicVoice = {                                                          %
     c'2                                                                        %! stirrings_still_circles
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     <> \!                                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(2):baca_text_spanner:PiecewiseCommand(3)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    % [I ViolaMusicVoice measure 526 / measure 8]                              %! _comment_measure_numbers
-    \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests(1)
-    <<                                                                         %! _parallelize_multimeasure_rests(1)
-        \tweak NoteHead.no-ledgers ##t                                         %! _parallelize_multimeasure_rests(1)
-        \tweak NoteHead.transparent ##t                                        %! _parallelize_multimeasure_rests(1)
-        \tweak Dots.transparent ##t                                            %! _parallelize_multimeasure_rests(1)
-        c'1 * 3/2                                                              %! _parallelize_multimeasure_rests(1)
-    \\                                                                         %! _parallelize_multimeasure_rests(1)
-    R1 * 3/2                                                                   %! _make_measure_silences
-    >>                                                                         %! _parallelize_multimeasure_rests(1)
+    \voices "ViolaMusicVoice", "MultimeasureRestVoice"                         %! _parallelize_multimeasure_rests(3)
+    <<                                                                         %! _parallelize_multimeasure_rests(2)
+
+        % [I ViolaMusicVoice measure 526 / measure 8]                          %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
+        \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
+        c'1 * 3/2                                                              %! _parallelize_multimeasure_rests(4)
+        \\                                                                     %! _parallelize_multimeasure_rests(6)
+        R1 * 3/2                                                               %! _parallelize_multimeasure_rests(6)
+
+    >>                                                                         %! _parallelize_multimeasure_rests(2)
 
     % [I ViolaMusicVoice measure 527 / measure 9]                              %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
