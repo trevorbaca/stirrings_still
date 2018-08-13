@@ -413,17 +413,18 @@ SEGMENTS
     [B.3] (6-7)
     (2 measures)
     subito-adagio-più-mosso-to-presto accelerando begins;
-    mixed clockticks / ellipses continue:
+    clockticks continue with addition of ellipses:
         damped lh completes;
         v1, v2 clockticks fade out:
             1/2 clt fades out;
             mf > niente governs stage;
-        va ellipses fade in [recalls end of A] and then stop:
-            hair governs stage;
+        va ellipses fade in and then stop:
+            damped lh continues;
+            1/2 clt replaced by hair;
             niente < p governs first half of stage;
         >>vc clouded pane appears<<:
             >>summons future time<<;
-            (obverse) harmonic appears:
+            obverse harmonic appears;
             niente < f begins;
     attacca;
     
@@ -433,7 +434,7 @@ SEGMENTS
     v1, v2, va:
         tacet;
     vc clouded pane completes:
-        obverse harmonic completes;
+        obverse harmonic;
         crescendo achieves f at start of measure 1:2;
     surprisingly short breath;
 
