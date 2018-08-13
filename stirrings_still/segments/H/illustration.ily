@@ -174,8 +174,8 @@ H_GlobalSkips = {                                                              %
     % [H GlobalSkips measure 467 / measure 1]                                  %! _comment_measure_numbers
     \override TextScript.extra-offset = #'(0 . 5)                              %! baca_text_script_extra_offset:OverrideCommand(1)
     \time 8/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \tweak Y-offset #12                                                        %! IndicatorCommand
-    \mark #8                                                                   %! IndicatorCommand
+    \tweak Y-offset #12                                                        %! baca_rehearsal_mark:IndicatorCommand
+    \mark #8                                                                   %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -856,7 +856,7 @@ H_ViolinIMusicVoice = {                                                        %
     gf'!2..                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
-    \breathe                                                                   %! IndicatorCommand
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     % [H ViolinIMusicVoice measure 472 / measure 6]                            %! _comment_measure_numbers
     \set stemLeftBeamCount = 0                                                 %! stirrings_still_circles
@@ -897,7 +897,7 @@ H_ViolinIMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! stirrings_still_circles
     ]                                                                          %! stirrings_still_circles
-    \breathe                                                                   %! IndicatorCommand
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \override TupletNumber.text = \markup {
         \scale
@@ -2180,7 +2180,7 @@ H_ViolinIIMusicVoice = {                                                       %
         \override TupletNumber.text = #tuplet-number::calc-denominator-text    %! baca_tuplet_number_denominator:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! IndicatorCommand
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
         - \abjad-dashed-line-with-hook                                         %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-half-clt-markup            %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! baca_text_spanner:PiecewiseCommand(1)
@@ -2195,7 +2195,7 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_clockticks
-        - \upbow                                                               %! IndicatorCommand
+        - \upbow                                                               %! baca_alternate_bow_strokes:IndicatorCommand
 
         r4                                                                     %! stirrings_still_clockticks
 
@@ -2205,7 +2205,7 @@ H_ViolinIIMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_clockticks
-        - \downbow                                                             %! IndicatorCommand
+        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
 
         r8                                                                     %! stirrings_still_clockticks
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
@@ -2602,7 +2602,7 @@ H_ViolaMusicVoice = {                                                          %
     af!2..                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
-    \breathe                                                                   %! IndicatorCommand
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     % [H ViolaMusicVoice measure 472 / measure 6]                              %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2618,7 +2618,7 @@ H_ViolaMusicVoice = {                                                          %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    \breathe                                                                   %! IndicatorCommand
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \override TupletNumber.text = \markup {
         \scale
@@ -3354,7 +3354,7 @@ H_CelloMusicVoice = {                                                          %
     af,!2..                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
-    \breathe                                                                   %! IndicatorCommand
+    \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     \override TupletNumber.text = \markup {
         \scale
@@ -3452,7 +3452,7 @@ H_CelloMusicVoice = {                                                          %
         \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
-        \breathe                                                               %! IndicatorCommand
+        \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! stirrings_still_accelerando
     \revert TupletNumber.text
@@ -3593,7 +3593,7 @@ H_CelloMusicVoice = {                                                          %
 
     % [H CelloMusicVoice measure 496 / measure 30]                             %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_notes
-    \repeatTie                                                                 %! IndicatorCommand
+    \repeatTie                                                                 %! baca_literal:IndicatorCommand
 
     % [H CelloMusicVoice measure 497 / measure 31]                             %! _comment_measure_numbers
     gf,!2..                                                                    %! baca_make_notes
@@ -3728,7 +3728,7 @@ H_CelloMusicVoice = {                                                          %
         \revert NoteColumn.glissando-skip                                      %! baca_glissando:SpannerCommand
         \revert NoteHead.no-ledgers                                            %! baca_glissando:SpannerCommand
         \undo \hide NoteHead                                                   %! baca_glissando:SpannerCommand
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3748,7 +3748,7 @@ H_CelloMusicVoice = {                                                          %
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! baca_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
@@ -3758,7 +3758,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! baca_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
@@ -3767,7 +3767,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! baca_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
@@ -3777,7 +3777,7 @@ H_CelloMusicVoice = {                                                          %
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! baca_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
@@ -3793,7 +3793,7 @@ H_CelloMusicVoice = {                                                          %
     \times 6/7 {                                                               %! stirrings_still_trajectories
 
         % [H CelloMusicVoice measure 513 / measure 47]                         %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! baca_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
@@ -3802,7 +3802,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! baca_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
@@ -3811,7 +3811,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! baca_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
@@ -3821,7 +3821,7 @@ H_CelloMusicVoice = {                                                          %
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
@@ -3829,7 +3829,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
@@ -3837,7 +3837,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         ]                                                                      %! stirrings_still_trajectories
@@ -3849,12 +3849,12 @@ H_CelloMusicVoice = {                                                          %
     }                                                                          %! stirrings_still_trajectories
 
     % [H CelloMusicVoice measure 514 / measure 48]                             %! _comment_measure_numbers
-    \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
+    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     e,8                                                                        %! stirrings_still_trajectories
     [                                                                          %! stirrings_still_trajectories
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
+    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     e,8                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
@@ -3863,7 +3863,7 @@ H_CelloMusicVoice = {                                                          %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
+    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     e,8                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
@@ -3872,7 +3872,7 @@ H_CelloMusicVoice = {                                                          %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
+    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     e,8                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
@@ -3882,7 +3882,7 @@ H_CelloMusicVoice = {                                                          %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
+    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     e,4                                                                        %! stirrings_still_trajectories
     - \downbow                                                                 %! baca_bcps:BCPCommand(8)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
@@ -3891,7 +3891,7 @@ H_CelloMusicVoice = {                                                          %
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
+    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     e,8                                                                        %! stirrings_still_trajectories
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
@@ -3900,7 +3900,7 @@ H_CelloMusicVoice = {                                                          %
     [                                                                          %! stirrings_still_trajectories
     \glissando                                                                 %! baca_glissando:SpannerCommand
 
-    \once \override NoteHead.transparent = ##t                                 %! IndicatorCommand
+    \once \override NoteHead.transparent = ##t                                 %! hide_black_note_heads:IndicatorCommand
     e,8                                                                        %! stirrings_still_trajectories
     - \upbow                                                                   %! baca_bcps:BCPCommand(7)
     \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
@@ -3914,7 +3914,7 @@ H_CelloMusicVoice = {                                                          %
     \times 8/7 {                                                               %! stirrings_still_trajectories
 
         % [H CelloMusicVoice measure 515 / measure 49]                         %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
@@ -3922,7 +3922,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,4                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! baca_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
@@ -3931,7 +3931,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
@@ -3940,7 +3940,7 @@ H_CelloMusicVoice = {                                                          %
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
@@ -3948,7 +3948,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
@@ -3956,7 +3956,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! baca_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
@@ -3972,14 +3972,14 @@ H_CelloMusicVoice = {                                                          %
     \times 5/6 {                                                               %! stirrings_still_trajectories
 
         % [H CelloMusicVoice measure 516 / measure 50]                         %! _comment_measure_numbers
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! baca_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
@@ -3988,7 +3988,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! baca_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
@@ -3997,7 +3997,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! baca_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
@@ -4008,7 +4008,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,4                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(1)
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
@@ -4045,7 +4045,7 @@ H_CelloMusicVoice = {                                                          %
         \override DynamicLineSpanner.staff-padding = #'5                       %! baca_dls_staff_padding:OverrideCommand(1)
         \override TextScript.staff-padding = #11                               %! baca_script_staff_padding:OverrideCommand(1)
         \override TextSpanner.staff-padding = #7                               %! baca_text_spanner_staff_padding:OverrideCommand(1)
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -4063,7 +4063,7 @@ H_CelloMusicVoice = {                                                          %
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         - \downbow                                                             %! baca_bcps:BCPCommand(8)
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
@@ -4073,7 +4073,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,4                                                                    %! stirrings_still_trajectories
         - \upbow                                                               %! baca_bcps:BCPCommand(7)
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
@@ -4083,7 +4083,7 @@ H_CelloMusicVoice = {                                                          %
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
-        \once \override NoteHead.transparent = ##t                             %! IndicatorCommand
+        \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         e,8                                                                    %! stirrings_still_trajectories
         \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(1)
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)

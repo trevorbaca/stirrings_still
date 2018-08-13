@@ -56,8 +56,8 @@ L_GlobalSkips = {                                                              %
     % [L GlobalSkips measure 599 / measure 1]                                  %! _comment_measure_numbers
     \override TextScript.extra-offset = #'(0 . 5)                              %! baca_text_script_extra_offset:OverrideCommand(1)
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \tweak Y-offset #12                                                        %! IndicatorCommand
-    \mark #12                                                                  %! IndicatorCommand
+    \tweak Y-offset #12                                                        %! baca_rehearsal_mark:IndicatorCommand
+    \mark #12                                                                  %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)

@@ -420,8 +420,8 @@ A_GlobalSkips = {                                                              %
 
     % [A GlobalSkips measure 18]                                               %! _comment_measure_numbers
     \time 16/16                                                                %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \tweak Y-offset #12                                                        %! IndicatorCommand
-    \mark #1                                                                   %! IndicatorCommand
+    \tweak Y-offset #12                                                        %! baca_rehearsal_mark:IndicatorCommand
+    \mark #1                                                                   %! baca_rehearsal_mark:IndicatorCommand
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
 %@% ^ \baca-dark-cyan-markup (18)                                              %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
@@ -1003,7 +1003,7 @@ A_ViolinIMusicVoice = {                                                        %
     \times 2/3 {                                                               %! stirrings_still_declamation
 
         % [A ViolinIMusicVoice measure 1]                                      %! _comment_measure_numbers
-        \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup          %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:IndicatorCommand
+        \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup          %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
         \set Staff.instrumentName = \stirrings-still-violin-i-markup           %! baca_start_markup:-PARTS:IndicatorCommand
         \clef "treble"                                                         %! DEFAULT_CLEF:_set_status_tag:attach_defaults
         \once \override Staff.Clef.color = #(x11-color 'DarkViolet)            %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
@@ -1023,14 +1023,14 @@ A_ViolinIMusicVoice = {                                                        %
         [                                                                      %! stirrings_still_declamation
         \override Staff.Clef.color = #(x11-color 'violet)                      %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup          %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:IndicatorCommand
+        \set Staff.shortInstrumentName = \stirrings-still-vn-i-markup          %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         ]                                                                      %! stirrings_still_declamation
-        \breathe                                                               %! IndicatorCommand
+        \breathe                                                               %! baca_breathe:IndicatorCommand
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1045,7 +1045,7 @@ A_ViolinIMusicVoice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \repeatTie                                                             %! TieCorrectionCommand
-        \baca-stop-on-string                                                   %! IndicatorCommand
+        \baca-stop-on-string                                                   %! baca_stop_on_string:IndicatorCommand
 
     }                                                                          %! stirrings_still_declamation
 
@@ -1281,7 +1281,7 @@ A_ViolinIIMusicVoice = {                                                       %
     \times 2/3 {                                                               %! stirrings_still_declamation
 
         % [A ViolinIIMusicVoice measure 1]                                     %! _comment_measure_numbers
-        \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup         %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:IndicatorCommand
+        \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup         %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
         \set Staff.instrumentName = \stirrings-still-violin-ii-markup          %! baca_start_markup:-PARTS:IndicatorCommand
         \clef "treble"                                                         %! DEFAULT_CLEF:_set_status_tag:attach_defaults
         \once \override Staff.Clef.color = #(x11-color 'DarkViolet)            %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
@@ -1301,14 +1301,14 @@ A_ViolinIIMusicVoice = {                                                       %
         [                                                                      %! stirrings_still_declamation
         \override Staff.Clef.color = #(x11-color 'violet)                      %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup         %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:IndicatorCommand
+        \set Staff.shortInstrumentName = \stirrings-still-vn-ii-markup         %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         ]                                                                      %! stirrings_still_declamation
-        \breathe                                                               %! IndicatorCommand
+        \breathe                                                               %! baca_breathe:IndicatorCommand
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1323,7 +1323,7 @@ A_ViolinIIMusicVoice = {                                                       %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \repeatTie                                                             %! TieCorrectionCommand
-        \baca-stop-on-string                                                   %! IndicatorCommand
+        \baca-stop-on-string                                                   %! baca_stop_on_string:IndicatorCommand
 
     }                                                                          %! stirrings_still_declamation
 
@@ -1559,7 +1559,7 @@ A_ViolaMusicVoice = {                                                          %
     \times 2/3 {                                                               %! stirrings_still_declamation
 
         % [A ViolaMusicVoice measure 1]                                        %! _comment_measure_numbers
-        \set Staff.shortInstrumentName = \stirrings-still-va-markup            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:IndicatorCommand
+        \set Staff.shortInstrumentName = \stirrings-still-va-markup            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
         \set Staff.instrumentName = \stirrings-still-viola-markup              %! baca_start_markup:-PARTS:IndicatorCommand
         \clef "alto"                                                           %! DEFAULT_CLEF:_set_status_tag:attach_defaults
         \once \override Staff.Clef.color = #(x11-color 'DarkViolet)            %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
@@ -1579,14 +1579,14 @@ A_ViolaMusicVoice = {                                                          %
         [                                                                      %! stirrings_still_declamation
         \override Staff.Clef.color = #(x11-color 'violet)                      %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \stirrings-still-va-markup            %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:IndicatorCommand
+        \set Staff.shortInstrumentName = \stirrings-still-va-markup            %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! stirrings_still_declamation
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         ]                                                                      %! stirrings_still_declamation
-        \breathe                                                               %! IndicatorCommand
+        \breathe                                                               %! baca_breathe:IndicatorCommand
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1601,7 +1601,7 @@ A_ViolaMusicVoice = {                                                          %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \repeatTie                                                             %! TieCorrectionCommand
-        \baca-stop-on-string                                                   %! IndicatorCommand
+        \baca-stop-on-string                                                   %! baca_stop_on_string:IndicatorCommand
 
     }                                                                          %! stirrings_still_declamation
 
@@ -1834,7 +1834,7 @@ A_ViolaMusicStaff = {                                                          %
 A_CelloMusicVoice = {                                                          %! extern
 
     % [A CelloMusicVoice measure 1]                                            %! _comment_measure_numbers
-    \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:-PARTS:IndicatorCommand
+    \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
     \set Staff.instrumentName = \stirrings-still-cello-markup                  %! baca_start_markup:-PARTS:IndicatorCommand
     \clef "bass"                                                               %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
@@ -1846,7 +1846,7 @@ A_CelloMusicVoice = {                                                          %
     ^ \baca-explicit-indicator-markup "[“Vc.”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:IndicatorCommand
+    \set Staff.shortInstrumentName = \stirrings-still-vc-markup                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
 
     % [A CelloMusicVoice measure 2]                                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
