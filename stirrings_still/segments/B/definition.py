@@ -184,7 +184,6 @@ maker(
         ('v2', [(1, 7), (12, 17)]),
         ('vc', (1, 5)),
         ]),
-    baca.alternate_bow_strokes(),
     baca.dynamic('mp'),
     baca.text_spanner(
         r'½ clt =|',
@@ -203,6 +202,14 @@ maker(
         ),
     baca.tuplet_bracket_staff_padding(2),
     baca.tuplet_number_denominator(),
+    )
+
+maker(
+    [
+        (['v1', 'v2'], (1, 7)),
+        (['va', 'vc'], (1, 5)),
+        ],
+    baca.alternate_bow_strokes(),
     )
 
 maker(
@@ -308,6 +315,10 @@ maker(
         measures=15,
         ),
     baca.new(
+        baca.alternate_bow_strokes(),
+        measures=(14, 15),
+        ),
+    baca.new(
         baca.rhythm(
             abjad.select([
                 abjad.Tuplet((2, 3), "c'8 r4"),
@@ -330,6 +341,11 @@ maker(
         measures=17,
         ),
     baca.new(
+        baca.alternate_bow_strokes(),
+        measures=(16, 17),
+        ),
+    baca.new(
+        baca.alternate_bow_strokes(),
         stirrings_still.clockticks(
             dmask=rmakers.silence([-1]),
             ),
@@ -354,6 +370,10 @@ maker(
         measures=13,
         ),
     baca.new(
+        baca.alternate_bow_strokes(),
+        measures=(12, 13),
+        ),
+    baca.new(
         stirrings_still.clockticks(),
         measures=14,
         ),
@@ -366,6 +386,10 @@ maker(
             annotate_unpitched_music=True,
             ),
         measures=15,
+        ),
+    baca.new(
+        baca.alternate_bow_strokes(),
+        measures=(14, 15),
         ),
     baca.new(
         baca.rhythm(
@@ -390,6 +414,11 @@ maker(
         measures=17,
         ),
     baca.new(
+        baca.alternate_bow_strokes(),
+        measures=(16, 17),
+        ),
+    baca.new(
+        baca.alternate_bow_strokes(),
         stirrings_still.trajectories('C', 0),
         measures=(18, 25),
         ),
