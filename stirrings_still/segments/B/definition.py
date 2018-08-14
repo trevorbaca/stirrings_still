@@ -429,8 +429,7 @@ maker(
     baca.dynamic('p-ancora'),
     baca.new(
         baca.hairpin(
-            'p >o',
-            bookend=False,
+            'p >o niente',
             selector=baca.rleaves(),
             ),
         measures=(20, 21),
@@ -451,6 +450,30 @@ maker(
         selector=baca.ltleaves().rleak(),
         ),
     stirrings_still.circles((1, 4)),
+    )
+
+maker(
+    ('vc', (12, 15)),
+    baca.dynamic('p'),
+    baca.text_spanner(
+        r'\stirrings-still-slow-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(6.5).staff_padding,
+        bookend=False,
+        selector=baca.ltleaves().rleak(),
+        ),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
+        ),
+    stirrings_still.circles(
+        (1, 4),
+        dmask=baca.silence_last(),
+        ),
     )
 
 maker(
