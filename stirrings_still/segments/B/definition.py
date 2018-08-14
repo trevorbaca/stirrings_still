@@ -154,9 +154,9 @@ maker(
             abjad.tweak(3.25).bound_details__right__padding,
             abjad.tweak(6.5).staff_padding,
             bookend=False,
-            selector=baca.ltleaves().rleak(),
+            selector=baca.tleaves().rleak(),
             ),
-        measures=12,
+        measures=(12, 13),
         ),
     baca.new(
         baca.text_spanner(
@@ -258,7 +258,7 @@ maker(
             abjad.tweak(3.25).bound_details__right__padding,
             abjad.tweak(6.5).staff_padding,
             bookend=False,
-            selector=baca.ltleaves().rleak(),
+            selector=baca.tleaves().rleak(),
             ),
         measures=(6, 7),
         ),
@@ -294,8 +294,11 @@ maker(
     )
 
 maker(
-    ('v1', 12),
-    stirrings_still.circles((1, 4)),
+    ('v1', (12, 13)),
+    stirrings_still.circles(
+        (1, 4),
+        dmask=baca.silence_last(),
+        ),
     )
 
 maker(
@@ -439,7 +442,7 @@ maker(
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(6.5).staff_padding,
         bookend=False,
-        selector=baca.ltleaves().rleak(),
+        selector=baca.tleaves().rleak(),
         ),
     baca.text_spanner(
         r'\baca-damp-markup =|',
@@ -460,7 +463,7 @@ maker(
         abjad.tweak(3.25).bound_details__right__padding,
         abjad.tweak(6.5).staff_padding,
         bookend=False,
-        selector=baca.ltleaves().rleak(),
+        selector=baca.tleaves().rleak(),
         ),
     baca.text_spanner(
         r'\baca-damp-markup =|',
