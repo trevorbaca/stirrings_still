@@ -112,7 +112,10 @@ maker(
 
 maker(
     (['v1', 'v2', 'va'], (4, 5)),
-    baca.hairpin('niente o< p', selector=baca.tleaves().rleak()),
+    baca.hairpin(
+        'niente o< p',
+        selector=baca.tleaves().rleak(),
+        ),
     baca.markup('hair: 8” circles'),
     baca.new(
         stirrings_still.pickets(4, 2, dmask=baca.silence_first()),
