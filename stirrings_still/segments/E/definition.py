@@ -115,15 +115,15 @@ maker(
     baca.hairpin('niente o< p', selector=baca.tleaves().rleak()),
     baca.markup('hair: 8” circles'),
     baca.new(
-        stirrings_still.pickets(4, 2, dmask=rmakers.silence([0])),
+        stirrings_still.pickets(4, 2, dmask=baca.silence_first()),
         match=0,
         ),
     baca.new(
-        stirrings_still.pickets(4, 1, dmask=rmakers.silence([0])),
+        stirrings_still.pickets(4, 1, dmask=baca.silence_first()),
         match=1,
         ),
     baca.new(
-        stirrings_still.pickets(4, 0, dmask=rmakers.silence([0])),
+        stirrings_still.pickets(4, 0, dmask=baca.silence_first()),
         match=2,
         ),
     )

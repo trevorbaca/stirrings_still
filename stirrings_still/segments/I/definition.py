@@ -61,7 +61,7 @@ maker(
     baca.new(
         stirrings_still.circles(
             (1, 2),
-            dmask=rmakers.silence([0]),
+            dmask=baca.silence_first(),
             remainder=abjad.Left,
             ),
         match=2,

@@ -319,7 +319,7 @@ maker(
         selector=baca.leaf(-1),
         ),
     baca.pitch('B1'),
-    stirrings_still.strokes(0, ltmask=rmakers.silence([-1])),
+    stirrings_still.strokes(0, ltmask=baca.silence_last()),
     )
 
 maker(
@@ -386,7 +386,7 @@ maker(
     baca.new(
         stirrings_still.circles(
             (1, 2),
-            dmask=rmakers.silence([0]),
+            dmask=baca.silence_first(),
             remainder=abjad.Left,
             ),
         match=2,
