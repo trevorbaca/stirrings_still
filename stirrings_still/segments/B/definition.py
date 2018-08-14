@@ -131,14 +131,14 @@ maker(
         ),
     baca.new(
         stirrings_still.clockticks(
-            dmask=rmakers.silence([-1]),
+            dmask=baca.silence_last(),
             ),
         match=1,
         measures=(1, 7),
         ),
     baca.new(
         stirrings_still.clockticks(
-            dmask=rmakers.silence([-1]),
+            dmask=baca.silence_last(),
             ),
         match=[2, 3],
         measures=(1, 5),
@@ -215,7 +215,7 @@ maker(
 maker(
     ('v1', (5, 7)),
     stirrings_still.clockticks(
-        dmask=rmakers.silence([-1]),
+        dmask=baca.silence_last(),
         ),
     )
 
@@ -347,7 +347,7 @@ maker(
     baca.new(
         baca.alternate_bow_strokes(),
         stirrings_still.clockticks(
-            dmask=rmakers.silence([-1]),
+            dmask=baca.silence_last(),
             ),
         measures=(18, 24),
         ),
