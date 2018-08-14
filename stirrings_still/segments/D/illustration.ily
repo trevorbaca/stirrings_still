@@ -4689,7 +4689,6 @@ D_CelloMusicVoice = {                                                          %
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
@@ -5170,9 +5169,6 @@ D_CelloMusicVoice = {                                                          %
     % [D CelloMusicVoice measure 305 / measure 99]                             %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_clouded_pane
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
 }                                                                              %! extern

@@ -311,7 +311,10 @@ maker(
 
 maker(
     ('vc', 57),
-    baca.hairpin('pp <| mf', selector=baca.leaves()),
+    baca.hairpin(
+        'pp <| mf',
+        selector=baca.leaves(),
+        ),
     baca.markup(
         'HAND!',
         abjad.tweak('magenta').color,
@@ -491,6 +494,7 @@ maker(
     ('vc', (96, 99)),
     baca.hairpin(
         'o< p',
+        bookend=False,
         piece_selector=baca.omgroups([1]),
         ),
     stirrings_still.clouded_pane(),

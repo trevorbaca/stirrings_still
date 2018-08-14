@@ -812,7 +812,6 @@ K_ViolinIMusicVoice = {                                                        %
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
@@ -1013,7 +1012,6 @@ K_ViolinIMusicVoice = {                                                        %
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
@@ -1696,7 +1694,6 @@ K_ViolinIIMusicVoice = {                                                       %
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! baca_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
@@ -1870,7 +1867,6 @@ K_ViolinIIMusicVoice = {                                                       %
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #4 #7                                    %! baca_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
@@ -2640,7 +2636,6 @@ K_ViolaMusicVoice = {                                                          %
             \box                                                               %! baca_markup:IndicatorCommand
                 "½ clt"                                                        %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
-    \bacaStopTextSpanBCP                                                       %! baca_bcps:BCPCommand(3)
     - \abjad-solid-line-with-arrow                                             %! baca_bcps:BCPCommand(2)
     - \baca-bcp-spanner-left-text #5 #7                                        %! baca_bcps:BCPCommand(2)
     \bacaStartTextSpanBCP                                                      %! baca_bcps:BCPCommand(2)
@@ -2988,7 +2983,6 @@ K_CelloMusicVoice = {                                                          %
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
@@ -3166,7 +3160,6 @@ K_CelloMusicVoice = {                                                          %
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)

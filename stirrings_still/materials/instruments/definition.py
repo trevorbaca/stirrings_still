@@ -17,6 +17,6 @@ instruments = abjad.OrderedDict([
         ),
     (
         'Cello',
-        abjad.Cello(pitch_range='[Bb1, +inf]'),
+        abjad.Cello(pitch_range='[Bb0, +inf]'),
         ),
     ])

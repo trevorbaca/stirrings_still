@@ -3414,7 +3414,6 @@ H_CelloMusicVoice = {                                                          %
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #0 #7                                    %! baca_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
@@ -3740,7 +3739,6 @@ H_CelloMusicVoice = {                                                          %
             }                                                                  %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
@@ -4055,7 +4053,6 @@ H_CelloMusicVoice = {                                                          %
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
         - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
         - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
         \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
