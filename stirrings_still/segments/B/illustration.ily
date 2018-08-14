@@ -1378,18 +1378,18 @@ B_ViolinIMusicVoice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! stirrings_still_circles
-    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
-    \voices "ViolinIMusicVoice", "MultimeasureRestVoice"                       %! _parallelize_multimeasure_rests(3)
-    <<                                                                         %! _parallelize_multimeasure_rests(2)
+    % [B ViolinIMusicVoice measure 76 / measure 13]                            %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4                                                                        %! stirrings_still_circles
 
-        % [B ViolinIMusicVoice measure 76 / measure 13]                        %! _comment_measure_numbers:_parallelize_multimeasure_rests(7)
-        \baca-invisible-music                                                  %! _parallelize_multimeasure_rests(5)
-        c'1 * 5/12                                                             %! _parallelize_multimeasure_rests(4)
-        \\                                                                     %! _parallelize_multimeasure_rests(6)
-        R1 * 5/12                                                              %! _parallelize_multimeasure_rests(6)
+    \tweak edge-height #'(0.7 . 0)
+    \times 2/3 {
 
-    >>                                                                         %! _parallelize_multimeasure_rests(2)
+        r4                                                                     %! stirrings_still_circles
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
+
+    }
 
     \times 2/3 {                                                               %! stirrings_still_clockticks
 
@@ -4822,7 +4822,7 @@ B_CelloMusicVoice = {                                                          %
     \times 2/3 {
 
         r8                                                                     %! stirrings_still_circles
-        <> \stopTextSpan                                                       %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
+        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(3)
         <> \stopTextSpanOne                                                    %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
     }
