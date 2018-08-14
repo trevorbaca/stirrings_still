@@ -442,18 +442,20 @@ SEGMENTS
     (1 measure + fractional measure)
     adagio subito governs stage;
     mixed clockticks / ellipses resume:
-        damped lh resumes;
         v1 ellipses resume:
-            hair governs stage;
+            damped lh;
+            hair;
         v2 clockticks resume:
-            1/2 clt resumes;
+            damped lh;
+            1/2 clt;
         va ellipses resume:
-            damped lh resumes;
-            hair resumes;
+            damped lh;
+            hair;
         vc ellipses return:
-            hair begins;
-        p begins;
-    counted rest equal to exactly 2/3 clocktick (to displace next) (13);
+            damped lh;
+            hair;
+        tutti p begins;
+    counted rest equal to exactly 2/3 clocktick;
 
     [B.6] (14 + fraction)
     (1 measure + fractional measure)
@@ -461,35 +463,39 @@ SEGMENTS
     mixed clockticks / ellipses continue:
         damped lh continues;
         v1 clockticks resume:
-            1/2 clt resumes;
+            damped lh;
+            1/2 clt;
         v2 clockticks continue:
-            1/2 clt continues;
+            damped lh;
+            1/2 clt;
         va ellipses continue:
-            damped lh continues;
-            hair continues;
+            damped lh;
+            hair;
         vc ellipses continue:
-            hair continues;
-        p continues;
-    counted rest equal to exactly 2/3 clocktick (to displace next) (15);
+            damped lh;
+            hair;
+        tutti p continues;
+    counted rest equal to exactly 2/3 clocktick;
 
     [B.7] (16 + fraction)
     (1 measure + fractional measure)
     adagio subito più mosso governs stage;
     mixed clockticks / ellipses continue:
-        damped lh continues;
         v1 clockticks continue:
-            1/2 clt continues;
+            damped lh;
+            1/2 clt;
         v2 clockticks become trajectories:
             damped lh becomes stopped lh;
-            1/2 clt continues;
+            1/2 clt;
             clocktick durations encroach rests;
         va ellipses continue:
-            damped lh continues;
-            hair continues;
-        vc clockticks return;
-            1/2 clt returns;
-        p continues;
-    counted rest equal to exactly 2/3 clocktick (to displace next) (17);
+            damped lh;
+            hair;
+        vc clockticks return:
+            damped lh;
+            1/2 clt;
+        tutti p continues;
+    counted rest equal to exactly 2/3 clocktick;
 
     [B.8] (18-19)
     (2 measures)
