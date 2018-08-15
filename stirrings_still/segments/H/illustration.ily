@@ -2201,18 +2201,13 @@ H_ViolinIIMusicVoice = {                                                       %
 
     }                                                                          %! stirrings_still_clockticks
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_clockticks
-    \times 1/1 {                                                               %! stirrings_still_clockticks
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! stirrings_still_clockticks
-        - \downbow                                                             %! baca_alternate_bow_strokes:IndicatorCommand
-        \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
-        \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
-        \revert TupletNumber.text                                              %! baca_tuplet_number_denominator:OverrideCommand(2)
-        <> \stopTextSpan                                                       %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
-
-    }                                                                          %! stirrings_still_clockticks
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! stirrings_still_clockticks
+    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
+    \revert TupletBracket.staff-padding                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
+    \revert TupletNumber.text                                                  %! baca_tuplet_number_denominator:OverrideCommand(2)
+    <> \stopTextSpan                                                           %! _parallelize_multimeasure_rests(1):baca_text_spanner:PiecewiseCommand(3)
 
     \voices "ViolinIIMusicVoice", "MultimeasureRestVoice"                      %! _parallelize_multimeasure_rests(3)
     <<                                                                         %! _parallelize_multimeasure_rests(2)
@@ -4036,6 +4031,7 @@ H_CelloMusicVoice = {                                                          %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
+    \tweak text #tuplet-number::calc-fraction-text                             %! stirrings_still_trajectories
     \times 4/5 {                                                               %! stirrings_still_trajectories
 
         % [H CelloMusicVoice measure 518 / measure 52]                         %! _comment_measure_numbers
