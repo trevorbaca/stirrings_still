@@ -527,6 +527,15 @@ maker(
 
 maker(
     ('vc', (20, 25)),
+    baca.suite(
+        baca.script_staff_padding(6.5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            0,
+            abjad.tweak(4).staff_padding,
+            clt=True,
+            ),
+        ),
     baca.tie_to(),
     stirrings_still.trajectories('B', 0, 0),
     )
@@ -566,6 +575,15 @@ maker(
 
 maker(
     ('vc', 27),
+    baca.suite(
+        baca.script_staff_padding(6.5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -2,
+            abjad.tweak(4).staff_padding,
+            clt=True,
+            ),
+        ),
     stirrings_still.trajectories('B', 0, 0),
     )
 
@@ -575,6 +593,15 @@ measures = [
 
 maker(
     ('v1', measures),
+    baca.suite(
+        baca.script_staff_padding(5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            0,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            ),
+        ),
     stirrings_still.trajectories('C', 0, -3),
     )
 
@@ -594,11 +621,29 @@ maker(
 
 maker(
     ('va', measures),
+    baca.suite(
+        baca.script_staff_padding(5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            0,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            ),
+        ),
     stirrings_still.trajectories('C', -2, -1),
     )
 
 maker(
     ('vc', measures),
+    baca.suite(
+        baca.script_staff_padding(6.5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -2,
+            abjad.tweak(4).staff_padding,
+            clt=True,
+            ),
+        ),
     stirrings_still.trajectories('C', -3, 0),
     )
 
@@ -624,11 +669,29 @@ maker(
 
 maker(
     ('va', (58, 59)),
+    baca.suite(
+        baca.script_staff_padding(5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -2,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            ),
+        ),
     stirrings_still.trajectories('C', -2, -1),
     )
 
 maker(
     ('vc', (58, 61)),
+    baca.suite(
+        baca.script_staff_padding(6.5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -4,
+            abjad.tweak(4).staff_padding,
+            clt=True,
+            ),
+        ),
     stirrings_still.trajectories('C', -3, 0),
     )
 
