@@ -133,7 +133,7 @@ maker(
     baca.tuplet_bracket_staff_padding(1),
     baca.tuplet_bracket_down(),
     stirrings_still.accelerando((1, 4), (3, 32)),
-    stirrings_still.bcps(0),
+    stirrings_still.bcps(0, clt=True),
     )
 
 maker(
@@ -531,11 +531,11 @@ maker(
     baca.dls_staff_padding(5),
     baca.markup('½ clt', boxed=True),
     baca.new(
-        stirrings_still.bcps(-4),
+        stirrings_still.bcps(-4, clt=True),
         match=0,
         ),
     baca.new(
-        stirrings_still.bcps(-8),
+        stirrings_still.bcps(-8, clt=True),
         match=1,
         ),
     baca.pitch('E2'),

@@ -5,6 +5,7 @@ import baca
 def bcps(
     rotation: int,
     *tweaks,
+    clt: bool = False,
     ):
     """
     Makes bow contact points.
@@ -17,6 +18,9 @@ def bcps(
         ])
     bcps = bcps.flatten(depth=1)
     bcps = bcps.rotate(n=rotation)
+    if clt:
+        bcps = bcps.replace((0, 7), (1, 7))
+        bcps = bcps.replace((0, 4), (1, 4))
     return baca.bcps(
         bcps,
         *tweaks,
