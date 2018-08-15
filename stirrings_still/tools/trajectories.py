@@ -27,6 +27,7 @@ def trajectories(counts='A', rotation=0, extra_counts_rotation=0):
             talea=talea,
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,
+                force_fraction=True,
                 ),
             ),
         )

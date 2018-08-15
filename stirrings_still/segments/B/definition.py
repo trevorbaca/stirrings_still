@@ -480,6 +480,50 @@ maker(
     )
 
 maker(
+    ('vc', (16, 17)),
+    baca.new(
+        baca.rhythm(
+            abjad.select([
+                abjad.Tuplet((2, 3), "c'8 r4"),
+                abjad.Tuplet((2, 3), "c'8 r4"),
+                abjad.Tuplet((2, 3), "c'8 r4"),
+                abjad.Tuplet((2, 3), "c'8 r16"),
+                ]),
+            annotate_unpitched_music=True,
+            ),
+        measures=16,
+        ),
+    baca.new(
+        baca.rhythm(
+            abjad.select([
+                abjad.Tuplet((2, 3), "c'8 r4"),
+                abjad.Tuplet((2, 3), "c'8 r8"),
+                ]),
+            annotate_unpitched_music=True,
+            ),
+        measures=17,
+        ),
+    baca.new(
+        baca.alternate_bow_strokes(),
+        measures=(16, 17),
+        ),
+    )
+
+maker(
+    ('vc', (18, 19)),
+    baca.alternate_bow_strokes(),
+    stirrings_still.clockticks(
+        encroach=True,
+        ),
+    )
+
+maker(
+    ('vc', (20, 25)),
+    baca.tie_to(),
+    stirrings_still.trajectories('B', 0, 0),
+    )
+
+maker(
     (['v1', 'v2', 'va'], 26),
     stirrings_still.declamation(),
     )
@@ -487,6 +531,11 @@ maker(
 maker(
     ('v2', 27),
     stirrings_still.trajectories('C', -1),
+    )
+
+maker(
+    ('vc', 27),
+    stirrings_still.trajectories('B', 0, 0),
     )
 
 maker(
