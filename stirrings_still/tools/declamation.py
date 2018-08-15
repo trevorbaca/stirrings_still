@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 def declamation():
     """
-    Makes declamatory rhythm.
+    Makes declamation.
     """
     return baca.rhythm(
         rhythm_maker=rmakers.TupletRhythmMaker(

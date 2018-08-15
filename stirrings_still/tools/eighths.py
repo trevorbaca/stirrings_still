@@ -4,7 +4,7 @@ from abjadext import rmakers
 
 def eighths():
     """
-    Makes eighths rhythm.
+    Makes eighths.
     """
     return baca.rhythm(
         division_expression=baca.sequence().sum().sequence(),

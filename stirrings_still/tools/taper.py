@@ -4,7 +4,7 @@ from abjadext import rmakers
 
 def taper(tuplet_ratio=(1, 4, 1)):
     """
-    Makes taper rhythm.
+    Makes taper.
     """
     return baca.rhythm(
         rhythm_maker=rmakers.TupletRhythmMaker(

@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 def strokes(rotation, *, dmask=None, ltmask=None):
     """
-    Makes stroke rhythm.
+    Makes strokes.
     """
     expression = baca.DivisionSequenceExpression()
     expression = expression.division_sequence()

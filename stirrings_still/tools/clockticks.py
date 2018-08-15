@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 def clockticks(*, displace=False, dmask=None, encroach=False):
     """
-    Makes clocktick rhythm.
+    Makes clockticks.
     """
     tag = 'stirrings_still_clockticks'
 

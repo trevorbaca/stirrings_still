@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 def wave(start, stop):
     """
-    Makes wave rhythm.
+    Makes wave.
     """
 
     return baca.rhythm(
