@@ -66,22 +66,22 @@ maker(
     baca.dynamic('pp'),
     baca.markup('½ clt', boxed=True),
     baca.new(
-        stirrings_still.bcps(0),
+        stirrings_still.bcps(0, clt=True),
         stirrings_still.trajectories('B', 0, 0),
         match=0,
         ),
     baca.new(
-        stirrings_still.bcps(-1),
+        stirrings_still.bcps(-1, clt=True),
         stirrings_still.trajectories('B', -1, -1),
         match=1,
         ),
     baca.new(
-        stirrings_still.bcps(-2),
+        stirrings_still.bcps(-2, clt=True),
         stirrings_still.trajectories('B', -2, -2),
         match=2,
         ),
     baca.new(
-        stirrings_still.bcps(-3),
+        stirrings_still.bcps(-3, clt=True),
         stirrings_still.trajectories('B', -3, -3),
         match=3,
         ),
@@ -172,19 +172,19 @@ maker(
     baca.dynamic_text_left(),
     baca.markup('½ clt', boxed=True),
     baca.new(
-        stirrings_still.bcps(0),
+        stirrings_still.bcps(0, clt=True),
         match=0,
         ),
     baca.new(
-        stirrings_still.bcps(-1),
+        stirrings_still.bcps(-1, clt=True),
         match=1,
         ),
     #baca.new(
-    #    stirrings_still.bcps(-2),
+    #    stirrings_still.bcps(-2, clt=True),
     #    match=2,
     #    ),
     baca.new(
-        stirrings_still.bcps(-3),
+        stirrings_still.bcps(-3, clt=True),
         match=-1,
         ),
     baca.text_script_parent_center(),

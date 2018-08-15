@@ -224,7 +224,7 @@ maker(
     baca.markup('½ clt', boxed=True),
     baca.text_script_staff_padding(11),
     baca.text_spanner_staff_padding(7),
-    stirrings_still.bcps(-3),
+    stirrings_still.bcps(-3, clt=True),
     stirrings_still.glissando_without_ties(),
     stirrings_still.trajectories('B', -2)
     )

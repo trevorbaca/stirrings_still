@@ -421,11 +421,14 @@ maker(
         measures=(16, 17),
         ),
     baca.new(
-        baca.script_staff_padding(5),
-        baca.tuplet_bracket_down(),
-        stirrings_still.bcps(
-            0,
-            abjad.tweak(2.5).staff_padding,
+        baca.suite(
+            baca.script_staff_padding(5),
+            baca.tuplet_bracket_down(),
+            stirrings_still.bcps(
+                0,
+                abjad.tweak(2.5).staff_padding,
+                clt=True,
+                ),
             ),
         stirrings_still.trajectories('C', 0),
         measures=(18, 25),
@@ -549,6 +552,15 @@ maker(
 
 maker(
     ('v2', 27),
+    baca.suite(
+        baca.script_staff_padding(5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -2,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            ),
+        ),
     stirrings_still.trajectories('C', -1),
     )
 
@@ -568,6 +580,15 @@ maker(
 
 maker(
     ('v2', measures),
+    baca.suite(
+        baca.script_staff_padding(5),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            -4,
+            abjad.tweak(2.5).staff_padding,
+            clt=True,
+            ),
+        ),
     stirrings_still.trajectories('C', -1, -2),
     )
 
