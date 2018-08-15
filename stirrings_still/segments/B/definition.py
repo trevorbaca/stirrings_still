@@ -587,18 +587,53 @@ maker(
     ),
 
 maker(
-    (['v1', 'v2', 'va'], 48),
+    ('trio', 48),
     stirrings_still.urtext_field(),
     )
 
 maker(
-    ('v2', (58, 62)),
+    ('v2', (58, 61)),
     stirrings_still.circles((1, 4)),
     )
 
 maker(
-    (['v1', 'v2', 'va'], 64),
-    stirrings_still.urtext_field(),
+    ('va', (58, 59)),
+    stirrings_still.trajectories('C', -2, -1),
+    )
+
+maker(
+    ('vc', (58, 61)),
+    stirrings_still.trajectories('C', -3, 0),
+    )
+
+maker(
+    ('tutti', 62),
+    stirrings_still.circles((1, 4)),
+    )
+
+maker(
+    ('trio', 64),
+    baca.suite(
+        baca.new(
+            baca.espressivo(),
+            baca.stem_tremolo(selector=baca.pleaves()),
+            map=baca.plts()[abjad.index([1], 2)],
+            ),
+        baca.untie_to(selector=baca.pleaves()),
+        baca.tie(repeat=(1, 4)),
+        ),
+    baca.new(
+        stirrings_still.flight('A', 0, start=16),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.flight('C', -1, start=16),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.flight('B', -2, start=16),
+        match=2,
+        ),
     )
 
 maker(

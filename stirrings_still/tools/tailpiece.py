@@ -4,7 +4,7 @@ import stirrings_still
 
 def tailpiece():
     """
-    Makes tailpiece rhythm.
+    Makes tailpiece.
     """
     return baca.suite(
         baca.make_repeat_tied_notes(

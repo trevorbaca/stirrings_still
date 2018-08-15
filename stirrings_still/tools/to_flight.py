@@ -11,7 +11,7 @@ def to_flight(
     stop=(1, 8),
     ):
     """
-    Makes trajectories-to-flight rhythm.
+    Makes trajectories-to-flight.
     """
 
     return baca.rhythm(

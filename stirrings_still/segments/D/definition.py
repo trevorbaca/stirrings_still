@@ -411,45 +411,6 @@ maker(
         ),
     )
 
-
-"""
-1,-5    -6      -6
-1,-5    2,-4    -6
-2,-4    3,-4    2,-4
-3,-3    4,-2    3,-3
-4,-2    6       4,-2
-6       6       6
-"""
-counts_a = [
-    8 + 4 + 4,
-    1, 17,
-    1, 5, 2, 10,
-    2, 4, 3, 4, 2, 4,
-    3, 3, 4, 2, 3, 3,
-    4, 2, 10, 2,
-    99,
-    ]
-
-counts_b = [
-    8 + 4,
-    1, 16,
-    1, 5, 2, 9,
-    2, 4, 3, 4, 2, 3,
-    3, 3, 4, 2, 3, 2,
-    4, 2, 10, 1,
-    99,
-    ]
-
-counts_c = [
-    8,
-    1, 15,
-    1, 5, 2, 8,
-    2, 4, 3, 4, 2, 2,
-    3, 3, 4, 2, 3, 1,
-    4, 2, 99,
-    ]
-
-
 maker(
     ('trio', (68, 83)),
     baca.suite(
@@ -462,15 +423,15 @@ maker(
         baca.tie(repeat=(1, 4)),
         ),
     baca.new(
-        stirrings_still.flight(counts_a, 0),
+        stirrings_still.flight('A', 0),
         match=0,
         ),
     baca.new(
-        stirrings_still.flight(counts_c, -1),
+        stirrings_still.flight('C', -1),
         match=1,
         ),
     baca.new(
-        stirrings_still.flight(counts_b, -2),
+        stirrings_still.flight('B', -2),
         match=2,
         ),
     )

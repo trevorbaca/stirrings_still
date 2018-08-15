@@ -3,18 +3,63 @@ import baca
 from abjadext import rmakers
 
 
-def flight(counts, rotation):
+def flight(counts, rotation, start=None):
     """
-    Makes flight rhythm.
+    Makes flight.
     """
-    counts = baca.sequence(counts)
+
+    """
+    1,-5    -6      -6
+    1,-5    2,-4    -6
+    2,-4    3,-4    2,-4
+    3,-3    4,-2    3,-3
+    4,-2    6       4,-2
+    6       6       6
+    """
+    counts_a = [
+        8 + 4 + 4,
+        1, 17,
+        1, 5, 2, 10,
+        2, 4, 3, 4, 2, 4,
+        3, 3, 4, 2, 3, 3,
+        4, 2, 10, 2,
+        99,
+        ]
+
+    counts_b = [
+        8 + 4,
+        1, 16,
+        1, 5, 2, 9,
+        2, 4, 3, 4, 2, 3,
+        3, 3, 4, 2, 3, 2,
+        4, 2, 10, 1,
+        99,
+        ]
+
+    counts_c = [
+        8,
+        1, 15,
+        1, 5, 2, 8,
+        2, 4, 3, 4, 2, 2,
+        3, 3, 4, 2, 3, 1,
+        4, 2, 99,
+        ]
+
+    counts_ = {
+        'A': counts_a,
+        'B': counts_b,
+        'C': counts_c,
+        }[counts]
+
+    counts_ = baca.sequence(counts_)
+    counts_ = counts_[start:]
     extra_counts = baca.sequence([1, 0, 2]).rotate(n=rotation)
     return baca.rhythm(
         rhythm_maker=rmakers.TaleaRhythmMaker(
             extra_counts_per_division=extra_counts,
             tag='stirrings_still_flight',
             talea=rmakers.Talea(
-                counts=counts,
+                counts=counts_,
                 denominator=8,
                 ),
             tuplet_specifier=rmakers.TupletSpecifier(

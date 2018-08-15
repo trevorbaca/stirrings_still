@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 def grid(stage, *, rotation=0):
     """
-    Makes grid rhythm.
+    Makes grid.
     """
     if stage == 1:
         counts = baca.sequence([1, -3, 1, -3, 1, -2])
