@@ -4682,44 +4682,44 @@ D_CelloMusicVoice = {                                                          %
         c'4                                                                    %! stirrings_still_trajectories
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \downbow                                                             %! baca_bcps:BCPCommand(6)
+        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(6)
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
             \override                                                          %! baca_markup:IndicatorCommand
                 #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
                 \box                                                           %! baca_markup:IndicatorCommand
                     "½ clt"                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! stirrings_still_trajectories
-        - \upbow                                                               %! baca_bcps:BCPCommand(7)
-        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #7 #7                                    %! baca_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        - \upbow                                                               %! stirrings_still_bcps:BCPCommand(7)
+        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #7 #7                                    %! stirrings_still_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        - \downbow                                                             %! baca_bcps:BCPCommand(8)
-        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(3)
-        - \abjad-solid-line-with-arrow                                         %! baca_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-left-text #6 #7                                    %! baca_bcps:BCPCommand(2)
-        - \baca-bcp-spanner-right-text #7 #7                                   %! baca_bcps:BCPCommand(2)
-        \bacaStartTextSpanBCP                                                  %! baca_bcps:BCPCommand(2)
+        - \downbow                                                             %! stirrings_still_bcps:BCPCommand(8)
+        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(3)
+        - \abjad-solid-line-with-arrow                                         %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-left-text #6 #7                                    %! stirrings_still_bcps:BCPCommand(2)
+        - \baca-bcp-spanner-right-text #7 #7                                   %! stirrings_still_bcps:BCPCommand(2)
+        \bacaStartTextSpanBCP                                                  %! stirrings_still_bcps:BCPCommand(2)
         [                                                                      %! stirrings_still_trajectories
         \glissando                                                             %! baca_glissando:SpannerCommand
 
         \once \override NoteHead.transparent = ##t                             %! hide_black_note_heads:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! stirrings_still_trajectories
-        \bacaStopTextSpanBCP                                                   %! baca_bcps:BCPCommand(1)
+        \bacaStopTextSpanBCP                                                   %! stirrings_still_bcps:BCPCommand(1)
         ]                                                                      %! stirrings_still_trajectories
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)

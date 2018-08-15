@@ -1,7 +1,11 @@
+import abjad
 import baca
 
 
-def bcps(*, rotation=0):
+def bcps(
+    rotation: int,
+    *tweaks,
+    ):
     """
     Makes bow contact points.
     """
@@ -13,4 +17,8 @@ def bcps(*, rotation=0):
         ])
     bcps = bcps.flatten(depth=1)
     bcps = bcps.rotate(n=rotation)
-    return baca.bcps(bcps=bcps)
+    return baca.bcps(
+        bcps,
+        *tweaks,
+        tag='stirrings_still_bcps',
+        )
