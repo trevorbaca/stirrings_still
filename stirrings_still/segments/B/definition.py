@@ -421,10 +421,11 @@ maker(
         measures=(16, 17),
         ),
     baca.new(
+        baca.script_staff_padding(5),
         baca.tuplet_bracket_down(),
         stirrings_still.bcps(
             0,
-            abjad.tweak('red').color,
+            abjad.tweak(2.5).staff_padding,
             ),
         stirrings_still.trajectories('C', 0),
         measures=(18, 25),
