@@ -421,7 +421,11 @@ maker(
         measures=(16, 17),
         ),
     baca.new(
-        baca.alternate_bow_strokes(),
+        baca.tuplet_bracket_down(),
+        stirrings_still.bcps(
+            0,
+            abjad.tweak('red').color,
+            ),
         stirrings_still.trajectories('C', 0),
         measures=(18, 25),
         ),
