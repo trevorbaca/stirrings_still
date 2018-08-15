@@ -140,7 +140,7 @@ maker(
         ),
     baca.hairpin(
         'p <| mp p < mp',
-        piece_selector=baca.lyparts([1]),
+        piece_selector=baca.clparts([1]),
         ),
     stirrings_still.declamation(),
     )
