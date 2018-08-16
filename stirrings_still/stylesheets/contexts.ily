@@ -88,14 +88,6 @@
         \override TimeSignature.space-alist.clef = #'(extra-space . 0.5)
         \override TimeSignature.style = #'numbered
 
-        \override VerticalAxisGroup.default-staff-staff-spacing = #'(
-            (basic-distance . 0)
-            (minimum-distance . 12) % distance below time signature context
-            (padding . 0)
-            (stretchability . 0)
-        )
-        \override VerticalAxisGroup.minimum-Y-extent = #'(-4 . 4)
-
     }
 
     % VOICE
@@ -116,8 +108,6 @@
         \name StringQuartetStaffGroup
         \type Engraver_group
         \alias StaffGroup
-
-        \override StaffGrouper.staff-staff-spacing.minimum-distance = 12
     }
 
     % MUSIC CONTEXT
@@ -187,8 +177,6 @@
         \override TextScript.font-name = #"Palatino"
         \override TextScript.padding = 1
         \override TextScript.X-extent = ##f
-        % TODO: remove?
-        %%%\override TextScript.Y-extent = #'(-1.5 . 1.5)
 
         \override TextSpanner.staff-padding = 2
 
@@ -201,10 +189,9 @@
         \override TupletNumber.font-size = 1
 
         autoBeaming = ##f
-        % activate in score
+        % TODO: activate in score:
         %barNumberFormatter = #baca-oval-bar-numbers
         markFormatter = #format-mark-box-alphabet
-        proportionalNotationDuration = #(ly:make-moment 1 24)
         tupletFullLength = ##t
     }
 }
