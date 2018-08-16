@@ -85,8 +85,8 @@ time = (
     ('adagio', 30),
     ('fermata', 31),
     ('largo piu mosso', 32),
-    ('largo', 33),
-    (baca.Accelerando(), 33),
+    ('largo', 34),
+    (baca.Accelerando(), 34),
     ('adagio piu mosso', 35),
     ('fermata', 36),
     ('largo', 37),
@@ -648,9 +648,65 @@ maker(
     )
 
 maker(
+    ('tutti', (29, 30)),
+    baca.new(
+        baca.hairpin(
+            'ppp < mp',
+            ),
+        baca.text_spanner(
+            'tasto => ord',
+            abjad.tweak(10).staff_padding,
+            ),
+        selector=baca.mleaves(1).rleak().rleak(),
+        ),
+    )
+
+maker(
     ('tutti', (32, 33)),
     stirrings_still.rasp(),
     ),
+
+maker(
+    ('tutti', (34, 35)),
+    baca.new(
+        baca.hairpin(
+            'pp < mf',
+            ),
+        baca.text_spanner(
+            'tasto => poco pont.',
+            abjad.tweak(10).staff_padding,
+            ),
+        selector=baca.mleaves(1).rleak().rleak(),
+        ),
+    )
+
+maker(
+    ('tutti', (37, 38)),
+    baca.new(
+        baca.hairpin(
+            'p < f',
+            ),
+        baca.text_spanner(
+            'tasto => pont. mod.',
+            abjad.tweak(10).staff_padding,
+            ),
+        selector=baca.mleaves(1).rleak().rleak(),
+        ),
+    )
+
+maker(
+    ('tutti', (40, 41)),
+    baca.new(
+        baca.hairpin(
+            'mp < ff',
+            ),
+        baca.text_spanner(
+            'tasto => pont. molto',
+            abjad.tweak(10).staff_padding,
+            ),
+        selector=baca.mleaves(1).rleak().rleak(),
+        ),
+    )
 
 maker(
     ('tutti', 42),
