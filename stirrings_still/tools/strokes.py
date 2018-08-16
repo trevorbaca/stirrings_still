@@ -26,7 +26,7 @@ def strokes(rotation, *, dmask=None, ltmask=None):
             logical_tie_masks=ltmask,
             tag='stirrings_still_strokes',
             tie_specifier=rmakers.TieSpecifier(
-                tie_consecutive_notes=True,
+                tie_within_divisions=True,
                 ),
             ),
         rewrite_rest_filled=True,
