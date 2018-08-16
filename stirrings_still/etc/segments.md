@@ -114,7 +114,7 @@ SEGMENTS
     [A.6] (18 + fermata)
     (1 measure)
     subito adagio;
-    composite urtext field / ellipses begin:
+    composite urtext field / circles begin:
         v1, v2, va urtext declamation starts again:
             as per [A.1] with change of chord(s);
             stopped lh continues;
@@ -137,7 +137,7 @@ SEGMENTS
     [A.7] (20 + fermata)
     (1 measure)
     adagio continues;
-    composite urtext field / ellipses repeat and intensity:
+    composite urtext field / circles repeat and intensity:
         v1, v2, va:
             urtext field:
                 stopped lh continues;
@@ -150,7 +150,7 @@ SEGMENTS
                         does not introduce slower bow;
                         does not terminate stop-on-string;
                         pp <| mp ringing lv;
-            immediately followed by ellipses:
+            immediately followed by circles:
                 stopped lh continues;
                 ellipse colors appear;
                 desynchronized;
@@ -169,7 +169,7 @@ SEGMENTS
     [A.8] (22-23 + fermata)
     (2 measures)
     adagio continues;
-    composite urtext field / ellipses repeat and intensity:
+    composite urtext field / circles repeat and intensity:
         v1, v2, va
             urtext field:
                 stopped lh continues;
@@ -180,7 +180,7 @@ SEGMENTS
                     fourth chord:
                         even longer;
                         pp <| mf ringing lv;
-            ellipses:
+            circles:
                 stopped lh continues;
                 ellipse colors return;
                 desynchronization returns;
@@ -196,7 +196,7 @@ SEGMENTS
     [A.9] (25-26 + 27 + fermata)
     (2 measures)
     adagio continues;
-    composite urtext field / ellipses repeat and intensify:
+    composite urtext field / circles repeat and intensify:
         v1, v2, va:
             urtext field:
                 stopped lh continues;
@@ -207,7 +207,7 @@ SEGMENTS
                     fourth chord:
                         longer still;
                         pp <| f ringing lv;
-            ellipses:
+            circles:
                 stopped lh continues;
                 ellipse colors return;
                 fast rate;
@@ -246,7 +246,7 @@ SEGMENTS
     [A.10] (29-34)
     (6 measures)
     adagio-to-allegro accelerando happens;
-    composite urtext field / ellipses repeat and intensity:
+    composite urtext field / circles repeat and intensity:
         accelerando achieves allegro at start of measure -1;
         v1, v2, va:
             urtext field:
@@ -258,7 +258,7 @@ SEGMENTS
                     fourth chord:
                         long;
                         pp <| ff ringing lv;
-            ellipses:
+            circles:
                 stopped lh continues;
                 ellipse colors return;
                 very fast rate;
@@ -273,7 +273,7 @@ SEGMENTS
     [A.11] (35-40)
     (6 measures)
     allegro continues;
-    v1, v2, va ellipses continue:
+    v1, v2, va circles continue:
         very fast rate continues;
         ppp continues;
     vc urtext field fades out:
@@ -287,7 +287,7 @@ SEGMENTS
     (4 measures)
     allegro-to-largo ritardando happens;
     ritardando achieves largo at start of measure -1;
-    v1, v2, va ellipses continue:
+    v1, v2, va circles continue:
         very fast rate continues;
         ppp > niente happens;
     vc:
@@ -308,7 +308,7 @@ SEGMENTS
     [A.13] (46-47 + 48 + 49-50 + fermata)
     (4 measures) 
     largo continues;
-    tutti ellipses continue:
+    tutti circles continue:
         subito damped lh;
         subito slower rate;
         subito p;
@@ -328,7 +328,7 @@ SEGMENTS
     [A.14] (52 + fermata)
     (1 measure)
     largo continues;
-    tutti ellipses repeat:
+    tutti circles repeat:
         damped lh repeats;
         slower rate repeats;
         p repeats;
@@ -337,7 +337,7 @@ SEGMENTS
     [A.15] (54 + 55-56 + fermata)
     (1 measure)
     largo continues;
-    tutti ellipses repeat:
+    tutti circles repeat:
         damped lh repeats;
         slow rate repeats;
         p repeats;
@@ -359,7 +359,7 @@ SEGMENTS
     [A.16] (58 + fermata)
     (1 measure)
     largo resumes;
-    tutti ellipses repeat:
+    tutti circles repeat:
         damped lh repeats;
         slow rate repeats;
         p repeats;
@@ -381,7 +381,7 @@ SEGMENTS
     [A.18] (62 + long)
     (1 measure)
     largo governs stage;
-    tutti ellipses resume and repeat:
+    tutti circles resume and repeat:
         damped lh resumes and repeats;
         slow rate resumes and repeats;
         p resumes and repeats;
@@ -413,12 +413,12 @@ SEGMENTS
     [B.3] (6-7)
     (2 measures)
     subito-adagio-più-mosso-to-presto accelerando begins;
-    clockticks continue with addition of ellipses:
+    clockticks continue with addition of circles:
         damped lh completes;
         v1, v2 clockticks fade out:
             1/2 clt fades out;
             mf > niente governs stage;
-        va ellipses fade in and then stop:
+        va circles fade in and then stop:
             damped lh continues;
             1/2 clt replaced by hair;
             niente < p governs first half of stage;
@@ -441,17 +441,17 @@ SEGMENTS
     [B.5] (12 + fraction)
     (1 measure + fractional measure)
     adagio subito governs stage;
-    mixed clockticks / ellipses resume:
-        v1 ellipses resume:
+    mixed clockticks / circles resume:
+        v1 circles resume:
             damped lh;
             hair;
         v2 clockticks resume:
             damped lh;
             1/2 clt;
-        va ellipses resume:
+        va circles resume:
             damped lh;
             hair;
-        vc ellipses return:
+        vc circles return:
             damped lh;
             hair;
         tutti p begins;
@@ -460,7 +460,7 @@ SEGMENTS
     [B.6] (14 + fraction)
     (1 measure + fractional measure)
     adagio subito meno mosso governs stage;
-    mixed clockticks / ellipses continue:
+    mixed clockticks / circles continue:
         damped lh continues;
         v1 clockticks resume:
             damped lh;
@@ -468,10 +468,10 @@ SEGMENTS
         v2 clockticks continue:
             damped lh;
             1/2 clt;
-        va ellipses continue:
+        va circles continue:
             damped lh;
             hair;
-        vc ellipses continue:
+        vc circles continue:
             damped lh;
             hair;
         tutti p continues;
@@ -480,7 +480,7 @@ SEGMENTS
     [B.7] (16 + fraction)
     (1 measure + fractional measure)
     adagio subito più mosso governs stage;
-    mixed clockticks / ellipses continue:
+    mixed clockticks / circles continue:
         v1 clockticks continue:
             damped lh;
             1/2 clt;
@@ -488,7 +488,7 @@ SEGMENTS
             damped lh becomes stopped lh;
             1/2 clt;
             clocktick durations encroach rests;
-        va ellipses continue:
+        va circles continue:
             damped lh;
             hair;
         vc clockticks return:
@@ -509,7 +509,7 @@ SEGMENTS
         tasto continues;
         1/2 clt continues;
         p < mf begins;
-    va ellipses continue:
+    va circles continue:
         damped lh continues;
         hair continues;
         p continues;
@@ -531,7 +531,7 @@ SEGMENTS
         tasto stopped lh continues;
         1/2 clt continues;
         crescendo achieves mf at start of measure 1:2;
-    va ellipses fade out:
+    va circles fade out:
         damped lh fades out;
         hair fades out;
         p > niente happens;
@@ -677,10 +677,10 @@ SEGMENTS
             arrives at start of measure 1:2;
         mp < ff:
             arrives at start of measure 1:2;
-        >>[A.18 (ellipses) 1/1] suffixes [B.16 (iteratum)]<< (42):
+        >>[A.18 (circles) 1/1] suffixes [B.16 (iteratum)]<< (42):
             >>summon future time<<;
             largo;
-            tutti ellipses:
+            tutti circles:
                 damped lh;
                 slow rate;
                 p;
@@ -731,10 +731,8 @@ SEGMENTS
     largo-to-presto accelerando happens;
     tutti trajectories continue:
         hair continues;
-        tasto-to-pont-poss:
-            arrives at start of measure 1:2;
-        f < fff+:
-            arrives at start of measure 1:2;
+        fff resumes;
+        pont. poss. resumes;
     attacca;
 
     [B.19] (52-57)
@@ -756,10 +754,10 @@ SEGMENTS
         hair continues;
         tasto continues;
         ppp continues;
-    v2 ellipses begin:
+    v2 circles begin:
         stopped lh continues;
         hair continues;
-        wide ellipses begin;
+        wide circles begin;
         ppp continues;
     va, vc trajectories continue:
         stopped lh continues;
@@ -776,15 +774,15 @@ SEGMENTS
         hair continues;
         tasto continues;
         ppp continues;
-    v2 ellipses continue:
+    v2 circles continue:
         stopped lh continues;
         hair continues;
-        wide ellipses continue;
+        wide circles continue;
         ppp continues;
-    va ellipses begin:
+    va circles begin:
         stopped lh continues;
         hair continues;
-        wide ellipses begin;
+        wide circles begin;
         ppp continues;
     vc trajectories continue:
         stopped lh continues;
@@ -796,15 +794,15 @@ SEGMENTS
     [B.22] (61)
     (1 measure)
     ritardando achieves largo at start of stage;
-    v1 ellipses begin:
+    v1 circles begin:
         stopped lh continues;
         hair continues;
-        wide ellipses begin;
+        wide circles begin;
         ppp continues;
-    v2, va ellipses continue:
+    v2, va circles continue:
         stopped lh continues;
         hair continues;
-        wide ellipses continue;
+        wide circles continue;
         ppp continues;
     vc trajectories continue:
         stopped lh continues;
@@ -816,10 +814,10 @@ SEGMENTS
     [B.23] (62 + fermata)
     (1 measure)
     largo continues;
-    tutti ellipses fade out:
+    tutti circles fade out:
         stopped lh fades out;
         hair fades out;
-        wide ellipses fade out;
+        wide circles fade out;
         ppp > niente governs stage;
     fermata (63);
 
@@ -846,7 +844,7 @@ SEGMENTS
     tutti unexplanined grid appears:
         damped lh governs stage;
         hair governs stage;
-        p governs stage;
+        sub. mp governs stage;
     fermata (66);
 
 [C] time series C; rotation 0
@@ -972,7 +970,7 @@ SEGMENTS
     (circles resume)
     (4 measures)
     adagio-meno-mosso-to-allegro accelerando governs stage;
-    tutti ellipses resume (as homorhythm white circles);
+    tutti circles resume (as homorhythm white circles);
         damped lh resumes;
         hair resumes;
         maximally wide circles resume;
@@ -997,7 +995,7 @@ SEGMENTS
     (circles resume)
     (4 measures)
     adagio-più-mosso-to-presto accelerando governs stage;
-    tutti ellipses continue (as offset-homorhythm white circles):
+    tutti circles continue (as offset-homorhythm white circles):
         damped lh resumes after prolongation;
         hair continues;
         maximally wide circles resume:
@@ -1107,7 +1105,7 @@ SEGMENTS
     largo-to-presto accelerando happens:
         begins at start of stage;
         end at start of measure 1:2;
-    tutti ellipses fade out (as continuous desynchronized slack circles):
+    tutti circles fade out (as continuous desynchronized slack circles):
         stopped lh fades out:
             down-glissando in each part independently;
         hair fades out;
@@ -1263,10 +1261,10 @@ SEGMENTS
     >>[S.2 (transformatum) 1/1] prefixes [D.11]<< (57):
         >>summons future time<<;
         largo;
-        v1, v2 ellipses:
+        v1, v2 circles:
             stopped lh;
             hair;
-            fast whisked ellipses on accelerando and crescendo;
+            fast whisked circles on accelerando and crescendo;
         va memory of flight:
             stopped lh;
             hair;
@@ -1539,7 +1537,7 @@ SEGMENTS
         interlocking clouded pane whisk gears appear gradually:
             stopped lh;
             hair;
-            fast ellipses;
+            fast circles;
             polyrhythmic desynchronization:
                 v1 completely regular rhythm #1;
                 v2 completely regular rhythm #2;
@@ -1704,12 +1702,12 @@ SEGMENTS
         >>summon future time<<;
         (8 measures: 42-49)
         presto;
-        tutti ellipses (desynchronized spinning white noise):
+        tutti circles (desynchronized spinning white noise):
             damped lh;
             each pitch fixed;
-            relatively fast polyrhythmic desynchronized ellipses;
+            relatively fast polyrhythmic desynchronized circles;
             p;
-        surprisingly short breath [v2 plays ellipses through breath];
+        surprisingly short breath [v2 plays circles through breath];
         (12 measures: 50-61)
         adagio-to-presto accelerando happens;
         tutti urtext field / trajectories appear (desynchronized pitched field
@@ -1802,12 +1800,12 @@ SEGMENTS
         >>recapitulate summons of future time<<;
         (8 measures: 89-96)
         presto;
-        tutti ellipses (desynchronized spinning white noise):
+        tutti circles (desynchronized spinning white noise):
             damped lh;
             each pitch fixed;
-            relatively fast polyrhythmic desynchronized ellipses;
+            relatively fast polyrhythmic desynchronized circles;
             p;
-        surprisingly short breath [v2 plays ellipses through breath];
+        surprisingly short breath [v2 plays circles through breath];
         (12 measures: 97-108)
         adagio-to-presto accelerando happens;
         tutti urtext field / trajectories appear (desynchronized pitched field
@@ -2080,10 +2078,10 @@ SEGMENTS
     [H.3] (7-8)
     (2 measures)
     adagio resumes after suffix;
-    v1 urtext field / ellipses appear gradually:
+    v1 urtext field / circles appear gradually:
         stopped lh continues;
         hair continues;
-        single bows become slow ellipses:
+        single bows become slow circles:
         desynchronization begins:
             rhythm #1 appears;
             introduced gradually on local accelerandi;
@@ -2093,10 +2091,10 @@ SEGMENTS
         hair continues;
         flautando continues;
         mp continues;
-    va urtext field / ellipses appear gradually:
+    va urtext field / circles appear gradually:
         stopped lh continues;
         hair continues;
-        single bows become slow ellipses:
+        single bows become slow circles:
         desynchronization begins:
             rhythm #3 appears;
             introduced gradually on local accelerandi;
@@ -2113,7 +2111,7 @@ SEGMENTS
     (2 measures)
     adagio-to-allegro accelerando begins:
         begins adagio at start of stage;
-    v1 urtext field / ellipses continue:
+    v1 urtext field / circles continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo begins:
@@ -2126,7 +2124,7 @@ SEGMENTS
         hair continues;
         flautando slows to single bows during first half of stage;
         mp > p governs first half of stage;
-    va urtext field / ellipses continue:
+    va urtext field / circles continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo begins:
@@ -2146,24 +2144,24 @@ SEGMENTS
         achieves allegro at start of measure 1:2;
     allegro-to-adagio ritardando begins:
         begins ritardando at start of measure 1:2;
-    v1 urtext field / ellipses continue:
+    v1 urtext field / circles continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo continues;
         ellipse rate increases;
         desynchronization (rhythm #1) continues;
         p continues;
-    v2 urtext field / ellipses appear gradually:
+    v2 urtext field / circles appear gradually:
         stopped lh continues;
         hair continues;
-        single bows become slow ellipses;
+        single bows become slow circles;
         up-glissando lentissimo begins:
             begins at start of stage;
         desynchronization begins:
             rhythm #2 appears gradually;
             introduced on local accelerandi;
         p continues;
-    va urtext field / ellipses continue:
+    va urtext field / circles continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo continues;
@@ -2180,21 +2178,21 @@ SEGMENTS
     (2 measures)
     allegro-to-adagio ritardando completes:
         achieves adagio at start of measure -1;
-    v1 urtext field / ellipses continue:
+    v1 urtext field / circles continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo continues;
         ellipse rate increases;
         desynchronization (rhythm #1) continues;
         p continues;
-    v2 urtext field / ellipses continue:
+    v2 urtext field / circles continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo continues;
         ellipse rate increases;
         desynchronization (rhythm #2) continues;
         p continues;
-    va urtext field / ellipses continue:
+    va urtext field / circles continue:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo continues;
@@ -2210,16 +2208,16 @@ SEGMENTS
     [H.7] (15-16)
     (2 measures)
     adagio continues;
-    v1 urtext field / ellipses complete:
+    v1 urtext field / circles complete:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo completes:
             achieves new pitch at start of stage;
-        very fast ellipses complete;
+        very fast circles complete;
         desynchronization (rhythm #1) completes;
         p > niente governs stage:
             achieves niente at start of next stage;
-    v2 urtext field / ellipses complete:
+    v2 urtext field / circles complete:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo completes:
@@ -2228,12 +2226,12 @@ SEGMENTS
         desyncrhonization (rhythm #2) completes;
         p > niente governs stage:
             achives niente at start of next stage;
-    va urtext field / ellipses complete:
+    va urtext field / circles complete:
         stopped lh continues;
         hair continues;
         up-glissando lentissimo completes:
             achieves new pitch at start of stage;
-        very fast ellipses;
+        very fast circles;
         desyncrhonization (rhythm #3) completes;
         p > niente governs stage:
             achieves niente at start of next stage;
@@ -2263,7 +2261,7 @@ SEGMENTS
     v1, v2, va interlocking clouded pane whisk gears appear gradually:
         stopped lh resumes;
         hair resumes;
-        fast ellipses;
+        fast circles;
         polyrhythmic desynchronization begins:
             v1 completely regular rhythm #1;
             v2 completely regular rhythm #2;
@@ -2576,7 +2574,7 @@ SEGMENTS
             1/2 clt begins and governs stage;
             pronounced local accelerandi govern stage independently;
             fff > pp governs stage;
-        vc ellipses begin:
+        vc circles begin:
             stopped lh continues;
             hair continues;
             pronounced local accelerando begins and governs stage;
@@ -2595,7 +2593,7 @@ SEGMENTS
         local accelerandi complete:
             achieve stable rhythm at start of stage;
         pp continues;
-    vc ellipses continue:
+    vc circles continue:
         stopped lh continues;
         hair continues;
         pronounced local accelerando continues;
@@ -2789,10 +2787,10 @@ SEGMENTS
     [M.2] (9-12)
     (4 measures)
     largo meno mosso continues;
-    v1, v2, va urtext field / ellipses appear:
+    v1, v2, va urtext field / circles appear:
         stopped lh continues;
         hair continues;
-        double-stop ellipses;
+        double-stop circles;
         conflicts with clouded pane;
         intercalated;
     vc clouded pane:
@@ -2816,10 +2814,10 @@ SEGMENTS
     [M.4] (17-20)
     (4 measures)
     largo meno mosso continues;
-    v1, v2, va urtext field / ellipses appear:
+    v1, v2, va urtext field / circles appear:
         stopped lh continues;
         hair continues;
-        double-stop ellipses;
+        double-stop circles;
         conflicts with clouded pane;
         intercalated;
     vc clouded pane continues:
@@ -2844,10 +2842,10 @@ SEGMENTS
     [M.6] (25-28)
     (4 measures)
     largo meno mosso continues;
-    v1, v2, va urtext field / ellipses appear:
+    v1, v2, va urtext field / circles appear:
         stopped lh continues;
         hair continues;
-        double-stop ellipses;
+        double-stop circles;
         conflicts with clouded pane;
         intercalated;
     vc clouded pane continues:
@@ -2989,11 +2987,11 @@ SEGMENTS
     [O.1] (1-6 + 7 + very long)
     (6 measures)
     largo più mosso governs stage;
-    tutti urtext field / ellipses return:
+    tutti urtext field / circles return:
         stopped lh returns;
         hair returns;
         new urtext pitches appear;
-        ellipses so slow that primary effect is granulation;
+        circles so slow that primary effect is granulation;
         mf governs stage;
         <<[H.13 (development) 4/4] suffixes [O.1]>> (7):
             <<summons past time>>;
@@ -3025,11 +3023,11 @@ SEGMENTS
     [P.2] (5-10)
     (6 measures) 
     adagio continues;
-    tutti clouded pane continues (admixed ellipses):
+    tutti clouded pane continues (admixed circles):
         stopped lh continues;
         hair continues;
         clouded pane fixed pitches continue;
-        tasto < irregular ellipses > tasto, independently;
+        tasto < irregular circles > tasto, independently;
         intermittent ppppp < p > ppppp govern stage;
     attacca;
 
@@ -3047,22 +3045,22 @@ SEGMENTS
     [P.4] (15-20)
     (6 measures)
     adagio-to-presto accelerando begins;
-    tutti clouded pane continues (admixed ellipses):
+    tutti clouded pane continues (admixed circles):
         stopped lh continues;
         hair continues;
         up-glissandi begin;
-        tasto < irregular ellipses begin;
+        tasto < irregular circles begin;
         intermittent ppppp < p > pp govern stage;
     attacca;
 
     [P.5] (21-26)
     (6 measures)
     accelerando achieves presto at start of measure -1;
-    tutti ellipses continue:
+    tutti circles continue:
         stopped lh continues;
         hair continues;
         up-glissandi achieve endpoint at start of measure -1;
-        ellipses achieve fixed fast speed at start of measure -1;
+        circles achieve fixed fast speed at start of measure -1;
         pp continues;
     surprisingly short breath;
 
@@ -3082,12 +3080,12 @@ SEGMENTS
     [Q.1] (2-9)
     (8 measures)
     presto resumse after prefix;
-    tutti ellipses continue (desynchronized spinning white noise):
+    tutti circles continue (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
-        relatively fast polyrhythmic desynchronized ellipses;
+        relatively fast polyrhythmic desynchronized circles;
         p;
-    surprisingly short breath [v2 plays ellipses through breath];
+    surprisingly short breath [v2 plays circles through breath];
 
     [Q.2] (10-21)
     (12 measures)
@@ -3104,12 +3102,12 @@ SEGMENTS
     [Q.3] (22-27)
     (6 measures)
     presto achieved at start of stage;
-    tutti ellipses return (desynchronized spinning white noise):
+    tutti circles return (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
-        relatively fast polyrhythmic desynchronized ellipses;
+        relatively fast polyrhythmic desynchronized circles;
         p;
-    surprisingly short breath [v2 plays ellipses through breath];
+    surprisingly short breath [v2 plays circles through breath];
 
     [Q.4] (28-37)
     (10 measures)
@@ -3126,12 +3124,12 @@ SEGMENTS
     [Q.5] (38-42)
     (5 measures)
     presto achieved at start of stage;
-    tutti ellipses return (desynchronized spinning white noise):
+    tutti circles return (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
-        relatively fast polyrhythmic desynchronized ellipses;
+        relatively fast polyrhythmic desynchronized circles;
         p;
-    surprisingly short breath [v2 plays ellipses through breath];
+    surprisingly short breath [v2 plays circles through breath];
 
     [Q.6] (43-50)
     (8 measures)
@@ -3148,12 +3146,12 @@ SEGMENTS
     [Q.7] (51-54)
     (4 measures)
     presto achieved at start of stage;
-    tutti ellipses return (desynchronized spinning white noise):
+    tutti circles return (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
-        relatively fast polyrhythmic desynchronized ellipses;
+        relatively fast polyrhythmic desynchronized circles;
         p;
-    surprisingly short breath [v2 plays ellipses through breath];
+    surprisingly short breath [v2 plays circles through breath];
 
     [Q.8] (55-60)
     (6 measures)
@@ -3170,12 +3168,12 @@ SEGMENTS
     [Q.9] (61-63)
     (3 measures)
     presto achieved at start of stage;
-    tutti ellipses return (desynchronized spinning white noise):
+    tutti circles return (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
-        relatively fast polyrhythmic desynchronized ellipses;
+        relatively fast polyrhythmic desynchronized circles;
         p;
-    surprisingly short breath [v2 plays ellipses through breath];
+    surprisingly short breath [v2 plays circles through breath];
 
     [Q.10] (64-67)
     (4 measures)
@@ -3192,12 +3190,12 @@ SEGMENTS
     [Q.11] (68-69)
     (2 measures)
     presto achieved at start of stage;
-    tutti ellipses return (desynchronized spinning white noise):
+    tutti circles return (desynchronized spinning white noise):
         subito damped lh;
         each pitch fixed;
-        relatively fast polyrhythmic desynchronized ellipses;
+        relatively fast polyrhythmic desynchronized circles;
         p;
-    surprisingly short breath [v2 plays ellipses through breath];
+    surprisingly short breath [v2 plays circles through breath];
 
     [Q.12] (70-71 + fermata)
     (2 measures)
@@ -3327,10 +3325,10 @@ SEGMENTS
     [S.2] (5)
     (1 measure)
     largo continues;
-    v1, v2 ellipses reappear:
+    v1, v2 circles reappear:
         stopped lh joins va;
         hair joins va;
-        fast whisked ellipses on accelerando and decrescendo;
+        fast whisked circles on accelerando and decrescendo;
     va memory of flight continues:
         stopped lh continues;
         hair continues;
@@ -3357,10 +3355,10 @@ SEGMENTS
     [S.4] (10-11)
     (2 measures)
     largo continues;
-    v1, v2 ellipses:
+    v1, v2 circles:
         stopped lh joins va;
         hair joins va;
-        fast whisked ellipses on accelerando and decrescendo;
+        fast whisked circles on accelerando and decrescendo;
     va memory of flight continues:
         stopped lh continues;
         hair continues;
@@ -3387,10 +3385,10 @@ SEGMENTS
     [S.6] (16-18)
     (3 measures)
     largo continues;
-    v1, v2 ellipses:
+    v1, v2 circles:
         stopped lh joins va;
         hair joins va;
-        fast whisked ellipses on accelerando and decrescendo;
+        fast whisked circles on accelerando and decrescendo;
     va memory of flight continues:
         stopped lh continues;
         hair continues;
@@ -3417,10 +3415,10 @@ SEGMENTS
     [S.8] (23-26)
     (4 measures)
     largo continues;
-    v1, v2 ellipses:
+    v1, v2 circles:
         stopped lh joins va;
         hair joins va;
-        fast whisked ellipses on accelerando and decrescendo;
+        fast whisked circles on accelerando and decrescendo;
     va memory of flight continues:
         stopped lh continues;
         hair continues;

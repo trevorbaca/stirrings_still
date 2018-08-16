@@ -19,3 +19,7 @@ stirrings-still-circles-markup = \markup \concat {
 stirrings-still-slow-circles-markup = \markup \concat {
     \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 (slow)
     }
+
+stirrings-still-wide-circles-markup = \markup \concat {
+    \baca-circle-bowing-markup \hspace #1.75 \raise #-0.6 (wide)
+    }

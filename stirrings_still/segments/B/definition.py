@@ -100,6 +100,7 @@ time = (
     ('fermata', 43),
     ('largo', 44),
     (baca.Accelerando(), 44),
+    ('presto ! largo', 45),
     ('presto', 46),
     ('fermata', 47),
     ('allegro', 48),
@@ -284,7 +285,10 @@ maker(
 maker(
     ('vc', (6, 11)),
     baca.breathe(),
-    baca.markup('[obverse harm.: overpressure]'),
+    baca.markup(
+        baca.markups.lines(['obverse harm.:', 'overpressure']),
+        abjad.tweak('magenta').color,
+        ),
     baca.new(
         baca.hairpin('niente o< f', selector=baca.rleaves()),
         measures=(6, 9),
@@ -592,7 +596,7 @@ measures = [
     ]
 
 maker(
-    ('v1', measures),
+    ('v1', measures + [(58, 60)]),
     baca.suite(
         baca.script_staff_padding(5),
         baca.tuplet_bracket_down(),
@@ -710,16 +714,114 @@ maker(
 
 maker(
     ('tutti', 42),
+    baca.dynamic('p'),
+    baca.markup('tasto'),
+    baca.text_spanner(
+        r'\stirrings-still-slow-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(6.5).staff_padding,
+        bookend=False,
+        selector=baca.tleaves().rleak(),
+        ),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(9).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
+        ),
     stirrings_still.circles((1, 4)),
-    ),
+    )
+
+maker(
+    ('tutti', 44),
+    baca.new(
+        baca.hairpin(
+            'mf < ff',
+            ),
+        baca.text_spanner(
+            'tasto => pont. molto',
+            abjad.tweak(10).staff_padding,
+            ),
+        selector=baca.leaves()[:-1],
+        ),
+    )
+
+maker(
+    ('vc', 45),
+    baca.dynamic('p'),
+    baca.markup(
+        'clouded pane',
+        abjad.tweak('magenta').color,
+        ),
+    stirrings_still.clouded_pane(),
+    )
+
+maker(
+    ('tutti', 46),
+    baca.dynamic('fff'),
+    baca.markup('pont. poss.'),
+    )
 
 maker(
     ('trio', 48),
+    baca.dynamic('p'),
+    baca.markup('tasto'),
+    baca.markup(
+        baca.markups.lines(['urtext flight:', 'dense double stops']),
+        abjad.tweak('darkgreen').color,
+        ),
+    baca.stem_tremolo(),
     stirrings_still.urtext_field(),
     )
 
 maker(
-    ('v2', (58, 61)),
+    ('vc', 48),
+    baca.dynamic('p'),
+    baca.markup(
+        'clouded pane',
+        abjad.tweak('magenta').color,
+        ),
+    stirrings_still.clouded_pane(),
+    )
+
+maker(
+    ('tutti', (50, 57)),
+    baca.new(
+        baca.hairpin(
+            'fff -- ff-sub > ppp',
+            ),
+        baca.text_spanner(
+            'pont. poss. || pont. molto => tasto',
+            abjad.tweak(10).staff_padding,
+            ),
+        bookend=False,
+        piece_selector=baca.mgroups([2, 4, 2]),
+        ),
+    )
+
+maker(
+    ('v2', (58, 62)),
+    stirrings_still.circles((1, 4)),
+    baca.text_spanner(
+        r'\stirrings-still-wide-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(4).staff_padding,
+        bookend=False,
+        selector=baca.tleaves().rleak(),
+        ),
+    )
+
+maker(
+    ('v1', (61, 62)),
+    baca.text_spanner(
+        r'\stirrings-still-wide-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(4).staff_padding,
+        bookend=False,
+        selector=baca.tleaves().rleak(),
+        ),
     stirrings_still.circles((1, 4)),
     )
 
@@ -738,6 +840,18 @@ maker(
     )
 
 maker(
+    ('va', (60, 62)),
+    baca.text_spanner(
+        r'\stirrings-still-wide-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(4).staff_padding,
+        bookend=False,
+        selector=baca.tleaves().rleak(),
+        ),
+    stirrings_still.circles((1, 4)),
+    )
+
+maker(
     ('vc', (58, 61)),
     baca.suite(
         baca.script_staff_padding(6.5),
@@ -752,12 +866,31 @@ maker(
     )
 
 maker(
-    ('tutti', 62),
+    ('vc', 62),
+    baca.text_spanner(
+        r'\stirrings-still-wide-circles-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(4).staff_padding,
+        bookend=False,
+        selector=baca.tleaves().rleak(),
+        ),
     stirrings_still.circles((1, 4)),
     )
 
 maker(
+    ('tutti', (61, 62)),
+    baca.hairpin(
+        'ppp >o niente',
+        selector=baca.rleaves(),
+        ),
+    )
+
+maker(
     ('trio', 64),
+    baca.markup(
+        baca.markups.lines(['urtext flight:', 'dense double stops']),
+        abjad.tweak('darkgreen').color,
+        ),
     baca.suite(
         baca.new(
             baca.espressivo(),
@@ -782,6 +915,44 @@ maker(
     )
 
 maker(
+    ('vc', 64),
+    baca.dynamic('p'),
+    baca.markup(
+        'clouded pane',
+        abjad.tweak('magenta').color,
+        ),
+    stirrings_still.clouded_pane(),
+    )
+
+maker(
     ('tutti', 65),
-    stirrings_still.grid(stage=1),
+    baca.dynamic('mp-sub'),
+    baca.markup(
+        'unexplained grid',
+        abjad.tweak('purple').color,
+        ),
+    baca.new(
+        stirrings_still.grid(1, 0),
+        match=0,
+        ),
+    baca.new(
+        stirrings_still.grid(1, -1),
+        match=1,
+        ),
+    baca.new(
+        stirrings_still.grid(1, -2),
+        match=2,
+        ),
+    baca.new(
+        stirrings_still.grid(1, -3),
+        match=3,
+        ),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(4).staff_padding,
+        bookend=False,
+        lilypond_id=1,
+        selector=baca.ltleaves().rleak(),
+        ),
     )
