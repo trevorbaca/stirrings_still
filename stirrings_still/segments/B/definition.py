@@ -927,10 +927,6 @@ maker(
 maker(
     ('tutti', 65),
     baca.dynamic('mp-sub'),
-    baca.markup(
-        'unexplained grid',
-        abjad.tweak('purple').color,
-        ),
     baca.new(
         stirrings_still.grid(1, 0),
         match=0,
