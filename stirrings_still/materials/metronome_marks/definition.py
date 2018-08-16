@@ -1,6 +1,13 @@
 import abjad
 
 
+markups = []
+markups.append(abjad.Markup.abjad_metronome_mark(2, 0, 1, 169))
+markups.append(abjad.Markup.hspace(-1))
+markups.append(abjad.Markup('!').upright())
+markups.append(abjad.Markup.abjad_metronome_mark(2, 0, 1, 52))
+custom_presto_largo_markup = abjad.Markup.line(markups)
+
 metronome_marks = abjad.OrderedDict([
     (
         'larghissimo',
@@ -45,5 +52,13 @@ metronome_marks = abjad.OrderedDict([
     (
         'presto',
         abjad.MetronomeMark((1, 4), 169),
+        ),
+    (
+        'presto ! largo',
+        abjad.MetronomeMark(
+            reference_duration=(1, 4),
+            units_per_minute=52,
+            custom_markup=custom_presto_largo_markup,
+            ),
         ),
     ])
