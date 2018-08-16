@@ -218,6 +218,27 @@ maker(
     )
 
 maker(
+    ('tutti', (1, 36)),
+    baca.text_spanner(
+        r'\baca-damp-markup =|',
+        abjad.tweak(3.25).bound_details__right__padding,
+        abjad.tweak(5).staff_padding,
+        bookend=False,
+        selector=baca.ltleaves().rleak(),
+        ),
+    )
+
+maker(
+    ('tutti', (1, 12)),
+    baca.new(
+        baca.stop_on_string(
+            selector=baca.leaf(-1),
+            ),
+        map=baca.runs(),
+        ),
+    )
+
+maker(
     ('vc', 38),
     baca.dls_staff_padding(5),
     baca.dynamic('f'),
