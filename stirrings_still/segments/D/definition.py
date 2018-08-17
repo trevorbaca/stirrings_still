@@ -21,13 +21,21 @@ maker(
     'GlobalSkips',
     baca.new(
         baca.new(
-            baca.bar_line_extra_offset((-1.5, 0)),
-            baca.span_bar_extra_offset((-1.5, 0)),
+            baca.bar_line_x_extent((-2, 4)),
             after=True,
             selector=baca.skip(-1),
             ),
         baca.volta(),
         measures=(1, 6),
+        ),
+    baca.new(
+        baca.new(
+            baca.bar_line_x_extent((-2, 2)),
+            after=True,
+            selector=baca.skip(-1),
+            ),
+        baca.volta(),
+        measures=(7, 12),
         ),
     baca.rehearsal_mark(
         'D',
