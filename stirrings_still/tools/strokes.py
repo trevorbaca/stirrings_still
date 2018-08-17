@@ -16,7 +16,7 @@ def strokes(rotation, *, dmask=None, ltmask=None):
         rhythm_maker=rmakers.IncisedRhythmMaker(
             division_masks=dmask,
             duration_specifier=rmakers.DurationSpecifier(
-                forbidden_duration=(1, 2),
+                forbidden_note_duration=(1, 2),
                 ),
             incise_specifier=rmakers.InciseSpecifier(
                 suffix_talea=[1],
